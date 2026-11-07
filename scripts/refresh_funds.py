@@ -24,10 +24,10 @@ def parse(raw,source):
     for n in root.iter():
         if local(n.tag) not in ("invstorsec","investmentorsecurity"):continue
         cusip=val(n,"cusip").upper()
-        if not re.fullmatch("[A-Z0-9]{9}",cusip):continue
+        if not re.fullmatch("[A-Z0-9]{9}",cusip):cusip=None
         try:amount=float(val(n,"valUSD","valueUSD","valueInUSD","reportedValue"))
         except ValueError:continue
-        rows.append({"cusip":cusip,"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"reported_percentage":val(n,"pctVal","reportedPercentage")})
+        rows.append({"cusip":cusip,"isin":val(n,"isin"),"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"reported_percentage":val(n,"pctVal","reportedPercentage")})
     if not rows:return None
     return {"series_id":series,"fund_name":fund,"report_date":report,"total_assets_reported":assets,"source":source,"holdings":rows}
 def main():
@@ -101,7 +101,7 @@ def main():
     for f in selected:
         data=json.loads((OUT/f["file"]).read_text())
         for h in data["holdings"]:
-            if h["asset_category"] not in ("EC","EP"):continue
+            if h["asset_category"] not in ("EC","EP") or not h.get("cusip"):continue
             owners.setdefault(h["cusip"],[]).append({"series_id":f["series_id"],"fund_name":f["fund_name"],"report_date":f["report_date"],"reported_value_usd":h["reported_value_usd"],"source":f["source"]})
     (OUT/"ownership_by_cusip.json").write_text(json.dumps({"securities":owners,"note":"Disclosed N-PORT fund holdings only; not total issuer ownership; different report dates may occur."},separators=(",",":")))
     print("funds",len(selected),"equity CUSIPs",len(owners),"errors",len(errors))

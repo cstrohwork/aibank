@@ -22,6 +22,7 @@ START = os.getenv('SEC_HISTORY_START', '2025-09-30')
 PRIORITY = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A', 'N-PX', 'N-PX/A',
             'SC 13D', 'SC 13D/A', 'SC 13G', 'SC 13G/A', 'SCHEDULE 13D', 'SCHEDULE 13G'}
 LAST_REQUEST = 0.0
+NORMALIZER_VERSION = 2
 
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -191,6 +192,19 @@ def run(root=ROOT):
     today = dt.datetime.now(dt.timezone.utc).date()
     rows, index_errors = catalogue(root, start, today)
     state = load(history / 'archive_state.json.gz', {})
+    reparsed=0
+    for accession, record in state.items():
+        if reparsed>=30:break
+        if record.get('status')!='archived' or record.get('form') not in ('13F-HR','13F-HR/A','NPORT-P','NPORT-P/A'):continue
+        if record.get('normalizer_version')==NORMALIZER_VERSION and not record.get('normalization_error'):continue
+        try:
+            original=gzip.decompress((root/record['raw_file']).read_bytes())
+            record['normalized_files']=normalize(record,original,root,start)
+            record['normalizer_version']=NORMALIZER_VERSION
+            record.pop('normalization_error',None)
+        except Exception as exc:
+            record['normalization_error']=str(exc)
+        reparsed+=1
     available = [r for r in rows if state.get(r['accession'], {}).get('status') != 'archived'
                  and state.get(r['accession'], {}).get('retry_after', '') <= today.isoformat()]
     priority = [r for r in available if r['form'] in PRIORITY]
@@ -229,6 +243,7 @@ def run(root=ROOT):
                 sha256=hashlib.sha256(raw).hexdigest(), raw_bytes=len(raw), archive_bytes=len(packed))
             try:
                 record['normalized_files'] = normalize(row, raw, root, start)
+                record['normalizer_version'] = NORMALIZER_VERSION
             except Exception as exc:
                 record['normalization_error'] = str(exc)
             state[accession] = record

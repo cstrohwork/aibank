@@ -101,5 +101,13 @@ class HistoryTests(unittest.TestCase):
             self.assertIsNone(p['investor_style'])
             self.assertIsNone(p['active_pct_of_total_institution_equity_aum'])
 
+    def test_equity_without_cusip_still_counts_as_reported_assets(self):
+        from refresh_funds import parse
+        xml = b'<edgarSubmission><seriesId>S000000001</seriesId><seriesName>Example Fund</seriesName><repPdDate>2025-09-30</repPdDate><invstOrSec><name>Foreign Equity</name><assetCat>EC</assetCat><valUSD>500</valUSD></invstOrSec></edgarSubmission>'
+        parsed = parse(xml, 'SEC')
+        self.assertEqual(len(parsed['holdings']), 1)
+        self.assertIsNone(parsed['holdings'][0]['cusip'])
+        self.assertEqual(parsed['holdings'][0]['reported_value_usd'], 500)
+
 if __name__ == '__main__':
     unittest.main()
