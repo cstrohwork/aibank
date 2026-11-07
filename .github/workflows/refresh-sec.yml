@@ -25,6 +25,10 @@ jobs:
         env:
           SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
         run: python scripts/refresh_sec.py
+      - name: Fetch selected 13F manager information tables
+        env:
+          SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
+        run: python scripts/refresh_13f.py
       - name: Commit refreshed public data
         run: |
           git config user.name "github-actions[bot]"
