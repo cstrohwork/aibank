@@ -7,7 +7,10 @@
 - Do not commit credentials. Do not start a second competing data refresh. Preserve existing website functionality.
 - Record date, commit/run URLs, checks actually executed, next task, and exact blockers below after each run. Never claim an unattended cycle passed until its run completed.
 
-## Priority queue
+## Current priority — SEC history, September 30, 2025 onward
+The user requested all SEC filing history from 2025-09-30 and the existing investor calculations. Verify Backfill SEC filing history and daily Refresh SEC EDGAR public-data cache runs. Read SEC_HISTORY.md and data/history/status.json. Continue all-form catalogue discovery, raw submission downloads, and accession normalization; report pending/failed/normalization-error counts rather than declaring completion from catalogue counts. Fix parse failures from retained originals. Keep 13F/N-PORT report-period histories and per-period investor profiles intact, and never sum different fund periods together. Address the 750 MB Git-backed archive capacity boundary with the user before adding paid storage; no spending is authorized. Style and institution-wide orientation remain unknown until underlying evidence and denominators are sourced. Confirm first cloud backfill before marking this task complete.
+
+## Earlier priority queue
 1. Verify scheduled SEC refresh end to end: scripts execute, cache outputs validate, deployed site reads the refreshed data. Record coverage and failures.
 2. Correct build_fund_firms.py's escaped word-boundary regex; test positive index fund names and negative active ETF names. Verify reported_value_usd against actual N-PORT cache schema before aggregating.
 3. Prevent amended/duplicate N-PORT filings and repeated fund reporting periods from inflating registrant aggregates. Use latest valid filing per series/report date and preserve source evidence.
