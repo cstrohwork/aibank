@@ -107,6 +107,15 @@ def rebuild(root=ROOT):
                 firm[kind + '_pct_of_disclosed_sample_equity_assets'] = round(100 * firm[kind + '_equity_assets_usd'] / total, 2) if total else None
         save(history / 'registrants' / (date + '.json'), {'report_date': date, 'firms': list(firms.values()),
             'coverage': 'Sampled disclosed funds only; registrants are not assumed to be ultimate advisers.'})
+    dates = sorted({date for cik, date in managers} | {date for series, date in funds})
+    save(history / 'index.json', {'start_report_date': '2025-09-30',
+        'reporting_periods': [{'report_date': date,
+            'manager_count': sum(d == date for cik, d in managers),
+            'fund_count': sum(d == date for series, d in funds),
+            'investor_profiles': 'investor_profiles/' + date + '.json' if any(d == date for cik, d in managers) else None,
+            'registrant_profiles': 'registrants/' + date + '.json' if date in by_period else None} for date in dates],
+        'filing_archive_status': 'status.json',
+        'basis': 'Latest-restated reporting periods; incomplete backfill, not as-known-at-report-date history.'})
     print('Historical manager periods:', len(managers), 'fund periods:', len(funds))
 
 if __name__ == '__main__':
