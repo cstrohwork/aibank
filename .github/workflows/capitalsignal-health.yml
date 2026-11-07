@@ -9,7 +9,7 @@ on:
   schedule:
     - cron: '47 9 * * *'
   workflow_run:
-    workflows: ['Refresh SEC EDGAR public-data cache']
+    workflows: ['Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
     types: [completed]
 permissions:
   contents: read
