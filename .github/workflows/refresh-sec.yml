@@ -25,6 +25,7 @@ jobs:
         env:
           SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
         run: python scripts/refresh_sec.py
+      # Trigger SEC and 13F refresh after integration
       - name: Fetch selected 13F manager information tables
         env:
           SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
