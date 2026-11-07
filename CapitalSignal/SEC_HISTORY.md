@@ -22,7 +22,7 @@ Turnover remains the prior agreed proxy: min(estimated buys, estimated sells) di
 Investment style remains unknown until sourced point-in-time fundamentals support holdings-weighted factors. Active/passive institution weights require verified fund attribution, non-overlapping equity assets and a same-date denominator. Explicit index-fund names provide limited passive evidence for fund samples; other names remain unclassified. Registrant entities are not automatically ultimate advisers. Partial sample ratios are not institution-wide percentages.
 
 ## Workers and boundaries
-Backfill SEC filing history runs hourly at minute 37 UTC, resumes checkpoints and shares the SEC data workflow concurrency lock. It fetches up to 120 submissions / 60 MB compressed per run, at no more than 2.5 sequential requests per second. SEC blocks stop the batch and failures retain retry state. Verified release uploads move raw submissions out of Git while keeping accession/checksum mappings in the repository. Shards are bounded by the batch size and releases rotate daily. A 750 MB staging-buffer guard stops ingestion if release publication is unavailable; it is not a cap on the release-backed archive. No paid storage or API is enabled. This is an explicit capacity boundary, not a completeness claim. Catalogue and reporting-period coverage must be checked independently.
+Backfill SEC filing history runs hourly at minute 37 UTC, resumes checkpoints and shares the SEC data workflow concurrency lock. It fetches up to 1,000 submissions / 60 MB compressed per run, at no more than 2.5 sequential requests per second. SEC blocks stop the batch and failures retain retry state. Verified release uploads move raw submissions out of Git while keeping accession/checksum mappings in the repository. Shards are bounded by the batch size and releases rotate daily. A 750 MB staging-buffer guard stops ingestion if release publication is unavailable; it is not a cap on the release-backed archive. No paid storage or API is enabled. This is an explicit capacity boundary, not a completeness claim. Catalogue and reporting-period coverage must be checked independently.
 
 Official sources:
 - https://www.sec.gov/about/developer-resources
@@ -31,3 +31,5 @@ Official sources:
 Archive storage references:
 - https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases
 - https://docs.github.com/en/actions/concepts/billing-and-usage
+
+Verified November 7, 2026: initial release shard published at https://github.com/cstrohwork/aibank/releases/tag/sec-history-raw-2026-11-07 . The first archive asset contains 120 original submissions and an embedded checksum/source manifest. Subsequent batches continue from the accession checkpoint.
