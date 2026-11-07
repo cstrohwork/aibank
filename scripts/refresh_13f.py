@@ -29,18 +29,19 @@ def parse(xml):
         records.append({"issuer":field(node,"nameOfIssuer"),"cusip":cusip,"class":field(node,"titleOfClass"),"value_thousands":value,"shares":field(node,"sshPrnamt"),"share_type":field(node,"sshPrnamtType"),"put_call":field(node,"putCall")})
     return records
 def main():
-    start=os.getenv("SEC_13F_START_DATE","2025-12-31")
+    start=os.getenv("SEC_13F_START_DATE","2025-09-30")
     managers=[x.strip().zfill(10) for x in os.getenv("SEC_13F_MANAGER_CIKS","0001067983,0001364742,0001037389").split(",") if x.strip()]
-    summary=[]
-    for cik in managers[:6]:
+    from sec_history import submission_rows
+    old=json.loads((OUT/"index.json").read_text()).get("managers",[]) if (OUT/"index.json").exists() else []
+    summary=[x for x in old if x["report_date"]>=start]
+    for cik in managers:
         try:
             submission=json.loads(read(f"https://data.sec.gov/submissions/CIK{cik}.json"))
-            recent=submission["filings"]["recent"]
             eligible=[]
-            for i,form in enumerate(recent["form"]):
-                report=recent["reportDate"][i]
-                if form=="13F-HR" and report and report>=start:
-                    eligible.append((report,recent["filingDate"][i],recent["accessionNumber"][i]))
+            for row in submission_rows(submission,read,start):
+                report=row.get("reportDate","")
+                if row.get("form")=="13F-HR" and report and report>=start:
+                    eligible.append((report,row["filingDate"],row["accessionNumber"]))
             # One filing per report period, latest filing date wins.
             periods={}
             for report,filing,accession in eligible:
@@ -49,6 +50,9 @@ def main():
             for report_date,(filing_date,accession) in sorted(periods.items()):
                 try:
                     rooturl=f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession.replace('-','')}/"
+                    cached=OUT/f"{cik}-{report_date}.json"
+                    if cached.exists() and json.loads(cached.read_text()).get("accession")==accession:
+                        continue
                     time.sleep(.35)
                     index=json.loads(read(rooturl+"index.json"))
                     candidates=[x["name"] for x in index["directory"]["item"] if x["name"].lower().endswith(".xml") and "primary" not in x["name"].lower()]
@@ -71,5 +75,7 @@ def main():
             time.sleep(.35)
         except Exception as exc:
             print("WARNING 13F manager",cik,str(exc))
-    (OUT/"index.json").write_text(json.dumps({"start_report_date":start,"managers":summary,"limitations":"Selected managers and 13F-HR report periods only, starting at the stated report date. Not a complete issuer shareholder register; reported 13F values are USD thousands. Filing dates can lag report dates."},separators=(",",":")),encoding="utf-8")
+    summary=list({(x["manager_cik"],x["report_date"]):x for x in summary}.values())
+    (OUT/"index.json").write_text(json.dumps({"start_report_date":start,"managers":summary,"limitations":"Selected managers and 13F-HR report periods only, starting at the stated report date. Not a complete issuer shareholder register; reported 13F values are USD (legacy value_thousands field name retained). Filing dates can lag report dates."},separators=(",",":")),encoding="utf-8")
 if __name__=="__main__":main()
+

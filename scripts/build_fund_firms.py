@@ -15,7 +15,7 @@ for entry in index["funds"]:
     # Classification is at fund level. Explicit index-tracking names only; other
     # fund names cannot reliably establish active status.
     name=entry["fund_name"]
-    passive=bool(re.search(r"\\b(index fund|index etf|index portfolio)\\b",name,re.I))
+    passive=bool(re.search(r"\b(index fund|index etf|index portfolio)\b",name,re.I))
     # ETF alone is not a passive classification; actively managed ETFs exist.
     orientation="passive" if passive else "unclassified"
     equities=[h for h in data["holdings"] if h["asset_category"] in ("EC","EP")]

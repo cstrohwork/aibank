@@ -33,15 +33,27 @@ def parse(raw,source):
 def main():
     # Registered fund trust CIKs; these are not assumed to map to 13F managers.
     ciks=[x.strip().zfill(10) for x in os.getenv("SEC_FUND_CIKS","0001100663,0000036405,0000225322").split(",") if x.strip()]
-    index=[];errors=[]
-    for cik in ciks[:8]:
+    from sec_history import submission_rows
+    start=os.getenv("SEC_HISTORY_START","2025-09-30")
+    history_path=OUT/"history_index.json"
+    index=json.loads(history_path.read_text()).get("funds",[]) if history_path.exists() else []
+    if not index and (OUT/"index.json").exists():index=json.loads((OUT/"index.json").read_text()).get("funds",[])
+    checkpoint_path=OUT/"seed_checkpoint.json"
+    known=set(json.loads(checkpoint_path.read_text()).get("processed",[])) if checkpoint_path.exists() else set()
+    known.update(x.get("accession") for x in index if x.get("accession"))
+    errors=[]
+    processed=0
+    budget=int(os.getenv("SEC_FUND_BATCH","30"))
+    for cik in ciks:
         try:
             sub=json.loads(get("https://data.sec.gov/submissions/CIK"+cik+".json"))
-            rec=sub["filings"]["recent"];eligible=[]
-            for i,form in enumerate(rec["form"]):
-                if form in ("NPORT-P","NPORT-P/A") and rec["filingDate"][i]>="2026-01-01":
-                    eligible.append((rec["filingDate"][i],rec["accessionNumber"][i]))
-            for filing,accession in sorted(eligible,reverse=True)[:4]:
+            eligible=[]
+            for row in submission_rows(sub,get,start):
+                if row.get("form") in ("NPORT-P","NPORT-P/A") and row.get("filingDate","")>=start:
+                    eligible.append((row["filingDate"],row["accessionNumber"]))
+            for filing,accession in sorted(eligible):
+                if accession in known or processed>=budget:continue
+                processed+=1
                 try:
                     base=f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession.replace('-','')}/"
                     listing=json.loads(get(base+"index.json"))["directory"]["item"]
@@ -54,21 +66,36 @@ def main():
                             if result and (not best or len(result["holdings"])>len(best["holdings"])):best=result
                         except (OSError,ValueError,ET.ParseError):pass
                     if not best:continue
+                    if best["report_date"]<start:
+                        known.add(accession)
+                        continue
                     best.update({"registrant_cik":cik,"registrant_name":sub.get("name"),"filing_date":filing,"accession":accession})
                     key=(best["series_id"] or cik)+"-"+(best["report_date"] or filing)
                     filename=re.sub("[^A-Za-z0-9_-]","_",key)+".json"
+                    existing=OUT/filename
+                    if existing.exists():
+                        previous=json.loads(existing.read_text())
+                        if (previous.get("filing_date",""),previous.get("accession",""))>(filing,accession):
+                            known.add(accession)
+                            continue
                     (OUT/filename).write_text(json.dumps(best,separators=(",",":")))
-                    index.append({"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"holdings_count":len(best["holdings"]),"file":filename,"source":best["source"]})
+                    index.append({"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"accession":accession,"holdings_count":len(best["holdings"]),"file":filename,"source":best["source"]})
+                    known.add(accession)
                     print("fund cached",filename,len(best["holdings"]))
                 except Exception as e:errors.append(f"{cik} {accession}: {e}")
                 time.sleep(.3)
         except Exception as e:errors.append(f"{cik}: {e}")
-    # Do not claim an institution-fund mapping without independent attribution.
+    periods={}
+    for f in sorted(index,key=lambda x:(x["filing_date"],x.get("accession",""))):
+        periods[(f["series_id"],f["report_date"])]=f
+    history=list(periods.values())
+    history_path.write_text(json.dumps({"funds":history,"start_report_date":start},separators=(",",":")))
     latest={}
-    for f in sorted(index,key=lambda x:x["filing_date"]):
+    for f in sorted(history,key=lambda x:(x["report_date"],x["filing_date"])):
         latest[f["series_id"] or f["file"]]=f
     selected=list(latest.values())
-    (OUT/"index.json").write_text(json.dumps({"funds":selected,"filings_parsed":len(index),"registrants_attempted":ciks[:8],"errors":errors[:30],"limitations":"Bounded SEC N-PORT sample, not complete market coverage. N-PX is proxy voting, not a holdings inventory. No fund-to-13F manager attribution inferred."},separators=(",",":")))
+    (OUT/"index.json").write_text(json.dumps({"funds":selected,"filings_parsed":len(index),"registrants_attempted":ciks,"errors":errors[:30],"limitations":"Bounded SEC N-PORT sample, not complete market coverage. N-PX is proxy voting, not a holdings inventory. No fund-to-13F manager attribution inferred."},separators=(",",":")))
+    checkpoint_path.write_text(json.dumps({"processed":sorted(known)},separators=(",",":")))
     # Fund-level ownership index: securities -> disclosed fund positions.
     owners={}
     for f in selected:
@@ -79,3 +106,4 @@ def main():
     (OUT/"ownership_by_cusip.json").write_text(json.dumps({"securities":owners,"note":"Disclosed N-PORT fund holdings only; not total issuer ownership; different report dates may occur."},separators=(",",":")))
     print("funds",len(selected),"equity CUSIPs",len(owners),"errors",len(errors))
 if __name__=="__main__":main()
+

@@ -1,0 +1,75 @@
+name: Backfill SEC filing history
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sec-history.yml'
+      - 'scripts/sec_history.py'
+      - 'scripts/rebuild_history.py'
+  schedule:
+    - cron: '37 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sec-edgar-cache
+  cancel-in-progress: false
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      SEC_HISTORY_START: '2025-09-30'
+      SEC_HISTORY_BATCH: '120'
+      SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify historical calculations and amendment handling
+        run: python -m unittest discover -s tests -v
+      - name: Discover and archive the next filing batch
+        id: archive
+        run: python scripts/sec_history.py
+      - name: Rebuild period history and investor calculations
+        if: always() && steps.archive.outcome != 'skipped'
+        run: |
+          python scripts/rebuild_history.py
+          python scripts/build_investor_profiles.py
+          python scripts/build_fund_firms.py
+          python scripts/check_capitalsignal.py
+      - name: Persist history and download checkpoints
+        if: always() && steps.archive.outcome != 'skipped'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add CapitalSignal/data/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Backfill SEC history from 2025-09-30 and rebuild reporting periods'
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then exit 0; fi
+              if [ "$attempt" -eq 3 ]; then exit 1; fi
+            done
+          fi
+      - name: Publish backfill progress
+        if: always()
+        run: |
+          echo '### SEC history backfill' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f CapitalSignal/data/history/status.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat CapitalSignal/data/history/status.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sec-history-progress
+          path: |
+            CapitalSignal/data/history/status.json
+            worker-health.json
+          retention-days: 30
