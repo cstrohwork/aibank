@@ -1,6 +1,10 @@
 name: Refresh SEC EDGAR public-data cache
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-sec.yml'
   schedule:
     - cron: '17 8 * * *'
 permissions:
