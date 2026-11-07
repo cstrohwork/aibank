@@ -35,6 +35,8 @@ jobs:
         env:
           SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
         run: python scripts/refresh_funds.py
+      - name: Aggregate fund-level holdings into registrant ownership profiles
+        run: python scripts/build_fund_firms.py
       # Recalculate investor values using dollar-denominated 13F XML
       - name: Calculate investor profiles from 13F history
         run: python scripts/build_investor_profiles.py
