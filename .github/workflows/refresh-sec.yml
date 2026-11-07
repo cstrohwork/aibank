@@ -31,6 +31,10 @@ jobs:
           SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
           SEC_13F_START_DATE: '2025-12-31'
         run: python scripts/refresh_13f.py
+      - name: Fetch SEC N-PORT underlying fund holdings
+        env:
+          SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
+        run: python scripts/refresh_funds.py
       # Recalculate investor values using dollar-denominated 13F XML
       - name: Calculate investor profiles from 13F history
         run: python scripts/build_investor_profiles.py
