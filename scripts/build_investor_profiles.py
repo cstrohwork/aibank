@@ -23,14 +23,14 @@ for cik,periods in sorted(grouped.items()):
             if h.get("put_call"):continue
             try:
                 shares=float(str(h.get("shares","")).replace(",",""))
-                val=float(h["value_thousands"])*1000
+                val=float(h["value_thousands"])
                 if shares<=0 or val<0:continue
                 key=(h["cusip"],h.get("class",""))
                 out[key][0]+=shares
                 out[key][1]+=val
             except (ValueError,TypeError,KeyError):continue
         return out
-    values=[sum(float(h.get("value_thousands",0))*1000 for h in p["holdings"]) for p in periods]
+    values=[sum(float(h.get("value_thousands",0)) for h in p["holdings"]) for p in periods]
     turns=[]
     for prev,cur in zip(periods,periods[1:]):
         a,b=positions(prev),positions(cur)
