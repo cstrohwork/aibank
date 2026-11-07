@@ -19,3 +19,9 @@
 
 ## Initial checkpoint
 Cloud workers are being configured. Existing refresh-sec.yml schedules the SEC pipeline at 08:17 UTC daily. Setup is not evidence that any new unattended run has completed. First development run should verify current state before modifying ingestion.
+
+## Worker setup verified, November 7, 2026
+- GitHub health worker passed: https://github.com/cstrohwork/aibank/actions/runs/42426250634 . It validates cache integrity and retains a report artifact; it does not certify complete coverage or website behavior.
+- Daily development and monitoring tasks are enabled, starting November 8 around 08:00 and 10:00 America/New_York respectively. Their first unattended runs remain unverified. See CLOUD_WORKERS.md.
+- Verified committed coverage: 2 investor profiles, 6 indexed 13F snapshots / 9,827 holdings, 12 fund snapshots / 23,454 holdings, 3 registrant groups. Earlier larger counts are not substantiated by this repository snapshot.
+- Next: priority 1 end-to-end refresh/deployment verification, then priority 2 classification correction. No paid API or external account was configured.
