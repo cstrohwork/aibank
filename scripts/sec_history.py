@@ -8,6 +8,9 @@ import collections
 import datetime as dt
 import gzip
 import hashlib
+import io
+import tarfile
+import functools
 import json
 import os
 import pathlib
@@ -185,6 +188,28 @@ def submission_rows(submission, reader, start):
     return list(rows.values())
 
 
+@functools.lru_cache(maxsize=2)
+def release_bytes(url, digest):
+    raw=fetch(url,limit=100_000_000)
+    if hashlib.sha256(raw).hexdigest()!=digest:
+        raise ValueError("Release shard checksum mismatch")
+    return raw
+
+def read_original(root, record):
+    path=root/record["raw_file"]
+    if path.exists():
+        raw=gzip.decompress(path.read_bytes())
+    else:
+        payload=release_bytes(record["release_asset_url"],record["release_asset_sha256"])
+        with tarfile.open(fileobj=io.BytesIO(payload)) as archive:
+            member=archive.extractfile(record["raw_file"])
+            if member is None:raise ValueError("SEC submission missing from release shard")
+            raw=gzip.decompress(member.read())
+    if hashlib.sha256(raw).hexdigest()!=record["sha256"]:
+        raise ValueError("Original SEC submission checksum mismatch")
+    return raw
+
+
 def run(root=ROOT):
     start = START
     dt.date.fromisoformat(start)
@@ -198,7 +223,7 @@ def run(root=ROOT):
         if record.get('status')!='archived' or record.get('form') not in ('13F-HR','13F-HR/A','NPORT-P','NPORT-P/A'):continue
         if record.get('normalizer_version')==NORMALIZER_VERSION and not record.get('normalization_error'):continue
         try:
-            original=gzip.decompress((root/record['raw_file']).read_bytes())
+            original=read_original(root,record)
             record['normalized_files']=normalize(record,original,root,start)
             record['normalizer_version']=NORMALIZER_VERSION
             record.pop('normalization_error',None)
@@ -218,7 +243,7 @@ def run(root=ROOT):
     # Git is the current durable backend. Pause before outgrowing it; never
     # silently discard sources or pretend millions of pending filings are loaded.
     storage_limit=int(os.getenv("SEC_HISTORY_STORAGE_BYTES","750000000"))
-    stored_bytes=sum(x.get("archive_bytes",0) for x in state.values() if x.get("status")=="archived")
+    stored_bytes=sum(x.get("archive_bytes",0) for x in state.values() if x.get("status")=="archived" and not x.get("release_asset_url"))
     storage_blocked=stored_bytes>=storage_limit
     bytes_saved = 0
     began = time.monotonic()
@@ -265,7 +290,7 @@ def run(root=ROOT):
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded,
         'index_errors': index_errors, 'download_failures': len(failures),
         'normalization_failures': len(parse_errors),
-        'archive_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
+        'archive_bytes': sum(x.get('archive_bytes',0) for x in archived), 'git_raw_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
         'storage_blocked': storage_blocked,
         'status': 'storage_blocked' if storage_blocked else 'complete' if rows and len(archived) == len(rows) and not index_errors else 'in_progress',
         'scope': 'All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings.'}

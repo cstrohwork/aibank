@@ -32,9 +32,18 @@ jobs:
           python-version: '3.11'
       - name: Verify historical calculations and amendment handling
         run: python -m unittest discover -s tests -v
+      - name: Publish previously retained raw submissions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/release_history.py
       - name: Discover and archive the next filing batch
         id: archive
         run: python scripts/sec_history.py
+      - name: Publish new raw submission shards
+        if: always() && steps.archive.outcome != 'skipped'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/release_history.py
       - name: Rebuild period history and investor calculations
         if: always() && steps.archive.outcome != 'skipped'
         run: |

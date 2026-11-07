@@ -5,6 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 SCRIPTS = pathlib.Path(__file__).resolve().parents[1] / 'scripts'
 sys.path.insert(0, str(SCRIPTS))
@@ -108,6 +109,49 @@ class HistoryTests(unittest.TestCase):
         self.assertEqual(len(parsed['holdings']), 1)
         self.assertIsNone(parsed['holdings'][0]['cusip'])
         self.assertEqual(parsed['holdings'][0]['reported_value_usd'], 500)
+
+    def test_release_archive_round_trip_and_checksum(self):
+        import hashlib
+        from release_history import package
+        with tempfile.TemporaryDirectory() as folder:
+            root = pathlib.Path(folder)
+            raw = b'<SEC-DOCUMENT>original public SEC submission'
+            member = 'history/raw/2025/1/test.txt.gz'
+            file = root/member
+            file.parent.mkdir(parents=True)
+            file.write_bytes(gzip.compress(raw, mtime=0))
+            record = {'raw_file': member, 'sha256': hashlib.sha256(raw).hexdigest(), 'source': 'SEC'}
+            output = root/'shard.tar'
+            digest = package(root, {'accession': record}, output)
+            file.unlink()
+            record.update(release_asset_url='https://github.com/example/shard', release_asset_sha256=digest)
+            history.release_bytes.cache_clear()
+            with mock.patch.object(history, 'fetch', return_value=output.read_bytes()):
+                self.assertEqual(history.read_original(root, record), raw)
+            history.release_bytes.cache_clear()
+            with mock.patch.object(history, 'fetch', return_value=b'corrupt'):
+                with self.assertRaisesRegex(ValueError, 'checksum mismatch'):
+                    history.read_original(root, record)
+
+    def test_failed_release_upload_preserves_originals(self):
+        import hashlib
+        from release_history import publish
+        from types import SimpleNamespace
+        with tempfile.TemporaryDirectory() as folder:
+            root = pathlib.Path(folder)
+            raw = b'<SEC-DOCUMENT>source'
+            member = 'history/raw/2025/1/test.txt.gz'
+            file = root/member
+            file.parent.mkdir(parents=True)
+            file.write_bytes(gzip.compress(raw))
+            record = {'status': 'archived', 'raw_file': member, 'sha256': hashlib.sha256(raw).hexdigest(), 'source': 'SEC'}
+            state = root/'history'/'archive_state.json.gz'
+            history.save(state, {'test': record})
+            with mock.patch.dict('os.environ', {'GITHUB_REPOSITORY': 'cstrohwork/aibank'}), mock.patch('release_history.subprocess.run', side_effect=[SimpleNamespace(returncode=0), subprocess.CalledProcessError(1, 'gh')]):
+                with self.assertRaises(subprocess.CalledProcessError):
+                    publish(root)
+            self.assertTrue(file.exists())
+            self.assertNotIn('release_asset_url', history.load(state)['test'])
 
 if __name__ == '__main__':
     unittest.main()
