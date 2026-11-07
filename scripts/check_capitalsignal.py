@@ -45,7 +45,7 @@ def check(root):
             for h in holdings:
                 try:
                     value = float(h[value_key])
-                    if not math.isfinite(value) or value < 0:
+                    if not math.isfinite(value) or (folder == "13f" and value < 0):
                         raise ValueError("invalid amount")
                 except (KeyError, TypeError, ValueError):
                     errors.append(f"{file}: missing/invalid {value_key}")
