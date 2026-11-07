@@ -1,0 +1,51 @@
+name: Capital Signal cloud health worker
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/capitalsignal-health.yml'
+      - 'scripts/check_capitalsignal.py'
+  schedule:
+    - cron: '47 9 * * *'
+  workflow_run:
+    workflows: ['Refresh SEC EDGAR public-data cache']
+    types: [completed]
+permissions:
+  contents: read
+concurrency:
+  group: capitalsignal-health
+  cancel-in-progress: false
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate latest committed data
+        run: python scripts/check_capitalsignal.py
+      - name: Publish health report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capitalsignal-health
+          path: worker-health.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Summarize result
+        if: always()
+        run: |
+          echo '### Capital Signal cache health' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f worker-health.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat worker-health.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Health worker failed before generating its report.' >> "$GITHUB_STEP_SUMMARY"
+          fi
