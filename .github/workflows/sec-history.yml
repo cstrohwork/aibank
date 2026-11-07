@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 30
     env:
       SEC_HISTORY_START: '2025-09-30'
-      SEC_HISTORY_BATCH: '120'
+      SEC_HISTORY_BATCH: '1000'
       SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
     steps:
       - uses: actions/checkout@v4
