@@ -1,0 +1,32 @@
+name: Refresh SEC EDGAR public-data cache
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sec-edgar-cache
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch SEC issuer index and selected filing histories
+        env:
+          SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
+        run: python scripts/refresh_sec.py
+      - name: Commit refreshed public data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CapitalSignal/data/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh SEC EDGAR issuer index and filing snapshots"
+            git push
+          fi
