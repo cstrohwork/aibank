@@ -157,12 +157,18 @@ def normalize(row, raw, root, start):
         for kind, xml in parsed:
             if kind not in ('NPORT-P', 'NPORT-P/A'):
                 continue
+            # Filing-date discovery includes amendments for older report periods.
+            # Exclude those before requiring supported holdings or a series ID;
+            # zero-asset older filings are valid archived sources, not parse errors.
+            document = ET.fromstring(xml)
+            date = report_date(field(document, 'repPdDate') or
+                               field(document, 'reportDate') or
+                               field(document, 'reportingPeriod'))
+            if date < start:
+                continue
             fund = parse_fund(xml.encode(), row['source'])
             if not fund:
                 raise ValueError('No supported N-PORT positions')
-            date = report_date(fund['report_date'])
-            if date < start:
-                continue
             if not re.fullmatch(r'S\d+', fund['series_id']):
                 raise ValueError('Missing/invalid N-PORT series identifier')
             fund.update(registrant_cik=row['cik'], registrant_name=row['name'],
@@ -303,3 +309,4 @@ def run(root=ROOT):
 
 if __name__ == '__main__':
     run()
+
