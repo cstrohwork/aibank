@@ -240,6 +240,7 @@ def run(root=ROOT):
     used = {r['accession'] for r in queue}
     queue += [r for r in available if r['accession'] not in used][:limit - len(queue)]
     downloaded = 0
+    download_interruption = None
     # Git is the current durable backend. Pause before outgrowing it; never
     # silently discard sources or pretend millions of pending filings are loaded.
     storage_limit=int(os.getenv("SEC_HISTORY_STORAGE_BYTES","750000000"))
@@ -276,8 +277,13 @@ def run(root=ROOT):
         except Exception as exc:
             state[accession] = dict(row, status='failed', error=str(exc),
                 retry_after=(today + dt.timedelta(days=1)).isoformat())
-            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429):
-                break  # Back off rather than repeatedly hitting a blocked SEC endpoint.
+            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 503):
+                # A service outage is not an accession-specific parse failure.
+                # Stop requests, persist prior progress, and expose the interruption.
+                download_interruption = {'http_status': exc.code, 'accession': accession,
+                    'source': row['source'], 'error': str(exc),
+                    'retry_after': state[accession]['retry_after']}
+                break
         save(history / 'archive_state.json.gz', state)
     save(history / 'archive_state.json.gz', state)
     counts = collections.Counter(r['form'] for r in rows)
@@ -289,6 +295,7 @@ def run(root=ROOT):
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded,
         'index_errors': index_errors, 'download_failures': len(failures),
+        'download_interruption': download_interruption,
         'normalization_failures': len(parse_errors),
         'archive_bytes': sum(x.get('archive_bytes',0) for x in archived), 'git_raw_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
         'storage_blocked': storage_blocked,
@@ -298,8 +305,12 @@ def run(root=ROOT):
     print(json.dumps(summary, indent=2))
     if index_errors or failures or parse_errors:
         print('WARNING: retained source and retry/error records require review')
+    if download_interruption:
+        raise SystemExit('SEC access interrupted: HTTP ' + str(download_interruption['http_status']) +
+                         '; progress and retry evidence saved in history/status.json')
     if not rows or (not downloaded and failures):
         raise SystemExit('No forward progress; inspect SEC access and history status')
 
 if __name__ == '__main__':
     run()
+
