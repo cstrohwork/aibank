@@ -1,0 +1,68 @@
+test_13f_sgml_dollars_and_report_cutoff (test_sec_history.HistoryTests.test_13f_sgml_dollars_and_report_cutoff) ... ok
+test_catalogue_cutoff_dedup_and_all_forms (test_sec_history.HistoryTests.test_catalogue_cutoff_dedup_and_all_forms) ... ok
+test_equity_without_cusip_still_counts_as_reported_assets (test_sec_history.HistoryTests.test_equity_without_cusip_still_counts_as_reported_assets) ... ok
+test_failed_release_upload_preserves_originals (test_sec_history.HistoryTests.test_failed_release_upload_preserves_originals) ... ok
+test_fund_history_does_not_sum_different_periods (test_sec_history.HistoryTests.test_fund_history_does_not_sum_different_periods) ... ok
+test_old_submission_pages_are_loaded (test_sec_history.HistoryTests.test_old_submission_pages_are_loaded) ... ok
+test_profile_history_equity_and_turnover (test_sec_history.HistoryTests.test_profile_history_equity_and_turnover) ... ok
+test_quarter_boundary (test_sec_history.HistoryTests.test_quarter_boundary) ... ok
+test_release_archive_round_trip_and_checksum (test_sec_history.HistoryTests.test_release_archive_round_trip_and_checksum) ... ok
+test_restatement_replaces_and_additions_append (test_sec_history.HistoryTests.test_restatement_replaces_and_additions_append) ... ok
+test_unknown_amendments_require_review (test_sec_history.HistoryTests.test_unknown_amendments_require_review) ... ok
+test_failures_remove_partial_and_preserve_existing (test_streaming_archive.StreamingArchiveTests.test_failures_remove_partial_and_preserve_existing) ... ok
+test_http_503_propagates_without_staging (test_streaming_archive.StreamingArchiveTests.test_http_503_propagates_without_staging) ... ok
+test_interrupted_response_cleans_staging (test_streaming_archive.StreamingArchiveTests.test_interrupted_response_cleans_staging) ... ok
+test_original_over_old_80mb_limit_streams (test_streaming_archive.StreamingArchiveTests.test_original_over_old_80mb_limit_streams) ... ok
+test_round_trip_digest_and_bounded_reads (test_streaming_archive.StreamingArchiveTests.test_round_trip_digest_and_bounded_reads) ... ok
+test_run_retains_large_original_and_explicit_unknown_normalization (test_streaming_archive.StreamingArchiveTests.test_run_retains_large_original_and_explicit_unknown_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.144s
+
+OK
+Historical manager periods: 0 fund periods: 2
+Historical manager periods: 0 fund periods: 2
+{
+  "start_filing_date": "2025-09-30",
+  "start_holdings_report_date": "2025-09-30",
+  "updated_at": "2026-11-10T13:35:00.241825+00:00",
+  "catalogued_filings": 1,
+  "forms": {
+    "NPORT-P": 1
+  },
+  "archived_filings": 1,
+  "pending_filings": 0,
+  "downloaded_this_run": 1,
+  "index_errors": [],
+  "download_failures": 0,
+  "normalization_failures": 1,
+  "archive_bytes": 100000,
+  "git_raw_bytes": 100000,
+  "storage_limit_bytes": 750000000,
+  "storage_blocked": false,
+  "status": "in_progress",
+  "scope": "All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings."
+}
+WARNING: retained source and retry/error records require review
+{
+  "start_filing_date": "2025-09-30",
+  "start_holdings_report_date": "2025-09-30",
+  "updated_at": "2026-11-10T13:35:00.242695+00:00",
+  "catalogued_filings": 1,
+  "forms": {
+    "NPORT-P": 1
+  },
+  "archived_filings": 1,
+  "pending_filings": 0,
+  "downloaded_this_run": 0,
+  "index_errors": [],
+  "download_failures": 0,
+  "normalization_failures": 1,
+  "archive_bytes": 100000,
+  "git_raw_bytes": 100000,
+  "storage_limit_bytes": 750000000,
+  "storage_blocked": false,
+  "status": "in_progress",
+  "scope": "All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings."
+}
+WARNING: retained source and retry/error records require review
