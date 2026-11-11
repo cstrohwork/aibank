@@ -14,6 +14,7 @@ import functools
 import json
 import os
 import pathlib
+import tempfile
 import re
 import time
 import urllib.error
@@ -50,6 +51,51 @@ def fetch(url, limit=80_000_000):
     if len(raw) > limit:
         raise ValueError('Response exceeds configured byte limit; requires larger archive storage')
     return raw
+
+def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline=None):
+    """Stream an original into atomic gzip staging with bounded disk and memory."""
+    global LAST_REQUEST
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = None
+    try:
+        time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
+        LAST_REQUEST = time.monotonic()
+        req = urllib.request.Request(url, headers={
+            'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
+            'Accept-Encoding': 'identity'})
+        digest, size, prefix = hashlib.sha256(), 0, b''
+        with urllib.request.urlopen(req, timeout=60) as response:
+            expected = response.headers.get('Content-Length')
+            with tempfile.NamedTemporaryFile(dir=path.parent, delete=False) as staged:
+                temporary = pathlib.Path(staged.name)
+                with gzip.GzipFile(fileobj=staged, mode='wb', filename='', mtime=0) as packed:
+                    while True:
+                        if deadline is not None and time.monotonic() >= deadline:
+                            raise TimeoutError('SEC submission exceeded batch time budget')
+                        chunk = response.read(64 * 1024)
+                        if not chunk:
+                            break
+                        size += len(chunk)
+                        if size > raw_limit:
+                            raise ValueError('SEC submission exceeds streaming raw byte limit')
+                        prefix = (prefix + chunk)[:1000]
+                        digest.update(chunk)
+                        packed.write(chunk)
+                        if staged.tell() > archive_limit:
+                            raise ValueError('SEC submission exceeds remaining compressed archive budget')
+                if staged.tell() > archive_limit:
+                    raise ValueError('SEC submission exceeds remaining compressed archive budget')
+        if expected is not None and size != int(expected):
+            raise ValueError('Incomplete SEC submission: Content-Length mismatch')
+        if b'<SEC-DOCUMENT>' not in prefix.upper():
+            raise ValueError('Response is not a complete SEC submission')
+        result = dict(sha256=digest.hexdigest(), raw_bytes=size,
+                      archive_bytes=temporary.stat().st_size)
+        temporary.replace(path)
+        return result
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 def quarters(start, end):
     day = dt.date.fromisoformat(start)
@@ -157,12 +203,18 @@ def normalize(row, raw, root, start):
         for kind, xml in parsed:
             if kind not in ('NPORT-P', 'NPORT-P/A'):
                 continue
+            # Filing-date discovery includes amendments for older report periods.
+            # Exclude those before requiring supported holdings or a series ID;
+            # zero-asset older filings are valid archived sources, not parse errors.
+            document = ET.fromstring(xml)
+            date = report_date(field(document, 'repPdDate') or
+                               field(document, 'reportDate') or
+                               field(document, 'reportingPeriod'))
+            if date < start:
+                continue
             fund = parse_fund(xml.encode(), row['source'])
             if not fund:
                 raise ValueError('No supported N-PORT positions')
-            date = report_date(fund['report_date'])
-            if date < start:
-                continue
             if not re.fullmatch(r'S\d+', fund['series_id']):
                 raise ValueError('Missing/invalid N-PORT series identifier')
             fund.update(registrant_cik=row['cik'], registrant_name=row['name'],
@@ -223,6 +275,8 @@ def run(root=ROOT):
         if record.get('status')!='archived' or record.get('form') not in ('13F-HR','13F-HR/A','NPORT-P','NPORT-P/A'):continue
         if record.get('normalizer_version')==NORMALIZER_VERSION and not record.get('normalization_error'):continue
         try:
+            if record.get('raw_bytes', 0) > 80_000_000:
+                raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
             original=read_original(root,record)
             record['normalized_files']=normalize(record,original,root,start)
             record['normalizer_version']=NORMALIZER_VERSION
@@ -240,6 +294,7 @@ def run(root=ROOT):
     used = {r['accession'] for r in queue}
     queue += [r for r in available if r['accession'] not in used][:limit - len(queue)]
     downloaded = 0
+    download_interruption = None
     # Git is the current durable backend. Pause before outgrowing it; never
     # silently discard sources or pretend millions of pending filings are loaded.
     storage_limit=int(os.getenv("SEC_HISTORY_STORAGE_BYTES","750000000"))
@@ -253,21 +308,21 @@ def run(root=ROOT):
         accession = row['accession']
         path = history / 'raw' / row['filing_date'][:4] / row['cik'] / (accession + '.txt.gz')
         try:
-            raw = gzip.decompress(path.read_bytes()) if path.exists() else fetch(row['source'])
-            if b'<SEC-DOCUMENT>' not in raw[:1000].upper():
-                raise ValueError('Response is not a complete SEC submission')
-            packed = gzip.compress(raw, mtime=0)
-            if stored_bytes+len(packed)>storage_limit:
-                storage_blocked=True
-                break
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_bytes(packed)
-            stored_bytes+=len(packed)
-            bytes_saved += len(packed)
+            metadata = archive_submission(row['source'], path,
+                min(storage_limit - stored_bytes, 60_000_000 - bytes_saved),
+                deadline=began + 1200)
+            stored_bytes += metadata['archive_bytes']
+            bytes_saved += metadata['archive_bytes']
             record = dict(row, status='archived', raw_file=str(path.relative_to(root)),
-                sha256=hashlib.sha256(raw).hexdigest(), raw_bytes=len(raw), archive_bytes=len(packed))
+                **metadata)
             try:
-                record['normalized_files'] = normalize(row, raw, root, start)
+                if row['form'] in ('13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'):
+                    if metadata['raw_bytes'] > 80_000_000:
+                        raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
+                    raw = gzip.decompress(path.read_bytes())
+                    record['normalized_files'] = normalize(row, raw, root, start)
+                else:
+                    record['normalized_files'] = []
                 record['normalizer_version'] = NORMALIZER_VERSION
             except Exception as exc:
                 record['normalization_error'] = str(exc)
@@ -276,8 +331,13 @@ def run(root=ROOT):
         except Exception as exc:
             state[accession] = dict(row, status='failed', error=str(exc),
                 retry_after=(today + dt.timedelta(days=1)).isoformat())
-            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429):
-                break  # Back off rather than repeatedly hitting a blocked SEC endpoint.
+            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 503):
+                # A service outage is not an accession-specific parse failure.
+                # Stop requests, persist prior progress, and expose the interruption.
+                download_interruption = {'http_status': exc.code, 'accession': accession,
+                    'source': row['source'], 'error': str(exc),
+                    'retry_after': state[accession]['retry_after']}
+                break
         save(history / 'archive_state.json.gz', state)
     save(history / 'archive_state.json.gz', state)
     counts = collections.Counter(r['form'] for r in rows)
@@ -289,15 +349,19 @@ def run(root=ROOT):
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded,
         'index_errors': index_errors, 'download_failures': len(failures),
+        'download_interruption': download_interruption,
         'normalization_failures': len(parse_errors),
         'archive_bytes': sum(x.get('archive_bytes',0) for x in archived), 'git_raw_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
         'storage_blocked': storage_blocked,
-        'status': 'storage_blocked' if storage_blocked else 'complete' if rows and len(archived) == len(rows) and not index_errors else 'in_progress',
+        'status': 'storage_blocked' if storage_blocked else 'complete' if rows and len(archived) == len(rows) and not index_errors and not failures and not parse_errors else 'in_progress',
         'scope': 'All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings.'}
     save(history / 'status.json', summary)
     print(json.dumps(summary, indent=2))
     if index_errors or failures or parse_errors:
         print('WARNING: retained source and retry/error records require review')
+    if download_interruption:
+        raise SystemExit('SEC access interrupted: HTTP ' + str(download_interruption['http_status']) +
+                         '; progress and retry evidence saved in history/status.json')
     if not rows or (not downloaded and failures):
         raise SystemExit('No forward progress; inspect SEC access and history status')
 
