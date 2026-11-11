@@ -28,6 +28,14 @@ PRIORITY = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A', 'N-PX', 'N-PX/A',
             'SC 13D', 'SC 13D/A', 'SC 13G', 'SC 13G/A', 'SCHEDULE 13D', 'SCHEDULE 13G'}
 LAST_REQUEST = 0.0
 NORMALIZER_VERSION = 2
+BATCH_LIMIT_ERRORS = {
+    'SEC submission exceeds remaining compressed archive budget',
+    'SEC submission exceeded batch time budget',
+}
+
+class BatchBudgetExceeded(ValueError):
+    """A resumable worker boundary, not a source failure."""
+
 
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -105,7 +113,7 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
                 with gzip.GzipFile(fileobj=staged, mode='wb', filename='', mtime=0) as packed:
                     while True:
                         if deadline is not None and time.monotonic() >= deadline:
-                            raise TimeoutError('SEC submission exceeded batch time budget')
+                            raise BatchBudgetExceeded('SEC submission exceeded batch time budget')
                         chunk = response.read(64 * 1024)
                         if not chunk:
                             break
@@ -116,9 +124,9 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
                         digest.update(chunk)
                         packed.write(chunk)
                         if staged.tell() > archive_limit:
-                            raise ValueError('SEC submission exceeds remaining compressed archive budget')
+                            raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
                 if staged.tell() > archive_limit:
-                    raise ValueError('SEC submission exceeds remaining compressed archive budget')
+                    raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
         if expected is not None and size != int(expected):
             raise ValueError('Incomplete SEC submission: Content-Length mismatch')
         if b'<SEC-DOCUMENT>' not in prefix.upper():
@@ -304,6 +312,14 @@ def run(root=ROOT):
     today = dt.datetime.now(dt.timezone.utc).date()
     rows, index_errors = catalogue(root, start, today)
     state = load(history / 'archive_state.json.gz', {})
+    # Older runs incorrectly treated worker capacity boundaries as source errors.
+    # Retain their exact diagnostic history without enforcing an SEC cooldown.
+    for record in state.values():
+        if record.get('status') == 'failed' and record.get('error') in BATCH_LIMIT_ERRORS:
+            record['prior_failure'] = {k: record[k] for k in ('error', 'retry_after') if k in record}
+            record['deferred_reason'] = record.pop('error')
+            record['status'] = 'deferred'
+            record.pop('retry_after', None)
     reparsed=0
     for accession, record in state.items():
         if reparsed>=30:break
@@ -333,7 +349,7 @@ def run(root=ROOT):
         return legacy_size or previous.get('retry_after', '') <= today.isoformat()
     available = [r for r in rows if eligible(r)]
     # Previously failed eligible filings go first, so new entries cannot starve retries.
-    available.sort(key=lambda r: (state.get(r['accession'], {}).get('status') != 'failed',
+    available.sort(key=lambda r: (state.get(r['accession'], {}).get('status') not in ('failed', 'deferred'),
                                   r['filing_date'], r['accession']))
     priority = [r for r in available if r['form'] in PRIORITY]
     others = [r for r in available if r['form'] not in PRIORITY]
@@ -343,9 +359,10 @@ def run(root=ROOT):
     used = {r['accession'] for r in queue}
     queue += [r for r in available if r['accession'] not in used][:limit - len(queue)]
     # Keep retries first across both priority and all-form allocations.
-    queue.sort(key=lambda r: state.get(r['accession'], {}).get('status') != 'failed')
+    queue.sort(key=lambda r: state.get(r['accession'], {}).get('status') not in ('failed', 'deferred'))
     downloaded = 0
     download_interruption = None
+    batch_deferral = None
     # Git is the current durable backend. Pause before outgrowing it; never
     # silently discard sources or pretend millions of pending filings are loaded.
     storage_limit=int(os.getenv("SEC_HISTORY_STORAGE_BYTES","750000000"))
@@ -387,6 +404,13 @@ def run(root=ROOT):
             if downloaded % 10 == 0:
                 print(json.dumps({'event': 'archive_progress', 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
                     'compressed_bytes_this_run': bytes_saved, 'last_accession': accession}), flush=True)
+        except BatchBudgetExceeded as exc:
+            state[accession] = dict(state.get(accession, {}))
+            state[accession].update(row, status='deferred', deferred_reason=str(exc))
+            state[accession].pop('error', None)
+            state[accession].pop('retry_after', None)
+            batch_deferral = {'accession': accession, 'source': row['source'], 'reason': str(exc)}
+            break
         except Exception as exc:
             state[accession] = dict(row, status='failed', error=str(exc),
                 retry_after=(today + dt.timedelta(days=1)).isoformat())
@@ -408,7 +432,8 @@ def run(root=ROOT):
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
         'index_errors': index_errors, 'download_failures': len(failures),
-        'download_interruption': download_interruption,
+        'download_interruption': download_interruption, 'batch_deferral': batch_deferral,
+        'deferred_filings': sum(s.get('status') == 'deferred' for s in state.values()),
         'normalization_failures': len(parse_errors),
         'archive_bytes': sum(x.get('archive_bytes',0) for x in archived), 'git_raw_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
         'storage_blocked': storage_blocked,
@@ -421,7 +446,7 @@ def run(root=ROOT):
     if download_interruption:
         raise SystemExit('SEC access interrupted: HTTP ' + str(download_interruption['http_status']) +
                          '; progress and retry evidence saved in history/status.json')
-    if not rows or (not downloaded and failures):
+    if not rows or (not downloaded and failures and not batch_deferral):
         raise SystemExit('No forward progress; inspect SEC access and history status')
 
 if __name__ == '__main__':

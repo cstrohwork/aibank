@@ -34,7 +34,7 @@ class SecAccessTests(unittest.TestCase):
         with mock.patch.object(history, 'catalogue', return_value=(self.rows(), [])), \
              mock.patch.object(history.urllib.request, 'urlopen', side_effect=self.open_response(responses)) as fetch, \
              mock.patch.object(history.time, 'sleep'), \
-             mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
+             mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3', 'SEC_HISTORY_SECONDS': '1200'}), \
              contextlib.redirect_stdout(io.StringIO()):
             with self.assertRaises(SystemExit):
                 history.run(root)
@@ -81,7 +81,7 @@ class SecAccessTests(unittest.TestCase):
             with mock.patch.object(history, 'catalogue', return_value=(self.rows(), [])), \
                  mock.patch.object(history.urllib.request, 'urlopen', side_effect=self.open_response([error, b'<SEC-DOCUMENT>one', b'<SEC-DOCUMENT>two'])) as fetch, \
                  mock.patch.object(history.time, 'sleep'), \
-                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3', 'SEC_HISTORY_SECONDS': '1200'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 history.run(root)
             self.assertEqual(fetch.call_count, 3)

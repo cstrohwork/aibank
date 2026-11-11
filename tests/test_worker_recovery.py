@@ -16,6 +16,56 @@ from refresh_funds import parse
 
 
 class RecoveryTests(unittest.TestCase):
+    def test_short_deadline_does_not_exceed_retry_budget(self):
+        req = history.urllib.request.Request('https://www.sec.gov/Archives/test')
+        error = urllib.error.HTTPError(req.full_url, 503, 'Unavailable', {}, None)
+        with mock.patch.object(history.urllib.request, 'urlopen', side_effect=error) as opened, \
+             mock.patch.object(history.time, 'sleep'), \
+             mock.patch.object(history.time, 'monotonic', return_value=100):
+            with self.assertRaises(urllib.error.HTTPError):
+                history.open_sec(req, deadline=160)
+        self.assertEqual(opened.call_count, 1)
+
+    def test_batch_limit_defers_and_stops_without_marking_source_failed(self):
+        rows = [dict(cik='0000000001', name='Fixture', form='8-K', filing_date='2025-09-30',
+                     accession=str(i), source='https://www.sec.gov/Archives/' + str(i)) for i in range(3)]
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
+                 mock.patch.object(history, 'archive_submission', side_effect=[
+                     dict(sha256='fixture', raw_bytes=1, archive_bytes=1),
+                     history.BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')]) as archive, \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
+                 contextlib.redirect_stdout(io.StringIO()):
+                history.run(root)
+            state = history.load(root / 'history/archive_state.json.gz')
+            self.assertEqual(archive.call_count, 2)
+            self.assertEqual(state['0']['status'], 'archived')
+            self.assertEqual(state['1']['status'], 'deferred')
+            self.assertNotIn('retry_after', state['1'])
+            self.assertNotIn('2', state)
+            status = history.load(root / 'history/status.json')
+            self.assertEqual(status['download_failures'], 0)
+            self.assertEqual(status['deferred_filings'], 1)
+            self.assertEqual(status['batch_deferral']['accession'], '1')
+
+    def test_old_capacity_failures_are_resumable_with_evidence_preserved(self):
+        row = dict(cik='0000000001', name='Fixture', form='8-K', filing_date='2025-09-30',
+                   accession='0', source='https://www.sec.gov/Archives/0')
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            path = root / 'history/archive_state.json.gz'
+            history.save(path, {'0': dict(row, status='failed', error='SEC submission exceeded batch time budget', retry_after='2999-01-01')})
+            with mock.patch.object(history, 'catalogue', return_value=([row], [])), \
+                 mock.patch.object(history, 'archive_submission', side_effect=history.BatchBudgetExceeded('SEC submission exceeded batch time budget')) as archive, \
+                 contextlib.redirect_stdout(io.StringIO()):
+                history.run(root)
+            self.assertEqual(archive.call_count, 1)
+            result = history.load(path)['0']
+            self.assertEqual(result['status'], 'deferred')
+            self.assertNotIn('retry_after', result)
+            self.assertEqual(result['prior_failure']['retry_after'], '2999-01-01')
+
     def test_transient_503_recovers_original_and_checksum(self):
         url = 'https://www.sec.gov/Archives/test'
         raw = b'<SEC-DOCUMENT>complete original after brief outage'

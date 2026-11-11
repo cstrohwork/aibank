@@ -34,7 +34,7 @@ class IngestionIntegrationTests(unittest.TestCase):
             with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
                  mock.patch.object(history.urllib.request, 'urlopen', side_effect=[response, outage, outage, outage]) as request, \
                  mock.patch.object(history.time, 'sleep'), \
-                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3', 'SEC_HISTORY_SECONDS': '1200'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 with self.assertRaisesRegex(SystemExit, 'HTTP 503'):
                     history.run(root)
