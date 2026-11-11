@@ -25,7 +25,7 @@ def check(root):
         seen = set()
         holdings_count = 0
         for entry in entries:
-            identity = tuple(entry.get(k) for k in ids)
+            identity = tuple((entry.get("fund_id") or entry.get("series_id")) if k == "series_id" else entry.get(k) for k in ids)
             if not all(identity) or identity in seen:
                 errors.append(f"{folder}: missing or duplicate identity {identity}")
             seen.add(identity)

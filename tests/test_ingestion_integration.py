@@ -32,13 +32,13 @@ class IngestionIntegrationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             root = pathlib.Path(folder)
             with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
-                 mock.patch.object(history.urllib.request, 'urlopen', side_effect=[response, outage]) as request, \
+                 mock.patch.object(history.urllib.request, 'urlopen', side_effect=[response, outage, outage, outage]) as request, \
                  mock.patch.object(history.time, 'sleep'), \
                  mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 with self.assertRaisesRegex(SystemExit, 'HTTP 503'):
                     history.run(root)
-            self.assertEqual(request.call_count, 2)
+            self.assertEqual(request.call_count, 4)
             state = history.load(root / 'history/archive_state.json.gz')
             self.assertEqual(state['0']['normalized_files'], [])
             self.assertNotIn('normalization_error', state['0'])

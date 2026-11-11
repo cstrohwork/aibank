@@ -47,8 +47,8 @@ class SecAccessTests(unittest.TestCase):
                 root = pathlib.Path(folder)
                 url = self.rows()[1]['source']
                 error = urllib.error.HTTPError(url, code, 'access interrupted', {}, None)
-                fetch = self.execute(root, [raw, error, raw])
-                self.assertEqual(fetch.call_count, 2)
+                fetch = self.execute(root, [raw] + [error] * (3 if code == 503 else 1))
+                self.assertEqual(fetch.call_count, 4 if code == 503 else 2)
                 state = history.load(root / 'history/archive_state.json.gz')
                 self.assertEqual(history.read_original(root, state['0']), raw)
                 self.assertEqual(state['1']['status'], 'failed')
@@ -68,8 +68,8 @@ class SecAccessTests(unittest.TestCase):
             root = pathlib.Path(folder)
             error = urllib.error.HTTPError(self.rows()[0]['source'], 503,
                                            'Service Unavailable', {}, None)
-            fetch = self.execute(root, [error, b'<SEC-DOCUMENT>unexpected'])
-            self.assertEqual(fetch.call_count, 1)
+            fetch = self.execute(root, [error, error, error])
+            self.assertEqual(fetch.call_count, 3)
             status = history.load(root / 'history/status.json')
             self.assertEqual(status['pending_filings'], 3)
             self.assertEqual(status['download_interruption']['error'], str(error))

@@ -14,10 +14,31 @@ def val(n,*names):
     for c in n.iter():
         if local(c.tag) in wanted and c.text:return c.text.strip()
     return ""
+def fund_identity(root):
+    series=val(root,"seriesId")
+    if re.fullmatch(r"S\d+",series):
+        return {"series_id":series,"fund_id":series,"identity_basis":"sec_series_id"}
+    if series:
+        raise ValueError("Missing/invalid N-PORT series identifier")
+    cik=val(root,"regCik")
+    reg_name=val(root,"regName")
+    series_name=val(root,"seriesName","seriesNm","seriesNameOfFund")
+    reg_lei=val(root,"regLei").upper()
+    series_lei=val(root,"seriesLei").upper()
+    same_name=" ".join(reg_name.casefold().split())==" ".join(series_name.casefold().split())
+    same_entity=(bool(reg_name) and same_name and re.fullmatch(r"[A-Z0-9]{20}",reg_lei)
+                 and reg_lei==series_lei)
+    explicit_na=series_name.upper()=="N/A" and series_lei=="N/A"
+    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_entity or explicit_na):
+        raise ValueError("Missing/invalid N-PORT series identifier")
+    return {"series_id":None,"fund_id":"CIK"+cik.zfill(10),
+            "identity_basis":"matching_registrant_series_lei_and_name" if same_entity else "explicit_not_applicable_series",
+            "identity_registrant_cik":cik.zfill(10),"registrant_lei":reg_lei,
+            "series_lei_reported":series_lei,"series_name_reported":series_name}
+
 def parse(raw,source):
     root=ET.fromstring(raw)
-    series=val(root,"seriesId")
-    fund=val(root,"seriesName","seriesNm","seriesNameOfFund") or series
+    fund=val(root,"seriesName","seriesNm","seriesNameOfFund")
     report=val(root,"repPdDate","reportDate","reportingPeriod")
     assets=val(root,"totAssets","totalAssets")
     rows=[]
@@ -29,7 +50,9 @@ def parse(raw,source):
         except ValueError:continue
         rows.append({"cusip":cusip,"isin":val(n,"isin"),"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"reported_percentage":val(n,"pctVal","reportedPercentage")})
     if not rows:return None
-    return {"series_id":series,"fund_name":fund,"report_date":report,"total_assets_reported":assets,"source":source,"holdings":rows}
+    identity=fund_identity(root)
+    if not fund or fund.upper()=="N/A":fund=val(root,"regName") or identity["fund_id"]
+    return {**identity,"fund_name":fund,"report_date":report,"total_assets_reported":assets,"source":source,"holdings":rows}
 def main():
     # Registered fund trust CIKs; these are not assumed to map to 13F managers.
     ciks=[x.strip().zfill(10) for x in os.getenv("SEC_FUND_CIKS","0001100663,0000036405,0000225322").split(",") if x.strip()]
@@ -70,7 +93,7 @@ def main():
                         known.add(accession)
                         continue
                     best.update({"registrant_cik":cik,"registrant_name":sub.get("name"),"filing_date":filing,"accession":accession})
-                    key=(best["series_id"] or cik)+"-"+(best["report_date"] or filing)
+                    key=best["fund_id"]+"-"+(best["report_date"] or filing)
                     filename=re.sub("[^A-Za-z0-9_-]","_",key)+".json"
                     existing=OUT/filename
                     if existing.exists():
@@ -79,7 +102,7 @@ def main():
                             known.add(accession)
                             continue
                     (OUT/filename).write_text(json.dumps(best,separators=(",",":")))
-                    index.append({"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"accession":accession,"holdings_count":len(best["holdings"]),"file":filename,"source":best["source"]})
+                    index.append({"fund_id":best["fund_id"],"identity_basis":best["identity_basis"],"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"accession":accession,"holdings_count":len(best["holdings"]),"file":filename,"source":best["source"]})
                     known.add(accession)
                     print("fund cached",filename,len(best["holdings"]))
                 except Exception as e:errors.append(f"{cik} {accession}: {e}")
@@ -87,12 +110,12 @@ def main():
         except Exception as e:errors.append(f"{cik}: {e}")
     periods={}
     for f in sorted(index,key=lambda x:(x["filing_date"],x.get("accession",""))):
-        periods[(f["series_id"],f["report_date"])]=f
+        periods[(f.get("fund_id") or f["series_id"],f["report_date"])]=f
     history=list(periods.values())
     history_path.write_text(json.dumps({"funds":history,"start_report_date":start},separators=(",",":")))
     latest={}
     for f in sorted(history,key=lambda x:(x["report_date"],x["filing_date"])):
-        latest[f["series_id"] or f["file"]]=f
+        latest[f.get("fund_id") or f["series_id"] or f["file"]]=f
     selected=list(latest.values())
     (OUT/"index.json").write_text(json.dumps({"funds":selected,"filings_parsed":len(index),"registrants_attempted":ciks,"errors":errors[:30],"limitations":"Bounded SEC N-PORT sample, not complete market coverage. N-PX is proxy voting, not a holdings inventory. No fund-to-13F manager attribution inferred."},separators=(",",":")))
     checkpoint_path.write_text(json.dumps({"processed":sorted(known)},separators=(",",":")))
@@ -102,7 +125,7 @@ def main():
         data=json.loads((OUT/f["file"]).read_text())
         for h in data["holdings"]:
             if h["asset_category"] not in ("EC","EP") or not h.get("cusip"):continue
-            owners.setdefault(h["cusip"],[]).append({"series_id":f["series_id"],"fund_name":f["fund_name"],"report_date":f["report_date"],"reported_value_usd":h["reported_value_usd"],"source":f["source"]})
+            owners.setdefault(h["cusip"],[]).append({"fund_id":f.get("fund_id") or f["series_id"],"series_id":f["series_id"],"fund_name":f["fund_name"],"report_date":f["report_date"],"reported_value_usd":h["reported_value_usd"],"source":f["source"]})
     (OUT/"ownership_by_cusip.json").write_text(json.dumps({"securities":owners,"note":"Disclosed N-PORT fund holdings only; not total issuer ownership; different report dates may occur."},separators=(",",":")))
     print("funds",len(selected),"equity CUSIPs",len(owners),"errors",len(errors))
 if __name__=="__main__":main()

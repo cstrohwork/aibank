@@ -64,10 +64,10 @@ def rebuild(root=ROOT):
     for entry in load(root / 'funds' / 'history_index.json', {}).get('funds', []) + load(root / 'funds' / 'index.json', {}).get('funds', []):
         data = load(root / 'funds' / entry['file'])
         if data:
-            funds[(data['series_id'], data['report_date'])] = data
+            funds[(data.get('fund_id') or data['series_id'], data['report_date'])] = data
     for path in (history / 'normalized' / 'funds').glob('*.json.gz'):
         data = load(path)
-        key = (data['series_id'], data['report_date'])
+        key = (data.get('fund_id') or data['series_id'], data['report_date'])
         old = funds.get(key, {})
         if (data['filing_date'], data['accession']) >= (old.get('filing_date', ''), old.get('accession', '')):
             funds[key] = data
@@ -75,16 +75,17 @@ def rebuild(root=ROOT):
     for (series, date), data in sorted(funds.items()):
         if date < '2025-09-30':
             continue
+        data['fund_id'] = series
         filename = f'{series}-{date}.json'
         save(root / 'funds' / filename, data)
-        entries.append({k: data.get(k) for k in ('series_id', 'fund_name', 'registrant_cik',
+        entries.append({k: data.get(k) for k in ('fund_id', 'series_id', 'identity_basis', 'fund_name', 'registrant_cik',
             'registrant_name', 'report_date', 'filing_date', 'accession', 'source')} |
             {'file': filename, 'holdings_count': len(data['holdings'])})
     save(root / 'funds' / 'history_index.json', {'funds': entries, 'start_report_date': '2025-09-30',
         'basis': 'Latest filed version per series/report date; original accessions retained in history/normalized. Not an as-known-on-report-date dataset.'})
     latest = {}
     for entry in sorted(entries, key=lambda x: (x['report_date'], x['filing_date'])):
-        latest[entry['series_id']] = entry
+        latest[entry['fund_id']] = entry
     save(root / 'funds' / 'index.json', {'funds': list(latest.values()),
         'filings_parsed': len(entries), 'errors': [], 'limitations': 'Incomplete all-market backfill; latest period per fund. See history/status.json for archive/parse errors.'})
     # Keep registrant history grouped by exact report date; never add quarters together.
@@ -98,7 +99,7 @@ def rebuild(root=ROOT):
         orientation = 'passive' if re.search(r'\b(index fund|index etf|index portfolio)\b', data['fund_name'], re.I) else 'unclassified'
         firm['equity_assets_usd'] += amount
         firm[orientation + '_equity_assets_usd'] += amount
-        firm['funds'].append({'series_id': data['series_id'], 'equity_assets_usd': amount,
+        firm['funds'].append({'fund_id': data.get('fund_id') or data['series_id'], 'series_id': data['series_id'], 'equity_assets_usd': amount,
             'orientation': orientation, 'source': data['source']})
     for date, firms in by_period.items():
         for firm in firms.values():

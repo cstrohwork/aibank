@@ -5,6 +5,7 @@ Filing-date coverage starts 2025-09-30; holdings report dates are filtered
 separately. Original accessions are immutable. Completion is measured, not assumed.
 """
 import collections
+import email.utils
 import datetime as dt
 import gzip
 import hashlib
@@ -39,6 +40,39 @@ def load(path, default=None):
     raw = path.read_bytes()
     return json.loads(gzip.decompress(raw) if path.suffix == '.gz' else raw)
 
+def open_sec(request, deadline=None):
+    """Retry transient SEC 503s only; access blocks stop immediately.
+
+    At most three requests, separated by 15/45 seconds or Retry-After.
+    Longer requested pauses are left to the next scheduled worker.
+    """
+    global LAST_REQUEST
+    for attempt in range(3):
+        time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
+        LAST_REQUEST = time.monotonic()
+        try:
+            return urllib.request.urlopen(request, timeout=60)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 503 or attempt == 2:
+                raise
+            delay = (15, 45)[attempt]
+            value = (exc.headers or {}).get('Retry-After')
+            if value:
+                try:
+                    delay = max(delay, float(value))
+                except ValueError:
+                    try:
+                        when = email.utils.parsedate_to_datetime(value)
+                        delay = max(delay, (when - dt.datetime.now(dt.timezone.utc)).total_seconds())
+                    except (ValueError, TypeError, OverflowError):
+                        raise exc
+            if delay > 120 or (deadline is not None and time.monotonic() + delay + 60 >= deadline):
+                raise
+            print(json.dumps({'event': 'sec_503_retry', 'source': request.full_url,
+                              'attempt': attempt + 2, 'pause_seconds': delay}), flush=True)
+            exc.close()
+            time.sleep(delay)
+
 def fetch(url, limit=80_000_000):
     global LAST_REQUEST
     time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
@@ -46,7 +80,7 @@ def fetch(url, limit=80_000_000):
     req = urllib.request.Request(url, headers={
         'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
         'Accept-Encoding': 'identity'})
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with open_sec(req) as resp:
         raw = resp.read(limit + 1)
     if len(raw) > limit:
         raise ValueError('Response exceeds configured byte limit; requires larger archive storage')
@@ -64,7 +98,7 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
             'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
             'Accept-Encoding': 'identity'})
         digest, size, prefix = hashlib.sha256(), 0, b''
-        with urllib.request.urlopen(req, timeout=60) as response:
+        with open_sec(req, deadline=deadline) as response:
             expected = response.headers.get('Content-Length')
             with tempfile.NamedTemporaryFile(dir=path.parent, delete=False) as staged:
                 temporary = pathlib.Path(staged.name)
@@ -215,8 +249,9 @@ def normalize(row, raw, root, start):
             fund = parse_fund(xml.encode(), row['source'])
             if not fund:
                 raise ValueError('No supported N-PORT positions')
-            if not re.fullmatch(r'S\d+', fund['series_id']):
-                raise ValueError('Missing/invalid N-PORT series identifier')
+            # A standalone identity must match the catalogue registrant too.
+            if fund.get('identity_registrant_cik', row['cik']) != row['cik']:
+                raise ValueError('N-PORT identity does not match catalogue registrant')
             fund.update(registrant_cik=row['cik'], registrant_name=row['name'],
                 accession=row['accession'], form=row['form'], filing_date=row['filing_date'], report_date=date)
             path = root / 'history' / 'normalized' / 'funds' / (row['accession'] + '.json.gz')
@@ -284,8 +319,18 @@ def run(root=ROOT):
         except Exception as exc:
             record['normalization_error']=str(exc)
         reparsed+=1
-    available = [r for r in rows if state.get(r['accession'], {}).get('status') != 'archived'
-                 and state.get(r['accession'], {}).get('retry_after', '') <= today.isoformat()]
+    def eligible(row):
+        previous = state.get(row['accession'], {})
+        if previous.get('status') == 'archived':
+            return False
+        # The old in-memory downloader rejected these before streaming existed.
+        # Retry with the new capability; never override SEC access cooldowns.
+        legacy_size = previous.get('error') == 'Response exceeds configured byte limit; requires larger archive storage'
+        return legacy_size or previous.get('retry_after', '') <= today.isoformat()
+    available = [r for r in rows if eligible(r)]
+    # Previously failed eligible filings go first, so new entries cannot starve retries.
+    available.sort(key=lambda r: (state.get(r['accession'], {}).get('status') != 'failed',
+                                  r['filing_date'], r['accession']))
     priority = [r for r in available if r['form'] in PRIORITY]
     others = [r for r in available if r['form'] not in PRIORITY]
     limit = int(os.getenv('SEC_HISTORY_BATCH', '120'))

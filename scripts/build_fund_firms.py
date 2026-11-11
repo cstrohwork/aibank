@@ -22,10 +22,10 @@ for entry in index["funds"]:
     equity_value=sum(max(0,float(h["reported_value_usd"])) for h in equities)
     firm["equity_assets_usd"]+=equity_value
     firm[orientation+"_equity_assets_usd"]+=equity_value
-    firm["funds"].append({"series_id":entry["series_id"],"fund_name":name,"report_date":entry["report_date"],"orientation":orientation,"orientation_basis":"explicit_index_fund_name" if passive else "not_verified","reported_equity_assets_usd":round(equity_value,2),"source":entry["source"]})
+    firm["funds"].append({"fund_id":entry.get("fund_id") or entry["series_id"],"series_id":entry["series_id"],"fund_name":name,"report_date":entry["report_date"],"orientation":orientation,"orientation_basis":"explicit_index_fund_name" if passive else "not_verified","reported_equity_assets_usd":round(equity_value,2),"source":entry["source"]})
     for h in equities:
         if not h.get("cusip"):continue
-        bycusip[h["cusip"]].append({"registrant_cik":key,"registrant_name":entry["registrant_name"],"series_id":entry["series_id"],"fund_name":name,"report_date":entry["report_date"],"value_usd":h["reported_value_usd"],"source":entry["source"]})
+        bycusip[h["cusip"]].append({"registrant_cik":key,"registrant_name":entry["registrant_name"],"fund_id":entry.get("fund_id") or entry["series_id"],"series_id":entry["series_id"],"fund_name":name,"report_date":entry["report_date"],"value_usd":h["reported_value_usd"],"source":entry["source"]})
 out=[]
 for firm in firms.values():
     total=firm["equity_assets_usd"]
