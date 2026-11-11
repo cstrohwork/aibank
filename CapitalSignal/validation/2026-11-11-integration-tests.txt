@@ -1,0 +1,80 @@
+test_filtered_original_publishes_after_access_interruption (test_ingestion_integration.IngestionIntegrationTests.test_filtered_original_publishes_after_access_interruption) ... ok
+test_cutoff_date_is_inclusive_and_keeps_source (test_nport_cutoff.NportCutoffTests.test_cutoff_date_is_inclusive_and_keeps_source) ... ok
+test_in_scope_missing_positions_remains_an_error (test_nport_cutoff.NportCutoffTests.test_in_scope_missing_positions_remains_an_error) ... ok
+test_in_scope_missing_series_remains_unknown (test_nport_cutoff.NportCutoffTests.test_in_scope_missing_series_remains_unknown) ... ok
+test_missing_date_remains_an_error (test_nport_cutoff.NportCutoffTests.test_missing_date_remains_an_error) ... ok
+test_old_unsupported_positions_are_not_parsed (test_nport_cutoff.NportCutoffTests.test_old_unsupported_positions_are_not_parsed) ... ok
+test_old_zero_asset_amendment_is_excluded (test_nport_cutoff.NportCutoffTests.test_old_zero_asset_amendment_is_excluded) ... ok
+test_503_without_progress_persists_diagnostic (test_sec_access.SecAccessTests.test_503_without_progress_persists_diagnostic) ... ok
+test_access_failures_stop_after_progress_and_keep_sources (test_sec_access.SecAccessTests.test_access_failures_stop_after_progress_and_keep_sources) ... ok
+test_non_access_failure_can_continue_and_retains_retry (test_sec_access.SecAccessTests.test_non_access_failure_can_continue_and_retains_retry) ... ok
+test_13f_sgml_dollars_and_report_cutoff (test_sec_history.HistoryTests.test_13f_sgml_dollars_and_report_cutoff) ... ok
+test_catalogue_cutoff_dedup_and_all_forms (test_sec_history.HistoryTests.test_catalogue_cutoff_dedup_and_all_forms) ... ok
+test_equity_without_cusip_still_counts_as_reported_assets (test_sec_history.HistoryTests.test_equity_without_cusip_still_counts_as_reported_assets) ... ok
+test_failed_release_upload_preserves_originals (test_sec_history.HistoryTests.test_failed_release_upload_preserves_originals) ... ok
+test_fund_history_does_not_sum_different_periods (test_sec_history.HistoryTests.test_fund_history_does_not_sum_different_periods) ... ok
+test_old_submission_pages_are_loaded (test_sec_history.HistoryTests.test_old_submission_pages_are_loaded) ... ok
+test_profile_history_equity_and_turnover (test_sec_history.HistoryTests.test_profile_history_equity_and_turnover) ... ok
+test_quarter_boundary (test_sec_history.HistoryTests.test_quarter_boundary) ... ok
+test_release_archive_round_trip_and_checksum (test_sec_history.HistoryTests.test_release_archive_round_trip_and_checksum) ... ok
+test_restatement_replaces_and_additions_append (test_sec_history.HistoryTests.test_restatement_replaces_and_additions_append) ... ok
+test_unknown_amendments_require_review (test_sec_history.HistoryTests.test_unknown_amendments_require_review) ... ok
+test_failures_remove_partial_and_preserve_existing (test_streaming_archive.StreamingArchiveTests.test_failures_remove_partial_and_preserve_existing) ... ok
+test_http_503_propagates_without_staging (test_streaming_archive.StreamingArchiveTests.test_http_503_propagates_without_staging) ... ok
+test_interrupted_response_cleans_staging (test_streaming_archive.StreamingArchiveTests.test_interrupted_response_cleans_staging) ... ok
+test_original_over_old_80mb_limit_streams (test_streaming_archive.StreamingArchiveTests.test_original_over_old_80mb_limit_streams) ... ok
+test_round_trip_digest_and_bounded_reads (test_streaming_archive.StreamingArchiveTests.test_round_trip_digest_and_bounded_reads) ... ok
+test_run_retains_large_original_and_explicit_unknown_normalization (test_streaming_archive.StreamingArchiveTests.test_run_retains_large_original_and_explicit_unknown_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.417s
+
+OK
+Historical manager periods: 0 fund periods: 2
+Historical manager periods: 0 fund periods: 2
+{
+  "start_filing_date": "2025-09-30",
+  "start_holdings_report_date": "2025-09-30",
+  "updated_at": "2026-11-11T13:14:35.539085+00:00",
+  "catalogued_filings": 1,
+  "forms": {
+    "NPORT-P": 1
+  },
+  "archived_filings": 1,
+  "pending_filings": 0,
+  "downloaded_this_run": 1,
+  "index_errors": [],
+  "download_failures": 0,
+  "download_interruption": null,
+  "normalization_failures": 1,
+  "archive_bytes": 100000,
+  "git_raw_bytes": 100000,
+  "storage_limit_bytes": 750000000,
+  "storage_blocked": false,
+  "status": "in_progress",
+  "scope": "All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings."
+}
+WARNING: retained source and retry/error records require review
+{
+  "start_filing_date": "2025-09-30",
+  "start_holdings_report_date": "2025-09-30",
+  "updated_at": "2026-11-11T13:14:35.540471+00:00",
+  "catalogued_filings": 1,
+  "forms": {
+    "NPORT-P": 1
+  },
+  "archived_filings": 1,
+  "pending_filings": 0,
+  "downloaded_this_run": 0,
+  "index_errors": [],
+  "download_failures": 0,
+  "download_interruption": null,
+  "normalization_failures": 1,
+  "archive_bytes": 100000,
+  "git_raw_bytes": 100000,
+  "storage_limit_bytes": 750000000,
+  "storage_blocked": false,
+  "status": "in_progress",
+  "scope": "All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings."
+}
+WARNING: retained source and retry/error records require review
