@@ -69,6 +69,22 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual([c.args[0] for c in archive.call_args_list], [rows[0]['source'], rows[2]['source']])
             self.assertEqual(history.load(state_path)['1']['retry_after'], '2999-01-01')
 
+    def test_all_form_retry_precedes_new_priority_filings(self):
+        rows = [dict(cik='0000000001', name='Fixture', form='ABS-EE' if i == 0 else 'N-PX',
+                     filing_date='2025-09-30', accession=str(i),
+                     source='https://www.sec.gov/Archives/' + str(i)) for i in range(5)]
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            history.save(root / 'history/archive_state.json.gz', {
+                '0': dict(rows[0], status='failed', error='Response exceeds configured byte limit; requires larger archive storage', retry_after='2999-01-01')})
+            with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
+                 mock.patch.object(history, 'archive_submission', return_value=dict(sha256='fixture', raw_bytes=1, archive_bytes=1)) as archive, \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '5'}), \
+                 contextlib.redirect_stdout(io.StringIO()):
+                history.run(root)
+            self.assertEqual(archive.call_args_list[0].args[0], rows[0]['source'])
+            self.assertEqual(archive.call_count, 5)
+
 
 class StandaloneIdentityTests(unittest.TestCase):
     def xml(self, cik='1', name='Standalone Fund', series_name='Standalone Fund', series_lei='549300IRIJ5TBU8V3T78'):

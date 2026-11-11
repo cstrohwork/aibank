@@ -338,6 +338,8 @@ def run(root=ROOT):
     queue = priority[:limit - reserved] + others[:reserved]
     used = {r['accession'] for r in queue}
     queue += [r for r in available if r['accession'] not in used][:limit - len(queue)]
+    # Keep retries first across both priority and all-form allocations.
+    queue.sort(key=lambda r: state.get(r['accession'], {}).get('status') != 'failed')
     downloaded = 0
     download_interruption = None
     # Git is the current durable backend. Pause before outgrowing it; never
@@ -373,6 +375,9 @@ def run(root=ROOT):
                 record['normalization_error'] = str(exc)
             state[accession] = record
             downloaded += 1
+            if downloaded % 10 == 0:
+                print(json.dumps({'event': 'archive_progress', 'downloaded_this_run': downloaded,
+                    'compressed_bytes_this_run': bytes_saved, 'last_accession': accession}), flush=True)
         except Exception as exc:
             state[accession] = dict(row, status='failed', error=str(exc),
                 retry_after=(today + dt.timedelta(days=1)).isoformat())

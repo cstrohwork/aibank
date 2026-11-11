@@ -5,7 +5,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/capitalsignal-health.yml'
-      - 'scripts/check_capitalsignal.py'
+      - 'scripts/**'
+      - 'tests/**'
   schedule:
     - cron: '47 9 * * *'
   workflow_run:
@@ -28,6 +29,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Verify ingestion and calculation regressions
+        run: python -m unittest discover -s tests -v
       - name: Validate latest committed data
         run: python scripts/check_capitalsignal.py
       - name: Publish health report
