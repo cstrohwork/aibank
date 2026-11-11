@@ -102,7 +102,7 @@ class StreamingArchiveTests(unittest.TestCase):
 
     def test_run_retains_large_original_and_explicit_unknown_normalization(self):
         row = {'accession': 'test', 'cik': '1', 'filing_date': '2025-10-01',
-               'form': 'NPORT-P', 'source': 'https://www.sec.gov/test'}
+               'form': '13F-HR', 'source': 'https://www.sec.gov/test'}
         with tempfile.TemporaryDirectory() as directory:
             root = pathlib.Path(directory)
             with mock.patch.object(history, 'catalogue', return_value=([row], [])), mock.patch.object(

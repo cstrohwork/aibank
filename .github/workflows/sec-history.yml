@@ -21,6 +21,8 @@ jobs:
     env:
       SEC_HISTORY_START: '2025-09-30'
       SEC_HISTORY_BATCH: '1000'
+      # Code pushes verify recovery quickly; scheduled runs retain full throughput.
+      SEC_HISTORY_SECONDS: ${{ github.event_name == 'push' && '60' || '1200' }}
       SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
     steps:
       - uses: actions/checkout@v4

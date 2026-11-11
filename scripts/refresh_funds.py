@@ -36,6 +36,13 @@ def fund_identity(root):
             "identity_registrant_cik":cik.zfill(10),"registrant_lei":reg_lei,
             "series_lei_reported":series_lei,"series_name_reported":series_name}
 
+def parse_position(n):
+    cusip=val(n,"cusip").upper()
+    if not re.fullmatch("[A-Z0-9]{9}",cusip):cusip=None
+    try:amount=float(val(n,"valUSD","valueUSD","valueInUSD","reportedValue"))
+    except ValueError:return None
+    return {"cusip":cusip,"isin":val(n,"isin"),"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"reported_percentage":val(n,"pctVal","reportedPercentage")}
+
 def parse(raw,source):
     root=ET.fromstring(raw)
     fund=val(root,"seriesName","seriesNm","seriesNameOfFund")
@@ -44,11 +51,8 @@ def parse(raw,source):
     rows=[]
     for n in root.iter():
         if local(n.tag) not in ("invstorsec","investmentorsecurity"):continue
-        cusip=val(n,"cusip").upper()
-        if not re.fullmatch("[A-Z0-9]{9}",cusip):cusip=None
-        try:amount=float(val(n,"valUSD","valueUSD","valueInUSD","reportedValue"))
-        except ValueError:continue
-        rows.append({"cusip":cusip,"isin":val(n,"isin"),"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"reported_percentage":val(n,"pctVal","reportedPercentage")})
+        position=parse_position(n)
+        if position is not None:rows.append(position)
     if not rows:return None
     identity=fund_identity(root)
     if not fund or fund.upper()=="N/A":fund=val(root,"regName") or identity["fund_id"]

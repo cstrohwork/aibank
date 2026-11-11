@@ -311,9 +311,13 @@ def run(root=ROOT):
         if record.get('normalizer_version')==NORMALIZER_VERSION and not record.get('normalization_error'):continue
         try:
             if record.get('raw_bytes', 0) > 80_000_000:
-                raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
-            original=read_original(root,record)
-            record['normalized_files']=normalize(record,original,root,start)
+                if record['form'] not in ('NPORT-P', 'NPORT-P/A'):
+                    raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
+                from stream_nport import normalize as normalize_stream
+                record['normalized_files'] = normalize_stream(root, record, start)
+            else:
+                original=read_original(root,record)
+                record['normalized_files']=normalize(record,original,root,start)
             record['normalizer_version']=NORMALIZER_VERSION
             record.pop('normalization_error',None)
         except Exception as exc:
@@ -348,16 +352,17 @@ def run(root=ROOT):
     stored_bytes=sum(x.get("archive_bytes",0) for x in state.values() if x.get("status")=="archived" and not x.get("release_asset_url"))
     storage_blocked=stored_bytes>=storage_limit
     bytes_saved = 0
+    budget_seconds = max(30, min(1200, int(os.getenv('SEC_HISTORY_SECONDS', '1200'))))
     began = time.monotonic()
     for row in queue:
-        if storage_blocked or time.monotonic() - began > 1200 or bytes_saved >= 60_000_000:
+        if storage_blocked or time.monotonic() - began > budget_seconds or bytes_saved >= 60_000_000:
             break
         accession = row['accession']
         path = history / 'raw' / row['filing_date'][:4] / row['cik'] / (accession + '.txt.gz')
         try:
             metadata = archive_submission(row['source'], path,
                 min(storage_limit - stored_bytes, 60_000_000 - bytes_saved),
-                deadline=began + 1200)
+                deadline=began + budget_seconds)
             stored_bytes += metadata['archive_bytes']
             bytes_saved += metadata['archive_bytes']
             record = dict(row, status='archived', raw_file=str(path.relative_to(root)),
@@ -365,9 +370,13 @@ def run(root=ROOT):
             try:
                 if row['form'] in ('13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'):
                     if metadata['raw_bytes'] > 80_000_000:
-                        raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
-                    raw = gzip.decompress(path.read_bytes())
-                    record['normalized_files'] = normalize(row, raw, root, start)
+                        if row['form'] not in ('NPORT-P', 'NPORT-P/A'):
+                            raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
+                        from stream_nport import normalize as normalize_stream
+                        record['normalized_files'] = normalize_stream(root, record, start)
+                    else:
+                        raw = gzip.decompress(path.read_bytes())
+                        record['normalized_files'] = normalize(row, raw, root, start)
                 else:
                     record['normalized_files'] = []
                 record['normalizer_version'] = NORMALIZER_VERSION
@@ -376,7 +385,7 @@ def run(root=ROOT):
             state[accession] = record
             downloaded += 1
             if downloaded % 10 == 0:
-                print(json.dumps({'event': 'archive_progress', 'downloaded_this_run': downloaded,
+                print(json.dumps({'event': 'archive_progress', 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
                     'compressed_bytes_this_run': bytes_saved, 'last_accession': accession}), flush=True)
         except Exception as exc:
             state[accession] = dict(row, status='failed', error=str(exc),
@@ -397,7 +406,7 @@ def run(root=ROOT):
     summary = {'start_filing_date': start, 'start_holdings_report_date': start,
         'updated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
-        'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded,
+        'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
         'index_errors': index_errors, 'download_failures': len(failures),
         'download_interruption': download_interruption,
         'normalization_failures': len(parse_errors),

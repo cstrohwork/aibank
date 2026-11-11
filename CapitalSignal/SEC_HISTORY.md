@@ -33,3 +33,5 @@ Archive storage references:
 - https://docs.github.com/en/actions/concepts/billing-and-usage
 
 Verified November 7, 2026: initial release shard published at https://github.com/cstrohwork/aibank/releases/tag/sec-history-raw-2026-11-07 . The first archive asset contains 120 original submissions and an embedded checksum/source manifest. Subsequent batches continue from the accession checkpoint.
+
+Large N-PORT originals use disk-backed XML extraction with 64 KiB source reads, full-original SHA-256 verification and incremental position parsing. Limits remain 512 MB of original data and 500,000 supported positions per filing. A source/checksum/identity/limit failure remains an explicit normalization error. Oversized 13F normalization still retains its explicit parser limit. Push-triggered runs use a 60-second download verification window; hourly and manual runs retain the 20-minute window. Normalization and release/checkpoint stages still execute.
