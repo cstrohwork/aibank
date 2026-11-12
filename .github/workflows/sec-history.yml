@@ -104,6 +104,12 @@ jobs:
               if [ "$attempt" -eq 3 ]; then exit 1; fi
             done
           fi
+      - name: Queue the next productive batch immediately
+        if: always() && steps.persist.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SEC_RUN_STARTED_AT: ${{ steps.worker-start.outputs.started_at }}
+        run: python scripts/sec_worker_control.py continue
       - name: Publish backfill progress
         if: always()
         run: |

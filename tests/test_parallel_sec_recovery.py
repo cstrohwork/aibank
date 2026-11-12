@@ -113,6 +113,36 @@ class SupervisorTests(unittest.TestCase):
     def test_active_run_prevents_duplicate_dispatch(self):
         self.assertEqual(control.decision([{'status': 'in_progress'}], {}, self.now)[0], 'wait')
 
+    def test_productive_batch_dispatches_without_waiting_for_schedule(self):
+        status = {'checked_at': '2026-11-12T12:01:00Z', 'downloaded_this_run': 10, 'pending_filings': 50}
+        with mock.patch.object(control, 'load', return_value=status), \
+             mock.patch.object(control, 'api', return_value={'workflow_runs': [{'id': 1, 'status': 'in_progress'}]}), \
+             mock.patch.object(control, 'gh') as dispatch, \
+             mock.patch.dict('os.environ', {'GITHUB_REPOSITORY': 'cstrohwork/aibank', 'GITHUB_RUN_ID': '1', 'SEC_RUN_STARTED_AT': '2026-11-12T12:00:00Z'}):
+            control.continue_batch()
+        self.assertEqual(dispatch.call_count, 1)
+        self.assertIn('POST', dispatch.call_args.args)
+
+    def test_stale_checkpoint_and_sec_cooldown_prevent_immediate_dispatch(self):
+        for status in [
+            {'checked_at': '2026-11-12T11:00:00Z', 'downloaded_this_run': 10, 'pending_filings': 50},
+            {'checked_at': '2026-11-12T12:01:00Z', 'downloaded_this_run': 10, 'pending_filings': 50, 'next_retry_at': '2999-01-01T00:00:00Z'}]:
+            with self.subTest(status=status), mock.patch.object(control, 'load', return_value=status), \
+                 mock.patch.object(control, 'api') as api, mock.patch.object(control, 'gh') as dispatch, \
+                 mock.patch.dict('os.environ', {'SEC_RUN_STARTED_AT': '2026-11-12T12:00:00Z'}):
+                control.continue_batch()
+            api.assert_not_called()
+            dispatch.assert_not_called()
+
+    def test_immediate_continuation_does_not_duplicate_an_existing_queue(self):
+        status = {'checked_at': '2026-11-12T12:01:00Z', 'downloaded_this_run': 10, 'pending_filings': 50}
+        with mock.patch.object(control, 'load', return_value=status), \
+             mock.patch.object(control, 'api', return_value={'workflow_runs': [{'id': 1, 'status': 'in_progress'}, {'id': 2, 'status': 'queued'}]}), \
+             mock.patch.object(control, 'gh') as dispatch, \
+             mock.patch.dict('os.environ', {'GITHUB_REPOSITORY': 'cstrohwork/aibank', 'GITHUB_RUN_ID': '1', 'SEC_RUN_STARTED_AT': '2026-11-12T12:00:00Z'}):
+            control.continue_batch()
+        dispatch.assert_not_called()
+
     def test_failed_run_resumes_after_backoff_even_without_progress(self):
         run = self.run_record()
         run['conclusion'] = 'failure'

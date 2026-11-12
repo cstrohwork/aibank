@@ -32,6 +32,20 @@ def parse_time(value):
     return dt.datetime.fromisoformat(value.replace('Z', '+00:00'))
 
 
+def failure_ready(runs):
+    completed = sorted((r for r in runs if r['status'] == 'completed'), key=lambda r: r['created_at'], reverse=True)
+    streak = 0
+    for run in completed:
+        if run.get('conclusion') in ('failure', 'timed_out', 'startup_failure'):
+            streak += 1
+        elif run.get('conclusion') != 'cancelled':
+            break
+    if not streak:
+        return None
+    delay = min(1800, 60 * 2 ** min(streak - 1, 5))
+    return parse_time(completed[0]['updated_at']) + dt.timedelta(seconds=delay)
+
+
 def decision(runs, status, now=None):
     now = now or dt.datetime.now(dt.timezone.utc)
     if any(run['status'] != 'completed' for run in runs):
@@ -40,20 +54,9 @@ def decision(runs, status, now=None):
         return 'blocked', 'Archive storage needs attention; checkpoint retained'
     if not retry_due(status.get('next_retry_at'), now):
         return 'cooldown', 'SEC cooldown until ' + status['next_retry_at']
-    completed = sorted(runs, key=lambda r: r['created_at'], reverse=True)
-    streak = 0
-    for run in completed:
-        if run.get('conclusion') in ('failure', 'timed_out', 'startup_failure'):
-            streak += 1
-        elif run.get('conclusion') == 'cancelled':
-            continue
-        else:
-            break
-    if completed and streak:
-        delay = min(1800, 60 * 2 ** min(streak - 1, 5))
-        ready = parse_time(completed[0]['updated_at']) + dt.timedelta(seconds=delay)
-        if now < ready:
-            return 'cooldown', 'Failure backoff until ' + ready.isoformat()
+    ready = failure_ready(runs)
+    if ready and now < ready:
+        return 'cooldown', 'Failure backoff until ' + ready.isoformat()
     return 'dispatch', 'Resume from the latest verified checkpoint; poll live filings when caught up'
 
 
@@ -61,6 +64,12 @@ def supervise(root=ROOT):
     repo = os.environ['GITHUB_REPOSITORY']
     runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
     action, reason = decision(runs, load(root / 'history/status.json', {}))
+    ready = failure_ready(runs)
+    delay = (ready - dt.datetime.now(dt.timezone.utc)).total_seconds() if ready else 0
+    if action == 'cooldown' and 0 < delay <= 60:
+        time.sleep(delay + 1)
+        runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
+        action, reason = decision(runs, load(root / 'history/status.json', {}))
     print(json.dumps({'action': action, 'reason': reason}))
     if action == 'dispatch':
         gh('api', '--method', 'POST', f'repos/{repo}/actions/workflows/sec-history.yml/dispatches', '-f', 'ref=main')
@@ -68,6 +77,26 @@ def supervise(root=ROOT):
     if summary:
         with open(summary, 'a') as output:
             output.write(f'### SEC automatic recovery\n{action}: {reason}\n')
+
+
+def continue_batch(root=ROOT):
+    """Queue productive batches directly, independently of workflow_run chains."""
+    status = load(root / 'history/status.json', {})
+    started = os.environ['SEC_RUN_STARTED_AT']
+    checked = status.get('checked_at') or ''
+    fresh = checked and parse_time(checked) > parse_time(started)
+    if (not fresh or not status.get('downloaded_this_run') or not status.get('pending_filings')
+            or status.get('storage_blocked') or not retry_due(status.get('next_retry_at'))):
+        print('No immediate continuation: no fresh progress, no backlog, storage block, or SEC cooldown')
+        return
+    repo = os.environ['GITHUB_REPOSITORY']
+    own_run = os.environ['GITHUB_RUN_ID']
+    runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
+    if any(str(run['id']) != own_run and run['status'] != 'completed' for run in runs):
+        print('Next SEC worker is already running or queued')
+        return
+    gh('api', '--method', 'POST', f'repos/{repo}/actions/workflows/sec-history.yml/dispatches', '-f', 'ref=main')
+    print('Queued the next SEC batch immediately after persisting progress')
 
 
 def recover_folder(root, folder):
@@ -141,6 +170,6 @@ def restore(root=ROOT):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('operation', choices=('supervise', 'restore'))
+    parser.add_argument('operation', choices=('supervise', 'restore', 'continue'))
     args = parser.parse_args()
-    supervise() if args.operation == 'supervise' else restore()
+    {'supervise': supervise, 'restore': restore, 'continue': continue_batch}[args.operation]()
