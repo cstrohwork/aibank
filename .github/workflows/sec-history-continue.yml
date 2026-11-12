@@ -8,7 +8,7 @@ permissions:
   contents: read
 jobs:
   continue-if-current-quarter-pending:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.conclusion == 'failure' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,6 +17,9 @@ jobs:
           persist-credentials: false
       - name: Check current-quarter investor filing backlog
         id: backlog
+        env:
+          SEC_RUN_STARTED_AT: ${{ github.event.workflow_run.run_started_at }}
+          SEC_RUN_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
         run: |
           python - <<'PY'
           import json, os
