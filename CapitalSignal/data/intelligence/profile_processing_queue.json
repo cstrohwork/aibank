@@ -272,14 +272,19 @@
     {
       "id": "CIK0001913231",
       "name": "Ascent Group, LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-20",
       "source_file": "CapitalSignal/data/13f/0001913231-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001913231-25-000006",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached 13F accession and 4,667 holdings parsed. Source labels value_unit USD but value_usd duplicates legacy value_thousands; SEC monetary scale, latest reporting period and amendment precedence require independent reconciliation. Do not publish portfolio value, turnover, style or orientation.",
+      "source_blob_sha": "57186317e5ee2ee3bd58e7bd9cea363dacb8c6bb",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1913231/0001913231-25-000006.txt",
+      "holdings_count": 4667,
+      "amendment_type": null,
+      "last_checked_at": "2026-11-12T17:21:00Z"
     },
     {
       "id": "CIK0001126328",
@@ -459,50 +464,50 @@
     }
   ],
   "next_batch_ids": [
+    "CIK0001979372",
+    "CIK0000019617",
+    "CIK0001390777",
+    "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
+    "CIK0001710537",
     "CIK0000046392",
-    "CIK0001054074",
-    "CIK0001535847",
-    "CIK0000815917",
-    "CIK0000319933",
-    "CIK0000092230",
-    "CIK0001913231"
+    "CIK0002032602"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T16:08:00Z",
+  "last_processing_at": "2026-11-12T17:21:00Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001992825",
-      "accession": "0001992825-25-000010",
-      "holdings_count": 4974,
-      "source_blob_sha": "36d61b0f2f0d32abe7135badc8008f619f070250",
+      "id": "CIK0001913231",
+      "accession": "0001913231-25-000006",
+      "holdings_count": 4667,
+      "source_blob_sha": "57186317e5ee2ee3bd58e7bd9cea363dacb8c6bb",
       "publication": "withheld_pending_reconciliation"
     }
   ],
   "next_batch": [
+    "CIK0001979372",
+    "CIK0000019617",
+    "CIK0001390777",
+    "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
+    "CIK0001710537",
     "CIK0000046392",
-    "CIK0001054074",
-    "CIK0001535847",
-    "CIK0000815917",
-    "CIK0000319933",
-    "CIK0000092230",
-    "CIK0001913231"
+    "CIK0002032602"
   ],
   "last_run": {
-    "at": "2026-11-12T16:08:00Z",
+    "at": "2026-11-12T17:21:00Z",
     "attempted_ids": [
-      "CIK0001992825"
+      "CIK0001913231"
     ],
     "validated_new": 1,
     "published_new": 0,
     "blocked": 0,
-    "notes": "Farther Finance Advisors cached 13F validated; USD scale and amendment precedence unresolved."
+    "notes": "Ascent Group 13F cached holdings and accession validated; monetary-unit and amendment reconciliation still required."
   }
 }
