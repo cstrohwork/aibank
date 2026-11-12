@@ -66,8 +66,8 @@
       "source_file": "CapitalSignal/data/13f/0000019617-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "GitHub file retrieval truncated JSON; retry via bounded archive or raw source"
     },
     {
       "id": "CIK0001390777",
@@ -396,19 +396,22 @@
     {
       "id": "CIK0002010235",
       "name": "GAMMA Investing LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-02",
       "source_file": "CapitalSignal/data/13f/0002010235-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0002010235-25-000009",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached accession, filing/report dates and 3,873 holdings parsed; monetary units, amendments, later periods and publication require reconciliation",
+      "source_blob_sha": "56eff5744920ad3824076d40d1c802df9c32badd",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2010235/000201023525000009/",
+      "holdings_count": 3873,
+      "last_checked_at": "2026-11-12T06:54:32Z"
     }
   ],
   "next_batch_ids": [
     "CIK0001979372",
-    "CIK0000019617",
     "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
@@ -416,22 +419,23 @@
     "CIK0000831001",
     "CIK0001710537",
     "CIK0000046392",
-    "CIK0002032602"
+    "CIK0002032602",
+    "CIK0000019617"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T05:53:47Z",
+  "last_processing_at": "2026-11-12T06:54:32Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001037389",
+      "id": "CIK0002010235",
       "valid": true,
-      "accession": "0001037389-26-000059",
-      "holdings": 3140
+      "accession": "0002010235-25-000009",
+      "holdings": 3873
     },
     {
-      "id": "CIK0001979372",
-      "error": "SyntaxError: Unexpected end of JSON input"
+      "id": "CIK0000019617",
+      "error": "Truncated JSON from GitHub file retrieval; deferred"
     }
   ]
 }
