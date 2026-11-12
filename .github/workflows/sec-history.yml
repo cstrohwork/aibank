@@ -21,7 +21,7 @@ jobs:
     env:
       SEC_HISTORY_START: '2025-09-30'
       SEC_HISTORY_BATCH: '250'
-      # Code pushes verify recovery quickly; scheduled runs retain full throughput.
+      # Code pushes verify recovery quickly; scheduled runs spend up to four minutes per poll.
       SEC_HISTORY_SECONDS: ${{ github.event_name == 'push' && '60' || '240' }}
       SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
     steps:
