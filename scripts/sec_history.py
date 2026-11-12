@@ -18,6 +18,8 @@ import pathlib
 import tempfile
 import re
 import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -30,6 +32,7 @@ PRIORITY = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A', 'N-PX', 'N-PX/A',
 INVESTOR_FORMS = PRIORITY | {'13F-NT', '13F-NT/A', 'SCHEDULE 13D/A', 'SCHEDULE 13G/A'}
 POSITION_FORMS = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'}
 LAST_REQUEST = 0.0
+REQUEST_LOCK = threading.Lock()
 NORMALIZER_VERSION = 2
 LIVE_FEED_STATUS = {'status': 'not_checked', 'new_accessions': 0}
 RUN_ARCHIVE_BUDGET_BYTES = 100_000_000
@@ -40,6 +43,25 @@ BATCH_LIMIT_ERRORS = {
 
 class BatchBudgetExceeded(ValueError):
     """A resumable worker boundary, not a source failure."""
+
+
+class ArchiveBudget:
+    """Thread-safe compressed archive budget shared by download workers."""
+    def __init__(self, limit):
+        self.limit = limit
+        self.used = 0
+        self.lock = threading.Lock()
+
+    def reserve(self, amount):
+        with self.lock:
+            if self.used + amount > self.limit:
+                return False
+            self.used += amount
+            return True
+
+    def release(self, amount):
+        with self.lock:
+            self.used = max(0, self.used - amount)
 
 
 def save(path, data):
@@ -61,9 +83,10 @@ def open_sec(request, deadline=None):
     """
     global LAST_REQUEST
     for attempt in range(3):
-        # Enforce a single 0.4s minimum between SEC requests; callers must not throttle twice.
-        time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
-        LAST_REQUEST = time.monotonic()
+        # Coordinate all worker request starts under one aggregate SEC rate limiter.
+        with REQUEST_LOCK:
+            time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
+            LAST_REQUEST = time.monotonic()
         try:
             return urllib.request.urlopen(request, timeout=60)
         except urllib.error.HTTPError as exc:
@@ -97,10 +120,12 @@ def fetch(url, limit=80_000_000):
         raise ValueError('Response exceeds configured byte limit; requires larger archive storage')
     return raw
 
-def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline=None):
+def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline=None, budget=None):
     """Stream an original into atomic gzip staging with bounded disk and memory."""
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = None
+    reserved = 0
+    committed = False
     try:
         req = urllib.request.Request(url, headers={
             'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
@@ -123,8 +148,14 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
                         prefix = (prefix + chunk)[:1000]
                         digest.update(chunk)
                         packed.write(chunk)
-                        if staged.tell() > archive_limit:
+                        current = staged.tell()
+                        if current > archive_limit:
                             raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
+                        if budget is not None:
+                            growth = current - reserved
+                            if growth and not budget.reserve(growth):
+                                raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
+                            reserved = current
                 if staged.tell() > archive_limit:
                     raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
         if expected is not None and size != int(expected):
@@ -134,8 +165,11 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
         result = dict(sha256=digest.hexdigest(), raw_bytes=size,
                       archive_bytes=temporary.stat().st_size)
         temporary.replace(path)
+        committed = True
         return result
     finally:
+        if not committed and budget is not None and reserved:
+            budget.release(reserved)
         if temporary is not None:
             temporary.unlink(missing_ok=True)
 
@@ -512,57 +546,85 @@ def run(root=ROOT):
     bytes_saved = 0
     budget_seconds = max(30, min(1200, int(os.getenv('SEC_HISTORY_SECONDS', '1200'))))
     began = time.monotonic()
-    for row in queue:
-        if storage_blocked or time.monotonic() - began > budget_seconds or bytes_saved >= RUN_ARCHIVE_BUDGET_BYTES:
-            break
-        accession = row['accession']
-        path = history / 'raw' / row['filing_date'][:4] / row['cik'] / (accession + '.txt.gz')
+    bytes_saved = 0
+    budget_seconds = max(30, min(1200, int(os.getenv('SEC_HISTORY_SECONDS', '1200'))))
+    worker_count = max(1, min(4, int(os.getenv('SEC_HISTORY_WORKERS', '3'))))
+    began = time.monotonic()
+    shared_budget = ArchiveBudget(min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES))
+    queue_iter = iter(queue)
+    inflight = {}
+    stop_submitting = storage_blocked
+
+    def submit_next(pool):
+        if stop_submitting or time.monotonic() - began >= budget_seconds:
+            return False
         try:
-            metadata = archive_submission(row['source'], path,
-                min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES - bytes_saved),
-                deadline=began + budget_seconds)
-            stored_bytes += metadata['archive_bytes']
-            bytes_saved += metadata['archive_bytes']
-            record = dict(row, status='archived', raw_file=str(path.relative_to(root)),
-                **metadata)
-            try:
-                if row['form'] in ('13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'):
-                    if metadata['raw_bytes'] > 80_000_000:
-                        if row['form'] not in ('NPORT-P', 'NPORT-P/A'):
-                            raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
-                        from stream_nport import normalize as normalize_stream
-                        record['normalized_files'] = normalize_stream(root, record, start)
-                    else:
-                        raw = gzip.decompress(path.read_bytes())
-                        record['normalized_files'] = normalize(row, raw, root, start)
-                else:
-                    record['normalized_files'] = []
-                record['normalizer_version'] = NORMALIZER_VERSION
-            except Exception as exc:
-                record['normalization_error'] = str(exc)
-            state[accession] = record
-            downloaded += 1
-            if downloaded % 10 == 0:
-                print(json.dumps({'event': 'archive_progress', 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
-                    'compressed_bytes_this_run': bytes_saved, 'last_accession': accession}), flush=True)
-        except BatchBudgetExceeded as exc:
-            state[accession] = dict(state.get(accession, {}))
-            state[accession].update(row, status='deferred', deferred_reason=str(exc))
-            state[accession].pop('error', None)
-            state[accession].pop('retry_after', None)
-            batch_deferral = {'accession': accession, 'source': row['source'], 'reason': str(exc)}
-            break
-        except Exception as exc:
-            state[accession] = dict(row, status='failed', error=str(exc),
-                retry_after=(today + dt.timedelta(days=1)).isoformat())
-            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 503):
-                # A service outage is not an accession-specific parse failure.
-                # Stop requests, persist prior progress, and expose the interruption.
-                download_interruption = {'http_status': exc.code, 'accession': accession,
-                    'source': row['source'], 'error': str(exc),
-                    'retry_after': state[accession]['retry_after']}
+            next_row = next(queue_iter)
+        except StopIteration:
+            return False
+        future = pool.submit(
+            archive_submission,
+            next_row['source'],
+            history / 'raw' / next_row['filing_date'][:4] / next_row['cik'] / (next_row['accession'] + '.txt.gz'),
+            min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES),
+            deadline=began + budget_seconds,
+            budget=shared_budget)
+        inflight[future] = next_row
+        return True
+
+    with ThreadPoolExecutor(max_workers=worker_count, thread_name_prefix='sec-archive') as pool:
+        for _ in range(worker_count):
+            if not submit_next(pool):
                 break
-        save(history / 'archive_state.json.gz', state)
+        for future in as_completed(inflight):
+            row = inflight.pop(future)
+            accession = row['accession']
+            path = history / 'raw' / row['filing_date'][:4] / row['cik'] / (accession + '.txt.gz')
+            try:
+                metadata = future.result()
+                stored_bytes += metadata['archive_bytes']
+                bytes_saved += metadata['archive_bytes']
+                record = dict(row, status='archived', raw_file=str(path.relative_to(root)), **metadata)
+                try:
+                    if row['form'] in ('13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'):
+                        if metadata['raw_bytes'] > 80_000_000:
+                            if row['form'] not in ('NPORT-P', 'NPORT-P/A'):
+                                raise ValueError('Normalization deferred: original exceeds 80000000-byte parser memory limit')
+                            from stream_nport import normalize as normalize_stream
+                            record['normalized_files'] = normalize_stream(root, record, start)
+                        else:
+                            raw = gzip.decompress(path.read_bytes())
+                            record['normalized_files'] = normalize(row, raw, root, start)
+                    else:
+                        record['normalized_files'] = []
+                    record['normalizer_version'] = NORMALIZER_VERSION
+                except Exception as exc:
+                    record['normalization_error'] = str(exc)
+                state[accession] = record
+                downloaded += 1
+                if downloaded % 10 == 0:
+                    print(json.dumps({'event': 'archive_progress', 'downloaded_this_run': downloaded,
+                        'batch_budget_seconds': budget_seconds, 'compressed_bytes_this_run': bytes_saved,
+                        'parallel_workers': worker_count, 'last_accession': accession}), flush=True)
+            except BatchBudgetExceeded as exc:
+                state[accession] = dict(state.get(accession, {}))
+                state[accession].update(row, status='deferred', deferred_reason=str(exc))
+                state[accession].pop('error', None)
+                state[accession].pop('retry_after', None)
+                if batch_deferral is None:
+                    batch_deferral = {'accession': accession, 'source': row['source'], 'reason': str(exc)}
+                stop_submitting = True
+            except Exception as exc:
+                state[accession] = dict(row, status='failed', error=str(exc),
+                    retry_after=(today + dt.timedelta(days=1)).isoformat())
+                if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 503):
+                    download_interruption = {'http_status': exc.code, 'accession': accession,
+                        'source': row['source'], 'error': str(exc),
+                        'retry_after': state[accession]['retry_after']}
+                    stop_submitting = True
+            save(history / 'archive_state.json.gz', state)
+            if not stop_submitting:
+                submit_next(pool)
     save(history / 'archive_state.json.gz', state)
     counts = collections.Counter(r['form'] for r in rows)
     archived = [state[r['accession']] for r in rows if state.get(r['accession'], {}).get('status') == 'archived']
