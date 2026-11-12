@@ -243,14 +243,19 @@
     {
       "id": "CIK0000319933",
       "name": "THURSTON, SPRINGER, MILLER, HERD & TITAK, INC.",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-07",
       "source_file": "CapitalSignal/data/13f/0000319933-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0000319933-25-000016",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Complete cached 13F parsed and accession, filing/report dates and 5,145 holdings records verified. Value fields require independent SEC USD reconciliation; latest filings/amendment precedence not checked. No portfolio value, style, turnover, orientation or publication claimed.",
+      "source_blob_sha": "0d2ef8ca2d7fd3558aed56362bdff35f828e9dec",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319933/0000319933-25-000016.txt",
+      "holdings_count": 5145,
+      "amendment_type": "",
+      "last_checked_at": "2026-11-12T21:33:55Z"
     },
     {
       "id": "CIK0000092230",
@@ -505,26 +510,24 @@
     "CIK0000831001",
     "CIK0001054074",
     "CIK0000815917",
-    "CIK0000319933",
     "CIK0000092230",
     "CIK0001126328",
     "CIK0001407543",
     "CIK0000312272",
-    "CIK0001851815"
+    "CIK0001851815",
+    "CIK0001056288"
   ],
   "last_run": {
-    "at": "2026-11-12T20:42:17Z",
+    "at": "2026-11-12T21:33:55Z",
     "processed": [
-      "CIK0001535847"
+      "CIK0000319933"
     ],
-    "validated": [
-      "CIK0001535847"
-    ],
-    "published": [],
-    "blockers": [
-      "Monetary scaling requires independent SEC summary verification",
-      "Amendment and latest-period reconciliation incomplete",
-      "Public Pages verification pending"
-    ]
+    "validated": 1,
+    "published": 0,
+    "counts": {
+      "validated_pending_publication": 14,
+      "published": 1,
+      "pending": 17
+    }
   }
 }
