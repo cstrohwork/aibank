@@ -182,7 +182,7 @@ def main():
   tickers=json.loads(get(TICKERS))
   sp_blob=get(HOLDINGS);sp=parse_universe(sp_blob,tickers)
   russell_blob=get(HOLDINGS_RUSSELL);russell=parse_russell(russell_blob,tickers)
-  nasdaq_blob=get(NASDAQ_SCREENER,{'Accept':'application/json, text/plain, */*','Origin':'https://www.nasdaq.com','Referer':'https://www.nasdaq.com/market-activity/stocks/screener'})
+  nasdaq_blob=get(NASDAQ_SCREENER,{'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36','Accept':'application/json, text/plain, */*','Origin':'https://www.nasdaq.com','Referer':'https://www.nasdaq.com/market-activity/stocks/screener'})
   large_megacap=parse_large_megacap(nasdaq_blob,tickers)
   by_cusip={};by_ticker={}
   for label,collection in [('S&P1500_proxy',sp['securities']),('Russell3000_proxy',russell['securities']),('large_mega_cap_sec_filings',large_megacap['securities'])]:
