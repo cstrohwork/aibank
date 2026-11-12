@@ -130,6 +130,7 @@ async function load(){
    loadJson(raw+"fundamentals/status.json?x="+Date.now())
  ];
  const out=await Promise.allSettled(tasks);
+ let fundN=0,fundDone=0,fundFailed=0,fundNextStage="—";
  try{
   if(out[0].status==="fulfilled")workflows=out[0].value.workflows||[];
   else throw out[0].reason;
@@ -145,7 +146,7 @@ async function load(){
    renderInvestorMonitor(d);
   }else $("secMeta").innerHTML='<span class="error">Could not load SEC history status: '+esc(out[2].reason.message)+'</span>';
   if(out[3].status==="fulfilled"){
-   const d=out[3].value,n=Number(d.unique_mapped_issuers||0),done=Number(d.fresh_issuers||d.ingested_issuers||0),pending=(d.pending_issuers||[]).length,failed=(d.failed_attempts||[]).length,pct=n?Math.min(100,done/n*100):0;
+   const d=out[3].value,n=Number(d.unique_mapped_issuers||0),done=Number(d.fresh_issuers||d.ingested_issuers||0),pending=(d.pending_issuers||[]).length,failed=(d.failed_attempts||[]).length,pct=n?Math.min(100,done/n*100):0;fundN=n;fundDone=done;fundFailed=failed;fundNextStage=d.next_stage||"—";
    $("fundIngested").textContent=fmtNum(d.ingested_issuers||0);$("fundUniverse").textContent=fmtNum(n);$("fundPending").textContent=fmtNum(pending);$("fundBar").style.width=pct.toFixed(1)+"%";
    $("fundStatus").className="pill "+(d.status==="complete"?"success":d.status==="partial"?"queued":"unknown");$("fundStatus").textContent=(d.status||"unknown").replaceAll("_"," ");
    $("fundMeta").textContent="Universe as of "+esc(d.universe_as_of||"—")+" · basis: "+esc(d.universe_basis||"not specified")+" · next: "+esc(d.next_stage||"—")+" · updated "+dt(d.updated_at);
@@ -175,11 +176,11 @@ async function load(){
     const doneToday=etDate(fundRun.created_at)===todayET;
     $("fundDate").textContent=(doneToday?"Fundamentals run today":"No fundamentals run recorded today")+" · latest "+dateText;
     const outcome=fundRun.status==="in_progress"?"running":(fundRun.conclusion||fundRun.status);
-    $("fundTopDetail").textContent=fmtNum(done)+" / "+fmtNum(n)+" fresh issuers · "+failed+" failed Companyfacts requests · latest run "+outcome+" at "+dateText+" · next: "+(d.next_stage||"—");
+    $("fundTopDetail").textContent=fmtNum(fundDone)+" / "+fmtNum(fundN)+" fresh issuers · "+fundFailed+" failed Companyfacts requests · latest run "+outcome+" at "+dateText+" · next: "+fundNextStage;
   }
   $("updated").textContent="Updated "+new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",second:"2-digit"}).format(new Date())+" ET";
  }catch(err){
-  $("updated").innerHTML='<span class="error">Live API unavailable</span>';
+  $("updated").innerHTML='<span class="error">Refresh issue: '+esc(err.message)+'</span>';
   if(!workflows.length)$("workflowRows").innerHTML='<tr><td colspan="5" class="empty error">Unable to load GitHub Actions. '+esc(err.message)+'</td></tr>';
  }finally{$("refresh").disabled=false}
 }
