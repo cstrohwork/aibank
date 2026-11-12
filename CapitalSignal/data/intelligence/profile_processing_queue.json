@@ -20,14 +20,18 @@
     {
       "id": "CIK0001037389",
       "name": "RENAISSANCE TECHNOLOGIES LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2026-06-30",
       "filing_date": "2026-08-13",
       "source_file": "CapitalSignal/data/13f/0001037389-2026-06-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001037389-26-000059",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Accession and cached holdings verified; monetary units, amendment precedence and publication still require reconciliation",
+      "holdings_count": 3140,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1037389/000103738926000059/",
+      "source_blob_sha": "c74eaef65d8abf9fb39206b8b23255d46e2e2c6c",
+      "last_checked_at": "2026-11-12T05:53:47Z"
     },
     {
       "id": "CIK0001067983",
@@ -50,8 +54,8 @@
       "source_file": "CapitalSignal/data/13f/0001979372-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "Transient source retrieval failure"
     },
     {
       "id": "CIK0000019617",
@@ -403,7 +407,6 @@
     }
   ],
   "next_batch_ids": [
-    "CIK0001037389",
     "CIK0001979372",
     "CIK0000019617",
     "CIK0001390777",
@@ -412,9 +415,23 @@
     "CIK0000713676",
     "CIK0000831001",
     "CIK0001710537",
-    "CIK0000046392"
+    "CIK0000046392",
+    "CIK0002032602"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
-  "failed_count": 0
+  "failed_count": 0,
+  "last_processing_at": "2026-11-12T05:53:47Z",
+  "last_batch_validation": [
+    {
+      "id": "CIK0001037389",
+      "valid": true,
+      "accession": "0001037389-26-000059",
+      "holdings": 3140
+    },
+    {
+      "id": "CIK0001979372",
+      "error": "SyntaxError: Unexpected end of JSON input"
+    }
+  ]
 }
