@@ -32,6 +32,7 @@ jobs:
       - name: Verify ingestion and calculation regressions
         run: python -m unittest discover -s tests -v
       - name: Validate latest committed data
+        if: always()
         run: python scripts/check_capitalsignal.py
       - name: Publish health report
         if: always()
@@ -52,3 +53,4 @@ jobs:
           else
             echo 'Health worker failed before generating its report.' >> "$GITHUB_STEP_SUMMARY"
           fi
+

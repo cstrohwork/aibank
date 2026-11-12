@@ -6,9 +6,8 @@ on:
     paths:
       - '.github/workflows/sec-history.yml'
       - 'scripts/sec_history.py'
+      - 'scripts/sec_worker_control.py'
       - 'scripts/rebuild_history.py'
-  schedule:
-    - cron: '*/5 * * * *'
 permissions:
   actions: write
   contents: write
@@ -24,6 +23,7 @@ jobs:
       SEC_HISTORY_BATCH: '1000'
       # Each run processes a larger bounded batch; the worker queues the next run after a productive checkpoint.
       SEC_HISTORY_SECONDS: '1200'
+      SEC_HISTORY_WORKERS: '3'
       SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
     steps:
       - uses: actions/checkout@v4
@@ -38,20 +38,48 @@ jobs:
           python-version: '3.11'
       - name: Verify historical calculations and amendment handling
         run: python -m unittest discover -s tests -v
+      - name: Recover verified originals retained by failed runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/sec_worker_control.py restore
       - name: Publish previously retained raw submissions
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/release_history.py
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/release_history.py; then exit 0; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep $((attempt * 15))
+          done
       - name: Discover and archive the next filing batch
         id: archive
         run: python scripts/sec_history.py
+      - name: Retain a recoverable checkpoint before publication
+        if: always() && steps.archive.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sec-history-checkpoint
+          path: |
+            CapitalSignal/data/history/archive_state.json.gz
+            CapitalSignal/data/history/status.json
+            CapitalSignal/data/history/raw/
+            CapitalSignal/data/history/normalized/
+          retention-days: 3
+          compression-level: 0
+          if-no-files-found: error
       - name: Publish new raw submission shards
+        id: release
         if: always() && steps.archive.outcome != 'skipped'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/release_history.py
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/release_history.py; then exit 0; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep $((attempt * 15))
+          done
       - name: Rebuild period history and investor calculations
-        if: always() && steps.archive.outcome != 'skipped'
+        if: always() && steps.archive.outcome != 'skipped' && steps.release.outcome == 'success'
         run: |
           python scripts/rebuild_history.py
           python scripts/build_investor_profiles.py
@@ -59,7 +87,7 @@ jobs:
           python scripts/check_capitalsignal.py
       - name: Persist history and download checkpoints
         id: persist
-        if: always() && steps.archive.outcome != 'skipped'
+        if: always() && steps.archive.outcome != 'skipped' && steps.release.outcome == 'success'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -68,38 +96,14 @@ jobs:
             git commit -m 'Backfill SEC history from 2025-09-30 and rebuild reporting periods'
             for attempt in 1 2 3; do
               git fetch origin main
-              git rebase origin/main
+              if ! git rebase origin/main; then
+                git rebase --abort
+                exit 1
+              fi
               if git push origin HEAD:main; then exit 0; fi
               if [ "$attempt" -eq 3 ]; then exit 1; fi
             done
           fi
-      - name: Decide whether to queue the next batch
-        id: continue
-        if: always() && steps.persist.outcome == 'success' && steps.archive.outcome != 'skipped'
-        env:
-          SEC_RUN_STARTED_AT: ${{ steps.worker-start.outputs.started_at }}
-        run: |
-          python - <<'PY'
-          import datetime as dt, json, os
-          from pathlib import Path
-          status = json.loads(Path('CapitalSignal/data/history/status.json').read_text())
-          quarter = status.get('investor_filings', {}).get('current_quarter', {})
-          pending = int(quarter.get('pending', 0) or 0)
-          deferred = int(quarter.get('deferred', 0) or 0)
-          downloaded = int(status.get('downloaded_this_run', 0) or 0)
-          checked = status.get('checked_at') or status.get('updated_at') or ''
-          started = os.environ['SEC_RUN_STARTED_AT']
-          fresh = bool(checked and dt.datetime.fromisoformat(checked.replace('Z', '+00:00')) > dt.datetime.fromisoformat(started.replace('Z', '+00:00')))
-          keep_working = fresh and downloaded > 0 and (pending > 0 or deferred > 0)
-          print(f"Checkpoint fresh={fresh}; downloaded={downloaded}; pending={pending}; deferred={deferred}; queue_next={keep_working}")
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
-              output.write(f"queue_next={'true' if keep_working else 'false'}\n")
-          PY
-      - name: Dispatch next SEC filing batch
-        if: steps.continue.outputs.queue_next == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api --method POST repos/${GITHUB_REPOSITORY}/actions/workflows/sec-history.yml/dispatches -f ref=main
       - name: Publish backfill progress
         if: always()
         run: |
@@ -117,3 +121,4 @@ jobs:
             CapitalSignal/data/history/status.json
             worker-health.json
           retention-days: 30
+

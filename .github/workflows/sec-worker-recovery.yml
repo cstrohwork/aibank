@@ -1,0 +1,39 @@
+name: SEC ingestion automatic recovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sec-worker-recovery.yml'
+      - 'scripts/sec_worker_control.py'
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_run:
+    workflows: ['Backfill SEC filing history']
+    types: [completed]
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: sec-ingestion-supervisor
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            CapitalSignal/data/history/status.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Resume stopped ingestion with cooldown and duplicate-run protection
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/sec_worker_control.py supervise

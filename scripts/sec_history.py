@@ -10,6 +10,7 @@ import datetime as dt
 import gzip
 import hashlib
 import io
+import http.client
 import tarfile
 import functools
 import json
@@ -67,7 +68,18 @@ class ArchiveBudget:
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     raw = json.dumps(data, separators=(',', ':'), allow_nan=False).encode()
-    path.write_bytes(gzip.compress(raw, mtime=0) if path.suffix == '.gz' else raw)
+    payload = gzip.compress(raw, mtime=0) if path.suffix == '.gz' else raw
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(dir=path.parent, delete=False) as staged:
+            temporary = pathlib.Path(staged.name)
+            staged.write(payload)
+            staged.flush()
+            os.fsync(staged.fileno())
+        temporary.replace(path)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
 
 def load(path, default=None):
     if not path.exists():
@@ -75,8 +87,38 @@ def load(path, default=None):
     raw = path.read_bytes()
     return json.loads(gzip.decompress(raw) if path.suffix == '.gz' else raw)
 
-def open_sec(request, deadline=None):
-    """Retry transient SEC 503s only; access blocks stop immediately.
+def retry_at(exc, now=None):
+    """Persist timed cooldowns, including SEC Retry-After, across worker runs."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    code = getattr(exc, 'code', None)
+    seconds = 1800 if code == 403 else 900 if code == 429 else 300
+    value = (getattr(exc, 'headers', None) or {}).get('Retry-After')
+    if value:
+        try:
+            seconds = max(seconds, float(value))
+        except ValueError:
+            try:
+                when = email.utils.parsedate_to_datetime(value)
+                seconds = max(seconds, (when - now).total_seconds())
+            except (ValueError, TypeError, OverflowError):
+                pass
+    return (now + dt.timedelta(seconds=seconds)).isoformat()
+
+
+def retry_due(value, now=None):
+    if not value:
+        return True
+    try:
+        when = dt.datetime.fromisoformat(value.replace('Z', '+00:00'))
+        if when.tzinfo is None:
+            when = when.replace(tzinfo=dt.timezone.utc)
+        return when <= (now or dt.datetime.now(dt.timezone.utc))
+    except (ValueError, TypeError):
+        return False
+
+
+def open_sec(request, deadline=None, stop_event=None):
+    """Retry transient SEC and network failures; access blocks stop immediately.
 
     At most three requests, separated by 15/45 seconds or Retry-After.
     Longer requested pauses are left to the next scheduled worker.
@@ -85,12 +127,16 @@ def open_sec(request, deadline=None):
     for attempt in range(3):
         # Coordinate all worker request starts under one aggregate SEC rate limiter.
         with REQUEST_LOCK:
+            if stop_event is not None and stop_event.is_set():
+                raise BatchBudgetExceeded('SEC worker paused after another download reported an access failure')
             time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
             LAST_REQUEST = time.monotonic()
         try:
             return urllib.request.urlopen(request, timeout=60)
         except urllib.error.HTTPError as exc:
-            if exc.code != 503 or attempt == 2:
+            if exc.code not in (500, 502, 503, 504) or attempt == 2:
+                if stop_event is not None and exc.code in (403, 429, 500, 502, 503, 504):
+                    stop_event.set()
                 raise
             delay = (15, 45)[attempt]
             value = (exc.headers or {}).get('Retry-After')
@@ -104,10 +150,19 @@ def open_sec(request, deadline=None):
                     except (ValueError, TypeError, OverflowError):
                         raise exc
             if delay > 120 or (deadline is not None and time.monotonic() + delay + 60 >= deadline):
+                if stop_event is not None:
+                    stop_event.set()
                 raise
             print(json.dumps({'event': 'sec_503_retry', 'source': request.full_url,
                               'attempt': attempt + 2, 'pause_seconds': delay}), flush=True)
             exc.close()
+            time.sleep(delay)
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            delay = (15, 45)[min(attempt, 1)]
+            if attempt == 2 or (deadline is not None and time.monotonic() + delay + 60 >= deadline):
+                if stop_event is not None:
+                    stop_event.set()
+                raise
             time.sleep(delay)
 
 def fetch(url, limit=80_000_000):
@@ -120,7 +175,7 @@ def fetch(url, limit=80_000_000):
         raise ValueError('Response exceeds configured byte limit; requires larger archive storage')
     return raw
 
-def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline=None, budget=None):
+def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline=None, budget=None, stop_event=None):
     """Stream an original into atomic gzip staging with bounded disk and memory."""
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = None
@@ -131,7 +186,7 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
             'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
             'Accept-Encoding': 'identity'})
         digest, size, prefix = hashlib.sha256(), 0, b''
-        with open_sec(req, deadline=deadline) as response:
+        with open_sec(req, deadline=deadline, stop_event=stop_event) as response:
             expected = response.headers.get('Content-Length')
             with tempfile.NamedTemporaryFile(dir=path.parent, delete=False) as staged:
                 temporary = pathlib.Path(staged.name)
@@ -489,12 +544,23 @@ def run(root=ROOT):
     start = START
     dt.date.fromisoformat(start)
     history = root / 'history'
+    previous_run = load(history / 'status.json', {})
+    if not retry_due(previous_run.get('next_retry_at')):
+        print('SEC intake is cooling down until ' + previous_run['next_retry_at'])
+        return
     today = dt.datetime.now(dt.timezone.utc).astimezone(ZoneInfo('America/New_York')).date()
     rows, index_errors = catalogue(root, start, today)
     state = load(history / 'archive_state.json.gz', {})
     # Older runs incorrectly treated worker capacity boundaries as source errors.
     # Retain their exact diagnostic history without enforcing an SEC cooldown.
     for record in state.values():
+        # Repair the previous date-only, next-day hold for temporary SEC outages.
+        legacy_retry = record.get('retry_after', '')
+        if (record.get('status') == 'failed' and legacy_retry == (today + dt.timedelta(days=1)).isoformat()
+                and any('HTTP Error ' + str(code) in record.get('error', '') for code in (500, 502, 503, 504))):
+            record['prior_failure'] = {k: record[k] for k in ('error', 'retry_after') if k in record}
+            checked = previous_run.get('checked_at') or dt.datetime.now(dt.timezone.utc).isoformat()
+            record['retry_after'] = (dt.datetime.fromisoformat(checked.replace('Z', '+00:00')) + dt.timedelta(minutes=5)).isoformat()
         if record.get('status') == 'failed' and record.get('error') in BATCH_LIMIT_ERRORS:
             record['prior_failure'] = {k: record[k] for k in ('error', 'retry_after') if k in record}
             record['deferred_reason'] = record.pop('error')
@@ -526,7 +592,7 @@ def run(root=ROOT):
         # The old in-memory downloader rejected these before streaming existed.
         # Retry with the new capability; never override SEC access cooldowns.
         legacy_size = previous.get('error') == 'Response exceeds configured byte limit; requires larger archive storage'
-        return legacy_size or previous.get('retry_after', '') <= today.isoformat()
+        return legacy_size or retry_due(previous.get('retry_after'))
     available = [r for r in rows if eligible(r)]
     # Newest SEC filings outrank legacy retries; within the same filing date, new
     # rows precede failed/deferred rows. This keeps current intake from stalling.
@@ -557,21 +623,31 @@ def run(root=ROOT):
     queue_iter = iter(queue)
     inflight = {}
     stop_submitting = storage_blocked
+    stop_event = threading.Event()
+
+    def download_one(row, path, archive_limit):
+        for attempt in range(3):
+            try:
+                return archive_submission(row['source'], path, archive_limit,
+                    deadline=began + budget_seconds, budget=shared_budget, stop_event=stop_event)
+            except http.client.IncompleteRead:
+                delay = (15, 45)[min(attempt, 1)]
+                if attempt == 2 or time.monotonic() + delay + 60 >= began + budget_seconds:
+                    raise
+                time.sleep(delay)
 
     def submit_next(pool):
-        if stop_submitting or time.monotonic() - began >= budget_seconds:
+        if stop_submitting or stop_event.is_set() or time.monotonic() - began >= budget_seconds:
             return False
         try:
             next_row = next(queue_iter)
         except StopIteration:
             return False
         future = pool.submit(
-            archive_submission,
-            next_row['source'],
+            download_one,
+            next_row,
             history / 'raw' / next_row['filing_date'][:4] / next_row['cik'] / (next_row['accession'] + '.txt.gz'),
-            min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES),
-            deadline=began + budget_seconds,
-            budget=shared_budget)
+            min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES))
         inflight[future] = next_row
         return True
 
@@ -620,12 +696,13 @@ def run(root=ROOT):
                 stop_submitting = True
             except Exception as exc:
                 state[accession] = dict(row, status='failed', error=str(exc),
-                    retry_after=(today + dt.timedelta(days=1)).isoformat())
-                if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 503):
-                    download_interruption = {'http_status': exc.code, 'accession': accession,
+                    retry_after=retry_at(exc), attempts=state.get(accession, {}).get('attempts', 0) + 1)
+                if (isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 500, 502, 503, 504)) or (isinstance(exc, urllib.error.URLError) and not isinstance(exc, urllib.error.HTTPError)) or isinstance(exc, (TimeoutError, ConnectionError, http.client.IncompleteRead)):
+                    download_interruption = {'http_status': getattr(exc, 'code', None), 'accession': accession,
                         'source': row['source'], 'error': str(exc),
                         'retry_after': state[accession]['retry_after']}
                     stop_submitting = True
+                    stop_event.set()
             save(history / 'archive_state.json.gz', state)
             if not stop_submitting:
                 submit_next(pool)
@@ -654,6 +731,7 @@ def run(root=ROOT):
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'parallel_workers': worker_count, 'batch_budget_seconds': budget_seconds,
         'index_errors': index_errors, 'download_failures': len(failures),
         'download_interruption': download_interruption, 'batch_deferral': batch_deferral,
+        'next_retry_at': download_interruption.get('retry_after') if download_interruption else None,
         'deferred_filings': sum(s.get('status') == 'deferred' for s in state.values()),
         'normalization_failures': len(parse_errors),
         'archive_bytes': sum(x.get('archive_bytes',0) for x in archived), 'git_raw_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
@@ -682,3 +760,4 @@ def run(root=ROOT):
 
 if __name__ == '__main__':
     run()
+

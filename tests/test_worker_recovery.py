@@ -35,7 +35,7 @@ class RecoveryTests(unittest.TestCase):
                  mock.patch.object(history, 'archive_submission', side_effect=[
                      dict(sha256='fixture', raw_bytes=1, archive_bytes=1),
                      history.BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')]) as archive, \
-                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_WORKERS': '1', 'SEC_HISTORY_BATCH': '3'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 history.run(root)
             state = history.load(root / 'history/archive_state.json.gz')
@@ -113,7 +113,7 @@ class RecoveryTests(unittest.TestCase):
                 '1': dict(rows[1], status='failed', error='HTTP Error 503: Service Unavailable', retry_after='2999-01-01')})
             with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
                  mock.patch.object(history, 'archive_submission', return_value=dict(sha256='fixture', raw_bytes=1, archive_bytes=1)) as archive, \
-                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_WORKERS': '1', 'SEC_HISTORY_BATCH': '3'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 history.run(root)
             self.assertEqual([c.args[0] for c in archive.call_args_list], [rows[2]['source'], rows[0]['source']])
@@ -129,7 +129,7 @@ class RecoveryTests(unittest.TestCase):
                 '0': dict(rows[0], status='failed', error='Response exceeds configured byte limit; requires larger archive storage', retry_after='2999-01-01')})
             with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
                  mock.patch.object(history, 'archive_submission', return_value=dict(sha256='fixture', raw_bytes=1, archive_bytes=1)) as archive, \
-                 mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '5'}), \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_WORKERS': '1', 'SEC_HISTORY_BATCH': '5'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 history.run(root)
             self.assertEqual(archive.call_args_list[0].args[0], rows[1]['source'])
@@ -184,3 +184,4 @@ class StandaloneIdentityTests(unittest.TestCase):
         raw = b'<DOCUMENT><TYPE>NPORT-P\n<XML>' + self.xml() + b'</XML></DOCUMENT>'
         with tempfile.TemporaryDirectory() as directory, self.assertRaisesRegex(ValueError, 'catalogue registrant'):
             history.normalize(row, raw, pathlib.Path(directory), '2025-09-30')
+
