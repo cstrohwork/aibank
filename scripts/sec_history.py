@@ -32,6 +32,7 @@ POSITION_FORMS = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'}
 LAST_REQUEST = 0.0
 NORMALIZER_VERSION = 2
 LIVE_FEED_STATUS = {'status': 'not_checked', 'new_accessions': 0}
+RUN_ARCHIVE_BUDGET_BYTES = 100_000_000
 BATCH_LIMIT_ERRORS = {
     'SEC submission exceeds remaining compressed archive budget',
     'SEC submission exceeded batch time budget',
@@ -60,6 +61,7 @@ def open_sec(request, deadline=None):
     """
     global LAST_REQUEST
     for attempt in range(3):
+        # Enforce a single 0.4s minimum between SEC requests; callers must not throttle twice.
         time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
         LAST_REQUEST = time.monotonic()
         try:
@@ -86,9 +88,6 @@ def open_sec(request, deadline=None):
             time.sleep(delay)
 
 def fetch(url, limit=80_000_000):
-    global LAST_REQUEST
-    time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
-    LAST_REQUEST = time.monotonic()
     req = urllib.request.Request(url, headers={
         'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
         'Accept-Encoding': 'identity'})
@@ -100,12 +99,9 @@ def fetch(url, limit=80_000_000):
 
 def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline=None):
     """Stream an original into atomic gzip staging with bounded disk and memory."""
-    global LAST_REQUEST
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = None
     try:
-        time.sleep(max(0, 0.4 - (time.monotonic() - LAST_REQUEST)))
-        LAST_REQUEST = time.monotonic()
         req = urllib.request.Request(url, headers={
             'User-Agent': os.getenv('SEC_USER_AGENT', 'CapitalSignal Research hello@ainvestmentbank.ai'),
             'Accept-Encoding': 'identity'})
@@ -517,13 +513,13 @@ def run(root=ROOT):
     budget_seconds = max(30, min(1200, int(os.getenv('SEC_HISTORY_SECONDS', '1200'))))
     began = time.monotonic()
     for row in queue:
-        if storage_blocked or time.monotonic() - began > budget_seconds or bytes_saved >= 60_000_000:
+        if storage_blocked or time.monotonic() - began > budget_seconds or bytes_saved >= RUN_ARCHIVE_BUDGET_BYTES:
             break
         accession = row['accession']
         path = history / 'raw' / row['filing_date'][:4] / row['cik'] / (accession + '.txt.gz')
         try:
             metadata = archive_submission(row['source'], path,
-                min(storage_limit - stored_bytes, 60_000_000 - bytes_saved),
+                min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES - bytes_saved),
                 deadline=began + budget_seconds)
             stored_bytes += metadata['archive_bytes']
             bytes_saved += metadata['archive_bytes']
