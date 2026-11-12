@@ -3,7 +3,7 @@
 import collections, datetime as dt, gzip, json, pathlib
 from ingest_sp1500_fundamentals import OUT, ROOT, dump, now, snapshot
 
-def match_positions(holdings, members, records, report_date):
+def match_positions(holdings, members, records, report_date, fact_cache=None):
  by_cusip={s['cusip']:s for s in members}
  total=matched=fundamental=0.; weighted=collections.defaultdict(float);covered=collections.defaultdict(float)
  matched_rows=[]
@@ -14,7 +14,13 @@ def match_positions(holdings, members, records, report_date):
   if not isinstance(value,(int,float)) or value<=0:continue
   total+=value;s=by_cusip.get(h.get('cusip'));cik=s.get('cik') if s else None
   if s: matched+=value
-  facts=snapshot(records[cik],report_date) if cik in records else {}
+  if cik in records:
+   if fact_cache is None:facts=snapshot(records[cik],report_date)
+   else:
+    cache_key=(cik,report_date)
+    if cache_key not in fact_cache:fact_cache[cache_key]=snapshot(records[cik],report_date)
+    facts=fact_cache[cache_key]
+  else:facts={}
   if facts: fundamental+=value
   matched_rows.append({'cusip':h.get('cusip'),'cik':cik,'value_usd':value,'fields_available':sorted(facts)})
   # Exposure-weighted issuer ratios; never sum full issuer financials across holdings.
@@ -37,11 +43,11 @@ def main():
  for e in index['managers']:
   cik=e['manager_cik']
   if cik not in latest or e['report_date']>latest[cik]['report_date']:latest[cik]=e
- profiles=[];missing=0
+ profiles=[];missing=0;fact_cache={}
  for e in latest.values():
   path=ROOT/'CapitalSignal/data/13f'/e['file']
   if not path.exists():missing+=1;continue
-  data=json.loads(path.read_text());r=match_positions(data['holdings'],universe['securities'],records,e['report_date'])
+  data=json.loads(path.read_text());r=match_positions(data['holdings'],universe['securities'],records,e['report_date'],fact_cache)
   r.pop('positions')
   r.update(manager_cik=e['manager_cik'],report_date=e['report_date'],identifier_mapping_basis='current SPTM CUSIP to issuer map; no historical membership inferred',benchmark_comparison_status='pending_historical_benchmark' if e['report_date']!=universe['as_of'] else 'pending_prices_and_sector_data',calculated_style=None)
   profiles.append(r)

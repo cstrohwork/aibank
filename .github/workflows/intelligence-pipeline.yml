@@ -16,7 +16,7 @@ on:
       - 'scripts/run_intelligence_pipeline.py'
       - 'CapitalSignal/model/**'
   workflow_run:
-    workflows: ['S&P 1500 fundamentals ingestion', 'Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
+    workflows: ['Recover saved fundamentals checkpoint', 'S&P 1500 fundamentals ingestion', 'Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
     types: [completed]
   schedule:
     - cron: '23 11 * * *'

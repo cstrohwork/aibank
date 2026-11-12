@@ -1,0 +1,44 @@
+name: Recover saved fundamentals checkpoint
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/recover-fundamentals.yml']
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: recover-sp1500-checkpoint
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Download preserved successful ingestion
+        uses: actions/download-artifact@v4
+        with:
+          name: sp1500-ingestion-evidence
+          run-id: 43150270157
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ runner.temp }}/fundamental-recovery
+      - name: Recover verified inputs without overwriting derived reports
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python scripts/publish_fundamental_checkpoint.py --checkpoint "$RUNNER_TEMP/fundamental-recovery"
+      - name: Verify recovered coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('CapitalSignal/data/fundamentals/status.json').read_text())
+          assert report['ingested_issuers'] >= 1498, report
+          print(report['ingested_issuers'], '/', report['unique_mapped_issuers'], 'issuer caches verified and published')
+          PY
