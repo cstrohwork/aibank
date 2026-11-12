@@ -20,15 +20,18 @@ jobs:
     timeout-minutes: 30
     env:
       SEC_HISTORY_START: '2025-09-30'
-      SEC_HISTORY_BATCH: '250'
-      # Each run works a bounded four-minute filing batch; continuation dispatches the next batch after any productive checkpoint.
-      SEC_HISTORY_SECONDS: ${{ github.event_name == 'push' && '240' || '240' }}
+      SEC_HISTORY_BATCH: '1000'
+      # Each run processes a larger bounded batch; the worker queues the next run after a productive checkpoint.
+      SEC_HISTORY_SECONDS: '1200'
       SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 1
+      - name: Record worker start time
+        id: worker-start
+        run: echo "started_at=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -54,6 +57,7 @@ jobs:
           python scripts/build_fund_firms.py
           python scripts/check_capitalsignal.py
       - name: Persist history and download checkpoints
+        id: persist
         if: always() && steps.archive.outcome != 'skipped'
         run: |
           git config user.name 'github-actions[bot]'
@@ -68,6 +72,33 @@ jobs:
               if [ "$attempt" -eq 3 ]; then exit 1; fi
             done
           fi
+      - name: Decide whether to queue the next batch
+        id: continue
+        if: always() && steps.persist.outcome == 'success' && steps.archive.outcome != 'skipped'
+        env:
+          SEC_RUN_STARTED_AT: ${{ steps.worker-start.outputs.started_at }}
+        run: |
+          python - <<'PY'
+          import datetime as dt, json, os
+          from pathlib import Path
+          status = json.loads(Path('CapitalSignal/data/history/status.json').read_text())
+          quarter = status.get('investor_filings', {}).get('current_quarter', {})
+          pending = int(quarter.get('pending', 0) or 0)
+          deferred = int(quarter.get('deferred', 0) or 0)
+          downloaded = int(status.get('downloaded_this_run', 0) or 0)
+          checked = status.get('checked_at') or status.get('updated_at') or ''
+          started = os.environ['SEC_RUN_STARTED_AT']
+          fresh = bool(checked and dt.datetime.fromisoformat(checked.replace('Z', '+00:00')) > dt.datetime.fromisoformat(started.replace('Z', '+00:00')))
+          keep_working = fresh and downloaded > 0 and (pending > 0 or deferred > 0)
+          print(f"Checkpoint fresh={fresh}; downloaded={downloaded}; pending={pending}; deferred={deferred}; queue_next={keep_working}")
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f"queue_next={'true' if keep_working else 'false'}\n")
+          PY
+      - name: Dispatch next SEC filing batch
+        if: steps.continue.outputs.queue_next == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${GITHUB_REPOSITORY}/actions/workflows/sec-history.yml/dispatches -f ref=main
       - name: Publish backfill progress
         if: always()
         run: |
