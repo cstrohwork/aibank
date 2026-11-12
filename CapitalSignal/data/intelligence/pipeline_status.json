@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-12T09:12:17.406927+00:00",
-  "updated_at": "2026-11-12T09:13:27.841140+00:00",
+  "started_at": "2026-11-12T09:14:13.188345+00:00",
+  "updated_at": "2026-11-12T09:15:12.634902+00:00",
   "status": "completed",
   "scope": "Calculation execution only; successful execution does not certify source coverage or Model activation.",
   "stages": [
@@ -9,7 +9,7 @@
       "script": "build_identity_master.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-12T09:12:27.063118+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 6255, \"security_count\": 32457, \"relationship_count\": 209, \"issuer_mapping_observation_count\": 1506, \"ambiguous_security_count\": 0, \"quarantine_observations\": 8797, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"]}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-12T09:14:20.587417+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 6255, \"security_count\": 32457, \"relationship_count\": 209, \"issuer_mapping_observation_count\": 1506, \"ambiguous_security_count\": 0, \"quarantine_observations\": 8797, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"]}\n",
       "stderr_tail": ""
     },
     {
@@ -25,7 +25,7 @@
       "script": "market_inputs.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-12T09:12:39.387945+00:00\", \"as_of\": \"2026-11-10\", \"universe_basis\": \"SPTM ETF holdings proxy; not official index constituents or historical membership\", \"security_count\": 1506, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 1436, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-12T09:14:30.406760+00:00\", \"as_of\": \"2026-11-10\", \"universe_basis\": \"SPTM ETF holdings proxy; not official index constituents or historical membership\", \"security_count\": 1506, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 1436, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
       "stderr_tail": ""
     },
     {
@@ -57,7 +57,7 @@
       "script": "parse_investor_events.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"catalogued_candidate_filings\": 1091, \"archived_candidate_filings\": 1091, \"selected_filings\": 99, \"parsed_filings\": 1015, \"beneficial_ownership_records\": 2272, \"proxy_vote_records\": 9821, \"unavailable_filings\": 72, \"unsupported_filings\": 4, \"unselected_archived_filings\": 0, \"unchanged_unsupported_filings\": 4, \"previously_parsed_filings\": 988, \"remaining_archived_filings\": 76, \"release_shards_fetched\": 2}\n",
+      "stdout_tail": "{\"catalogued_candidate_filings\": 1091, \"archived_candidate_filings\": 1091, \"selected_filings\": 72, \"parsed_filings\": 1042, \"beneficial_ownership_records\": 2326, \"proxy_vote_records\": 9852, \"unavailable_filings\": 45, \"unsupported_filings\": 4, \"unselected_archived_filings\": 0, \"unchanged_unsupported_filings\": 4, \"previously_parsed_filings\": 1015, \"remaining_archived_filings\": 49, \"release_shards_fetched\": 2}\n",
       "stderr_tail": ""
     },
     {
