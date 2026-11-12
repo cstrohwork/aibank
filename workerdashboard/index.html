@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#091a2b">
+<title>Worker Dashboard | Capital Signal Intelligence</title>
+<style>
+:root{--navy:#091a2b;--navy2:#102b45;--ink:#17283b;--muted:#627488;--line:#dce5ed;--paper:#f3f6f9;--white:#fff;--blue:#1664a6;--green:#13734a;--greenbg:#e8f5ee;--amber:#8d5a08;--amberbg:#fff4dc;--red:#a73434;--redbg:#fdecec;--slate:#536578;--slatebg:#edf1f5}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:var(--navy);color:#fff;padding:24px max(22px,calc((100% - 1220px)/2));border-bottom:4px solid #2c77b8}.brand{font-size:12px;letter-spacing:.16em;font-weight:800;color:#a9c6df}.topline{display:flex;align-items:center;justify-content:space-between;gap:16px}.title{font-size:clamp(26px,4vw,38px);margin:14px 0 6px;letter-spacing:-.03em}.subtitle{margin:0;color:#c3d4e3;font-size:14px}.head-actions{display:flex;align-items:center;gap:12px}.button{border:1px solid #68839c;color:#fff;background:#153450;border-radius:8px;padding:10px 14px;font:600 13px inherit;cursor:pointer}.button:hover{background:#1c476b}.updated{font-size:12px;color:#c3d4e3;white-space:nowrap}.wrap{max-width:1220px;margin:24px auto;padding:0 20px 44px}.notice{display:flex;gap:12px;align-items:flex-start;background:#eaf2f9;border:1px solid #cbdbea;border-radius:10px;padding:14px 16px;color:#29445f;font-size:13px;line-height:1.5;margin-bottom:20px}.notice strong{color:#132f4a}.grid{display:grid;gap:14px}.stats{grid-template-columns:repeat(4,minmax(0,1fr));margin:18px 0 24px}.card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:0 2px 8px #112b4510}.stat-label{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:800}.stat-value{font-size:30px;font-weight:750;letter-spacing:-.04em;margin:8px 0 4px}.stat-note{font-size:12px;color:var(--muted);line-height:1.45}.section-head{display:flex;justify-content:space-between;align-items:end;margin:26px 0 12px;gap:12px}.section-head h2{font-size:18px;margin:0}.section-head p{font-size:12px;color:var(--muted);margin:4px 0 0}.pill{display:inline-flex;align-items:center;gap:7px;padding:5px 9px;border-radius:999px;font-weight:750;font-size:11px;white-space:nowrap}.pill:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}.running{color:var(--blue);background:#e7f1fb}.success{color:var(--green);background:var(--greenbg)}.failure{color:var(--red);background:var(--redbg)}.paused{color:var(--slate);background:var(--slatebg)}.queued{color:var(--amber);background:var(--amberbg)}.unknown{color:var(--slate);background:var(--slatebg)}.tablewrap{overflow:auto}.table{width:100%;border-collapse:collapse;min-width:700px}.table th{text-align:left;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:11px 10px;border-bottom:1px solid var(--line)}.table td{padding:13px 10px;border-bottom:1px solid #edf1f4;font-size:13px;vertical-align:middle}.table tr:last-child td{border-bottom:0}.job{font-weight:700;color:#18344f}.small{font-size:11px;color:var(--muted);margin-top:4px}.link{color:var(--blue);font-weight:650;text-decoration:none}.link:hover{text-decoration:underline}.data-grid{grid-template-columns:1fr 1fr;margin-top:12px}.data-title{font-weight:750;font-size:15px;margin-bottom:5px}.data-metrics{display:flex;gap:20px;flex-wrap:wrap;margin:14px 0 5px}.metric b{font-size:19px;display:block}.metric span{font-size:11px;color:var(--muted)}.bar{height:8px;background:#e9eef3;border-radius:9px;overflow:hidden;margin:12px 0 6px}.bar span{height:100%;display:block;background:#337db6;border-radius:9px}.bar.warm span{background:#d6a23b}.foot{font-size:11px;color:var(--muted);line-height:1.55}.empty{padding:24px;text-align:center;color:var(--muted)}.filters{display:flex;gap:6px}.filter{background:#fff;border:1px solid var(--line);border-radius:7px;padding:7px 10px;color:#43576b;font-weight:650;font-size:11px;cursor:pointer}.filter.on{background:#eaf2f9;border-color:#9bb9d3;color:#164d7a}.error{color:var(--red)}.spacer{height:4px}@media(max-width:820px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.data-grid{grid-template-columns:1fr}.topline{align-items:flex-start}.head-actions{flex-direction:column;align-items:flex-end}.updated{white-space:normal;text-align:right}}@media(max-width:500px){header{padding:19px 18px}.wrap{padding:0 14px 32px}.stats{gap:9px}.card{padding:14px}.stat-value{font-size:25px}.button{padding:8px 10px}.head-actions{gap:8px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="topline"><div class="brand">AIBANK&nbsp;&nbsp; / &nbsp;&nbsp;CAPITAL SIGNAL INTELLIGENCE</div><div class="head-actions"><div id="updated" class="updated">Connecting to live status…</div><button class="button" id="refresh" type="button">Refresh now</button></div></div>
+  <h1 class="title">Worker Dashboard</h1>
+  <p class="subtitle">Project, data pipeline, and GitHub worker status</p>
+</header>
+<main class="wrap">
+  <div class="notice"><span aria-hidden="true">●</span><div><strong>Live operational view.</strong> GitHub Actions and the published data status files refresh automatically every five minutes. ChatGPT scheduled agents are listed separately in the process notes below; their private run/pause state is not available to an external webpage.</div></div>
+  <div class="grid stats">
+    <article class="card"><div class="stat-label">Workers running</div><div class="stat-value" id="runningCount">—</div><div class="stat-note">GitHub Actions jobs currently in progress</div></article>
+    <article class="card"><div class="stat-label">Workflows enabled</div><div class="stat-value" id="enabledCount">—</div><div class="stat-note">Scheduled or manually triggered workflows</div></article>
+    <article class="card"><div class="stat-label">Recent failures</div><div class="stat-value" id="failureCount">—</div><div class="stat-note">Latest 20 workflow runs with a failure</div></article>
+    <article class="card"><div class="stat-label">Data services</div><div class="stat-value" id="dataCount">2</div><div class="stat-note">SEC history and S&amp;P 1500 fundamentals status</div></article>
+  </div>
+
+  <div class="section-head"><div><h2>Data pipeline progress</h2><p>Counts below come from the repository’s published status files.</p></div><a class="link" href="https://github.com/cstrohwork/aibank/tree/main/CapitalSignal/data">Open data files ↗</a></div>
+  <div class="grid data-grid">
+    <article class="card" id="secCard"><div class="data-title">SEC filing history</div><div class="pill unknown" id="secStatus">Loading</div><div class="data-metrics"><div class="metric"><b id="secArchived">—</b><span>complete submissions archived</span></div><div class="metric"><b id="secPending">—</b><span>catalogued filings pending</span></div><div class="metric"><b id="secTotal">—</b><span>catalogued filings total</span></div></div><div class="bar"><span id="secBar" style="width:0"></span></div><div class="foot" id="secMeta">Reading status…</div></article>
+    <article class="card" id="fundCard"><div class="data-title">S&amp;P 1500 fundamentals</div><div class="pill unknown" id="fundStatus">Loading</div><div class="data-metrics"><div class="metric"><b id="fundIngested">—</b><span>issuers ingested</span></div><div class="metric"><b id="fundUniverse">—</b><span>unique mapped issuers</span></div><div class="metric"><b id="fundPending">—</b><span>pending issuers</span></div></div><div class="bar warm"><span id="fundBar" style="width:0"></span></div><div class="foot" id="fundMeta">Reading status…</div></article>
+  </div>
+
+  <div class="section-head"><div><h2>GitHub workers</h2><p>Live workflow state and latest run from the public AIBank repository.</p></div><div class="filters" id="filters"><button class="filter on" data-filter="all">All</button><button class="filter" data-filter="active">Running</button><button class="filter" data-filter="failed">Failed</button></div></div>
+  <article class="card tablewrap"><table class="table"><thead><tr><th>Worker / workflow</th><th>State</th><th>Latest run</th><th>Updated</th><th></th></tr></thead><tbody id="workflowRows"><tr><td colspan="5" class="empty">Loading GitHub workflows…</td></tr></tbody></table></article>
+  
+  <div class="section-head"><div><h2>Scheduled agent processes</h2><p>Schedule and task configuration snapshot from the connected project setup.</p></div></div>
+  <article class="card"><div class="tablewrap"><table class="table"><thead><tr><th>Process</th><th>Cadence</th><th>Configured role</th><th>Live run state</th></tr></thead><tbody>
+    <tr><td class="job">Continuous investor profiles<div class="small">Prioritize largest institutions with recent filings</div></td><td>Hourly</td><td>Profile queue and publication</td><td><span class="pill unknown">Private to ChatGPT</span></td></tr>
+    <tr><td class="job">Capital Signal development worker<div class="small">S&amp;P 1500 fundamentals, then benchmarks</div></td><td>Daily · around 8:00 AM ET</td><td>Bounded code/data task from backlog</td><td><span class="pill unknown">Private to ChatGPT</span></td></tr>
+    <tr><td class="job">Capital Signal health monitor<div class="small">SEC freshness, backfill, integrity and stale checkpoints</div></td><td>Daily · around 10:00 AM ET</td><td>Report material failures</td><td><span class="pill unknown">Private to ChatGPT</span></td></tr>
+    <tr><td class="job">Website deployment tracker<div class="small">Public pages and Pages deployment</div></td><td>Hourly</td><td>Verify content and report blockers</td><td><span class="pill unknown">Private to ChatGPT</span></td></tr>
+    <tr><td class="job">Saturday Weekly Review<div class="small">Research, produce, publish and verify edition</div></td><td>Weekly · Saturday around 10:00 AM ET</td><td>Newsletter and LinkedIn draft</td><td><span class="pill unknown">Private to ChatGPT</span></td></tr>
+  </tbody></table></div><p class="foot">These are scheduled ChatGPT automations, not GitHub runners. This page cannot read their live enabled/paused state or running task details. For the authoritative current state, open ChatGPT → Tasks. The rows above show configured schedules; pause/resume and recent run results are private to that account.</p></article>
+
+  <div class="section-head"><div><h2>Recent activity</h2><p>Run history includes outcomes even when no worker is currently running.</p></div><a class="link" href="https://github.com/cstrohwork/aibank/actions">Open all Actions ↗</a></div>
+  <article class="card tablewrap"><table class="table"><thead><tr><th>Workflow</th><th>Result</th><th>Triggered</th><th>Started</th><th></th></tr></thead><tbody id="activityRows"><tr><td colspan="5" class="empty">Loading recent activity…</td></tr></tbody></table></article>
+  <div class="spacer"></div><p class="foot">Auto-refresh: every 5 minutes. GitHub's unauthenticated API may be rate limited during heavy traffic; use “Refresh now” to retry. Data reflects the latest committed status snapshot and GitHub run state, not a guarantee that every pipeline stage or SEC filing has completed. <a class="link" href="https://github.com/cstrohwork/aibank/blob/main/CapitalSignal/WORKER_BACKLOG.md">Worker backlog ↗</a></p>
+</main>
+<script>
+(function(){
+"use strict";
+const owner="cstrohwork", repo="aibank", api="https://api.github.com/repos/"+owner+"/"+repo;
+const raw="https://raw.githubusercontent.com/"+owner+"/"+repo+"/main/CapitalSignal/data/";
+let runs=[], workflows=[], filter="all";
+const $=id=>document.getElementById(id);
+const fmtNum=n=>Number(n||0).toLocaleString("en-US");
+const dt=value=>{if(!value)return "—";const d=new Date(value);return isNaN(d)?"—":new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}).format(d)+" ET"};
+const esc=s=>String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function stateLabel(status,conclusion,enabled){
+ if(status==="in_progress")return ["running","Running"];
+ if(status==="queued"||status==="requested"||status==="waiting")return ["queued","Queued"];
+ if(!enabled)return ["paused","Disabled"];
+ if(conclusion==="success")return ["success","Successful"];
+ if(conclusion==="failure"||conclusion==="timed_out"||conclusion==="cancelled"||conclusion==="action_required")return ["failure",conclusion==="cancelled"?"Cancelled":"Failed"];
+ return ["unknown","No run yet"];
+}
+function pill(cls,label){return '<span class="pill '+cls+'">'+esc(label)+'</span>'}
+function latestByWorkflow(){
+ const map={};for(const r of runs){if(!map[r.workflow_id])map[r.workflow_id]=r;}return map;
+}
+function renderWorkflows(){
+ const latest=latestByWorkflow();
+ const rows=workflows.map(w=>({w,r:latest[w.id]})).filter(x=>{
+   const s=x.r?stateLabel(x.r.status,x.r.conclusion,x.w.state==="active")[0]:(x.w.state==="active"?"unknown":"paused");
+   return filter==="all"||(filter==="active"&&s==="running")||(filter==="failed"&&s==="failure");
+ }).sort((a,b)=>a.w.name.localeCompare(b.w.name));
+ $("workflowRows").innerHTML=rows.length?rows.map(x=>{
+   const w=x.w,r=x.r,s=r?stateLabel(r.status,r.conclusion,w.state==="active"):stateLabel("",null,w.state==="active");
+   return "<tr><td><div class=\"job\">"+esc(w.name)+"</div><div class=\"small\">"+esc(w.path||"")+"</div></td><td>"+pill(s[0],s[1])+"</td><td>"+(r?esc("#"+r.run_number+" · "+r.event.replaceAll("_"," ")): "—")+"</td><td>"+dt(r&&r.updated_at)+"</td><td><a class=\"link\" href=\""+esc(r?r.html_url:w.html_url)+"\" target=\"_blank\" rel=\"noopener\">Open ↗</a></td></tr>";
+ }).join(""):'<tr><td colspan="5" class="empty">No matching workflows.</td></tr>';
+ const active=runs.filter(r=>r.status==="in_progress").length;
+ const enabled=workflows.filter(w=>w.state==="active").length;
+ const failures=runs.filter(r=>r.conclusion==="failure").length;
+ $("runningCount").textContent=fmtNum(active);$("enabledCount").textContent=fmtNum(enabled);$("failureCount").textContent=fmtNum(failures);
+}
+function renderActivity(){
+ const items=runs.slice(0,12);
+ $("activityRows").innerHTML=items.length?items.map(r=>{
+   const s=stateLabel(r.status,r.conclusion,true);
+   return "<tr><td class=\"job\">"+esc(r.name)+"<div class=\"small\">#"+esc(r.run_number)+" · "+esc(r.event.replaceAll("_"," "))+"</div></td><td>"+pill(s[0],s[1])+"</td><td>"+dt(r.created_at)+"</td><td>"+dt(r.run_started_at||r.created_at)+"</td><td><a class=\"link\" href=\""+esc(r.html_url)+"\" target=\"_blank\" rel=\"noopener\">Details ↗</a></td></tr>";
+ }).join(""):'<tr><td colspan="5" class="empty">No workflow runs returned.</td></tr>';
+}
+async function loadJson(url){const res=await fetch(url,{cache:"no-store"});if(!res.ok)throw new Error("HTTP "+res.status);return res.json();}
+async function load(){
+ $("refresh").disabled=true;$("updated").textContent="Refreshing live status…";
+ const tasks=[
+   loadJson(api+"/actions/workflows?per_page=100"),
+   loadJson(api+"/actions/runs?per_page=100"),
+   loadJson(raw+"history/status.json?x="+Date.now()),
+   loadJson(raw+"fundamentals/status.json?x="+Date.now())
+ ];
+ const out=await Promise.allSettled(tasks);
+ try{
+  if(out[0].status==="fulfilled")workflows=out[0].value.workflows||[];
+  else throw out[0].reason;
+  if(out[1].status==="fulfilled")runs=(out[1].value.workflow_runs||[]).sort((a,b)=>new Date(b.created_at)-new Date(a.created_at));
+  else throw out[1].reason;
+  renderWorkflows();renderActivity();
+  if(out[2].status==="fulfilled"){
+   const d=out[2].value, arch=Number(d.archived_filings||0),total=Number(d.catalogued_filings||0),pending=Number(d.pending_filings||0),pct=total?Math.min(100,arch/total*100):0;
+   $("secArchived").textContent=fmtNum(arch);$("secPending").textContent=fmtNum(pending);$("secTotal").textContent=fmtNum(total);$("secBar").style.width=pct.toFixed(1)+"%";
+   const cls=d.status==="complete"?"success":d.status==="in_progress"?"running":d.status==="failed"?"failure":"queued";
+   $("secStatus").className="pill "+cls;$("secStatus").textContent=(d.status||"unknown").replaceAll("_"," ");
+   $("secMeta").textContent="Live feed: "+(d.live_feed&&d.live_feed.status||"unknown")+" · "+fmtNum(d.download_failures)+" download failures · "+fmtNum(d.normalization_failures)+" normalization failures · updated "+dt(d.updated_at);
+  }else $("secMeta").innerHTML='<span class="error">Could not load SEC history status: '+esc(out[2].reason.message)+'</span>';
+  if(out[3].status==="fulfilled"){
+   const d=out[3].value,n=Number(d.unique_mapped_issuers||0),done=Number(d.ingested_issuers||0),pending=(d.pending_issuers||[]).length, pct=n?Math.min(100,done/n*100):0;
+   $("fundIngested").textContent=fmtNum(done);$("fundUniverse").textContent=fmtNum(n);$("fundPending").textContent=fmtNum(pending);$("fundBar").style.width=pct.toFixed(1)+"%";
+   $("fundStatus").className="pill "+(d.status==="complete"?"success":d.status==="partial"?"queued":"unknown");$("fundStatus").textContent=(d.status||"unknown").replaceAll("_"," ");
+   $("fundMeta").textContent="Universe as of "+esc(d.universe_as_of||"—")+" · basis: "+esc(d.universe_basis||"not specified")+" · next: "+esc(d.next_stage||"—")+" · updated "+dt(d.updated_at);
+  }else $("fundMeta").innerHTML='<span class="error">Could not load fundamentals status: '+esc(out[3].reason.message)+'</span>';
+  $("updated").textContent="Updated "+new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit",second:"2-digit"}).format(new Date())+" ET";
+ }catch(err){
+  $("updated").innerHTML='<span class="error">Live API unavailable</span>';
+  if(!workflows.length)$("workflowRows").innerHTML='<tr><td colspan="5" class="empty error">Unable to load GitHub Actions. '+esc(err.message)+'</td></tr>';
+ }finally{$("refresh").disabled=false}
+}
+$("refresh").addEventListener("click",load);
+$("filters").addEventListener("click",e=>{const b=e.target.closest("button[data-filter]");if(!b)return;filter=b.dataset.filter;document.querySelectorAll(".filter").forEach(x=>x.classList.toggle("on",x===b));renderWorkflows()});
+load();setInterval(load,300000);
+})();
+</script>
+</body></html>
