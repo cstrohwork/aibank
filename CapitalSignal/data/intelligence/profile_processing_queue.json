@@ -408,14 +408,18 @@
     {
       "id": "CIK0001749744",
       "name": "Global Retirement Partners, LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-21",
       "source_file": "CapitalSignal/data/13f/0001749744-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001580642-25-006659",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached 13F accession and holdings validated. Source value_unit=USD but value_usd equals legacy value_thousands for sampled rows; monetary scale not independently reconciled. Amendment precedence and newer-period check pending; no style/orientation/turnover inference.",
+      "source_blob_sha": "4da485d2a73c5a1ca410b6ed089765889b6fb818",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1749744/0001580642-25-006659.txt",
+      "holdings_count": 3880,
+      "last_checked_at": "2026-11-12T12:33:00Z"
     },
     {
       "id": "CIK0002010235",
@@ -445,21 +449,18 @@
     "CIK0000046392",
     "CIK0002032602",
     "CIK0000019617",
-    "CIK0000314984",
-    "CIK0001749744"
+    "CIK0000314984"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T10:30:57Z",
+  "last_processing_at": "2026-11-12T12:33:00Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001616667",
-      "accession": "0000894189-25-011350",
-      "holdings_count": 3934,
-      "reported_13f_value_usd": 39714269452,
-      "top_10_position_concentration_pct": 12.06,
-      "source_blob_sha": "84662d89377f85aef53809f518730cd5b429148d",
+      "id": "CIK0001749744",
+      "accession": "0001580642-25-006659",
+      "holdings_count": 3880,
+      "source_blob_sha": "4da485d2a73c5a1ca410b6ed089765889b6fb818",
       "publication": "withheld_pending_reconciliation"
     }
   ],
@@ -476,15 +477,15 @@
     "CIK0002032602"
   ],
   "last_run": {
-    "at": "2026-11-12T11:07:33Z",
+    "at": "2026-11-12T12:33:00Z",
     "processed": [
-      "CIK0000314984"
+      "CIK0001749744"
     ],
     "counts": {
-      "validated_pending_publication": 7,
+      "validated_pending_publication": 8,
       "published": 1,
-      "pending": 24
+      "pending": 23
     },
-    "notes": "One cached 13F filing parsed; ambiguous USD scaling detected; deferred monetary calculations pending independent reconciliation."
+    "notes": "Global Retirement Partners cached filing parsed; monetary-scale inconsistency requires source reconciliation before publication."
   }
 }
