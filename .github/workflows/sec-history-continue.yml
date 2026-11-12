@@ -37,7 +37,7 @@ jobs:
           should_continue = fresh and (pending > 0 or deferred > 0) and (conclusion == 'success' or downloaded > 0)
           print(f"Pending: {pending}; deferred: {deferred}; downloaded in last run: {downloaded}; fresh checkpoint: {fresh}")
           with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
-              out.write(f"continue={'true' if should_continue else 'false'}\\n")
+              out.write(f"continue={'true' if should_continue else 'false'}\n")
           PY
       - name: Dispatch next SEC history batch
         if: steps.backlog.outputs.continue == 'true'
