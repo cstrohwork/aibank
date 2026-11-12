@@ -1,0 +1,38 @@
+name: Continue SEC investor filing backlog
+on:
+  workflow_run:
+    workflows: ["Backfill SEC filing history"]
+    types: [completed]
+permissions:
+  actions: write
+  contents: read
+jobs:
+  continue-if-current-quarter-pending:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Check current-quarter investor filing backlog
+        id: backlog
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('CapitalSignal/data/history/status.json')
+          data = json.loads(p.read_text()) if p.exists() else {}
+          quarter = data.get('investor_filings', {}).get('current_quarter', {})
+          pending = int(quarter.get('pending', 0) or 0)
+          deferred = int(quarter.get('deferred', 0) or 0)
+          print(f"Current quarter investor filings still pending: {pending}; deferred: {deferred}")
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
+              out.write(f"continue={'true' if pending or deferred else 'false'}\n")
+          PY
+      - name: Dispatch next SEC history batch
+        if: steps.backlog.outputs.continue == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST repos/${GITHUB_REPOSITORY}/actions/workflows/sec-history.yml/dispatches -f ref=main
