@@ -324,14 +324,19 @@
     {
       "id": "CIK0001115418",
       "name": "RHUMBLINE ADVISERS",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-06",
       "source_file": "CapitalSignal/data/13f/0001115418-2025-09-30.json",
-      "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "reported_13f_value_usd": 124512629507,
+      "accession_fingerprint": "0001115418-25-000021",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached filing parsed and USD holdings summed; source amendment review and latest reporting-period reconciliation remain pending. Style, orientation and turnover unknown.",
+      "source_blob_sha": "cac57fada3905a2001b5bd596c64c0974ff9890b",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1115418/0001115418-25-000021.txt",
+      "holdings_count": 4172,
+      "top_10_position_concentration_pct": 32.47,
+      "last_checked_at": "2026-11-12T09:26:30Z"
     },
     {
       "id": "CIK0001455267",
@@ -432,19 +437,21 @@
     "CIK0002032602",
     "CIK0000019617",
     "CIK0001856022",
-    "CIK0001115418"
+    "CIK0000314984"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T08:55:00Z",
+  "last_processing_at": "2026-11-12T09:26:30Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001455267",
-      "valid": true,
-      "accession": "0001455267-25-000009",
-      "holdings": 4139,
-      "calculated_13f_value_usd": 1295019634
+      "id": "CIK0001115418",
+      "accession": "0001115418-25-000021",
+      "holdings_count": 4172,
+      "reported_13f_value_usd": 124512629507,
+      "top_10_position_concentration_pct": 32.47,
+      "source_blob_sha": "cac57fada3905a2001b5bd596c64c0974ff9890b",
+      "publication": "withheld_pending_reconciliation"
     }
   ]
 }
