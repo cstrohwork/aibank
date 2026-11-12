@@ -260,8 +260,7 @@ def catalogue(root, start, today):
     LIVE_FEED_STATUS = {'status': 'checking', 'new_accessions': 0}
     try:
         live_rows = current_feed_rows(start, known_accessions)
-        LIVE_FEED_STATUS = {'status': 'ok', 'new_accessions': len(live_rows),
-            'checked_at': dt.datetime.now(dt.timezone.utc).isoformat()}
+        LIVE_FEED_STATUS = {'status': 'ok', 'new_accessions': len(live_rows)}
         current_key = f'{today.year}Q{(today.month - 1) // 3 + 1}'
         current_path = history / 'catalogue' / (current_key + '.json.gz')
         current_rows = load(current_path, [])
@@ -523,6 +522,7 @@ def run(root=ROOT):
     archived = [state[r['accession']] for r in rows if state.get(r['accession'], {}).get('status') == 'archived']
     failures = [s for s in state.values() if s.get('status') == 'failed']
     parse_errors = [s for s in archived if s.get('normalization_error')]
+    previous_status = load(history / 'status.json', {})
     summary = {'start_filing_date': start, 'start_holdings_report_date': start,
         'updated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
         'live_feed': LIVE_FEED_STATUS,
@@ -535,7 +535,16 @@ def run(root=ROOT):
         'archive_bytes': sum(x.get('archive_bytes',0) for x in archived), 'git_raw_bytes': stored_bytes, 'storage_limit_bytes': storage_limit,
         'storage_blocked': storage_blocked,
         'status': 'storage_blocked' if storage_blocked else 'complete' if rows and len(archived) == len(rows) and not index_errors and not failures and not parse_errors else 'in_progress',
-        'scope': 'All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Catalogue current through SEC index publication, not intraday. No confidential/unpublished filings.'}
+        'scope': 'All public EDGAR form types by filing date; complete submissions include exhibits. Holdings are filtered separately by report date. Live SEC latest-filings feed is polled during each worker run; quarterly indexes reconcile history. No confidential/unpublished filings.'}
+    material_change = bool(downloaded or reparsed or index_errors or failures or download_interruption
+        or LIVE_FEED_STATUS.get('status') == 'error'
+        or LIVE_FEED_STATUS.get('new_accessions', 0)
+        or summary['catalogued_filings'] != previous_status.get('catalogued_filings')
+        or summary['forms'] != previous_status.get('forms')
+        or summary['normalization_failures'] != previous_status.get('normalization_failures')
+        or summary['storage_blocked'] != previous_status.get('storage_blocked'))
+    if not material_change and previous_status.get('updated_at'):
+        summary['updated_at'] = previous_status['updated_at']
     save(history / 'status.json', summary)
     print(json.dumps(summary, indent=2))
     if index_errors or failures or parse_errors:
