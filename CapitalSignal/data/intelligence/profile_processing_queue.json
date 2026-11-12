@@ -120,8 +120,10 @@
       "source_file": "CapitalSignal/data/13f/0000713676-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "Bounded PNC 13F retrieval returned empty content despite blob SHA a2c4d7c1cb46fa467e9829c5dabfd40816729a78. Holdings, accession and monetary value remain unvalidated; retry via archive or bounded reader.",
+      "last_error_code": "GITHUB_FETCH_EMPTY",
+      "last_checked_at": "2026-11-12T19:20:16Z"
     },
     {
       "id": "CIK0000831001",
@@ -470,7 +472,6 @@
   ],
   "next_batch_ids": [
     "CIK0000102909",
-    "CIK0000713676",
     "CIK0000831001",
     "CIK0001054074",
     "CIK0001535847",
@@ -478,19 +479,19 @@
     "CIK0000319933",
     "CIK0000092230",
     "CIK0001126328",
-    "CIK0001407543"
+    "CIK0001407543",
+    "CIK0000713676"
   ],
   "completed_count": 12,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T18:15:42Z",
+  "last_processing_at": "2026-11-12T19:20:16Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001913231",
-      "accession": "0001913231-25-000006",
-      "holdings_count": 4667,
-      "source_blob_sha": "57186317e5ee2ee3bd58e7bd9cea363dacb8c6bb",
-      "publication": "withheld_pending_reconciliation"
+      "id": "CIK0000713676",
+      "status": "pending",
+      "error": "GITHUB_FETCH_EMPTY",
+      "source_blob_sha": "a2c4d7c1cb46fa467e9829c5dabfd40816729a78"
     }
   ],
   "next_batch": [
