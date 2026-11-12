@@ -336,14 +336,19 @@
     {
       "id": "CIK0001455267",
       "name": "Parkside Financial Bank & Trust",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-30",
       "source_file": "CapitalSignal/data/13f/0001455267-2025-09-30.json",
-      "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "reported_13f_value_usd": 1295019634,
+      "accession_fingerprint": "0001455267-25-000009",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached USD holdings and accession parsed; independently verify value scaling, latest period and amendment precedence before publication. Style, orientation, turnover unknown.",
+      "source_blob_sha": "6d16186ce4e1c1250ae46de86110fcd13aaa7249",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1455267/0001455267-25-000009.txt",
+      "holdings_count": 4139,
+      "top_10_position_concentration_pct": 42.28,
+      "last_checked_at": "2026-11-12T08:55:00Z"
     },
     {
       "id": "CIK0000314984",
@@ -426,19 +431,20 @@
     "CIK0000046392",
     "CIK0002032602",
     "CIK0000019617",
-    "CIK0001856022"
+    "CIK0001856022",
+    "CIK0001115418"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T07:54:51Z",
+  "last_processing_at": "2026-11-12T08:55:00Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001856022",
+      "id": "CIK0001455267",
       "valid": true,
-      "accession": "0001856022-25-000008",
-      "holdings": 3927,
-      "calculated_13f_value_usd": 8907407564
+      "accession": "0001455267-25-000009",
+      "holdings": 4139,
+      "calculated_13f_value_usd": 1295019634
     }
   ]
 }
