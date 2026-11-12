@@ -22,16 +22,22 @@ jobs:
           SEC_RUN_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
         run: |
           python - <<'PY'
-          import json, os
+          import datetime as dt, json, os
           from pathlib import Path
           p = Path('CapitalSignal/data/history/status.json')
           data = json.loads(p.read_text()) if p.exists() else {}
           quarter = data.get('investor_filings', {}).get('current_quarter', {})
           pending = int(quarter.get('pending', 0) or 0)
           deferred = int(quarter.get('deferred', 0) or 0)
-          print(f"Current quarter investor filings still pending: {pending}; deferred: {deferred}")
+          downloaded = int(data.get('downloaded_this_run', 0) or 0)
+          checked = data.get('checked_at') or data.get('updated_at') or ''
+          started = os.environ.get('SEC_RUN_STARTED_AT', '')
+          fresh = bool(checked and started and dt.datetime.fromisoformat(checked.replace('Z', '+00:00')) > dt.datetime.fromisoformat(started.replace('Z', '+00:00')))
+          conclusion = os.environ.get('SEC_RUN_CONCLUSION', '')
+          should_continue = fresh and (pending > 0 or deferred > 0) and (conclusion == 'success' or downloaded > 0)
+          print(f"Pending: {pending}; deferred: {deferred}; downloaded in last run: {downloaded}; fresh checkpoint: {fresh}")
           with open(os.environ['GITHUB_OUTPUT'], 'a') as out:
-              out.write(f"continue={'true' if pending or deferred else 'false'}\n")
+              out.write(f"continue={'true' if should_continue else 'false'}\\n")
           PY
       - name: Dispatch next SEC history batch
         if: steps.backlog.outputs.continue == 'true'
