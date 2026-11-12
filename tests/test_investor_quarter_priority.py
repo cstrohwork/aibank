@@ -54,9 +54,9 @@ class InvestorQuarterPriorityTests(unittest.TestCase):
         state = {key: {'status': 'archived'} for key in ('current', 'notice', 'june')}
         queue, plan = select_download_queue(rows, state, [rows[2], rows[4]], 10)
         self.assertEqual([row['accession'] for row in queue], ['old', 'other'])
-        self.assertEqual(plan['active_target_report_date'], 'historical')
+        self.assertEqual(plan['active_target_report_date'], '2026-03-31')
 
     def test_intake_window_boundaries(self):
         for day, period in [('2026-09-30', '2026-09-30'), ('2026-09-29', '2026-06-30'),
-                            ('2026-07-01', '2026-06-30'), ('2026-06-30', 'historical')]:
+                            ('2026-07-01', '2026-06-30'), ('2026-06-30', '2026-03-31')]:
             self.assertEqual(investor_intake_window({'filing_date': day}), period)

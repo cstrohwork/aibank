@@ -3,6 +3,7 @@
 N-PX is voting activity, not a complete positions statement.
 """
 import os,json,re,time,pathlib,urllib.request,xml.etree.ElementTree as ET
+from fund_ownership_index import write_ownership_index
 import datetime as dt
 ROOT=pathlib.Path(__file__).resolve().parents[1]/"CapitalSignal"/"data"
 OUT=ROOT/"funds";OUT.mkdir(parents=True,exist_ok=True)
@@ -145,7 +146,7 @@ def main():
         for h in data["holdings"]:
             if h["asset_category"] not in ("EC","EP") or not h.get("cusip"):continue
             owners.setdefault(h["cusip"],[]).append({"fund_id":f.get("fund_id") or f["series_id"],"series_id":f["series_id"],"fund_name":f["fund_name"],"report_date":f["report_date"],"reported_value_usd":h["reported_value_usd"],"source":f["source"]})
-    (OUT/"ownership_by_cusip.json").write_text(json.dumps({"securities":owners,"note":"Disclosed N-PORT fund holdings only; not total issuer ownership; different report dates may occur."},separators=(",",":")))
+    write_ownership_index(OUT, owners, "Disclosed N-PORT fund holdings only; not total issuer ownership; different report dates may occur.")
     print("funds",len(selected),"equity CUSIPs",len(owners),"errors",len(errors))
 if __name__=="__main__":main()
 

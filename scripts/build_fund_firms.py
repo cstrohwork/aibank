@@ -3,6 +3,7 @@
 Registrant is a legal filing entity, not necessarily the ultimate adviser.
 """
 import json,pathlib,collections,re
+from fund_ownership_index import write_ownership_index
 ROOT=pathlib.Path(__file__).resolve().parents[1]/"CapitalSignal"/"data"
 DIR=ROOT/"funds"
 index=json.loads((DIR/"index.json").read_text())
@@ -39,5 +40,5 @@ for firm in firms.values():
     for k in ("equity_assets_usd","active_equity_assets_usd","passive_equity_assets_usd","unclassified_equity_assets_usd"):firm[k]=round(firm[k],2)
     out.append(firm)
 (ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"methodology":"Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
-(DIR/"ownership_by_cusip.json").write_text(json.dumps({"securities":bycusip,"note":"Disclosed N-PORT fund holdings, with registrant attribution, not a complete issuer register."},separators=(",",":")))
+write_ownership_index(DIR, bycusip, "Disclosed N-PORT fund holdings, with registrant attribution, not a complete issuer register.")
 print("registrant groups",len(out),"funds",sum(x["fund_count"] for x in out),"equity securities",len(bycusip))

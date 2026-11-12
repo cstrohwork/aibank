@@ -547,12 +547,18 @@ def investor_intake_window(row):
         return '2026-09-30'
     if filed >= '2026-07-01':
         return '2026-06-30'
+    if filed >= '2026-04-01':
+        return '2026-03-31'
+    if filed >= '2026-01-01':
+        return '2025-12-31'
+    if filed >= '2025-09-30':
+        return '2025-09-30'
     return 'historical'
 
 
 def select_download_queue(rows, state, available, limit):
     """Finish current investor intake, then June-quarter intake, then older history."""
-    periods = ('2026-09-30', '2026-06-30', 'historical')
+    periods = ('2026-09-30', '2026-06-30', '2025-09-30', '2025-12-31', '2026-03-31', 'historical')
     outstanding = {
         period: sum(row['form'] in INVESTOR_FORMS
                     and investor_intake_window(row) == period
