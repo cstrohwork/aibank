@@ -214,14 +214,19 @@
     {
       "id": "CIK0001535847",
       "name": "CWM, LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-15",
       "source_file": "CapitalSignal/data/13f/0001535847-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001580642-25-006592",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Complete cached 13F parsed; monetary value_usd duplicates value_thousands in sampled holdings and requires authoritative USD reconciliation. Amendment precedence, later filings, style, turnover, orientation and publication unverified.",
+      "source_blob_sha": "7c15dfcb5bcda29570287955d7ee34d37ae9c001",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1535847/0001580642-25-006592.txt",
+      "holdings_count": 5526,
+      "amendment_type": "",
+      "last_checked_at": "2026-11-12T20:42:17Z"
     },
     {
       "id": "CIK0000815917",
@@ -474,52 +479,52 @@
     "CIK0000102909",
     "CIK0000831001",
     "CIK0001054074",
-    "CIK0001535847",
     "CIK0000815917",
     "CIK0000319933",
     "CIK0000092230",
     "CIK0001126328",
     "CIK0001407543",
-    "CIK0000713676"
+    "CIK0000312272",
+    "CIK0001851815"
   ],
-  "completed_count": 12,
+  "completed_count": 13,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T19:20:16Z",
+  "last_processing_at": "2026-11-12T20:42:17Z",
   "last_batch_validation": [
     {
-      "id": "CIK0000713676",
-      "status": "pending",
-      "error": "GITHUB_FETCH_EMPTY",
-      "source_blob_sha": "a2c4d7c1cb46fa467e9829c5dabfd40816729a78"
+      "id": "CIK0001535847",
+      "status": "validated_pending_publication",
+      "accession": "0001580642-25-006592",
+      "holdings_count": 5526,
+      "source_blob_sha": "7c15dfcb5bcda29570287955d7ee34d37ae9c001"
     }
   ],
   "next_batch": [
     "CIK0000102909",
-    "CIK0000713676",
     "CIK0000831001",
     "CIK0001054074",
-    "CIK0001535847",
     "CIK0000815917",
     "CIK0000319933",
     "CIK0000092230",
     "CIK0001126328",
-    "CIK0001407543"
+    "CIK0001407543",
+    "CIK0000312272",
+    "CIK0001851815"
   ],
   "last_run": {
-    "at": "2026-11-12T18:15:42Z",
+    "at": "2026-11-12T20:42:17Z",
     "processed": [
-      "CIK0000046392"
+      "CIK0001535847"
     ],
     "validated": [
-      "CIK0000046392"
+      "CIK0001535847"
     ],
     "published": [],
     "blockers": [
-      "Cached value_usd/value_thousands scaling unresolved",
-      "SEC amendment precedence and current-period checks pending",
+      "Monetary scaling requires independent SEC summary verification",
+      "Amendment and latest-period reconciliation incomplete",
       "Public Pages verification pending"
-    ],
-    "notes": "Bounded blob retrieval succeeded; no new profile published."
+    ]
   }
 }
