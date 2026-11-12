@@ -358,14 +358,18 @@
     {
       "id": "CIK0000314984",
       "name": "Thrivent Financial for Lutherans",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-04",
       "source_file": "CapitalSignal/data/13f/0000314984-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001193125-25-263690",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached accession, filing date and holdings parsed. WARNING: source value_usd equals value_thousands for sampled positions; USD scaling unverified, so no portfolio exposure or concentration published. Latest-period and amendment precedence pending; style/orientation/turnover unknown.",
+      "source_blob_sha": "5ae5cdcd7bd5fe8c5cc2c504459d841ff2e26355",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/314984/0001193125-25-263690.txt",
+      "holdings_count": 3953,
+      "last_checked_at": "2026-11-12T11:07:33Z"
     },
     {
       "id": "CIK0001616667",
@@ -458,5 +462,29 @@
       "source_blob_sha": "84662d89377f85aef53809f518730cd5b429148d",
       "publication": "withheld_pending_reconciliation"
     }
-  ]
+  ],
+  "next_batch": [
+    "CIK0001979372",
+    "CIK0000019617",
+    "CIK0001390777",
+    "CIK0001697723",
+    "CIK0000102909",
+    "CIK0000713676",
+    "CIK0000831001",
+    "CIK0001710537",
+    "CIK0000046392",
+    "CIK0002032602"
+  ],
+  "last_run": {
+    "at": "2026-11-12T11:07:33Z",
+    "processed": [
+      "CIK0000314984"
+    ],
+    "counts": {
+      "validated_pending_publication": 7,
+      "published": 1,
+      "pending": 24
+    },
+    "notes": "One cached 13F filing parsed; ambiguous USD scaling detected; deferred monetary calculations pending independent reconciliation."
+  }
 }
