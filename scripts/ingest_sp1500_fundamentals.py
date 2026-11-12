@@ -59,7 +59,7 @@ def parse_russell(blob, tickers):
  start=next(i for i,r in enumerate(rows) if r and r[0]=='Ticker' and len(r)>3 and r[1]=='Name' and r[3]=='Asset Class')
  headers=rows[start]
  ix={name:i for i,name in enumerate(headers)}
- required=('Ticker','Name','Sector','Asset Class','Weight (%)','Quantity','Currency')
+ required=('Ticker','Name','Sector','Asset Class','Market Value','Weight (%)','Quantity','Currency')
  if any(name not in ix for name in required):raise ValueError('Russell holdings CSV schema changed')
  lookup=collections.defaultdict(set)
  for t in tickers.values():lookup[key(t['ticker'])].add(str(t['cik_str']).zfill(10))
@@ -70,11 +70,13 @@ def parse_russell(blob, tickers):
   ticker,name,sector,asset_class=(row[ix[x]].strip() for x in ('Ticker','Name','Sector','Asset Class'))
   if not name:continue
   try:
+   market_value=float(row[ix['Market Value']].replace(',',''))
    weight=float(row[ix['Weight (%)']].replace(',',''))
    quantity=float(row[ix['Quantity']].replace(',',''))
   except (ValueError,AttributeError):
    excluded.append({'name':name,'reason':'invalid_weight_or_quantity'});continue
-  if asset_class!='Equity' or not ticker or ticker=='-' or weight<=0 or quantity<=0:
+  # The provider rounds small portfolio weights to 0.00%; keep positive-value equity rows.
+  if asset_class!='Equity' or not ticker or ticker=='-' or market_value<=0 or weight<0 or quantity<=0:
    excluded.append({'name':name,'reason':'non_equity_or_invalid_identifier_weight_shares'});continue
   matches=lookup.get(key(ticker),set())
   securities.append({'name':name,'ticker':ticker,'cusip':None,'cik':next(iter(matches)) if len(matches)==1 else None,
