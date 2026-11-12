@@ -65,7 +65,7 @@ def parse_russell(blob, tickers):
  for t in tickers.values():lookup[key(t['ticker'])].add(str(t['cik_str']).zfill(10))
  securities=[];excluded=[]
  for row in rows[start+1:]:
-  if len(row)<len(headers):continue
+  # Trailing empty CSV fields may be omitted by the provider; validate only fields we consume.\n  if len(row)<=max(ix[name] for name in required):continue
   ticker,name,sector,asset_class=(row[ix[x]].strip() for x in ('Ticker','Name','Sector','Asset Class'))
   if not name:continue
   try:
@@ -157,7 +157,7 @@ def main():
     if record.get('cik') is None and member.get('cik'):record.update({k:member[k] for k in ('cik','mapping_status')})
   securities=list(by_ticker.values())
   for member in securities:member['universe_memberships'].sort()
-  merged={'as_of':min(sp['as_of'],russell['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxies; deduplicated by CUSIP. Not official or historical index membership. SEC-listed large/mega cap issuers outside both proxies require reliable point-in-time market cap data.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']}
+  merged={'as_of':min(sp['as_of'],russell['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxies; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Not official or historical index membership. SEC-listed large/mega cap issuers outside both proxies require reliable point-in-time market cap data.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']}
   universe=merged
   dump(OUT/'universe.json',universe);dump(OUT/'universes'/(universe['as_of']+'.json'),universe)
  except Exception as e:
