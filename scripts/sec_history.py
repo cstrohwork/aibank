@@ -156,8 +156,14 @@ def archive_submission(url, path, archive_limit, raw_limit=512_000_000, deadline
                             if growth and not budget.reserve(growth):
                                 raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
                             reserved = current
-                if staged.tell() > archive_limit:
+                final_size = staged.tell()
+                if final_size > archive_limit:
                     raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
+                if budget is not None:
+                    growth = final_size - reserved
+                    if growth and not budget.reserve(growth):
+                        raise BatchBudgetExceeded('SEC submission exceeds remaining compressed archive budget')
+                    reserved = final_size
         if expected is not None and size != int(expected):
             raise ValueError('Incomplete SEC submission: Content-Length mismatch')
         if b'<SEC-DOCUMENT>' not in prefix.upper():
