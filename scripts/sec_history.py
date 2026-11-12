@@ -545,9 +545,6 @@ def run(root=ROOT):
     storage_blocked=stored_bytes>=storage_limit
     bytes_saved = 0
     budget_seconds = max(30, min(1200, int(os.getenv('SEC_HISTORY_SECONDS', '1200'))))
-    began = time.monotonic()
-    bytes_saved = 0
-    budget_seconds = max(30, min(1200, int(os.getenv('SEC_HISTORY_SECONDS', '1200'))))
     worker_count = max(1, min(4, int(os.getenv('SEC_HISTORY_WORKERS', '3'))))
     began = time.monotonic()
     shared_budget = ArchiveBudget(min(storage_limit - stored_bytes, RUN_ARCHIVE_BUDGET_BYTES))
@@ -576,7 +573,8 @@ def run(root=ROOT):
         for _ in range(worker_count):
             if not submit_next(pool):
                 break
-        for future in as_completed(inflight):
+        while inflight:
+            future = next(as_completed(tuple(inflight)))
             row = inflight.pop(future)
             accession = row['accession']
             path = history / 'raw' / row['filing_date'][:4] / row['cik'] / (accession + '.txt.gz')
