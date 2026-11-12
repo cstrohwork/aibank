@@ -164,6 +164,71 @@ def parse_master(raw, start):
             'source': 'https://www.sec.gov/Archives/' + filename}
     return sorted(result.values(), key=lambda x: (x['filing_date'], x['accession']))
 
+def parse_current_feed(raw):
+    """Parse SEC's Latest Filings Atom feed into accession-addressed catalogue rows."""
+    root = ET.fromstring(raw)
+    rows = []
+    for entry in root.iter():
+        if entry.tag.rsplit('}', 1)[-1].lower() != 'entry':
+            continue
+        values = {}
+        for child in entry.iter():
+            name = child.tag.rsplit('}', 1)[-1].lower()
+            if name in ('id', 'title', 'updated', 'summary') and child.text:
+                values.setdefault(name, child.text.strip())
+        href = next((node.attrib.get('href', '') for node in entry.iter()
+                     if node.tag.rsplit('}', 1)[-1].lower() == 'link'
+                     and node.attrib.get('href')), '')
+        match = re.search(r'/edgar/data/(\\d+)/(\\d{18})(?:/|[-.]|$)', href)
+        accession_match = re.search(r'(\\d{10}-\\d{2}-\\d{6})',
+                                    values.get('id', '') + ' ' + href + ' ' + values.get('summary', ''))
+        if not match or not accession_match:
+            continue
+        cik = match.group(1).zfill(10)
+        accession = accession_match.group(1)
+        form = next((node.attrib.get('term', '').strip() for node in entry.iter()
+                     if node.tag.rsplit('}', 1)[-1].lower() == 'category'
+                     and node.attrib.get('term')), '')
+        if not form:
+            form = values.get('title', '').split(' - ', 1)[0].strip()
+        filed = values.get('updated', '')[:10]
+        if not re.fullmatch(r'\\d{4}-\\d{2}-\\d{2}', filed):
+            found = re.search(r'Filed:\\s*(\\d{4}-\\d{2}-\\d{2})',
+                              values.get('summary', ''), re.I)
+            filed = found.group(1) if found else ''
+        if not filed or not form:
+            continue
+        rows.append({'cik': cik, 'name': values.get('title', ''),
+            'form': form, 'filing_date': filed, 'accession': accession,
+            'source': f'https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession}.txt',
+            'discovery_source': 'sec_latest_filings_atom',
+            'feed_observed_at': dt.datetime.now(dt.timezone.utc).isoformat()})
+    return rows
+
+
+def current_feed_rows(start, known_accessions):
+    """Walk newest SEC feed pages until reaching an accession already catalogued."""
+    discovered, seen = [], set()
+    page_size = 100
+    for offset in range(0, 1000, page_size):
+        url = ('https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent'
+               f'&owner=include&count={page_size}&start={offset}&output=atom')
+        page = parse_current_feed(fetch(url, limit=2_000_000))
+        if not page:
+            break
+        overlap = False
+        for row in page:
+            if row['accession'] in known_accessions or row['accession'] in seen:
+                overlap = True
+                continue
+            seen.add(row['accession'])
+            if row['filing_date'] >= start:
+                discovered.append(row)
+        if overlap or len(page) < page_size:
+            break
+    return discovered
+
+
 def catalogue(root, start, today):
     history = root / 'history'
     rows, failures = [], []
@@ -187,6 +252,27 @@ def catalogue(root, start, today):
             except Exception as exc:
                 failures.append({'quarter': key, 'error': str(exc)})
         rows.extend(load(path, []))
+    # The quarterly index is updated nightly. Poll SEC's current-filings feed on
+    # every worker run so same-day accepted filings are not held until tomorrow.
+    known_accessions = {row['accession'] for row in rows}
+    try:
+        live_rows = current_feed_rows(start, known_accessions)
+        current_key = f'{today.year}Q{(today.month - 1) // 3 + 1}'
+        current_path = history / 'catalogue' / (current_key + '.json.gz')
+        current_rows = load(current_path, [])
+        merged = {row['accession']: row for row in current_rows}
+        for row in live_rows:
+            merged[row['accession']] = row
+        if live_rows:
+            save(current_path, sorted(merged.values(),
+                key=lambda row: (row['filing_date'], row['accession'])))
+            rows = [row for row in rows if row['accession'] not in {x['accession'] for x in live_rows}]
+            rows.extend(live_rows)
+        print(json.dumps({'event': 'sec_latest_filings_feed',
+            'new_accessions': len(live_rows),
+            'feed_observed_at': dt.datetime.now(dt.timezone.utc).isoformat()}), flush=True)
+    except Exception as exc:
+        failures.append({'source': 'sec_latest_filings_atom', 'error': str(exc)})
     return rows, failures
 
 def documents(raw):
@@ -349,8 +435,11 @@ def run(root=ROOT):
         return legacy_size or previous.get('retry_after', '') <= today.isoformat()
     available = [r for r in rows if eligible(r)]
     # Previously failed eligible filings go first, so new entries cannot starve retries.
-    available.sort(key=lambda r: (state.get(r['accession'], {}).get('status') not in ('failed', 'deferred'),
-                                  r['filing_date'], r['accession']))
+    # Current filings are the product's highest priority; retain failed retries
+    # first, then move newest filings ahead of the historical backlog.
+    available.sort(key=lambda r: (
+        state.get(r['accession'], {}).get('status') not in ('failed', 'deferred'),
+        -int(r['filing_date'].replace('-', '')), r['accession']))
     priority = [r for r in available if r['form'] in PRIORITY]
     others = [r for r in available if r['form'] not in PRIORITY]
     limit = int(os.getenv('SEC_HISTORY_BATCH', '120'))
