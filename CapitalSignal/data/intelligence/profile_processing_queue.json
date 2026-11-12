@@ -255,14 +255,19 @@
     {
       "id": "CIK0001992825",
       "name": "Farther Finance Advisors, LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-14",
       "source_file": "CapitalSignal/data/13f/0001992825-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001992825-25-000010",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached 13F accession and holdings parsed; value_usd equals value_thousands in sampled rows so USD scale unresolved. SEC amendment precedence and newer filings not independently checked. No portfolio value, turnover, style or orientation inferred.",
+      "source_blob_sha": "36d61b0f2f0d32abe7135badc8008f619f070250",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1992825/0001992825-25-000010.txt",
+      "holdings_count": 4974,
+      "amendment_review_required": false,
+      "last_checked_at": "2026-11-12T16:08:00Z"
     },
     {
       "id": "CIK0001913231",
@@ -454,8 +459,6 @@
     }
   ],
   "next_batch_ids": [
-    "CIK0000019617",
-    "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
@@ -463,43 +466,43 @@
     "CIK0001054074",
     "CIK0001535847",
     "CIK0000815917",
-    "CIK0000319933"
+    "CIK0000319933",
+    "CIK0000092230",
+    "CIK0001913231"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T15:17:09Z",
+  "last_processing_at": "2026-11-12T16:08:00Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001749744",
-      "accession": "0001580642-25-006659",
-      "holdings_count": 3880,
-      "source_blob_sha": "4da485d2a73c5a1ca410b6ed089765889b6fb818",
+      "id": "CIK0001992825",
+      "accession": "0001992825-25-000010",
+      "holdings_count": 4974,
+      "source_blob_sha": "36d61b0f2f0d32abe7135badc8008f619f070250",
       "publication": "withheld_pending_reconciliation"
     }
   ],
   "next_batch": [
-    "CIK0000019617",
-    "CIK0001390777",
-    "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
-    "CIK0001710537",
     "CIK0000046392",
     "CIK0001054074",
-    "CIK0001621225"
+    "CIK0001535847",
+    "CIK0000815917",
+    "CIK0000319933",
+    "CIK0000092230",
+    "CIK0001913231"
   ],
   "last_run": {
-    "at": "2026-11-12T15:17:09Z",
+    "at": "2026-11-12T16:08:00Z",
     "attempted_ids": [
-      "CIK0001621225",
-      "CIK0001390777",
-      "CIK0001710537"
+      "CIK0001992825"
     ],
     "validated_new": 1,
     "published_new": 0,
-    "blocked": 2,
-    "notes": "Merit amended filing parsed; publication gated on independent restatement precedence and current-period checks. BNY Mellon and EverSource truncated connector reads recorded."
+    "blocked": 0,
+    "notes": "Farther Finance Advisors cached 13F validated; USD scale and amendment precedence unresolved."
   }
 }
