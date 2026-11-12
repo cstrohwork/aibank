@@ -370,14 +370,19 @@
     {
       "id": "CIK0001616667",
       "name": "Pacer Advisors, Inc.",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-15",
       "source_file": "CapitalSignal/data/13f/0001616667-2025-09-30.json",
-      "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "reported_13f_value_usd": 39714269452,
+      "accession_fingerprint": "0000894189-25-011350",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached USD values parsed and summed; source amendment_review_required=false. Independent SEC amendment precedence and latest-period reconciliation pending; style, orientation and turnover unknown.",
+      "source_blob_sha": "84662d89377f85aef53809f518730cd5b429148d",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1616667/0000894189-25-011350.txt",
+      "holdings_count": 3934,
+      "top_10_position_concentration_pct": 12.06,
+      "last_checked_at": "2026-11-12T10:30:57Z"
     },
     {
       "id": "CIK0001856022",
@@ -436,21 +441,21 @@
     "CIK0000046392",
     "CIK0002032602",
     "CIK0000019617",
-    "CIK0001856022",
-    "CIK0000314984"
+    "CIK0000314984",
+    "CIK0001749744"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T09:26:30Z",
+  "last_processing_at": "2026-11-12T10:30:57Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001115418",
-      "accession": "0001115418-25-000021",
-      "holdings_count": 4172,
-      "reported_13f_value_usd": 124512629507,
-      "top_10_position_concentration_pct": 32.47,
-      "source_blob_sha": "cac57fada3905a2001b5bd596c64c0974ff9890b",
+      "id": "CIK0001616667",
+      "accession": "0000894189-25-011350",
+      "holdings_count": 3934,
+      "reported_13f_value_usd": 39714269452,
+      "top_10_position_concentration_pct": 12.06,
+      "source_blob_sha": "84662d89377f85aef53809f518730cd5b429148d",
       "publication": "withheld_pending_reconciliation"
     }
   ]
