@@ -3,6 +3,7 @@
 No external dependencies. Missing/unavailable filings are skipped, never fabricated.
 """
 import json, os, pathlib, re, time, urllib.request, xml.etree.ElementTree as ET
+import datetime as dt
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 OUT=ROOT/"CapitalSignal"/"data"/"13f"
 OUT.mkdir(parents=True,exist_ok=True)
@@ -56,16 +57,23 @@ def main():
                     time.sleep(.35)
                     index=json.loads(read(rooturl+"index.json"))
                     candidates=[x["name"] for x in index["directory"]["item"] if x["name"].lower().endswith(".xml") and "primary" not in x["name"].lower()]
-                    holdings=[]
+                    holdings=[];retrieved_at=None
                     for filename in candidates[:12]:
                         time.sleep(.35)
                         try:
-                            found=parse(read(rooturl+filename))
-                            if len(found)>len(holdings):holdings=found
+                            raw=read(rooturl+filename)
+                            downloaded_at=dt.datetime.now(dt.timezone.utc).isoformat()
+                            found=parse(raw)
+                            if len(found)>len(holdings):holdings=found;retrieved_at=downloaded_at
                         except (ET.ParseError,ValueError,TimeoutError,OSError) as exc:
                             print("XML skipped",filename,str(exc))
                     if not holdings:raise ValueError("No readable 13F information table XML")
-                    output={"manager_cik":cik,"manager_name":submission.get("name",""),"accession":accession,"filing_date":filing_date,"report_date":report_date,"source":rooturl,"holdings":holdings}
+                    # This pipeline's requested reporting window is after the SEC USD transition.
+                    # Leave older ad-hoc backfills untyped rather than assigning ambiguous units.
+                    if report_date >= '2025-09-30':
+                        for holding in holdings:holding['value_usd']=holding['value_thousands']
+                    output={"manager_cik":cik,"manager_name":submission.get("name",""),"accession":accession,"filing_date":filing_date,"report_date":report_date,"source":rooturl,"holdings":holdings,"retrieved_at":retrieved_at,"ingested_at":dt.datetime.now(dt.timezone.utc).isoformat(),"public_observed_at":retrieved_at,"public_observation_basis":"successful_public_sec_download"}
+                    if report_date >= '2025-09-30':output.update(value_unit='USD',legacy_value_thousands_field_contains='USD')
                     filename=f"{cik}-{report_date}.json"
                     (OUT/filename).write_text(json.dumps(output,separators=(",",":")),encoding="utf-8")
                     summary.append({"manager_cik":cik,"manager_name":output["manager_name"],"report_date":report_date,"filing_date":filing_date,"holdings_count":len(holdings),"file":filename})

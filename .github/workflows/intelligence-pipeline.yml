@@ -1,0 +1,78 @@
+name: Capital Signal intelligence foundations
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/intelligence-pipeline.yml'
+      - 'scripts/build_identity_master.py'
+      - 'scripts/point_in_time.py'
+      - 'scripts/reconcile_ownership.py'
+      - 'scripts/market_inputs.py'
+      - 'scripts/investor_intelligence.py'
+      - 'scripts/intelligence_health.py'
+      - 'scripts/parse_investor_events.py'
+      - 'scripts/build_model_data.py'
+      - 'scripts/run_intelligence_pipeline.py'
+      - 'CapitalSignal/model/**'
+  workflow_run:
+    workflows: ['S&P 1500 fundamentals ingestion', 'Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
+    types: [completed]
+  schedule:
+    - cron: '23 11 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: capitalsignal-intelligence
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify calculation and data safeguards
+        run: python -m unittest discover -s tests -v
+      - name: Acquire bounded public market evidence
+        run: python scripts/market_inputs.py --acquire --limit 5
+      - name: Advance SEC prospectus evidence queue
+        run: python scripts/investor_intelligence.py --discover-mandates 3 --fetch-prospectuses
+      - name: Rebuild intelligence and conditional Model activation
+        run: python scripts/run_intelligence_pipeline.py
+      - name: Preserve calculation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: intelligence-foundations
+          path: |
+            CapitalSignal/data/intelligence/
+            CapitalSignal/data/fundamentals/model*.json
+            CapitalSignal/data/fundamentals/model_companies/
+          retention-days: 14
+      - name: Publish derived intelligence and Model readiness
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add CapitalSignal/data/intelligence/ CapitalSignal/data/fundamentals/model*.json CapitalSignal/data/fundamentals/model_companies/ CapitalSignal/data/fundamentals/benchmark_status.json CapitalSignal/data/fundamentals/portfolio_diagnostics.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Rebuild intelligence foundations and Model completion gate'
+          # If upstream data moved, rebuild against its latest caches rather than publish stale outputs.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if [ "$(git rev-parse HEAD^)" != "$(git rev-parse origin/main)" ]; then
+              git reset --hard origin/main
+              python scripts/run_intelligence_pipeline.py
+              git add CapitalSignal/data/intelligence/ CapitalSignal/data/fundamentals/model*.json CapitalSignal/data/fundamentals/model_companies/ CapitalSignal/data/fundamentals/benchmark_status.json CapitalSignal/data/fundamentals/portfolio_diagnostics.json
+              if git diff --cached --quiet; then exit 0; fi
+              git commit -m 'Rebuild intelligence against latest source caches'
+            fi
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1

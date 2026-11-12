@@ -144,6 +144,10 @@ def normalize(root, record, start):
     fund.update(registrant_cik=record['cik'], registrant_name=record['name'],
                 accession=record['accession'], form=record['form'],
                 filing_date=record['filing_date'], source=record['source'])
+    # Re-normalizing an archived original is not a new public retrieval.
+    for key in ('retrieved_at','ingested_at','public_available_at','public_observed_at','public_observation_basis','accepted_at'):
+        if record.get(key) is not None:
+            fund[key] = record[key]
     path = root / 'history/normalized/funds' / (record['accession'] + '.json.gz')
     save(path, fund)
     return [str(path.relative_to(root))]

@@ -79,8 +79,26 @@ def snapshot(record,asof):
    p=max(eligible,key=lambda p:(p['end'],p['filed'],-TAGS[field].index(p['tag'])))
    result[field]=p
  return result
+def cache_age(path, cik):
+ """Invalid caches are missing work, not successful checkpoints."""
+ try:
+  record=json.loads(gzip.decompress(path.read_bytes()))
+  if record.get('cik')!=cik or not isinstance(record.get('fields'),dict):return None
+  retrieved=dt.datetime.fromisoformat(record['retrieved_at'])
+  if retrieved.tzinfo is None:return None
+  age=(dt.datetime.now(dt.timezone.utc)-retrieved).total_seconds()
+  return age if age>=0 else None
+ except (OSError,ValueError,KeyError,TypeError,EOFError):return None
+def work_queue(ciks, directory, refresh_hours):
+ """Missing issuers precede refreshes so bounded daily runs cannot starve coverage."""
+ pending=[];stale=[]
+ for cik in ciks:
+  age=cache_age(directory/(cik+'.json.gz'),cik)
+  if age is None:pending.append(cik)
+  elif age>=refresh_hours*3600:stale.append((age,cik))
+ return sorted(pending)+[cik for age,cik in sorted(stale,reverse=True)]
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--limit',type=int,default=0);ap.add_argument('--refresh-hours',type=float,default=24);args=ap.parse_args()
+ ap=argparse.ArgumentParser();ap.add_argument('--limit',type=int,default=0);ap.add_argument('--refresh-hours',type=float,default=24);ap.add_argument('--max-seconds',type=float,default=0);args=ap.parse_args()
  OUT.mkdir(parents=True,exist_ok=True)
  errors=[]
  try:
@@ -94,24 +112,25 @@ def main():
   coverage=collections.Counter();ok=0;fresh=0;missing=[]
   for cik in ciks:
    path=OUT/'companyfacts'/(cik+'.json.gz')
-   if not path.exists():missing.append(cik);continue
+   age=cache_age(path,cik)
+   if age is None:missing.append(cik);continue
    record=json.loads(gzip.decompress(path.read_bytes()));ok+=1
-   if (dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(record['retrieved_at'])).total_seconds()<args.refresh_hours*3600:fresh+=1
+   if age<args.refresh_hours*3600:fresh+=1
    coverage.update(snapshot(record,universe['as_of']).keys())
   dump(OUT/'status.json',{'updated_at':now(),'status':'complete_with_gaps' if ok==len(ciks) else 'partial','universe_as_of':universe['as_of'],'universe_basis':universe['membership_basis'],'security_count':len(universe['securities']),'mapped_security_count':sum(bool(s['cik']) for s in universe['securities']),'unique_mapped_issuers':len(ciks),'ingested_issuers':ok,'fresh_issuers':fresh,'pending_issuers':missing,'failed_attempts':errors,'unmapped_securities':[s for s in universe['securities'] if not s['cik']],'field_issuer_coverage':dict(coverage),'field_basis':'USD annual-duration facts; instant balance-sheet/shares facts; filed and end <= universe date; annual is not TTM','next_stage':'benchmark matching and portfolio diagnostics','gaps':['Official historical constituents/weights','Point-in-time prices and share-class market caps','Sector data absent when provider reports dash','Forward consensus estimates unavailable','Custom/IFRS taxonomy normalization pending'],'elapsed_seconds':round(time.monotonic()-start)})
- for cik in ciks:
+ for cik in work_queue(ciks,OUT/'companyfacts',args.refresh_hours):
   path=OUT/'companyfacts'/(cik+'.json.gz')
-  if path.exists():
-   saved=json.loads(gzip.decompress(path.read_bytes()))
-   age=(dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(saved['retrieved_at'])).total_seconds()
-   if age<args.refresh_hours*3600:continue
   if args.limit and attempted>=args.limit:break
+  if args.max_seconds and time.monotonic()-start>=args.max_seconds:break
   attempted+=1;url=f'https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json'
   try:
    blob=get(url);data=json.loads(blob)
    if str(data.get('cik','')).zfill(10)!=cik:raise ValueError('CIK mismatch')
    record=extract(data,url);record['source_sha256']=hashlib.sha256(blob).hexdigest()
    path.parent.mkdir(exist_ok=True);tmp=path.with_suffix('.tmp');tmp.write_bytes(gzip.compress(json.dumps(record,separators=(',',':')).encode(),mtime=0));tmp.replace(path)
+  except KeyboardInterrupt:
+   errors.append({'cik':cik,'source_url':url,'error':'interrupted; saved caches retained','at':now()})
+   break
   except Exception as e:
    errors.append({'cik':cik,'source_url':url,'error':str(e),'at':now()})
    if isinstance(e,urllib.error.HTTPError) and e.code in (403,429):

@@ -3,6 +3,7 @@
 N-PX is voting activity, not a complete positions statement.
 """
 import os,json,re,time,pathlib,urllib.request,xml.etree.ElementTree as ET
+import datetime as dt
 ROOT=pathlib.Path(__file__).resolve().parents[1]/"CapitalSignal"/"data"
 OUT=ROOT/"funds";OUT.mkdir(parents=True,exist_ok=True)
 UA=os.getenv("SEC_USER_AGENT","CapitalSignal Research hello@ainvestmentbank.ai")
@@ -36,12 +37,23 @@ def fund_identity(root):
             "identity_registrant_cik":cik.zfill(10),"registrant_lei":reg_lei,
             "series_lei_reported":series_lei,"series_name_reported":series_name}
 
+def capture_download_evidence(record,retrieved_at):
+    """Stamp only successful new public downloads, never legacy cache reads."""
+    return dict(record,retrieved_at=retrieved_at,ingested_at=dt.datetime.now(dt.timezone.utc).isoformat(),
+                public_observed_at=retrieved_at,public_observation_basis="successful_public_sec_download")
+
+def position_field(n,name):
+    # Position-level units/currency must not be taken from nested derivative legs.
+    for child in n:
+        if local(child.tag)==name.lower():return (child.text or "").strip()
+    return ""
+
 def parse_position(n):
     cusip=val(n,"cusip").upper()
     if not re.fullmatch("[A-Z0-9]{9}",cusip):cusip=None
     try:amount=float(val(n,"valUSD","valueUSD","valueInUSD","reportedValue"))
     except ValueError:return None
-    return {"cusip":cusip,"isin":val(n,"isin"),"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"reported_percentage":val(n,"pctVal","reportedPercentage")}
+    return {"cusip":cusip,"isin":val(n,"isin"),"issuer":val(n,"name","issuerName","title"),"asset_category":val(n,"assetCat"),"reported_value_usd":amount,"balance":val(n,"balance"),"balance_units":position_field(n,"units") or None,"balance_units_description":position_field(n,"descOthUnits") or None,"currency_code":position_field(n,"curCd") or None,"reported_percentage":val(n,"pctVal","reportedPercentage")}
 
 def parse(raw,source):
     root=ET.fromstring(raw)
@@ -89,7 +101,10 @@ def main():
                     for filename in xmls[:8]:
                         time.sleep(.25)
                         try:
-                            result=parse(get(base+filename),base+filename)
+                            raw=get(base+filename)
+                            retrieved_at=dt.datetime.now(dt.timezone.utc).isoformat()
+                            result=parse(raw,base+filename)
+                            if result:result=capture_download_evidence(result,retrieved_at)
                             if result and (not best or len(result["holdings"])>len(best["holdings"])):best=result
                         except (OSError,ValueError,ET.ParseError):pass
                     if not best:continue

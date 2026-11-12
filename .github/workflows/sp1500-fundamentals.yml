@@ -27,11 +27,11 @@ jobs:
           python-version: '3.11'
       - run: pip install openpyxl==3.1.5
       - name: Validate ingestion and date safeguards
-        run: python -m unittest discover -s tests -p 'test_fundamentals.py' -v
+        run: python -m unittest discover -s tests -p 'test_fundamental*.py' -v
       - name: Ingest current universe and SEC reported fundamentals
         env:
           SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
-        run: timeout --signal=INT 2400 python scripts/ingest_sp1500_fundamentals.py
+        run: timeout --signal=INT 2400 python scripts/ingest_sp1500_fundamentals.py --max-seconds 2100
       - name: Begin benchmark and portfolio calculations
         if: ${{ !cancelled() && hashFiles('CapitalSignal/data/fundamentals/universe.json') != '' }}
         run: python scripts/match_fundamental_portfolios.py
