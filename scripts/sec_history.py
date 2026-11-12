@@ -179,8 +179,8 @@ def parse_current_feed(raw):
         href = next((node.attrib.get('href', '') for node in entry.iter()
                      if node.tag.rsplit('}', 1)[-1].lower() == 'link'
                      and node.attrib.get('href')), '')
-        match = re.search(r'/edgar/data/(\\d+)/(\\d{18})(?:/|[-.]|$)', href)
-        accession_match = re.search(r'(\\d{10}-\\d{2}-\\d{6})',
+        match = re.search(r'/edgar/data/(\d+)/(\d{18})(?:/|[-.]|$)', href)
+        accession_match = re.search(r'(\d{10}-\d{2}-\d{6})',
                                     values.get('id', '') + ' ' + href + ' ' + values.get('summary', ''))
         if not match or not accession_match:
             continue
@@ -192,8 +192,8 @@ def parse_current_feed(raw):
         if not form:
             form = values.get('title', '').split(' - ', 1)[0].strip()
         filed = values.get('updated', '')[:10]
-        if not re.fullmatch(r'\\d{4}-\\d{2}-\\d{2}', filed):
-            found = re.search(r'Filed:\\s*(\\d{4}-\\d{2}-\\d{2})',
+        if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', filed):
+            found = re.search(r'Filed:\s*(\d{4}-\d{2}-\d{2})',
                               values.get('summary', ''), re.I)
             filed = found.group(1) if found else ''
         if not filed or not form:
