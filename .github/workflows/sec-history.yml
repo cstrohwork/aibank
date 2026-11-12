@@ -21,7 +21,7 @@ jobs:
     env:
       SEC_HISTORY_START: '2025-09-30'
       SEC_HISTORY_BATCH: '250'
-      # Each worker spends up to four minutes so filing batches remain frequent and bounded.
+      # Each run works a bounded four-minute filing batch; continuation dispatches the next batch after any productive checkpoint.
       SEC_HISTORY_SECONDS: ${{ github.event_name == 'push' && '240' || '240' }}
       SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
     steps:
