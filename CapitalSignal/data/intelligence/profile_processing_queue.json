@@ -152,14 +152,19 @@
     {
       "id": "CIK0000046392",
       "name": "HAZLETT, BURT & WATSON, INC.",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-04",
       "source_file": "CapitalSignal/data/13f/0000046392-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0000046392-25-000008",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Parsed complete cached 13F blob and verified accession, reporting/filing dates and holdings count. Monetary units, amendment precedence, newer periods and SEC summary total not independently reconciled; no value, style, turnover or orientation published.",
+      "source_blob_sha": "c4762bd3449cd680455b931995e90074ab94e36b",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/46392/0000046392-25-000008.txt",
+      "holdings_count": 11032,
+      "amendment_type": null,
+      "last_checked_at": "2026-11-12T18:15:42Z"
     },
     {
       "id": "CIK0002032602",
@@ -464,21 +469,21 @@
     }
   ],
   "next_batch_ids": [
-    "CIK0001979372",
-    "CIK0000019617",
-    "CIK0001390777",
-    "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
-    "CIK0001710537",
-    "CIK0000046392",
-    "CIK0002032602"
+    "CIK0001054074",
+    "CIK0001535847",
+    "CIK0000815917",
+    "CIK0000319933",
+    "CIK0000092230",
+    "CIK0001126328",
+    "CIK0001407543"
   ],
-  "completed_count": 0,
+  "completed_count": 12,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T17:21:00Z",
+  "last_processing_at": "2026-11-12T18:15:42Z",
   "last_batch_validation": [
     {
       "id": "CIK0001913231",
@@ -489,25 +494,31 @@
     }
   ],
   "next_batch": [
-    "CIK0001979372",
-    "CIK0000019617",
-    "CIK0001390777",
-    "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
-    "CIK0001710537",
-    "CIK0000046392",
-    "CIK0002032602"
+    "CIK0001054074",
+    "CIK0001535847",
+    "CIK0000815917",
+    "CIK0000319933",
+    "CIK0000092230",
+    "CIK0001126328",
+    "CIK0001407543"
   ],
   "last_run": {
-    "at": "2026-11-12T17:21:00Z",
-    "attempted_ids": [
-      "CIK0001913231"
+    "at": "2026-11-12T18:15:42Z",
+    "processed": [
+      "CIK0000046392"
     ],
-    "validated_new": 1,
-    "published_new": 0,
-    "blocked": 0,
-    "notes": "Ascent Group 13F cached holdings and accession validated; monetary-unit and amendment reconciliation still required."
+    "validated": [
+      "CIK0000046392"
+    ],
+    "published": [],
+    "blockers": [
+      "Cached value_usd/value_thousands scaling unresolved",
+      "SEC amendment precedence and current-period checks pending",
+      "Public Pages verification pending"
+    ],
+    "notes": "Bounded blob retrieval succeeded; no new profile published."
   }
 }
