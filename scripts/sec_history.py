@@ -444,8 +444,9 @@ def run(root=ROOT):
     # Current filings are the product's highest priority; retain failed retries
     # first, then move newest filings ahead of the historical backlog.
     available.sort(key=lambda r: (
-        state.get(r['accession'], {}).get('status') not in ('failed', 'deferred'),
-        -int(r['filing_date'].replace('-', '')), r['accession']))
+        -int(r['filing_date'].replace('-', '')),
+        state.get(r['accession'], {}).get('status') in ('failed', 'deferred'),
+        r['accession']))
     priority = [r for r in available if r['form'] in PRIORITY]
     others = [r for r in available if r['form'] not in PRIORITY]
     limit = int(os.getenv('SEC_HISTORY_BATCH', '120'))
@@ -453,8 +454,6 @@ def run(root=ROOT):
     queue = priority[:limit - reserved] + others[:reserved]
     used = {r['accession'] for r in queue}
     queue += [r for r in available if r['accession'] not in used][:limit - len(queue)]
-    # Keep retries first across both priority and all-form allocations.
-    queue.sort(key=lambda r: state.get(r['accession'], {}).get('status') not in ('failed', 'deferred'))
     downloaded = 0
     download_interruption = None
     batch_deferral = None
