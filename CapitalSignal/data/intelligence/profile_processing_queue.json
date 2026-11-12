@@ -80,8 +80,10 @@
       "source_file": "CapitalSignal/data/13f/0001390777-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "GitHub connector returned incomplete JSON for cached 13F; use bounded SEC/archive reader on retry; no validation or fabricated metrics.",
+      "last_error_code": "GITHUB_FETCH_TRUNCATED",
+      "last_checked_at": "2026-11-12T15:17:09Z"
     },
     {
       "id": "CIK0001697723",
@@ -142,8 +144,10 @@
       "source_file": "CapitalSignal/data/13f/0001710537-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "GitHub connector returned incomplete JSON for cached 13F; use bounded SEC/archive reader on retry; no validation or fabricated metrics.",
+      "last_error_code": "GITHUB_FETCH_TRUNCATED",
+      "last_checked_at": "2026-11-12T15:17:09Z"
     },
     {
       "id": "CIK0000046392",
@@ -186,14 +190,19 @@
     {
       "id": "CIK0001621225",
       "name": "Merit Financial Group, LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-07",
       "source_file": "CapitalSignal/data/13f/0001621225-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001621225-25-000008",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Parsed 6,380 cached positions and 13F-HR/A restatement accession; cache declares USD in both legacy fields. Independent SEC amendment precedence, summary total and newer periods not verified; no portfolio value, turnover, style or orientation published.",
+      "source_blob_sha": "7b34c00670c6c28b0fcd54e0f4075e21323bd701",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1621225/0001621225-25-000008.txt",
+      "holdings_count": 6380,
+      "amendment_type": "RESTATEMENT",
+      "last_checked_at": "2026-11-12T15:17:09Z"
     },
     {
       "id": "CIK0001535847",
@@ -446,20 +455,20 @@
   ],
   "next_batch_ids": [
     "CIK0000019617",
-    "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
-    "CIK0001710537",
     "CIK0000046392",
     "CIK0001054074",
-    "CIK0001621225"
+    "CIK0001535847",
+    "CIK0000815917",
+    "CIK0000319933"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T13:49:46Z",
+  "last_processing_at": "2026-11-12T15:17:09Z",
   "last_batch_validation": [
     {
       "id": "CIK0001749744",
@@ -482,14 +491,15 @@
     "CIK0001621225"
   ],
   "last_run": {
-    "at": "2026-11-12T13:49:46Z",
+    "at": "2026-11-12T15:17:09Z",
     "attempted_ids": [
-      "CIK0001979372",
-      "CIK0002032602"
+      "CIK0001621225",
+      "CIK0001390777",
+      "CIK0001710537"
     ],
-    "validated_new": 0,
+    "validated_new": 1,
     "published_new": 0,
     "blocked": 2,
-    "notes": "Attempted actual cached source processing; both GitHub raw reads exceeded connector limits. Advance queue to other investors, retain retries and prevent one source from stopping subsequent work."
+    "notes": "Merit amended filing parsed; publication gated on independent restatement precedence and current-period checks. BNY Mellon and EverSource truncated connector reads recorded."
   }
 }
