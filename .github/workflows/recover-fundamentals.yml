@@ -6,7 +6,7 @@ on:
     paths: ['.github/workflows/recover-fundamentals.yml']
 permissions:
   contents: write
-  actions: read
+  actions: write
 concurrency:
   group: recover-sp1500-checkpoint
   cancel-in-progress: false
@@ -42,3 +42,11 @@ jobs:
           assert report['ingested_issuers'] >= 1498, report
           print(report['ingested_issuers'], '/', report['unique_mapped_issuers'], 'issuer caches verified and published')
           PY
+      - name: Retire superseded worker after verified recovery
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          state="$(gh run view 43153366221 --repo "$GITHUB_REPOSITORY" --json status --jq .status)"
+          if [ "$state" != 'completed' ]; then
+            gh run cancel 43153366221 --repo "$GITHUB_REPOSITORY"
+          fi
