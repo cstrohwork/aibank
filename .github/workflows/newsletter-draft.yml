@@ -1,0 +1,34 @@
+name: Prepare newsletter email draft
+on:
+  workflow_dispatch:
+    inputs:
+      publication:
+        type: choice
+        options: [daily, weekly]
+        required: true
+      date:
+        description: Published edition date (YYYY-MM-DD)
+        required: true
+permissions:
+  contents: read
+concurrency:
+  group: newsletter-draft
+  cancel-in-progress: false
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Create draft for review (does not send)
+        env:
+          PUBLICATION: ${{ inputs.publication }}
+          EDITION_DATE: ${{ inputs.date }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_DAILY_LIST_ID: ${{ vars.BREVO_DAILY_LIST_ID }}
+          BREVO_WEEKLY_LIST_ID: ${{ vars.BREVO_WEEKLY_LIST_ID }}
+          NEWSLETTER_SENDER_EMAIL: ${{ vars.NEWSLETTER_SENDER_EMAIL }}
+          NEWSLETTER_POSTAL_ADDRESS: ${{ vars.NEWSLETTER_POSTAL_ADDRESS }}
+        run: python scripts/newsletter_draft.py "$PUBLICATION" "$EDITION_DATE" --create-draft
