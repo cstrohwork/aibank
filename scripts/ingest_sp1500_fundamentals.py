@@ -185,7 +185,7 @@ def main():
   nasdaq_blob=get(NASDAQ_SCREENER,{'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36','Accept':'application/json, text/plain, */*','Origin':'https://www.nasdaq.com','Referer':'https://www.nasdaq.com/market-activity/stocks/screener'})
   large_megacap=parse_large_megacap(nasdaq_blob,tickers)
   by_cusip={};by_ticker={}
-  for label,collection in [('S&P1500_proxy',sp['securities']),('Russell3000_proxy',russell['securities']),('large_mega_cap_sec_filings',large_megacap['securities'])]:
+  for label,collection in [('S&P1500_proxy',sp['securities']),('Russell3000_proxy',russell['securities'])]:
    for member in collection:
     ticker_id=key(member.get('ticker',''))
     cusip=member.get('cusip')
@@ -200,7 +200,7 @@ def main():
     if record.get('cik') is None and member.get('cik'):record.update({k:member[k] for k in ('cik','mapping_status')})
   securities=list(by_ticker.values())
   for member in securities:member['universe_memberships'].sort()
-  merged={'as_of':min(sp['as_of'],russell['as_of'],large_megacap['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']+large_megacap['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy, IWV Russell 3000 ETF holdings proxy, and SEC-mapped Nasdaq/NYSE/NYSE American issuers with market capitalization >= $10 billion. Deduplicated by normalized ticker, with CUSIP retained when available. IWV and screener sources do not include CUSIPs. Current proxy membership, not point-in-time index constituents.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']},{'name':'SEC-listed large/mega cap screen','as_of':large_megacap['as_of'],'url':large_megacap['source_url'],'sha256':large_megacap['source_sha256'],'market_cap_floor_usd':LARGE_CAP_MIN_USD,'market_cap_candidates':large_megacap['candidate_count']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']+large_megacap['excluded_rows']}
+  merged={'as_of':min(sp['as_of'],russell['as_of'],large_megacap['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']}
   universe=merged
   dump(OUT/'universe.json',universe);dump(OUT/'universes'/(universe['as_of']+'.json'),universe)
  except Exception as e:
