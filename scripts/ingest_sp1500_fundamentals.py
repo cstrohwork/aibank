@@ -92,7 +92,41 @@ def parse_russell(blob, tickers):
   'securities':securities,'excluded_rows':excluded}
 
 def parse_market_cap(value):
- text=str(value or '').strip().replace('
+ raw=str(value or '').strip().replace('$','').replace(',','').replace(' ','')
+ if not raw or raw in ('—','-','N/A'):return None
+ scale={'K':1e3,'M':1e6,'B':1e9,'T':1e12}
+ suffix=raw[-1].upper()
+ try:return float(raw[:-1])*scale[suffix] if suffix in scale else float(raw)
+ except (ValueError,TypeError):return None
+
+def parse_large_megacap(blob,tickers):
+ payload=json.loads(blob)
+ rows=payload.get('data',{}).get('rows')
+ if not isinstance(rows,list) or not rows:raise ValueError('Nasdaq screener returned no stock rows')
+ lookup=collections.defaultdict(set)
+ for t in tickers.values():lookup[key(t['ticker'])].add(str(t['cik_str']).zfill(10))
+ securities=[];excluded=[];candidate_count=0
+ for row in rows:
+  cap=parse_market_cap(row.get('marketCap'))
+  if cap is None or cap<LARGE_CAP_MIN_USD:continue
+  candidate_count+=1
+  ticker=str(row.get('symbol') or '').strip()
+  matches=lookup.get(key(ticker),set())
+  if not ticker or len(matches)!=1:
+   excluded.append({'ticker':ticker,'name':row.get('name'),'market_cap_usd':cap,'reason':'no_unique_current_sec_ticker_match'})
+   continue
+  securities.append({'name':row.get('name') or ticker,'ticker':ticker,'cusip':None,
+   'cik':next(iter(matches)),'mapping_status':'unique_sec_ticker_match_current',
+   'market_cap_usd':cap,'sector':row.get('sector') or None,'exchange':row.get('exchange') or None,
+   'identifier_basis':'nasdaq_current_screener_ticker_market_cap'})
+ if candidate_count<350 or len(securities)<300 or len(securities)>1800:
+  raise ValueError(f'Large/mega-cap universe failed safety bounds: {len(securities)} SEC-mapped of {candidate_count} market-cap candidates')
+ return {'as_of':dt.date.today().isoformat(),'retrieved_at':now(),'source_url':NASDAQ_SCREENER,
+  'source_sha256':hashlib.sha256(blob).hexdigest(),'market_cap_floor_usd':LARGE_CAP_MIN_USD,
+  'membership_basis':'Current Nasdaq screener stocks listed on Nasdaq, NYSE, or NYSE American with market capitalization >= $10 billion and unique SEC ticker-to-CIK mapping; screener is current, not point-in-time historical membership',
+  'candidate_count':candidate_count,'securities':securities,'excluded_rows':excluded}
+
+def extract(data,url):
  fields={}
  for field,tags in TAGS.items():
   observations=[]
@@ -104,6 +138,7 @@ def parse_market_cap(value):
        observations.append(dict(p,taxonomy=taxonomy,tag=tag,unit=unit))
   fields[field]=observations
  return {'cik':str(data['cik']).zfill(10),'entity_name':data['entityName'],'source_url':url,'retrieved_at':now(),'fields':fields}
+
 def snapshot(record,asof):
  result={}
  for field,points in record['fields'].items():
