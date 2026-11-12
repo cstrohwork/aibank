@@ -36,9 +36,9 @@ def key(ticker): return str(ticker).strip().upper().replace('.','-').replace(' '
 def parse_universe(blob, tickers):
  import openpyxl
  rows=list(openpyxl.load_workbook(io.BytesIO(blob),read_only=True,data_only=True).active.values)
- date=next(str(r[1]) for r in rows if r[0]=='Holdings:')
+ date=next(str(r[1]) for r in rows if len(r)>1 and r[0]=='Holdings:')
  asof=dt.datetime.strptime(date.replace('As of ',''),'%d-%b-%Y').date().isoformat()
- start=next(i for i,r in enumerate(rows) if r[0]=='Name' and r[1]=='Ticker')
+ start=next(i for i,r in enumerate(rows) if len(r)>1 and r[0]=='Name' and r[1]=='Ticker')
  lookup=collections.defaultdict(set)
  for t in tickers.values(): lookup[key(t['ticker'])].add(str(t['cik_str']).zfill(10))
  securities=[]; excluded=[]
