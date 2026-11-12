@@ -342,14 +342,19 @@
     {
       "id": "CIK0001851815",
       "name": "SBI Securities Co., Ltd.",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-05",
       "source_file": "CapitalSignal/data/13f/0001851815-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001851815-25-000007",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Parsed complete cached 13F-HR and verified accession, 4192 holdings, filing and report dates. Monetary-unit reconciliation, latest-period/amendment precedence, style, turnover and orientation remain unverified; no public publication claimed.",
+      "source_blob_sha": "ea6ab220773a7727d10393c59b21e0c9c644d2e4",
+      "holdings_count": 4192,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1851815/0001851815-25-000007.txt",
+      "amendment_type": "",
+      "last_checked_at": "2026-11-12T22:50:00Z"
     },
     {
       "id": "CIK0001056288",
@@ -514,20 +519,16 @@
     "CIK0001126328",
     "CIK0001407543",
     "CIK0000312272",
-    "CIK0001851815",
     "CIK0001056288"
   ],
   "last_run": {
-    "at": "2026-11-12T21:33:55Z",
-    "processed": [
-      "CIK0000319933"
-    ],
-    "validated": 1,
-    "published": 0,
+    "at": "2026-11-12T22:50:00Z",
+    "validated_cik": "CIK0001851815",
     "counts": {
-      "validated_pending_publication": 14,
+      "validated_pending_publication": 15,
       "published": 1,
-      "pending": 17
-    }
+      "pending": 16
+    },
+    "publication_verified": false
   }
 }
