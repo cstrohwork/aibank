@@ -116,10 +116,10 @@ class RecoveryTests(unittest.TestCase):
                  mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '3'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 history.run(root)
-            self.assertEqual([c.args[0] for c in archive.call_args_list], [rows[0]['source'], rows[2]['source']])
+            self.assertEqual([c.args[0] for c in archive.call_args_list], [rows[2]['source'], rows[0]['source']])
             self.assertEqual(history.load(state_path)['1']['retry_after'], '2999-01-01')
 
-    def test_all_form_retry_precedes_new_priority_filings(self):
+    def test_new_priority_filings_precede_legacy_retries(self):
         rows = [dict(cik='0000000001', name='Fixture', form='ABS-EE' if i == 0 else 'N-PX',
                      filing_date='2025-09-30', accession=str(i),
                      source='https://www.sec.gov/Archives/' + str(i)) for i in range(5)]
@@ -132,7 +132,7 @@ class RecoveryTests(unittest.TestCase):
                  mock.patch.dict('os.environ', {'SEC_HISTORY_BATCH': '5'}), \
                  contextlib.redirect_stdout(io.StringIO()):
                 history.run(root)
-            self.assertEqual(archive.call_args_list[0].args[0], rows[0]['source'])
+            self.assertEqual(archive.call_args_list[0].args[0], rows[1]['source'])
             self.assertEqual(archive.call_count, 5)
 
 
