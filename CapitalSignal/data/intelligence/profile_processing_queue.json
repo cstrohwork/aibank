@@ -54,8 +54,10 @@
       "source_file": "CapitalSignal/data/13f/0001979372-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 1,
-      "reason": "Transient source retrieval failure"
+      "retries": 2,
+      "reason": "Bounded source retrieval attempted; GitHub raw fetch returned 400 file too large/unsupported; no holdings or accession validation possible. Retry through retained SEC archive or bounded parser; do not mark validated.",
+      "last_checked_at": "2026-11-12T13:49:46Z",
+      "last_error_code": "GITHUB_FETCH_OVERSIZE"
     },
     {
       "id": "CIK0000019617",
@@ -162,8 +164,10 @@
       "source_file": "CapitalSignal/data/13f/0002032602-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "Bounded source retrieval attempted; GitHub raw fetch returned 400 file too large/unsupported; no holdings or accession validation possible. Retry through retained SEC archive or bounded parser; do not mark validated.",
+      "last_checked_at": "2026-11-12T13:49:46Z",
+      "last_error_code": "GITHUB_FETCH_OVERSIZE"
     },
     {
       "id": "CIK0001054074",
@@ -439,7 +443,7 @@
     }
   ],
   "next_batch_ids": [
-    "CIK0001979372",
+    "CIK0000019617",
     "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
@@ -447,14 +451,13 @@
     "CIK0000831001",
     "CIK0001710537",
     "CIK0000046392",
-    "CIK0002032602",
-    "CIK0000019617",
-    "CIK0000314984"
+    "CIK0001054074",
+    "CIK0001621225"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T12:33:00Z",
+  "last_processing_at": "2026-11-12T13:49:46Z",
   "last_batch_validation": [
     {
       "id": "CIK0001749744",
@@ -465,7 +468,6 @@
     }
   ],
   "next_batch": [
-    "CIK0001979372",
     "CIK0000019617",
     "CIK0001390777",
     "CIK0001697723",
@@ -474,18 +476,18 @@
     "CIK0000831001",
     "CIK0001710537",
     "CIK0000046392",
-    "CIK0002032602"
+    "CIK0001054074",
+    "CIK0001621225"
   ],
   "last_run": {
-    "at": "2026-11-12T12:33:00Z",
-    "processed": [
-      "CIK0001749744"
+    "at": "2026-11-12T13:49:46Z",
+    "attempted_ids": [
+      "CIK0001979372",
+      "CIK0002032602"
     ],
-    "counts": {
-      "validated_pending_publication": 8,
-      "published": 1,
-      "pending": 23
-    },
-    "notes": "Global Retirement Partners cached filing parsed; monetary-scale inconsistency requires source reconciliation before publication."
+    "validated_new": 0,
+    "published_new": 0,
+    "blocked": 2,
+    "notes": "Attempted actual cached source processing; both GitHub raw reads exceeded connector limits. Advance queue to other investors, retain retries and prevent one source from stopping subsequent work."
   }
 }
