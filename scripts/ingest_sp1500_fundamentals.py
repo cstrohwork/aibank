@@ -65,7 +65,8 @@ def parse_russell(blob, tickers):
  for t in tickers.values():lookup[key(t['ticker'])].add(str(t['cik_str']).zfill(10))
  securities=[];excluded=[]
  for row in rows[start+1:]:
-  # Trailing empty CSV fields may be omitted by the provider; validate only fields we consume.\n  if len(row)<=max(ix[name] for name in required):continue
+  # Trailing empty CSV fields may be omitted by the provider; validate only fields we consume.
+  if len(row)<=max(ix[name] for name in required):continue
   ticker,name,sector,asset_class=(row[ix[x]].strip() for x in ('Ticker','Name','Sector','Asset Class'))
   if not name:continue
   try:
