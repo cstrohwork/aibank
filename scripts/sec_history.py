@@ -651,7 +651,7 @@ def run(root=ROOT):
         'investor_filings': investor_monitor,
         'live_feed': LIVE_FEED_STATUS,
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
-        'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
+        'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'parallel_workers': worker_count, 'batch_budget_seconds': budget_seconds,
         'index_errors': index_errors, 'download_failures': len(failures),
         'download_interruption': download_interruption, 'batch_deferral': batch_deferral,
         'deferred_filings': sum(s.get('status') == 'deferred' for s in state.values()),
