@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Checkpointed SPTM universe-proxy/SEC Companyfacts ingestion; no estimated facts."""
+"""Checkpointed S&P 1500 + Russell 3000 proxy/SEC Companyfacts ingestion; no estimated facts."""
 import argparse, collections, datetime as dt, gzip, hashlib, io, json, os, pathlib, time, urllib.request, urllib.error
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'CapitalSignal/data/fundamentals'
@@ -102,7 +102,19 @@ def main():
  OUT.mkdir(parents=True,exist_ok=True)
  errors=[]
  try:
-  raw=get(HOLDINGS);tickers=json.loads(get(TICKERS));universe=parse_universe(raw,tickers)
+  tickers=json.loads(get(TICKERS))
+  sp_blob=get(HOLDINGS);sp=parse_universe(sp_blob,tickers)
+  russell_blob=get(HOLDINGS_RUSSELL);russell=parse_universe(russell_blob,tickers)
+  by_cusip={}
+  for label,collection in [('S&P1500_proxy',sp['securities']),('Russell3000_proxy',russell['securities'])]:
+   for member in collection:
+    record=by_cusip.setdefault(member['cusip'],dict(member,universe_memberships=[]))
+    if label not in record['universe_memberships']:record['universe_memberships'].append(label)
+    if record.get('cik') is None and member.get('cik'):record.update({k:member[k] for k in ('cik','mapping_status')})
+  securities=list(by_cusip.values())
+  for member in securities:member['universe_memberships'].sort()
+  merged={'as_of':min(sp['as_of'],russell['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxies; deduplicated by CUSIP. Not official or historical index membership. SEC-listed large/mega cap issuers outside both proxies require reliable point-in-time market cap data.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']}
+  universe=merged
   dump(OUT/'universe.json',universe);dump(OUT/'universes'/(universe['as_of']+'.json'),universe)
  except Exception as e:
   dump(OUT/'last_attempt.json',{'at':now(),'status':'universe_source_failed','error':str(e)});raise
