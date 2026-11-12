@@ -372,14 +372,19 @@
     {
       "id": "CIK0001856022",
       "name": "Blue Trust, Inc.",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-16",
       "source_file": "CapitalSignal/data/13f/0001856022-2025-09-30.json",
-      "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "reported_13f_value_usd": 8907407564,
+      "accession_fingerprint": "0001856022-25-000008",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Cached USD holdings summed; source indicates no amendment review required. Latest-period and independent SEC amendment precedence still unverified; style, orientation and turnover unknown.",
+      "source_blob_sha": "33b7fa355c5b26e11f42a1e9bd1345f2d2644a0a",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1856022/0001856022-25-000008.txt",
+      "holdings_count": 3927,
+      "top_10_position_concentration_pct": 52.19,
+      "last_checked_at": "2026-11-12T07:54:51Z"
     },
     {
       "id": "CIK0001749744",
@@ -420,22 +425,20 @@
     "CIK0001710537",
     "CIK0000046392",
     "CIK0002032602",
-    "CIK0000019617"
+    "CIK0000019617",
+    "CIK0001856022"
   ],
   "completed_count": 0,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T06:54:32Z",
+  "last_processing_at": "2026-11-12T07:54:51Z",
   "last_batch_validation": [
     {
-      "id": "CIK0002010235",
+      "id": "CIK0001856022",
       "valid": true,
-      "accession": "0002010235-25-000009",
-      "holdings": 3873
-    },
-    {
-      "id": "CIK0000019617",
-      "error": "Truncated JSON from GitHub file retrieval; deferred"
+      "accession": "0001856022-25-000008",
+      "holdings": 3927,
+      "calculated_13f_value_usd": 8907407564
     }
   ]
 }
