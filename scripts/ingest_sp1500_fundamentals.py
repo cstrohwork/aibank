@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Checkpointed S&P 1500 + Russell 3000 proxy/SEC Companyfacts ingestion; no estimated facts."""
-import argparse, collections, csv, datetime as dt, gzip, hashlib, io, json, os, pathlib, time, urllib.request, urllib.error
+import argparse, collections, csv, datetime as dt, gzip, hashlib, io, json, os, pathlib, time, traceback, urllib.request, urllib.error
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'CapitalSignal/data/fundamentals'
 HOLDINGS = 'https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-sptm.xlsx'
@@ -161,7 +161,7 @@ def main():
   universe=merged
   dump(OUT/'universe.json',universe);dump(OUT/'universes'/(universe['as_of']+'.json'),universe)
  except Exception as e:
-  dump(OUT/'last_attempt.json',{'at':now(),'status':'universe_source_failed','error':str(e)});raise
+  dump(OUT/'last_attempt.json',{'at':now(),'status':'universe_source_failed','error':str(e),'traceback':traceback.format_exc()});raise
  ciks=sorted({s['cik'] for s in universe['securities'] if s['cik']})
  start=time.monotonic();attempted=0
  def summarize():
