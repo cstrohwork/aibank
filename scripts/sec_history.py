@@ -21,11 +21,14 @@ import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
+from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / 'CapitalSignal' / 'data'
 START = os.getenv('SEC_HISTORY_START', '2025-09-30')
 PRIORITY = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A', 'N-PX', 'N-PX/A',
             'SC 13D', 'SC 13D/A', 'SC 13G', 'SC 13G/A', 'SCHEDULE 13D', 'SCHEDULE 13G'}
+INVESTOR_FORMS = PRIORITY | {'13F-NT', '13F-NT/A', 'SCHEDULE 13D/A', 'SCHEDULE 13G/A'}
+POSITION_FORMS = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A'}
 LAST_REQUEST = 0.0
 NORMALIZER_VERSION = 2
 LIVE_FEED_STATUS = {'status': 'not_checked', 'new_accessions': 0}
@@ -397,11 +400,60 @@ def read_original(root, record):
     return raw
 
 
+def investor_filing_period(rows, state, start, end):
+    """Summarize captured investor forms by SEC filing date, without conflating discovery and ingestion."""
+    records = [row for row in rows
+        if row.get('form') in INVESTOR_FORMS
+        and start <= row.get('filing_date', '') <= end]
+    by_form = {}
+    for form in sorted({row['form'] for row in records}):
+        subset = [row for row in records if row['form'] == form]
+        archived = [row for row in subset
+            if state.get(row['accession'], {}).get('status') == 'archived']
+        failed = sum(state.get(row['accession'], {}).get('status') == 'failed'
+            for row in subset)
+        deferred = sum(state.get(row['accession'], {}).get('status') == 'deferred'
+            for row in subset)
+        by_form[form] = {
+            'discovered': len(subset),
+            'archived': len(archived),
+            'pending': sum(state.get(row['accession'], {}).get('status')
+                not in ('archived', 'failed', 'deferred') for row in subset),
+            'failed': failed,
+            'deferred': deferred,
+            'positions_parsed': sum(
+                row['form'] in POSITION_FORMS
+                and not state.get(row['accession'], {}).get('normalization_error')
+                for row in archived),
+        }
+    archived = [row for row in records
+        if state.get(row['accession'], {}).get('status') == 'archived']
+    return {
+        'discovered': len(records),
+        'archived': len(archived),
+        'pending': sum(state.get(row['accession'], {}).get('status')
+            not in ('archived', 'failed', 'deferred') for row in records),
+        'failed': sum(state.get(row['accession'], {}).get('status') == 'failed'
+            for row in records),
+        'deferred': sum(state.get(row['accession'], {}).get('status') == 'deferred'
+            for row in records),
+        'positions_parsed': sum(
+            row['form'] in POSITION_FORMS
+            and not state.get(row['accession'], {}).get('normalization_error')
+            for row in archived),
+        'normalization_errors': sum(
+            row['form'] in POSITION_FORMS
+            and bool(state.get(row['accession'], {}).get('normalization_error'))
+            for row in archived),
+        'by_form': by_form,
+    }
+
+
 def run(root=ROOT):
     start = START
     dt.date.fromisoformat(start)
     history = root / 'history'
-    today = dt.datetime.now(dt.timezone.utc).date()
+    today = dt.datetime.now(dt.timezone.utc).astimezone(ZoneInfo('America/New_York')).date()
     rows, index_errors = catalogue(root, start, today)
     state = load(history / 'archive_state.json.gz', {})
     # Older runs incorrectly treated worker capacity boundaries as source errors.
@@ -440,9 +492,8 @@ def run(root=ROOT):
         legacy_size = previous.get('error') == 'Response exceeds configured byte limit; requires larger archive storage'
         return legacy_size or previous.get('retry_after', '') <= today.isoformat()
     available = [r for r in rows if eligible(r)]
-    # Previously failed eligible filings go first, so new entries cannot starve retries.
-    # Current filings are the product's highest priority; retain failed retries
-    # first, then move newest filings ahead of the historical backlog.
+    # Newest SEC filings outrank legacy retries; within the same filing date, new
+    # rows precede failed/deferred rows. This keeps current intake from stalling.
     available.sort(key=lambda r: (
         -int(r['filing_date'].replace('-', '')),
         state.get(r['accession'], {}).get('status') in ('failed', 'deferred'),
@@ -519,11 +570,23 @@ def run(root=ROOT):
     save(history / 'archive_state.json.gz', state)
     counts = collections.Counter(r['form'] for r in rows)
     archived = [state[r['accession']] for r in rows if state.get(r['accession'], {}).get('status') == 'archived']
+    checked_at = dt.datetime.now(dt.timezone.utc).isoformat()
+    quarter_start_month = ((today.month - 1) // 3) * 3 + 1
+    quarter_start = dt.date(today.year, quarter_start_month, 1).isoformat()
+    investor_monitor = {
+        'filing_date_timezone': 'America/New_York',
+        'as_of_date': today.isoformat(),
+        'current_quarter_start': quarter_start,
+        'current_day': investor_filing_period(rows, state, today.isoformat(), today.isoformat()),
+        'current_quarter': investor_filing_period(rows, state, quarter_start, today.isoformat()),
+    }
     failures = [s for s in state.values() if s.get('status') == 'failed']
     parse_errors = [s for s in archived if s.get('normalization_error')]
     previous_status = load(history / 'status.json', {})
     summary = {'start_filing_date': start, 'start_holdings_report_date': start,
-        'updated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+        'checked_at': checked_at,
+        'updated_at': checked_at,
+        'investor_filings': investor_monitor,
         'live_feed': LIVE_FEED_STATUS,
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
@@ -538,6 +601,7 @@ def run(root=ROOT):
     material_change = bool(downloaded or reparsed or index_errors or failures or download_interruption
         or LIVE_FEED_STATUS.get('status') == 'error'
         or LIVE_FEED_STATUS.get('new_accessions', 0)
+        or summary['investor_filings'] != previous_status.get('investor_filings')
         or summary['catalogued_filings'] != previous_status.get('catalogued_filings')
         or summary['forms'] != previous_status.get('forms')
         or summary['normalization_failures'] != previous_status.get('normalization_failures')
