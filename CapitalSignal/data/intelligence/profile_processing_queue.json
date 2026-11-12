@@ -92,8 +92,10 @@
       "source_file": "CapitalSignal/data/13f/0001697723-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "GitHub fetch_file returned empty content for source blob 45563375f9353cf25da7ab820dc996e800f81041; cannot validate accession, holdings or value. Retry through SEC retained archive/bounded reader.",
+      "last_error_code": "GITHUB_FETCH_EMPTY",
+      "last_checked_at": "2026-11-12T14:10:15Z"
     },
     {
       "id": "CIK0000102909",
@@ -349,15 +351,15 @@
       "report_date": "2025-09-30",
       "filing_date": "2025-10-30",
       "source_file": "CapitalSignal/data/13f/0001455267-2025-09-30.json",
-      "reported_13f_value_usd": 1295019634,
+      "reported_13f_value_usd": null,
       "accession_fingerprint": "0001455267-25-000009",
       "retries": 0,
-      "reason": "Cached USD holdings and accession parsed; independently verify value scaling, latest period and amendment precedence before publication. Style, orientation, turnover unknown.",
+      "reason": "Validation correction: cached 13F holdings value_usd equals value_thousands in sampled rows (e.g. 3M, Abbott). Prior $1.295bn and 42.28% concentration were calculated from ambiguous units; USD portfolio value withdrawn pending authoritative filing-unit and summary reconciliation. Accession and 4139 cached positions retained; latest period/amendment precedence unresolved.",
       "source_blob_sha": "6d16186ce4e1c1250ae46de86110fcd13aaa7249",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1455267/0001455267-25-000009.txt",
       "holdings_count": 4139,
-      "top_10_position_concentration_pct": 42.28,
-      "last_checked_at": "2026-11-12T08:55:00Z"
+      "last_checked_at": "2026-11-12T14:10:15Z",
+      "last_error_code": "VALUE_UNIT_MISMATCH"
     },
     {
       "id": "CIK0000314984",
