@@ -28,6 +28,7 @@ PRIORITY = {'13F-HR', '13F-HR/A', 'NPORT-P', 'NPORT-P/A', 'N-PX', 'N-PX/A',
             'SC 13D', 'SC 13D/A', 'SC 13G', 'SC 13G/A', 'SCHEDULE 13D', 'SCHEDULE 13G'}
 LAST_REQUEST = 0.0
 NORMALIZER_VERSION = 2
+LIVE_FEED_STATUS = {'status': 'not_checked', 'new_accessions': 0}
 BATCH_LIMIT_ERRORS = {
     'SEC submission exceeds remaining compressed archive budget',
     'SEC submission exceeded batch time budget',
@@ -255,8 +256,12 @@ def catalogue(root, start, today):
     # The quarterly index is updated nightly. Poll SEC's current-filings feed on
     # every worker run so same-day accepted filings are not held until tomorrow.
     known_accessions = {row['accession'] for row in rows}
+    global LIVE_FEED_STATUS
+    LIVE_FEED_STATUS = {'status': 'checking', 'new_accessions': 0}
     try:
         live_rows = current_feed_rows(start, known_accessions)
+        LIVE_FEED_STATUS = {'status': 'ok', 'new_accessions': len(live_rows),
+            'checked_at': dt.datetime.now(dt.timezone.utc).isoformat()}
         current_key = f'{today.year}Q{(today.month - 1) // 3 + 1}'
         current_path = history / 'catalogue' / (current_key + '.json.gz')
         current_rows = load(current_path, [])
@@ -272,6 +277,8 @@ def catalogue(root, start, today):
             'new_accessions': len(live_rows),
             'feed_observed_at': dt.datetime.now(dt.timezone.utc).isoformat()}), flush=True)
     except Exception as exc:
+        LIVE_FEED_STATUS = {'status': 'error', 'new_accessions': 0,
+            'checked_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'error': str(exc)}
         failures.append({'source': 'sec_latest_filings_atom', 'error': str(exc)})
     return rows, failures
 
@@ -518,6 +525,7 @@ def run(root=ROOT):
     parse_errors = [s for s in archived if s.get('normalization_error')]
     summary = {'start_filing_date': start, 'start_holdings_report_date': start,
         'updated_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+        'live_feed': LIVE_FEED_STATUS,
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'batch_budget_seconds': budget_seconds,
         'index_errors': index_errors, 'download_failures': len(failures),
