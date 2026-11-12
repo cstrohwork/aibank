@@ -1,0 +1,121 @@
+#!/usr/bin/env python3
+"""Checkpointed SPTM universe-proxy/SEC Companyfacts ingestion; no estimated facts."""
+import argparse, collections, datetime as dt, gzip, hashlib, io, json, os, pathlib, time, urllib.request, urllib.error
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+OUT = ROOT / 'CapitalSignal/data/fundamentals'
+HOLDINGS = 'https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-sptm.xlsx'
+TICKERS = 'https://www.sec.gov/files/company_tickers.json'
+TAGS = {
+ 'revenue': ('RevenueFromContractWithCustomerExcludingAssessedTax','Revenues','SalesRevenueNet','RevenueFromContractWithCustomerIncludingAssessedTax'),
+ 'net_income': ('NetIncomeLoss','ProfitLoss'),
+ 'equity': ('StockholdersEquity','StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'),
+ 'assets': ('Assets',), 'liabilities': ('Liabilities',),
+ 'operating_income': ('OperatingIncomeLoss',),
+ 'operating_cash_flow': ('NetCashProvidedByUsedInOperatingActivities',),
+ 'capital_expenditure': ('PaymentsToAcquirePropertyPlantAndEquipment',),
+ 'eps_diluted': ('EarningsPerShareDiluted',),
+ 'shares_outstanding': ('EntityCommonStockSharesOutstanding','CommonStockSharesOutstanding'),
+ 'dividends_per_share': ('CommonStockDividendsPerShareDeclared','CommonStockDividendsPerShareCashPaid'),
+}
+INSTANT = {'equity','assets','liabilities','shares_outstanding'}
+def now(): return dt.datetime.now(dt.timezone.utc).isoformat()
+def dump(path, data):
+ path.parent.mkdir(parents=True,exist_ok=True)
+ tmp=path.with_suffix(path.suffix+'.tmp'); tmp.write_text(json.dumps(data,separators=(',',':')));tmp.replace(path)
+def get(url):
+ for attempt in range(4):
+  try:
+   time.sleep(.35)
+   with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':os.getenv('SEC_USER_AGENT','CapitalSignal Research hello@ainvestmentbank.ai'),'Accept-Encoding':'identity'}),timeout=45) as response: return response.read()
+  except Exception as exc:
+   if isinstance(exc, urllib.error.HTTPError) and exc.code in (403,429): raise
+   if attempt==3: raise
+   time.sleep(2**attempt*2)
+def key(ticker): return str(ticker).strip().upper().replace('.','-')
+def parse_universe(blob, tickers):
+ import openpyxl
+ rows=list(openpyxl.load_workbook(io.BytesIO(blob),read_only=True,data_only=True).active.values)
+ date=next(str(r[1]) for r in rows if r[0]=='Holdings:')
+ asof=dt.datetime.strptime(date.replace('As of ',''),'%d-%b-%Y').date().isoformat()
+ start=next(i for i,r in enumerate(rows) if r[0]=='Name' and r[1]=='Ticker')
+ lookup=collections.defaultdict(set)
+ for t in tickers.values(): lookup[key(t['ticker'])].add(str(t['cik_str']).zfill(10))
+ securities=[]; excluded=[]
+ for row in rows[start+1:]:
+  name,ticker,cusip,sedol,weight,sector,shares,currency=row[:8]
+  if not name: continue
+  if not ticker or ticker=='-' or 'CVR' in str(cusip) or str(name).startswith('CONTRA ') or 'MONEY MARKET' in str(name) or not cusip or len(str(cusip))!=9 or not isinstance(weight,(int,float)) or weight<=0 or not isinstance(shares,(int,float)) or shares<=0:
+   excluded.append({'name':str(name),'reason':'non_equity_or_invalid_identifier_weight_shares'}); continue
+  matches=lookup.get(key(ticker),set())
+  securities.append({'name':name,'ticker':ticker,'cusip':str(cusip),'cik':next(iter(matches)) if len(matches)==1 else None,'mapping_status':'unique_sec_ticker_match_current' if len(matches)==1 else 'unmapped_or_ambiguous','weight_pct':weight,'sector':None if sector in (None,'-') else sector,'currency':currency})
+ if not 1300<=len(securities)<=1700: raise ValueError(f'Universe count outside safety range: {len(securities)}')
+ return {'as_of':asof,'retrieved_at':now(),'source_url':HOLDINGS,'source_sha256':hashlib.sha256(blob).hexdigest(),'membership_basis':'SPTM ETF holdings proxy; not official index constituents or historical membership','securities':securities,'excluded_rows':excluded}
+def extract(data,url):
+ fields={}
+ for field,tags in TAGS.items():
+  observations=[]
+  for taxonomy in ('us-gaap','dei'):
+   for tag in tags:
+    for unit,points in data.get('facts',{}).get(taxonomy,{}).get(tag,{}).get('units',{}).items():
+     for p in points:
+      if p.get('filed') and p.get('end') and isinstance(p.get('val'),(int,float)):
+       observations.append(dict(p,taxonomy=taxonomy,tag=tag,unit=unit))
+  fields[field]=observations
+ return {'cik':str(data['cik']).zfill(10),'entity_name':data['entityName'],'source_url':url,'retrieved_at':now(),'fields':fields}
+def snapshot(record,asof):
+ result={}
+ for field,points in record['fields'].items():
+  unit='shares' if field=='shares_outstanding' else 'USD/shares' if field in ('eps_diluted','dividends_per_share') else 'USD'
+  eligible=[]
+  for p in points:
+   if p['unit']!=unit or p['filed']>asof or p['end']>asof: continue
+   if field not in INSTANT:
+    if not p.get('start'): continue
+    days=(dt.date.fromisoformat(p['end'])-dt.date.fromisoformat(p['start'])).days
+    if not 330<=days<=400: continue
+   eligible.append(p)
+  if eligible:
+   # Prefer the primary tag, then the most recently available restatement for that period.
+   p=max(eligible,key=lambda p:(p['end'],p['filed'],-TAGS[field].index(p['tag'])))
+   result[field]=p
+ return result
+def main():
+ ap=argparse.ArgumentParser();ap.add_argument('--limit',type=int,default=0);ap.add_argument('--refresh-hours',type=float,default=24);args=ap.parse_args()
+ OUT.mkdir(parents=True,exist_ok=True)
+ errors=[]
+ try:
+  raw=get(HOLDINGS);tickers=json.loads(get(TICKERS));universe=parse_universe(raw,tickers)
+  dump(OUT/'universe.json',universe);dump(OUT/'universes'/(universe['as_of']+'.json'),universe)
+ except Exception as e:
+  dump(OUT/'last_attempt.json',{'at':now(),'status':'universe_source_failed','error':str(e)});raise
+ ciks=sorted({s['cik'] for s in universe['securities'] if s['cik']})
+ start=time.monotonic();attempted=0
+ def summarize():
+  coverage=collections.Counter();ok=0;fresh=0;missing=[]
+  for cik in ciks:
+   path=OUT/'companyfacts'/(cik+'.json.gz')
+   if not path.exists():missing.append(cik);continue
+   record=json.loads(gzip.decompress(path.read_bytes()));ok+=1
+   if (dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(record['retrieved_at'])).total_seconds()<args.refresh_hours*3600:fresh+=1
+   coverage.update(snapshot(record,universe['as_of']).keys())
+  dump(OUT/'status.json',{'updated_at':now(),'status':'complete_with_gaps' if ok==len(ciks) else 'partial','universe_as_of':universe['as_of'],'universe_basis':universe['membership_basis'],'security_count':len(universe['securities']),'mapped_security_count':sum(bool(s['cik']) for s in universe['securities']),'unique_mapped_issuers':len(ciks),'ingested_issuers':ok,'fresh_issuers':fresh,'pending_issuers':missing,'failed_attempts':errors,'unmapped_securities':[s for s in universe['securities'] if not s['cik']],'field_issuer_coverage':dict(coverage),'field_basis':'USD annual-duration facts; instant balance-sheet/shares facts; filed and end <= universe date; annual is not TTM','next_stage':'benchmark matching and portfolio diagnostics','gaps':['Official historical constituents/weights','Point-in-time prices and share-class market caps','Sector data absent when provider reports dash','Forward consensus estimates unavailable','Custom/IFRS taxonomy normalization pending'],'elapsed_seconds':round(time.monotonic()-start)})
+ for cik in ciks:
+  path=OUT/'companyfacts'/(cik+'.json.gz')
+  if path.exists():
+   saved=json.loads(gzip.decompress(path.read_bytes()))
+   age=(dt.datetime.now(dt.timezone.utc)-dt.datetime.fromisoformat(saved['retrieved_at'])).total_seconds()
+   if age<args.refresh_hours*3600:continue
+  if args.limit and attempted>=args.limit:break
+  attempted+=1;url=f'https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json'
+  try:
+   blob=get(url);data=json.loads(blob)
+   if str(data.get('cik','')).zfill(10)!=cik:raise ValueError('CIK mismatch')
+   record=extract(data,url);record['source_sha256']=hashlib.sha256(blob).hexdigest()
+   path.parent.mkdir(exist_ok=True);tmp=path.with_suffix('.tmp');tmp.write_bytes(gzip.compress(json.dumps(record,separators=(',',':')).encode(),mtime=0));tmp.replace(path)
+  except Exception as e:
+   errors.append({'cik':cik,'source_url':url,'error':str(e),'at':now()})
+   if isinstance(e,urllib.error.HTTPError) and e.code in (403,429):
+    summarize();raise
+  if attempted%25==0:summarize();print(f'Checkpoint {attempted} attempted',flush=True)
+ summarize();print((OUT/'status.json').read_text(),flush=True)
+if __name__=='__main__':main()

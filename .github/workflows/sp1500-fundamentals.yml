@@ -1,0 +1,59 @@
+name: S&P 1500 fundamentals ingestion
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sp1500-fundamentals.yml'
+      - 'scripts/ingest_sp1500_fundamentals.py'
+      - 'scripts/match_fundamental_portfolios.py'
+  schedule:
+    - cron: '43 5 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: sp1500-fundamentals
+  cancel-in-progress: false
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install openpyxl==3.1.5
+      - name: Validate ingestion and date safeguards
+        run: python -m unittest discover -s tests -p 'test_fundamentals.py' -v
+      - name: Ingest current universe and SEC reported fundamentals
+        env:
+          SEC_USER_AGENT: 'CapitalSignal Research hello@ainvestmentbank.ai'
+        run: timeout --signal=INT 2400 python scripts/ingest_sp1500_fundamentals.py
+      - name: Begin benchmark and portfolio calculations
+        if: ${{ !cancelled() && hashFiles('CapitalSignal/data/fundamentals/universe.json') != '' }}
+        run: python scripts/match_fundamental_portfolios.py
+      - name: Preserve coverage report and checkpoints
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sp1500-ingestion-evidence
+          path: CapitalSignal/data/fundamentals/
+          retention-days: 7
+      - name: Publish data checkpoints
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add CapitalSignal/data/fundamentals/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh S&P 1500 proxy fundamentals and coverage diagnostics'
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main || exit 1
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
