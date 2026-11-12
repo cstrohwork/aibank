@@ -540,6 +540,46 @@ def investor_filing_period(rows, state, start, end):
     }
 
 
+def investor_intake_window(row):
+    """Discovery uses filing dates; normalize() verifies actual holdings dates."""
+    filed = row.get('filing_date', '')
+    if filed >= '2026-09-30':
+        return '2026-09-30'
+    if filed >= '2026-07-01':
+        return '2026-06-30'
+    return 'historical'
+
+
+def select_download_queue(rows, state, available, limit):
+    """Finish current investor intake, then June-quarter intake, then older history."""
+    periods = ('2026-09-30', '2026-06-30', 'historical')
+    outstanding = {
+        period: sum(row['form'] in INVESTOR_FORMS
+                    and investor_intake_window(row) == period
+                    and state.get(row['accession'], {}).get('status') != 'archived'
+                    for row in rows)
+        for period in periods}
+    active = next((period for period in periods if outstanding[period]), None)
+    priority = [row for row in available if row['form'] in INVESTOR_FORMS
+                and investor_intake_window(row) == active]
+    others = [row for row in available if row['form'] not in INVESTOR_FORMS]
+    reserved = max(1, limit // 5)
+    queue = priority[:limit - reserved] + others[:reserved]
+    used = {row['accession'] for row in queue}
+    queue += [row for row in priority + others
+              if row['accession'] not in used][:limit - len(queue)]
+    plan = {
+        'active_target_report_date': active,
+        'priority_order': list(periods),
+        'outstanding_capture_by_intake_window': outstanding,
+        'selection_basis': 'SEC filing-date intake windows; actual holdings report dates are verified during normalization',
+        'current_intake_start': '2026-09-30',
+        'june_intake_start': '2026-07-01',
+        'june_intake_end': '2026-09-29',
+        'current_errors_hold_older_investor_backfill': True}
+    return queue, plan
+
+
 def run(root=ROOT):
     start = START
     dt.date.fromisoformat(start)
@@ -600,13 +640,8 @@ def run(root=ROOT):
         -int(r['filing_date'].replace('-', '')),
         state.get(r['accession'], {}).get('status') in ('failed', 'deferred'),
         r['accession']))
-    priority = [r for r in available if r['form'] in PRIORITY]
-    others = [r for r in available if r['form'] not in PRIORITY]
     limit = int(os.getenv('SEC_HISTORY_BATCH', '120'))
-    reserved = max(1, limit // 5)
-    queue = priority[:limit - reserved] + others[:reserved]
-    used = {r['accession'] for r in queue}
-    queue += [r for r in available if r['accession'] not in used][:limit - len(queue)]
+    queue, investor_priority_plan = select_download_queue(rows, state, available, limit)
     downloaded = 0
     download_interruption = None
     batch_deferral = None
@@ -726,6 +761,7 @@ def run(root=ROOT):
         'checked_at': checked_at,
         'updated_at': checked_at,
         'investor_filings': investor_monitor,
+        'investor_ingestion_priority': investor_priority_plan,
         'live_feed': LIVE_FEED_STATUS,
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
         'pending_filings': len(rows) - len(archived), 'downloaded_this_run': downloaded, 'parallel_workers': worker_count, 'batch_budget_seconds': budget_seconds,
