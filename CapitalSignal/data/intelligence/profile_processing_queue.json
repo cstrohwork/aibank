@@ -5,10 +5,10 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 44,
-    "discovery_cursor": 44,
+    "queued_candidates": 47,
+    "discovery_cursor": 47,
     "exhausted": false,
-    "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
+    "warning": "Bounded cached 13F discovery only; full manager/fund universe and amendments not reconciled"
   },
   "policy": {
     "batch_size": 30,
@@ -714,6 +714,54 @@
       "source_blob_sha": "1f759afe67d89a72ca147a400cf94c7d2cbdb49f",
       "amendment_type": null,
       "last_checked_at": "2026-11-13T12:42:32Z"
+    },
+    {
+      "id": "CIK0000049196",
+      "name": "HUNTINGTON BANCSHARES INC /MD/",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-10",
+      "source_file": "CapitalSignal/data/13f/0000049196-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000049196-26-000093",
+      "retries": 0,
+      "reason": "Cached 13F holdings and accession parsed; SEC summary totals, amendment precedence and newest filing not independently reconciled. Publication and classifications withheld.",
+      "holdings_count": 8,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/49196/0000049196-26-000093.txt",
+      "source_blob_sha": "226d209f4536ae69d7ee00f65f2076ad0ea95d3f",
+      "last_checked_at": "2026-11-13T13:31:03Z"
+    },
+    {
+      "id": "CIK0000059558",
+      "name": "LINCOLN NATIONAL CORP",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-09",
+      "source_file": "CapitalSignal/data/13f/0000059558-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000059558-26-000073",
+      "retries": 0,
+      "reason": "Cached 13F holdings and accession parsed; SEC summary totals, amendment precedence and newest filing not independently reconciled. Publication and classifications withheld.",
+      "holdings_count": 18,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59558/0000059558-26-000073.txt",
+      "source_blob_sha": "eae01b58027cc8ec17a15a320d3e84d16ce885e2",
+      "last_checked_at": "2026-11-13T13:31:03Z"
+    },
+    {
+      "id": "CIK0000064803",
+      "name": "CVS HEALTH Corp",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "source_file": "CapitalSignal/data/13f/0000064803-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000064803-26-000110",
+      "retries": 0,
+      "reason": "Cached 13F holdings and accession parsed; SEC summary totals, amendment precedence and newest filing not independently reconciled. Publication and classifications withheld.",
+      "holdings_count": 36,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/64803/0000064803-26-000110.txt",
+      "source_blob_sha": "87c328a16a677a0d00a08c76ce0649c410425604",
+      "last_checked_at": "2026-11-13T13:31:03Z"
     }
   ],
   "next_batch_ids": [
@@ -728,10 +776,10 @@
     "CIK0002032602",
     "CIK0001054074"
   ],
-  "completed_count": 33,
+  "completed_count": 36,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T12:42:32Z",
+  "last_processing_at": "2026-11-13T13:31:03Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -751,11 +799,11 @@
     "CIK0001054074"
   ],
   "last_run": {
-    "processed": 2,
-    "validated": 2,
+    "processed": 3,
+    "validated": 3,
     "published": 0,
     "blocked": 0,
-    "note": "Bounded discovery of September 2026 cached 13F holdings; no monetary summary/amendment or live publication independently verified."
+    "note": "Cached September 2026 13F discovery; no independently verified SEC monetary summaries, amendments or public Pages publication."
   },
-  "last_run_at": "2026-11-13T12:42:32Z"
+  "last_run_at": "2026-11-13T13:31:03Z"
 }
