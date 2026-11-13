@@ -5,8 +5,8 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 36,
-    "discovery_cursor": 36,
+    "queued_candidates": 38,
+    "discovery_cursor": 38,
     "exhausted": false,
     "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
   },
@@ -586,6 +586,40 @@
       "source_blob_sha": "e450b7f896ce3944d61a5bf3033a3f5fb71c012b",
       "amendment_type": null,
       "last_checked_at": "2026-11-13T08:41:45Z"
+    },
+    {
+      "id": "CIK0000009015",
+      "name": "BARINGS LLC",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-22",
+      "source_file": "CapitalSignal/data/13f/0000009015-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000009015-26-000036",
+      "retries": 0,
+      "reason": "Complete cached 13F parsed; accession, filing/report dates and holdings count verified. Independent SEC monetary summary, amendment precedence, latest filings and publication remain pending. Style, turnover and orientation unknown.",
+      "source_blob_sha": "4fe7414d7be3e773124287f0be86902237135672",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/9015/0000009015-26-000036.txt",
+      "holdings_count": 235,
+      "amendment_type": "",
+      "last_checked_at": "2026-11-13T09:45:24Z"
+    },
+    {
+      "id": "CIK0000007789",
+      "name": "ASSOCIATED BANC-CORP",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-30",
+      "source_file": "CapitalSignal/data/13f/0000007789-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000007789-26-000262",
+      "retries": 0,
+      "reason": "Complete cached 13F parsed; accession, filing/report dates and holdings count verified. Independent SEC monetary summary, amendment precedence, latest filings and publication remain pending. Style, turnover and orientation unknown.",
+      "source_blob_sha": "166c12348beef6bad7b190c2a97e042df17d45fc",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/7789/0000007789-26-000262.txt",
+      "holdings_count": 354,
+      "amendment_type": "",
+      "last_checked_at": "2026-11-13T09:45:24Z"
     }
   ],
   "next_batch_ids": [
@@ -594,12 +628,16 @@
     "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
-    "CIK0000713676"
+    "CIK0000713676",
+    "CIK0000831001",
+    "CIK0001710537",
+    "CIK0002032602",
+    "CIK0001054074"
   ],
-  "completed_count": 25,
+  "completed_count": 27,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T07:24:29Z",
+  "last_processing_at": "2026-11-13T09:45:24Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -612,15 +650,18 @@
     "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
-    "CIK0000713676"
+    "CIK0000713676",
+    "CIK0000831001",
+    "CIK0001710537",
+    "CIK0002032602",
+    "CIK0001054074"
   ],
   "last_run": {
-    "result": "two new cache candidates validated; publication gated by monetary and amendment reconciliation",
-    "added": [
-      "CENTRAL SECURITIES CORP",
-      "BRIGHTON SECURITIES CORP."
-    ],
-    "source": "2026-09-30 cached 13F"
+    "processed": 2,
+    "validated": 2,
+    "published": 0,
+    "blocked": 0,
+    "note": "New cache candidates parsed; SEC source monetary/amendment reconciliation and publication pending."
   },
-  "last_run_at": "2026-11-13T08:41:45Z"
+  "last_run_at": "2026-11-13T09:45:24Z"
 }
