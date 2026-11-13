@@ -5,8 +5,8 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 38,
-    "discovery_cursor": 38,
+    "queued_candidates": 40,
+    "discovery_cursor": 40,
     "exhausted": false,
     "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
   },
@@ -620,6 +620,36 @@
       "holdings_count": 354,
       "amendment_type": "",
       "last_checked_at": "2026-11-13T09:45:24Z"
+    },
+    {
+      "id": "CIK0000004962",
+      "name": "AMERICAN EXPRESS CO",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-06",
+      "source_file": "CapitalSignal/data/13f/0000004962-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000004962-26-000428",
+      "retries": 0,
+      "reason": "Cached 13F holdings and accession parsed; SEC monetary units, amendment precedence, latest filings and publication not independently reconciled. Style, orientation and turnover unknown.",
+      "holdings_count": 1,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4962/0000004962-26-000428.txt",
+      "last_checked_at": "2026-11-13T10:54:54Z"
+    },
+    {
+      "id": "CIK0000004977",
+      "name": "AFLAC INC",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-05",
+      "source_file": "CapitalSignal/data/13f/0000004977-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0001628280-26-070795",
+      "retries": 0,
+      "reason": "Cached 13F holdings and accession parsed; SEC monetary units, amendment precedence, latest filings and publication not independently reconciled. Style, orientation and turnover unknown.",
+      "holdings_count": 4,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4977/0001628280-26-070795.txt",
+      "last_checked_at": "2026-11-13T10:54:54Z"
     }
   ],
   "next_batch_ids": [
