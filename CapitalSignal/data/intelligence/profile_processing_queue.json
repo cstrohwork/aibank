@@ -108,8 +108,10 @@
       "source_file": "CapitalSignal/data/13f/0000102909-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "Bounded source read returned empty content despite blob SHA e38e156cb6f26d1ac364e0b00473025ded9df9f4; no accession/holdings validation possible. Retry through retained SEC archive or streamed reader; do not infer monetary value.",
+      "last_checked_at": "2026-11-13T06:20:06Z",
+      "last_error_code": "GITHUB_FETCH_EMPTY"
     },
     {
       "id": "CIK0000713676",
@@ -533,7 +535,7 @@
   "completed_count": 21,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T05:29:55Z",
+  "last_processing_at": "2026-11-13T06:20:06Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T04:40:45Z",
     "attempted": 2,
@@ -551,12 +553,14 @@
     "CIK0001710537"
   ],
   "last_run": {
-    "result": "validated_cached_13f",
-    "investor_id": "CIK0001407543",
-    "accession": "0001214659-25-015924",
-    "holdings_count": 4505,
-    "source_blob_sha": "389f32a54cc87e0cc249243afa5e645c24858e16",
-    "publication": "blocked_pending_sec_reconciliation"
+    "result": "blocked_source_retrieval",
+    "investor_id": "CIK0000102909",
+    "source_blob_sha": "e38e156cb6f26d1ac364e0b00473025ded9df9f4",
+    "attempted": 1,
+    "validated_new": 0,
+    "published_new": 0,
+    "blocked": 1,
+    "next_action": "Use retained SEC archive/streaming reader; prioritize other unprofiled managers and reconcile SEC amendments before publication"
   },
-  "last_run_at": "2026-11-13T05:29:55Z"
+  "last_run_at": "2026-11-13T06:20:06Z"
 }
