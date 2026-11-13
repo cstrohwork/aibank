@@ -345,14 +345,18 @@
     {
       "id": "CIK0000312272",
       "name": "COMMONWEALTH EQUITY SERVICES, LLC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-10-22",
       "source_file": "CapitalSignal/data/13f/0000312272-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0000312272-25-000021",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Parsed complete cached 13F and verified accession, filing/report dates and holdings count. Cached value_usd and legacy value_thousands are not independently reconciled to SEC summary; amendment precedence and newer filings not verified. No monetary value, style, turnover, orientation or publication claimed.",
+      "holdings_count": 4234,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/312272/0000312272-25-000021.txt",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T03:28:00Z"
     },
     {
       "id": "CIK0001851815",
@@ -550,5 +554,6 @@
       "Amendment precedence",
       "Live publication"
     ]
-  }
+  },
+  "last_run_at": "2026-11-13T03:28:00Z"
 }
