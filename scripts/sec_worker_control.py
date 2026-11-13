@@ -64,6 +64,11 @@ def supervise(root=ROOT):
     repo = os.environ['GITHUB_REPOSITORY']
     runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
     action, reason = decision(runs, load(root / 'history/status.json', {}))
+    # A direct dispatch from the parent's final step may arrive just before it exits.
+    if action == 'wait' and os.getenv('GITHUB_EVENT_NAME') == 'workflow_dispatch':
+        time.sleep(10)
+        runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
+        action, reason = decision(runs, load(root / 'history/status.json', {}))
     ready = failure_ready(runs)
     delay = (ready - dt.datetime.now(dt.timezone.utc)).total_seconds() if ready else 0
     if action == 'cooldown' and 0 < delay <= 60:

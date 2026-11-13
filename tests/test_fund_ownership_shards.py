@@ -8,6 +8,23 @@ from sec_history import load, select_download_queue
 
 
 class OwnershipShardTests(unittest.TestCase):
+    def test_one_large_cusip_splits_without_losing_positions_and_removes_old_page(self):
+        positions = [{'value_usd': i, 'source': 'x' * 100} for i in range(20)]
+        with tempfile.TemporaryDirectory() as folder:
+            root = pathlib.Path(folder)
+            (root / 'ownership_by_cusip').mkdir()
+            (root / 'ownership_by_cusip/00.json').write_text('obsolete oversized index')
+            write_ownership_index(root, {'000000000': positions}, 'evidence', max_bytes=400)
+            manifest = load(root / 'ownership_by_cusip.json')
+            recovered = []
+            self.assertGreater(len(manifest['shards']), 1)
+            for shard in manifest['shards']:
+                path = root / shard['file']
+                self.assertLessEqual(path.stat().st_size, 400)
+                recovered.extend(load(path)['securities']['000000000'])
+            self.assertEqual(recovered, positions)
+            self.assertFalse((root / 'ownership_by_cusip/00.json').exists())
+
     def test_manifest_and_shards_preserve_all_positions(self):
         securities = {'123456789': [{'value_usd': 10}], '123456780': [{'value_usd': 20}],
                       '987654321': [{'value_usd': 30}]}
