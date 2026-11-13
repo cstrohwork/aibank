@@ -725,11 +725,23 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0000049196-26-000093",
       "retries": 0,
-      "reason": "Cached 13F holdings and accession parsed; SEC summary totals, amendment precedence and newest filing not independently reconciled. Publication and classifications withheld.",
+      "reason": "Reconciled cached holdings USD totals and concentration against full GitHub blob; independent SEC cover-page summary, amendment precedence and newer filings still required before publication.",
       "holdings_count": 8,
       "source_url": "https://www.sec.gov/Archives/edgar/data/49196/0000049196-26-000093.txt",
       "source_blob_sha": "226d209f4536ae69d7ee00f65f2076ad0ea95d3f",
-      "last_checked_at": "2026-11-13T13:31:03Z"
+      "last_checked_at": "2026-11-13T17:28:51Z",
+      "cached_holdings_reconciliation": {
+        "source_blob_sha": "226d209f4536ae69d7ee00f65f2076ad0ea95d3f",
+        "source_value_unit": "USD",
+        "legacy_field_unit": "USD",
+        "holdings_value_sum_usd": 2127432,
+        "largest_position_value_usd": 572994,
+        "largest_position_pct": 26.9336,
+        "all_rows_value_fields_equal": true,
+        "independent_sec_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "metric_status": "internal_cache_only_not_publishable"
+      }
     },
     {
       "id": "CIK0000059558",
@@ -741,11 +753,23 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0000059558-26-000073",
       "retries": 0,
-      "reason": "Cached 13F holdings and accession parsed; SEC summary totals, amendment precedence and newest filing not independently reconciled. Publication and classifications withheld.",
+      "reason": "Reconciled cached holdings USD totals and concentration against full GitHub blob; independent SEC cover-page summary, amendment precedence and newer filings still required before publication.",
       "holdings_count": 18,
       "source_url": "https://www.sec.gov/Archives/edgar/data/59558/0000059558-26-000073.txt",
       "source_blob_sha": "eae01b58027cc8ec17a15a320d3e84d16ce885e2",
-      "last_checked_at": "2026-11-13T13:31:03Z"
+      "last_checked_at": "2026-11-13T17:28:51Z",
+      "cached_holdings_reconciliation": {
+        "source_blob_sha": "eae01b58027cc8ec17a15a320d3e84d16ce885e2",
+        "source_value_unit": "USD",
+        "legacy_field_unit": "USD",
+        "holdings_value_sum_usd": 3679182383,
+        "largest_position_value_usd": 375428627,
+        "largest_position_pct": 10.2041,
+        "all_rows_value_fields_equal": true,
+        "independent_sec_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "metric_status": "internal_cache_only_not_publishable"
+      }
     },
     {
       "id": "CIK0000064803",
@@ -757,11 +781,23 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0000064803-26-000110",
       "retries": 0,
-      "reason": "Cached 13F holdings and accession parsed; SEC summary totals, amendment precedence and newest filing not independently reconciled. Publication and classifications withheld.",
+      "reason": "Reconciled cached holdings USD totals and concentration against full GitHub blob; independent SEC cover-page summary, amendment precedence and newer filings still required before publication.",
       "holdings_count": 36,
       "source_url": "https://www.sec.gov/Archives/edgar/data/64803/0000064803-26-000110.txt",
       "source_blob_sha": "87c328a16a677a0d00a08c76ce0649c410425604",
-      "last_checked_at": "2026-11-13T13:31:03Z"
+      "last_checked_at": "2026-11-13T17:28:51Z",
+      "cached_holdings_reconciliation": {
+        "source_blob_sha": "87c328a16a677a0d00a08c76ce0649c410425604",
+        "source_value_unit": "USD",
+        "legacy_field_unit": "USD",
+        "holdings_value_sum_usd": 429355358,
+        "largest_position_value_usd": 86578700,
+        "largest_position_pct": 20.1648,
+        "all_rows_value_fields_equal": true,
+        "independent_sec_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "metric_status": "internal_cache_only_not_publishable"
+      }
     },
     {
       "id": "CIK0000009631",
@@ -899,7 +935,7 @@
   "completed_count": 36,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T16:24:34Z",
+  "last_processing_at": "2026-11-13T17:28:51Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -919,11 +955,20 @@
     "CIK0001054074"
   ],
   "last_run": {
-    "processed": 1,
-    "validated": 0,
-    "published": 0,
-    "blocked": 1,
-    "note": "Bounded monetary-unit reconciliation on existing validated profile; source metadata and 59 holdings rechecked, publication withheld pending SEC cover-page and amendment evidence."
+    "date": "2026-11-13",
+    "action": "cached_holdings_reconciliation",
+    "processed_ids": [
+      "CIK0000049196",
+      "CIK0000059558",
+      "CIK0000064803"
+    ],
+    "validated_count": 3,
+    "published_count": 0,
+    "blockers": [
+      "Independent SEC cover-page totals and amendment precedence not yet verified",
+      "Newer filings not checked",
+      "Public Pages publication unverified"
+    ]
   },
-  "last_run_at": "2026-11-13T16:24:34Z"
+  "last_run_at": "2026-11-13T17:28:51Z"
 }
