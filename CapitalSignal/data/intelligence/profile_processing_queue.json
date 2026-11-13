@@ -364,14 +364,19 @@
     {
       "id": "CIK0001056288",
       "name": "FEDERATED HERMES, INC.",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-03",
       "source_file": "CapitalSignal/data/13f/0001056288-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001623632-25-001496",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Complete cached 13F parsed: accession, 2025-09-30 reporting period, 2025-11-03 filing date, 4,188 holdings and source blob verified. Value_usd duplicates legacy value_thousands in sample; SEC value scaling and summary total not independently reconciled. Amendment precedence and newer periods unverified; no AUM, style, turnover or orientation inferred.",
+      "source_blob_sha": "70b250faf2ad707e81eeb07e45322f2065557bd2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1056288/0001623632-25-001496.txt",
+      "holdings_count": 4188,
+      "amendment_type": "",
+      "last_checked_at": "2026-11-13T00:49:37Z"
     },
     {
       "id": "CIK0001115418",
@@ -497,20 +502,19 @@
     "CIK0000092230",
     "CIK0001126328",
     "CIK0001407543",
-    "CIK0000312272",
-    "CIK0001056288"
+    "CIK0000312272"
   ],
-  "completed_count": 16,
+  "completed_count": 17,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T00:05:14Z",
+  "last_processing_at": "2026-11-13T00:49:37Z",
   "last_batch_validation": [
     {
-      "id": "CIK0000815917",
+      "id": "CIK0001056288",
       "status": "validated_pending_publication",
-      "accession": "0001193125-25-264057",
-      "holdings_count": 5225,
-      "source_blob_sha": "ab65584a04497e512941a906de78b41d988a20f3"
+      "accession": "0001623632-25-001496",
+      "holdings_count": 4188,
+      "source_blob_sha": "70b250faf2ad707e81eeb07e45322f2065557bd2"
     }
   ],
   "next_batch": [
@@ -520,16 +524,15 @@
     "CIK0000092230",
     "CIK0001126328",
     "CIK0001407543",
-    "CIK0000312272",
-    "CIK0001056288"
+    "CIK0000312272"
   ],
   "last_run": {
-    "at": "2026-11-13T00:05:14Z",
-    "validated_cik": "CIK0000815917",
+    "at": "2026-11-13T00:49:37Z",
+    "validated_cik": "CIK0001056288",
     "counts": {
-      "validated_pending_publication": 16,
+      "validated_pending_publication": 17,
       "published": 1,
-      "pending": 15
+      "pending": 14
     },
     "publication_verified": false
   }
