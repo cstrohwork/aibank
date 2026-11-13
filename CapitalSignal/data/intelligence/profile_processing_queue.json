@@ -231,14 +231,19 @@
     {
       "id": "CIK0000815917",
       "name": "JONES FINANCIAL COMPANIES LLLP",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-04",
       "source_file": "CapitalSignal/data/13f/0000815917-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001193125-25-264057",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Parsed complete cached 13F and verified accession, filing/report dates and holdings count. Source value_usd duplicates value_thousands in sampled records; SEC monetary units, amendment precedence and newer filings remain unverified. No portfolio value, turnover, style or orientation inferred.",
+      "holdings_count": 5225,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/815917/0001193125-25-264057.txt",
+      "source_blob_sha": "ab65584a04497e512941a906de78b41d988a20f3",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T00:05:14Z"
     },
     {
       "id": "CIK0000319933",
@@ -489,32 +494,29 @@
     "CIK0000102909",
     "CIK0000831001",
     "CIK0001054074",
-    "CIK0000815917",
-    "CIK0000319933",
     "CIK0000092230",
     "CIK0001126328",
     "CIK0001407543",
     "CIK0000312272",
-    "CIK0001851815"
+    "CIK0001056288"
   ],
-  "completed_count": 13,
+  "completed_count": 16,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-12T20:42:17Z",
+  "last_processing_at": "2026-11-13T00:05:14Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001535847",
+      "id": "CIK0000815917",
       "status": "validated_pending_publication",
-      "accession": "0001580642-25-006592",
-      "holdings_count": 5526,
-      "source_blob_sha": "7c15dfcb5bcda29570287955d7ee34d37ae9c001"
+      "accession": "0001193125-25-264057",
+      "holdings_count": 5225,
+      "source_blob_sha": "ab65584a04497e512941a906de78b41d988a20f3"
     }
   ],
   "next_batch": [
     "CIK0000102909",
     "CIK0000831001",
     "CIK0001054074",
-    "CIK0000815917",
     "CIK0000092230",
     "CIK0001126328",
     "CIK0001407543",
@@ -522,12 +524,12 @@
     "CIK0001056288"
   ],
   "last_run": {
-    "at": "2026-11-12T22:50:00Z",
-    "validated_cik": "CIK0001851815",
+    "at": "2026-11-13T00:05:14Z",
+    "validated_cik": "CIK0000815917",
     "counts": {
-      "validated_pending_publication": 15,
+      "validated_pending_publication": 16,
       "published": 1,
-      "pending": 16
+      "pending": 15
     },
     "publication_verified": false
   }
