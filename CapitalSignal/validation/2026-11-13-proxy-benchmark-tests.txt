@@ -1,0 +1,27 @@
+test_benchmark_cli_writes_separate_reports (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_benchmark_cli_writes_separate_reports) ... ok
+test_conflicting_cik_or_cusip_is_not_silently_merged (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_conflicting_cik_or_cusip_is_not_silently_merged) ... ok
+test_future_proxy_snapshot_is_blocked (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_future_proxy_snapshot_is_blocked) ... ok
+test_ingestion_main_persists_provider_snapshots_without_network (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_ingestion_main_persists_provider_snapshots_without_network) ... ok
+test_invalid_weights_are_blocked_without_renormalization (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_invalid_weights_are_blocked_without_renormalization) ... ok
+test_legacy_union_cannot_reconstruct_lost_provider_weights (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_legacy_union_cannot_reconstruct_lost_provider_weights) ... ok
+test_own_denominators_and_filing_date_cutoffs (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_own_denominators_and_filing_date_cutoffs) ... ok
+test_share_classes_weight_separately_but_issuer_counts_deduplicate (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_share_classes_weight_separately_but_issuer_counts_deduplicate) ... ok
+test_union_deduplicates_but_keeps_weights_dates_and_provenance (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_union_deduplicates_but_keeps_weights_dates_and_provenance) ... ok
+test_zero_weights_and_missing_source_stay_blocked (test_fundamental_proxy_benchmarks.ProxyBenchmarkTests.test_zero_weights_and_missing_source_stay_blocked) ... ok
+test_cache_union_keeps_newer_remote_and_excludes_analytics (test_fundamental_publication.PublicationTests.test_cache_union_keeps_newer_remote_and_excludes_analytics) ... ok
+test_invalid_cache_rejected_before_publication (test_fundamental_publication.PublicationTests.test_invalid_cache_rejected_before_publication) ... ok
+test_publication_preserves_competing_writer_without_rebase (test_fundamental_publication.PublicationTests.test_publication_preserves_competing_writer_without_rebase) ... ok
+test_snapshot_reused_across_portfolios_but_not_dates (test_fundamental_publication.PublicationTests.test_snapshot_reused_across_portfolios_but_not_dates) ... ok
+test_corrupt_wrong_identity_and_unknown_timestamp_are_reacquired (test_fundamental_queue.FundamentalQueueTests.test_corrupt_wrong_identity_and_unknown_timestamp_are_reacquired) ... ok
+test_missing_precedes_stale_and_fresh_is_skipped (test_fundamental_queue.FundamentalQueueTests.test_missing_precedes_stale_and_fresh_is_skipped) ... ok
+test_coverage_uses_all_eligible_value (test_fundamentals.FundamentalsTests.test_coverage_uses_all_eligible_value) ... ok
+test_mismatched_periods_do_not_create_ratio (test_fundamentals.FundamentalsTests.test_mismatched_periods_do_not_create_ratio) ... ok
+test_missing_unit_is_not_converted (test_fundamentals.FundamentalsTests.test_missing_unit_is_not_converted) ... ok
+test_no_future_or_quarter_as_annual (test_fundamentals.FundamentalsTests.test_no_future_or_quarter_as_annual) ... ok
+test_option_and_ambiguous_value_excluded (test_fundamentals.FundamentalsTests.test_option_and_ambiguous_value_excluded) ... ok
+test_restatement_available_only_after_filing (test_fundamentals.FundamentalsTests.test_restatement_available_only_after_filing) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.168s
+
+OK

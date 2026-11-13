@@ -1,0 +1,101 @@
+{
+  "validation_basis": "Synthetic regression fixture; not production coverage",
+  "report": {
+    "updated_at": "2026-11-13T13:48:05.046640+00:00",
+    "as_of": "2026-11-12",
+    "membership_basis": "Current SPTM and IWV ETF holdings proxies; not official index membership or historical constituents",
+    "benchmarks": {
+      "S&P1500_proxy": {
+        "source": {
+          "as_of": "2026-11-10",
+          "retrieved_at": "2026-11-13T12:00:00+00:00",
+          "source_url": "https://example.test/sptm",
+          "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "membership_basis": "Current ETF holdings proxy; not official membership"
+        },
+        "field_weight_coverage_pct": {
+          "revenue": 0.0,
+          "net_income": 0.0,
+          "equity": 0.0,
+          "assets": 0.0,
+          "liabilities": 0.0,
+          "operating_income": 0.0,
+          "operating_cash_flow": 0.0,
+          "capital_expenditure": 0.0,
+          "eps_diluted": 0.0,
+          "shares_outstanding": 0.0,
+          "dividends_per_share": 0.0
+        },
+        "calculated_style": null,
+        "status": "current_proxy_field_diagnostics_only",
+        "security_count": 2,
+        "unique_mapped_issuers": 2,
+        "denominator_provider_weight_pct": 100,
+        "mapped_provider_weight_coverage_pct": 100.0,
+        "field_issuer_coverage": {
+          "revenue": 0,
+          "net_income": 0,
+          "equity": 0,
+          "assets": 0,
+          "liabilities": 0,
+          "operating_income": 0,
+          "operating_cash_flow": 0,
+          "capital_expenditure": 0,
+          "eps_diluted": 0,
+          "shares_outstanding": 0,
+          "dividends_per_share": 0
+        },
+        "fact_cutoff": "2026-11-10",
+        "field_basis": "Reported annual USD facts available by provider holdings date; annual is not TTM",
+        "historical_membership_verified": false
+      },
+      "Russell3000_proxy": {
+        "source": {
+          "as_of": "2026-11-12",
+          "retrieved_at": "2026-11-13T12:00:00+00:00",
+          "source_url": "https://example.test/iwv",
+          "source_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "membership_basis": "Current ETF holdings proxy; not official membership"
+        },
+        "field_weight_coverage_pct": {
+          "revenue": 20.0,
+          "net_income": 0.0,
+          "equity": 0.0,
+          "assets": 0.0,
+          "liabilities": 0.0,
+          "operating_income": 0.0,
+          "operating_cash_flow": 0.0,
+          "capital_expenditure": 0.0,
+          "eps_diluted": 0.0,
+          "shares_outstanding": 0.0,
+          "dividends_per_share": 0.0
+        },
+        "calculated_style": null,
+        "status": "current_proxy_field_diagnostics_only",
+        "security_count": 3,
+        "unique_mapped_issuers": 2,
+        "denominator_provider_weight_pct": 100,
+        "mapped_provider_weight_coverage_pct": 20.0,
+        "field_issuer_coverage": {
+          "revenue": 1,
+          "net_income": 0,
+          "equity": 0,
+          "assets": 0,
+          "liabilities": 0,
+          "operating_income": 0,
+          "operating_cash_flow": 0,
+          "capital_expenditure": 0,
+          "eps_diluted": 0,
+          "shares_outstanding": 0,
+          "dividends_per_share": 0
+        },
+        "fact_cutoff": "2026-11-12",
+        "field_basis": "Reported annual USD facts available by provider holdings date; annual is not TTM",
+        "historical_membership_verified": false
+      }
+    },
+    "calculated_style": null,
+    "historical_comparison_status": "blocked_missing_historical_membership_weights_and_market_factors",
+    "status": "current_proxy_diagnostics_only"
+  }
+}
