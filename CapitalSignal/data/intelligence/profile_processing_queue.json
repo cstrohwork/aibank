@@ -265,14 +265,19 @@
     {
       "id": "CIK0000092230",
       "name": "TRUIST FINANCIAL CORP",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-03",
       "source_file": "CapitalSignal/data/13f/0000092230-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0000092230-25-000158",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Complete cached 13F parsed with accession, filing/report dates and holdings count. SEC monetary units, latest filing/amendment precedence and publication unverified; value, turnover, style and orientation withheld.",
+      "source_blob_sha": "00053ff371e40e7757b1ace0f847f58c52b3f31a",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/92230/0000092230-25-000158.txt",
+      "holdings_count": 5089,
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T01:18:27Z"
     },
     {
       "id": "CIK0001992825",
@@ -496,18 +501,19 @@
     }
   ],
   "next_batch_ids": [
+    "CIK0001979372",
+    "CIK0000019617",
+    "CIK0001390777",
+    "CIK0001697723",
     "CIK0000102909",
+    "CIK0000713676",
     "CIK0000831001",
-    "CIK0001054074",
-    "CIK0000092230",
-    "CIK0001126328",
-    "CIK0001407543",
-    "CIK0000312272"
+    "CIK0001710537"
   ],
-  "completed_count": 17,
+  "completed_count": 18,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T00:49:37Z",
+  "last_processing_at": "2026-11-13T01:18:27Z",
   "last_batch_validation": [
     {
       "id": "CIK0001056288",
@@ -518,22 +524,26 @@
     }
   ],
   "next_batch": [
+    "CIK0001979372",
+    "CIK0000019617",
+    "CIK0001390777",
+    "CIK0001697723",
     "CIK0000102909",
+    "CIK0000713676",
     "CIK0000831001",
-    "CIK0001054074",
-    "CIK0000092230",
-    "CIK0001126328",
-    "CIK0001407543",
-    "CIK0000312272"
+    "CIK0001710537"
   ],
   "last_run": {
-    "at": "2026-11-13T00:49:37Z",
-    "validated_cik": "CIK0001056288",
-    "counts": {
-      "validated_pending_publication": 17,
-      "published": 1,
-      "pending": 14
-    },
-    "publication_verified": false
+    "at": "2026-11-13T01:18:27Z",
+    "processed": [
+      "CIK0000092230"
+    ],
+    "validated": 1,
+    "published": 0,
+    "blockers": [
+      "Monetary scale",
+      "Amendment precedence",
+      "Live publication"
+    ]
   }
 }
