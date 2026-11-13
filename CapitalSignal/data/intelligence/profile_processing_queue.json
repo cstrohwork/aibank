@@ -5,10 +5,10 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 53,
-    "discovery_cursor": 53,
+    "queued_candidates": 54,
+    "discovery_cursor": 54,
     "exhausted": false,
-    "warning": "Bounded cached 13F discovery only; full manager/fund universe and amendments not reconciled"
+    "warning": "Bounded cached 13F discovery; SEC monetary summary and amendment precedence not independently reconciled; N-PORT/N-PX universe incomplete"
   },
   "policy": {
     "batch_size": 30,
@@ -918,6 +918,23 @@
         "publication_ready": false,
         "blocker": "No independent SEC cover-page monetary summary or latest amendment confirmation; do not use legacy value_thousands as thousands."
       }
+    },
+    {
+      "id": "CIK0000036966",
+      "name": "FIRST HORIZON CORP",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-26",
+      "source_file": "CapitalSignal/data/13f/0000036966-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000036966-26-000179",
+      "retries": 0,
+      "reason": "Complete cached 13F-HR parsed and metadata/holdings count verified. SEC monetary summary, amendment precedence and newer filings not independently verified; portfolio value, turnover, style and orientation withheld.",
+      "holdings_count": 1974,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/36966/0000036966-26-000179.txt",
+      "source_blob_sha": "28f92145b59e3f4b1120180ae57b6bb77240435a",
+      "amendment_type": "",
+      "last_checked_at": "2026-11-13T18:11:22Z"
     }
   ],
   "next_batch_ids": [
@@ -955,20 +972,18 @@
     "CIK0001054074"
   ],
   "last_run": {
-    "date": "2026-11-13",
-    "action": "cached_holdings_reconciliation",
-    "processed_ids": [
-      "CIK0000049196",
-      "CIK0000059558",
-      "CIK0000064803"
+    "at": "2026-11-13T18:11:22Z",
+    "advanced": [
+      "CIK0000036966"
     ],
-    "validated_count": 3,
-    "published_count": 0,
-    "blockers": [
-      "Independent SEC cover-page totals and amendment precedence not yet verified",
-      "Newer filings not checked",
-      "Public Pages publication unverified"
-    ]
+    "validated_new": 1,
+    "published_new": 0,
+    "next_task": "Reconcile SEC cover-page totals and amendments for validated backlog; publish source-linked profiles only after verification; reserve new-manager discovery capacity.",
+    "counts": {
+      "validated_pending_publication": 43,
+      "published": 1,
+      "pending": 10
+    }
   },
   "last_run_at": "2026-11-13T17:28:51Z"
 }
