@@ -1,0 +1,38 @@
+name: Investor profile evidence queue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: capitalsignal-profile-queue
+  cancel-in-progress: false
+jobs:
+  checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Advance discovered investor evidence queue
+        run: python scripts/profile_processing_queue.py --batch-size 10
+      - name: Persist queue and next batch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CapitalSignal/data/intelligence/profile_processing_queue.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Checkpoint investor evidence queue"
+            for attempt in 1 2 3 4 5; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep $((attempt * 2))
+            done
+            exit 1
+          fi
