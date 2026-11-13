@@ -5,8 +5,8 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 42,
-    "discovery_cursor": 42,
+    "queued_candidates": 44,
+    "discovery_cursor": 44,
     "exhausted": false,
     "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
   },
@@ -680,6 +680,40 @@
       "holdings_count": 57,
       "source_url": "https://www.sec.gov/Archives/edgar/data/20286/0001104659-26-121833.txt",
       "last_checked_at": "2026-11-13T11:40:00Z"
+    },
+    {
+      "id": "CIK0000040417",
+      "name": "GENERAL AMERICAN INVESTORS CO INC",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-02",
+      "source_file": "CapitalSignal/data/13f/0000040417-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000040417-26-000054",
+      "retries": 0,
+      "reason": "Cached SEC 13F parsed; monetary summary, amendment precedence, newer filings and public publication require independent reconciliation; no style/orientation inferred",
+      "holdings_count": 73,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/40417/0000040417-26-000054.txt",
+      "source_blob_sha": "975036c9fee091dc247449feaf6537f11bdb477b",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T12:42:32Z"
+    },
+    {
+      "id": "CIK0000052024",
+      "name": "INVESTMENT MANAGEMENT ASSOCIATES INC /ADV",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-29",
+      "source_file": "CapitalSignal/data/13f/0000052024-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000052024-26-000005",
+      "retries": 0,
+      "reason": "Cached SEC 13F parsed; monetary summary, amendment precedence, newer filings and public publication require independent reconciliation; no style/orientation inferred",
+      "holdings_count": 33,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/52024/0000052024-26-000005.txt",
+      "source_blob_sha": "1f759afe67d89a72ca147a400cf94c7d2cbdb49f",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T12:42:32Z"
     }
   ],
   "next_batch_ids": [
@@ -694,10 +728,10 @@
     "CIK0002032602",
     "CIK0001054074"
   ],
-  "completed_count": 31,
+  "completed_count": 33,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T11:40:00Z",
+  "last_processing_at": "2026-11-13T12:42:32Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -721,7 +755,7 @@
     "validated": 2,
     "published": 0,
     "blocked": 0,
-    "note": "Bounded discovery from current September 2026 cached 13F; independent SEC reconciliation and publication outstanding."
+    "note": "Bounded discovery of September 2026 cached 13F holdings; no monetary summary/amendment or live publication independently verified."
   },
-  "last_run_at": "2026-11-13T11:40:00Z"
+  "last_run_at": "2026-11-13T12:42:32Z"
 }
