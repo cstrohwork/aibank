@@ -5,8 +5,8 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 34,
-    "discovery_cursor": 34,
+    "queued_candidates": 36,
+    "discovery_cursor": 36,
     "exhausted": false,
     "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
   },
@@ -552,6 +552,40 @@
       "source_blob_sha": "3dcf98353d3bc3c5ae1a456e6b23900b4b0f6a3c",
       "amendment_review_required": false,
       "last_checked_at": "2026-11-13T07:24:29Z"
+    },
+    {
+      "id": "CIK0000018748",
+      "name": "CENTRAL SECURITIES CORP",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-06",
+      "source_file": "CapitalSignal/data/13f/0000018748-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0001209992-26-000054",
+      "retries": 0,
+      "reason": "Cached 13F accession, filing/report dates and holdings parsed; SEC monetary summary, amendment precedence and newer filing verification required before publication.",
+      "holdings_count": 30,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/18748/0001209992-26-000054.txt",
+      "source_blob_sha": "e2700c1a4a7d289ed381820e95e17766add2e1ec",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T08:41:45Z"
+    },
+    {
+      "id": "CIK0000014213",
+      "name": "BRIGHTON SECURITIES CORP.",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-08",
+      "source_file": "CapitalSignal/data/13f/0000014213-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000014213-26-000019",
+      "retries": 0,
+      "reason": "Cached 13F accession, filing/report dates and holdings parsed; SEC monetary summary, amendment precedence and newer filing verification required before publication.",
+      "holdings_count": 48,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/14213/0000014213-26-000019.txt",
+      "source_blob_sha": "e450b7f896ce3944d61a5bf3033a3f5fb71c012b",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T08:41:45Z"
     }
   ],
   "next_batch_ids": [
@@ -560,15 +594,9 @@
     "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
-    "CIK0000713676",
-    "CIK0000831001",
-    "CIK0001710537",
-    "CIK0002032602",
-    "CIK0001054074",
-    "CIK0000002230",
-    "CIK0000007195"
+    "CIK0000713676"
   ],
-  "completed_count": 23,
+  "completed_count": 25,
   "published_existing_count": 1,
   "failed_count": 0,
   "last_processing_at": "2026-11-13T07:24:29Z",
@@ -584,21 +612,15 @@
     "CIK0001390777",
     "CIK0001697723",
     "CIK0000102909",
-    "CIK0000713676",
-    "CIK0000831001",
-    "CIK0001710537"
+    "CIK0000713676"
   ],
   "last_run": {
-    "result": "new_cache_candidates_validated_pending_reconciliation",
-    "attempted": 2,
-    "validated_new": 2,
-    "published_new": 0,
-    "blocked": 0,
-    "investor_ids": [
-      "CIK0000002230",
-      "CIK0000007195"
+    "result": "two new cache candidates validated; publication gated by monetary and amendment reconciliation",
+    "added": [
+      "CENTRAL SECURITIES CORP",
+      "BRIGHTON SECURITIES CORP."
     ],
-    "next_action": "Reconcile SEC monetary totals and amendment precedence; continue 13F/N-PORT/N-PX discovery and publication infrastructure"
+    "source": "2026-09-30 cached 13F"
   },
-  "last_run_at": "2026-11-13T07:24:29Z"
+  "last_run_at": "2026-11-13T08:41:45Z"
 }
