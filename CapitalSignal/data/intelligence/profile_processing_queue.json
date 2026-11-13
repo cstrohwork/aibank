@@ -858,12 +858,30 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0000789307-26-000005",
       "retries": 0,
-      "reason": "Parsed complete cached 13F-HR and verified accession, filing/report dates and holdings count; SEC summary monetary reconciliation, amendment precedence and newer filings unverified. No portfolio value, turnover, style or orientation inferred.",
+      "reason": "Reconciliation pass confirmed 59 cached rows, CIK, dates and accession; monetary summary and amendment precedence still require independent SEC validation. Source-linked publication withheld.",
       "holdings_count": 59,
       "source_url": "https://www.sec.gov/Archives/edgar/data/789307/0000789307-26-000005.txt",
       "source_blob_sha": "34fccc3a8eadb459e741eef138020a0b4d66de15",
       "amendment_type": "",
-      "last_checked_at": "2026-11-13T15:20:29Z"
+      "last_checked_at": "2026-11-13T16:24:34Z",
+      "reconciliation": {
+        "checked_at": "2026-11-13T16:24:34Z",
+        "source_fields_verified": [
+          "cik",
+          "form",
+          "filing_date",
+          "report_date",
+          "accession",
+          "holdings"
+        ],
+        "holdings_count_matches": true,
+        "source_reported_unit": "USD",
+        "legacy_value_field_note": "USD",
+        "monetary_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "publication_ready": false,
+        "blocker": "No independent SEC cover-page monetary summary or latest amendment confirmation; do not use legacy value_thousands as thousands."
+      }
     }
   ],
   "next_batch_ids": [
@@ -881,7 +899,7 @@
   "completed_count": 36,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T13:31:03Z",
+  "last_processing_at": "2026-11-13T16:24:34Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -901,11 +919,11 @@
     "CIK0001054074"
   ],
   "last_run": {
-    "processed": 3,
-    "validated": 3,
+    "processed": 1,
+    "validated": 0,
     "published": 0,
-    "blocked": 0,
-    "note": "Cached September 2026 13F discovery; no independently verified SEC monetary summaries, amendments or public Pages publication."
+    "blocked": 1,
+    "note": "Bounded monetary-unit reconciliation on existing validated profile; source metadata and 59 holdings rechecked, publication withheld pending SEC cover-page and amendment evidence."
   },
-  "last_run_at": "2026-11-13T14:36:31Z"
+  "last_run_at": "2026-11-13T16:24:34Z"
 }
