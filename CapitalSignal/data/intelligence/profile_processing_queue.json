@@ -5,8 +5,8 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 47,
-    "discovery_cursor": 47,
+    "queued_candidates": 50,
+    "discovery_cursor": 50,
     "exhausted": false,
     "warning": "Bounded cached 13F discovery only; full manager/fund universe and amendments not reconciled"
   },
@@ -762,6 +762,57 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/64803/0000064803-26-000110.txt",
       "source_blob_sha": "87c328a16a677a0d00a08c76ce0649c410425604",
       "last_checked_at": "2026-11-13T13:31:03Z"
+    },
+    {
+      "id": "CIK0000009631",
+      "name": "BANK OF NOVA SCOTIA",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-13",
+      "source_file": "CapitalSignal/data/13f/0000009631-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000009631-26-000040",
+      "retries": 0,
+      "reason": "Complete cached 13F parsed and accession, filing/report dates and holdings count validated. Independent SEC monetary summary, amendment precedence, newer filings and public publication not verified; value, turnover, style and orientation withheld.",
+      "holdings_count": 1364,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/9631/0000009631-26-000040.txt",
+      "source_blob_sha": "708e674b424ea40ad25b0c9bea246e98f2c80b21",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T14:36:31Z"
+    },
+    {
+      "id": "CIK0000009634",
+      "name": "BOKF, NA",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-27",
+      "source_file": "CapitalSignal/data/13f/0000009634-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000009634-26-000005",
+      "retries": 0,
+      "reason": "Complete cached 13F parsed and accession, filing/report dates and holdings count validated. Independent SEC monetary summary, amendment precedence, newer filings and public publication not verified; value, turnover, style and orientation withheld.",
+      "holdings_count": 1496,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/9634/0000009634-26-000005.txt",
+      "source_blob_sha": "305c233a68a1bc9007656415fbd705e8ad4043a5",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T14:36:31Z"
+    },
+    {
+      "id": "CIK0000012600",
+      "name": "PRINCIPAL SECURITIES, INC.",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-12",
+      "source_file": "CapitalSignal/data/13f/0000012600-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000012600-26-000013",
+      "retries": 0,
+      "reason": "Complete cached 13F parsed and accession, filing/report dates and holdings count validated. Independent SEC monetary summary, amendment precedence, newer filings and public publication not verified; value, turnover, style and orientation withheld.",
+      "holdings_count": 1567,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/12600/0000012600-26-000013.txt",
+      "source_blob_sha": "02bf7524111ce42f8bdf5f474cdae1d5c8ba3bb3",
+      "amendment_type": null,
+      "last_checked_at": "2026-11-13T14:36:31Z"
     }
   ],
   "next_batch_ids": [
@@ -805,5 +856,5 @@
     "blocked": 0,
     "note": "Cached September 2026 13F discovery; no independently verified SEC monetary summaries, amendments or public Pages publication."
   },
-  "last_run_at": "2026-11-13T13:31:03Z"
+  "last_run_at": "2026-11-13T14:36:31Z"
 }
