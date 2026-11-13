@@ -337,14 +337,19 @@
     {
       "id": "CIK0001407543",
       "name": "ENVESTNET ASSET MANAGEMENT INC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-05",
       "source_file": "CapitalSignal/data/13f/0001407543-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001214659-25-015924",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Complete cached 13F parsed with accession, report/filing dates and 4505 holdings. SEC summary monetary reconciliation, amendment precedence and newer filings unverified; no AUM, style, turnover or orientation inferred.",
+      "source_blob_sha": "389f32a54cc87e0cc249243afa5e645c24858e16",
+      "holdings_count": 4505,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1407543/0001214659-25-015924.txt",
+      "amendment_type": "",
+      "last_checked_at": "2026-11-13T05:29:55Z"
     },
     {
       "id": "CIK0000312272",
@@ -521,12 +526,14 @@
     "CIK0000102909",
     "CIK0000713676",
     "CIK0000831001",
-    "CIK0001710537"
+    "CIK0001710537",
+    "CIK0002032602",
+    "CIK0001054074"
   ],
-  "completed_count": 19,
+  "completed_count": 21,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T04:40:45Z",
+  "last_processing_at": "2026-11-13T05:29:55Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T04:40:45Z",
     "attempted": 2,
@@ -544,16 +551,12 @@
     "CIK0001710537"
   ],
   "last_run": {
-    "checked_at": "2026-11-13T04:40:45Z",
-    "attempted": [
-      "CIK0001054074",
-      "CIK0000831001"
-    ],
-    "validated_new": 0,
-    "published_new": 0,
-    "blocked": 2,
-    "reason": "Both source blobs truncated by connector; preserve pending and retry via archive",
-    "next_action": "Use bounded retained SEC archive reader; resolve monetary units and amendment precedence before publication"
+    "result": "validated_cached_13f",
+    "investor_id": "CIK0001407543",
+    "accession": "0001214659-25-015924",
+    "holdings_count": 4505,
+    "source_blob_sha": "389f32a54cc87e0cc249243afa5e645c24858e16",
+    "publication": "blocked_pending_sec_reconciliation"
   },
-  "last_run_at": "2026-11-13T04:40:45Z"
+  "last_run_at": "2026-11-13T05:29:55Z"
 }
