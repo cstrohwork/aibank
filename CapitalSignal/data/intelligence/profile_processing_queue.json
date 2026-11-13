@@ -957,12 +957,24 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0001214659-26-012615",
       "retries": 0,
-      "reason": "Parsed complete cached 13F-HR and verified accession, filing/report dates and holdings count; SEC summary monetary reconciliation, amendment precedence and newer filings unverified. No portfolio value, turnover, style or orientation inferred.",
+      "reason": "Bounded 2026-11-13 cached holdings reconciliation completed (63 rows, raw sum 165265487); SEC cover-page value and amendment precedence/newer filing remain unverified. Do not treat as verified 13F exposure or total AUM.",
       "holdings_count": 63,
       "source_url": "https://www.sec.gov/Archives/edgar/data/753967/0001214659-26-012615.txt",
       "source_blob_sha": "c266af28a360733105db7426db475fa0a958e2da",
       "amendment_type": "",
-      "last_checked_at": "2026-11-13T15:20:29Z"
+      "last_checked_at": "2026-11-13T23:58:54Z",
+      "cached_reconciliation": {
+        "source_blob_sha": "c266af28a360733105db7426db475fa0a958e2da",
+        "records": 63,
+        "unique_cusips": 63,
+        "raw_numeric_sum": 165265487,
+        "raw_field": "value_usd",
+        "value_unit_status": "cached USD label and share-price plausibility only; SEC cover-page reconciliation pending",
+        "largest_position_raw_value": 56641971,
+        "largest_position_weight_pct": 34.2733,
+        "largest_position_cusip": "88636J543",
+        "source_accession": "0001214659-26-012615"
+      }
     },
     {
       "id": "CIK0000789307",
@@ -1058,5 +1070,11 @@
     "cached_numeric_sum": 479397,
     "blocker": "SEC source summary and amendment precedence not independently verified; no publication"
   },
-  "last_run_at": "2026-11-13T17:28:51Z"
+  "last_run_at": "2026-11-13T17:28:51Z",
+  "last_processing_checkpoint": {
+    "at": "2026-11-13T23:58:54Z",
+    "investor_id": "CIK0000753967",
+    "action": "cached holdings arithmetic and concentration reconciliation",
+    "next": "SEC summary and amendment precedence verification; publish only after validation"
+  }
 }
