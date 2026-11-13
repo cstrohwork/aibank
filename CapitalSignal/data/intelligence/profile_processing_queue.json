@@ -134,8 +134,10 @@
       "source_file": "CapitalSignal/data/13f/0000831001-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "2026-11-13 bounded GitHub source read returned truncated JSON; accession/holdings/monetary fields cannot be validated. Retry via retained SEC archive or streaming reader; do not mark validated.",
+      "last_checked_at": "2026-11-13T04:40:45Z",
+      "last_error_code": "GITHUB_FETCH_TRUNCATED"
     },
     {
       "id": "CIK0001710537",
@@ -191,8 +193,10 @@
       "source_file": "CapitalSignal/data/13f/0001054074-2025-09-30.json",
       "reported_13f_value_usd": null,
       "accession_fingerprint": null,
-      "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "retries": 1,
+      "reason": "2026-11-13 bounded GitHub source read returned truncated JSON; accession/holdings/monetary fields cannot be validated. Retry via retained SEC archive or streaming reader; do not mark validated.",
+      "last_checked_at": "2026-11-13T04:40:45Z",
+      "last_error_code": "GITHUB_FETCH_TRUNCATED"
     },
     {
       "id": "CIK0001621225",
@@ -522,16 +526,13 @@
   "completed_count": 19,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T02:22:00Z",
-  "last_batch_validation": [
-    {
-      "id": "CIK0001126328",
-      "status": "validated_pending_publication",
-      "accession": "0001126328-25-000057",
-      "holdings_count": 4552,
-      "source_blob_sha": "4f5ac4e9800d31300b3f564b52ccf2bedda0d4f2"
-    }
-  ],
+  "last_processing_at": "2026-11-13T04:40:45Z",
+  "last_batch_validation": {
+    "checked_at": "2026-11-13T04:40:45Z",
+    "attempted": 2,
+    "validated": 0,
+    "failed_transient": 2
+  },
   "next_batch": [
     "CIK0001979372",
     "CIK0000019617",
@@ -543,17 +544,16 @@
     "CIK0001710537"
   ],
   "last_run": {
-    "at": "2026-11-13T02:22:00Z",
-    "processed": [
-      "CIK0001126328"
+    "checked_at": "2026-11-13T04:40:45Z",
+    "attempted": [
+      "CIK0001054074",
+      "CIK0000831001"
     ],
-    "validated": 1,
-    "published": 0,
-    "blockers": [
-      "SEC summary monetary reconciliation",
-      "Amendment precedence",
-      "Live publication"
-    ]
+    "validated_new": 0,
+    "published_new": 0,
+    "blocked": 2,
+    "reason": "Both source blobs truncated by connector; preserve pending and retry via archive",
+    "next_action": "Use bounded retained SEC archive reader; resolve monetary units and amendment precedence before publication"
   },
-  "last_run_at": "2026-11-13T03:28:00Z"
+  "last_run_at": "2026-11-13T04:40:45Z"
 }
