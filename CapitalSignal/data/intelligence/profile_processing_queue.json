@@ -707,10 +707,21 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0000019475-26-000007",
       "retries": 0,
-      "reason": "Cached holdings parsed; SEC monetary summary, amendment precedence and latest filing still require independent reconciliation before publication",
+      "reason": "Reconciled 137 cached rows and raw numeric sum; sampled ABBVIE 43,099 shares / numeric 11,274 implies $0.26/share if USD vs $261.58 if thousands. Cache labels value_usd but likely scaled; independent SEC cover-page verification required before portfolio-value publication. Amendment precedence and newer filings remain unverified.",
       "holdings_count": 137,
       "source_url": "https://www.sec.gov/Archives/edgar/data/19475/0000019475-26-000007.txt",
-      "last_checked_at": "2026-11-13T11:40:00Z"
+      "last_checked_at": "2026-11-13T20:20:15Z",
+      "monetary_reconciliation": {
+        "cached_numeric_sum": 479397,
+        "cached_field": "value_usd",
+        "largest_cached_numeric_position": 19409,
+        "largest_position_share_pct": 4.049,
+        "sample_implied_price_raw": 0.2616,
+        "sample_implied_price_if_thousands": 261.58,
+        "sample_issuer": "ABBVIE INC",
+        "unit_status": "UNRESOLVED_SCALE_CONFLICT",
+        "source_blob_sha": "4f537f90a123954bd7795ccca6a77cf4684ed14f"
+      }
     },
     {
       "id": "CIK0000020286",
@@ -1021,7 +1032,7 @@
   "completed_count": 36,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T17:28:51Z",
+  "last_processing_at": "2026-11-13T20:20:15Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -1041,21 +1052,11 @@
     "CIK0001054074"
   ],
   "last_run": {
-    "at": "2026-11-13T19:35:49Z",
-    "advanced": [
-      "CIK0000004962",
-      "CIK0000004977",
-      "CIK0000052024"
-    ],
-    "validated_new": 0,
-    "published_new": 0,
-    "operation": "Cached holdings arithmetic reconciliation and zero-position sentinel validation",
-    "next_task": "Verify SEC cover totals and amendment precedence for reconciled records, then publish; continue reserved new-manager discovery.",
-    "counts": {
-      "validated_pending_publication": 43,
-      "published": 1,
-      "pending": 10
-    }
+    "action": "monetary_scale_conflict_detected",
+    "investor_id": "CIK0000019475",
+    "source_blob_sha": "4f537f90a123954bd7795ccca6a77cf4684ed14f",
+    "cached_numeric_sum": 479397,
+    "blocker": "SEC source summary and amendment precedence not independently verified; no publication"
   },
   "last_run_at": "2026-11-13T17:28:51Z"
 }
