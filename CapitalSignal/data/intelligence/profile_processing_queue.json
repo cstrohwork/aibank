@@ -316,14 +316,19 @@
     {
       "id": "CIK0001126328",
       "name": "PRINCIPAL FINANCIAL GROUP INC",
-      "status": "pending",
+      "status": "validated_pending_publication",
       "report_date": "2025-09-30",
       "filing_date": "2025-11-04",
       "source_file": "CapitalSignal/data/13f/0001126328-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001126328-25-000057",
       "retries": 0,
-      "reason": "Requires validated holdings, filing accession and portfolio-value reconciliation"
+      "reason": "Parsed complete cached 13F; accession, filing/report dates, 4,552 holdings and source blob verified. Cache labels value_usd and legacy value_thousands as USD but SEC summary monetary reconciliation and amendment precedence not independently verified. Newer filings, turnover, style, orientation and publication remain unverified.",
+      "source_blob_sha": "4f5ac4e9800d31300b3f564b52ccf2bedda0d4f2",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1126328/0001126328-25-000057.txt",
+      "holdings_count": 4552,
+      "amendment_type": "",
+      "last_checked_at": "2026-11-13T02:22:00Z"
     },
     {
       "id": "CIK0001407543",
@@ -510,17 +515,17 @@
     "CIK0000831001",
     "CIK0001710537"
   ],
-  "completed_count": 18,
+  "completed_count": 19,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T01:18:27Z",
+  "last_processing_at": "2026-11-13T02:22:00Z",
   "last_batch_validation": [
     {
-      "id": "CIK0001056288",
+      "id": "CIK0001126328",
       "status": "validated_pending_publication",
-      "accession": "0001623632-25-001496",
-      "holdings_count": 4188,
-      "source_blob_sha": "70b250faf2ad707e81eeb07e45322f2065557bd2"
+      "accession": "0001126328-25-000057",
+      "holdings_count": 4552,
+      "source_blob_sha": "4f5ac4e9800d31300b3f564b52ccf2bedda0d4f2"
     }
   ],
   "next_batch": [
@@ -534,14 +539,14 @@
     "CIK0001710537"
   ],
   "last_run": {
-    "at": "2026-11-13T01:18:27Z",
+    "at": "2026-11-13T02:22:00Z",
     "processed": [
-      "CIK0000092230"
+      "CIK0001126328"
     ],
     "validated": 1,
     "published": 0,
     "blockers": [
-      "Monetary scale",
+      "SEC summary monetary reconciliation",
       "Amendment precedence",
       "Live publication"
     ]
