@@ -634,7 +634,30 @@
       "reason": "Cached 13F holdings and accession parsed; SEC monetary units, amendment precedence, latest filings and publication not independently reconciled. Style, orientation and turnover unknown.",
       "holdings_count": 1,
       "source_url": "https://www.sec.gov/Archives/edgar/data/4962/0000004962-26-000428.txt",
-      "last_checked_at": "2026-11-13T10:54:54Z"
+      "last_checked_at": "2026-11-13T19:35:49Z",
+      "cached_holdings_reconciliation": {
+        "checked_at": "2026-11-13T19:35:49Z",
+        "source_blob_sha": "585160f180b8b2ef604937d5c2bb5dd8793c93e2",
+        "accession": "0000004962-26-000428",
+        "cached_record_count": 1,
+        "cached_value_usd_sum": 0,
+        "unit": "USD as stored in value_usd; not independent SEC summary",
+        "economic_positions": 0,
+        "source_fields_verified": [
+          "accession",
+          "form",
+          "filing_date",
+          "report_date",
+          "holdings",
+          "value_usd"
+        ],
+        "source_sum_verified": true,
+        "sec_cover_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "newer_filing_checked": false,
+        "publication_ready": false,
+        "notes": "Single 'No securities' placeholder; zero actual security positions, not one economic holding."
+      }
     },
     {
       "id": "CIK0000004977",
@@ -649,7 +672,30 @@
       "reason": "Cached 13F holdings and accession parsed; SEC monetary units, amendment precedence, latest filings and publication not independently reconciled. Style, orientation and turnover unknown.",
       "holdings_count": 4,
       "source_url": "https://www.sec.gov/Archives/edgar/data/4977/0001628280-26-070795.txt",
-      "last_checked_at": "2026-11-13T10:54:54Z"
+      "last_checked_at": "2026-11-13T19:35:49Z",
+      "cached_holdings_reconciliation": {
+        "checked_at": "2026-11-13T19:35:49Z",
+        "source_blob_sha": "e2d7d21d36230c3c6adb1f07fec4ab3470ead17d",
+        "accession": "0001628280-26-070795",
+        "cached_record_count": 4,
+        "cached_value_usd_sum": 87505892,
+        "unit": "USD as stored in value_usd; not independent SEC summary",
+        "economic_positions": 4,
+        "source_fields_verified": [
+          "accession",
+          "form",
+          "filing_date",
+          "report_date",
+          "holdings",
+          "value_usd"
+        ],
+        "source_sum_verified": true,
+        "sec_cover_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "newer_filing_checked": false,
+        "publication_ready": false,
+        "notes": "Cached holdings arithmetic verified; independent SEC cover-page total and amendment precedence still required."
+      }
     },
     {
       "id": "CIK0000019475",
@@ -713,7 +759,30 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/52024/0000052024-26-000005.txt",
       "source_blob_sha": "1f759afe67d89a72ca147a400cf94c7d2cbdb49f",
       "amendment_type": null,
-      "last_checked_at": "2026-11-13T12:42:32Z"
+      "last_checked_at": "2026-11-13T19:35:49Z",
+      "cached_holdings_reconciliation": {
+        "checked_at": "2026-11-13T19:35:49Z",
+        "source_blob_sha": "1f759afe67d89a72ca147a400cf94c7d2cbdb49f",
+        "accession": "0000052024-26-000005",
+        "cached_record_count": 33,
+        "cached_value_usd_sum": 490444958,
+        "unit": "USD as stored in value_usd; not independent SEC summary",
+        "economic_positions": 33,
+        "source_fields_verified": [
+          "accession",
+          "form",
+          "filing_date",
+          "report_date",
+          "holdings",
+          "value_usd"
+        ],
+        "source_sum_verified": true,
+        "sec_cover_summary_verified": false,
+        "amendment_precedence_verified": false,
+        "newer_filing_checked": false,
+        "publication_ready": false,
+        "notes": "Cached holdings arithmetic verified; independent SEC cover-page total and amendment precedence still required."
+      }
     },
     {
       "id": "CIK0000049196",
@@ -972,13 +1041,16 @@
     "CIK0001054074"
   ],
   "last_run": {
-    "at": "2026-11-13T18:11:22Z",
+    "at": "2026-11-13T19:35:49Z",
     "advanced": [
-      "CIK0000036966"
+      "CIK0000004962",
+      "CIK0000004977",
+      "CIK0000052024"
     ],
-    "validated_new": 1,
+    "validated_new": 0,
     "published_new": 0,
-    "next_task": "Reconcile SEC cover-page totals and amendments for validated backlog; publish source-linked profiles only after verification; reserve new-manager discovery capacity.",
+    "operation": "Cached holdings arithmetic reconciliation and zero-position sentinel validation",
+    "next_task": "Verify SEC cover totals and amendment precedence for reconciled records, then publish; continue reserved new-manager discovery.",
     "counts": {
       "validated_pending_publication": 43,
       "published": 1,
