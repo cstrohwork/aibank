@@ -5,10 +5,10 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 32,
-    "discovery_cursor": 32,
+    "queued_candidates": 34,
+    "discovery_cursor": 34,
     "exhausted": false,
-    "warning": "Index discovery only; N-PORT and N-PX fund universe not yet reconciled"
+    "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
   },
   "policy": {
     "batch_size": 30,
@@ -518,6 +518,40 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2010235/000201023525000009/",
       "holdings_count": 3873,
       "last_checked_at": "2026-11-12T06:54:32Z"
+    },
+    {
+      "id": "CIK0000002230",
+      "name": "ADAMS DIVERSIFIED EQUITY FUND, INC.",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-21",
+      "source_file": "CapitalSignal/data/13f/0000002230-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0001104659-26-117771",
+      "retries": 0,
+      "reason": "Newly discovered 2026-09-30 13F cached holdings, accession and dates parsed. SEC summary reconciliation, newer amendment precedence, independent filing confirmation, style and orientation not established; no public publication.",
+      "holdings_count": 100,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2230/0001104659-26-117771.txt",
+      "source_blob_sha": "b71c846163b47c336216840250bfb6e40d88dc7e",
+      "amendment_review_required": false,
+      "last_checked_at": "2026-11-13T07:24:29Z"
+    },
+    {
+      "id": "CIK0000007195",
+      "name": "ARGUS INVESTORS' COUNSEL, INC.",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-10-09",
+      "source_file": "CapitalSignal/data/13f/0000007195-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000007195-26-000006",
+      "retries": 0,
+      "reason": "Newly discovered 2026-09-30 13F cached holdings, accession and dates parsed. SEC summary reconciliation, newer amendment precedence, independent filing confirmation, style and orientation not established; no public publication.",
+      "holdings_count": 106,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/7195/0000007195-26-000006.txt",
+      "source_blob_sha": "3dcf98353d3bc3c5ae1a456e6b23900b4b0f6a3c",
+      "amendment_review_required": false,
+      "last_checked_at": "2026-11-13T07:24:29Z"
     }
   ],
   "next_batch_ids": [
@@ -530,17 +564,19 @@
     "CIK0000831001",
     "CIK0001710537",
     "CIK0002032602",
-    "CIK0001054074"
+    "CIK0001054074",
+    "CIK0000002230",
+    "CIK0000007195"
   ],
-  "completed_count": 21,
+  "completed_count": 23,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T06:20:06Z",
+  "last_processing_at": "2026-11-13T07:24:29Z",
   "last_batch_validation": {
-    "checked_at": "2026-11-13T04:40:45Z",
+    "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
-    "validated": 0,
-    "failed_transient": 2
+    "validated": 2,
+    "failed_transient": 0
   },
   "next_batch": [
     "CIK0001979372",
@@ -553,14 +589,16 @@
     "CIK0001710537"
   ],
   "last_run": {
-    "result": "blocked_source_retrieval",
-    "investor_id": "CIK0000102909",
-    "source_blob_sha": "e38e156cb6f26d1ac364e0b00473025ded9df9f4",
-    "attempted": 1,
-    "validated_new": 0,
+    "result": "new_cache_candidates_validated_pending_reconciliation",
+    "attempted": 2,
+    "validated_new": 2,
     "published_new": 0,
-    "blocked": 1,
-    "next_action": "Use retained SEC archive/streaming reader; prioritize other unprofiled managers and reconcile SEC amendments before publication"
+    "blocked": 0,
+    "investor_ids": [
+      "CIK0000002230",
+      "CIK0000007195"
+    ],
+    "next_action": "Reconcile SEC monetary totals and amendment precedence; continue 13F/N-PORT/N-PX discovery and publication infrastructure"
   },
-  "last_run_at": "2026-11-13T06:20:06Z"
+  "last_run_at": "2026-11-13T07:24:29Z"
 }
