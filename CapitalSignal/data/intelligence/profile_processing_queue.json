@@ -5,8 +5,8 @@
     "source": "CapitalSignal/data/13f/index.json",
     "indexed_records": 4568,
     "unique_managers": 4562,
-    "queued_candidates": 40,
-    "discovery_cursor": 40,
+    "queued_candidates": 42,
+    "discovery_cursor": 42,
     "exhausted": false,
     "warning": "Index discovery incomplete; added bounded 2026-09-30 cache candidates; index and N-PORT/N-PX universe not reconciled"
   },
@@ -650,6 +650,36 @@
       "holdings_count": 4,
       "source_url": "https://www.sec.gov/Archives/edgar/data/4977/0001628280-26-070795.txt",
       "last_checked_at": "2026-11-13T10:54:54Z"
+    },
+    {
+      "id": "CIK0000019475",
+      "name": "CHASE INVESTMENT COUNSEL CORP",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-09",
+      "source_file": "CapitalSignal/data/13f/0000019475-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0000019475-26-000007",
+      "retries": 0,
+      "reason": "Cached holdings parsed; SEC monetary summary, amendment precedence and latest filing still require independent reconciliation before publication",
+      "holdings_count": 137,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/19475/0000019475-26-000007.txt",
+      "last_checked_at": "2026-11-13T11:40:00Z"
+    },
+    {
+      "id": "CIK0000020286",
+      "name": "CINCINNATI FINANCIAL CORP",
+      "status": "validated_pending_publication",
+      "report_date": "2026-09-30",
+      "filing_date": "2026-11-03",
+      "source_file": "CapitalSignal/data/13f/0000020286-2026-09-30.json",
+      "reported_13f_value_usd": null,
+      "accession_fingerprint": "0001104659-26-121833",
+      "retries": 0,
+      "reason": "Cached holdings parsed; SEC monetary summary, amendment precedence and latest filing still require independent reconciliation before publication",
+      "holdings_count": 57,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/20286/0001104659-26-121833.txt",
+      "last_checked_at": "2026-11-13T11:40:00Z"
     }
   ],
   "next_batch_ids": [
@@ -664,10 +694,10 @@
     "CIK0002032602",
     "CIK0001054074"
   ],
-  "completed_count": 27,
+  "completed_count": 31,
   "published_existing_count": 1,
   "failed_count": 0,
-  "last_processing_at": "2026-11-13T09:45:24Z",
+  "last_processing_at": "2026-11-13T11:40:00Z",
   "last_batch_validation": {
     "checked_at": "2026-11-13T07:24:29Z",
     "attempted": 2,
@@ -691,7 +721,7 @@
     "validated": 2,
     "published": 0,
     "blocked": 0,
-    "note": "New cache candidates parsed; SEC source monetary/amendment reconciliation and publication pending."
+    "note": "Bounded discovery from current September 2026 cached 13F; independent SEC reconciliation and publication outstanding."
   },
-  "last_run_at": "2026-11-13T09:45:24Z"
+  "last_run_at": "2026-11-13T11:40:00Z"
 }
