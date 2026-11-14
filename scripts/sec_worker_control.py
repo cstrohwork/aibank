@@ -60,28 +60,60 @@ def decision(runs, status, now=None):
     return 'dispatch', 'Resume from the latest verified checkpoint; poll live filings when caught up'
 
 
+def select_worker(history_runs, refresh_runs, status, now=None):
+    """Serialize both writers and reserve the daily slot before chaining backfill."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    action, reason = decision(history_runs + refresh_runs, status, now)
+    if action != 'dispatch':
+        return action, reason, None
+    successes = [r for r in refresh_runs if r.get('conclusion') == 'success']
+    latest = max((parse_time(r['updated_at']) for r in successes), default=None)
+    if latest is None or now - latest >= dt.timedelta(hours=24):
+        ready = failure_ready(refresh_runs)
+        if ready and now < ready:
+            return 'cooldown', 'Daily refresh failure backoff until ' + ready.isoformat(), None
+        return 'dispatch', 'Daily refresh is due; reserve its slot before historical backfill', 'refresh-sec.yml'
+    return 'dispatch', reason, 'sec-history.yml'
+
+
+def worker_state(repo, root):
+    history = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
+    refresh = api(f'repos/{repo}/actions/workflows/refresh-sec.yml/runs?per_page=30')['workflow_runs']
+    status = load(root / 'history/status.json', {})
+    return history, refresh, status
+
+
 def supervise(root=ROOT):
     repo = os.environ['GITHUB_REPOSITORY']
-    runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
-    action, reason = decision(runs, load(root / 'history/status.json', {}))
+    runs, refresh, status = worker_state(repo, root)
+    action, reason, workflow = select_worker(runs, refresh, status)
     # A direct dispatch from the parent's final step may arrive just before it exits.
     if action == 'wait' and os.getenv('GITHUB_EVENT_NAME') == 'workflow_dispatch':
         time.sleep(10)
-        runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
-        action, reason = decision(runs, load(root / 'history/status.json', {}))
+        runs, refresh, status = worker_state(repo, root)
+        action, reason, workflow = select_worker(runs, refresh, status)
     ready = failure_ready(runs)
     delay = (ready - dt.datetime.now(dt.timezone.utc)).total_seconds() if ready else 0
     if action == 'cooldown' and 0 < delay <= 60:
         time.sleep(delay + 1)
-        runs = api(f'repos/{repo}/actions/workflows/sec-history.yml/runs?per_page=30')['workflow_runs']
-        action, reason = decision(runs, load(root / 'history/status.json', {}))
-    print(json.dumps({'action': action, 'reason': reason}))
+        runs, refresh, status = worker_state(repo, root)
+        action, reason, workflow = select_worker(runs, refresh, status)
+    report = {'checked_at': dt.datetime.now(dt.timezone.utc).isoformat(),
+              'action': action, 'reason': reason, 'workflow': workflow,
+              'checkpoint_at': status.get('checked_at'),
+              'normalization_failures': status.get('normalization_failures'),
+              'download_failures': status.get('download_failures'),
+              'next_retry_at': status.get('next_retry_at')}
+    save(pathlib.Path('worker-recovery.json'), report)
+    print(json.dumps(report))
     if action == 'dispatch':
-        gh('api', '--method', 'POST', f'repos/{repo}/actions/workflows/sec-history.yml/dispatches', '-f', 'ref=main')
+        gh('api', '--method', 'POST', f'repos/{repo}/actions/workflows/{workflow}/dispatches', '-f', 'ref=main')
     summary = os.getenv('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary, 'a') as output:
             output.write(f'### SEC automatic recovery\n{action}: {reason}\n')
+    if action == 'blocked':
+        raise RuntimeError(reason)
 
 
 def continue_batch(root=ROOT):
@@ -100,8 +132,14 @@ def continue_batch(root=ROOT):
     if any(str(run['id']) != own_run and run['status'] != 'completed' for run in runs):
         print('Next SEC worker is already running or queued')
         return
-    gh('api', '--method', 'POST', f'repos/{repo}/actions/workflows/sec-history.yml/dispatches', '-f', 'ref=main')
-    print('Queued the next SEC batch immediately after persisting progress')
+    refresh = api(f'repos/{repo}/actions/workflows/refresh-sec.yml/runs?per_page=30')['workflow_runs']
+    others = [run for run in runs if str(run['id']) != own_run]
+    action, reason, workflow = select_worker(others, refresh, status)
+    if action != 'dispatch':
+        print(reason)
+        return
+    gh('api', '--method', 'POST', f'repos/{repo}/actions/workflows/{workflow}/dispatches', '-f', 'ref=main')
+    print('Queued ' + workflow + ' after persisting progress: ' + reason)
 
 
 def recover_folder(root, folder):

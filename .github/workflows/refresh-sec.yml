@@ -5,9 +5,10 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/refresh-sec.yml'
-  schedule:
-    - cron: '17 8 * * *'
+  # The five-minute supervisor reserves a daily slot. A second independent
+  # timer could replace this workflow's single pending concurrency slot.
 permissions:
+  actions: write
   contents: write
 concurrency:
   group: sec-edgar-cache
@@ -61,4 +62,14 @@ jobs:
             sleep $((attempt * 2))
           done
           fi
+      - name: Resume ingestion after refresh success or failure
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in 1 2 3; do
+            if gh api --method POST repos/${GITHUB_REPOSITORY}/actions/workflows/sec-worker-recovery.yml/dispatches -f ref=main; then exit 0; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep 10
+          done
 
