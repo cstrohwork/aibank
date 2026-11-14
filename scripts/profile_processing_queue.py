@@ -38,6 +38,43 @@ def main():
                 if ident in known:
                     continue
                 pool.append((kind, ident, obj, name_field))
+        # Requeue existing candidates when the readiness index points to a new
+        # filing/report period. Preserve previously published versions; never
+        # overwrite the Berkshire editorial classification from cache evidence.
+        readiness = {}
+        for kind, field, id_field in (("manager", "managers", "manager_id"),
+                                      ("fund", "funds", "fund_id")):
+            for obj in source.get(field, []):
+                if obj.get(id_field):
+                    key = str(obj[id_field])
+                    date = obj.get("report_date") or ""
+                    if key not in readiness or date > (readiness[key].get("report_date") or ""):
+                        readiness[key] = obj
+        changed_filings = []
+        for item in items:
+            obj = readiness.get(str(item["id"]))
+            if not obj or not obj.get("report_date"):
+                continue
+            old_date = item.get("report_date") or ""
+            new_date = obj["report_date"]
+            if new_date <= old_date:
+                continue
+            # A newer cached report is only a discovery signal, not proof of
+            # amendment precedence or SEC monetary reconciliation.
+            item.setdefault("prior_versions", []).append({
+                "report_date": old_date, "accession_fingerprint": item.get("accession_fingerprint"),
+                "status": item.get("status"), "source_url": item.get("source_url")})
+            item["report_date"] = new_date
+            item["source_url"] = obj.get("source_url")
+            item["status"] = "pending"
+            item["source_file"] = None
+            item["accession_fingerprint"] = None
+            item["sec_monetary_verified"] = False
+            item["reported_13f_value_usd"] = None
+            item["cached_source_reconciled"] = False
+            item["reason"] = "Newer readiness report discovered; original filing, amendments, holdings and units require validation"
+            changed_filings.append(item["id"])
+        prior["last_changed_filing_candidates"] = changed_filings
         pool.sort(key=lambda row: (
             -(float(row[2].get("reported_value_usd") or row[2].get("reported_common_equity_value_usd") or 0)),
             row[1]))
