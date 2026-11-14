@@ -116,7 +116,7 @@ class SupervisorTests(unittest.TestCase):
     def test_productive_batch_dispatches_without_waiting_for_schedule(self):
         status = {'checked_at': '2026-11-12T12:01:00Z', 'downloaded_this_run': 10, 'pending_filings': 50}
         with mock.patch.object(control, 'load', return_value=status), \
-             mock.patch.object(control, 'api', return_value={'workflow_runs': [{'id': 1, 'status': 'in_progress'}]}), \
+             mock.patch.object(control, 'api', side_effect=[{'workflow_runs': [{'id': 1, 'status': 'in_progress'}]}, {'workflow_runs': []}]), \
              mock.patch.object(control, 'gh') as dispatch, \
              mock.patch.dict('os.environ', {'GITHUB_REPOSITORY': 'cstrohwork/aibank', 'GITHUB_RUN_ID': '1', 'SEC_RUN_STARTED_AT': '2026-11-12T12:00:00Z'}):
             control.continue_batch()

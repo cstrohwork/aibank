@@ -613,10 +613,14 @@ def run(root=ROOT):
             record['status'] = 'deferred'
             record.pop('retry_after', None)
     reparsed=0
-    for accession, record in state.items():
+    # Failed records must not permanently monopolize the first 30 slots.
+    # Every attempt is dated so the next batch advances through the full queue.
+    candidates = sorted(state.items(), key=lambda item: (item[1].get('normalization_attempted_at', ''), item[0]))
+    for accession, record in candidates:
         if reparsed>=30:break
         if record.get('status')!='archived' or record.get('form') not in ('13F-HR','13F-HR/A','NPORT-P','NPORT-P/A'):continue
         if record.get('normalizer_version')==NORMALIZER_VERSION and not record.get('normalization_error'):continue
+        record['normalization_attempted_at'] = dt.datetime.now(dt.timezone.utc).isoformat()
         try:
             if record.get('raw_bytes', 0) > 80_000_000:
                 if record['form'] not in ('NPORT-P', 'NPORT-P/A'):
@@ -739,9 +743,13 @@ def run(root=ROOT):
                 state[accession] = dict(row, status='failed', error=str(exc),
                     retry_after=retry_at(exc), attempts=state.get(accession, {}).get('attempts', 0) + 1)
                 if (isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429, 500, 502, 503, 504)) or (isinstance(exc, urllib.error.URLError) and not isinstance(exc, urllib.error.HTTPError)) or isinstance(exc, (TimeoutError, ConnectionError, http.client.IncompleteRead)):
-                    download_interruption = {'http_status': getattr(exc, 'code', None), 'accession': accession,
+                    interruption = {'http_status': getattr(exc, 'code', None), 'accession': accession,
                         'source': row['source'], 'error': str(exc),
                         'retry_after': state[accession]['retry_after']}
+                    # Parallel completions can arrive in any order. A shorter
+                    # cooldown must never replace a peer's longer Retry-After.
+                    if download_interruption is None or interruption['retry_after'] > download_interruption['retry_after']:
+                        download_interruption = interruption
                     stop_submitting = True
                     stop_event.set()
             save(history / 'archive_state.json.gz', state)

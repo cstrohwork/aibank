@@ -55,7 +55,9 @@ jobs:
             CapitalSignal/data/fundamentals/model_companies/
           retention-days: 14
       - name: Publish derived intelligence and Model readiness
-        if: ${{ !cancelled() }}
+        # Failed rebuilds retain diagnostics as artifacts, never partial outputs
+        # as production data. Keep the last successful published generation.
+        if: ${{ success() }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

@@ -9,7 +9,7 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_run:
-    workflows: ['Backfill SEC filing history']
+    workflows: ['Backfill SEC filing history', 'Refresh SEC EDGAR public-data cache']
     types: [completed]
 permissions:
   actions: write
@@ -37,3 +37,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/sec_worker_control.py supervise
+      - name: Retain recovery decision and outstanding error counts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sec-worker-recovery
+          path: worker-recovery.json
+          if-no-files-found: error
+          retention-days: 14
