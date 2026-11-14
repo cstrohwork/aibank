@@ -1,121 +1,61 @@
 {
   "manager_cik": "0001718858",
   "investor_name": "QVR LLC",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-10-27",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-07-09",
   "city": "San Francisco",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1718858/0002085853-25-000166.txt"
+    "https://www.sec.gov/Archives/edgar/data/1718858/0002085853-25-000166.txt",
+    "https://www.sec.gov/Archives/edgar/data/1718858/0002085853-26-000667.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "30956b3daf301c6795b9a17804d9ceb87519c89f869f035f694339c98874cd54",
-  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "source_fingerprint": "be222e4b523beca028ecf8ee9d50436cd764032206e69fdb1f8a6555d6ce250a",
+  "generated_at": "2026-11-14T22:48:42.959443+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-10-27",
-    "accession": "0002085853-25-000166",
-    "source": "https://www.sec.gov/Archives/edgar/data/1718858/0002085853-25-000166.txt",
-    "distinct_positions": 44,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-07-09",
+    "accession": "0002085853-26-000667",
+    "source": "https://www.sec.gov/Archives/edgar/data/1718858/0002085853-26-000667.txt",
+    "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 82594200.0,
+    "reported_long_equity_value_usd": 0.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Relative cached values; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 68350.0,
-        "value_usd": 17403961.0,
-        "weight_pct": 21.07
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 70385.0,
-        "value_usd": 13132433.0,
-        "weight_pct": 15.9
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 31686.0,
-        "value_usd": 7702867.0,
-        "weight_pct": 9.33
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 16503.0,
-        "value_usd": 7339214.0,
-        "weight_pct": 8.89
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 21143.0,
-        "value_usd": 5149378.0,
-        "weight_pct": 6.23
-      },
-      {
-        "cusip": "69608A108",
-        "security_class": "CL A",
-        "issuer": "PALANTIR TECHNOLOGIES INC",
-        "shares": 22657.0,
-        "value_usd": 4133090.0,
-        "weight_pct": 5.0
-      },
-      {
-        "cusip": "478160104",
-        "security_class": "COM",
-        "issuer": "JOHNSON & JOHNSON",
-        "shares": 16300.0,
-        "value_usd": 3022346.0,
-        "weight_pct": 3.66
-      },
-      {
-        "cusip": "00287Y109",
-        "security_class": "COM",
-        "issuer": "ABBVIE INC",
-        "shares": 12130.0,
-        "value_usd": 2808580.0,
-        "weight_pct": 3.4
-      },
-      {
-        "cusip": "46090E103",
-        "security_class": "UNIT SER 1",
-        "issuer": "INVESCO QQQ TR",
-        "shares": 3402.0,
-        "value_usd": 2042459.0,
-        "weight_pct": 2.47
-      },
-      {
-        "cusip": "007903107",
-        "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 11751.0,
-        "value_usd": 1901194.0,
-        "weight_pct": 2.3
+        "cusip": "000000000",
+        "security_class": "0",
+        "issuer": "No holdings to report",
+        "shares": 0.0,
+        "value_usd": 0.0,
+        "weight_pct": null
       }
     ],
-    "top_five_pct": 61.42,
-    "top_ten_pct": 78.26,
-    "hhi": 984.7,
-    "changes": null,
+    "top_five_pct": null,
+    "top_ten_pct": null,
+    "hhi": null,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 1,
+      "exited_positions": 44,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-10-27",
         "accession": "0002085853-25-000166"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-09",
+        "accession": "0002085853-26-000667"
       }
     ]
   },

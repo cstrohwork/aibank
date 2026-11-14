@@ -1,121 +1,133 @@
 {
   "manager_cik": "0001695214",
   "investor_name": "Polianta Ltd",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-10-16",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-07-08",
   "city": "ST HELIER",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1695214/0001695214-25-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1695214/0001695214-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1695214/0001695214-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7734c2c5c6b5bc0c13dacb71eadaf9d86dfb56d0a6beda93fc65d21f6c9d8375",
-  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "source_fingerprint": "6892cf93039c20f0fb3dd0eb5959f25599361a64a3f41a4b0347a951566b031f",
+  "generated_at": "2026-11-14T22:48:42.959443+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-10-16",
-    "accession": "0001695214-25-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1695214/0001695214-25-000007.txt",
-    "distinct_positions": 74,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-07-08",
+    "accession": "0001695214-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1695214/0001695214-26-000004.txt",
+    "distinct_positions": 86,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 242798.0,
+    "reported_long_equity_value_usd": 808802.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Relative cached values; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "464288281",
+        "security_class": "ETP",
+        "issuer": "iShares J.P. Morgan USD Emergi",
+        "shares": 2151000.0,
+        "value_usd": 207442.0,
+        "weight_pct": 25.65
+      },
+      {
+        "cusip": "46435U853",
+        "security_class": "ETP",
+        "issuer": "iShares Broad USD High Yield C",
+        "shares": 4835000.0,
+        "value_usd": 178991.0,
+        "weight_pct": 22.13
+      },
+      {
+        "cusip": "46434V647",
+        "security_class": "ETP",
+        "issuer": "iShares Global REIT ETF",
+        "shares": 4427000.0,
+        "value_usd": 122273.0,
+        "weight_pct": 15.12
+      },
+      {
         "cusip": "33733B100",
         "security_class": "ETP",
         "issuer": "First Trust Water ETF",
-        "shares": 143900.0,
-        "value_usd": 16167.0,
-        "weight_pct": 6.66
+        "shares": 267700.0,
+        "value_usd": 29318.0,
+        "weight_pct": 3.62
       },
       {
-        "cusip": "46137V142",
+        "cusip": "46434G822",
         "security_class": "ETP",
-        "issuer": "Invesco Water Resources ETF",
-        "shares": 221600.0,
-        "value_usd": 15979.0,
-        "weight_pct": 6.58
+        "issuer": "iShares MSCI Japan ETF",
+        "shares": 184900.0,
+        "value_usd": 17245.0,
+        "weight_pct": 2.13
       },
       {
-        "cusip": "46138E263",
+        "cusip": "464286509",
         "security_class": "ETP",
-        "issuer": "Invesco S&P Global Water Index",
-        "shares": 215800.0,
-        "value_usd": 13862.0,
-        "weight_pct": 5.71
-      },
-      {
-        "cusip": "464286749",
-        "security_class": "ETP",
-        "issuer": "iShares MSCI Switzerland ETF",
-        "shares": 249300.0,
-        "value_usd": 13771.0,
-        "weight_pct": 5.67
-      },
-      {
-        "cusip": "46435G334",
-        "security_class": "ETP",
-        "issuer": "iShares MSCI United Kingdom ET",
-        "shares": 320800.0,
-        "value_usd": 13463.0,
-        "weight_pct": 5.54
+        "issuer": "iShares MSCI Canada ETF",
+        "shares": 296600.0,
+        "value_usd": 17096.0,
+        "weight_pct": 2.11
       },
       {
         "cusip": "464286103",
         "security_class": "ETP",
         "issuer": "iShares MSCI Australia ETF",
-        "shares": 493800.0,
-        "value_usd": 13332.0,
-        "weight_pct": 5.49
+        "shares": 592900.0,
+        "value_usd": 16696.0,
+        "weight_pct": 2.06
       },
       {
         "cusip": "922042858",
         "security_class": "ETP",
         "issuer": "Vanguard FTSE Emerging Markets",
-        "shares": 181900.0,
-        "value_usd": 9855.0,
-        "weight_pct": 4.06
+        "shares": 209500.0,
+        "value_usd": 12505.0,
+        "weight_pct": 1.55
       },
       {
-        "cusip": "81369Y803",
+        "cusip": "808524300",
         "security_class": "ETP",
-        "issuer": "Technology Select Sector SPDR",
-        "shares": 30100.0,
-        "value_usd": 8483.0,
-        "weight_pct": 3.49
+        "issuer": "Schwab U.S. Large-Cap Growth E",
+        "shares": 319200.0,
+        "value_usd": 10801.0,
+        "weight_pct": 1.34
       },
       {
-        "cusip": "464287408",
+        "cusip": "464287101",
         "security_class": "ETP",
-        "issuer": "iShares S&P 500 Value ETF",
-        "shares": 39900.0,
-        "value_usd": 8239.0,
-        "weight_pct": 3.39
-      },
-      {
-        "cusip": "92204A108",
-        "security_class": "ETP",
-        "issuer": "Vanguard Consumer Discretionar",
-        "shares": 20600.0,
-        "value_usd": 8160.0,
-        "weight_pct": 3.36
+        "issuer": "iShares S&P 100 ETF",
+        "shares": 29400.0,
+        "value_usd": 10756.0,
+        "weight_pct": 1.33
       }
     ],
-    "top_five_pct": 30.17,
-    "top_ten_pct": 49.96,
-    "hhi": 335.2,
-    "changes": null,
+    "top_five_pct": 68.65,
+    "top_ten_pct": 77.04,
+    "hhi": 1421.44,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 63,
+      "exited_positions": 51,
+      "increased_positions": 15,
+      "reduced_positions": 7
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-10-16",
         "accession": "0001695214-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-08",
+        "accession": "0001695214-26-000004"
       }
     ]
   },
