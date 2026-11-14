@@ -8,7 +8,9 @@
     "queued_candidates": 54,
     "discovery_cursor": 54,
     "exhausted": false,
-    "warning": "Bounded cached 13F discovery; SEC monetary summary and amendment precedence not independently reconciled; N-PORT/N-PX universe incomplete"
+    "warning": "Bounded cached 13F discovery; SEC monetary summary and amendment precedence not independently reconciled; N-PORT/N-PX universe incomplete",
+    "readiness_unqueued_remaining": 204,
+    "readiness_last_expanded_at": "2026-11-14T02:39:48.955302+00:00"
   },
   "policy": {
     "batch_size": 30,
@@ -1027,6 +1029,61 @@
       "source_blob_sha": "28f92145b59e3f4b1120180ae57b6bb77240435a",
       "amendment_type": "",
       "last_checked_at": "2026-11-13T18:11:22Z"
+    },
+    {
+      "id": "S000002848",
+      "name": "VANGUARD TOTAL STOCK MARKET INDEX FUND",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2026-06-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000480/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004310",
+      "name": "iShares Core S&P 500 ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000207169125007634/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004346",
+      "name": "iShares Russell 1000 Growth ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000100472625002059/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004307",
+      "name": "iShares Core S&P Mid-Cap ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000094040025010613/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004313",
+      "name": "iShares Core S&P Small-Cap ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000094040025010642/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
     }
   ],
   "next_batch_ids": [
@@ -1052,16 +1109,16 @@
     "failed_transient": 0
   },
   "next_batch": [
+    "S000002848",
+    "S000004307",
+    "S000004310",
+    "S000004313",
+    "S000004346",
     "CIK0002032602",
     "CIK0001390777",
     "CIK0001697723",
     "CIK0001054074",
-    "CIK0000019617",
-    "CIK0000102909",
-    "CIK0000713676",
-    "CIK0000831001",
-    "CIK0001710537",
-    "CIK0001979372"
+    "CIK0000019617"
   ],
   "last_run": {
     "action": "monetary_scale_conflict_detected",
@@ -1077,15 +1134,15 @@
     "action": "cached holdings arithmetic and concentration reconciliation",
     "next": "SEC summary and amendment precedence verification; publish only after validation"
   },
-  "last_queue_selection_at": "2026-11-14T01:40:29Z",
+  "last_queue_selection_at": "2026-11-14T02:39:48.955335+00:00",
   "counts": {
-    "pending": 10,
+    "pending": 15,
     "validated_pending_publication": 43,
     "published": 1,
     "failed": 0,
     "blocked": 0
   },
   "processing_blocker": "Hourly queue selector does not execute SEC validation or publish profiles; source monetary scale and amendment precedence unresolved. Legacy items preserved.",
-  "selection_cursor": 0,
-  "last_selection_warning": "Selection rotated; no SEC filing validation or profile publication performed in this checkpoint."
+  "selection_cursor": 10,
+  "last_selection_warning": "Rotating queue selection only: no holdings validated or profiles published."
 }
