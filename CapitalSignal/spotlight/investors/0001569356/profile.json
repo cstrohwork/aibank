@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1569356/0001569356-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "64e84d7583531398e9d0235dbe4d6d627a5b5de785a088bc99c5e927c77f27ba",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7b75d33b12c622c84f24e09c0ea993357661915147d36302ac46fc4f2f6475bc",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001569356-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1569356/0001569356-26-000007.txt",
+    "distinct_positions": 85,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 412625213.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 168054.0,
+        "value_usd": 128163022.0,
+        "weight_pct": 31.06
+      },
+      {
+        "cusip": "40415F101",
+        "security_class": "SPONSORED ADS",
+        "issuer": "HDFC BANK LTD",
+        "shares": 1893804.0,
+        "value_usd": 42307581.0,
+        "weight_pct": 10.25
+      },
+      {
+        "cusip": "35137L204",
+        "security_class": "CL B COM",
+        "issuer": "FOX CORP",
+        "shares": 635475.0,
+        "value_usd": 35777243.0,
+        "weight_pct": 8.67
+      },
+      {
+        "cusip": "826919102",
+        "security_class": "COM",
+        "issuer": "SILICON LABORATORIES INC",
+        "shares": 128759.0,
+        "value_usd": 28530419.0,
+        "weight_pct": 6.91
+      },
+      {
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 712203.0,
+        "value_usd": 22042683.0,
+        "weight_pct": 5.34
+      },
+      {
+        "cusip": "06738E204",
+        "security_class": "ADR",
+        "issuer": "BARCLAYS PLC",
+        "shares": 492064.0,
+        "value_usd": 11942393.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "00215W100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ASE TECHNOLOGY HLDG CO LTD",
+        "shares": 261457.0,
+        "value_usd": 11624378.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "47215P106",
+        "security_class": "SPON ADS CL A",
+        "issuer": "JD.COM INC",
+        "shares": 408120.0,
+        "value_usd": 10855992.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "539439109",
+        "security_class": "SPONSORED ADR",
+        "issuer": "LLOYDS BANKING GROUP PLC",
+        "shares": 1662502.0,
+        "value_usd": 9359886.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "904708104",
+        "security_class": "COM",
+        "issuer": "UNIFIRST CORP MASS",
+        "shares": 29899.0,
+        "value_usd": 7490297.0,
+        "weight_pct": 1.82
+      }
+    ],
+    "top_five_pct": 62.24,
+    "top_ten_pct": 74.67,
+    "hhi": 1274.54,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 39,
+      "exited_positions": 41,
+      "increased_positions": 20,
+      "reduced_positions": 19
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001569356-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001569356-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

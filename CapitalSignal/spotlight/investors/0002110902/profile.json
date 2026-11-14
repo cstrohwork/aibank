@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2110902/0002110902-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f4f316f6e1db335ae3057449cda33e3e7c751b478c51b3091c451974a56eec44",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "b3a0f170a6c235daea2bf1b310160be7d52bcfce087e334a69e0c6b310dda30f",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002110902-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2110902/0002110902-26-000011.txt",
+    "distinct_positions": 310,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 591972963.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 2026555.0,
+        "value_usd": 63370374.0,
+        "weight_pct": 10.7
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 65086.0,
+        "value_usd": 49636536.0,
+        "weight_pct": 8.38
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 75367.0,
+        "value_usd": 38656085.0,
+        "weight_pct": 6.53
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 143190.0,
+        "value_usd": 32701732.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 81826.0,
+        "value_usd": 28155201.0,
+        "weight_pct": 4.76
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 84241.0,
+        "value_usd": 28053937.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 92601.0,
+        "value_usd": 23071539.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 52510.0,
+        "value_usd": 18440986.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 54535.0,
+        "value_usd": 18041814.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 18287.0,
+        "value_usd": 13528173.0,
+        "weight_pct": 2.29
+      }
+    ],
+    "top_five_pct": 35.9,
+    "top_ten_pct": 52.98,
+    "hhi": 379.67,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 17,
+      "increased_positions": 76,
+      "reduced_positions": 59
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002110902-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002110902-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

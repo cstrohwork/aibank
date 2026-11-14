@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1427147/0001140361-26-042720.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2001fc69479a958bb71775914566346c7d3444a09ad434101e68be0d342f0621",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7e4c3b37d87f53842381804b2eae25533a101b3710d6b31183da00524f5834d3",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001140361-26-042720",
+    "source": "https://www.sec.gov/Archives/edgar/data/1427147/0001140361-26-042720.txt",
+    "distinct_positions": 529,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1029983474.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "Stock",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL CL B NEW",
+        "shares": 237057.0,
+        "value_usd": 118042533.0,
+        "weight_pct": 11.46
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "ETF",
+        "issuer": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+        "shares": 1019070.0,
+        "value_usd": 102599985.0,
+        "weight_pct": 9.96
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "Stock",
+        "issuer": "AGNICO EAGLE MINES LTD COM",
+        "shares": 408549.0,
+        "value_usd": 74874833.0,
+        "weight_pct": 7.27
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 157666.0,
+        "value_usd": 54249745.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "78467V848",
+        "security_class": "ETF",
+        "issuer": "STATE STREET DOUBLELINE TOTAL RETURN TACTICAL ETF",
+        "shares": 1219375.0,
+        "value_usd": 45629020.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "Stock",
+        "issuer": "JOHNSON & JOHNSON COM",
+        "shares": 150851.0,
+        "value_usd": 39936398.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "Stock",
+        "issuer": "META PLATFORMS INC CL A",
+        "shares": 48307.0,
+        "value_usd": 35031448.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "33939L605",
+        "security_class": "ETF",
+        "issuer": "NORTHERN TRUST IBOXX 5-YEAR TARGET DURATION TIPS ETF",
+        "shares": 1475747.0,
+        "value_usd": 33469941.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 59245.0,
+        "value_usd": 30386846.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "Stock",
+        "issuer": "VISA INC COM CL A",
+        "shares": 81197.0,
+        "value_usd": 29176484.0,
+        "weight_pct": 2.83
+      }
+    ],
+    "top_five_pct": 38.39,
+    "top_ten_pct": 54.7,
+    "hhi": 445.22,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 100,
+      "exited_positions": 14,
+      "increased_positions": 109,
+      "reduced_positions": 53
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001140361-25-039956"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001140361-26-031662"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001140361-26-042720"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

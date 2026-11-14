@@ -12,8 +12,81 @@
     "https://www.sec.gov/Archives/edgar/data/2040405/0002040405-26-000015.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7283964baad2c6151a7600750a1dc45a6feca2758f373b04dcfa5637c6366ca0",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "e8c557f1b941a4bbb10e030260ef6ffd14753e121c1cfc7a7dbbcf76f13fc0b3",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0002040405-26-000015",
+    "source": "https://www.sec.gov/Archives/edgar/data/2040405/0002040405-26-000015.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 354947003.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 180000.0,
+        "value_usd": 191719800.0,
+        "weight_pct": 54.01
+      },
+      {
+        "cusip": "03823U102",
+        "security_class": "COM",
+        "issuer": "APPLIED OPTOELECTRONICS INC",
+        "shares": 727680.0,
+        "value_usd": 72229517.0,
+        "weight_pct": 20.35
+      },
+      {
+        "cusip": "00246W103",
+        "security_class": "COM",
+        "issuer": "AXT INC",
+        "shares": 913200.0,
+        "value_usd": 70690812.0,
+        "weight_pct": 19.92
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 30000.0,
+        "value_usd": 10644300.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "60770K107",
+        "security_class": "COM",
+        "issuer": "MODERNA INC",
+        "shares": 50000.0,
+        "value_usd": 9628500.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 100.0,
+        "value_usd": 34074.0,
+        "weight_pct": 0.01
+      }
+    ],
+    "top_five_pct": 99.99,
+    "top_ten_pct": 100.0,
+    "hhi": 3744.56,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0002040405-26-000015"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

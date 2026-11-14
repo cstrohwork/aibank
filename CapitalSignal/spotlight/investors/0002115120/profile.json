@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2115120/0001104659-26-125948.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1b2279c76fcfb791e97b3b5bd368be3031ce552162b821e666010463ffefacb3",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "b47a9cbc763d57902672f88a8144115a8a75e8bd80dca0c4eedf189e2ed9384e",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001104659-26-125948",
+    "source": "https://www.sec.gov/Archives/edgar/data/2115120/0001104659-26-125948.txt",
+    "distinct_positions": 564,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2792976814.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 1097294.0,
+        "value_usd": 389371999.0,
+        "weight_pct": 13.94
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 890047.0,
+        "value_usd": 203289072.0,
+        "weight_pct": 7.28
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 225018.0,
+        "value_usd": 171623437.0,
+        "weight_pct": 6.14
+      },
+      {
+        "cusip": "136385101",
+        "security_class": "COM",
+        "issuer": "CANADIAN NAT RES LTD MED TER",
+        "shares": 2324721.0,
+        "value_usd": 109341805.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 391156.0,
+        "value_usd": 97465711.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 124072.0,
+        "value_usd": 91794398.0,
+        "weight_pct": 3.29
+      },
+      {
+        "cusip": "780087102",
+        "security_class": "COM",
+        "issuer": "ROYAL BK CDA",
+        "shares": 431060.0,
+        "value_usd": 84774987.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 206906.0,
+        "value_usd": 71200082.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "064149107",
+        "security_class": "COM",
+        "issuer": "BANK NOVA SCOTIA B C",
+        "shares": 774695.0,
+        "value_usd": 70445679.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 132626.0,
+        "value_usd": 66050558.0,
+        "weight_pct": 2.36
+      }
+    ],
+    "top_five_pct": 34.77,
+    "top_ten_pct": 48.53,
+    "hhi": 401.86,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 44,
+      "exited_positions": 78,
+      "increased_positions": 129,
+      "reduced_positions": 126
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001104659-26-095855"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001104659-26-125948"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

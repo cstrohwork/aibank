@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1080173/0001080173-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c8f41f82a8c8f6feef2889bc8689fe89a47f8efa61e59f3b92f10fa3321b915f",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "012a287bebaa102560c4a052f0668f25008c67fcfe021ced88e108348902b111",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001080173-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1080173/0001080173-26-000008.txt",
+    "distinct_positions": 116,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 347772421.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 50079.0,
+        "value_usd": 25685519.0,
+        "weight_pct": 7.39
+      },
+      {
+        "cusip": "922020805",
+        "security_class": "STRM INFPROIDX",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 463942.0,
+        "value_usd": 22835225.0,
+        "weight_pct": 6.57
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 52971.0,
+        "value_usd": 18226262.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 19806.0,
+        "value_usd": 13881563.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "COM",
+        "issuer": "AMGEN INC",
+        "shares": 31114.0,
+        "value_usd": 13114863.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "053015103",
+        "security_class": "COM",
+        "issuer": "AUTOMATIC DATA PROCESSING IN",
+        "shares": 49172.0,
+        "value_usd": 12689327.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 37493.0,
+        "value_usd": 12403781.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 45074.0,
+        "value_usd": 11932891.0,
+        "weight_pct": 3.43
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 25526.0,
+        "value_usd": 10141736.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 38213.0,
+        "value_usd": 9996246.0,
+        "weight_pct": 2.87
+      }
+    ],
+    "top_five_pct": 26.96,
+    "top_ten_pct": 43.39,
+    "hhi": 286.25,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 7,
+      "increased_positions": 38,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001080173-25-000010"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001080173-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001080173-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

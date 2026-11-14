@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2111344/0002111344-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cc596ae20b0bbae80f52bfded3ce0d008db55b8594ebfd494db0a7afd4941c71",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "571690a1c2e7f5e4b14d5398c7020d20412d7b08f1f618f04f08b1ff29b2ac72",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002111344-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2111344/0002111344-26-000006.txt",
+    "distinct_positions": 56,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 934330110.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TRUST SERIES I",
+        "shares": 407389.0,
+        "value_usd": 301374161.0,
+        "weight_pct": 32.26
+      },
+      {
+        "cusip": "464288257",
+        "security_class": "MSCI ACWI ETF",
+        "issuer": "ISHARES TRUST MSCI ALL COU WO",
+        "shares": 1833573.0,
+        "value_usd": 291107217.0,
+        "weight_pct": 31.16
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC CLASS A COMMON STOCK",
+        "shares": 262896.0,
+        "value_usd": 90457256.0,
+        "weight_pct": 9.68
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORPORATION",
+        "shares": 92821.0,
+        "value_usd": 47607891.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP",
+        "shares": 200411.0,
+        "value_usd": 45769864.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 86231.0,
+        "value_usd": 28716648.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 99868.0,
+        "value_usd": 24882112.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 16483.0,
+        "value_usd": 14840634.0,
+        "weight_pct": 1.59
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 19081.0,
+        "value_usd": 13837160.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "437076102",
+        "security_class": "COM",
+        "issuer": "HOME DEPOT INC",
+        "shares": 47226.0,
+        "value_usd": 13435325.0,
+        "weight_pct": 1.44
+      }
+    ],
+    "top_five_pct": 83.09,
+    "top_ten_pct": 93.33,
+    "hhi": 2184.13,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 23,
+      "exited_positions": 4,
+      "increased_positions": 11,
+      "reduced_positions": 8
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0002111344-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002111344-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

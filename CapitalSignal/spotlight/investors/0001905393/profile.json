@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1905393/0001905393-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1bd260874db8b884fd021015d316c3fd82b68e44205343ab726da0a56f007359",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "76196718372a01692f772b7061810cf65b950eba6995b195d6599d3603a10289",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001905393-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905393/0001905393-26-000006.txt",
+    "distinct_positions": 187,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 466285281.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 704185.0,
+        "value_usd": 34399499.0,
+        "weight_pct": 7.38
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 32472.0,
+        "value_usd": 24763761.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "14021D107",
+        "security_class": "SHS",
+        "issuer": "CAPITAL GROUP CORE BALANCED",
+        "shares": 441283.0,
+        "value_usd": 16217205.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "46137V472",
+        "security_class": "S&P MDCP QUALITY",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 123502.0,
+        "value_usd": 13788960.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "316092840",
+        "security_class": "HIGH DIVID ETF",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 182092.0,
+        "value_usd": 11058486.0,
+        "weight_pct": 2.37
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "GOLD MINERS ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 119181.0,
+        "value_usd": 10464120.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 115341.0,
+        "value_usd": 10393336.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 25562.0,
+        "value_usd": 9735154.0,
+        "weight_pct": 2.09
+      },
+      {
+        "cusip": "37954Y848",
+        "security_class": "GLOBAL X SILVER",
+        "issuer": "GLOBAL X FDS",
+        "shares": 107765.0,
+        "value_usd": 9268803.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "33738R704",
+        "security_class": "RBA INDL ETF",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 87759.0,
+        "value_usd": 9060243.0,
+        "weight_pct": 1.94
+      }
+    ],
+    "top_five_pct": 21.49,
+    "top_ten_pct": 31.99,
+    "hhi": 190.3,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 24,
+      "exited_positions": 17,
+      "increased_positions": 81,
+      "reduced_positions": 61
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001905393-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001905393-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

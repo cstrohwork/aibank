@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2050972/0002050972-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e1e27090f99564a691e7e528846aef0f2198af3b5bc5520259543c70b64b95cd",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "dc96e653fa722d9c84ada5bc38975c143bcad8ff9ab5e319c7a1f26978f0214b",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002050972-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/2050972/0002050972-26-000010.txt",
+    "distinct_positions": 361,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 610672401.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 33926.0,
+        "value_usd": 23777052.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 78039.0,
+        "value_usd": 17822452.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 51141.0,
+        "value_usd": 17596680.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 21597.0,
+        "value_usd": 15976893.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "46641Q399",
+        "security_class": "BETABUILDRS US",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 110652.0,
+        "value_usd": 15223515.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 21590.0,
+        "value_usd": 11073311.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 48864.0,
+        "value_usd": 10558498.0,
+        "weight_pct": 1.73
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 31615.0,
+        "value_usd": 10528283.0,
+        "weight_pct": 1.72
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 9733.0,
+        "value_usd": 10366293.0,
+        "weight_pct": 1.7
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 34340.0,
+        "value_usd": 9091217.0,
+        "weight_pct": 1.49
+      }
+    ],
+    "top_five_pct": 14.8,
+    "top_ten_pct": 23.26,
+    "hhi": 99.97,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 61,
+      "exited_positions": 62,
+      "increased_positions": 223,
+      "reduced_positions": 76
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0002050972-25-000016"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0002050972-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002050972-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

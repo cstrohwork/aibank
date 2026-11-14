@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1282189/0001282189-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a47e471b0d8de8e40fe0b6c5749717507204803a87058912e282897ae09ecc96",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "9b07a97936fa15dbbaf1874cf4e8d9649c3cc9b40076d312db5e36ef21d0f453",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001282189-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1282189/0001282189-26-000004.txt",
+    "distinct_positions": 37,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 463010257.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "Intel Corporation",
+        "shares": 317871.0,
+        "value_usd": 38217631.0,
+        "weight_pct": 8.25
+      },
+      {
+        "cusip": "42330P107",
+        "security_class": "COM",
+        "issuer": "Hornbeck Offshore Services",
+        "shares": 3715510.0,
+        "value_usd": 28572272.0,
+        "weight_pct": 6.17
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "Micron Technology Inc",
+        "shares": 25790.0,
+        "value_usd": 27469381.0,
+        "weight_pct": 5.93
+      },
+      {
+        "cusip": "67623C307",
+        "security_class": "COM OF BENEFICIA",
+        "issuer": "Office Properties Income Trust",
+        "shares": 1358375.0,
+        "value_usd": 21638913.0,
+        "weight_pct": 4.67
+      },
+      {
+        "cusip": "444097406",
+        "security_class": "COM",
+        "issuer": "Hudson Pacific Properties Inc",
+        "shares": 1814442.0,
+        "value_usd": 20938661.0,
+        "weight_pct": 4.52
+      },
+      {
+        "cusip": "577345101",
+        "security_class": "COM",
+        "issuer": "Maui Land & Pineapple Co.",
+        "shares": 1241827.0,
+        "value_usd": 19807141.0,
+        "weight_pct": 4.28
+      },
+      {
+        "cusip": "76954A103",
+        "security_class": "COM CL A",
+        "issuer": "Rivian Automotive Inc Class A",
+        "shares": 1254221.0,
+        "value_usd": 18738062.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "565394103",
+        "security_class": "COM",
+        "issuer": "Maplebear Inc.",
+        "shares": 429894.0,
+        "value_usd": 18537029.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "G65163100",
+        "security_class": "COMMON STOCK",
+        "issuer": "Joby Aviation Inc.",
+        "shares": 2918028.0,
+        "value_usd": 17654070.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "47233W109",
+        "security_class": "COM",
+        "issuer": "Jefferies Financial",
+        "shares": 369648.0,
+        "value_usd": 16904003.0,
+        "weight_pct": 3.65
+      }
+    ],
+    "top_five_pct": 29.55,
+    "top_ten_pct": 49.35,
+    "hhi": 383.28,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 2,
+      "increased_positions": 24,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-17",
+        "accession": "0001282189-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001282189-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

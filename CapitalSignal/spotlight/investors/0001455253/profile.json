@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1455253/0001455253-26-000016.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e0c65f4dfbe5b5bcd1cce3e72b7fd037021d3b45b8984f8c8d31fce7e7b6c0a1",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "1ab2bb6b46a0ba59e3795d5724f9ee69d62d26b80c5b1d77379c4617fc71ccad",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001455253-26-000016",
+    "source": "https://www.sec.gov/Archives/edgar/data/1455253/0001455253-26-000016.txt",
+    "distinct_positions": 22,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 236431103.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K107",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC CL C",
+        "shares": 54095.0,
+        "value_usd": 18432411.0,
+        "weight_pct": 7.8
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 33185.0,
+        "value_usd": 17020587.0,
+        "weight_pct": 7.2
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 59899.0,
+        "value_usd": 14923836.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "025816109",
+        "security_class": "COM",
+        "issuer": "AMERICAN EXPRESS COMPANY",
+        "shares": 45741.0,
+        "value_usd": 13909838.0,
+        "weight_pct": 5.88
+      },
+      {
+        "cusip": "254687106",
+        "security_class": "COM",
+        "issuer": "DISNEY WALT CO COM",
+        "shares": 127253.0,
+        "value_usd": 13348840.0,
+        "weight_pct": 5.65
+      },
+      {
+        "cusip": "253393102",
+        "security_class": "COM",
+        "issuer": "DICKS SPORTING GOODS INC",
+        "shares": 98375.0,
+        "value_usd": 13210779.0,
+        "weight_pct": 5.59
+      },
+      {
+        "cusip": "90353T100",
+        "security_class": "COM",
+        "issuer": "UBER TECHNOLOGIES INC",
+        "shares": 192135.0,
+        "value_usd": 13163169.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COM",
+        "issuer": "META PLATFORMS INC - CL A",
+        "shares": 17860.0,
+        "value_usd": 12951715.0,
+        "weight_pct": 5.48
+      },
+      {
+        "cusip": "64110L106",
+        "security_class": "COM",
+        "issuer": "NETFLIX INC",
+        "shares": 167640.0,
+        "value_usd": 11664391.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "L8681T102",
+        "security_class": "COM",
+        "issuer": "SPOTIFY TECHNOLOGY SA",
+        "shares": 23903.0,
+        "value_usd": 11649844.0,
+        "weight_pct": 4.93
+      }
+    ],
+    "top_five_pct": 32.84,
+    "top_ten_pct": 59.33,
+    "hhi": 507.58,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 3,
+      "increased_positions": 2,
+      "reduced_positions": 19
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001455253-25-000014"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001455253-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001455253-26-000016"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

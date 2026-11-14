@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1895911/0001895911-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b32aaf3992edbc0791e48f3380f7e8fde9b1e32f691838e6c3152a3ea8408153",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "c6e9fa4a7585255171d7f7d8a4e156441f6ceb30d861f719e197c3fdb55d3407",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001895911-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1895911/0001895911-26-000008.txt",
+    "distinct_positions": 126,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2465219430.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 1028.0,
+        "value_usd": 767921140.0,
+        "weight_pct": 31.15
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 1028000.0,
+        "value_usd": 340093240.0,
+        "weight_pct": 13.8
+      },
+      {
+        "cusip": "293792107",
+        "security_class": "COM",
+        "issuer": "ENTERPRISE PRODS PARTNERS L",
+        "shares": 3650000.0,
+        "value_usd": 129976500.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 251000.0,
+        "value_usd": 124985450.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 840000.0,
+        "value_usd": 90409200.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "89417E109",
+        "security_class": "COM",
+        "issuer": "TRAVELERS COMPANIES INC",
+        "shares": 220000.0,
+        "value_usd": 78432200.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "29977A105",
+        "security_class": "CLASS A",
+        "issuer": "EVERCORE INC",
+        "shares": 300000.0,
+        "value_usd": 77250000.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COM",
+        "issuer": "SCHWAB CHARLES CORP",
+        "shares": 750000.0,
+        "value_usd": 73305000.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 90000.0,
+        "value_usd": 72971100.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "278642103",
+        "security_class": "COM",
+        "issuer": "EBAY INC.",
+        "shares": 650000.0,
+        "value_usd": 68932500.0,
+        "weight_pct": 2.8
+      }
+    ],
+    "top_five_pct": 58.96,
+    "top_ten_pct": 74.0,
+    "hhi": 1302.29,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 6,
+      "increased_positions": 83,
+      "reduced_positions": 4
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001895911-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001895911-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001895911-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

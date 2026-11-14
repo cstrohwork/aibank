@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1909879/0001765380-26-000456.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0d9ce51f533bdb931405f89a92905156f395ebd8ce01f0b8386a7ba430c2dc1a",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "fa85425443ff8eee8c4dab2f03684a24ab78c124e1b0ba061d43a0c3624fdb9c",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001765380-26-000456",
+    "source": "https://www.sec.gov/Archives/edgar/data/1909879/0001765380-26-000456.txt",
+    "distinct_positions": 289,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 531577629.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "371901109",
+        "security_class": "Common Stock",
+        "issuer": "Gentex Corp",
+        "shares": 1806413.0,
+        "value_usd": 39271423.0,
+        "weight_pct": 7.39
+      },
+      {
+        "cusip": "00777X421",
+        "security_class": "ETF",
+        "issuer": "Defender Risk Adaptive 500 ETF",
+        "shares": 844142.0,
+        "value_usd": 23663570.0,
+        "weight_pct": 4.45
+      },
+      {
+        "cusip": "032108409",
+        "security_class": "ETF",
+        "issuer": "Amplify CWP Enhanced DIV Inm ETF",
+        "shares": 357022.0,
+        "value_usd": 16597964.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "Apple Inc",
+        "shares": 46058.0,
+        "value_usd": 15338300.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Common Stock",
+        "issuer": "Nvidia Corp",
+        "shares": 58446.0,
+        "value_usd": 13362454.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "ETF",
+        "issuer": "iShares TR 0-3 MNTH Treasry",
+        "shares": 107790.0,
+        "value_usd": 10852248.0,
+        "weight_pct": 2.04
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common Stock",
+        "issuer": "Microsoft",
+        "shares": 19776.0,
+        "value_usd": 10142997.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "02072L565",
+        "security_class": "ETF",
+        "issuer": "Alpha Architect 1-3 Month Box ETF",
+        "shares": 71469.0,
+        "value_usd": 8461179.0,
+        "weight_pct": 1.59
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "Vanguard S&P 500 ETF",
+        "shares": 10407.0,
+        "value_usd": 7294089.0,
+        "weight_pct": 1.37
+      },
+      {
+        "cusip": "03957W106",
+        "security_class": "Common Stock",
+        "issuer": "Archrock Incorporated",
+        "shares": 239083.0,
+        "value_usd": 7241824.0,
+        "weight_pct": 1.36
+      }
+    ],
+    "top_five_pct": 20.36,
+    "top_ten_pct": 28.64,
+    "hhi": 154.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 51,
+      "exited_positions": 57,
+      "increased_positions": 113,
+      "reduced_positions": 110
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-21",
+        "accession": "0001765380-26-000412"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001765380-26-000456"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

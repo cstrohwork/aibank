@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2056763/0002056763-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a5179564188714abec40a6fc89702be37af94ff6b378672caa7b3dc88164d773",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "b9906259f5a4eae19baf5e1a1f0771c65ae1efeb3728c784d64141b8c8851b00",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002056763-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056763/0002056763-26-000006.txt",
+    "distinct_positions": 244,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 219577453.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V856",
+        "security_class": "INFLATION PROTE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 632223.0,
+        "value_usd": 24694636.0,
+        "weight_pct": 11.25
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 440540.0,
+        "value_usd": 24608579.0,
+        "weight_pct": 11.21
+      },
+      {
+        "cusip": "25239Y188",
+        "security_class": "U.S. Small Cap Portfolio: ETF Class Shares",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 299270.0,
+        "value_usd": 23169506.0,
+        "weight_pct": 10.55
+      },
+      {
+        "cusip": "25434V724",
+        "security_class": "US MKTWIDE VALUE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 310350.0,
+        "value_usd": 17069273.0,
+        "weight_pct": 7.77
+      },
+      {
+        "cusip": "25239Y162",
+        "security_class": "U.S. Targeted Value Portfolio",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 177113.0,
+        "value_usd": 11767387.0,
+        "weight_pct": 5.36
+      },
+      {
+        "cusip": "25239Y147",
+        "security_class": "REAL ESTATE SECU",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 480574.0,
+        "value_usd": 11610659.0,
+        "weight_pct": 5.29
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 266866.0,
+        "value_usd": 11552630.0,
+        "weight_pct": 5.26
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 7379.0,
+        "value_usd": 8538093.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "25239Y170",
+        "security_class": "U.S. SML CP VAL",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 222454.0,
+        "value_usd": 8335348.0,
+        "weight_pct": 3.8
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 22564.0,
+        "value_usd": 7514341.0,
+        "weight_pct": 3.42
+      }
+    ],
+    "top_five_pct": 46.14,
+    "top_ten_pct": 67.79,
+    "hhi": 587.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 7,
+      "increased_positions": 49,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0002056763-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002056763-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

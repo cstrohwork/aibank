@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1837320/0001837320-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d7329ad685fef89d4915297fed2e6c48b294d2057bcbfd89b8c1b806a9f7d853",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "c6a7a0aef0b447ae93b48461d638e1f75fa461036548f3b6008386cf181393bf",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001837320-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1837320/0001837320-26-000004.txt",
+    "distinct_positions": 15,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 274754856.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 505817.0,
+        "value_usd": 168447177.0,
+        "weight_pct": 61.31
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 101366.0,
+        "value_usd": 35965670.0,
+        "weight_pct": 13.09
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 62091.0,
+        "value_usd": 14180343.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 52778.0,
+        "value_usd": 13149639.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 30020.0,
+        "value_usd": 10229015.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 28020.0,
+        "value_usd": 9641122.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "46120E602",
+        "security_class": "COM NEW",
+        "issuer": "INTUITIVE SURGICAL INC",
+        "shares": 14075.0,
+        "value_usd": 5723317.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMERICA CORP",
+        "shares": 92500.0,
+        "value_usd": 5034775.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "64110L106",
+        "security_class": "COM",
+        "issuer": "NETFLIX INC",
+        "shares": 62839.0,
+        "value_usd": 4372338.0,
+        "weight_pct": 1.59
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 5800.0,
+        "value_usd": 3198526.0,
+        "weight_pct": 1.16
+      }
+    ],
+    "top_five_pct": 88.07,
+    "top_ten_pct": 98.25,
+    "hhi": 4018.34,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 5
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001837320-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001837320-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001837320-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

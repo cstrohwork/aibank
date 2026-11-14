@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2093400/0002093400-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "78dfd2d1413f92706f287c7594c709ccfe8bc546bf3b182ec711e9a43d3e68c9",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "9bfaf6d6f423f05683c325fbfcb7ea8e9cf9087172a2ac4f1e882cc4731b860b",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002093400-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2093400/0002093400-26-000005.txt",
+    "distinct_positions": 26,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 96192499.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 23931.0,
+        "value_usd": 16772404.0,
+        "weight_pct": 17.44
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 19243.0,
+        "value_usd": 14234778.0,
+        "weight_pct": 14.8
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 15127.0,
+        "value_usd": 11535854.0,
+        "weight_pct": 11.99
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 26024.0,
+        "value_usd": 10829564.0,
+        "weight_pct": 11.26
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 39207.0,
+        "value_usd": 9147471.0,
+        "weight_pct": 9.51
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 54658.0,
+        "value_usd": 7775638.0,
+        "weight_pct": 8.08
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "CORE S&P TTL STK",
+        "issuer": "ISHARES TR",
+        "shares": 32877.0,
+        "value_usd": 5466855.0,
+        "weight_pct": 5.68
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 6124.0,
+        "value_usd": 3140882.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 23496.0,
+        "value_usd": 2943166.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "92206C730",
+        "security_class": "VNG RUS1000IDX",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 7262.0,
+        "value_usd": 2498128.0,
+        "weight_pct": 2.6
+      }
+    ],
+    "top_five_pct": 64.99,
+    "top_ten_pct": 87.68,
+    "hhi": 1023.35,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 5,
+      "increased_positions": 6,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0002093400-25-000001"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002093400-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002093400-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

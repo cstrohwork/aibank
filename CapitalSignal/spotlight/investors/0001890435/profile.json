@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1890435/0001890435-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "845e442456a4ebbb3cf37fa95de50e26d9f409d82fe6e9e11ce9c13f51eb545e",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "85648f0899c2542ae464ec9dddf07bad0810b0bdb08d2e78fd5801d38cc4d072",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001890435-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1890435/0001890435-26-000004.txt",
+    "distinct_positions": 30,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 338533237.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC (CLASS A)",
+        "shares": 119740.0,
+        "value_usd": 41200139.0,
+        "weight_pct": 12.17
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORPORATION",
+        "shares": 77222.0,
+        "value_usd": 39607164.0,
+        "weight_pct": 11.7
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 84350.0,
+        "value_usd": 28090237.0,
+        "weight_pct": 8.3
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 85985.0,
+        "value_usd": 19637254.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 14298.0,
+        "value_usd": 15228943.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "74340W103",
+        "security_class": "COM",
+        "issuer": "PROLOGIS INC",
+        "shares": 98400.0,
+        "value_usd": 12776256.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 34176.0,
+        "value_usd": 12280462.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC (CLASS C)",
+        "shares": 35329.0,
+        "value_usd": 12038003.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "49338L103",
+        "security_class": "COM",
+        "issuer": "KEYSIGHT TECHNOLOGIES INC",
+        "shares": 30855.0,
+        "value_usd": 11232454.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 16500.0,
+        "value_usd": 11138325.0,
+        "weight_pct": 3.29
+      }
+    ],
+    "top_five_pct": 42.47,
+    "top_ten_pct": 60.03,
+    "hhi": 561.5,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001890435-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001890435-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

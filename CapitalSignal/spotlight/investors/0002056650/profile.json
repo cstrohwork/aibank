@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2056650/0002056650-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "67ce207c93ff91859760d8cc96fe68b1e5638fa5b15d05b56ba12f54d7f5be48",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f546a78ef5f7c030296ad2a6dc8f578364e6232a9e37b0c06815342fe619a391",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0002056650-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056650/0002056650-26-000006.txt",
+    "distinct_positions": 327,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 227933666.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46432F842",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares Core MSCI EAFE ETF",
+        "shares": 272667.0,
+        "value_usd": 26415990.0,
+        "weight_pct": 11.59
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Technology Select Sector  SPDR ETF",
+        "shares": 64160.0,
+        "value_usd": 12559256.0,
+        "weight_pct": 5.51
+      },
+      {
+        "cusip": "46429B697",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares MSCI USA Min Vol Factor ETF",
+        "shares": 102165.0,
+        "value_usd": 9954976.0,
+        "weight_pct": 4.37
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares Core MSCI Emerging Markets ETF",
+        "shares": 118079.0,
+        "value_usd": 9583262.0,
+        "weight_pct": 4.2
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard Value ETF",
+        "shares": 40826.0,
+        "value_usd": 8821719.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard Total Bond Market ETF",
+        "shares": 107210.0,
+        "value_usd": 7520746.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "SPDR SandP 500 ETF Trust",
+        "shares": 8400.0,
+        "value_usd": 6405852.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares MSCI USA Quality Factor ETF",
+        "shares": 28422.0,
+        "value_usd": 6316602.0,
+        "weight_pct": 2.77
+      },
+      {
+        "cusip": "81369Y209",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Health Care Select Sector  SPDR ETF",
+        "shares": 34995.0,
+        "value_usd": 5893860.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "46432F396",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares MSCI USA Momentum Factor ETF",
+        "shares": 16603.0,
+        "value_usd": 5268907.0,
+        "weight_pct": 2.31
+      }
+    ],
+    "top_five_pct": 29.54,
+    "top_ten_pct": 43.32,
+    "hhi": 316.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 326,
+      "exited_positions": 257,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002056650-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0002056650-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

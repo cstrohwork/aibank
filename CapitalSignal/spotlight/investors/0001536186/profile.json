@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1536186/0000919574-26-007537.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f4c0cd3523405a06c38d288bde6c706f5b03fa6091ca60605b803c52ff16a3e5",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "0d1d04eb4926df26c2c6ee27dc091f7b52fd781185b171e5d983fac0b602a6d3",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0000919574-26-007537",
+    "source": "https://www.sec.gov/Archives/edgar/data/1536186/0000919574-26-007537.txt",
+    "distinct_positions": 583,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1342154421.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 81240.0,
+        "value_usd": 61956061.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "464287184",
+        "security_class": "CHINA LG-CAP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 980000.0,
+        "value_usd": 33339599.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "422806208",
+        "security_class": "CL A",
+        "issuer": "HEICO CORP NEW",
+        "shares": 120673.0,
+        "value_usd": 27553266.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "ST STR ENERG ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 316068.0,
+        "value_usd": 19438182.0,
+        "weight_pct": 1.45
+      },
+      {
+        "cusip": "21036P108",
+        "security_class": "CL A",
+        "issuer": "CONSTELLATION BRANDS INC",
+        "shares": 156037.0,
+        "value_usd": 17641543.0,
+        "weight_pct": 1.31
+      },
+      {
+        "cusip": "35137L204",
+        "security_class": "CL B COM",
+        "issuer": "FOX CORP",
+        "shares": 273442.0,
+        "value_usd": 15394785.0,
+        "weight_pct": 1.15
+      },
+      {
+        "cusip": "15118V207",
+        "security_class": "COM NEW",
+        "issuer": "CELSIUS HLDGS INC",
+        "shares": 526773.0,
+        "value_usd": 14407241.0,
+        "weight_pct": 1.07
+      },
+      {
+        "cusip": "91879Q109",
+        "security_class": "COM",
+        "issuer": "VAIL RESORTS INC",
+        "shares": 91821.0,
+        "value_usd": 12596005.0,
+        "weight_pct": 0.94
+      },
+      {
+        "cusip": "626755102",
+        "security_class": "COM",
+        "issuer": "MURPHY USA INC",
+        "shares": 24917.0,
+        "value_usd": 12558916.0,
+        "weight_pct": 0.94
+      },
+      {
+        "cusip": "771049103",
+        "security_class": "CL A",
+        "issuer": "ROBLOX CORP",
+        "shares": 293167.0,
+        "value_usd": 12421486.0,
+        "weight_pct": 0.93
+      }
+    ],
+    "top_five_pct": 11.92,
+    "top_ten_pct": 16.94,
+    "hhi": 68.13,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 262,
+      "exited_positions": 304,
+      "increased_positions": 127,
+      "reduced_positions": 172
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000919574-26-004941"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0000919574-26-007537"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1884018/0001765380-26-000462.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3dae222bf06cbe0dad82d64b8d8c5e0e71c90cdd964f26e9cfd41e1877e47df9",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "7c4eeae739f53abd05e6dbfea8a8d71cda7e17e7f85f3e29f30f7a7183ca7026",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001765380-26-000462",
+    "source": "https://www.sec.gov/Archives/edgar/data/1884018/0001765380-26-000462.txt",
+    "distinct_positions": 177,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 801484296.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "INVESCO QQQ TRUST SERIES I",
+        "shares": 100152.0,
+        "value_usd": 74089304.0,
+        "weight_pct": 9.24
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 215649.0,
+        "value_usd": 71815325.0,
+        "weight_pct": 8.96
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 103871.0,
+        "value_usd": 53275194.0,
+        "weight_pct": 6.65
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 139645.0,
+        "value_usd": 48048936.0,
+        "weight_pct": 5.99
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 182549.0,
+        "value_usd": 45481973.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "ETF",
+        "issuer": "SCHWAB U.S. LARGE-CAP GROWTH ETF",
+        "shares": 1208617.0,
+        "value_usd": 43425619.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "ETF",
+        "issuer": "INVESCO NASDAQ 100 ETF",
+        "shares": 105383.0,
+        "value_usd": 32103843.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "46137V241",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 QUALITY ETF",
+        "shares": 312964.0,
+        "value_usd": 26314016.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "Stock",
+        "issuer": "BANK OF AMER CORP COM",
+        "shares": 448871.0,
+        "value_usd": 24432045.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "ETF",
+        "issuer": "VANGUARD HIGH DIVIDEND YIELD INDEX ETF",
+        "shares": 118885.0,
+        "value_usd": 18450927.0,
+        "weight_pct": 2.3
+      }
+    ],
+    "top_five_pct": 36.52,
+    "top_ten_pct": 54.58,
+    "hhi": 391.95,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 11,
+      "increased_positions": 85,
+      "reduced_positions": 54
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001765380-25-000462"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001765380-26-000270"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001765380-26-000462"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

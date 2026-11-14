@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2149018/0001765380-26-000445.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b63973e8265127ea61e6aae0d4b1d88efaf9d430b7c977b3e8d91379bcd32da7",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "90e5502d582fa7624633e1df1773718e3bae4c935b1cc91f26d8ce1dce73f2a9",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001765380-26-000445",
+    "source": "https://www.sec.gov/Archives/edgar/data/2149018/0001765380-26-000445.txt",
+    "distinct_positions": 72,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 503156741.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "09290C103",
+        "security_class": "ETF",
+        "issuer": "ISHARES U.S. EQUITY FACTOR ROTATION ACTIVE ETF",
+        "shares": 861929.0,
+        "value_usd": 59697195.0,
+        "weight_pct": 11.86
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "ETF",
+        "issuer": "VANGUARD INFORMATION TECHNOLOGY ETF",
+        "shares": 292512.0,
+        "value_usd": 36759979.0,
+        "weight_pct": 7.31
+      },
+      {
+        "cusip": "922908512",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR MID-CAP VALUE ETF",
+        "shares": 154860.0,
+        "value_usd": 30279860.0,
+        "weight_pct": 6.02
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ETF",
+        "issuer": "ISHARES GOLD TRUST",
+        "shares": 386285.0,
+        "value_usd": 30168856.0,
+        "weight_pct": 6.0
+      },
+      {
+        "cusip": "46434V274",
+        "security_class": "ETF",
+        "issuer": "ISHARES INTERNATIONAL EQUITY FACTOR ETF",
+        "shares": 725017.0,
+        "value_usd": 30095459.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "ETF",
+        "issuer": "VANGUARD TOTAL BOND MARKET ETF",
+        "shares": 424717.0,
+        "value_usd": 29793906.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "092528603",
+        "security_class": "ETF",
+        "issuer": "ISHARES FLEXIBLE INCOME ACTIVE ETF",
+        "shares": 581612.0,
+        "value_usd": 29540069.0,
+        "weight_pct": 5.87
+      },
+      {
+        "cusip": "00775Y256",
+        "security_class": "ETF",
+        "issuer": "GQG US EQUITY ETF",
+        "shares": 1024143.0,
+        "value_usd": 27057851.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 109429.0,
+        "value_usd": 24991375.0,
+        "weight_pct": 4.97
+      },
+      {
+        "cusip": "09290C780",
+        "security_class": "ETF",
+        "issuer": "ISHARES A.I. INNOVATION AND TECH ACTIVE ETF",
+        "shares": 418650.0,
+        "value_usd": 19756094.0,
+        "weight_pct": 3.93
+      }
+    ],
+    "top_five_pct": 37.17,
+    "top_ten_pct": 63.23,
+    "hhi": 516.48,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 31,
+      "exited_positions": 38,
+      "increased_positions": 31,
+      "reduced_positions": 9
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001765380-26-000310"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001765380-26-000445"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

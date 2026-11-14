@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/884541/0000884541-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "af1649d321b005d26310443fff2baa42aeebafe118cf518532d975077a581a60",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d38bed009c41a8e0ad2db8e9445bd37288fa2b41f4094d445e7c57095bd005b4",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0000884541-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/884541/0000884541-26-000005.txt",
+    "distinct_positions": 239,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3192198757.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 1154280.0,
+        "value_usd": 263614856.0,
+        "weight_pct": 8.26
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 391205.0,
+        "value_usd": 200650499.0,
+        "weight_pct": 6.29
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 548281.0,
+        "value_usd": 188653559.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 504757.0,
+        "value_usd": 168094820.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 203448.0,
+        "value_usd": 80833115.0,
+        "weight_pct": 2.53
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 153537.0,
+        "value_usd": 70043068.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 111721.0,
+        "value_usd": 61612542.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 173950.0,
+        "value_usd": 61090267.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 33434.0,
+        "value_usd": 60575101.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "872540109",
+        "security_class": "COM",
+        "issuer": "TJX COS INC NEW",
+        "shares": 377151.0,
+        "value_usd": 49901222.0,
+        "weight_pct": 1.56
+      }
+    ],
+    "top_five_pct": 28.25,
+    "top_ten_pct": 37.75,
+    "hhi": 237.21,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 9,
+      "increased_positions": 31,
+      "reduced_positions": 166
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0000884541-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0000884541-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

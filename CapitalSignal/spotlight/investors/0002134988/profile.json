@@ -13,8 +13,60 @@
     "https://www.sec.gov/Archives/edgar/data/2134988/0002134988-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "eb82c8b2d9d7a1a1d39ad926312e4fcb3aa7e224c515e4c0a44f971e0017b415",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "bc87930d3573e28d049cafaa65fb6f1a0067eeddff8e5f78bec93d836f82552b",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0002134988-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2134988/0002134988-26-000005.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 37347690.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 380000.0,
+        "value_usd": 29339800.0,
+        "weight_pct": 78.56
+      },
+      {
+        "cusip": "538034109",
+        "security_class": "COM",
+        "issuer": "LIVE NATION ENTERTAINMENT IN",
+        "shares": 47300.0,
+        "value_usd": 8007890.0,
+        "weight_pct": 21.44
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6631.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 2,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0002134988-26-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0002134988-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

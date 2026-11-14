@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2010374/0002010374-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "04919ef95aacf1ccffb87ba3ba165fc8e9db6db31ae722a63f4e20434c8c1297",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "cf8d6a003a2b4a864271bda2e2c146d4dac69fff95d3a4e2d9abb6ec5face5da",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0002010374-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2010374/0002010374-26-000005.txt",
+    "distinct_positions": 90,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 270972350.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 85729.0,
+        "value_usd": 28549472.0,
+        "weight_pct": 10.54
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 45700.0,
+        "value_usd": 23439766.0,
+        "weight_pct": 8.65
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 100256.0,
+        "value_usd": 22896465.0,
+        "weight_pct": 8.45
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 21226.0,
+        "value_usd": 16187584.0,
+        "weight_pct": 5.97
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 34186.0,
+        "value_usd": 11762719.0,
+        "weight_pct": 4.34
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 44218.0,
+        "value_usd": 11016915.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "747525103",
+        "security_class": "COM",
+        "issuer": "QUALCOMM INC",
+        "shares": 56196.0,
+        "value_usd": 10342312.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 12360.0,
+        "value_usd": 8662630.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 12467.0,
+        "value_usd": 7626812.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 6256.0,
+        "value_usd": 7238692.0,
+        "weight_pct": 2.67
+      }
+    ],
+    "top_five_pct": 37.95,
+    "top_ten_pct": 54.52,
+    "hhi": 420.35,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 32,
+      "reduced_positions": 35
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0002010374-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0002010374-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

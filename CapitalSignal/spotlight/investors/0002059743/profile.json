@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2059743/0001765380-26-000471.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "505144d2998ac5267efd8517424e7b86744321cc44cfaa2530040ff17689a13c",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "9fba79d5569c302052ad950f923794e41a67744053181fd229e743edcd7d6740",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001765380-26-000471",
+    "source": "https://www.sec.gov/Archives/edgar/data/2059743/0001765380-26-000471.txt",
+    "distinct_positions": 48,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 145589669.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "316092824",
+        "security_class": "LOW VOLITY ETF",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 340698.0,
+        "value_usd": 24073703.0,
+        "weight_pct": 16.54
+      },
+      {
+        "cusip": "46137V431",
+        "security_class": "S&P 500 GARP ETF",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 198308.0,
+        "value_usd": 23562921.0,
+        "weight_pct": 16.18
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 107284.0,
+        "value_usd": 23181849.0,
+        "weight_pct": 15.92
+      },
+      {
+        "cusip": "46654Q724",
+        "security_class": "HEDG EQU LAD ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 282109.0,
+        "value_usd": 19513457.0,
+        "weight_pct": 13.4
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 101394.0,
+        "value_usd": 9136624.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "45782C300",
+        "security_class": "US EQT ULTRA BF",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 176182.0,
+        "value_usd": 8174822.0,
+        "weight_pct": 5.61
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 116548.0,
+        "value_usd": 6552324.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "45782C839",
+        "security_class": "US EQT ULTRA BF",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 109439.0,
+        "value_usd": 4528569.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 8108.0,
+        "value_usd": 2700138.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 3267.0,
+        "value_usd": 2491447.0,
+        "weight_pct": 1.71
+      }
+    ],
+    "top_five_pct": 68.32,
+    "top_ten_pct": 85.11,
+    "hhi": 1085.26,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 11,
+      "increased_positions": 22,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001765380-26-000263"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001765380-26-000471"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

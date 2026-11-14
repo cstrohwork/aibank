@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1519676/0001519676-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1b4f28d507b9578bd5c51a1fdeb65eb29b5aaf499882ccf1d8947271da1c094e",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e77e7c2bc75bd95bd7caffed9585415262dbda1833602a5a4139984744639cbb",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001519676-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1519676/0001519676-26-000009.txt",
+    "distinct_positions": 172,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 611733094.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "COM",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 538932.0,
+        "value_usd": 81303282.0,
+        "weight_pct": 13.29
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC",
+        "shares": 130556.0,
+        "value_usd": 44992018.0,
+        "weight_pct": 7.35
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 144319.0,
+        "value_usd": 33050623.0,
+        "weight_pct": 5.4
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 48789.0,
+        "value_usd": 25076484.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "922042874",
+        "security_class": "COM",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 242997.0,
+        "value_usd": 21189656.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "COM",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 25114.0,
+        "value_usd": 19195544.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "COM",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 66250.0,
+        "value_usd": 17539688.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 66271.0,
+        "value_usd": 16548259.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "COM",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 23371.0,
+        "value_usd": 16379799.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 14021.0,
+        "value_usd": 16258531.0,
+        "weight_pct": 2.66
+      }
+    ],
+    "top_five_pct": 33.61,
+    "top_ten_pct": 47.66,
+    "hhi": 381.4,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 14,
+      "increased_positions": 40,
+      "reduced_positions": 38
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001519676-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001519676-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1844024/0001941040-26-000808.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d967517ed1467c7b1610b77e1225267ed5e2a70470511a1ab247d92517a021d1",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "14793d567fcd90e4856a21a56cdc377b255a7fd7579bdc521ecd884ed09b6219",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001941040-26-000808",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844024/0001941040-26-000808.txt",
+    "distinct_positions": 83,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 656582621.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 595510.0,
+        "value_usd": 222863849.0,
+        "weight_pct": 33.94
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 1143403.0,
+        "value_usd": 80735679.0,
+        "weight_pct": 12.3
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1109159.0,
+        "value_usd": 44055791.0,
+        "weight_pct": 6.71
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 235309.0,
+        "value_usd": 32011407.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 255824.0,
+        "value_usd": 30128443.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "46641Q647",
+        "security_class": "MUNICIPAL ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 533104.0,
+        "value_usd": 25365083.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "INTL SMCP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 185959.0,
+        "value_usd": 20340235.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "CORE S&P TTL STK",
+        "issuer": "ISHARES TR",
+        "shares": 111802.0,
+        "value_usd": 18590394.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "25434V575",
+        "security_class": "INTL COR FIX ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 345961.0,
+        "value_usd": 17691942.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 61342.0,
+        "value_usd": 14009317.0,
+        "weight_pct": 2.13
+      }
+    ],
+    "top_five_pct": 62.41,
+    "top_ten_pct": 77.03,
+    "hhi": 1457.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 9,
+      "increased_positions": 43,
+      "reduced_positions": 20
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001941040-26-000497"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001941040-26-000808"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

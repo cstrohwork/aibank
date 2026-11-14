@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2087399/0002087399-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "219974ebfa448ae55dcbae09c4dca22b809dc39759f8d3b9e7b65a1fe9256cf2",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "3b36aa14a50d7342fb167b6f7be81fe52d8502fcade744bbbf56322d3dce5d4e",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002087399-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2087399/0002087399-26-000005.txt",
+    "distinct_positions": 199,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 291900060.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "172062101",
+        "security_class": "COM",
+        "issuer": "CINCINNATI FINL CORP",
+        "shares": 97247.0,
+        "value_usd": 15498254.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 18845.0,
+        "value_usd": 14371460.0,
+        "weight_pct": 4.92
+      },
+      {
+        "cusip": "124805102",
+        "security_class": "COM",
+        "issuer": "CBIZ INC",
+        "shares": 217665.0,
+        "value_usd": 11904099.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "925815102",
+        "security_class": "COM",
+        "issuer": "VICOR CORP",
+        "shares": 37650.0,
+        "value_usd": 10878591.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "CORE BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 115882.0,
+        "value_usd": 8531233.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "101507101",
+        "security_class": "COM",
+        "issuer": "SRH TOTAL RETURN FUND INC",
+        "shares": 474370.0,
+        "value_usd": 8239807.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "6706EW100",
+        "security_class": "COM",
+        "issuer": "NUVEEN S&P 500 DYNAMIC OVERW",
+        "shares": 392000.0,
+        "value_usd": 7248080.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "72201R833",
+        "security_class": "ENHAN SHRT MA AC",
+        "issuer": "PIMCO ETF TR",
+        "shares": 65786.0,
+        "value_usd": 6614820.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 59100.0,
+        "value_usd": 6519912.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 25893.0,
+        "value_usd": 5913440.0,
+        "weight_pct": 2.03
+      }
+    ],
+    "top_five_pct": 20.96,
+    "top_ten_pct": 32.79,
+    "hhi": 170.21,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 104,
+      "exited_positions": 49,
+      "increased_positions": 55,
+      "reduced_positions": 32
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0002087399-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002087399-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

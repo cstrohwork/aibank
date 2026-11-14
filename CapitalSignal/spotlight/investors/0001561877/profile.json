@@ -14,8 +14,81 @@
     "https://www.sec.gov/Archives/edgar/data/1561877/0001561877-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ed73760f61e2382d9d38922c87ed63b823261f46b94b81ccf91b50df6ff0cbef",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "5011afd579e9c73670f19a7d15fb049e394b95832b6e04eac7083e9a021e9a24",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001561877-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1561877/0001561877-26-000005.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 84611400.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "101121101",
+        "security_class": "COM",
+        "issuer": "BXP INC",
+        "shares": 680540.0,
+        "value_usd": 41587799.0,
+        "weight_pct": 49.15
+      },
+      {
+        "cusip": "49427F108",
+        "security_class": "COM",
+        "issuer": "KILROY RLTY CORP",
+        "shares": 1020991.0,
+        "value_usd": 33968371.0,
+        "weight_pct": 40.15
+      },
+      {
+        "cusip": "105368203",
+        "security_class": "SH BEN INT NEW",
+        "issuer": "BRANDYWINE RLTY TR",
+        "shares": 2445594.0,
+        "value_usd": 6847663.0,
+        "weight_pct": 8.09
+      },
+      {
+        "cusip": "444097406",
+        "security_class": "COM",
+        "issuer": "HUDSON PACIFIC PROPERTIES IN",
+        "shares": 191297.0,
+        "value_usd": 2207567.0,
+        "weight_pct": 2.61
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4099.91,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001561877-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001561877-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001561877-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

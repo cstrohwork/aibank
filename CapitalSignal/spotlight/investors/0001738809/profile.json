@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1738809/0001738809-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e4d416e255ad1991547e7439954d839f662bbb9194109dcd4439ace4923e7108",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "fce35e6efb3bdcb80279ee01b0a1f60bc7c038d7a6e4f731c27e0d1c55a578e4",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001738809-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1738809/0001738809-26-000008.txt",
+    "distinct_positions": 117,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 27003083.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 681.0,
+        "value_usd": 270568.0,
+        "weight_pct": 1.0
+      },
+      {
+        "cusip": "90400D108",
+        "security_class": "COM",
+        "issuer": "ULTRAGENYX PHARMACEUTICAL IN",
+        "shares": 17615.0,
+        "value_usd": 264753.0,
+        "weight_pct": 0.98
+      },
+      {
+        "cusip": "75704L104",
+        "security_class": "COM",
+        "issuer": "RED VIOLET INC",
+        "shares": 3316.0,
+        "value_usd": 261997.0,
+        "weight_pct": 0.97
+      },
+      {
+        "cusip": "M84137104",
+        "security_class": "SHS",
+        "issuer": "SIMILARWEB LTD",
+        "shares": 33668.0,
+        "value_usd": 261264.0,
+        "weight_pct": 0.97
+      },
+      {
+        "cusip": "163072101",
+        "security_class": "COM",
+        "issuer": "CHEESECAKE FACTORY INC",
+        "shares": 2482.0,
+        "value_usd": 261206.0,
+        "weight_pct": 0.97
+      },
+      {
+        "cusip": "91332U101",
+        "security_class": "COM",
+        "issuer": "UNITY SOFTWARE INC",
+        "shares": 6372.0,
+        "value_usd": 260806.0,
+        "weight_pct": 0.97
+      },
+      {
+        "cusip": "69318G106",
+        "security_class": "CL A",
+        "issuer": "PBF ENERGY INC",
+        "shares": 3384.0,
+        "value_usd": 260433.0,
+        "weight_pct": 0.96
+      },
+      {
+        "cusip": "249906108",
+        "security_class": "COM",
+        "issuer": "DESCARTES SYS GROUP INC",
+        "shares": 3204.0,
+        "value_usd": 259075.0,
+        "weight_pct": 0.96
+      },
+      {
+        "cusip": "268603107",
+        "security_class": "COM",
+        "issuer": "EL POLLO LOCO HLDGS INC",
+        "shares": 17954.0,
+        "value_usd": 257640.0,
+        "weight_pct": 0.95
+      },
+      {
+        "cusip": "878742204",
+        "security_class": "CL B",
+        "issuer": "TECK RESOURCES LTD",
+        "shares": 3912.0,
+        "value_usd": 257370.0,
+        "weight_pct": 0.95
+      }
+    ],
+    "top_five_pct": 4.89,
+    "top_ten_pct": 9.68,
+    "hhi": 88.05,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 86,
+      "exited_positions": 69,
+      "increased_positions": 20,
+      "reduced_positions": 11
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001738809-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001738809-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

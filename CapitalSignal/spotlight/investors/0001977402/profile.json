@@ -13,8 +13,60 @@
     "https://www.sec.gov/Archives/edgar/data/1977402/0001104659-26-123846.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c0795fb6f2885e0332f5d9a337379245b1ee91074198b79d89034fa93a4b5d59",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "67bdb11ec9d26512e21e5f38ad6b07c8a2fce63c4b7457fd6cd113d88a71f60a",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001104659-26-123846",
+    "source": "https://www.sec.gov/Archives/edgar/data/1977402/0001104659-26-123846.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 550810917.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "L8681T102",
+        "security_class": "Common",
+        "issuer": "Spotify Technologies, S.A.",
+        "shares": 1000000.0,
+        "value_usd": 487380000.0,
+        "weight_pct": 88.48
+      },
+      {
+        "cusip": "98954M200",
+        "security_class": "Capital *",
+        "issuer": "Zillow Group, Inc.",
+        "shares": 2338036.0,
+        "value_usd": 63430917.0,
+        "weight_pct": 11.52
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7962.05,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001104659-26-092694"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001104659-26-123846"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

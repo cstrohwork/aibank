@@ -13,8 +13,100 @@
     "https://www.sec.gov/Archives/edgar/data/1697814/0001697814-26-000013.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f73ef3a794a4459330bd22db69af24bd5758340ff658c58ce46168c2eb3296fd",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "81f9a83005b33c9057619b0f4a9fae7bc0bf2e8bf9d83dbe3007cfc329f84f88",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001697814-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697814/0001697814-26-000013.txt",
+    "distinct_positions": 7,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 80417253.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "747525103",
+        "security_class": "COM",
+        "issuer": "QUALCOMM INC",
+        "shares": 217042.0,
+        "value_usd": 39944409.0,
+        "weight_pct": 49.67
+      },
+      {
+        "cusip": "01609W102",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ALIBABA GROUP HLDG LTD",
+        "shares": 125919.0,
+        "value_usd": 13541329.0,
+        "weight_pct": 16.84
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 52354.0,
+        "value_usd": 11956606.0,
+        "weight_pct": 14.87
+      },
+      {
+        "cusip": "775133101",
+        "security_class": "COM",
+        "issuer": "ROGERS CORP",
+        "shares": 37187.0,
+        "value_usd": 5689239.0,
+        "weight_pct": 7.07
+      },
+      {
+        "cusip": "68389X105",
+        "security_class": "COM",
+        "issuer": "ORACLE CORP",
+        "shares": 32735.0,
+        "value_usd": 4494515.0,
+        "weight_pct": 5.59
+      },
+      {
+        "cusip": "74347Y730",
+        "security_class": "VIX SHT TERM FUT",
+        "issuer": "PROSHARES TR II",
+        "shares": 195325.0,
+        "value_usd": 3308805.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 9826.0,
+        "value_usd": 1482350.0,
+        "weight_pct": 1.84
+      }
+    ],
+    "top_five_pct": 94.04,
+    "top_ten_pct": 100.0,
+    "hhi": 3073.48,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 4,
+      "exited_positions": 7,
+      "increased_positions": 1,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001697814-25-000015"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001697814-26-000013"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

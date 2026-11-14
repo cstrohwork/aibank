@@ -13,8 +13,84 @@
     "https://www.sec.gov/Archives/edgar/data/1626282/0001104659-26-123842.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "df346181ac3e3251b42822b0114631c0c12f2ab9905f3d45c3e33650a047395a",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7dda4dd44c35aa34e6154739e569e98bc16353ab9329de578021e4c58cbc7954",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001104659-26-123842",
+    "source": "https://www.sec.gov/Archives/edgar/data/1626282/0001104659-26-123842.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 331488620.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "70451X104",
+        "security_class": "Common",
+        "issuer": "Payoneer Global, Inc.",
+        "shares": 34197116.0,
+        "value_usd": 244167408.0,
+        "weight_pct": 73.66
+      },
+      {
+        "cusip": "98954M200",
+        "security_class": "Capital *",
+        "issuer": "Zillow Group, Inc.",
+        "shares": 2735000.0,
+        "value_usd": 74200550.0,
+        "weight_pct": 22.38
+      },
+      {
+        "cusip": "98954M101",
+        "security_class": "Common **",
+        "issuer": "Zillow Group, Inc.",
+        "shares": 384337.0,
+        "value_usd": 10646135.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "64081V109",
+        "security_class": "Common",
+        "issuer": "Nerdy, Inc.",
+        "shares": 263319.0,
+        "value_usd": 2148683.0,
+        "weight_pct": 0.65
+      },
+      {
+        "cusip": "76010Y202",
+        "security_class": "Common",
+        "issuer": "Rent the Runway Inc",
+        "shares": 197481.0,
+        "value_usd": 325844.0,
+        "weight_pct": 0.1
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5937.27,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001104659-26-092683"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001104659-26-123842"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

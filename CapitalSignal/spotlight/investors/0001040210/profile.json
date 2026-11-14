@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1040210/0001040210-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d6090fa4859c060007a9fd7a97b677bf08fdfed9a67c2ec2c5cd202fe968befc",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b11bc12155d55f403057362c4b463d78951331c69588a078c352d113c655db93",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001040210-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1040210/0001040210-26-000008.txt",
+    "distinct_positions": 115,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1712112132.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 465139.0,
+        "value_usd": 231615966.0,
+        "weight_pct": 13.53
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 457691.0,
+        "value_usd": 155953756.0,
+        "weight_pct": 9.11
+      },
+      {
+        "cusip": "570535104",
+        "security_class": "COM",
+        "issuer": "MARKEL GROUP INC",
+        "shares": 75015.0,
+        "value_usd": 128459437.0,
+        "weight_pct": 7.5
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 430735.0,
+        "value_usd": 107317626.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 115707.0,
+        "value_usd": 104178177.0,
+        "weight_pct": 6.08
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 307835.0,
+        "value_usd": 101841054.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "615369105",
+        "security_class": "COM",
+        "issuer": "MOODYS CORP",
+        "shares": 162538.0,
+        "value_usd": 73813420.0,
+        "weight_pct": 4.31
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COM",
+        "issuer": "CHARLES SCHWAB CORP (THE)",
+        "shares": 731155.0,
+        "value_usd": 71463049.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "436893200",
+        "security_class": "COM",
+        "issuer": "HOME BANCSHARES INC",
+        "shares": 2480662.0,
+        "value_usd": 69905068.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "115236101",
+        "security_class": "COM",
+        "issuer": "BROWN & BROWN INC",
+        "shares": 1042954.0,
+        "value_usd": 63515893.0,
+        "weight_pct": 3.71
+      }
+    ],
+    "top_five_pct": 42.49,
+    "top_ten_pct": 64.72,
+    "hhi": 562.04,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 28,
+      "exited_positions": 25,
+      "increased_positions": 15,
+      "reduced_positions": 35
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001040210-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001040210-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2004495/0002004495-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7f868813c03a580b7e3e6d4713c9c29a4396f012024c08202fb7c327ef09e367",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "18d818204d47fd73cc3a1f77a487a246182a6628a8b0a5a167e522f2b464f6e5",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0002004495-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2004495/0002004495-26-000005.txt",
+    "distinct_positions": 64,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 282978090.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A805",
+        "security_class": "ST STR PR SP1500",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 1157199.0,
+        "value_usd": 106520188.0,
+        "weight_pct": 37.64
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 829952.0,
+        "value_usd": 58602877.0,
+        "weight_pct": 20.71
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 173910.0,
+        "value_usd": 23658721.0,
+        "weight_pct": 8.36
+      },
+      {
+        "cusip": "025072349",
+        "security_class": "US LARGE CAP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 236610.0,
+        "value_usd": 21399008.0,
+        "weight_pct": 7.56
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 281226.0,
+        "value_usd": 16679501.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 19446.0,
+        "value_usd": 7277557.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "78463X889",
+        "security_class": "ST STR PO EX ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 97857.0,
+        "value_usd": 4913400.0,
+        "weight_pct": 1.74
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 12213.0,
+        "value_usd": 4067153.0,
+        "weight_pct": 1.44
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 72736.0,
+        "value_usd": 3233115.0,
+        "weight_pct": 1.14
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM",
+        "issuer": "EXXON MOBIL CORP",
+        "shares": 19684.0,
+        "value_usd": 3203539.0,
+        "weight_pct": 1.13
+      }
+    ],
+    "top_five_pct": 80.17,
+    "top_ten_pct": 88.19,
+    "hhi": 2026.41,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 8,
+      "increased_positions": 28,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0002004495-25-000002"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002004495-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0002004495-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

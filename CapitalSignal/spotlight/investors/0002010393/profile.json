@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2010393/0002010393-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "abd5f3d4419463648d0780cd23d76554ee53bf1407eb3fd6cf15e9358d259dc0",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "340e9997343f28c994e0914943f7aa4540794b623f84670e05d52adecd637a61",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0002010393-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2010393/0002010393-26-000006.txt",
+    "distinct_positions": 3627,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3492891893.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V401",
+        "security_class": "US EQUI MARK ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1872859.0,
+        "value_usd": 156009193.0,
+        "weight_pct": 4.47
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 149063.0,
+        "value_usd": 114409360.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 327668.0,
+        "value_usd": 107934004.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1439928.0,
+        "value_usd": 96532787.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 385231.0,
+        "value_usd": 87528448.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 1233752.0,
+        "value_usd": 73556296.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 745856.0,
+        "value_usd": 70558049.0,
+        "weight_pct": 2.02
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 713476.0,
+        "value_usd": 69535465.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 122086.0,
+        "value_usd": 62136915.0,
+        "weight_pct": 1.78
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1100458.0,
+        "value_usd": 61867767.0,
+        "weight_pct": 1.77
+      }
+    ],
+    "top_five_pct": 16.1,
+    "top_ten_pct": 25.77,
+    "hhi": 102.39,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 418,
+      "exited_positions": 256,
+      "increased_positions": 1552,
+      "reduced_positions": 1348
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0002010393-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0002010393-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0002010393-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

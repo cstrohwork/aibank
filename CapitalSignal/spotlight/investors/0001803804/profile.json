@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1803804/0001162044-26-000937.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b7a9b8c3cc3230e9f7c8c108f417682dde07d270885107819dc6b60c4ced3acc",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "3403aa5932e8fff0832ceb4f3abcf541718112ad50e547413c952ec9d490428d",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001162044-26-000937",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803804/0001162044-26-000937.txt",
+    "distinct_positions": 1265,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 544844382.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "INVESCO QQQ TR ETF UNIT SER 1",
+        "shares": 47697.0,
+        "value_usd": 35284466.0,
+        "weight_pct": 6.48
+      },
+      {
+        "cusip": "33733E104",
+        "security_class": "ETF",
+        "issuer": "FIRST TRUST CAPITAL ETF STRENGTH",
+        "shares": 292236.0,
+        "value_usd": 27426364.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR ETF PORTFOLIO S&P 500",
+        "shares": 275812.0,
+        "value_usd": 24756847.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "ETF",
+        "issuer": "INVESCO TR ETF S&P 500 EQUAL WEIGHT",
+        "shares": 78968.0,
+        "value_usd": 16426874.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "46654Q757",
+        "security_class": "ETF",
+        "issuer": "JPMORGAN ETF INTERNATIONAL VALUE",
+        "shares": 154687.0,
+        "value_usd": 14729274.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "039491600",
+        "security_class": "ETF",
+        "issuer": "ARCHER INVT SER TR ETF GROWTH",
+        "shares": 570656.0,
+        "value_usd": 14568841.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "45783Y855",
+        "security_class": "ETF",
+        "issuer": "INNOVATOR ETF TR DEFINED WEALTH SHIELD",
+        "shares": 392359.0,
+        "value_usd": 13712953.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "33740U653",
+        "security_class": "ETF",
+        "issuer": "FIRST TR VIII VEST ETF US EQUITY MODERATE BUFFER",
+        "shares": 305260.0,
+        "value_usd": 12852910.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 29568.0,
+        "value_usd": 9846864.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 8222.0,
+        "value_usd": 9513076.0,
+        "weight_pct": 1.75
+      }
+    ],
+    "top_five_pct": 21.77,
+    "top_ten_pct": 32.88,
+    "hhi": 159.57,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 80,
+      "exited_positions": 69,
+      "increased_positions": 46,
+      "reduced_positions": 1138
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001162044-25-001133"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-19",
+        "accession": "0001162044-26-000700"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001162044-26-000937"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

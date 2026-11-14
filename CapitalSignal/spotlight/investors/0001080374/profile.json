@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1080374/0001080374-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e8c816de928dd4b2e24eeba94478f9d209503e32243afd407331a8dcb014d811",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "85a9d0bba2146064e65f4ca3f9e5112b1eb909a5fcdb407589647cf0d2c47fef",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001080374-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1080374/0001080374-26-000007.txt",
+    "distinct_positions": 144,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1071046062.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 303435.0,
+        "value_usd": 101049820.0,
+        "weight_pct": 9.43
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA Corporation",
+        "shares": 400051.0,
+        "value_usd": 91363757.0,
+        "weight_pct": 8.53
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corporation",
+        "shares": 143705.0,
+        "value_usd": 73706389.0,
+        "weight_pct": 6.88
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "Alphabet Inc  Class A",
+        "shares": 175918.0,
+        "value_usd": 60529712.0,
+        "weight_pct": 5.65
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "Amazon.com Inc",
+        "shares": 209541.0,
+        "value_usd": 52207265.0,
+        "weight_pct": 4.87
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COM",
+        "issuer": "Meta Platforms Inc  Class A",
+        "shares": 62162.0,
+        "value_usd": 45078629.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "Broadcom Inc",
+        "shares": 121135.0,
+        "value_usd": 42541401.0,
+        "weight_pct": 3.97
+      },
+      {
+        "cusip": "632307104",
+        "security_class": "COM",
+        "issuer": "Natera Inc",
+        "shares": 85700.0,
+        "value_usd": 35420667.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "Eli Lilly & Company",
+        "shares": 27173.0,
+        "value_usd": 31441060.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "Advanced Micro Devices Inc",
+        "shares": 45733.0,
+        "value_usd": 27977620.0,
+        "weight_pct": 2.61
+      }
+    ],
+    "top_five_pct": 35.37,
+    "top_ten_pct": 52.41,
+    "hhi": 391.46,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 45,
+      "exited_positions": 35,
+      "increased_positions": 43,
+      "reduced_positions": 49
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001080374-25-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001080374-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

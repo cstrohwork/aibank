@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2111429/0002111429-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3801e4ee8dd07516815e7f614f40b4428c03290990ace8a62ef43156ada87155",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "8f640d185e022c772d3745cc9fb13005f5bcb90652f74d949bbcb7abe38658df",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002111429-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2111429/0002111429-26-000007.txt",
+    "distinct_positions": 91,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 127129315.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 55840.0,
+        "value_usd": 20897731.0,
+        "weight_pct": 16.44
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 70793.0,
+        "value_usd": 8896556.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "651639106",
+        "security_class": "COM",
+        "issuer": "NEWMONT CORP",
+        "shares": 46843.0,
+        "value_usd": 5402872.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 10169.0,
+        "value_usd": 5215680.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ISHARES NEW",
+        "issuer": "ISHARES GOLD TR",
+        "shares": 58855.0,
+        "value_usd": 4596576.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 12669.0,
+        "value_usd": 4219030.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 39565.0,
+        "value_usd": 4110408.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 11745.0,
+        "value_usd": 4041220.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "COM",
+        "issuer": "AGNICO EAGLE MINES LTD",
+        "shares": 20012.0,
+        "value_usd": 3667599.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "G29183103",
+        "security_class": "SHS",
+        "issuer": "EATON CORP PLC",
+        "shares": 8179.0,
+        "value_usd": 3514598.0,
+        "weight_pct": 2.76
+      }
+    ],
+    "top_five_pct": 35.4,
+    "top_ten_pct": 50.78,
+    "hhi": 460.55,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 6,
+      "increased_positions": 3,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002111429-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002111429-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

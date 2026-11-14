@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2149882/0002149882-26-000003.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5288374fd5d60d3e2da5744dd298fdbb82df2154eedcb76f4f60e1af9e4473ec",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "2ce0c75075e111fafca11374c843c55b80d08741a9e7438e0c5a8c6a94fa657d",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002149882-26-000003",
+    "source": "https://www.sec.gov/Archives/edgar/data/2149882/0002149882-26-000003.txt",
+    "distinct_positions": 724,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 242616099.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V203",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL INTERNATIONAL CORE EQUITY MARKET ETF",
+        "shares": 669044.0,
+        "value_usd": 27718478.0,
+        "weight_pct": 11.42
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "ETF",
+        "issuer": "VANGUARD TOTAL WORLD STOCK ETF",
+        "shares": 142507.0,
+        "value_usd": 22494772.0,
+        "weight_pct": 9.27
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR VALUE ETF",
+        "shares": 102004.0,
+        "value_usd": 22041118.0,
+        "weight_pct": 9.08
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "ETF",
+        "issuer": "ISHARES TRUST ISHARES 0-1 YEAR TREASURY BOND ETF",
+        "shares": 151471.0,
+        "value_usd": 16710256.0,
+        "weight_pct": 6.89
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "ETF",
+        "issuer": "WISDOMTREE FLOATING RATE TREASURY FUND",
+        "shares": 312628.0,
+        "value_usd": 15753330.0,
+        "weight_pct": 6.49
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "ETF",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH ETF",
+        "shares": 102981.0,
+        "value_usd": 12899377.0,
+        "weight_pct": 5.32
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL EMERGING CORE EQUITY MARKET ETF",
+        "shares": 318522.0,
+        "value_usd": 12521104.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "ETF",
+        "issuer": "VANGUARD SHORT-TERM CORPORATE BOND ETF",
+        "shares": 133872.0,
+        "value_usd": 10341614.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "25239Y162",
+        "security_class": "ETF",
+        "issuer": "U.S. TARGETED VALUE PORTFOLIO: ETF CLASS SHARES",
+        "shares": 155629.0,
+        "value_usd": 10339998.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "464287648",
+        "security_class": "ETF",
+        "issuer": "ISHARES RUSSELL 2000 GROWTH ETF",
+        "shares": 22806.0,
+        "value_usd": 8139565.0,
+        "weight_pct": 3.35
+      }
+    ],
+    "top_five_pct": 43.16,
+    "top_ten_pct": 65.52,
+    "hhi": 524.94,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 63,
+      "exited_positions": 73,
+      "increased_positions": 215,
+      "reduced_positions": 130
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0002149882-26-000001"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002149882-26-000003"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2037578/0001398344-26-019860.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "344343d5ab43629ac07fa7626c4a8a449c1ac2d99ec3a6aa5abb9e5cb513c0a9",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "dc0c4a1e96f4377ce1576d703619fa983abc8b13433bc4ce5d97e8960abee9b4",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001398344-26-019860",
+    "source": "https://www.sec.gov/Archives/edgar/data/2037578/0001398344-26-019860.txt",
+    "distinct_positions": 30,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 355513514.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288653",
+        "security_class": "10-20 YR TRS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1342714.0,
+        "value_usd": 123757959.0,
+        "weight_pct": 34.81
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 93255.0,
+        "value_usd": 33087807.0,
+        "weight_pct": 9.31
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 84058.0,
+        "value_usd": 28922644.0,
+        "weight_pct": 8.14
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 49674.0,
+        "value_usd": 25477989.0,
+        "weight_pct": 7.17
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 34363.0,
+        "value_usd": 24919385.0,
+        "weight_pct": 7.01
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 91841.0,
+        "value_usd": 22882256.0,
+        "weight_pct": 6.44
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 94673.0,
+        "value_usd": 21621475.0,
+        "weight_pct": 6.08
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 141590.0,
+        "value_usd": 21360267.0,
+        "weight_pct": 6.01
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 56013.0,
+        "value_usd": 19671032.0,
+        "weight_pct": 5.53
+      },
+      {
+        "cusip": "78468R523",
+        "security_class": "ST STR BL 12 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 127743.0,
+        "value_usd": 12689695.0,
+        "weight_pct": 3.57
+      }
+    ],
+    "top_five_pct": 66.43,
+    "top_ten_pct": 94.06,
+    "hhi": 1629.63,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 17,
+      "exited_positions": 8,
+      "increased_positions": 8,
+      "reduced_positions": 5
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001398344-25-019210"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001398344-26-019860"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

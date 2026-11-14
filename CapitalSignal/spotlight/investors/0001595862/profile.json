@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1595862/0001595862-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8367927127500793cff2304974078cf38fa4966f54e8f48e8e0743c665159cd0",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "16ebb325abf46f259c8ba41577b974346351ba0af754f56e3b950256bb9a083b",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001595862-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1595862/0001595862-26-000004.txt",
+    "distinct_positions": 38,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 160002776.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00162Q452",
+        "security_class": "ALERIAN MLP",
+        "issuer": "ALPS ETF TR",
+        "shares": 240000.0,
+        "value_usd": 12448800.0,
+        "weight_pct": 7.78
+      },
+      {
+        "cusip": "48581R205",
+        "security_class": "SPONSORED ADS",
+        "issuer": "KASPI KZ JSC",
+        "shares": 110000.0,
+        "value_usd": 10346600.0,
+        "weight_pct": 6.47
+      },
+      {
+        "cusip": "78454L100",
+        "security_class": "COM",
+        "issuer": "SM ENERGY COMPANY",
+        "shares": 280000.0,
+        "value_usd": 9458400.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "26875P101",
+        "security_class": "COM",
+        "issuer": "EOG RES INC",
+        "shares": 67500.0,
+        "value_usd": 9298800.0,
+        "weight_pct": 5.81
+      },
+      {
+        "cusip": "G98239109",
+        "security_class": "CL A",
+        "issuer": "XP INC",
+        "shares": 400000.0,
+        "value_usd": 8398000.0,
+        "weight_pct": 5.25
+      },
+      {
+        "cusip": "G68707101",
+        "security_class": "COM CL A",
+        "issuer": "PAGSEGURO DIGITAL LTD",
+        "shares": 750000.0,
+        "value_usd": 6675000.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "279158109",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ECOPETROL S A",
+        "shares": 375000.0,
+        "value_usd": 6180000.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "125269100",
+        "security_class": "COM",
+        "issuer": "CF INDUSTRIES HOLD",
+        "shares": 50000.0,
+        "value_usd": 5760000.0,
+        "weight_pct": 3.6
+      },
+      {
+        "cusip": "461202103",
+        "security_class": "COM",
+        "issuer": "INTUIT",
+        "shares": 20000.0,
+        "value_usd": 5514200.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "059460303",
+        "security_class": "SP ADR PFD NEW",
+        "issuer": "BANCO BRADESCO S A",
+        "shares": 1500000.0,
+        "value_usd": 5280000.0,
+        "weight_pct": 3.3
+      }
+    ],
+    "top_five_pct": 31.22,
+    "top_ten_pct": 49.6,
+    "hhi": 375.86,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 13,
+      "increased_positions": 9,
+      "reduced_positions": 5
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001595862-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001595862-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001595862-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

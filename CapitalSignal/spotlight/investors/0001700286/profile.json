@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1700286/0001700286-26-000015.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d4f48e49e7de0e4db3504f2066f4023ad91483251f04260ea0d78eaaba7abfda",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "21e4396bed155bb9cee79c86744ee347065a78eedbd6875f8edc1b10315b370f",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001700286-26-000015",
+    "source": "https://www.sec.gov/Archives/edgar/data/1700286/0001700286-26-000015.txt",
+    "distinct_positions": 72,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1823771905.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "026874784",
+        "security_class": "COM NEW",
+        "issuer": "AMERICAN INTL GROUP INC",
+        "shares": 1850308.0,
+        "value_usd": 137701124.0,
+        "weight_pct": 7.55
+      },
+      {
+        "cusip": "14316J108",
+        "security_class": "COM",
+        "issuer": "CARLYLE GROUP INC",
+        "shares": 2568178.0,
+        "value_usd": 101854829.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "172967424",
+        "security_class": "COM NEW",
+        "issuer": "CITIGROUP INC",
+        "shares": 782190.0,
+        "value_usd": 101278846.0,
+        "weight_pct": 5.55
+      },
+      {
+        "cusip": "860630102",
+        "security_class": "COM",
+        "issuer": "STIFEL FINL CORP",
+        "shares": 1378648.0,
+        "value_usd": 96561349.0,
+        "weight_pct": 5.29
+      },
+      {
+        "cusip": "493267108",
+        "security_class": "COM",
+        "issuer": "KEYCORP",
+        "shares": 4314333.0,
+        "value_usd": 86589420.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "446150104",
+        "security_class": "COM",
+        "issuer": "HUNTINGTON BANCSHARES INC",
+        "shares": 5568507.0,
+        "value_usd": 84976159.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "743606105",
+        "security_class": "COM",
+        "issuer": "PROSPERITY BANCSHARES INC",
+        "shares": 1240919.0,
+        "value_usd": 82161965.0,
+        "weight_pct": 4.51
+      },
+      {
+        "cusip": "91529Y106",
+        "security_class": "COM",
+        "issuer": "UNUM GROUP",
+        "shares": 711557.0,
+        "value_usd": 62425441.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "48251W104",
+        "security_class": "COM",
+        "issuer": "KKR & CO INC",
+        "shares": 639869.0,
+        "value_usd": 58420550.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "84472E102",
+        "security_class": "COM",
+        "issuer": "SOUTHSTATE BK CORP",
+        "shares": 573942.0,
+        "value_usd": 57142165.0,
+        "weight_pct": 3.13
+      }
+    ],
+    "top_five_pct": 28.73,
+    "top_ten_pct": 47.65,
+    "hhi": 336.87,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 21,
+      "increased_positions": 28,
+      "reduced_positions": 20
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001700286-25-000019"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001700286-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001700286-26-000015"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

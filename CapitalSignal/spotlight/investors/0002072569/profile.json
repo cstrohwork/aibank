@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2072569/0002072569-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5582a7f5e130cbd999fae09a5d804138d52c7bd11f6b35c6d904dd533401f1c1",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "1388228cb1c560184f5365da8c1adab805236a43eb8884eb8bcd9e95cb3a7b9e",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002072569-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/2072569/0002072569-26-000009.txt",
+    "distinct_positions": 351,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 987837304.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "iShares Core S&P 500 ETF",
+        "shares": 200235.0,
+        "value_usd": 153350218.0,
+        "weight_pct": 15.52
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "ETF",
+        "issuer": "iShares Core S&P Mid-Cap ETF",
+        "shares": 781552.0,
+        "value_usd": 56232635.0,
+        "weight_pct": 5.69
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "ETF",
+        "issuer": "Avantis International Equity ETF",
+        "shares": 574310.0,
+        "value_usd": 51751098.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Common Stock",
+        "issuer": "Nvidia Corp",
+        "shares": 193168.0,
+        "value_usd": 44159985.0,
+        "weight_pct": 4.47
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "Apple Inc",
+        "shares": 118485.0,
+        "value_usd": 39457750.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "ETF",
+        "issuer": "Avantis Emerging Markets Equity ETF",
+        "shares": 333118.0,
+        "value_usd": 31319714.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "46654Q716",
+        "security_class": "ETF",
+        "issuer": "JP Morgan ETF Trust (active Bond Etf)",
+        "shares": 607722.0,
+        "value_usd": 31066729.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common Stock",
+        "issuer": "Microsoft Corp",
+        "shares": 57385.0,
+        "value_usd": 29432691.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "92647X830",
+        "security_class": "ETF",
+        "issuer": "Victoryshares Free Cash Flow ETF",
+        "shares": 472938.0,
+        "value_usd": 24209715.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Common Stock",
+        "issuer": "Alphabet Inc Class            Class A",
+        "shares": 60377.0,
+        "value_usd": 20774476.0,
+        "weight_pct": 2.1
+      }
+    ],
+    "top_five_pct": 34.92,
+    "top_ten_pct": 48.77,
+    "hhi": 410.02,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 313,
+      "exited_positions": 179,
+      "increased_positions": 14,
+      "reduced_positions": 20
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0002072569-25-000001"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-26",
+        "accession": "0002072569-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002072569-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/19475/0000019475-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cf1b39ef34ecf353d740bb4e5bb9a4231bc5e682f3ff7939e3b685764d68e633",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7b6a981f96afc05e19dd7916cb43a49016fba21c5f552bf6dbb3db55b650a3ae",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0000019475-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/19475/0000019475-26-000007.txt",
+    "distinct_positions": 137,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 479397.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "24703L202",
+        "security_class": "CL C",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 36081.0,
+        "value_usd": 19409.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 83654.0,
+        "value_usd": 19104.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 50629.0,
+        "value_usd": 17420.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "90138F102",
+        "security_class": "CL A",
+        "issuer": "TWILIO INC",
+        "shares": 59281.0,
+        "value_usd": 17337.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 26724.0,
+        "value_usd": 16348.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "15101Q207",
+        "security_class": "COM",
+        "issuer": "CELESTICA INC",
+        "shares": 37738.0,
+        "value_usd": 13639.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "95082P105",
+        "security_class": "COM",
+        "issuer": "WESCO INTL INC",
+        "shares": 34370.0,
+        "value_usd": 12359.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "10950A106",
+        "security_class": "COM",
+        "issuer": "BRIGHTSPRING HEALTH SVCS INC",
+        "shares": 209360.0,
+        "value_usd": 11881.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "278642103",
+        "security_class": "COM",
+        "issuer": "EBAY INC.",
+        "shares": 109053.0,
+        "value_usd": 11565.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "008252108",
+        "security_class": "COM",
+        "issuer": "AFFILIATED MANAGERS GROUP",
+        "shares": 31072.0,
+        "value_usd": 11360.0,
+        "weight_pct": 2.37
+      }
+    ],
+    "top_five_pct": 18.69,
+    "top_ten_pct": 31.38,
+    "hhi": 190.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 23,
+      "exited_positions": 24,
+      "increased_positions": 39,
+      "reduced_positions": 26
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0000019475-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0000019475-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0000019475-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

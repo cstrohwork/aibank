@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/932024/0001941040-26-000811.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "05dc08ce48eb9f0463efff497490ce60cefd456dc8d433a13b394ca2184351d1",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "0f4eee3432f95a13bb95c10dfed6254c0ff08b8409d554cbbcf4f8eac0b6225c",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001941040-26-000811",
+    "source": "https://www.sec.gov/Archives/edgar/data/932024/0001941040-26-000811.txt",
+    "distinct_positions": 80,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 602454097.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G5960L103",
+        "security_class": "SHS",
+        "issuer": "MEDTRONIC PLC",
+        "shares": 263522.0,
+        "value_usd": 22739313.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "50050N103",
+        "security_class": "COM",
+        "issuer": "KONTOOR BRANDS INC",
+        "shares": 329471.0,
+        "value_usd": 20766557.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "12572Q105",
+        "security_class": "COM",
+        "issuer": "CME GROUP INC",
+        "shares": 71398.0,
+        "value_usd": 18704848.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "075887109",
+        "security_class": "COM",
+        "issuer": "BECTON DICKINSON & CO",
+        "shares": 103869.0,
+        "value_usd": 18592551.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "42226K105",
+        "security_class": "CL A COM",
+        "issuer": "HEALTHCARE RLTY TR",
+        "shares": 999768.0,
+        "value_usd": 17735884.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "00206R102",
+        "security_class": "COM",
+        "issuer": "AT&T INC",
+        "shares": 706280.0,
+        "value_usd": 17233232.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "49456B101",
+        "security_class": "COM",
+        "issuer": "KINDER MORGAN INC DEL",
+        "shares": 556215.0,
+        "value_usd": 16769882.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "427866108",
+        "security_class": "COM",
+        "issuer": "HERSHEY CO",
+        "shares": 99215.0,
+        "value_usd": 15637276.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "20825C104",
+        "security_class": "COM",
+        "issuer": "CONOCOPHILLIPS",
+        "shares": 124825.0,
+        "value_usd": 15621849.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "88579Y101",
+        "security_class": "COM",
+        "issuer": "3M CO",
+        "shares": 94658.0,
+        "value_usd": 15538111.0,
+        "weight_pct": 2.58
+      }
+    ],
+    "top_five_pct": 16.36,
+    "top_ten_pct": 29.77,
+    "hhi": 206.33,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 22,
+      "reduced_positions": 32
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001941040-26-000555"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001941040-26-000811"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1862443/0001862443-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "574df87fad277691734756e0b7fd9fadead11afee652c9a0af26cef2f5497dff",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "c5bef000b576f13dfdda01763768757ab8096be805e8617f211c7af8eab795b8",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001862443-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1862443/0001862443-26-000006.txt",
+    "distinct_positions": 67,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 196595065.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "UIE",
+        "issuer": "ISHARES CORE S&P 500    ETF",
+        "shares": 61230.0,
+        "value_usd": 46893324.0,
+        "weight_pct": 23.85
+      },
+      {
+        "cusip": "02072L185",
+        "security_class": "UIE",
+        "issuer": "ASTORIA US QUALITY      GROWTH KINGS ETF",
+        "shares": 586864.0,
+        "value_usd": 21154217.0,
+        "weight_pct": 10.76
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "UIE",
+        "issuer": "DIMENSIONAL CORE FIXED  INCOME ETF",
+        "shares": 415733.0,
+        "value_usd": 16679209.0,
+        "weight_pct": 8.48
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "UIE",
+        "issuer": "DIMENSIONAL             INTERNATIONAL CORE      EQUITY MARKET ETF",
+        "shares": 377282.0,
+        "value_usd": 15630794.0,
+        "weight_pct": 7.95
+      },
+      {
+        "cusip": "02072L433",
+        "security_class": "UIE",
+        "issuer": "ASTORIA US EQUAL WEIGHT QUALITY KINGS ETF",
+        "shares": 307655.0,
+        "value_usd": 13098544.0,
+        "weight_pct": 6.66
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "UIE",
+        "issuer": "DIMENSIONAL EMERGING    CORE EQUITY MARKET ETF",
+        "shares": 231862.0,
+        "value_usd": 9114495.0,
+        "weight_pct": 4.64
+      },
+      {
+        "cusip": "25861R402",
+        "security_class": "UIE",
+        "issuer": "DOUBLELINE MORTGAGE ETF",
+        "shares": 180041.0,
+        "value_usd": 8337698.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "25434V864",
+        "security_class": "UIE",
+        "issuer": "DIMENSIONAL             SHORT-DURATION FIXED    INCOME ETF",
+        "shares": 175086.0,
+        "value_usd": 8136631.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "02072Q663",
+        "security_class": "UIE",
+        "issuer": "EA ASTORIA BEACON       DYNAMIC CORE US FIXED   INCOME ETF",
+        "shares": 270083.0,
+        "value_usd": 6582489.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "UIE",
+        "issuer": "PIMCO MULTISECTOR BOND  ACTIVE EXCHANGE-TRADED  FUND",
+        "shares": 235269.0,
+        "value_usd": 5973479.0,
+        "weight_pct": 3.04
+      }
+    ],
+    "top_five_pct": 57.71,
+    "top_ten_pct": 77.11,
+    "hhi": 961.99,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 5,
+      "increased_positions": 15,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-19",
+        "accession": "0001862443-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001862443-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

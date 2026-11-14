@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1821336/0001193125-26-448894.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0b39aa454b71f6b3055c6691f1fea76ff632a73efeb03f0eee9670bb7bed770b",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b8b0200b77e90badf21593f32081afa221614d05f8dfb01797febe8c4ba91bee",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001193125-26-448894",
+    "source": "https://www.sec.gov/Archives/edgar/data/1821336/0001193125-26-448894.txt",
+    "distinct_positions": 291,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 276443775.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "383082104",
+        "security_class": "COM",
+        "issuer": "Gorman Rupp Co Com",
+        "shares": 1005306.0,
+        "value_usd": 21807670.0,
+        "weight_pct": 7.89
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc Com",
+        "shares": 56729.0,
+        "value_usd": 18891892.0,
+        "weight_pct": 6.83
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "iShares Core S&P Mid Cap ETF",
+        "shares": 207474.0,
+        "value_usd": 14927754.0,
+        "weight_pct": 5.4
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "iShares Tr Core MSCI Eafe",
+        "shares": 143404.0,
+        "value_usd": 13892980.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "iShares Core S&P 500 ETF",
+        "shares": 16513.0,
+        "value_usd": 12646481.0,
+        "weight_pct": 4.57
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "iShares Tr MSCI Eafe ETF",
+        "shares": 113018.0,
+        "value_usd": 11741440.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corp Com",
+        "shares": 17497.0,
+        "value_usd": 8974211.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "Ishares Core Msci Emerging Markets Etf",
+        "shares": 100143.0,
+        "value_usd": 8127606.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMorgan Chase & Co Com",
+        "shares": 23840.0,
+        "value_usd": 7886987.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "Vanguard Short Term Treasury Index Fund",
+        "shares": 136258.0,
+        "value_usd": 7843010.0,
+        "weight_pct": 2.84
+      }
+    ],
+    "top_five_pct": 29.72,
+    "top_ten_pct": 45.85,
+    "hhi": 286.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 28,
+      "exited_positions": 33,
+      "increased_positions": 75,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001193125-25-268725"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001193125-26-335211"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001193125-26-448894"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

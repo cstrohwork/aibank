@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2066674/0002066674-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "33d0a047c6fe9e7fbee3a6d14d841f3e5f97b2d1111dd07000f17feaf17f9252",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "053f84b1fef15d6f68a43ae672e7879c59c9525b1ed9e093a87d45f0366c61a4",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002066674-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2066674/0002066674-26-000006.txt",
+    "distinct_positions": 57,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 178779407.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 164094.0,
+        "value_usd": 32121488.0,
+        "weight_pct": 17.97
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 632432.0,
+        "value_usd": 27384292.0,
+        "weight_pct": 15.32
+      },
+      {
+        "cusip": "14022A102",
+        "security_class": "US SM MI CA ETF",
+        "issuer": "CAPITAL GROUP EQUITY ETF TR",
+        "shares": 643190.0,
+        "value_usd": 19913161.0,
+        "weight_pct": 11.14
+      },
+      {
+        "cusip": "14021N105",
+        "security_class": "SHS",
+        "issuer": "CAPITAL GROUP NEW GEOGRAPHY",
+        "shares": 475268.0,
+        "value_usd": 17323519.0,
+        "weight_pct": 9.69
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 145125.0,
+        "value_usd": 15077020.0,
+        "weight_pct": 8.43
+      },
+      {
+        "cusip": "53656G498",
+        "security_class": "ROUN MA SEVE ETF",
+        "issuer": "LISTED FDS TR",
+        "shares": 176146.0,
+        "value_usd": 12627907.0,
+        "weight_pct": 7.06
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 94817.0,
+        "value_usd": 11876751.0,
+        "weight_pct": 6.64
+      },
+      {
+        "cusip": "316092527",
+        "security_class": "SML MID MLTFCT",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 189655.0,
+        "value_usd": 9325328.0,
+        "weight_pct": 5.22
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 11510.0,
+        "value_usd": 3833060.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 27806.0,
+        "value_usd": 3782768.0,
+        "weight_pct": 2.12
+      }
+    ],
+    "top_five_pct": 62.55,
+    "top_ten_pct": 85.73,
+    "hhi": 983.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 7,
+      "increased_positions": 23,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0002066674-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002066674-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002066674-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

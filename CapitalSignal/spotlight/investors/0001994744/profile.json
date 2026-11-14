@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1994744/0001994744-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "019129577d1b2bb160177535a207f653959333b43acbb1e888ffade0a9b09b62",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "102a2a16fc92882f8aa708f1bfbc37e02b8ab845b450fb513ea46303b8236332",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001994744-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1994744/0001994744-26-000010.txt",
+    "distinct_positions": 344,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 329720532.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "Technology Select Sector SPDR ETF",
+        "shares": 89652.0,
+        "value_usd": 17549379.0,
+        "weight_pct": 5.32
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DFA US Core Equity ETF",
+        "shares": 275657.0,
+        "value_usd": 14433401.0,
+        "weight_pct": 4.38
+      },
+      {
+        "cusip": "464288257",
+        "security_class": "MSCI ACWI ETF",
+        "issuer": "iShares MSCI ACWI ETF",
+        "shares": 86649.0,
+        "value_usd": 13756829.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "Vanguard FTSE Developed Markets ETF",
+        "shares": 188354.0,
+        "value_usd": 13299676.0,
+        "weight_pct": 4.03
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "iShares Russell 1000 ETF",
+        "shares": 27502.0,
+        "value_usd": 11444407.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF",
+        "shares": 11420.0,
+        "value_usd": 8709235.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "92206C771",
+        "security_class": "MTG-BKD SECS ETF",
+        "issuer": "Vanguard Mortgage-Backed Securities ETF",
+        "shares": 183809.0,
+        "value_usd": 8162958.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "464288414",
+        "security_class": "NATIONAL MUN ETF",
+        "issuer": "iShares National Muni Bond ETF",
+        "shares": 74010.0,
+        "value_usd": 7482411.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "78433H303",
+        "security_class": "NEOS S&P 500 HI",
+        "issuer": "NEOS S&P 500 High Income ETF",
+        "shares": 134452.0,
+        "value_usd": 7148813.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "921937827",
+        "security_class": "SHORT TRM BOND",
+        "issuer": "Vanguard Short Term Bond ETF",
+        "shares": 92558.0,
+        "value_usd": 7071431.0,
+        "weight_pct": 2.14
+      }
+    ],
+    "top_five_pct": 21.38,
+    "top_ten_pct": 33.08,
+    "hhi": 185.13,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 29,
+      "exited_positions": 26,
+      "increased_positions": 61,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001994744-25-000013"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001994744-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001994744-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

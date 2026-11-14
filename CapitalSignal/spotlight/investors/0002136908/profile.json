@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2136908/0001765380-26-000473.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0f99ccbaf476e45bce516e7f137d265673b443a727089847df2d2bb1497be13f",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e480dcc77e0efebb52b7aa0007bcbf9cfc740345731e2afd7d9c3ac956d3f4a7",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001765380-26-000473",
+    "source": "https://www.sec.gov/Archives/edgar/data/2136908/0001765380-26-000473.txt",
+    "distinct_positions": 149,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 472713988.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "45783Y855",
+        "security_class": "DEFINED WLT SHLD",
+        "issuer": "INNOVATOR DEFINED WEALTH SHLD ETF",
+        "shares": 433460.0,
+        "value_usd": 15149427.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & COMPANY",
+        "shares": 42113.0,
+        "value_usd": 13932202.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "403949100",
+        "security_class": "COM",
+        "issuer": "HF SINCLAIR CORPORATION",
+        "shares": 106198.0,
+        "value_usd": 11397161.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYSTEMS INCORPORATED",
+        "shares": 102967.0,
+        "value_usd": 11082338.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & COMPANY INCORPORATED",
+        "shares": 74754.0,
+        "value_usd": 10862504.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "G51502105",
+        "security_class": "SHS",
+        "issuer": "JOHNSON CONTROLS INTERNATION SHS (IRELAND)",
+        "shares": 71683.0,
+        "value_usd": 10655678.0,
+        "weight_pct": 2.25
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INCORPORATED",
+        "shares": 13070.0,
+        "value_usd": 10597025.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "95040Q104",
+        "security_class": "COM",
+        "issuer": "WELLTOWER INCORPORATED REIT",
+        "shares": 44385.0,
+        "value_usd": 10219190.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "064058100",
+        "security_class": "COM",
+        "issuer": "BANK OF NY MELLON CORPORATION",
+        "shares": 67176.0,
+        "value_usd": 9715721.0,
+        "weight_pct": 2.06
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR MSCI USA QLT FCT",
+        "shares": 42619.0,
+        "value_usd": 9471647.0,
+        "weight_pct": 2.0
+      }
+    ],
+    "top_five_pct": 13.21,
+    "top_ten_pct": 23.92,
+    "hhi": 157.56,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 65,
+      "exited_positions": 12,
+      "increased_positions": 24,
+      "reduced_positions": 41
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001765380-26-000297"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001765380-26-000473"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

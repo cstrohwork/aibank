@@ -13,8 +13,68 @@
     "https://www.sec.gov/Archives/edgar/data/1912273/0001912273-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5120ed8e576cfd99113b30814142e68606014b3d8ce680e6eb6a2c5c3a26649c",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d1299cc640ba5652b74cd592c2214282668d425b8b47cc31f297499556be3589",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001912273-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1912273/0001912273-26-000005.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 110885303.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "852312305",
+        "security_class": "COM PAR $0.01",
+        "issuer": "STAAR SURGICAL CO",
+        "shares": 3257130.0,
+        "value_usd": 73643709.0,
+        "weight_pct": 66.41
+      },
+      {
+        "cusip": "73933G202",
+        "security_class": "COM NEW",
+        "issuer": "POWER SOLUTIONS INTL INC",
+        "shares": 521904.0,
+        "value_usd": 23991927.0,
+        "weight_pct": 21.64
+      },
+      {
+        "cusip": "54975P201",
+        "security_class": "SPONSORED ADR",
+        "issuer": "LUFAX HOLDING LTD",
+        "shares": 10950138.0,
+        "value_usd": 13249667.0,
+        "weight_pct": 11.95
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5021.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001912273-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001912273-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

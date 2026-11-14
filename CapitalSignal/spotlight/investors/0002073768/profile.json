@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2073768/0002073768-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f260a42a4c3900992ffd6ea06eb0adbb1ff3cc405f78220c6eacc2bfaef284fc",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "04a4df829c46230e62d533455088bf9fa59af48700c127e035a7522a4c1d1d18",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002073768-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2073768/0002073768-26-000004.txt",
+    "distinct_positions": 71,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 206917404.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 167966.0,
+        "value_usd": 13153422.0,
+        "weight_pct": 6.36
+      },
+      {
+        "cusip": "464288661",
+        "security_class": "3 7 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 71848.0,
+        "value_usd": 8150451.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "464288281",
+        "security_class": "JPMORGAN USD EMG",
+        "issuer": "ISHARES TR",
+        "shares": 85653.0,
+        "value_usd": 7780738.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 32884.0,
+        "value_usd": 7510011.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 144994.0,
+        "value_usd": 7317832.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 11146.0,
+        "value_usd": 6818512.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "219350105",
+        "security_class": "COM",
+        "issuer": "CORNING INC",
+        "shares": 43269.0,
+        "value_usd": 6653103.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "132061706",
+        "security_class": "EMRG SHAREHLDR",
+        "issuer": "CAMBRIA ETF TR",
+        "shares": 136689.0,
+        "value_usd": 6506390.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "78467V608",
+        "security_class": "ST STR BL LN ETF",
+        "issuer": "SSGA ACTIVE ETF TR",
+        "shares": 160265.0,
+        "value_usd": 6473103.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "33739P855",
+        "security_class": "INSTL PFD SECS",
+        "issuer": "FIRST TR EXCH TRADED FD III",
+        "shares": 348286.0,
+        "value_usd": 6422386.0,
+        "weight_pct": 3.1
+      }
+    ],
+    "top_five_pct": 21.22,
+    "top_ten_pct": 37.11,
+    "hhi": 246.17,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 3,
+      "increased_positions": 46,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002073768-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002073768-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

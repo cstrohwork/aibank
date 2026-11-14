@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/806097/0000806097-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c81d9ae08d2ea4d9c89d182165764016fed2c88eea69c7ed042f6d8c8eab2830",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "183906d3e126d0f6e145f17579f5113c09966f17f02523300033e8c2902a1fa3",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0000806097-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/806097/0000806097-26-000007.txt",
+    "distinct_positions": 83,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 435011202.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 587707.0,
+        "value_usd": 41498012.0,
+        "weight_pct": 9.54
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 45675.0,
+        "value_usd": 34980131.0,
+        "weight_pct": 8.04
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 422596.0,
+        "value_usd": 33093458.0,
+        "weight_pct": 7.61
+      },
+      {
+        "cusip": "464288612",
+        "security_class": "INTRM GOV CR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 219374.0,
+        "value_usd": 22610902.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 301202.0,
+        "value_usd": 21671484.0,
+        "weight_pct": 4.98
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 191123.0,
+        "value_usd": 18068768.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 301972.0,
+        "value_usd": 17909959.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 92097.0,
+        "value_usd": 12528876.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 131593.0,
+        "value_usd": 11752571.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "46434V274",
+        "security_class": "INTL EQTY FACTOR",
+        "issuer": "ISHARES TR",
+        "shares": 256553.0,
+        "value_usd": 10649515.0,
+        "weight_pct": 2.45
+      }
+    ],
+    "top_five_pct": 35.37,
+    "top_ten_pct": 51.67,
+    "hhi": 378.83,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 11,
+      "reduced_positions": 47
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0000806097-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0000806097-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0000806097-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

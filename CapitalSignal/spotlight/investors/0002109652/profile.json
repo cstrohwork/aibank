@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2109652/0001214659-26-013854.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "aa3ef650552cc99e38b4e8bd10f7b6fb368b224bb73dffe54272c2b210add150",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7ab718ae37fca0f5751325b125b3cb0bf121d534687ce4d7c9484257908a4c7c",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001214659-26-013854",
+    "source": "https://www.sec.gov/Archives/edgar/data/2109652/0001214659-26-013854.txt",
+    "distinct_positions": 51,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 168116361.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 237023.0,
+        "value_usd": 34434701.0,
+        "weight_pct": 20.48
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 67617.0,
+        "value_usd": 22517813.0,
+        "weight_pct": 13.39
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 42937.0,
+        "value_usd": 14105234.0,
+        "weight_pct": 8.39
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 15896.0,
+        "value_usd": 11759384.0,
+        "weight_pct": 6.99
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 29099.0,
+        "value_usd": 10012384.0,
+        "weight_pct": 5.96
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 17751.0,
+        "value_usd": 9104488.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 42496.0,
+        "value_usd": 6175094.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 6536.0,
+        "value_usd": 4984550.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 12138.0,
+        "value_usd": 4361548.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 5580.0,
+        "value_usd": 3766779.0,
+        "weight_pct": 2.24
+      }
+    ],
+    "top_five_pct": 55.22,
+    "top_ten_pct": 72.11,
+    "hhi": 846.81,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 2,
+      "increased_positions": 4,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001214659-26-009326"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001214659-26-013854"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

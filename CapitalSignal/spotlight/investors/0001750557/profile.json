@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1750557/0002085853-26-001364.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d65e8f3429f2044d79a2efa6dfeca17820ec23c2e930f568caafb2f99b3557bc",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "40a8e9d47840e5aca5a2c583882d994ee8814b74062a43c0a0254b49668f4f58",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002085853-26-001364",
+    "source": "https://www.sec.gov/Archives/edgar/data/1750557/0002085853-26-001364.txt",
+    "distinct_positions": 145,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 361508159.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 107691.0,
+        "value_usd": 22401900.0,
+        "weight_pct": 6.2
+      },
+      {
+        "cusip": "464288661",
+        "security_class": "3 7 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 142465.0,
+        "value_usd": 16161251.0,
+        "weight_pct": 4.47
+      },
+      {
+        "cusip": "92206C771",
+        "security_class": "MTG-BKD SECS ETF",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 318236.0,
+        "value_usd": 14132872.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 41880.0,
+        "value_usd": 13946867.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 171899.0,
+        "value_usd": 12368157.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 24049.0,
+        "value_usd": 12334637.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 75753.0,
+        "value_usd": 10305402.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 140021.0,
+        "value_usd": 9886855.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "46090A879",
+        "security_class": "VAR RATE INVT",
+        "issuer": "INVESCO ACTIVELY MANAGED EXC",
+        "shares": 348334.0,
+        "value_usd": 8717067.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 39184.0,
+        "value_usd": 7274476.0,
+        "weight_pct": 2.01
+      }
+    ],
+    "top_five_pct": 21.86,
+    "top_ten_pct": 35.28,
+    "hhi": 195.57,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 33,
+      "exited_positions": 19,
+      "increased_positions": 51,
+      "reduced_positions": 48
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0002085853-25-000181"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002085853-26-001364"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

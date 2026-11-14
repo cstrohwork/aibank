@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1999514/0001999514-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3998d8ea68b91a5dd7615b2aa07ea7211d9a112b73c0f8d2e8bc35714e764de3",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "3d3e3a24cb9ee27deb5d19e6568a898e38762f1be5f8a352f73c98baa0bdbb0b",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001999514-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1999514/0001999514-26-000004.txt",
+    "distinct_positions": 425,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 379288860.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 2802.0,
+        "value_usd": 5076299.0,
+        "weight_pct": 1.34
+      },
+      {
+        "cusip": "780259305",
+        "security_class": "SPON ADS",
+        "issuer": "SHELL PLC",
+        "shares": 39996.0,
+        "value_usd": 3801620.0,
+        "weight_pct": 1.0
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 14502.0,
+        "value_usd": 3311967.0,
+        "weight_pct": 0.87
+      },
+      {
+        "cusip": "N6596X109",
+        "security_class": "COM",
+        "issuer": "NXP SEMICONDUCTORS N V",
+        "shares": 12628.0,
+        "value_usd": 2999529.0,
+        "weight_pct": 0.79
+      },
+      {
+        "cusip": "539830109",
+        "security_class": "COM",
+        "issuer": "LOCKHEED MARTIN CORP",
+        "shares": 5722.0,
+        "value_usd": 2913928.0,
+        "weight_pct": 0.77
+      },
+      {
+        "cusip": "501044101",
+        "security_class": "COM",
+        "issuer": "KROGER CO",
+        "shares": 47158.0,
+        "value_usd": 2764402.0,
+        "weight_pct": 0.73
+      },
+      {
+        "cusip": "375558103",
+        "security_class": "COM",
+        "issuer": "GILEAD SCIENCES INC",
+        "shares": 18346.0,
+        "value_usd": 2734471.0,
+        "weight_pct": 0.72
+      },
+      {
+        "cusip": "055622104",
+        "security_class": "SPONSORED ADR",
+        "issuer": "BP PLC",
+        "shares": 61768.0,
+        "value_usd": 2717174.0,
+        "weight_pct": 0.72
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 7562.0,
+        "value_usd": 2655699.0,
+        "weight_pct": 0.7
+      },
+      {
+        "cusip": "110122108",
+        "security_class": "COM",
+        "issuer": "BRISTOL-MYERS SQUIBB CO",
+        "shares": 42392.0,
+        "value_usd": 2645261.0,
+        "weight_pct": 0.7
+      }
+    ],
+    "top_five_pct": 4.77,
+    "top_ten_pct": 8.34,
+    "hhi": 35.42,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 73,
+      "exited_positions": 31,
+      "increased_positions": 159,
+      "reduced_positions": 41
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001999514-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001999514-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001999514-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

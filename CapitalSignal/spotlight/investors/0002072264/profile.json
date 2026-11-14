@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2072264/0002072264-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "25030526a18af553724e370cfd16078b6c638a664b09731c71c687c33c616fde",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "237b92adfcc267a682175033f9f653a70246a77e9fe819c502dee84875ab79ad",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0002072264-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/2072264/0002072264-26-000010.txt",
+    "distinct_positions": 55,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 135567657.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 35871.0,
+        "value_usd": 27471999.0,
+        "weight_pct": 20.26
+      },
+      {
+        "cusip": "025072349",
+        "security_class": "US LARGE CAP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 233032.0,
+        "value_usd": 21075441.0,
+        "weight_pct": 15.55
+      },
+      {
+        "cusip": "316092352",
+        "security_class": "BLUE CHIP GRWTH",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 171876.0,
+        "value_usd": 10864289.0,
+        "weight_pct": 8.01
+      },
+      {
+        "cusip": "46641Q134",
+        "security_class": "INTRNL RES EQT",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 127810.0,
+        "value_usd": 10500870.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 33165.0,
+        "value_usd": 9780573.0,
+        "weight_pct": 7.21
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 11169.0,
+        "value_usd": 8517566.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "02507A101",
+        "security_class": "AVAN EMER EX ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 75241.0,
+        "value_usd": 6182206.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "381430230",
+        "security_class": "ULTR SHOR BD ETF",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 88050.0,
+        "value_usd": 4443015.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 7355.0,
+        "value_usd": 3772380.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "696930106",
+        "security_class": "CR OPPOR ETF",
+        "issuer": "PALMER SQUARE FUNDS TR",
+        "shares": 130233.0,
+        "value_usd": 2677594.0,
+        "weight_pct": 1.98
+      }
+    ],
+    "top_five_pct": 58.78,
+    "top_ten_pct": 77.66,
+    "hhi": 930.63,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 8,
+      "increased_positions": 16,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0002072264-25-000004"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002072264-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0002072264-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

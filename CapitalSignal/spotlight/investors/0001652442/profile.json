@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1652442/0001652442-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9ba2531621742153fbb25711d15526f89471c59c20375ba4caaf023170362ff8",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f0386fa6cd58062bbfc22b01957f6bbb605cbddd2277a05292f4d94756b8ef31",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001652442-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1652442/0001652442-26-000007.txt",
+    "distinct_positions": 141,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 5433358332.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 963884.0,
+        "value_usd": 240151699.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "025537101",
+        "security_class": "COM",
+        "issuer": "AMERICAN ELEC PWR CO INC",
+        "shares": 1686574.0,
+        "value_usd": 200095139.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 374213.0,
+        "value_usd": 191933848.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 785599.0,
+        "value_usd": 179415100.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 245897.0,
+        "value_usd": 178319586.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "14040H105",
+        "security_class": "COM",
+        "issuer": "CAPITAL ONE FINL CORP",
+        "shares": 918716.0,
+        "value_usd": 177376498.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "30161N101",
+        "security_class": "COM",
+        "issuer": "EXELON CORP",
+        "shares": 4162837.0,
+        "value_usd": 168178615.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "N3168P101",
+        "security_class": "ORD SHS",
+        "issuer": "FERROVIAL NV",
+        "shares": 2882105.0,
+        "value_usd": 155533342.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "816851109",
+        "security_class": "COM",
+        "issuer": "SEMPRA",
+        "shares": 1959162.0,
+        "value_usd": 152736270.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "023608102",
+        "security_class": "COM",
+        "issuer": "AMEREN CORP",
+        "shares": 1346145.0,
+        "value_usd": 133779890.0,
+        "weight_pct": 2.46
+      }
+    ],
+    "top_five_pct": 18.22,
+    "top_ten_pct": 32.71,
+    "hhi": 217.95,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 16,
+      "increased_positions": 48,
+      "reduced_positions": 59
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001652442-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001652442-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001652442-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2110678/0002110678-26-000013.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a77b95624bc498176c4f680a1ab727d2586a7ded46705e0d45423a43d5f69db7",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e1ebdeaa5b3434380e926df6b26ba60a99fa676b2b6e730f459e2c11e87779e5",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002110678-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/2110678/0002110678-26-000013.txt",
+    "distinct_positions": 85,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 123806374.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 36183.0,
+        "value_usd": 18017149.0,
+        "weight_pct": 14.55
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 63953.0,
+        "value_usd": 14605571.0,
+        "weight_pct": 11.8
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 34414.0,
+        "value_usd": 11460487.0,
+        "weight_pct": 9.26
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 13611.0,
+        "value_usd": 4502961.0,
+        "weight_pct": 3.64
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 6045.0,
+        "value_usd": 4471672.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "97717X669",
+        "security_class": "US QTLY DIV GRT",
+        "issuer": "WISDOMTREE TR",
+        "shares": 45498.0,
+        "value_usd": 4424226.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 6230.0,
+        "value_usd": 4366417.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 46377.0,
+        "value_usd": 4179068.0,
+        "weight_pct": 3.38
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 7834.0,
+        "value_usd": 4017913.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 14991.0,
+        "value_usd": 3735032.0,
+        "weight_pct": 3.02
+      }
+    ],
+    "top_five_pct": 42.86,
+    "top_ten_pct": 59.59,
+    "hhi": 562.14,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 12,
+      "increased_positions": 27,
+      "reduced_positions": 31
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002110678-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002110678-26-000013"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1133219/0001133219-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "afed6b5a3d17ac8fce0587aff1c80969e8d53c676fa5dca2087583dbe7538758",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "26f23fa08494b9ba61d90e7203f542a24022ee8756cea50e916c97172577d226",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001133219-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1133219/0001133219-26-000005.txt",
+    "distinct_positions": 32,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 410736096.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "651639106",
+        "security_class": "COM",
+        "issuer": "NEWMONT CORP",
+        "shares": 231880.0,
+        "value_usd": 26745039.0,
+        "weight_pct": 6.51
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "COM",
+        "issuer": "AGNICO EAGLE MINES LTD",
+        "shares": 138966.0,
+        "value_usd": 25468299.0,
+        "weight_pct": 6.2
+      },
+      {
+        "cusip": "58155Q103",
+        "security_class": "COM",
+        "issuer": "MCKESSON CORP",
+        "shares": 27283.0,
+        "value_usd": 23294498.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "781846209",
+        "security_class": "CL A",
+        "issuer": "RUSH ENTERPRISES INC",
+        "shares": 499729.0,
+        "value_usd": 22892586.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "780287108",
+        "security_class": "COM",
+        "issuer": "ROYAL GOLD INC",
+        "shares": 88899.0,
+        "value_usd": 20980164.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 62308.0,
+        "value_usd": 20749810.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "26884L109",
+        "security_class": "COM",
+        "issuer": "EQT CORP",
+        "shares": 404384.0,
+        "value_usd": 19636887.0,
+        "weight_pct": 4.78
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 38647.0,
+        "value_usd": 19244274.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "929740108",
+        "security_class": "COM",
+        "issuer": "WABTEC",
+        "shares": 63237.0,
+        "value_usd": 18160402.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 33671.0,
+        "value_usd": 17270094.0,
+        "weight_pct": 4.2
+      }
+    ],
+    "top_five_pct": 29.07,
+    "top_ten_pct": 52.21,
+    "hhi": 423.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 2,
+      "increased_positions": 21,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001133219-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-18",
+        "accession": "0001133219-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001133219-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

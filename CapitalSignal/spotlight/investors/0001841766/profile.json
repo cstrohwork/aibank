@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1841766/0001725547-26-000396.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9f8667d3b4fd649967972c6dbddc489e84e1afe23f276084c7b65675abfac2bf",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "423bc4c0449f0bf8ebcb4bfa3b02f21241e5e97b9054b3b5d388fb216246804a",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001725547-26-000396",
+    "source": "https://www.sec.gov/Archives/edgar/data/1841766/0001725547-26-000396.txt",
+    "distinct_positions": 211,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 859734264.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1801060.0,
+        "value_usd": 54031797.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US L",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1695367.0,
+        "value_usd": 53353190.0,
+        "weight_pct": 6.21
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 153692.0,
+        "value_usd": 51182654.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1625793.0,
+        "value_usd": 44660528.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 166111.0,
+        "value_usd": 37936366.0,
+        "weight_pct": 4.41
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 98329.0,
+        "value_usd": 33832900.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 43160.0,
+        "value_usd": 22136874.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 41991.0,
+        "value_usd": 20626248.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 24740.0,
+        "value_usd": 20058691.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 28714.0,
+        "value_usd": 19383145.0,
+        "weight_pct": 2.25
+      }
+    ],
+    "top_five_pct": 28.05,
+    "top_ten_pct": 41.55,
+    "hhi": 248.21,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 60,
+      "exited_positions": 36,
+      "increased_positions": 81,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001725547-25-004118"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001725547-26-000396"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

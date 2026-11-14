@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1962465/0001951757-26-001832.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "fa4236bd7267a955b238217c05934cd1e14f3ce29c8461e238755ada32d239e7",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "8e3716155ff8f493ae821600658b9626c2f5e4b4dcd154acc2e568a33e2ba320",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001951757-26-001832",
+    "source": "https://www.sec.gov/Archives/edgar/data/1962465/0001951757-26-001832.txt",
+    "distinct_positions": 199,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 179918844.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 41947.0,
+        "value_usd": 15735682.0,
+        "weight_pct": 8.75
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 282678.0,
+        "value_usd": 12571721.0,
+        "weight_pct": 6.99
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 18600.0,
+        "value_usd": 6190467.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "25239Y170",
+        "security_class": "U.S. SML CP VAL",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 155835.0,
+        "value_usd": 5839120.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "746922103",
+        "security_class": "SH BEN INT",
+        "issuer": "FRANKLIN MUN OPPORTUNITIES T",
+        "shares": 438549.0,
+        "value_usd": 4008341.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "09254E103",
+        "security_class": "COM",
+        "issuer": "BLACKROCK MUNIYIELD QUALITY",
+        "shares": 382518.0,
+        "value_usd": 3683646.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 69466.0,
+        "value_usd": 3637234.0,
+        "weight_pct": 2.02
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 4582.0,
+        "value_usd": 3508976.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "09247F209",
+        "security_class": "COM NEW",
+        "issuer": "BLACKROCK INCOME TR INC",
+        "shares": 362728.0,
+        "value_usd": 3464055.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 14700.0,
+        "value_usd": 3357186.0,
+        "weight_pct": 1.87
+      }
+    ],
+    "top_five_pct": 24.65,
+    "top_ten_pct": 34.46,
+    "hhi": 221.94,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 38,
+      "exited_positions": 34,
+      "increased_positions": 58,
+      "reduced_positions": 68
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001951757-25-001204"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001951757-26-001832"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

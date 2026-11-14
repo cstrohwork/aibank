@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1750086/0001750086-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6dcc168fb7e1ae76d579d6a683450f0577dfc18f44621474bca502d78c642060",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "cb1d5ca98a85cbdf1d7578f168a08999b927d5b273e99beec6591f47a3f8ba98",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001750086-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1750086/0001750086-26-000005.txt",
+    "distinct_positions": 963,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1059811606.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 5595603.0,
+        "value_usd": 182024970.0,
+        "weight_pct": 17.18
+      },
+      {
+        "cusip": "808524102",
+        "security_class": "US BRD MKT ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 5585657.0,
+        "value_usd": 163715613.0,
+        "weight_pct": 15.45
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 3917670.0,
+        "value_usd": 140761892.0,
+        "weight_pct": 13.28
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ST STR P400MID",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 933335.0,
+        "value_usd": 58837408.0,
+        "weight_pct": 5.55
+      },
+      {
+        "cusip": "78468R101",
+        "security_class": "ST SHO TREAS ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 1387662.0,
+        "value_usd": 39784274.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1163683.0,
+        "value_usd": 31966386.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 264683.0,
+        "value_usd": 31171747.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "922908553",
+        "security_class": "REAL ESTATE ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 337126.0,
+        "value_usd": 30216571.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "808524755",
+        "security_class": "FUNDAMENTAL INTL",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 439511.0,
+        "value_usd": 23623709.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 69143.0,
+        "value_usd": 23026068.0,
+        "weight_pct": 2.17
+      }
+    ],
+    "top_five_pct": 55.21,
+    "top_ten_pct": 68.42,
+    "hhi": 809.1,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 318,
+      "exited_positions": 208,
+      "increased_positions": 241,
+      "reduced_positions": 181
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001750086-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001750086-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

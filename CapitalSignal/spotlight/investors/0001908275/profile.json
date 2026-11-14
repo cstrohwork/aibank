@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1908275/0001908275-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "42d9a5137a1b6daf5d11c0dfffea04c6b90849f72e690f3ec2c282689b61d418",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "785db941eeba951315d0364cec8cbc766da52a567cff9b91f120eec95be84de6",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001908275-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1908275/0001908275-26-000005.txt",
+    "distinct_positions": 133,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 160613209.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 42416.0,
+        "value_usd": 14125182.0,
+        "weight_pct": 8.79
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "GROWTH ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 87864.0,
+        "value_usd": 7917450.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "VALUE ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 34973.0,
+        "value_usd": 7557078.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF",
+        "shares": 7855.0,
+        "value_usd": 5990424.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 76493.0,
+        "value_usd": 5401232.0,
+        "weight_pct": 3.36
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC.",
+        "shares": 13665.0,
+        "value_usd": 4701917.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "46137V233",
+        "security_class": "S&P 500 TOP 50",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 70378.0,
+        "value_usd": 4476703.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 8498.0,
+        "value_usd": 4358626.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP",
+        "shares": 18972.0,
+        "value_usd": 4332920.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B New",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 8575.0,
+        "value_usd": 4269922.0,
+        "weight_pct": 2.66
+      }
+    ],
+    "top_five_pct": 25.52,
+    "top_ten_pct": 39.31,
+    "hhi": 241.29,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 7,
+      "increased_positions": 42,
+      "reduced_positions": 76
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001908275-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001908275-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2057075/0002057075-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1a21507c3684a8511b177034bc91470e5c1b99a34c1ee916bfe72e0a31759182",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "6c19e967135ee0860c36a81dd0689ba3eef5c84511ee9b1ef47d6645e33aebe9",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0002057075-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2057075/0002057075-26-000007.txt",
+    "distinct_positions": 28,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 146928973.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 122175.0,
+        "value_usd": 28504744.0,
+        "weight_pct": 19.4
+      },
+      {
+        "cusip": "464288877",
+        "security_class": "EAFE VALUE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 292997.0,
+        "value_usd": 23187836.0,
+        "weight_pct": 15.78
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 168740.0,
+        "value_usd": 21136407.0,
+        "weight_pct": 14.39
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 48876.0,
+        "value_usd": 18613936.0,
+        "weight_pct": 12.67
+      },
+      {
+        "cusip": "500767389",
+        "security_class": "HEDG HEDG EQ ETF",
+        "issuer": "KRANESHARES TRUST",
+        "shares": 373240.0,
+        "value_usd": 11240122.0,
+        "weight_pct": 7.65
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 188948.0,
+        "value_usd": 9230145.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "00162Q452",
+        "security_class": "ALERIAN MLP",
+        "issuer": "ALPS ETF TR",
+        "shares": 138782.0,
+        "value_usd": 7198638.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "81369Y860",
+        "security_class": "ST STR REAL ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 157577.0,
+        "value_usd": 6446480.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "COM",
+        "issuer": "AMGEN INC",
+        "shares": 14270.0,
+        "value_usd": 6015366.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "26922A420",
+        "security_class": "DEFIA QUANT ETF",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 15442.0,
+        "value_usd": 2341443.0,
+        "weight_pct": 1.59
+      }
+    ],
+    "top_five_pct": 69.89,
+    "top_ten_pct": 91.14,
+    "hhi": 1161.41,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 55,
+      "increased_positions": 12,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002057075-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002057075-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0002057075-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

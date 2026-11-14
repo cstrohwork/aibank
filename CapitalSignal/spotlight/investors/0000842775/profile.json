@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/842775/0000842775-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6cfc75c48f2f8f66662a67f72591b25fd5bf116a0c798c17b6df76d2495a0088",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f1ba1a447785c1eae6d03483412ca188e73ebb31036e17409df629f8a444648f",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0000842775-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/842775/0000842775-26-000005.txt",
+    "distinct_positions": 3510,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 10786995115.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 1468721.0,
+        "value_usd": 1029361248.0,
+        "weight_pct": 9.54
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1022994.0,
+        "value_usd": 340673712.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 424342.0,
+        "value_usd": 324982122.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 571910.0,
+        "value_usd": 293326684.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "693718108",
+        "security_class": "COM",
+        "issuer": "PACCAR INC",
+        "shares": 2442831.0,
+        "value_usd": 268246909.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1974046.0,
+        "value_usd": 247268766.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MRNGSTR MID CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 2847423.0,
+        "value_usd": 223294972.0,
+        "weight_pct": 2.07
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 653343.0,
+        "value_usd": 162778494.0,
+        "weight_pct": 1.51
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 732805.0,
+        "value_usd": 158344393.0,
+        "weight_pct": 1.47
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 204812.0,
+        "value_usd": 156192673.0,
+        "weight_pct": 1.45
+      }
+    ],
+    "top_five_pct": 20.92,
+    "top_ten_pct": 29.71,
+    "hhi": 175.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 295,
+      "exited_positions": 430,
+      "increased_positions": 1349,
+      "reduced_positions": 1360
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0000842775-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0000842775-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0000842775-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

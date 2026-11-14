@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2065771/0002065771-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5051e4bc43e1445fc93906957e5a6359fd3c5bd208263a639cc3e965ffdcb660",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "3b2b8586dd09ae4688acece9bac9e23b879f6c46cc41c38b56c56b92946695b3",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002065771-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2065771/0002065771-26-000011.txt",
+    "distinct_positions": 50,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 163273858.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 46299.0,
+        "value_usd": 19265844.0,
+        "weight_pct": 11.8
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US L",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 411063.0,
+        "value_usd": 12936150.0,
+        "weight_pct": 7.92
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 24321.0,
+        "value_usd": 12110351.0,
+        "weight_pct": 7.42
+      },
+      {
+        "cusip": "381430503",
+        "security_class": "ACTIVEBETA US LG",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 78776.0,
+        "value_usd": 11425763.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 29865.0,
+        "value_usd": 11373326.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 227580.0,
+        "value_usd": 11117284.0,
+        "weight_pct": 6.81
+      },
+      {
+        "cusip": "464287291",
+        "security_class": "GLOBAL TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 73934.0,
+        "value_usd": 10958360.0,
+        "weight_pct": 6.71
+      },
+      {
+        "cusip": "92206C680",
+        "security_class": "VNG RUS1000GRW",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 66241.0,
+        "value_usd": 8540450.0,
+        "weight_pct": 5.23
+      },
+      {
+        "cusip": "14020G101",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GROWTH ETF",
+        "shares": 177767.0,
+        "value_usd": 8431494.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "381430529",
+        "security_class": "ACCES TREASURY",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 81937.0,
+        "value_usd": 8202604.0,
+        "weight_pct": 5.02
+      }
+    ],
+    "top_five_pct": 41.1,
+    "top_ten_pct": 70.04,
+    "hhi": 585.95,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 12,
+      "exited_positions": 6,
+      "increased_positions": 10,
+      "reduced_positions": 26
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0002065771-25-000001"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002065771-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

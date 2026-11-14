@@ -13,8 +13,100 @@
     "https://www.sec.gov/Archives/edgar/data/908551/0000950142-26-002984.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a1f300bcd772a90ede6868e95e9afbf2a5e228f7ce125afc424059af4c92cc09",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d3cc5334ac176acf4b03314fc4ad7f859a8298af79da510f5210c0b420031ee5",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0000950142-26-002984",
+    "source": "https://www.sec.gov/Archives/edgar/data/908551/0000950142-26-002984.txt",
+    "distinct_positions": 7,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 8724486460.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "001017466",
+        "security_class": "COM",
+        "issuer": "HERSHEY COMPANY CLASS B",
+        "shares": 54612012.0,
+        "value_usd": 8607399211.0,
+        "weight_pct": 98.66
+      },
+      {
+        "cusip": "427866108",
+        "security_class": "COM",
+        "issuer": "HERSHEY CO",
+        "shares": 696119.0,
+        "value_usd": 109715316.0,
+        "weight_pct": 1.26
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "COM CL A",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 32876.0,
+        "value_usd": 5840421.0,
+        "weight_pct": 0.07
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 3505.0,
+        "value_usd": 528764.0,
+        "weight_pct": 0.01
+      },
+      {
+        "cusip": "29765A101",
+        "security_class": "CL A",
+        "issuer": "ETHOS TECHNOLOGIES INC",
+        "shares": 12845.0,
+        "value_usd": 431207.0,
+        "weight_pct": 0.0
+      },
+      {
+        "cusip": "565394103",
+        "security_class": "COM",
+        "issuer": "MAPLEBEAR INC",
+        "shares": 9524.0,
+        "value_usd": 410675.0,
+        "weight_pct": 0.0
+      },
+      {
+        "cusip": "316841105",
+        "security_class": "CLASS A COM STK",
+        "issuer": "FIGMA INC",
+        "shares": 7653.0,
+        "value_usd": 160866.0,
+        "weight_pct": 0.0
+      }
+    ],
+    "top_five_pct": 99.99,
+    "top_ten_pct": 100.0,
+    "hhi": 9734.98,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0000950142-26-002297"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0000950142-26-002984"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

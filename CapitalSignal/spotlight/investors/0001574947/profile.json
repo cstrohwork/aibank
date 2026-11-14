@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1574947/0001172661-26-004909.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a42b6cb09e0db50b66b1ecbfc8cb89ef7af5a5c26420fb4274b9f732459ec169",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7ae1cd062916556a26232a63da3ad62f169af2db926d48cc5d308a8329fc3a3c",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001172661-26-004909",
+    "source": "https://www.sec.gov/Archives/edgar/data/1574947/0001172661-26-004909.txt",
+    "distinct_positions": 56,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4327632607.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 979407.0,
+        "value_usd": 446795679.0,
+        "weight_pct": 10.32
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 1014549.0,
+        "value_usd": 349086020.0,
+        "weight_pct": 8.07
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 1270402.0,
+        "value_usd": 316520658.0,
+        "weight_pct": 7.31
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 849576.0,
+        "value_usd": 305278144.0,
+        "weight_pct": 7.05
+      },
+      {
+        "cusip": "G54950103",
+        "security_class": "SHS",
+        "issuer": "LINDE PLC",
+        "shares": 559259.0,
+        "value_usd": 265452284.0,
+        "weight_pct": 6.13
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 1057156.0,
+        "value_usd": 241433287.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 904805.0,
+        "value_usd": 239538076.0,
+        "weight_pct": 5.54
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 565678.0,
+        "value_usd": 198660457.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "172908105",
+        "security_class": "COM",
+        "issuer": "CINTAS CORP",
+        "shares": 973306.0,
+        "value_usd": 189853068.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "040413205",
+        "security_class": "COM SHS",
+        "issuer": "ARISTA NETWORKS INC",
+        "shares": 757834.0,
+        "value_usd": 154287424.0,
+        "weight_pct": 3.57
+      }
+    ],
+    "top_five_pct": 38.89,
+    "top_ten_pct": 62.55,
+    "hhi": 506.81,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 16,
+      "exited_positions": 20,
+      "increased_positions": 11,
+      "reduced_positions": 29
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001172661-25-004640"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001172661-26-004909"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

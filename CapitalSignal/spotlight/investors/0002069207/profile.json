@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2069207/0002063364-26-000392.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c080aa0b66679a377aa68652c7acca1b2ab452da54adbbc66d1c0cf64bc3b52e",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "595eb65041c256f606caf22d65522edf3a6b975cfaf4adc13db205210bf99455",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002063364-26-000392",
+    "source": "https://www.sec.gov/Archives/edgar/data/2069207/0002063364-26-000392.txt",
+    "distinct_positions": 115,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 141794122.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 83846.0,
+        "value_usd": 19148814.0,
+        "weight_pct": 13.5
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 11792.0,
+        "value_usd": 8264564.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "26441C204",
+        "security_class": "COM NEW",
+        "issuer": "DUKE ENERGY CORP NEW",
+        "shares": 60644.0,
+        "value_usd": 6913996.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "89832Q109",
+        "security_class": "COM",
+        "issuer": "TRUIST FINL CORP",
+        "shares": 146704.0,
+        "value_usd": 6792395.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 20126.0,
+        "value_usd": 6702274.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "316092808",
+        "security_class": "MSCI INFO TECH I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 16279.0,
+        "value_usd": 4884677.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 18242.0,
+        "value_usd": 4829570.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 7586.0,
+        "value_usd": 3890646.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 3077.0,
+        "value_usd": 3560335.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 11744.0,
+        "value_usd": 2926018.0,
+        "weight_pct": 2.06
+      }
+    ],
+    "top_five_pct": 33.73,
+    "top_ten_pct": 47.9,
+    "hhi": 369.78,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 22,
+      "increased_positions": 23,
+      "reduced_positions": 51
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0002063364-25-000266"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002063364-26-000297"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002063364-26-000392"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

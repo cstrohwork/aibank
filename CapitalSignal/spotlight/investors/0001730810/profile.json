@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1730810/0001765380-26-000446.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d40069ffb3fd1267595ee8515c7cab340bd2e4a14f32d7276b539fa41c3ba577",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b88fa67546df85c81cc7c3cc7ef930336fa2a9b6f88282999fb0edf1d4d1bca7",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001765380-26-000446",
+    "source": "https://www.sec.gov/Archives/edgar/data/1730810/0001765380-26-000446.txt",
+    "distinct_positions": 425,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 847211708.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "97717X669",
+        "security_class": "ETF",
+        "issuer": "WISDOMTREE US QUALITY DIVIDEND GROWTH FUND",
+        "shares": 734779.0,
+        "value_usd": 71449874.0,
+        "weight_pct": 8.43
+      },
+      {
+        "cusip": "35473P108",
+        "security_class": "ETF",
+        "issuer": "FRANKLIN INTERNATIONAL CORE DIVIDEND TILT INDEX FUND",
+        "shares": 869563.0,
+        "value_usd": 37095565.0,
+        "weight_pct": 4.38
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC",
+        "shares": 89005.0,
+        "value_usd": 29640580.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORP",
+        "shares": 123523.0,
+        "value_usd": 28210272.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "02072L607",
+        "security_class": "ETF",
+        "issuer": "FREEDOM 100 EMERGING MARKETS ETF",
+        "shares": 401930.0,
+        "value_usd": 28119003.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P TOTAL U.S. STOCK MARKET ETF",
+        "shares": 160567.0,
+        "value_usd": 26699130.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "97717W547",
+        "security_class": "ETF",
+        "issuer": "WISDOMTREE US VALUE FUND OF BENEF INTEREST",
+        "shares": 233545.0,
+        "value_usd": 23924327.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "97717Y477",
+        "security_class": "ETF",
+        "issuer": "WISDOMTREE U.S. QUALITY GROWTH FUND",
+        "shares": 339552.0,
+        "value_usd": 23320450.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "ETF",
+        "issuer": "PIMCO MULTISECTOR BOND ACTIVE EXCHANGE-TRADED FUND",
+        "shares": 860558.0,
+        "value_usd": 21849560.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT",
+        "shares": 40009.0,
+        "value_usd": 20520785.0,
+        "weight_pct": 2.42
+      }
+    ],
+    "top_five_pct": 22.96,
+    "top_ten_pct": 36.69,
+    "hhi": 198.77,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 28,
+      "exited_positions": 38,
+      "increased_positions": 220,
+      "reduced_positions": 167
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001765380-25-000458"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001765380-26-000278"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001765380-26-000446"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

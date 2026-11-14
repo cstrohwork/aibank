@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1632187/0001376474-26-000694.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5237a444c8f082073bebf99abb235ffa8fa5e9b8acac2564a4dcf93eb8d25e7a",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d1cf550d526689658600182d119bf9b9310980b1953e606bc06eb70f081e223d",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001376474-26-000694",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632187/0001376474-26-000694.txt",
+    "distinct_positions": 569,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 933206403.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 370158.0,
+        "value_usd": 123266250.0,
+        "weight_pct": 13.21
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF/EQUITY",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 47161.0,
+        "value_usd": 36117761.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 61168.0,
+        "value_usd": 31372272.0,
+        "weight_pct": 3.36
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "ETF/INTERNATIONAL EQUITY",
+        "issuer": "ISHARES CORE MSCI EAFE ETF",
+        "shares": 319509.0,
+        "value_usd": 30954010.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF/EQUITY",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 33766.0,
+        "value_usd": 23664897.0,
+        "weight_pct": 2.54
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COMMON STOCK",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 66090.0,
+        "value_usd": 21863777.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "459200101",
+        "security_class": "COMMON STOCK",
+        "issuer": "INTL BUSINESS MACHINES CORP",
+        "shares": 89652.0,
+        "value_usd": 19717054.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC CLASS A",
+        "shares": 49760.0,
+        "value_usd": 17120826.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "ETF/EQUITY",
+        "issuer": "ISHARES CORE S&P SMALLCAP ETF",
+        "shares": 119200.0,
+        "value_usd": 16215954.0,
+        "weight_pct": 1.74
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "ETF/EQUITY",
+        "issuer": "ISHARES CORE S&P MIDCAP ETF",
+        "shares": 224891.0,
+        "value_usd": 16180877.0,
+        "weight_pct": 1.73
+      }
+    ],
+    "top_five_pct": 26.29,
+    "top_ten_pct": 36.06,
+    "hhi": 282.28,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 50,
+      "exited_positions": 10,
+      "increased_positions": 91,
+      "reduced_positions": 111
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001376474-26-000556"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001376474-26-000694"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2107705/0002107705-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "80fa6dd4d9b246d829a8935ada85c298523a94c5f0c6b1391ca5adcdc021c99e",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f9639790ce6ebcbcce44f3ac5da7280c058cf559da20f22a3eb747fccc1a052b",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0002107705-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107705/0002107705-26-000005.txt",
+    "distinct_positions": 15,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 70725450.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "55306N104",
+        "security_class": "COM",
+        "issuer": "MKS INC.",
+        "shares": 62986.0,
+        "value_usd": 16713965.0,
+        "weight_pct": 23.63
+      },
+      {
+        "cusip": "48553T106",
+        "security_class": "SPONSORED ADS",
+        "issuer": "KANZHUN LIMITED",
+        "shares": 1079820.0,
+        "value_usd": 15981336.0,
+        "weight_pct": 22.6
+      },
+      {
+        "cusip": "N52A8C105",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "INNIO NV",
+        "shares": 491334.0,
+        "value_usd": 8907885.0,
+        "weight_pct": 12.6
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 60982.0,
+        "value_usd": 7331866.0,
+        "weight_pct": 10.37
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 14618.0,
+        "value_usd": 5029761.0,
+        "weight_pct": 7.11
+      },
+      {
+        "cusip": "01609W102",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ALIBABA GROUP HLDG LTD",
+        "shares": 26583.0,
+        "value_usd": 2858736.0,
+        "weight_pct": 4.04
+      },
+      {
+        "cusip": "368736104",
+        "security_class": "COM",
+        "issuer": "GENERAC HLDGS INC",
+        "shares": 12814.0,
+        "value_usd": 2651857.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "573874104",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 7730.0,
+        "value_usd": 2042343.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "219350105",
+        "security_class": "COM",
+        "issuer": "CORNING INC",
+        "shares": 12794.0,
+        "value_usd": 1967205.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 2603.0,
+        "value_usd": 1887644.0,
+        "weight_pct": 2.67
+      }
+    ],
+    "top_five_pct": 76.3,
+    "top_ten_pct": 92.43,
+    "hhi": 1453.16,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 5,
+      "increased_positions": 4,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0002107705-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0002107705-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

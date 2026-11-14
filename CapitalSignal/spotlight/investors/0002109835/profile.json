@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2109835/0002109835-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "19ab88aea5a35631eb829c35757d2966ca148534cdf554a992c97ebbc53202bc",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "114dcf6d7d1c171c8497f441b2f56aa858ee2ec6b24c19e991657849686e7a28",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002109835-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2109835/0002109835-26-000011.txt",
+    "distinct_positions": 34,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 153239284.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 61184.0,
+        "value_usd": 13973202.0,
+        "weight_pct": 9.12
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 33565.0,
+        "value_usd": 11177816.0,
+        "weight_pct": 7.29
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 31518.0,
+        "value_usd": 10844713.0,
+        "weight_pct": 7.08
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 20472.0,
+        "value_usd": 10500089.0,
+        "weight_pct": 6.85
+      },
+      {
+        "cusip": "482480100",
+        "security_class": "COM NEW",
+        "issuer": "KLA CORP",
+        "shares": 36868.0,
+        "value_usd": 7186679.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 19632.0,
+        "value_usd": 7054367.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 5958.0,
+        "value_usd": 6345925.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "244199105",
+        "security_class": "COM",
+        "issuer": "DEERE & CO",
+        "shares": 9175.0,
+        "value_usd": 6161471.0,
+        "weight_pct": 4.02
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 41480.0,
+        "value_usd": 6027459.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "631103108",
+        "security_class": "COM",
+        "issuer": "NASDAQ INC",
+        "shares": 63673.0,
+        "value_usd": 5858553.0,
+        "weight_pct": 3.82
+      }
+    ],
+    "top_five_pct": 35.03,
+    "top_ten_pct": 55.55,
+    "hhi": 457.4,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 17,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0002109835-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002109835-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,52 @@
     "https://www.sec.gov/Archives/edgar/data/1767564/0001193125-26-455419.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d7f37a539939470cb1689778846b6fe5406aea790e42498b02ff73edb99ef4a1",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "52b3afd81a40a7547948521457d15839c2c7ad103e27d0abdfbb15340b5d17a5",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001193125-26-455419",
+    "source": "https://www.sec.gov/Archives/edgar/data/1767564/0001193125-26-455419.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 53764455.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "85208T107",
+        "security_class": "CL A",
+        "issuer": "SPRINKLR INC.",
+        "shares": 10861506.0,
+        "value_usd": 53764455.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001193125-26-345863"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001193125-26-455419"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

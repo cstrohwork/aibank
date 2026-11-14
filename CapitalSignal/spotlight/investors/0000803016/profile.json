@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/803016/0000803016-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "da06c0e0d323c16eae323d5440758c5124d0796249b5be1002a283a2bfc969c4",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "fb335282da832fbb99298c9a55ecc608e406f884ed4fe699ba56fd1467fbe42e",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0000803016-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/803016/0000803016-26-000011.txt",
+    "distinct_positions": 40,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 460578050.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 71628.0,
+        "value_usd": 76291699.0,
+        "weight_pct": 16.56
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 88236.0,
+        "value_usd": 45122126.0,
+        "weight_pct": 9.8
+      },
+      {
+        "cusip": "573874104",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 130800.0,
+        "value_usd": 34558668.0,
+        "weight_pct": 7.5
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 99900.0,
+        "value_usd": 34373592.0,
+        "weight_pct": 7.46
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 54000.0,
+        "value_usd": 33035040.0,
+        "weight_pct": 7.17
+      },
+      {
+        "cusip": "30231G102",
+        "security_class": "COM                        *D*",
+        "issuer": "EXXON MOBIL CORP",
+        "shares": 160800.0,
+        "value_usd": 26170200.0,
+        "weight_pct": 5.68
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 23200.0,
+        "value_usd": 20888352.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 36550.0,
+        "value_usd": 16673745.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "199908104",
+        "security_class": "COM",
+        "issuer": "COMFORT SYS USA INC",
+        "shares": 8720.0,
+        "value_usd": 14423665.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 19400.0,
+        "value_usd": 14068492.0,
+        "weight_pct": 3.05
+      }
+    ],
+    "top_five_pct": 48.5,
+    "top_ten_pct": 68.52,
+    "hhi": 667.71,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 2,
+      "increased_positions": 3,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0000803016-25-000038"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-19",
+        "accession": "0000803016-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0000803016-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

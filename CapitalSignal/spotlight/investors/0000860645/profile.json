@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/860645/0002080880-26-000036.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e7bd1e205347300a3b4a60bb27395ea35d96af0cb1e9f637e0234f85492a0c9e",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "71c6f48c881551e750341ad9c23aee58019ee3d6cbbb29cf73f44c20e6ddffc2",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002080880-26-000036",
+    "source": "https://www.sec.gov/Archives/edgar/data/860645/0002080880-26-000036.txt",
+    "distinct_positions": 30,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 142653259.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 56557.0,
+        "value_usd": 12916488.0,
+        "weight_pct": 9.05
+      },
+      {
+        "cusip": "78464A870",
+        "security_class": "ST STR SP BIOT",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 64255.0,
+        "value_usd": 10131728.0,
+        "weight_pct": 7.1
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 12386.0,
+        "value_usd": 7577259.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 51685.0,
+        "value_usd": 7510347.0,
+        "weight_pct": 5.26
+      },
+      {
+        "cusip": "040413205",
+        "security_class": "COM SHS",
+        "issuer": "ARISTA NETWORKS INC",
+        "shares": 33104.0,
+        "value_usd": 6739643.0,
+        "weight_pct": 4.72
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 11400.0,
+        "value_usd": 6482496.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 5339.0,
+        "value_usd": 6177650.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "244199105",
+        "security_class": "COM",
+        "issuer": "DEERE & CO",
+        "shares": 9078.0,
+        "value_usd": 6096331.0,
+        "weight_pct": 4.27
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 7673.0,
+        "value_usd": 5564306.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 5170.0,
+        "value_usd": 5506619.0,
+        "weight_pct": 3.86
+      }
+    ],
+    "top_five_pct": 31.46,
+    "top_ten_pct": 52.37,
+    "hhi": 425.99,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 8,
+      "increased_positions": 5,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0002080880-26-000019"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002080880-26-000036"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

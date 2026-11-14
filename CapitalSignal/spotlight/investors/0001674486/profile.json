@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1674486/0001193125-26-455026.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b72fe848d6f47c8de8daa4e687a4e6440d57df23071c2f7911df1c225e564760",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "f821ea472d06396a7c366f39cb672e737ef08e6ba1eaa4893e98562dd394822f",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001193125-26-455026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1674486/0001193125-26-455026.txt",
+    "distinct_positions": 387,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1882682686.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67103H107",
+        "security_class": "COMMON STOCK",
+        "issuer": "OREILLY AUTOMOTIVE INC",
+        "shares": 1567773.0,
+        "value_usd": 133903474.0,
+        "weight_pct": 7.11
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COMMON STOCK",
+        "issuer": "NVIDIA CORPORATION SR GLBL NT",
+        "shares": 423631.0,
+        "value_usd": 96748855.0,
+        "weight_pct": 5.14
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 104242.0,
+        "value_usd": 53465805.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "MUTUAL FUND/STO",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 66016.0,
+        "value_usd": 50345018.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 140844.0,
+        "value_usd": 46903865.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC SR",
+        "shares": 109403.0,
+        "value_usd": 37643373.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "MUTUAL FUND/STO",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH",
+        "shares": 292682.0,
+        "value_usd": 36661351.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMAZON COM INC SR GLBL NT",
+        "shares": 141612.0,
+        "value_usd": 35282668.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COMMON STOCK",
+        "issuer": "META PLATFORMS INC",
+        "shares": 43790.0,
+        "value_usd": 31754934.0,
+        "weight_pct": 1.69
+      },
+      {
+        "cusip": "828730200",
+        "security_class": "COMMON STOCK",
+        "issuer": "SIMMONS 1ST NATL CORP",
+        "shares": 1167530.0,
+        "value_usd": 26362818.0,
+        "weight_pct": 1.4
+      }
+    ],
+    "top_five_pct": 20.26,
+    "top_ten_pct": 29.16,
+    "hhi": 156.59,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 9,
+      "increased_positions": 152,
+      "reduced_positions": 163
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001193125-25-264360"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001193125-26-328871"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001193125-26-455026"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

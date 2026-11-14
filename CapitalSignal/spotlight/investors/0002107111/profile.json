@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2107111/0002107111-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7d1d1fb53e0f495ce38f9a61a661fc21d73c9b2f669d0515a969ea55be02e787",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "abedb34a200554d762dd983e4e0189070dffb6b1a0c1b6b85a382e96b858eeb2",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002107111-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107111/0002107111-26-000006.txt",
+    "distinct_positions": 138,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 401556162.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 70264.0,
+        "value_usd": 53811655.0,
+        "weight_pct": 13.4
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 199879.0,
+        "value_usd": 45648403.0,
+        "weight_pct": 11.37
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 340423.0,
+        "value_usd": 32183614.0,
+        "weight_pct": 8.01
+      },
+      {
+        "cusip": "316092352",
+        "security_class": "BLUE CHIP GRWTH",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 307783.0,
+        "value_usd": 19454988.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 55610.0,
+        "value_usd": 18519361.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 37041.0,
+        "value_usd": 12745212.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 11767.0,
+        "value_usd": 12532843.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 65642.0,
+        "value_usd": 10187650.0,
+        "weight_pct": 2.54
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 11859.0,
+        "value_usd": 8311164.0,
+        "weight_pct": 2.07
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 23297.0,
+        "value_usd": 8181538.0,
+        "weight_pct": 2.04
+      }
+    ],
+    "top_five_pct": 42.24,
+    "top_ten_pct": 55.18,
+    "hhi": 493.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 24,
+      "increased_positions": 40,
+      "reduced_positions": 66
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0002107111-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002107111-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

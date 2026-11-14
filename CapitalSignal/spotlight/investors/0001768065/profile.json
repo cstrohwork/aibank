@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1768065/0001768065-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f4ce2b30874b0ba5a8ae2af9265b4e737bca6b3de9a413cd38b8dd58b7b04deb",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "31c85536c07efc26bbce6ce310042453d030ab815eb9f175458110ef9c8fafce",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001768065-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1768065/0001768065-26-000005.txt",
+    "distinct_positions": 107,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 220060794.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "824348106",
+        "security_class": "COM",
+        "issuer": "SHERWIN WILLIAMS CO",
+        "shares": 28879.0,
+        "value_usd": 9335714.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 22502.0,
+        "value_usd": 7493628.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "38748G101",
+        "security_class": "SHS BEN INT",
+        "issuer": "GRANITESHARES GOLD TR",
+        "shares": 156199.0,
+        "value_usd": 6390101.0,
+        "weight_pct": 2.9
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 23823.0,
+        "value_usd": 6306901.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "172908105",
+        "security_class": "COM",
+        "issuer": "CINTAS CORP",
+        "shares": 30512.0,
+        "value_usd": 5951671.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 22243.0,
+        "value_usd": 5818546.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "33738D788",
+        "security_class": "CORE INVESTMENT",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 275208.0,
+        "value_usd": 5432606.0,
+        "weight_pct": 2.47
+      },
+      {
+        "cusip": "33738D770",
+        "security_class": "STRUCTURED CR IN",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 267620.0,
+        "value_usd": 5333667.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "87612E106",
+        "security_class": "COM",
+        "issuer": "TARGET CORP",
+        "shares": 33711.0,
+        "value_usd": 5282177.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 54776.0,
+        "value_usd": 5178523.0,
+        "weight_pct": 2.35
+      }
+    ],
+    "top_five_pct": 16.12,
+    "top_ten_pct": 28.41,
+    "hhi": 185.55,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 25,
+      "exited_positions": 19,
+      "increased_positions": 27,
+      "reduced_positions": 37
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001768065-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001768065-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001768065-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

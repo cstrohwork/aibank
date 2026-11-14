@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1473182/0001473182-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d4e5b092efbbaff6f6043dc26c7a2b89461949e0964b3115ef0b1b07f2cd8ce4",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "59b3bc46655d0f8dde4d8ee2d75b282fb7685148c11c8d6d5ca7be1be3a56d0e",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001473182-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1473182/0001473182-26-000011.txt",
+    "distinct_positions": 54,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 544374772.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "N72482156",
+        "security_class": "ORD SHARES",
+        "issuer": "QIAGEN NV",
+        "shares": 1351360.0,
+        "value_usd": 59135521.0,
+        "weight_pct": 10.86
+      },
+      {
+        "cusip": "189054109",
+        "security_class": "COM",
+        "issuer": "CLOROX CO DEL",
+        "shares": 665198.0,
+        "value_usd": 53887720.0,
+        "weight_pct": 9.9
+      },
+      {
+        "cusip": "130788102",
+        "security_class": "COM",
+        "issuer": "CALIFORNIA WTR SVC GROUP",
+        "shares": 857792.0,
+        "value_usd": 39690042.0,
+        "weight_pct": 7.29
+      },
+      {
+        "cusip": "09073M104",
+        "security_class": "COM",
+        "issuer": "BIO-TECHNE CORP",
+        "shares": 428379.0,
+        "value_usd": 31044608.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "83444M101",
+        "security_class": "COM SHS",
+        "issuer": "SOLVENTUM CORP",
+        "shares": 271255.0,
+        "value_usd": 23911131.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "49177J102",
+        "security_class": "COM",
+        "issuer": "KENVUE INC",
+        "shares": 1301981.0,
+        "value_usd": 22992989.0,
+        "weight_pct": 4.22
+      },
+      {
+        "cusip": "494368103",
+        "security_class": "COM",
+        "issuer": "KIMBERLY-CLARK CORP",
+        "shares": 214737.0,
+        "value_usd": 20921866.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "535555106",
+        "security_class": "COM",
+        "issuer": "LINDSAY CORP",
+        "shares": 179048.0,
+        "value_usd": 20042683.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "038336103",
+        "security_class": "COM",
+        "issuer": "APTARGROUP INC",
+        "shares": 151678.0,
+        "value_usd": 18377254.0,
+        "weight_pct": 3.38
+      },
+      {
+        "cusip": "736508847",
+        "security_class": "COM NEW",
+        "issuer": "PORTLAND GEN ELEC CO",
+        "shares": 377703.0,
+        "value_usd": 16856872.0,
+        "weight_pct": 3.1
+      }
+    ],
+    "top_five_pct": 38.15,
+    "top_ten_pct": 56.37,
+    "hhi": 457.89,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 6,
+      "increased_positions": 16,
+      "reduced_positions": 30
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001473182-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001473182-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001473182-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

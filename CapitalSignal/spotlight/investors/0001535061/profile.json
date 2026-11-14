@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1535061/0001535061-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d68bb4c34f9380348a874d023602d947d4b4953f2ef77337d02d501d0a7b3985",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "7a6e15807d5171817bef889c55ad2309da54358b9d5d2acbef205f50097a0e9f",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001535061-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1535061/0001535061-26-000005.txt",
+    "distinct_positions": 929,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3726771990.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 119847.0,
+        "value_usd": 91398918.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 197651.0,
+        "value_usd": 45139535.0,
+        "weight_pct": 1.21
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 29445.0,
+        "value_usd": 21782528.0,
+        "weight_pct": 0.58
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 20340.0,
+        "value_usd": 21664337.0,
+        "weight_pct": 0.58
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 22380.0,
+        "value_usd": 17139723.0,
+        "weight_pct": 0.46
+      },
+      {
+        "cusip": "65339F101",
+        "security_class": "COM",
+        "issuer": "NEXTERA ENERGY INC",
+        "shares": 198646.0,
+        "value_usd": 15045448.0,
+        "weight_pct": 0.4
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 21116.0,
+        "value_usd": 14799360.0,
+        "weight_pct": 0.4
+      },
+      {
+        "cusip": "893641100",
+        "security_class": "COM",
+        "issuer": "TRANSDIGM GROUP INC",
+        "shares": 13292.0,
+        "value_usd": 14389919.0,
+        "weight_pct": 0.39
+      },
+      {
+        "cusip": "G8994E103",
+        "security_class": "SHS",
+        "issuer": "TRANE TECHNOLOGIES PLC",
+        "shares": 31349.0,
+        "value_usd": 14169121.0,
+        "weight_pct": 0.38
+      },
+      {
+        "cusip": "617446448",
+        "security_class": "COM NEW",
+        "issuer": "MORGAN STANLEY",
+        "shares": 74793.0,
+        "value_usd": 14067067.0,
+        "weight_pct": 0.38
+      }
+    ],
+    "top_five_pct": 5.29,
+    "top_ten_pct": 7.23,
+    "hhi": 27.04,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 279,
+      "exited_positions": 286,
+      "increased_positions": 370,
+      "reduced_positions": 280
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001535061-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001535061-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

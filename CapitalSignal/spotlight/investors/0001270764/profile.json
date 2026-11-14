@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1270764/0001140361-26-042987.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "83f8dac2e6be916e614d419c85cf925d2715471e6945e84dc8500f52ccb52144",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "15db56e393eb4c57026130cad0de4e49358783b8c60b7f50b3dd1981671342a8",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001140361-26-042987",
+    "source": "https://www.sec.gov/Archives/edgar/data/1270764/0001140361-26-042987.txt",
+    "distinct_positions": 12,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 40539170.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 32448.0,
+        "value_usd": 13502586.0,
+        "weight_pct": 33.31
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CLASS A",
+        "issuer": "BERKSHIRE HATHAWAY INC",
+        "shares": 15.0,
+        "value_usd": 11205075.0,
+        "weight_pct": 27.64
+      },
+      {
+        "cusip": "962166104",
+        "security_class": "COMMON",
+        "issuer": "WEYERHAEUSER CO",
+        "shares": 255842.0,
+        "value_usd": 4873790.0,
+        "weight_pct": 12.02
+      },
+      {
+        "cusip": "754907103",
+        "security_class": "COMMON",
+        "issuer": "RAYONIER INC",
+        "shares": 219171.0,
+        "value_usd": 4023980.0,
+        "weight_pct": 9.93
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "TOTAL STK MKT",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 8149.0,
+        "value_usd": 3049682.0,
+        "weight_pct": 7.52
+      },
+      {
+        "cusip": "46435G425",
+        "security_class": "ESG AWR MSCI USA",
+        "issuer": "ISHARES TR",
+        "shares": 6645.0,
+        "value_usd": 1108387.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARS INC",
+        "shares": 12290.0,
+        "value_usd": 997489.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "SMALL CP ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 1965.0,
+        "value_usd": 559262.0,
+        "weight_pct": 1.38
+      },
+      {
+        "cusip": "46435G516",
+        "security_class": "ESG AW MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 4602.0,
+        "value_usd": 474247.0,
+        "weight_pct": 1.17
+      },
+      {
+        "cusip": "78468R556",
+        "security_class": "S&P OILGAS EXP",
+        "issuer": "SPDR SER TR",
+        "shares": 2022.0,
+        "value_usd": 362605.0,
+        "weight_pct": 0.89
+      }
+    ],
+    "top_five_pct": 90.42,
+    "top_ten_pct": 99.06,
+    "hhi": 2191.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001140361-25-041074"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001140361-26-030948"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001140361-26-042987"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

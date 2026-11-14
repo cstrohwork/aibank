@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1736535/0001736535-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3af8c534f35e6bee9d780b9c25e54e6d02a762de9f36d1d651b61aca6e812521",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b06201dbb92abfab23d01050dc3cad69cf5936478cc3d2b1ea9acf131a7bf8c5",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001736535-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1736535/0001736535-26-000006.txt",
+    "distinct_positions": 109,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 134252487.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 31649.0,
+        "value_usd": 24239118.0,
+        "weight_pct": 18.05
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 49501.0,
+        "value_usd": 18525510.0,
+        "weight_pct": 13.8
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ETF",
+        "issuer": "STATE STREET TECHNOLOGY SELECT SECTOR SPDR ETF",
+        "shares": 51355.0,
+        "value_usd": 10052782.0,
+        "weight_pct": 7.49
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P SMALL CAP ETF",
+        "shares": 67988.0,
+        "value_usd": 9249175.0,
+        "weight_pct": 6.89
+      },
+      {
+        "cusip": "808524862",
+        "security_class": "ETF",
+        "issuer": "SCHWAB SHORT-TERM US TREASURY ETF",
+        "shares": 350112.0,
+        "value_usd": 8353682.0,
+        "weight_pct": 6.22
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 13246.0,
+        "value_usd": 4557684.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "ETF",
+        "issuer": "VANGUARD TOTAL BOND MARKET ETF",
+        "shares": 57382.0,
+        "value_usd": 4025395.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 11981.0,
+        "value_usd": 3990038.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "78468R853",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 600 SMALL CAP ETF",
+        "shares": 66809.0,
+        "value_usd": 3531535.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "33734X846",
+        "security_class": "ETF",
+        "issuer": "FIRST TRUST NASDAQ CYBERSECURITY ETF",
+        "shares": 32561.0,
+        "value_usd": 3356720.0,
+        "weight_pct": 2.5
+      }
+    ],
+    "top_five_pct": 52.45,
+    "top_ten_pct": 66.95,
+    "hhi": 738.81,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 31,
+      "increased_positions": 15,
+      "reduced_positions": 45
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001736535-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001736535-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001736535-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

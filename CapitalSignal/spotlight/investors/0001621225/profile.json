@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1621225/0001621225-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "179ce67dd8f593438ff703cb56a96fd6ae4557c46322edcdf218189c4c22c385",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "1c1ef9417d9fa93e057b759d2823568ee0d4586600e5fd77597877523ad7f423",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001621225-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1621225/0001621225-26-000008.txt",
+    "distinct_positions": 2368,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 17589600633.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 5131828.0,
+        "value_usd": 462428906.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1337123.0,
+        "value_usd": 445288414.0,
+        "weight_pct": 2.53
+      },
+      {
+        "cusip": "464287671",
+        "security_class": "CORE S&P US GWT",
+        "issuer": "ISHARES TR",
+        "shares": 2188345.0,
+        "value_usd": 423991964.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "921910816",
+        "security_class": "MRNGSTR MEGA CAP",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 4154134.0,
+        "value_usd": 384880514.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "90139K100",
+        "security_class": "US QUALITY ETF",
+        "issuer": "GMO ETF TRUST",
+        "shares": 8732738.0,
+        "value_usd": 373848568.0,
+        "weight_pct": 2.13
+      },
+      {
+        "cusip": "464287663",
+        "security_class": "CORE S&P US VLU",
+        "issuer": "ISHARES TR",
+        "shares": 3087493.0,
+        "value_usd": 340488788.0,
+        "weight_pct": 1.94
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 4879709.0,
+        "value_usd": 337968690.0,
+        "weight_pct": 1.92
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 1402837.0,
+        "value_usd": 320380004.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "921910840",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 1771895.0,
+        "value_usd": 285434829.0,
+        "weight_pct": 1.62
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 551725.0,
+        "value_usd": 282980677.0,
+        "weight_pct": 1.61
+      }
+    ],
+    "top_five_pct": 11.88,
+    "top_ten_pct": 20.79,
+    "hhi": 74.72,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 916,
+      "exited_positions": 329,
+      "increased_positions": 1101,
+      "reduced_positions": 347
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001621225-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001621225-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

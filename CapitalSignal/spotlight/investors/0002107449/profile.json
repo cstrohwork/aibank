@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2107449/0002107449-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "aa4cb88ae0ad45ee640a3bcd5f762821db857dda12e18cbd40e49ee00b0a4676",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "de72de4f1aa52cceb89a66079948c3c9271961168d95173e3f7e867086840ca8",
+  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0002107449-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107449/0002107449-26-000005.txt",
+    "distinct_positions": 51,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 133861172.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 16644.0,
+        "value_usd": 12693101.0,
+        "weight_pct": 9.48
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 14452.0,
+        "value_usd": 11068147.0,
+        "weight_pct": 8.27
+      },
+      {
+        "cusip": "922908595",
+        "security_class": "MRNGSTR SM CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 23333.0,
+        "value_usd": 7882588.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "EMGR CRE EQT MNG",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 191867.0,
+        "value_usd": 7542291.0,
+        "weight_pct": 5.63
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 172708.0,
+        "value_usd": 7155290.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "922908611",
+        "security_class": "MRNGSTR SML CP V",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 30068.0,
+        "value_usd": 6946611.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 84108.0,
+        "value_usd": 6497306.0,
+        "weight_pct": 4.85
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 121036.0,
+        "value_usd": 6096602.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 99560.0,
+        "value_usd": 5212962.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "25239Y147",
+        "security_class": "REAL ESTATE SECU",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 186713.0,
+        "value_usd": 4510987.0,
+        "weight_pct": 3.37
+      }
+    ],
+    "top_five_pct": 34.62,
+    "top_ten_pct": 56.48,
+    "hhi": 433.63,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 219,
+      "increased_positions": 21,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0002107449-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0002107449-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }
