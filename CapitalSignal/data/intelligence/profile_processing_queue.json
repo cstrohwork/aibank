@@ -960,23 +960,22 @@
       "reported_13f_value_usd": null,
       "accession_fingerprint": "0001214659-26-012615",
       "retries": 0,
-      "reason": "Bounded 2026-11-13 cached holdings reconciliation completed (63 rows, raw sum 165265487); SEC cover-page value and amendment precedence/newer filing remain unverified. Do not treat as verified 13F exposure or total AUM.",
+      "reason": "Rechecked all cached holdings arithmetic and recorded source blob SHA on 2026-11-14; cached value_thousands equals value_usd, so units remain ambiguous. SEC summary, amendment precedence and current filing still require independent validation; do not publish.",
       "holdings_count": 63,
       "source_url": "https://www.sec.gov/Archives/edgar/data/753967/0001214659-26-012615.txt",
       "source_blob_sha": "c266af28a360733105db7426db475fa0a958e2da",
       "amendment_type": "",
-      "last_checked_at": "2026-11-13T23:58:54Z",
+      "last_checked_at": "2026-11-14T05:39:00Z",
       "cached_reconciliation": {
         "source_blob_sha": "c266af28a360733105db7426db475fa0a958e2da",
-        "records": 63,
-        "unique_cusips": 63,
-        "raw_numeric_sum": 165265487,
-        "raw_field": "value_usd",
-        "value_unit_status": "cached USD label and share-price plausibility only; SEC cover-page reconciliation pending",
-        "largest_position_raw_value": 56641971,
-        "largest_position_weight_pct": 34.2733,
-        "largest_position_cusip": "88636J543",
-        "source_accession": "0001214659-26-012615"
+        "holdings_count": 63,
+        "cached_numeric_sum": 165265487,
+        "largest_record_share_pct": 34.2733,
+        "units": "unverified: value_thousands and value_usd coincide in cache",
+        "checked_at": "2026-11-14T05:39:00Z",
+        "filing_date": "2026-10-07",
+        "report_date": "2026-09-30",
+        "accession": "0001214659-26-012615"
       }
     },
     {
