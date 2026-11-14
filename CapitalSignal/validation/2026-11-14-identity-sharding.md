@@ -53,3 +53,16 @@ The 2,592-security union is current ETF holdings proxy coverage, not official S&
 
 Cloud PR execution and production publication of the new format are unverified at this checkpoint. Historical benchmark constituents/weights, point-in-time class prices and capitalization, complete sectors, two Companyfacts records, ownership history, and benchmark-aligned style inputs remain incomplete. No style or active/passive classification may pass until its existing coverage gates are met.
 
+
+
+## Cloud verification after merge
+
+- PR: [#10](https://github.com/cstrohwork/aibank/pull/10)
+- Implementation commit: [d31455c](https://github.com/cstrohwork/aibank/commit/d31455c973e0d06e1343f3fcff7eb333f96e2d77)
+- PR cloud health: [43598946403](https://github.com/cstrohwork/aibank/actions/runs/43598946403) — success.
+- Production intelligence: [43599220000](https://github.com/cstrohwork/aibank/actions/runs/43599220000) — success. All calculation, file-size guard, artifact and publication steps completed.
+- Published data commit: [63b9439](https://github.com/cstrohwork/aibank/commit/63b943986c911fe39c4abc0264ef52f3dc25726f).
+- Merge cloud health: [43599219978](https://github.com/cstrohwork/aibank/actions/runs/43599219978) — success.
+- Merge deployment: [43599220236](https://github.com/cstrohwork/aibank/actions/runs/43599220236) — success.
+
+Production readback matches the artifact replay: 12 shards, largest 19,999,969 bytes, with all manifest collection counts present. The pipeline processed 9,166 cached manager portfolios and reported zero missing files. This verifies publication stability; it does not establish official benchmark membership, sufficient point-in-time market inputs, completed style classifications or complete filing history.
