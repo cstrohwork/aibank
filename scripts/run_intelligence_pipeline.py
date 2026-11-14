@@ -13,6 +13,7 @@ STAGES = (
     ("market_inputs_liquidity", "market_inputs.py"),
     ("mandates_targeting", "investor_intelligence.py"),
     ("benchmark_diagnostics", "match_fundamental_portfolios.py"),
+    ("separate_proxy_coverage", "benchmark_proxy_coverage.py"),
     ("model_readiness", "build_model_data.py"),
     ("filing_signals", "parse_investor_events.py"),
     ("coverage_events", "intelligence_health.py"),

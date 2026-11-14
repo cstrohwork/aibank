@@ -14,6 +14,7 @@ on:
       - 'scripts/parse_investor_events.py'
       - 'scripts/build_model_data.py'
       - 'scripts/run_intelligence_pipeline.py'
+      - 'scripts/benchmark_proxy_coverage.py'
       - 'CapitalSignal/model/**'
   workflow_run:
     workflows: ['Recover saved fundamentals checkpoint', 'S&P 1500 fundamentals ingestion', 'Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
@@ -69,7 +70,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add CapitalSignal/data/intelligence/ CapitalSignal/data/fundamentals/model*.json CapitalSignal/data/fundamentals/model_companies/ CapitalSignal/data/fundamentals/benchmark_status.json CapitalSignal/data/fundamentals/portfolio_diagnostics.json
+          git add CapitalSignal/data/intelligence/ CapitalSignal/data/fundamentals/model*.json CapitalSignal/data/fundamentals/model_companies/ CapitalSignal/data/fundamentals/benchmark_status.json CapitalSignal/data/fundamentals/portfolio_diagnostics.json CapitalSignal/data/fundamentals/proxy_benchmark_coverage.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Rebuild intelligence foundations and Model completion gate'
           # If upstream data moved, rebuild against its latest caches rather than publish stale outputs.
@@ -78,7 +79,7 @@ jobs:
             if [ "$(git rev-parse HEAD^)" != "$(git rev-parse origin/main)" ]; then
               git reset --hard origin/main
               python scripts/run_intelligence_pipeline.py
-              git add CapitalSignal/data/intelligence/ CapitalSignal/data/fundamentals/model*.json CapitalSignal/data/fundamentals/model_companies/ CapitalSignal/data/fundamentals/benchmark_status.json CapitalSignal/data/fundamentals/portfolio_diagnostics.json
+              git add CapitalSignal/data/intelligence/ CapitalSignal/data/fundamentals/model*.json CapitalSignal/data/fundamentals/model_companies/ CapitalSignal/data/fundamentals/benchmark_status.json CapitalSignal/data/fundamentals/portfolio_diagnostics.json CapitalSignal/data/fundamentals/proxy_benchmark_coverage.json
               if git diff --cached --quiet; then exit 0; fi
               git commit -m 'Rebuild intelligence against latest source caches'
             fi
