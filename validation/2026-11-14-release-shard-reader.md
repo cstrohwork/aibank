@@ -25,3 +25,9 @@
 - This checkpoint precedes PR/cloud execution. Do not claim the 23 production records cleared until a completed serialized backfill publishes a new checkpoint.
 - After cloud checks and merge, let the existing serialized worker retry retained normalization records. Compare error categories and inspect any records that transition from transport limits to missing-series or unsupported-position evidence.
 - Next bounded implementation after production replay: resolve only missing series identities supported by exact SEC registrant/series evidence; otherwise preserve unknown identity. Historical coverage and reported-investor calculations remain incomplete.
+
+## Cloud integration checkpoint
+
+- [PR #15](https://github.com/cstrohwork/aibank/pull/15) passed cloud health [43630156464](https://github.com/cstrohwork/aibank/actions/runs/43630156464) and merged as [89e64ed](https://github.com/cstrohwork/aibank/commit/89e64ed9b4a768ddbee0ae8f65eed31a25e5f8a6). Post-merge health [43630401134](https://github.com/cstrohwork/aibank/actions/runs/43630401134) passed.
+- The pre-existing backfill [43628634547](https://github.com/cstrohwork/aibank/actions/runs/43628634547) archived 566 originals, then SEC returned HTTP 503 for accession `0002107106-26-000003`. The workflow failed visibly but preserved and published checkpoint [8d2beec](https://github.com/cstrohwork/aibank/commit/8d2beec270b98c8a8cd175ac6f5b3f07b4ca49e0): 77,140 archived / 934,174 pending; 5,365 June-window filings outstanding; 71 normalization failures; storage not blocked. Retry-after was 2026-11-14T19:15:27Z.
+- Patched serialized backfill [43630401127](https://github.com/cstrohwork/aibank/actions/runs/43630401127) is running as the sole writer. Production normalization-error reduction is not yet claimed. Latest completed Pages deployment [43631186907](https://github.com/cstrohwork/aibank/actions/runs/43631186907) succeeded.
