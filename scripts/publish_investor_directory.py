@@ -125,8 +125,9 @@ def run(batch=2000):
                                          'fingerprint': fingerprint}
     remaining = sum(
         1 for p in profiles
-        if manifest['profiles'].get(str(p.get('manager_cik') or '').zfill(10), {}).get('fingerprint')
-        != hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+        if (manifest['profiles'].get(str(p.get('manager_cik') or '').zfill(10), {}).get('fingerprint')
+            != hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+            or not (OUT / str(p.get('manager_cik') or '').zfill(10) / 'index.html').exists())
     )
     # Separate never-published coverage from changed profiles awaiting refresh.
     # The combined pending count must not be mistaken for undiscovered investors.
@@ -138,7 +139,8 @@ def run(batch=2000):
     for p in profiles:
         cik = str(p.get('manager_cik') or '').zfill(10)
         fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
-        if manifest['profiles'].get(cik, {}).get('fingerprint') != fingerprint:
+        if (manifest['profiles'].get(cik, {}).get('fingerprint') != fingerprint
+                or not (OUT / cik / 'index.html').exists()):
             next_batch.append({'manager_cik': cik, 'report_date': p.get('latest_report_date'),
                                'state': 'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'})
         if len(next_batch) >= min(batch, 200):
