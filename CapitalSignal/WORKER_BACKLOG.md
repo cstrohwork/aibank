@@ -121,3 +121,7 @@ Cloud run https://github.com/cstrohwork/aibank/actions/runs/42427523310 passed e
 
 ## Stability repair — November 13, 2026, Eastern
 Merged PR #7 to remove null-CUSIP crashes; 166 combined tests and cloud health passed. Added daily-refresh reservation across both writers, durable recovery reports, longest parallel cooldown, rotating normalization attempts, PR health checks, and last-good-output publication gating. All 174 local tests passed. Evidence and remaining blockers: validation/2026-11-13-worker-stability.md. Cloud verification of the additional patch is pending; do not confuse archived originals with completed normalization or calculations. Next: verify refresh/recovery/backfill and intelligence publication, then replay remaining normalized-source errors.
+
+### Stability release cloud verification
+PR #9 merged as f4cfb94. Final proposed head cloud run 43537624969 passed all 174 tests and cache integrity validation. Recovery run 43537733021 passed and observed both active backfill and queued daily refresh without duplicate dispatch. Backfill 43537732976 is actively archiving; daily refresh 43537732960 is pending in the serialized writer slot. Full intelligence rebuild and those data run outcomes remain unverified. See validation/2026-11-13-worker-stability.md for exact remaining source errors and next work.
+

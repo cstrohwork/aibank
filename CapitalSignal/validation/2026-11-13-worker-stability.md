@@ -18,3 +18,11 @@
 
 ## Remaining limitations and next verification
 SEC service interruptions remain external failures; resumption is scheduled and cooldown-aware, not guaranteed error-free. At the inspected archive checkpoint: 62,322 archived, 947,310 pending, 2 retained download failures, 61 normalization errors. Replay the entire rotated parser queue and diagnose unresolved source identities/empty holdings/large release shards from checksum-verified originals. Confirm a successful daily refresh, supervisor dispatch, new backfill checkpoint and full intelligence run after this release. No paid services or credentials were added.
+
+## Cloud verification after release
+- PR #9 merged as f4cfb94a86867a098c222b1a341858f1dc0a815d.
+- Final proposed head health run 43537624969 succeeded: 174 cloud tests and retained cache integrity validation passed. Earlier code-identical regression run 43537527214 also passed.
+- Recovery run 43537733021 succeeded and retained its decision artifact. It observed the active backfill and queued daily refresh, returned wait, and avoided duplicate dispatch. Retained report exposes 61 normalization errors and two download failures rather than treating them as resolved.
+- Backfill 43537732976 is running and refresh 43537732960 is queued behind it in the shared writer group. Outcomes and a new archived-filing count are not yet verified.
+- PR #7 market acquisition regression is cleared in cloud run 43537024444; its complete intelligence rebuild remains running. New intelligence run 43537733003 is queued.
+- These checks verify deployed recovery behavior and regressions; they do not certify complete ingestion, removal of SEC outages, or resolution of retained normalization errors.
