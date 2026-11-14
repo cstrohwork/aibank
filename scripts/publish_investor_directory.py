@@ -115,8 +115,10 @@ def run(batch=2000):
             manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'generated_at': now}
             manifest['failures'].pop(cik, None)
             changed += 1
-        except (ValueError, TypeError, OSError) as exc:
-            errors.append({'id': cik, 'error': str(exc)})
+        except Exception as exc:
+            # Keep a single unexpected analytics/rendering error from halting
+            # publication of unrelated managers in this bounded batch.
+            errors.append({'id': cik, 'error': f'{type(exc).__name__}: {exc}'})
             failure = manifest['failures'].get(cik, {})
             manifest['failures'][cik] = {'attempts': failure.get('attempts', 0) + 1,
                                          'last_error': str(exc), 'last_attempt_at': now,
