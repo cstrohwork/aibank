@@ -1052,15 +1052,15 @@
     "failed_transient": 0
   },
   "next_batch": [
-    "CIK0000831001",
-    "CIK0001710537",
+    "CIK0002032602",
+    "CIK0001390777",
+    "CIK0001697723",
+    "CIK0001054074",
     "CIK0000019617",
     "CIK0000102909",
     "CIK0000713676",
-    "CIK0001054074",
-    "CIK0001390777",
-    "CIK0001697723",
-    "CIK0002032602",
+    "CIK0000831001",
+    "CIK0001710537",
     "CIK0001979372"
   ],
   "last_run": {
@@ -1077,7 +1077,7 @@
     "action": "cached holdings arithmetic and concentration reconciliation",
     "next": "SEC summary and amendment precedence verification; publish only after validation"
   },
-  "last_queue_selection_at": "2026-11-14T00:48:33Z",
+  "last_queue_selection_at": "2026-11-14T01:40:29Z",
   "counts": {
     "pending": 10,
     "validated_pending_publication": 43,
@@ -1085,5 +1085,7 @@
     "failed": 0,
     "blocked": 0
   },
-  "processing_blocker": "Hourly queue selector does not execute SEC validation or publish profiles; source monetary scale and amendment precedence unresolved. Legacy items preserved."
+  "processing_blocker": "Hourly queue selector does not execute SEC validation or publish profiles; source monetary scale and amendment precedence unresolved. Legacy items preserved.",
+  "selection_cursor": 0,
+  "last_selection_warning": "Selection rotated; no SEC filing validation or profile publication performed in this checkpoint."
 }
