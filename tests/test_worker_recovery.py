@@ -166,6 +166,17 @@ class StandaloneIdentityTests(unittest.TestCase):
         self.assertEqual(fund['fund_name'], 'Standalone Fund')
         self.assertIsNone(fund['series_id'])
 
+    def test_explicit_none_and_zero_series_lei_uses_registrant_identity(self):
+        fund = parse(self.xml(series_name='None', series_lei='00000000000000000000'), 'SEC original')
+        self.assertEqual(fund['fund_name'], 'Standalone Fund')
+        self.assertEqual(fund['fund_id'], 'CIK0000000001')
+        self.assertIsNone(fund['series_id'])
+        self.assertEqual(fund['identity_basis'], 'explicit_none_series_zero_lei')
+
+    def test_zero_series_lei_without_explicit_none_stays_unknown(self):
+        with self.assertRaisesRegex(ValueError, 'series identifier'):
+            parse(self.xml(series_name='Another Fund', series_lei='00000000000000000000'), 'SEC original')
+
     def test_name_alone_or_disagreeing_lei_does_not_invent_identity(self):
         for args in ({'series_lei': ''}, {'series_lei': '529900TOB3V09W4JX713'},
                      {'series_name': 'Another Fund', 'series_lei': 'N/A'}):
