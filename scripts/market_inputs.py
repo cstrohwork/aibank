@@ -227,7 +227,7 @@ def acquire(universe, limit=5):
     for member in universe['securities']:
         if attempted >= limit:
             break
-        if not member.get('ticker') or member.get('currency') != 'USD':
+        if not member.get('cusip') or not member.get('ticker') or member.get('currency') != 'USD':
             continue
         security_id = 'cusip:' + member['cusip']
         previous = cache['attempts'].get(security_id, {})
@@ -270,6 +270,22 @@ def acquire(universe, limit=5):
         'provider_blocked_until': cache.get('provider_blocked_until')}
 
 
+def audit_universe(universe, bundle, as_of, window=20):
+    """Retain unidentified securities as explicit gaps, never join null IDs."""
+    results = []
+    for member in universe['securities']:
+        if member.get('cusip'):
+            result = calculate_security('cusip:' + member['cusip'], bundle, as_of, window=window)
+        else:
+            result = {'security_id': None, 'as_of': as_of, 'currency': member.get('currency'),
+                'market_cap_usd': None, 'ownership_pct_outstanding': None,
+                'ownership_pct_float': None, 'liquidity': None,
+                'blockers': ['missing_provider_sourced_cusip'], 'sources': []}
+        result['ticker'] = member.get('ticker')
+        results.append(result)
+    return results
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=pathlib.Path, help='Verified JSON market input bundle; see MARKET_INPUTS.md')
@@ -288,7 +304,7 @@ def main():
     bundle = json.loads(input_path.read_text()) if input_path.exists() else {}
     if args.input and not input_path.exists():
         parser.error('input bundle does not exist')
-    results = [calculate_security('cusip:' + s['cusip'], bundle, as_of, window=args.window) for s in universe['securities']]
+    results = audit_universe(universe, bundle, as_of, window=args.window)
     shares = 0
     for file in (ROOT/'CapitalSignal/data/fundamentals/companyfacts').glob('*.json.gz'):
         record = json.loads(gzip.decompress(file.read_bytes()))

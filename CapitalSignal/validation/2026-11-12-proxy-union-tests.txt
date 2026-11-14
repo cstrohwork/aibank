@@ -1,0 +1,38 @@
+test_cache_union_keeps_newer_remote_and_excludes_analytics (test_fundamental_publication.PublicationTests.test_cache_union_keeps_newer_remote_and_excludes_analytics) ... ok
+test_invalid_cache_rejected_before_publication (test_fundamental_publication.PublicationTests.test_invalid_cache_rejected_before_publication) ... ok
+test_publication_preserves_competing_writer_without_rebase (test_fundamental_publication.PublicationTests.test_publication_preserves_competing_writer_without_rebase) ... ok
+test_snapshot_reused_across_portfolios_but_not_dates (test_fundamental_publication.PublicationTests.test_snapshot_reused_across_portfolios_but_not_dates) ... ok
+test_corrupt_wrong_identity_and_unknown_timestamp_are_reacquired (test_fundamental_queue.FundamentalQueueTests.test_corrupt_wrong_identity_and_unknown_timestamp_are_reacquired) ... ok
+test_missing_precedes_stale_and_fresh_is_skipped (test_fundamental_queue.FundamentalQueueTests.test_missing_precedes_stale_and_fresh_is_skipped) ... ok
+test_acquisition_skips_missing_identifier_without_request (test_fundamental_union.UnionTests.test_acquisition_skips_missing_identifier_without_request) ... ok
+test_conflicting_cusips_never_choose_last_issuer (test_fundamental_union.UnionTests.test_conflicting_cusips_never_choose_last_issuer) ... ok
+test_issuer_counts_do_not_double_count_share_classes (test_fundamental_union.UnionTests.test_issuer_counts_do_not_double_count_share_classes) ... ok
+test_market_audit_retains_missing_identifier_without_matching_null_data (test_fundamental_union.UnionTests.test_market_audit_retains_missing_identifier_without_matching_null_data) ... ok
+test_nonfinite_position_values_excluded (test_fundamental_union.UnionTests.test_nonfinite_position_values_excluded) ... ok
+test_null_cusips_never_match (test_fundamental_union.UnionTests.test_null_cusips_never_match) ... ok
+test_single_proxy_coverage_includes_missing_fundamentals (test_fundamental_union.UnionTests.test_single_proxy_coverage_includes_missing_fundamentals) ... ok
+test_union_does_not_mix_provider_weights (test_fundamental_union.UnionTests.test_union_does_not_mix_provider_weights) ... ok
+test_coverage_uses_all_eligible_value (test_fundamentals.FundamentalsTests.test_coverage_uses_all_eligible_value) ... ok
+test_mismatched_periods_do_not_create_ratio (test_fundamentals.FundamentalsTests.test_mismatched_periods_do_not_create_ratio) ... ok
+test_missing_unit_is_not_converted (test_fundamentals.FundamentalsTests.test_missing_unit_is_not_converted) ... ok
+test_no_future_or_quarter_as_annual (test_fundamentals.FundamentalsTests.test_no_future_or_quarter_as_annual) ... ok
+test_option_and_ambiguous_value_excluded (test_fundamentals.FundamentalsTests.test_option_and_ambiguous_value_excluded) ... ok
+test_restatement_available_only_after_filing (test_fundamentals.FundamentalsTests.test_restatement_available_only_after_filing) ... ok
+test_acquisition_stops_batch_and_persists_source_challenge_cooldown (test_market_inputs.MarketInputsTests.test_acquisition_stops_batch_and_persists_source_challenge_cooldown) ... ok
+test_conflicting_provider_rows_quarantined (test_market_inputs.MarketInputsTests.test_conflicting_provider_rows_quarantined) ... ok
+test_future_available_price_is_rejected (test_market_inputs.MarketInputsTests.test_future_available_price_is_rejected) ... ok
+test_http_200_browser_challenge_is_not_a_price_success (test_market_inputs.MarketInputsTests.test_http_200_browser_challenge_is_not_a_price_success) ... ok
+test_invalid_participation_rejected (test_market_inputs.MarketInputsTests.test_invalid_participation_rejected) ... ok
+test_invalid_units_currency_and_nonfinite_values_rejected (test_market_inputs.MarketInputsTests.test_invalid_units_currency_and_nonfinite_values_rejected) ... ok
+test_issuer_shares_not_used_as_class_shares (test_market_inputs.MarketInputsTests.test_issuer_shares_not_used_as_class_shares) ... ok
+test_missing_market_data_stays_missing (test_market_inputs.MarketInputsTests.test_missing_market_data_stays_missing) ... ok
+test_old_denominator_rejected (test_market_inputs.MarketInputsTests.test_old_denominator_rejected) ... ok
+test_split_adjusts_shares_marketcap_and_volume_consistently (test_market_inputs.MarketInputsTests.test_split_adjusts_shares_marketcap_and_volume_consistently) ... ok
+test_unknown_price_basis_rejected (test_market_inputs.MarketInputsTests.test_unknown_price_basis_rejected) ... ok
+test_unproven_actions_block_stale_denominator_and_liquidity (test_market_inputs.MarketInputsTests.test_unproven_actions_block_stale_denominator_and_liquidity) ... ok
+test_unsupported_merger_never_treated_as_split (test_market_inputs.MarketInputsTests.test_unsupported_merger_never_treated_as_split) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.319s
+
+OK
