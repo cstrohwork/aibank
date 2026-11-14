@@ -37,9 +37,25 @@ def run(batch=2000):
     for profile in profiles:
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     profiles.sort(key=lambda p: (p.get('filing_date') or '', rank(p)), reverse=True)
+    # Reserve a quarter of each bounded run for never-published managers.
+    # The remaining slots refresh changed profiles; this prevents frequent
+    # amendments to large managers from starving initial universe coverage.
+    unpublished = []
+    refreshes = []
+    for p in profiles:
+        cik = str(p.get('manager_cik') or '').zfill(10)
+        prior = manifest['profiles'].get(cik, {})
+        fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+        if prior.get('fingerprint') == fingerprint and (OUT / cik / 'index.html').exists():
+            continue
+        (unpublished if cik not in manifest['profiles'] else refreshes).append(p)
+    reserved = min(len(unpublished), max(1, batch // 4))
+    selected = unpublished[:reserved] + refreshes[:max(0, batch - reserved)]
+    selected += unpublished[reserved:reserved + max(0, batch - len(selected))]
+    selected += refreshes[max(0, batch - reserved):max(0, batch - reserved) + max(0, batch - len(selected))]
     changed = 0
     errors = []
-    for p in profiles:
+    for p in selected:
         cik = str(p.get('manager_cik') or '').zfill(10)
         if not re.fullmatch(r'\d{10}', cik):
             errors.append({'id': cik, 'error': 'Invalid CIK'})
@@ -84,7 +100,14 @@ def run(batch=2000):
             changed += 1
         except (ValueError, TypeError, OSError) as exc:
             errors.append({'id': cik, 'error': str(exc)})
-    manifest.update(updated_at=now, cached_investor_count=len(profiles), generated_count=len(manifest['profiles']), changed_this_run=changed, errors=errors)
+    remaining = sum(
+        1 for p in profiles
+        if manifest['profiles'].get(str(p.get('manager_cik') or '').zfill(10), {}).get('fingerprint')
+        != hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+    )
+    manifest.update(updated_at=now, cached_investor_count=len(profiles), generated_count=len(manifest['profiles']),
+                    changed_this_run=changed, remaining_changed_or_unpublished=remaining,
+                    selected_this_run=len(selected), errors=errors)
     manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')
     links = ''.join('<li><a href="' + esc(cik) + '/">' + esc(v['name']) + '</a> · ' + esc(v['report_date']) + '</li>' for cik,v in sorted(manifest['profiles'].items(), key=lambda x:x[1]['name']))
     (OUT / 'index.html').write_text(head + '<header><h1>Investor profiles</h1><p>' + str(len(manifest['profiles'])) + ' cached investor profiles. Updates follow ingestion. Monetary reconciliation pending.</p></header><main><section class="panel"><ul>' + links + '</ul></section></main></html>')
