@@ -18,6 +18,21 @@ def main():
         raise SystemExit("batch-size must be positive")
     source = json.loads(SOURCE.read_text())
     prior = json.loads(DEST.read_text()) if DEST.exists() else {}
+    # The existing operational checkpoint uses schema_version=1 with "items".
+    # Never overwrite it with an incompatible "records" checkpoint: that would
+    # discard accession fingerprints, retries, and validation evidence.
+    if "items" in prior and "records" not in prior:
+        items = prior["items"]
+        pending = [r for r in items if r.get("status") == "pending"]
+        pending.sort(key=lambda r: (r.get("retries", 0), r.get("filing_date") or "", r["id"]))
+        prior["next_batch"] = [r["id"] for r in pending[:args.batch_size]]
+        prior["last_queue_selection_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+        prior["counts"] = {state: sum(r.get("status") == state for r in items)
+                           for state in ("pending", "validated_pending_publication", "published", "failed", "blocked")}
+        DEST.write_text(json.dumps(prior, indent=2) + "\\n")
+        print(json.dumps({"counts": prior["counts"], "next_batch": prior["next_batch"],
+                          "warning": "selection only; no validation or publication performed"}))
+        return
     old = {r["id"]: r for r in prior.get("records", [])}
     candidates = []
     for kind, key in (("manager", "managers"), ("fund", "funds")):
