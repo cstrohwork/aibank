@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-14T16:05:57.615823+00:00",
-  "updated_at": "2026-11-14T16:11:24.138792+00:00",
+  "started_at": "2026-11-14T16:14:05.874574+00:00",
+  "updated_at": "2026-11-14T16:19:12.812493+00:00",
   "status": "completed",
   "scope": "Calculation execution only; successful execution does not certify source coverage or Model activation.",
   "stages": [
@@ -9,7 +9,7 @@
       "script": "build_identity_master.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-14T16:07:22.700504+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 27288, \"security_count\": 399898, \"relationship_count\": 13791, \"issuer_mapping_observation_count\": 3011, \"ambiguous_security_count\": 0, \"quarantine_observations\": 741820, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"], \"publication_format\": \"sharded_manifest_v2\", \"identity_shard_count\": 12, \"largest_identity_shard_bytes\": 19999998}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-14T16:15:26.225371+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 27288, \"security_count\": 399898, \"relationship_count\": 13791, \"issuer_mapping_observation_count\": 3011, \"ambiguous_security_count\": 0, \"quarantine_observations\": 741820, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"], \"publication_format\": \"sharded_manifest_v2\", \"identity_shard_count\": 12, \"largest_identity_shard_bytes\": 19999998}\n",
       "stderr_tail": ""
     },
     {
@@ -25,7 +25,7 @@
       "script": "build_ownership_atlas.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"schema_version\": 1, \"updated_at\": \"2026-11-14T16:08:28.476562+00:00\", \"source\": \"../intelligence/reconciliation.json\", \"basis\": \"Incomplete latest-restated matched-CUSIP equity views; not total institutional AUM. Manager and fund views must not be added.\", \"lenses\": {\"managers\": [{\"report_date\": \"2026-09-30\", \"file\": \"managers-2026-09-30.json\", \"count\": 7122}, {\"report_date\": \"2026-06-30\", \"file\": \"managers-2026-06-30.json\", \"count\": 5770}, {\"report_date\": \"2026-03-31\", \"file\": \"managers-2026-03-31.json\", \"count\": 141}, {\"report_date\": \"2025-12-31\", \"file\": \"managers-2025-12-31.json\", \"count\": 106}, {\"report_date\": \"2025-09-30\", \"file\": \"managers-2025-09-30.json\", \"count\": 4602}], \"funds\": [{\"report_date\": \"2026-09-30\", \"file\": \"funds-2026-09-30.json\", \"count\": 127}, {\"report_date\": \"2026-08-31\", \"file\": \"funds-2026-08-31.json\", \"count\": 2672}, {\"report_date\": \"2026-07-31\", \"file\": \"funds-2026-07-31.json\", \"count\": 4182}, {\"report_date\": \"2026-06-30\", \"file\": \"funds-2026-06-30.json\", \"count\": 6866}, {\"report_date\": \"2026-05-31\", \"file\": \"funds-2026-05-31.json\", \"count\": 501}, {\"report_date\": \"2026-05-29\", \"file\": \"funds-2026-05-29.json\", \"count\": 40}, {\"report_date\": \"2026-04-30\", \"file\": \"funds-2026-04-30.json\", \"count\": 12}, {\"report_date\": \"2026-03-31\", \"file\": \"funds-2026-03-31.json\", \"count\": 24}, {\"report_date\": \"2026-01-31\", \"file\": \"funds-2026-01-31.json\", \"count\": 13}, {\"report_date\": \"2025-12-31\", \"file\": \"funds-2025-12-31.json\", \"count\": 3}, {\"report_date\": \"2025-11-30\", \"file\": \"funds-2025-11-30.json\", \"count\": 1}, {\"report_date\": \"2025-09-30\", \"file\": \"funds-2025-09-30.json\", \"count\": 105}]}}\n",
+      "stdout_tail": "{\"schema_version\": 1, \"updated_at\": \"2026-11-14T16:16:31.930018+00:00\", \"source\": \"../intelligence/reconciliation.json\", \"basis\": \"Incomplete latest-restated matched-CUSIP equity views; not total institutional AUM. Manager and fund views must not be added.\", \"lenses\": {\"managers\": [{\"report_date\": \"2026-09-30\", \"file\": \"managers-2026-09-30.json\", \"count\": 7122}, {\"report_date\": \"2026-06-30\", \"file\": \"managers-2026-06-30.json\", \"count\": 5770}, {\"report_date\": \"2026-03-31\", \"file\": \"managers-2026-03-31.json\", \"count\": 141}, {\"report_date\": \"2025-12-31\", \"file\": \"managers-2025-12-31.json\", \"count\": 106}, {\"report_date\": \"2025-09-30\", \"file\": \"managers-2025-09-30.json\", \"count\": 4602}], \"funds\": [{\"report_date\": \"2026-09-30\", \"file\": \"funds-2026-09-30.json\", \"count\": 127}, {\"report_date\": \"2026-08-31\", \"file\": \"funds-2026-08-31.json\", \"count\": 2672}, {\"report_date\": \"2026-07-31\", \"file\": \"funds-2026-07-31.json\", \"count\": 4182}, {\"report_date\": \"2026-06-30\", \"file\": \"funds-2026-06-30.json\", \"count\": 6866}, {\"report_date\": \"2026-05-31\", \"file\": \"funds-2026-05-31.json\", \"count\": 501}, {\"report_date\": \"2026-05-29\", \"file\": \"funds-2026-05-29.json\", \"count\": 40}, {\"report_date\": \"2026-04-30\", \"file\": \"funds-2026-04-30.json\", \"count\": 12}, {\"report_date\": \"2026-03-31\", \"file\": \"funds-2026-03-31.json\", \"count\": 24}, {\"report_date\": \"2026-01-31\", \"file\": \"funds-2026-01-31.json\", \"count\": 13}, {\"report_date\": \"2025-12-31\", \"file\": \"funds-2025-12-31.json\", \"count\": 3}, {\"report_date\": \"2025-11-30\", \"file\": \"funds-2025-11-30.json\", \"count\": 1}, {\"report_date\": \"2025-09-30\", \"file\": \"funds-2025-09-30.json\", \"count\": 105}]}}\n",
       "stderr_tail": ""
     },
     {
@@ -33,7 +33,7 @@
       "script": "market_inputs.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-14T16:08:37.855534+00:00\", \"as_of\": \"2026-11-12\", \"universe_basis\": \"Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.\", \"security_count\": 2592, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 2392, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-14T16:16:40.420613+00:00\", \"as_of\": \"2026-11-12\", \"universe_basis\": \"Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.\", \"security_count\": 2592, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 2392, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
       "stderr_tail": ""
     },
     {
@@ -57,7 +57,7 @@
       "script": "benchmark_proxy_coverage.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"updated_at\": \"2026-11-14T16:10:21.620053+00:00\", \"as_of\": \"2026-11-12\", \"membership_basis\": \"Current SPTM and IWV ETF holdings proxies; not official index membership or historical constituents\", \"benchmarks\": {}, \"calculated_style\": null, \"historical_comparison_status\": \"blocked_missing_historical_membership_weights_and_market_factors\", \"status\": \"blocked_missing_separate_provider_snapshots\"}\n",
+      "stdout_tail": "{\"updated_at\": \"2026-11-14T16:18:06.818282+00:00\", \"as_of\": \"2026-11-12\", \"membership_basis\": \"Current SPTM and IWV ETF holdings proxies; not official index membership or historical constituents\", \"benchmarks\": {}, \"calculated_style\": null, \"historical_comparison_status\": \"blocked_missing_historical_membership_weights_and_market_factors\", \"status\": \"blocked_missing_separate_provider_snapshots\"}\n",
       "stderr_tail": ""
     },
     {
@@ -73,7 +73,7 @@
       "script": "parse_investor_events.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"catalogued_candidate_filings\": 21756, \"archived_candidate_filings\": 21756, \"selected_filings\": 2000, \"parsed_filings\": 2536, \"beneficial_ownership_records\": 5616, \"proxy_vote_records\": 41218, \"unavailable_filings\": 19213, \"unsupported_filings\": 7, \"unselected_archived_filings\": 17861, \"unchanged_unsupported_filings\": 7, \"previously_parsed_filings\": 1888, \"remaining_archived_filings\": 19220, \"release_shards_fetched\": 2}\n",
+      "stdout_tail": "{\"catalogued_candidate_filings\": 21756, \"archived_candidate_filings\": 21756, \"selected_filings\": 2000, \"parsed_filings\": 3251, \"beneficial_ownership_records\": 7021, \"proxy_vote_records\": 41932, \"unavailable_filings\": 18497, \"unsupported_filings\": 8, \"unselected_archived_filings\": 17213, \"unchanged_unsupported_filings\": 7, \"previously_parsed_filings\": 2536, \"remaining_archived_filings\": 18505, \"release_shards_fetched\": 2}\n",
       "stderr_tail": ""
     },
     {
