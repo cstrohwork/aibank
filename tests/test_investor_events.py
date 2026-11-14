@@ -1,6 +1,6 @@
 import gzip,hashlib,json,pathlib,sys,tempfile,unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
-from parse_investor_events import parse_submission,read_body,run
+from parse_investor_events import load_checkpoint,parse_submission,read_body,run,write_checkpoint
 
 def submission(xml):return ('<DOCUMENT><FILENAME>primary.xml\n<TEXT><XML>'+xml+'</XML></TEXT></DOCUMENT>').encode()
 class EventsTests(unittest.TestCase):
@@ -51,4 +51,20 @@ class EventsTests(unittest.TestCase):
    self.assertEqual(result['summary']['selected_filings'],0)
    self.assertEqual(result['summary']['unsupported_filings'],1)
    self.assertEqual(result['status'],'partial')
+ def test_compressed_checkpoint_preserves_full_records_and_compact_index(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=pathlib.Path(td);result={'schema_version':1,'generated_at':'2026-11-14T00:00:00+00:00','status':'partial',
+    'summary':{'parsed_filings':1},'limitations':['incomplete'],
+    'filings':[{'accession':'a','source':'https://www.sec.gov/a','parse_status':'parsed'}],
+    'beneficial_ownership':[{'accession':'a','beneficial_shares':10}],'proxy_votes':[],
+    'unavailable':[{'accession':'b','reason':'pending_next_bounded_run'}],'unsupported_accessions':[]}
+   index=write_checkpoint(root,result)
+   self.assertEqual(load_checkpoint(root),result)
+   self.assertNotIn('filings',json.loads((root/'intelligence/parsed_events.json').read_text()))
+   self.assertRegex(index['records']['path'],r'^parsed_events-[0-9a-f]{16}\.json\.gz$')
+   compressed=(root/'intelligence'/index['records']['path']).read_bytes()
+   self.assertEqual(hashlib.sha256(compressed).hexdigest(),index['records']['compressed_sha256'])
+   self.assertEqual(json.loads(gzip.decompress(compressed)),result)
+   (root/'intelligence'/index['records']['path']).write_bytes(compressed+b'x')
+   with self.assertRaisesRegex(ValueError,'checksum_mismatch'):load_checkpoint(root)
 if __name__=='__main__':unittest.main()

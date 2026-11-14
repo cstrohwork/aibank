@@ -4,6 +4,8 @@ import argparse, collections, datetime as dt, gzip, hashlib, io, json, pathlib, 
 import xml.etree.ElementTree as ET
 ROOT=pathlib.Path(__file__).resolve().parents[1]/'CapitalSignal/data'
 PARSER_VERSION=1
+CHECKPOINT_NAME='parsed_events.json'
+RECORDS_PREFIX='parsed_events-'
 FORMS={'SC 13D','SC 13D/A','SC 13G','SC 13G/A','SCHEDULE 13D','SCHEDULE 13D/A','SCHEDULE 13G','SCHEDULE 13G/A','N-PX','N-PX/A'}
 
 def local(tag):return tag.rsplit('}',1)[-1]
@@ -74,13 +76,48 @@ def read_body(root,record,shards,max_raw):
  if not record.get('sha256') or hashlib.sha256(raw).hexdigest()!=record['sha256']:raise ValueError('body_checksum_mismatch_or_missing')
  return raw
 
+def load_checkpoint(root):
+ checkpoint=root/'intelligence'/CHECKPOINT_NAME
+ if not checkpoint.exists():return {}
+ index=json.loads(checkpoint.read_text())
+ metadata=index.get('records')
+ if not metadata:return index # Legacy monolithic checkpoint.
+ name=metadata.get('path','')
+ if metadata.get('encoding')!='gzip' or not re.fullmatch(r'parsed_events-[0-9a-f]{16}\.json\.gz',name):
+  raise ValueError('invalid_parsed_event_records_reference')
+ compressed=(checkpoint.parent/name).read_bytes()
+ if len(compressed)!=metadata.get('compressed_bytes') or hashlib.sha256(compressed).hexdigest()!=metadata.get('compressed_sha256'):
+  raise ValueError('parsed_event_records_compressed_checksum_mismatch')
+ raw=gzip.decompress(compressed)
+ if len(raw)!=metadata.get('uncompressed_bytes') or hashlib.sha256(raw).hexdigest()!=metadata.get('uncompressed_sha256'):
+  raise ValueError('parsed_event_records_uncompressed_checksum_mismatch')
+ return json.loads(raw)
+
+def write_checkpoint(root,result):
+ """Publish a compact index plus a checksum-addressed compressed record set."""
+ directory=root/'intelligence';directory.mkdir(parents=True,exist_ok=True)
+ raw=json.dumps(result,separators=(',',':')).encode()
+ compressed=gzip.compress(raw,mtime=0)
+ compressed_sha=hashlib.sha256(compressed).hexdigest();name=f'{RECORDS_PREFIX}{compressed_sha[:16]}.json.gz'
+ records=directory/name;records_tmp=records.with_name(records.name+'.tmp')
+ records_tmp.write_bytes(compressed);records_tmp.replace(records)
+ index={k:result[k] for k in ('schema_version','generated_at','status','summary','limitations')}
+ index['records']={'path':name,'encoding':'gzip','compressed_bytes':len(compressed),
+                   'uncompressed_bytes':len(raw),'compressed_sha256':compressed_sha,
+                   'uncompressed_sha256':hashlib.sha256(raw).hexdigest(),
+                   'contains':['filings','beneficial_ownership','proxy_votes','unavailable','unsupported_accessions']}
+ checkpoint=directory/CHECKPOINT_NAME;checkpoint_tmp=checkpoint.with_name(checkpoint.name+'.tmp')
+ checkpoint_tmp.write_text(json.dumps(index,separators=(',',':')));checkpoint_tmp.replace(checkpoint)
+ for old in directory.glob(f'{RECORDS_PREFIX}*.json.gz'):
+  if old!=records:old.unlink()
+ return index
+
 def run(root=ROOT,limit=2000,fetch_release=False,max_shards=2,max_shard_bytes=100000000,max_raw=10000000):
  state_path=root/'history/archive_state.json.gz'
  state=json.loads(gzip.decompress(state_path.read_bytes())) if state_path.exists() else {}
  candidates=sorted([r for r in state.values() if r.get('form') in FORMS],key=lambda r:(r.get('release_asset_url',''),r.get('accession','')))
  archived=[r for r in candidates if r.get('status')=='archived']
- checkpoint=root/'intelligence/parsed_events.json'
- previous=json.loads(checkpoint.read_text()) if checkpoint.exists() else {}
+ previous=load_checkpoint(root)
  previous_filings={r['accession']:r for r in previous.get('filings',[])}
  completed={a for a,r in previous_filings.items() if r.get('parse_status')=='parsed'}
  unchanged_unsupported={a for a,r in previous_filings.items() if r.get('parse_status')!='parsed' and r.get('parser_version')==PARSER_VERSION}
@@ -129,5 +166,5 @@ def run(root=ROOT,limit=2000,fetch_release=False,max_shards=2,max_shard_bytes=10
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--data-root',type=pathlib.Path,default=ROOT);ap.add_argument('--limit',type=int,default=2000);ap.add_argument('--fetch-release',action='store_true',help='Compatibility flag; release fetching is enabled by default');ap.add_argument('--offline',action='store_true');ap.add_argument('--max-shards',type=int,default=2);args=ap.parse_args()
  if args.limit<1 or args.max_shards<0:ap.error('limit must be positive and max-shards nonnegative')
- result=run(args.data_root,args.limit,not args.offline,args.max_shards);out=args.data_root/'intelligence/parsed_events.json';out.parent.mkdir(parents=True,exist_ok=True);tmp=out.with_suffix('.tmp');tmp.write_text(json.dumps(result,separators=(',',':')));tmp.replace(out);print(json.dumps(result['summary']))
+ result=run(args.data_root,args.limit,not args.offline,args.max_shards);write_checkpoint(args.data_root,result);print(json.dumps(result['summary']))
 if __name__=='__main__':main()
