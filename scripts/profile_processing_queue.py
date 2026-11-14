@@ -58,7 +58,15 @@ def main():
         # Perform bounded, actual cached-source reconciliation before rotating.
         # This does not certify SEC monetary totals or authorize publication.
         processed = []
-        for item in [x for x in items if x.get("status") == "pending" and x.get("source_file")][:min(3, args.batch_size)]:
+        eligible = [x for x in items if x.get("status") == "pending" and x.get("source_file")]
+        # Persist a separate evidence cursor so repeated retrieval failures do
+        # not starve the remaining pending investors.
+        evidence_cursor = int(prior.get("evidence_cursor", 0))
+        batch_count = min(3, args.batch_size, len(eligible))
+        evidence_batch = [eligible[(evidence_cursor + i) % len(eligible)]
+                          for i in range(batch_count)] if eligible else []
+        prior["evidence_cursor"] = (evidence_cursor + batch_count) % len(eligible) if eligible else 0
+        for item in evidence_batch:
             path = ROOT.parents[2] / item["source_file"]
             item["last_checked_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
             try:
