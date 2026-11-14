@@ -55,6 +55,38 @@ def main():
             known.add(ident)
         prior.setdefault("discovery", {})["readiness_unqueued_remaining"] = len(pool) - min(discovery_limit, len(pool))
         prior["discovery"]["readiness_last_expanded_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+        # Perform bounded, actual cached-source reconciliation before rotating.
+        # This does not certify SEC monetary totals or authorize publication.
+        processed = []
+        for item in [x for x in items if x.get("status") == "pending" and x.get("source_file")][:min(3, args.batch_size)]:
+            path = ROOT.parents[2] / item["source_file"]
+            item["last_checked_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+            try:
+                if not path.is_file():
+                    raise FileNotFoundError(str(path))
+                with path.open(encoding="utf-8") as stream:
+                    filing = json.load(stream)
+                if not isinstance(filing, dict) or not isinstance(filing.get("holdings"), list):
+                    raise ValueError("missing holdings array")
+                if str(filing.get("report_date")) != str(item.get("report_date")):
+                    raise ValueError("reporting period mismatch")
+                accession = filing.get("accession") or filing.get("accession_number")
+                if not accession:
+                    raise ValueError("missing accession")
+                item["accession_fingerprint"] = str(accession)
+                item["holdings_count"] = len(filing["holdings"])
+                item["source_blob_sha256"] = hashlib.sha256(path.read_bytes()).hexdigest()
+                item["cached_source_reconciled"] = True
+                item["last_error_code"] = None
+                item["reason"] = ("Cached holdings, period and accession reconciled; original SEC summary, "
+                                  "monetary units, amendments and newer filings remain unverified. Not publishable.")
+                processed.append({"id": item["id"], "result": "cached_evidence_reconciled"})
+            except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
+                item["retries"] = int(item.get("retries") or 0) + 1
+                item["last_error_code"] = type(exc).__name__
+                item["reason"] = "Cached-source reconciliation failed: " + str(exc)[:180]
+                processed.append({"id": item["id"], "result": "retry_required"})
+        prior["last_processing_batch"] = processed
         # Rotate across pending investors instead of repeatedly selecting the same
         # first ten (which previously produced no progress on oversized filings).
         # This advances a durable selection cursor without falsely validating data.
