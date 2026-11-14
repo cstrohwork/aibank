@@ -47,6 +47,8 @@ jobs:
       # Recalculate investor values using dollar-denominated 13F XML
       - name: Calculate investor profiles from 13F history
         run: python scripts/build_investor_profiles.py
+      - name: Validate refreshed caches before production publication
+        run: python scripts/check_capitalsignal.py
       - name: Commit refreshed public data
         run: |
           git config user.name "github-actions[bot]"
@@ -62,6 +64,16 @@ jobs:
             sleep $((attempt * 2))
           done
           fi
+      - name: Retain refresh validation and coverage diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-refresh-health
+          path: |
+            worker-health.json
+            CapitalSignal/data/13f/index.json
+            CapitalSignal/data/funds/index.json
+          retention-days: 14
       - name: Resume ingestion after refresh success or failure
         if: always()
         env:
