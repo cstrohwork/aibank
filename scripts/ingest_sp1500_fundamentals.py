@@ -174,6 +174,31 @@ def work_queue(ciks, directory, refresh_hours):
   if age is None:pending.append(cik)
   elif age>=refresh_hours*3600:stale.append((age,cik))
  return sorted(pending)+[cik for age,cik in sorted(stale,reverse=True)]
+def merge_proxy_universes(sp,russell):
+ """Deduplicate ingestion identities while retaining separate dated benchmarks."""
+ by_cusip={};by_ticker={}
+ for label,collection in [('S&P1500_proxy',sp['securities']),('Russell3000_proxy',russell['securities'])]:
+  for member in collection:
+   ticker_id=key(member.get('ticker',''))
+   cusip=member.get('cusip')
+   record=by_ticker.get(ticker_id) if ticker_id else None
+   if record is None and cusip:record=by_cusip.get(cusip)
+   if record is None:
+    record=dict(member,universe_memberships=[])
+    if cusip:by_cusip[cusip]=record
+    if ticker_id:by_ticker[ticker_id]=record
+   if any(record.get(k) and member.get(k) and record[k]!=member[k] for k in ('cik','cusip')):
+    raise ValueError('Conflicting proxy identity for '+ticker_id)
+   if label not in record['universe_memberships']:record['universe_memberships'].append(label)
+   if record.get('cusip') is None and cusip:record['cusip']=cusip
+   if record.get('cik') is None and member.get('cik'):record.update({k:member[k] for k in ('cik','mapping_status')})
+ securities=list(by_ticker.values())
+ for member in securities:member['universe_memberships'].sort()
+ merged={'as_of':min(sp['as_of'],russell['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']}
+ merged['proxy_snapshots']={'S&P1500_proxy':sp,'Russell3000_proxy':russell}
+ merged['weight_basis']='Security-level weight_pct is the first provider observation only; no combined benchmark weight exists. Use proxy_snapshots for separate provider denominators.'
+ return merged
+
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--limit',type=int,default=0);ap.add_argument('--refresh-hours',type=float,default=24);ap.add_argument('--max-seconds',type=float,default=0);args=ap.parse_args()
  OUT.mkdir(parents=True,exist_ok=True)
@@ -182,24 +207,7 @@ def main():
   tickers=json.loads(get(TICKERS))
   sp_blob=get(HOLDINGS);sp=parse_universe(sp_blob,tickers)
   russell_blob=get(HOLDINGS_RUSSELL);russell=parse_russell(russell_blob,tickers)
-  by_cusip={};by_ticker={}
-  for label,collection in [('S&P1500_proxy',sp['securities']),('Russell3000_proxy',russell['securities'])]:
-   for member in collection:
-    ticker_id=key(member.get('ticker',''))
-    cusip=member.get('cusip')
-    record=by_ticker.get(ticker_id) if ticker_id else None
-    if record is None and cusip:record=by_cusip.get(cusip)
-    if record is None:
-     record=dict(member,universe_memberships=[])
-     if cusip:by_cusip[cusip]=record
-     if ticker_id:by_ticker[ticker_id]=record
-    if label not in record['universe_memberships']:record['universe_memberships'].append(label)
-    if record.get('cusip') is None and cusip:record['cusip']=cusip
-    if record.get('cik') is None and member.get('cik'):record.update({k:member[k] for k in ('cik','mapping_status')})
-  securities=list(by_ticker.values())
-  for member in securities:member['universe_memberships'].sort()
-  merged={'as_of':min(sp['as_of'],russell['as_of']),'retrieved_at':now(),'source_url':sp['source_url'],'source_sha256':hashlib.sha256((sp['source_sha256']+russell['source_sha256']).encode()).hexdigest(),'membership_basis':'Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.','universe_sources':[{'name':'S&P1500 proxy','as_of':sp['as_of'],'url':sp['source_url'],'sha256':sp['source_sha256']},{'name':'Russell3000 proxy','as_of':russell['as_of'],'url':russell['source_url'],'sha256':russell['source_sha256']}],'securities':securities,'excluded_rows':sp['excluded_rows']+russell['excluded_rows']}
-  universe=merged
+  universe=merge_proxy_universes(sp,russell)
   dump(OUT/'universe.json',universe);dump(OUT/'universes'/(universe['as_of']+'.json'),universe)
  except Exception as e:
   dump(OUT/'last_attempt.json',{'at':now(),'status':'universe_source_failed','error':str(e),'traceback':traceback.format_exc()});raise
