@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-12T10:32:19.877521+00:00",
-  "updated_at": "2026-11-12T10:33:29.372025+00:00",
+  "started_at": "2026-11-14T13:22:39.478628+00:00",
+  "updated_at": "2026-11-14T13:27:07.894041+00:00",
   "status": "completed",
   "scope": "Calculation execution only; successful execution does not certify source coverage or Model activation.",
   "stages": [
@@ -9,7 +9,7 @@
       "script": "build_identity_master.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-12T10:32:29.225630+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 6256, \"security_count\": 32503, \"relationship_count\": 209, \"issuer_mapping_observation_count\": 1506, \"ambiguous_security_count\": 0, \"quarantine_observations\": 8797, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"]}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-14T13:23:50.619033+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 27270, \"security_count\": 399893, \"relationship_count\": 13782, \"issuer_mapping_observation_count\": 3011, \"ambiguous_security_count\": 0, \"quarantine_observations\": 741685, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"], \"publication_format\": \"sharded_manifest_v2\", \"identity_shard_count\": 12, \"largest_identity_shard_bytes\": 19999969}\n",
       "stderr_tail": ""
     },
     {
@@ -17,7 +17,7 @@
       "script": "reconcile_ownership.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"blocked_selections\": 7, \"fund_periods\": 211, \"manager_periods\": 4563, \"potential_overlap_pairs\": 1, \"unresolved_fund_manager_mappings\": 210, \"verified_overlap_pairs\": 0}\n",
+      "stdout_tail": "{\"blocked_selections\": 153, \"fund_periods\": 14017, \"manager_periods\": 17437, \"potential_overlap_pairs\": 19, \"unresolved_fund_manager_mappings\": 13998, \"verified_overlap_pairs\": 0}\n",
       "stderr_tail": ""
     },
     {
@@ -25,7 +25,7 @@
       "script": "market_inputs.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-12T10:32:41.501207+00:00\", \"as_of\": \"2026-11-10\", \"universe_basis\": \"SPTM ETF holdings proxy; not official index constituents or historical membership\", \"security_count\": 1506, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 1436, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-14T13:24:54.840994+00:00\", \"as_of\": \"2026-11-12\", \"universe_basis\": \"Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.\", \"security_count\": 2592, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 2392, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
       "stderr_tail": ""
     },
     {
@@ -33,7 +33,7 @@
       "script": "investor_intelligence.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"funds\": 211, \"funds_orientation_unknown\": 211, \"managers\": 4564, \"verified_mandates\": 0}\n",
+      "stdout_tail": "{\"funds\": 13789, \"funds_orientation_unknown\": 13789, \"managers\": 9166, \"verified_mandates\": 0}\n",
       "stderr_tail": ""
     },
     {
@@ -41,7 +41,7 @@
       "script": "match_fundamental_portfolios.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "Matched 4564 cached portfolios; 0 files unavailable\n",
+      "stdout_tail": "Matched 9166 cached portfolios; 0 files unavailable\n",
       "stderr_tail": ""
     },
     {
@@ -49,7 +49,7 @@
       "script": "build_model_data.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"activation\": {\"ready\": false, \"status\": \"blocked\", \"blockers\": [\"Fundamental records pending\", \"Required annual modeling fields missing or incompatible\"], \"policy\": \"All universe securities mapped; all issuer records valid and retrieved within 36 hours; universe retrieved within 36 hours and dated within seven days; each issuer has positive revenue and reported net income for a common USD annual period. No silent exemptions.\"}, \"coverage\": {\"securities\": 1506, \"unique_issuers\": 1500, \"ingested_issuers\": 1498, \"model_ready_issuers\": 1431, \"universe_fresh\": true}}\n",
+      "stdout_tail": "{\"activation\": {\"ready\": false, \"status\": \"blocked\", \"blockers\": [\"Unmapped securities\", \"Fundamental records pending\", \"Required annual modeling fields missing or incompatible\"], \"policy\": \"All universe securities mapped; all issuer records valid and retrieved within 36 hours; universe retrieved within 36 hours and dated within seven days; each issuer has positive revenue and reported net income for a common USD annual period. No silent exemptions.\"}, \"coverage\": {\"securities\": 2592, \"unique_issuers\": 2561, \"ingested_issuers\": 2559, \"model_ready_issuers\": 2283, \"universe_fresh\": true}}\n",
       "stderr_tail": ""
     },
     {
@@ -57,7 +57,7 @@
       "script": "parse_investor_events.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"catalogued_candidate_filings\": 1150, \"archived_candidate_filings\": 1149, \"selected_filings\": 9, \"parsed_filings\": 1136, \"beneficial_ownership_records\": 2466, \"proxy_vote_records\": 9852, \"unavailable_filings\": 9, \"unsupported_filings\": 4, \"unselected_archived_filings\": 0, \"unchanged_unsupported_filings\": 4, \"previously_parsed_filings\": 1136, \"remaining_archived_filings\": 13, \"release_shards_fetched\": 2}\n",
+      "stdout_tail": "{\"catalogued_candidate_filings\": 21062, \"archived_candidate_filings\": 21061, \"selected_filings\": 2000, \"parsed_filings\": 1888, \"beneficial_ownership_records\": 4314, \"proxy_vote_records\": 39426, \"unavailable_filings\": 19166, \"unsupported_filings\": 7, \"unselected_archived_filings\": 17921, \"unchanged_unsupported_filings\": 4, \"previously_parsed_filings\": 1136, \"remaining_archived_filings\": 19173, \"release_shards_fetched\": 2}\n",
       "stderr_tail": ""
     },
     {
@@ -65,7 +65,7 @@
       "script": "intelligence_health.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"status\": \"blocked\", \"fundamentals_coverage_pct\": 99.8667, \"model_ready\": false, \"blocking_reasons\": [\"fundamentals_universe_not_fully_ingested_and_mapped\", \"fundamentals_records_stale_or_missing\", \"historical_filing_archive_incomplete\", \"historical_benchmark_unavailable\", \"style_inputs_not_complete\"], \"retained_events\": 2000}\n",
+      "stdout_tail": "{\"status\": \"blocked\", \"fundamentals_coverage_pct\": 99.9219, \"model_ready\": false, \"blocking_reasons\": [\"fundamentals_universe_not_fully_ingested_and_mapped\", \"fundamentals_records_stale_or_missing\", \"historical_filing_archive_incomplete\", \"historical_benchmark_unavailable\", \"style_inputs_not_complete\"], \"retained_events\": 2000}\n",
       "stderr_tail": ""
     }
   ]
