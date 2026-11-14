@@ -10,6 +10,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 STAGES = (
     ("identity", "build_identity_master.py"),
     ("ownership_history", "reconcile_ownership.py"),
+    ("ownership_atlas", "build_ownership_atlas.py"),
     ("market_inputs_liquidity", "market_inputs.py"),
     ("mandates_targeting", "investor_intelligence.py"),
     ("benchmark_diagnostics", "match_fundamental_portfolios.py"),
