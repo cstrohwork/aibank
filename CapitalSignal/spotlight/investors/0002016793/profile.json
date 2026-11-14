@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2016793/0001085146-26-000844.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d3e4cec141050a9da413217d4871435bd59673f5249979b6e7bbb02f19c10f37",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "eb613b79a04dd13c0f9ba0864098f00f10e38e8085d7eb606f8fd1248630dae0",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000844",
+    "source": "https://www.sec.gov/Archives/edgar/data/2016793/0001085146-26-000844.txt",
+    "distinct_positions": 99,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 274772680.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 59384.0,
+        "value_usd": 19777745.0,
+        "weight_pct": 7.2
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 35341.0,
+        "value_usd": 18127903.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 38832.0,
+        "value_usd": 13231687.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 31283.0,
+        "value_usd": 11240798.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 29551.0,
+        "value_usd": 9776317.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 9426.0,
+        "value_usd": 8580557.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 45788.0,
+        "value_usd": 8500625.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "COM",
+        "issuer": "AMGEN INC",
+        "shares": 19891.0,
+        "value_usd": 8384054.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 30778.0,
+        "value_usd": 8148036.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "45866F104",
+        "security_class": "COM",
+        "issuer": "INTERCONTINENTAL EXCHANGE IN",
+        "shares": 51484.0,
+        "value_usd": 7827129.0,
+        "weight_pct": 2.85
+      }
+    ],
+    "top_five_pct": 26.26,
+    "top_ten_pct": 41.34,
+    "hhi": 295.35,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 29,
+      "exited_positions": 20,
+      "increased_positions": 30,
+      "reduced_positions": 36
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001085146-25-005924"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000844"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

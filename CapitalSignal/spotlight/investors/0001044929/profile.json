@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1044929/0001044929-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2409dc919ba40784a88e13052f4c805fa0d8d483875ff6a025ebbec24d9cefd1",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "631955f57487d5f3c2fcaf32e9afa04cf05135bb4c1631c55f3b260f786ed611",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001044929-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1044929/0001044929-26-000006.txt",
+    "distinct_positions": 496,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1947545262.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K107",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC",
+        "shares": 237063.0,
+        "value_usd": 80776747.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "COM",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 428247.0,
+        "value_usd": 80103602.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "COM",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 789054.0,
+        "value_usd": 71101622.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "COM",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 683140.0,
+        "value_usd": 64228781.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "464287457",
+        "security_class": "COM",
+        "issuer": "ISHARES TR",
+        "shares": 766834.0,
+        "value_usd": 62266932.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "COM",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 1224066.0,
+        "value_usd": 61778611.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "47103U738",
+        "security_class": "COM",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 1195708.0,
+        "value_usd": 61040881.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "911363109",
+        "security_class": "COM",
+        "issuer": "UNITED RENTALS INC",
+        "shares": 57475.0,
+        "value_usd": 57520032.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 496901.0,
+        "value_usd": 53481509.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "375558103",
+        "security_class": "COM",
+        "issuer": "GILEAD SCIENCES INC",
+        "shares": 351309.0,
+        "value_usd": 52362635.0,
+        "weight_pct": 2.69
+      }
+    ],
+    "top_five_pct": 18.41,
+    "top_ten_pct": 33.1,
+    "hhi": 206.33,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 75,
+      "exited_positions": 68,
+      "increased_positions": 124,
+      "reduced_positions": 113
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001044929-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001044929-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

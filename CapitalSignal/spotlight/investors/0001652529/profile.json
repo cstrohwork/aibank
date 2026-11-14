@@ -1,121 +1,133 @@
 {
   "manager_cik": "0001652529",
   "investor_name": "Trinity Legacy Partners, LLC",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-04",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-07-24",
   "city": "HOUSTON",
   "state": "TX",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1652529/0001214659-25-015825.txt"
+    "https://www.sec.gov/Archives/edgar/data/1652529/0001214659-25-015825.txt",
+    "https://www.sec.gov/Archives/edgar/data/1652529/0001214659-26-008905.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e3ac32ba7a518a4284a9f9b6a61a9becd646829919758bcda9b67b09cf715a52",
-  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "source_fingerprint": "192e1ae05f0bdb950929486557d71c6b80580c766c1aa7798455a9b7fccba9e4",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-04",
-    "accession": "0001214659-25-015825",
-    "source": "https://www.sec.gov/Archives/edgar/data/1652529/0001214659-25-015825.txt",
-    "distinct_positions": 98,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-07-24",
+    "accession": "0001214659-26-008905",
+    "source": "https://www.sec.gov/Archives/edgar/data/1652529/0001214659-26-008905.txt",
+    "distinct_positions": 109,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 434484233.0,
+    "reported_long_equity_value_usd": 500392954.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Relative cached values; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 84158.0,
-        "value_usd": 17041062.0,
-        "weight_pct": 3.92
-      },
-      {
         "cusip": "46641Q670",
         "security_class": "CORE PLUS BD ETF",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 349001.0,
-        "value_usd": 16629879.0,
-        "weight_pct": 3.83
+        "shares": 443210.0,
+        "value_usd": 20631433.0,
+        "weight_pct": 4.12
       },
       {
         "cusip": "808524201",
         "security_class": "US LRG CAP ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 605921.0,
-        "value_usd": 16341688.0,
-        "weight_pct": 3.76
-      },
-      {
-        "cusip": "46641Q332",
-        "security_class": "EQUITY PREMIUM",
-        "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 261306.0,
-        "value_usd": 14863063.0,
-        "weight_pct": 3.42
-      },
-      {
-        "cusip": "808524508",
-        "security_class": "US MID-CAP ETF",
-        "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 477408.0,
-        "value_usd": 14112179.0,
-        "weight_pct": 3.25
-      },
-      {
-        "cusip": "92204A603",
-        "security_class": "INDUSTRIAL ETF",
-        "issuer": "VANGUARD WORLD FD",
-        "shares": 40013.0,
-        "value_usd": 12019528.0,
-        "weight_pct": 2.77
+        "shares": 599762.0,
+        "value_usd": 17758957.0,
+        "weight_pct": 3.55
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 44018.0,
-        "value_usd": 11901089.0,
-        "weight_pct": 2.74
+        "shares": 53070.0,
+        "value_usd": 17686239.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "808524508",
+        "security_class": "US MID-CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 481343.0,
+        "value_usd": 16938449.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 74045.0,
+        "value_usd": 15356996.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 42323.0,
+        "value_usd": 14981919.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 244454.0,
+        "value_usd": 13928966.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "92204A603",
+        "security_class": "INDUSTRIAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 37658.0,
+        "value_usd": 13063430.0,
+        "weight_pct": 2.61
+      },
+      {
+        "cusip": "33740U794",
+        "security_class": "MULTI MGR SML CP",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 441921.0,
+        "value_usd": 12336310.0,
+        "weight_pct": 2.47
       },
       {
         "cusip": "56035L104",
         "security_class": "COM",
         "issuer": "MAIN STR CAP CORP",
-        "shares": 191001.0,
-        "value_usd": 10871791.0,
-        "weight_pct": 2.5
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 37158.0,
-        "value_usd": 10471959.0,
-        "weight_pct": 2.41
-      },
-      {
-        "cusip": "33739E108",
-        "security_class": "PFD SECS INC ETF",
-        "issuer": "FIRST TR EXCH TRADED FD III",
-        "shares": 569708.0,
-        "value_usd": 10459830.0,
-        "weight_pct": 2.41
+        "shares": 217844.0,
+        "value_usd": 12099069.0,
+        "weight_pct": 2.42
       }
     ],
-    "top_five_pct": 18.18,
-    "top_ten_pct": 31.01,
-    "hhi": 188.14,
-    "changes": null,
+    "top_five_pct": 17.66,
+    "top_ten_pct": 30.93,
+    "hhi": 187.94,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 22,
+      "exited_positions": 11,
+      "increased_positions": 49,
+      "reduced_positions": 35
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-04",
         "accession": "0001214659-25-015825"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001214659-26-008905"
       }
     ]
   },

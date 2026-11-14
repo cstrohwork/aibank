@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1859259/0001085146-26-000880.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b73ec948386a65058c0a6951b4143fa93262ea9c54ad49c78e8eb6fe2c961755",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "20c08f5f4e504af142caf84cd960ab863e7806a8f47b34b3d931f39b5ed6411a",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001085146-26-000880",
+    "source": "https://www.sec.gov/Archives/edgar/data/1859259/0001085146-26-000880.txt",
+    "distinct_positions": 293,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 516994575.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 57818.0,
+        "value_usd": 19254475.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 24204.0,
+        "value_usd": 16963578.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 367211.0,
+        "value_usd": 15213567.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "92189F643",
+        "security_class": "MRNGSTR WDE MOAT",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 122627.0,
+        "value_usd": 12962906.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 244074.0,
+        "value_usd": 11923007.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 15744.0,
+        "value_usd": 11646699.0,
+        "weight_pct": 2.25
+      },
+      {
+        "cusip": "55286W108",
+        "security_class": "CORE PLUS BD ETF",
+        "issuer": "MFS ACTIVE EXCHANGE TRADED F",
+        "shares": 458924.0,
+        "value_usd": 10917794.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "US CASH COWS 100",
+        "issuer": "PACER FDS TR",
+        "shares": 158703.0,
+        "value_usd": 10595028.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 185394.0,
+        "value_usd": 10422842.0,
+        "weight_pct": 2.02
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 276672.0,
+        "value_usd": 9940817.0,
+        "weight_pct": 1.92
+      }
+    ],
+    "top_five_pct": 14.76,
+    "top_ten_pct": 25.11,
+    "hhi": 119.24,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 133,
+      "exited_positions": 51,
+      "increased_positions": 97,
+      "reduced_positions": 60
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001085146-25-005870"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001085146-26-000880"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1793399/0001793399-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6b5e59a41435fceb9c7aab0081652e1ee5663452be68dd2c6f4cc3131ec8ea41",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "52cc276fd39816da381ffdd8c84c09614e8fa504def20d8600eb3277bc856798",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-17",
+    "accession": "0001793399-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1793399/0001793399-26-000004.txt",
+    "distinct_positions": 42,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 75869616.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 159304.0,
+        "value_usd": 32884667.0,
+        "weight_pct": 43.34
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMER CORP",
+        "shares": 166152.0,
+        "value_usd": 5763633.0,
+        "weight_pct": 7.6
+      },
+      {
+        "cusip": "101507101",
+        "security_class": "COM",
+        "issuer": "SRH TOTAL RETURN FUND INC",
+        "shares": 172065.0,
+        "value_usd": 3079962.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 20661.0,
+        "value_usd": 2867738.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 18578.0,
+        "value_usd": 2724278.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 14475.0,
+        "value_usd": 2545769.0,
+        "weight_pct": 3.36
+      },
+      {
+        "cusip": "45256X103",
+        "security_class": "COM",
+        "issuer": "IMMUNITYBIO INC",
+        "shares": 726258.0,
+        "value_usd": 2287314.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 15762.0,
+        "value_usd": 1785158.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "824348106",
+        "security_class": "COM",
+        "issuer": "SHERWIN WILLIAMS CO",
+        "shares": 4800.0,
+        "value_usd": 1652736.0,
+        "weight_pct": 2.18
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 6304.0,
+        "value_usd": 1586439.0,
+        "weight_pct": 2.09
+      }
+    ],
+    "top_five_pct": 62.37,
+    "top_ten_pct": 75.36,
+    "hhi": 2041.2,
+    "changes": {
+      "previous_period": "2026-03-31",
+      "new_positions": 5,
+      "exited_positions": 5,
+      "increased_positions": 7,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-08-17",
+        "accession": "0001793399-26-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-17",
+        "accession": "0001793399-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

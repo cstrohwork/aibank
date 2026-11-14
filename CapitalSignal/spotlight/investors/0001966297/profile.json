@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1966297/0002085853-26-001114.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a3e44a57adc00e0fd833c2b40fc48d21bbf08fdc9e877fb1bfe1b0e2844da68a",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "0cfa44ed58d0fb0e029d38b33da8af6ed728fedff8c1ba9ef746a906a034702f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0002085853-26-001114",
+    "source": "https://www.sec.gov/Archives/edgar/data/1966297/0002085853-26-001114.txt",
+    "distinct_positions": 26,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 163546217.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 231470.0,
+        "value_usd": 52863157.0,
+        "weight_pct": 32.32
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 35349.0,
+        "value_usd": 18076772.0,
+        "weight_pct": 11.05
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 35683.0,
+        "value_usd": 16278228.0,
+        "weight_pct": 9.95
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 66733.0,
+        "value_usd": 12482408.0,
+        "weight_pct": 7.63
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 9383.0,
+        "value_usd": 9993927.0,
+        "weight_pct": 6.11
+      },
+      {
+        "cusip": "46222L108",
+        "security_class": "COM",
+        "issuer": "IONQ INC",
+        "shares": 184283.0,
+        "value_usd": 8082652.0,
+        "weight_pct": 4.94
+      },
+      {
+        "cusip": "26740W109",
+        "security_class": "COM",
+        "issuer": "D-WAVE QUANTUM INC",
+        "shares": 382788.0,
+        "value_usd": 6342797.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 17666.0,
+        "value_usd": 6204123.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "76655K103",
+        "security_class": "COMMON STOCK",
+        "issuer": "RIGETTI COMPUTING INC",
+        "shares": 392711.0,
+        "value_usd": 6181271.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 5620.0,
+        "value_usd": 3438091.0,
+        "weight_pct": 2.1
+      }
+    ],
+    "top_five_pct": 67.07,
+    "top_ten_pct": 85.57,
+    "hhi": 1456.27,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 5,
+      "increased_positions": 4,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0002085853-25-000116"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002085853-26-000968"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0002085853-26-001114"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

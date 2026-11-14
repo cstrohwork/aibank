@@ -12,8 +12,57 @@
     "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-097248.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "846f881989f8ded8ff46aecafcecbd5b70125d82f20d045d5e510dcd010ac864",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "6d88d1b42f06e9ee96076eefefc9d632361507e6ed122abcac4476408e2a2b2f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001104659-26-097248",
+    "source": "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-097248.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4354412163.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "01862Q107",
+        "security_class": "COM",
+        "issuer": "ALLIANCE LAUNDRY HLDGS INC",
+        "shares": 140751696.0,
+        "value_usd": 3732734978.0,
+        "weight_pct": 85.72
+      },
+      {
+        "cusip": "904311206",
+        "security_class": "CL C",
+        "issuer": "UNDER ARMOUR INC",
+        "shares": 66605319.0,
+        "value_usd": 414285084.0,
+        "weight_pct": 9.51
+      },
+      {
+        "cusip": "29445S100",
+        "security_class": "COM CL A",
+        "issuer": "EQUIPMENTSHARE COM INC",
+        "shares": 10548937.0,
+        "value_usd": 207392101.0,
+        "weight_pct": 4.76
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7461.64,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-097248"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

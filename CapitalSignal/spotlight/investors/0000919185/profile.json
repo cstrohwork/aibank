@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/919185/0000919185-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c6b8e0a04f8e18a847c0fa778e4b2e2bf26a62bd667c08c2ece7cfb0403cc0e7",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "61ffdc4dd648b0c3b65c746387bd6188f10d0e0c397b3fa1781551ed72e24a3f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0000919185-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/919185/0000919185-26-000009.txt",
+    "distinct_positions": 299,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1848052160.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "86800U500",
+        "security_class": "PREF CONV",
+        "issuer": "SUPER MICRO COMPUTER INC",
+        "shares": 2550000.0,
+        "value_usd": 130715005.0,
+        "weight_pct": 7.07
+      },
+      {
+        "cusip": "285512109",
+        "security_class": "COMMON",
+        "issuer": "ELECTRONIC ARTS INC",
+        "shares": 551415.0,
+        "value_usd": 113067646.0,
+        "weight_pct": 6.12
+      },
+      {
+        "cusip": "02079K602",
+        "security_class": "PREF CONV",
+        "issuer": "ALPHABET INC",
+        "shares": 1672571.0,
+        "value_usd": 83837622.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "820014405",
+        "security_class": "COMMON",
+        "issuer": "SHARPLINK INC",
+        "shares": 14357573.0,
+        "value_usd": 68916350.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "530909308",
+        "security_class": "COMMON",
+        "issuer": "LIBERTY LIVE HOLDINGS INC",
+        "shares": 568944.0,
+        "value_usd": 60313753.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "49177J102",
+        "security_class": "COMMON",
+        "issuer": "KENVUE INC",
+        "shares": 3009405.0,
+        "value_usd": 57389353.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "02079K404",
+        "security_class": "PREF CONV",
+        "issuer": "ALPHABET INC",
+        "shares": 1000000.0,
+        "value_usd": 50498752.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "65339F655",
+        "security_class": "PREF CONV",
+        "issuer": "NEXTERA ENERGY INC",
+        "shares": 825000.0,
+        "value_usd": 39475336.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "934423104",
+        "security_class": "COMMON",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 1273481.0,
+        "value_usd": 34549540.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "10922N103",
+        "security_class": "COMMON",
+        "issuer": "BRIGHTHOUSE FINL INC",
+        "shares": 503412.0,
+        "value_usd": 32001901.0,
+        "weight_pct": 1.73
+      }
+    ],
+    "top_five_pct": 24.72,
+    "top_ten_pct": 36.3,
+    "hhi": 198.85,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 243,
+      "exited_positions": 80,
+      "increased_positions": 26,
+      "reduced_positions": 21
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0000919185-25-000017"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000919185-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

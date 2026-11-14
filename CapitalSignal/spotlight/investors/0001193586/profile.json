@@ -12,8 +12,65 @@
     "https://www.sec.gov/Archives/edgar/data/1193586/0001104659-26-096390.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3c41693f6141d2bc677109867df9fadca8fb150484f228855419cb5469228c26",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "7953229dea313cbf6dc3216657618c39471ea55b3e177d14267d16ce228fe27a",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001104659-26-096390",
+    "source": "https://www.sec.gov/Archives/edgar/data/1193586/0001104659-26-096390.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 442653630.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "090168105",
+        "security_class": "Class A",
+        "issuer": "BillionToOne, Inc.",
+        "shares": 1711430.0,
+        "value_usd": 205337371.0,
+        "weight_pct": 46.39
+      },
+      {
+        "cusip": "76674Q107",
+        "security_class": "Common",
+        "issuer": "Rimini Street, Inc.",
+        "shares": 23565433.0,
+        "value_usd": 100388745.0,
+        "weight_pct": 22.68
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "Common-Class A",
+        "issuer": "Cerebras Systems, Inc.",
+        "shares": 398144.0,
+        "value_usd": 87989811.0,
+        "weight_pct": 19.88
+      },
+      {
+        "cusip": "221015100",
+        "security_class": "Common",
+        "issuer": "Corvus Pharmaceuticals, Inc.",
+        "shares": 3275616.0,
+        "value_usd": 48937703.0,
+        "weight_pct": 11.06
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3183.51,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096390"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

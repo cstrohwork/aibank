@@ -15,8 +15,134 @@
     "https://www.sec.gov/Archives/edgar/data/1067983/0001193125-26-352200.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cd7f7f42b7273e071344ad7f6f8ff3492e8c29ea1add6592a8d9d1e4fedb5fc0",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "c3f1d4d607cce0a4a747e3b975813d6843ff2e874c8a04b40ed16cc1823c7694",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001193125-26-352200",
+    "source": "https://www.sec.gov/Archives/edgar/data/1067983/0001193125-26-352200.txt",
+    "distinct_positions": 29,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 299253556246.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 227917808.0,
+        "value_usd": 65950296923.0,
+        "weight_pct": 22.04
+      },
+      {
+        "cusip": "025816109",
+        "security_class": "COM",
+        "issuer": "AMERICAN EXPRESS CO",
+        "shares": 151610700.0,
+        "value_usd": 51282319275.0,
+        "weight_pct": 17.14
+      },
+      {
+        "cusip": "191216100",
+        "security_class": "COM",
+        "issuer": "COCA COLA CO",
+        "shares": 400000000.0,
+        "value_usd": 32508000000.0,
+        "weight_pct": 10.86
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 78791167.0,
+        "value_usd": 28157599351.0,
+        "weight_pct": 9.41
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMER CORP",
+        "shares": 483394015.0,
+        "value_usd": 27543790975.0,
+        "weight_pct": 9.2
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 84375856.0,
+        "value_usd": 13986141890.0,
+        "weight_pct": 4.67
+      },
+      {
+        "cusip": "674599105",
+        "security_class": "COM",
+        "issuer": "OCCIDENTAL PETE CORP",
+        "shares": 264941431.0,
+        "value_usd": 12868205304.0,
+        "weight_pct": 4.3
+      },
+      {
+        "cusip": "H1467J104",
+        "security_class": "COM",
+        "issuer": "CHUBB LIMITED",
+        "shares": 34249183.0,
+        "value_usd": 11670066615.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "615369105",
+        "security_class": "COM",
+        "issuer": "MOODYS CORP",
+        "shares": 24669778.0,
+        "value_usd": 11173435852.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 27188433.0,
+        "value_usd": 9606489032.0,
+        "weight_pct": 3.21
+      }
+    ],
+    "top_five_pct": 68.65,
+    "top_ten_pct": 88.47,
+    "hhi": 1168.16,
+    "changes": {
+      "previous_period": "2026-03-31",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 7,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-282901"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001193125-26-054580"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-05-15",
+        "accession": "0001193125-26-226661"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001193125-26-352200"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1633448/0001085146-26-000823.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c1010b600daf80fed7736f9815f5f40542bf2ae6f7b2e79de4c7122c66517e89",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "15aa437df56a86452bfd15ecb5c4730862462e5dbece1dea4a1a438f03db5b87",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000823",
+    "source": "https://www.sec.gov/Archives/edgar/data/1633448/0001085146-26-000823.txt",
+    "distinct_positions": 185,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 880135173.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 668825.0,
+        "value_usd": 103801575.0,
+        "weight_pct": 11.79
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 1109820.0,
+        "value_usd": 100005860.0,
+        "weight_pct": 11.36
+      },
+      {
+        "cusip": "14019W109",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP INTL FOCUS EQT",
+        "shares": 2099464.0,
+        "value_usd": 71990629.0,
+        "weight_pct": 8.18
+      },
+      {
+        "cusip": "922908512",
+        "security_class": "MRNGSTR MD CP VA",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 262972.0,
+        "value_usd": 51418951.0,
+        "weight_pct": 5.84
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 184157.0,
+        "value_usd": 48173572.0,
+        "weight_pct": 5.47
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 872789.0,
+        "value_usd": 44049656.0,
+        "weight_pct": 5.0
+      },
+      {
+        "cusip": "47103U852",
+        "security_class": "HENDERSON MTG",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 882191.0,
+        "value_usd": 37281380.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "092528504",
+        "security_class": "ISHARES AAA CLO",
+        "issuer": "BLACKROCK ETF TRUST II",
+        "shares": 712776.0,
+        "value_usd": 36980407.0,
+        "weight_pct": 4.2
+      },
+      {
+        "cusip": "922908538",
+        "security_class": "MRNGSTR MD CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 97518.0,
+        "value_usd": 28485033.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 97054.0,
+        "value_usd": 27610885.0,
+        "weight_pct": 3.14
+      }
+    ],
+    "top_five_pct": 42.65,
+    "top_ten_pct": 62.47,
+    "hhi": 520.2,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 78,
+      "exited_positions": 43,
+      "increased_positions": 44,
+      "reduced_positions": 54
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-06",
+        "accession": "0001085146-25-005788"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000823"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

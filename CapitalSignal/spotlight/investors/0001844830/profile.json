@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1844830/0001844830-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1844830/0001844830-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "764a9ce35720d2089a1649f7506287171e638cd90bd6ba5cda20ac81d620bdf9",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "feaa4698665627720b94b916f013faf6e573fcb184b223b78372ec80b28d8733",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-06",
+    "accession": "0001844830-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844830/0001844830-26-000004.txt",
+    "distinct_positions": 12,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 114056.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE INC",
+        "shares": 11809.0,
+        "value_usd": 20412.0,
+        "weight_pct": 17.9
+      },
+      {
+        "cusip": "81762P102",
+        "security_class": "COM",
+        "issuer": "SERVICENOW INC",
+        "shares": 124338.0,
+        "value_usd": 16663.0,
+        "weight_pct": 14.61
+      },
+      {
+        "cusip": "98139A105",
+        "security_class": "COM CL A",
+        "issuer": "WORKIVA INC",
+        "shares": 199776.0,
+        "value_usd": 13299.0,
+        "weight_pct": 11.66
+      },
+      {
+        "cusip": "922475108",
+        "security_class": "CL A COM",
+        "issuer": "VEEVA SYS INC",
+        "shares": 37377.0,
+        "value_usd": 10669.0,
+        "weight_pct": 9.35
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 19927.0,
+        "value_usd": 10221.0,
+        "weight_pct": 8.96
+      },
+      {
+        "cusip": "98138H101",
+        "security_class": "CL A",
+        "issuer": "WORKDAY INC",
+        "shares": 43773.0,
+        "value_usd": 8337.0,
+        "weight_pct": 7.31
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 21466.0,
+        "value_usd": 7314.0,
+        "weight_pct": 6.41
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 19791.0,
+        "value_usd": 7112.0,
+        "weight_pct": 6.24
+      },
+      {
+        "cusip": "81141R100",
+        "security_class": "SPONSORD ADS",
+        "issuer": "SEA LTD SPONSORD ADS",
+        "shares": 68833.0,
+        "value_usd": 6702.0,
+        "weight_pct": 5.88
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 24794.0,
+        "value_usd": 6177.0,
+        "weight_pct": 5.42
+      }
+    ],
+    "top_five_pct": 62.48,
+    "top_ten_pct": 93.73,
+    "hhi": 1054.63,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001844830-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-06",
+        "accession": "0001844830-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

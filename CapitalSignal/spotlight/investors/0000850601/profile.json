@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/850601/0000850601-26-000005.txt",
     "https://www.sec.gov/Archives/edgar/data/850601/0001085146-26-000870.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2e88f906e24127f08282afec27db8505f051152fa6aaa0fd867bb616be016839",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "cfafd47aaeb6663f0c89dd5d4c1953883546c622b93adb01e54c5b078ed9540f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000870",
+    "source": "https://www.sec.gov/Archives/edgar/data/850601/0001085146-26-000870.txt",
+    "distinct_positions": 94,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 116305464.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 19317.0,
+        "value_usd": 6432947.0,
+        "weight_pct": 5.53
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 7748.0,
+        "value_usd": 5908857.0,
+        "weight_pct": 5.08
+      },
+      {
+        "cusip": "464287630",
+        "security_class": "RUS 2000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 27420.0,
+        "value_usd": 5743119.0,
+        "weight_pct": 4.94
+      },
+      {
+        "cusip": "464287648",
+        "security_class": "RUS 2000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 14917.0,
+        "value_usd": 5323877.0,
+        "weight_pct": 4.58
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 103942.0,
+        "value_usd": 4500689.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "78464A763",
+        "security_class": "ST STR SP DIV",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 30218.0,
+        "value_usd": 4426333.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 12953.0,
+        "value_usd": 4413605.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 45967.0,
+        "value_usd": 2809963.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "78464A300",
+        "security_class": "ST STR SP600SM C",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 26212.0,
+        "value_usd": 2677556.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 5188.0,
+        "value_usd": 2660925.0,
+        "weight_pct": 2.29
+      }
+    ],
+    "top_five_pct": 24.0,
+    "top_ten_pct": 38.6,
+    "hhi": 230.44,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 9,
+      "increased_positions": 9,
+      "reduced_positions": 49
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0000850601-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000870"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1964538/0001964538-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "eae59c239cc856551502778e07797bf8ab8e09a254abb4dea9fc29adda174c6e",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "c2ec0db6f17e75339bd92f44631fabfa0d3dd267d519506bc21f3113c112a7db",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0001964538-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1964538/0001964538-26-000005.txt",
+    "distinct_positions": 32,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 161235236.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V401",
+        "security_class": "US EQUI MARK ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 273353.0,
+        "value_usd": 22696477.0,
+        "weight_pct": 14.08
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 365999.0,
+        "value_usd": 15163342.0,
+        "weight_pct": 9.4
+      },
+      {
+        "cusip": "25434V500",
+        "security_class": "US SMALL CAP ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 173058.0,
+        "value_usd": 13398149.0,
+        "weight_pct": 8.31
+      },
+      {
+        "cusip": "025072158",
+        "security_class": "AVANTIS US LARG",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 135835.0,
+        "value_usd": 12261855.0,
+        "weight_pct": 7.6
+      },
+      {
+        "cusip": "464288638",
+        "security_class": "ISHS 5-10YR INVT",
+        "issuer": "ISHARES TR",
+        "shares": 236711.0,
+        "value_usd": 11918392.0,
+        "weight_pct": 7.39
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 13109.0,
+        "value_usd": 10039306.0,
+        "weight_pct": 6.23
+      },
+      {
+        "cusip": "92206C771",
+        "security_class": "MTG-BKD SECS ETF",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 220376.0,
+        "value_usd": 9786877.0,
+        "weight_pct": 6.07
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "CORE BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 127367.0,
+        "value_usd": 9376749.0,
+        "weight_pct": 5.82
+      },
+      {
+        "cusip": "464288646",
+        "security_class": "ISHS 1-5YR INVS",
+        "issuer": "ISHARES TR",
+        "shares": 147531.0,
+        "value_usd": 7558004.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "025072125",
+        "security_class": "AVA MID EQU ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 82318.0,
+        "value_usd": 6275081.0,
+        "weight_pct": 3.89
+      }
+    ],
+    "top_five_pct": 46.79,
+    "top_ten_pct": 73.48,
+    "hhi": 678.38,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 5,
+      "exited_positions": 87,
+      "increased_positions": 17,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001964538-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0001964538-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

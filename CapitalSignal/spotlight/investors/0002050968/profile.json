@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2050968/0002050968-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "26f830310387f218938ff61a5163636f14248c609ca761947473381f3e7a38bd",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "3c7e540e825839f057d1451491ccc68cf2c16a4f94c429821de4e524e94a30d9",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0002050968-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2050968/0002050968-26-000004.txt",
+    "distinct_positions": 87,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 153265909.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 30399.0,
+        "value_usd": 23183352.0,
+        "weight_pct": 15.13
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 111088.0,
+        "value_usd": 11540956.0,
+        "weight_pct": 7.53
+      },
+      {
+        "cusip": "464287499",
+        "security_class": "RUS MID CAP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 81509.0,
+        "value_usd": 8697830.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "464288414",
+        "security_class": "NATIONAL MUN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 61729.0,
+        "value_usd": 6240833.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 59978.0,
+        "value_usd": 5670282.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 72554.0,
+        "value_usd": 5123039.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 20631.0,
+        "value_usd": 4813387.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 16458.0,
+        "value_usd": 4573521.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "46435G516",
+        "security_class": "ESG AW MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 37126.0,
+        "value_usd": 3825842.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "25402D102",
+        "security_class": "COM",
+        "issuer": "DIGITALOCEAN HLDGS INC",
+        "shares": 27475.0,
+        "value_usd": 3664890.0,
+        "weight_pct": 2.39
+      }
+    ],
+    "top_five_pct": 36.1,
+    "top_ten_pct": 50.46,
+    "hhi": 448.05,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 29,
+      "exited_positions": 12,
+      "increased_positions": 42,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-08",
+        "accession": "0002050968-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0002050968-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

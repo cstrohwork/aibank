@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1817797/0001817797-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "658b60aab2394585fbe639a1c7b03c032146b5acd0bed532375434e8100cf560",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "48a6d04da6f247a5237f5a0e6397691d3ca85b785f2854e69d624087adf0a1c2",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001817797-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1817797/0001817797-26-000008.txt",
+    "distinct_positions": 24,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 771278494.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 142816.0,
+        "value_usd": 78758740.0,
+        "weight_pct": 10.21
+      },
+      {
+        "cusip": "46120E602",
+        "security_class": "COM NEW",
+        "issuer": "INTUITIVE SURGICAL INC",
+        "shares": 133918.0,
+        "value_usd": 54455076.0,
+        "weight_pct": 7.06
+      },
+      {
+        "cusip": "902252105",
+        "security_class": "COM",
+        "issuer": "TYLER TECHNOLOGIES INC",
+        "shares": 169676.0,
+        "value_usd": 54058774.0,
+        "weight_pct": 7.01
+      },
+      {
+        "cusip": "922475108",
+        "security_class": "CL A COM",
+        "issuer": "VEEVA SYS INC",
+        "shares": 178815.0,
+        "value_usd": 51042742.0,
+        "weight_pct": 6.62
+      },
+      {
+        "cusip": "28176E108",
+        "security_class": "COM",
+        "issuer": "EDWARDS LIFESCIENCES CORP",
+        "shares": 589732.0,
+        "value_usd": 50905666.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "45168D104",
+        "security_class": "COM",
+        "issuer": "IDEXX LABS INC",
+        "shares": 96546.0,
+        "value_usd": 50415356.0,
+        "weight_pct": 6.54
+      },
+      {
+        "cusip": "91324P102",
+        "security_class": "COM",
+        "issuer": "UNITEDHEALTH GROUP INC",
+        "shares": 130988.0,
+        "value_usd": 48083075.0,
+        "weight_pct": 6.23
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 92232.0,
+        "value_usd": 47305793.0,
+        "weight_pct": 6.13
+      },
+      {
+        "cusip": "955306105",
+        "security_class": "COM",
+        "issuer": "WEST PHARMACEUTICAL SVSC INC",
+        "shares": 120729.0,
+        "value_usd": 44761484.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "127387108",
+        "security_class": "COM",
+        "issuer": "CADENCE DESIGN SYSTEM INC",
+        "shares": 134530.0,
+        "value_usd": 44419788.0,
+        "weight_pct": 5.76
+      }
+    ],
+    "top_five_pct": 37.5,
+    "top_ten_pct": 67.97,
+    "hhi": 615.1,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 2,
+      "exited_positions": 0,
+      "increased_positions": 4,
+      "reduced_positions": 18
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001817797-25-000011"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001817797-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

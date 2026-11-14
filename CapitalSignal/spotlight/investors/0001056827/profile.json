@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1056827/0001056827-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7d9217e43b9b4ba95fd7dc030c32c226997d4fce418a4f25dc78d702533c9e54",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "047b99a7e69a685b768534a272ee69dc4fd4db82cfa85d74d596b19063d5e524",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0001056827-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1056827/0001056827-26-000005.txt",
+    "distinct_positions": 61,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1118174926.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 619403.0,
+        "value_usd": 317692015.0,
+        "weight_pct": 28.41
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 268.0,
+        "value_usd": 200197340.0,
+        "weight_pct": 17.9
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 372534.0,
+        "value_usd": 185503256.0,
+        "weight_pct": 16.59
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 322616.0,
+        "value_usd": 85409247.0,
+        "weight_pct": 7.64
+      },
+      {
+        "cusip": "615369105",
+        "security_class": "COM",
+        "issuer": "MOODYS CORP",
+        "shares": 146162.0,
+        "value_usd": 66376565.0,
+        "weight_pct": 5.94
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 346080.0,
+        "value_usd": 50278470.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 92723.0,
+        "value_usd": 31594455.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "907818108",
+        "security_class": "COM",
+        "issuer": "UNION PAC CORP",
+        "shares": 69594.0,
+        "value_usd": 18938652.0,
+        "weight_pct": 1.69
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 56200.0,
+        "value_usd": 18715578.0,
+        "weight_pct": 1.67
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 9516.0,
+        "value_usd": 17240325.0,
+        "weight_pct": 1.54
+      }
+    ],
+    "top_five_pct": 76.48,
+    "top_ten_pct": 88.71,
+    "hhi": 1540.06,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 6,
+      "exited_positions": 7,
+      "increased_positions": 8,
+      "reduced_positions": 36
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-02",
+        "accession": "0001056827-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0001056827-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

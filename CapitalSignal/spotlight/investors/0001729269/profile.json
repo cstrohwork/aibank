@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1729269/0001729269-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c8170e04401fc195867e48157e3f5836bfad9e886816fc494e45e72c8f734ff4",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "7cb00a2c9cd8527c967488d94aff0f6e33011ad85ca210a7f767d712bec6afde",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001729269-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1729269/0001729269-26-000008.txt",
+    "distinct_positions": 87,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 426218.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 41298.0,
+        "value_usd": 28944.0,
+        "weight_pct": 6.79
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 98258.0,
+        "value_usd": 24481.0,
+        "weight_pct": 5.74
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL C",
+        "shares": 70180.0,
+        "value_usd": 23913.0,
+        "weight_pct": 5.61
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 500 ETF",
+        "shares": 240135.0,
+        "value_usd": 21555.0,
+        "weight_pct": 5.06
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "Stock",
+        "issuer": "VISA INC COM CL A",
+        "shares": 58146.0,
+        "value_usd": 20894.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "Stock",
+        "issuer": "MASTERCARD INCORPORATED CL A",
+        "shares": 35217.0,
+        "value_usd": 19422.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 84754.0,
+        "value_usd": 19356.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 25090.0,
+        "value_usd": 12869.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "Stock",
+        "issuer": "GOLDMAN SACHS GROUP INC COM",
+        "shares": 13438.0,
+        "value_usd": 12099.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "Stock",
+        "issuer": "PALANTIR TECHNOLOGIES INC CL A",
+        "shares": 63624.0,
+        "value_usd": 11901.0,
+        "weight_pct": 2.79
+      }
+    ],
+    "top_five_pct": 28.1,
+    "top_ten_pct": 45.85,
+    "hhi": 302.22,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 66,
+      "exited_positions": 16,
+      "increased_positions": 7,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001729269-25-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001729269-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1872501/0001872501-25-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1872501/0001872501-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1872501/0001872501-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "07f007c44cd6657651802f50010f3fb4b5ccb0f3830e693dc24909a16b6f37a0",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "a97df5eaf617cf702aea1b1805af2d2bf375eff0fda2844d9ad809f0105660c1",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001872501-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1872501/0001872501-26-000005.txt",
+    "distinct_positions": 70,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 167852630.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 232317.0,
+        "value_usd": 11725017.0,
+        "weight_pct": 6.99
+      },
+      {
+        "cusip": "78433H303",
+        "security_class": "NEOS S&P 500 HI",
+        "issuer": "NEOS ETF TRUST",
+        "shares": 156508.0,
+        "value_usd": 8321507.0,
+        "weight_pct": 4.96
+      },
+      {
+        "cusip": "82889N640",
+        "security_class": "TREASURY OPT INC",
+        "issuer": "SIMPLIFY EXCHANGE TRADED FUN",
+        "shares": 327984.0,
+        "value_usd": 7569871.0,
+        "weight_pct": 4.51
+      },
+      {
+        "cusip": "33740U752",
+        "security_class": "FT VEST NASD ETF",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 181885.0,
+        "value_usd": 7369980.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "33733E104",
+        "security_class": "CAP STRENGTH ETF",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 78509.0,
+        "value_usd": 7368070.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "78433H675",
+        "security_class": "NASDAQ 100 HIGH",
+        "issuer": "NEOS ETF TRUST",
+        "shares": 129488.0,
+        "value_usd": 7193078.0,
+        "weight_pct": 4.29
+      },
+      {
+        "cusip": "032108409",
+        "security_class": "CWP ENHANCED DIV",
+        "issuer": "AMPLIFY ETF TR",
+        "shares": 153393.0,
+        "value_usd": 7131241.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "33740F755",
+        "security_class": "FT LADD BUFF ETF",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 188611.0,
+        "value_usd": 7067254.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "33733E823",
+        "security_class": "GROWTH STRENGTH",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 166315.0,
+        "value_usd": 6306665.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "33738D879",
+        "security_class": "FT VEST RIS",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 211376.0,
+        "value_usd": 5893168.0,
+        "weight_pct": 3.51
+      }
+    ],
+    "top_five_pct": 25.23,
+    "top_ten_pct": 45.25,
+    "hhi": 307.53,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 14,
+      "increased_positions": 25,
+      "reduced_positions": 24
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001872501-25-000002"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001872501-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001872501-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

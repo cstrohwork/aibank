@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1428793/0001214659-26-012670.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ba4cc51ac7d5e11c148498884b8d66851370086ef873883ea36b289e97ad103e",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "6098407fb077c5e47568cabba2e7465dd46016ef340defec609fc88be7798e73",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001214659-26-012670",
+    "source": "https://www.sec.gov/Archives/edgar/data/1428793/0001214659-26-012670.txt",
+    "distinct_positions": 592,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1504021776.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "PORTFOLIO LR ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 701619.0,
+        "value_usd": 62977361.0,
+        "weight_pct": 4.19
+      },
+      {
+        "cusip": "26922A222",
+        "security_class": "APTUS COLLARED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 1186632.0,
+        "value_usd": 55676776.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 66637.0,
+        "value_usd": 49295889.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "33738R506",
+        "security_class": "RISNG DIVD ACHIV",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 510462.0,
+        "value_usd": 39964080.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "78463X889",
+        "security_class": "PORTFOLIO DEVLPD",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 769786.0,
+        "value_usd": 38650950.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "PRTFLO S&P500 GW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 264876.0,
+        "value_usd": 32600991.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "UNIT SER 1 S&P",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 40894.0,
+        "value_usd": 31186852.0,
+        "weight_pct": 2.07
+      },
+      {
+        "cusip": "26922A388",
+        "security_class": "APTUS DEFINED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 1115330.0,
+        "value_usd": 30303514.0,
+        "weight_pct": 2.01
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "PRTFLO S&P500 VL",
+        "issuer": "SPDR SER TR",
+        "shares": 480302.0,
+        "value_usd": 29360866.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "02072L607",
+        "security_class": "FREEDOOM 100 EM",
+        "issuer": "EA SERIES TRUST",
+        "shares": 319257.0,
+        "value_usd": 22335255.0,
+        "weight_pct": 1.49
+      }
+    ],
+    "top_five_pct": 16.39,
+    "top_ten_pct": 26.09,
+    "hhi": 112.42,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 167,
+      "exited_positions": 98,
+      "increased_positions": 235,
+      "reduced_positions": 187
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001214659-25-016153"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001214659-26-012670"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

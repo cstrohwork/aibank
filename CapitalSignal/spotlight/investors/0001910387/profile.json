@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000003.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e24302939369cb598dc229f28b8ea545475bf32925efb957ef23fac01aec7364",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "4014eb84dfb04c0990df6a17de56d86d65af4c0c4ce21a8f518cc8afc85764ec",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-18",
+    "accession": "0001910387-26-000003",
+    "source": "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000003.txt",
+    "distinct_positions": 49,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 241752345.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "Total Stock Market ETF",
+        "shares": 195196.0,
+        "value_usd": 72230339.0,
+        "weight_pct": 29.88
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "Vanguard S&P 500 ETF",
+        "shares": 64399.0,
+        "value_usd": 44248849.0,
+        "weight_pct": 18.3
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "Class B",
+        "issuer": "Berkshire Hathaway Class B",
+        "shares": 55186.0,
+        "value_usd": 27614523.0,
+        "weight_pct": 11.42
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "ETF",
+        "issuer": "Vanguard FTSE Developed Markets ETF",
+        "shares": 306567.0,
+        "value_usd": 21842873.0,
+        "weight_pct": 9.04
+      },
+      {
+        "cusip": "92204A876",
+        "security_class": "ETF",
+        "issuer": "Vanguard Utilities ETF",
+        "shares": 79370.0,
+        "value_usd": 15535178.0,
+        "weight_pct": 6.43
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "ETF",
+        "issuer": "VANGUARD SHORT TERM TREASURY ETF",
+        "shares": 163321.0,
+        "value_usd": 9504902.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "922908553",
+        "security_class": "ETF",
+        "issuer": "Vanguard REIT ETF",
+        "shares": 57533.0,
+        "value_usd": 5547948.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "Class A",
+        "issuer": "Berkshire Hathaway A",
+        "shares": 7.0,
+        "value_usd": 5241950.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "ETF",
+        "issuer": "Vanguard Total International Stock ETF",
+        "shares": 60940.0,
+        "value_usd": 5209793.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI INTRL DVLP MKT ETF",
+        "shares": 37387.0,
+        "value_usd": 3327777.0,
+        "weight_pct": 1.38
+      }
+    ],
+    "top_five_pct": 75.07,
+    "top_ten_pct": 86.99,
+    "hhi": 1519.91,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 17,
+      "exited_positions": 13,
+      "increased_positions": 19,
+      "reduced_positions": 8
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001910387-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-18",
+        "accession": "0001910387-26-000003"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

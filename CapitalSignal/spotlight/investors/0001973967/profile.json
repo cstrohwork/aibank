@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1973967/0001214659-25-015191.txt",
+    "https://www.sec.gov/Archives/edgar/data/1973967/0001214659-26-008830.txt",
     "https://www.sec.gov/Archives/edgar/data/1973967/0001214659-26-012799.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b423a00c95b0773e6572225af5e3c3570dae28b36e6001e26a5b04dbb0774269",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "99c28d7bcd57b49a850b7b25754f01337e97f36e1752c15daf186fba78b238ce",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001214659-26-012799",
+    "source": "https://www.sec.gov/Archives/edgar/data/1973967/0001214659-26-012799.txt",
+    "distinct_positions": 135,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 265033910.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "316092808",
+        "security_class": "MSCI INFO TECH I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 105929.0,
+        "value_usd": 31785056.0,
+        "weight_pct": 11.99
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 43233.0,
+        "value_usd": 14397454.0,
+        "weight_pct": 5.43
+      },
+      {
+        "cusip": "46137V282",
+        "security_class": "S&P500 EQL TEC",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 161984.0,
+        "value_usd": 10668266.0,
+        "weight_pct": 4.03
+      },
+      {
+        "cusip": "316092873",
+        "security_class": "MSCI COMMNTN SVC",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 132744.0,
+        "value_usd": 9558895.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "316092600",
+        "security_class": "MSCI HLTH CARE I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 98220.0,
+        "value_usd": 8024574.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "316092501",
+        "security_class": "MSCI FINLS IDX",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 104301.0,
+        "value_usd": 7897672.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "316092709",
+        "security_class": "MSCI INDL INDX",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 86000.0,
+        "value_usd": 7617880.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 82139.0,
+        "value_usd": 7417503.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "316092204",
+        "security_class": "MSCI CONSM DIS",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 76816.0,
+        "value_usd": 7275243.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 135264.0,
+        "value_usd": 6815955.0,
+        "weight_pct": 2.57
+      }
+    ],
+    "top_five_pct": 28.08,
+    "top_ten_pct": 42.05,
+    "hhi": 316.32,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 12,
+      "increased_positions": 54,
+      "reduced_positions": 37
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001214659-25-015191"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001214659-26-008830"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001214659-26-012799"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

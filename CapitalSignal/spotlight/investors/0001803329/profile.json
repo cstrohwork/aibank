@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1803329/0001803329-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b30af299459261e9b2c2545e199381780841728e333fdb5693a44b5ef09a1401",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "b226906d3c8f801bda60567396f4a885b7e83a340f6f6ebc3fc6b7af721f1953",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001803329-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803329/0001803329-26-000010.txt",
+    "distinct_positions": 231,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 577130401.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 255827.0,
+        "value_usd": 95740829.0,
+        "weight_pct": 16.59
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 107772.0,
+        "value_usd": 35889515.0,
+        "weight_pct": 6.22
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI EAFE ETF",
+        "shares": 340655.0,
+        "value_usd": 33002654.0,
+        "weight_pct": 5.72
+      },
+      {
+        "cusip": "46434V621",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE DIVIDEND GROWTH ETF",
+        "shares": 351223.0,
+        "value_usd": 26478728.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "78464A763",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR S&P DIVIDEND ETF",
+        "shares": 163302.0,
+        "value_usd": 23920548.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR GROWTH ETF",
+        "shares": 263003.0,
+        "value_usd": 23699174.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 92534.0,
+        "value_usd": 21132485.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "ETF",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH ETF",
+        "shares": 149097.0,
+        "value_usd": 18676107.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI EMERGING MARKETS ETF",
+        "shares": 218608.0,
+        "value_usd": 17742225.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "Stock",
+        "issuer": "TESLA INC COM",
+        "shares": 47608.0,
+        "value_usd": 16891697.0,
+        "weight_pct": 2.93
+      }
+    ],
+    "top_five_pct": 37.26,
+    "top_ten_pct": 54.26,
+    "hhi": 488.15,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 61,
+      "exited_positions": 20,
+      "increased_positions": 99,
+      "reduced_positions": 63
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001803329-25-000014"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001803329-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

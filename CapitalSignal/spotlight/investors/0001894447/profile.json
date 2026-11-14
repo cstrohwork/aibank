@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1894447/0001894447-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f4b08fd5803baa25b40261e4d7bc53c23e32d4f3f35272af418d2e7701a0db55",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "1f85e7df285087713ebf8b0e7376f2896430e6fcf223e1314b1bf9a2e001e4da",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001894447-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1894447/0001894447-26-000004.txt",
+    "distinct_positions": 202,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 233534837.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 46638.0,
+        "value_usd": 10651092.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 75067.0,
+        "value_usd": 8281393.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 29165.0,
+        "value_usd": 7266488.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 21628.0,
+        "value_usd": 7202399.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "464288661",
+        "security_class": "3 7 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 55584.0,
+        "value_usd": 6305422.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 7737.0,
+        "value_usd": 5610472.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "38149W622",
+        "security_class": "S&P 500 PREMIUM",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 93503.0,
+        "value_usd": 5220282.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 9095.0,
+        "value_usd": 4664998.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 51374.0,
+        "value_usd": 4588212.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "46436E460",
+        "security_class": "IBONDS DEC 2031",
+        "issuer": "ISHARES TR",
+        "shares": 214831.0,
+        "value_usd": 4182758.0,
+        "weight_pct": 1.79
+      }
+    ],
+    "top_five_pct": 17.0,
+    "top_ten_pct": 27.39,
+    "hhi": 132.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 66,
+      "exited_positions": 59,
+      "increased_positions": 79,
+      "reduced_positions": 51
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0002085853-25-000044"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001894447-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001894447-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1905673/0001085146-26-000886.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "53111c0c650f3612d0da9c1de68af53bf3a960ee75cbabe30c6b032158a069d0",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "a0e4aa75d76e1f35324c6267f43b1d736ffe6d4c3c371b1b3edec8fa3356206f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001085146-26-000886",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905673/0001085146-26-000886.txt",
+    "distinct_positions": 74,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 696208847.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 119142.0,
+        "value_usd": 85107660.0,
+        "weight_pct": 12.22
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1727332.0,
+        "value_usd": 56397395.0,
+        "weight_pct": 8.1
+      },
+      {
+        "cusip": "921937819",
+        "security_class": "INTERMED TERM",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 705655.0,
+        "value_usd": 51357575.0,
+        "weight_pct": 7.38
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 502117.0,
+        "value_usd": 46405629.0,
+        "weight_pct": 6.67
+      },
+      {
+        "cusip": "46434V621",
+        "security_class": "CORE DIV GRWTH",
+        "issuer": "ISHARES TR",
+        "shares": 545430.0,
+        "value_usd": 41632670.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 506821.0,
+        "value_usd": 39668899.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 132275.0,
+        "value_usd": 37960166.0,
+        "weight_pct": 5.45
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 49893.0,
+        "value_usd": 37805532.0,
+        "weight_pct": 5.43
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 472473.0,
+        "value_usd": 36508004.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 804410.0,
+        "value_usd": 34847059.0,
+        "weight_pct": 5.01
+      }
+    ],
+    "top_five_pct": 40.35,
+    "top_ten_pct": 67.18,
+    "hhi": 558.19,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 32,
+      "exited_positions": 10,
+      "increased_positions": 26,
+      "reduced_positions": 14
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001905673-25-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001085146-26-000886"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

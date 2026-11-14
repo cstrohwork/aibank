@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2055645/0002055645-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/2055645/0002055645-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/2055645/0002055645-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8596f3b7e38749559e9f9f89559ec81b2705fa338888b5c884073237689aee6e",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "889f6a41e0c5c098850575a27b34f337b1cdf6f92e3bc85a99de478c22a4f306",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0002055645-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2055645/0002055645-26-000005.txt",
+    "distinct_positions": 18,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 29563324.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 7226.0,
+        "value_usd": 5510764.0,
+        "weight_pct": 18.64
+      },
+      {
+        "cusip": "46654Q575",
+        "security_class": "MORTGAGE BACKED",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 84819.0,
+        "value_usd": 4100134.0,
+        "weight_pct": 13.87
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 36260.0,
+        "value_usd": 3767051.0,
+        "weight_pct": 12.74
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 12642.0,
+        "value_usd": 3513085.0,
+        "weight_pct": 11.88
+      },
+      {
+        "cusip": "664925708",
+        "security_class": "ESSEN 40 STK ETF",
+        "issuer": "NORTHERN LTS FD TR II",
+        "shares": 138754.0,
+        "value_usd": 2813418.0,
+        "weight_pct": 9.52
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 2733.0,
+        "value_usd": 2093068.0,
+        "weight_pct": 7.08
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 18280.0,
+        "value_usd": 1840430.0,
+        "weight_pct": 6.23
+      },
+      {
+        "cusip": "33740F755",
+        "security_class": "FT LADD BUFF ETF",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 47275.0,
+        "value_usd": 1771394.0,
+        "weight_pct": 5.99
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 1299.0,
+        "value_usd": 960961.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "78464A631",
+        "security_class": "ST STR SP AERO",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 2421.0,
+        "value_usd": 559856.0,
+        "weight_pct": 1.89
+      }
+    ],
+    "top_five_pct": 66.65,
+    "top_ten_pct": 91.09,
+    "hhi": 1084.8,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 2,
+      "increased_positions": 3,
+      "reduced_positions": 4
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0002055645-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-23",
+        "accession": "0002055645-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0002055645-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

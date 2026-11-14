@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2056676/0001941040-26-000721.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b552b620eaba6aeb658ebf7181eafe137833c1161e2812c75a326ed05657aa7d",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "92deb354b2d4c44e0d54cdf40c7404bdb555658a10773062bf32a03e1c20e796",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001941040-26-000721",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056676/0001941040-26-000721.txt",
+    "distinct_positions": 144,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 144571955.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 24057.0,
+        "value_usd": 16899243.0,
+        "weight_pct": 11.69
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 78290.0,
+        "value_usd": 7175325.0,
+        "weight_pct": 4.96
+      },
+      {
+        "cusip": "66538H245",
+        "security_class": "MONA PROC IN ETF",
+        "issuer": "NORTHERN LTS FD TR IV",
+        "shares": 174769.0,
+        "value_usd": 5516589.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 85556.0,
+        "value_usd": 4833079.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 18559.0,
+        "value_usd": 4216959.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 63101.0,
+        "value_usd": 3632105.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "46654Q203",
+        "security_class": "NASDAQ EQT PREM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 56572.0,
+        "value_usd": 3461118.0,
+        "weight_pct": 2.39
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 40448.0,
+        "value_usd": 3169932.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 9114.0,
+        "value_usd": 3002382.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 36956.0,
+        "value_usd": 2853775.0,
+        "weight_pct": 1.97
+      }
+    ],
+    "top_five_pct": 26.73,
+    "top_ten_pct": 37.88,
+    "hhi": 270.29,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 66,
+      "exited_positions": 55,
+      "increased_positions": 35,
+      "reduced_positions": 43
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001941040-25-000575"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001941040-26-000721"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

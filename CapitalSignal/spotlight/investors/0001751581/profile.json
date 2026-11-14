@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1751581/0001214659-26-012638.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ceff16f25f185c4705a50a9ee55b6b6fc36d95de27dd4e3531de131731849bf5",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "a28d1868d9116b3c59550b7b0fe7d61392e7b8f49147ce3c1d7a310f0ecdd543",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0001214659-26-012638",
+    "source": "https://www.sec.gov/Archives/edgar/data/1751581/0001214659-26-012638.txt",
+    "distinct_positions": 447,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1254450808.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524409",
+        "security_class": "US LCAP VA ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 2360396.0,
+        "value_usd": 78624803.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 81366.0,
+        "value_usd": 60192181.0,
+        "weight_pct": 4.8
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 250622.0,
+        "value_usd": 57237049.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 155949.0,
+        "value_usd": 51934131.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "72201R775",
+        "security_class": "ACTIVE BD ETF",
+        "issuer": "PIMCO ETF TR",
+        "shares": 465447.0,
+        "value_usd": 40489210.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 64731.0,
+        "value_usd": 33200768.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 125710.0,
+        "value_usd": 31320682.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "37954Y673",
+        "security_class": "US INFR DEV ETF",
+        "issuer": "GLOBAL X FDS",
+        "shares": 591786.0,
+        "value_usd": 31068786.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "44053A556",
+        "security_class": "CORE EQUITY ETF",
+        "issuer": "HORIZON FDS",
+        "shares": 904387.0,
+        "value_usd": 28926095.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "46654Q757",
+        "security_class": "JPMORGAN INTL VL",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 287417.0,
+        "value_usd": 27367812.0,
+        "weight_pct": 2.18
+      }
+    ],
+    "top_five_pct": 23.0,
+    "top_ten_pct": 35.1,
+    "hhi": 184.38,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 156,
+      "exited_positions": 94,
+      "increased_positions": 144,
+      "reduced_positions": 144
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-07",
+        "accession": "0001214659-25-014742"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0001214659-26-012638"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

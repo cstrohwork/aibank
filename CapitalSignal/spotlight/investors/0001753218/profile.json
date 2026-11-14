@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1753218/0001986152-26-000156.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "54e126abe369364213c9a9470fd043c1b7154a65770798b4305cf38663b4caf3",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "313889600795fd12a86702d57c87eec34b4b5720364dad2cdf2d3a1855f54bad",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001986152-26-000156",
+    "source": "https://www.sec.gov/Archives/edgar/data/1753218/0001986152-26-000156.txt",
+    "distinct_positions": 104,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 296251487.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 151049.0,
+        "value_usd": 55894160.0,
+        "weight_pct": 18.87
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "ETF",
+        "issuer": "SCHWAB INTERNATIONAL EQUITY ETF",
+        "shares": 703213.0,
+        "value_usd": 19479000.0,
+        "weight_pct": 6.58
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 16273.0,
+        "value_usd": 11176459.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "808524755",
+        "security_class": "ETF",
+        "issuer": "SCHWAB FUNDAMENTAL INTERNATIONAL EQUITY ETF",
+        "shares": 160413.0,
+        "value_usd": 8463390.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ETF",
+        "issuer": "VANGUARD FTSE ALL-WORLD EX-US INDEX FUND",
+        "shares": 95133.0,
+        "value_usd": 7967389.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "ETF",
+        "issuer": "VANGUARD FTSE DEVELOPED MARKETS ETF",
+        "shares": 107880.0,
+        "value_usd": 7686450.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "72201R775",
+        "security_class": "ETF",
+        "issuer": "PIMCO ACTIVE BOND EXCHANGE-TRADED FUND",
+        "shares": 82561.0,
+        "value_usd": 7612950.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 9791.0,
+        "value_usd": 7311853.0,
+        "weight_pct": 2.47
+      },
+      {
+        "cusip": "808524706",
+        "security_class": "ETF",
+        "issuer": "SCHWAB EMERGING MARKETS EQUITY ETF",
+        "shares": 190814.0,
+        "value_usd": 6918916.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "922020755",
+        "security_class": "ETF",
+        "issuer": "VANGUARD CORE PLUS BOND ETF",
+        "shares": 87197.0,
+        "value_usd": 6764377.0,
+        "weight_pct": 2.28
+      }
+    ],
+    "top_five_pct": 34.76,
+    "top_ten_pct": 47.01,
+    "hhi": 520.62,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 26,
+      "exited_positions": 30,
+      "increased_positions": 11,
+      "reduced_positions": 61
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001753218-25-000002"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001986152-26-000156"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

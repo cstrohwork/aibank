@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1732537/0001085146-26-000842.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "82c30fb7c8991ac7faa13a06650cb127d83d414673a37a0e3f01d40e8b28355d",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "8e69cdc90e80748956e8d019e6f2ded2526d00a63e6ab7381f829744eaa17cec",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000842",
+    "source": "https://www.sec.gov/Archives/edgar/data/1732537/0001085146-26-000842.txt",
+    "distinct_positions": 74,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 627534907.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 166090.0,
+        "value_usd": 126661677.0,
+        "weight_pct": 20.18
+      },
+      {
+        "cusip": "464287689",
+        "security_class": "RUSSELL 3000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 283869.0,
+        "value_usd": 122534414.0,
+        "weight_pct": 19.53
+      },
+      {
+        "cusip": "464288240",
+        "security_class": "MSCI ACWI EX US",
+        "issuer": "ISHARES TR",
+        "shares": 940060.0,
+        "value_usd": 71086848.0,
+        "weight_pct": 11.33
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 394302.0,
+        "value_usd": 48530556.0,
+        "weight_pct": 7.73
+      },
+      {
+        "cusip": "46138J791",
+        "security_class": "BULSHS 2026 CB",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 1868159.0,
+        "value_usd": 36466444.0,
+        "weight_pct": 5.81
+      },
+      {
+        "cusip": "46138J643",
+        "security_class": "INVSCO BLSH 28",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 1765162.0,
+        "value_usd": 35523903.0,
+        "weight_pct": 5.66
+      },
+      {
+        "cusip": "46138J460",
+        "security_class": "INVSCO 30 CORP",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 2037594.0,
+        "value_usd": 32886736.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "46138J577",
+        "security_class": "BULETSHS 2029",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 1758747.0,
+        "value_usd": 32009202.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "46138J783",
+        "security_class": "BULSHS 2027 CB",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 1480882.0,
+        "value_usd": 28943796.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 24272.0,
+        "value_usd": 5543246.0,
+        "weight_pct": 0.88
+      }
+    ],
+    "top_five_pct": 64.58,
+    "top_ten_pct": 86.08,
+    "hhi": 1122.94,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 20,
+      "exited_positions": 20,
+      "increased_positions": 28,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001085146-25-005906"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000842"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

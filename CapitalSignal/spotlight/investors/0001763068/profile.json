@@ -15,8 +15,134 @@
     "https://www.sec.gov/Archives/edgar/data/1763068/0000905148-26-004520.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f6ee1646e3c4ce77787bf6e5652d9ef438e05b23a0f343464d104ad3b8be862f",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "4a1bc20437941e9a5e4917631106541a61d7454e98f3c51522f60d3472174c8b",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-10-20",
+    "accession": "0000905148-26-004520",
+    "source": "https://www.sec.gov/Archives/edgar/data/1763068/0000905148-26-004520.txt",
+    "distinct_positions": 149,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1738806397.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 640005.0,
+        "value_usd": 479293344.0,
+        "weight_pct": 27.56
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 4977739.0,
+        "value_usd": 437443703.0,
+        "weight_pct": 25.16
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 547145.0,
+        "value_usd": 375784657.0,
+        "weight_pct": 21.61
+      },
+      {
+        "cusip": "46434V738",
+        "security_class": "CORE MSCI EURO",
+        "issuer": "ISHARES TR",
+        "shares": 2729606.0,
+        "value_usd": 205184483.0,
+        "weight_pct": 11.8
+      },
+      {
+        "cusip": "46434G780",
+        "security_class": "MSCI SINGPOR ETF",
+        "issuer": "ISHARES INC",
+        "shares": 1969404.0,
+        "value_usd": 58314052.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "464286624",
+        "security_class": "MSCI THAILND ETF",
+        "issuer": "ISHARES INC",
+        "shares": 278449.0,
+        "value_usd": 20134647.0,
+        "weight_pct": 1.16
+      },
+      {
+        "cusip": "35473P769",
+        "security_class": "FRANKLIN INDIA",
+        "issuer": "FRANKLIN TEMPLETON ETF TR",
+        "shares": 489204.0,
+        "value_usd": 17400986.0,
+        "weight_pct": 1.0
+      },
+      {
+        "cusip": "46429B309",
+        "security_class": "MSCI INDONIA ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1103540.0,
+        "value_usd": 12481037.0,
+        "weight_pct": 0.72
+      },
+      {
+        "cusip": "09661T107",
+        "security_class": "US LRG CP CORE",
+        "issuer": "BNY MELLON ETF TRUST",
+        "shares": 77000.0,
+        "value_usd": 11041031.0,
+        "weight_pct": 0.63
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 48892.0,
+        "value_usd": 9782800.0,
+        "weight_pct": 0.56
+      }
+    ],
+    "top_five_pct": 89.49,
+    "top_ten_pct": 93.56,
+    "hhi": 2014.81,
+    "changes": {
+      "previous_period": "2026-03-31",
+      "new_positions": 24,
+      "exited_positions": 17,
+      "increased_positions": 58,
+      "reduced_positions": 55
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0000905148-26-004517"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-10-20",
+        "accession": "0000905148-26-004518"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-10-20",
+        "accession": "0000905148-26-004519"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-10-20",
+        "accession": "0000905148-26-004520"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

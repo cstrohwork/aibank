@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1103653/0001193125-26-413053.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a098e5dcbf6389bc803b1af073e9557f9944aa3740c08ae2b3abb248bca17a92",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "19376de4a8b2f7e4a16dde874fd3b0a006506b2e819e40310b48a574170ed4e3",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-05",
+    "accession": "0001193125-26-413053",
+    "source": "https://www.sec.gov/Archives/edgar/data/1103653/0001193125-26-413053.txt",
+    "distinct_positions": 2398,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3791126681.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "Apple Inc",
+        "shares": 612731.0,
+        "value_usd": 204051678.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "NVIDIA Corp",
+        "shares": 881514.0,
+        "value_usd": 201320167.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "Microsoft Corp",
+        "shares": 353759.0,
+        "value_usd": 181442991.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard Morningstar Mid-Cap ETF",
+        "shares": 1672725.0,
+        "value_usd": 131175095.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard FTSE Developed Markets ETF",
+        "shares": 1482965.0,
+        "value_usd": 104712159.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "Amazon.com Inc",
+        "shares": 408196.0,
+        "value_usd": 101702033.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "Alphabet Inc",
+        "shares": 264010.0,
+        "value_usd": 90840561.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "JPMorgan Chase & Co",
+        "shares": 251739.0,
+        "value_usd": 83282813.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "Broadcom INC",
+        "shares": 203116.0,
+        "value_usd": 71332308.0,
+        "weight_pct": 1.88
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "Meta Platforms Inc",
+        "shares": 98111.0,
+        "value_usd": 71148135.0,
+        "weight_pct": 1.88
+      }
+    ],
+    "top_five_pct": 21.7,
+    "top_ten_pct": 32.73,
+    "hhi": 168.72,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 340,
+      "exited_positions": 340,
+      "increased_positions": 665,
+      "reduced_positions": 1189
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001193125-25-246783"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-05",
+        "accession": "0001193125-26-413053"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

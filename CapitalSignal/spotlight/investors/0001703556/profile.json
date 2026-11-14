@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1703556/0001703556-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9d4c5ef6fd8f850f9f4f67444e5f6ad203b9e444797a721cdc784991778092d0",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "3489095fbf0297d8da2e32441ab335a7670141962ab18082934b6871b0fa23d1",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-05",
+    "accession": "0001703556-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1703556/0001703556-26-000010.txt",
+    "distinct_positions": 217,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 271337300.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 53852.0,
+        "value_usd": 26815603.0,
+        "weight_pct": 9.88
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 25638.0,
+        "value_usd": 8821609.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 51189.0,
+        "value_usd": 5153708.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 7245.0,
+        "value_usd": 5077689.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "78468R200",
+        "security_class": "ST STR RATE ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 149034.0,
+        "value_usd": 4596197.0,
+        "weight_pct": 1.69
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MID CAP ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 52442.0,
+        "value_usd": 4112498.0,
+        "weight_pct": 1.52
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 11882.0,
+        "value_usd": 4048747.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 25473.0,
+        "value_usd": 4020861.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 36306.0,
+        "value_usd": 4005278.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 5384.0,
+        "value_usd": 3904369.0,
+        "weight_pct": 1.44
+      }
+    ],
+    "top_five_pct": 18.6,
+    "top_ten_pct": 26.0,
+    "hhi": 172.57,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 21,
+      "exited_positions": 12,
+      "increased_positions": 68,
+      "reduced_positions": 85
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001703556-25-000010"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001703556-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-05",
+        "accession": "0001703556-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

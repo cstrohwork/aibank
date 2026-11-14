@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1817714/0002085853-26-001125.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4e066b01579cea26ca72ba00b436fa1269020aad76ba08f6e48a129fa4823bb5",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "30cc174b178f11f239368bc0a89b075318a037687e88d16cffd005f3ba68e346",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0002085853-26-001125",
+    "source": "https://www.sec.gov/Archives/edgar/data/1817714/0002085853-26-001125.txt",
+    "distinct_positions": 240,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 445127010.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "886364231",
+        "security_class": "FUND GRAN US ETF",
+        "issuer": "TIDAL TRUST I",
+        "shares": 1440315.0,
+        "value_usd": 40083969.0,
+        "weight_pct": 9.01
+      },
+      {
+        "cusip": "14020Y300",
+        "security_class": "US MULTI-SECTOR",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 831862.0,
+        "value_usd": 21819741.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "233051200",
+        "security_class": "XTRACK MSCI EAFE",
+        "issuer": "DBX ETF TR",
+        "shares": 354997.0,
+        "value_usd": 19507099.0,
+        "weight_pct": 4.38
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 428100.0,
+        "value_usd": 18536741.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 18917.0,
+        "value_usd": 14426997.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 227095.0,
+        "value_usd": 13882288.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 153125.0,
+        "value_usd": 13744468.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "26922A388",
+        "security_class": "APTUS DEFINED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 486966.0,
+        "value_usd": 13230877.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "33741X102",
+        "security_class": "SMID RISNG ETF",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 288345.0,
+        "value_usd": 11701055.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "45259A258",
+        "security_class": "FUND GRA MID ETF",
+        "issuer": "TIDAL TRUST III",
+        "shares": 382039.0,
+        "value_usd": 11247227.0,
+        "weight_pct": 2.53
+      }
+    ],
+    "top_five_pct": 25.69,
+    "top_ten_pct": 40.03,
+    "hhi": 236.48,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 74,
+      "exited_positions": 56,
+      "increased_positions": 66,
+      "reduced_positions": 91
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0002085853-25-000096"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0002085853-26-001125"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

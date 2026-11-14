@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1998419/0001085146-26-000868.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0a2d39fbb2a2282925d3d8a0e766a587cad94934d2ba5a6c3b77ed00622bc5bf",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "b065e894447919fb8aae0f0507f2b40156529cbf058159cd7a1d13ad7a350dbc",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000868",
+    "source": "https://www.sec.gov/Archives/edgar/data/1998419/0001085146-26-000868.txt",
+    "distinct_positions": 148,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 166585580.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 81700.0,
+        "value_usd": 12325262.0,
+        "weight_pct": 7.4
+      },
+      {
+        "cusip": "72202L363",
+        "security_class": "RAFI DYN ML US",
+        "issuer": "PIMCO EQUITY SER",
+        "shares": 168519.0,
+        "value_usd": 10921695.0,
+        "weight_pct": 6.56
+      },
+      {
+        "cusip": "316092113",
+        "security_class": "ENHANCED LARGE",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 156882.0,
+        "value_usd": 6796128.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "MULTISECTOR BD",
+        "issuer": "PIMCO ETF TR",
+        "shares": 267126.0,
+        "value_usd": 6782326.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 136610.0,
+        "value_usd": 5915193.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "72202L389",
+        "security_class": "RAFI DYN EMERG",
+        "issuer": "PIMCO EQUITY SER",
+        "shares": 206843.0,
+        "value_usd": 5911118.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "46434V266",
+        "security_class": "INTERNATIONAL SL",
+        "issuer": "ISHARES TR",
+        "shares": 130627.0,
+        "value_usd": 5833802.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 14123.0,
+        "value_usd": 4703288.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "871655106",
+        "security_class": "COM",
+        "issuer": "SYPRIS SOLUTIONS INC",
+        "shares": 2243442.0,
+        "value_usd": 3970892.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "72202L371",
+        "security_class": "RAFI DYN MULTI",
+        "issuer": "PIMCO EQUITY SER",
+        "shares": 91489.0,
+        "value_usd": 3787718.0,
+        "weight_pct": 2.27
+      }
+    ],
+    "top_five_pct": 25.66,
+    "top_ten_pct": 40.19,
+    "hhi": 240.45,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 55,
+      "exited_positions": 47,
+      "increased_positions": 45,
+      "reduced_positions": 43
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001998419-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000868"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

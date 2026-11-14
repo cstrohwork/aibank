@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1749914/0001749914-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0d7392d061c40a6b9b0a867d1ed8a0b40894ecb8911b67fb28658e4bce3cafe9",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "0295385038d9ea478c41604eabeef640059f018968471cf8ad483960934e68d0",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001749914-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1749914/0001749914-26-000006.txt",
+    "distinct_positions": 192,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1010918893.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46138E339",
+        "security_class": "S&P 500 MOMNTM",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 247018.0,
+        "value_usd": 37442999.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "52468L505",
+        "security_class": "FRANKLIN INTL LW",
+        "issuer": "LEGG MASON ETF INVT",
+        "shares": 885376.0,
+        "value_usd": 36929053.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 486949.0,
+        "value_usd": 33726078.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 161957.0,
+        "value_usd": 33073181.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "92206C813",
+        "security_class": "LG-TERM COR BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 445844.0,
+        "value_usd": 30540297.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "69344A834",
+        "security_class": "AAA CLO ETF",
+        "issuer": "PGIM ETF TR",
+        "shares": 576138.0,
+        "value_usd": 29550136.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "46436E403",
+        "security_class": "MSCI US GARP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 345059.0,
+        "value_usd": 29419742.0,
+        "weight_pct": 2.91
+      },
+      {
+        "cusip": "92189F486",
+        "security_class": "IG FLOA RATE ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 1138827.0,
+        "value_usd": 29142585.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "46432F388",
+        "security_class": "MSCI USA VALUE",
+        "issuer": "ISHARES TR",
+        "shares": 138537.0,
+        "value_usd": 27430293.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 330227.0,
+        "value_usd": 25685065.0,
+        "weight_pct": 2.54
+      }
+    ],
+    "top_five_pct": 16.99,
+    "top_ten_pct": 30.96,
+    "hhi": 166.65,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 74,
+      "exited_positions": 53,
+      "increased_positions": 64,
+      "reduced_positions": 53
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-06",
+        "accession": "0001749914-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001749914-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

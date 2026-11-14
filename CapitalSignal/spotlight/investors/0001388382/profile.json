@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1388382/0001388382-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a7bcfa4c2c8c6e7708f0c678ac1d5bfa83d0b33d079fb1b4f77af77877d2911a",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "2624c6f9661d5f399096aad53787a4216227a33275105efcb90b3dc12764d7cd",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-06",
+    "accession": "0001388382-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1388382/0001388382-26-000006.txt",
+    "distinct_positions": 98,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 313843032.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "Equities",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 52624.0,
+        "value_usd": 26990850.0,
+        "weight_pct": 8.6
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Equities",
+        "issuer": "APPLE COMPUTER INC COM",
+        "shares": 55360.0,
+        "value_usd": 18435987.0,
+        "weight_pct": 5.87
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "Equities",
+        "issuer": "APPLIED MATERIALS INC COM",
+        "shares": 35073.0,
+        "value_usd": 17935631.0,
+        "weight_pct": 5.71
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Equities",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 47405.0,
+        "value_usd": 10826354.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "Equities",
+        "issuer": "ALPHABET INC CLASS C",
+        "shares": 29980.0,
+        "value_usd": 10215385.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "Equities",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOC",
+        "shares": 26620.0,
+        "value_usd": 9962269.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "032095101",
+        "security_class": "Equities",
+        "issuer": "AMPHENOL CORP CL A",
+        "shares": 113767.0,
+        "value_usd": 9590558.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "Equities",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 15525.0,
+        "value_usd": 9497574.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "032654105",
+        "security_class": "Equities",
+        "issuer": "ANALOG DEVICES INC COM",
+        "shares": 20408.0,
+        "value_usd": 8096058.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "Equities",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 14387.0,
+        "value_usd": 7934000.0,
+        "weight_pct": 2.53
+      }
+    ],
+    "top_five_pct": 26.89,
+    "top_ten_pct": 41.26,
+    "hhi": 280.1,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 6,
+      "exited_positions": 21,
+      "increased_positions": 18,
+      "reduced_positions": 63
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001388382-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-06",
+        "accession": "0001388382-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

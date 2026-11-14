@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1844831/0001754960-26-000825.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7f0cfc6101004463009ef3621d4e779b61a807b21c85119348431f64379dc126",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "b62e2b8a4b9412605dcd913527f5758f7a5dcb3dbc97d395592baff1fc531768",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001754960-26-000825",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844831/0001754960-26-000825.txt",
+    "distinct_positions": 209,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 694647760.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 91104.0,
+        "value_usd": 70432838.0,
+        "weight_pct": 10.14
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 278154.0,
+        "value_usd": 33386803.0,
+        "weight_pct": 4.81
+      },
+      {
+        "cusip": "025072349",
+        "security_class": "US LARGE CAP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 355983.0,
+        "value_usd": 32593808.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 393203.0,
+        "value_usd": 28857171.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "INTL SMCP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 247281.0,
+        "value_usd": 26975905.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 181368.0,
+        "value_usd": 25123148.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 62653.0,
+        "value_usd": 20906660.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 239880.0,
+        "value_usd": 18705877.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "092528603",
+        "security_class": "ISHA FLEX IN ETF",
+        "issuer": "BLACKROCK ETF TRUST II",
+        "shares": 367595.0,
+        "value_usd": 18589295.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "92189H748",
+        "security_class": "CLO ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 343059.0,
+        "value_usd": 18108346.0,
+        "weight_pct": 2.61
+      }
+    ],
+    "top_five_pct": 27.68,
+    "top_ten_pct": 42.28,
+    "hhi": 278.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 19,
+      "increased_positions": 82,
+      "reduced_positions": 92
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001754960-25-000719"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001754960-26-000687"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001754960-26-000825"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

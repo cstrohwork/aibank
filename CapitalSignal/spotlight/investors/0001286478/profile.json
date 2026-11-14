@@ -1,28 +1,29 @@
 {
   "manager_cik": "0001286478",
   "investor_name": "UNITED BANK",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-07",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-07-30",
   "city": "VIENNA",
   "state": "VA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1286478/0001286478-25-000012.txt"
+    "https://www.sec.gov/Archives/edgar/data/1286478/0001286478-25-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1286478/0001286478-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "fc681d892ad6db83c2e68e20ad9d155229a5e5a7e44a9712da9691b75166129d",
-  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "source_fingerprint": "31e606fdd7625f935c9a4491c8385825bff483d8924c88a401ff165dcfc9aab6",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-07",
-    "accession": "0001286478-25-000012",
-    "source": "https://www.sec.gov/Archives/edgar/data/1286478/0001286478-25-000012.txt",
-    "distinct_positions": 128,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-07-30",
+    "accession": "0001286478-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1286478/0001286478-26-000009.txt",
+    "distinct_positions": 130,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 839053465.0,
+    "reported_long_equity_value_usd": 852699987.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Relative cached values; excludes options and non-share positions",
     "top_holdings": [
@@ -31,91 +32,102 @@
         "security_class": "COMMON STOCK",
         "issuer": "HUBBELL INC",
         "shares": 285888.0,
-        "value_usd": 123020467.0,
-        "weight_pct": 14.66
-      },
-      {
-        "cusip": "46434G764",
-        "security_class": "COMMON STOCK",
-        "issuer": "ISHARES",
-        "shares": 723300.0,
-        "value_usd": 48829976.0,
-        "weight_pct": 5.82
+        "value_usd": 149576598.0,
+        "weight_pct": 17.54
       },
       {
         "cusip": "464287804",
         "security_class": "COMMON STOCK",
         "issuer": "ISHARES",
-        "shares": 390617.0,
-        "value_usd": 46417015.0,
-        "weight_pct": 5.53
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COMMON STOCK",
-        "issuer": "MICROSOFT",
-        "shares": 73144.0,
-        "value_usd": 37884945.0,
-        "weight_pct": 4.52
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COMMON STOCK",
-        "issuer": "APPLE INC",
-        "shares": 128867.0,
-        "value_usd": 32813407.0,
-        "weight_pct": 3.91
-      },
-      {
-        "cusip": "46625H100",
-        "security_class": "COMMON STOCK",
-        "issuer": "JPMORGAN CHASE & CO",
-        "shares": 99547.0,
-        "value_usd": 31400109.0,
-        "weight_pct": 3.74
-      },
-      {
-        "cusip": "464287226",
-        "security_class": "ETF-FIXED INCOM",
-        "issuer": "ISHARES",
-        "shares": 308204.0,
-        "value_usd": 30897498.0,
-        "weight_pct": 3.68
-      },
-      {
-        "cusip": "909907107",
-        "security_class": "COMMON STOCK",
-        "issuer": "UNITED BANKSHARES INC",
-        "shares": 711732.0,
-        "value_usd": 26483552.0,
-        "weight_pct": 3.16
+        "shares": 360103.0,
+        "value_usd": 53406892.0,
+        "weight_pct": 6.26
       },
       {
         "cusip": "219350105",
         "security_class": "COMMON STOCK",
         "issuer": "CORNING INC",
-        "shares": 279389.0,
-        "value_usd": 22918280.0,
-        "weight_pct": 2.73
+        "shares": 148936.0,
+        "value_usd": 38042722.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "ETF-FIXED INCOM",
+        "issuer": "ISHARES",
+        "shares": 340970.0,
+        "value_usd": 33749224.0,
+        "weight_pct": 3.96
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 113760.0,
+        "value_usd": 32917591.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "909907107",
+        "security_class": "COMMON STOCK",
+        "issuer": "UNITED BANKSHARES INC",
+        "shares": 713131.0,
+        "value_usd": 32682794.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COMMON STOCK",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 97846.0,
+        "value_usd": 32027933.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT",
+        "shares": 67866.0,
+        "value_usd": 25315354.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COMMON STOCK",
+        "issuer": "CISCO SYSTEMS INC",
+        "shares": 177433.0,
+        "value_usd": 20841281.0,
+        "weight_pct": 2.44
       },
       {
         "cusip": "46284V101",
         "security_class": "COMMON STOCK",
         "issuer": "IRON MOUNTAIN INC",
-        "shares": 167520.0,
-        "value_usd": 17076992.0,
-        "weight_pct": 2.04
+        "shares": 134721.0,
+        "value_usd": 17016599.0,
+        "weight_pct": 2.0
       }
     ],
-    "top_five_pct": 34.44,
-    "top_ten_pct": 49.79,
-    "hhi": 421.72,
-    "changes": null,
+    "top_five_pct": 36.08,
+    "top_ten_pct": 51.08,
+    "hhi": 492.76,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 15,
+      "exited_positions": 13,
+      "increased_positions": 27,
+      "reduced_positions": 69
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-07",
         "accession": "0001286478-25-000012"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001286478-26-000009"
       }
     ]
   },

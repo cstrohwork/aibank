@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1784277/0001784277-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b690899dab127f35e1215d6f4e3a91504af73657f36c981d9d54540fb81c1d49",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "b67f055d7037c05cd34fb0432c19346513b6f6cee8d7732ca49fb76178520448",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0001784277-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1784277/0001784277-26-000008.txt",
+    "distinct_positions": 102,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 687624.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288109",
+        "security_class": "MRNGSTR LG-CP VL",
+        "issuer": "ISHARES TR",
+        "shares": 671573.0,
+        "value_usd": 70744.0,
+        "weight_pct": 10.29
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 2027938.0,
+        "value_usd": 55707.0,
+        "weight_pct": 8.1
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "FTSE DEV MKT ETF",
+        "issuer": "VANGUARD TAX MANAGED INTL FD",
+        "shares": 743918.0,
+        "value_usd": 52528.0,
+        "weight_pct": 7.64
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 755238.0,
+        "value_usd": 44793.0,
+        "weight_pct": 6.51
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1463791.0,
+        "value_usd": 43914.0,
+        "weight_pct": 6.39
+      },
+      {
+        "cusip": "808524870",
+        "security_class": "US TIPS ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1379918.0,
+        "value_usd": 34677.0,
+        "weight_pct": 5.04
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "S&P 500 INDEX",
+        "issuer": "ISHARES TR",
+        "shares": 44797.0,
+        "value_usd": 34308.0,
+        "weight_pct": 4.99
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 44826.0,
+        "value_usd": 31417.0,
+        "weight_pct": 4.57
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 599859.0,
+        "value_usd": 30227.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 259226.0,
+        "value_usd": 24507.0,
+        "weight_pct": 3.56
+      }
+    ],
+    "top_five_pct": 38.93,
+    "top_ten_pct": 61.49,
+    "hhi": 474.65,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 30,
+      "exited_positions": 177,
+      "increased_positions": 39,
+      "reduced_positions": 32
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001784277-25-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0001784277-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

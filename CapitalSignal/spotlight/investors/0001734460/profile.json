@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1734460/0001085146-25-005873.txt",
+    "https://www.sec.gov/Archives/edgar/data/1734460/0001734460-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/1734460/0001085146-26-000873.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "496e416e1d4c0abc0adbd180bbb12a9e7c195303ec53ac256cfc4eab41e7f643",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "983d21c508b80815dae79bd1d1a41d069fdd3d12c3ab187d872622dd7407d1ec",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000873",
+    "source": "https://www.sec.gov/Archives/edgar/data/1734460/0001085146-26-000873.txt",
+    "distinct_positions": 118,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 455466202.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 45488.0,
+        "value_usd": 23330796.0,
+        "weight_pct": 5.12
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 53762.0,
+        "value_usd": 18880677.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 45635.0,
+        "value_usd": 15197368.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 45738.0,
+        "value_usd": 15131503.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "MULTISECTOR BD",
+        "issuer": "PIMCO ETF TR",
+        "shares": 501361.0,
+        "value_usd": 12729556.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "872540109",
+        "security_class": "COM",
+        "issuer": "TJX COS INC NEW",
+        "shares": 93835.0,
+        "value_usd": 12415309.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 32753.0,
+        "value_usd": 11769136.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 44204.0,
+        "value_usd": 11702567.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 9865.0,
+        "value_usd": 11414595.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "882508104",
+        "security_class": "COM",
+        "issuer": "TEXAS INSTRS INC",
+        "shares": 38715.0,
+        "value_usd": 10843685.0,
+        "weight_pct": 2.38
+      }
+    ],
+    "top_five_pct": 18.72,
+    "top_ten_pct": 31.49,
+    "hhi": 200.04,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 9,
+      "increased_positions": 54,
+      "reduced_positions": 32
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001085146-25-005873"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001734460-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000873"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1761961/0001761961-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "51ace03a16dbbecbcac02aaac730fbd500cb6b2bc0ad349f094d0d3b81367a54",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "8e4c4f4022ad658d82c28b1b8f5004e86191cdb89958fdeaa75709ed84d7b31b",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-05",
+    "accession": "0001761961-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1761961/0001761961-26-000005.txt",
+    "distinct_positions": 174,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 344380808.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 45306.0,
+        "value_usd": 34697600.0,
+        "weight_pct": 10.08
+      },
+      {
+        "cusip": "381430503",
+        "security_class": "ETF",
+        "issuer": "GS ACTIVEBETA US LARGE CAP EQUITY ETF",
+        "shares": 141260.0,
+        "value_usd": 20488350.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI EMERGING MARKETS ETF",
+        "shares": 204452.0,
+        "value_usd": 16593324.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "26923N405",
+        "security_class": "ETF",
+        "issuer": "APPLIED FINANCE VALUATION LARGE CAP ETF",
+        "shares": 311939.0,
+        "value_usd": 15138400.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P MID-CAP ETF",
+        "shares": 198529.0,
+        "value_usd": 14284162.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "46641Q670",
+        "security_class": "ETF",
+        "issuer": "JPMORGAN CORE PLUS BOND ETF",
+        "shares": 298268.0,
+        "value_usd": 13356453.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "46090A804",
+        "security_class": "ETF",
+        "issuer": "INVESCO TOTAL RETURN BOND ETF",
+        "shares": 297666.0,
+        "value_usd": 13272916.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "72201R775",
+        "security_class": "ETF",
+        "issuer": "PIMCO ACTIVE BOND EXCHANGE-TRADED FUND",
+        "shares": 151802.0,
+        "value_usd": 13205227.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 31421.0,
+        "value_usd": 10463821.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 EQUAL WEIGHT ETF",
+        "shares": 49209.0,
+        "value_usd": 10236456.0,
+        "weight_pct": 2.97
+      }
+    ],
+    "top_five_pct": 29.39,
+    "top_ten_pct": 46.96,
+    "hhi": 339.69,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 8,
+      "exited_positions": 13,
+      "increased_positions": 20,
+      "reduced_positions": 77
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001761961-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-05",
+        "accession": "0001761961-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

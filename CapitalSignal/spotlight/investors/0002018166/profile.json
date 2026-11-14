@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2018166/0002018166-26-000003.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5828adc310a0f08d3b86d67ba5cd3409110fcd069f6a46858eae2fee12158fba",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "959e82f109e2f7e2498bc7e841afd9ccf07f614a4e5a1c80eac0b81d7d288987",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-20",
+    "accession": "0002018166-26-000003",
+    "source": "https://www.sec.gov/Archives/edgar/data/2018166/0002018166-26-000003.txt",
+    "distinct_positions": 36,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 192400132.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "97717W547",
+        "security_class": "US VALUE FD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 223678.0,
+        "value_usd": 24192964.0,
+        "weight_pct": 12.57
+      },
+      {
+        "cusip": "46137V746",
+        "security_class": "LARG CAP GRO ETF",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 111298.0,
+        "value_usd": 17355810.0,
+        "weight_pct": 9.02
+      },
+      {
+        "cusip": "31609A404",
+        "security_class": "ENHANCED INTL",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 407710.0,
+        "value_usd": 16940351.0,
+        "weight_pct": 8.8
+      },
+      {
+        "cusip": "46435G672",
+        "security_class": "CORE INTL AGGR",
+        "issuer": "ISHARES TR",
+        "shares": 248599.0,
+        "value_usd": 12390174.0,
+        "weight_pct": 6.44
+      },
+      {
+        "cusip": "33939L761",
+        "security_class": "CR SCD US BD",
+        "issuer": "FLEXSHARES TR",
+        "shares": 245169.0,
+        "value_usd": 11786478.0,
+        "weight_pct": 6.13
+      },
+      {
+        "cusip": "00039J608",
+        "security_class": "HIGH YIELD ETF",
+        "issuer": "AB ACTIVE ETFS INC",
+        "shares": 262229.0,
+        "value_usd": 9757384.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "78464A359",
+        "security_class": "ST STR CONV ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 91417.0,
+        "value_usd": 9482685.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "92647N568",
+        "security_class": "USAA MSCI USA SM",
+        "issuer": "VICTORY PORTFOLIOS II",
+        "shares": 81804.0,
+        "value_usd": 9033616.0,
+        "weight_pct": 4.7
+      },
+      {
+        "cusip": "46641Q126",
+        "security_class": "RLTY INCOME ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 158021.0,
+        "value_usd": 8422519.0,
+        "weight_pct": 4.38
+      },
+      {
+        "cusip": "26923G822",
+        "security_class": "VIRTUS INFRCAP",
+        "issuer": "ETFIS SER TR I",
+        "shares": 397868.0,
+        "value_usd": 8387057.0,
+        "weight_pct": 4.36
+      }
+    ],
+    "top_five_pct": 42.97,
+    "top_ten_pct": 66.4,
+    "hhi": 576.8,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 29,
+      "exited_positions": 32,
+      "increased_positions": 4,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0002018166-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-20",
+        "accession": "0002018166-26-000003"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

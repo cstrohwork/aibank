@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002135126",
   "investor_name": "CapitalatWork S.A.",
-  "latest_report_date": "2025-12-31",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-07-29",
   "city": "AUDERGHEM",
   "state": null,
   "country": null,
@@ -10,113 +10,115 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000015.txt",
-    "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000016.txt"
+    "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000016.txt",
+    "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "92e52f1ff0da8b685d1d2445a57b632e8ff9e626a01ffe85425964919d2101ca",
-  "generated_at": "2026-11-14T15:33:02.356921+00:00",
+  "source_fingerprint": "255723dc45fbaf60e5c12dc163c21a51754e075d360d00072e7bd2f7985a35cc",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-12-31",
-    "filing_date": "2026-08-07",
-    "accession": "0002135126-26-000016",
-    "source": "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000016.txt",
+    "report_date": "2026-06-30",
+    "filing_date": "2026-07-29",
+    "accession": "0002135126-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2135126/0002135126-26-000007.txt",
     "distinct_positions": 60,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3266357.0,
+    "reported_long_equity_value_usd": 3977822.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Relative cached values; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 2021951.0,
+        "value_usd": 282325.0,
+        "weight_pct": 7.1
+      },
+      {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
-        "shares": 781676.0,
-        "value_usd": 245290.0,
-        "weight_pct": 7.51
+        "shares": 550794.0,
+        "value_usd": 194612.0,
+        "weight_pct": 4.89
       },
       {
         "cusip": "03769M106",
         "security_class": "COM",
         "issuer": "APOLLO GLOBAL MANAGEMENT INC",
-        "shares": 1302980.0,
-        "value_usd": 188619.0,
-        "weight_pct": 5.77
+        "shares": 1455614.0,
+        "value_usd": 172214.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "872590104",
+        "security_class": "COM",
+        "issuer": "T-MOBILE US INC",
+        "shares": 923467.0,
+        "value_usd": 154893.0,
+        "weight_pct": 3.89
       },
       {
         "cusip": "808513105",
         "security_class": "COM",
         "issuer": "CHARLES SCHWAB CORP",
-        "shares": 1503918.0,
-        "value_usd": 150256.0,
-        "weight_pct": 4.6
+        "shares": 1674961.0,
+        "value_usd": 154549.0,
+        "weight_pct": 3.89
       },
       {
-        "cusip": "458140100",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 3774693.0,
-        "value_usd": 139286.0,
-        "weight_pct": 4.26
+        "issuer": "MICROSOFT CORP",
+        "shares": 396990.0,
+        "value_usd": 148085.0,
+        "weight_pct": 3.72
       },
       {
-        "cusip": "038222105",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "APPLIED MATERIALS INC",
-        "shares": 509104.0,
-        "value_usd": 130835.0,
-        "weight_pct": 4.01
+        "issuer": "NVIDIA CORP",
+        "shares": 682716.0,
+        "value_usd": 136605.0,
+        "weight_pct": 3.43
       },
       {
-        "cusip": "N00985106",
-        "security_class": "SHS",
-        "issuer": "AERCAP HOLDINGS N.V.",
-        "shares": 862217.0,
-        "value_usd": 123952.0,
-        "weight_pct": 3.79
-      },
-      {
-        "cusip": "09290D101",
+        "cusip": "58733R102",
         "security_class": "COM",
-        "issuer": "BLACKROCK INC",
-        "shares": 106054.0,
-        "value_usd": 113514.0,
-        "weight_pct": 3.48
+        "issuer": "MERCADOLIBRE INC",
+        "shares": 74343.0,
+        "value_usd": 126189.0,
+        "weight_pct": 3.17
       },
       {
-        "cusip": "20030N101",
-        "security_class": "CL A",
-        "issuer": "COMCAST CORP",
-        "shares": 3539644.0,
-        "value_usd": 105800.0,
-        "weight_pct": 3.24
-      },
-      {
-        "cusip": "01609W102",
-        "security_class": "SPONSORED ADS",
-        "issuer": "ALIBABA GROUP HOLDING LTD",
-        "shares": 708496.0,
-        "value_usd": 103851.0,
-        "weight_pct": 3.18
-      },
-      {
-        "cusip": "H1467J104",
+        "cusip": "90353T100",
         "security_class": "COM",
-        "issuer": "CHUBB LIMITED",
-        "shares": 317568.0,
-        "value_usd": 99119.0,
-        "weight_pct": 3.03
+        "issuer": "UBER TECHNOLOGIES INC",
+        "shares": 1724227.0,
+        "value_usd": 124420.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "009066101",
+        "security_class": "COM CL A",
+        "issuer": "AIRBNB INC",
+        "shares": 778783.0,
+        "value_usd": 111444.0,
+        "weight_pct": 2.8
       }
     ],
-    "top_five_pct": 26.15,
-    "top_ten_pct": 42.88,
-    "hhi": 303.85,
+    "top_five_pct": 24.1,
+    "top_ten_pct": 40.36,
+    "hhi": 278.93,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-03-31",
       "new_positions": 2,
-      "exited_positions": 3,
-      "increased_positions": 24,
-      "reduced_positions": 31
+      "exited_positions": 2,
+      "increased_positions": 30,
+      "reduced_positions": 21
     },
     "timeline": [
       {
@@ -128,6 +130,16 @@
         "report_date": "2025-12-31",
         "filing_date": "2026-08-07",
         "accession": "0002135126-26-000016"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-07-29",
+        "accession": "0002135126-26-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-29",
+        "accession": "0002135126-26-000007"
       }
     ]
   },

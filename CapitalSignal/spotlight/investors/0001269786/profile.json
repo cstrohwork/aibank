@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1269786/0001269786-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1269786/0001269786-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1269786/0001269786-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6de3e0cf98cb20cfbad356fa60dc0d07572a269af0cd6ab813b4e5d1a9fed5fd",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "7e2b9a9335ca2f883993e71477cdf2e7560de88701cc3ff59689e6fcb0227e6f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001269786-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1269786/0001269786-26-000006.txt",
+    "distinct_positions": 53,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 643299245.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 309939.0,
+        "value_usd": 70783869.0,
+        "weight_pct": 11.0
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 87234.0,
+        "value_usd": 44742319.0,
+        "weight_pct": 6.96
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 127895.0,
+        "value_usd": 43578942.0,
+        "weight_pct": 6.77
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 112603.0,
+        "value_usd": 39545048.0,
+        "weight_pct": 6.15
+      },
+      {
+        "cusip": "58155Q103",
+        "security_class": "COM",
+        "issuer": "MCKESSON CORP",
+        "shares": 42106.0,
+        "value_usd": 35950524.0,
+        "weight_pct": 5.59
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 29359.0,
+        "value_usd": 33970712.0,
+        "weight_pct": 5.28
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 72053.0,
+        "value_usd": 32869858.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "67103H107",
+        "security_class": "COM",
+        "issuer": "OREILLY AUTOMOTIVE INC",
+        "shares": 376964.0,
+        "value_usd": 32196495.0,
+        "weight_pct": 5.0
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 84471.0,
+        "value_usd": 28130383.0,
+        "weight_pct": 4.37
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 110878.0,
+        "value_usd": 27625254.0,
+        "weight_pct": 4.29
+      }
+    ],
+    "top_five_pct": 36.47,
+    "top_ten_pct": 60.53,
+    "hhi": 486.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 22,
+      "increased_positions": 14,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-06",
+        "accession": "0001269786-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001269786-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001269786-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

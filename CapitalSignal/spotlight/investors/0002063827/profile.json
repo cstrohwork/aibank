@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2063827/0002063827-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9b208115f6e2321925de0cfed248a316204891e5dc983dc893414085402cc2e8",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "5a742fbd7a558bfefb5594b043457f9ded014247848c438711de66d1bfba8720",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0002063827-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2063827/0002063827-26-000005.txt",
+    "distinct_positions": 48,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 194357958.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 50890.0,
+        "value_usd": 38973982.0,
+        "weight_pct": 20.05
+      },
+      {
+        "cusip": "97717W307",
+        "security_class": "US LARGECAP DIVD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 391195.0,
+        "value_usd": 38024107.0,
+        "weight_pct": 19.56
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 97899.0,
+        "value_usd": 13927151.0,
+        "weight_pct": 7.17
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 18021.0,
+        "value_usd": 13743355.0,
+        "weight_pct": 7.07
+      },
+      {
+        "cusip": "97717W505",
+        "security_class": "US MIDCAP DIVID",
+        "issuer": "WISDOMTREE TR",
+        "shares": 229463.0,
+        "value_usd": 12379532.0,
+        "weight_pct": 6.37
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 172035.0,
+        "value_usd": 12377921.0,
+        "weight_pct": 6.37
+      },
+      {
+        "cusip": "381430503",
+        "security_class": "ACTIVEBETA US LG",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 56541.0,
+        "value_usd": 8200769.0,
+        "weight_pct": 4.22
+      },
+      {
+        "cusip": "97717W604",
+        "security_class": "US SMALLCAP DIVD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 167110.0,
+        "value_usd": 6333465.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 46183.0,
+        "value_usd": 6282727.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "464287606",
+        "security_class": "S&P MC 400GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 40792.0,
+        "value_usd": 4471203.0,
+        "weight_pct": 2.3
+      }
+    ],
+    "top_five_pct": 60.22,
+    "top_ten_pct": 79.6,
+    "hhi": 1034.43,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 16,
+      "exited_positions": 8,
+      "increased_positions": 20,
+      "reduced_positions": 9
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0002063827-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0002063827-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

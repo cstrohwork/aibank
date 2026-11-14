@@ -12,8 +12,113 @@
     "https://www.sec.gov/Archives/edgar/data/1389507/0000919574-26-005426.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6749ac8c1e0ef241a522652515ed58dfc6f453fe5d459435ee56d6b3f676a6e9",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "039af233ec10e16e6ef5ec5faef28e4135b2b2fea95d3a10c073aed2f5c39eae",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0000919574-26-005426",
+    "source": "https://www.sec.gov/Archives/edgar/data/1389507/0000919574-26-005426.txt",
+    "distinct_positions": 113,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2407934157.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "80004C200",
+        "security_class": "COM",
+        "issuer": "SANDISK CORP",
+        "shares": 207587.0,
+        "value_usd": 471996790.0,
+        "weight_pct": 19.6
+      },
+      {
+        "cusip": "G2519Y108",
+        "security_class": "COM",
+        "issuer": "CREDICORP LTD",
+        "shares": 271865.0,
+        "value_usd": 105913167.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "02390A101",
+        "security_class": "SPON ADS RP CL B",
+        "issuer": "AMERICA MOVIL SAB DE CV",
+        "shares": 3988067.0,
+        "value_usd": 103649861.0,
+        "weight_pct": 4.3
+      },
+      {
+        "cusip": "00165C302",
+        "security_class": "CL A NEW",
+        "issuer": "AMC ENTMT HLDGS INC",
+        "shares": 51799352.0,
+        "value_usd": 98418769.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "20464U100",
+        "security_class": "CL A",
+        "issuer": "COMPASS INC",
+        "shares": 7526497.0,
+        "value_usd": 92801708.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "35834F104",
+        "security_class": "COM NEW",
+        "issuer": "T1 ENERGY INC",
+        "shares": 7465100.0,
+        "value_usd": 70769148.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "75134P600",
+        "security_class": "COM CL A",
+        "issuer": "RAMACO RES INC",
+        "shares": 5311360.0,
+        "value_usd": 70269293.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "N4732M103",
+        "security_class": "CL A SHS",
+        "issuer": "JBS N.V.",
+        "shares": 5436300.0,
+        "value_usd": 64420155.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "40049J206",
+        "security_class": "SPON ADR REP ORD",
+        "issuer": "GRUPO TELEVISA S A B",
+        "shares": 22117634.0,
+        "value_usd": 59938788.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 355336.0,
+        "value_usd": 58900495.0,
+        "weight_pct": 2.45
+      }
+    ],
+    "top_five_pct": 36.25,
+    "top_ten_pct": 49.71,
+    "hhi": 547.49,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000919574-26-005426"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1905665/0001905665-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cd22b9f0e5d450405a1249dbab5c54be20aa46f6767266061f7f87d51455afd5",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "83df18b644104d5b652a611f611e085e439c9d30b1bc15a55216f4ce46afa3e0",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001905665-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905665/0001905665-26-000005.txt",
+    "distinct_positions": 71,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 211167926.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V708",
+        "security_class": "US CORE EQUITY 2",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1674031.0,
+        "value_usd": 74410664.0,
+        "weight_pct": 35.24
+      },
+      {
+        "cusip": "25434V880",
+        "security_class": "WORLD EX US CORE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 892777.0,
+        "value_usd": 33050610.0,
+        "weight_pct": 15.65
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 341011.0,
+        "value_usd": 19048862.0,
+        "weight_pct": 9.02
+      },
+      {
+        "cusip": "256163106",
+        "security_class": "COM",
+        "issuer": "DOCUSIGN INC",
+        "shares": 113428.0,
+        "value_usd": 7616690.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "25434V724",
+        "security_class": "US MKTWIDE VALUE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 122194.0,
+        "value_usd": 6720674.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 80954.0,
+        "value_usd": 5378554.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 10499.0,
+        "value_usd": 5227977.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 106343.0,
+        "value_usd": 4223949.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 14379.0,
+        "value_usd": 3582528.0,
+        "weight_pct": 1.7
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 73897.0,
+        "value_usd": 3061547.0,
+        "weight_pct": 1.45
+      }
+    ],
+    "top_five_pct": 66.7,
+    "top_ten_pct": 76.87,
+    "hhi": 1627.22,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 23,
+      "exited_positions": 2,
+      "increased_positions": 14,
+      "reduced_positions": 18
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001905665-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001905665-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

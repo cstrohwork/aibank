@@ -12,8 +12,57 @@
     "https://www.sec.gov/Archives/edgar/data/1420995/0000904454-26-000454.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a77216a9f9f6d6319071e70a8df51cf4a6279636ddadd8720c09a3b33edec417",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "3e58265f89e1588e0c54dc84b9efe534642ea103dc6a81696a96c91c3f9921b6",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0000904454-26-000454",
+    "source": "https://www.sec.gov/Archives/edgar/data/1420995/0000904454-26-000454.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 467844511.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 618565.0,
+        "value_usd": 461925785.0,
+        "weight_pct": 98.73
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "COM CL A",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 26779.0,
+        "value_usd": 5918159.0,
+        "weight_pct": 1.26
+      },
+      {
+        "cusip": "86889P117",
+        "security_class": "*W EXP 08/01/203",
+        "issuer": "SURROZEN INC",
+        "shares": 33333.0,
+        "value_usd": 567.0,
+        "weight_pct": 0.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9750.18,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000904454-26-000454"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

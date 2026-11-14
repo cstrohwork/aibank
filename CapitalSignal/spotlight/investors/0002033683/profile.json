@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2033683/0002033683-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "83a1d932f5e1981bde469e904549a0cbed91c5539b43d0bd3f8c685d89c5d43a",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "5e7caf084ea2d3c101ef66b642748da7e8826911f9a1a5e308e0119e135749de",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0002033683-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2033683/0002033683-26-000007.txt",
+    "distinct_positions": 70,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 190979126.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524805",
+        "security_class": "ETF",
+        "issuer": "SCHWAB INTERNATIONAL EQUITY ETF",
+        "shares": 1389247.0,
+        "value_usd": 38162629.0,
+        "weight_pct": 19.98
+      },
+      {
+        "cusip": "69344A107",
+        "security_class": "ETF",
+        "issuer": "PGIM ULTRA SHORT BOND ETF",
+        "shares": 618064.0,
+        "value_usd": 30569437.0,
+        "weight_pct": 16.01
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "ETF",
+        "issuer": "SCHWAB US LARGE CAP GROWTH ETF",
+        "shares": 745686.0,
+        "value_usd": 26792481.0,
+        "weight_pct": 14.03
+      },
+      {
+        "cusip": "808524409",
+        "security_class": "ETF",
+        "issuer": "SCHWAB US LARGE CAP VALUE ETF",
+        "shares": 765306.0,
+        "value_usd": 25492342.0,
+        "weight_pct": 13.35
+      },
+      {
+        "cusip": "41151J505",
+        "security_class": "ETF",
+        "issuer": "HARBOR COMMODITY ALL-WEATHER STRATEGY ETF",
+        "shares": 320806.0,
+        "value_usd": 11311632.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "COM",
+        "issuer": "DELL TECHNOLOGIES INC CL C",
+        "shares": 5364.0,
+        "value_usd": 2885564.0,
+        "weight_pct": 1.51
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 6833.0,
+        "value_usd": 2275526.0,
+        "weight_pct": 1.19
+      },
+      {
+        "cusip": "437076102",
+        "security_class": "COM",
+        "issuer": "HOME DEPOT",
+        "shares": 6224.0,
+        "value_usd": 1770670.0,
+        "weight_pct": 0.93
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT",
+        "shares": 3322.0,
+        "value_usd": 1703854.0,
+        "weight_pct": 0.89
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC COM",
+        "shares": 3586.0,
+        "value_usd": 1424754.0,
+        "weight_pct": 0.75
+      }
+    ],
+    "top_five_pct": 69.29,
+    "top_ten_pct": 74.56,
+    "hhi": 1084.54,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 54,
+      "exited_positions": 53,
+      "increased_positions": 3,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0002033683-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0002033683-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0002033683-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1005186/0001214659-26-009089.txt",
     "https://www.sec.gov/Archives/edgar/data/1005186/0001214659-26-012646.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5c20f53783fb553dde70e53640d298766723ffe9587a7f4f4310d1c8936bb04b",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "93b50454fc38379ef828dc19a85c1f64856d8b73c0f6ae38f70a9388074f8e9b",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0001214659-26-012646",
+    "source": "https://www.sec.gov/Archives/edgar/data/1005186/0001214659-26-012646.txt",
+    "distinct_positions": 124,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 141080810.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 12363.0,
+        "value_usd": 6156156.0,
+        "weight_pct": 4.36
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 7779.0,
+        "value_usd": 5641185.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 12378.0,
+        "value_usd": 4217680.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 11943.0,
+        "value_usd": 3977198.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "GOLD MINERS ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 43745.0,
+        "value_usd": 3840811.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 11286.0,
+        "value_usd": 3733747.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 15971.0,
+        "value_usd": 3647457.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 11952.0,
+        "value_usd": 3524764.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 6714.0,
+        "value_usd": 3443478.0,
+        "weight_pct": 2.44
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "CL C",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 6258.0,
+        "value_usd": 3366491.0,
+        "weight_pct": 2.39
+      }
+    ],
+    "top_five_pct": 16.89,
+    "top_ten_pct": 29.45,
+    "hhi": 166.59,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 21,
+      "increased_positions": 53,
+      "reduced_positions": 40
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001214659-26-009089"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0001214659-26-012646"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

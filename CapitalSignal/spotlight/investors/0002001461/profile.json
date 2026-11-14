@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2001461/0001213900-26-107847.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e0e191dc11ace6edb943df53836b21963b4bf1372482720980dfb298c02a4663",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "b62c64a333604a7f21bdfd31b49c67fa1c39f9f7c6af42a8874755baeb3c7d2f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001213900-26-107847",
+    "source": "https://www.sec.gov/Archives/edgar/data/2001461/0001213900-26-107847.txt",
+    "distinct_positions": 158,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 672527886.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 117671.0,
+        "value_usd": 39186881.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 44771.0,
+        "value_usd": 22963018.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 62686.0,
+        "value_usd": 21569137.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "Stock",
+        "issuer": "ABBVIE INC COM",
+        "shares": 81406.0,
+        "value_usd": 21294986.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "G1151C101",
+        "security_class": "Stock",
+        "issuer": "ACCENTURE PLC IRELAND SHS CLASS A",
+        "shares": 112243.0,
+        "value_usd": 20581966.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "Stock",
+        "issuer": "JPMORGAN CHASE & CO COM",
+        "shares": 57959.0,
+        "value_usd": 19174549.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "075887109",
+        "security_class": "Stock",
+        "issuer": "BECTON DICKINSON & CO COM",
+        "shares": 105324.0,
+        "value_usd": 18852914.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "91324P102",
+        "security_class": "Stock",
+        "issuer": "UNITEDHEALTH GROUP INC COM",
+        "shares": 49862.0,
+        "value_usd": 18303331.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "Stock",
+        "issuer": "MERCK & CO INC COM",
+        "shares": 125784.0,
+        "value_usd": 18277707.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "036752103",
+        "security_class": "Stock",
+        "issuer": "ELEVANCE HEALTH INC FORMERLY A COM",
+        "shares": 46767.0,
+        "value_usd": 18184039.0,
+        "weight_pct": 2.7
+      }
+    ],
+    "top_five_pct": 18.68,
+    "top_ten_pct": 32.47,
+    "hhi": 218.01,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 27,
+      "exited_positions": 26,
+      "increased_positions": 34,
+      "reduced_positions": 95
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001213900-25-099029"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001213900-26-107847"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

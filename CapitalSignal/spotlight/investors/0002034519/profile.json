@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2034519/0002085853-26-001131.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "43077b47da58063eac884e97313335a9ef4b878c658dcc239985286440228139",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "0a8ce216c2470bc4e5f3e1bc7d679c365dcf08c5d88fcc57d55e5fce534d78c8",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0002085853-26-001131",
+    "source": "https://www.sec.gov/Archives/edgar/data/2034519/0002085853-26-001131.txt",
+    "distinct_positions": 72,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 186569522.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 149738.0,
+        "value_usd": 21301664.0,
+        "weight_pct": 11.42
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 190014.0,
+        "value_usd": 13671474.0,
+        "weight_pct": 7.33
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 12914.0,
+        "value_usd": 9890285.0,
+        "weight_pct": 5.3
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 29046.0,
+        "value_usd": 9672746.0,
+        "weight_pct": 5.18
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 41194.0,
+        "value_usd": 9407951.0,
+        "weight_pct": 5.04
+      },
+      {
+        "cusip": "464287721",
+        "security_class": "U.S. TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 27356.0,
+        "value_usd": 7221876.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 40358.0,
+        "value_usd": 6263553.0,
+        "weight_pct": 3.36
+      },
+      {
+        "cusip": "464287572",
+        "security_class": "GLOBAL 100 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 42892.0,
+        "value_usd": 6176867.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "60770K107",
+        "security_class": "COM",
+        "issuer": "MODERNA INC",
+        "shares": 11652.0,
+        "value_usd": 5976095.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 34823.0,
+        "value_usd": 5253398.0,
+        "weight_pct": 2.82
+      }
+    ],
+    "top_five_pct": 34.27,
+    "top_ten_pct": 50.83,
+    "hhi": 393.96,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 10,
+      "increased_positions": 28,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0002085853-25-000234"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0002085853-26-000931"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0002085853-26-001131"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

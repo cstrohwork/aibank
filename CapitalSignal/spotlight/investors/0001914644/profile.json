@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1914644/0001085146-26-000856.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ec3a2cac0c15f3067c15a5bbfeb645446d14227956e6d48939c0a2b4a3ef57cf",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "f7abac3bc3d2359ea2bbb74f1d04dd1b42c682ce0d1efca33151ccd5344694ae",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001085146-26-000856",
+    "source": "https://www.sec.gov/Archives/edgar/data/1914644/0001085146-26-000856.txt",
+    "distinct_positions": 231,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 480922427.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46654Q575",
+        "security_class": "MORTGAGE BACKED",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 869826.0,
+        "value_usd": 42047400.0,
+        "weight_pct": 8.74
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 100701.0,
+        "value_usd": 33535579.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 94006.0,
+        "value_usd": 21469073.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 39974.0,
+        "value_usd": 20502472.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 38272.0,
+        "value_usd": 13040906.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 33124.0,
+        "value_usd": 10958287.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 195237.0,
+        "value_usd": 9537345.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 36024.0,
+        "value_usd": 9423503.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 13390.0,
+        "value_usd": 9384551.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 48302.0,
+        "value_usd": 7861146.0,
+        "weight_pct": 1.63
+      }
+    ],
+    "top_five_pct": 27.16,
+    "top_ten_pct": 36.96,
+    "hhi": 232.88,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 72,
+      "exited_positions": 42,
+      "increased_positions": 102,
+      "reduced_positions": 47
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001914644-25-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001085146-26-000856"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

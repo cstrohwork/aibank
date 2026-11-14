@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1722053/0001722053-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b601949a2277cfed5dd3374f50d549ef66058a0156bb2b8d96f671c9e1a23f04",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "5572b196822131346de926ec72bdc5b27559db1a18cfc81020733a188b3ece84",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001722053-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1722053/0001722053-26-000007.txt",
+    "distinct_positions": 50,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 63348784.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 34698.0,
+        "value_usd": 7972386.0,
+        "weight_pct": 12.58
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 16694.0,
+        "value_usd": 5905336.0,
+        "weight_pct": 9.32
+      },
+      {
+        "cusip": "N97284108",
+        "security_class": "SHS CLASS A",
+        "issuer": "NEBIUS GROUP N.V.",
+        "shares": 19147.0,
+        "value_usd": 4510555.0,
+        "weight_pct": 7.12
+      },
+      {
+        "cusip": "958102105",
+        "security_class": "COM",
+        "issuer": "WESTERN DIGITAL CORP",
+        "shares": 9048.0,
+        "value_usd": 4135524.0,
+        "weight_pct": 6.53
+      },
+      {
+        "cusip": "882508104",
+        "security_class": "COM",
+        "issuer": "TEXAS INSTRS INC",
+        "shares": 13781.0,
+        "value_usd": 3875837.0,
+        "weight_pct": 6.12
+      },
+      {
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 3990.0,
+        "value_usd": 3681234.0,
+        "weight_pct": 5.81
+      },
+      {
+        "cusip": "482480100",
+        "security_class": "COM NEW",
+        "issuer": "KLA CORP",
+        "shares": 17955.0,
+        "value_usd": 3522412.0,
+        "weight_pct": 5.56
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "CL C",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 4500.0,
+        "value_usd": 2432565.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 6510.0,
+        "value_usd": 2169588.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "42824C109",
+        "security_class": "COM",
+        "issuer": "HEWLETT PACKARD ENTERPRISE C",
+        "shares": 33235.0,
+        "value_usd": 2131527.0,
+        "weight_pct": 3.36
+      }
+    ],
+    "top_five_pct": 41.67,
+    "top_ten_pct": 63.67,
+    "hhi": 531.03,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 32,
+      "exited_positions": 32,
+      "increased_positions": 8,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001722053-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001722053-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001722053-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

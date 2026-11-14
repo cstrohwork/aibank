@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2049540/0002049540-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "60f67bde1a9bdf9658c256caed20c98cad93d492c50ed64fa62ee90059e25793",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "4992fc773defbfe1932bd5a625f079350ac149e5db95a8208ab4d69c0e300504",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-06",
+    "accession": "0002049540-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2049540/0002049540-26-000006.txt",
+    "distinct_positions": 36,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 125970751.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 125151.0,
+        "value_usd": 46836801.0,
+        "weight_pct": 37.18
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "ETF",
+        "issuer": "VANGUARD CORE BOND ETF",
+        "shares": 384501.0,
+        "value_usd": 28306971.0,
+        "weight_pct": 22.47
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "ETF",
+        "issuer": "VANGUARD TOTAL INTERNATIONAL STOCK ETF",
+        "shares": 199512.0,
+        "value_usd": 16950562.0,
+        "weight_pct": 13.46
+      },
+      {
+        "cusip": "922907712",
+        "security_class": "ETF",
+        "issuer": "VANGUARD CORE TAX-EXEMPT BOND ETF",
+        "shares": 170666.0,
+        "value_usd": 12214578.0,
+        "weight_pct": 9.7
+      },
+      {
+        "cusip": "921910733",
+        "security_class": "ETF",
+        "issuer": "VANGUARD ESG U.S. STOCK ETF",
+        "shares": 29024.0,
+        "value_usd": 3933722.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "46435U549",
+        "security_class": "ETF",
+        "issuer": "ISHARES ESG AWARE US AGGREGATE BOND ETF",
+        "shares": 66590.0,
+        "value_usd": 3013226.0,
+        "weight_pct": 2.39
+      },
+      {
+        "cusip": "90290N109",
+        "security_class": "Stock",
+        "issuer": "USA COMPRESSION PARTNERS LP COM UNIT LTDPAR",
+        "shares": 92060.0,
+        "value_usd": 2289537.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "224633206",
+        "security_class": "Stock",
+        "issuer": "CRAWFORD & CO CL A",
+        "shares": 130687.0,
+        "value_usd": 1630973.0,
+        "weight_pct": 1.29
+      },
+      {
+        "cusip": "921910725",
+        "security_class": "ETF",
+        "issuer": "VANGUARD ESG INTERNATIONAL STOCK ETF",
+        "shares": 15448.0,
+        "value_usd": 1252387.0,
+        "weight_pct": 0.99
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 500 ETF",
+        "shares": 11368.0,
+        "value_usd": 1020391.0,
+        "weight_pct": 0.81
+      }
+    ],
+    "top_five_pct": 85.93,
+    "top_ten_pct": 93.24,
+    "hhi": 2186.98,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 7,
+      "exited_positions": 4,
+      "increased_positions": 17,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0002049540-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-06",
+        "accession": "0002049540-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

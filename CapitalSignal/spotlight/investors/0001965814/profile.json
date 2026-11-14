@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1965814/0001965814-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9703941bb07b9f1fc276ccfc01f1aefd024b5ecd79f372bc9f9095c889be6a79",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "2bee389fb9736946fd77fb688912c859026f26528525a2a43fa300279d2d653f",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-09",
+    "accession": "0001965814-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1965814/0001965814-26-000005.txt",
+    "distinct_positions": 192,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 428040112.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00039J103",
+        "security_class": "ULTRA SHORT INCM",
+        "issuer": "AB ACTIVE ETFS INC",
+        "shares": 912006.0,
+        "value_usd": 45673265.0,
+        "weight_pct": 10.67
+      },
+      {
+        "cusip": "69344A107",
+        "security_class": "PGIM ULTRA SH BD",
+        "issuer": "PGIM ETF TR",
+        "shares": 476689.0,
+        "value_usd": 23577043.0,
+        "weight_pct": 5.51
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 22159.0,
+        "value_usd": 16898941.0,
+        "weight_pct": 3.95
+      },
+      {
+        "cusip": "25434V666",
+        "security_class": "US LARG VALU ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 400058.0,
+        "value_usd": 16070340.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 197502.0,
+        "value_usd": 15361682.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "25239Y170",
+        "security_class": "U.S. SML CP VAL",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 327821.0,
+        "value_usd": 12283452.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "464287671",
+        "security_class": "CORE S&P US GWT",
+        "issuer": "ISHARES TR",
+        "shares": 59795.0,
+        "value_usd": 11585373.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 48940.0,
+        "value_usd": 10876360.0,
+        "weight_pct": 2.54
+      },
+      {
+        "cusip": "46138E214",
+        "security_class": "S&P INTL QULTY",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 246776.0,
+        "value_usd": 10643435.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 28736.0,
+        "value_usd": 9569663.0,
+        "weight_pct": 2.24
+      }
+    ],
+    "top_five_pct": 27.47,
+    "top_ten_pct": 40.31,
+    "hhi": 271.53,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 55,
+      "exited_positions": 53,
+      "increased_positions": 62,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001965814-25-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-09",
+        "accession": "0001965814-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

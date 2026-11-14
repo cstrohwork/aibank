@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2052868/0002052868-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2dedf45f99d585e5ae540ec8a90ce74d00b38a430285d80af80b5a1dc43a8776",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "50204aa352ebef8305319a8c689b29eb7396f712f1a9686c9822954ad6f4f9a4",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0002052868-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2052868/0002052868-26-000007.txt",
+    "distinct_positions": 116,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 316692899.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 40877.0,
+        "value_usd": 31305611.0,
+        "weight_pct": 9.89
+      },
+      {
+        "cusip": "09290C764",
+        "security_class": "ISHA IN CTRY ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 501727.0,
+        "value_usd": 18237791.0,
+        "weight_pct": 5.76
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 220412.0,
+        "value_usd": 15265745.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 105159.0,
+        "value_usd": 14959872.0,
+        "weight_pct": 4.72
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "S&P 500 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 55521.0,
+        "value_usd": 12674401.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "09290C665",
+        "security_class": "ISHA SYST AL ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 413677.0,
+        "value_usd": 12352407.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "09290C855",
+        "security_class": "ISHA LA CORE ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 201629.0,
+        "value_usd": 9871772.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "09290C780",
+        "security_class": "ISHA I IN TE ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 202755.0,
+        "value_usd": 9567995.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "46429B267",
+        "security_class": "US TREAS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 355685.0,
+        "value_usd": 7778831.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "37960A529",
+        "security_class": "DEFENSE TECH ETF",
+        "issuer": "GLOBAL X FDS",
+        "shares": 112531.0,
+        "value_usd": 6760849.0,
+        "weight_pct": 2.13
+      }
+    ],
+    "top_five_pct": 29.19,
+    "top_ten_pct": 43.82,
+    "hhi": 292.89,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 86,
+      "exited_positions": 29,
+      "increased_positions": 8,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001085146-25-005862"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0002052868-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

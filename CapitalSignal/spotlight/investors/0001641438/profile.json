@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1641438/0001641438-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4e3c575812c00a641680077a5651268f668bbd191f46fb35354a5839b57a89c3",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "bda81ed179bc9064a45f35426a9da416c02d2b1c49d238ae57d6b2e08da1fc49",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0001641438-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1641438/0001641438-26-000006.txt",
+    "distinct_positions": 136,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 869228116.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 620582.0,
+        "value_usd": 56758459.0,
+        "weight_pct": 6.53
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 248352.0,
+        "value_usd": 34044034.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 370785.0,
+        "value_usd": 33177834.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "464287101",
+        "security_class": "S&P 100 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 83321.0,
+        "value_usd": 32448337.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 402793.0,
+        "value_usd": 28364657.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "47103U746",
+        "security_class": "HEND SECU IN ETF",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 545120.0,
+        "value_usd": 27277808.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "33739Q200",
+        "security_class": "FST LOW OPPT EFT",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 537884.0,
+        "value_usd": 26081995.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "46138J619",
+        "security_class": "RUSL 1000 DYNM",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 367230.0,
+        "value_usd": 26076984.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "33738D606",
+        "security_class": "LNG DUR OPRTUN",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 1290981.0,
+        "value_usd": 25225775.0,
+        "weight_pct": 2.9
+      },
+      {
+        "cusip": "33739H101",
+        "security_class": "FST TR GLB FD",
+        "issuer": "FIRST TR EXCHANGE TRAD FD VI",
+        "shares": 719087.0,
+        "value_usd": 22199361.0,
+        "weight_pct": 2.55
+      }
+    ],
+    "top_five_pct": 21.26,
+    "top_ten_pct": 35.85,
+    "hhi": 222.37,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 44,
+      "exited_positions": 40,
+      "increased_positions": 47,
+      "reduced_positions": 43
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001641438-25-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0001641438-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

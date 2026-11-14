@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2054149/0002054149-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a2052efcddab428dea358dea4a9e6939dd15dee5ab8711a7570df04e185f87d5",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "0501f99de2f58ecf4e960d89c70d41c08ee9961963eeb00740291714dd14512a",
+  "generated_at": "2026-11-14T19:47:04.323728+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-01",
+    "accession": "0002054149-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2054149/0002054149-26-000004.txt",
+    "distinct_positions": 416,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 130095555.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 14121.0,
+        "value_usd": 7242778.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 18188.0,
+        "value_usd": 6258288.0,
+        "weight_pct": 4.81
+      },
+      {
+        "cusip": "316092352",
+        "security_class": "ETF",
+        "issuer": "FIDELITY BLUE CHIP GROWTH ETF",
+        "shares": 81989.0,
+        "value_usd": 5182537.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "315912808",
+        "security_class": "ETF",
+        "issuer": "FIDELITY NASDAQ COMPOSITE INDEX ETF",
+        "shares": 42589.0,
+        "value_usd": 4507640.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 13370.0,
+        "value_usd": 4452325.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 5784.0,
+        "value_usd": 4430026.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "Stock",
+        "issuer": "VISA INC COM CL A",
+        "shares": 11681.0,
+        "value_usd": 4197223.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 16078.0,
+        "value_usd": 4005784.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "316092303",
+        "security_class": "ETF",
+        "issuer": "FIDELITY MSCI CONSUMER STAPLES INDEX ETF",
+        "shares": 59140.0,
+        "value_usd": 3006676.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "Stock",
+        "issuer": "JPMORGAN CHASE & CO COM",
+        "shares": 8538.0,
+        "value_usd": 2824643.0,
+        "weight_pct": 2.17
+      }
+    ],
+    "top_five_pct": 21.25,
+    "top_ten_pct": 35.44,
+    "hhi": 185.17,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 96,
+      "exited_positions": 47,
+      "increased_positions": 161,
+      "reduced_positions": 100
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-01",
+        "accession": "0002054149-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-01",
+        "accession": "0002054149-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }
