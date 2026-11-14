@@ -28,7 +28,15 @@ def run(batch=2000):
         except (ValueError, TypeError):
             value = 0
         return (p.get('latest_report_date') or '', value)
-    profiles.sort(key=rank, reverse=True)
+    index_path = DATA / '13f/index.json'
+    filing_dates = {}
+    if index_path.exists():
+        for entry in json.loads(index_path.read_text()).get('managers', []):
+            key = (str(entry.get('manager_cik', '')).zfill(10), entry.get('report_date'))
+            filing_dates[key] = max(filing_dates.get(key, ''), entry.get('filing_date') or '')
+    for profile in profiles:
+        profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
+    profiles.sort(key=lambda p: (p.get('filing_date') or '', rank(p)), reverse=True)
     changed = 0
     errors = []
     for p in profiles:
@@ -50,7 +58,7 @@ def run(batch=2000):
             style = 'Value' if cik == '0001067983' else p.get('investor_style') or 'Pending fundamental coverage'
             orientation = 'Active (IR Resistant)' if cik == '0001067983' else p.get('orientation') or 'Pending fund classification'
             rows = [('CIK', cik), ('Latest cached reporting period', p.get('latest_report_date')),
-                    ('City', p.get('city')), ('State', p.get('state')), ('Country', p.get('country')),
+                    ('Filing date', p.get('filing_date')), ('City', p.get('city')), ('State', p.get('state')), ('Country', p.get('country')),
                     ('Investment style', style), ('Orientation', orientation),
                     ('Style evidence', p.get('style_status')), ('Orientation evidence', p.get('orientation_status')),
                     ('Available reporting periods', ', '.join(p.get('periods_available', [])))]
@@ -64,7 +72,7 @@ def run(batch=2000):
             versions = target / 'versions'
             versions.mkdir(exist_ok=True)
             doc = {'manager_cik': cik, 'investor_name': name, 'latest_report_date': p.get('latest_report_date'),
-                   'city': p.get('city'), 'state': p.get('state'), 'country': p.get('country'),
+                   'filing_date': p.get('filing_date'), 'city': p.get('city'), 'state': p.get('state'), 'country': p.get('country'),
                    'investor_style': style, 'orientation': orientation, 'source_filings': sources,
                    'evidence_status': 'cached_source_profile_monetary_reconciliation_pending', 'source_fingerprint': fingerprint,
                    'generated_at': now, 'reported_13f_value_usd': None, 'annualized_turnover_proxy_pct': None}
