@@ -44,6 +44,14 @@ jobs:
         run: python scripts/investor_intelligence.py --discover-mandates 3 --fetch-prospectuses
       - name: Rebuild intelligence and conditional Model activation
         run: python scripts/run_intelligence_pipeline.py
+      - name: Reject generated files that GitHub cannot publish
+        run: |
+          oversized="$(find CapitalSignal/data/intelligence CapitalSignal/data/fundamentals/model_companies -type f -size +95000000c -print)"
+          if [ -n "$oversized" ]; then
+            echo "Generated files exceed the 95 MB publication guard:" >&2
+            echo "$oversized" >&2
+            exit 1
+          fi
       - name: Preserve calculation evidence
         if: always()
         uses: actions/upload-artifact@v4
