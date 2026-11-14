@@ -9,8 +9,9 @@
     "discovery_cursor": 54,
     "exhausted": false,
     "warning": "Bounded cached 13F discovery; SEC monetary summary and amendment precedence not independently reconciled; N-PORT/N-PX universe incomplete",
-    "readiness_unqueued_remaining": 204,
-    "readiness_last_expanded_at": "2026-11-14T02:39:48.955302+00:00"
+    "readiness_unqueued_remaining": 201,
+    "readiness_last_expanded_at": "2026-11-14T02:39:48.955302+00:00",
+    "last_manual_admission_at": "2026-11-14T04:54:00Z"
   },
   "policy": {
     "batch_size": 30,
@@ -1114,6 +1115,51 @@
       "style": "unknown",
       "last_checked_at": "2026-11-14T03:30:00Z",
       "evidence_stage": "readiness_metadata_reviewed"
+    },
+    {
+      "id": "CIK0000850027",
+      "name": "EAGLE CAPITAL GROWTH FUND, INC.",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/850027/0000850027-25-000007.txt",
+      "reported_13f_value_usd": null,
+      "cached_nport_common_equity_value_usd_unverified": 49602936.52,
+      "orientation": "unknown",
+      "style": null,
+      "retries": 0,
+      "reason": "N-PORT readiness discovery; underlying SEC accession, amendments, fund/registrant identity and monetary totals require independent verification. Cached common-equity value is provisional and is not total AUM.",
+      "last_checked_at": "2026-11-14T04:54:00Z"
+    },
+    {
+      "id": "CIK0001011006",
+      "name": "Altaba Inc.",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1011006/0001193125-25-274324.txt",
+      "reported_13f_value_usd": null,
+      "cached_nport_common_equity_value_usd_unverified": 349802.31,
+      "orientation": "unknown",
+      "style": null,
+      "retries": 0,
+      "reason": "N-PORT readiness discovery; underlying SEC accession, amendments, fund/registrant identity and monetary totals require independent verification. Cached common-equity value is provisional and is not total AUM.",
+      "last_checked_at": "2026-11-14T04:54:00Z"
+    },
+    {
+      "id": "CIK0001499857",
+      "name": "Morgan Creek Global Equity Long/Short Institutional Fund",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1499857/0001049169-25-000515.txt",
+      "reported_13f_value_usd": null,
+      "cached_nport_common_equity_value_usd_unverified": 2078166.64,
+      "orientation": "unknown",
+      "style": null,
+      "retries": 0,
+      "reason": "N-PORT readiness discovery; underlying SEC accession, amendments, fund/registrant identity and monetary totals require independent verification. Cached common-equity value is provisional and is not total AUM.",
+      "last_checked_at": "2026-11-14T04:54:00Z"
     }
   ],
   "next_batch_ids": [
@@ -1139,16 +1185,14 @@
     "failed_transient": 0
   },
   "next_batch": [
-    "S000002848",
-    "S000004307",
-    "S000004310",
-    "S000004313",
-    "S000004346",
-    "CIK0002032602",
+    "CIK0000850027",
+    "CIK0001011006",
+    "CIK0001499857",
+    "CIK0001979372",
+    "CIK0000019617",
     "CIK0001390777",
     "CIK0001697723",
-    "CIK0001054074",
-    "CIK0000019617"
+    "CIK0000102909"
   ],
   "last_run": {
     "action": "monetary_scale_conflict_detected",
@@ -1166,7 +1210,7 @@
   },
   "last_queue_selection_at": "2026-11-14T02:39:48.955335+00:00",
   "counts": {
-    "pending": 15,
+    "pending": 18,
     "validated_pending_publication": 43,
     "published": 1,
     "failed": 0,
