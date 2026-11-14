@@ -23,10 +23,20 @@ def main():
     # discard accession fingerprints, retries, and validation evidence.
     if "items" in prior and "records" not in prior:
         items = prior["items"]
+        # Rotate across pending investors instead of repeatedly selecting the same
+        # first ten (which previously produced no progress on oversized filings).
+        # This advances a durable selection cursor without falsely validating data.
         pending = [r for r in items if r.get("status") == "pending"]
         pending.sort(key=lambda r: (r.get("retries", 0), r.get("filing_date") or "", r["id"]))
-        prior["next_batch"] = [r["id"] for r in pending[:args.batch_size]]
+        cursor = int(prior.get("selection_cursor", 0))
+        selected = ([pending[(cursor + i) % len(pending)]
+                     for i in range(min(args.batch_size, len(pending)))]) if pending else []
+        prior["next_batch"] = [r["id"] for r in selected]
+        prior["selection_cursor"] = (cursor + len(selected)) % len(pending) if pending else 0
         prior["last_queue_selection_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+        prior["last_selection_warning"] = (
+            "Rotating queue selection only: no holdings validated or profiles published."
+        )
         prior["counts"] = {state: sum(r.get("status") == state for r in items)
                            for state in ("pending", "validated_pending_publication", "published", "failed", "blocked")}
         DEST.write_text(json.dumps(prior, indent=2) + "\\n")
