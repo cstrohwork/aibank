@@ -150,13 +150,25 @@ class StandaloneIdentityTests(unittest.TestCase):
         self.assertEqual(fund['fund_id'], 'CIK0000000001')
         self.assertEqual(fund['identity_basis'], 'matching_registrant_series_lei_and_name')
 
+    def test_matched_valid_lei_survives_legal_name_spelling_difference(self):
+        fund = parse(self.xml(series_name='Standalone Fund Incorporated'), 'SEC original')
+        self.assertIsNone(fund['series_id'])
+        self.assertEqual(fund['fund_id'], 'CIK0000000001')
+        self.assertEqual(fund['identity_basis'], 'matching_registrant_series_lei')
+
+    def test_matching_name_with_not_applicable_series_lei_is_evidenced(self):
+        fund = parse(self.xml(series_lei='N/A'), 'SEC original')
+        self.assertIsNone(fund['series_id'])
+        self.assertEqual(fund['identity_basis'], 'matching_registrant_series_name_series_lei_not_applicable')
+
     def test_explicit_na_uses_registrant_name(self):
         fund = parse(self.xml(series_name='N/A', series_lei='N/A'), 'SEC original')
         self.assertEqual(fund['fund_name'], 'Standalone Fund')
         self.assertIsNone(fund['series_id'])
 
     def test_name_alone_or_disagreeing_lei_does_not_invent_identity(self):
-        for args in ({'series_lei': ''}, {'series_lei': '529900TOB3V09W4JX713'}, {'series_name': 'Another Fund'}):
+        for args in ({'series_lei': ''}, {'series_lei': '529900TOB3V09W4JX713'},
+                     {'series_name': 'Another Fund', 'series_lei': 'N/A'}):
             with self.subTest(args=args), self.assertRaisesRegex(ValueError, 'series identifier'):
                 parse(self.xml(**args), 'SEC original')
 

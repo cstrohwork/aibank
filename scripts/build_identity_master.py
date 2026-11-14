@@ -94,7 +94,12 @@ def build(data_root):
             if folder=='funds':
                 series=row.get('series_id')
                 if series and re.fullmatch(r'S\d{9}',series): fid='series:'+series
-                elif row.get('fund_id')=='CIK'+str(row.get('registrant_cik')) and row.get('identity_basis')=='matching_registrant_series_lei_and_name' and eid:
+                elif (row.get('fund_id')=='CIK'+str(row.get('registrant_cik'))
+                      and row.get('identity_basis') in {
+                          'matching_registrant_series_lei_and_name',
+                          'matching_registrant_series_lei',
+                          'matching_registrant_series_name_series_lei_not_applicable',
+                      } and eid):
                     fid='fund:registrant:'+eid[4:]
                 else:
                     fid=None

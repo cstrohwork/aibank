@@ -28,13 +28,18 @@ def fund_identity(root):
     reg_lei=val(root,"regLei").upper()
     series_lei=val(root,"seriesLei").upper()
     same_name=" ".join(reg_name.casefold().split())==" ".join(series_name.casefold().split())
-    same_entity=(bool(reg_name) and same_name and re.fullmatch(r"[A-Z0-9]{20}",reg_lei)
-                 and reg_lei==series_lei)
+    same_valid_lei=(bool(re.fullmatch(r"[A-Z0-9]{20}",reg_lei)) and reg_lei==series_lei)
+    same_entity=bool(reg_name) and same_name and same_valid_lei
+    same_named_entity_without_series_lei=bool(reg_name) and same_name and series_lei=="N/A"
     explicit_na=series_name.upper()=="N/A" and series_lei=="N/A"
-    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_entity or explicit_na):
+    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_valid_lei or same_named_entity_without_series_lei or explicit_na):
         raise ValueError("Missing/invalid N-PORT series identifier")
+    if same_entity:basis="matching_registrant_series_lei_and_name"
+    elif same_valid_lei:basis="matching_registrant_series_lei"
+    elif same_named_entity_without_series_lei:basis="matching_registrant_series_name_series_lei_not_applicable"
+    else:basis="explicit_not_applicable_series"
     return {"series_id":None,"fund_id":"CIK"+cik.zfill(10),
-            "identity_basis":"matching_registrant_series_lei_and_name" if same_entity else "explicit_not_applicable_series",
+            "identity_basis":basis,
             "identity_registrant_cik":cik.zfill(10),"registrant_lei":reg_lei,
             "series_lei_reported":series_lei,"series_name_reported":series_name}
 
