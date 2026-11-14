@@ -37,6 +37,11 @@ REQUEST_LOCK = threading.Lock()
 NORMALIZER_VERSION = 2
 LIVE_FEED_STATUS = {'status': 'not_checked', 'new_accessions': 0}
 RUN_ARCHIVE_BUDGET_BYTES = 100_000_000
+# Release assets include tar headers, padding and a manifest in addition to the
+# compressed-original budget. The largest measured repository shard is
+# 119,920,640 bytes; keep retrieval bounded while allowing that evidence back
+# through the checksum-verified normalizer.
+MAX_RELEASE_SHARD_BYTES = 125_000_000
 BATCH_LIMIT_ERRORS = {
     'SEC submission exceeds remaining compressed archive budget',
     'SEC submission exceeded batch time budget',
@@ -471,7 +476,7 @@ def submission_rows(submission, reader, start):
 
 @functools.lru_cache(maxsize=2)
 def release_bytes(url, digest):
-    raw=fetch(url,limit=100_000_000)
+    raw=fetch(url,limit=MAX_RELEASE_SHARD_BYTES)
     if hashlib.sha256(raw).hexdigest()!=digest:
         raise ValueError("Release shard checksum mismatch")
     return raw
