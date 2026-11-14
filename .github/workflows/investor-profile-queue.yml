@@ -1,8 +1,16 @@
 name: Investor profile evidence queue
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/investor-profile-queue.yml'
+      - 'scripts/publish_investor_directory.py'
+  workflow_run:
+    workflows: ['Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
+    types: [completed]
   schedule:
-    - cron: '37 * * * *'
+    - cron: '*/10 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -11,7 +19,7 @@ concurrency:
 jobs:
   checkpoint:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -19,20 +27,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Advance discovered investor evidence queue
-        run: python scripts/profile_processing_queue.py --batch-size 10
-      - name: Persist queue and next batch
+      - name: Generate and persist investor profiles
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add CapitalSignal/data/intelligence/profile_processing_queue.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Checkpoint investor evidence queue"
-            for attempt in 1 2 3 4 5; do
-              git fetch origin main
-              git rebase origin/main
-              if git push origin HEAD:main; then exit 0; fi
-              sleep $((attempt * 2))
-            done
-            exit 1
-          fi
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/publish_investor_directory.py --batch-size 2000
+            git add CapitalSignal/spotlight/investors/
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m "Generate investor profiles from latest ingested SEC cache"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 2))
+          done
+          exit 1
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: investor-profile-progress
+          path: CapitalSignal/spotlight/investors/manifest.json
