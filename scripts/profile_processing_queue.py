@@ -57,9 +57,14 @@ def main():
                 continue
             old_date = item.get("report_date") or ""
             new_date = obj["report_date"]
-            if new_date <= old_date:
+            # Same-period source changes may indicate amendments. Requeue for
+            # authoritative accession/filing-date comparison rather than
+            # treating the cached replacement as an automatically valid amendment.
+            source_changed = bool(obj.get("source_url") and item.get("source_url")
+                                  and obj["source_url"] != item["source_url"])
+            if new_date < old_date or (new_date == old_date and not source_changed):
                 continue
-            # A newer cached report is only a discovery signal, not proof of
+            # A new cached report/source is a discovery signal, not proof of
             # amendment precedence or SEC monetary reconciliation.
             item.setdefault("prior_versions", []).append({
                 "report_date": old_date, "accession_fingerprint": item.get("accession_fingerprint"),
@@ -72,7 +77,7 @@ def main():
             item["sec_monetary_verified"] = False
             item["reported_13f_value_usd"] = None
             item["cached_source_reconciled"] = False
-            item["reason"] = "Newer readiness report discovered; original filing, amendments, holdings and units require validation"
+            item["reason"] = "Changed readiness period or source discovered; original filing, amendments, holdings and units require validation"
             changed_filings.append(item["id"])
         prior["last_changed_filing_candidates"] = changed_filings
         pool.sort(key=lambda row: (
