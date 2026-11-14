@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1966007/0001398344-25-020421.txt",
+    "https://www.sec.gov/Archives/edgar/data/1966007/0001398344-26-012840.txt",
     "https://www.sec.gov/Archives/edgar/data/1966007/0001398344-26-019322.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0a4a94e65f1881fb7aa6f8fdde17f9c73ea25721c0192ce3baff079ccf555375",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "6d2d3313680f8951f957f2a0b8bf60778ce5188c97e633fd0db25f2385b626cd",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001398344-26-019322",
+    "source": "https://www.sec.gov/Archives/edgar/data/1966007/0001398344-26-019322.txt",
+    "distinct_positions": 224,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1337809079.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 323640.0,
+        "value_usd": 73912903.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORPORATION",
+        "shares": 142727.0,
+        "value_usd": 73204678.0,
+        "weight_pct": 5.47
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC.",
+        "shares": 203685.0,
+        "value_usd": 67831179.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COM",
+        "issuer": "META PLATFORMS INC",
+        "shares": 63819.0,
+        "value_usd": 46280262.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "40434L105",
+        "security_class": "COM",
+        "issuer": "HP INC",
+        "shares": 1280989.0,
+        "value_usd": 40069336.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC",
+        "shares": 109230.0,
+        "value_usd": 37583858.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "COM",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 69536.0,
+        "value_usd": 37406891.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "00724F101",
+        "security_class": "COM",
+        "issuer": "ADOBE INC",
+        "shares": 134785.0,
+        "value_usd": 32340313.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYSTEMS INCORPORATED",
+        "shares": 260093.0,
+        "value_usd": 27993810.0,
+        "weight_pct": 2.09
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "COM",
+        "issuer": "MASTERCARD, INC.",
+        "shares": 48240.0,
+        "value_usd": 26602913.0,
+        "weight_pct": 1.99
+      }
+    ],
+    "top_five_pct": 22.52,
+    "top_ten_pct": 34.63,
+    "hhi": 208.77,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 30,
+      "exited_positions": 24,
+      "increased_positions": 84,
+      "reduced_positions": 109
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001398344-25-020421"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001398344-26-012840"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001398344-26-019322"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

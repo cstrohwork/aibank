@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1484540/0001484540-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2d178d0058b1d8a7eea0df5f0177db797ad2f0af60c8125c03b1870ff9a3ae2f",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "8a065199bebcaa53a230e60710d939cec711f8dbb7efc6ee67f084b55a466fb4",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001484540-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1484540/0001484540-26-000011.txt",
+    "distinct_positions": 202,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 197537137.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 11346.0,
+        "value_usd": 8689589.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "69344A107",
+        "security_class": "PGIM ULTRA SH BD",
+        "issuer": "PGIM ETF TR",
+        "shares": 162200.0,
+        "value_usd": 8022424.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 40624.0,
+        "value_usd": 6412455.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "81752T528",
+        "security_class": "ELDRIDGE BBB B",
+        "issuer": "SERIES PORTFOLIOS TR",
+        "shares": 195870.0,
+        "value_usd": 5151371.0,
+        "weight_pct": 2.61
+      },
+      {
+        "cusip": "46654Q716",
+        "security_class": "ACTIVE BOND ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 93519.0,
+        "value_usd": 4780672.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "46654Q757",
+        "security_class": "JPMORGAN INTL VL",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 47020.0,
+        "value_usd": 4477264.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 11640.0,
+        "value_usd": 4356156.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 27798.0,
+        "value_usd": 4039363.0,
+        "weight_pct": 2.04
+      },
+      {
+        "cusip": "81752T486",
+        "security_class": "ELDR AAA CLO ETF",
+        "issuer": "SERIES PORTFOLIOS TR",
+        "shares": 156884.0,
+        "value_usd": 4017787.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 82132.0,
+        "value_usd": 4012136.0,
+        "weight_pct": 2.03
+      }
+    ],
+    "top_five_pct": 16.73,
+    "top_ten_pct": 27.32,
+    "hhi": 128.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 42,
+      "exited_positions": 40,
+      "increased_positions": 60,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0001484540-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001484540-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001484540-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

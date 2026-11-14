@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1592613/0001592613-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3c88c024fc6f9b09f5950822e522164e53a74859908d43ece442924eea06533c",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "6145ae445b467a9e85db23bc7c4a80cb60772537e70f6551c1ed61a5908d1bef",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001592613-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1592613/0001592613-26-000009.txt",
+    "distinct_positions": 401,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 679633753.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 163830.0,
+        "value_usd": 47405957.0,
+        "weight_pct": 6.98
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 235648.0,
+        "value_usd": 34555469.0,
+        "weight_pct": 5.08
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 141340.0,
+        "value_usd": 28390090.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "26923N504",
+        "security_class": "FORMI FORTR ETF",
+        "issuer": "ETF OPPORTUNITIES TRUST",
+        "shares": 612204.0,
+        "value_usd": 18982916.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 47480.0,
+        "value_usd": 18099536.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "26923N306",
+        "security_class": "FORMIDABLE ETF",
+        "issuer": "ETF OPPORTUNITIES TRUST",
+        "shares": 709750.0,
+        "value_usd": 17496828.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 13067.0,
+        "value_usd": 15672787.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 41077.0,
+        "value_usd": 14491013.0,
+        "weight_pct": 2.13
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 22308.0,
+        "value_usd": 12733317.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 30565.0,
+        "value_usd": 10004989.0,
+        "weight_pct": 1.47
+      }
+    ],
+    "top_five_pct": 21.69,
+    "top_ten_pct": 32.05,
+    "hhi": 158.74,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 116,
+      "exited_positions": 104,
+      "increased_positions": 75,
+      "reduced_positions": 203
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001592613-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001592613-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

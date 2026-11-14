@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1673954/0001951757-26-001779.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "45fdd60be12d294f7f83d1979bd2c363813eca28997c7ed72e8dab304d08d34b",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "7b890a3134ab905bf6c25792b3850377420282568fdf9afd01020aacf04d2a4a",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001951757-26-001779",
+    "source": "https://www.sec.gov/Archives/edgar/data/1673954/0001951757-26-001779.txt",
+    "distinct_positions": 211,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 673790597.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "26922A388",
+        "security_class": "APTUS DEFINED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 1471913.0,
+        "value_usd": 39977166.0,
+        "weight_pct": 5.93
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 100856.0,
+        "value_usd": 34240635.0,
+        "weight_pct": 5.08
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 46160.0,
+        "value_usd": 24551213.0,
+        "weight_pct": 3.64
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 68640.0,
+        "value_usd": 23356394.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 88907.0,
+        "value_usd": 19245796.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 67714.0,
+        "value_usd": 17783600.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 38885.0,
+        "value_usd": 13036465.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 28905.0,
+        "value_usd": 12286975.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 17389.0,
+        "value_usd": 12072239.0,
+        "weight_pct": 1.79
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 8508.0,
+        "value_usd": 10921713.0,
+        "weight_pct": 1.62
+      }
+    ],
+    "top_five_pct": 20.98,
+    "top_ten_pct": 30.79,
+    "hhi": 166.39,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 11,
+      "increased_positions": 40,
+      "reduced_positions": 119
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001951757-26-001245"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001951757-26-001779"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

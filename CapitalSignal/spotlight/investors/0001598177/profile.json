@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1598177/0001598177-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "88f08c951d7a98ca6bf3d06c50e7f83a624f193e8f96edf2ee93e5be9d2ba983",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "13b12bf6ab42ee6c2279c7567184eaa0ec96502b7775f444774d12df3dd4a869",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001598177-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1598177/0001598177-26-000005.txt",
+    "distinct_positions": 68,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 146001111.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G5876H105",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY, INC.",
+        "shares": 65040.0,
+        "value_usd": 17184218.0,
+        "weight_pct": 11.77
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CL A",
+        "issuer": "ALPHABET, INC.",
+        "shares": 40485.0,
+        "value_usd": 13930079.0,
+        "weight_pct": 9.54
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 26964.0,
+        "value_usd": 13829836.0,
+        "weight_pct": 9.47
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 37489.0,
+        "value_usd": 12484587.0,
+        "weight_pct": 8.55
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 28206.0,
+        "value_usd": 9331391.0,
+        "weight_pct": 6.39
+      },
+      {
+        "cusip": "369604103",
+        "security_class": "COM",
+        "issuer": "GE AEROSPACE",
+        "shares": 22098.0,
+        "value_usd": 6900984.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 56875.0,
+        "value_usd": 6838081.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMERICA CORPORATION",
+        "shares": 111637.0,
+        "value_usd": 6076402.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "36828A101",
+        "security_class": "COM",
+        "issuer": "GE VERNOVA INC.",
+        "shares": 5691.0,
+        "value_usd": 5408763.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "49456B101",
+        "security_class": "COM",
+        "issuer": "KINDER MORGAN, INC.",
+        "shares": 178915.0,
+        "value_usd": 5394287.0,
+        "weight_pct": 3.69
+      }
+    ],
+    "top_five_pct": 45.73,
+    "top_ten_pct": 66.7,
+    "hhi": 586.91,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 6,
+      "exited_positions": 16,
+      "increased_positions": 3,
+      "reduced_positions": 33
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0001598177-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001598177-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

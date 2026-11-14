@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/913990/0000913990-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3939cb5de1379bba73a669ac20582b0dc2b15a0e5aae415af0906ee6337e5432",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "1c4cb4de7799858669f5cec468a3b0a72db3b7b82b46fd35b9a0f6372558d69d",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0000913990-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/913990/0000913990-26-000012.txt",
+    "distinct_positions": 160,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 606265000.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 331583.0,
+        "value_usd": 124091506.0,
+        "weight_pct": 20.47
+      },
+      {
+        "cusip": "464287598",
+        "security_class": "RUS 1000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 392238.0,
+        "value_usd": 97247466.0,
+        "weight_pct": 16.04
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 317236.0,
+        "value_usd": 70502553.0,
+        "weight_pct": 11.63
+      },
+      {
+        "cusip": "46436E403",
+        "security_class": "MSCI US GARP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 567029.0,
+        "value_usd": 48344908.0,
+        "weight_pct": 7.97
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 822636.0,
+        "value_usd": 45952438.0,
+        "weight_pct": 7.58
+      },
+      {
+        "cusip": "46434V860",
+        "security_class": "TRS FLT RT BD",
+        "issuer": "ISHARES TR",
+        "shares": 434111.0,
+        "value_usd": 21996399.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 20174.0,
+        "value_usd": 14139049.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "14020Y409",
+        "security_class": "SHORT DURATION",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 537645.0,
+        "value_usd": 13575541.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "87283Q206",
+        "security_class": "PRICE EQT INCOME",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 258159.0,
+        "value_usd": 13063226.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 83258.0,
+        "value_usd": 10428937.0,
+        "weight_pct": 1.72
+      }
+    ],
+    "top_five_pct": 63.69,
+    "top_ten_pct": 75.77,
+    "hhi": 975.66,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 69,
+      "exited_positions": 32,
+      "increased_positions": 52,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001104659-25-106012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0000913990-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

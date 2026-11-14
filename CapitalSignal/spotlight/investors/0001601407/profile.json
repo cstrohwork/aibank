@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1601407/0001601407-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9fa983bdb6b052474104d8eb776a325e7969cd50c08198d9f8e6562367157b72",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "bc17696f6ee9ece1d96ec2345014206fb496905dc82c7dfea0f7062581db69bd",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001601407-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1601407/0001601407-26-000006.txt",
+    "distinct_positions": 32,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4203935535.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC-CLASS A SHARES",
+        "shares": 1632979.0,
+        "value_usd": 586778344.0,
+        "weight_pct": 13.96
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC-CL A",
+        "shares": 1308930.0,
+        "value_usd": 450376634.0,
+        "weight_pct": 10.71
+      },
+      {
+        "cusip": "00846U101",
+        "security_class": "COM",
+        "issuer": "AGILENT TECHNOLOGIES INC",
+        "shares": 2359129.0,
+        "value_usd": 406501518.0,
+        "weight_pct": 9.67
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 675336.0,
+        "value_usd": 346379834.0,
+        "weight_pct": 8.24
+      },
+      {
+        "cusip": "136375102",
+        "security_class": "COM",
+        "issuer": "CANADIAN NATL RAILWAY CO",
+        "shares": 2599459.0,
+        "value_usd": 324647905.0,
+        "weight_pct": 7.72
+      },
+      {
+        "cusip": "443510607",
+        "security_class": "COM",
+        "issuer": "HUBBELL INC",
+        "shares": 696881.0,
+        "value_usd": 316105222.0,
+        "weight_pct": 7.52
+      },
+      {
+        "cusip": "H1467J104",
+        "security_class": "COM",
+        "issuer": "CHUBB LTD",
+        "shares": 893492.0,
+        "value_usd": 290608273.0,
+        "weight_pct": 6.91
+      },
+      {
+        "cusip": "92343E102",
+        "security_class": "COM",
+        "issuer": "VERISIGN INC",
+        "shares": 801351.0,
+        "value_usd": 225988996.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "570535104",
+        "security_class": "COM",
+        "issuer": "MARKEL GROUP INC",
+        "shares": 124421.0,
+        "value_usd": 213064741.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "053332102",
+        "security_class": "COM",
+        "issuer": "AUTOZONE INC",
+        "shares": 57664.0,
+        "value_usd": 163190273.0,
+        "weight_pct": 3.88
+      }
+    ],
+    "top_five_pct": 50.3,
+    "top_ten_pct": 79.06,
+    "hhi": 737.58,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 0,
+      "increased_positions": 17,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001601407-25-000035"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001601407-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001601407-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

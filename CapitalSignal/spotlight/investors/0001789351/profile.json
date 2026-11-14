@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1789351/0001789351-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9388a587fb9489b945c0092bc2ab9b958ea87170747e151da5e8f8f39e5eddea",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "e624406bb11cf921f2544226ceb43a184b9b59d518b6460a638b29fab01099e7",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001789351-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1789351/0001789351-26-000008.txt",
+    "distinct_positions": 516,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 288804838.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 407509.0,
+        "value_usd": 31463770.0,
+        "weight_pct": 10.89
+      },
+      {
+        "cusip": "92189H748",
+        "security_class": "CLO ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 308544.0,
+        "value_usd": 16343576.0,
+        "weight_pct": 5.66
+      },
+      {
+        "cusip": "92189F486",
+        "security_class": "IG FLOA RATE ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 548555.0,
+        "value_usd": 14037522.0,
+        "weight_pct": 4.86
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 37007.0,
+        "value_usd": 12324071.0,
+        "weight_pct": 4.27
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 23023.0,
+        "value_usd": 6095109.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 54464.0,
+        "value_usd": 5861960.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 15212.0,
+        "value_usd": 4997294.0,
+        "weight_pct": 1.73
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 9382.0,
+        "value_usd": 4797767.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 12373.0,
+        "value_usd": 4345274.0,
+        "weight_pct": 1.5
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 15411.0,
+        "value_usd": 4031364.0,
+        "weight_pct": 1.4
+      }
+    ],
+    "top_five_pct": 27.79,
+    "top_ten_pct": 36.11,
+    "hhi": 244.17,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 124,
+      "reduced_positions": 211
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001789351-25-000010"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001789351-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001789351-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

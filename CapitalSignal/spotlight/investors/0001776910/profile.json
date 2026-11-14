@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1776910/0002085853-26-001345.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d0bade33df1a8cdb335815853bccadc8e1855fb3e22c7906a8625c33f25cf228",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "590318f721a4413f2365b8bd3b1ee8b7468a739cdfaca91fb4b1e6825682ad13",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0002085853-26-001345",
+    "source": "https://www.sec.gov/Archives/edgar/data/1776910/0002085853-26-001345.txt",
+    "distinct_positions": 58,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 125616542.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "293792107",
+        "security_class": "COM",
+        "issuer": "ENTERPRISE PRODS PARTNERS L",
+        "shares": 786182.0,
+        "value_usd": 27995924.0,
+        "weight_pct": 22.29
+      },
+      {
+        "cusip": "464287689",
+        "security_class": "RUSSELL 3000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 48176.0,
+        "value_usd": 20795185.0,
+        "weight_pct": 16.55
+      },
+      {
+        "cusip": "316092808",
+        "security_class": "MSCI INFO TECH I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 27407.0,
+        "value_usd": 8223746.0,
+        "weight_pct": 6.55
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 9917.0,
+        "value_usd": 7595867.0,
+        "weight_pct": 6.05
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 20834.0,
+        "value_usd": 6938178.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 35510.0,
+        "value_usd": 4447885.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "315948109",
+        "security_class": "SHS",
+        "issuer": "FIDELITY WISE ORIGIN BITCOIN",
+        "shares": 54135.0,
+        "value_usd": 3932367.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "31613E103",
+        "security_class": "SHS",
+        "issuer": "FIDELITY ETHEREUM FD",
+        "shares": 139697.0,
+        "value_usd": 3711748.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 22134.0,
+        "value_usd": 2781579.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 24238.0,
+        "value_usd": 2673965.0,
+        "weight_pct": 2.13
+      }
+    ],
+    "top_five_pct": 56.96,
+    "top_ten_pct": 70.93,
+    "hhi": 948.28,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 14,
+      "reduced_positions": 24
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0002085853-26-000993"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0002085853-26-001345"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

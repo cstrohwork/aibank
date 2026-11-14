@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1871352/0001871352-26-000008.txt",
     "https://www.sec.gov/Archives/edgar/data/1871352/0001871352-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "93b6f35f89960c5b4315ad5518fbf729d7bacd1894a222d21d3127c02f667c55",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "3436ea6b3575a622804e43a36083a31d338d068a866eaf786ef73945ca4d5377",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001871352-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1871352/0001871352-26-000010.txt",
+    "distinct_positions": 77,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 156513661.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 35935.0,
+        "value_usd": 27520437.0,
+        "weight_pct": 17.58
+      },
+      {
+        "cusip": "09290C764",
+        "security_class": "ISHA IN CTRY ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 392105.0,
+        "value_usd": 14253017.0,
+        "weight_pct": 9.11
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 101430.0,
+        "value_usd": 12484004.0,
+        "weight_pct": 7.98
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 166080.0,
+        "value_usd": 11502701.0,
+        "weight_pct": 7.35
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 165121.0,
+        "value_usd": 10093847.0,
+        "weight_pct": 6.45
+      },
+      {
+        "cusip": "09290C855",
+        "security_class": "ISHA LA CORE ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 136861.0,
+        "value_usd": 6700715.0,
+        "weight_pct": 4.28
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 119584.0,
+        "value_usd": 6025847.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "09290C830",
+        "security_class": "ISHA U S IND ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 152718.0,
+        "value_usd": 5621122.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "09290C780",
+        "security_class": "ISHA I IN TE ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 101135.0,
+        "value_usd": 4772561.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 47895.0,
+        "value_usd": 4503088.0,
+        "weight_pct": 2.88
+      }
+    ],
+    "top_five_pct": 48.46,
+    "top_ten_pct": 66.11,
+    "hhi": 651.1,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 13,
+      "increased_positions": 35,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001871352-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001871352-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

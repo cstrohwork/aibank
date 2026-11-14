@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1893134/0001893134-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "801c766d6fec1a5f4bf8543e71d4beec51e32e147f834e9c2f9e55ea9a1a5909",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "70e727b84c06d86048362da5192af655ae1c68fb897431cae3ce8c91922c6af1",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001893134-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1893134/0001893134-26-000005.txt",
+    "distinct_positions": 143,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1529640607.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 209668.0,
+        "value_usd": 69823637.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 183117.0,
+        "value_usd": 63006897.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 100148.0,
+        "value_usd": 61266540.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 171015.0,
+        "value_usd": 60058758.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 115845.0,
+        "value_usd": 59416901.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 250429.0,
+        "value_usd": 57192975.0,
+        "weight_pct": 3.74
+      },
+      {
+        "cusip": "679295105",
+        "security_class": "CL A",
+        "issuer": "OKTA INC",
+        "shares": 255728.0,
+        "value_usd": 53475282.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "040413205",
+        "security_class": "COM SHS",
+        "issuer": "ARISTA NETWORKS INC",
+        "shares": 261528.0,
+        "value_usd": 53244486.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "199908104",
+        "security_class": "COM",
+        "issuer": "COMFORT SYS USA INC",
+        "shares": 31600.0,
+        "value_usd": 52269244.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "701094104",
+        "security_class": "COM",
+        "issuer": "PARKER-HANNIFIN CORP",
+        "shares": 54417.0,
+        "value_usd": 51991090.0,
+        "weight_pct": 3.4
+      }
+    ],
+    "top_five_pct": 20.5,
+    "top_ten_pct": 38.03,
+    "hhi": 263.38,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 32,
+      "increased_positions": 25,
+      "reduced_positions": 106
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001893134-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001893134-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

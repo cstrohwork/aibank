@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1140436/0001140436-25-000014.txt",
+    "https://www.sec.gov/Archives/edgar/data/1140436/0001140436-26-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/1140436/0001140436-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b1b459a814d13a40938a57ebd54e744091d261aed0542a6d37c0c9464ffec481",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "355e5f9dba9b3cb6ce2f1625d5f79955b9efcd6789784a2713db1f434009ccda",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001140436-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1140436/0001140436-26-000008.txt",
+    "distinct_positions": 21,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3216640076.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC CL A",
+        "shares": 1531207.0,
+        "value_usd": 526857705.0,
+        "weight_pct": 16.38
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC CL C",
+        "shares": 1533632.0,
+        "value_usd": 522569768.0,
+        "weight_pct": 16.25
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHSL CORP NEW COM",
+        "shares": 332481.0,
+        "value_usd": 302670754.0,
+        "weight_pct": 9.41
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM",
+        "issuer": "VISA INC",
+        "shares": 840466.0,
+        "value_usd": 302004648.0,
+        "weight_pct": 9.39
+      },
+      {
+        "cusip": "693475105",
+        "security_class": "COM",
+        "issuer": "PNC FINANCIAL SVS GRP",
+        "shares": 1254296.0,
+        "value_usd": 278779829.0,
+        "weight_pct": 8.67
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COM",
+        "issuer": "SCHWAB CHARLES CP NEW COM",
+        "shares": 2518637.0,
+        "value_usd": 246171580.0,
+        "weight_pct": 7.65
+      },
+      {
+        "cusip": "025816109",
+        "security_class": "COM",
+        "issuer": "AMERICAN EXPRESS CO",
+        "shares": 631564.0,
+        "value_usd": 192058612.0,
+        "weight_pct": 5.97
+      },
+      {
+        "cusip": "437076102",
+        "security_class": "COM",
+        "issuer": "HOME DEPOT",
+        "shares": 638771.0,
+        "value_usd": 181723962.0,
+        "weight_pct": 5.65
+      },
+      {
+        "cusip": "311900104",
+        "security_class": "COM",
+        "issuer": "FASTENAL INC COM",
+        "shares": 3359905.0,
+        "value_usd": 166416095.0,
+        "weight_pct": 5.17
+      },
+      {
+        "cusip": "872540109",
+        "security_class": "COM",
+        "issuer": "TJX COMPANIES INC",
+        "shares": 1212432.0,
+        "value_usd": 160416878.0,
+        "weight_pct": 4.99
+      }
+    ],
+    "top_five_pct": 60.09,
+    "top_ten_pct": 89.52,
+    "hhi": 1005.23,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 3,
+      "increased_positions": 0,
+      "reduced_positions": 14
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001140436-25-000014"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001140436-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001140436-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

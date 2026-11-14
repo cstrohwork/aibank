@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1991340/0001991340-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "eb7fe62092f4ed4237cfbc3dbd58167d79522950dce0041ecabd26908ca38c20",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "855498a042a0aff672f2150b5f3f9116beb313418a5275d569a24cefd0c42c1d",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001991340-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1991340/0001991340-26-000006.txt",
+    "distinct_positions": 254,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 25934275.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "INVESCO QQQ TRUST SERIES I",
+        "shares": 2614.0,
+        "value_usd": 1933801.0,
+        "weight_pct": 7.46
+      },
+      {
+        "cusip": "78468R648",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR S&P KENSHO NEW ECONOMIES COMPOSITE ETF",
+        "shares": 26668.0,
+        "value_usd": 1772089.0,
+        "weight_pct": 6.83
+      },
+      {
+        "cusip": "46137V258",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 PURE VALUE ETF",
+        "shares": 12844.0,
+        "value_usd": 1473592.0,
+        "weight_pct": 5.68
+      },
+      {
+        "cusip": "921937819",
+        "security_class": "ETF",
+        "issuer": "VANGUARD INTERMEDIATE-TERM BOND ETF",
+        "shares": 16344.0,
+        "value_usd": 1190788.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI EMERGING MARKETS ETF",
+        "shares": 13068.0,
+        "value_usd": 1060599.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "921932794",
+        "security_class": "ETF",
+        "issuer": "VANGUARD S&P SMALL-CAP 600 GROWTH ETF",
+        "shares": 6735.0,
+        "value_usd": 929093.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "ETF",
+        "issuer": "SPDR GOLD SHARES",
+        "shares": 2124.0,
+        "value_usd": 808904.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "464288646",
+        "security_class": "ETF",
+        "issuer": "ISHARES 1-5 YEAR INVESTMENT GRADE CORPORATE BOND ETF",
+        "shares": 15545.0,
+        "value_usd": 796393.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "78464A367",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO LONG TERM CORPORATE BOND ETF",
+        "shares": 36159.0,
+        "value_usd": 736920.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 2614.0,
+        "value_usd": 596985.0,
+        "weight_pct": 2.3
+      }
+    ],
+    "top_five_pct": 28.65,
+    "top_ten_pct": 43.57,
+    "hhi": 267.16,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 15,
+      "increased_positions": 63,
+      "reduced_positions": 70
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001991340-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001991340-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

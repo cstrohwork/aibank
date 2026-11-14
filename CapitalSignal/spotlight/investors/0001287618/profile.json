@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1287618/0001287618-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "93b727fe55d567cbb0288c8a6f4e03cfadeae573600d0a18b0c8634d3e6abf08",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c33647fd759fc2c65c12cafacd3a8d259d3f512c6503de7092549f7fd197e37f",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001287618-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1287618/0001287618-26-000007.txt",
+    "distinct_positions": 180,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 398093408.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "IND",
+        "issuer": "SPDR S&P 500 ETF Trust",
+        "shares": 53442.0,
+        "value_usd": 40756284.0,
+        "weight_pct": 10.24
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "IND",
+        "issuer": "Invesco QQQ Trust Series 1",
+        "shares": 33233.0,
+        "value_usd": 24584444.0,
+        "weight_pct": 6.18
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 65166.0,
+        "value_usd": 21701447.0,
+        "weight_pct": 5.45
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "IND",
+        "issuer": "Invesco S&P 500 Equal Weight E",
+        "shares": 78796.0,
+        "value_usd": 16391104.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corp",
+        "shares": 26878.0,
+        "value_usd": 13785666.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "78467Y107",
+        "security_class": "IND",
+        "issuer": "SPDR S&P MidCap 400 ETF Trust",
+        "shares": 17294.0,
+        "value_usd": 11356864.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "464287168",
+        "security_class": "ETF",
+        "issuer": "iShares DJ Select Dividend Ind",
+        "shares": 58588.0,
+        "value_usd": 8909476.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "IND",
+        "issuer": "iShares Russell 2000 Index Fun",
+        "shares": 28415.0,
+        "value_usd": 7896380.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "Alphabet Inc Cl A",
+        "shares": 21296.0,
+        "value_usd": 7327530.0,
+        "weight_pct": 1.84
+      },
+      {
+        "cusip": "464288869",
+        "security_class": "IND",
+        "issuer": "iShares Russell Microcap Index",
+        "shares": 38558.0,
+        "value_usd": 7125439.0,
+        "weight_pct": 1.79
+      }
+    ],
+    "top_five_pct": 29.45,
+    "top_ten_pct": 40.15,
+    "hhi": 266.14,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 30,
+      "increased_positions": 55,
+      "reduced_positions": 104
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001287618-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001287618-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001287618-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2010098/0002010098-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9b021e0d72437100eada4c3c57c4de0617f92501c84e7310d93f9228bb0d330e",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d5c7d1b77fe89fd379f2fa46e82f49df83344aec5546a904ece1ed9b6f2ee2c5",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0002010098-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/2010098/0002010098-26-000009.txt",
+    "distinct_positions": 68,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 272961370.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATERIALS INC COM USD0.01",
+        "shares": 31943.0,
+        "value_usd": 16334804.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "78463X434",
+        "security_class": "ST STR MSCI EAFE",
+        "issuer": "SPDR INDEX SHARES FUNDS STATE STREET SPDR MSCI EAFE STRATEGICFACTORS ETF",
+        "shares": 111493.0,
+        "value_usd": 10873939.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 31475.0,
+        "value_usd": 10829869.0,
+        "weight_pct": 3.97
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 18580.0,
+        "value_usd": 9529723.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 13844.0,
+        "value_usd": 9345202.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC COM USD0.0033 CLASS B",
+        "shares": 17830.0,
+        "value_usd": 8878632.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "040413205",
+        "security_class": "COM SHS",
+        "issuer": "ARISTA NETWORKS INC COM SHS",
+        "shares": 42239.0,
+        "value_usd": 8599481.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "778296103",
+        "security_class": "COM",
+        "issuer": "ROSS STORES INC",
+        "shares": 36426.0,
+        "value_usd": 8501920.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "464288653",
+        "security_class": "10-20 YR TRS ETF",
+        "issuer": "ISHARES TR 10-20 YR TRS ETF",
+        "shares": 90047.0,
+        "value_usd": 8299660.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 23915.0,
+        "value_usd": 7964053.0,
+        "weight_pct": 2.92
+      }
+    ],
+    "top_five_pct": 20.85,
+    "top_ten_pct": 36.33,
+    "hhi": 254.51,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 7,
+      "exited_positions": 179,
+      "increased_positions": 43,
+      "reduced_positions": 17
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002010098-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0002010098-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1830823/0001830823-26-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/1830823/0001830823-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cad3665aa5ce5baa8c79d220777bd578384a0af4f8c13bc82aa197fb922267c8",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "595d407fe2f795777c61e5e0402953f0e4c494471aa7da717ba1b3f8d3654b11",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001830823-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1830823/0001830823-26-000008.txt",
+    "distinct_positions": 42,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 289159011.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 476527.0,
+        "value_usd": 44965133.0,
+        "weight_pct": 15.55
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1074455.0,
+        "value_usd": 35080954.0,
+        "weight_pct": 12.13
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1123968.0,
+        "value_usd": 31021520.0,
+        "weight_pct": 10.73
+      },
+      {
+        "cusip": "921937827",
+        "security_class": "SHORT TRM BOND",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 266838.0,
+        "value_usd": 20362432.0,
+        "weight_pct": 7.04
+      },
+      {
+        "cusip": "922040845",
+        "security_class": "0 3 MO TR BI ETF",
+        "issuer": "VANGUARD INSTL INDEX FD",
+        "shares": 245700.0,
+        "value_usd": 18562657.0,
+        "weight_pct": 6.42
+      },
+      {
+        "cusip": "92206C771",
+        "security_class": "MTG-BKD SECS ETF",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 360152.0,
+        "value_usd": 15952913.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "09789C861",
+        "security_class": "BLOOMBERG ONE YR",
+        "issuer": "BONDBLOXX ETF TRUST",
+        "shares": 323681.0,
+        "value_usd": 15892744.0,
+        "weight_pct": 5.5
+      },
+      {
+        "cusip": "09789C788",
+        "security_class": "BLOOMBERG SIX MN",
+        "issuer": "BONDBLOXX ETF TRUST",
+        "shares": 276625.0,
+        "value_usd": 13872766.0,
+        "weight_pct": 4.8
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 216367.0,
+        "value_usd": 13116190.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 93633.0,
+        "value_usd": 13000890.0,
+        "weight_pct": 4.5
+      }
+    ],
+    "top_five_pct": 51.87,
+    "top_ten_pct": 76.71,
+    "hhi": 773.38,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 42,
+      "exited_positions": 46,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001830823-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001830823-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

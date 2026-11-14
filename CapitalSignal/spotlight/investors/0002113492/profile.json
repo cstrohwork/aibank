@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2113492/0002113492-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "93f895cf9d061378c62a944da0be35d08be1485c73dbdcec20cc5a94ca49aaff",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "ad4f195960eb5184345c8242f7c00ecc6866eec4c639319ce9ea276411bbc945",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0002113492-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2113492/0002113492-26-000004.txt",
+    "distinct_positions": 192,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 180078317.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "ETF - EQUITY",
+        "issuer": "VANGUARD S&P 500",
+        "shares": 10622.0,
+        "value_usd": 7444540.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF - EQUITY",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 9242.0,
+        "value_usd": 7078003.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ETF - EQUITY",
+        "issuer": "TECH SEL SECT SPDR ETF",
+        "shares": 27631.0,
+        "value_usd": 5408801.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COMMON STOCKS",
+        "issuer": "NVIDIA CORP",
+        "shares": 22610.0,
+        "value_usd": 5163684.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ETF - EQUITY",
+        "issuer": "ST STR SPDR S&P 500 ETF",
+        "shares": 48478.0,
+        "value_usd": 4351389.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ETF - EQUITY",
+        "issuer": "ISHARES GOLD ETF",
+        "shares": 54090.0,
+        "value_usd": 4224449.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "464287721",
+        "security_class": "ETF - EQUITY",
+        "issuer": "ISHARES US TECHNOLOGY ETF",
+        "shares": 15387.0,
+        "value_usd": 4076020.0,
+        "weight_pct": 2.26
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCKS",
+        "issuer": "MICROSOFT CORPORATION",
+        "shares": 7607.0,
+        "value_usd": 3901708.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCKS",
+        "issuer": "APPLE INC",
+        "shares": 11000.0,
+        "value_usd": 3663130.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ETF - EQUITY",
+        "issuer": "ISHS US EQTY FACTR ROTATN ACT ETF",
+        "shares": 47810.0,
+        "value_usd": 3311319.0,
+        "weight_pct": 1.84
+      }
+    ],
+    "top_five_pct": 16.35,
+    "top_ten_pct": 27.0,
+    "hhi": 128.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 17,
+      "increased_positions": 83,
+      "reduced_positions": 83
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002113492-26-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0002113492-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

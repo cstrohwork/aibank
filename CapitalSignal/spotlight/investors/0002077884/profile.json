@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2077884/0002077884-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e9799ec4e5c5c4cd3814655a9d22e2718a2fee33f6cc116f3b570af6ca6c09c0",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "9d1cc18d4434925d0f666c16423ddfe359ff3b86e721aa5659fb3b33eabfe47e",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0002077884-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2077884/0002077884-26-000011.txt",
+    "distinct_positions": 234,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 554748752.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "14021D107",
+        "security_class": "SHS",
+        "issuer": "CAPITAL GROUP CORE BALANCED",
+        "shares": 1417337.0,
+        "value_usd": 52090585.0,
+        "weight_pct": 9.39
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 812384.0,
+        "value_usd": 39685088.0,
+        "weight_pct": 7.15
+      },
+      {
+        "cusip": "14021L109",
+        "security_class": "SHS ETF",
+        "issuer": "CAPITAL GROUP DIVIDEND GROWE",
+        "shares": 861026.0,
+        "value_usd": 31889281.0,
+        "weight_pct": 5.75
+      },
+      {
+        "cusip": "14020X104",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GBL GROWTH EQT",
+        "shares": 777096.0,
+        "value_usd": 30918806.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "14020G101",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GROWTH ETF",
+        "shares": 557309.0,
+        "value_usd": 26421332.0,
+        "weight_pct": 4.76
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 68693.0,
+        "value_usd": 22877405.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "14020Y201",
+        "security_class": "MUN INM ETF",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 867056.0,
+        "value_usd": 22523594.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "14020Y300",
+        "security_class": "US MULTI-SECTOR",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 826082.0,
+        "value_usd": 21667913.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "14020V108",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP CORE EQUITY ET",
+        "shares": 457917.0,
+        "value_usd": 20377451.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "14020Y805",
+        "security_class": "MUN HIGH ETF",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 642042.0,
+        "value_usd": 15446688.0,
+        "weight_pct": 2.78
+      }
+    ],
+    "top_five_pct": 32.63,
+    "top_ten_pct": 51.18,
+    "hhi": 341.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 39,
+      "exited_positions": 21,
+      "increased_positions": 97,
+      "reduced_positions": 79
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002077884-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0002077884-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

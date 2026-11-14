@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1731447/0001731447-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8e5e3265cf9fb40a3495f86882981f11535acf8a11efc45dc366ca6b9bf6e1c5",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "82b18b827baec361f691dedcb4e50407545c47a2552ad7c9b14e2d0f4be06a4b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001731447-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731447/0001731447-26-000006.txt",
+    "distinct_positions": 126,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 643555645.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1048998.0,
+        "value_usd": 75475441.0,
+        "weight_pct": 11.73
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 130217.0,
+        "value_usd": 48732310.0,
+        "weight_pct": 7.57
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US L",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1540238.0,
+        "value_usd": 48471296.0,
+        "weight_pct": 7.53
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 931354.0,
+        "value_usd": 41398699.0,
+        "weight_pct": 6.43
+      },
+      {
+        "cusip": "922020805",
+        "security_class": "STRM INFPROIDX",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 821706.0,
+        "value_usd": 40444394.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 382938.0,
+        "value_usd": 38554225.0,
+        "weight_pct": 5.99
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "CORE BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 459223.0,
+        "value_usd": 33807987.0,
+        "weight_pct": 5.25
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 382867.0,
+        "value_usd": 31766499.0,
+        "weight_pct": 4.94
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 366908.0,
+        "value_usd": 31172480.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 291579.0,
+        "value_usd": 26274167.0,
+        "weight_pct": 4.08
+      }
+    ],
+    "top_five_pct": 39.55,
+    "top_ten_pct": 64.66,
+    "hhi": 517.77,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 40,
+      "exited_positions": 31,
+      "increased_positions": 35,
+      "reduced_positions": 50
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001731447-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001731447-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/919859/0001062993-26-005652.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5bc57d48f40fe4794904b7add26b70c7563377f98c13e42e2f62750e50abe5b5",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "385fe412fb329fa2636982d2e3ded768140d1562642af2df64e966057dbf894f",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001062993-26-005652",
+    "source": "https://www.sec.gov/Archives/edgar/data/919859/0001062993-26-005652.txt",
+    "distinct_positions": 1514,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 91566618525.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "Common Stock",
+        "issuer": "NVIDIA Corp",
+        "shares": 15315454.0,
+        "value_usd": 3497743385.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "780087102",
+        "security_class": "Common Stock",
+        "issuer": "Royal Bank of Canada",
+        "shares": 17600321.0,
+        "value_usd": 3461211002.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "Apple Inc",
+        "shares": 8895156.0,
+        "value_usd": 2962264851.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common Stock",
+        "issuer": "Microsoft Corp",
+        "shares": 5757251.0,
+        "value_usd": 2952894038.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "ETP",
+        "issuer": "State Street SPDR S&P 500 ETF",
+        "shares": 3401689.0,
+        "value_usd": 2594230082.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "891160509",
+        "security_class": "Common Stock",
+        "issuer": "Toronto-Dominion Bank/The",
+        "shares": 21262259.0,
+        "value_usd": 2499342324.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Common Stock",
+        "issuer": "Alphabet Inc",
+        "shares": 6050341.0,
+        "value_usd": 2081801331.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "Common Stock",
+        "issuer": "Agnico Eagle Mines Ltd",
+        "shares": 9343619.0,
+        "value_usd": 1710535379.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Common Stock",
+        "issuer": "Amazon.com Inc",
+        "shares": 6814498.0,
+        "value_usd": 1697832177.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "82509L107",
+        "security_class": "Common Stock",
+        "issuer": "Shopify Inc",
+        "shares": 9506334.0,
+        "value_usd": 1408555761.0,
+        "weight_pct": 1.54
+      }
+    ],
+    "top_five_pct": 16.89,
+    "top_ten_pct": 27.16,
+    "hhi": 113.58,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 148,
+      "exited_positions": 168,
+      "increased_positions": 748,
+      "reduced_positions": 563
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001062993-26-004254"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001062993-26-005652"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1084683/0001084683-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1084683/0001084683-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4e53c38ce95654eff736f8dead20e10abfaa1b527511e291746bd4699d111d65",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "810e63936e377cf3258c3e395bad660b285ce5cb5065ef583dc88b1d0fb4ccee",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001084683-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1084683/0001084683-26-000005.txt",
+    "distinct_positions": 164,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2207804389.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 292388.0,
+        "value_usd": 204923382.0,
+        "weight_pct": 9.28
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 1531501.0,
+        "value_usd": 130116325.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 3880230.0,
+        "value_usd": 116406889.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 1890599.0,
+        "value_usd": 95229472.0,
+        "weight_pct": 4.31
+      },
+      {
+        "cusip": "81369Y209",
+        "security_class": "ST STR CARE ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 477244.0,
+        "value_usd": 80377452.0,
+        "weight_pct": 3.64
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 238813.0,
+        "value_usd": 79529563.0,
+        "weight_pct": 3.6
+      },
+      {
+        "cusip": "464288638",
+        "security_class": "ISHS 5-10YR INVT",
+        "issuer": "ISHARES TR",
+        "shares": 1556034.0,
+        "value_usd": 78346312.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 133808.0,
+        "value_usd": 76088639.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 306728.0,
+        "value_usd": 70050625.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 775961.0,
+        "value_usd": 69301077.0,
+        "weight_pct": 3.14
+      }
+    ],
+    "top_five_pct": 28.4,
+    "top_ten_pct": 45.31,
+    "hhi": 323.98,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 21,
+      "increased_positions": 68,
+      "reduced_positions": 53
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001084683-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001084683-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2067120/0002067120-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c1996503cc41dc87f31f8ffa634eb8419a0a7c0ce8f137b3bd7f2aa067343535",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "42b95cb65e6a341555c07bf6d2ba60748b3d0d0c0c29fdb0e952ef90820746e7",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0002067120-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2067120/0002067120-26-000011.txt",
+    "distinct_positions": 287,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1022436550.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 228354.0,
+        "value_usd": 174885258.0,
+        "weight_pct": 17.1
+      },
+      {
+        "cusip": "025072885",
+        "security_class": "US EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 663556.0,
+        "value_usd": 84994950.0,
+        "weight_pct": 8.31
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 478329.0,
+        "value_usd": 34415790.0,
+        "weight_pct": 3.37
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 73875.0,
+        "value_usd": 27646863.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 218620.0,
+        "value_usd": 27384341.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 276035.0,
+        "value_usd": 26096331.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 282892.0,
+        "value_usd": 25491431.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 31876.0,
+        "value_usd": 22340660.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 230989.0,
+        "value_usd": 21717602.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "69344A107",
+        "security_class": "PGIM ULTRA SH BD",
+        "issuer": "PGIM ETF TR",
+        "shares": 429864.0,
+        "value_usd": 21261054.0,
+        "weight_pct": 2.08
+      }
+    ],
+    "top_five_pct": 34.17,
+    "top_ten_pct": 45.6,
+    "hhi": 447.55,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 98,
+      "exited_positions": 61,
+      "increased_positions": 74,
+      "reduced_positions": 104
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0002067120-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0002067120-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

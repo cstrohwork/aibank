@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2010015/0002010015-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "13d6eff4fa71035e47132ccfefce5f11de0e9eebd28764e768fc080fa7a37ed4",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "1ee747d59ef4d00116dc1b7f2fed0a3db37222aa61392ac88d1aae26bf2158df",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0002010015-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/2010015/0002010015-26-000008.txt",
+    "distinct_positions": 295,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 208603371.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "69318G106",
+        "security_class": "CL A",
+        "issuer": "PBF ENERGY INC CL A",
+        "shares": 167790.0,
+        "value_usd": 12913097.0,
+        "weight_pct": 6.19
+      },
+      {
+        "cusip": "G9460G101",
+        "security_class": "CL A",
+        "issuer": "VALARIS LTD CL A",
+        "shares": 118028.0,
+        "value_usd": 9267559.0,
+        "weight_pct": 4.44
+      },
+      {
+        "cusip": "G6359F137",
+        "security_class": "SHS",
+        "issuer": "NABORS INDUSTRIES LTD SHS",
+        "shares": 107149.0,
+        "value_usd": 8370480.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "403949100",
+        "security_class": "COM",
+        "issuer": "HF SINCLAIR CORP COM",
+        "shares": 56110.0,
+        "value_usd": 6021725.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP COM SHS",
+        "shares": 36110.0,
+        "value_usd": 5876886.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 10854.0,
+        "value_usd": 5567017.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SHORT-TERM TREASURY ETF",
+        "shares": 86126.0,
+        "value_usd": 4957413.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "836144303",
+        "security_class": "COM SHS OF BEN I",
+        "issuer": "SOURCE CAPITAL COM SHS OF BEN I",
+        "shares": 107069.0,
+        "value_usd": 4864145.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "G65431127",
+        "security_class": "ORD SHS A",
+        "issuer": "NOBLE CORP PLC ORD SHS A",
+        "shares": 115003.0,
+        "value_usd": 4800225.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "13057Q305",
+        "security_class": "COM STOCK",
+        "issuer": "CALIFORNIA RES CORP COM STOCK",
+        "shares": 91263.0,
+        "value_usd": 4636160.0,
+        "weight_pct": 2.22
+      }
+    ],
+    "top_five_pct": 20.35,
+    "top_ten_pct": 32.25,
+    "hhi": 183.02,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 22,
+      "increased_positions": 23,
+      "reduced_positions": 62
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0002010015-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002010015-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0002010015-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

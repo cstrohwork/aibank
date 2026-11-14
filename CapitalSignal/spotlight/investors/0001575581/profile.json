@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1575581/0001575581-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "34dbb5fb4c81924e61986c04ecef7f57ce91d06d594e5d79b4a21c2174c725ee",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "bd7c560cc73711ec49c7dff76caac31eca8effcbdc6e4ad397377222e2f6bfdc",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001575581-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1575581/0001575581-26-000006.txt",
+    "distinct_positions": 314,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1940627222.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 327167.0,
+        "value_usd": 122438912.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 161741.0,
+        "value_usd": 80538931.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 170171.0,
+        "value_usd": 59762304.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 76692.0,
+        "value_usd": 56734439.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 243953.0,
+        "value_usd": 55713910.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "36828A101",
+        "security_class": "COM",
+        "issuer": "GE VERNOVA INC",
+        "shares": 57082.0,
+        "value_usd": 54256200.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 153816.0,
+        "value_usd": 51223946.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 25246.0,
+        "value_usd": 45737421.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 74259.0,
+        "value_usd": 38087554.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "56585A102",
+        "security_class": "COM",
+        "issuer": "MARATHON PETE CORP",
+        "shares": 90178.0,
+        "value_usd": 35658185.0,
+        "weight_pct": 1.84
+      }
+    ],
+    "top_five_pct": 19.33,
+    "top_ten_pct": 30.93,
+    "hhi": 166.73,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 77,
+      "exited_positions": 46,
+      "increased_positions": 135,
+      "reduced_positions": 67
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001575581-25-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001575581-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

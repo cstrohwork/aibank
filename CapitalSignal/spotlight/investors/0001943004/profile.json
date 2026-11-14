@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1943004/0002085853-26-001331.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "188633df7403dd6761406c5a5c2c7950181f5c167cdc4355be3c830fbb6d0f6e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "698f0a2ede63d692a76326bde5402d8d0f51d0ab72910876b2f28948b3d7892a",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0002085853-26-001331",
+    "source": "https://www.sec.gov/Archives/edgar/data/1943004/0002085853-26-001331.txt",
+    "distinct_positions": 82,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 168830027.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 166011.0,
+        "value_usd": 37913417.0,
+        "weight_pct": 22.46
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 93921.0,
+        "value_usd": 31277546.0,
+        "weight_pct": 18.53
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 15810.0,
+        "value_usd": 9671926.0,
+        "weight_pct": 5.73
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 6913.0,
+        "value_usd": 7998897.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 25978.0,
+        "value_usd": 7917498.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "886364231",
+        "security_class": "FUND GRAN US ETF",
+        "issuer": "TIDAL TRUST I",
+        "shares": 262862.0,
+        "value_usd": 7315449.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 10718.0,
+        "value_usd": 5497492.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "CL C",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 7680.0,
+        "value_usd": 4131462.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 4974.0,
+        "value_usd": 3607051.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 9004.0,
+        "value_usd": 3162121.0,
+        "weight_pct": 1.87
+      }
+    ],
+    "top_five_pct": 56.14,
+    "top_ten_pct": 70.18,
+    "hhi": 990.82,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 17,
+      "exited_positions": 10,
+      "increased_positions": 10,
+      "reduced_positions": 41
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0002085853-25-000238"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0002085853-26-001331"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

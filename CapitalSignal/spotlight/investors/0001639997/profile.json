@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1639997/0001376474-26-000682.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4e2f09c2062cb64476718bfc87c2f60422b73aae9e4d67178141656d43adfa6c",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "0ca3c4bc4ac0fdc98214c01b9f8dcff1de496997cd290ed92ef103d6b9c87ad8",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001376474-26-000682",
+    "source": "https://www.sec.gov/Archives/edgar/data/1639997/0001376474-26-000682.txt",
+    "distinct_positions": 126,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 225847999.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 75963.0,
+        "value_usd": 25297350.0,
+        "weight_pct": 11.2
+      },
+      {
+        "cusip": "G29183103",
+        "security_class": "SHS",
+        "issuer": "EATON CORP PLC",
+        "shares": 23993.0,
+        "value_usd": 10310032.0,
+        "weight_pct": 4.57
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 30890.0,
+        "value_usd": 10147674.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 24646.0,
+        "value_usd": 8655429.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 35356.0,
+        "value_usd": 8074603.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 17726.0,
+        "value_usd": 7042717.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "231021106",
+        "security_class": "COM",
+        "issuer": "CUMMINS INC",
+        "shares": 13066.0,
+        "value_usd": 6749504.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "701094104",
+        "security_class": "COM",
+        "issuer": "PARKER-HANNIFIN CORP",
+        "shares": 6449.0,
+        "value_usd": 6161504.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 14509.0,
+        "value_usd": 4992257.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "94106L109",
+        "security_class": "COM",
+        "issuer": "WASTE MGMT INC DEL",
+        "shares": 23160.0,
+        "value_usd": 4722787.0,
+        "weight_pct": 2.09
+      }
+    ],
+    "top_five_pct": 27.67,
+    "top_ten_pct": 40.8,
+    "hhi": 282.05,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 22,
+      "exited_positions": 16,
+      "increased_positions": 29,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001376474-25-000846"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001376474-26-000682"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

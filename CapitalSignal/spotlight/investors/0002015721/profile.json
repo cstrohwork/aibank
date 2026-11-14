@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2015721/0002015721-26-000002.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9cc6cd86021aa7a456e6e58f344bb861431c756203af40cf4235e6a50835bb16",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "4e80848e7c8a15afcff99e296523ed0fcea58d532845aed8f9b1c646af520f06",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0002015721-26-000002",
+    "source": "https://www.sec.gov/Archives/edgar/data/2015721/0002015721-26-000002.txt",
+    "distinct_positions": 218,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 18617003.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46132P108",
+        "security_class": "COM",
+        "issuer": "INVESCO VALUE MUN INCOME TR",
+        "shares": 191454.0,
+        "value_usd": 2002611.0,
+        "weight_pct": 10.76
+      },
+      {
+        "cusip": "09253N104",
+        "security_class": "COM",
+        "issuer": "BLACKROCK MUNIHOLDINGS FD IN",
+        "shares": 173473.0,
+        "value_usd": 1779829.0,
+        "weight_pct": 9.56
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 4523.0,
+        "value_usd": 1183245.0,
+        "weight_pct": 6.36
+      },
+      {
+        "cusip": "383082104",
+        "security_class": "COM",
+        "issuer": "GORMAN RUPP CO",
+        "shares": 11445.0,
+        "value_usd": 852449.0,
+        "weight_pct": 4.58
+      },
+      {
+        "cusip": "95040Q104",
+        "security_class": "COM",
+        "issuer": "WELLTOWER INC",
+        "shares": 3517.0,
+        "value_usd": 809855.0,
+        "weight_pct": 4.35
+      },
+      {
+        "cusip": "722014107",
+        "security_class": "COM SHS",
+        "issuer": "PIMCO HIGH INCOME FD",
+        "shares": 152837.0,
+        "value_usd": 626630.0,
+        "weight_pct": 3.37
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1772.0,
+        "value_usd": 590132.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "233368109",
+        "security_class": "COM",
+        "issuer": "DWS MUN INCOME TR NEW",
+        "shares": 72382.0,
+        "value_usd": 586295.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "81369Y704",
+        "security_class": "INDL",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 2922.0,
+        "value_usd": 487837.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "37954Y384",
+        "security_class": "CYBRSCURTY ETF",
+        "issuer": "GLOBAL X FDS",
+        "shares": 10180.0,
+        "value_usd": 470128.0,
+        "weight_pct": 2.53
+      }
+    ],
+    "top_five_pct": 35.6,
+    "top_ten_pct": 50.43,
+    "hhi": 369.23,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 218,
+      "exited_positions": 6,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0002015721-25-000011"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0002015721-26-000002"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

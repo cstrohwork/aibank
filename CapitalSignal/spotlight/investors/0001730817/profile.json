@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1730817/0001730817-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c9380e8d660b40484a256c8edc93ae151e59f21bf2aacccf05a5d3a047ad4cd8",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "a04efb2c93c541192c511c85248ce95b894a004ee619bf3985aa6ed8f9c10cdc",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001730817-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1730817/0001730817-26-000005.txt",
+    "distinct_positions": 489,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1041729336.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 106228.0,
+        "value_usd": 54484178.0,
+        "weight_pct": 5.23
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 177170.0,
+        "value_usd": 40462010.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 95918.0,
+        "value_usd": 31942762.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 99573.0,
+        "value_usd": 24808675.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 57715.0,
+        "value_usd": 20268790.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "56400P706",
+        "security_class": "COM NEW",
+        "issuer": "MANNKIND CORP",
+        "shares": 4986096.0,
+        "value_usd": 19445774.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "464286327",
+        "security_class": "MSCI GLB SLV&MTL",
+        "issuer": "ISHARES INC",
+        "shares": 527352.0,
+        "value_usd": 18441509.0,
+        "weight_pct": 1.77
+      },
+      {
+        "cusip": "384747101",
+        "security_class": "COM",
+        "issuer": "GRAIL INC",
+        "shares": 122339.0,
+        "value_usd": 17142104.0,
+        "weight_pct": 1.65
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 53602.0,
+        "value_usd": 14190998.0,
+        "weight_pct": 1.36
+      },
+      {
+        "cusip": "90138F102",
+        "security_class": "CL A",
+        "issuer": "TWILIO INC",
+        "shares": 47640.0,
+        "value_usd": 13932789.0,
+        "weight_pct": 1.34
+      }
+    ],
+    "top_five_pct": 16.51,
+    "top_ten_pct": 24.49,
+    "hhi": 111.04,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 135,
+      "exited_positions": 99,
+      "increased_positions": 171,
+      "reduced_positions": 178
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001730817-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001730817-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

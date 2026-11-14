@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1697882/0001420506-26-002440.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7bdee5a26345e87729b92e7681d943e0c94a67754630afee1f12e53ee58047cd",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "df219b5d46f6930b063e82cdbca241bab91d863e607cbbf3e25e6149900f866f",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001420506-26-002440",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697882/0001420506-26-002440.txt",
+    "distinct_positions": 37,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 17914237.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "72201R833",
+        "security_class": "ENHAN SHRT MA AC",
+        "issuer": "PIMCO ETF TR",
+        "shares": 17602.0,
+        "value_usd": 1765808.0,
+        "weight_pct": 9.86
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 20557.0,
+        "value_usd": 1032589.0,
+        "weight_pct": 5.76
+      },
+      {
+        "cusip": "33738R118",
+        "security_class": "NASD TECH DIV",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 8497.0,
+        "value_usd": 981134.0,
+        "weight_pct": 5.48
+      },
+      {
+        "cusip": "46137V506",
+        "security_class": "DIVID ACHIEVEV",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 15879.0,
+        "value_usd": 877482.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "464287598",
+        "security_class": "RUS 1000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 3160.0,
+        "value_usd": 788106.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "78464A763",
+        "security_class": "ST STR SP DIV",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 4350.0,
+        "value_usd": 641861.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "33738D309",
+        "security_class": "SENIOR LN FD",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 13612.0,
+        "value_usd": 606692.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "33739H101",
+        "security_class": "FST TR GLB FD",
+        "issuer": "FIRST TR EXCHANGE TRAD FD VI",
+        "shares": 19602.0,
+        "value_usd": 600747.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "81369Y605",
+        "security_class": "ST STR FINL ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 10812.0,
+        "value_usd": 578339.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "19762B202",
+        "security_class": "EM CORE EX ETF",
+        "issuer": "COLUMBIA ETF TR II",
+        "shares": 10818.0,
+        "value_usd": 569231.0,
+        "weight_pct": 3.18
+      }
+    ],
+    "top_five_pct": 30.4,
+    "top_ten_pct": 47.12,
+    "hhi": 373.88,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 15,
+      "exited_positions": 108,
+      "increased_positions": 0,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001420506-25-002978"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001420506-26-002440"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,81 @@
     "https://www.sec.gov/Archives/edgar/data/1666905/0001666905-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0f07cc1b6bc8c67bff197395464beae81cf1e7cfa5896190cb9e06e8949dad2f",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "71a01636c15c56eff2fcde6fb9bcb130804904e08d89f9537042fed2633d8ffc",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001666905-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1666905/0001666905-26-000007.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 66970509.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 891325.0,
+        "value_usd": 42195326.0,
+        "weight_pct": 63.01
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES RUSSELL 2000 ETF",
+        "shares": 50285.0,
+        "value_usd": 13973699.0,
+        "weight_pct": 20.87
+      },
+      {
+        "cusip": "09174C104",
+        "security_class": "SHS BEN INT",
+        "issuer": "BITWISE BITCOIN ETF",
+        "shares": 220992.0,
+        "value_usd": 10024197.0,
+        "weight_pct": 14.97
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 6465.0,
+        "value_usd": 777287.0,
+        "weight_pct": 1.16
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4630.49,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 5,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001666905-25-000013"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001666905-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001666905-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

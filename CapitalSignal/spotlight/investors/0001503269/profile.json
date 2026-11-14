@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1503269/0001062993-25-016085.txt",
+    "https://www.sec.gov/Archives/edgar/data/1503269/0001062993-26-003878.txt",
     "https://www.sec.gov/Archives/edgar/data/1503269/0001062993-26-005597.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b8dc4aeeb2f55d2c2f1cd461ea5cc7698263a73c2f60227d20c1d2fd441bb9c0",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "65234e6371bbacd5ad496b9f4e0f4ee80c9d6b9374a7ef5609e6986b51bb1e38",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001062993-26-005597",
+    "source": "https://www.sec.gov/Archives/edgar/data/1503269/0001062993-26-005597.txt",
+    "distinct_positions": 31,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 300364018.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "891160509",
+        "security_class": "COM NEW",
+        "issuer": "TORONTO DOMINION BK ONT",
+        "shares": 190875.0,
+        "value_usd": 22438607.0,
+        "weight_pct": 7.47
+      },
+      {
+        "cusip": "92343V104",
+        "security_class": "COM",
+        "issuer": "VERIZON COMMUNICATIONS INC",
+        "shares": 474550.0,
+        "value_usd": 21767609.0,
+        "weight_pct": 7.25
+      },
+      {
+        "cusip": "87971M103",
+        "security_class": "COM",
+        "issuer": "TELUS CORPORATION",
+        "shares": 2491200.0,
+        "value_usd": 20914599.0,
+        "weight_pct": 6.96
+      },
+      {
+        "cusip": "884903881",
+        "security_class": "COM",
+        "issuer": "THOMSON REUTERS CORP",
+        "shares": 188843.0,
+        "value_usd": 18372408.0,
+        "weight_pct": 6.12
+      },
+      {
+        "cusip": "87807B107",
+        "security_class": "COM",
+        "issuer": "TC ENERGY CORP",
+        "shares": 289675.0,
+        "value_usd": 16767123.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "56501R106",
+        "security_class": "COM",
+        "issuer": "MANULIFE FINL CORP",
+        "shares": 388500.0,
+        "value_usd": 16550837.0,
+        "weight_pct": 5.51
+      },
+      {
+        "cusip": "025537101",
+        "security_class": "COM",
+        "issuer": "AMERCIAN ELEC PWR CO INC",
+        "shares": 130300.0,
+        "value_usd": 15458792.0,
+        "weight_pct": 5.15
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "COM",
+        "issuer": "AGNICO EAGLE MINES LTD",
+        "shares": 80335.0,
+        "value_usd": 14707953.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "780087102",
+        "security_class": "COM",
+        "issuer": "ROYAL BK CDA",
+        "shares": 74500.0,
+        "value_usd": 14651911.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "053015103",
+        "security_class": "COM",
+        "issuer": "AUTOMATIC DATA PROCESSING IN",
+        "shares": 55875.0,
+        "value_usd": 14419103.0,
+        "weight_pct": 4.8
+      }
+    ],
+    "top_five_pct": 33.38,
+    "top_ten_pct": 58.61,
+    "hhi": 506.67,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 2,
+      "increased_positions": 3,
+      "reduced_positions": 18
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001062993-25-016085"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001062993-26-003878"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001062993-26-005597"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

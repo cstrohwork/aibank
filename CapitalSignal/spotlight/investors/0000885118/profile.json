@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/885118/0000885118-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8c579914c4ec16f788e4918b994da2713e1a0be616b25b95f66d7a24273cfc53",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d5fba8f3ea7f4a9963d3dbe7ee05e09e4ba598140bdb9fc9e4e5a1b41e417fa0",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0000885118-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/885118/0000885118-26-000010.txt",
+    "distinct_positions": 19,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 310401979.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "024013104",
+        "security_class": "COM",
+        "issuer": "AMERICAN ASSETS TR INC",
+        "shares": 7571235.0,
+        "value_usd": 160964456.0,
+        "weight_pct": 51.86
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 1600626.0,
+        "value_usd": 128130111.0,
+        "weight_pct": 41.28
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 35000.0,
+        "value_usd": 5696250.0,
+        "weight_pct": 1.84
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMER CORP",
+        "shares": 87500.0,
+        "value_usd": 4762625.0,
+        "weight_pct": 1.53
+      },
+      {
+        "cusip": "14040H105",
+        "security_class": "COM",
+        "issuer": "CAPITAL ONE FINL CORP",
+        "shares": 10000.0,
+        "value_usd": 1930700.0,
+        "weight_pct": 0.62
+      },
+      {
+        "cusip": "891160509",
+        "security_class": "COM NEW",
+        "issuer": "TORONTO DOMINION BK ONT",
+        "shares": 15000.0,
+        "value_usd": 1762950.0,
+        "weight_pct": 0.57
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 5000.0,
+        "value_usd": 1021050.0,
+        "weight_pct": 0.33
+      },
+      {
+        "cusip": "828806109",
+        "security_class": "COM",
+        "issuer": "SIMON PPTY GROUP INC NEW",
+        "shares": 5000.0,
+        "value_usd": 1003800.0,
+        "weight_pct": 0.32
+      },
+      {
+        "cusip": "26701L100",
+        "security_class": "CL A",
+        "issuer": "DUTCH BROS INC",
+        "shares": 16500.0,
+        "value_usd": 636240.0,
+        "weight_pct": 0.2
+      },
+      {
+        "cusip": "91347P105",
+        "security_class": "COM",
+        "issuer": "UNIVERSAL DISPLAY CORP",
+        "shares": 8000.0,
+        "value_usd": 616320.0,
+        "weight_pct": 0.2
+      }
+    ],
+    "top_five_pct": 97.13,
+    "top_ten_pct": 98.75,
+    "hhi": 4399.96,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0000885118-25-000012"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0000885118-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0000885118-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1799859/0001799859-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1799859/0001799859-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1799859/0001799859-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a85c57e8c2cd9bb9413e8c9ac4bfd8fc85a2eb65cf62a34a5be2d9559cf8b5f1",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "b16d027902824656b82d51b434575feb298fbfe0b6f642604890e2d1cfbc808b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001799859-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1799859/0001799859-26-000005.txt",
+    "distinct_positions": 82,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 213230343.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 61787.0,
+        "value_usd": 20576249.0,
+        "weight_pct": 9.65
+      },
+      {
+        "cusip": "384802104",
+        "security_class": "Stock",
+        "issuer": "WW GRAINGER INC COM",
+        "shares": 14135.0,
+        "value_usd": 17608215.0,
+        "weight_pct": 8.26
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 32063.0,
+        "value_usd": 16444901.0,
+        "weight_pct": 7.71
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "Stock",
+        "issuer": "AMGEN INC COM",
+        "shares": 25374.0,
+        "value_usd": 10695449.0,
+        "weight_pct": 5.02
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL C",
+        "shares": 29730.0,
+        "value_usd": 10130200.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "ADR",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFACT SPONSORED ADS",
+        "shares": 18312.0,
+        "value_usd": 8353751.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "Stock",
+        "issuer": "CHARLES SCHWAB CORP (THE) COM",
+        "shares": 81182.0,
+        "value_usd": 7934729.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "303075105",
+        "security_class": "Stock",
+        "issuer": "FACTSET RESH SYS INC COM",
+        "shares": 25980.0,
+        "value_usd": 7013301.0,
+        "weight_pct": 3.29
+      },
+      {
+        "cusip": "G1151C101",
+        "security_class": "Stock",
+        "issuer": "ACCENTURE PLC IRELAND SHS CLASS A",
+        "shares": 37920.0,
+        "value_usd": 6953390.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "31428X106",
+        "security_class": "Stock",
+        "issuer": "FEDEX CORP COM",
+        "shares": 23139.0,
+        "value_usd": 6596698.0,
+        "weight_pct": 3.09
+      }
+    ],
+    "top_five_pct": 35.39,
+    "top_ten_pct": 52.67,
+    "hhi": 415.33,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 4,
+      "increased_positions": 25,
+      "reduced_positions": 26
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0001799859-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001799859-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001799859-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

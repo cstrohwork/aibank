@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1858740/0001858740-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ff158f0fe1b91916b74b721cea96984d62569bc26e9ffed63b75ffff69136892",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "1c9661a86c64c3283286aa76dc1cbf5c2cc122cd34a09ca04fb700daa5cfff22",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001858740-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1858740/0001858740-26-000005.txt",
+    "distinct_positions": 2310,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3273572240.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 222377.0,
+        "value_usd": 170307070.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NUCOR CORP",
+        "shares": 595776.0,
+        "value_usd": 136063211.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "ALTABA INC ESCROW SHS ORD REG",
+        "shares": 359404.0,
+        "value_usd": 119689874.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMERIPRISE FINL INC COM",
+        "shares": 321484.0,
+        "value_usd": 80097629.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Marvell Technology",
+        "shares": 135096.0,
+        "value_usd": 69290654.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 546615.0,
+        "value_usd": 68693164.0,
+        "weight_pct": 2.1
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 160837.0,
+        "value_usd": 55340910.0,
+        "weight_pct": 1.69
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S P 500 ETF TR",
+        "shares": 55204.0,
+        "value_usd": 42100274.0,
+        "weight_pct": 1.29
+      },
+      {
+        "cusip": "46434V613",
+        "security_class": "CORE TOTAL USD",
+        "issuer": "ISHARES TR",
+        "shares": 856892.0,
+        "value_usd": 37780381.0,
+        "weight_pct": 1.15
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "Lumentum Holdings",
+        "shares": 31342.0,
+        "value_usd": 36264893.0,
+        "weight_pct": 1.11
+      }
+    ],
+    "top_five_pct": 17.58,
+    "top_ten_pct": 24.92,
+    "hhi": 107.47,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 1662,
+      "exited_positions": 1779,
+      "increased_positions": 284,
+      "reduced_positions": 311
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001858740-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001858740-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

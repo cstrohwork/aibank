@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1905962/0001104659-26-088546.txt",
     "https://www.sec.gov/Archives/edgar/data/1905962/0001104659-26-120031.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c003d0fd69df873b8673193d4fd86f42e4bbcf99cef9285e46f81c20bfac6986",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "a09f145df1b1ff619410940fa907f5cabe36a5d99a4a14681e2c4eb4199b5269",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001104659-26-120031",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905962/0001104659-26-120031.txt",
+    "distinct_positions": 120,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 415597645.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46137V613",
+        "security_class": "RAFI US 1000 ETF",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 647428.0,
+        "value_usd": 35239522.0,
+        "weight_pct": 8.48
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 919933.0,
+        "value_usd": 34598681.0,
+        "weight_pct": 8.33
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 585426.0,
+        "value_usd": 26022207.0,
+        "weight_pct": 6.26
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 598062.0,
+        "value_usd": 23755003.0,
+        "weight_pct": 5.72
+      },
+      {
+        "cusip": "97717W109",
+        "security_class": "US TOTAL DIVIDND",
+        "issuer": "WISDOMTREE TR",
+        "shares": 236622.0,
+        "value_usd": 22105213.0,
+        "weight_pct": 5.32
+      },
+      {
+        "cusip": "921946794",
+        "security_class": "INTL HIGH ETF",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 169641.0,
+        "value_usd": 17155784.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 104136.0,
+        "value_usd": 16161843.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 182130.0,
+        "value_usd": 15111304.0,
+        "weight_pct": 3.64
+      },
+      {
+        "cusip": "464287234",
+        "security_class": "MSCI EMG MKT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 177397.0,
+        "value_usd": 11848331.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "72201R833",
+        "security_class": "ENHAN SHRT MA AC",
+        "issuer": "PIMCO ETF TR",
+        "shares": 112301.0,
+        "value_usd": 11291852.0,
+        "weight_pct": 2.72
+      }
+    ],
+    "top_five_pct": 34.1,
+    "top_ten_pct": 51.32,
+    "hhi": 356.97,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 14,
+      "increased_positions": 71,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001104659-26-088546"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001104659-26-120031"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

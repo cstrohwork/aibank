@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1767699/0001767699-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "88f4578bebab96fb21bae81536df88adb8b5496cc38b8d321627ea97dda3ca45",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "77cf981d3430ce3a4c055fa1e1aae34d663adf3dd17665d516f39485f8c21920",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001767699-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1767699/0001767699-26-000004.txt",
+    "distinct_positions": 109,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 180313733.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 17788.0,
+        "value_usd": 13622650.0,
+        "weight_pct": 7.55
+      },
+      {
+        "cusip": "46434V613",
+        "security_class": "CORE UNIVRSL USD",
+        "issuer": "ISHARES TR",
+        "shares": 292557.0,
+        "value_usd": 12898825.0,
+        "weight_pct": 7.15
+      },
+      {
+        "cusip": "464287457",
+        "security_class": "1 3 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 98169.0,
+        "value_usd": 7971293.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 74459.0,
+        "value_usd": 7496482.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 47388.0,
+        "value_usd": 6741447.0,
+        "weight_pct": 3.74
+      },
+      {
+        "cusip": "46429B267",
+        "security_class": "US TREAS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 286157.0,
+        "value_usd": 6258257.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "46434V100",
+        "security_class": "0-5YR INVT GR CP",
+        "issuer": "ISHARES TR",
+        "shares": 119759.0,
+        "value_usd": 5925112.0,
+        "weight_pct": 3.29
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 72645.0,
+        "value_usd": 5895901.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 50915.0,
+        "value_usd": 5616943.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 4664.0,
+        "value_usd": 3450527.0,
+        "weight_pct": 1.91
+      }
+    ],
+    "top_five_pct": 27.03,
+    "top_ten_pct": 42.08,
+    "hhi": 263.08,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 52,
+      "exited_positions": 40,
+      "increased_positions": 28,
+      "reduced_positions": 26
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001767699-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001767699-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

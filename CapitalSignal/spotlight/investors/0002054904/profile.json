@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2054904/0002054904-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "18bbaaffca43979a53c9b61f920687506422460f50e51f3a53f7305dc0e81777",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "e4f84051212c4028f078f40beaf38f0a8ab1bc988ffc718995b1b01c7d3cc741",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0002054904-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2054904/0002054904-26-000004.txt",
+    "distinct_positions": 92,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 263732032.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 194530.0,
+        "value_usd": 22909798.0,
+        "weight_pct": 8.69
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "INTL SMCP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 186751.0,
+        "value_usd": 20426824.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "02072L532",
+        "security_class": "BRID OMN SMA ETF",
+        "issuer": "EA SERIES TRUST",
+        "shares": 668752.0,
+        "value_usd": 18697705.0,
+        "weight_pct": 7.09
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "CORE S&P TTL STK",
+        "issuer": "ISHARES TR",
+        "shares": 97018.0,
+        "value_usd": 16132153.0,
+        "weight_pct": 6.12
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 389804.0,
+        "value_usd": 15483025.0,
+        "weight_pct": 5.87
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 217887.0,
+        "value_usd": 14476412.0,
+        "weight_pct": 5.49
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 38226.0,
+        "value_usd": 14305698.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "INTER TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 183920.0,
+        "value_usd": 10420905.0,
+        "weight_pct": 3.95
+      },
+      {
+        "cusip": "25434V765",
+        "security_class": "INTL HIGH PROFIT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 241955.0,
+        "value_usd": 8151464.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 167057.0,
+        "value_usd": 7425684.0,
+        "weight_pct": 2.82
+      }
+    ],
+    "top_five_pct": 35.51,
+    "top_ten_pct": 56.28,
+    "hhi": 406.94,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 27,
+      "exited_positions": 16,
+      "increased_positions": 33,
+      "reduced_positions": 24
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001725547-25-004112"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0002054904-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

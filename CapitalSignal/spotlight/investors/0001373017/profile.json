@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1373017/0001373017-25-000011.txt",
+    "https://www.sec.gov/Archives/edgar/data/1373017/0001373017-26-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/1373017/0001373017-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5d8452d8afa13df7533a24b713daf4cdcaa656501e72657d56b558d0320015e5",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "1c9bdd86697d6b741a825afa7ec32f515dd4671109b71191b2963617423ea6aa",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001373017-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1373017/0001373017-26-000010.txt",
+    "distinct_positions": 79,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 514745381.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78463V107",
+        "security_class": "Equities",
+        "issuer": "SPDR Gold Share",
+        "shares": 175586.0,
+        "value_usd": 62470035.0,
+        "weight_pct": 12.14
+      },
+      {
+        "cusip": "921937819",
+        "security_class": "Equities",
+        "issuer": "Vanguard Intermediate Bond",
+        "shares": 684542.0,
+        "value_usd": 50923079.0,
+        "weight_pct": 9.89
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "Equities",
+        "issuer": "Vanguard Total International Stock ETF",
+        "shares": 414593.0,
+        "value_usd": 34149987.0,
+        "weight_pct": 6.63
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "Equities",
+        "issuer": "DIMENSIONAL US CORE EQUITY MARKT ETF",
+        "shares": 652954.0,
+        "value_usd": 34123360.0,
+        "weight_pct": 6.63
+      },
+      {
+        "cusip": "46432F859",
+        "security_class": "Equities",
+        "issuer": "Ishares Core 1 5 Year",
+        "shares": 621476.0,
+        "value_usd": 29588472.0,
+        "weight_pct": 5.75
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "Equities",
+        "issuer": "Vanguard Total Stock Mkt",
+        "shares": 75904.0,
+        "value_usd": 28203644.0,
+        "weight_pct": 5.48
+      },
+      {
+        "cusip": "25434V575",
+        "security_class": "Equities",
+        "issuer": "Dimensional Global ex US Cor Fxd Inc ETF",
+        "shares": 502353.0,
+        "value_usd": 25970645.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "Equities",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 184461.0,
+        "value_usd": 22768021.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "97717X669",
+        "security_class": "Equities",
+        "issuer": "WisdomTree US Quality Dividend Gr ETF",
+        "shares": 202170.0,
+        "value_usd": 19905658.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "37954Y889",
+        "security_class": "Equities",
+        "issuer": "S&P500 Catholic Values",
+        "shares": 218258.0,
+        "value_usd": 19584286.0,
+        "weight_pct": 3.8
+      }
+    ],
+    "top_five_pct": 41.04,
+    "top_ten_pct": 63.66,
+    "hhi": 516.61,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 3,
+      "increased_positions": 12,
+      "reduced_positions": 42
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001373017-25-000011"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001373017-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001373017-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1510668/0001214659-26-013301.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "97f41013e767f337d7a08713301ed8e6b4d4d43ab06d9d3fe88993e3ea0e27e6",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "5f256bf36fdf622c2ca447e5cfd8112669933bc82f7b3ae5d808af81c9036778",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001214659-26-013301",
+    "source": "https://www.sec.gov/Archives/edgar/data/1510668/0001214659-26-013301.txt",
+    "distinct_positions": 34,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 190117987.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 63975.0,
+        "value_usd": 22012518.0,
+        "weight_pct": 11.58
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC - CL A",
+        "shares": 28626.0,
+        "value_usd": 20759003.0,
+        "weight_pct": 10.92
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 45380.0,
+        "value_usd": 11306427.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS CL A",
+        "shares": 33390.0,
+        "value_usd": 8840003.0,
+        "weight_pct": 4.65
+      },
+      {
+        "cusip": "92537N108",
+        "security_class": "COM CL A",
+        "issuer": "VERTIV HOLDINGS CO",
+        "shares": 36450.0,
+        "value_usd": 8795750.0,
+        "weight_pct": 4.63
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INC",
+        "shares": 15814.0,
+        "value_usd": 8720947.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 24315.0,
+        "value_usd": 8285093.0,
+        "weight_pct": 4.36
+      },
+      {
+        "cusip": "219350105",
+        "security_class": "COM",
+        "issuer": "CORNING",
+        "shares": 48460.0,
+        "value_usd": 7451210.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 22393.0,
+        "value_usd": 7408276.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 14415.0,
+        "value_usd": 7393454.0,
+        "weight_pct": 3.89
+      }
+    ],
+    "top_five_pct": 37.72,
+    "top_ten_pct": 58.37,
+    "hhi": 513.8,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 3,
+      "increased_positions": 6,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001214659-25-016005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001214659-26-009436"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001214659-26-013301"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

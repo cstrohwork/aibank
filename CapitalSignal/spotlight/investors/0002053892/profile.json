@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2053892/0002053892-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f4faefbdf74b8c314ff0f8bee7c9d2b0e08ef81dd48d612929a31d5ce75d5ae0",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "05cf4b905baf28ecd72130736124cf17cba7452db660647dbd8eb0832078a882",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0002053892-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2053892/0002053892-26-000005.txt",
+    "distinct_positions": 62,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 299324171.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1608307.0,
+        "value_usd": 71489265.0,
+        "weight_pct": 23.88
+      },
+      {
+        "cusip": "25434V583",
+        "security_class": "GLOB CO PLUS ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 581241.0,
+        "value_usd": 30181509.0,
+        "weight_pct": 10.08
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 592193.0,
+        "value_usd": 22272389.0,
+        "weight_pct": 7.44
+      },
+      {
+        "cusip": "25239Y170",
+        "security_class": "U.S. SML CP VAL",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 571446.0,
+        "value_usd": 21412072.0,
+        "weight_pct": 7.15
+      },
+      {
+        "cusip": "25434V567",
+        "security_class": "GLOBAL CR ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 403654.0,
+        "value_usd": 20952317.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "25239Y196",
+        "security_class": "U.S. HIGH RELATI",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 474905.0,
+        "value_usd": 19903281.0,
+        "weight_pct": 6.65
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 45381.0,
+        "value_usd": 11306676.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 274045.0,
+        "value_usd": 10885056.0,
+        "weight_pct": 3.64
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 187563.0,
+        "value_usd": 8119612.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "25434V765",
+        "security_class": "INTL HIGH PROFIT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 222849.0,
+        "value_usd": 7507785.0,
+        "weight_pct": 2.51
+      }
+    ],
+    "top_five_pct": 55.56,
+    "top_ten_pct": 74.85,
+    "hhi": 939.38,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 27,
+      "exited_positions": 27,
+      "increased_positions": 21,
+      "reduced_positions": 14
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0002053892-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0002053892-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

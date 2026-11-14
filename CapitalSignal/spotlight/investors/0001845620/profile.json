@@ -10,11 +10,117 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1845620/0001725547-25-004119.txt",
+    "https://www.sec.gov/Archives/edgar/data/1845620/0001725547-26-000266.txt",
     "https://www.sec.gov/Archives/edgar/data/1845620/0001725547-26-000392.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "367eefe360c351876944524fc86e49016153ec040e7ac16dc01f486c2a6334e0",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b5ace74637a93f97f74f849af818dc94208f2b3ccdb57bebfe089dcddf476961",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001725547-26-000392",
+    "source": "https://www.sec.gov/Archives/edgar/data/1845620/0001725547-26-000392.txt",
+    "distinct_positions": 8,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 45122928.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78463X541",
+        "security_class": "ST STR NAT ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 325320.0,
+        "value_usd": 24063920.0,
+        "weight_pct": 53.33
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 45623.0,
+        "value_usd": 6882686.0,
+        "weight_pct": 15.25
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 7457.0,
+        "value_usd": 5710943.0,
+        "weight_pct": 12.66
+      },
+      {
+        "cusip": "464288521",
+        "security_class": "CRE U S REIT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 59495.0,
+        "value_usd": 3663702.0,
+        "weight_pct": 8.12
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 23639.0,
+        "value_usd": 2290146.0,
+        "weight_pct": 5.08
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 15253.0,
+        "value_usd": 1237933.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "COM CL A",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 5496.0,
+        "value_usd": 976364.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "03214Q108",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMPRIUS TECHNOLOGIES INC",
+        "shares": 30706.0,
+        "value_usd": 297234.0,
+        "weight_pct": 0.66
+      }
+    ],
+    "top_five_pct": 94.43,
+    "top_ten_pct": 100.0,
+    "hhi": 3341.23,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001725547-25-004119"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001725547-26-000266"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001725547-26-000392"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

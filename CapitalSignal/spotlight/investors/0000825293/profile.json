@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/825293/0000825293-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a8a5ef83ce374067cdc54259a8810de56a03c54e70aed1808191da58ddea2803",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "bf673acd5891b7fa4bec2e9a72fd00206d59801c3c77bed1f3df24aa922227cf",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0000825293-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/825293/0000825293-26-000004.txt",
+    "distinct_positions": 45,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 75969247.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "093712107",
+        "security_class": "Stock",
+        "issuer": "BLOOM ENERGY CORP COM CL A",
+        "shares": 16200.0,
+        "value_usd": 4487076.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 19400.0,
+        "value_usd": 4430572.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 12000.0,
+        "value_usd": 4128960.0,
+        "weight_pct": 5.44
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "Stock",
+        "issuer": "PALO ALTO NETWORKS INC COM",
+        "shares": 10000.0,
+        "value_usd": 3973100.0,
+        "weight_pct": 5.23
+      },
+      {
+        "cusip": "74762E102",
+        "security_class": "Stock",
+        "issuer": "QUANTA SVCS INC COM",
+        "shares": 5600.0,
+        "value_usd": 3598056.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "Stock",
+        "issuer": "ELI LILLY & CO COM",
+        "shares": 2600.0,
+        "value_usd": 3008408.0,
+        "weight_pct": 3.96
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 5500.0,
+        "value_usd": 2820950.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "Stock",
+        "issuer": "JPMORGAN CHASE & CO COM",
+        "shares": 8500.0,
+        "value_usd": 2812055.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 11000.0,
+        "value_usd": 2740650.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "ADR",
+        "issuer": "ASML HLDG NV N Y REGISTRY SHS",
+        "shares": 1275.0,
+        "value_usd": 2309879.0,
+        "weight_pct": 3.04
+      }
+    ],
+    "top_five_pct": 27.14,
+    "top_ten_pct": 45.16,
+    "hhi": 318.24,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 6,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0000825293-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0000825293-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0000825293-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

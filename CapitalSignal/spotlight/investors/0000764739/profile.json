@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/764739/0001398344-26-018805.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a1f8f758f18e2557f9bd91c5bdba0eaeea67d3883aad4f754dc010eafe297694",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "9b06d1dbf1ac799335756976c1b563107f7384cb4f7f6d170e59dc12c910e10e",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001398344-26-018805",
+    "source": "https://www.sec.gov/Archives/edgar/data/764739/0001398344-26-018805.txt",
+    "distinct_positions": 523,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1313475539.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 6774855.0,
+        "value_usd": 280682252.0,
+        "weight_pct": 21.37
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 3712112.0,
+        "value_usd": 194366193.0,
+        "weight_pct": 14.8
+      },
+      {
+        "cusip": "97717Y634",
+        "security_class": "INTERNATIONL EFI",
+        "issuer": "WISDOMTREE TR",
+        "shares": 2507233.0,
+        "value_usd": 115094538.0,
+        "weight_pct": 8.76
+      },
+      {
+        "cusip": "922908512",
+        "security_class": "MRNGSTR MD CP VA",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 572043.0,
+        "value_usd": 111851552.0,
+        "weight_pct": 8.52
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 268532.0,
+        "value_usd": 100495283.0,
+        "weight_pct": 7.65
+      },
+      {
+        "cusip": "46429B267",
+        "security_class": "US TREAS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 4033932.0,
+        "value_usd": 88222102.0,
+        "weight_pct": 6.72
+      },
+      {
+        "cusip": "808524102",
+        "security_class": "US BRD MKT ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1188112.0,
+        "value_usd": 34823575.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 49726.0,
+        "value_usd": 16559885.0,
+        "weight_pct": 1.26
+      },
+      {
+        "cusip": "260557103",
+        "security_class": "COM",
+        "issuer": "DOW HLDGS INC",
+        "shares": 554072.0,
+        "value_usd": 15259143.0,
+        "weight_pct": 1.16
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 59379.0,
+        "value_usd": 13560922.0,
+        "weight_pct": 1.03
+      }
+    ],
+    "top_five_pct": 61.1,
+    "top_ten_pct": 73.92,
+    "hhi": 946.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 86,
+      "exited_positions": 93,
+      "increased_positions": 250,
+      "reduced_positions": 120
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001398344-25-020214"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001398344-26-013478"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001398344-26-018805"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

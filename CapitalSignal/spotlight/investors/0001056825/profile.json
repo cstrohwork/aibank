@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1056825/0001056825-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ac8757e4bd5ef00cfaac93e59edb4de10ef89f84db721cadc3f0e078ce6ed4c6",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b121d265fb96ef1b35eb60713c6a40c5f7285381caac4e26685acc311db70ef7",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001056825-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1056825/0001056825-26-000005.txt",
+    "distinct_positions": 822,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1901609.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "EQTY",
+        "issuer": "NVIDIA CORP",
+        "shares": 495402.0,
+        "value_usd": 113140.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "EQTY",
+        "issuer": "APPLE INC",
+        "shares": 331457.0,
+        "value_usd": 110382.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "74006E769",
+        "security_class": "EQTY",
+        "issuer": "PRAXIS IMPACT BOND  I",
+        "shares": 9613999.0,
+        "value_usd": 86334.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "EQTY",
+        "issuer": "MICROSOFT CORP",
+        "shares": 135978.0,
+        "value_usd": 69743.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "74006E702",
+        "security_class": "EQTY",
+        "issuer": "PRAXIS INTL INDEX  I",
+        "shares": 2897010.0,
+        "value_usd": 53768.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "74006E868",
+        "security_class": "EQTY",
+        "issuer": "PRAXIS GROWTH INDEX  I",
+        "shares": 770387.0,
+        "value_usd": 48134.0,
+        "weight_pct": 2.53
+      },
+      {
+        "cusip": "74006E785",
+        "security_class": "EQTY",
+        "issuer": "PRAXIS VAL INDI",
+        "shares": 2051401.0,
+        "value_usd": 46074.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "EQTY",
+        "issuer": "ALPHABET INCA",
+        "shares": 124440.0,
+        "value_usd": 42817.0,
+        "weight_pct": 2.25
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "EQTY",
+        "issuer": "BROADCOM INC",
+        "shares": 108322.0,
+        "value_usd": 38042.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "EQTY",
+        "issuer": "AMAZONCOM INC",
+        "shares": 151010.0,
+        "value_usd": 37624.0,
+        "weight_pct": 1.98
+      }
+    ],
+    "top_five_pct": 22.79,
+    "top_ten_pct": 33.97,
+    "hhi": 167.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 58,
+      "exited_positions": 89,
+      "increased_positions": 95,
+      "reduced_positions": 177
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-01",
+        "accession": "0001056825-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001056825-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001056825-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

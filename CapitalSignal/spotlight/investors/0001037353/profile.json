@@ -14,8 +14,81 @@
     "https://www.sec.gov/Archives/edgar/data/1037353/0001214659-26-013440.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "24e03c353a2ff007fd15a498b29a09dc2ed619879285f1346d5b30750396e8ee",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "b84b9484e8a723dfeb5a22e66bef932f0fc5bb8492d70876a39aacf14b78cd58",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001214659-26-013440",
+    "source": "https://www.sec.gov/Archives/edgar/data/1037353/0001214659-26-013440.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 19512506.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "55173P109",
+        "security_class": "COM SHS",
+        "issuer": "Lyntris, Inc.",
+        "shares": 885888.0,
+        "value_usd": 10931858.0,
+        "weight_pct": 56.02
+      },
+      {
+        "cusip": "433313103",
+        "security_class": "CL A",
+        "issuer": "Hinge Health, Inc.",
+        "shares": 79492.0,
+        "value_usd": 7729802.0,
+        "weight_pct": 39.61
+      },
+      {
+        "cusip": "64119N608",
+        "security_class": "CL A",
+        "issuer": "Netskope Inc - Class A",
+        "shares": 33213.0,
+        "value_usd": 579235.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "91332U101",
+        "security_class": "COM",
+        "issuer": "Unity Software Inc.",
+        "shares": 6636.0,
+        "value_usd": 271611.0,
+        "weight_pct": 1.39
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4718.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 4,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001214659-25-015847"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001214659-26-009446"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001214659-26-013440"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

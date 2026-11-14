@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1821168/0001821168-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0f7f351dd71ae79af3c5b2ad5ff0392810cb3ef53d6cdf72e4df63d7525e28d4",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "64e4d68c2371d41f8e42eb242984409413231bb0a204ce2dafd93faa1520fd1a",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001821168-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1821168/0001821168-26-000005.txt",
+    "distinct_positions": 58,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 301814937.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "COM",
+        "issuer": "Berkshire Hathaway Class B",
+        "shares": 132808.0,
+        "value_usd": 66131744.0,
+        "weight_pct": 21.91
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "Applied Materials",
+        "shares": 91166.0,
+        "value_usd": 46620469.0,
+        "weight_pct": 15.45
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "Wells Fargo & Co.",
+        "shares": 238821.0,
+        "value_usd": 19117621.0,
+        "weight_pct": 6.33
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "Alphabet Inc. Class A",
+        "shares": 48012.0,
+        "value_usd": 16519969.0,
+        "weight_pct": 5.47
+      },
+      {
+        "cusip": "127387108",
+        "security_class": "COM",
+        "issuer": "Cadence Design Systems",
+        "shares": 43827.0,
+        "value_usd": 14471019.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "902973304",
+        "security_class": "COM",
+        "issuer": "US Bancorp",
+        "shares": 244054.0,
+        "value_usd": 14228348.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "743315103",
+        "security_class": "COM",
+        "issuer": "Progressive Co.",
+        "shares": 67877.0,
+        "value_usd": 14071581.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "68389X105",
+        "security_class": "COM",
+        "issuer": "Oracle Corp",
+        "shares": 98136.0,
+        "value_usd": 13474073.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "48251W104",
+        "security_class": "COM",
+        "issuer": "KKR & Co Inc",
+        "shares": 104168.0,
+        "value_usd": 9510538.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "49714P108",
+        "security_class": "COM",
+        "issuer": "Kinsale Cap Group Inc",
+        "shares": 29402.0,
+        "value_usd": 9489496.0,
+        "weight_pct": 3.14
+      }
+    ],
+    "top_five_pct": 53.96,
+    "top_ten_pct": 74.1,
+    "hhi": 929.83,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 6,
+      "increased_positions": 20,
+      "reduced_positions": 17
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001821168-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001821168-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001821168-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

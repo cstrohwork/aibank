@@ -14,8 +14,57 @@
     "https://www.sec.gov/Archives/edgar/data/1735775/0001735775-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e3549d50db95ed96529f8242c661fab649ce6ec3ad28ecf8bb5ce4729a321608",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "ed45168d90de842020c117982379c6b962a2b0ce1ad7a1cca94aa5b8ac64836e",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001735775-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1735775/0001735775-26-000004.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 0.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 0.0,
+        "value_usd": 0.0,
+        "weight_pct": null
+      }
+    ],
+    "top_five_pct": null,
+    "top_ten_pct": null,
+    "hhi": null,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001735775-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001735775-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001735775-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2076040/0002076040-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "514c6362776d0f31ec11dca29429769078b0d6aed1136270c367cf05ff05c5c5",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ab0700e03393d8db1f6182b60512b9efce1b367ebc983d8f4ccd2be72df112aa",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0002076040-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/2076040/0002076040-26-000008.txt",
+    "distinct_positions": 69,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 220373162.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 919904.0,
+        "value_usd": 66187107.0,
+        "weight_pct": 30.03
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 212860.0,
+        "value_usd": 33035910.0,
+        "weight_pct": 14.99
+      },
+      {
+        "cusip": "46137V613",
+        "security_class": "RAFI US 1000 ETF",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 601286.0,
+        "value_usd": 32727990.0,
+        "weight_pct": 14.85
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 394327.0,
+        "value_usd": 16336968.0,
+        "weight_pct": 7.41
+      },
+      {
+        "cusip": "316092832",
+        "security_class": "DIVID ETF RISI",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 134382.0,
+        "value_usd": 9163495.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "14020G101",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GROWTH ETF",
+        "shares": 191446.0,
+        "value_usd": 9080272.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 8459.0,
+        "value_usd": 5928756.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 43103.0,
+        "value_usd": 4074959.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "14019W109",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP INTL FOCUS EQT",
+        "shares": 87520.0,
+        "value_usd": 3001050.0,
+        "weight_pct": 1.36
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 11920.0,
+        "value_usd": 2781135.0,
+        "weight_pct": 1.26
+      }
+    ],
+    "top_five_pct": 71.45,
+    "top_ten_pct": 82.73,
+    "hhi": 1458.06,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 19,
+      "exited_positions": 11,
+      "increased_positions": 18,
+      "reduced_positions": 27
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0002076040-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0002076040-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

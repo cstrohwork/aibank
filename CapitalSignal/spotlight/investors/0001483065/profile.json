@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1483065/0001483065-25-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1483065/0001483065-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1483065/0001483065-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "57c229bb1d9088250dfe509daac8fe402eba077d7ecf8db2d674babfdc1908da",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f1452670fa21f261148655be7045e880bda5bfce68b15c09d708d67d9eeac28b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001483065-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1483065/0001483065-26-000006.txt",
+    "distinct_positions": 295,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 393677072.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 153120.0,
+        "value_usd": 34969546.0,
+        "weight_pct": 8.88
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 92341.0,
+        "value_usd": 30751400.0,
+        "weight_pct": 7.81
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 46983.0,
+        "value_usd": 24097581.0,
+        "weight_pct": 6.12
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 62105.0,
+        "value_usd": 15473461.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 37128.0,
+        "value_usd": 12775002.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 30102.0,
+        "value_usd": 10571521.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 30075.0,
+        "value_usd": 10247756.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 13952.0,
+        "value_usd": 10117711.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 7146.0,
+        "value_usd": 7611276.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 17832.0,
+        "value_usd": 6326972.0,
+        "weight_pct": 1.61
+      }
+    ],
+    "top_five_pct": 29.99,
+    "top_ten_pct": 41.39,
+    "hhi": 258.1,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 16,
+      "increased_positions": 27,
+      "reduced_positions": 253
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001483065-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001483065-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001483065-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

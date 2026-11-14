@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1994495/0001994495-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8cc7735e49b412759212f97d564f984bc33dc7a4715afab9ea254cbb38e3d2d9",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "d44d1e9f0b84c48672b314c759499331f644230f68095379a168d9ffd02dc5a7",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001994495-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1994495/0001994495-26-000006.txt",
+    "distinct_positions": 126,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 448984311.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46092D749",
+        "security_class": "TRAD 2X LON MONT",
+        "issuer": "INVESTMENT MANAGERS SER TR I",
+        "shares": 639335.0,
+        "value_usd": 154590640.0,
+        "weight_pct": 34.43
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 146014.0,
+        "value_usd": 44481705.0,
+        "weight_pct": 9.91
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 776613.0,
+        "value_usd": 39133561.0,
+        "weight_pct": 8.72
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 345610.0,
+        "value_usd": 31021954.0,
+        "weight_pct": 6.91
+      },
+      {
+        "cusip": "00326A104",
+        "security_class": "PHYSCL GOLD SHS",
+        "issuer": "ETFS GOLD TR",
+        "shares": 434528.0,
+        "value_usd": 17189928.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "69344A107",
+        "security_class": "PGIM ULTRA SH BD",
+        "issuer": "PGIM ETF TR",
+        "shares": 203370.0,
+        "value_usd": 10058680.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "74347R107",
+        "security_class": "PSHS ULT S&P 500",
+        "issuer": "PROSHARES TR",
+        "shares": 131158.0,
+        "value_usd": 9093184.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 76899.0,
+        "value_usd": 8483497.0,
+        "weight_pct": 1.89
+      },
+      {
+        "cusip": "78433H501",
+        "security_class": "NEOS ENH INC 1-3",
+        "issuer": "NEOS ETF TRUST",
+        "shares": 162442.0,
+        "value_usd": 8074992.0,
+        "weight_pct": 1.8
+      },
+      {
+        "cusip": "25460E307",
+        "security_class": "AUSPCE CMD STG",
+        "issuer": "DIREXION SHARES ETF TRUST",
+        "shares": 211028.0,
+        "value_usd": 7350107.0,
+        "weight_pct": 1.64
+      }
+    ],
+    "top_five_pct": 63.79,
+    "top_ten_pct": 73.38,
+    "hhi": 1454.12,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 54,
+      "exited_positions": 64,
+      "increased_positions": 24,
+      "reduced_positions": 48
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001994495-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001994495-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

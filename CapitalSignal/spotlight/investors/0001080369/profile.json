@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1080369/0001172661-26-002877.txt",
     "https://www.sec.gov/Archives/edgar/data/1080369/0001172661-26-004693.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "777f07baffbd1f8e44d1ba053bc77346d72e093855bf6ba7cfa7d66852844740",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "b8f389293d0bb5e540758a844247ab389f8d09274e37675cd7ad568a7589d033",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001172661-26-004693",
+    "source": "https://www.sec.gov/Archives/edgar/data/1080369/0001172661-26-004693.txt",
+    "distinct_positions": 224,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2300733323.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "33740U703",
+        "security_class": "FT VEST DEEP ETF",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 4060730.0,
+        "value_usd": 123324370.0,
+        "weight_pct": 5.36
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 333154.0,
+        "value_usd": 110947036.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 1047795.0,
+        "value_usd": 94416807.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 307786.0,
+        "value_usd": 70292135.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 136630.0,
+        "value_usd": 70077442.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 193909.0,
+        "value_usd": 66720337.0,
+        "weight_pct": 2.9
+      },
+      {
+        "cusip": "040413205",
+        "security_class": "COM SHS",
+        "issuer": "ARISTA NETWORKS INC",
+        "shares": 256184.0,
+        "value_usd": 52156513.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "31609A503",
+        "security_class": "ENH MID COR ETF",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 1235212.0,
+        "value_usd": 49877872.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 166992.0,
+        "value_usd": 41606082.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "46137V225",
+        "security_class": "S&P MIDCAP 400",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 287381.0,
+        "value_usd": 38928640.0,
+        "weight_pct": 1.69
+      }
+    ],
+    "top_five_pct": 20.39,
+    "top_ten_pct": 31.22,
+    "hhi": 170.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 22,
+      "exited_positions": 66,
+      "increased_positions": 95,
+      "reduced_positions": 89
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001172661-26-002877"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001172661-26-004693"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

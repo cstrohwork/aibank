@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1844897/0001951757-25-001208.txt",
+    "https://www.sec.gov/Archives/edgar/data/1844897/0001951757-26-001081.txt",
     "https://www.sec.gov/Archives/edgar/data/1844897/0001951757-26-001803.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8f82ce3f614d75a5bdcaa4c2acf92704205a2b1ccab199b1faab3d3ee5326b1a",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "aaffd2cfac6feab9b818373aa95117ae3ceb05541431ec7e238d4dda7e69fd85",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001951757-26-001803",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844897/0001951757-26-001803.txt",
+    "distinct_positions": 69,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 206561009.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46429B697",
+        "security_class": "MSCI USA MIN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 240919.0,
+        "value_usd": 23484048.0,
+        "weight_pct": 11.37
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 47542.0,
+        "value_usd": 18105730.0,
+        "weight_pct": 8.77
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 258759.0,
+        "value_usd": 13038868.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "464288240",
+        "security_class": "MSCI ACWI EX US",
+        "issuer": "ISHARES TR",
+        "shares": 163889.0,
+        "value_usd": 12393257.0,
+        "weight_pct": 6.0
+      },
+      {
+        "cusip": "46641Q779",
+        "security_class": "US MOMENTUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 133509.0,
+        "value_usd": 11122498.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 192531.0,
+        "value_usd": 10824084.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "336920103",
+        "security_class": "US EQTY OPPT ETF",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 59078.0,
+        "value_usd": 10521820.0,
+        "weight_pct": 5.09
+      },
+      {
+        "cusip": "33739Q408",
+        "security_class": "FIRST TR ENH NEW",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 163584.0,
+        "value_usd": 9735654.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "381430230",
+        "security_class": "ULTR SHOR BD ETF",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 184179.0,
+        "value_usd": 9293689.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 9221.0,
+        "value_usd": 7061938.0,
+        "weight_pct": 3.42
+      }
+    ],
+    "top_five_pct": 37.83,
+    "top_ten_pct": 60.8,
+    "hhi": 457.16,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 5,
+      "increased_positions": 33,
+      "reduced_positions": 28
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001951757-25-001208"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001951757-26-001081"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001951757-26-001803"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

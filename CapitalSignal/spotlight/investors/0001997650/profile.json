@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1997650/0001997650-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d01640d6cc77b413f9d62d42880d4fc8433880b2477af6e48e6d6d6fcefff487",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d772cdd4924b5c1139e45c84051e74c1bf098fd3a2d83209f093a11d31db98f5",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001997650-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1997650/0001997650-26-000005.txt",
+    "distinct_positions": 81,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 119878773.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 394735.0,
+        "value_usd": 12840726.0,
+        "weight_pct": 10.71
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 20613.0,
+        "value_usd": 6864425.0,
+        "weight_pct": 5.73
+      },
+      {
+        "cusip": "46641Q159",
+        "security_class": "INCOME ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 130054.0,
+        "value_usd": 5838119.0,
+        "weight_pct": 4.87
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 9641.0,
+        "value_usd": 4800745.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "808524672",
+        "security_class": "INTERNL DIVID",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 152350.0,
+        "value_usd": 4783777.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 20203.0,
+        "value_usd": 4613892.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "922020755",
+        "security_class": "CORE-PLUS BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 52774.0,
+        "value_usd": 3905775.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "921946810",
+        "security_class": "INTL DVD ETF",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 39825.0,
+        "value_usd": 3760292.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 82969.0,
+        "value_usd": 3592566.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "46641Q654",
+        "security_class": "ULTRA SHT MUNCPL",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 68720.0,
+        "value_usd": 3474495.0,
+        "weight_pct": 2.9
+      }
+    ],
+    "top_five_pct": 29.3,
+    "top_ten_pct": 45.44,
+    "hhi": 333.37,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 23,
+      "exited_positions": 18,
+      "increased_positions": 29,
+      "reduced_positions": 24
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001997650-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001997650-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

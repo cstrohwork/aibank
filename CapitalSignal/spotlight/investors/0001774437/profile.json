@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1774437/0001774437-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "61548a1f774d53a07638b311a3ebb1141dc7514b9b59ed4d8902b5d2fdab2c35",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b8771785d02f8eed3d5c4324a326517193902d5154f7bbf1ae2b704b70701b35",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001774437-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1774437/0001774437-26-000006.txt",
+    "distinct_positions": 211,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 352428089.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V625",
+        "security_class": "COM",
+        "issuer": "Dimensional US Core",
+        "shares": 1038504.0,
+        "value_usd": 85842764.0,
+        "weight_pct": 24.36
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "COM",
+        "issuer": "Dimensional ETF Int'l Core Equity 2",
+        "shares": 1253646.0,
+        "value_usd": 47149642.0,
+        "weight_pct": 13.38
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "COM",
+        "issuer": "Dimensional ETF Emerg. Markets Core Equity",
+        "shares": 841235.0,
+        "value_usd": 33413839.0,
+        "weight_pct": 9.48
+      },
+      {
+        "cusip": "25434V500",
+        "security_class": "COM",
+        "issuer": "Dimensional US Small Cap ETF",
+        "shares": 350407.0,
+        "value_usd": 27128533.0,
+        "weight_pct": 7.7
+      },
+      {
+        "cusip": "808524854",
+        "security_class": "COM",
+        "issuer": "Schwab Intermediate Term US Treas",
+        "shares": 1112558.0,
+        "value_usd": 26367618.0,
+        "weight_pct": 7.48
+      },
+      {
+        "cusip": "78464A375",
+        "security_class": "COM",
+        "issuer": "SPDR Intermediate Term Corporate",
+        "shares": 753285.0,
+        "value_usd": 24316039.0,
+        "weight_pct": 6.9
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "COM",
+        "issuer": "Schwab Fundamental US Large Company ETF",
+        "shares": 742028.0,
+        "value_usd": 23351623.0,
+        "weight_pct": 6.63
+      },
+      {
+        "cusip": "921937827",
+        "security_class": "COM",
+        "issuer": "Vanguard Short-Term Bond ETF",
+        "shares": 237069.0,
+        "value_usd": 18112071.0,
+        "weight_pct": 5.14
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "COM",
+        "issuer": "SPDR Gold Trust",
+        "shares": 45844.0,
+        "value_usd": 17459229.0,
+        "weight_pct": 4.95
+      },
+      {
+        "cusip": "808524755",
+        "security_class": "COM",
+        "issuer": "Schwab Fundamental Intl Lg Co ETF",
+        "shares": 236905.0,
+        "value_usd": 12733641.0,
+        "weight_pct": 3.61
+      }
+    ],
+    "top_five_pct": 62.4,
+    "top_ten_pct": 89.63,
+    "hhi": 1145.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 6,
+      "increased_positions": 46,
+      "reduced_positions": 31
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001774437-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001774437-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001774437-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

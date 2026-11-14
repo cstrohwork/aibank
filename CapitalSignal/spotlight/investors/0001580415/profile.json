@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1580415/0001580415-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "beeb8a509d678650dd80a19a111c4327ff3b0714e9c56441c44af65645968b46",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "c0bc17881bc6a8cbfdfbe8a91a59290b39060c6377acfd6eb5e48663720a1318",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001580415-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1580415/0001580415-26-000008.txt",
+    "distinct_positions": 58,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 114630168.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 47677.0,
+        "value_usd": 16245461.0,
+        "weight_pct": 14.17
+      },
+      {
+        "cusip": "172967424",
+        "security_class": "COM NEW",
+        "issuer": "CITIGROUP INC",
+        "shares": 109694.0,
+        "value_usd": 14203179.0,
+        "weight_pct": 12.39
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 55098.0,
+        "value_usd": 13727667.0,
+        "weight_pct": 11.98
+      },
+      {
+        "cusip": "254687106",
+        "security_class": "COM",
+        "issuer": "DISNEY WALT CO",
+        "shares": 69551.0,
+        "value_usd": 7295900.0,
+        "weight_pct": 6.36
+      },
+      {
+        "cusip": "16679L109",
+        "security_class": "CL A",
+        "issuer": "CHEWY INC",
+        "shares": 354000.0,
+        "value_usd": 6442800.0,
+        "weight_pct": 5.62
+      },
+      {
+        "cusip": "09260D107",
+        "security_class": "COM",
+        "issuer": "BLACKSTONE INC",
+        "shares": 50458.0,
+        "value_usd": 5655837.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 7246.0,
+        "value_usd": 3716473.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "22266T109",
+        "security_class": "CL A",
+        "issuer": "COUPANG INC",
+        "shares": 256051.0,
+        "value_usd": 3551427.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "169656105",
+        "security_class": "COM",
+        "issuer": "CHIPOTLE MEXICAN GRILL INC",
+        "shares": 94151.0,
+        "value_usd": 3008124.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "81762P102",
+        "security_class": "COM",
+        "issuer": "SERVICENOW INC",
+        "shares": 21230.0,
+        "value_usd": 2845032.0,
+        "weight_pct": 2.48
+      }
+    ],
+    "top_five_pct": 50.52,
+    "top_ten_pct": 66.9,
+    "hhi": 662.3,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 10,
+      "increased_positions": 11,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001580415-25-000013"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001580415-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001580415-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

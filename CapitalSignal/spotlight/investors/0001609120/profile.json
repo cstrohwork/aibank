@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1609120/0001104659-26-121412.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "04c049610a28a58303b748896ec9a2971b8a720857a86f2e9dc6f275ff3a50eb",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "88be898fb96b214ba24b04b306a92a4fd3368fca72e1157f4fac3a398aa87ff4",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001104659-26-121412",
+    "source": "https://www.sec.gov/Archives/edgar/data/1609120/0001104659-26-121412.txt",
+    "distinct_positions": 14,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 31817180.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "502431109",
+        "security_class": "Common Stock",
+        "issuer": "L3Harris Technologies, Inc.",
+        "shares": 40000.0,
+        "value_usd": 9471200.0,
+        "weight_pct": 29.77
+      },
+      {
+        "cusip": "92189F791",
+        "security_class": "Exchange Traded Products",
+        "issuer": "VanEck Junior Gold Miners ETF",
+        "shares": 30000.0,
+        "value_usd": 3418500.0,
+        "weight_pct": 10.74
+      },
+      {
+        "cusip": "37954Y871",
+        "security_class": "Exchange Traded Products",
+        "issuer": "Global X Uranium",
+        "shares": 70000.0,
+        "value_usd": 2789500.0,
+        "weight_pct": 8.77
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "Exchange Traded Products",
+        "issuer": "VanEck Gold Miners ETF",
+        "shares": 30000.0,
+        "value_usd": 2634000.0,
+        "weight_pct": 8.28
+      },
+      {
+        "cusip": "35671D857",
+        "security_class": "Common Stock",
+        "issuer": "Freeport-McMoRan, Inc.",
+        "shares": 30000.0,
+        "value_usd": 2100000.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "92189H805",
+        "security_class": "Exchange Traded Products",
+        "issuer": "Vaneck Rare Earth/Strategic Metals ETF",
+        "shares": 29899.0,
+        "value_usd": 1921310.0,
+        "weight_pct": 6.04
+      },
+      {
+        "cusip": "21037T109",
+        "security_class": "Common Stock",
+        "issuer": "Constellation Energy Corporation",
+        "shares": 6500.0,
+        "value_usd": 1651130.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "06849F108",
+        "security_class": "Common Shares",
+        "issuer": "Barrick Mining Corporation",
+        "shares": 40000.0,
+        "value_usd": 1626800.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "Class A common stock",
+        "issuer": "Space Exploration Technologies Corp.",
+        "shares": 10000.0,
+        "value_usd": 1508600.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "85208P303",
+        "security_class": "Exchange Traded Products",
+        "issuer": "Sprott Uranium Miners ETF",
+        "shares": 30000.0,
+        "value_usd": 1423800.0,
+        "weight_pct": 4.47
+      }
+    ],
+    "top_five_pct": 64.16,
+    "top_ten_pct": 89.72,
+    "hhi": 1358.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001104659-25-107755"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001104659-26-094057"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001104659-26-121412"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

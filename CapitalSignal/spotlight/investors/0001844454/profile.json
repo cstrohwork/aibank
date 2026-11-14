@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1844454/0001844454-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9afd417527f64478e3a017e1a1839c59f88c7a924337fdf6699dcad41de93787",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "e4023568f537016e56939703a38ebf8e1b46ddb46c149795608c35818ece0e97",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001844454-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844454/0001844454-26-000006.txt",
+    "distinct_positions": 38,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 10762473.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A409",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 500 GROWTH ETF",
+        "shares": 9980.0,
+        "value_usd": 1228338.0,
+        "weight_pct": 11.41
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 500 VALUE ETF",
+        "shares": 19425.0,
+        "value_usd": 1187450.0,
+        "weight_pct": 11.03
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "ETF",
+        "issuer": "ISHARES MSCI USA QUALITY FACTOR ETF",
+        "shares": 4655.0,
+        "value_usd": 1034527.0,
+        "weight_pct": 9.61
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "ETF",
+        "issuer": "SPDR GOLD SHARES ETF",
+        "shares": 2078.0,
+        "value_usd": 791386.0,
+        "weight_pct": 7.35
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 500 ETF",
+        "shares": 7200.0,
+        "value_usd": 646272.0,
+        "weight_pct": 6.0
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "ETF",
+        "issuer": "VANGUARD INTERMEDIATE-TERM TREASURY ETF",
+        "shares": 9040.0,
+        "value_usd": 512206.0,
+        "weight_pct": 4.76
+      },
+      {
+        "cusip": "46435G193",
+        "security_class": "ETF",
+        "issuer": "ISHARES ESG AWARE USD CORPORATE BOND ETF",
+        "shares": 23045.0,
+        "value_usd": 505723.0,
+        "weight_pct": 4.7
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "ETF",
+        "issuer": "VANGUARD GROWTH INDEX FUND ETF",
+        "shares": 5292.0,
+        "value_usd": 476862.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "46434V456",
+        "security_class": "ETF",
+        "issuer": "ISHARES MSCI INTL QUALITY FACTOR ETF",
+        "shares": 9114.0,
+        "value_usd": 450870.0,
+        "weight_pct": 4.19
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MID-CAP INDEX FUND ETF",
+        "shares": 5732.0,
+        "value_usd": 449503.0,
+        "weight_pct": 4.18
+      }
+    ],
+    "top_five_pct": 45.42,
+    "top_ten_pct": 67.67,
+    "hhi": 596.41,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 38,
+      "exited_positions": 71,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001844454-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001844454-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1800379/0001800379-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1800379/0001800379-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1800379/0001800379-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e7ed977689d29bccbc8de23eb98e144e390ff31c3f02576b32fb9613be754146",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "32ac770a553b8736a43c7344b30f70a3904ba6f212ab609a5c871387273d8a2d",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001800379-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1800379/0001800379-26-000005.txt",
+    "distinct_positions": 239,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 615625855.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 501431.0,
+        "value_usd": 30652481.0,
+        "weight_pct": 4.98
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 576052.0,
+        "value_usd": 29015756.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 803432.0,
+        "value_usd": 28867304.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 83607.0,
+        "value_usd": 27842837.0,
+        "weight_pct": 4.52
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 246585.0,
+        "value_usd": 22022506.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "464287663",
+        "security_class": "CORE S&P US VLU",
+        "issuer": "ISHARES TR",
+        "shares": 188379.0,
+        "value_usd": 20774423.0,
+        "weight_pct": 3.37
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 211257.0,
+        "value_usd": 20466623.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 16060.0,
+        "value_usd": 18582700.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 187951.0,
+        "value_usd": 16870475.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "46641Q274",
+        "security_class": "SHORT DURA CORE",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 310025.0,
+        "value_usd": 14254950.0,
+        "weight_pct": 2.32
+      }
+    ],
+    "top_five_pct": 22.48,
+    "top_ten_pct": 37.25,
+    "hhi": 200.63,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 24,
+      "exited_positions": 36,
+      "increased_positions": 47,
+      "reduced_positions": 93
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001800379-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001800379-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001800379-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1601539/0001601539-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "78432ec9424192603b07e2583e15dfae4869713264b1e2140d8806ca5ab2d0fd",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "bd70890da81283e60196e261ec121d9efd980ab4af34dea702f6a164456cfa6d",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001601539-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1601539/0001601539-26-000010.txt",
+    "distinct_positions": 375,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 732621349.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 151620.0,
+        "value_usd": 50492491.0,
+        "weight_pct": 6.89
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 150068.0,
+        "value_usd": 34272529.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 63181.0,
+        "value_usd": 32405534.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "LPHFINKH3",
+        "security_class": "COM",
+        "issuer": "H FINK HOLDCO LLC",
+        "shares": 1.0,
+        "value_usd": 25487777.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 84879.0,
+        "value_usd": 21147602.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 56926.0,
+        "value_usd": 19396964.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "97650W108",
+        "security_class": "COM",
+        "issuer": "WINTRUST FINL CORP",
+        "shares": 128481.0,
+        "value_usd": 18221174.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 43534.0,
+        "value_usd": 14979177.0,
+        "weight_pct": 2.04
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 55681.0,
+        "value_usd": 14565592.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 40054.0,
+        "value_usd": 13251064.0,
+        "weight_pct": 1.81
+      }
+    ],
+    "top_five_pct": 22.36,
+    "top_ten_pct": 33.34,
+    "hhi": 166.75,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 59,
+      "exited_positions": 96,
+      "increased_positions": 122,
+      "reduced_positions": 157
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001601539-25-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001601539-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

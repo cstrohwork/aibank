@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1426748/0001426748-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b3e87a3f1415ab3e516dd0721c2f0477576ee97c303c619aadcee3298c68a38d",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "a19d09880a7283ba834e8e93cfcd80841d39d570b8486ba35e2fae0b921377c8",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001426748-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1426748/0001426748-26-000004.txt",
+    "distinct_positions": 116,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 5953997.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "Microsoft Corp CFD MS",
+        "issuer": "MICROSOFT/MS",
+        "shares": 1120117.0,
+        "value_usd": 574508.0,
+        "weight_pct": 9.65
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "ALPHABET INC-CL A",
+        "issuer": "ALPHABET INC A",
+        "shares": 1408144.0,
+        "value_usd": 484514.0,
+        "weight_pct": 8.14
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Apple Inc",
+        "issuer": "APPLE INC/U",
+        "shares": 1344345.0,
+        "value_usd": 447693.0,
+        "weight_pct": 7.52
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "NVIDIA CORP",
+        "issuer": "NVIDIA CORP",
+        "shares": 1884764.0,
+        "value_usd": 430442.0,
+        "weight_pct": 7.23
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "AMAZON.COM INC",
+        "issuer": "AMAZON.COM INC",
+        "shares": 1603436.0,
+        "value_usd": 399496.0,
+        "weight_pct": 6.71
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "VISA INC-CLASS A SHARES",
+        "issuer": "VISA INC",
+        "shares": 746876.0,
+        "value_usd": 268374.0,
+        "weight_pct": 4.51
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "Facebook Inc - A - Unmanaged",
+        "issuer": "FACEBOOK INC/U",
+        "shares": 308061.0,
+        "value_usd": 223399.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "620076307",
+        "security_class": "MOTOROLA SOLUTIONS INC",
+        "issuer": "MOTOROLA SOL",
+        "shares": 446735.0,
+        "value_usd": 199230.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "RTX CORP",
+        "issuer": "RAYTHEON TECH",
+        "shares": 1071192.0,
+        "value_usd": 198866.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "Merck & Co Inc",
+        "issuer": "MERCK & CO/U",
+        "shares": 1049281.0,
+        "value_usd": 152471.0,
+        "weight_pct": 2.56
+      }
+    ],
+    "top_five_pct": 39.25,
+    "top_ten_pct": 56.75,
+    "hhi": 436.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 14,
+      "increased_positions": 28,
+      "reduced_positions": 34
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001426748-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001426748-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001426748-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

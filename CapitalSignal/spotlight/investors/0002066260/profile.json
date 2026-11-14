@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2066260/0002085853-25-000167.txt",
+    "https://www.sec.gov/Archives/edgar/data/2066260/0002085853-26-000886.txt",
     "https://www.sec.gov/Archives/edgar/data/2066260/0002085853-26-001321.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "510099992ee5de91ea4dfc5c6365e772f7e2125cd07d2f9918473eb3254bea97",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "3e68985e227320c8ca21e4016e2bebe3c069069a010c553feef772f055dbb55d",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0002085853-26-001321",
+    "source": "https://www.sec.gov/Archives/edgar/data/2066260/0002085853-26-001321.txt",
+    "distinct_positions": 61,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 162298725.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 15393.0,
+        "value_usd": 16395238.0,
+        "weight_pct": 10.1
+      },
+      {
+        "cusip": "573874104",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 49342.0,
+        "value_usd": 13036778.0,
+        "weight_pct": 8.03
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 63760.0,
+        "value_usd": 11926308.0,
+        "weight_pct": 7.35
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 45132.0,
+        "value_usd": 10307246.0,
+        "weight_pct": 6.35
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 28255.0,
+        "value_usd": 9721980.0,
+        "weight_pct": 5.99
+      },
+      {
+        "cusip": "G87110105",
+        "security_class": "COM",
+        "issuer": "TECHNIPFMC PLC",
+        "shares": 109608.0,
+        "value_usd": 7444575.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 9775.0,
+        "value_usd": 5979954.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "093712107",
+        "security_class": "COM CL A",
+        "issuer": "BLOOM ENERGY CORP",
+        "shares": 18395.0,
+        "value_usd": 5095047.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 20076.0,
+        "value_usd": 5001815.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 4084.0,
+        "value_usd": 4725144.0,
+        "weight_pct": 2.91
+      }
+    ],
+    "top_five_pct": 37.82,
+    "top_ten_pct": 55.23,
+    "hhi": 418.38,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 3,
+      "increased_positions": 17,
+      "reduced_positions": 28
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0002085853-25-000167"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0002085853-26-000886"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0002085853-26-001321"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

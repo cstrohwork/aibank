@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1997602/0001997602-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8f83c0e29cb47179b7ccab77ffcfff44547327f5f33ad0bf9029b0d766b86b86",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "8115b6f7df65bba1519d5a318076aa05b0afb9d9386dd05418a8f9b509632995",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001997602-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1997602/0001997602-26-000005.txt",
+    "distinct_positions": 173,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 598882887.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46138G649",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Invesco NASDAQ 100 ETF",
+        "shares": 356915.0,
+        "value_usd": 108730644.0,
+        "weight_pct": 18.16
+      },
+      {
+        "cusip": "78433H659",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "NEOS Enhanced Income Credit Select ETF",
+        "shares": 2039075.0,
+        "value_usd": 98231814.0,
+        "weight_pct": 16.4
+      },
+      {
+        "cusip": "46137V266",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Invesco S&P 500 Pure Growth ETF",
+        "shares": 623781.0,
+        "value_usd": 36410073.0,
+        "weight_pct": 6.08
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Pacer US Cash Cows 100 ETF",
+        "shares": 311230.0,
+        "value_usd": 20777712.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "Common Stock",
+        "issuer": "Berkshire Hathaway Inc Class B",
+        "shares": 35272.0,
+        "value_usd": 17563447.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Common Stock",
+        "issuer": "Alphabet Inc Class A",
+        "shares": 50869.0,
+        "value_usd": 17503163.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "Apple Inc",
+        "shares": 49713.0,
+        "value_usd": 16555530.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common Stock",
+        "issuer": "Microsoft Corp",
+        "shares": 29991.0,
+        "value_usd": 15382409.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "78468R853",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "State Street SPDR Portfolio S&P 600 Small Cap ETF",
+        "shares": 280220.0,
+        "value_usd": 14812441.0,
+        "weight_pct": 2.47
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Janus Henderson AAA CLO ETF",
+        "shares": 265669.0,
+        "value_usd": 13461942.0,
+        "weight_pct": 2.25
+      }
+    ],
+    "top_five_pct": 47.04,
+    "top_ten_pct": 60.02,
+    "hhi": 726.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 24,
+      "exited_positions": 12,
+      "increased_positions": 45,
+      "reduced_positions": 88
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001997602-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001997602-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001997602-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

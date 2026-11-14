@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1957363/0001957363-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1957363/0001957363-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1957363/0001957363-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "35793c8697fc4c72ae38949c4512285778eeb62d9fc21b119e4ca4c5b28ff067",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "0a29fd86296922d8b262666f34f5dbb907406a7e4e5b653cf5d416db8b28bb48",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001957363-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1957363/0001957363-26-000005.txt",
+    "distinct_positions": 1442,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 443406693.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V880",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL WORLD EX U.S. CORE EQUITY 2 ETF",
+        "shares": 2535176.0,
+        "value_usd": 93852209.0,
+        "weight_pct": 21.17
+      },
+      {
+        "cusip": "25239Y212",
+        "security_class": "ETF",
+        "issuer": "U.S. CORE EQUITY 2 PORTFOLIO: ETF CLASS SHARES",
+        "shares": 1826312.0,
+        "value_usd": 81179584.0,
+        "weight_pct": 18.31
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL CORE FIXED INCOME ETF",
+        "shares": 1623748.0,
+        "value_usd": 65144784.0,
+        "weight_pct": 14.69
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "ETF",
+        "issuer": "AVANTIS U.S. SMALL CAP VALUE ETF",
+        "shares": 298206.0,
+        "value_usd": 35119671.0,
+        "weight_pct": 7.92
+      },
+      {
+        "cusip": "25434V658",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL GLOBAL REAL ESTATE ETF",
+        "shares": 1104840.0,
+        "value_usd": 29885922.0,
+        "weight_pct": 6.74
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "ETF",
+        "issuer": "PIMCO MULTISECTOR BOND ACTIVE EXCHANGE-TRADED FUND",
+        "shares": 1018160.0,
+        "value_usd": 25851082.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL EMERGING CORE EQUITY MARKET ETF",
+        "shares": 633921.0,
+        "value_usd": 24919435.0,
+        "weight_pct": 5.62
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC",
+        "shares": 26556.0,
+        "value_usd": 8843628.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "46137V613",
+        "security_class": "ETF",
+        "issuer": "POWERSHARES FTSE RAFI US 1000",
+        "shares": 133043.0,
+        "value_usd": 7241546.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORP",
+        "shares": 17109.0,
+        "value_usd": 3907402.0,
+        "weight_pct": 0.88
+      }
+    ],
+    "top_five_pct": 68.83,
+    "top_ten_pct": 84.79,
+    "hhi": 1183.71,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 99,
+      "exited_positions": 95,
+      "increased_positions": 1021,
+      "reduced_positions": 73
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001957363-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001957363-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001957363-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

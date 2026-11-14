@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1549275/0001580642-26-004574.txt",
     "https://www.sec.gov/Archives/edgar/data/1549275/0001580642-26-007348.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1f5e3ee846f6b16634fef93fe0f60a81b2461881e8df0b3c5013b6005edf07d1",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "27da48706eb7a6e59aba73f65fbe694caea463e81f82c7ba705b848be358f7ac",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001580642-26-007348",
+    "source": "https://www.sec.gov/Archives/edgar/data/1549275/0001580642-26-007348.txt",
+    "distinct_positions": 313,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 6159692188.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 9645075.0,
+        "value_usd": 693963146.0,
+        "weight_pct": 11.27
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1637759.0,
+        "value_usd": 681520653.0,
+        "weight_pct": 11.06
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1649457.0,
+        "value_usd": 458367606.0,
+        "weight_pct": 7.44
+      },
+      {
+        "cusip": "46429B697",
+        "security_class": "MSCI USA MIN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 4699415.0,
+        "value_usd": 457910998.0,
+        "weight_pct": 7.43
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 7413352.0,
+        "value_usd": 439685907.0,
+        "weight_pct": 7.14
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 530947.0,
+        "value_usd": 404916111.0,
+        "weight_pct": 6.57
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 2681077.0,
+        "value_usd": 364733715.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 259348.0,
+        "value_usd": 181766639.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "922908637",
+        "security_class": "MRNGSTR LRG CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 451789.0,
+        "value_usd": 158961960.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 3297718.0,
+        "value_usd": 146583565.0,
+        "weight_pct": 2.38
+      }
+    ],
+    "top_five_pct": 44.34,
+    "top_ten_pct": 64.75,
+    "hhi": 546.96,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 71,
+      "increased_positions": 99,
+      "reduced_positions": 96
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001580642-26-004574"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001580642-26-007348"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1667102/0001667102-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c932a49b75b4475b7b7972da213afaef150584172130f1a2ef3d708a81f0b288",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "68c100b7a1a0261f8fb7ff2b1d18287233ea486a390ca3b390908b1b70a70010",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001667102-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1667102/0001667102-26-000005.txt",
+    "distinct_positions": 69,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 343074503.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "Class B",
+        "issuer": "Berkshire Hathaway Cl B",
+        "shares": 68692.0,
+        "value_usd": 34205182.0,
+        "weight_pct": 9.97
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "Common",
+        "issuer": "Vanguard Growth",
+        "shares": 298177.0,
+        "value_usd": 26868691.0,
+        "weight_pct": 7.83
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "Common",
+        "issuer": "iShares Tr Russell 1000 Growth",
+        "shares": 185843.0,
+        "value_usd": 23278638.0,
+        "weight_pct": 6.79
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "Common",
+        "issuer": "Vanguard Small Cap",
+        "shares": 80804.0,
+        "value_usd": 22988047.0,
+        "weight_pct": 6.7
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "Common",
+        "issuer": "Vanguard Div Appreciation",
+        "shares": 89519.0,
+        "value_usd": 20885731.0,
+        "weight_pct": 6.09
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "Common",
+        "issuer": "Vanguard FTSE Developed Mkts",
+        "shares": 293185.0,
+        "value_usd": 20701797.0,
+        "weight_pct": 6.03
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "Common",
+        "issuer": "Vanguard Value",
+        "shares": 94624.0,
+        "value_usd": 20446358.0,
+        "weight_pct": 5.96
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "Common",
+        "issuer": "Schwab US Div Equity Etf",
+        "shares": 505662.0,
+        "value_usd": 16449171.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "Common",
+        "issuer": "Vanguard Mid Cap",
+        "shares": 168109.0,
+        "value_usd": 13183140.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "464287481",
+        "security_class": "Common",
+        "issuer": "iShares Russell Midcap Growth",
+        "shares": 78689.0,
+        "value_usd": 10833889.0,
+        "weight_pct": 3.16
+      }
+    ],
+    "top_five_pct": 37.38,
+    "top_ten_pct": 61.16,
+    "hhi": 470.45,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 7,
+      "increased_positions": 39,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001667102-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001667102-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001667102-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

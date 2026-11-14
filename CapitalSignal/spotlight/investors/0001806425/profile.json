@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1806425/0001806425-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "530b1735489a5356b96c8915f90630974a6c74d33e832b44df61432643be68f5",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7031196a939e9cde948eac3b6bb822e2240af772a1477c57d200ba17328a034b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001806425-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1806425/0001806425-26-000004.txt",
+    "distinct_positions": 400,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 679988514.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 152178.0,
+        "value_usd": 50678318.0,
+        "weight_pct": 7.45
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "Alphabet Inc Cap Stk Cl C",
+        "shares": 96256.0,
+        "value_usd": 32798269.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "Broadcom Inc",
+        "shares": 74388.0,
+        "value_usd": 26124322.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corporation",
+        "shares": 37591.0,
+        "value_usd": 19280424.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "Amazon Com Inc",
+        "shares": 74372.0,
+        "value_usd": 18529784.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "Exxonmobil Holdings Corporation",
+        "shares": 102407.0,
+        "value_usd": 16666739.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "Applied Matls Inc",
+        "shares": 31410.0,
+        "value_usd": 16062446.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "Caterpillar, Inc",
+        "shares": 19612.0,
+        "value_usd": 15901213.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "Johnson & Ordinary Shares",
+        "shares": 52924.0,
+        "value_usd": 14011100.0,
+        "weight_pct": 2.06
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "Micron Tech Inc",
+        "shares": 12503.0,
+        "value_usd": 13317070.0,
+        "weight_pct": 1.96
+      }
+    ],
+    "top_five_pct": 21.68,
+    "top_ten_pct": 32.85,
+    "hhi": 190.23,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 73,
+      "exited_positions": 56,
+      "increased_positions": 83,
+      "reduced_positions": 131
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001806425-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001806425-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

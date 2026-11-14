@@ -10,11 +10,109 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1774727/0001062993-25-016284.txt",
+    "https://www.sec.gov/Archives/edgar/data/1774727/0001062993-26-003871.txt",
     "https://www.sec.gov/Archives/edgar/data/1774727/0001062993-26-005744.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8d8de35fa367582d7702f5b1e8a92bbfa5072c90387f6cd1c3e1b86c847cc891",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "3bb22fbbe0588b8b51052430db2eddb0d5dca7e8ce356022021dc6bd9c6f16d3",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001062993-26-005744",
+    "source": "https://www.sec.gov/Archives/edgar/data/1774727/0001062993-26-005744.txt",
+    "distinct_positions": 7,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 920143627.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "COM",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 948405.0,
+        "value_usd": 664699128.0,
+        "weight_pct": 72.24
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "COM",
+        "issuer": "VANGUARD SHORT-TERM CORPORATE",
+        "shares": 779140.0,
+        "value_usd": 60188565.0,
+        "weight_pct": 6.54
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE MSCI EAFE ETF",
+        "shares": 507868.0,
+        "value_usd": 49202252.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE U.S. AGGREGATE BO",
+        "shares": 491500.0,
+        "value_usd": 46466410.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "464288414",
+        "security_class": "COM",
+        "issuer": "ISHARES NATIONAL MUNI BOND ETF",
+        "shares": 423570.0,
+        "value_usd": 42822927.0,
+        "weight_pct": 4.65
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE S&P SMALL CAP ETF",
+        "shares": 297161.0,
+        "value_usd": 40425782.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE MSCI EMERGING MAR",
+        "shares": 201313.0,
+        "value_usd": 16338563.0,
+        "weight_pct": 1.78
+      }
+    ],
+    "top_five_pct": 93.83,
+    "top_ten_pct": 100.0,
+    "hhi": 5359.42,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 7,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001062993-25-016284"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001062993-26-003871"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001062993-26-005744"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

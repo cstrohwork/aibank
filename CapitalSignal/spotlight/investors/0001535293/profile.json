@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1535293/0001535293-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b830424fe709257cab449ea78a8da924f497355aa304277e3411aaa35beabcc3",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "91d1b2766f3b1864e16c280e68d327db3ea4b986ec4dda19ee65f8405628d675",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001535293-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1535293/0001535293-26-000006.txt",
+    "distinct_positions": 620,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2299782329.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "TECHNOLOGY",
+        "issuer": "SELECT SECTOR SPDR TR TECHNOLOGY",
+        "shares": 1545035.0,
+        "value_usd": 302440671.0,
+        "weight_pct": 13.15
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TRUST",
+        "shares": 382187.0,
+        "value_usd": 282730783.0,
+        "weight_pct": 12.29
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH ETF",
+        "shares": 1303780.0,
+        "value_usd": 163311439.0,
+        "weight_pct": 7.1
+      },
+      {
+        "cusip": "81369Y605",
+        "security_class": "FINANCIAL",
+        "issuer": "SELECT SECTOR SPDR TRUST THE FINANCIAL SELEC",
+        "shares": 2704701.0,
+        "value_usd": 144431037.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "53656G498",
+        "security_class": "ROUNDHILL MAGNIF",
+        "issuer": "LISTED FD TR  ROUNDHILL MAGN",
+        "shares": 1592211.0,
+        "value_usd": 114145624.0,
+        "weight_pct": 4.96
+      },
+      {
+        "cusip": "464288182",
+        "security_class": "MSCI AC ASIA ETF",
+        "issuer": "ISHARES MSCI ALL COUNTRY ASIA EX JAPAN INDEX",
+        "shares": 904840.0,
+        "value_usd": 105355057.0,
+        "weight_pct": 4.58
+      },
+      {
+        "cusip": "81369Y852",
+        "security_class": "COMMUNICATION",
+        "issuer": "SELECT SECTOR SPDR TR COMMUNICATION",
+        "shares": 917200.0,
+        "value_usd": 101781641.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY IND FD FTSE ALL WORLD E",
+        "shares": 1116379.0,
+        "value_usd": 92625975.0,
+        "weight_pct": 4.03
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "ENERGY",
+        "issuer": "SELECT SECTOR SPDR TR ENERGY",
+        "shares": 1417907.0,
+        "value_usd": 87201254.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "81369Y704",
+        "security_class": "INDL",
+        "issuer": "SELECT SECTOR SPDR TRUST THE INDUSTRIAL SELE",
+        "shares": 346058.0,
+        "value_usd": 57784718.0,
+        "weight_pct": 2.51
+      }
+    ],
+    "top_five_pct": 43.79,
+    "top_ten_pct": 63.13,
+    "hhi": 553.34,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 44,
+      "exited_positions": 57,
+      "increased_positions": 284,
+      "reduced_positions": 84
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001535293-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001535293-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001535293-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

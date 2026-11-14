@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/945625/0001754960-25-000721.txt",
+    "https://www.sec.gov/Archives/edgar/data/945625/0001754960-26-000662.txt",
     "https://www.sec.gov/Archives/edgar/data/945625/0001754960-26-000957.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "bdccd888c70e9c8e5250dca5bd4eacc50a7c0a641fbaefc50828af8fbcb54bbb",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "7be78b9bcea568a7b38892e0027b3e22b3ba91e79b8372b12bfb42333c795759",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001754960-26-000957",
+    "source": "https://www.sec.gov/Archives/edgar/data/945625/0001754960-26-000957.txt",
+    "distinct_positions": 101,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 969206386.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 591910.0,
+        "value_usd": 135180407.0,
+        "weight_pct": 13.95
+      },
+      {
+        "cusip": "46429B655",
+        "security_class": "FLTG RATE NT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1692981.0,
+        "value_usd": 86426680.0,
+        "weight_pct": 8.92
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 91.0,
+        "value_usd": 67977455.0,
+        "weight_pct": 7.01
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 137202.0,
+        "value_usd": 47208478.0,
+        "weight_pct": 4.87
+      },
+      {
+        "cusip": "573874104",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 157939.0,
+        "value_usd": 41729063.0,
+        "weight_pct": 4.31
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 136698.0,
+        "value_usd": 34058307.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 52782.0,
+        "value_usd": 32289916.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "46434V860",
+        "security_class": "TRS FLT RT BD",
+        "issuer": "ISHARES TR",
+        "shares": 636040.0,
+        "value_usd": 32228147.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "CL C",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 57360.0,
+        "value_usd": 30856812.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 26639.0,
+        "value_usd": 30823454.0,
+        "weight_pct": 3.18
+      }
+    ],
+    "top_five_pct": 39.05,
+    "top_ten_pct": 55.59,
+    "hhi": 486.21,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 101,
+      "exited_positions": 115,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001754960-25-000721"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-29",
+        "accession": "0001754960-26-000662"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001754960-26-000957"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

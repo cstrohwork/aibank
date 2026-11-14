@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1910248/0001910248-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "20a3e6bbf61a0adb3eb7f2f5c17b23cfe4d516f8a2499d5335a99635d4920a16",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "b58d1598a6cf6bc1b52b50c53de2faff045a0c89d54a22e9d82d2b6f2064b5a7",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001910248-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1910248/0001910248-26-000005.txt",
+    "distinct_positions": 95,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 187456701.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921910816",
+        "security_class": "MRNGSTR MEGA CAP",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 149623.0,
+        "value_usd": 13862555.0,
+        "weight_pct": 7.4
+      },
+      {
+        "cusip": "921910840",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 64502.0,
+        "value_usd": 10390627.0,
+        "weight_pct": 5.54
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 30514.0,
+        "value_usd": 10161802.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 281504.0,
+        "value_usd": 10114441.0,
+        "weight_pct": 5.4
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 13395.0,
+        "value_usd": 9909356.0,
+        "weight_pct": 5.29
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 46336.0,
+        "value_usd": 9070364.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 55957.0,
+        "value_usd": 7032086.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "316092808",
+        "security_class": "MSCI INFO TECH I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 19626.0,
+        "value_usd": 5889073.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "78463X418",
+        "security_class": "ST STR MSCI WLD",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 36174.0,
+        "value_usd": 5576054.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 14609.0,
+        "value_usd": 5467319.0,
+        "weight_pct": 2.92
+      }
+    ],
+    "top_five_pct": 29.04,
+    "top_ten_pct": 46.66,
+    "hhi": 299.45,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 28,
+      "exited_positions": 31,
+      "increased_positions": 37,
+      "reduced_positions": 30
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001910248-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001910248-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

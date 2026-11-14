@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2111409/0002111409-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2111409/0002111409-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "86becfac73eb0d02010e34136ebef184c1866d2afc802a1750df80925bfe50ae",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "7f9dbe9962d0db575128300fd84e890cc1a68e8af6d3bedbc404e2e41d6a093b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0002111409-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2111409/0002111409-26-000007.txt",
+    "distinct_positions": 119,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 180450855.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92203J407",
+        "security_class": "TOTAL INT BD ETF",
+        "issuer": "VANGUARD CHARLOTTE FDS",
+        "shares": 309892.0,
+        "value_usd": 14524649.0,
+        "weight_pct": 8.05
+      },
+      {
+        "cusip": "92206C680",
+        "security_class": "VNG RUS1000GRW",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 106843.0,
+        "value_usd": 13775226.0,
+        "weight_pct": 7.63
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 476468.0,
+        "value_usd": 13088578.0,
+        "weight_pct": 7.25
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 294494.0,
+        "value_usd": 9579904.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 101038.0,
+        "value_usd": 9552171.0,
+        "weight_pct": 5.29
+      },
+      {
+        "cusip": "46434V407",
+        "security_class": "0-5YR HI YL CP",
+        "issuer": "ISHARES TR",
+        "shares": 177592.0,
+        "value_usd": 7325670.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "78464A201",
+        "security_class": "ST STR SP600GRWO",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 46648.0,
+        "value_usd": 4989992.0,
+        "weight_pct": 2.77
+      },
+      {
+        "cusip": "18915M107",
+        "security_class": "CL A COM",
+        "issuer": "CLOUDFLARE INC",
+        "shares": 14199.0,
+        "value_usd": 4931029.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "46138J783",
+        "security_class": "BULSHS 2027 CB",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 237984.0,
+        "value_usd": 4651403.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "46138J791",
+        "security_class": "BULSHS 2026 CB",
+        "issuer": "INVESCO EXCH TRD SLF IDX FD",
+        "shares": 227869.0,
+        "value_usd": 4448000.0,
+        "weight_pct": 2.46
+      }
+    ],
+    "top_five_pct": 33.54,
+    "top_ten_pct": 48.14,
+    "hhi": 329.96,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 18,
+      "increased_positions": 57,
+      "reduced_positions": 34
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0002111409-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0002111409-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

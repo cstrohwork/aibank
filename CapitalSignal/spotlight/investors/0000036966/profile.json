@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/36966/0000036966-26-000179.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3e64c1d347a1e2c7b3e11adf495472d7f7c4503ed58ded38b981129638c76dd8",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "5652549f4ded38d38093d75d4f34786635843948550f1100b0fface6290c4823",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0000036966-26-000179",
+    "source": "https://www.sec.gov/Archives/edgar/data/36966/0000036966-26-000179.txt",
+    "distinct_positions": 1514,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2622811344.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 254270.0,
+        "value_usd": 84676995.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "OTHER",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 106644.0,
+        "value_usd": 81329914.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 129247.0,
+        "value_usd": 66290787.0,
+        "weight_pct": 2.53
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "OTHER",
+        "issuer": "ISHARES MSCI EAFE ETF",
+        "shares": 608836.0,
+        "value_usd": 63251972.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "OTHER",
+        "issuer": "VANGUARD MRNGSTAR GR ETF-SUI",
+        "shares": 621798.0,
+        "value_usd": 56030218.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COMMON STOCK",
+        "issuer": "CISCO SYSTEMS INC",
+        "shares": 488263.0,
+        "value_usd": 52551746.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "OTHER",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 66591.0,
+        "value_usd": 50998718.0,
+        "weight_pct": 1.94
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COMMON STOCK",
+        "issuer": "JP MORGAN CHASE & CO",
+        "shares": 152941.0,
+        "value_usd": 50597471.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "OTHER",
+        "issuer": "STE ST TECH SELECT SECTOR SPDR",
+        "shares": 226030.0,
+        "value_usd": 44245373.0,
+        "weight_pct": 1.69
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "OTHER",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH ET",
+        "shares": 333844.0,
+        "value_usd": 41817300.0,
+        "weight_pct": 1.59
+      }
+    ],
+    "top_five_pct": 13.4,
+    "top_ten_pct": 22.56,
+    "hhi": 102.73,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 304,
+      "exited_positions": 209,
+      "increased_positions": 470,
+      "reduced_positions": 576
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0000036966-25-000134"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0000036966-26-000179"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

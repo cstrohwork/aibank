@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1789310/0001789310-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2c9280b4edd83e7c73eabaf72655b4d9be5dc9c4e8a7e568dc17226f713375f7",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "7428b8878cb655d8188aac01ea0507501a438c2092a052db0c1ceb184960dbf9",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001789310-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1789310/0001789310-26-000004.txt",
+    "distinct_positions": 95,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 353165731.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 659995.0,
+        "value_usd": 59241163.0,
+        "weight_pct": 16.77
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 408645.0,
+        "value_usd": 37448213.0,
+        "weight_pct": 10.6
+      },
+      {
+        "cusip": "78463X889",
+        "security_class": "ST STR PO EX ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 721054.0,
+        "value_usd": 36204126.0,
+        "weight_pct": 10.25
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 196831.0,
+        "value_usd": 13898235.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "46090A879",
+        "security_class": "VAR RATE INVT",
+        "issuer": "INVESCO ACTIVELY MANAGED EXC",
+        "shares": 415648.0,
+        "value_usd": 10401592.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 202252.0,
+        "value_usd": 10207661.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "78464A375",
+        "security_class": "ST INTER BD ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 313069.0,
+        "value_usd": 10105853.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 161894.0,
+        "value_usd": 9896573.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "92046L338",
+        "security_class": "REGAN FLTG RATE",
+        "issuer": "VALUED ADVISERS TR",
+        "shares": 349653.0,
+        "value_usd": 8884671.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 69261.0,
+        "value_usd": 8524612.0,
+        "weight_pct": 2.41
+      }
+    ],
+    "top_five_pct": 44.51,
+    "top_ten_pct": 57.99,
+    "hhi": 608.19,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 37,
+      "exited_positions": 29,
+      "increased_positions": 27,
+      "reduced_positions": 18
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001789310-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001789310-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

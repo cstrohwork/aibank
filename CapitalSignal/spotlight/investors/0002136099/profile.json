@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2136099/0002085853-26-000876.txt",
     "https://www.sec.gov/Archives/edgar/data/2136099/0002085853-26-001298.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f73143f86a636378e20ab49c939fe233eba8fef898d8ca2abdb50d662f12c1df",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2b5296690ef2f69773b611b6536dd9a3ec6dd90e9acfdee8c7e381bceffdb7a3",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0002085853-26-001298",
+    "source": "https://www.sec.gov/Archives/edgar/data/2136099/0002085853-26-001298.txt",
+    "distinct_positions": 79,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 120721740.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 26782.0,
+        "value_usd": 10199578.0,
+        "weight_pct": 8.45
+      },
+      {
+        "cusip": "464287457",
+        "security_class": "1 3 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 110063.0,
+        "value_usd": 8937143.0,
+        "weight_pct": 7.4
+      },
+      {
+        "cusip": "82889N764",
+        "security_class": "HEDGED EQUITY",
+        "issuer": "SIMPLIFY EXCHANGE TRADED FUN",
+        "shares": 217567.0,
+        "value_usd": 7466917.0,
+        "weight_pct": 6.19
+      },
+      {
+        "cusip": "78433H501",
+        "security_class": "NEOS ENH INC 1-3",
+        "issuer": "NEOS ETF TRUST",
+        "shares": 138682.0,
+        "value_usd": 6893878.0,
+        "weight_pct": 5.71
+      },
+      {
+        "cusip": "82889N202",
+        "security_class": "US EQT PLS DWNSD",
+        "issuer": "SIMPLIFY EXCHANGE TRADED FUN",
+        "shares": 150233.0,
+        "value_usd": 6236189.0,
+        "weight_pct": 5.17
+      },
+      {
+        "cusip": "46654Q591",
+        "security_class": "INTL HDGD EQT LA",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 106539.0,
+        "value_usd": 5888420.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "74348A467",
+        "security_class": "S&P 500 DV ARIST",
+        "issuer": "PROSHARES TR",
+        "shares": 95205.0,
+        "value_usd": 5150572.0,
+        "weight_pct": 4.27
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 99293.0,
+        "value_usd": 5003370.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "86280R803",
+        "security_class": "DAY HAGAN SMART",
+        "issuer": "STRATEGY SHS",
+        "shares": 73393.0,
+        "value_usd": 4115865.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "921910873",
+        "security_class": "MRNGSTR CAP ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 14429.0,
+        "value_usd": 4073392.0,
+        "weight_pct": 3.37
+      }
+    ],
+    "top_five_pct": 32.91,
+    "top_ten_pct": 52.99,
+    "hhi": 363.56,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 15,
+      "increased_positions": 34,
+      "reduced_positions": 24
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002085853-26-000876"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0002085853-26-001298"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

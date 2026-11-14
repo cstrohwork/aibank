@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1763958/0001763958-25-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1763958/0001763958-26-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/1763958/0001763958-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5940ddc774dede8fd6f6fc05847f872dabcaf6d5646b961877336d2df5e2023b",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f7f0092a28b75d420c5af8997bd77e7e45c340fb99472be222b5be4abbc3ba2a",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001763958-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1763958/0001763958-26-000009.txt",
+    "distinct_positions": 59,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 279262544.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 68504.0,
+        "value_usd": 48011889.0,
+        "weight_pct": 17.19
+      },
+      {
+        "cusip": "921910733",
+        "security_class": "ESG US STK ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 293861.0,
+        "value_usd": 39827032.0,
+        "weight_pct": 14.26
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 268414.0,
+        "value_usd": 22804484.0,
+        "weight_pct": 8.17
+      },
+      {
+        "cusip": "72201T342",
+        "security_class": "RAFI ESG US",
+        "issuer": "PIMCO EQUITY SER",
+        "shares": 421183.0,
+        "value_usd": 20725049.0,
+        "weight_pct": 7.42
+      },
+      {
+        "cusip": "921910725",
+        "security_class": "ESG INTL STK ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 248737.0,
+        "value_usd": 20165073.0,
+        "weight_pct": 7.22
+      },
+      {
+        "cusip": "922020805",
+        "security_class": "STRM INFPROIDX",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 396016.0,
+        "value_usd": 19491901.0,
+        "weight_pct": 6.98
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US L",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 517941.0,
+        "value_usd": 16299603.0,
+        "weight_pct": 5.84
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "INTER TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 153136.0,
+        "value_usd": 8676686.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 51749.0,
+        "value_usd": 8168629.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "92206C813",
+        "security_class": "LG-TERM COR BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 118921.0,
+        "value_usd": 8146043.0,
+        "weight_pct": 2.92
+      }
+    ],
+    "top_five_pct": 54.26,
+    "top_ten_pct": 76.03,
+    "hhi": 820.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 24,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001763958-25-000010"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001763958-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001763958-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

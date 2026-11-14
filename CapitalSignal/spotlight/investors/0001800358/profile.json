@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1800358/0001800358-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1800358/0001800358-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1800358/0001800358-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9b3c181721a34efb73cede69390e173cb5951eb1882feca28cc1110a30d97ca0",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "e90f04f036f845ed68c2d02319944a8683b5b4a393b739203d5bb2eb505fb034",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001800358-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1800358/0001800358-26-000004.txt",
+    "distinct_positions": 66,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 234506.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "Vanguard Total International S",
+        "shares": 310615.0,
+        "value_usd": 26390.0,
+        "weight_pct": 11.25
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "Vanguard INTL Equity Index",
+        "shares": 215482.0,
+        "value_usd": 12780.0,
+        "weight_pct": 5.45
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "SPDR BLOOMBERG",
+        "issuer": "SPDR Ser Tr",
+        "shares": 134095.0,
+        "value_usd": 12288.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "464286400",
+        "security_class": "MSCI BRAZIL ETF",
+        "issuer": "iShares Trust",
+        "shares": 282010.0,
+        "value_usd": 10505.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "81369Y209",
+        "security_class": "ST STR CARE ETF",
+        "issuer": "Select Sector SPDR TR",
+        "shares": 59790.0,
+        "value_usd": 10070.0,
+        "weight_pct": 4.29
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 28885.0,
+        "value_usd": 9619.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "302130109",
+        "security_class": "COM",
+        "issuer": "Expeditors INTL Wash Inc",
+        "shares": 44363.0,
+        "value_usd": 8191.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "Goldman Sachs Group Inc",
+        "shares": 8876.0,
+        "value_usd": 7992.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "Merck & Co Inc",
+        "shares": 54195.0,
+        "value_usd": 7875.0,
+        "weight_pct": 3.36
+      },
+      {
+        "cusip": "46434G814",
+        "security_class": "MSCI MLY ETF",
+        "issuer": "iShares Inc",
+        "shares": 260715.0,
+        "value_usd": 7138.0,
+        "weight_pct": 3.04
+      }
+    ],
+    "top_five_pct": 30.72,
+    "top_ten_pct": 48.12,
+    "hhi": 368.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 7,
+      "reduced_positions": 32
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001800358-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001800358-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001800358-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

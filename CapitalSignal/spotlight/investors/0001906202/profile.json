@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1906202/0002085853-25-000036.txt",
+    "https://www.sec.gov/Archives/edgar/data/1906202/0002085853-26-000861.txt",
     "https://www.sec.gov/Archives/edgar/data/1906202/0002085853-26-001329.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1181498597db3ba2ebaf980d2c7ec5d06adafa654278941ca9c21159946fdd9e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "dbe2b81efab4099c10c3a0dcf0ad4bc2584f795f3b7672a5bacb3f8a7b4d6c1b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0002085853-26-001329",
+    "source": "https://www.sec.gov/Archives/edgar/data/1906202/0002085853-26-001329.txt",
+    "distinct_positions": 106,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 143989641.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "37637Q105",
+        "security_class": "COM",
+        "issuer": "GLACIER BANCORP INC NEW",
+        "shares": 300712.0,
+        "value_usd": 12990758.0,
+        "weight_pct": 9.02
+      },
+      {
+        "cusip": "369604301",
+        "security_class": "COM NEW",
+        "issuer": "GE AEROSPACE",
+        "shares": 19425.0,
+        "value_usd": 6066233.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "097023105",
+        "security_class": "COM",
+        "issuer": "BOEING CO",
+        "shares": 27600.0,
+        "value_usd": 5134980.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "780259305",
+        "security_class": "SPON ADS",
+        "issuer": "SHELL PLC",
+        "shares": 45200.0,
+        "value_usd": 4296260.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "74349Y837",
+        "security_class": "SHORT QQQ",
+        "issuer": "PROSHARES TR",
+        "shares": 154400.0,
+        "value_usd": 3832208.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "844741108",
+        "security_class": "COM",
+        "issuer": "SOUTHWEST AIRLS CO",
+        "shares": 87150.0,
+        "value_usd": 3628926.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "055622104",
+        "security_class": "SPONSORED ADR",
+        "issuer": "BP PLC",
+        "shares": 78847.0,
+        "value_usd": 3468497.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 27100.0,
+        "value_usd": 3258233.0,
+        "weight_pct": 2.26
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "GOLD MINERS ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 36350.0,
+        "value_usd": 3191530.0,
+        "weight_pct": 2.22
+      },
+      {
+        "cusip": "36467J108",
+        "security_class": "COM",
+        "issuer": "GAMING & LEISURE P",
+        "shares": 78260.0,
+        "value_usd": 2971532.0,
+        "weight_pct": 2.06
+      }
+    ],
+    "top_five_pct": 22.45,
+    "top_ten_pct": 33.92,
+    "hhi": 223.12,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 19,
+      "reduced_positions": 47
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-08",
+        "accession": "0002085853-25-000036"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002085853-26-000861"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0002085853-26-001329"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

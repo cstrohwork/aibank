@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1801876/0001801876-25-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1801876/0001801876-26-000005.txt",
     "https://www.sec.gov/Archives/edgar/data/1801876/0001801876-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "fbb63c34a1132a4d7c23a307c59d794e88cf6129731b24fdd3be9569108dba14",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "50ce30a814d73d995b5cd45185b95ef486163422113f4dd76b9f6a7dae06c2fc",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001801876-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1801876/0001801876-26-000007.txt",
+    "distinct_positions": 56,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 326879617.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 620590.0,
+        "value_usd": 30315822.0,
+        "weight_pct": 9.27
+      },
+      {
+        "cusip": "25434V401",
+        "security_class": "US EQUI MARK ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 362716.0,
+        "value_usd": 30116309.0,
+        "weight_pct": 9.21
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 383629.0,
+        "value_usd": 26570145.0,
+        "weight_pct": 8.13
+      },
+      {
+        "cusip": "78464A474",
+        "security_class": "ST SHOR CORP ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 718755.0,
+        "value_usd": 21267960.0,
+        "weight_pct": 6.51
+      },
+      {
+        "cusip": "46641Q670",
+        "security_class": "CORE PLUS BD ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 428267.0,
+        "value_usd": 19177796.0,
+        "weight_pct": 5.87
+      },
+      {
+        "cusip": "46654Q716",
+        "security_class": "ACTIVE BOND ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 370778.0,
+        "value_usd": 18954171.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 179514.0,
+        "value_usd": 17391316.0,
+        "weight_pct": 5.32
+      },
+      {
+        "cusip": "46090A887",
+        "security_class": "ULTRA SHRT DUR",
+        "issuer": "INVESCO ACTIVELY MANAGED EXC",
+        "shares": 298888.0,
+        "value_usd": 14923478.0,
+        "weight_pct": 4.57
+      },
+      {
+        "cusip": "78464A805",
+        "security_class": "ST STR PR SP1500",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 157139.0,
+        "value_usd": 14464645.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "25434V617",
+        "security_class": "WORLD EQUITY ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 124034.0,
+        "value_usd": 10209237.0,
+        "weight_pct": 3.12
+      }
+    ],
+    "top_five_pct": 38.99,
+    "top_ten_pct": 62.22,
+    "hhi": 489.14,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 4,
+      "increased_positions": 31,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001801876-25-000002"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001801876-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001801876-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

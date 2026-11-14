@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2048423/0002048423-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "14bd4c2cad4e5763084c401af5e25f303d30e491a7a4020624c1fecea426ea66",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "6727b7282af58b08be3f47059c1322d00a19aaec79d0350bdee8a90ffd6866a3",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0002048423-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2048423/0002048423-26-000006.txt",
+    "distinct_positions": 854,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 67553831.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "601137102",
+        "security_class": "COM CL A",
+        "issuer": "MILLROSE PPTYS INC",
+        "shares": 14776.0,
+        "value_usd": 383733.0,
+        "weight_pct": 0.57
+      },
+      {
+        "cusip": "46817M107",
+        "security_class": "COM CL A",
+        "issuer": "JACKSON FINANCIAL INC",
+        "shares": 2864.0,
+        "value_usd": 370372.0,
+        "weight_pct": 0.55
+      },
+      {
+        "cusip": "47233W109",
+        "security_class": "COM",
+        "issuer": "JEFFERIES FINANCIAL GROUP IN",
+        "shares": 7268.0,
+        "value_usd": 332366.0,
+        "weight_pct": 0.49
+      },
+      {
+        "cusip": "854502101",
+        "security_class": "COM",
+        "issuer": "STANLEY BLACK & DECKER INC",
+        "shares": 3605.0,
+        "value_usd": 319367.0,
+        "weight_pct": 0.47
+      },
+      {
+        "cusip": "69318G106",
+        "security_class": "CL A",
+        "issuer": "PBF ENERGY INC",
+        "shares": 4130.0,
+        "value_usd": 317845.0,
+        "weight_pct": 0.47
+      },
+      {
+        "cusip": "143130102",
+        "security_class": "COM",
+        "issuer": "CARMAX INC",
+        "shares": 5596.0,
+        "value_usd": 308396.0,
+        "weight_pct": 0.46
+      },
+      {
+        "cusip": "87164F105",
+        "security_class": "COM",
+        "issuer": "SYNDAX PHARMACEUTICALS INC",
+        "shares": 16117.0,
+        "value_usd": 303000.0,
+        "weight_pct": 0.45
+      },
+      {
+        "cusip": "03969F109",
+        "security_class": "COM",
+        "issuer": "ARCUS BIOSCIENCES INC",
+        "shares": 11499.0,
+        "value_usd": 297019.0,
+        "weight_pct": 0.44
+      },
+      {
+        "cusip": "87157D109",
+        "security_class": "COM",
+        "issuer": "SYNAPTICS INC",
+        "shares": 2920.0,
+        "value_usd": 296073.0,
+        "weight_pct": 0.44
+      },
+      {
+        "cusip": "75960P104",
+        "security_class": "COM",
+        "issuer": "REMITLY GLOBAL INC",
+        "shares": 13819.0,
+        "value_usd": 294897.0,
+        "weight_pct": 0.44
+      }
+    ],
+    "top_five_pct": 2.55,
+    "top_ten_pct": 4.77,
+    "hhi": 20.02,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 343,
+      "exited_positions": 406,
+      "increased_positions": 200,
+      "reduced_positions": 310
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002048423-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0002048423-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0002048423-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

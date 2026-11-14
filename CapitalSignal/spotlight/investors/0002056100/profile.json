@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2056100/0002056100-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2f7eba497e837f5c289f83ac225c13307759ccd7952f646675a736b7f3569249",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "8c56e6d68563169536b6830355710d5043d4fe02a642375b3487beb55fdd08c1",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0002056100-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056100/0002056100-26-000005.txt",
+    "distinct_positions": 393,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 193838.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 380351.0,
+        "value_usd": 21246.0,
+        "weight_pct": 10.96
+      },
+      {
+        "cusip": "25434V724",
+        "security_class": "US MKTWIDE VALUE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 317390.0,
+        "value_usd": 17456.0,
+        "weight_pct": 9.01
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 317351.0,
+        "value_usd": 16616.0,
+        "weight_pct": 8.57
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 220025.0,
+        "value_usd": 14618.0,
+        "weight_pct": 7.54
+      },
+      {
+        "cusip": "25434V815",
+        "security_class": "US SMALL CAP ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 384990.0,
+        "value_usd": 14425.0,
+        "weight_pct": 7.44
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 12903.0,
+        "value_usd": 9881.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "25434V765",
+        "security_class": "INTL HIGH PROFIT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 283321.0,
+        "value_usd": 9545.0,
+        "weight_pct": 4.92
+      },
+      {
+        "cusip": "25434V500",
+        "security_class": "US SMALL CAP ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 92852.0,
+        "value_usd": 7188.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 60859.0,
+        "value_usd": 7167.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "CORE FIXE IN ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 170957.0,
+        "value_usd": 6858.0,
+        "weight_pct": 3.54
+      }
+    ],
+    "top_five_pct": 43.52,
+    "top_ten_pct": 64.49,
+    "hhi": 545.65,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 25,
+      "exited_positions": 856,
+      "increased_positions": 116,
+      "reduced_positions": 67
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0002056100-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002056100-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0002056100-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

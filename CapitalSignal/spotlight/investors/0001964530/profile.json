@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1964530/0001951757-25-001343.txt",
+    "https://www.sec.gov/Archives/edgar/data/1964530/0001951757-26-001027.txt",
     "https://www.sec.gov/Archives/edgar/data/1964530/0001951757-26-001785.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "566c66f90bc66c1fafc4147ccdefbb050884f85b9e27dae1ceb9b092c4ffa5be",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "33c69d5500a0e3e6c7ef02e5d8ef4430b9d5655ee23d77c1591a8d5c94c3e09c",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001951757-26-001785",
+    "source": "https://www.sec.gov/Archives/edgar/data/1964530/0001951757-26-001785.txt",
+    "distinct_positions": 149,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 378613239.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 63839.0,
+        "value_usd": 44741883.0,
+        "weight_pct": 11.82
+      },
+      {
+        "cusip": "46434V282",
+        "security_class": "U S EQUITY FACTR",
+        "issuer": "ISHARES TR",
+        "shares": 527514.0,
+        "value_usd": 41066939.0,
+        "weight_pct": 10.85
+      },
+      {
+        "cusip": "87283Q867",
+        "security_class": "CAP APPRECIATION",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 800768.0,
+        "value_usd": 33848470.0,
+        "weight_pct": 8.94
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 340748.0,
+        "value_usd": 30704816.0,
+        "weight_pct": 8.11
+      },
+      {
+        "cusip": "46434G764",
+        "security_class": "MSCI EMRG CHN",
+        "issuer": "ISHARES INC",
+        "shares": 240038.0,
+        "value_usd": 23782987.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 242353.0,
+        "value_usd": 17112531.0,
+        "weight_pct": 4.52
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 78451.0,
+        "value_usd": 16951598.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 33361.0,
+        "value_usd": 11109796.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "US CASH COWS 100",
+        "issuer": "PACER FDS TR",
+        "shares": 158763.0,
+        "value_usd": 10599018.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "46435U556",
+        "security_class": "FUTU AI TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 100046.0,
+        "value_usd": 7835604.0,
+        "weight_pct": 2.07
+      }
+    ],
+    "top_five_pct": 46.0,
+    "top_ten_pct": 62.8,
+    "hhi": 531.7,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 15,
+      "increased_positions": 49,
+      "reduced_positions": 49
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001951757-25-001343"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001951757-26-001027"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001951757-26-001785"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

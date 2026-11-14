@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/20286/0001104659-26-121833.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d1ba1dbf0b792711f0ecf2dab7f615f607c8b25cbea3b0e903680c21bce0c0fe",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "f6702b0fe75bcbd1e0bc41084ec4f791196f6027f1706451451a3fbe3b0567f1",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001104659-26-121833",
+    "source": "https://www.sec.gov/Archives/edgar/data/20286/0001104659-26-121833.txt",
+    "distinct_positions": 57,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 5323811277.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON",
+        "issuer": "APPLE ORD",
+        "shares": 2797016.0,
+        "value_usd": 931462268.0,
+        "weight_pct": 17.5
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COMMON",
+        "issuer": "BROADCOM ORD",
+        "shares": 1051060.0,
+        "value_usd": 369121761.0,
+        "weight_pct": 6.93
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COMMON",
+        "issuer": "CISCO SYSTEMS ORD",
+        "shares": 2546500.0,
+        "value_usd": 274079795.0,
+        "weight_pct": 5.15
+      },
+      {
+        "cusip": "12572Q105",
+        "security_class": "COMMON",
+        "issuer": "CME GROUP CL A ORD",
+        "shares": 1002000.0,
+        "value_usd": 262503960.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON",
+        "issuer": "MICROSOFT ORD",
+        "shares": 491150.0,
+        "value_usd": 251910835.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "718172109",
+        "security_class": "COMMON",
+        "issuer": "PHILIP MORRIS INTERNATIONAL ORD",
+        "shares": 1101700.0,
+        "value_usd": 210226394.0,
+        "weight_pct": 3.95
+      },
+      {
+        "cusip": "91913Y100",
+        "security_class": "COMMON",
+        "issuer": "VALERO ENERGY ORD",
+        "shares": 465602.0,
+        "value_usd": 180471991.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "655844108",
+        "security_class": "COMMON",
+        "issuer": "NORFOLK SOUTHERN ORD",
+        "shares": 574287.0,
+        "value_usd": 177454683.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "032654105",
+        "security_class": "COMMON",
+        "issuer": "ANALOG DEVICES ORD",
+        "shares": 445870.0,
+        "value_usd": 176881088.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "747525103",
+        "security_class": "COMMON",
+        "issuer": "QUALCOMM ORD",
+        "shares": 957500.0,
+        "value_usd": 176218300.0,
+        "weight_pct": 3.31
+      }
+    ],
+    "top_five_pct": 39.24,
+    "top_ten_pct": 56.54,
+    "hhi": 559.7,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001104659-25-107506"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001104659-26-091789"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001104659-26-121833"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

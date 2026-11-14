@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2002630/0002002630-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/2002630/0002002630-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/2002630/0002002630-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6f2defb2dae8d8a906d99248eb3b8eaec56de91b3eabd26a458c94f617da99f0",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "0bd66937b9e206213ec76e8b59578105f3b2dedba4b8d804880b675a1beb025d",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0002002630-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2002630/0002002630-26-000005.txt",
+    "distinct_positions": 147,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 905648136.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 433605.0,
+        "value_usd": 215913610.0,
+        "weight_pct": 23.84
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 398374.0,
+        "value_usd": 64835339.0,
+        "weight_pct": 7.16
+      },
+      {
+        "cusip": "H1467J104",
+        "security_class": "COM",
+        "issuer": "CHUBB LIMITED",
+        "shares": 110708.0,
+        "value_usd": 36007868.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "674599162",
+        "security_class": "*W EXP 08/03/202",
+        "issuer": "OCCIDENTAL PETE CORP",
+        "shares": 976879.0,
+        "value_usd": 32470907.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "002824100",
+        "security_class": "COM",
+        "issuer": "ABBOTT LABORATORIES",
+        "shares": 285138.0,
+        "value_usd": 28180189.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "370334104",
+        "security_class": "COM",
+        "issuer": "GENERAL MILLS INC",
+        "shares": 767455.0,
+        "value_usd": 24681352.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "747525103",
+        "security_class": "COM",
+        "issuer": "QUALCOMM INC",
+        "shares": 133185.0,
+        "value_usd": 24511319.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "674599105",
+        "security_class": "COM",
+        "issuer": "OCCIDENTAL PETE CORP",
+        "shares": 410854.0,
+        "value_usd": 22728423.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 77638.0,
+        "value_usd": 20553940.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "713448108",
+        "security_class": "COM",
+        "issuer": "PEPSICO INC",
+        "shares": 161639.0,
+        "value_usd": 20482856.0,
+        "weight_pct": 2.26
+      }
+    ],
+    "top_five_pct": 41.67,
+    "top_ten_pct": 54.15,
+    "hhi": 728.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 13,
+      "increased_positions": 49,
+      "reduced_positions": 75
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002002630-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002002630-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0002002630-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

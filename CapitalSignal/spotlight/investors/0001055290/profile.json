@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1055290/0001193125-26-439980.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "54b3c14e83b15a04bcd5b2aee8664826fe508c55b68ecad3939f3df98f29fa6e",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "8ed6ff69d9b39ebaa496e3d338c6327ee86abc44335772108947d6e7a78b4fa8",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001193125-26-439980",
+    "source": "https://www.sec.gov/Archives/edgar/data/1055290/0001193125-26-439980.txt",
+    "distinct_positions": 269,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1628949.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "CS",
+        "issuer": "APPLE INC COM",
+        "shares": 317190.0,
+        "value_usd": 105631.0,
+        "weight_pct": 6.48
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "CS",
+        "issuer": "MICRON TECHNOLOGY INC COM",
+        "shares": 75666.0,
+        "value_usd": 80593.0,
+        "weight_pct": 4.95
+      },
+      {
+        "cusip": "381430503",
+        "security_class": "ETF",
+        "issuer": "GOLDMAN SACHS ETF TR ACTIVEBET",
+        "shares": 423245.0,
+        "value_usd": 61388.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "CS",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 119483.0,
+        "value_usd": 61283.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "ETF",
+        "issuer": "SCHWAB STRATEGIC TR US LRG CAP",
+        "shares": 1875651.0,
+        "value_usd": 56270.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CS",
+        "issuer": "ALPHABET INC CAP STK CL C",
+        "shares": 134055.0,
+        "value_usd": 45678.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "CS",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 175977.0,
+        "value_usd": 43845.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "CS",
+        "issuer": "JPMORGAN CHASE & CO COM",
+        "shares": 121333.0,
+        "value_usd": 40141.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "CS",
+        "issuer": "BROADCOM INC COM",
+        "shares": 110337.0,
+        "value_usd": 38749.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "36828A101",
+        "security_class": "CS",
+        "issuer": "GE VERNOVA INC COM",
+        "shares": 36044.0,
+        "value_usd": 34260.0,
+        "weight_pct": 2.1
+      }
+    ],
+    "top_five_pct": 22.42,
+    "top_ten_pct": 34.86,
+    "hhi": 189.57,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 40,
+      "exited_positions": 27,
+      "increased_positions": 70,
+      "reduced_positions": 148
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001193125-25-266475"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001193125-26-439980"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

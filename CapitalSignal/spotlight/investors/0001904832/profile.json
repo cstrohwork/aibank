@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1904832/0001904832-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b12fa09beec4bf2f172fe20e4cffc315fd3f5a1e3a62280d4aceacf3b35af4ad",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "d1b1ae976967aed3205613ca0d7462bc8515f0e4d4499243f47d20d5eb6dee67",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001904832-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1904832/0001904832-26-000004.txt",
+    "distinct_positions": 178,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 392252420.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 160402.0,
+        "value_usd": 36632579.0,
+        "weight_pct": 9.34
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "Stock",
+        "issuer": "LAM RESEARCH CORP COM NEW",
+        "shares": 47415.0,
+        "value_usd": 15576178.0,
+        "weight_pct": 3.97
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 40144.0,
+        "value_usd": 13368605.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "Stock",
+        "issuer": "ADVANCED MICRO DEVICES INC COM",
+        "shares": 21492.0,
+        "value_usd": 13148032.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "ADR",
+        "issuer": "ASML HLDG NV N Y REGISTRY SHS",
+        "shares": 6317.0,
+        "value_usd": 11443912.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 20934.0,
+        "value_usd": 10737097.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 30244.0,
+        "value_usd": 10406368.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 40223.0,
+        "value_usd": 10021543.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "Stock",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL CL B NEW",
+        "shares": 17012.0,
+        "value_usd": 8471157.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "Stock",
+        "issuer": "MICRON TECHNOLOGY INC COM",
+        "shares": 7850.0,
+        "value_usd": 8361611.0,
+        "weight_pct": 2.13
+      }
+    ],
+    "top_five_pct": 22.99,
+    "top_ten_pct": 35.22,
+    "hhi": 214.92,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 9,
+      "increased_positions": 65,
+      "reduced_positions": 94
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0002085853-25-000199"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001904832-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001904832-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

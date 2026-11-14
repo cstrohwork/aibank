@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2056306/0001420506-26-002447.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "17a0fdc5fec3c28bcfbf004197f341ca9e6e24e13db317058cabd7fceb9279fc",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "bc12ac079971f0b0caa7508ef4e98e14e83a77da34fc46cb091c06b0a766d413",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001420506-26-002447",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056306/0001420506-26-002447.txt",
+    "distinct_positions": 328,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 645382020.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 194258.0,
+        "value_usd": 64660710.0,
+        "weight_pct": 10.02
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 132163.0,
+        "value_usd": 30444158.0,
+        "weight_pct": 4.72
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 264125.0,
+        "value_usd": 18649883.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "78464A763",
+        "security_class": "ST STR SP DIV",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 94923.0,
+        "value_usd": 13904276.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 361449.0,
+        "value_usd": 12986858.0,
+        "weight_pct": 2.01
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 23252.0,
+        "value_usd": 11925613.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 352796.0,
+        "value_usd": 11476440.0,
+        "weight_pct": 1.78
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 34041.0,
+        "value_usd": 11262010.0,
+        "weight_pct": 1.75
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 103188.0,
+        "value_usd": 9996851.0,
+        "weight_pct": 1.55
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 12918.0,
+        "value_usd": 9893190.0,
+        "weight_pct": 1.53
+      }
+    ],
+    "top_five_pct": 21.79,
+    "top_ten_pct": 30.25,
+    "hhi": 191.53,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 41,
+      "exited_positions": 33,
+      "increased_positions": 163,
+      "reduced_positions": 97
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001420506-25-003041"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001420506-26-001502"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001420506-26-002447"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

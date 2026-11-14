@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2129058/0001104659-26-120049.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "fe6b3bd9197c486f7a61fcf49af3343f27559e6836c6872fdc24bacec6e6ff87",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "de208e2dd7e8ee61b8fe236601594e70ce26d37129bd3296d8340102e24245b5",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001104659-26-120049",
+    "source": "https://www.sec.gov/Archives/edgar/data/2129058/0001104659-26-120049.txt",
+    "distinct_positions": 71,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 135030553.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "233051200",
+        "security_class": "XTRACK MSCI EAFE",
+        "issuer": "DBX ETF TR",
+        "shares": 340881.0,
+        "value_usd": 18731399.0,
+        "weight_pct": 13.87
+      },
+      {
+        "cusip": "46137V464",
+        "security_class": "S&P MDCP MOMNTUM",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 124996.0,
+        "value_usd": 18343163.0,
+        "weight_pct": 13.58
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 61324.0,
+        "value_usd": 14307576.0,
+        "weight_pct": 10.6
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 27349.0,
+        "value_usd": 9410415.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "33734X846",
+        "security_class": "NASDAQ CYB ETF",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 82308.0,
+        "value_usd": 8485160.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 13544.0,
+        "value_usd": 7701626.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 6813.0,
+        "value_usd": 4775048.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 10081.0,
+        "value_usd": 3357170.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 4117.0,
+        "value_usd": 3139987.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE INC",
+        "shares": 1569.0,
+        "value_usd": 2711207.0,
+        "weight_pct": 2.01
+      }
+    ],
+    "top_five_pct": 51.31,
+    "top_ten_pct": 67.36,
+    "hhi": 669.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 7,
+      "increased_positions": 39,
+      "reduced_positions": 11
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001104659-26-093196"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001104659-26-120049"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

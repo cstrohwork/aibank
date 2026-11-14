@@ -10,11 +10,77 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "262811bfc14278e0cd81527bb159c00622cf2ab6b5515d2672dbd7399b9d527b",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "5110620551d4119c598ac313699f28e8a8e86933617088bcc3a47b91e689acae",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001847582-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-26-000004.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 153568246.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "98422D105",
+        "security_class": "ADS",
+        "issuer": "XPENG INC",
+        "shares": 10285837.0,
+        "value_usd": 98332602.0,
+        "weight_pct": 64.03
+      },
+      {
+        "cusip": "732908108",
+        "security_class": "SPONSORED ADS",
+        "issuer": "PONY AI INC",
+        "shares": 6942135.0,
+        "value_usd": 45401563.0,
+        "weight_pct": 29.56
+      },
+      {
+        "cusip": "00851L103",
+        "security_class": "ADS",
+        "issuer": "AGORA INC",
+        "shares": 2352651.0,
+        "value_usd": 9834081.0,
+        "weight_pct": 6.4
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5015.14,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001847582-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001847582-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001847582-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

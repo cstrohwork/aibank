@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1313816/0001193125-26-444305.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "78d694effdc332d952c85d366709c0e55d05545fdf6604f5b7121062c0e8badf",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "5c144d867b7fe0e5ae822c67a2aa7c08dab247dc2cbad3887bc60ae9073eedd2",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001193125-26-444305",
+    "source": "https://www.sec.gov/Archives/edgar/data/1313816/0001193125-26-444305.txt",
+    "distinct_positions": 157,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 6116239763.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "833445109",
+        "security_class": "COM SHS",
+        "issuer": "SNOWFLAKE INC",
+        "shares": 567426.0,
+        "value_usd": 192675173.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "M6191J100",
+        "security_class": "ORD SHS",
+        "issuer": "JFROG LTD",
+        "shares": 1572853.0,
+        "value_usd": 152629655.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "29084Q100",
+        "security_class": "COM",
+        "issuer": "EMCOR GROUP INC",
+        "shares": 184570.0,
+        "value_usd": 139256219.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "518415104",
+        "security_class": "COM",
+        "issuer": "LATTICE SEMICONDUCTOR CORP",
+        "shares": 1072749.0,
+        "value_usd": 134758729.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "03073E105",
+        "security_class": "COM",
+        "issuer": "CENCORA INC",
+        "shares": 407634.0,
+        "value_usd": 122392109.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "609839105",
+        "security_class": "COM",
+        "issuer": "MONOLITHIC PWR SYS INC",
+        "shares": 90669.0,
+        "value_usd": 122151090.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "199908104",
+        "security_class": "COM",
+        "issuer": "COMFORT SYS USA INC",
+        "shares": 73594.0,
+        "value_usd": 121731099.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 288118.0,
+        "value_usd": 114472163.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "45841N107",
+        "security_class": "COM CL A",
+        "issuer": "INTERACTIVE BROKERS GROUP IN",
+        "shares": 1291416.0,
+        "value_usd": 110312755.0,
+        "weight_pct": 1.8
+      },
+      {
+        "cusip": "144285103",
+        "security_class": "COM",
+        "issuer": "CARPENTER TECHNOLOGY CORP",
+        "shares": 281528.0,
+        "value_usd": 109463717.0,
+        "weight_pct": 1.79
+      }
+    ],
+    "top_five_pct": 12.13,
+    "top_ten_pct": 21.58,
+    "hhi": 113.28,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 12,
+      "increased_positions": 39,
+      "reduced_positions": 107
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001193125-25-270944"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001193125-26-339056"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001193125-26-444305"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

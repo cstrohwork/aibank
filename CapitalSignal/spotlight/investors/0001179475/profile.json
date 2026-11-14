@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1179475/0001398344-26-019296.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "007b1f889c3baf8be3ba06245b23f0334125d51f96087ce60c703a1c8c798a48",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "09e39517cbd4771eca162b6fbecff1780d1718aedbb25d256957916f37cc4ff8",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001398344-26-019296",
+    "source": "https://www.sec.gov/Archives/edgar/data/1179475/0001398344-26-019296.txt",
+    "distinct_positions": 263,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 468607881.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "713448108",
+        "security_class": "COM",
+        "issuer": "PEPSICO INC",
+        "shares": 42000.0,
+        "value_usd": 5322240.0,
+        "weight_pct": 1.14
+      },
+      {
+        "cusip": "09062X103",
+        "security_class": "COM",
+        "issuer": "BIOGEN INC",
+        "shares": 21000.0,
+        "value_usd": 4743480.0,
+        "weight_pct": 1.01
+      },
+      {
+        "cusip": "911163103",
+        "security_class": "COM",
+        "issuer": "UNITED NAT FOODS INC",
+        "shares": 105000.0,
+        "value_usd": 4702950.0,
+        "weight_pct": 1.0
+      },
+      {
+        "cusip": "146229109",
+        "security_class": "COM",
+        "issuer": "CARTERS INC",
+        "shares": 147000.0,
+        "value_usd": 4602570.0,
+        "weight_pct": 0.98
+      },
+      {
+        "cusip": "29786A106",
+        "security_class": "COM",
+        "issuer": "ETSY INC",
+        "shares": 63000.0,
+        "value_usd": 4503870.0,
+        "weight_pct": 0.96
+      },
+      {
+        "cusip": "00971T101",
+        "security_class": "COM",
+        "issuer": "AKAMAI TECHNOLOGIES INC",
+        "shares": 42000.0,
+        "value_usd": 4466700.0,
+        "weight_pct": 0.95
+      },
+      {
+        "cusip": "67079U306",
+        "security_class": "COM",
+        "issuer": "NUTEX HEALTH INC",
+        "shares": 21000.0,
+        "value_usd": 4444860.0,
+        "weight_pct": 0.95
+      },
+      {
+        "cusip": "03743Q108",
+        "security_class": "COM",
+        "issuer": "APA CORPORATION",
+        "shares": 105000.0,
+        "value_usd": 4361700.0,
+        "weight_pct": 0.93
+      },
+      {
+        "cusip": "64125C109",
+        "security_class": "COM",
+        "issuer": "NEUROCRINE BIOSCIENCES INC",
+        "shares": 29400.0,
+        "value_usd": 4170096.0,
+        "weight_pct": 0.89
+      },
+      {
+        "cusip": "29414B104",
+        "security_class": "COM",
+        "issuer": "EPAM SYS INC",
+        "shares": 37800.0,
+        "value_usd": 4096008.0,
+        "weight_pct": 0.87
+      }
+    ],
+    "top_five_pct": 5.09,
+    "top_ten_pct": 9.69,
+    "hhi": 54.28,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 89,
+      "exited_positions": 57,
+      "increased_positions": 46,
+      "reduced_positions": 45
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001398344-25-020162"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001398344-26-013356"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001398344-26-019296"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

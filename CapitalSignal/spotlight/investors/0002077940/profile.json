@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2077940/0002077940-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6bff033a07bd92b4e22b4062fc90a94ab27874e03ded9f86aae274a9b948c86f",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "ce7fc279a6921c8a481ea150b79a24ece9a46344e769274089f9d5ff7d4afcef",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0002077940-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2077940/0002077940-26-000004.txt",
+    "distinct_positions": 86,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 244907817.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92203J407",
+        "security_class": "TOTAL INT BD ETF",
+        "issuer": "VANGUARD CHARLOTTE FDS",
+        "shares": 573431.0,
+        "value_usd": 26876728.0,
+        "weight_pct": 10.97
+      },
+      {
+        "cusip": "921910840",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 116067.0,
+        "value_usd": 18697191.0,
+        "weight_pct": 7.63
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "CORE MSCI INTL",
+        "issuer": "ISHARES TR",
+        "shares": 196860.0,
+        "value_usd": 17615014.0,
+        "weight_pct": 7.19
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 201283.0,
+        "value_usd": 16336103.0,
+        "weight_pct": 6.67
+      },
+      {
+        "cusip": "14020G101",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GROWTH ETF",
+        "shares": 227947.0,
+        "value_usd": 10811520.0,
+        "weight_pct": 4.41
+      },
+      {
+        "cusip": "921910816",
+        "security_class": "MRNGSTR MEGA CAP",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 109460.0,
+        "value_usd": 10141454.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "92206C771",
+        "security_class": "MTG-BKD SECS ETF",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 194971.0,
+        "value_usd": 8658672.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "92189F171",
+        "security_class": "GREEN BOND ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 286782.0,
+        "value_usd": 6659079.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "92189H300",
+        "security_class": "JP MRGAN EM LOC",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 262999.0,
+        "value_usd": 6530264.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "922908611",
+        "security_class": "MRNGSTR SML CP V",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 26940.0,
+        "value_usd": 6223841.0,
+        "weight_pct": 2.54
+      }
+    ],
+    "top_five_pct": 36.89,
+    "top_ten_pct": 52.49,
+    "hhi": 409.3,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 36,
+      "exited_positions": 23,
+      "increased_positions": 25,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002077940-25-000002"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-11-04",
+        "accession": "0002077940-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0002077940-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

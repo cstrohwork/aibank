@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1729985/0001104659-26-120039.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "50dcdc75c6d7dc7f5308c1e5eaf84fabf8b335bb46067dfce35500c3e78af6de",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "14306265a9e3bbd3bfcc46b7f1d7b5b652084ea7feb496235c502d4f0a51433e",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001104659-26-120039",
+    "source": "https://www.sec.gov/Archives/edgar/data/1729985/0001104659-26-120039.txt",
+    "distinct_positions": 379,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 768060381.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 421172.0,
+        "value_usd": 38596209.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 44570.0,
+        "value_usd": 32971741.0,
+        "weight_pct": 4.29
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 32773.0,
+        "value_usd": 22969000.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "33738D309",
+        "security_class": "SENIOR LN FD",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 508126.0,
+        "value_usd": 22647164.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 96431.0,
+        "value_usd": 22022986.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "74350P667",
+        "security_class": "ULTRASHRT S&P500",
+        "issuer": "PROSHARES TR",
+        "shares": 323576.0,
+        "value_usd": 17641364.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 47953.0,
+        "value_usd": 15969369.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "46434V878",
+        "security_class": "ULTRA SHORT DUR",
+        "issuer": "ISHARES TR",
+        "shares": 311126.0,
+        "value_usd": 15680774.0,
+        "weight_pct": 2.04
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 167801.0,
+        "value_usd": 14986338.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "78464A649",
+        "security_class": "ST STR AGGRE ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 600832.0,
+        "value_usd": 14636276.0,
+        "weight_pct": 1.91
+      }
+    ],
+    "top_five_pct": 18.12,
+    "top_ten_pct": 28.4,
+    "hhi": 134.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 104,
+      "exited_positions": 68,
+      "increased_positions": 145,
+      "reduced_positions": 119
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001104659-25-104730"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001104659-26-091051"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001104659-26-120039"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

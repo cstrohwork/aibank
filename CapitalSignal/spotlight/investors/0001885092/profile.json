@@ -14,8 +14,105 @@
     "https://www.sec.gov/Archives/edgar/data/1885092/0001885092-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0ec0b1d3752f75b0f3ca55329ca13c30fbb81c61d0cd7859eb676705db0bebea",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "62331c4504edc1be80a073c25009eb75357631afdddea377a785c99315a0ac28",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001885092-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1885092/0001885092-26-000004.txt",
+    "distinct_positions": 7,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 88394018.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 60655.0,
+        "value_usd": 42510663.0,
+        "weight_pct": 48.09
+      },
+      {
+        "cusip": "78468R101",
+        "security_class": "ST SHO TREAS ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 893000.0,
+        "value_usd": 25602310.0,
+        "weight_pct": 28.96
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 145545.0,
+        "value_usd": 12365503.0,
+        "weight_pct": 13.99
+      },
+      {
+        "cusip": "45676K103",
+        "security_class": "COM SHS",
+        "issuer": "INFLEQTION INC",
+        "shares": 331507.0,
+        "value_usd": 4465399.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 10861.0,
+        "value_usd": 1638490.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "74275K108",
+        "security_class": "COM",
+        "issuer": "PROCORE TECHNOLOGIES INC",
+        "shares": 19543.0,
+        "value_usd": 1010764.0,
+        "weight_pct": 1.14
+      },
+      {
+        "cusip": "81578P106",
+        "security_class": "COM CL A",
+        "issuer": "SEER INC",
+        "shares": 359143.0,
+        "value_usd": 800889.0,
+        "weight_pct": 0.91
+      }
+    ],
+    "top_five_pct": 97.95,
+    "top_ten_pct": 100.0,
+    "hhi": 3378.55,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 3,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001885092-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001885092-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001885092-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

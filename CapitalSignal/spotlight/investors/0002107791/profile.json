@@ -13,8 +13,68 @@
     "https://www.sec.gov/Archives/edgar/data/2107791/0000897069-26-001883.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "308abdc5de54673fc955b8b17a7669352c1e0fdfe94e79373a618ecfa86b0ca2",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "bb94f0240ddf2ff31cfae42e0dc1b9062c0a41b437d246c045f2435f4439430b",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0000897069-26-001883",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107791/0000897069-26-001883.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 266828702.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "095924106",
+        "security_class": "COMMON STOCK",
+        "issuer": "BLUE OWL TECHNOLOGY FIN CORP",
+        "shares": 20300151.0,
+        "value_usd": 199144481.0,
+        "weight_pct": 74.63
+      },
+      {
+        "cusip": "38149W481",
+        "security_class": "INDIA EQUITY ETF",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 2853513.0,
+        "value_usd": 66872077.0,
+        "weight_pct": 25.06
+      },
+      {
+        "cusip": "70439P108",
+        "security_class": "COM CL A",
+        "issuer": "PAYMENTUS HOLDINGS INC",
+        "shares": 26506.0,
+        "value_usd": 812144.0,
+        "weight_pct": 0.3
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6198.4,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0000897069-26-001596"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0000897069-26-001883"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

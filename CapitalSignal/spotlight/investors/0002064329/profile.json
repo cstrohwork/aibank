@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2064329/0002064329-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "11d334e6111f5e3e7d4621c9ae602af2269041c624ebaeb3cbaf7da1b380eeb1",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "60e556dd7fee1fe192b65b68ab37d8bd404fc9a9a3cd59b6c9af4c50d7f25196",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0002064329-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2064329/0002064329-26-000007.txt",
+    "distinct_positions": 75,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 275748499.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 429042.0,
+        "value_usd": 38510801.0,
+        "weight_pct": 13.97
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 850483.0,
+        "value_usd": 36825983.0,
+        "weight_pct": 13.35
+      },
+      {
+        "cusip": "87283Q503",
+        "security_class": "US EQUI RESH ETF",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 599826.0,
+        "value_usd": 28947611.0,
+        "weight_pct": 10.5
+      },
+      {
+        "cusip": "47804J693",
+        "security_class": "CORE BOND ETF",
+        "issuer": "JOHN HANCOCK EXCHANGE TRADED",
+        "shares": 1097016.0,
+        "value_usd": 26383265.0,
+        "weight_pct": 9.57
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 179708.0,
+        "value_usd": 16193518.0,
+        "weight_pct": 5.87
+      },
+      {
+        "cusip": "78463X889",
+        "security_class": "ST STR PO EX ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 254033.0,
+        "value_usd": 12754979.0,
+        "weight_pct": 4.63
+      },
+      {
+        "cusip": "46429B267",
+        "security_class": "US TREAS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 446577.0,
+        "value_usd": 9766638.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 12415.0,
+        "value_usd": 9507780.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 94657.0,
+        "value_usd": 8899661.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "41653L503",
+        "security_class": "MUN OPORTUNITE",
+        "issuer": "HARTFORD FDS EXCHANGE TRADED",
+        "shares": 152518.0,
+        "value_usd": 5620296.0,
+        "weight_pct": 2.04
+      }
+    ],
+    "top_five_pct": 53.26,
+    "top_ten_pct": 70.14,
+    "hhi": 701.9,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 9,
+      "increased_positions": 45,
+      "reduced_positions": 14
+    },
+    "timeline": [
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-11-03",
+        "accession": "0002064329-26-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0002064329-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0002064329-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

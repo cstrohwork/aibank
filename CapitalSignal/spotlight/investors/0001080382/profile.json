@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1080382/0001080382-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3f9bf85b290d469c6862d8468288871c94b0e3afb6fea1ef8d7161f333ddbe80",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "83276364411a8c5d95f34b8cedc86bc16b8dd337bdab0025d305ad5740f7377f",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001080382-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1080382/0001080382-26-000012.txt",
+    "distinct_positions": 110,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 805844.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "Common",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 76821.0,
+        "value_usd": 38253.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "11271J107",
+        "security_class": "Common",
+        "issuer": "BROOKFIELD CORP",
+        "shares": 1017853.0,
+        "value_usd": 37111.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "70450Y103",
+        "security_class": "Common",
+        "issuer": "PAYPAL HLDGS INC",
+        "shares": 704963.0,
+        "value_usd": 37032.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "459506101",
+        "security_class": "Common",
+        "issuer": "INTERNATIONAL FLAVORS&FRAGRA",
+        "shares": 398900.0,
+        "value_usd": 33300.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common",
+        "issuer": "MICROSOFT CORP",
+        "shares": 62617.0,
+        "value_usd": 32116.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "371901109",
+        "security_class": "Common",
+        "issuer": "GENTEX CORP",
+        "shares": 1401686.0,
+        "value_usd": 30473.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "G5960L103",
+        "security_class": "Common",
+        "issuer": "MEDTRONIC PLC",
+        "shares": 343047.0,
+        "value_usd": 29602.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "254687106",
+        "security_class": "Common",
+        "issuer": "DISNEY WALT CO",
+        "shares": 276371.0,
+        "value_usd": 28991.0,
+        "weight_pct": 3.6
+      },
+      {
+        "cusip": "20030N101",
+        "security_class": "Common",
+        "issuer": "COMCAST CORP NEW",
+        "shares": 1308486.0,
+        "value_usd": 28473.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "46266C105",
+        "security_class": "Common",
+        "issuer": "IQVIA HLDGS INC",
+        "shares": 103790.0,
+        "value_usd": 27904.0,
+        "weight_pct": 3.46
+      }
+    ],
+    "top_five_pct": 22.07,
+    "top_ten_pct": 40.11,
+    "hhi": 299.88,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 6,
+      "increased_positions": 51,
+      "reduced_positions": 19
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001080382-25-000012"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001080382-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001080382-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2019663/0001398344-25-020324.txt",
+    "https://www.sec.gov/Archives/edgar/data/2019663/0001398344-26-012966.txt",
     "https://www.sec.gov/Archives/edgar/data/2019663/0001398344-26-019316.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "140a11cc9bf58c7242080107f7754a128934e6ce83033b1aed6958af55831e00",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "5e37fc9c8990845dc18399327eefe24e8e5aa3daa02bc3d7bec5964f181cc569",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-03",
+    "accession": "0001398344-26-019316",
+    "source": "https://www.sec.gov/Archives/edgar/data/2019663/0001398344-26-019316.txt",
+    "distinct_positions": 1677,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4984254488.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 647330.0,
+        "value_usd": 215573506.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 2170438.0,
+        "value_usd": 198898900.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 604085.0,
+        "value_usd": 118249715.0,
+        "weight_pct": 2.37
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 179203.0,
+        "value_usd": 91913183.0,
+        "weight_pct": 1.84
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 399547.0,
+        "value_usd": 91248645.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 112838.0,
+        "value_usd": 86416841.0,
+        "weight_pct": 1.73
+      },
+      {
+        "cusip": "86280R803",
+        "security_class": "DAY HAGAN SMART",
+        "issuer": "STRATEGY SHS",
+        "shares": 1534788.0,
+        "value_usd": 86070889.0,
+        "weight_pct": 1.73
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 214020.0,
+        "value_usd": 53322998.0,
+        "weight_pct": 1.07
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 138642.0,
+        "value_usd": 47703838.0,
+        "weight_pct": 0.96
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 134753.0,
+        "value_usd": 47323890.0,
+        "weight_pct": 0.95
+      }
+    ],
+    "top_five_pct": 14.36,
+    "top_ten_pct": 20.8,
+    "hhi": 80.45,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 197,
+      "exited_positions": 106,
+      "increased_positions": 753,
+      "reduced_positions": 473
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001398344-25-020324"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-29",
+        "accession": "0001398344-26-012966"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-03",
+        "accession": "0001398344-26-019316"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

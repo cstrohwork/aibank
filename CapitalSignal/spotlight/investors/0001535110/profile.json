@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1535110/0001535110-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a9cf07fa8a3106b3bc1cd08ee35be91e83fe7acff79753e8eb1fa2dfae5f4e67",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "d81f450994d71311527bca05e8a001f464788c6e694d29c500de88ebf52784b1",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001535110-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1535110/0001535110-26-000007.txt",
+    "distinct_positions": 27,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 109018585.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "77926X320",
+        "security_class": "MEMORY ETF",
+        "issuer": "ROUNDHILL ETF TRUST",
+        "shares": 304821.0,
+        "value_usd": 18398996.0,
+        "weight_pct": 16.88
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 19040.0,
+        "value_usd": 13807427.0,
+        "weight_pct": 12.67
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 11481.0,
+        "value_usd": 12228528.0,
+        "weight_pct": 11.22
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 32799.0,
+        "value_usd": 11285480.0,
+        "weight_pct": 10.35
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 22100.0,
+        "value_usd": 10081799.0,
+        "weight_pct": 9.25
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 33190.0,
+        "value_usd": 7579932.0,
+        "weight_pct": 6.95
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 23000.0,
+        "value_usd": 5730450.0,
+        "weight_pct": 5.26
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 43500.0,
+        "value_usd": 5230005.0,
+        "weight_pct": 4.8
+      },
+      {
+        "cusip": "464286772",
+        "security_class": "MSCI STH KOR ETF",
+        "issuer": "ISHARES INC",
+        "shares": 27508.0,
+        "value_usd": 5027912.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 4000.0,
+        "value_usd": 2447040.0,
+        "weight_pct": 2.24
+      }
+    ],
+    "top_five_pct": 60.36,
+    "top_ten_pct": 84.22,
+    "hhi": 912.31,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 6,
+      "increased_positions": 5,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001535110-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001535110-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

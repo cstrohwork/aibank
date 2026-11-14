@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1992193/0001104659-26-119398.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a7ce0932232dd37ff1e703a75b399fb429ee656d320c52a7b2eb5d5bb2908cb0",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "a1d3ccd04c057a9de005421b1864f34ba891ecca36e1155f6ff5407d0072d441",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001104659-26-119398",
+    "source": "https://www.sec.gov/Archives/edgar/data/1992193/0001104659-26-119398.txt",
+    "distinct_positions": 109,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 527914148.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "97717W307",
+        "security_class": "ETF",
+        "issuer": "WISDOMTREE LARGE CAP DIVIDEND",
+        "shares": 663444.0,
+        "value_usd": 58031152.0,
+        "weight_pct": 10.99
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 144187.0,
+        "value_usd": 56584528.0,
+        "weight_pct": 10.72
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "ETF",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH ETF",
+        "shares": 439777.0,
+        "value_usd": 44887760.0,
+        "weight_pct": 8.5
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "ETF",
+        "issuer": "PIMCO MULTISECTOR BOND ACTIVE EXCHANGE-TRADED FUND",
+        "shares": 1510601.0,
+        "value_usd": 36516111.0,
+        "weight_pct": 6.92
+      },
+      {
+        "cusip": "092528603",
+        "security_class": "ETF",
+        "issuer": "ISHARES FLEXIBLE INCOME ACTIVE ETF",
+        "shares": 496330.0,
+        "value_usd": 25208601.0,
+        "weight_pct": 4.78
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "ETF",
+        "issuer": "ISHARES S&P 500 VALUE ETF",
+        "shares": 119665.0,
+        "value_usd": 20454520.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI EAFE ETF",
+        "shares": 251528.0,
+        "value_usd": 20415414.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "464288414",
+        "security_class": "ETF",
+        "issuer": "ISHARES NATIONAL MUNI BOND ETF",
+        "shares": 185842.0,
+        "value_usd": 18788658.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "ETF",
+        "issuer": "FIDELITY TOTAL BOND ETF",
+        "shares": 406651.0,
+        "value_usd": 16934789.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "37954Y475",
+        "security_class": "ETF",
+        "issuer": "GLOBAL X S&P 500 COVERED CALL ETF",
+        "shares": 377523.0,
+        "value_usd": 15674749.0,
+        "weight_pct": 2.97
+      }
+    ],
+    "top_five_pct": 41.91,
+    "top_ten_pct": 59.38,
+    "hhi": 486.09,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 50,
+      "exited_positions": 22,
+      "increased_positions": 27,
+      "reduced_positions": 28
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001104659-25-107482"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001104659-26-119398"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

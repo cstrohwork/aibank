@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1780365/0001780365-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "31d376fb0aa0dd2adea3a70ae1590870f0f308b831ebbe336a194d79fd403126",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2733b0c8c8e409335c6387c6b5a85403d8e7a647e1a0a400e83f1cf587e1a94c",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001780365-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1780365/0001780365-26-000006.txt",
+    "distinct_positions": 39,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 6176964367.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 3121840.0,
+        "value_usd": 712965819.0,
+        "weight_pct": 11.54
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 1183456.0,
+        "value_usd": 606994582.0,
+        "weight_pct": 9.83
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 3108267.0,
+        "value_usd": 581401342.0,
+        "weight_pct": 9.41
+      },
+      {
+        "cusip": "55024U109",
+        "security_class": "COM",
+        "issuer": "LUMENTUM HLDGS INC",
+        "shares": 533854.0,
+        "value_usd": 518511036.0,
+        "weight_pct": 8.39
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 1921596.0,
+        "value_usd": 478765643.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 355094.0,
+        "value_usd": 327517400.0,
+        "weight_pct": 5.3
+      },
+      {
+        "cusip": "833445109",
+        "security_class": "COM SHS",
+        "issuer": "SNOWFLAKE INC",
+        "shares": 939009.0,
+        "value_usd": 318849896.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 268718.0,
+        "value_usd": 286214229.0,
+        "weight_pct": 4.63
+      },
+      {
+        "cusip": "093712107",
+        "security_class": "COM CL A",
+        "issuer": "BLOOM ENERGY CORP",
+        "shares": 915291.0,
+        "value_usd": 253517301.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 1891184.0,
+        "value_usd": 227377052.0,
+        "weight_pct": 3.68
+      }
+    ],
+    "top_five_pct": 46.93,
+    "top_ten_pct": 69.81,
+    "hhi": 624.14,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 29,
+      "exited_positions": 14,
+      "increased_positions": 4,
+      "reduced_positions": 5
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001780365-25-000004"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001780365-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001780365-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

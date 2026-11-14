@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2055276/0001011438-25-000476.txt",
+    "https://www.sec.gov/Archives/edgar/data/2055276/0001011438-26-000439.txt",
     "https://www.sec.gov/Archives/edgar/data/2055276/0001011438-26-000621.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "18b36d8b7aa1054a860e0fb501e291e8e5bb0d9bfee21ddc116903ab20eed748",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "fa123f129f040997e2cd732e89be482a435728466e5d03f19ce266f27b8813e3",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001011438-26-000621",
+    "source": "https://www.sec.gov/Archives/edgar/data/2055276/0001011438-26-000621.txt",
+    "distinct_positions": 14,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 297035727.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "M7S64H106",
+        "security_class": "SHS",
+        "issuer": "MONDAY COM LTD",
+        "shares": 1442900.0,
+        "value_usd": 113209934.0,
+        "weight_pct": 38.11
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 66557.0,
+        "value_usd": 48265805.0,
+        "weight_pct": 16.25
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 117070.0,
+        "value_usd": 39890432.0,
+        "weight_pct": 13.43
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 135135.0,
+        "value_usd": 20386466.0,
+        "weight_pct": 6.86
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 79000.0,
+        "value_usd": 19682850.0,
+        "weight_pct": 6.63
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 25000.0,
+        "value_usd": 12822500.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "22266T109",
+        "security_class": "CL A",
+        "issuer": "COUPANG INC",
+        "shares": 806890.0,
+        "value_usd": 11191564.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 13.0,
+        "value_usd": 9711065.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "049468101",
+        "security_class": "CL A",
+        "issuer": "ATLASSIAN CORPORATION",
+        "shares": 40000.0,
+        "value_usd": 7171600.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 6770.0,
+        "value_usd": 5008243.0,
+        "weight_pct": 1.69
+      }
+    ],
+    "top_five_pct": 81.28,
+    "top_ten_pct": 96.74,
+    "hhi": 2044.44,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001011438-25-000476"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001011438-26-000439"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001011438-26-000621"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

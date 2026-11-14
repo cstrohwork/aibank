@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1734398/0001734398-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1c9075ce038390bd18463647521efba1c2945f6faf0826961f55fd94bd9a1848",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "32028f97c5d9cb55a65bc82397710cbd8909c0992d27a0eb05be35740d8436b3",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001734398-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1734398/0001734398-26-000008.txt",
+    "distinct_positions": 94,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1038286292.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92206C730",
+        "security_class": "VNG RUS1000IDX",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 509700.0,
+        "value_usd": 175336826.0,
+        "weight_pct": 16.89
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 380297.0,
+        "value_usd": 158253171.0,
+        "weight_pct": 15.24
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 808554.0,
+        "value_usd": 58175447.0,
+        "weight_pct": 5.6
+      },
+      {
+        "cusip": "46434G822",
+        "security_class": "MSCI JAPAN ETF",
+        "issuer": "ISHARES INC",
+        "shares": 386217.0,
+        "value_usd": 37640735.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1045964.0,
+        "value_usd": 28732642.0,
+        "weight_pct": 2.77
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 288912.0,
+        "value_usd": 27313773.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 258485.0,
+        "value_usd": 26854003.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 268484.0,
+        "value_usd": 23978306.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "92206C664",
+        "security_class": "VNG RUS2000IDX",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 206655.0,
+        "value_usd": 23194957.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 656462.0,
+        "value_usd": 19693860.0,
+        "weight_pct": 1.9
+      }
+    ],
+    "top_five_pct": 44.12,
+    "top_ten_pct": 55.78,
+    "hhi": 637.11,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 5,
+      "increased_positions": 13,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001734398-25-000013"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001734398-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001734398-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

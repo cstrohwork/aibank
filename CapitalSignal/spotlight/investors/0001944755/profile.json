@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1944755/0001944755-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1944755/0001944755-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1944755/0001944755-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "652fc14ae0c65237fc391615ddd7f490600c251c0898b908990e8dfa0fbcfffc",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "28991d2015efc9469a5ae51c976069074f1def1b186a35083d19b998877b9220",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-28",
+    "accession": "0001944755-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1944755/0001944755-26-000005.txt",
+    "distinct_positions": 272,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 400640025.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 63545.0,
+        "value_usd": 21161732.0,
+        "weight_pct": 5.28
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 35186.0,
+        "value_usd": 18046827.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "902973304",
+        "security_class": "COM NEW",
+        "issuer": "US BANCORP",
+        "shares": 272312.0,
+        "value_usd": 15728741.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 106975.0,
+        "value_usd": 15541309.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 29256.0,
+        "value_usd": 9678867.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 7609.0,
+        "value_usd": 8804222.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 68568.0,
+        "value_usd": 7125572.0,
+        "weight_pct": 1.78
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 24725.0,
+        "value_usd": 6545583.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "91913Y100",
+        "security_class": "COM",
+        "issuer": "VALERO ENERGY CORP",
+        "shares": 16564.0,
+        "value_usd": 6420223.0,
+        "weight_pct": 1.6
+      },
+      {
+        "cusip": "46641Q670",
+        "security_class": "CORE PLUS BD ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 140471.0,
+        "value_usd": 6290291.0,
+        "weight_pct": 1.57
+      }
+    ],
+    "top_five_pct": 20.01,
+    "top_ten_pct": 28.79,
+    "hhi": 140.27,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 18,
+      "increased_positions": 60,
+      "reduced_positions": 116
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001944755-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001944755-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-28",
+        "accession": "0001944755-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

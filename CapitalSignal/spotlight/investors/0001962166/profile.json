@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1962166/0001962166-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f79ee9851e31b096e4d315c20c904bb27c3addb0628c7759f6a3712176b96332",
-  "generated_at": "2026-11-14T12:55:05.761028+00:00",
+  "source_fingerprint": "5e527a1ce047ea96d6afba1f81ddca5609ec0b7ce831bd8b45ae5a081b7d7e91",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001962166-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1962166/0001962166-26-000007.txt",
+    "distinct_positions": 85,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 337614938.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "025072885",
+        "security_class": "US EQT ETF",
+        "issuer": "AvantisUSEquity",
+        "shares": 436326.0,
+        "value_usd": 55889069.0,
+        "weight_pct": 16.55
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DimensionalUSCore",
+        "shares": 1034694.0,
+        "value_usd": 45992184.0,
+        "weight_pct": 13.62
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AvantisUSSmallCapValue",
+        "shares": 332589.0,
+        "value_usd": 39169096.0,
+        "weight_pct": 11.6
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AvantisInternational",
+        "shares": 298827.0,
+        "value_usd": 26927387.0,
+        "weight_pct": 7.98
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "AppleInc",
+        "shares": 79057.0,
+        "value_usd": 26327830.0,
+        "weight_pct": 7.8
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "INTL SMCP VLU",
+        "issuer": "AvantisInternatnlSml",
+        "shares": 179521.0,
+        "value_usd": 19636006.0,
+        "weight_pct": 5.82
+      },
+      {
+        "cusip": "025072372",
+        "security_class": "EMERGING MKT VAL",
+        "issuer": "AvantisEmergingSmall/Value",
+        "shares": 221363.0,
+        "value_usd": 14417372.0,
+        "weight_pct": 4.27
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AvantisEmergingMarkets",
+        "shares": 101066.0,
+        "value_usd": 9502313.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "25434V583",
+        "security_class": "GLOB CO PLUS ETF",
+        "issuer": "DimensionalGblCrePlsFxdEt",
+        "shares": 166687.0,
+        "value_usd": 8655418.0,
+        "weight_pct": 2.56
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MicrosoftCorp",
+        "shares": 15485.0,
+        "value_usd": 7942256.0,
+        "weight_pct": 2.35
+      }
+    ],
+    "top_five_pct": 57.55,
+    "top_ten_pct": 75.37,
+    "hhi": 806.03,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 17,
+      "increased_positions": 28,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001962166-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001962166-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001962166-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

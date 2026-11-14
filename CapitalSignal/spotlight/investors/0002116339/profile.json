@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2116339/0001214659-26-013437.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ac1e565aad86812f516a255768cca06b5b0e7a181220711413fd2e8f2147cad4",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "a267104db9e340d5ee4d670121082e06b2c89e3817d1df0a5fb5076ce7c478af",
+  "generated_at": "2026-11-14T18:55:12.249361+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0001214659-26-013437",
+    "source": "https://www.sec.gov/Archives/edgar/data/2116339/0001214659-26-013437.txt",
+    "distinct_positions": 88,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 166155024.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464289131",
+        "security_class": "BRAZIL SM-CP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 941370.0,
+        "value_usd": 12530863.0,
+        "weight_pct": 7.54
+      },
+      {
+        "cusip": "71654V101",
+        "security_class": "SP ADR NON VTG",
+        "issuer": "PETROLEO BRASILEIRO S A",
+        "shares": 628883.0,
+        "value_usd": 11942488.0,
+        "weight_pct": 7.19
+      },
+      {
+        "cusip": "48581R205",
+        "security_class": "SPONSORED ADS",
+        "issuer": "KASPI KZ JSC",
+        "shares": 108976.0,
+        "value_usd": 10250283.0,
+        "weight_pct": 6.17
+      },
+      {
+        "cusip": "136385101",
+        "security_class": "COM",
+        "issuer": "CANADIAN NAT RES LTD MED TER",
+        "shares": 172311.0,
+        "value_usd": 8110679.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 80280.0,
+        "value_usd": 7356853.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 7916.0,
+        "value_usd": 5856148.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "91912E105",
+        "security_class": "SPONSORED ADS",
+        "issuer": "VALE S A",
+        "shares": 434778.0,
+        "value_usd": 5830373.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 172516.0,
+        "value_usd": 5394575.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "464286517",
+        "security_class": "JP MORGAN EM ETF",
+        "issuer": "ISHARES INC",
+        "shares": 112937.0,
+        "value_usd": 4771584.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "85208M102",
+        "security_class": "COM",
+        "issuer": "SPROUTS FMRS MKT INC",
+        "shares": 70145.0,
+        "value_usd": 4654121.0,
+        "weight_pct": 2.8
+      }
+    ],
+    "top_five_pct": 30.21,
+    "top_ten_pct": 46.16,
+    "hhi": 305.2,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 7,
+      "increased_positions": 9,
+      "reduced_positions": 58
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-17",
+        "accession": "0001214659-26-010440"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0001214659-26-013437"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }
