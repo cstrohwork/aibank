@@ -27,7 +27,8 @@ def run(batch=2000):
             value = float(p.get('reported_13f_value_usd') or 0)
         except (ValueError, TypeError):
             value = 0
-        return (p.get('latest_report_date') or '', value)
+        verified = p.get('reported_13f_value_verified') is True and p.get('reported_13f_value_source')
+        return (bool(verified), value if verified else 0, p.get('latest_report_date') or '')
     index_path = DATA / '13f/index.json'
     filing_dates = {}
     if index_path.exists():
@@ -36,7 +37,7 @@ def run(batch=2000):
             filing_dates[key] = max(filing_dates.get(key, ''), entry.get('filing_date') or '')
     for profile in profiles:
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
-    profiles.sort(key=lambda p: (p.get('filing_date') or '', rank(p)), reverse=True)
+    profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or ''), reverse=True)
     # Reserve a quarter of each bounded run for never-published managers.
     # The remaining slots refresh changed profiles; this prevents frequent
     # amendments to large managers from starving initial universe coverage.
@@ -55,6 +56,7 @@ def run(batch=2000):
     selected += refreshes[max(0, batch - reserved):max(0, batch - reserved) + max(0, batch - len(selected))]
     changed = 0
     errors = []
+    manifest.setdefault('failures', {})
     for p in selected:
         cik = str(p.get('manager_cik') or '').zfill(10)
         if not re.fullmatch(r'\d{10}', cik):
@@ -97,9 +99,14 @@ def run(batch=2000):
             (target / 'profile.json').write_text(content)
             (target / 'index.html').write_text(head + body)
             manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'generated_at': now}
+            manifest['failures'].pop(cik, None)
             changed += 1
         except (ValueError, TypeError, OSError) as exc:
             errors.append({'id': cik, 'error': str(exc)})
+            failure = manifest['failures'].get(cik, {})
+            manifest['failures'][cik] = {'attempts': failure.get('attempts', 0) + 1,
+                                         'last_error': str(exc), 'last_attempt_at': now,
+                                         'fingerprint': fingerprint}
     remaining = sum(
         1 for p in profiles
         if manifest['profiles'].get(str(p.get('manager_cik') or '').zfill(10), {}).get('fingerprint')
