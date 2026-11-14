@@ -92,8 +92,7 @@ def main():
         # This advances a durable selection cursor without falsely validating data.
         pending = [r for r in items if r.get("status") == "pending"]
         # Only independently verified SEC exposure may determine monetary priority.
-        # Reserve half the batch for never-profiled records, so amendments cannot
-        # indefinitely starve initial coverage. Keep rotation for fairness.
+        # Keep the persistent rotation cursor for fairness across pending records.
         pending.sort(key=lambda r: (
             r.get("retries", 0),
             -float(r.get("reported_13f_value_usd") or 0) if r.get("sec_monetary_verified") is True else 0,
