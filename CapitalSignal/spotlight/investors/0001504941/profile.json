@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1504941/0001504941-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "824190fb56820fb5183326b31c1aab468b0395a66ff1befe49e5c1fb3e3c0476",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "2ee170e47974f286759d3dcf8afe7435a8c728daab26c58619aea39b38039623",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001504941-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1504941/0001504941-26-000005.txt",
+    "distinct_positions": 150,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1072585518.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "COM",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 117971.0,
+        "value_usd": 89968163.0,
+        "weight_pct": 8.39
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE S&P MID-CAP ETF",
+        "shares": 865916.0,
+        "value_usd": 62302665.0,
+        "weight_pct": 5.81
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 74698.0,
+        "value_usd": 57207177.0,
+        "weight_pct": 5.33
+      },
+      {
+        "cusip": "78464A672",
+        "security_class": "COM",
+        "issuer": "SPDR PORTFOLIO INTERMEDIATE TE",
+        "shares": 1513275.0,
+        "value_usd": 41282142.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "COM",
+        "issuer": "VANGUARD INTERMEDIATE-TERM TRE",
+        "shares": 723651.0,
+        "value_usd": 41002066.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "78467Y107",
+        "security_class": "COM",
+        "issuer": "SPDR S&P MIDCAP 400 ETF TRUST",
+        "shares": 60247.0,
+        "value_usd": 39564659.0,
+        "weight_pct": 3.69
+      },
+      {
+        "cusip": "78468R101",
+        "security_class": "COM",
+        "issuer": "SPDR PORTFOLIO SHORT TERM TREA",
+        "shares": 1340581.0,
+        "value_usd": 38434457.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "COM",
+        "issuer": "VANGUARD SHORT-TERM TREASURY E",
+        "shares": 664463.0,
+        "value_usd": 38246464.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE MSCI EAFE ETF",
+        "shares": 368229.0,
+        "value_usd": 35674064.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "COM",
+        "issuer": "ISHARES 7-10 YEAR TREASURY BON",
+        "shares": 391165.0,
+        "value_usd": 34934991.0,
+        "weight_pct": 3.26
+      }
+    ],
+    "top_five_pct": 27.2,
+    "top_ten_pct": 44.62,
+    "hhi": 295.94,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 10,
+      "increased_positions": 54,
+      "reduced_positions": 42
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001504941-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001504941-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001504941-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

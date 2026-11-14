@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2132639/0002132639-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0d4de6f7a948d94b38bd1b17927041ac06018bb12c5c63d669f166c70d7d8971",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "8c04fc8828f07fb82891085dfdc61225b6226968dfa8b0d59bd34e02d1ff96f7",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002132639-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/2132639/0002132639-26-000012.txt",
+    "distinct_positions": 86,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 263799155.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 237112.0,
+        "value_usd": 19369374.0,
+        "weight_pct": 7.34
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 106618.0,
+        "value_usd": 16680266.0,
+        "weight_pct": 6.32
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 325332.0,
+        "value_usd": 16568907.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 18382.0,
+        "value_usd": 13455296.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 321247.0,
+        "value_usd": 12862749.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "46434V266",
+        "security_class": "INTERNATIONAL SL",
+        "issuer": "ISHARES TR",
+        "shares": 277423.0,
+        "value_usd": 12524085.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 204565.0,
+        "value_usd": 12020989.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "CORE MSCI INTL",
+        "issuer": "ISHARES TR",
+        "shares": 114144.0,
+        "value_usd": 10493284.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "46434V647",
+        "security_class": "GLOBAL REIT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 341384.0,
+        "value_usd": 9186362.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 100937.0,
+        "value_usd": 8454888.0,
+        "weight_pct": 3.21
+      }
+    ],
+    "top_five_pct": 29.92,
+    "top_ten_pct": 49.89,
+    "hhi": 346.83,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 16,
+      "exited_positions": 13,
+      "increased_positions": 30,
+      "reduced_positions": 26
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002132639-26-000011"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002132639-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

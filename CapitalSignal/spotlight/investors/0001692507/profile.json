@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1692507/0001172661-26-005016.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f57de79edb1b4fb1db546e4b4b9fbd096f62de46298576ae67e7f347989978a4",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "2a8e5391d2f1b1a91a756ce1c4caac813045ed52a97c7d9114a8a7ca867c68e3",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001172661-26-005016",
+    "source": "https://www.sec.gov/Archives/edgar/data/1692507/0001172661-26-005016.txt",
+    "distinct_positions": 1378,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2467497431.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 1202068.0,
+        "value_usd": 274528290.0,
+        "weight_pct": 11.13
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 320000.0,
+        "value_usd": 244998336.0,
+        "weight_pct": 9.93
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 401841.0,
+        "value_usd": 133821090.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 115703.0,
+        "value_usd": 83905502.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 2097425.0,
+        "value_usd": 64915304.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 185489.0,
+        "value_usd": 63823055.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 202964.0,
+        "value_usd": 50568481.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 578170.0,
+        "value_usd": 44640506.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "77543R102",
+        "security_class": "COM CL A",
+        "issuer": "ROKU INC",
+        "shares": 269248.0,
+        "value_usd": 41001085.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "G5960L103",
+        "security_class": "SHS",
+        "issuer": "MEDTRONIC PLC",
+        "shares": 395248.0,
+        "value_usd": 34105950.0,
+        "weight_pct": 1.38
+      }
+    ],
+    "top_five_pct": 32.51,
+    "top_ten_pct": 42.0,
+    "hhi": 305.42,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 506,
+      "exited_positions": 558,
+      "increased_positions": 311,
+      "reduced_positions": 384
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001172661-26-003399"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001172661-26-005016"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

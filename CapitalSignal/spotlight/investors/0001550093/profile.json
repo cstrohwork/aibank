@@ -13,8 +13,108 @@
     "https://www.sec.gov/Archives/edgar/data/1550093/0001193125-26-460134.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6fddbb051a714807d6f0372a062475a14cea741190849b86368a95bd9e1d5ae9",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "4645fc91c81fcdba9eaefa0dc32875508eff78e143b81218b8b9f1a516f1fdf5",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001193125-26-460134",
+    "source": "https://www.sec.gov/Archives/edgar/data/1550093/0001193125-26-460134.txt",
+    "distinct_positions": 8,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 148715638.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "16935C109",
+        "security_class": "COM SHS CL A",
+        "issuer": "CHIME FINL INC",
+        "shares": 3176806.0,
+        "value_usd": 84630112.0,
+        "weight_pct": 56.91
+      },
+      {
+        "cusip": "349381103",
+        "security_class": "COM CL A",
+        "issuer": "FIGURE TECHNOLOGY SOLUTIO",
+        "shares": 1632677.0,
+        "value_usd": 47102731.0,
+        "weight_pct": 31.67
+      },
+      {
+        "cusip": "55083R203",
+        "security_class": "COM NEW",
+        "issuer": "LYELL IMMUNOPHARMA INC",
+        "shares": 754698.0,
+        "value_usd": 7388493.0,
+        "weight_pct": 4.97
+      },
+      {
+        "cusip": "98422D105",
+        "security_class": "ADS",
+        "issuer": "XPENG INC",
+        "shares": 650808.0,
+        "value_usd": 6221724.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 47186.0,
+        "value_usd": 2233785.0,
+        "weight_pct": 1.5
+      },
+      {
+        "cusip": "770701100",
+        "security_class": "COM SHS",
+        "issuer": "ROBINHOOD VENTURES FD I",
+        "shares": 24000.0,
+        "value_usd": 668160.0,
+        "weight_pct": 0.45
+      },
+      {
+        "cusip": "46438R105",
+        "security_class": "SHS",
+        "issuer": "ISHARES ETHEREUM TR",
+        "shares": 22747.0,
+        "value_usd": 457670.0,
+        "weight_pct": 0.31
+      },
+      {
+        "cusip": "985915305",
+        "security_class": "SPON ADS 6000",
+        "issuer": "YIMUTIAN INC",
+        "shares": 10370.0,
+        "value_usd": 12963.0,
+        "weight_pct": 0.01
+      }
+    ],
+    "top_five_pct": 99.23,
+    "top_ten_pct": 100.0,
+    "hhi": 4286.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 3,
+      "increased_positions": 0,
+      "reduced_positions": 4
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001193125-26-334313"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001193125-26-460134"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

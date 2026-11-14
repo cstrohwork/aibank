@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2114194/0001104659-26-126925.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "38cda2abee72266ec7c40c8567f077739683beb00320f4133874e3f63e635ce7",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "0e0ecc8d0db439a848c137bb922f85976e7b09e0d4c264bf2588caa71ab5d333",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126925",
+    "source": "https://www.sec.gov/Archives/edgar/data/2114194/0001104659-26-126925.txt",
+    "distinct_positions": 26,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 65103432.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "912932100",
+        "security_class": "COM",
+        "issuer": "Uniti Group Inc",
+        "shares": 1401907.0,
+        "value_usd": 11747981.0,
+        "weight_pct": 18.05
+      },
+      {
+        "cusip": "231351067",
+        "security_class": "COM",
+        "issuer": "Amazon.com Inc",
+        "shares": 30700.0,
+        "value_usd": 7648905.0,
+        "weight_pct": 11.75
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "COM",
+        "issuer": "Mastercard Inc",
+        "shares": 6700.0,
+        "value_usd": 3694849.0,
+        "weight_pct": 5.68
+      },
+      {
+        "cusip": "02079K404",
+        "security_class": "DEP SHS RP1/20 A",
+        "issuer": "Alphabet Inc.",
+        "shares": 68000.0,
+        "value_usd": 3374160.0,
+        "weight_pct": 5.18
+      },
+      {
+        "cusip": "02079K602",
+        "security_class": "DEP SHS RP1/20 B",
+        "issuer": "Alphabet Inc.",
+        "shares": 68000.0,
+        "value_usd": 3374160.0,
+        "weight_pct": 5.18
+      },
+      {
+        "cusip": "43300A203",
+        "security_class": "COM",
+        "issuer": "Hilton Worldwide Holdings Inc",
+        "shares": 9550.0,
+        "value_usd": 3038046.0,
+        "weight_pct": 4.67
+      },
+      {
+        "cusip": "92552V100",
+        "security_class": "COM",
+        "issuer": "Viasat Inc",
+        "shares": 42000.0,
+        "value_usd": 2955960.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "437076102",
+        "security_class": "COM",
+        "issuer": "Home Depot Inc",
+        "shares": 9750.0,
+        "value_usd": 2773778.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "09260D107",
+        "security_class": "COM",
+        "issuer": "Blackstone Inc",
+        "shares": 22100.0,
+        "value_usd": 2477189.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "278768106",
+        "security_class": "COM",
+        "issuer": "EchoStar Corp",
+        "shares": 24500.0,
+        "value_usd": 2190545.0,
+        "weight_pct": 3.36
+      }
+    ],
+    "top_five_pct": 45.83,
+    "top_ten_pct": 66.47,
+    "hhi": 716.5,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 5,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096622"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126925"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

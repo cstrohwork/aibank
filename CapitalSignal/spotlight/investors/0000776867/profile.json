@@ -13,8 +13,60 @@
     "https://www.sec.gov/Archives/edgar/data/776867/0001628280-26-073472.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ef284db28c4236a8aa4f992ff36e400a7f9be87ad6af86f1fef2d3eae71fb6c5",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "2a751fe7fc0f838b7924361709bc31619e57e496f8e415a0275c98c991e8d9d4",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001628280-26-073472",
+    "source": "https://www.sec.gov/Archives/edgar/data/776867/0001628280-26-073472.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 374891321.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 267500.0,
+        "value_usd": 204003525.0,
+        "weight_pct": 54.42
+      },
+      {
+        "cusip": "58450V104",
+        "security_class": "CL A",
+        "issuer": "MEDIAALPHA INC",
+        "shares": 17856614.0,
+        "value_usd": 170887796.0,
+        "weight_pct": 45.58
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5039.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001104659-26-094905"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001628280-26-073472"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

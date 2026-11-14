@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1908944/0001986152-26-000194.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "74e0bb0cbd21ecec1a767a73c509cc75f4bd5eac1e8d1981740537bd85748a8b",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "170a2e79d5170f3686092b3b0621101d6349339861417e400ce03bea4a81fa03",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001986152-26-000194",
+    "source": "https://www.sec.gov/Archives/edgar/data/1908944/0001986152-26-000194.txt",
+    "distinct_positions": 154,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 461475466.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 101719.0,
+        "value_usd": 77901372.0,
+        "weight_pct": 16.88
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "ETF",
+        "issuer": "INVESCO NASDAQ 100 ETF",
+        "shares": 137388.0,
+        "value_usd": 41853873.0,
+        "weight_pct": 9.07
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 75377.0,
+        "value_usd": 38661108.0,
+        "weight_pct": 8.38
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "ETF",
+        "issuer": "VANGUARD FTSE DEVELOPED MARKETS ETF",
+        "shares": 509982.0,
+        "value_usd": 36009840.0,
+        "weight_pct": 7.8
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 143488.0,
+        "value_usd": 35750061.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "ETF",
+        "issuer": "VANGUARD TOTAL WORLD STOCK ETF",
+        "shares": 120866.0,
+        "value_usd": 19078652.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 76601.0,
+        "value_usd": 17494042.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "ETF",
+        "issuer": "CGDV - CAPITAL GROUP DIVIDEND VALUE ETF",
+        "shares": 241667.0,
+        "value_usd": 11805445.0,
+        "weight_pct": 2.56
+      },
+      {
+        "cusip": "464287242",
+        "security_class": "ETF",
+        "issuer": "LQD - ISHARES IBOXX $ INVESTMENT GRADE CORPORATE BOND ETF",
+        "shares": 98785.0,
+        "value_usd": 10093863.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR MID-CAP ETF",
+        "shares": 128008.0,
+        "value_usd": 10038372.0,
+        "weight_pct": 2.18
+      }
+    ],
+    "top_five_pct": 49.88,
+    "top_ten_pct": 64.72,
+    "hhi": 639.41,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 52,
+      "exited_positions": 4,
+      "increased_positions": 74,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001986152-26-000120"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001986152-26-000194"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

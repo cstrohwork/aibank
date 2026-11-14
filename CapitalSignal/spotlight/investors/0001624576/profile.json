@@ -13,8 +13,68 @@
     "https://www.sec.gov/Archives/edgar/data/1624576/0001624576-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "239111dc7476d462cd9ca1bbe2aed1459938c3eb17a607c5c107b3760b8e6aaa",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "09e91d23c9e33b36f8a700d9cf398046388b709b2cdab36e759a63450699531f",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001624576-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1624576/0001624576-26-000012.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 144683033.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "947002101",
+        "security_class": "COM",
+        "issuer": "WEALTHFRONT CORP",
+        "shares": 13813473.0,
+        "value_usd": 143383850.0,
+        "weight_pct": 99.1
+      },
+      {
+        "cusip": "852234103",
+        "security_class": "CL A",
+        "issuer": "BLOCK INC",
+        "shares": 13412.0,
+        "value_usd": 986184.0,
+        "weight_pct": 0.68
+      },
+      {
+        "cusip": "68376D104",
+        "security_class": "COM",
+        "issuer": "OPORTUN FINL CORP",
+        "shares": 38452.0,
+        "value_usd": 312999.0,
+        "weight_pct": 0.22
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9821.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001624576-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001624576-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

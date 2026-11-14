@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1748861/0001754960-26-000999.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d39387be892aa420159e865780bb54ad610288cfd09bb3d8cb6d60d68f57b0f2",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "db81fb64fcb14465896aad7652d2aac336c023b0ca75f3304b26e0bfa1eb4462",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001754960-26-000999",
+    "source": "https://www.sec.gov/Archives/edgar/data/1748861/0001754960-26-000999.txt",
+    "distinct_positions": 478,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 897522954.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 1102546.0,
+        "value_usd": 53859353.0,
+        "weight_pct": 6.0
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 111519.0,
+        "value_usd": 41735054.0,
+        "weight_pct": 4.65
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 84950.0,
+        "value_usd": 28289927.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 35626.0,
+        "value_usd": 24969065.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 564122.0,
+        "value_usd": 24426473.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 104618.0,
+        "value_usd": 23892682.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 86979.0,
+        "value_usd": 21670712.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 26767.0,
+        "value_usd": 20499355.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 193894.0,
+        "value_usd": 17471829.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 33378.0,
+        "value_usd": 17119356.0,
+        "weight_pct": 1.91
+      }
+    ],
+    "top_five_pct": 19.31,
+    "top_ten_pct": 30.52,
+    "hhi": 145.13,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 150,
+      "exited_positions": 186,
+      "increased_positions": 132,
+      "reduced_positions": 193
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001754960-25-000710"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001754960-26-000999"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

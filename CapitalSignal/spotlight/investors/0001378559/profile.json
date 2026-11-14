@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1378559/0001378559-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e954ebd779f6f528315a3f0e7ada156f719f50fb054590a80f119a53ef3a51c0",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "9b85c335d25b5d6c00ae854cb80e56ed9e422256013c5abb56cde6652a4c23dc",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001378559-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1378559/0001378559-26-000006.txt",
+    "distinct_positions": 122,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 299004684.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "Nvidia Corporation",
+        "shares": 205057.0,
+        "value_usd": 46830988.0,
+        "weight_pct": 15.66
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 69706.0,
+        "value_usd": 23213411.0,
+        "weight_pct": 7.76
+      },
+      {
+        "cusip": "88262P102",
+        "security_class": "COM",
+        "issuer": "Texas Pacific Land Corporation",
+        "shares": 61981.0,
+        "value_usd": 20195329.0,
+        "weight_pct": 6.75
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "Amazon.Com Inc",
+        "shares": 43736.0,
+        "value_usd": 10896824.0,
+        "weight_pct": 3.64
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "Micron Technology Inc",
+        "shares": 8120.0,
+        "value_usd": 8648693.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "35671D857",
+        "security_class": "COM",
+        "issuer": "Freeport-Mcmoran Inc Cl B",
+        "shares": 121637.0,
+        "value_usd": 8514608.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM",
+        "issuer": "Exxonmobil Holdings Corp",
+        "shares": 44510.0,
+        "value_usd": 7244072.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "Caterpillar Inc",
+        "shares": 7797.0,
+        "value_usd": 6321409.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "30609A109",
+        "security_class": "COM",
+        "issuer": "Oneok Inc",
+        "shares": 67495.0,
+        "value_usd": 5755269.0,
+        "weight_pct": 1.92
+      },
+      {
+        "cusip": "G8068L108",
+        "security_class": "COM",
+        "issuer": "Sharkninja Inc",
+        "shares": 27431.0,
+        "value_usd": 4940872.0,
+        "weight_pct": 1.65
+      }
+    ],
+    "top_five_pct": 36.72,
+    "top_ten_pct": 47.68,
+    "hhi": 441.95,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 15,
+      "increased_positions": 53,
+      "reduced_positions": 47
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001378559-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001378559-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001378559-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

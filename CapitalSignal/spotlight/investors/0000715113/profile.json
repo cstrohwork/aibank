@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/715113/0001765380-26-000489.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "bf20c988f836fbd5c465b1a620f7fda53aa379ef1de0ad4958941c75c6619375",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "4b78e8c7c076a117e05e70f605956abf0ad837f439a4d687c7097fb394a9b5d5",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001765380-26-000489",
+    "source": "https://www.sec.gov/Archives/edgar/data/715113/0001765380-26-000489.txt",
+    "distinct_positions": 231,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 948106777.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 145824.0,
+        "value_usd": 102202469.0,
+        "weight_pct": 10.78
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 298229.0,
+        "value_usd": 69579853.0,
+        "weight_pct": 7.34
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 1185170.0,
+        "value_usd": 59815508.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "72201R833",
+        "security_class": "ENHAN SHRT MA AC",
+        "issuer": "PIMCO ETF TR",
+        "shares": 572428.0,
+        "value_usd": 57557686.0,
+        "weight_pct": 6.07
+      },
+      {
+        "cusip": "87283Q107",
+        "security_class": "PRICE BLUE CHIP",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 1029708.0,
+        "value_usd": 52937271.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 141110.0,
+        "value_usd": 46992446.0,
+        "weight_pct": 4.96
+      },
+      {
+        "cusip": "092528603",
+        "security_class": "ISHA FLEX IN ETF",
+        "issuer": "BLACKROCK ETF TRUST II",
+        "shares": 916206.0,
+        "value_usd": 46534099.0,
+        "weight_pct": 4.91
+      },
+      {
+        "cusip": "05613H100",
+        "security_class": "DYNAMIC VALUE",
+        "issuer": "BNY MELLON ETF TRUST II",
+        "shares": 1056033.0,
+        "value_usd": 35588320.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 839005.0,
+        "value_usd": 31554971.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 113146.0,
+        "value_usd": 25840381.0,
+        "weight_pct": 2.73
+      }
+    ],
+    "top_five_pct": 36.08,
+    "top_ten_pct": 55.75,
+    "hhi": 403.03,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 28,
+      "increased_positions": 95,
+      "reduced_positions": 98
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001765380-25-000449"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001765380-26-000331"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001765380-26-000489"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

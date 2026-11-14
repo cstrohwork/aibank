@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1580018/0001580018-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c16daec6d5bbecde79cd995fe9fc04e995156764fa584b88144d27b7385863f6",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "8f89539a9ecdedaa129a37fcbac633648f473b4e4fef7cbeb68eeb8852756881",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001580018-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1580018/0001580018-26-000007.txt",
+    "distinct_positions": 33,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 143875484.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "366505105",
+        "security_class": "COM",
+        "issuer": "GARRETT MOTION INC",
+        "shares": 949885.0,
+        "value_usd": 24725507.0,
+        "weight_pct": 17.19
+      },
+      {
+        "cusip": "00091E109",
+        "security_class": "COM",
+        "issuer": "ABSCI CORPORATION",
+        "shares": 2170863.0,
+        "value_usd": 23380195.0,
+        "weight_pct": 16.25
+      },
+      {
+        "cusip": "M0740A108",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "ALPHA TAU MEDICAL LTD",
+        "shares": 1434476.0,
+        "value_usd": 21388037.0,
+        "weight_pct": 14.87
+      },
+      {
+        "cusip": "68403P203",
+        "security_class": "COM NEW",
+        "issuer": "ORAMED PHARMACEUTICALS INC",
+        "shares": 1998802.0,
+        "value_usd": 9334405.0,
+        "weight_pct": 6.49
+      },
+      {
+        "cusip": "85208R101",
+        "security_class": "PHYSICAL GOLD AN",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 187561.0,
+        "value_usd": 7791284.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "86333M108",
+        "security_class": "COM",
+        "issuer": "STRIDE INC",
+        "shares": 98435.0,
+        "value_usd": 7675961.0,
+        "weight_pct": 5.34
+      },
+      {
+        "cusip": "83601L102",
+        "security_class": "COM",
+        "issuer": "SOTERA HEALTH CO",
+        "shares": 312715.0,
+        "value_usd": 5782100.0,
+        "weight_pct": 4.02
+      },
+      {
+        "cusip": "125269100",
+        "security_class": "COM",
+        "issuer": "CF INDUSTRIES HOLD",
+        "shares": 50000.0,
+        "value_usd": 5760000.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "693282105",
+        "security_class": "COM",
+        "issuer": "PDF SOLUTIONS INC",
+        "shares": 105171.0,
+        "value_usd": 5368980.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "790148100",
+        "security_class": "COM",
+        "issuer": "ST JOE CO",
+        "shares": 81142.0,
+        "value_usd": 5337521.0,
+        "weight_pct": 3.71
+      }
+    ],
+    "top_five_pct": 60.2,
+    "top_ten_pct": 81.0,
+    "hhi": 984.51,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 2,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001580018-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001580018-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

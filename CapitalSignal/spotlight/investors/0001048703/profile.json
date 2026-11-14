@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1048703/0001072613-26-000888.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "78415acd8cae1c8b7c8dcea0aa0694ef577371b48f23a25d16b227d4fabf4d36",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e5cbebc0c727f186916e81ba03f57b8e5736dccfd359f020333742a2e8e748e4",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001072613-26-000888",
+    "source": "https://www.sec.gov/Archives/edgar/data/1048703/0001072613-26-000888.txt",
+    "distinct_positions": 249,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3335442981.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS S&P 500 ETF SH",
+        "shares": 366789.0,
+        "value_usd": 257067591.0,
+        "weight_pct": 7.71
+      },
+      {
+        "cusip": "09253N104",
+        "security_class": "COM",
+        "issuer": "BLACKROCK MUNIHOLDINGS FUND INC",
+        "shares": 19552384.0,
+        "value_usd": 200607463.0,
+        "weight_pct": 6.01
+      },
+      {
+        "cusip": "921937793",
+        "security_class": "LONG TERM BOND",
+        "issuer": "VANGUARD BD INDEX FD INC LONG TERM BOND",
+        "shares": 2127554.0,
+        "value_usd": 133461459.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "09257P105",
+        "security_class": "COM SHS BEN IN",
+        "issuer": "BLACKROCK 2030 MUNICIPAL TARGET TERM TRUST",
+        "shares": 4401570.0,
+        "value_usd": 96130294.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS SMALL CP ETF",
+        "shares": 318564.0,
+        "value_usd": 90628283.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES LEHMAN 20-plus YR TREAS",
+        "shares": 930116.0,
+        "value_usd": 72344422.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY INDEX FD ALLWRLD EX US",
+        "shares": 866749.0,
+        "value_usd": 71914164.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX FD FTSE EMR MKT ETF",
+        "shares": 1199630.0,
+        "value_usd": 71150027.0,
+        "weight_pct": 2.13
+      },
+      {
+        "cusip": "09255E102",
+        "security_class": "COM",
+        "issuer": "BLACKROCK MUNIYIELD NEW YORK QUALITY FUND INC",
+        "shares": 7837054.0,
+        "value_usd": 68652594.0,
+        "weight_pct": 2.06
+      },
+      {
+        "cusip": "95766Q106",
+        "security_class": "COM SH BEN INT",
+        "issuer": "WESTERN ASSET CLYM INFL SEC IN COM SH BEN INT",
+        "shares": 8895320.0,
+        "value_usd": 67693385.0,
+        "weight_pct": 2.03
+      }
+    ],
+    "top_five_pct": 23.32,
+    "top_ten_pct": 33.87,
+    "hhi": 191.65,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 31,
+      "exited_positions": 15,
+      "increased_positions": 73,
+      "reduced_positions": 118
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001072613-26-000683"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001072613-26-000888"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

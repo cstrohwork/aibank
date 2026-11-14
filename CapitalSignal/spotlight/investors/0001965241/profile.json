@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1965241/0001104659-26-126661.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5c6c2869bd6858870b2befac6d7a464a3a23f6d54eb7a94dc5a371c5e2820efe",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "d10240ff73f87628bceaa3dda680c07e2c247909ef093b1ae2db1f392a6e0922",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126661",
+    "source": "https://www.sec.gov/Archives/edgar/data/1965241/0001104659-26-126661.txt",
+    "distinct_positions": 437,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1513660320.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 2239128.0,
+        "value_usd": 201816517.0,
+        "weight_pct": 13.33
+      },
+      {
+        "cusip": "25434V666",
+        "security_class": "US LARG VALU ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 3105201.0,
+        "value_usd": 124741509.0,
+        "weight_pct": 8.24
+      },
+      {
+        "cusip": "233051200",
+        "security_class": "XTRACK MSCI EAFE",
+        "issuer": "DBX ETF TR",
+        "shares": 1542421.0,
+        "value_usd": 84757467.0,
+        "weight_pct": 5.6
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1141644.0,
+        "value_usd": 45348294.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 602118.0,
+        "value_usd": 42517426.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "922908595",
+        "security_class": "MRNGSTR SM CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 124654.0,
+        "value_usd": 42112103.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 186625.0,
+        "value_usd": 40328818.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "25239Y170",
+        "security_class": "U.S. SML CP VAL *A*",
+        "issuer": "DFA INVT DIMENSIONS GROUP IN",
+        "shares": 1018260.0,
+        "value_usd": 38154216.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 109796.0,
+        "value_usd": 36562444.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 871161.0,
+        "value_usd": 32765022.0,
+        "weight_pct": 2.16
+      }
+    ],
+    "top_five_pct": 32.98,
+    "top_ten_pct": 45.53,
+    "hhi": 350.6,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 54,
+      "exited_positions": 45,
+      "increased_positions": 254,
+      "reduced_positions": 100
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001104659-26-091095"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126661"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

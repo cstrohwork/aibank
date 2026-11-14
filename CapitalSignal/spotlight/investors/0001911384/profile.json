@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1911384/0001911384-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0ab1aad1848ce5c764bd8e6003961f80975c53eeb86df247a8b27ca9fea09895",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e4b62bd2a490b2d93bbdc949f0dd49386045fa51ba84f57ab5e875c243fff4bb",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001911384-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1911384/0001911384-26-000011.txt",
+    "distinct_positions": 92,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 201368361.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 123278.0,
+        "value_usd": 24131615.0,
+        "weight_pct": 11.98
+      },
+      {
+        "cusip": "464287721",
+        "security_class": "U.S. TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 70392.0,
+        "value_usd": 18646776.0,
+        "weight_pct": 9.26
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 463803.0,
+        "value_usd": 15087496.0,
+        "weight_pct": 7.49
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 20475.0,
+        "value_usd": 14350080.0,
+        "weight_pct": 7.13
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 56938.0,
+        "value_usd": 13284211.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 25134.0,
+        "value_usd": 8370243.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "74316P579",
+        "security_class": "AKRE FOCUS ETF",
+        "issuer": "PROFESIONALLY MANAGED PORTFO",
+        "shares": 110120.0,
+        "value_usd": 5800020.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 51032.0,
+        "value_usd": 5303255.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "464287168",
+        "security_class": "SELECT DIVID ETF",
+        "issuer": "ISHARES TR",
+        "shares": 34386.0,
+        "value_usd": 5229083.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 10071.0,
+        "value_usd": 5165597.0,
+        "weight_pct": 2.57
+      }
+    ],
+    "top_five_pct": 42.46,
+    "top_ten_pct": 57.29,
+    "hhi": 464.67,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 14,
+      "exited_positions": 17,
+      "increased_positions": 23,
+      "reduced_positions": 54
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001911384-25-000016"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001911384-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

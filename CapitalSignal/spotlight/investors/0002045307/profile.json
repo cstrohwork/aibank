@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2045307/0001214659-26-014101.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c994de5e02c69d1fed77e88ed52e6a3a9aa2e300de85eec1e1dc4e5847500f53",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "ce48dbf56feac9f1e1e50d46e9b98bb940c06af217f5fbc38738abfb9a00ae59",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001214659-26-014101",
+    "source": "https://www.sec.gov/Archives/edgar/data/2045307/0001214659-26-014101.txt",
+    "distinct_positions": 165,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 224271422.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 14380.0,
+        "value_usd": 10078661.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 22738.0,
+        "value_usd": 9461964.0,
+        "weight_pct": 4.22
+      },
+      {
+        "cusip": "78467X109",
+        "security_class": "UT SER 1",
+        "issuer": "STATE STR SPDR DOW JONES IND",
+        "shares": 18333.0,
+        "value_usd": 9323039.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 115963.0,
+        "value_usd": 8953473.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 251551.0,
+        "value_usd": 8182955.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 278401.0,
+        "value_usd": 7647675.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 7227.0,
+        "value_usd": 5346040.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 88937.0,
+        "value_usd": 4488664.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 5673.0,
+        "value_usd": 4344921.0,
+        "weight_pct": 1.94
+      },
+      {
+        "cusip": "172908105",
+        "security_class": "COM",
+        "issuer": "CINTAS CORP",
+        "shares": 21530.0,
+        "value_usd": 4199642.0,
+        "weight_pct": 1.87
+      }
+    ],
+    "top_five_pct": 20.51,
+    "top_ten_pct": 32.12,
+    "hhi": 162.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 21,
+      "exited_positions": 8,
+      "increased_positions": 56,
+      "reduced_positions": 64
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001214659-26-009836"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001214659-26-014101"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

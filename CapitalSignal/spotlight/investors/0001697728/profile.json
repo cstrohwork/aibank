@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1697728/0000898432-26-000780.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d11fc13747322b23ad1f58615da1ef0e7eb70827551c3b69c6f1e33111ff9c60",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "42f36918b318c77c3f5cfe1b392840e667ed64d042337c01e96bbb5b3f7d8359",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0000898432-26-000780",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697728/0000898432-26-000780.txt",
+    "distinct_positions": 462,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4264347307.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 762504.0,
+        "value_usd": 253929082.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 1108601.0,
+        "value_usd": 253182296.0,
+        "weight_pct": 5.94
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 382121.0,
+        "value_usd": 195989861.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 373359.0,
+        "value_usd": 142190042.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 488368.0,
+        "value_usd": 121676887.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 203521.0,
+        "value_usd": 115730181.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 293073.0,
+        "value_usd": 100840558.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 253125.0,
+        "value_usd": 88894969.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 246788.0,
+        "value_usd": 84090543.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 99952.0,
+        "value_usd": 72483191.0,
+        "weight_pct": 1.7
+      }
+    ],
+    "top_five_pct": 22.68,
+    "top_ten_pct": 33.51,
+    "hhi": 166.32,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 27,
+      "increased_positions": 116,
+      "reduced_positions": 224
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000898432-26-000641"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0000898432-26-000780"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

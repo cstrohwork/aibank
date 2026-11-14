@@ -14,8 +14,81 @@
     "https://www.sec.gov/Archives/edgar/data/2058702/0001214659-26-014081.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0272b43c1020ece1800de06e04d219892bb570a876437588340af9b2cf23be0a",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e77464bc1aa5f0073f2725be0d05a63c186c77adadcd9fe05490b0ee793ea930",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001214659-26-014081",
+    "source": "https://www.sec.gov/Archives/edgar/data/2058702/0001214659-26-014081.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 662260957.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF",
+        "issuer": "VANGUARD INDEX FUNDS",
+        "shares": 929919.0,
+        "value_usd": 651743030.0,
+        "weight_pct": 98.41
+      },
+      {
+        "cusip": "69702V107",
+        "security_class": "COM SHS",
+        "issuer": "PALMER SQUARE CAPITAL BDC IN",
+        "shares": 911854.0,
+        "value_usd": 9018236.0,
+        "weight_pct": 1.36
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "SMALL CP ETF",
+        "issuer": "VANGUARD INDEX FUNDS",
+        "shares": 2644.0,
+        "value_usd": 752192.0,
+        "weight_pct": 0.11
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MIDCAP ETF",
+        "issuer": "VANGUARD INDEX FUNDS",
+        "shares": 9532.0,
+        "value_usd": 747499.0,
+        "weight_pct": 0.11
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9686.77,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001376474-25-000854"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001214659-26-009961"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001214659-26-014081"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1846175/0001951757-26-001908.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7559274fea612f54ce1eda13f59e57ae546e6a344926c773643f6f0f7d310596",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "3e5172a209f2e94a223cb37287695b43c20bb222273a7929dc5ac9540a2cd4fd",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001951757-26-001908",
+    "source": "https://www.sec.gov/Archives/edgar/data/1846175/0001951757-26-001908.txt",
+    "distinct_positions": 390,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 663148389.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 472459.0,
+        "value_usd": 33360301.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 40114.0,
+        "value_usd": 30592034.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 322149.0,
+        "value_usd": 29028811.0,
+        "weight_pct": 4.38
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 29263.0,
+        "value_usd": 22411449.0,
+        "weight_pct": 3.38
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 101851.0,
+        "value_usd": 22008005.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 59770.0,
+        "value_usd": 20366034.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 27374.0,
+        "value_usd": 20250376.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 53645.0,
+        "value_usd": 17864799.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 37860.0,
+        "value_usd": 13026767.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 209993.0,
+        "value_usd": 12454659.0,
+        "weight_pct": 1.88
+      }
+    ],
+    "top_five_pct": 20.72,
+    "top_ten_pct": 33.38,
+    "hhi": 154.88,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 136,
+      "exited_positions": 73,
+      "increased_positions": 134,
+      "reduced_positions": 115
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001951757-25-001152"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001951757-26-001908"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

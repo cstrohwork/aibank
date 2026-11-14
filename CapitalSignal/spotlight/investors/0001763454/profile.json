@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1763454/0002085853-26-001381.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "bdd9e4ce38f9503a21e5932e856ae8bca5ab8314a35f8f1802d9ef55082ae46d",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "4a550ba75d5ff07b5eb80b65fd5c645a4e046805dcf4516f349483ebfe3cf934",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002085853-26-001381",
+    "source": "https://www.sec.gov/Archives/edgar/data/1763454/0002085853-26-001381.txt",
+    "distinct_positions": 169,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 134674969.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 112643.0,
+        "value_usd": 7953744.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 17553.0,
+        "value_usd": 4008830.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 48879.0,
+        "value_usd": 3827739.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 8750.0,
+        "value_usd": 2913836.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 5862.0,
+        "value_usd": 2674290.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 7318.0,
+        "value_usd": 2570130.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 4547.0,
+        "value_usd": 2332380.0,
+        "weight_pct": 1.73
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 39005.0,
+        "value_usd": 2313390.0,
+        "weight_pct": 1.72
+      },
+      {
+        "cusip": "24703L202",
+        "security_class": "CL C",
+        "issuer": "DELL TECHNOLOGIES INC",
+        "shares": 3425.0,
+        "value_usd": 1842689.0,
+        "weight_pct": 1.37
+      },
+      {
+        "cusip": "464287457",
+        "security_class": "1 3 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 22327.0,
+        "value_usd": 1812928.0,
+        "weight_pct": 1.35
+      }
+    ],
+    "top_five_pct": 15.87,
+    "top_ten_pct": 23.95,
+    "hhi": 121.75,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 16,
+      "exited_positions": 21,
+      "increased_positions": 111,
+      "reduced_positions": 40
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002085853-26-001013"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002085853-26-001381"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

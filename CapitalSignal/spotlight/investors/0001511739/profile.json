@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1511739/0001511739-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "34937d46092859eaa981e309b34a02fe82619b2c6764c152f49b58eb1c315db2",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "40701dd03d974a3eb256da5fdd7dd1d2ac1bfdc953b665c9085f230e5df8f559",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001511739-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1511739/0001511739-26-000004.txt",
+    "distinct_positions": 236,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 200865743.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 33161.0,
+        "value_usd": 7573309.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 67871.0,
+        "value_usd": 6833221.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 52576.0,
+        "value_usd": 4059395.0,
+        "weight_pct": 2.02
+      },
+      {
+        "cusip": "33939L860",
+        "security_class": "NRTRN TR QLT DIV",
+        "issuer": "FLEXSHARES TR",
+        "shares": 41961.0,
+        "value_usd": 3786561.0,
+        "weight_pct": 1.89
+      },
+      {
+        "cusip": "33939L837",
+        "security_class": "NRTRN TR INTL QL",
+        "issuer": "FLEXSHARES TR",
+        "shares": 99687.0,
+        "value_usd": 3429233.0,
+        "weight_pct": 1.71
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 4386.0,
+        "value_usd": 3359166.0,
+        "weight_pct": 1.67
+      },
+      {
+        "cusip": "464287457",
+        "security_class": "1 3 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 38654.0,
+        "value_usd": 3138705.0,
+        "weight_pct": 1.56
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 10769.0,
+        "value_usd": 3063535.0,
+        "weight_pct": 1.53
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MRNGSTR MID CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 33917.0,
+        "value_usd": 2659795.0,
+        "weight_pct": 1.32
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 7911.0,
+        "value_usd": 2634557.0,
+        "weight_pct": 1.31
+      }
+    ],
+    "top_five_pct": 12.79,
+    "top_ten_pct": 20.18,
+    "hhi": 89.5,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 69,
+      "exited_positions": 51,
+      "increased_positions": 111,
+      "reduced_positions": 52
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001511739-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001511739-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

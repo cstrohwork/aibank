@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1916908/0001420506-26-002583.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "662b30488d02d1667b4d3b0425897e58725588670e9538e320d9f1a58518bbb3",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "cf60c738c61ddca3a3559fd912ce45da718041499df9a56100318f7a6a430fa3",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001420506-26-002583",
+    "source": "https://www.sec.gov/Archives/edgar/data/1916908/0001420506-26-002583.txt",
+    "distinct_positions": 1003,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 763969164.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 57110.0,
+        "value_usd": 6866335.0,
+        "weight_pct": 0.9
+      },
+      {
+        "cusip": "025816109",
+        "security_class": "COM",
+        "issuer": "AMERICAN EXPRESS CO",
+        "shares": 17321.0,
+        "value_usd": 5267316.0,
+        "weight_pct": 0.69
+      },
+      {
+        "cusip": "958102105",
+        "security_class": "COM",
+        "issuer": "WESTERN DIGITAL CORP",
+        "shares": 11519.0,
+        "value_usd": 5234925.0,
+        "weight_pct": 0.69
+      },
+      {
+        "cusip": "303250104",
+        "security_class": "COM",
+        "issuer": "FAIR ISAAC CORP",
+        "shares": 8259.0,
+        "value_usd": 4893210.0,
+        "weight_pct": 0.64
+      },
+      {
+        "cusip": "617446448",
+        "security_class": "COM NEW",
+        "issuer": "MORGAN STANLEY",
+        "shares": 25525.0,
+        "value_usd": 4800742.0,
+        "weight_pct": 0.63
+      },
+      {
+        "cusip": "064058100",
+        "security_class": "COM",
+        "issuer": "BANK OF NY MELLON CORP",
+        "shares": 31912.0,
+        "value_usd": 4615433.0,
+        "weight_pct": 0.6
+      },
+      {
+        "cusip": "499049104",
+        "security_class": "CL A",
+        "issuer": "KNIGHT-SWIFT TRANSN HLDGS IN",
+        "shares": 69002.0,
+        "value_usd": 4387837.0,
+        "weight_pct": 0.57
+      },
+      {
+        "cusip": "80004C200",
+        "security_class": "COM",
+        "issuer": "SANDISK CORP",
+        "shares": 2494.0,
+        "value_usd": 4339286.0,
+        "weight_pct": 0.57
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 29483.0,
+        "value_usd": 4283290.0,
+        "weight_pct": 0.56
+      },
+      {
+        "cusip": "929160109",
+        "security_class": "COM",
+        "issuer": "VULCAN MATLS CO",
+        "shares": 16932.0,
+        "value_usd": 4142075.0,
+        "weight_pct": 0.54
+      }
+    ],
+    "top_five_pct": 3.54,
+    "top_ten_pct": 6.39,
+    "hhi": 24.45,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 570,
+      "exited_positions": 527,
+      "increased_positions": 199,
+      "reduced_positions": 234
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001420506-25-003063"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001420506-26-001421"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001420506-26-002583"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

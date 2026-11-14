@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/887748/0000887748-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d27fb45ef8e832856a2f22b9806e0e0fffa02115f4ff5372a7c49c17671e66b0",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "0cb60521c66fa14616511d670b4daee95d17691fe6d597c7e503ec9b9fe72659",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000887748-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/887748/0000887748-26-000008.txt",
+    "distinct_positions": 252,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 374918834.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 25701.0,
+        "value_usd": 18012754.0,
+        "weight_pct": 4.8
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "STATE STREET SPDR       PORTFOLIO S&P 500 ETF",
+        "shares": 124971.0,
+        "value_usd": 11217441.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "VANGUARD FTSE DEVELOPED MARKETS INDEX FUND ETF  SHARES",
+        "shares": 155267.0,
+        "value_usd": 10963381.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "33733E690",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "FT VEST LADDERED        AUTOCALLABLE BARRIER &  INCOME ETF",
+        "shares": 465825.0,
+        "value_usd": 9717107.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "33738D788",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "FIRST TRUST CORE        INVESTMENT GRADE ETF",
+        "shares": 436695.0,
+        "value_usd": 8620358.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "COMMON STOCK",
+        "issuer": "BERKSHIRE HATHAWAY      CLASS            CLASS B",
+        "shares": 15667.0,
+        "value_usd": 7801428.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "244199105",
+        "security_class": "COMMON STOCK",
+        "issuer": "DEERE & CO",
+        "shares": 11145.0,
+        "value_usd": 7484310.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 13094.0,
+        "value_usd": 6715843.0,
+        "weight_pct": 1.79
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC            CLASS            CLASS C",
+        "shares": 18834.0,
+        "value_usd": 6417346.0,
+        "weight_pct": 1.71
+      },
+      {
+        "cusip": "33741X102",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "FIRST TRUST SMID CAP    RISING DIVIDEND         ACHIEVERS ETF",
+        "shares": 151066.0,
+        "value_usd": 6130271.0,
+        "weight_pct": 1.64
+      }
+    ],
+    "top_five_pct": 15.61,
+    "top_ten_pct": 24.83,
+    "hhi": 118.87,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 24,
+      "increased_positions": 124,
+      "reduced_positions": 92
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0000887748-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000887748-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000887748-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

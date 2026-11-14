@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1600035/0001600035-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "96fbe512cd5ade0a8190a239335ed1173b07e32649b7250ce95925350438ae61",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "26122ab73150d2618fbb676d0b1ba83ee1c4f7289851d429a83519685b2a0fa7",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001600035-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1600035/0001600035-26-000004.txt",
+    "distinct_positions": 211,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1601241266.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 179774.0,
+        "value_usd": 92205841.0,
+        "weight_pct": 5.76
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 263663.0,
+        "value_usd": 87805146.0,
+        "weight_pct": 5.48
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "ETF",
+        "issuer": "VANGUARD SHORT-TERM CORPORATE BOND ETF",
+        "shares": 1081551.0,
+        "value_usd": 83549825.0,
+        "weight_pct": 5.22
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 205695.0,
+        "value_usd": 70775592.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 76273.0,
+        "value_usd": 58413450.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 228368.0,
+        "value_usd": 56897878.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 204305.0,
+        "value_usd": 46659262.0,
+        "weight_pct": 2.91
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "ETF",
+        "issuer": "VANGUARD INTERMEDIATE-TERM CORPORATE BOND ETF",
+        "shares": 582392.0,
+        "value_usd": 45607097.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "Stock",
+        "issuer": "META PLATFORMS INC CL A",
+        "shares": 57306.0,
+        "value_usd": 41557395.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ETF",
+        "issuer": "VANGUARD FTSE ALL-WORLD EX-US INDEX FUND",
+        "shares": 476967.0,
+        "value_usd": 39573988.0,
+        "weight_pct": 2.47
+      }
+    ],
+    "top_five_pct": 24.53,
+    "top_ten_pct": 38.91,
+    "hhi": 225.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 16,
+      "increased_positions": 60,
+      "reduced_positions": 103
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001600035-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001600035-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

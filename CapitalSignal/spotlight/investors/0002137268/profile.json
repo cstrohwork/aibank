@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2137268/0002137268-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "462fa8bcac9c46afb89b645e43fd2011137fb53fdf005a18aea643161702c225",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "3b59089377968fcae967676ffaf3b9f584e3fae9a7a15ba08054aec3a757da1b",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002137268-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2137268/0002137268-26-000007.txt",
+    "distinct_positions": 108,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 224265623.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 12171.0,
+        "value_usd": 14082821.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 56030.0,
+        "value_usd": 13959875.0,
+        "weight_pct": 6.22
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 41263.0,
+        "value_usd": 13741404.0,
+        "weight_pct": 6.13
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 16884.0,
+        "value_usd": 8659804.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "097023105",
+        "security_class": "COM",
+        "issuer": "BOEING CO",
+        "shares": 45397.0,
+        "value_usd": 8446112.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "229050307",
+        "security_class": "COM",
+        "issuer": "CRYOPORT INC",
+        "shares": 478643.0,
+        "value_usd": 8328388.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMER CORP",
+        "shares": 124302.0,
+        "value_usd": 6765758.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "74766Q101",
+        "security_class": "COM",
+        "issuer": "QUANTERIX CORP",
+        "shares": 1722816.0,
+        "value_usd": 6391647.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "46654Q203",
+        "security_class": "ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 77945.0,
+        "value_usd": 4774911.0,
+        "weight_pct": 2.13
+      },
+      {
+        "cusip": "29273V100",
+        "security_class": "COM",
+        "issuer": "ENERGY TRANSFER L P",
+        "shares": 232512.0,
+        "value_usd": 4596762.0,
+        "weight_pct": 2.05
+      }
+    ],
+    "top_five_pct": 26.26,
+    "top_ten_pct": 40.02,
+    "hhi": 247.72,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 15,
+      "increased_positions": 9,
+      "reduced_positions": 8
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0002137268-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002137268-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

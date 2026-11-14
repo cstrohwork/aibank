@@ -13,8 +13,108 @@
     "https://www.sec.gov/Archives/edgar/data/1977548/0001977548-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "10a70ab64be0bee88e5a10a3a826a9e9533e02adafaea3e679e43f2c915ae601",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e8c4d7de32c6ed85f9e5f33bb072444f7bb70a2f148d8da528a7fd14eae79d36",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001977548-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1977548/0001977548-26-000007.txt",
+    "distinct_positions": 8,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 442347125.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "04016X101",
+        "security_class": "SPONSORED ADR",
+        "issuer": "ARGENX SE",
+        "shares": 181500.0,
+        "value_usd": 174042165.0,
+        "weight_pct": 39.35
+      },
+      {
+        "cusip": "76243J105",
+        "security_class": "COM",
+        "issuer": "RHYTHM PHARMACEUTICALS INC",
+        "shares": 1216574.0,
+        "value_usd": 115836093.0,
+        "weight_pct": 26.19
+      },
+      {
+        "cusip": "76155X100",
+        "security_class": "COM",
+        "issuer": "REVOLUTION MEDICINES INC",
+        "shares": 422911.0,
+        "value_usd": 86806712.0,
+        "weight_pct": 19.62
+      },
+      {
+        "cusip": "23282W605",
+        "security_class": "COM NEW",
+        "issuer": "CYTOKINETICS INC",
+        "shares": 517278.0,
+        "value_usd": 34093793.0,
+        "weight_pct": 7.71
+      },
+      {
+        "cusip": "254604101",
+        "security_class": "COM",
+        "issuer": "DISC MEDICINE INC",
+        "shares": 399830.0,
+        "value_usd": 26172872.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "81734D104",
+        "security_class": "COM",
+        "issuer": "SEPTERNA INC",
+        "shares": 64000.0,
+        "value_usd": 2504320.0,
+        "weight_pct": 0.57
+      },
+      {
+        "cusip": "89532M101",
+        "security_class": "COM",
+        "issuer": "TREVI THERAPEUTICS INC",
+        "shares": 137000.0,
+        "value_usd": 1961840.0,
+        "weight_pct": 0.44
+      },
+      {
+        "cusip": "H5870P102",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "OCULIS HOLDING AG",
+        "shares": 99500.0,
+        "value_usd": 929330.0,
+        "weight_pct": 0.21
+      }
+    ],
+    "top_five_pct": 98.78,
+    "top_ten_pct": 100.0,
+    "hhi": 2713.87,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 0,
+      "increased_positions": 6,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001977548-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001977548-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

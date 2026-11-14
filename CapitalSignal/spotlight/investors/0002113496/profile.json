@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2113496/0001104659-26-126643.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b73a80d65901b741dfff9120c6ae50a448b89cd5c49f65be6bf630f9ace8c725",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "a8164ad17605ad278dfc6c0b1be294c5cab2f41ed1f100dd7827ad70b932772f",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126643",
+    "source": "https://www.sec.gov/Archives/edgar/data/2113496/0001104659-26-126643.txt",
+    "distinct_positions": 276,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 904223076.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 60968.0,
+        "value_usd": 46692085.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 444838.0,
+        "value_usd": 43095901.0,
+        "weight_pct": 4.77
+      },
+      {
+        "cusip": "210322731",
+        "security_class": "POLEN DIVID ETF",
+        "issuer": "ELEVATION SERIES TRUST",
+        "shares": 1014386.0,
+        "value_usd": 37035231.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "210322707",
+        "security_class": "POLEN INTL DIV",
+        "issuer": "ELEVATION SERIES TRUST",
+        "shares": 891882.0,
+        "value_usd": 29432096.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 299941.0,
+        "value_usd": 26922699.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 312689.0,
+        "value_usd": 25377795.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "75526L670",
+        "security_class": "PATHFINDER DISC",
+        "issuer": "RBB FUND TRUST",
+        "shares": 876966.0,
+        "value_usd": 24729021.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 197156.0,
+        "value_usd": 24695697.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "46432F834",
+        "security_class": "CORE MSCI TOTAL",
+        "issuer": "ISHARES TR",
+        "shares": 259110.0,
+        "value_usd": 24612902.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 274752.0,
+        "value_usd": 19768423.0,
+        "weight_pct": 2.19
+      }
+    ],
+    "top_five_pct": 20.26,
+    "top_ten_pct": 33.44,
+    "hhi": 181.27,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 103,
+      "exited_positions": 17,
+      "increased_positions": 119,
+      "reduced_positions": 36
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096738"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126643"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

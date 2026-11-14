@@ -13,8 +13,68 @@
     "https://www.sec.gov/Archives/edgar/data/1866724/0001866724-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cd7087c3cfb49a0f5d64a11af96b999f25d06e88b186327f8a4ea757538529c5",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "d276a503d2655d77c0a1dc702e7d701d4a6dd5acb69ebd1caf8df0c4ac1b38cd",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001866724-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1866724/0001866724-26-000004.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 690160725.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 4473655.0,
+        "value_usd": 674895593.0,
+        "weight_pct": 97.79
+      },
+      {
+        "cusip": "83085C107",
+        "security_class": "COM CL A",
+        "issuer": "SKY HARBOUR GROUP CORPORATIO",
+        "shares": 1095477.0,
+        "value_usd": 10374167.0,
+        "weight_pct": 1.5
+      },
+      {
+        "cusip": "09352U108",
+        "security_class": "CL A",
+        "issuer": "BLEND LABS INC",
+        "shares": 4748510.0,
+        "value_usd": 4890965.0,
+        "weight_pct": 0.71
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9565.29,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001866724-26-000001"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001866724-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

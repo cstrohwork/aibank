@@ -13,8 +13,68 @@
     "https://www.sec.gov/Archives/edgar/data/1842707/0001193125-26-460590.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0cd5ef03b2a5ce53c20520b526a6607a1200641d3ebd1b5bde809693a5dcfd7d",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "dc32909ccf68ab9e754fb088b401ffb11d1c2fd08f46723f65b2541a893b16fd",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001193125-26-460590",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842707/0001193125-26-460590.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 52201949.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00653Q102",
+        "security_class": "COMMON STOCK",
+        "issuer": "ADAPTHEALTH CORP",
+        "shares": 8580443.0,
+        "value_usd": 48393699.0,
+        "weight_pct": 92.7
+      },
+      {
+        "cusip": "G5480U120",
+        "security_class": "SHS CL C",
+        "issuer": "LIBERTY GLOBAL PLC",
+        "shares": 300000.0,
+        "value_usd": 2667000.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "G5480U104",
+        "security_class": "SHS CL A",
+        "issuer": "LIBERTY GLOBAL PLC",
+        "shares": 125000.0,
+        "value_usd": 1141250.0,
+        "weight_pct": 2.19
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 8625.06,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001193125-26-348969"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001193125-26-460590"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

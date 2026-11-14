@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1803295/0001803295-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "dc4049bef9a0b20697d62bd2561ff5a3db562ede066ab345ae399baef3a8d1ce",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "28b95061dcfc011c25f63563743e4d425122f2951eec8ee58f3b962251ba60cb",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001803295-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803295/0001803295-26-000005.txt",
+    "distinct_positions": 58,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 173250314.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524862",
+        "security_class": "SHT TM US TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1324690.0,
+        "value_usd": 31607103.0,
+        "weight_pct": 18.24
+      },
+      {
+        "cusip": "464287721",
+        "security_class": "U.S. TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 76459.0,
+        "value_usd": 20253989.0,
+        "weight_pct": 11.69
+      },
+      {
+        "cusip": "336917109",
+        "security_class": "SHS",
+        "issuer": "FIRST TR MORNINGSTAR DIV LEA",
+        "shares": 298377.0,
+        "value_usd": 14653294.0,
+        "weight_pct": 8.46
+      },
+      {
+        "cusip": "808524706",
+        "security_class": "EMRG MKTEQ ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 339474.0,
+        "value_usd": 12373827.0,
+        "weight_pct": 7.14
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 315789.0,
+        "value_usd": 11346299.0,
+        "weight_pct": 6.55
+      },
+      {
+        "cusip": "97717W604",
+        "security_class": "US SMALLCAP DIVD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 191237.0,
+        "value_usd": 7247882.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 207521.0,
+        "value_usd": 6750660.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "808524854",
+        "security_class": "INTRM TRM TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 229650.0,
+        "value_usd": 5442705.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "464287762",
+        "security_class": "US HLTHCARE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 75823.0,
+        "value_usd": 5425894.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "92204A207",
+        "security_class": "CONSUM STP ETF",
+        "issuer": "Vanguard Consumer Staples",
+        "shares": 24493.0,
+        "value_usd": 5344618.0,
+        "weight_pct": 3.08
+      }
+    ],
+    "top_five_pct": 52.08,
+    "top_ten_pct": 69.52,
+    "hhi": 743.7,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 5,
+      "increased_positions": 28,
+      "reduced_positions": 14
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001803295-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001803295-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001803295-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1846444/0001846444-26-000013.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3452d930d4e9aac7a61b1c3fd345c8c4f82d50f4ce3316a7311c7043b14e9586",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "ed6e9b0fe90af05fc12f823c15738517e8d2f245d526234c20ed93ed3c2a9d93",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001846444-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1846444/0001846444-26-000013.txt",
+    "distinct_positions": 24,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 694687815.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "010911105",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALAMAR BIOSCIENCES INC",
+        "shares": 4230926.0,
+        "value_usd": 144147649.0,
+        "weight_pct": 20.75
+      },
+      {
+        "cusip": "G6683N103",
+        "security_class": "ORD SHS CL A",
+        "issuer": "NU HLDGS LTD",
+        "shares": 6991934.0,
+        "value_usd": 88517884.0,
+        "weight_pct": 12.74
+      },
+      {
+        "cusip": "08659B102",
+        "security_class": "COM",
+        "issuer": "BETA BIONICS INC",
+        "shares": 3997898.0,
+        "value_usd": 75880104.0,
+        "weight_pct": 10.92
+      },
+      {
+        "cusip": "85220G109",
+        "security_class": "COM SHS",
+        "issuer": "SPYGLASS PHARMA INC",
+        "shares": 2500012.0,
+        "value_usd": 65000312.0,
+        "weight_pct": 9.36
+      },
+      {
+        "cusip": "49845K101",
+        "security_class": "COM SER A",
+        "issuer": "KLAVIYO INC",
+        "shares": 3827359.0,
+        "value_usd": 60204357.0,
+        "weight_pct": 8.67
+      },
+      {
+        "cusip": "88025U109",
+        "security_class": "CL A COM",
+        "issuer": "10X GENOMICS INC",
+        "shares": 481770.0,
+        "value_usd": 43532737.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "45719W205",
+        "security_class": "COM NEW",
+        "issuer": "INHIBIKASE THERAPEUTICS INC",
+        "shares": 13018965.0,
+        "value_usd": 26819068.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "COM CL A",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 122484.0,
+        "value_usd": 21759283.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "25809K105",
+        "security_class": "CL A",
+        "issuer": "DOORDASH INC",
+        "shares": 107301.0,
+        "value_usd": 19695099.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "67613T104",
+        "security_class": "COMMON STOCK",
+        "issuer": "ODYSSEY THERAPEUTICS INC",
+        "shares": 875000.0,
+        "value_usd": 19442500.0,
+        "weight_pct": 2.8
+      }
+    ],
+    "top_five_pct": 62.44,
+    "top_ten_pct": 81.33,
+    "hhi": 987.6,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001846444-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001846444-26-000013"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

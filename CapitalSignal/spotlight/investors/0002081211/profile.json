@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2081211/0002081211-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "95963289535b41ea69f1a0f262545c85e99d4ab5b2a70f15853d314c9705a2f1",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "9359fc9d3153f4cd4d1250d8477949b41a824448a8e89ce6bdd2937ecc2ce400",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002081211-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2081211/0002081211-26-000004.txt",
+    "distinct_positions": 85,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 123593044.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 195976.0,
+        "value_usd": 17659392.0,
+        "weight_pct": 14.29
+      },
+      {
+        "cusip": "26923N405",
+        "security_class": "APPLIED FINA VAL",
+        "issuer": "ETF OPPORTUNITIES TRUST",
+        "shares": 309036.0,
+        "value_usd": 14997505.0,
+        "weight_pct": 12.13
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 30786.0,
+        "value_usd": 10252369.0,
+        "weight_pct": 8.3
+      },
+      {
+        "cusip": "921946810",
+        "security_class": "INTL DVD ETF",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 79719.0,
+        "value_usd": 7527034.0,
+        "weight_pct": 6.09
+      },
+      {
+        "cusip": "398182303",
+        "security_class": "COM SHS",
+        "issuer": "AMERICAN HEALTHCARE REIT INC",
+        "shares": 104799.0,
+        "value_usd": 5372020.0,
+        "weight_pct": 4.35
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 34684.0,
+        "value_usd": 4344538.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 46188.0,
+        "value_usd": 3261318.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "464287598",
+        "security_class": "RUS 1000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 9888.0,
+        "value_usd": 2451501.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "92206C680",
+        "security_class": "VNG RUS1000GRW",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 17561.0,
+        "value_usd": 2264131.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 8271.0,
+        "value_usd": 2060720.0,
+        "weight_pct": 1.67
+      }
+    ],
+    "top_five_pct": 45.15,
+    "top_ten_pct": 56.79,
+    "hhi": 542.6,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 11,
+      "increased_positions": 25,
+      "reduced_positions": 39
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0002081211-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002081211-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

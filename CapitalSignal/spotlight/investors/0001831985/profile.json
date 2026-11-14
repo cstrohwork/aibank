@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1831985/0001951757-26-001879.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b196c36c0430cc1e92493cec02d83ea4dcdb67bcab1a24ed68083775e3272de9",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "cb8f04d1589399f58555433b4cd257022306cf0d6bcb9e20d7777f0887df4ad3",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001951757-26-001879",
+    "source": "https://www.sec.gov/Archives/edgar/data/1831985/0001951757-26-001879.txt",
+    "distinct_positions": 34,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 314839239.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 89956.0,
+        "value_usd": 68892802.0,
+        "weight_pct": 21.88
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 322721.0,
+        "value_usd": 67132479.0,
+        "weight_pct": 21.32
+      },
+      {
+        "cusip": "35473P868",
+        "security_class": "FRANKLIN DYN MUN",
+        "issuer": "FRANKLIN TEMPLETON ETF TR",
+        "shares": 1193496.0,
+        "value_usd": 27832334.0,
+        "weight_pct": 8.84
+      },
+      {
+        "cusip": "46138E370",
+        "security_class": "S&P 500 HB ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 171951.0,
+        "value_usd": 25918172.0,
+        "weight_pct": 8.23
+      },
+      {
+        "cusip": "922908538",
+        "security_class": "MRNGSTR MD CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 85891.0,
+        "value_usd": 25088811.0,
+        "weight_pct": 7.97
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 249197.0,
+        "value_usd": 22455154.0,
+        "weight_pct": 7.13
+      },
+      {
+        "cusip": "46138E875",
+        "security_class": "DORSEY WRGT DVLP",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 415573.0,
+        "value_usd": 22042004.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "46138E727",
+        "security_class": "RAFI EMRGNG MRKT",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 510760.0,
+        "value_usd": 14847795.0,
+        "weight_pct": 4.72
+      },
+      {
+        "cusip": "911717106",
+        "security_class": "COMM IDX FND",
+        "issuer": "UNITED STS COMMODITY INDEX F",
+        "shares": 133503.0,
+        "value_usd": 14607231.0,
+        "weight_pct": 4.64
+      },
+      {
+        "cusip": "78468R101",
+        "security_class": "ST SHO TREAS ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 298660.0,
+        "value_usd": 8562588.0,
+        "weight_pct": 2.72
+      }
+    ],
+    "top_five_pct": 68.25,
+    "top_ten_pct": 94.45,
+    "hhi": 1297.2,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
+      "increased_positions": 14,
+      "reduced_positions": 17
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001951757-26-001108"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001951757-26-001879"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

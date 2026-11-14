@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/314957/0001104659-26-126933.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "79ecd9124e29b4b4b22d6fe3615094576afbbddd40bc5fcd70ba9dee15a80b7a",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "b1530e3a5b3b5977a0bd944d770105af10a360488481daf93a8f274bb4b023ab",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126933",
+    "source": "https://www.sec.gov/Archives/edgar/data/314957/0001104659-26-126933.txt",
+    "distinct_positions": 10,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 435636203.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 1761186.0,
+        "value_usd": 344752160.0,
+        "weight_pct": 79.14
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 555243.0,
+        "value_usd": 87645108.0,
+        "weight_pct": 20.12
+      },
+      {
+        "cusip": "81369Y852",
+        "security_class": "ST STR SVC ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 14798.0,
+        "value_usd": 1642134.0,
+        "weight_pct": 0.38
+      },
+      {
+        "cusip": "N3167Y103",
+        "security_class": "COM",
+        "issuer": "FERRARI N V",
+        "shares": 750.0,
+        "value_usd": 294638.0,
+        "weight_pct": 0.07
+      },
+      {
+        "cusip": "09857L108",
+        "security_class": "COM",
+        "issuer": "BOOKING HOLDINGS INC",
+        "shares": 1525.0,
+        "value_usd": 248438.0,
+        "weight_pct": 0.06
+      },
+      {
+        "cusip": "33829M101",
+        "security_class": "COM",
+        "issuer": "FIVE BELOW INC",
+        "shares": 1125.0,
+        "value_usd": 247016.0,
+        "weight_pct": 0.06
+      },
+      {
+        "cusip": "78409V104",
+        "security_class": "COM",
+        "issuer": "S&P GLOBAL INC",
+        "shares": 598.0,
+        "value_usd": 235893.0,
+        "weight_pct": 0.05
+      },
+      {
+        "cusip": "817565104",
+        "security_class": "COM",
+        "issuer": "SERVICE CORP INTL",
+        "shares": 3060.0,
+        "value_usd": 233019.0,
+        "weight_pct": 0.05
+      },
+      {
+        "cusip": "679580100",
+        "security_class": "COM",
+        "issuer": "OLD DOMINION FREIGHT LIN",
+        "shares": 1290.0,
+        "value_usd": 224254.0,
+        "weight_pct": 0.05
+      },
+      {
+        "cusip": "747324101",
+        "security_class": "COMMON STOCK",
+        "issuer": "PYXIS ONCOLOGY INC",
+        "shares": 48731.0,
+        "value_usd": 113543.0,
+        "weight_pct": 0.03
+      }
+    ],
+    "top_five_pct": 99.76,
+    "top_ten_pct": 100.0,
+    "hhi": 6667.7,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 4,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001104659-25-107518"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096786"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126933"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

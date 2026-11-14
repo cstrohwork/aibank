@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1843587/0001420506-26-002620.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d00cfceb21394257e6bf260132353fca55b7bdb3fcb365937bb80ef546c122bc",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "f07e1b1377a55eb34a19463e5c65154187b31bbfb7c67e6deef9e89afce46df4",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001420506-26-002620",
+    "source": "https://www.sec.gov/Archives/edgar/data/1843587/0001420506-26-002620.txt",
+    "distinct_positions": 37,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 187265701.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "45866F104",
+        "security_class": "COM",
+        "issuer": "INTERCONTINENTAL EXCHANGE IN",
+        "shares": 216199.0,
+        "value_usd": 32868734.0,
+        "weight_pct": 17.55
+      },
+      {
+        "cusip": "28176E108",
+        "security_class": "COM",
+        "issuer": "EDWARDS LIFESCIENCES CORP",
+        "shares": 320124.0,
+        "value_usd": 27633104.0,
+        "weight_pct": 14.76
+      },
+      {
+        "cusip": "34959E109",
+        "security_class": "COM",
+        "issuer": "FORTINET INC",
+        "shares": 132843.0,
+        "value_usd": 23747015.0,
+        "weight_pct": 12.68
+      },
+      {
+        "cusip": "69370C100",
+        "security_class": "COM",
+        "issuer": "PTC INC",
+        "shares": 169079.0,
+        "value_usd": 23721784.0,
+        "weight_pct": 12.67
+      },
+      {
+        "cusip": "78351F107",
+        "security_class": "CL A",
+        "issuer": "RYAN SPECIALTY HOLDINGS INC",
+        "shares": 625562.0,
+        "value_usd": 23145794.0,
+        "weight_pct": 12.36
+      },
+      {
+        "cusip": "40637H109",
+        "security_class": "COM",
+        "issuer": "HALOZYME THERAPEUTICS INC",
+        "shares": 51423.0,
+        "value_usd": 5677099.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "00187Y100",
+        "security_class": "COM STK",
+        "issuer": "API GROUP CORP",
+        "shares": 119012.0,
+        "value_usd": 4593863.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "443510607",
+        "security_class": "COM",
+        "issuer": "HUBBELL INC",
+        "shares": 10053.0,
+        "value_usd": 4560041.0,
+        "weight_pct": 2.44
+      },
+      {
+        "cusip": "252131107",
+        "security_class": "COM",
+        "issuer": "DEXCOM INC",
+        "shares": 52148.0,
+        "value_usd": 4499851.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "31488V107",
+        "security_class": "COMMON STOCK NEW",
+        "issuer": "FERGUSON ENTERPRISES INC",
+        "shares": 15942.0,
+        "value_usd": 3549008.0,
+        "weight_pct": 1.9
+      }
+    ],
+    "top_five_pct": 70.02,
+    "top_ten_pct": 82.23,
+    "hhi": 1045.89,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 12,
+      "increased_positions": 3,
+      "reduced_positions": 33
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001420506-26-001651"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001420506-26-002620"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

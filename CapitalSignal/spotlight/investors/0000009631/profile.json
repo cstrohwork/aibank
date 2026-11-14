@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/9631/0000009631-26-000040.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "603455f10d412d069967328bb0563b3db7146d63e551fa0ecd4c991e0f3e1d75",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "62601f146d837f641437739cc0a2b3e35416419904d94930a54a0846c465a6bf",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000009631-26-000040",
+    "source": "https://www.sec.gov/Archives/edgar/data/9631/0000009631-26-000040.txt",
+    "distinct_positions": 1007,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 60607773853.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 16908378.0,
+        "value_usd": 3861638600.0,
+        "weight_pct": 6.37
+      },
+      {
+        "cusip": "493267108",
+        "security_class": "COM",
+        "issuer": "KEYCORP",
+        "shares": 157599884.0,
+        "value_usd": 3163029672.0,
+        "weight_pct": 5.22
+      },
+      {
+        "cusip": "780087102",
+        "security_class": "COM",
+        "issuer": "ROYAL BK CDA",
+        "shares": 13066456.0,
+        "value_usd": 2570391316.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 6861565.0,
+        "value_usd": 2285123308.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 2501421.0,
+        "value_usd": 1814012807.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 2237360.0,
+        "value_usd": 1713482158.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 4038082.0,
+        "value_usd": 1376035213.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "891160509",
+        "security_class": "COM NEW",
+        "issuer": "TORONTO DOMINION BK ONT",
+        "shares": 10738212.0,
+        "value_usd": 1263242239.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 2210878.0,
+        "value_usd": 1134033015.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "136069101",
+        "security_class": "COM",
+        "issuer": "CANADIAN IMPERIAL BANK OF CO",
+        "shares": 9685944.0,
+        "value_usd": 1066811724.0,
+        "weight_pct": 1.76
+      }
+    ],
+    "top_five_pct": 22.59,
+    "top_ten_pct": 33.41,
+    "hhi": 169.58,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 119,
+      "exited_positions": 132,
+      "increased_positions": 386,
+      "reduced_positions": 474
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000009631-26-000026"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000009631-26-000040"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

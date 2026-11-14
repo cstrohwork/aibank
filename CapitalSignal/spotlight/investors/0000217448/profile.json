@@ -13,8 +13,52 @@
     "https://www.sec.gov/Archives/edgar/data/217448/0000217448-26-000030.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "72edc2d0bf1557fcb98b19dea6ab095a0f2ccfa962f519cb1b235b2c0a89b816",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "6127a477c5426662d8859ba3defcaa1a24744d698847a32ad957c7137f7cdbfc",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000217448-26-000030",
+    "source": "https://www.sec.gov/Archives/edgar/data/217448/0000217448-26-000030.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 37243500.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921913869",
+        "security_class": "CORE PLUS BD ETF",
+        "issuer": "VANGUARD QUANTITATIVE FDS",
+        "shares": 525000.0,
+        "value_usd": 37243500.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000217448-26-000023"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000217448-26-000030"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

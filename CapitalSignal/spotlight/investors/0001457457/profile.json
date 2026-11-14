@@ -16,8 +16,139 @@
     "https://www.sec.gov/Archives/edgar/data/1457457/0001457457-26-000016.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "300475b1fd88d09ca2fb9df96e2ecd5c7b3c78240fb4c3b0df6d9dc6e2b2117c",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "21a7added8029cc6e7e151f07d14a44d3ab3f5be074e551e1f58136c83c62f43",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001457457-26-000016",
+    "source": "https://www.sec.gov/Archives/edgar/data/1457457/0001457457-26-000016.txt",
+    "distinct_positions": 2218,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2658196898.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 431032.0,
+        "value_usd": 98439009.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 280388.0,
+        "value_usd": 93374661.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 146784.0,
+        "value_usd": 75285480.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 146114.0,
+        "value_usd": 49786970.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 173889.0,
+        "value_usd": 43324494.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 114925.0,
+        "value_usd": 39543263.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 74702.0,
+        "value_usd": 38201233.0,
+        "weight_pct": 1.44
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 111171.0,
+        "value_usd": 36520817.0,
+        "weight_pct": 1.37
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 64951.0,
+        "value_usd": 32342350.0,
+        "weight_pct": 1.22
+      },
+      {
+        "cusip": "199908104",
+        "security_class": "COM",
+        "issuer": "COMFORT SYS USA INC",
+        "shares": 18943.0,
+        "value_usd": 31333427.0,
+        "weight_pct": 1.18
+      }
+    ],
+    "top_five_pct": 13.55,
+    "top_ten_pct": 20.24,
+    "hhi": 74.78,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 182,
+      "exited_positions": 159,
+      "increased_positions": 678,
+      "reduced_positions": 604
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001457457-26-000010"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-11-12",
+        "accession": "0001457457-26-000020"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-11-12",
+        "accession": "0001457457-26-000012"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001457457-26-000014"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001457457-26-000016"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

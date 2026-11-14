@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1732811/0000904454-26-000609.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4de709b2706fe1b0b90657541bfdae6ec95b7c9818159b79bd47c88ea6866e13",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "0f2acae804fe06a26a5c4eaa87b529cba06a5801be1b0085745b001ffe56d101",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000904454-26-000609",
+    "source": "https://www.sec.gov/Archives/edgar/data/1732811/0000904454-26-000609.txt",
+    "distinct_positions": 16,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4771507123.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "983793100",
+        "security_class": "COM",
+        "issuer": "XPO INC",
+        "shares": 9678985.0,
+        "value_usd": 1703307780.0,
+        "weight_pct": 35.7
+      },
+      {
+        "cusip": "87422Q109",
+        "security_class": "COM",
+        "issuer": "TALEN ENERGY CORP",
+        "shares": 3249121.0,
+        "value_usd": 1015967645.0,
+        "weight_pct": 21.29
+      },
+      {
+        "cusip": "74982T103",
+        "security_class": "COMMON STOCK",
+        "issuer": "RXO INC",
+        "shares": 28109942.0,
+        "value_usd": 575129413.0,
+        "weight_pct": 12.05
+      },
+      {
+        "cusip": "70932M107",
+        "security_class": "COM",
+        "issuer": "PENNYMAC FINL SVCS INC NEW",
+        "shares": 4531792.0,
+        "value_usd": 279702202.0,
+        "weight_pct": 5.86
+      },
+      {
+        "cusip": "82846H405",
+        "security_class": "COM NEW",
+        "issuer": "QXO INC",
+        "shares": 23454350.0,
+        "value_usd": 274181352.0,
+        "weight_pct": 5.75
+      },
+      {
+        "cusip": "21874A106",
+        "security_class": "COM",
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "shares": 9208619.0,
+        "value_usd": 147153731.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "767292105",
+        "security_class": "COM",
+        "issuer": "RIOT PLATFORMS INC",
+        "shares": 7212000.0,
+        "value_usd": 145321800.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "Q4982L109",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "IREN LIMITED",
+        "shares": 3200000.0,
+        "value_usd": 130816000.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "17253J106",
+        "security_class": "COM",
+        "issuer": "CIPHER DIGITAL INC",
+        "shares": 7720000.0,
+        "value_usd": 122169000.0,
+        "weight_pct": 2.56
+      },
+      {
+        "cusip": "44812J104",
+        "security_class": "COM",
+        "issuer": "HUT 8 CORP",
+        "shares": 1100000.0,
+        "value_usd": 94710000.0,
+        "weight_pct": 1.98
+      }
+    ],
+    "top_five_pct": 80.65,
+    "top_ten_pct": 94.07,
+    "hhi": 1985.86,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000904454-26-000440"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000904454-26-000609"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

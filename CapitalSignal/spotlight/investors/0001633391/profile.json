@@ -13,8 +13,60 @@
     "https://www.sec.gov/Archives/edgar/data/1633391/0001398344-26-019896.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "81923f2df27f28ebbf5b29e83c4b9e10f454022afbeba8e0baa13edcd431b32b",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "7edc51c5fcff892c1db6ff43b2886dd8e9d4dd50e6d605c57195a958a0e6990b",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001398344-26-019896",
+    "source": "https://www.sec.gov/Archives/edgar/data/1633391/0001398344-26-019896.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 55991066.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 50101.0,
+        "value_usd": 35113787.0,
+        "weight_pct": 62.71
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "INDEX FUND ETF",
+        "issuer": "VANGUARD DIV APPREC.",
+        "shares": 89483.0,
+        "value_usd": 20877279.0,
+        "weight_pct": 37.29
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5323.25,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001398344-26-013714"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001398344-26-019896"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

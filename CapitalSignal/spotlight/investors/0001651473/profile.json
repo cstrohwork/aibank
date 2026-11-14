@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1651473/0001104659-26-127087.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f05c23b5b32a7d150f854dc249e1bae61809d92214a42f7b395e1c6d7df88e3c",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "867e60a2a34339c5a65a72a589dc093d7c2ec7da731c31ac64f417cad08c08a6",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-127087",
+    "source": "https://www.sec.gov/Archives/edgar/data/1651473/0001104659-26-127087.txt",
+    "distinct_positions": 60,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 566542650.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 223900.0,
+        "value_usd": 114838310.0,
+        "weight_pct": 20.27
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 199700.0,
+        "value_usd": 49755255.0,
+        "weight_pct": 8.78
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 190000.0,
+        "value_usd": 43392200.0,
+        "weight_pct": 7.66
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 40500.0,
+        "value_usd": 29369790.0,
+        "weight_pct": 5.18
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 45000.0,
+        "value_usd": 20528550.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 42500.0,
+        "value_usd": 14153350.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "925815102",
+        "security_class": "COM",
+        "issuer": "VICOR CORP",
+        "shares": 42500.0,
+        "value_usd": 12279950.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "679295105",
+        "security_class": "CL A",
+        "issuer": "OKTA INC",
+        "shares": 50000.0,
+        "value_usd": 10455500.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "874054109",
+        "security_class": "COM",
+        "issuer": "TAKE-TWO INTERACTIVE SOFTWAR",
+        "shares": 50000.0,
+        "value_usd": 10375000.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 20000.0,
+        "value_usd": 10227600.0,
+        "weight_pct": 1.81
+      }
+    ],
+    "top_five_pct": 45.52,
+    "top_ten_pct": 55.67,
+    "hhi": 656.29,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 26,
+      "increased_positions": 17,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-097164"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-127087"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

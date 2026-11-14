@@ -13,8 +13,76 @@
     "https://www.sec.gov/Archives/edgar/data/929607/0000950142-26-003034.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "006bbb2066d46976fbdd49fcd7fb801fa1464a2e05cd9353148257277df396e7",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "bad55f44f03e58bc78b096e3a2751491176f6567bda0ec3b6caab1ef60fbc71f",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000950142-26-003034",
+    "source": "https://www.sec.gov/Archives/edgar/data/929607/0000950142-26-003034.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 441968138.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "459506101",
+        "security_class": "COM",
+        "issuer": "International Flavors & Fragrances Inc. (IFF)",
+        "shares": 2682730.0,
+        "value_usd": 223954300.0,
+        "weight_pct": 50.67
+      },
+      {
+        "cusip": "513272104",
+        "security_class": "COM",
+        "issuer": "Lamb Weston Holdings Inc (LW)",
+        "shares": 3569080.0,
+        "value_usd": 148794945.0,
+        "weight_pct": 33.67
+      },
+      {
+        "cusip": "518439104",
+        "security_class": "CL A",
+        "issuer": "Estee Lauder Companies Inc (EL)",
+        "shares": 417300.0,
+        "value_usd": 38712921.0,
+        "weight_pct": 8.76
+      },
+      {
+        "cusip": "76131D103",
+        "security_class": "COM",
+        "issuer": "Restaurant Brands International (QSR)",
+        "shares": 429178.0,
+        "value_usd": 30505972.0,
+        "weight_pct": 6.9
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3825.45,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000950142-26-002320"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000950142-26-003034"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

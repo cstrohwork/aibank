@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1086763/0001086763-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "75633152ddd9e879d54210d7426afc2b96388a1756267b38980a82780d60945c",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "04574c80751d3b65fa2de2fbbab281f96398ccc363cecaa98c4d1c07732a7e19",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001086763-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1086763/0001086763-26-000009.txt",
+    "distinct_positions": 364,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2899951811.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 990484.0,
+        "value_usd": 508019416.0,
+        "weight_pct": 17.52
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 313850.0,
+        "value_usd": 240362376.0,
+        "weight_pct": 8.29
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 367153.0,
+        "value_usd": 125103817.0,
+        "weight_pct": 4.31
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 1200005.0,
+        "value_usd": 116256499.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 182206.0,
+        "value_usd": 111466554.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 1563164.0,
+        "value_usd": 87881073.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 222056.0,
+        "value_usd": 73949255.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 277497.0,
+        "value_usd": 69138446.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 838342.0,
+        "value_usd": 68039868.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "464287499",
+        "security_class": "RUS MID CAP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 582087.0,
+        "value_usd": 62114508.0,
+        "weight_pct": 2.14
+      }
+    ],
+    "top_five_pct": 37.97,
+    "top_ten_pct": 50.43,
+    "hhi": 490.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 29,
+      "exited_positions": 18,
+      "increased_positions": 154,
+      "reduced_positions": 136
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001086763-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001086763-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

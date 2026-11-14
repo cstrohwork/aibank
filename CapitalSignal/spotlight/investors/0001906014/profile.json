@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1906014/0001951757-26-001876.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "fde8d1d06f80f36a5d32c336d58b6ae5548e5373797abf6daffc7c6e0e44d16a",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "d235bbfeb1053e61978bb3dd9d01ae26934c121f630c2befe3cd30e50a291503",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001951757-26-001876",
+    "source": "https://www.sec.gov/Archives/edgar/data/1906014/0001951757-26-001876.txt",
+    "distinct_positions": 139,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 527438385.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 149392.0,
+        "value_usd": 44057324.0,
+        "weight_pct": 8.35
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 57613.0,
+        "value_usd": 40378594.0,
+        "weight_pct": 7.66
+      },
+      {
+        "cusip": "97717X669",
+        "security_class": "US QTLY DIV GRT",
+        "issuer": "WISDOMTREE TR",
+        "shares": 388833.0,
+        "value_usd": 37810102.0,
+        "weight_pct": 7.17
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1018025.0,
+        "value_usd": 33116345.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 47802.0,
+        "value_usd": 24517743.0,
+        "weight_pct": 4.65
+      },
+      {
+        "cusip": "69374H360",
+        "security_class": "US LRG CP CASH",
+        "issuer": "PACER FDS TR",
+        "shares": 525507.0,
+        "value_usd": 20957233.0,
+        "weight_pct": 3.97
+      },
+      {
+        "cusip": "46138G698",
+        "security_class": "S&P 500 REVENUE",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 157732.0,
+        "value_usd": 20296957.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "TOTAL BND MRKT",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 262502.0,
+        "value_usd": 18414486.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "46435U861",
+        "security_class": "CORE DIVID ETF",
+        "issuer": "ISHARES TR",
+        "shares": 267591.0,
+        "value_usd": 17262326.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "46654Q757",
+        "security_class": "JPMORGAN INTL VL",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 179111.0,
+        "value_usd": 17054918.0,
+        "weight_pct": 3.23
+      }
+    ],
+    "top_five_pct": 34.1,
+    "top_ten_pct": 51.92,
+    "hhi": 366.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 10,
+      "increased_positions": 65,
+      "reduced_positions": 50
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001951757-25-001277"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001951757-26-001092"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001951757-26-001876"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

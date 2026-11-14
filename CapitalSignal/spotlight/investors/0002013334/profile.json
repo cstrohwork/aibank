@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2013334/0002013334-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f54a5212546da2e908c26d2408d89521bed0440179b6935df8ea5d2114727aa7",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "85bf29119b8ee11a8857135facc6b7b148b6766b576672b871e601cfe75f6668",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002013334-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2013334/0002013334-26-000011.txt",
+    "distinct_positions": 15,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 189944463.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "235851102",
+        "security_class": "COM",
+        "issuer": "DANAHER ORD",
+        "shares": 150815.0,
+        "value_usd": 33413063.0,
+        "weight_pct": 17.59
+      },
+      {
+        "cusip": "249906108",
+        "security_class": "COM",
+        "issuer": "DESCARTES SYSTEM ORD",
+        "shares": 218719.0,
+        "value_usd": 17685618.0,
+        "weight_pct": 9.31
+      },
+      {
+        "cusip": "G54950103",
+        "security_class": "SHS",
+        "issuer": "LINDE ORD",
+        "shares": 31043.0,
+        "value_usd": 14734560.0,
+        "weight_pct": 7.76
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM ORD",
+        "shares": 59078.0,
+        "value_usd": 14719284.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "465562106",
+        "security_class": "SPON ADR REP PFD",
+        "issuer": "ITAU UNIBANCO HOLDING ADR REP 1 PRF",
+        "shares": 1586422.0,
+        "value_usd": 13532180.0,
+        "weight_pct": 7.12
+      },
+      {
+        "cusip": "92837L109",
+        "security_class": "SPONSORED ADS",
+        "issuer": "VISTA ENERGY SPON SRS A ADR",
+        "shares": 204645.0,
+        "value_usd": 13373551.0,
+        "weight_pct": 7.04
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA CL A ORD",
+        "shares": 35923.0,
+        "value_usd": 12908212.0,
+        "weight_pct": 6.8
+      },
+      {
+        "cusip": "783513203",
+        "security_class": "SPONSORED ADS",
+        "issuer": "RYANAIR HOLDINGS ORD",
+        "shares": 231576.0,
+        "value_usd": 12738996.0,
+        "weight_pct": 6.71
+      },
+      {
+        "cusip": "G69451105",
+        "security_class": "CL A",
+        "issuer": "PATRIA INVESTMENTS CL A ORD",
+        "shares": 1239008.0,
+        "value_usd": 12575931.0,
+        "weight_pct": 6.62
+      },
+      {
+        "cusip": "929160109",
+        "security_class": "COM",
+        "issuer": "VULCAN MATERIALS ORD",
+        "shares": 48998.0,
+        "value_usd": 11986381.0,
+        "weight_pct": 6.31
+      }
+    ],
+    "top_five_pct": 49.53,
+    "top_ten_pct": 83.01,
+    "hhi": 871.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 11,
+      "increased_positions": 1,
+      "reduced_positions": 4
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0002013334-25-000018"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002013334-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002013334-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2052405/0001951757-26-001964.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b681f0a4663b25a8d943735c7110afb51ae053f713e541a31ddb320489b3b296",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "68c401f49cdb5f3176896f7aeeb41cbba6bd3c06dbfe436d7b8e7fcea163625e",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001951757-26-001964",
+    "source": "https://www.sec.gov/Archives/edgar/data/2052405/0001951757-26-001964.txt",
+    "distinct_positions": 87,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 266149090.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "77311W101",
+        "security_class": "COM CL A",
+        "issuer": "ROCKET COS INC",
+        "shares": 5939945.0,
+        "value_usd": 68368767.0,
+        "weight_pct": 25.69
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 137717.0,
+        "value_usd": 11024241.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 30311.0,
+        "value_usd": 8939123.0,
+        "weight_pct": 3.36
+      },
+      {
+        "cusip": "464289420",
+        "security_class": "RUS TP200 VL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 64203.0,
+        "value_usd": 7032135.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "464289446",
+        "security_class": "RUS TOP 200 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 35912.0,
+        "value_usd": 6829001.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "921910840",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 42344.0,
+        "value_usd": 6821273.0,
+        "weight_pct": 2.56
+      },
+      {
+        "cusip": "464287101",
+        "security_class": "S&P 100 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 17790.0,
+        "value_usd": 6797074.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "45409B560",
+        "security_class": "FTSE INTL EQTY C",
+        "issuer": "NYLIM ETF TR",
+        "shares": 173981.0,
+        "value_usd": 6466874.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "31609A404",
+        "security_class": "ENHANCED INTL",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 161702.0,
+        "value_usd": 6453520.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "46434V449",
+        "security_class": "MSCI INTL MOMENT",
+        "issuer": "ISHARES TR",
+        "shares": 120645.0,
+        "value_usd": 6349551.0,
+        "weight_pct": 2.39
+      }
+    ],
+    "top_five_pct": 38.4,
+    "top_ten_pct": 50.75,
+    "hhi": 798.95,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 12,
+      "increased_positions": 54,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001951757-26-001205"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001951757-26-001964"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

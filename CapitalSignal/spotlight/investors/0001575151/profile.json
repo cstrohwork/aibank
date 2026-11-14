@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1575151/0001575151-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f727921b48f2d4105708520e0ce6c631387f082183f9685a0292d8aaa633fdb7",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "d9356dd9a552346757c0c93417a454795b6f9d415a6f3e55c44e3aa210684f23",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001575151-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1575151/0001575151-26-000010.txt",
+    "distinct_positions": 229,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 313865749.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 65936.0,
+        "value_usd": 21958194.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 230168.0,
+        "value_usd": 21760132.0,
+        "weight_pct": 6.93
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 29755.0,
+        "value_usd": 15261340.0,
+        "weight_pct": 4.86
+      },
+      {
+        "cusip": "46434V613",
+        "security_class": "CORE UNIVRSL \t\tUSD",
+        "issuer": "ISHARES TR",
+        "shares": 307885.0,
+        "value_usd": 13574686.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 130037.0,
+        "value_usd": 12597985.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 51590.0,
+        "value_usd": 11782129.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 186402.0,
+        "value_usd": 9389106.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "381430230",
+        "security_class": "ULTR SHOR BD ETF",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 185210.0,
+        "value_usd": 9345707.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 21737.0,
+        "value_usd": 7479267.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 19495.0,
+        "value_usd": 6449531.0,
+        "weight_pct": 2.05
+      }
+    ],
+    "top_five_pct": 27.13,
+    "top_ten_pct": 41.29,
+    "hhi": 232.65,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 32,
+      "exited_positions": 10,
+      "increased_positions": 115,
+      "reduced_positions": 37
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001575151-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001575151-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,52 @@
     "https://www.sec.gov/Archives/edgar/data/1663900/0001892688-26-000167.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a36bafd033afaafd7c4a377713211db46de881d72a277a86218221c637191edf",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "c98ed2534653eb51d5061a4f68e8b7d5cd0f479ce34b0fa6b3eb3413255b6516",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001892688-26-000167",
+    "source": "https://www.sec.gov/Archives/edgar/data/1663900/0001892688-26-000167.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 0.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "000000000",
+        "security_class": "0",
+        "issuer": "No Securities",
+        "shares": 0.0,
+        "value_usd": 0.0,
+        "weight_pct": null
+      }
+    ],
+    "top_five_pct": null,
+    "top_ten_pct": null,
+    "hhi": null,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 21,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001892688-26-000115"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001892688-26-000167"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

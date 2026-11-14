@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1215208/0001215208-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "aea51ccfd805b0b22ed293117da8a7b5611a2ce52a5c2f0e0e72add722ad5676",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "5915a29233d77f3c7908c124b65c99f1a92604b2b62d158e519b1e49f29c58d5",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001215208-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1215208/0001215208-26-000007.txt",
+    "distinct_positions": 84,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 357510124.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES",
+        "shares": 39726.0,
+        "value_usd": 24302777.0,
+        "weight_pct": 6.8
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP",
+        "shares": 100778.0,
+        "value_usd": 23015679.0,
+        "weight_pct": 6.44
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC CL A",
+        "shares": 65683.0,
+        "value_usd": 22600206.0,
+        "weight_pct": 6.32
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE",
+        "shares": 58886.0,
+        "value_usd": 19610215.0,
+        "weight_pct": 5.49
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT",
+        "shares": 33769.0,
+        "value_usd": 17320118.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "032654105",
+        "security_class": "COM",
+        "issuer": "ANALOG DEVICES",
+        "shares": 40796.0,
+        "value_usd": 16184183.0,
+        "weight_pct": 4.53
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON AND JOHNSON",
+        "shares": 51572.0,
+        "value_usd": 13653171.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM",
+        "shares": 53026.0,
+        "value_usd": 13211428.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "COM",
+        "issuer": "MASTERCARD",
+        "shares": 22536.0,
+        "value_usd": 12427926.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 54748.0,
+        "value_usd": 10163965.0,
+        "weight_pct": 2.84
+      }
+    ],
+    "top_five_pct": 29.89,
+    "top_ten_pct": 48.25,
+    "hhi": 335.24,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 18,
+      "increased_positions": 4,
+      "reduced_positions": 55
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001215208-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001215208-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001215208-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

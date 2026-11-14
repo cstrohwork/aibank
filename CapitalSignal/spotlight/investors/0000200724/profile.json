@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/200724/0000200724-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "081f203e0a5bd4e4d1a0be9f9c589bab333193f0407938fc2ad1ab2d9db90023",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "3ed5d84f99e4ab1ac8539b41d0a157cb027b5a72c19f8915e6b95c3eef48a26c",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0000200724-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/200724/0000200724-26-000005.txt",
+    "distinct_positions": 585,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1545386695.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 108631.0,
+        "value_usd": 83194694.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 191395.0,
+        "value_usd": 71597780.0,
+        "weight_pct": 4.63
+      },
+      {
+        "cusip": "09789C861",
+        "security_class": "ETF",
+        "issuer": "BONDBLOXX BLOOMBERG ONE YEAR TARGET DURATION US TREASURY ETF",
+        "shares": 971103.0,
+        "value_usd": 47768572.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "ETF",
+        "issuer": "ISHARES S&P 500 VALUE ETF",
+        "shares": 195541.0,
+        "value_usd": 44638009.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 133057.0,
+        "value_usd": 44310514.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "78467Y107",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR S&P MIDCAP 400 ETF TRUST",
+        "shares": 60059.0,
+        "value_usd": 39441626.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 47273.0,
+        "value_usd": 36051846.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "ETF",
+        "issuer": "ISHARES RUSSELL 1000 GROWTH ETF",
+        "shares": 279323.0,
+        "value_usd": 34988007.0,
+        "weight_pct": 2.26
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "ETF",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE ETF",
+        "shares": 478509.0,
+        "value_usd": 23375159.0,
+        "weight_pct": 1.51
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P SMALL CAP ETF",
+        "shares": 215592.0,
+        "value_usd": 23329069.0,
+        "weight_pct": 1.51
+      }
+    ],
+    "top_five_pct": 18.86,
+    "top_ten_pct": 29.03,
+    "hhi": 133.96,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 31,
+      "exited_positions": 32,
+      "increased_positions": 254,
+      "reduced_positions": 217
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000200724-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0000200724-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

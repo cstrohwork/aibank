@@ -14,8 +14,113 @@
     "https://www.sec.gov/Archives/edgar/data/1560009/0001193125-26-460919.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "76d4cc400107b53c108ec9f4447a5267ce809ff34c553efafae9f5163640f42c",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "95bc48d9a1ede82c0cc09f56e1e4b04b259a5cd3ea23f2c9927beb6a5e801263",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001193125-26-460919",
+    "source": "https://www.sec.gov/Archives/edgar/data/1560009/0001193125-26-460919.txt",
+    "distinct_positions": 8,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 109097271.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "61225M102",
+        "security_class": "Common Stock",
+        "issuer": "Monte Rosa Therapeutics, Inc.",
+        "shares": 3180780.0,
+        "value_usd": 37946705.0,
+        "weight_pct": 34.78
+      },
+      {
+        "cusip": "15673T100",
+        "security_class": "Common Stock",
+        "issuer": "Century Therapeutics, Inc.",
+        "shares": 12166109.0,
+        "value_usd": 20804046.0,
+        "weight_pct": 19.07
+      },
+      {
+        "cusip": "21217B100",
+        "security_class": "Common Stock",
+        "issuer": "Contineum Therapeutics, Inc.",
+        "shares": 1292628.0,
+        "value_usd": 17347068.0,
+        "weight_pct": 15.9
+      },
+      {
+        "cusip": "008064206",
+        "security_class": "Common Stock",
+        "issuer": "Jade Biosciences, Inc.",
+        "shares": 991783.0,
+        "value_usd": 13934551.0,
+        "weight_pct": 12.77
+      },
+      {
+        "cusip": "52635N103",
+        "security_class": "Common Stock",
+        "issuer": "Lenz Therapeutics, Inc.",
+        "shares": 2656888.0,
+        "value_usd": 10202450.0,
+        "weight_pct": 9.35
+      },
+      {
+        "cusip": "H17182108",
+        "security_class": "Common Shares",
+        "issuer": "CRISPR Therapeutics AG",
+        "shares": 148831.0,
+        "value_usd": 8233331.0,
+        "weight_pct": 7.55
+      },
+      {
+        "cusip": "83086J309",
+        "security_class": "Common Stock",
+        "issuer": "Skye Bioscience, Inc.",
+        "shares": 250962.0,
+        "value_usd": 404049.0,
+        "weight_pct": 0.37
+      },
+      {
+        "cusip": "87978U108",
+        "security_class": "Common Stock",
+        "issuer": "Tempest Therapeutics, Inc.",
+        "shares": 269772.0,
+        "value_usd": 225071.0,
+        "weight_pct": 0.21
+      }
+    ],
+    "top_five_pct": 91.88,
+    "top_ten_pct": 100.0,
+    "hhi": 2134.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001193125-25-274459"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001193125-26-347068"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001193125-26-460919"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

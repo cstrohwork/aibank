@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2099846/0002099846-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5cb6fbc4798d59f8a5bbea23dfd3a76274ff572ca58a76c59eadba8a1ff79836",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "e6d0b82d00bd21e1e1631313edc5108c8081aeb1167198067b3626479513957f",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002099846-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/2099846/0002099846-26-000009.txt",
+    "distinct_positions": 15,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1055040779.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 472762.0,
+        "value_usd": 244989996.0,
+        "weight_pct": 23.22
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 202338.0,
+        "value_usd": 156191784.0,
+        "weight_pct": 14.8
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 155000.0,
+        "value_usd": 140987225.0,
+        "weight_pct": 13.36
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 427400.0,
+        "value_usd": 107632142.0,
+        "weight_pct": 10.2
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 314000.0,
+        "value_usd": 106260740.0,
+        "weight_pct": 10.07
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 417115.0,
+        "value_usd": 96218003.0,
+        "weight_pct": 9.12
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 45000.0,
+        "value_usd": 53433675.0,
+        "weight_pct": 5.06
+      },
+      {
+        "cusip": "81369Y886",
+        "security_class": "ST STR UTIL ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 1006986.0,
+        "value_usd": 39861541.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "78464A698",
+        "security_class": "ST STR SP REGBNK",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 409915.0,
+        "value_usd": 28589522.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "37954Y830",
+        "security_class": "GLOBAL X COPPER",
+        "issuer": "GLOBAL X FDS",
+        "shares": 308967.0,
+        "value_usd": 26188043.0,
+        "weight_pct": 2.48
+      }
+    ],
+    "top_five_pct": 71.66,
+    "top_ten_pct": 94.82,
+    "hhi": 1285.51,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 1,
+      "increased_positions": 7,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0002099846-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002099846-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

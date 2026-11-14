@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1555512/0001555512-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e611d242a74c17feaa9410fe57e30245c2053aeded956a7d5316026ad0662c3e",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "58ec99aecbc1ac8a67565d242ea60630a84b5bf1eee5ba7de3225a1caa119955",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001555512-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1555512/0001555512-26-000004.txt",
+    "distinct_positions": 21,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 129490266.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 76650.0,
+        "value_usd": 19097347.0,
+        "weight_pct": 14.75
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 31950.0,
+        "value_usd": 16387155.0,
+        "weight_pct": 12.66
+      },
+      {
+        "cusip": "893641100",
+        "security_class": "COM",
+        "issuer": "TRANSDIGM GROUP INC",
+        "shares": 10410.0,
+        "value_usd": 11269866.0,
+        "weight_pct": 8.7
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC-CLASS A SHARES",
+        "shares": 30550.0,
+        "value_usd": 10977531.0,
+        "weight_pct": 8.48
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR-SP ADR",
+        "shares": 21600.0,
+        "value_usd": 9853704.0,
+        "weight_pct": 7.61
+      },
+      {
+        "cusip": "369604301",
+        "security_class": "COM NEW",
+        "issuer": "GENERAL ELECTRIC",
+        "shares": 28450.0,
+        "value_usd": 8884650.0,
+        "weight_pct": 6.86
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC-CL C",
+        "shares": 24800.0,
+        "value_usd": 8450352.0,
+        "weight_pct": 6.53
+      },
+      {
+        "cusip": "235851102",
+        "security_class": "COM",
+        "issuer": "DANAHER CORP",
+        "shares": 38100.0,
+        "value_usd": 8441055.0,
+        "weight_pct": 6.52
+      },
+      {
+        "cusip": "064058100",
+        "security_class": "COM",
+        "issuer": "BANK OF NEW YORK MELLON CORP",
+        "shares": 35300.0,
+        "value_usd": 5105439.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE INC",
+        "shares": 2695.0,
+        "value_usd": 4658388.0,
+        "weight_pct": 3.6
+      }
+    ],
+    "top_five_pct": 52.19,
+    "top_ten_pct": 79.64,
+    "hhi": 789.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 0,
+      "increased_positions": 7,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001555512-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001555512-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

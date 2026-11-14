@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1120927/0001120927-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d2bdb50fdc2fd79ec95039da1c8e264ef51eea9eecdf217b04e569898fc685e2",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "408bddb20b0f96b22368e43cf3a2d3fd268d8b2f41e57437397eccaff0c49940",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001120927-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1120927/0001120927-26-000012.txt",
+    "distinct_positions": 877,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 16123848064.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 3342568.0,
+        "value_usd": 2342672208.0,
+        "weight_pct": 14.53
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 39441624.0,
+        "value_usd": 1183248717.0,
+        "weight_pct": 7.34
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MRNGSTR MID CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 10405500.0,
+        "value_usd": 815999301.0,
+        "weight_pct": 5.06
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 11079207.0,
+        "value_usd": 782302773.0,
+        "weight_pct": 4.85
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 8666569.0,
+        "value_usd": 780944520.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 3449810.0,
+        "value_usd": 745434844.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "922908637",
+        "security_class": "MRNGSTR LRG CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 1441936.0,
+        "value_usd": 507345030.0,
+        "weight_pct": 3.15
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 6245155.0,
+        "value_usd": 506856765.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 586206.0,
+        "value_usd": 448945800.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "808524508",
+        "security_class": "US MID-CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 12184274.0,
+        "value_usd": 414509006.0,
+        "weight_pct": 2.57
+      }
+    ],
+    "top_five_pct": 36.62,
+    "top_ten_pct": 52.89,
+    "hhi": 424.86,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 80,
+      "exited_positions": 77,
+      "increased_positions": 503,
+      "reduced_positions": 219
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001120927-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001120927-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

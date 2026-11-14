@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1766995/0001766995-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9acc42f022ee15a87b78bf7d132c3f7264c7bebaea80a029aef06f06e520516e",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "d35fe16c9e4f7a238cd4738352ed71b7d259d552cebf0b2ef51ba247c9bd60be",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001766995-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1766995/0001766995-26-000006.txt",
+    "distinct_positions": 110,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 493182224.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921910873",
+        "security_class": "MRNGSTR CAP ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 216954.0,
+        "value_usd": 61248399.0,
+        "weight_pct": 12.42
+      },
+      {
+        "cusip": "808524409",
+        "security_class": "US LCAP VA ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1789757.0,
+        "value_usd": 59616799.0,
+        "weight_pct": 12.09
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1516873.0,
+        "value_usd": 54501233.0,
+        "weight_pct": 11.05
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1199932.0,
+        "value_usd": 32962135.0,
+        "weight_pct": 6.68
+      },
+      {
+        "cusip": "003263100",
+        "security_class": "PHYSCL PRECS MET",
+        "issuer": "ABRDN PRECIOUS METALS BASKET",
+        "shares": 132713.0,
+        "value_usd": 24724432.0,
+        "weight_pct": 5.01
+      },
+      {
+        "cusip": "53700T827",
+        "security_class": "IMGP DBI MAN ETF",
+        "issuer": "IM GLOBAL PARTNER FUNDS",
+        "shares": 657096.0,
+        "value_usd": 21375323.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "808524607",
+        "security_class": "US SML CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 624884.0,
+        "value_usd": 20389959.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "02072L565",
+        "security_class": "ALPHA ARCH 1-3",
+        "issuer": "EA SERIES TRUST",
+        "shares": 164145.0,
+        "value_usd": 19433097.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "808524706",
+        "security_class": "EMRG MKTEQ ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 523747.0,
+        "value_usd": 19090588.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "464287598",
+        "security_class": "RUS 1000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 56551.0,
+        "value_usd": 14020570.0,
+        "weight_pct": 2.84
+      }
+    ],
+    "top_five_pct": 47.25,
+    "top_ten_pct": 66.38,
+    "hhi": 601.82,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 30,
+      "exited_positions": 26,
+      "increased_positions": 28,
+      "reduced_positions": 40
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001766995-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001766995-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

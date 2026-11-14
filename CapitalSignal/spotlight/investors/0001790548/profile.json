@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1790548/0001420506-26-002570.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6895e757de5b58a895970fd3502dc294ac57ff40e0c47bba26a714b977fb35b5",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "fbb1007c0694df18a5f267a1d5a0271454cb4607962bb9962652f2bc55335c18",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001420506-26-002570",
+    "source": "https://www.sec.gov/Archives/edgar/data/1790548/0001420506-26-002570.txt",
+    "distinct_positions": 91,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 639614297.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 151229.0,
+        "value_usd": 34537718.0,
+        "weight_pct": 5.4
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 111496.0,
+        "value_usd": 29518611.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "87612E106",
+        "security_class": "COM",
+        "issuer": "TARGET CORP",
+        "shares": 185110.0,
+        "value_usd": 29004874.0,
+        "weight_pct": 4.53
+      },
+      {
+        "cusip": "040413205",
+        "security_class": "COM SHS",
+        "issuer": "ARISTA NETWORKS INC",
+        "shares": 128531.0,
+        "value_usd": 26167587.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "53115L104",
+        "security_class": "COM CL A",
+        "issuer": "LIBERTY ENERGY INC",
+        "shares": 1360724.0,
+        "value_usd": 24792385.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "055622104",
+        "security_class": "SPONSORED ADR",
+        "issuer": "BP PLC",
+        "shares": 557459.0,
+        "value_usd": 24522616.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "14149Y108",
+        "security_class": "COM",
+        "issuer": "CARDINAL HEALTH INC",
+        "shares": 109341.0,
+        "value_usd": 24328477.0,
+        "weight_pct": 3.8
+      },
+      {
+        "cusip": "934550203",
+        "security_class": "COM CL A",
+        "issuer": "WARNER MUSIC GROUP CORP",
+        "shares": 835678.0,
+        "value_usd": 23073069.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "28618M106",
+        "security_class": "COM",
+        "issuer": "ELEMENT SOLUTIONS INC",
+        "shares": 574281.0,
+        "value_usd": 20834911.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "404280406",
+        "security_class": "SPON ADR NEW",
+        "issuer": "HSBC HLDGS PLC",
+        "shares": 208968.0,
+        "value_usd": 20752644.0,
+        "weight_pct": 3.24
+      }
+    ],
+    "top_five_pct": 22.52,
+    "top_ten_pct": 40.26,
+    "hhi": 301.93,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 21,
+      "exited_positions": 34,
+      "increased_positions": 29,
+      "reduced_positions": 37
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001420506-26-001607"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001420506-26-002570"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

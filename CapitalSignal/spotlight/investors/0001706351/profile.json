@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1706351/0001765380-26-000480.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9d52fa625b746eeec778d58b8e1ffeef6eabc476c9e368829f3ebcb180f1b1bc",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "2f1600495faf741f0383816631657553a739b2ea32c71c067799e63cc63744b2",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001765380-26-000480",
+    "source": "https://www.sec.gov/Archives/edgar/data/1706351/0001765380-26-000480.txt",
+    "distinct_positions": 240,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 747342446.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 146338.0,
+        "value_usd": 102562759.0,
+        "weight_pct": 13.72
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 739022.0,
+        "value_usd": 51184673.0,
+        "weight_pct": 6.85
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 119717.0,
+        "value_usd": 39868070.0,
+        "weight_pct": 5.33
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 176219.0,
+        "value_usd": 39162950.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 379703.0,
+        "value_usd": 36785665.0,
+        "weight_pct": 4.92
+      },
+      {
+        "cusip": "911312106",
+        "security_class": "CL B",
+        "issuer": "UNITED PARCEL SVCS INC",
+        "shares": 309704.0,
+        "value_usd": 28938711.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 39444.0,
+        "value_usd": 20230889.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "46432F396",
+        "security_class": "MSCI USA MMENTM",
+        "issuer": "ISHARES TR",
+        "shares": 60780.0,
+        "value_usd": 19287985.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "92647X830",
+        "security_class": "SHS FR CA FL ETF",
+        "issuer": "VICTORY PORTFOLIOS II",
+        "shares": 357627.0,
+        "value_usd": 18306939.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "46641Q647",
+        "security_class": "MUNICIPAL ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 332811.0,
+        "value_usd": 15835131.0,
+        "weight_pct": 2.12
+      }
+    ],
+    "top_five_pct": 36.07,
+    "top_ten_pct": 49.8,
+    "hhi": 394.75,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 16,
+      "exited_positions": 12,
+      "increased_positions": 109,
+      "reduced_positions": 97
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001765380-25-000451"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001765380-26-000360"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001765380-26-000480"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

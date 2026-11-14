@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1857666/0001857666-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8e016db1f3c7c98fbe0cfa968e251565ef82a7aaed6491afede9189a2f738e2a",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "3767a17fe5375a9927606c869740afcbd5a7c39b84f7ad37dde0fb73169815f3",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001857666-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1857666/0001857666-26-000008.txt",
+    "distinct_positions": 263,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 7077737829.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "14020G101",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GROWTH ETF",
+        "shares": 29141956.0,
+        "value_usd": 1382203200.0,
+        "weight_pct": 19.53
+      },
+      {
+        "cusip": "14020X104",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GBL GROWTH EQT",
+        "shares": 26092504.0,
+        "value_usd": 1037959983.0,
+        "weight_pct": 14.67
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 13530014.0,
+        "value_usd": 660941346.0,
+        "weight_pct": 9.34
+      },
+      {
+        "cusip": "14020R107",
+        "security_class": "SHS",
+        "issuer": "CAPITAL GROUP GLOBAL EQUITY",
+        "shares": 9517199.0,
+        "value_usd": 331293725.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 829732.0,
+        "value_usd": 282722882.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 734841.0,
+        "value_usd": 252844091.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "14020V108",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP CORE EQUITY ET",
+        "shares": 5393165.0,
+        "value_usd": 239995867.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "14021L109",
+        "security_class": "SHS ETF",
+        "issuer": "CAPITAL GROUP DIVIDEND GROWE",
+        "shares": 6410623.0,
+        "value_usd": 237385405.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "14020U100",
+        "security_class": "SHS",
+        "issuer": "CAPITAL GROUP CONSERVATIVE E",
+        "shares": 6671885.0,
+        "value_usd": 214034115.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "14021N105",
+        "security_class": "SHS",
+        "issuer": "CAPITAL GROUP NEW GEOGRAPHY",
+        "shares": 4122930.0,
+        "value_usd": 150280825.0,
+        "weight_pct": 2.12
+      }
+    ],
+    "top_five_pct": 52.21,
+    "top_ten_pct": 67.67,
+    "hhi": 790.23,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 28,
+      "exited_positions": 25,
+      "increased_positions": 88,
+      "reduced_positions": 127
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001857666-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001857666-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

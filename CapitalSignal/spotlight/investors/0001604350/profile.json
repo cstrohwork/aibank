@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1604350/0001604350-26-000029.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a750c1b88d9e4748e83007d53b7482897189dc737296e131d4e88480a9cd4673",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "9e56dc16f89daaa3db277b2a9d311b848eaa1e5a322809bb0e4a0b720a924a2f",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001604350-26-000029",
+    "source": "https://www.sec.gov/Archives/edgar/data/1604350/0001604350-26-000029.txt",
+    "distinct_positions": 26,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 688000400.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "165167735",
+        "security_class": "COM",
+        "issuer": "EXPAND ENERGY CORPORATION",
+        "shares": 2019894.0,
+        "value_usd": 169763671.0,
+        "weight_pct": 24.67
+      },
+      {
+        "cusip": "92840M102",
+        "security_class": "COM",
+        "issuer": "VISTRA CORP",
+        "shares": 586724.0,
+        "value_usd": 81173265.0,
+        "weight_pct": 11.8
+      },
+      {
+        "cusip": "02005N100",
+        "security_class": "COM",
+        "issuer": "ALLY FINL INC",
+        "shares": 2083219.0,
+        "value_usd": 78370699.0,
+        "weight_pct": 11.39
+      },
+      {
+        "cusip": "629377508",
+        "security_class": "COM NEW",
+        "issuer": "NRG ENERGY INC",
+        "shares": 712345.0,
+        "value_usd": 68135799.0,
+        "weight_pct": 9.9
+      },
+      {
+        "cusip": "29249E109",
+        "security_class": "COM",
+        "issuer": "ENACT HLDGS INC",
+        "shares": 1298718.0,
+        "value_usd": 56182541.0,
+        "weight_pct": 8.17
+      },
+      {
+        "cusip": "Y81669106",
+        "security_class": "SHS",
+        "issuer": "STEALTHGAS INC",
+        "shares": 4112973.0,
+        "value_usd": 36934498.0,
+        "weight_pct": 5.37
+      },
+      {
+        "cusip": "00827B106",
+        "security_class": "COM CL A",
+        "issuer": "AFFIRM HLDGS INC",
+        "shares": 514100.0,
+        "value_usd": 35591143.0,
+        "weight_pct": 5.17
+      },
+      {
+        "cusip": "674215207",
+        "security_class": "COM NEW",
+        "issuer": "CHORD ENERGY CORPORATION",
+        "shares": 187840.0,
+        "value_usd": 25183709.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "87422Q109",
+        "security_class": "COM",
+        "issuer": "TALEN ENERGY CORP",
+        "shares": 79793.0,
+        "value_usd": 24950473.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "253651202",
+        "security_class": "COM SHS",
+        "issuer": "DIEBOLD NIXDORF INC",
+        "shares": 399121.0,
+        "value_usd": 24434187.0,
+        "weight_pct": 3.55
+      }
+    ],
+    "top_five_pct": 65.93,
+    "top_ten_pct": 87.31,
+    "hhi": 1163.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 3,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001604350-26-000023"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001604350-26-000029"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

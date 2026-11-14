@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2131139/0001420506-26-002724.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1181631d3696f9f082545ae5fe6d3361522357e851fcc5eb3379d99d0801ec23",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "23e74235221305db933a08285990862e65dacdefee0ffa540e99b4767c9f42af",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001420506-26-002724",
+    "source": "https://www.sec.gov/Archives/edgar/data/2131139/0001420506-26-002724.txt",
+    "distinct_positions": 1227,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 329042846.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 441035.0,
+        "value_usd": 22259055.0,
+        "weight_pct": 6.76
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 45652.0,
+        "value_usd": 10425897.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 344204.0,
+        "value_usd": 10326121.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 8720.0,
+        "value_usd": 6678252.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "78464A805",
+        "security_class": "ST STR PR SP1500",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 67219.0,
+        "value_usd": 6187479.0,
+        "weight_pct": 1.88
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 7798.0,
+        "value_usd": 5768481.0,
+        "weight_pct": 1.75
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 14573.0,
+        "value_usd": 5453923.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 20917.0,
+        "value_usd": 5211471.0,
+        "weight_pct": 1.58
+      },
+      {
+        "cusip": "46641Q670",
+        "security_class": "CORE PLUS BD ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 114387.0,
+        "value_usd": 5122250.0,
+        "weight_pct": 1.56
+      },
+      {
+        "cusip": "921935706",
+        "security_class": "US QUALITY",
+        "issuer": "VANGUARD WELLINGTON FD",
+        "shares": 29616.0,
+        "value_usd": 5043288.0,
+        "weight_pct": 1.53
+      }
+    ],
+    "top_five_pct": 16.98,
+    "top_ten_pct": 25.07,
+    "hhi": 124.97,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 108,
+      "exited_positions": 101,
+      "increased_positions": 268,
+      "reduced_positions": 274
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001420506-26-001835"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001420506-26-002724"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

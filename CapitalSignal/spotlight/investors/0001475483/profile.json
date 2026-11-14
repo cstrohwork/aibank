@@ -14,8 +14,65 @@
     "https://www.sec.gov/Archives/edgar/data/1475483/0001140361-26-043245.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ff7d0a486830ac015f5abc09dcf7d814ed9ad53c43bf64e142dcd0641f145ba4",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "576f744f3be2e2cebc923066ace271072b31c7baaebbb5a4ead9b34bdbf86a4a",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001140361-26-043245",
+    "source": "https://www.sec.gov/Archives/edgar/data/1475483/0001140361-26-043245.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2690656176.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78475V103",
+        "security_class": "Class A Common Stock",
+        "issuer": "SOLV Energy Inc",
+        "shares": 78050441.0,
+        "value_usd": 1874771593.0,
+        "weight_pct": 69.68
+      },
+      {
+        "cusip": "023939101",
+        "security_class": "Common Stock",
+        "issuer": "Amentum Holdings, Inc.",
+        "shares": 45026743.0,
+        "value_usd": 815884583.0,
+        "weight_pct": 30.32
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5774.38,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001140361-25-041164"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-26",
+        "accession": "0001140361-26-034405"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001140361-26-043245"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

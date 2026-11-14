@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2080849/0002080849-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1addc62d7d5e6aca72e20040f7614a3d7dd3ff54422f668a9a29fc66d9a01166",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "ba9f6cbd2efd1b9d94328fcff718ec1bce8e089b31045cd9b4ec36e89bd6eb7e",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002080849-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2080849/0002080849-26-000006.txt",
+    "distinct_positions": 60,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 129716597.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 41679.0,
+        "value_usd": 30832874.0,
+        "weight_pct": 23.77
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 29786.0,
+        "value_usd": 20875816.0,
+        "weight_pct": 16.09
+      },
+      {
+        "cusip": "00888H448",
+        "security_class": "ALLIANZIM US EQT",
+        "issuer": "AIM ETF PRODUCTS TRUST",
+        "shares": 395425.0,
+        "value_usd": 10447122.0,
+        "weight_pct": 8.05
+      },
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 22409.0,
+        "value_usd": 6608684.0,
+        "weight_pct": 5.09
+      },
+      {
+        "cusip": "92189F676",
+        "security_class": "SEMICONDUCTR ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 7501.0,
+        "value_usd": 4568370.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "45784N106",
+        "security_class": "EQUI DEFI SEPT",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 158333.0,
+        "value_usd": 4407991.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "316092360",
+        "security_class": "FUN LAR COR ETF",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 72814.0,
+        "value_usd": 4300415.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "52468L505",
+        "security_class": "FRANKLIN INTL LW",
+        "issuer": "LEGG MASON ETF INVT",
+        "shares": 90752.0,
+        "value_usd": 3785266.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 16823.0,
+        "value_usd": 3123190.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "46434V803",
+        "security_class": "HDG MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 61398.0,
+        "value_usd": 2848253.0,
+        "weight_pct": 2.2
+      }
+    ],
+    "top_five_pct": 56.53,
+    "top_ten_pct": 70.77,
+    "hhi": 997.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 40,
+      "exited_positions": 39,
+      "increased_positions": 3,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-21",
+        "accession": "0002080849-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002080849-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

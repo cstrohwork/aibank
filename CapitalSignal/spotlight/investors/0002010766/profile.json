@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2010766/0002010766-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b160cc63f4ac6fb6bb4dc509ac3cfa401def5fac6a23aee24f3ef045db5d6403",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "5d1ac6b05b7f16372031a2a9e661ff2ff0bff524c3ea610f3c7c34a4108496e3",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0002010766-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2010766/0002010766-26-000004.txt",
+    "distinct_positions": 32,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 62348618.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "69702V107",
+        "security_class": "COM",
+        "issuer": "Palmer Square Capital BDC Inc",
+        "shares": 3730065.0,
+        "value_usd": 36890343.0,
+        "weight_pct": 59.17
+      },
+      {
+        "cusip": "31816X106",
+        "security_class": "COM",
+        "issuer": "FIREFLY AEROSPACE INC",
+        "shares": 359115.0,
+        "value_usd": 8313512.0,
+        "weight_pct": 13.33
+      },
+      {
+        "cusip": "464288257",
+        "security_class": "COM",
+        "issuer": "MFC ISHARES  MSCI ACWI ETF",
+        "shares": 42292.0,
+        "value_usd": 6714489.0,
+        "weight_pct": 10.77
+      },
+      {
+        "cusip": "464288240",
+        "security_class": "COM",
+        "issuer": "MFC ISHARES TR MSCI ACWI EX US",
+        "shares": 19180.0,
+        "value_usd": 1450392.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "Nvidia Corporation",
+        "shares": 5492.0,
+        "value_usd": 1254263.0,
+        "weight_pct": 2.01
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "Alphabet Inc",
+        "shares": 2006.0,
+        "value_usd": 690224.0,
+        "weight_pct": 1.11
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CL A",
+        "issuer": "SPACE EXPL TECHNOLOGIES CORP",
+        "shares": 4369.0,
+        "value_usd": 659107.0,
+        "weight_pct": 1.06
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corp",
+        "shares": 1255.0,
+        "value_usd": 643690.0,
+        "weight_pct": 1.03
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 1690.0,
+        "value_usd": 562804.0,
+        "weight_pct": 0.9
+      },
+      {
+        "cusip": "81762P102",
+        "security_class": "COM",
+        "issuer": "Servicenow Inc",
+        "shares": 3884.0,
+        "value_usd": 520495.0,
+        "weight_pct": 0.83
+      }
+    ],
+    "top_five_pct": 87.61,
+    "top_ten_pct": 92.54,
+    "hhi": 3812.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 22,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0002010766-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0002010766-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

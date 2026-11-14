@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1445893/0001445893-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "00f31f8cac57a33b29b5afa4b1d68021f35da1dd7448801c61969cb992362f9e",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "55d22fc745c4b4bdb8002e230fd702df8a3ce6908ad803276d3d20b7a8ddf985",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001445893-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1445893/0001445893-26-000008.txt",
+    "distinct_positions": 35,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1878951670.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 705524.0,
+        "value_usd": 538053768.0,
+        "weight_pct": 28.64
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 255281.0,
+        "value_usd": 116456639.0,
+        "weight_pct": 6.2
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 406803.0,
+        "value_usd": 101354967.0,
+        "weight_pct": 5.39
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 274509.0,
+        "value_usd": 96404816.0,
+        "weight_pct": 5.13
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 106883.0,
+        "value_usd": 96233178.0,
+        "weight_pct": 5.12
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 288449.0,
+        "value_usd": 96059286.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 902613.0,
+        "value_usd": 92092653.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "64110L106",
+        "security_class": "COM",
+        "issuer": "NETFLIX INC.",
+        "shares": 843802.0,
+        "value_usd": 58711743.0,
+        "weight_pct": 3.12
+      },
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 189737.0,
+        "value_usd": 52726015.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE  INC",
+        "shares": 29954.0,
+        "value_usd": 51776388.0,
+        "weight_pct": 2.76
+      }
+    ],
+    "top_five_pct": 50.48,
+    "top_ten_pct": 69.18,
+    "hhi": 1068.51,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 6,
+      "increased_positions": 11,
+      "reduced_positions": 11
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001445893-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001445893-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1697162/0001140361-26-043745.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8e559ffc636f71f056deaedece8164332266cc87b124a9b8c995a79ce54e5a0b",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "3defdf6fb788c9ed24d07ce61f82335203508b86fb4323af20ed2dd76fa0145c",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001140361-26-043745",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697162/0001140361-26-043745.txt",
+    "distinct_positions": 22,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 643058601.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92537N108",
+        "security_class": "COM CL A",
+        "issuer": "VERTIV HOLDINGS CO",
+        "shares": 372000.0,
+        "value_usd": 89767320.0,
+        "weight_pct": 13.96
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 190500.0,
+        "value_usd": 65547240.0,
+        "weight_pct": 10.19
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 125892.0,
+        "value_usd": 64570007.0,
+        "weight_pct": 10.04
+      },
+      {
+        "cusip": "912008109",
+        "security_class": "COM",
+        "issuer": "US FOODS HLDG CORP",
+        "shares": 528457.0,
+        "value_usd": 48729020.0,
+        "weight_pct": 7.58
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 177585.0,
+        "value_usd": 40556862.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "13321L108",
+        "security_class": "COM",
+        "issuer": "CAMECO CORP",
+        "shares": 443656.0,
+        "value_usd": 38451666.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "G87110105",
+        "security_class": "COM",
+        "issuer": "TECHNIPFMC PLC",
+        "shares": 486158.0,
+        "value_usd": 33019851.0,
+        "weight_pct": 5.13
+      },
+      {
+        "cusip": "172967424",
+        "security_class": "COM NEW",
+        "issuer": "CITIGROUP INC",
+        "shares": 236076.0,
+        "value_usd": 30567120.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "254687106",
+        "security_class": "COM",
+        "issuer": "DISNEY WALT CO",
+        "shares": 289997.0,
+        "value_usd": 30420685.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "48242W106",
+        "security_class": "COM",
+        "issuer": "KBR INC",
+        "shares": 855052.0,
+        "value_usd": 30063628.0,
+        "weight_pct": 4.68
+      }
+    ],
+    "top_five_pct": 48.08,
+    "top_ten_pct": 73.35,
+    "hhi": 709.54,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001140361-26-033141"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001140361-26-043745"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

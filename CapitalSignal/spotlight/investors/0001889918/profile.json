@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1889918/0001889918-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "854f550371c369e2c69d1add26ca91c75de28316703480682d2c10171b5cccc2",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "954065823dffd0779e6bbeb217a891d8e6f351365194a5ae02d4eac3eeac8bbb",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001889918-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1889918/0001889918-26-000006.txt",
+    "distinct_positions": 69,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 274395786.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "26922A222",
+        "security_class": "APTUS COLLRD INV",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 1949647.0,
+        "value_usd": 91477416.0,
+        "weight_pct": 33.34
+      },
+      {
+        "cusip": "26922A446",
+        "security_class": "OPUS SML CP VL",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 835049.0,
+        "value_usd": 32717225.0,
+        "weight_pct": 11.92
+      },
+      {
+        "cusip": "26922A388",
+        "security_class": "APTUS DEFINED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 1133343.0,
+        "value_usd": 30792933.0,
+        "weight_pct": 11.22
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 675073.0,
+        "value_usd": 27968259.0,
+        "weight_pct": 10.19
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 243976.0,
+        "value_usd": 21899299.0,
+        "weight_pct": 7.98
+      },
+      {
+        "cusip": "26922B642",
+        "security_class": "APTUS ENHANCED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 759309.0,
+        "value_usd": 16385884.0,
+        "weight_pct": 5.97
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "EMGR CRE EQT MNG",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 197928.0,
+        "value_usd": 7780550.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 15290.0,
+        "value_usd": 5091846.0,
+        "weight_pct": 1.86
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 19635.0,
+        "value_usd": 4084553.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "26922B535",
+        "security_class": "APTUS LARGE CAP",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 78271.0,
+        "value_usd": 3354702.0,
+        "weight_pct": 1.22
+      }
+    ],
+    "top_five_pct": 74.66,
+    "top_ten_pct": 88.03,
+    "hhi": 1601.91,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 4,
+      "increased_positions": 39,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001889918-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001889918-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

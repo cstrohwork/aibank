@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1535845/0001535845-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c95725c39648ae1655eca24e535ddd5292b43bc0cbe87f82926c5f2abf7bd997",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "be33562221bffe028ba4239b4b6b229506c4d28f5fadfe32a2e890470b30b377",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001535845-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1535845/0001535845-26-000011.txt",
+    "distinct_positions": 1245,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 62355109293.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 12459603.0,
+        "value_usd": 2845524133.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 2677064.0,
+        "value_usd": 2050229464.0,
+        "weight_pct": 3.29
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 4263109.0,
+        "value_usd": 1419700559.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 1837000.0,
+        "value_usd": 1358957490.0,
+        "weight_pct": 2.18
+      },
+      {
+        "cusip": "891160509",
+        "security_class": "COM NEW",
+        "issuer": "TORONTO DOMINION BK ONT",
+        "shares": 10785150.0,
+        "value_usd": 1268043247.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 2422567.0,
+        "value_usd": 1242534614.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 1158289.0,
+        "value_usd": 1233705197.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "780087102",
+        "security_class": "COM",
+        "issuer": "ROYAL BK CDA",
+        "shares": 6167931.0,
+        "value_usd": 1213212819.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "78464A870",
+        "security_class": "ST STR SP BIOT",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 7502500.0,
+        "value_usd": 1182994200.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "063671101",
+        "security_class": "COM",
+        "issuer": "BANK OF MONTREAL",
+        "shares": 7034902.0,
+        "value_usd": 1176289793.0,
+        "weight_pct": 1.89
+      }
+    ],
+    "top_five_pct": 14.34,
+    "top_ten_pct": 24.04,
+    "hhi": 102.48,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 166,
+      "exited_positions": 338,
+      "increased_positions": 304,
+      "reduced_positions": 448
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001535845-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001535845-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

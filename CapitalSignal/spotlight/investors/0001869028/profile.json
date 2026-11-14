@@ -14,8 +14,65 @@
     "https://www.sec.gov/Archives/edgar/data/1869028/0001398344-26-019986.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6140000636545d02b769d8458e5342fb13705fa0c8fd9f249dcc0418e4ae45bc",
-  "generated_at": "2026-11-14T12:53:20.425101+00:00",
+  "source_fingerprint": "bfe31e99d303b5212259a1a5ef45e4acbb58d1a53d4bf511bb444308f693e235",
+  "generated_at": "2026-11-14T15:11:30.996457+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001398344-26-019986",
+    "source": "https://www.sec.gov/Archives/edgar/data/1869028/0001398344-26-019986.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 741464.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "95075A107",
+        "security_class": "COM",
+        "issuer": "WEREWOLF THERAPEUTICS INC",
+        "shares": 589102.0,
+        "value_usd": 543329.0,
+        "weight_pct": 73.28
+      },
+      {
+        "cusip": "89854M101",
+        "security_class": "COM",
+        "issuer": "TSCAN THERAPEUTICS INC",
+        "shares": 630000.0,
+        "value_usd": 198135.0,
+        "weight_pct": 26.72
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6083.72,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001398344-25-020563"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001398344-26-014487"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001398344-26-019986"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }
