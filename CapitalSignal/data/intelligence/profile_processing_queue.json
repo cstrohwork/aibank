@@ -9,8 +9,8 @@
     "discovery_cursor": 54,
     "exhausted": false,
     "warning": "Bounded cached 13F discovery; SEC monetary summary and amendment precedence not independently reconciled; N-PORT/N-PX universe incomplete",
-    "readiness_unqueued_remaining": 201,
-    "readiness_last_expanded_at": "2026-11-14T02:39:48.955302+00:00",
+    "readiness_unqueued_remaining": 196,
+    "readiness_last_expanded_at": "2026-11-14T10:53:04.712365+00:00",
     "last_manual_admission_at": "2026-11-14T04:54:00Z"
   },
   "policy": {
@@ -56,11 +56,14 @@
       "filing_date": "2025-10-24",
       "source_file": "CapitalSignal/data/13f/0001979372-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001979372-25-000008",
       "retries": 2,
-      "reason": "Bounded source retrieval attempted; GitHub raw fetch returned 400 file too large/unsupported; no holdings or accession validation possible. Retry through retained SEC archive or bounded parser; do not mark validated.",
-      "last_checked_at": "2026-11-12T13:49:46Z",
-      "last_error_code": "GITHUB_FETCH_OVERSIZE"
+      "reason": "Cached holdings, period and accession reconciled; original SEC summary, monetary units, amendments and newer filings remain unverified. Not publishable.",
+      "last_checked_at": "2026-11-14T10:53:04.712412+00:00",
+      "last_error_code": null,
+      "holdings_count": 38187,
+      "source_blob_sha256": "7970c18cdb60df1070c6dea6430de0e377b5b9b828166e7935621163b1ed24f0",
+      "cached_source_reconciled": true
     },
     {
       "id": "CIK0000019617",
@@ -70,9 +73,14 @@
       "filing_date": "2025-11-07",
       "source_file": "CapitalSignal/data/13f/0000019617-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0000019617-25-001081",
       "retries": 1,
-      "reason": "GitHub file retrieval truncated JSON; retry via bounded archive or raw source"
+      "reason": "Cached holdings, period and accession reconciled; original SEC summary, monetary units, amendments and newer filings remain unverified. Not publishable.",
+      "last_checked_at": "2026-11-14T10:53:04.764025+00:00",
+      "holdings_count": 32847,
+      "source_blob_sha256": "9cc7456d284839a7ff28399ec7887d356ae57d123594beb7fc2820a64782e20a",
+      "cached_source_reconciled": true,
+      "last_error_code": null
     },
     {
       "id": "CIK0001390777",
@@ -82,11 +90,14 @@
       "filing_date": "2025-11-03",
       "source_file": "CapitalSignal/data/13f/0001390777-2025-09-30.json",
       "reported_13f_value_usd": null,
-      "accession_fingerprint": null,
+      "accession_fingerprint": "0001390777-25-000160",
       "retries": 1,
-      "reason": "GitHub connector returned incomplete JSON for cached 13F; use bounded SEC/archive reader on retry; no validation or fabricated metrics.",
-      "last_error_code": "GITHUB_FETCH_TRUNCATED",
-      "last_checked_at": "2026-11-12T15:17:09Z"
+      "reason": "Cached holdings, period and accession reconciled; original SEC summary, monetary units, amendments and newer filings remain unverified. Not publishable.",
+      "last_error_code": null,
+      "last_checked_at": "2026-11-14T10:53:04.809066+00:00",
+      "holdings_count": 32572,
+      "source_blob_sha256": "055f725e4123d216cde1c8a274f8620c175a7d4fd8b1ead8ed7d4079335716fb",
+      "cached_source_reconciled": true
     },
     {
       "id": "CIK0001697723",
@@ -1159,6 +1170,61 @@
       "retries": 0,
       "reason": "N-PORT readiness discovery; underlying SEC accession, amendments, fund/registrant identity and monetary totals require independent verification. Cached common-equity value is provisional and is not total AUM.",
       "last_checked_at": "2026-11-14T04:54:00Z"
+    },
+    {
+      "id": "S000004317",
+      "name": "iShares Core S&P Total U.S. Stock Market ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000207169125007618/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004344",
+      "name": "iShares Russell 2000 ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000207169125007652/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004311",
+      "name": "iShares S&P 500 Growth ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000094040025010641/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000004345",
+      "name": "iShares Russell 1000 Value ETF",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2025-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1100663/000100472625002038/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
+    },
+    {
+      "id": "S000002846",
+      "name": "VANGUARD SMALL-CAP GROWTH INDEX FUND",
+      "kind": "fund",
+      "status": "pending",
+      "report_date": "2026-06-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000483/primary_doc.xml",
+      "reported_13f_value_usd": null,
+      "retries": 0,
+      "reason": "Newly discovered from readiness index; source and monetary units not independently validated"
     }
   ],
   "next_batch_ids": [
@@ -1184,14 +1250,16 @@
     "failed_transient": 0
   },
   "next_batch": [
-    "CIK0000850027",
-    "CIK0001011006",
-    "CIK0001499857",
-    "CIK0001979372",
+    "S000004344",
+    "S000004345",
+    "S000004346",
     "CIK0000019617",
+    "CIK0000102909",
+    "CIK0000713676",
+    "CIK0000831001",
+    "CIK0001054074",
     "CIK0001390777",
-    "CIK0001697723",
-    "CIK0000102909"
+    "CIK0001697723"
   ],
   "last_run": {
     "action": "monetary_scale_conflict_detected",
@@ -1207,16 +1275,31 @@
     "action": "cached holdings arithmetic and concentration reconciliation",
     "next": "SEC summary and amendment precedence verification; publish only after validation"
   },
-  "last_queue_selection_at": "2026-11-14T02:39:48.955335+00:00",
+  "last_queue_selection_at": "2026-11-14T10:53:04.852624+00:00",
   "counts": {
-    "pending": 18,
+    "pending": 23,
     "validated_pending_publication": 43,
     "published": 1,
     "failed": 0,
     "blocked": 0
   },
   "processing_blocker": "Hourly queue selector does not execute SEC validation or publish profiles; source monetary scale and amendment precedence unresolved. Legacy items preserved.",
-  "selection_cursor": 10,
+  "selection_cursor": 20,
   "last_selection_warning": "Rotating queue selection only: no holdings validated or profiles published.",
-  "last_evidence_review_at": "2026-11-14T03:30:00Z"
+  "last_evidence_review_at": "2026-11-14T03:30:00Z",
+  "evidence_cursor": 3,
+  "last_processing_batch": [
+    {
+      "id": "CIK0001979372",
+      "result": "cached_evidence_reconciled"
+    },
+    {
+      "id": "CIK0000019617",
+      "result": "cached_evidence_reconciled"
+    },
+    {
+      "id": "CIK0001390777",
+      "result": "cached_evidence_reconciled"
+    }
+  ]
 }
