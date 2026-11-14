@@ -29,14 +29,17 @@ def fund_identity(root):
     series_lei=val(root,"seriesLei").upper()
     same_name=" ".join(reg_name.casefold().split())==" ".join(series_name.casefold().split())
     same_valid_lei=(bool(re.fullmatch(r"[A-Z0-9]{20}",reg_lei)) and reg_lei==series_lei)
+    valid_reg_lei=bool(re.fullmatch(r"[A-Z0-9]{20}",reg_lei)) and reg_lei!="0"*20
     same_entity=bool(reg_name) and same_name and same_valid_lei
     same_named_entity_without_series_lei=bool(reg_name) and same_name and series_lei=="N/A"
     explicit_na=series_name.upper()=="N/A" and series_lei=="N/A"
-    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_valid_lei or same_named_entity_without_series_lei or explicit_na):
+    explicit_none_zero_lei=(series_name.upper()=="NONE" and series_lei=="0"*20 and valid_reg_lei)
+    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_valid_lei or same_named_entity_without_series_lei or explicit_na or explicit_none_zero_lei):
         raise ValueError("Missing/invalid N-PORT series identifier")
     if same_entity:basis="matching_registrant_series_lei_and_name"
     elif same_valid_lei:basis="matching_registrant_series_lei"
     elif same_named_entity_without_series_lei:basis="matching_registrant_series_name_series_lei_not_applicable"
+    elif explicit_none_zero_lei:basis="explicit_none_series_zero_lei"
     else:basis="explicit_not_applicable_series"
     return {"series_id":None,"fund_id":"CIK"+cik.zfill(10),
             "identity_basis":basis,
@@ -73,7 +76,7 @@ def parse(raw,source):
         if position is not None:rows.append(position)
     if not rows:return None
     identity=fund_identity(root)
-    if not fund or fund.upper()=="N/A":fund=val(root,"regName") or identity["fund_id"]
+    if not fund or fund.upper() in {"N/A","NONE"}:fund=val(root,"regName") or identity["fund_id"]
     return {**identity,"fund_name":fund,"report_date":report,"total_assets_reported":assets,"source":source,"holdings":rows}
 def main():
     # Registered fund trust CIKs; these are not assumed to map to 13F managers.
