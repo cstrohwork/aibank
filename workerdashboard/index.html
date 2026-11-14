@@ -22,7 +22,7 @@
     <article class="card"><div class="stat-label">Workers running</div><div class="stat-value" id="runningCount">—</div><div class="stat-note">GitHub Actions jobs currently in progress</div></article>
     <article class="card"><div class="stat-label">Workflows enabled</div><div class="stat-value" id="enabledCount">—</div><div class="stat-note">Scheduled or manually triggered workflows</div></article>
     <article class="card"><div class="stat-label">Recent failures</div><div class="stat-value" id="failureCount">—</div><div class="stat-note">Latest 100 returned workflow runs with a failure</div></article>
-    <article class="card"><div class="stat-label">Data services</div><div class="stat-value" id="dataCount">2</div><div class="stat-note">SEC history and S&amp;P 1500 fundamentals status</div></article>
+    <article class="card"><div class="stat-label">Data services</div><div class="stat-value" id="dataCount">3</div><div class="stat-note">SEC history, fundamentals and investor profiles</div></article>
   </div>
 
   <div class="section-head"><div><h2>Current ingestion</h2><p>Today’s SEC investor filings, filings received this quarter, and S&amp;P 1500 fundamentals.</p></div><div class="foot" id="monitorChecked">Waiting for status…</div></div>
@@ -38,6 +38,9 @@
     <article class="card" id="secCard"><div class="data-title">SEC filing history</div><div class="pill unknown" id="secStatus">Loading</div><div class="data-metrics"><div class="metric"><b id="secArchived">—</b><span>complete submissions archived</span></div><div class="metric"><b id="secPending">—</b><span>catalogued filings pending</span></div><div class="metric"><b id="secTotal">—</b><span>catalogued filings total</span></div></div><div class="bar"><span id="secBar" style="width:0"></span></div><div class="foot" id="secMeta">Reading status…</div></article>
     <article class="card" id="fundCard"><div class="data-title">S&amp;P 1500 fundamentals</div><div class="pill unknown" id="fundStatus">Loading</div><div class="data-metrics"><div class="metric"><b id="fundIngested">—</b><span>issuers ingested</span></div><div class="metric"><b id="fundUniverse">—</b><span>unique mapped issuers</span></div><div class="metric"><b id="fundPending">—</b><span>pending issuers</span></div></div><div class="bar warm"><span id="fundBar" style="width:0"></span></div><div class="foot" id="fundMeta">Reading status…</div></article>
   </div>
+
+  <div class="section-head"><div><h2>Investor profiles</h2><p>Generated profiles from cached institutional investors; financial verification tracked separately.</p></div><a class="link" href="/CapitalSignal/spotlight/investors/">Browse investor profiles →</a></div>
+  <article class="card"><div class="pill unknown" id="profileStatus">Loading</div><div class="data-metrics"><div class="metric"><b id="profileGenerated">—</b><span>profiles generated</span></div><div class="metric"><b id="profileUniverse">—</b><span>cached investors</span></div><div class="metric"><b id="profileRemaining">—</b><span>remaining to generate</span></div><div class="metric"><b id="profileBatch">—</b><span>generated in latest batch</span></div><div class="metric"><b id="profileErrors">—</b><span>latest generation errors</span></div></div><div class="bar"><span id="profileBar" style="width:0"></span></div><div class="foot" id="profileMeta">Reading profile publication checkpoint…</div><p class="foot">Generated does not mean fully verified. Monetary totals, turnover and classifications may still await supporting evidence. Counts are unique cached investors, not filing counts.</p><a class="link" href="https://github.com/cstrohwork/aibank/actions/workflows/investor-profile-queue.yml">Open profile worker ↗</a></article>
 
   <div class="section-head"><div><h2>GitHub workers</h2><p>Live workflow state and latest run from the public AIBank repository.</p></div><div class="filters" id="filters"><button class="filter on" data-filter="all">All</button><button class="filter" data-filter="active">Running</button><button class="filter" data-filter="failed">Failed</button></div></div>
   <article class="card tablewrap"><table class="table"><thead><tr><th>Worker / workflow</th><th>State</th><th>Latest run</th><th>Updated</th><th></th></tr></thead><tbody id="workflowRows"><tr><td colspan="5" class="empty">Loading GitHub workflows…</td></tr></tbody></table></article>
@@ -127,9 +130,25 @@ async function load(){
    loadJson(api+"/actions/workflows?per_page=100"),
    loadJson(api+"/actions/runs?per_page=100"),
    loadJson(raw+"history/status.json?x="+Date.now()),
-   loadJson(raw+"fundamentals/status.json?x="+Date.now())
+   loadJson(raw+"fundamentals/status.json?x="+Date.now()),
+   loadJson(raw+"../spotlight/investors/manifest.json?x="+Date.now())
  ];
  const out=await Promise.allSettled(tasks);
+ if(out[4].status==="fulfilled"){
+  const p=out[4].value, total=Number(p.cached_investor_count), done=Number(p.generated_count);
+  if(Number.isFinite(total)&&Number.isFinite(done)){
+   $("profileGenerated").textContent=fmtNum(done);$("profileUniverse").textContent=fmtNum(total);
+   $("profileRemaining").textContent=fmtNum(Math.max(0,total-done));$("profileBatch").textContent=fmtNum(p.changed_this_run);
+   $("profileErrors").textContent=fmtNum((p.errors||[]).length);
+   $("profileBar").style.width=(total?Math.min(100,done/total*100):0)+"%";
+   $("profileStatus").className="pill "+((p.errors||[]).length?"queued":done>=total?"success":"running");
+   $("profileStatus").textContent=(p.errors||[]).length?"Generation errors":done>=total?"Cached universe generated":"Generation incomplete";
+   $("profileMeta").textContent="Checkpoint updated "+dt(p.updated_at)+" · "+(total?(done/total*100).toFixed(1):"0")+"% generated · worker configured for ingestion events and ten-minute recovery";
+  }else{$("profileStatus").textContent="Invalid checkpoint";$("profileMeta").textContent="Profile counts unavailable";}
+ }else{
+  $("profileStatus").className="pill unknown";$("profileStatus").textContent="Status unavailable";
+  $("profileMeta").textContent="Could not load profile checkpoint: "+out[4].reason.message;
+ }
  let fundN=0,fundDone=0,fundFailed=0,fundNextStage="—";
  try{
   if(out[0].status==="fulfilled")workflows=out[0].value.workflows||[];
