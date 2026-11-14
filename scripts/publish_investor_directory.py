@@ -132,7 +132,20 @@ def run(batch=2000):
     # The combined pending count must not be mistaken for undiscovered investors.
     never_published_remaining = sum(1 for p in profiles if str(p.get('manager_cik') or '').zfill(10) not in manifest['profiles'])
     refresh_remaining = remaining - never_published_remaining
-    manifest.update(never_published_remaining=never_published_remaining, refresh_remaining=refresh_remaining,
+    # Persist the next eligible batch in priority order for operational visibility.
+    # These are cached disclosure pages, not validated monetary research profiles.
+    next_batch = []
+    for p in profiles:
+        cik = str(p.get('manager_cik') or '').zfill(10)
+        fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+        if manifest['profiles'].get(cik, {}).get('fingerprint') != fingerprint:
+            next_batch.append({'manager_cik': cik, 'report_date': p.get('latest_report_date'),
+                               'state': 'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'})
+        if len(next_batch) >= min(batch, 200):
+            break
+    manifest.update(next_batch=next_batch, next_batch_count=len(next_batch),
+                    profile_evidence_level='cached_sec_disclosure_monetary_reconciliation_pending',
+                    never_published_remaining=never_published_remaining, refresh_remaining=refresh_remaining,
                     updated_at=now, cached_investor_count=len(profiles), generated_count=len(manifest['profiles']),
                     changed_this_run=changed, remaining_changed_or_unpublished=remaining,
                     selected_this_run=len(selected), errors=errors)
