@@ -23,6 +23,38 @@ def main():
     # discard accession fingerprints, retries, and validation evidence.
     if "items" in prior and "records" not in prior:
         items = prior["items"]
+        # Expand the discovered universe incrementally without discarding prior evidence.
+        known = {str(x["id"]) for x in items}
+        pool = []
+        for kind, field, id_field, name_field in (
+            ("manager", "managers", "manager_id", "manager_name"),
+            ("fund", "funds", "fund_id", "fund_name"),
+        ):
+            for obj in source.get(field, []):
+                raw_id = obj.get(id_field)
+                if not raw_id:
+                    continue
+                ident = str(raw_id)
+                if ident in known:
+                    continue
+                pool.append((kind, ident, obj, name_field))
+        pool.sort(key=lambda row: (
+            -(float(row[2].get("reported_value_usd") or row[2].get("reported_common_equity_value_usd") or 0)),
+            row[1]))
+        discovery_limit = min(5, args.batch_size)
+        for kind, ident, obj, name_field in pool[:discovery_limit]:
+            items.append({
+                "id": ident, "name": obj.get(name_field) or ident,
+                "kind": kind, "status": "pending",
+                "report_date": obj.get("report_date"),
+                "source_url": obj.get("source_url"),
+                "reported_13f_value_usd": None,
+                "retries": 0,
+                "reason": "Newly discovered from readiness index; source and monetary units not independently validated",
+            })
+            known.add(ident)
+        prior.setdefault("discovery", {})["readiness_unqueued_remaining"] = len(pool) - min(discovery_limit, len(pool))
+        prior["discovery"]["readiness_last_expanded_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
         # Rotate across pending investors instead of repeatedly selecting the same
         # first ten (which previously produced no progress on oversized filings).
         # This advances a durable selection cursor without falsely validating data.
@@ -39,7 +71,7 @@ def main():
         )
         prior["counts"] = {state: sum(r.get("status") == state for r in items)
                            for state in ("pending", "validated_pending_publication", "published", "failed", "blocked")}
-        DEST.write_text(json.dumps(prior, indent=2) + "\\n")
+        DEST.write_text(json.dumps(prior, indent=2) + "\n")
         print(json.dumps({"counts": prior["counts"], "next_batch": prior["next_batch"],
                           "warning": "selection only; no validation or publication performed"}))
         return
