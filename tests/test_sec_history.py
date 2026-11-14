@@ -133,6 +133,20 @@ class HistoryTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'checksum mismatch'):
                     history.read_original(root, record)
 
+    def test_release_reader_covers_measured_shards_but_remains_bounded(self):
+        import hashlib
+        payload = b'measured release shard'
+        calls = []
+        def bounded_fetch(url, limit):
+            calls.append((url, limit))
+            return payload
+        history.release_bytes.cache_clear()
+        with mock.patch.object(history, 'fetch', side_effect=bounded_fetch):
+            self.assertEqual(history.release_bytes('https://github.com/example/shard', hashlib.sha256(payload).hexdigest()), payload)
+        self.assertEqual(calls, [('https://github.com/example/shard', 125_000_000)])
+        self.assertGreaterEqual(history.MAX_RELEASE_SHARD_BYTES, 119_920_640)
+        self.assertLessEqual(history.MAX_RELEASE_SHARD_BYTES, 125_000_000)
+
     def test_failed_release_upload_preserves_originals(self):
         import hashlib
         from release_history import publish
