@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1713520/0000892712-26-000371.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8032d75acd5230e66d08f2dad003985ffadd0085e50c5cbc0089f2316ee5088c",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "297a76ea3d4620c070efd96d8b624cc98ca74aa7d22dbb7be21c1effb87e6787",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0000892712-26-000371",
+    "source": "https://www.sec.gov/Archives/edgar/data/1713520/0000892712-26-000371.txt",
+    "distinct_positions": 322,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1184694974.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "98983L108",
+        "security_class": "COMM",
+        "issuer": "Zurn Elkay Water Solutions",
+        "shares": 2347403.0,
+        "value_usd": 109083817.0,
+        "weight_pct": 9.21
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF",
+        "issuer": "iShares S&P 500 ETF",
+        "shares": 95340.0,
+        "value_usd": 73016056.0,
+        "weight_pct": 6.16
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "Vanguard 500 Index Fund ETF",
+        "shares": 88005.0,
+        "value_usd": 61679034.0,
+        "weight_pct": 5.21
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "ETF",
+        "issuer": "SPDR S&P 500 ETF",
+        "shares": 47588.0,
+        "value_usd": 36382520.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "ETF",
+        "issuer": "iShares Core MSCI Emerging Markets ETF",
+        "shares": 408430.0,
+        "value_usd": 33148198.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "Vanguard Total Stock Market ETF",
+        "shares": 87488.0,
+        "value_usd": 32741418.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "Invesco Powershares QQQ ETF",
+        "shares": 36602.0,
+        "value_usd": 27104266.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COMM",
+        "issuer": "Apple",
+        "shares": 73971.0,
+        "value_usd": 24633658.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "ETF",
+        "issuer": "iShares Core MSCI EAFE ETF",
+        "shares": 233268.0,
+        "value_usd": 22599036.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "12514G108",
+        "security_class": "COMM",
+        "issuer": "2024 PSU (Target)",
+        "shares": 176298.0,
+        "value_usd": 22594372.0,
+        "weight_pct": 1.91
+      }
+    ],
+    "top_five_pct": 26.45,
+    "top_ten_pct": 37.39,
+    "hhi": 237.38,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 44,
+      "exited_positions": 19,
+      "increased_positions": 94,
+      "reduced_positions": 95
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0000892712-26-000332"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0000892712-26-000371"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

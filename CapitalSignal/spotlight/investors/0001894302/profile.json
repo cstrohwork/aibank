@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1894302/0001894302-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5ec64075d626c9d9db30720f267ea3aab6455cbaf804f2d9c169fe0c9fdff82b",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f1951ea5bbe42bf3a9ffba822c1eb817e37205bb8ef50d8ed0284681e756e303",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001894302-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1894302/0001894302-26-000007.txt",
+    "distinct_positions": 3231,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 993232897.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 9614300.0,
+        "value_usd": 427355628.0,
+        "weight_pct": 43.03
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 2213198.0,
+        "value_usd": 83238366.0,
+        "weight_pct": 8.38
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "CORE BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 596634.0,
+        "value_usd": 43924198.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "25434V591",
+        "security_class": "ULTR FIX INC ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 851435.0,
+        "value_usd": 42988960.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 19220.0,
+        "value_usd": 22239348.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 66738.0,
+        "value_usd": 22225224.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "922020805",
+        "security_class": "STRM INFPROIDX",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 416947.0,
+        "value_usd": 20522154.0,
+        "weight_pct": 2.07
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 209170.0,
+        "value_usd": 19666155.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "025072885",
+        "security_class": "US EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 144098.0,
+        "value_usd": 18457473.0,
+        "weight_pct": 1.86
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 52120.0,
+        "value_usd": 11903138.0,
+        "weight_pct": 1.2
+      }
+    ],
+    "top_five_pct": 62.4,
+    "top_ten_pct": 71.74,
+    "hhi": 1992.81,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 1753,
+      "exited_positions": 156,
+      "increased_positions": 1219,
+      "reduced_positions": 196
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001894302-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001894302-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

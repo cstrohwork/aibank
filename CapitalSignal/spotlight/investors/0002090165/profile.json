@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/2090165/0002090165-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2b5eb3679f68146283b450beb10ad676823c0348fb3c21379dce8781f6c6792c",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "4228caae8eebe83284fc0c5689a5b23f0a889e80489e049f15dccad27a5aad2c",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0002090165-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2090165/0002090165-26-000005.txt",
+    "distinct_positions": 162,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 117235670.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288158",
+        "security_class": "SHRT NAT MUN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 45314.0,
+        "value_usd": 4737150.0,
+        "weight_pct": 4.04
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 49128.0,
+        "value_usd": 4644586.0,
+        "weight_pct": 3.96
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 12295.0,
+        "value_usd": 4094481.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 5215.0,
+        "value_usd": 3993908.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "464288638",
+        "security_class": "ISHS 5-10YR INVT",
+        "issuer": "ISHARES TR",
+        "shares": 74818.0,
+        "value_usd": 3767079.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "464288240",
+        "security_class": "MSCI ACWI EX US",
+        "issuer": "ISHARES TR",
+        "shares": 49201.0,
+        "value_usd": 3720584.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "003261104",
+        "security_class": "BBRG ALL COMD K1",
+        "issuer": "ABRDN ETFS",
+        "shares": 122163.0,
+        "value_usd": 3160357.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "464287598",
+        "security_class": "RUS 1000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 11187.0,
+        "value_usd": 2773593.0,
+        "weight_pct": 2.37
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 5240.0,
+        "value_usd": 2687596.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 20547.0,
+        "value_usd": 2573717.0,
+        "weight_pct": 2.2
+      }
+    ],
+    "top_five_pct": 18.11,
+    "top_ten_pct": 30.84,
+    "hhi": 148.19,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 10,
+      "increased_positions": 75,
+      "reduced_positions": 58
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0002090165-25-000001"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0002090165-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0002090165-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

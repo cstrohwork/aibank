@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2115327/0002115327-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2115327/0002115327-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "48a01da9ca93d47b1bf4e31025fc8ad92bbc63d1156dd5956c7a311c11f04657",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "1262ebcccf3414cfa06f25bd0f52349425d2bba424cc3c23aa01c319d8308673",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0002115327-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2115327/0002115327-26-000005.txt",
+    "distinct_positions": 225,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 79078246.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 230881.0,
+        "value_usd": 23245080.0,
+        "weight_pct": 29.4
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 14013.0,
+        "value_usd": 9823890.0,
+        "weight_pct": 12.42
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 8495.0,
+        "value_usd": 6282340.0,
+        "weight_pct": 7.94
+      },
+      {
+        "cusip": "92647X830",
+        "security_class": "SHS FR CA FL ETF",
+        "issuer": "VICTORY PORTFOLIOS II",
+        "shares": 76367.0,
+        "value_usd": 3907658.0,
+        "weight_pct": 4.94
+      },
+      {
+        "cusip": "82889N699",
+        "security_class": "MANAGED FUTURES",
+        "issuer": "SIMPLIFY EXCHANGE TRADED FUN",
+        "shares": 121790.0,
+        "value_usd": 3504791.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 110317.0,
+        "value_usd": 3452239.0,
+        "weight_pct": 4.37
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "US CASH COWS 100",
+        "issuer": "PACER FDS TR",
+        "shares": 51076.0,
+        "value_usd": 3410707.0,
+        "weight_pct": 4.31
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 101483.0,
+        "value_usd": 3304937.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "46137V241",
+        "security_class": "S&P500 QUALITY",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 35903.0,
+        "value_usd": 3021085.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 12878.0,
+        "value_usd": 2681585.0,
+        "weight_pct": 3.39
+      }
+    ],
+    "top_five_pct": 59.14,
+    "top_ten_pct": 79.21,
+    "hhi": 1232.99,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 78,
+      "exited_positions": 39,
+      "increased_positions": 15,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0002115327-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0002115327-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

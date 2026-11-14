@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1989031/0001172661-26-004597.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "60561610b43076bae49f0b8be0823cfc2978e40e6b763cedb80e0b2f7e381816",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2a96d8ff7004fedf45b78250b05a9f5025d4b41ad32fb6569ccecdf6330bd308",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001172661-26-004597",
+    "source": "https://www.sec.gov/Archives/edgar/data/1989031/0001172661-26-004597.txt",
+    "distinct_positions": 115,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 299246988.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V880",
+        "security_class": "WORLD EX US CORE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1577659.0,
+        "value_usd": 58404926.0,
+        "weight_pct": 19.52
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 970263.0,
+        "value_usd": 43128195.0,
+        "weight_pct": 14.41
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 83486.0,
+        "value_usd": 31243931.0,
+        "weight_pct": 10.44
+      },
+      {
+        "cusip": "025072885",
+        "security_class": "US EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 205288.0,
+        "value_usd": 26295291.0,
+        "weight_pct": 8.79
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 248018.0,
+        "value_usd": 22348883.0,
+        "weight_pct": 7.47
+      },
+      {
+        "cusip": "921937827",
+        "security_class": "SHORT TRM BOND",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 270221.0,
+        "value_usd": 20644920.0,
+        "weight_pct": 6.9
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "TOTAL BND MRKT",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 214355.0,
+        "value_usd": 15036983.0,
+        "weight_pct": 5.02
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 142489.0,
+        "value_usd": 11007254.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "75526L852",
+        "security_class": "LONGVIEW ADVANTG",
+        "issuer": "RBB FUND TRUST",
+        "shares": 167405.0,
+        "value_usd": 10952230.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 112799.0,
+        "value_usd": 9583382.0,
+        "weight_pct": 3.2
+      }
+    ],
+    "top_five_pct": 60.63,
+    "top_ten_pct": 83.09,
+    "hhi": 956.3,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 85,
+      "exited_positions": 8,
+      "increased_positions": 11,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001172661-25-004519"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001172661-26-004597"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1590214/0001590214-26-000021.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e5ecd6caa75fcc1f0dd9e9c197a7b477124dbae6ad6ecd77c6e02d61b824bdd1",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "df50f8a7f4e34ffe1aff853bd04df917490f7dc781af69155a464e4056fa7962",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001590214-26-000021",
+    "source": "https://www.sec.gov/Archives/edgar/data/1590214/0001590214-26-000021.txt",
+    "distinct_positions": 560,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3690853686.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 519021.0,
+        "value_usd": 395821195.0,
+        "weight_pct": 10.72
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 5638832.0,
+        "value_usd": 284140725.0,
+        "weight_pct": 7.7
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 282798.0,
+        "value_usd": 198201916.0,
+        "weight_pct": 5.37
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 392352.0,
+        "value_usd": 146833885.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 519831.0,
+        "value_usd": 112325112.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 706656.0,
+        "value_usd": 73414450.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 388063.0,
+        "value_usd": 61255771.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "46434V860",
+        "security_class": "TRS FLT RT BD",
+        "issuer": "ISHARES TR",
+        "shares": 1202286.0,
+        "value_usd": 60919846.0,
+        "weight_pct": 1.65
+      },
+      {
+        "cusip": "78464A474",
+        "security_class": "ST SHOR CORP ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 1965972.0,
+        "value_usd": 58173099.0,
+        "weight_pct": 1.58
+      },
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 698970.0,
+        "value_usd": 57993526.0,
+        "weight_pct": 1.57
+      }
+    ],
+    "top_five_pct": 30.81,
+    "top_ten_pct": 39.26,
+    "hhi": 273.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 57,
+      "exited_positions": 57,
+      "increased_positions": 273,
+      "reduced_positions": 193
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001590214-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001590214-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001590214-26-000021"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

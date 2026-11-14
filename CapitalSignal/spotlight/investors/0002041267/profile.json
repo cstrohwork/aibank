@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2041267/0001172661-25-004576.txt",
+    "https://www.sec.gov/Archives/edgar/data/2041267/0001172661-26-002809.txt",
     "https://www.sec.gov/Archives/edgar/data/2041267/0001172661-26-004535.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e95be1c0d1cab066901b792ae362557fcc3065173ad80bd50d09926d9700a4f7",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "1e7aeebaf4d363a7b331f101aa83d6c26e140ae57e228c39655d839cdd91aed6",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001172661-26-004535",
+    "source": "https://www.sec.gov/Archives/edgar/data/2041267/0001172661-26-004535.txt",
+    "distinct_positions": 85,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 260027085.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "571903202",
+        "security_class": "CL A",
+        "issuer": "MARRIOTT INTL INC NEW",
+        "shares": 150798.0,
+        "value_usd": 53634375.0,
+        "weight_pct": 20.63
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 39830.0,
+        "value_usd": 27915906.0,
+        "weight_pct": 10.74
+      },
+      {
+        "cusip": "46434V290",
+        "security_class": "US SML CAP EQT",
+        "issuer": "ISHARES TR",
+        "shares": 205977.0,
+        "value_usd": 17211473.0,
+        "weight_pct": 6.62
+      },
+      {
+        "cusip": "025072885",
+        "security_class": "US EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 122099.0,
+        "value_usd": 15639737.0,
+        "weight_pct": 6.01
+      },
+      {
+        "cusip": "74933W452",
+        "security_class": "F/M US TREASURY",
+        "issuer": "RBB FD INC",
+        "shares": 303655.0,
+        "value_usd": 15137214.0,
+        "weight_pct": 5.82
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 20231.0,
+        "value_usd": 14966802.0,
+        "weight_pct": 5.76
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 312341.0,
+        "value_usd": 13883581.0,
+        "weight_pct": 5.34
+      },
+      {
+        "cusip": "92189F643",
+        "security_class": "MRNGSTR WDE MOAT",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 114614.0,
+        "value_usd": 12115901.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "45783Y855",
+        "security_class": "DEFINED WLT SHLD",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 171004.0,
+        "value_usd": 5995435.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 155472.0,
+        "value_usd": 5847309.0,
+        "weight_pct": 2.25
+      }
+    ],
+    "top_five_pct": 49.82,
+    "top_ten_pct": 70.13,
+    "hhi": 772.88,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 11,
+      "increased_positions": 27,
+      "reduced_positions": 39
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001172661-25-004576"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001172661-26-002809"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001172661-26-004535"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

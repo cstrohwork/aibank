@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1812853/0001812853-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "692a99eccc5ec3712bcd32691524eba42d299444372a152d1ac2837ec5f65169",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c68c9bda53f9f15eadba3ad0a29bae1c609a0143e75a3dc5eaaab5b32fa0fd23",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001812853-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1812853/0001812853-26-000006.txt",
+    "distinct_positions": 298,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 187734965.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921937835",
+        "security_class": "ETF",
+        "issuer": "VANGUARD TOTAL BOND MARKET ETF",
+        "shares": 231416.0,
+        "value_usd": 16233832.0,
+        "weight_pct": 8.65
+      },
+      {
+        "cusip": "464287549",
+        "security_class": "ETF",
+        "issuer": "ISHARES EXPANDED TECH SECTOR ETF",
+        "shares": 92307.0,
+        "value_usd": 15603575.0,
+        "weight_pct": 8.31
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "ETF",
+        "issuer": "VANGUARD SHORT-TERM TREASURY ETF",
+        "shares": 261377.0,
+        "value_usd": 15044860.0,
+        "weight_pct": 8.01
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR VALUE ETF",
+        "shares": 58059.0,
+        "value_usd": 12545389.0,
+        "weight_pct": 6.68
+      },
+      {
+        "cusip": "92206C771",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORTGAGE-BACKED SECURITIES ETF",
+        "shares": 241962.0,
+        "value_usd": 10745532.0,
+        "weight_pct": 5.72
+      },
+      {
+        "cusip": "46137V241",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 QUALITY ETF",
+        "shares": 92960.0,
+        "value_usd": 7816077.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 500 GROWTH ETF",
+        "shares": 62200.0,
+        "value_usd": 7655576.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "46434G764",
+        "security_class": "ETF",
+        "issuer": "ISHARES MSCI EMERGING MARKETS EX CHINA ETF",
+        "shares": 65053.0,
+        "value_usd": 6445451.0,
+        "weight_pct": 3.43
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "ETF",
+        "issuer": "ISHARES MSCI EAFE ETF",
+        "shares": 58031.0,
+        "value_usd": 6028841.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "ETF",
+        "issuer": "VANGUARD INTERMEDIATE-TERM TREASURY ETF",
+        "shares": 103457.0,
+        "value_usd": 5861874.0,
+        "weight_pct": 3.12
+      }
+    ],
+    "top_five_pct": 37.38,
+    "top_ten_pct": 55.39,
+    "hhi": 401.85,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 298,
+      "exited_positions": 241,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001812853-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001812853-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

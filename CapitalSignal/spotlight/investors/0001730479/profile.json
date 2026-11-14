@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1730479/0001730479-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5cfafdfcfdda086405b0012820a5d5a71b069a295e36074ebdaae389e5b070b3",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "32d621d6e1fccbafb3b17c90e4a97c590fa02512e1dad356ec2553f6a0909f94",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001730479-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1730479/0001730479-26-000004.txt",
+    "distinct_positions": 642,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 895265080.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "S&P 500 Tr UTS Unit 1 Ser",
+        "shares": 124888.0,
+        "value_usd": 95243335.0,
+        "weight_pct": 10.64
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corp",
+        "shares": 83387.0,
+        "value_usd": 42769192.0,
+        "weight_pct": 4.78
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Incorporated",
+        "shares": 111305.0,
+        "value_usd": 37066791.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "Nvidia Corp Common",
+        "shares": 146829.0,
+        "value_usd": 33532807.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JP Morgan Chase & Co",
+        "shares": 91333.0,
+        "value_usd": 30215696.0,
+        "weight_pct": 3.38
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "Alphabet Inc Class A",
+        "shares": 85236.0,
+        "value_usd": 29328003.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "Amazon Com Inc",
+        "shares": 94851.0,
+        "value_usd": 23632127.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "TOTAL STK MKT",
+        "issuer": "Vanguard Total Stock Market ETF",
+        "shares": 62907.0,
+        "value_usd": 23542170.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "Avantis International Equity ETF",
+        "shares": 225968.0,
+        "value_usd": 20361976.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "Lilly Eli & Co",
+        "shares": 14210.0,
+        "value_usd": 16442107.0,
+        "weight_pct": 1.84
+      }
+    ],
+    "top_five_pct": 26.68,
+    "top_ten_pct": 39.33,
+    "hhi": 244.35,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 157,
+      "exited_positions": 138,
+      "increased_positions": 133,
+      "reduced_positions": 270
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001730479-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001730479-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

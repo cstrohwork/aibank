@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1630360/0001630360-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c7b29b75987f8bfd45eb362557b7b83dd76ca9b190f802bbf6462094d63df1ef",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "48ba2aa51a7793298284dfe981ea3afaf1765ce4e0e73ab47153daefb28a9329",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001630360-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1630360/0001630360-26-000007.txt",
+    "distinct_positions": 172,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 643691962.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 103015.0,
+        "value_usd": 78893743.0,
+        "weight_pct": 12.26
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 129866.0,
+        "value_usd": 43247929.0,
+        "weight_pct": 6.72
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 376723.0,
+        "value_usd": 27105196.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "S&P 500 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 92250.0,
+        "value_usd": 21058764.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 139401.0,
+        "value_usd": 18964167.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 132234.0,
+        "value_usd": 18811607.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "46436E205",
+        "security_class": "IBONDS DEC 29",
+        "issuer": "ISHARES TR",
+        "shares": 693063.0,
+        "value_usd": 15725597.0,
+        "weight_pct": 2.44
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 41679.0,
+        "value_usd": 15597871.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "46436E726",
+        "security_class": "IBONDS DEC 2030",
+        "issuer": "ISHARES TR",
+        "shares": 711143.0,
+        "value_usd": 15033557.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "46436E486",
+        "security_class": "IBONDS DEC 2031",
+        "issuer": "ISHARES TR",
+        "shares": 711273.0,
+        "value_usd": 14268139.0,
+        "weight_pct": 2.22
+      }
+    ],
+    "top_five_pct": 29.4,
+    "top_ten_pct": 41.74,
+    "hhi": 320.29,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 44,
+      "exited_positions": 38,
+      "increased_positions": 42,
+      "reduced_positions": 75
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001630360-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001630360-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

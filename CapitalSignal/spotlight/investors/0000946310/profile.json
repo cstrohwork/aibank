@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/946310/0002085853-26-000889.txt",
     "https://www.sec.gov/Archives/edgar/data/946310/0002085853-26-001171.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "42e3552262ee745a1c256b773777d771b167272a31e4086c7ee63ed5e5b1da0a",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "60b6dcbec7736651ca6fde6d39c53f1474135baf227ae2794b6e63c69346d5e9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0002085853-26-001171",
+    "source": "https://www.sec.gov/Archives/edgar/data/946310/0002085853-26-001171.txt",
+    "distinct_positions": 98,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 166462423.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 36856.0,
+        "value_usd": 28107773.0,
+        "weight_pct": 16.89
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 57893.0,
+        "value_usd": 19279527.0,
+        "weight_pct": 11.58
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 15287.0,
+        "value_usd": 13763803.0,
+        "weight_pct": 8.27
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 29088.0,
+        "value_usd": 9623183.0,
+        "weight_pct": 5.78
+      },
+      {
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 7978.0,
+        "value_usd": 7358429.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 13198.0,
+        "value_usd": 6769254.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 10861.0,
+        "value_usd": 5408235.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "15101Q207",
+        "security_class": "COM",
+        "issuer": "CELESTICA INC",
+        "shares": 11007.0,
+        "value_usd": 3978260.0,
+        "weight_pct": 2.39
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 9085.0,
+        "value_usd": 3125967.0,
+        "weight_pct": 1.88
+      },
+      {
+        "cusip": "679580100",
+        "security_class": "COM",
+        "issuer": "OLD DOMINION FREIGHT LINE IN",
+        "shares": 13997.0,
+        "value_usd": 2433238.0,
+        "weight_pct": 1.46
+      }
+    ],
+    "top_five_pct": 46.94,
+    "top_ten_pct": 59.98,
+    "hhi": 608.91,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 17,
+      "reduced_positions": 41
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0002085853-26-000889"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0002085853-26-001171"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

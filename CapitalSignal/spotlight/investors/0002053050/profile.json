@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2053050/0002053050-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9f47c6c6778ca0b19fa4cbfac064da496b974917ec74ee626fe2e70ddc0af80e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "95a2c8a3ef3640a6adf7e04360a21bfdcca2550a5bf5a425d3a24d07431ff67a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0002053050-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2053050/0002053050-26-000005.txt",
+    "distinct_positions": 209,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 545277215.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "136375102",
+        "security_class": "COM",
+        "issuer": "CANADIAN NATIONAL RAILWAY CO",
+        "shares": 225172.0,
+        "value_usd": 26884788.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "82509L107",
+        "security_class": "COM",
+        "issuer": "SHOPIFY INC",
+        "shares": 120336.0,
+        "value_usd": 17889251.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 41557.0,
+        "value_usd": 17227766.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "COM",
+        "issuer": "TSMC",
+        "shares": 38457.0,
+        "value_usd": 15235666.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "15135U109",
+        "security_class": "COM",
+        "issuer": "CENOVUS ENERGY INC",
+        "shares": 476223.0,
+        "value_usd": 14849243.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "867224107",
+        "security_class": "COM",
+        "issuer": "SUNCOR ENERGY INC",
+        "shares": 216617.0,
+        "value_usd": 14733254.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 16920.0,
+        "value_usd": 12958182.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC",
+        "shares": 44870.0,
+        "value_usd": 12735597.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "11271J107",
+        "security_class": "COM",
+        "issuer": "BROOKFIELD CORP",
+        "shares": 310924.0,
+        "value_usd": 11378029.0,
+        "weight_pct": 2.09
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 52214.0,
+        "value_usd": 10387280.0,
+        "weight_pct": 1.9
+      }
+    ],
+    "top_five_pct": 16.89,
+    "top_ten_pct": 28.29,
+    "hhi": 160.01,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 39,
+      "exited_positions": 38,
+      "increased_positions": 64,
+      "reduced_positions": 70
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0002053050-25-000011"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0002053050-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

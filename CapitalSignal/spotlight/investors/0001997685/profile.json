@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1997685/0001997685-26-000017.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "66a7c948c3acc87898f2d7e3e10899dd28a4a580f6315cd4c39958368a560590",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c24f14f3acca7a5b013e7b3a1d70338be7ab330f7556e7d29a7f60faa4c24ec5",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001997685-26-000017",
+    "source": "https://www.sec.gov/Archives/edgar/data/1997685/0001997685-26-000017.txt",
+    "distinct_positions": 969,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1331501777.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "26923Q432",
+        "security_class": "COM",
+        "issuer": "AQE Core ETF",
+        "shares": 22603498.0,
+        "value_usd": 578197504.0,
+        "weight_pct": 43.42
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "COM",
+        "issuer": "Vanguard Short-Term Government Bond Index Fund ETF",
+        "shares": 3703785.0,
+        "value_usd": 213189865.0,
+        "weight_pct": 16.01
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "COM",
+        "issuer": "Vanguard Total Stock Market (ETF)",
+        "shares": 202701.0,
+        "value_usd": 75858822.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "COM",
+        "issuer": "Vanguard High Dividend Yield Index ETF",
+        "shares": 463553.0,
+        "value_usd": 71943426.0,
+        "weight_pct": 5.4
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "COM",
+        "issuer": "Invesco S&P 500 Equal Weighted ETF",
+        "shares": 312282.0,
+        "value_usd": 64960902.0,
+        "weight_pct": 4.88
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "Wal-Mart Stores Inc",
+        "shares": 481038.0,
+        "value_usd": 49989469.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "COM",
+        "issuer": "Vanguard FTSE Developed Markets ETF",
+        "shares": 664736.0,
+        "value_usd": 46937009.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "COM",
+        "issuer": "Vanguard Dividend Appreciation ETF",
+        "shares": 140517.0,
+        "value_usd": 32784021.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc",
+        "shares": 33675.0,
+        "value_usd": 11214449.0,
+        "weight_pct": 0.84
+      },
+      {
+        "cusip": "74347B698",
+        "security_class": "COM",
+        "issuer": "ProShares Russell 2000 Dividend Growers ETF",
+        "shares": 130072.0,
+        "value_usd": 9328764.0,
+        "weight_pct": 0.7
+      }
+    ],
+    "top_five_pct": 75.41,
+    "top_ten_pct": 86.7,
+    "hhi": 2263.89,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 515,
+      "exited_positions": 131,
+      "increased_positions": 131,
+      "reduced_positions": 262
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001997685-25-000015"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001997685-26-000017"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

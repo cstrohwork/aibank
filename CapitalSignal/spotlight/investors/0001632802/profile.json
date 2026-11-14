@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1632802/0001214659-26-012797.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5cfe43539254ee72f6878fd88bf9d8e18ffe8842e28bac22d9a921052cfecacc",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "e783b5d1081225a569842f85c7a4071c34c7e2625bf378cd097534ab2ec187d7",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001214659-26-012797",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632802/0001214659-26-012797.txt",
+    "distinct_positions": 98,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 404830705.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 33852.0,
+        "value_usd": 7731120.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "Stock",
+        "issuer": "MICRON TECHNOLOGY INC COM",
+        "shares": 7206.0,
+        "value_usd": 7675003.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC",
+        "shares": 23042.0,
+        "value_usd": 7673285.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "Stock",
+        "issuer": "MERCK & CO INC COM",
+        "shares": 49493.0,
+        "value_usd": 7191827.0,
+        "weight_pct": 1.78
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT",
+        "shares": 13928.0,
+        "value_usd": 7143862.0,
+        "weight_pct": 1.76
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "Stock",
+        "issuer": "AMGEN INC COM",
+        "shares": 16654.0,
+        "value_usd": 7019827.0,
+        "weight_pct": 1.73
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CL A",
+        "shares": 20239.0,
+        "value_usd": 6963835.0,
+        "weight_pct": 1.72
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Stock",
+        "issuer": "AMAZON COM INC COM",
+        "shares": 27918.0,
+        "value_usd": 6955872.0,
+        "weight_pct": 1.72
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "Stock",
+        "issuer": "CHEVRON CORPORATION COM",
+        "shares": 33650.0,
+        "value_usd": 6871667.0,
+        "weight_pct": 1.7
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "Stock",
+        "issuer": "JOHNSON & JOHNSON COM",
+        "shares": 25774.0,
+        "value_usd": 6823409.0,
+        "weight_pct": 1.69
+      }
+    ],
+    "top_five_pct": 9.24,
+    "top_ten_pct": 17.8,
+    "hhi": 130.37,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 9,
+      "exited_positions": 6,
+      "increased_positions": 55,
+      "reduced_positions": 33
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001214659-25-015089"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001214659-26-012797"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

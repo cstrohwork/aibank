@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1963347/0001963347-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c9340f5313c98d7b68079dd0f28739624de4173476bcf6f6764a9da478c7fae3",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "5d086816d922d9c6723df91b66a35320f1d90b31b48a611c0f220b68835b69d8",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001963347-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1963347/0001963347-26-000004.txt",
+    "distinct_positions": 88,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 184738771.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 820914.0,
+        "value_usd": 36489640.0,
+        "weight_pct": 19.75
+      },
+      {
+        "cusip": "464288661",
+        "security_class": "3 7 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 97347.0,
+        "value_usd": 11043094.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 267523.0,
+        "value_usd": 10061549.0,
+        "weight_pct": 5.45
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "CORE FIXE IN ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 206597.0,
+        "value_usd": 8288673.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 185820.0,
+        "value_usd": 7380777.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 25796.0,
+        "value_usd": 6829491.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "808524854",
+        "security_class": "INT-TRM U.S TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 252914.0,
+        "value_usd": 5994063.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "464287176",
+        "security_class": "TIPS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 57419.0,
+        "value_usd": 5973824.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 135145.0,
+        "value_usd": 5874203.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "25434V542",
+        "security_class": "INTL VEC EQU ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 61700.0,
+        "value_usd": 4443044.0,
+        "weight_pct": 2.41
+      }
+    ],
+    "top_five_pct": 39.66,
+    "top_ten_pct": 55.42,
+    "hhi": 594.34,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 36,
+      "exited_positions": 40,
+      "increased_positions": 13,
+      "reduced_positions": 39
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001963347-25-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001963347-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1963736/0002085853-26-001251.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c70773e6d60c1c67152d258f76c4f14f46ea2e308628e8c121f3718041a93ce4",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "75065fdd20e058e09d1b2955cbc0a5b59af2d70847ed21c958995fcd366bad2a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0002085853-26-001251",
+    "source": "https://www.sec.gov/Archives/edgar/data/1963736/0002085853-26-001251.txt",
+    "distinct_positions": 149,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 186776694.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "75526L886",
+        "security_class": "FIRST EAGLE GBL",
+        "issuer": "RBB FUND TRUST",
+        "shares": 248317.0,
+        "value_usd": 12463030.0,
+        "weight_pct": 6.67
+      },
+      {
+        "cusip": "921910840",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 71558.0,
+        "value_usd": 11527293.0,
+        "weight_pct": 6.17
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 227828.0,
+        "value_usd": 11498489.0,
+        "weight_pct": 6.16
+      },
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 37313.0,
+        "value_usd": 11003977.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 47749.0,
+        "value_usd": 9932747.0,
+        "weight_pct": 5.32
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 28712.0,
+        "value_usd": 9561636.0,
+        "weight_pct": 5.12
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 29626.0,
+        "value_usd": 6765887.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "91332U101",
+        "security_class": "COM",
+        "issuer": "UNITY SOFTWARE INC",
+        "shares": 127271.0,
+        "value_usd": 5209202.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 10058.0,
+        "value_usd": 5158944.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "808524631",
+        "security_class": "HIGH YIEL BD ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 199556.0,
+        "value_usd": 5036793.0,
+        "weight_pct": 2.7
+      }
+    ],
+    "top_five_pct": 30.21,
+    "top_ten_pct": 47.2,
+    "hhi": 292.68,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 83,
+      "exited_positions": 24,
+      "increased_positions": 39,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002085853-25-000157"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0002085853-26-001251"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

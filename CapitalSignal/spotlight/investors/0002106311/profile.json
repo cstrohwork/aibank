@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2106311/0002106311-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2106311/0002106311-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "fc1d6689bcf420d11a0e45af2c048f8df30a7575c8225aee34a1160922f78ac6",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "700f9a0d5fad5d387a04fcccd3e3f9fbb552c706bc230fc27f8d1fc8227c23b4",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0002106311-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2106311/0002106311-26-000006.txt",
+    "distinct_positions": 88,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 112155615.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46138E354",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 LOW VOLATILITY ETF",
+        "shares": 116357.0,
+        "value_usd": 8204334.0,
+        "weight_pct": 7.32
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 10990.0,
+        "value_usd": 8130407.0,
+        "weight_pct": 7.25
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "ETF",
+        "issuer": "WISDOMTREE FLOATING RATE TREASURY FUND",
+        "shares": 150096.0,
+        "value_usd": 7563337.0,
+        "weight_pct": 6.74
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "ETF",
+        "issuer": "PACER US CASH COWS 100 ETF",
+        "shares": 99992.0,
+        "value_usd": 6675499.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 7921.0,
+        "value_usd": 5551499.0,
+        "weight_pct": 4.95
+      },
+      {
+        "cusip": "46137V241",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 QUALITY ETF",
+        "shares": 54420.0,
+        "value_usd": 4575634.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "46138E339",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 MOMENTUM ETF",
+        "shares": 26337.0,
+        "value_usd": 3992162.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "45782C508",
+        "security_class": "ETF",
+        "issuer": "INNOVATOR U.S. EQUITY POWER BUFFER ETF - JANUARY",
+        "shares": 78249.0,
+        "value_usd": 3968789.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "92189F486",
+        "security_class": "ETF",
+        "issuer": "VANECK IG FLOATING RATE ETF",
+        "shares": 127060.0,
+        "value_usd": 3251458.0,
+        "weight_pct": 2.9
+      },
+      {
+        "cusip": "45782C797",
+        "security_class": "ETF",
+        "issuer": "INNOVATOR U.S. EQUITY POWER BUFFER ETF OCTOBER",
+        "shares": 59619.0,
+        "value_usd": 2855154.0,
+        "weight_pct": 2.55
+      }
+    ],
+    "top_five_pct": 32.21,
+    "top_ten_pct": 48.83,
+    "hhi": 324.39,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 81,
+      "exited_positions": 112,
+      "increased_positions": 3,
+      "reduced_positions": 4
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002106311-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0002106311-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

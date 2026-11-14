@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1877093/0001754960-26-000941.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8f29d83efd10e6959b0b4459c6bd3f6fe2a53b725b44a64464fc270fd5f97974",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "b550e1d1bf4b1b322465d8b5ba315737b0fc1b8f558037826148624444ce41f8",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001754960-26-000941",
+    "source": "https://www.sec.gov/Archives/edgar/data/1877093/0001754960-26-000941.txt",
+    "distinct_positions": 102,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 248692070.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 354129.0,
+        "value_usd": 25005068.0,
+        "weight_pct": 10.05
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 22393.0,
+        "value_usd": 17149345.0,
+        "weight_pct": 6.9
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 70788.0,
+        "value_usd": 16515517.0,
+        "weight_pct": 6.64
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 72707.0,
+        "value_usd": 16158461.0,
+        "weight_pct": 6.5
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 146202.0,
+        "value_usd": 14164094.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "808524102",
+        "security_class": "US BRD MKT ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 473585.0,
+        "value_usd": 13880776.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 138743.0,
+        "value_usd": 13116804.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "464287671",
+        "security_class": "CORE S&P US GWT",
+        "issuer": "ISHARES TR",
+        "shares": 46818.0,
+        "value_usd": 9070980.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 88412.0,
+        "value_usd": 8901320.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "464287663",
+        "security_class": "CORE S&P US VLU",
+        "issuer": "ISHARES TR",
+        "shares": 74332.0,
+        "value_usd": 8197329.0,
+        "weight_pct": 3.3
+      }
+    ],
+    "top_five_pct": 35.78,
+    "top_ten_pct": 57.16,
+    "hhi": 418.18,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 32,
+      "exited_positions": 19,
+      "increased_positions": 31,
+      "reduced_positions": 35
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001754960-25-000693"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001754960-26-000941"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

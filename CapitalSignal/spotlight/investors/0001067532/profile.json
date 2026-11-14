@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1067532/0001140361-26-039896.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5fbdbc74b22251329ddd43e7969109598e59ecbd7cea7cb236a5717c25f02f0e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "b8988fdd12488eb814a08ac45093d44932478aa404d3a3e33a4f701ebc9a6334",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001140361-26-039896",
+    "source": "https://www.sec.gov/Archives/edgar/data/1067532/0001140361-26-039896.txt",
+    "distinct_positions": 157,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1329441035.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP",
+        "shares": 414658.0,
+        "value_usd": 94699594.0,
+        "weight_pct": 7.12
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 249453.0,
+        "value_usd": 83072838.0,
+        "weight_pct": 6.25
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 156416.0,
+        "value_usd": 80225766.0,
+        "weight_pct": 6.03
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "COM",
+        "issuer": "ISHARES GOLD TRUST",
+        "shares": 911314.0,
+        "value_usd": 71173623.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC CL A",
+        "shares": 205105.0,
+        "value_usd": 70572528.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 191368.0,
+        "value_usd": 47679337.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "COM",
+        "issuer": "SS ENERGY SELECT SECTOR",
+        "shares": 770089.0,
+        "value_usd": 47360473.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 118989.0,
+        "value_usd": 41787747.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "COM",
+        "issuer": "STE ST TECH SELECT SECTOR SPDR ETF",
+        "shares": 174978.0,
+        "value_usd": 34251943.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JP MORGAN CHASE & CO",
+        "shares": 100322.0,
+        "value_usd": 33189527.0,
+        "weight_pct": 2.5
+      }
+    ],
+    "top_five_pct": 30.07,
+    "top_ten_pct": 45.43,
+    "hhi": 290.46,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 24,
+      "exited_positions": 7,
+      "increased_positions": 79,
+      "reduced_positions": 36
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001140361-25-039557"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001140361-26-039896"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

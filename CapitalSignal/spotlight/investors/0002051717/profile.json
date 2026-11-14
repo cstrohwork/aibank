@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2051717/0001725547-26-000366.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7a6cc068d3dcbe2812008e04a7db9bf6f68e0fd7fb876ba67e14cbfed24af3cc",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "629603a3c89f1052f5ab2b93964ca647d81294351fb90a91308af2f0f44a4de6",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001725547-26-000366",
+    "source": "https://www.sec.gov/Archives/edgar/data/2051717/0001725547-26-000366.txt",
+    "distinct_positions": 102,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 431010531.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 943530.0,
+        "value_usd": 84691276.0,
+        "weight_pct": 19.65
+      },
+      {
+        "cusip": "381430503",
+        "security_class": "ACTIVEBETA US LG",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 539688.0,
+        "value_usd": 78276381.0,
+        "weight_pct": 18.16
+      },
+      {
+        "cusip": "46654Q716",
+        "security_class": "ACTIVE BOND ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 715299.0,
+        "value_usd": 36566061.0,
+        "weight_pct": 8.48
+      },
+      {
+        "cusip": "31609A503",
+        "security_class": "ENH MID COR ETF",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 730330.0,
+        "value_usd": 29490726.0,
+        "weight_pct": 6.84
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 216786.0,
+        "value_usd": 25530866.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 163575.0,
+        "value_usd": 11329192.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "464287721",
+        "security_class": "U.S. TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 42224.0,
+        "value_usd": 11185147.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 75798.0,
+        "value_usd": 10783040.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "46654Q724",
+        "security_class": "HEDG EQU LAD ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 151173.0,
+        "value_usd": 10456655.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "S&P 500 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 42269.0,
+        "value_usd": 9649229.0,
+        "weight_pct": 2.24
+      }
+    ],
+    "top_five_pct": 59.06,
+    "top_ten_pct": 71.45,
+    "hhi": 924.56,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 34,
+      "exited_positions": 16,
+      "increased_positions": 39,
+      "reduced_positions": 27
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001725547-25-004186"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001725547-26-000366"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

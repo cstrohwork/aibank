@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1365559/0001941040-26-000741.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b99a331279126b45b015c98409c768d41f998ad7eb62f287159e220c1a393522",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "5788b4c6b7e4c1180256e4517968996042231e521406f1230e0a1070567c0e66",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001941040-26-000741",
+    "source": "https://www.sec.gov/Archives/edgar/data/1365559/0001941040-26-000741.txt",
+    "distinct_positions": 252,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 917115034.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 215891.0,
+        "value_usd": 80795265.0,
+        "weight_pct": 8.81
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 74579.0,
+        "value_usd": 37136681.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 99085.0,
+        "value_usd": 32550413.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 253539.0,
+        "value_usd": 31862246.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 57583.0,
+        "value_usd": 29534461.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 536539.0,
+        "value_usd": 23226762.0,
+        "weight_pct": 2.53
+      },
+      {
+        "cusip": "859241101",
+        "security_class": "COM",
+        "issuer": "STERLING INFRASTRUCTURE INC",
+        "shares": 47062.0,
+        "value_usd": 23144150.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 31738.0,
+        "value_usd": 22243773.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 129577.0,
+        "value_usd": 20110294.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "381430107",
+        "security_class": "ACTIVEBETA INT",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 409758.0,
+        "value_usd": 18783293.0,
+        "weight_pct": 2.05
+      }
+    ],
+    "top_five_pct": 23.1,
+    "top_ten_pct": 34.83,
+    "hhi": 212.07,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 50,
+      "exited_positions": 47,
+      "increased_positions": 51,
+      "reduced_positions": 121
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001941040-25-000563"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001941040-26-000741"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2032709/0001172661-25-004554.txt",
+    "https://www.sec.gov/Archives/edgar/data/2032709/0001172661-26-002833.txt",
     "https://www.sec.gov/Archives/edgar/data/2032709/0001172661-26-004670.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "efa70529d64290618371a4e0f87077f551440e609c7fc18f8dfe5d96b73cf215",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "1bc1ecb8c29814ffda9d8789bf8c2a1d13e6a173301f71a8a4174f14ecd691e9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001172661-26-004670",
+    "source": "https://www.sec.gov/Archives/edgar/data/2032709/0001172661-26-004670.txt",
+    "distinct_positions": 74,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 142932991.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 50091.0,
+        "value_usd": 24942813.0,
+        "weight_pct": 17.45
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 122718.0,
+        "value_usd": 12355281.0,
+        "weight_pct": 8.64
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 16703.0,
+        "value_usd": 5747168.0,
+        "weight_pct": 4.02
+      },
+      {
+        "cusip": "83012A109",
+        "security_class": "COM",
+        "issuer": "SIXTH STREET SPECIALTY LENDI",
+        "shares": 296517.0,
+        "value_usd": 5343244.0,
+        "weight_pct": 3.74
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 25201.0,
+        "value_usd": 5242250.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "00039J830",
+        "security_class": "SHOR DU YIEL ETF",
+        "issuer": "AB ACTIVE ETFS INC",
+        "shares": 126624.0,
+        "value_usd": 4422979.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 5.0,
+        "value_usd": 3735025.0,
+        "weight_pct": 2.61
+      },
+      {
+        "cusip": "78468R853",
+        "security_class": "ST STR SP600 SML",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 64911.0,
+        "value_usd": 3431209.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 3627.0,
+        "value_usd": 3301803.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "092528603",
+        "security_class": "ISHA FLEX IN ETF",
+        "issuer": "BLACKROCK ETF TRUST II",
+        "shares": 64137.0,
+        "value_usd": 3257531.0,
+        "weight_pct": 2.28
+      }
+    ],
+    "top_five_pct": 37.52,
+    "top_ten_pct": 50.22,
+    "hhi": 515.46,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 8,
+      "increased_positions": 14,
+      "reduced_positions": 8
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001172661-25-004554"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001172661-26-002833"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001172661-26-004670"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

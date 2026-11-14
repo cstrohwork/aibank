@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2056410/0002056410-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2056410/0002056410-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a7a22df110370ccc02188d562e1bea1caa986ff4c48ee06a62debf1e35df5e7f",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "8a60f32570a746c709ccc5112683ff85899a8068685c05f21cbc0fe985865e44",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0002056410-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056410/0002056410-26-000004.txt",
+    "distinct_positions": 89,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 149696236.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 312750.0,
+        "value_usd": 15753218.0,
+        "weight_pct": 10.52
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 36620.0,
+        "value_usd": 12195192.0,
+        "weight_pct": 8.15
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 14812.0,
+        "value_usd": 7597075.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 14992.0,
+        "value_usd": 7465266.0,
+        "weight_pct": 4.99
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 18829.0,
+        "value_usd": 6478682.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 46490.0,
+        "value_usd": 4831241.0,
+        "weight_pct": 3.23
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 36759.0,
+        "value_usd": 4419535.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "GOLD MINERS ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 44255.0,
+        "value_usd": 3885589.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "882508104",
+        "security_class": "COM",
+        "issuer": "TEXAS INSTRS INC",
+        "shares": 11563.0,
+        "value_usd": 3238681.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "651639106",
+        "security_class": "COM",
+        "issuer": "NEWMONT CORP",
+        "shares": 26860.0,
+        "value_usd": 3098032.0,
+        "weight_pct": 2.07
+      }
+    ],
+    "top_five_pct": 33.06,
+    "top_ten_pct": 46.07,
+    "hhi": 338.02,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 6,
+      "increased_positions": 18,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0002056410-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0002056410-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

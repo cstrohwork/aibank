@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1520683/0001941040-26-000742.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3c92d2b2e3adf499e2b903c93f0930aba2f59310bd5b0b7a93e57925a37880eb",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "ff91e1bf41bd57e8c123b42dc769d9e5bdce624bf6526b612590d0be8b2efc5e",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001941040-26-000742",
+    "source": "https://www.sec.gov/Archives/edgar/data/1520683/0001941040-26-000742.txt",
+    "distinct_positions": 159,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 214803391.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 30455.0,
+        "value_usd": 10142213.0,
+        "weight_pct": 4.72
+      },
+      {
+        "cusip": "92203C303",
+        "security_class": "VANGUARD ULTRA",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 187160.0,
+        "value_usd": 9273778.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 20086.0,
+        "value_usd": 7054002.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 11690.0,
+        "value_usd": 5995827.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 25253.0,
+        "value_usd": 5767280.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "INTER TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 99055.0,
+        "value_usd": 5612456.0,
+        "weight_pct": 2.61
+      },
+      {
+        "cusip": "78463X848",
+        "security_class": "ST STR ACWI ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 138118.0,
+        "value_usd": 5581328.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 36329.0,
+        "value_usd": 5168180.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "ST STR ENERG ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 79536.0,
+        "value_usd": 4891458.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "92189H748",
+        "security_class": "CLO ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 88657.0,
+        "value_usd": 4696161.0,
+        "weight_pct": 2.19
+      }
+    ],
+    "top_five_pct": 17.8,
+    "top_ten_pct": 29.88,
+    "hhi": 162.09,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 47,
+      "exited_positions": 34,
+      "increased_positions": 35,
+      "reduced_positions": 77
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001941040-25-000544"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001941040-26-000742"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

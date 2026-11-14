@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2066105/0002085853-26-001245.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d06b118c4baf96e85777229d2c543b1482d13a6e7454df09945f3005bb2a4982",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "e9505a9a4961f622cb63ee987192d5b8279636ddc945601da6c3efc4d1165659",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0002085853-26-001245",
+    "source": "https://www.sec.gov/Archives/edgar/data/2066105/0002085853-26-001245.txt",
+    "distinct_positions": 43,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 213459866.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 94746.0,
+        "value_usd": 72256142.0,
+        "weight_pct": 33.85
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 217959.0,
+        "value_usd": 26826336.0,
+        "weight_pct": 12.57
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 215070.0,
+        "value_usd": 19304683.0,
+        "weight_pct": 9.04
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 265676.0,
+        "value_usd": 18400720.0,
+        "weight_pct": 8.62
+      },
+      {
+        "cusip": "464288208",
+        "security_class": "MRGSTR MD CP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 177247.0,
+        "value_usd": 16746297.0,
+        "weight_pct": 7.85
+      },
+      {
+        "cusip": "78463X889",
+        "security_class": "ST STR PO EX ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 190267.0,
+        "value_usd": 9553306.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "19762B202",
+        "security_class": "EM CORE EX ETF",
+        "issuer": "COLUMBIA ETF TR II",
+        "shares": 151827.0,
+        "value_usd": 7805426.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "316092527",
+        "security_class": "SML MID MLTFCT",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 81415.0,
+        "value_usd": 4003176.0,
+        "weight_pct": 1.88
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 18258.0,
+        "value_usd": 3574004.0,
+        "weight_pct": 1.67
+      },
+      {
+        "cusip": "46641Q118",
+        "security_class": "SMALL & MID CAP",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 39052.0,
+        "value_usd": 2873446.0,
+        "weight_pct": 1.35
+      }
+    ],
+    "top_five_pct": 71.93,
+    "top_ten_pct": 84.95,
+    "hhi": 1573.62,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 27,
+      "exited_positions": 17,
+      "increased_positions": 9,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0002085853-25-000068"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0002085853-26-001245"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

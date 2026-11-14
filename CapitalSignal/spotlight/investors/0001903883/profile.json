@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1903883/0001725547-26-000362.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ba2fff2980501a4ab84f65978595d4586bd6171bc04e3b870a39c25940952851",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "dccb4c049df0fc41a4e9556c0bd68f74972b67e04c94c1fcb9e705a0da4bb784",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001725547-26-000362",
+    "source": "https://www.sec.gov/Archives/edgar/data/1903883/0001725547-26-000362.txt",
+    "distinct_positions": 126,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 251601969.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "33739Q408",
+        "security_class": "FIRST TR ENH NEW",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 217215.0,
+        "value_usd": 12926440.0,
+        "weight_pct": 5.14
+      },
+      {
+        "cusip": "46436E841",
+        "security_class": "IBONDS 27 TRM TS",
+        "issuer": "ISHARES TR",
+        "shares": 512366.0,
+        "value_usd": 11436009.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "46436E833",
+        "security_class": "IBONDS 28 TRM TS",
+        "issuer": "ISHARES TR",
+        "shares": 520491.0,
+        "value_usd": 11403958.0,
+        "weight_pct": 4.53
+      },
+      {
+        "cusip": "46436E825",
+        "security_class": "IBONDS 29 TRM TS",
+        "issuer": "ISHARES TR",
+        "shares": 533016.0,
+        "value_usd": 11313264.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "46436E593",
+        "security_class": "IBOND DEC 2030",
+        "issuer": "ISHARES TR",
+        "shares": 591232.0,
+        "value_usd": 11227496.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "46436E460",
+        "security_class": "IBONDS DEC 2031",
+        "issuer": "ISHARES TR",
+        "shares": 573490.0,
+        "value_usd": 11165850.0,
+        "weight_pct": 4.44
+      },
+      {
+        "cusip": "464287499",
+        "security_class": "RUS MID CAP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 85545.0,
+        "value_usd": 9128532.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 14843.0,
+        "value_usd": 6176618.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "33733E104",
+        "security_class": "CAP STRENGTH ETF",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 56265.0,
+        "value_usd": 5280464.0,
+        "weight_pct": 2.1
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 146443.0,
+        "value_usd": 4393301.0,
+        "weight_pct": 1.75
+      }
+    ],
+    "top_five_pct": 23.17,
+    "top_ten_pct": 37.54,
+    "hhi": 204.5,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 37,
+      "exited_positions": 40,
+      "increased_positions": 39,
+      "reduced_positions": 49
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001725547-25-004105"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001725547-26-000362"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

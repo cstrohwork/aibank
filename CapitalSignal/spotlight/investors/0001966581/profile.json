@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1966581/0001754960-26-000938.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5c63204050c66d2cf9d0f613d1180424409349d0a9623cce14ab4eba2d513317",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "836163c9026b731682f4146bc2e2b17cebe790f18a8bad05385ce2abedc98e86",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001754960-26-000938",
+    "source": "https://www.sec.gov/Archives/edgar/data/1966581/0001754960-26-000938.txt",
+    "distinct_positions": 110,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 193975073.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US L",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 430314.0,
+        "value_usd": 13541995.0,
+        "weight_pct": 6.98
+      },
+      {
+        "cusip": "922020755",
+        "security_class": "CORE-PLUS BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 159503.0,
+        "value_usd": 11804816.0,
+        "weight_pct": 6.09
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 67410.0,
+        "value_usd": 10640689.0,
+        "weight_pct": 5.49
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 20477.0,
+        "value_usd": 10196522.0,
+        "weight_pct": 5.26
+      },
+      {
+        "cusip": "922040845",
+        "security_class": "0 3 MO TR BI ETF",
+        "issuer": "VANGUARD INSTL INDEX FD",
+        "shares": 133241.0,
+        "value_usd": 10088979.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "42824C109",
+        "security_class": "COM",
+        "issuer": "HEWLETT PACKARD ENTERPRISE C",
+        "shares": 110323.0,
+        "value_usd": 7048557.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "25434V617",
+        "security_class": "WORLD EQUITY ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 71448.0,
+        "value_usd": 5880915.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "278642103",
+        "security_class": "COM",
+        "issuer": "EBAY INC.",
+        "shares": 50875.0,
+        "value_usd": 5395299.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "969904101",
+        "security_class": "COM",
+        "issuer": "WILLIAMS SONOMA INC",
+        "shares": 21830.0,
+        "value_usd": 4975849.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "20825C104",
+        "security_class": "COM",
+        "issuer": "CONOCOPHILLIPS",
+        "shares": 38291.0,
+        "value_usd": 4792164.0,
+        "weight_pct": 2.47
+      }
+    ],
+    "top_five_pct": 29.01,
+    "top_ten_pct": 43.49,
+    "hhi": 274.11,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 8,
+      "increased_positions": 69,
+      "reduced_positions": 20
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001754960-25-000708"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001754960-26-000685"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001754960-26-000938"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

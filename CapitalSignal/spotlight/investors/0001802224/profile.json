@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1802224/0001802224-25-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1802224/0001802224-26-000010.txt",
     "https://www.sec.gov/Archives/edgar/data/1802224/0001802224-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "58213517a298b2d1a39ba65ab38462cb296002f1ac374b5e282c180eac65a3e6",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c24a6b07691c17732d82fa9c1a6d2598d46898917d745d1164fc271c3f036b1a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001802224-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1802224/0001802224-26-000012.txt",
+    "distinct_positions": 145,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 643979026.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 126786.0,
+        "value_usd": 97098916.0,
+        "weight_pct": 15.08
+      },
+      {
+        "cusip": "14020G101",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP GROWTH ETF",
+        "shares": 1486734.0,
+        "value_usd": 70515783.0,
+        "weight_pct": 10.95
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 727387.0,
+        "value_usd": 65544818.0,
+        "weight_pct": 10.18
+      },
+      {
+        "cusip": "33741X102",
+        "security_class": "SMID RISNG ETF",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 894874.0,
+        "value_usd": 36313967.0,
+        "weight_pct": 5.64
+      },
+      {
+        "cusip": "464289438",
+        "security_class": "RUS TP200 GR ETF",
+        "issuer": "ISHARES TR",
+        "shares": 97739.0,
+        "value_usd": 28824344.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 84132.0,
+        "value_usd": 28017723.0,
+        "weight_pct": 4.35
+      },
+      {
+        "cusip": "464289420",
+        "security_class": "RUS TP200 VL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 238599.0,
+        "value_usd": 26133797.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 271288.0,
+        "value_usd": 25506521.0,
+        "weight_pct": 3.96
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ISHARES NEW",
+        "issuer": "ISHARES GOLD TR",
+        "shares": 252084.0,
+        "value_usd": 19687760.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 23516.0,
+        "value_usd": 17396326.0,
+        "weight_pct": 2.7
+      }
+    ],
+    "top_five_pct": 46.32,
+    "top_ten_pct": 64.45,
+    "hhi": 601.32,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 24,
+      "exited_positions": 20,
+      "increased_positions": 81,
+      "reduced_positions": 33
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001802224-25-000012"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001802224-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001802224-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

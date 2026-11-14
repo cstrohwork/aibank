@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1608057/0001608057-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "816ada6db5993252783a759e13db9b2c2e6c788a0c0479434c5180e96eb7b1c2",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "13bc8556e003429791cff179b870d88458f26550a2b9638115913af6110ef3ed",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001608057-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1608057/0001608057-26-000009.txt",
+    "distinct_positions": 202,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 578801098.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78468R200",
+        "security_class": "BDFUND",
+        "issuer": "SPDR Bloomberg Inter Floating",
+        "shares": 1341406.0,
+        "value_usd": 41368961.0,
+        "weight_pct": 7.15
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "ETF",
+        "issuer": "Schwab International Equity ET",
+        "shares": 836061.0,
+        "value_usd": 22966585.0,
+        "weight_pct": 3.97
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "Apple Inc (AAPL)",
+        "shares": 64133.0,
+        "value_usd": 21357483.0,
+        "weight_pct": 3.69
+      },
+      {
+        "cusip": "78467Y107",
+        "security_class": "ETF",
+        "issuer": "SPDR S&P Mid Cap 400 ETF (MDY)",
+        "shares": 29118.0,
+        "value_usd": 19122178.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "Vanguard S&P 500 ETF (VOO)",
+        "shares": 26082.0,
+        "value_usd": 18279578.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "808524508",
+        "security_class": "ETF",
+        "issuer": "Schwab US Mid Cap ETF (SCHM)",
+        "shares": 526763.0,
+        "value_usd": 17920466.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "ETF",
+        "issuer": "Schwab US Large Cap Growth ETF",
+        "shares": 494559.0,
+        "value_usd": 17769493.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "ETF",
+        "issuer": "Schwab US Dividend Equity ETF",
+        "shares": 525152.0,
+        "value_usd": 17083203.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "BDFUND",
+        "issuer": "Vanguard Short Ter Corp Bd ETF",
+        "shares": 202910.0,
+        "value_usd": 15674797.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corp (MSFT)",
+        "shares": 30542.0,
+        "value_usd": 15664975.0,
+        "weight_pct": 2.71
+      }
+    ],
+    "top_five_pct": 21.27,
+    "top_ten_pct": 35.8,
+    "hhi": 190.2,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 33,
+      "exited_positions": 40,
+      "increased_positions": 77,
+      "reduced_positions": 84
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001608057-25-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001608057-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2107727/0002063364-26-000208.txt",
     "https://www.sec.gov/Archives/edgar/data/2107727/0002063364-26-000346.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4278a735639901fff3162b5c9655613d7aeb5f6954f7c5c086864b87774e033a",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "14da654d388ed23cb596731a2383de71970a7f4e2a258049e99c63aaea540087",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0002063364-26-000346",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107727/0002063364-26-000346.txt",
+    "distinct_positions": 65,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 161796603.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 241967.0,
+        "value_usd": 20075988.0,
+        "weight_pct": 12.41
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 25921.0,
+        "value_usd": 18166663.0,
+        "weight_pct": 11.23
+      },
+      {
+        "cusip": "922908611",
+        "security_class": "MRNGSTR SML CP V",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 49216.0,
+        "value_usd": 11370414.0,
+        "weight_pct": 7.03
+      },
+      {
+        "cusip": "02072L680",
+        "security_class": "STRIVE 500 ETF",
+        "issuer": "EA SERIES TRUST",
+        "shares": 163311.0,
+        "value_usd": 8052054.0,
+        "weight_pct": 4.98
+      },
+      {
+        "cusip": "922908512",
+        "security_class": "MRNGSTR MD CP VA",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 38564.0,
+        "value_usd": 7540431.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "92206C714",
+        "security_class": "VNG RUS1000VAL",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 55923.0,
+        "value_usd": 6078792.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 36908.0,
+        "value_usd": 5825978.0,
+        "weight_pct": 3.6
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 17191.0,
+        "value_usd": 5237045.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "921932778",
+        "security_class": "SMLCP 600 VAL",
+        "issuer": "VANGUARD ADMIRAL FDS INC",
+        "shares": 44793.0,
+        "value_usd": 4927256.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 22400.0,
+        "value_usd": 4659521.0,
+        "weight_pct": 2.88
+      }
+    ],
+    "top_five_pct": 40.3,
+    "top_ten_pct": 56.82,
+    "hhi": 494.59,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 15,
+      "increased_positions": 31,
+      "reduced_positions": 12
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002063364-26-000208"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0002063364-26-000346"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

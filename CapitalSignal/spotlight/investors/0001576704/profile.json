@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1576704/0001576704-26-000014.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "34065f8a0979f02b93678a4919e3e7dc288371ecc48081c948df42bd6d1be9d9",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "e8469d531829a167527cc52c4dec33e24fb3b388d17eab376592729cd8936043",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001576704-26-000014",
+    "source": "https://www.sec.gov/Archives/edgar/data/1576704/0001576704-26-000014.txt",
+    "distinct_positions": 64,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 93780119.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "45259A548",
+        "security_class": "MRP SYNTHEQUITY",
+        "issuer": "TIDAL TRUST III",
+        "shares": 172179.0,
+        "value_usd": 5079284.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 14945.0,
+        "value_usd": 4976890.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "85208M102",
+        "security_class": "COM",
+        "issuer": "SPROUTS FMRS MKT INC",
+        "shares": 50340.0,
+        "value_usd": 3340059.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "09789C788",
+        "security_class": "BLOOMBERG SIX MN",
+        "issuer": "BONDBLOXX ETF TRUST",
+        "shares": 61798.0,
+        "value_usd": 3105350.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "744320102",
+        "security_class": "COM",
+        "issuer": "PRUDENTIAL FINL INC",
+        "shares": 22063.0,
+        "value_usd": 2505926.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "46434V860",
+        "security_class": "TRS FLT RT BD",
+        "issuer": "ISHARES TR",
+        "shares": 48651.0,
+        "value_usd": 2465128.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "92189F411",
+        "security_class": "BDC INCOME ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 188011.0,
+        "value_usd": 2423460.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "92189F429",
+        "security_class": "PREFERRED SECURT",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 133876.0,
+        "value_usd": 2345512.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 8944.0,
+        "value_usd": 2339689.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "18539C204",
+        "security_class": "CL C",
+        "issuer": "CLEARWAY ENERGY INC",
+        "shares": 78733.0,
+        "value_usd": 2304520.0,
+        "weight_pct": 2.46
+      }
+    ],
+    "top_five_pct": 20.27,
+    "top_ten_pct": 32.93,
+    "hhi": 237.3,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 19,
+      "reduced_positions": 36
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001576704-25-000016"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001576704-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001576704-26-000014"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

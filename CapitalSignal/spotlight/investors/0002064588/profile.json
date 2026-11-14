@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2064588/0001951757-26-001707.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "782cf4d48c8d942887b345382c6d7648cfa21781e99fe8716449f05aedc30bab",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "e86b56f14a2d375bcfc23ac0f414bd68f7d24fed48c2620100733df5d5b90c09",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001951757-26-001707",
+    "source": "https://www.sec.gov/Archives/edgar/data/2064588/0001951757-26-001707.txt",
+    "distinct_positions": 86,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 185007021.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "381430230",
+        "security_class": "ULTR SHOR BD ETF",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 362245.0,
+        "value_usd": 18278904.0,
+        "weight_pct": 9.88
+      },
+      {
+        "cusip": "555927508",
+        "security_class": "FOCU EM MKTS ETF",
+        "issuer": "NOMURA ETF TR",
+        "shares": 258855.0,
+        "value_usd": 17000273.0,
+        "weight_pct": 9.19
+      },
+      {
+        "cusip": "921937793",
+        "security_class": "LONG TERM BOND",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 158676.0,
+        "value_usd": 9953760.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 26609.0,
+        "value_usd": 8861170.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "46641Q332",
+        "security_class": "EQUITY PREMIUM",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 147441.0,
+        "value_usd": 8289112.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 10150.0,
+        "value_usd": 7773737.0,
+        "weight_pct": 4.2
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 24725.0,
+        "value_usd": 6870853.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 26436.0,
+        "value_usd": 6037343.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 17311.0,
+        "value_usd": 5956429.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "72201R833",
+        "security_class": "ENHAN SHRT MA AC",
+        "issuer": "PIMCO ETF TR",
+        "shares": 46317.0,
+        "value_usd": 4657174.0,
+        "weight_pct": 2.52
+      }
+    ],
+    "top_five_pct": 33.72,
+    "top_ten_pct": 50.64,
+    "hhi": 361.17,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 25,
+      "exited_positions": 23,
+      "increased_positions": 48,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001951757-25-001309"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001951757-26-001707"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1927474/0002085853-26-001178.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1e82211650384168deef6ab3be06795bd428d0373da4b637160a0759f7031dec",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "9875677bf1a47d5022cc946210dda1d0d046ce0c47cfe1e510b330e25f4e0f3e",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0002085853-26-001178",
+    "source": "https://www.sec.gov/Archives/edgar/data/1927474/0002085853-26-001178.txt",
+    "distinct_positions": 128,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 330002811.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1239489.0,
+        "value_usd": 37184663.0,
+        "weight_pct": 11.27
+      },
+      {
+        "cusip": "46434V621",
+        "security_class": "CORE DIV GRWTH",
+        "issuer": "ISHARES TR",
+        "shares": 340171.0,
+        "value_usd": 25645455.0,
+        "weight_pct": 7.77
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 759585.0,
+        "value_usd": 24709284.0,
+        "weight_pct": 7.49
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 667238.0,
+        "value_usd": 18329021.0,
+        "weight_pct": 5.55
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 201327.0,
+        "value_usd": 15765883.0,
+        "weight_pct": 4.78
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 411445.0,
+        "value_usd": 14783223.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 175086.0,
+        "value_usd": 13525417.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "TOTAL BND MRKT",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 180070.0,
+        "value_usd": 12631879.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "46434V407",
+        "security_class": "0-5YR HI YL CP",
+        "issuer": "ISHARES TR",
+        "shares": 271105.0,
+        "value_usd": 11183076.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "464288646",
+        "security_class": "ISHS 1-5YR INVS",
+        "issuer": "ISHARES TR",
+        "shares": 198421.0,
+        "value_usd": 10165096.0,
+        "weight_pct": 3.08
+      }
+    ],
+    "top_five_pct": 36.86,
+    "top_ten_pct": 55.73,
+    "hhi": 415.32,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 9,
+      "increased_positions": 67,
+      "reduced_positions": 48
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0002085853-25-000134"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002085853-26-000918"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0002085853-26-001178"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

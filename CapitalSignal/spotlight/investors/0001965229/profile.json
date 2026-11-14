@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1965229/0001965229-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/1965229/0001965229-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5c6e2f171283bccd327ae13c1adf867d1bafcfd516adb7a8700ca108b876f3e4",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "a376e424f7c63e618b494c2daaff552d02e95e5869761e3aa18cbbaf69b64de2",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001965229-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1965229/0001965229-26-000005.txt",
+    "distinct_positions": 105,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 388805046.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 2344144.0,
+        "value_usd": 104197219.0,
+        "weight_pct": 26.8
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1145671.0,
+        "value_usd": 76118400.0,
+        "weight_pct": 19.58
+      },
+      {
+        "cusip": "25434V740",
+        "security_class": "EMERGING MKTS VA",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 778155.0,
+        "value_usd": 32993777.0,
+        "weight_pct": 8.49
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 851822.0,
+        "value_usd": 32037037.0,
+        "weight_pct": 8.24
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 787359.0,
+        "value_usd": 31273917.0,
+        "weight_pct": 8.04
+      },
+      {
+        "cusip": "25434V880",
+        "security_class": "WORLD EX US CORE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 655663.0,
+        "value_usd": 24272637.0,
+        "weight_pct": 6.24
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 320954.0,
+        "value_usd": 13894080.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 13740.0,
+        "value_usd": 4575588.0,
+        "weight_pct": 1.18
+      },
+      {
+        "cusip": "808524607",
+        "security_class": "US SML CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 126150.0,
+        "value_usd": 4116263.0,
+        "weight_pct": 1.06
+      },
+      {
+        "cusip": "808524730",
+        "security_class": "FUND EM EQUI ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 83568.0,
+        "value_usd": 3498973.0,
+        "weight_pct": 0.9
+      }
+    ],
+    "top_five_pct": 71.15,
+    "top_ten_pct": 84.1,
+    "hhi": 1365.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 14,
+      "increased_positions": 42,
+      "reduced_positions": 28
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001965229-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001965229-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1986457/0001941040-26-000734.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "918786bf7962b9748600f09388f868fd22698df5fbcae765366fecb34b0ad565",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "d60169bebe06019b31d803044f4d36083c860fb4a09e0643392efc09616a2a49",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001941040-26-000734",
+    "source": "https://www.sec.gov/Archives/edgar/data/1986457/0001941040-26-000734.txt",
+    "distinct_positions": 72,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 266296230.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524102",
+        "security_class": "US BRD MKT ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 2557813.0,
+        "value_usd": 74969500.0,
+        "weight_pct": 28.15
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 478746.0,
+        "value_usd": 33804264.0,
+        "weight_pct": 12.69
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 573755.0,
+        "value_usd": 15761045.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "464288356",
+        "security_class": "CALIF MUN BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 244324.0,
+        "value_usd": 13222826.0,
+        "weight_pct": 4.97
+      },
+      {
+        "cusip": "808524839",
+        "security_class": "US AGGREGATE B",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 570273.0,
+        "value_usd": 12603044.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 187703.0,
+        "value_usd": 11132672.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "72201R817",
+        "security_class": "INV GRD CRP BD",
+        "issuer": "PIMCO ETF TR",
+        "shares": 91566.0,
+        "value_usd": 8405759.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 42165.0,
+        "value_usd": 6655745.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "808524854",
+        "security_class": "INT-TRM U.S TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 250820.0,
+        "value_usd": 5944442.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "464288323",
+        "security_class": "NEW YORK MUN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 109390.0,
+        "value_usd": 5526383.0,
+        "weight_pct": 2.08
+      }
+    ],
+    "top_five_pct": 56.46,
+    "top_ten_pct": 70.61,
+    "hhi": 1106.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 26,
+      "reduced_positions": 21
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001941040-25-000543"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001941040-26-000549"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001941040-26-000734"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

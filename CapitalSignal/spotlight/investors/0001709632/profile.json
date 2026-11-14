@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1709632/0001709632-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1709632/0001709632-26-000006.txt",
     "https://www.sec.gov/Archives/edgar/data/1709632/0001709632-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9050810ee3eb8f6d5297ec0629c68d8f61b07a485a2ea7f937f7f3ecf49c99b1",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "40f8947cbc4f44019ba33013b7fe4b4c2d1ef1530f2b8a9e3619389bc1c59f38",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001709632-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1709632/0001709632-26-000009.txt",
+    "distinct_positions": 414,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 9519356444.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 370477.0,
+        "value_usd": 190017655.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 738089.0,
+        "value_usd": 168564765.0,
+        "weight_pct": 1.77
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 413306.0,
+        "value_usd": 137639164.0,
+        "weight_pct": 1.45
+      },
+      {
+        "cusip": "H1467J104",
+        "security_class": "COM",
+        "issuer": "CHUBB LIMITED",
+        "shares": 419843.0,
+        "value_usd": 136553937.0,
+        "weight_pct": 1.43
+      },
+      {
+        "cusip": "053015103",
+        "security_class": "COM",
+        "issuer": "AUTOMATIC DATA PROCESSING IN",
+        "shares": 501780.0,
+        "value_usd": 129489346.0,
+        "weight_pct": 1.36
+      },
+      {
+        "cusip": "172062101",
+        "security_class": "COM",
+        "issuer": "CINCINNATI FINL CORP",
+        "shares": 761534.0,
+        "value_usd": 121365674.0,
+        "weight_pct": 1.27
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 156707.0,
+        "value_usd": 113640781.0,
+        "weight_pct": 1.19
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 101238.0,
+        "value_usd": 107829607.0,
+        "weight_pct": 1.13
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 210514.0,
+        "value_usd": 107652650.0,
+        "weight_pct": 1.13
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 326056.0,
+        "value_usd": 107112658.0,
+        "weight_pct": 1.13
+      }
+    ],
+    "top_five_pct": 8.01,
+    "top_ten_pct": 13.87,
+    "hhi": 66.32,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 28,
+      "exited_positions": 34,
+      "increased_positions": 232,
+      "reduced_positions": 154
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001709632-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001709632-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001709632-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

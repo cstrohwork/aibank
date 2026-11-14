@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1616026/0001616026-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1616026/0001616026-26-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/1616026/0001616026-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4930d19fa1d51d73185a703936d2d62465a9c70db1cd4f4c5cacf85ed74726f2",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "74b1ae6d6d8c7426c49fdca198f4ea4da304a66bb4f4e6158960f7ca5fd93a02",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001616026-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1616026/0001616026-26-000008.txt",
+    "distinct_positions": 707,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 577864666.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464286772",
+        "security_class": "MSCI STH KOR ETF",
+        "issuer": "ISHARES INC",
+        "shares": 289160.0,
+        "value_usd": 52852675.0,
+        "weight_pct": 9.15
+      },
+      {
+        "cusip": "46431W853",
+        "security_class": "GSCI CMDTY STGY",
+        "issuer": "ISHARES U S ETF TR",
+        "shares": 1167221.0,
+        "value_usd": 43023780.0,
+        "weight_pct": 7.45
+      },
+      {
+        "cusip": "46434G780",
+        "security_class": "MSCI SINGPOR ETF",
+        "issuer": "ISHARES INC",
+        "shares": 1191688.0,
+        "value_usd": 39635543.0,
+        "weight_pct": 6.86
+      },
+      {
+        "cusip": "37954Y343",
+        "security_class": "GLBL X MLP ETF",
+        "issuer": "GLOBAL X FDS",
+        "shares": 742898.0,
+        "value_usd": 39551890.0,
+        "weight_pct": 6.84
+      },
+      {
+        "cusip": "46641Q225",
+        "security_class": "BETA CDA ETF NEW",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 372569.0,
+        "value_usd": 37391013.0,
+        "weight_pct": 6.47
+      },
+      {
+        "cusip": "464286764",
+        "security_class": "MSCI SPAIN ETF",
+        "issuer": "ISHARES INC",
+        "shares": 609671.0,
+        "value_usd": 36092524.0,
+        "weight_pct": 6.25
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "ST STR ENERG ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 483549.0,
+        "value_usd": 29738276.0,
+        "weight_pct": 5.15
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 149029.0,
+        "value_usd": 29172427.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "46434G830",
+        "security_class": "MSCI ITALY ETF",
+        "issuer": "ISHARES INC",
+        "shares": 445945.0,
+        "value_usd": 26185882.0,
+        "weight_pct": 4.53
+      },
+      {
+        "cusip": "46435G102",
+        "security_class": "CONV BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 194528.0,
+        "value_usd": 21969069.0,
+        "weight_pct": 3.8
+      }
+    ],
+    "top_five_pct": 36.77,
+    "top_ten_pct": 61.54,
+    "hhi": 458.34,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 74,
+      "exited_positions": 82,
+      "increased_positions": 162,
+      "reduced_positions": 86
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001616026-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001616026-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001616026-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

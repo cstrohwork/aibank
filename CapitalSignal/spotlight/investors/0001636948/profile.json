@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1636948/0001636948-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e226b74c06bac5fb23c705d2f9516ccc56b6355f0ae5e30b6c9fc38403db17a8",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "34531455a78e2a92ecd0396d264ae22259f3cdb2d1e0c179b1e7104e730d3f49",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001636948-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1636948/0001636948-26-000007.txt",
+    "distinct_positions": 166,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3070683653.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 890989.0,
+        "value_usd": 203484068.0,
+        "weight_pct": 6.63
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 560916.0,
+        "value_usd": 192999977.0,
+        "weight_pct": 6.29
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 542036.0,
+        "value_usd": 180508829.0,
+        "weight_pct": 5.88
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 223418.0,
+        "value_usd": 114591092.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 225080.0,
+        "value_usd": 79045845.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 161783.0,
+        "value_usd": 58133485.0,
+        "weight_pct": 1.89
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 223722.0,
+        "value_usd": 55740336.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "94106L109",
+        "security_class": "COM",
+        "issuer": "WASTE MGMT INC DEL",
+        "shares": 246192.0,
+        "value_usd": 50203473.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 73738.0,
+        "value_usd": 49776837.0,
+        "weight_pct": 1.62
+      },
+      {
+        "cusip": "351858105",
+        "security_class": "COM",
+        "issuer": "FRANCO NEV CORP",
+        "shares": 203600.0,
+        "value_usd": 48631148.0,
+        "weight_pct": 1.58
+      }
+    ],
+    "top_five_pct": 25.1,
+    "top_ten_pct": 33.64,
+    "hhi": 200.12,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 62,
+      "exited_positions": 18,
+      "increased_positions": 40,
+      "reduced_positions": 61
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001636948-25-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001636948-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

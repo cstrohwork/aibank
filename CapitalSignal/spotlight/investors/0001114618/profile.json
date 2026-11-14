@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1114618/0001114618-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "179c5c4acc95321aa3b192411beb39724326bde7ed6ed0165f2fff4a30d162b7",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "260bba39e450f01fc987ae0e6ff59f15e8f3643c28ca92a858866d0d3225e11c",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001114618-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1114618/0001114618-26-000006.txt",
+    "distinct_positions": 833,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 11031336705.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 5625147.0,
+        "value_usd": 1284671028.0,
+        "weight_pct": 11.65
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 2906377.0,
+        "value_usd": 967881805.0,
+        "weight_pct": 8.77
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 1195833.0,
+        "value_usd": 613342954.0,
+        "weight_pct": 5.56
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 1575187.0,
+        "value_usd": 392457841.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 526583.0,
+        "value_usd": 381867294.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 1101556.0,
+        "value_usd": 375344065.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 759457.0,
+        "value_usd": 266713787.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 559011.0,
+        "value_usd": 184937642.0,
+        "weight_pct": 1.68
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 169818.0,
+        "value_usd": 180875053.0,
+        "weight_pct": 1.64
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 519973.0,
+        "value_usd": 178912158.0,
+        "weight_pct": 1.62
+      }
+    ],
+    "top_five_pct": 33.0,
+    "top_ten_pct": 43.76,
+    "hhi": 320.33,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 372,
+      "exited_positions": 64,
+      "increased_positions": 246,
+      "reduced_positions": 215
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001114618-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001114618-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

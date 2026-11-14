@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2045252/0002045252-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0dcfc2899733f4c84a0d59b4d2c594a9939dea2e245fa4765b95722e254fe52d",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "56fc2e8fd72f80a00eb9799281f1cda93df9e12c6605a280028185dbd58f9b53",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0002045252-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2045252/0002045252-26-000005.txt",
+    "distinct_positions": 80,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 130935478.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 174743.0,
+        "value_usd": 15685040.0,
+        "weight_pct": 11.98
+      },
+      {
+        "cusip": "26922A222",
+        "security_class": "APTUS COLLRD INV",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 225459.0,
+        "value_usd": 10578525.0,
+        "weight_pct": 8.08
+      },
+      {
+        "cusip": "09661T602",
+        "security_class": "CORE BOND ETF",
+        "issuer": "BNY MELLON ETF TRUST",
+        "shares": 236042.0,
+        "value_usd": 9457724.0,
+        "weight_pct": 7.22
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 103357.0,
+        "value_usd": 7298008.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "26922A388",
+        "security_class": "APTUS DEFINED",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 258226.0,
+        "value_usd": 7016008.0,
+        "weight_pct": 5.36
+      },
+      {
+        "cusip": "25861R402",
+        "security_class": "MORTGAGE ETF",
+        "issuer": "DOUBLELINE ETF TRUST",
+        "shares": 96342.0,
+        "value_usd": 4461574.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 16759.0,
+        "value_usd": 3827657.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "45783Y244",
+        "security_class": "EQUIT DEFIN JUL",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 118532.0,
+        "value_usd": 3586779.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "26922A784",
+        "security_class": "APTUS DRAWDOWN",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 63177.0,
+        "value_usd": 3554298.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "45784N809",
+        "security_class": "EQUI DEFI 1 NOVE",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 110842.0,
+        "value_usd": 3094709.0,
+        "weight_pct": 2.36
+      }
+    ],
+    "top_five_pct": 38.21,
+    "top_ten_pct": 52.36,
+    "hhi": 417.33,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 41,
+      "exited_positions": 12,
+      "increased_positions": 20,
+      "reduced_positions": 19
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0002045252-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0002045252-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

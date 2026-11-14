@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2110066/0002110066-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/2110066/0002110066-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "14633f274acb1f3871ecfb61e1569526cb656223b26cdc027534b12fb65240c2",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "56c0aa0296dfc964fb3a9e8e2c333e7ae57f2156f087b3a5ef1d6b3ce20d54f3",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0002110066-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2110066/0002110066-26-000005.txt",
+    "distinct_positions": 259,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 141875793.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 95297.0,
+        "value_usd": 20591689.0,
+        "weight_pct": 14.51
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 199042.0,
+        "value_usd": 17935657.0,
+        "weight_pct": 12.64
+      },
+      {
+        "cusip": "97717W281",
+        "security_class": "EMG MKTS SMCAP",
+        "issuer": "WISDOMTREE TR",
+        "shares": 124932.0,
+        "value_usd": 7893229.0,
+        "weight_pct": 5.56
+      },
+      {
+        "cusip": "464288273",
+        "security_class": "EAFE SML CP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 80568.0,
+        "value_usd": 6801532.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "78467V608",
+        "security_class": "ST STR BL LN ETF",
+        "issuer": "SSGA ACTIVE ETF TR",
+        "shares": 151626.0,
+        "value_usd": 6124158.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "46138E719",
+        "security_class": "BLOO EN ANGE ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 306384.0,
+        "value_usd": 5343329.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "464287630",
+        "security_class": "RUS 2000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 24094.0,
+        "value_usd": 5046564.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 61377.0,
+        "value_usd": 4741409.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 56763.0,
+        "value_usd": 4445147.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "52468L505",
+        "security_class": "FRANKLIN INTL LW",
+        "issuer": "LEGG MASON ETF INVT",
+        "shares": 102866.0,
+        "value_usd": 4290521.0,
+        "weight_pct": 3.02
+      }
+    ],
+    "top_five_pct": 41.83,
+    "top_ten_pct": 58.65,
+    "hhi": 562.99,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 45,
+      "exited_positions": 46,
+      "increased_positions": 43,
+      "reduced_positions": 46
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002110066-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0002110066-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

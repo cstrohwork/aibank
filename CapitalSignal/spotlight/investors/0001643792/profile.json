@@ -14,8 +14,57 @@
     "https://www.sec.gov/Archives/edgar/data/1643792/0001643792-26-000012.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1fcf5463d28faeb7b3905e12b9d8ee6fb0df6cfa7d6b90c492ee8b7300d0ffbc",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "3b0895bd33b836decddb74fdaa423b3ee80554c17d443c4ec1cad2316b6702a6",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001643792-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1643792/0001643792-26-000012.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 0.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "000000000",
+        "security_class": "COM",
+        "issuer": "000000000",
+        "shares": 0.0,
+        "value_usd": 0.0,
+        "weight_pct": null
+      }
+    ],
+    "top_five_pct": null,
+    "top_ten_pct": null,
+    "hhi": null,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001643792-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001643792-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001643792-26-000012"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

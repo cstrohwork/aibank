@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1563634/0001563634-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "244fa0997b27b9cc9083ef30d5d735656f0d0bb6a527187c432c891cbc2e0968",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "99219aa8ade8ea7354baac0bd88da6d03c5fb4374834e884fdd74fb100d65e09",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001563634-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1563634/0001563634-26-000006.txt",
+    "distinct_positions": 82,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 312204583.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921910840",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 154836.0,
+        "value_usd": 24942479.0,
+        "weight_pct": 7.99
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 33361.0,
+        "value_usd": 24679285.0,
+        "weight_pct": 7.9
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 43362.0,
+        "value_usd": 16227929.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 82885.0,
+        "value_usd": 16224688.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "81369Y209",
+        "security_class": "ST STR CARE ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 91073.0,
+        "value_usd": 15338443.0,
+        "weight_pct": 4.91
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 209810.0,
+        "value_usd": 14814654.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "92189F676",
+        "security_class": "SEMICONDUCTR ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 22543.0,
+        "value_usd": 13728559.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 18851.0,
+        "value_usd": 13212004.0,
+        "weight_pct": 4.23
+      },
+      {
+        "cusip": "46138E339",
+        "security_class": "S&P 500 MOMNTM",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 79206.0,
+        "value_usd": 12006106.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 19091.0,
+        "value_usd": 11679045.0,
+        "weight_pct": 3.74
+      }
+    ],
+    "top_five_pct": 31.2,
+    "top_ten_pct": 52.16,
+    "hhi": 376.8,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 34,
+      "exited_positions": 17,
+      "increased_positions": 39,
+      "reduced_positions": 9
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001563634-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001563634-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

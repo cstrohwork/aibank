@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2118274/0001754960-26-000632.txt",
     "https://www.sec.gov/Archives/edgar/data/2118274/0001754960-26-000940.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f19a190c667a22dbb27252aea5a2b301f79e354a5b80b2cd705a78422a4c95e5",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ef6d8e1c189642f896f53090459cee6be94f0cd05d60e5f7dfbeb73b8dee26c8",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001754960-26-000940",
+    "source": "https://www.sec.gov/Archives/edgar/data/2118274/0001754960-26-000940.txt",
+    "distinct_positions": 116,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 117519219.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 539287.0,
+        "value_usd": 28237055.0,
+        "weight_pct": 24.03
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 179416.0,
+        "value_usd": 7433204.0,
+        "weight_pct": 6.33
+      },
+      {
+        "cusip": "74348A541",
+        "security_class": "HGH YLD INT RATE",
+        "issuer": "PROSHARES TR",
+        "shares": 103541.0,
+        "value_usd": 6646319.0,
+        "weight_pct": 5.66
+      },
+      {
+        "cusip": "74347B607",
+        "security_class": "INVT INT RT HG",
+        "issuer": "PROSHARES TR",
+        "shares": 78544.0,
+        "value_usd": 6105987.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 4896.0,
+        "value_usd": 3431645.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "G25508105",
+        "security_class": "ORD",
+        "issuer": "CRH PLC",
+        "shares": 38632.0,
+        "value_usd": 3198730.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "EMGR CRE EQT MNG",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 79116.0,
+        "value_usd": 3110047.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 11135.0,
+        "value_usd": 2316367.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 19536.0,
+        "value_usd": 1790279.0,
+        "weight_pct": 1.52
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 16220.0,
+        "value_usd": 1789390.0,
+        "weight_pct": 1.52
+      }
+    ],
+    "top_five_pct": 44.12,
+    "top_ten_pct": 54.51,
+    "hhi": 735.4,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 41,
+      "increased_positions": 12,
+      "reduced_positions": 83
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001754960-26-000632"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001754960-26-000940"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

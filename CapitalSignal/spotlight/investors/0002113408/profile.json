@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2113408/0002085853-26-001289.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "30a7763dee0ae837937081e93591280ab2bd3271badad6dc1ff0d65ad79674e1",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2478c4049ce54d58ba849c97edb0d4b76d5249cca76c3903551f42e2fdbda950",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0002085853-26-001289",
+    "source": "https://www.sec.gov/Archives/edgar/data/2113408/0002085853-26-001289.txt",
+    "distinct_positions": 56,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 175702735.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "74347R206",
+        "security_class": "PSHS ULTRA QQQ",
+        "issuer": "PROSHARES TR",
+        "shares": 384371.0,
+        "value_usd": 36764884.0,
+        "weight_pct": 20.92
+      },
+      {
+        "cusip": "74347R107",
+        "security_class": "PSHS ULT S&P 500",
+        "issuer": "PROSHARES TR",
+        "shares": 188471.0,
+        "value_usd": 13066514.0,
+        "weight_pct": 7.44
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 11514.0,
+        "value_usd": 12265980.0,
+        "weight_pct": 6.98
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 13058.0,
+        "value_usd": 9661628.0,
+        "weight_pct": 5.5
+      },
+      {
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 9623.0,
+        "value_usd": 8874818.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "74347R669",
+        "security_class": "PSHS ULT SEMICDT",
+        "issuer": "PROSHARES TR",
+        "shares": 85904.0,
+        "value_usd": 8270855.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "316092352",
+        "security_class": "BLUE CHIP GRWTH",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 117629.0,
+        "value_usd": 7435332.0,
+        "weight_pct": 4.23
+      },
+      {
+        "cusip": "316092360",
+        "security_class": "FUN LAR COR ETF",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 119641.0,
+        "value_usd": 7066248.0,
+        "weight_pct": 4.02
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 26307.0,
+        "value_usd": 6008451.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "25461A528",
+        "security_class": "DLY MU BULL 2X",
+        "issuer": "DIREXION SHARES ETF TRUST",
+        "shares": 111122.0,
+        "value_usd": 4091525.0,
+        "weight_pct": 2.33
+      }
+    ],
+    "top_five_pct": 45.89,
+    "top_ten_pct": 64.6,
+    "hhi": 720.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 26,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002085853-26-000971"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0002085853-26-001289"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2056807/0001829126-26-011223.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8a49f0085fa32ef18cd1f1500b6cbc5721ac36a156f5ae2d8ce59ffac5e4688c",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "4def0f784a4c8a7d53c7971f2a92b5d10a72b99cad4fb9a214375dafb5f667d3",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001829126-26-011223",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056807/0001829126-26-011223.txt",
+    "distinct_positions": 594,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2692207856.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "773121108",
+        "security_class": "COM",
+        "issuer": "ROCKET LAB CORP COM",
+        "shares": 1697886.0,
+        "value_usd": 118308696.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION COM USD0.001 CL A",
+        "shares": 563977.0,
+        "value_usd": 85081570.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "00217D100",
+        "security_class": "COM CL A",
+        "issuer": "AST SPACEMOBILE INC COM CL A",
+        "shares": 1345291.0,
+        "value_usd": 79183828.0,
+        "weight_pct": 2.94
+      },
+      {
+        "cusip": "92552V100",
+        "security_class": "COM",
+        "issuer": "VIASAT INC",
+        "shares": 850475.0,
+        "value_usd": 59856431.0,
+        "weight_pct": 2.22
+      },
+      {
+        "cusip": "739128106",
+        "security_class": "COM",
+        "issuer": "POWELL INDS INC",
+        "shares": 288007.0,
+        "value_usd": 53128651.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "032095101",
+        "security_class": "CL A",
+        "issuer": "AMPHENOL CORP CL A",
+        "shares": 625401.0,
+        "value_usd": 52721304.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "077347300",
+        "security_class": "CL B",
+        "issuer": "BEL FUSE INC CL B",
+        "shares": 199922.0,
+        "value_usd": 48804959.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "55024U109",
+        "security_class": "COM",
+        "issuer": "LUMENTUM HOLDINGS INC W I",
+        "shares": 46447.0,
+        "value_usd": 45112113.0,
+        "weight_pct": 1.68
+      },
+      {
+        "cusip": "31816X106",
+        "security_class": "COM",
+        "issuer": "FIREFLY AEROSPACE INC COM",
+        "shares": 1877180.0,
+        "value_usd": 43456717.0,
+        "weight_pct": 1.61
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP COM",
+        "shares": 189000.0,
+        "value_usd": 43163820.0,
+        "weight_pct": 1.6
+      }
+    ],
+    "top_five_pct": 14.69,
+    "top_ten_pct": 23.36,
+    "hhi": 109.67,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 149,
+      "exited_positions": 67,
+      "increased_positions": 370,
+      "reduced_positions": 73
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001172661-25-004426"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001829126-26-011223"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

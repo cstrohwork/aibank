@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1938757/0001938757-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "07b3bf2a6e07ee38ec44dca0e5f08fa48bb7094592282130594f1a09a8d7ca08",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "1acc6584793ddfd6b74ab70574b825ae921e05e5b136c3d5a548537ecd13f5c1",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001938757-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1938757/0001938757-26-000011.txt",
+    "distinct_positions": 137,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 757882606.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "780087102",
+        "security_class": "COM",
+        "issuer": "ROYAL BK CDA",
+        "shares": 265763.0,
+        "value_usd": 52401968.0,
+        "weight_pct": 6.91
+      },
+      {
+        "cusip": "891160509",
+        "security_class": "COM NEW",
+        "issuer": "TORONTO DOMINION BK ONT",
+        "shares": 321615.0,
+        "value_usd": 37905150.0,
+        "weight_pct": 5.0
+      },
+      {
+        "cusip": "063671101",
+        "security_class": "COM",
+        "issuer": "BANK OF MONTREAL",
+        "shares": 161565.0,
+        "value_usd": 27080558.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "136069101",
+        "security_class": "COM",
+        "issuer": "CANADIAN IMPERIAL BANK OF CO",
+        "shares": 224058.0,
+        "value_usd": 24734361.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 34634.0,
+        "value_usd": 17763778.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "136375102",
+        "security_class": "COM",
+        "issuer": "CANADIAN NATL RY CO",
+        "shares": 145653.0,
+        "value_usd": 17378847.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 46906.0,
+        "value_usd": 16139416.0,
+        "weight_pct": 2.13
+      },
+      {
+        "cusip": "56501R106",
+        "security_class": "COM",
+        "issuer": "MANULIFE FINL CORP",
+        "shares": 373076.0,
+        "value_usd": 15934726.0,
+        "weight_pct": 2.1
+      },
+      {
+        "cusip": "443628102",
+        "security_class": "COM",
+        "issuer": "HUDBAY MINERALS INC",
+        "shares": 587103.0,
+        "value_usd": 15730514.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "82509L107",
+        "security_class": "CL A SUB VTG SHS",
+        "issuer": "SHOPIFY INC",
+        "shares": 101965.0,
+        "value_usd": 15148059.0,
+        "weight_pct": 2.0
+      }
+    ],
+    "top_five_pct": 21.1,
+    "top_ten_pct": 31.7,
+    "hhi": 191.84,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 71,
+      "exited_positions": 83,
+      "increased_positions": 32,
+      "reduced_positions": 33
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001938757-25-000016"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001938757-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

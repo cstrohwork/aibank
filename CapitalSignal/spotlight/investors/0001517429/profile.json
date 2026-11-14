@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1517429/0001941040-26-000735.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d09f9f9a3cac348ea1d7b50324efda682a8002bdfb3b0c9187d5108ec1d7f136",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "dc017564a96bf2c315e833983c4f4fd0928037970b6cfdde0755b0dde3d5454e",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001941040-26-000735",
+    "source": "https://www.sec.gov/Archives/edgar/data/1517429/0001941040-26-000735.txt",
+    "distinct_positions": 55,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 270647874.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 53359.0,
+        "value_usd": 18739147.0,
+        "weight_pct": 6.92
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 68461.0,
+        "value_usd": 18125050.0,
+        "weight_pct": 6.7
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 46811.0,
+        "value_usd": 16106729.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "74762E102",
+        "security_class": "COM",
+        "issuer": "QUANTA SVCS INC",
+        "shares": 24230.0,
+        "value_usd": 15568017.0,
+        "weight_pct": 5.75
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 43702.0,
+        "value_usd": 14553500.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "032095101",
+        "security_class": "CL A",
+        "issuer": "AMPHENOL CORP",
+        "shares": 147180.0,
+        "value_usd": 12407274.0,
+        "weight_pct": 4.58
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 13770.0,
+        "value_usd": 11164578.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "G29183103",
+        "security_class": "SHS",
+        "issuer": "EATON CORP PLC",
+        "shares": 22336.0,
+        "value_usd": 9598003.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 38086.0,
+        "value_usd": 9489127.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 9450.0,
+        "value_usd": 8508402.0,
+        "weight_pct": 3.14
+      }
+    ],
+    "top_five_pct": 30.7,
+    "top_ten_pct": 49.61,
+    "hhi": 373.31,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 16,
+      "exited_positions": 20,
+      "increased_positions": 19,
+      "reduced_positions": 18
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0001941040-25-000566"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001941040-26-000735"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

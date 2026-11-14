@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1905765/0001951757-26-001667.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "53fa2afc5722e7d175be6d59ba4de39176b70a565a72c94888dc6d17a14d6e76",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2694c2ca3cb7b02060cd908da145bb52a3448db5907e3f4b26815259b49b64b9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001951757-26-001667",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905765/0001951757-26-001667.txt",
+    "distinct_positions": 54,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 254919791.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 373487.0,
+        "value_usd": 18244862.0,
+        "weight_pct": 7.16
+      },
+      {
+        "cusip": "23908L207",
+        "security_class": "SELECT US EQTY",
+        "issuer": "DAVIS FUNDAMENTAL ETF TR",
+        "shares": 331364.0,
+        "value_usd": 18118986.0,
+        "weight_pct": 7.11
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 328167.0,
+        "value_usd": 16536323.0,
+        "weight_pct": 6.49
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 116782.0,
+        "value_usd": 15887020.0,
+        "weight_pct": 6.23
+      },
+      {
+        "cusip": "78464A672",
+        "security_class": "ST INTER ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 516202.0,
+        "value_usd": 14081992.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 101478.0,
+        "value_usd": 12489917.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "67070X101",
+        "security_class": "COM SH BEN INT",
+        "issuer": "NUVEEN MUN CR INCOME FD",
+        "shares": 1070573.0,
+        "value_usd": 11594308.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "97717X594",
+        "security_class": "ITL HDG QTLY DIV",
+        "issuer": "WISDOMTREE TR",
+        "shares": 213102.0,
+        "value_usd": 11059983.0,
+        "weight_pct": 4.34
+      },
+      {
+        "cusip": "92189F437",
+        "security_class": "FALLEN ANGEL HG",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 366920.0,
+        "value_usd": 10204032.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "670657105",
+        "security_class": "COM",
+        "issuer": "NUVEEN AMT FREE QLTY MUN INC",
+        "shares": 988236.0,
+        "value_usd": 9832943.0,
+        "weight_pct": 3.86
+      }
+    ],
+    "top_five_pct": 32.51,
+    "top_ten_pct": 54.15,
+    "hhi": 405.93,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 18,
+      "exited_positions": 20,
+      "increased_positions": 18,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001951757-25-001170"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001951757-26-001667"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

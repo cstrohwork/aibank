@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2089183/0002089183-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2089183/0002089183-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3ce613b2c397502eded0d7bbb0ed3ec25802b552bee82dc906cd2e53a3126dcc",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ad1c53e6adcc3fa4bc9e8264559f9391a8df86a4e657250a75fdcf4885321137",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0002089183-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2089183/0002089183-26-000005.txt",
+    "distinct_positions": 653,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 209862296.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "025072885",
+        "security_class": "ETF",
+        "issuer": "AVANTIS U.S. EQUITY ETF",
+        "shares": 344215.0,
+        "value_usd": 44090535.0,
+        "weight_pct": 21.01
+      },
+      {
+        "cusip": "316092352",
+        "security_class": "ETF",
+        "issuer": "FIDELITY BLUE CHIP GROWTH ETF",
+        "shares": 287093.0,
+        "value_usd": 18147164.0,
+        "weight_pct": 8.65
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "ETF",
+        "issuer": "AVANTIS INTERNATIONAL EQUITY ETF",
+        "shares": 175768.0,
+        "value_usd": 15838410.0,
+        "weight_pct": 7.55
+      },
+      {
+        "cusip": "025072562",
+        "security_class": "ETF",
+        "issuer": "AVANTIS CORE FIXED INCOME ETF",
+        "shares": 366727.0,
+        "value_usd": 14445381.0,
+        "weight_pct": 6.88
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR VALUE ETF",
+        "shares": 57813.0,
+        "value_usd": 12492233.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "ETF",
+        "issuer": "AVANTIS EMERGING MARKETS EQUITY ETF",
+        "shares": 95191.0,
+        "value_usd": 8949870.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 20546.0,
+        "value_usd": 7689298.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "ETF",
+        "issuer": "FIDELITY TOTAL BOND ETF",
+        "shares": 134736.0,
+        "value_usd": 5834069.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "025072232",
+        "security_class": "ETF",
+        "issuer": "AVANTIS ALL EQUITY MARKETS ETF",
+        "shares": 52449.0,
+        "value_usd": 5157858.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR SMALL-CAP ETF",
+        "shares": 17715.0,
+        "value_usd": 5039740.0,
+        "weight_pct": 2.4
+      }
+    ],
+    "top_five_pct": 50.04,
+    "top_ten_pct": 65.61,
+    "hhi": 731.53,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 306,
+      "exited_positions": 13,
+      "increased_positions": 153,
+      "reduced_positions": 35
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002089183-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0002089183-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1277557/0001277557-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1277557/0001277557-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1277557/0001277557-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3c32cb7b62c03d376dae3689f356c6cac555d31d65fed515bc4faecd0995f45c",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c47634d1d7aedc50ce810578c1318b426eaa5381efe910e7fde007686c78e929",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001277557-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1277557/0001277557-26-000004.txt",
+    "distinct_positions": 2780,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1273597348.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "Com",
+        "issuer": "Apple Inc.",
+        "shares": 138980.0,
+        "value_usd": 46283147.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Com",
+        "issuer": "Microsoft Corp.",
+        "shares": 73655.0,
+        "value_usd": 37777663.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Com",
+        "issuer": "Nvidia Corp",
+        "shares": 127278.0,
+        "value_usd": 29067796.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "Com",
+        "issuer": "SPDR S&P 500 ETF",
+        "shares": 32307.0,
+        "value_usd": 24637933.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Com",
+        "issuer": "ALPHABET INC CLASS A",
+        "shares": 60196.0,
+        "value_usd": 20712174.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Com",
+        "issuer": "Amazon.Com",
+        "shares": 76337.0,
+        "value_usd": 19019395.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "Com",
+        "issuer": "IShares S&P 500 Index Fd",
+        "shares": 23096.0,
+        "value_usd": 17688031.0,
+        "weight_pct": 1.39
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "Com",
+        "issuer": "Broadcom Inc",
+        "shares": 43825.0,
+        "value_usd": 15390806.0,
+        "weight_pct": 1.21
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "Com",
+        "issuer": "Invesco QQQ Trust",
+        "shares": 19524.0,
+        "value_usd": 14443271.0,
+        "weight_pct": 1.13
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "Com",
+        "issuer": "ALPHABET INC CLASS C",
+        "shares": 37802.0,
+        "value_usd": 12880593.0,
+        "weight_pct": 1.01
+      }
+    ],
+    "top_five_pct": 12.44,
+    "top_ten_pct": 18.68,
+    "hhi": 60.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 242,
+      "exited_positions": 170,
+      "increased_positions": 966,
+      "reduced_positions": 770
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001277557-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001277557-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001277557-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,84 @@
     "https://www.sec.gov/Archives/edgar/data/858877/0001193125-26-422871.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f9c09e30de0714ac342f2570ddc857f5066411acb463363ae2d2df9cd47120cc",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "ab47da1cf67964e0670d7e0cef6d83334c8c53878ad356124069b162207b3439",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001193125-26-422871",
+    "source": "https://www.sec.gov/Archives/edgar/data/858877/0001193125-26-422871.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 294257902.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287150",
+        "security_class": "CORE S&P TTL STK",
+        "issuer": "ISHARES TR",
+        "shares": 720000.0,
+        "value_usd": 119721600.0,
+        "weight_pct": 40.69
+      },
+      {
+        "cusip": "21873S108",
+        "security_class": "COM CL A",
+        "issuer": "COREWEAVE INC.",
+        "shares": 1063980.0,
+        "value_usd": 92693938.0,
+        "weight_pct": 31.5
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "S&P 500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 60000.0,
+        "value_usd": 45951000.0,
+        "weight_pct": 15.62
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 237375.0,
+        "value_usd": 35810393.0,
+        "weight_pct": 12.17
+      },
+      {
+        "cusip": "29765A101",
+        "security_class": "CL A",
+        "issuer": "ETHOS TECHNOLOGIES INC",
+        "shares": 2412.0,
+        "value_usd": 80971.0,
+        "weight_pct": 0.03
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3039.61,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 3,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001193125-25-237071"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001193125-26-422871"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

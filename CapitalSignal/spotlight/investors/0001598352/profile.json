@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1598352/0001598352-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a24327ea28fde18f537f1325f976d85a95aab860187af4f5a6b0266d55f084ce",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "2856b54a60209aa8904fd35d2c4359c95c7b97f5733f00e9881b67e55f9cc22f",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001598352-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1598352/0001598352-26-000004.txt",
+    "distinct_positions": 39,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 141515713.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "MICROSOFT CORP",
+        "shares": 43390.0,
+        "value_usd": 22254731.0,
+        "weight_pct": 15.73
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "Stock",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 17821.0,
+        "value_usd": 12030066.0,
+        "weight_pct": 8.5
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "Stock",
+        "issuer": "META PLATFORMS INC CL A",
+        "shares": 15825.0,
+        "value_usd": 11475974.0,
+        "weight_pct": 8.11
+      },
+      {
+        "cusip": "747525103",
+        "security_class": "Stock",
+        "issuer": "QUALCOMM INC",
+        "shares": 50725.0,
+        "value_usd": 9335429.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "053015103",
+        "security_class": "Stock",
+        "issuer": "AUTOMATIC DATA PROCESSING INC",
+        "shares": 31525.0,
+        "value_usd": 8135342.0,
+        "weight_pct": 5.75
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "Stock",
+        "issuer": "AMGEN INC",
+        "shares": 19050.0,
+        "value_usd": 8029766.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "855244109",
+        "security_class": "Stock",
+        "issuer": "STARBUCKS CORP",
+        "shares": 65175.0,
+        "value_usd": 6123843.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "68389X105",
+        "security_class": "Stock",
+        "issuer": "ORACLE CORP",
+        "shares": 39600.0,
+        "value_usd": 5437080.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "Stock",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL CL B NEW",
+        "shares": 10075.0,
+        "value_usd": 5016846.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "Stock",
+        "issuer": "CHEVRON CORP",
+        "shares": 24391.0,
+        "value_usd": 4980886.0,
+        "weight_pct": 3.52
+      }
+    ],
+    "top_five_pct": 44.68,
+    "top_ten_pct": 65.59,
+    "hhi": 620.73,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 5,
+      "exited_positions": 8,
+      "increased_positions": 2,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001598352-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001598352-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

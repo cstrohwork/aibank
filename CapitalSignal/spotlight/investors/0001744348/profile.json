@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1744348/0001744348-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "23c31dfe06cd7f32aa974d1dc240348e99e93cd40ba6f446db329e6132b19d24",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "9abb074e9e8fa0a5da42f3708eb00da13a47af47dd959ae4861845a10a92fb59",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001744348-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1744348/0001744348-26-000005.txt",
+    "distinct_positions": 270,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 498257424.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G7997R103",
+        "security_class": "Stock",
+        "issuer": "Seagate Technology Holdings Plc",
+        "shares": 29646.0,
+        "value_usd": 27343627.0,
+        "weight_pct": 5.49
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Stock",
+        "issuer": "Microsoft Corp Common",
+        "shares": 30487.0,
+        "value_usd": 15636641.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "26923N405",
+        "security_class": "ETF",
+        "issuer": "Applied Finance, Valuation Large Cap ETF",
+        "shares": 276649.0,
+        "value_usd": 13425791.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "219350105",
+        "security_class": "Stock",
+        "issuer": "Corning, Inc. Common",
+        "shares": 79235.0,
+        "value_usd": 12183236.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ETF",
+        "issuer": "iShares Gold (TRUST)",
+        "shares": 152101.0,
+        "value_usd": 11879057.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "00162Q346",
+        "security_class": "ETF",
+        "issuer": "ALPS/Smith Core Plus, Bond. Exchange",
+        "shares": 455260.0,
+        "value_usd": 11172082.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "Stock",
+        "issuer": "Intel Corp Common",
+        "shares": 92544.0,
+        "value_usd": 11126515.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "Apple, Inc. Common",
+        "shares": 32814.0,
+        "value_usd": 10927621.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Stock",
+        "issuer": "Nvidia Corporation Common",
+        "shares": 37952.0,
+        "value_usd": 8667435.0,
+        "weight_pct": 1.74
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "ETF",
+        "issuer": "Schwab Us Dividend Equity ETF",
+        "shares": 260636.0,
+        "value_usd": 8478493.0,
+        "weight_pct": 1.7
+      }
+    ],
+    "top_five_pct": 16.15,
+    "top_ten_pct": 26.26,
+    "hhi": 125.75,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 58,
+      "exited_positions": 25,
+      "increased_positions": 106,
+      "reduced_positions": 102
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-06",
+        "accession": "0001744348-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001744348-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

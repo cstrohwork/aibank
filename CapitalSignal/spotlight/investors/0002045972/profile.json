@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2045972/0002045972-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "26940a3aed402babc5f2db42a86a46c2e22c560116a8b0081fab48f57f8f3bd0",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "aa73ad1bbc192f6f2fa7fc445513ea9320451114304678a17c9d49f9a3c5c6a5",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0002045972-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2045972/0002045972-26-000006.txt",
+    "distinct_positions": 46,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 316588185.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 125936.0,
+        "value_usd": 28761292.0,
+        "weight_pct": 9.08
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 23334.0,
+        "value_usd": 24853291.0,
+        "weight_pct": 7.85
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 120915.0,
+        "value_usd": 22617151.0,
+        "weight_pct": 7.14
+      },
+      {
+        "cusip": "29273V100",
+        "security_class": "COM UT LTD PTN",
+        "issuer": "ENERGY TRANSFER L P",
+        "shares": 876346.0,
+        "value_usd": 17325375.0,
+        "weight_pct": 5.47
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 48739.0,
+        "value_usd": 17116995.0,
+        "weight_pct": 5.41
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 13043.0,
+        "value_usd": 15092362.0,
+        "weight_pct": 4.77
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 41874.0,
+        "value_usd": 14408268.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 16953.0,
+        "value_usd": 13745507.0,
+        "weight_pct": 4.34
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 51015.0,
+        "value_usd": 13505759.0,
+        "weight_pct": 4.27
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 108846.0,
+        "value_usd": 13086555.0,
+        "weight_pct": 4.13
+      }
+    ],
+    "top_five_pct": 34.96,
+    "top_ten_pct": 57.02,
+    "hhi": 456.01,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 29,
+      "exited_positions": 19,
+      "increased_positions": 4,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0002045972-25-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0002045972-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

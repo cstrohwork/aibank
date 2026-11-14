@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/883782/0001193125-26-421070.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d30c46771ab41b8e5a3e0384ee721f3f92f97efb2b040b80d09ebddbdbb6c669",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "10ec3cff88ebd457fabe7f11f6142fc99b468cc1abf39bfb61d297db8e80b636",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001193125-26-421070",
+    "source": "https://www.sec.gov/Archives/edgar/data/883782/0001193125-26-421070.txt",
+    "distinct_positions": 683,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3289424040.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922040100",
+        "security_class": "SH BEN INT",
+        "issuer": "VANGUARD INSTL INDEX FD",
+        "shares": 351520.0,
+        "value_usd": 215281812.0,
+        "weight_pct": 6.54
+      },
+      {
+        "cusip": "45775L408",
+        "security_class": "T ROWE LARG CP I",
+        "issuer": "T ROWE PRICE EQUITY FUNDS IN",
+        "shares": 1022066.0,
+        "value_usd": 91648768.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "922908710",
+        "security_class": "500INDEX ADMIR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 121882.0,
+        "value_usd": 86053964.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 375728.0,
+        "value_usd": 85808760.0,
+        "weight_pct": 2.61
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 251974.0,
+        "value_usd": 83912381.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "4812A3718",
+        "security_class": "GROWTH ADVNTG I",
+        "issuer": "JPMORGAN TR I",
+        "shares": 1835162.0,
+        "value_usd": 79242322.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "83178C709",
+        "security_class": "VALUE FD Y",
+        "issuer": "SMEAD FDS TR",
+        "shares": 769019.0,
+        "value_usd": 74541080.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "98148J188",
+        "security_class": "APPLIED FIN INST",
+        "issuer": "WORLD FDS TR",
+        "shares": 2686389.0,
+        "value_usd": 71565415.0,
+        "weight_pct": 2.18
+      },
+      {
+        "cusip": "38147N293",
+        "security_class": "GQG PRTNR INST",
+        "issuer": "GOLDMAN SACHS TR II",
+        "shares": 2960467.0,
+        "value_usd": 71051247.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "87244W680",
+        "security_class": "NUVEEN INDEX R6",
+        "issuer": "TIAA-CREF FUND",
+        "shares": 856258.0,
+        "value_usd": 69271411.0,
+        "weight_pct": 2.11
+      }
+    ],
+    "top_five_pct": 17.11,
+    "top_ten_pct": 28.22,
+    "hhi": 142.03,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 149,
+      "exited_positions": 133,
+      "increased_positions": 254,
+      "reduced_positions": 256
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001193125-25-244959"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001193125-26-421070"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2055584/0001951757-26-001749.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a9ee4e5cd6336a6f1b52e4923fe257b9c6030b8ebf09930686abcabbcc599f09",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "df5142fc7e6273a58648956b482a7168ed3fadb84da5ee3b81efa2411d99d68a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001951757-26-001749",
+    "source": "https://www.sec.gov/Archives/edgar/data/2055584/0001951757-26-001749.txt",
+    "distinct_positions": 74,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 112732237.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "72201R775",
+        "security_class": "ACTIVE BD ETF",
+        "issuer": "PIMCO ETF TR",
+        "shares": 83519.0,
+        "value_usd": 7265304.0,
+        "weight_pct": 6.44
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 42197.0,
+        "value_usd": 6660765.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 41702.0,
+        "value_usd": 6472148.0,
+        "weight_pct": 5.74
+      },
+      {
+        "cusip": "33738R118",
+        "security_class": "NASD TECH DIV",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 55071.0,
+        "value_usd": 6213095.0,
+        "weight_pct": 5.51
+      },
+      {
+        "cusip": "46432F834",
+        "security_class": "CORE MSCI TOTAL",
+        "issuer": "ISHARES TR",
+        "shares": 51992.0,
+        "value_usd": 4938741.0,
+        "weight_pct": 4.38
+      },
+      {
+        "cusip": "808524854",
+        "security_class": "INT-TRM U.S TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 201102.0,
+        "value_usd": 4766126.0,
+        "weight_pct": 4.23
+      },
+      {
+        "cusip": "33741X102",
+        "security_class": "SMID RISNG ETF",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 114713.0,
+        "value_usd": 4655057.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "MULTISECTOR BD",
+        "issuer": "PIMCO ETF TR",
+        "shares": 181412.0,
+        "value_usd": 4606055.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "97717W208",
+        "security_class": "US HIGH DIVIDEND",
+        "issuer": "WISDOMTREE TR",
+        "shares": 37077.0,
+        "value_usd": 4151564.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "46434G764",
+        "security_class": "MSCI EMRG CHN",
+        "issuer": "ISHARES INC",
+        "shares": 38975.0,
+        "value_usd": 3861678.0,
+        "weight_pct": 3.43
+      }
+    ],
+    "top_five_pct": 27.99,
+    "top_ten_pct": 47.54,
+    "hhi": 311.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 11,
+      "increased_positions": 23,
+      "reduced_positions": 19
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001951757-26-001199"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001951757-26-001749"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

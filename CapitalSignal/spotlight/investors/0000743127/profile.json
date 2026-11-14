@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/743127/0000743127-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "6503810fe953c9750ddbd9f004a36a47c48b5027d6376982f693f9ffe9ca9289",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "d02f72c27b5b15de40e2d42ed3d63c614d6a9443ae47b3c343b19d1d5eec330f",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0000743127-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/743127/0000743127-26-000005.txt",
+    "distinct_positions": 956,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 8923606498.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 1653904.0,
+        "value_usd": 437854606.0,
+        "weight_pct": 4.91
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1203737.0,
+        "value_usd": 400868441.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 443121.0,
+        "value_usd": 227276964.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 944480.0,
+        "value_usd": 215700415.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 192994.0,
+        "value_usd": 205559376.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 224133.0,
+        "value_usd": 162537081.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 443809.0,
+        "value_usd": 155861300.0,
+        "weight_pct": 1.75
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 197863.0,
+        "value_usd": 146372890.0,
+        "weight_pct": 1.64
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 188709.0,
+        "value_usd": 143915349.0,
+        "weight_pct": 1.61
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 377148.0,
+        "value_usd": 141143859.0,
+        "weight_pct": 1.58
+      }
+    ],
+    "top_five_pct": 16.67,
+    "top_ten_pct": 25.07,
+    "hhi": 110.94,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 68,
+      "exited_positions": 79,
+      "increased_positions": 400,
+      "reduced_positions": 416
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0000743127-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0000743127-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

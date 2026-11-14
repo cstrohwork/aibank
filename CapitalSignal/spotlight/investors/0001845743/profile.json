@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1845743/0001845743-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "400bc00f55bba1aa3c897d504843cf44930c3797f27edb784adfb85ee97e8fdf",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "b04884768779a23dd7970d550e4ed43d98c139413ff268b922ea202cce86cb58",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001845743-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1845743/0001845743-26-000005.txt",
+    "distinct_positions": 197,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 312993018.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 601290.0,
+        "value_usd": 30347125.0,
+        "weight_pct": 9.7
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 442527.0,
+        "value_usd": 19670335.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "25434V104",
+        "security_class": "US CORE EQT MKT",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 250722.0,
+        "value_usd": 13127824.0,
+        "weight_pct": 4.19
+      },
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 86036.0,
+        "value_usd": 12239462.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "S&P 500 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 43877.0,
+        "value_usd": 10016208.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 107813.0,
+        "value_usd": 9677326.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 27784.0,
+        "value_usd": 9252666.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 123941.0,
+        "value_usd": 8584177.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 9938.0,
+        "value_usd": 7611225.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 10438.0,
+        "value_usd": 5353869.0,
+        "weight_pct": 1.71
+      }
+    ],
+    "top_five_pct": 27.29,
+    "top_ten_pct": 40.22,
+    "hhi": 250.38,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 56,
+      "exited_positions": 44,
+      "increased_positions": 51,
+      "reduced_positions": 89
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-08",
+        "accession": "0001845743-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001845743-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

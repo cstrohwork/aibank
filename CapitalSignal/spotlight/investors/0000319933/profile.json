@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/319933/0000319933-26-000014.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8671425fd0a8d4c873bca50ba4751a57098d7a92fcc7ffa6c850a2652e120051",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "e85a33794097511fb4ce640c0283fd20bf0aa4e996cc25ccbff416a88a2270f9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0000319933-26-000014",
+    "source": "https://www.sec.gov/Archives/edgar/data/319933/0000319933-26-000014.txt",
+    "distinct_positions": 635,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 61120986.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "APPLE INC",
+        "shares": 9678.0,
+        "value_usd": 3222969.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common Stock",
+        "issuer": "MICROSOFT CORP",
+        "shares": 3699.0,
+        "value_usd": 1897221.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "Equity Fund",
+        "issuer": "VANGUARD INDEX FDS   ETF",
+        "shares": 2686.0,
+        "value_usd": 1882501.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Common Stock",
+        "issuer": "NVIDIA CORP",
+        "shares": 5680.0,
+        "value_usd": 1297241.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "Common Stock",
+        "issuer": "ELI LILLY & CO",
+        "shares": 929.0,
+        "value_usd": 1075002.0,
+        "weight_pct": 1.76
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "Common Stock",
+        "issuer": "BERKSHIRE HATHAWAY INC",
+        "shares": 2101.0,
+        "value_usd": 1046174.0,
+        "weight_pct": 1.71
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "Common Stock",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 867.0,
+        "value_usd": 923443.0,
+        "weight_pct": 1.51
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "Equity Fund",
+        "issuer": "INVESCO QQQ TR       ETF",
+        "shares": 1116.0,
+        "value_usd": 825574.0,
+        "weight_pct": 1.35
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "Equity Fund",
+        "issuer": "ISHARES CORE S&P 500 ETF",
+        "shares": 1014.0,
+        "value_usd": 776945.0,
+        "weight_pct": 1.27
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "Common Stock",
+        "issuer": "BROADCOM INC",
+        "shares": 1796.0,
+        "value_usd": 630723.0,
+        "weight_pct": 1.03
+      }
+    ],
+    "top_five_pct": 15.34,
+    "top_ten_pct": 22.21,
+    "hhi": 97.31,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 631,
+      "exited_positions": 538,
+      "increased_positions": 3,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-07",
+        "accession": "0000319933-25-000016"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0000319933-26-000014"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2056577/0002056577-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a48dcafc11f87682d504046cfeb50897d9c0b058b5dfe14f379cb2d9b256bd69",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "66bef8a32bef68460fb1b687b5ccb2553e7b9f4cdd9acd1fdc45e3d11702dbeb",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0002056577-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056577/0002056577-26-000005.txt",
+    "distinct_positions": 263,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 152074351.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 24644.0,
+        "value_usd": 8206946.0,
+        "weight_pct": 5.4
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 20527.0,
+        "value_usd": 6994371.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 13935.0,
+        "value_usd": 6938934.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 13497.0,
+        "value_usd": 6922706.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 159323.0,
+        "value_usd": 4779682.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 13156.0,
+        "value_usd": 4352401.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "808524102",
+        "security_class": "US BRD MKT ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 146792.0,
+        "value_usd": 4302484.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 5368.0,
+        "value_usd": 3623669.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 122839.0,
+        "value_usd": 3374378.0,
+        "weight_pct": 2.22
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 8446.0,
+        "value_usd": 3355681.0,
+        "weight_pct": 2.21
+      }
+    ],
+    "top_five_pct": 22.25,
+    "top_ten_pct": 34.75,
+    "hhi": 183.69,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 17,
+      "increased_positions": 19,
+      "reduced_positions": 67
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0002056577-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0002056577-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

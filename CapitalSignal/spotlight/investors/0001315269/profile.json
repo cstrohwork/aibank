@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1315269/0001315269-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4ecd024d4d1d8360bae5d82a3a1d914b53045528d4ded39ab6c085bb528e5aff",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "43a6414f1d16725d62b06deea4322daf012e2bc9caaecc0914f2f69d41b1b985",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001315269-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1315269/0001315269-26-000004.txt",
+    "distinct_positions": 92,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 476041546.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 43658.0,
+        "value_usd": 46500354.0,
+        "weight_pct": 9.77
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 172484.0,
+        "value_usd": 39391992.0,
+        "weight_pct": 8.27
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 109469.0,
+        "value_usd": 36455463.0,
+        "weight_pct": 7.66
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 69371.0,
+        "value_usd": 23637430.0,
+        "weight_pct": 4.97
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 45406.0,
+        "value_usd": 23288833.0,
+        "weight_pct": 4.89
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 65312.0,
+        "value_usd": 22936878.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 45874.0,
+        "value_usd": 15070223.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 60009.0,
+        "value_usd": 14951242.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 21703.0,
+        "value_usd": 11098706.0,
+        "weight_pct": 2.33
+      },
+      {
+        "cusip": "172967424",
+        "security_class": "COM NEW",
+        "issuer": "CITIGROUP INC",
+        "shares": 77724.0,
+        "value_usd": 10063700.0,
+        "weight_pct": 2.11
+      }
+    ],
+    "top_five_pct": 35.56,
+    "top_ten_pct": 51.13,
+    "hhi": 370.7,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 20,
+      "exited_positions": 22,
+      "increased_positions": 10,
+      "reduced_positions": 53
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001315269-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001315269-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

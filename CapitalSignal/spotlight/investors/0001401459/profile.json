@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1401459/0001172661-26-004594.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ab639bd8ad692c5435adac6cf438bcfa7155412567655cb04404ae6c1c9fd40e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "3c8462731d08aac4e539c89e9ab9f66ad9dcbeec3b75c73ddf6b1cfb51db3332",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001172661-26-004594",
+    "source": "https://www.sec.gov/Archives/edgar/data/1401459/0001172661-26-004594.txt",
+    "distinct_positions": 102,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 534432615.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921937827",
+        "security_class": "SHORT TRM BOND",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 1266915.0,
+        "value_usd": 96792330.0,
+        "weight_pct": 18.11
+      },
+      {
+        "cusip": "25434V401",
+        "security_class": "US EQUI MARK ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 763575.0,
+        "value_usd": 63399628.0,
+        "weight_pct": 11.86
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1290849.0,
+        "value_usd": 57378225.0,
+        "weight_pct": 10.74
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1243303.0,
+        "value_usd": 46760613.0,
+        "weight_pct": 8.75
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 685692.0,
+        "value_usd": 27235699.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "25434V724",
+        "security_class": "US MKTWIDE VALUE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 475361.0,
+        "value_usd": 26144861.0,
+        "weight_pct": 4.89
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 327573.0,
+        "value_usd": 21763948.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 53194.0,
+        "value_usd": 20258403.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "922908595",
+        "security_class": "MRNGSTR SM CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 55925.0,
+        "value_usd": 18893089.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "25434V658",
+        "security_class": "GLOBAL REAL EST",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 685906.0,
+        "value_usd": 18553760.0,
+        "weight_pct": 3.47
+      }
+    ],
+    "top_five_pct": 54.56,
+    "top_ten_pct": 74.32,
+    "hhi": 794.75,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 12,
+      "increased_positions": 26,
+      "reduced_positions": 23
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001172661-26-003216"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001172661-26-004594"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

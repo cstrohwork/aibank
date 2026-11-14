@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1977181/0001977181-25-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1977181/0001977181-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1977181/0001977181-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3bb69acab282d0728617db8b5cbda89ea2943e63e57576dc9ba9801dfb42b6e8",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "aab91f276f651f9ce78bf46c5709bad38cebf0cc14cc85635da5a9cab52dccbd",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001977181-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1977181/0001977181-26-000005.txt",
+    "distinct_positions": 3827,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2967846097.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V401",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL U.S. EQUITY MARKET ETF",
+        "shares": 5533635.0,
+        "value_usd": 459457700.0,
+        "weight_pct": 15.48
+      },
+      {
+        "cusip": "25434V666",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL US LARGE CAP VALUE ETF",
+        "shares": 5223140.0,
+        "value_usd": 209813522.0,
+        "weight_pct": 7.07
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL INTERNATIONAL CORE EQUITY MARKET ETF",
+        "shares": 4896405.0,
+        "value_usd": 202858077.0,
+        "weight_pct": 6.84
+      },
+      {
+        "cusip": "25239Y188",
+        "security_class": "ETF",
+        "issuer": "U.S. SMALL CAP PORTFOLIO ETF",
+        "shares": 2611240.0,
+        "value_usd": 202162232.0,
+        "weight_pct": 6.81
+      },
+      {
+        "cusip": "25434V864",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL SHORT-DURATION FIXED INCOME ETF",
+        "shares": 3742392.0,
+        "value_usd": 173916446.0,
+        "weight_pct": 5.86
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL CORE FIXED INCOME ETF",
+        "shares": 3955603.0,
+        "value_usd": 158698796.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL EMERGING CORE EQUITY MARKET ETF",
+        "shares": 3336529.0,
+        "value_usd": 131158969.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "25434V591",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL ULTRASHORT FIXED INCOME ETF",
+        "shares": 2095779.0,
+        "value_usd": 105815887.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "25239Y196",
+        "security_class": "ETF",
+        "issuer": "U.S. HIGH RELATIVE PROFITABILITY PORTFOLIO: ETF CLASS SHARES",
+        "shares": 2099256.0,
+        "value_usd": 87979837.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "ETF",
+        "issuer": "DIMENSIONAL INTERNATIONAL VALUE ETF",
+        "shares": 1295319.0,
+        "value_usd": 72356530.0,
+        "weight_pct": 2.44
+      }
+    ],
+    "top_five_pct": 42.06,
+    "top_ten_pct": 60.79,
+    "hhi": 527.61,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3434,
+      "exited_positions": 14,
+      "increased_positions": 237,
+      "reduced_positions": 141
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001977181-25-000004"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-29",
+        "accession": "0001977181-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001977181-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

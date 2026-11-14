@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1666470/0001666470-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "583f9613c06334ba93e5d597be834f2ac6db7ef0bada6172489a090a40757669",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f3ed40b463126f67e70995c43a326a3576200b91eb0f662c53999dfa7f7ecf1e",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001666470-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1666470/0001666470-26-000004.txt",
+    "distinct_positions": 52,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 611541890.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "APPLE INC",
+        "shares": 163883.0,
+        "value_usd": 54576317.0,
+        "weight_pct": 8.92
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "Common Stock",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 83168.0,
+        "value_usd": 50878856.0,
+        "weight_pct": 8.32
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Common Stock",
+        "issuer": "ALPHABET INC",
+        "shares": 109180.0,
+        "value_usd": 37566654.0,
+        "weight_pct": 6.14
+      },
+      {
+        "cusip": "032654105",
+        "security_class": "Common Stock",
+        "issuer": "ANALOG DEVICES INC",
+        "shares": 76865.0,
+        "value_usd": 30493114.0,
+        "weight_pct": 4.99
+      },
+      {
+        "cusip": "032095101",
+        "security_class": "Common Stock",
+        "issuer": "AMPHENOL CORPORATION",
+        "shares": 361421.0,
+        "value_usd": 30467790.0,
+        "weight_pct": 4.98
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "Common Stock",
+        "issuer": "MICROSOFT CORP",
+        "shares": 53625.0,
+        "value_usd": 27504263.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "18915M107",
+        "security_class": "Common Stock",
+        "issuer": "CLOUDFLARE INC",
+        "shares": 77960.0,
+        "value_usd": 27073949.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "Common Stock",
+        "issuer": "AMAZON COM INC",
+        "shares": 99518.0,
+        "value_usd": 24794910.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "Common Stock",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 44225.0,
+        "value_usd": 24388761.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "773903109",
+        "security_class": "Common Stock",
+        "issuer": "ROCKWELL AUTOMATION INC",
+        "shares": 52010.0,
+        "value_usd": 22641513.0,
+        "weight_pct": 3.7
+      }
+    ],
+    "top_five_pct": 33.36,
+    "top_ten_pct": 54.03,
+    "hhi": 394.02,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 11,
+      "exited_positions": 13,
+      "increased_positions": 11,
+      "reduced_positions": 17
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001666470-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001666470-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

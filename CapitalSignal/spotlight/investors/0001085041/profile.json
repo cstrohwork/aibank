@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1085041/0001085041-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1085041/0001085041-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1085041/0001085041-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "95a956b3b3e4367a44c44f13c6a0d89c751e2da890f429e4315dcaec3a6d4f9c",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "7936c3ab1116621faf7af385886ad8a4d20854da7f7a14e60362e2093578ed79",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001085041-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1085041/0001085041-26-000007.txt",
+    "distinct_positions": 153,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 327692499.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46654Q575",
+        "security_class": "Fixed Income ETF",
+        "issuer": "JPMorgan Mortgage-Backed Securities ETF",
+        "shares": 637283.0,
+        "value_usd": 30806261.0,
+        "weight_pct": 9.4
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard 500 Index Fund ETF",
+        "shares": 38007.0,
+        "value_usd": 26637586.0,
+        "weight_pct": 8.13
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Avantis International Equity ETF",
+        "shares": 205851.0,
+        "value_usd": 18549234.0,
+        "weight_pct": 5.66
+      },
+      {
+        "cusip": "025072349",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Avantis US Large Cap Value ETF",
+        "shares": 146789.0,
+        "value_usd": 13275597.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares Core MSCI International",
+        "shares": 145838.0,
+        "value_usd": 13049584.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "25434V880",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Dimensional World EX US Core Equity 2 ETF",
+        "shares": 307675.0,
+        "value_usd": 11390129.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard Morningstar Mid-Cap ETF",
+        "shares": 113782.0,
+        "value_usd": 8922784.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "25434V724",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Dimensional US Marketwide Value ETF",
+        "shares": 136544.0,
+        "value_usd": 7509920.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Common Stock",
+        "issuer": "Apple Inc",
+        "shares": 21764.0,
+        "value_usd": 7247847.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Avantis Intl Small Cap Value ETF",
+        "shares": 65242.0,
+        "value_usd": 7136170.0,
+        "weight_pct": 2.18
+      }
+    ],
+    "top_five_pct": 31.22,
+    "top_ten_pct": 44.1,
+    "hhi": 306.99,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 5,
+      "increased_positions": 33,
+      "reduced_positions": 62
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001085041-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001085041-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001085041-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

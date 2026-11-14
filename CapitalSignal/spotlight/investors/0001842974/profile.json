@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1842974/0001214659-26-012936.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "cf3609646b6b4cf32e743bd5ad54f0e8c69c9116bcfb2ca609acc1a18ad3c0f8",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "c5b5693830b7e043b80b0a8b884219f5541017584b94d813475cfa07b09a1157",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001214659-26-012936",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842974/0001214659-26-012936.txt",
+    "distinct_positions": 84,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 197699132.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 57070.0,
+        "value_usd": 21357796.0,
+        "weight_pct": 10.8
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 27147.0,
+        "value_usd": 19025934.0,
+        "weight_pct": 9.62
+      },
+      {
+        "cusip": "92203C303",
+        "security_class": "VANGUARD ULTRA",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 375889.0,
+        "value_usd": 18625315.0,
+        "weight_pct": 9.42
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 56578.0,
+        "value_usd": 16095914.0,
+        "weight_pct": 8.14
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MRNGSTR MID CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 140099.0,
+        "value_usd": 10986565.0,
+        "weight_pct": 5.56
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 112209.0,
+        "value_usd": 9533243.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "921910816",
+        "security_class": "MRNGSTR MEGA CAP",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 102617.0,
+        "value_usd": 9507510.0,
+        "weight_pct": 4.81
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 31195.0,
+        "value_usd": 7278159.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 20703.0,
+        "value_usd": 6894519.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "464288570",
+        "security_class": "ESG MSCI KLD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 34354.0,
+        "value_usd": 5021828.0,
+        "weight_pct": 2.54
+      }
+    ],
+    "top_five_pct": 43.55,
+    "top_ten_pct": 62.89,
+    "hhi": 510.15,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 34,
+      "exited_positions": 25,
+      "increased_positions": 32,
+      "reduced_positions": 17
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001214659-25-014963"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001214659-26-012936"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

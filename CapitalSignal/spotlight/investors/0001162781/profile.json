@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1162781/0001162781-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0aeb0fadc05918511d27866e3c50cce13185d3707714a487aba18125dc92af2d",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ea5f41c58c389a18df30749b479bd6db87400f39cf827a19ea0686da4b98c421",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001162781-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1162781/0001162781-26-000006.txt",
+    "distinct_positions": 100,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 925708.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67103H107",
+        "security_class": "COM",
+        "issuer": "OREILLY AUTOMOTIVE INCORPORATE",
+        "shares": 902563.0,
+        "value_usd": 77088.0,
+        "weight_pct": 8.33
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON COM",
+        "shares": 191934.0,
+        "value_usd": 50813.0,
+        "weight_pct": 5.49
+      },
+      {
+        "cusip": "311900104",
+        "security_class": "COM",
+        "issuer": "FASTENAL CO COM",
+        "shares": 959787.0,
+        "value_usd": 47538.0,
+        "weight_pct": 5.14
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "COM",
+        "issuer": "BERKSHIRE HATHAWAY INCORPORATE",
+        "shares": 93184.0,
+        "value_usd": 46401.0,
+        "weight_pct": 5.01
+      },
+      {
+        "cusip": "872540109",
+        "security_class": "COM",
+        "issuer": "TJX COS INC NEW COM",
+        "shares": 331569.0,
+        "value_usd": 43870.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "00846U101",
+        "security_class": "COM",
+        "issuer": "AGILENT TECHNOLOGIES INC COM",
+        "shares": 210107.0,
+        "value_usd": 36204.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "032095101",
+        "security_class": "COM",
+        "issuer": "AMPHENOL CORPORATION CLASS A",
+        "shares": 418358.0,
+        "value_usd": 35268.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "655663102",
+        "security_class": "COM",
+        "issuer": "NORDSON CORPORATION",
+        "shares": 93871.0,
+        "value_usd": 30776.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COM",
+        "issuer": "ALPHABET INCORPORATED CAP STK",
+        "shares": 88459.0,
+        "value_usd": 30142.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 30481.0,
+        "value_usd": 27748.0,
+        "weight_pct": 3.0
+      }
+    ],
+    "top_five_pct": 28.7,
+    "top_ten_pct": 46.0,
+    "hhi": 325.93,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 8,
+      "exited_positions": 9,
+      "increased_positions": 16,
+      "reduced_positions": 48
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001162781-25-000015"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001162781-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

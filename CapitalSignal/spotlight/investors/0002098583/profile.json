@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2098583/0002098583-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0990a6fe53e0c594f97bf6cfd3cb343ed7733089f5a6e7af7442000816c3a79f",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "57dfba55b5f45f270547aaffb3649ccd93689dd57e9b60d3b3853715cf483464",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0002098583-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2098583/0002098583-26-000007.txt",
+    "distinct_positions": 83,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 111748745.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 191659.0,
+        "value_usd": 9653876.0,
+        "weight_pct": 8.64
+      },
+      {
+        "cusip": "72201R833",
+        "security_class": "ENHAN SHRT MA AC",
+        "issuer": "PIMCO ETF TR",
+        "shares": 73007.0,
+        "value_usd": 7340832.0,
+        "weight_pct": 6.57
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 19019.0,
+        "value_usd": 6333710.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "46090A887",
+        "security_class": "ULTRA SHRT DUR",
+        "issuer": "INVESCO ACTIVELY MANAGED EXC",
+        "shares": 94456.0,
+        "value_usd": 4716197.0,
+        "weight_pct": 4.22
+      },
+      {
+        "cusip": "45782C888",
+        "security_class": "US EQT BUFR APR",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 72658.0,
+        "value_usd": 3969470.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "45782C383",
+        "security_class": "US EQTY PWR BUF",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 80158.0,
+        "value_usd": 3924432.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "45782C508",
+        "security_class": "US EQTY PWR BUF",
+        "issuer": "INNOVATOR ETFS TRUST",
+        "shares": 77004.0,
+        "value_usd": 3905659.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 15137.0,
+        "value_usd": 3457054.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 13390.0,
+        "value_usd": 3336119.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 9394.0,
+        "value_usd": 3232439.0,
+        "weight_pct": 2.89
+      }
+    ],
+    "top_five_pct": 28.65,
+    "top_ten_pct": 44.63,
+    "hhi": 299.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 25,
+      "exited_positions": 26,
+      "increased_positions": 20,
+      "reduced_positions": 36
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0002098583-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0002098583-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1999928/0001951757-26-001662.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "bccdbb1f65807b445567d598639bba8b73877762eddfbce8c697b514728087e2",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "407fe1e9a50d407e76d84c03ff92c60891684e4819e539e1e338376e00d788e2",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001951757-26-001662",
+    "source": "https://www.sec.gov/Archives/edgar/data/1999928/0001951757-26-001662.txt",
+    "distinct_positions": 152,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 970113998.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 173691.0,
+        "value_usd": 59852022.0,
+        "weight_pct": 6.17
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 102901.0,
+        "value_usd": 54465293.0,
+        "weight_pct": 5.61
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 227473.0,
+        "value_usd": 54420733.0,
+        "weight_pct": 5.61
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 110867.0,
+        "value_usd": 41091869.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 119530.0,
+        "value_usd": 39878801.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 36354.0,
+        "value_usd": 34016015.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "58155Q103",
+        "security_class": "COM",
+        "issuer": "MCKESSON CORP",
+        "shares": 34154.0,
+        "value_usd": 31478465.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 16732.0,
+        "value_usd": 30687303.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "624756102",
+        "security_class": "COM",
+        "issuer": "MUELLER INDS INC",
+        "shares": 468654.0,
+        "value_usd": 29586113.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "872540109",
+        "security_class": "COM",
+        "issuer": "TJX COS INC NEW",
+        "shares": 213533.0,
+        "value_usd": 29260435.0,
+        "weight_pct": 3.02
+      }
+    ],
+    "top_five_pct": 25.74,
+    "top_ten_pct": 41.72,
+    "hhi": 307.14,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 39,
+      "exited_positions": 18,
+      "increased_positions": 43,
+      "reduced_positions": 44
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001951757-25-001236"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001951757-26-001662"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1427008/0001172661-26-004558.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a2be3afdc68585ae30b9d49ccd55745fd69c85b5e1ac20b898ba2c270c857510",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "8f2bce880989ad0b42383d74ca3104a0b01b3f5a80c017935e37a8db1e5c6bdb",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001172661-26-004558",
+    "source": "https://www.sec.gov/Archives/edgar/data/1427008/0001172661-26-004558.txt",
+    "distinct_positions": 31,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4705402906.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "15135U109",
+        "security_class": "COM",
+        "issuer": "CENOVUS ENERGY INC",
+        "shares": 13568058.0,
+        "value_usd": 421759560.0,
+        "weight_pct": 8.96
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 2305916.0,
+        "value_usd": 335072670.0,
+        "weight_pct": 7.12
+      },
+      {
+        "cusip": "03743Q108",
+        "security_class": "COM",
+        "issuer": "APA CORPORATION",
+        "shares": 7714207.0,
+        "value_usd": 320448151.0,
+        "weight_pct": 6.81
+      },
+      {
+        "cusip": "554382101",
+        "security_class": "COM",
+        "issuer": "MACERICH CO",
+        "shares": 11298361.0,
+        "value_usd": 252631357.0,
+        "weight_pct": 5.37
+      },
+      {
+        "cusip": "828806109",
+        "security_class": "COM",
+        "issuer": "SIMON PPTY GROUP INC NEW",
+        "shares": 1255022.0,
+        "value_usd": 251958294.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "COM",
+        "issuer": "AMGEN INC",
+        "shares": 586504.0,
+        "value_usd": 247217281.0,
+        "weight_pct": 5.25
+      },
+      {
+        "cusip": "20825C104",
+        "security_class": "COM",
+        "issuer": "CONOCOPHILLIPS",
+        "shares": 1558825.0,
+        "value_usd": 195086899.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "87612E106",
+        "security_class": "COM",
+        "issuer": "TARGET CORP",
+        "shares": 1233410.0,
+        "value_usd": 193262945.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "23331A109",
+        "security_class": "COM",
+        "issuer": "D R HORTON INC",
+        "shares": 1396714.0,
+        "value_usd": 190860960.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "526057104",
+        "security_class": "CL A",
+        "issuer": "LENNAR CORP",
+        "shares": 2284725.0,
+        "value_usd": 186410693.0,
+        "weight_pct": 3.96
+      }
+    ],
+    "top_five_pct": 33.62,
+    "top_ten_pct": 55.14,
+    "hhi": 451.89,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 9,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001172661-25-004652"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001172661-26-003262"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001172661-26-004558"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

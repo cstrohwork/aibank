@@ -13,8 +13,92 @@
     "https://www.sec.gov/Archives/edgar/data/2000043/0002000043-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "543b404d222a63c43a89d2ad8f972b003a66e3f343a21e485caa160efff63759",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "e27cb7d346b6f2e134b1ef51ec4a36794475998d6b066e5e98ee7c005cafab65",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0002000043-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2000043/0002000043-26-000006.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 82265413.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "227046109",
+        "security_class": "COM",
+        "issuer": "CROCS INC",
+        "shares": 632812.0,
+        "value_usd": 74235176.0,
+        "weight_pct": 90.24
+      },
+      {
+        "cusip": "85207K107",
+        "security_class": "PHYSICAL SILVER",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 120045.0,
+        "value_usd": 2325272.0,
+        "weight_pct": 2.83
+      },
+      {
+        "cusip": "85208P303",
+        "security_class": "URANIUM MINERS E",
+        "issuer": "SPROTT FDS TR",
+        "shares": 182548.0,
+        "value_usd": 2212299.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 55887.0,
+        "value_usd": 1747586.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "46138E800",
+        "security_class": "CHINA TECHNLGY",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 27110.0,
+        "value_usd": 1217239.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 11150.0,
+        "value_usd": 527841.0,
+        "weight_pct": 0.64
+      }
+    ],
+    "top_five_pct": 99.36,
+    "top_ten_pct": 100.0,
+    "hhi": 8165.34,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 10,
+      "increased_positions": 1,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0002000043-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0002000043-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

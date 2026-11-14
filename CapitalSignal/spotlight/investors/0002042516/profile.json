@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2042516/0002042516-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "420abb19b163b5b92ad0d4a62471275d4c0ca160ed40e3588c3a42e386ab8032",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "7479944fad3f2c0c92cb6e77ab6a7555001533e8454913d60c5ad636428e72e6",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0002042516-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2042516/0002042516-26-000005.txt",
+    "distinct_positions": 30,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 123665494.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "746729300",
+        "security_class": "FOCUSED LAR CAP",
+        "issuer": "PUTNAM ETF TRUST",
+        "shares": 950048.0,
+        "value_usd": 49991526.0,
+        "weight_pct": 40.42
+      },
+      {
+        "cusip": "41151J406",
+        "security_class": "LONG TERM GROWER",
+        "issuer": "HARBOR ETF TRUST",
+        "shares": 1454986.0,
+        "value_usd": 49920561.0,
+        "weight_pct": 40.37
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 30744.0,
+        "value_usd": 10238225.0,
+        "weight_pct": 8.28
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 30755.0,
+        "value_usd": 1549123.0,
+        "weight_pct": 1.25
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 1978.0,
+        "value_usd": 1014369.0,
+        "weight_pct": 0.82
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 2632.0,
+        "value_usd": 896828.0,
+        "weight_pct": 0.73
+      },
+      {
+        "cusip": "194162103",
+        "security_class": "COM",
+        "issuer": "COLGATE PALMOLIVE CO",
+        "shares": 10010.0,
+        "value_usd": 854053.0,
+        "weight_pct": 0.69
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 3645.0,
+        "value_usd": 832445.0,
+        "weight_pct": 0.67
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 8593.0,
+        "value_usd": 687866.0,
+        "weight_pct": 0.56
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "US LCAP GR ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 17467.0,
+        "value_usd": 627589.0,
+        "weight_pct": 0.51
+      }
+    ],
+    "top_five_pct": 91.14,
+    "top_ten_pct": 94.3,
+    "hhi": 3338.31,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 6,
+      "increased_positions": 13,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0002042516-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0002042516-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

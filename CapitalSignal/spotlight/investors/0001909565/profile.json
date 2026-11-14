@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1909565/0001909565-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "bdc5339d717affead01dfad00902889b8994aa5b8b771a254203df4ceeecc6cb",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "9a8d91aa5df9bfb458a23ddedd320665a97d6864aa82b05d5c382c4c85c26ad2",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001909565-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1909565/0001909565-26-000006.txt",
+    "distinct_positions": 48,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 329040577.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "664925880",
+        "security_class": "WEITZ CORE PLUS",
+        "issuer": "NORTHERN LTS FD TR II",
+        "shares": 3209993.0,
+        "value_usd": 77729980.0,
+        "weight_pct": 23.62
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 746537.0,
+        "value_usd": 67009138.0,
+        "weight_pct": 20.37
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 351148.0,
+        "value_usd": 34019218.0,
+        "weight_pct": 10.34
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 42997.0,
+        "value_usd": 31808043.0,
+        "weight_pct": 9.67
+      },
+      {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 447656.0,
+        "value_usd": 22557372.0,
+        "weight_pct": 6.86
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ST STR P400MID",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 318874.0,
+        "value_usd": 20101823.0,
+        "weight_pct": 6.11
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 66618.0,
+        "value_usd": 18512496.0,
+        "weight_pct": 5.63
+      },
+      {
+        "cusip": "98149E303",
+        "security_class": "SPDR GLD MINIS",
+        "issuer": "WORLD GOLD TR",
+        "shares": 143234.0,
+        "value_usd": 11770966.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 36746.0,
+        "value_usd": 11194301.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 38336.0,
+        "value_usd": 8944169.0,
+        "weight_pct": 2.72
+      }
+    ],
+    "top_five_pct": 70.85,
+    "top_ten_pct": 92.28,
+    "hhi": 1324.03,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 17,
+      "exited_positions": 9,
+      "increased_positions": 12,
+      "reduced_positions": 11
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001909565-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001909565-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

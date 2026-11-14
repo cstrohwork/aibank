@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1631052/0001172661-26-004481.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "51e74663d169653be9083105926146d56133a910443613ff01c6850d9da2f2bb",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "da5af5d0cee10c566493e84f5b8aab6c8bf2c0b56ec81764525ee3930f392afe",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001172661-26-004481",
+    "source": "https://www.sec.gov/Archives/edgar/data/1631052/0001172661-26-004481.txt",
+    "distinct_positions": 182,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1253795699.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287168",
+        "security_class": "SELECT DIVID ETF",
+        "issuer": "ISHARES TR",
+        "shares": 651393.0,
+        "value_usd": 99057475.0,
+        "weight_pct": 7.9
+      },
+      {
+        "cusip": "882508104",
+        "security_class": "COM",
+        "issuer": "TEXAS INSTRS INC",
+        "shares": 230700.0,
+        "value_usd": 64616908.0,
+        "weight_pct": 5.15
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 144828.0,
+        "value_usd": 55156296.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 139721.0,
+        "value_usd": 48075494.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 92758.0,
+        "value_usd": 47575871.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "464288588",
+        "security_class": "MBS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 487886.0,
+        "value_usd": 43724388.0,
+        "weight_pct": 3.49
+      },
+      {
+        "cusip": "293792107",
+        "security_class": "COM",
+        "issuer": "ENTERPRISE PRODS PARTNERS L",
+        "shares": 1125756.0,
+        "value_usd": 40088190.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "29273V100",
+        "security_class": "COM UT LTD PTN",
+        "issuer": "ENERGY TRANSFER L P",
+        "shares": 1993622.0,
+        "value_usd": 39413920.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 129719.0,
+        "value_usd": 32319490.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 92587.0,
+        "value_usd": 30833424.0,
+        "weight_pct": 2.46
+      }
+    ],
+    "top_five_pct": 25.08,
+    "top_ten_pct": 39.95,
+    "hhi": 241.69,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 21,
+      "exited_positions": 39,
+      "increased_positions": 61,
+      "reduced_positions": 72
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-07",
+        "accession": "0001172661-25-004181"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001172661-26-004481"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

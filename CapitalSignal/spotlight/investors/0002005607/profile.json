@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2005607/0002005607-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "dea1d04f24fdc995e9876847b5bbd149fa7bd38af4c095113d7bedc8b82bcfc8",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "33aad879d9968e0864277ff5c78a7f405e4eb039f0656450d2dfa297486cf6a0",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0002005607-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2005607/0002005607-26-000005.txt",
+    "distinct_positions": 19,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 206755539.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92206C730",
+        "security_class": "VNG RUS1000IDX",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 152949.0,
+        "value_usd": 52614411.0,
+        "weight_pct": 25.45
+      },
+      {
+        "cusip": "316188309",
+        "security_class": "TOTAL BD ETF",
+        "issuer": "FIDELITY MERRIMACK STR TR",
+        "shares": 969603.0,
+        "value_usd": 41989013.0,
+        "weight_pct": 20.31
+      },
+      {
+        "cusip": "025072307",
+        "security_class": "US QUALITY GROW",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 312589.0,
+        "value_usd": 36644780.0,
+        "weight_pct": 17.72
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 282028.0,
+        "value_usd": 33214382.0,
+        "weight_pct": 16.06
+      },
+      {
+        "cusip": "25434V773",
+        "security_class": "INTL SMALL CAP E",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 582466.0,
+        "value_usd": 21102740.0,
+        "weight_pct": 10.21
+      },
+      {
+        "cusip": "35473P884",
+        "security_class": "US MID CP MLTFCT",
+        "issuer": "FRANKLIN TEMPLETON ETF TR",
+        "shares": 247178.0,
+        "value_usd": 14197885.0,
+        "weight_pct": 6.87
+      },
+      {
+        "cusip": "808524722",
+        "security_class": "1000 INDEX ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 46063.0,
+        "value_usd": 1688683.0,
+        "weight_pct": 0.82
+      },
+      {
+        "cusip": "437076102",
+        "security_class": "COM",
+        "issuer": "HOME DEPOT INC",
+        "shares": 3277.0,
+        "value_usd": 932362.0,
+        "weight_pct": 0.45
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 1032.0,
+        "value_usd": 723162.0,
+        "weight_pct": 0.35
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 3158.0,
+        "value_usd": 656928.0,
+        "weight_pct": 0.32
+      }
+    ],
+    "top_five_pct": 89.75,
+    "top_ten_pct": 98.55,
+    "hhi": 1784.91,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 9,
+      "exited_positions": 2,
+      "increased_positions": 5,
+      "reduced_positions": 5
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-08",
+        "accession": "0001085146-25-005832"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0002005607-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

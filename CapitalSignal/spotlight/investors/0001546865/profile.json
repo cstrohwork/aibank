@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1546865/0001546865-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "41862a910ae7d18f216a26a12ca568076504452608ccd6382c4a370e17a9522b",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "996de3f9462d746c644b36f75fa4f2b0b5971689d0e860801cfddefe89797691",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001546865-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1546865/0001546865-26-000007.txt",
+    "distinct_positions": 214,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1012850101.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 99227.0,
+        "value_usd": 73405502.0,
+        "weight_pct": 7.25
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 469019.0,
+        "value_usd": 58749320.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 167966.0,
+        "value_usd": 55936047.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 60672.0,
+        "value_usd": 31118852.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "78467Y107",
+        "security_class": "UTSER1 S&PDCRP",
+        "issuer": "SPDR S&P MIDCAP 400 ETF TR",
+        "shares": 43795.0,
+        "value_usd": 28760614.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 127170.0,
+        "value_usd": 26453903.0,
+        "weight_pct": 2.61
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 75625.0,
+        "value_usd": 26021050.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "46434V456",
+        "security_class": "MSCI INTL QUALTY",
+        "issuer": "ISHARES TR",
+        "shares": 495036.0,
+        "value_usd": 24489407.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 235805.0,
+        "value_usd": 19137934.0,
+        "weight_pct": 1.89
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 47763.0,
+        "value_usd": 18190061.0,
+        "weight_pct": 1.8
+      }
+    ],
+    "top_five_pct": 24.48,
+    "top_ten_pct": 35.77,
+    "hhi": 212.6,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 6,
+      "increased_positions": 101,
+      "reduced_positions": 59
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001546865-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001546865-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001546865-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

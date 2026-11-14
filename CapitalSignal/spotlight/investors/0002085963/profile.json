@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2085963/0001754960-26-000650.txt",
     "https://www.sec.gov/Archives/edgar/data/2085963/0001754960-26-000862.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d6c96ffbddfc90a4ce3c5b13c849ab42d1340cb7a07180b31a0ce94e91f776bf",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "36bb655df68bd3c80503e0782c333b0b656e8ea1c1ea2ea976c97489e11bf142",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001754960-26-000862",
+    "source": "https://www.sec.gov/Archives/edgar/data/2085963/0001754960-26-000862.txt",
+    "distinct_positions": 91,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 82150755.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "759509102",
+        "security_class": "COM",
+        "issuer": "RELIANCE INC",
+        "shares": 65770.0,
+        "value_usd": 25304876.0,
+        "weight_pct": 30.8
+      },
+      {
+        "cusip": "29287L700",
+        "security_class": "FLEXIBLE INCOME",
+        "issuer": "TCW ETF TRUST",
+        "shares": 104734.0,
+        "value_usd": 3972555.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "25434V864",
+        "security_class": "SHOR DUR FIX ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 60989.0,
+        "value_usd": 2834307.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 9997.0,
+        "value_usd": 2283008.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "14020Y300",
+        "security_class": "US MULTI-SECTOR",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 71538.0,
+        "value_usd": 1876442.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "33739Q200",
+        "security_class": "FST LOW OPPT EFT",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 38333.0,
+        "value_usd": 1857627.0,
+        "weight_pct": 2.26
+      },
+      {
+        "cusip": "69374H428",
+        "security_class": "ARIST HIGH ETF",
+        "issuer": "PACER FDS TR",
+        "shares": 36813.0,
+        "value_usd": 1709632.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 29301.0,
+        "value_usd": 1636733.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 32894.0,
+        "value_usd": 1606883.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 5661.0,
+        "value_usd": 1410350.0,
+        "weight_pct": 1.72
+      }
+    ],
+    "top_five_pct": 44.15,
+    "top_ten_pct": 54.16,
+    "hhi": 1053.23,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 8,
+      "increased_positions": 28,
+      "reduced_positions": 38
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001754960-26-000650"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001754960-26-000862"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

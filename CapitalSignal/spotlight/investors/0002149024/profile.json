@@ -15,8 +15,134 @@
     "https://www.sec.gov/Archives/edgar/data/2149024/0001951757-26-001686.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a01a5d3e1b146fa74dc996eddb39cbc015328041a4ce0424769590e4ee19dded",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f45b64c95084b98fc3a355183470df45dd2946411c8ad57a04f04816202c4924",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001951757-26-001686",
+    "source": "https://www.sec.gov/Archives/edgar/data/2149024/0001951757-26-001686.txt",
+    "distinct_positions": 104,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 258865163.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 246852.0,
+        "value_usd": 56375949.0,
+        "weight_pct": 21.78
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 77425.0,
+        "value_usd": 25784118.0,
+        "weight_pct": 9.96
+      },
+      {
+        "cusip": "87283Q701",
+        "security_class": "ULTRA SHRT TRM",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 344091.0,
+        "value_usd": 17056608.0,
+        "weight_pct": 6.59
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 205350.0,
+        "value_usd": 10031348.0,
+        "weight_pct": 3.88
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 95072.0,
+        "value_usd": 9571849.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 22023.0,
+        "value_usd": 7577674.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 25924.0,
+        "value_usd": 6458965.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 12106.0,
+        "value_usd": 6209275.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 24541.0,
+        "value_usd": 5453992.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "92189F643",
+        "security_class": "MRNGSTR WDE MOAT",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 41199.0,
+        "value_usd": 4355146.0,
+        "weight_pct": 1.68
+      }
+    ],
+    "top_five_pct": 45.9,
+    "top_ten_pct": 57.51,
+    "hhi": 709.34,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 10,
+      "increased_positions": 36,
+      "reduced_positions": 40
+    },
+    "timeline": [
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-08-26",
+        "accession": "0001951757-26-001606"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-08-26",
+        "accession": "0001951757-26-001607"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001951757-26-001260"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001951757-26-001686"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

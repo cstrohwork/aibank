@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2030974/0002030974-26-000010.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2f756c72f73e31af2f712df8856b7cd620429e1aca8513dfa7d33d1106a63cf1",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "e5f2586899471d40b8fae2cb63a559740c340f37974880b02a531f5507f43601",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0002030974-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/2030974/0002030974-26-000010.txt",
+    "distinct_positions": 376,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 380155549.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "TOTAL STK MKT",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 112098.0,
+        "value_usd": 41951396.0,
+        "weight_pct": 11.04
+      },
+      {
+        "cusip": "381430503",
+        "security_class": "ACTIVEBETA US LG",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 188881.0,
+        "value_usd": 27395356.0,
+        "weight_pct": 7.21
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 860402.0,
+        "value_usd": 23635253.0,
+        "weight_pct": 6.22
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 278931.0,
+        "value_usd": 19695305.0,
+        "weight_pct": 5.18
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 308998.0,
+        "value_usd": 17785899.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "INTER TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 310160.0,
+        "value_usd": 17573690.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "CORE FIXE IN ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 394679.0,
+        "value_usd": 15834505.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 258750.0,
+        "value_usd": 15346458.0,
+        "weight_pct": 4.04
+      },
+      {
+        "cusip": "025072349",
+        "security_class": "US LARGE CAP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 154050.0,
+        "value_usd": 13932262.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "25434V609",
+        "security_class": "US TARGETED VLU",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 197408.0,
+        "value_usd": 13115820.0,
+        "weight_pct": 3.45
+      }
+    ],
+    "top_five_pct": 34.32,
+    "top_ten_pct": 54.26,
+    "hhi": 403.64,
+    "changes": {
+      "previous_period": "2026-03-31",
+      "new_positions": 126,
+      "exited_positions": 42,
+      "increased_positions": 89,
+      "reduced_positions": 45
+    },
+    "timeline": [
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-08-21",
+        "accession": "0002030974-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0002030974-26-000010"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

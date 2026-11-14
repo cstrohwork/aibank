@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1905867/0001951757-26-001778.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "73bc7fd95d06e6d33589d6007c1493eaabd2c018f1c58a76a92c4e47d274643d",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "3786aeec29c92da59bcf04bb31a61bd8f1890e2017dcc78e72f4610887fd9259",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001951757-26-001778",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905867/0001951757-26-001778.txt",
+    "distinct_positions": 196,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 288369183.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46137V613",
+        "security_class": "RAFI US 1000 ETF",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 516197.0,
+        "value_usd": 28096628.0,
+        "weight_pct": 9.74
+      },
+      {
+        "cusip": "46436E403",
+        "security_class": "MSCI US GARP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 195180.0,
+        "value_usd": 16641079.0,
+        "weight_pct": 5.77
+      },
+      {
+        "cusip": "025072604",
+        "security_class": "AVANTIS EMGMKT",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 131320.0,
+        "value_usd": 12346690.0,
+        "weight_pct": 4.28
+      },
+      {
+        "cusip": "46137V449",
+        "security_class": "S&P 100 EQL WIGH",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 80324.0,
+        "value_usd": 10365843.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 80884.0,
+        "value_usd": 9525722.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "464288414",
+        "security_class": "NATIONAL MUN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 92563.0,
+        "value_usd": 9358119.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 60930.0,
+        "value_usd": 7632112.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 18016.0,
+        "value_usd": 6742320.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "464288307",
+        "security_class": "MRGSTR MD CP GRW",
+        "issuer": "ISHARES TR",
+        "shares": 64415.0,
+        "value_usd": 6047960.0,
+        "weight_pct": 2.1
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 16461.0,
+        "value_usd": 5481996.0,
+        "weight_pct": 1.9
+      }
+    ],
+    "top_five_pct": 26.69,
+    "top_ten_pct": 38.92,
+    "hhi": 239.77,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 22,
+      "exited_positions": 64,
+      "increased_positions": 53,
+      "reduced_positions": 109
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001951757-25-001229"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001951757-26-001233"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001951757-26-001778"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

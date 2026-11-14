@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2053757/0002053757-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5bf5690b69e6d9f8302f1021f2eeedbe42f66ed32ef4cf1fa30a772dbb7d19c9",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "a2d08e2ed58b616930f05b79fe028dfc98fddf21d4681c72daf3a9ab868b2f99",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0002053757-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2053757/0002053757-26-000011.txt",
+    "distinct_positions": 106,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 84068581.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 48871.0,
+        "value_usd": 4920332.0,
+        "weight_pct": 5.85
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 44987.0,
+        "value_usd": 4038046.0,
+        "weight_pct": 4.8
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 103880.0,
+        "value_usd": 3379215.0,
+        "weight_pct": 4.02
+      },
+      {
+        "cusip": "92647N535",
+        "security_class": "SHORT TRM BD ETF",
+        "issuer": "VICTORY PORTFOLIOS II",
+        "shares": 66532.0,
+        "value_usd": 3318616.0,
+        "weight_pct": 3.95
+      },
+      {
+        "cusip": "46434V613",
+        "security_class": "CORE UNIVRSL USD",
+        "issuer": "ISHARES TR",
+        "shares": 67016.0,
+        "value_usd": 2954719.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 59926.0,
+        "value_usd": 2927403.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 3522.0,
+        "value_usd": 2697656.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 7785.0,
+        "value_usd": 2592591.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "46655E100",
+        "security_class": "COM",
+        "issuer": "DAKOTA GOLD CORP",
+        "shares": 425572.0,
+        "value_usd": 2591730.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 7093.0,
+        "value_usd": 2160834.0,
+        "weight_pct": 2.57
+      }
+    ],
+    "top_five_pct": 22.14,
+    "top_ten_pct": 37.57,
+    "hhi": 215.36,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 46,
+      "exited_positions": 22,
+      "increased_positions": 42,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0002053757-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0002053757-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

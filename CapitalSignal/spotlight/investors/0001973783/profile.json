@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1973783/0001973783-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "bd9505b765dd6ab43d2844238849fb96fe529c18e5e5121cfa3dffed3af4d67a",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f3b72a37e0a14bd5e9e80a54a3f67b0c59bbe9472ca290a1a9815c2666875c44",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001973783-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1973783/0001973783-26-000009.txt",
+    "distinct_positions": 68,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 281977530.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 45325.0,
+        "value_usd": 31767085.0,
+        "weight_pct": 11.27
+      },
+      {
+        "cusip": "72201R775",
+        "security_class": "ETF",
+        "issuer": "PIMCO ACTIVE BOND EXCHANGE-TRADED FUND",
+        "shares": 343751.0,
+        "value_usd": 29902899.0,
+        "weight_pct": 10.6
+      },
+      {
+        "cusip": "72201R718",
+        "security_class": "ETF",
+        "issuer": "PIMCO ENHANCED LOW DURATION ACTIVE ETF",
+        "shares": 208480.0,
+        "value_usd": 19621120.0,
+        "weight_pct": 6.96
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "ETF",
+        "issuer": "PIMCO MULTISECTOR BOND ACTIVE EXCHANGE-TRADED FUND",
+        "shares": 737269.0,
+        "value_usd": 18719260.0,
+        "weight_pct": 6.64
+      },
+      {
+        "cusip": "86280R787",
+        "security_class": "ETF",
+        "issuer": "EVENTIDE US MARKET ETF",
+        "shares": 500514.0,
+        "value_usd": 15140548.0,
+        "weight_pct": 5.37
+      },
+      {
+        "cusip": "78463X889",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO DEVELOPED WORLD EX-US ETF",
+        "shares": 287500.0,
+        "value_usd": 14435409.0,
+        "weight_pct": 5.12
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "ETF",
+        "issuer": "AVANTIS U.S. SMALL CAP VALUE ETF",
+        "shares": 122141.0,
+        "value_usd": 14384546.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "INVESCO QQQ TRUST SERIES I",
+        "shares": 17602.0,
+        "value_usd": 13022122.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "33738R506",
+        "security_class": "ETF",
+        "issuer": "FIRST TRUST RISING DIVIDEND ACHIEVERS ETF",
+        "shares": 157199.0,
+        "value_usd": 12307110.0,
+        "weight_pct": 4.36
+      },
+      {
+        "cusip": "887432334",
+        "security_class": "ETF",
+        "issuer": "TIMOTHY PLAN INTERNATIONAL ETF",
+        "shares": 329872.0,
+        "value_usd": 12243205.0,
+        "weight_pct": 4.34
+      }
+    ],
+    "top_five_pct": 40.84,
+    "top_ten_pct": 64.38,
+    "hhi": 539.89,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 18,
+      "exited_positions": 9,
+      "increased_positions": 24,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0001973783-25-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001973783-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

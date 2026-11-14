@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1994461/0002063364-25-000260.txt",
+    "https://www.sec.gov/Archives/edgar/data/1994461/0002063364-26-000228.txt",
     "https://www.sec.gov/Archives/edgar/data/1994461/0002063364-26-000337.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ce5854648435f53cd3e1c20d0178f17f6aa67fdcb27add51f651d6ef68940643",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "246eeac0ba13331b215c063601ded016bb9ea265888edf0cbb07f7968a8c6927",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0002063364-26-000337",
+    "source": "https://www.sec.gov/Archives/edgar/data/1994461/0002063364-26-000337.txt",
+    "distinct_positions": 86,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 353231423.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 159866.0,
+        "value_usd": 59828065.0,
+        "weight_pct": 16.94
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 534829.0,
+        "value_usd": 37764310.0,
+        "weight_pct": 10.69
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 505289.0,
+        "value_usd": 21873950.0,
+        "weight_pct": 6.19
+      },
+      {
+        "cusip": "25434V575",
+        "security_class": "INTL COR FIX ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 392612.0,
+        "value_usd": 20077606.0,
+        "weight_pct": 5.68
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 253271.0,
+        "value_usd": 19833642.0,
+        "weight_pct": 5.61
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 482351.0,
+        "value_usd": 19158996.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "25434V666",
+        "security_class": "US LARG VALU ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 401637.0,
+        "value_usd": 16133767.0,
+        "weight_pct": 4.57
+      },
+      {
+        "cusip": "78464A672",
+        "security_class": "ST INTER ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 500143.0,
+        "value_usd": 13643913.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "025072356",
+        "security_class": "REAL ESTATE ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 223843.0,
+        "value_usd": 9927452.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "46429B747",
+        "security_class": "0-5 YR TIPS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 85743.0,
+        "value_usd": 8548602.0,
+        "weight_pct": 2.42
+      }
+    ],
+    "top_five_pct": 45.12,
+    "top_ten_pct": 64.2,
+    "hhi": 622.16,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 14,
+      "increased_positions": 50,
+      "reduced_positions": 27
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-24",
+        "accession": "0002063364-25-000260"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-29",
+        "accession": "0002063364-26-000228"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0002063364-26-000337"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

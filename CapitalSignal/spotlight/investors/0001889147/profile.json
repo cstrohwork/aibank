@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1889147/0001889147-25-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1889147/0001889147-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1889147/0001889147-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9f6bd1bdb8b7f3ba086135dbd695ccf25f565c04c3685b72b340363115e15baf",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "7816a63b9f93ba5d1a0656bb3b63ce004d2c05b1955228c4d9b90b94b2c44fd1",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001889147-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1889147/0001889147-26-000007.txt",
+    "distinct_positions": 183,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 659852261.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 258299.0,
+        "value_usd": 50561953.0,
+        "weight_pct": 7.66
+      },
+      {
+        "cusip": "N97284108",
+        "security_class": "SHS CLASS A",
+        "issuer": "NEBIUS GROUP N.V.",
+        "shares": 198481.0,
+        "value_usd": 46817655.0,
+        "weight_pct": 7.1
+      },
+      {
+        "cusip": "46654Q716",
+        "security_class": "ACTIVE BOND ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 670529.0,
+        "value_usd": 34277441.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "CORE BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 458437.0,
+        "value_usd": 33750114.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 943302.0,
+        "value_usd": 28299065.0,
+        "weight_pct": 4.29
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 321953.0,
+        "value_usd": 25212173.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "78468R408",
+        "security_class": "ST TERM HIGH ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 974585.0,
+        "value_usd": 23633681.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "808524508",
+        "security_class": "US MID-CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 690252.0,
+        "value_usd": 23482365.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 811230.0,
+        "value_usd": 22284489.0,
+        "weight_pct": 3.38
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 227561.0,
+        "value_usd": 17579088.0,
+        "weight_pct": 2.66
+      }
+    ],
+    "top_five_pct": 29.36,
+    "top_ten_pct": 46.36,
+    "hhi": 287.5,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 21,
+      "exited_positions": 18,
+      "increased_positions": 56,
+      "reduced_positions": 77
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001889147-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001889147-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001889147-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

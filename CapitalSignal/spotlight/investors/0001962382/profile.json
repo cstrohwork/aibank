@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1962382/0002085853-26-001218.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1fe4098e9ee4a0b6e594d0acea9fe44001104e9d9b0a49dbd9d176ab37a79e25",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2ebc4fe40cbf66781edeb5d8312e167609ab329060b8c3cca45c3d500aed7913",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0002085853-26-001218",
+    "source": "https://www.sec.gov/Archives/edgar/data/1962382/0002085853-26-001218.txt",
+    "distinct_positions": 30,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 222722711.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 45662.0,
+        "value_usd": 23420011.0,
+        "weight_pct": 10.52
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 61317.0,
+        "value_usd": 21097798.0,
+        "weight_pct": 9.47
+      },
+      {
+        "cusip": "23331A109",
+        "security_class": "COM",
+        "issuer": "D R HORTON INC",
+        "shares": 128776.0,
+        "value_usd": 17597229.0,
+        "weight_pct": 7.9
+      },
+      {
+        "cusip": "G29183103",
+        "security_class": "SHS",
+        "issuer": "EATON CORP PLC",
+        "shares": 35940.0,
+        "value_usd": 15443939.0,
+        "weight_pct": 6.93
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 134017.0,
+        "value_usd": 14424258.0,
+        "weight_pct": 6.48
+      },
+      {
+        "cusip": "231021106",
+        "security_class": "COM",
+        "issuer": "CUMMINS INC",
+        "shares": 27266.0,
+        "value_usd": 14084979.0,
+        "weight_pct": 6.32
+      },
+      {
+        "cusip": "701094104",
+        "security_class": "COM",
+        "issuer": "PARKER-HANNIFIN CORP",
+        "shares": 11080.0,
+        "value_usd": 10585838.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "337738108",
+        "security_class": "COM",
+        "issuer": "FISERV INC",
+        "shares": 224929.0,
+        "value_usd": 10162293.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "46982L108",
+        "security_class": "COM",
+        "issuer": "JACOBS SOLUTIONS INC",
+        "shares": 74943.0,
+        "value_usd": 10137579.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "254687106",
+        "security_class": "COM",
+        "issuer": "DISNEY WALT CO",
+        "shares": 66865.0,
+        "value_usd": 7014139.0,
+        "weight_pct": 3.15
+      }
+    ],
+    "top_five_pct": 41.3,
+    "top_ten_pct": 64.64,
+    "hhi": 549.14,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 7,
+      "exited_positions": 2,
+      "increased_positions": 2,
+      "reduced_positions": 21
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0002085853-25-000054"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0002085853-26-001218"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

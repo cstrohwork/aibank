@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1731795/0001731795-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1731795/0001731795-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/1731795/0001731795-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5fd4d086ab93ebd4ee8bf6f0bb101e51e944e404ce29987d45644dd605a1079d",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "12dc6a2a0e8458d4e334636666a5550c74c0121ed84b85b137573ea0a0124651",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001731795-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731795/0001731795-26-000005.txt",
+    "distinct_positions": 78,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 350175018.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921943858",
+        "security_class": "ETF",
+        "issuer": "VANGUARD FTSE DEVELOPED MARKETS ETF",
+        "shares": 734774.0,
+        "value_usd": 51882368.0,
+        "weight_pct": 14.82
+      },
+      {
+        "cusip": "464288125",
+        "security_class": "ETF",
+        "issuer": "ISHARES 1-3 YEAR INTERNATIONAL TREASURY BOND ETF",
+        "shares": 399260.0,
+        "value_usd": 29570234.0,
+        "weight_pct": 8.44
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P SMALL CAP ETF",
+        "shares": 227883.0,
+        "value_usd": 27445216.0,
+        "weight_pct": 7.84
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 EQUAL WEIGHT ETF",
+        "shares": 128469.0,
+        "value_usd": 26724121.0,
+        "weight_pct": 7.63
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR VALUE ETF",
+        "shares": 97353.0,
+        "value_usd": 21036106.0,
+        "weight_pct": 6.01
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "ETF",
+        "issuer": "PACER US CASH COWS 100 ETF",
+        "shares": 310402.0,
+        "value_usd": 20722438.0,
+        "weight_pct": 5.92
+      },
+      {
+        "cusip": "46434V456",
+        "security_class": "ETF",
+        "issuer": "ISHARES MSCI INTL QUALITY FACTOR ETF",
+        "shares": 378211.0,
+        "value_usd": 18710080.0,
+        "weight_pct": 5.34
+      },
+      {
+        "cusip": "922908611",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR SMALL-CAP VALUE ETF",
+        "shares": 61696.0,
+        "value_usd": 14253554.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "922908512",
+        "security_class": "ETF",
+        "issuer": "VANGUARD MORNINGSTAR MID-CAP VALUE ETF",
+        "shares": 71666.0,
+        "value_usd": 14012853.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE S&P MID-CAP ETF",
+        "shares": 161171.0,
+        "value_usd": 11596253.0,
+        "weight_pct": 3.31
+      }
+    ],
+    "top_five_pct": 44.74,
+    "top_ten_pct": 67.38,
+    "hhi": 603.49,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 1,
+      "increased_positions": 35,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001731795-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001731795-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001731795-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

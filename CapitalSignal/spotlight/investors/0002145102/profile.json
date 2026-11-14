@@ -9,11 +9,140 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2145102/0002145102-26-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/2145102/0002145102-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2145102/0002145102-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/2145102/0002145102-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "0bb9dbbfe94b829653deb08dcf4de02074156c02514908ebca3830ee1f8615bd",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c9c8a722d8ae1be9448c3e8502fcefa37209ba45e59e6d473484cbc134371ab0",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0002145102-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2145102/0002145102-26-000007.txt",
+    "distinct_positions": 46,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 145765398.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81369Y803",
+        "security_class": "ST STR TECHN ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 60781.0,
+        "value_usd": 11897835.0,
+        "weight_pct": 8.16
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "COM",
+        "issuer": "AMGEN INC",
+        "shares": 26119.0,
+        "value_usd": 11009262.0,
+        "weight_pct": 7.55
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 14199.0,
+        "value_usd": 10828315.0,
+        "weight_pct": 7.43
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 11682.0,
+        "value_usd": 9471990.0,
+        "weight_pct": 6.5
+      },
+      {
+        "cusip": "56035L104",
+        "security_class": "COM",
+        "issuer": "MAIN STR CAP CORP",
+        "shares": 168154.0,
+        "value_usd": 9256866.0,
+        "weight_pct": 6.35
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 17809.0,
+        "value_usd": 9134143.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 9818.0,
+        "value_usd": 8839800.0,
+        "weight_pct": 6.06
+      },
+      {
+        "cusip": "293792107",
+        "security_class": "COM",
+        "issuer": "ENTERPRISE PRODS PARTNERS L",
+        "shares": 232351.0,
+        "value_usd": 8274031.0,
+        "weight_pct": 5.68
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 70525.0,
+        "value_usd": 7328960.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "87283Q883",
+        "security_class": "FLOATING RATE",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 144219.0,
+        "value_usd": 7283047.0,
+        "weight_pct": 5.0
+      }
+    ],
+    "top_five_pct": 35.99,
+    "top_ten_pct": 64.02,
+    "hhi": 513.39,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 4,
+      "increased_positions": 32,
+      "reduced_positions": 10
+    },
+    "timeline": [
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-07-30",
+        "accession": "0002145102-26-000002"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-07-30",
+        "accession": "0002145102-26-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0002145102-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0002145102-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

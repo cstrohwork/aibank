@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2107377/0002107377-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2107377/0002107377-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3a112253392e188be83c9a34666b9ef2776608302d3e88af088ebc4909e00df0",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "dc904af229e48bc3ffeb760b9321a24becd39e4a2a0be37bf0513bfc7b16e34a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0002107377-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107377/0002107377-26-000005.txt",
+    "distinct_positions": 76,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 96269529.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 44930.0,
+        "value_usd": 10261145.0,
+        "weight_pct": 10.66
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INCORPORATED",
+        "shares": 22533.0,
+        "value_usd": 7913379.0,
+        "weight_pct": 8.22
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INCORPORATED",
+        "shares": 21074.0,
+        "value_usd": 5512725.0,
+        "weight_pct": 5.73
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORPORATION",
+        "shares": 9477.0,
+        "value_usd": 4860795.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INCORPORATED CLASS A",
+        "shares": 23756.0,
+        "value_usd": 4443560.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "459200101",
+        "security_class": "COM",
+        "issuer": "INTERNATIONAL BUSINESS MACHINES",
+        "shares": 19921.0,
+        "value_usd": 4381164.0,
+        "weight_pct": 4.55
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INCORPORATED",
+        "shares": 4564.0,
+        "value_usd": 3700235.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FUNDS S&P 500 ETF SHS NEW",
+        "shares": 4130.0,
+        "value_usd": 2894564.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 3102.0,
+        "value_usd": 2823897.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INCORPORATED COM CLASS A",
+        "shares": 6277.0,
+        "value_usd": 2255640.0,
+        "weight_pct": 2.34
+      }
+    ],
+    "top_five_pct": 34.27,
+    "top_ten_pct": 50.95,
+    "hhi": 377.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 3,
+      "increased_positions": 44,
+      "reduced_positions": 24
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0002107377-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0002107377-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

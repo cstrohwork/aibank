@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1822632/0001376474-26-000650.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "aa2bdc01f01fe346bdca62e350c06aedad2687f1a1fa972a8179a2096ef28f6f",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "ccd5aad2c642e6b3f92bf45b29839bbaef641046ea59f6c9cd13fb5d0129ee1a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001376474-26-000650",
+    "source": "https://www.sec.gov/Archives/edgar/data/1822632/0001376474-26-000650.txt",
+    "distinct_positions": 441,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1134150285.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "COM",
+        "issuer": "VANGUARD INDEX FUNDS S&P 500 ETF SHS NEW",
+        "shares": 359506.0,
+        "value_usd": 251963104.0,
+        "weight_pct": 22.22
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "COM",
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 434976.0,
+        "value_usd": 162785540.0,
+        "weight_pct": 14.35
+      },
+      {
+        "cusip": "922908652",
+        "security_class": "COM",
+        "issuer": "VANGUARD EXTENDED MARKET ETF",
+        "shares": 651471.0,
+        "value_usd": 150900303.0,
+        "weight_pct": 13.31
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "COM",
+        "issuer": "VANGUARD TOTAL INTERNATIONAL STOCK ETF",
+        "shares": 1372469.0,
+        "value_usd": 116604942.0,
+        "weight_pct": 10.28
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "COM",
+        "issuer": "VANGUARD MORNINGSTAR VALUE ETF",
+        "shares": 343408.0,
+        "value_usd": 74203494.0,
+        "weight_pct": 6.54
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "COM",
+        "issuer": "VANGUARD MORNINGSTAR GROWTH ETF",
+        "shares": 700750.0,
+        "value_usd": 63144571.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "COM",
+        "issuer": "SCHWAB U.S. LARGE-CAP ETF",
+        "shares": 1284526.0,
+        "value_usd": 38535791.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "921935870",
+        "security_class": "COM",
+        "issuer": "VANGUARD SHORT-TERM TAX EXEMPT BD ETF",
+        "shares": 361222.0,
+        "value_usd": 35616528.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "922907746",
+        "security_class": "COM",
+        "issuer": "VANGUARD TAX-EXEMPT BOND ETF",
+        "shares": 654198.0,
+        "value_usd": 30982796.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "COM",
+        "issuer": "ISHARES TR CORE S&P TTL STK",
+        "shares": 135429.0,
+        "value_usd": 22519153.0,
+        "weight_pct": 1.99
+      }
+    ],
+    "top_five_pct": 66.7,
+    "top_ten_pct": 83.52,
+    "hhi": 1101.65,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 272,
+      "exited_positions": 34,
+      "increased_positions": 94,
+      "reduced_positions": 53
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001376474-25-000844"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001376474-26-000650"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

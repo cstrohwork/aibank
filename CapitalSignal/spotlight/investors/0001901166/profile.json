@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1901166/0001398344-26-018754.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a1e1e0c89752e045aa108a62b2e37a65040b6887afa9afb68eb3d0483dc1e855",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "951e3be4ae7215848b116bea3161e2093c5616ffe72be000532ec5b69cc85021",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001398344-26-018754",
+    "source": "https://www.sec.gov/Archives/edgar/data/1901166/0001398344-26-018754.txt",
+    "distinct_positions": 128,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1522945043.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 503087.0,
+        "value_usd": 167538060.0,
+        "weight_pct": 11.0
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 321965.0,
+        "value_usd": 109706355.0,
+        "weight_pct": 7.2
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 201979.0,
+        "value_usd": 103595055.0,
+        "weight_pct": 6.8
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 96957.0,
+        "value_usd": 103269916.0,
+        "weight_pct": 6.78
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 100.0,
+        "value_usd": 74700500.0,
+        "weight_pct": 4.91
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 195239.0,
+        "value_usd": 70155249.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 184602.0,
+        "value_usd": 61071946.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 361265.0,
+        "value_usd": 58795875.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 195061.0,
+        "value_usd": 48599449.0,
+        "weight_pct": 3.19
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 84350.0,
+        "value_usd": 42002083.0,
+        "weight_pct": 2.76
+      }
+    ],
+    "top_five_pct": 36.69,
+    "top_ten_pct": 55.12,
+    "hhi": 420.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
+      "increased_positions": 21,
+      "reduced_positions": 38
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001398344-25-019997"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001398344-26-013354"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001398344-26-018754"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

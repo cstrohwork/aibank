@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1543100/0001172661-26-004507.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ff9cba857c4b53cd89144e4d5465c6da0b87d1f9882b2df16fb7f71fdfc60389",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "0c5e064f7e51b987881a20476c9cc85b6a4bac9cb7e72d7f961ffb4a028ee3ae",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001172661-26-004507",
+    "source": "https://www.sec.gov/Archives/edgar/data/1543100/0001172661-26-004507.txt",
+    "distinct_positions": 132,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 388928144.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 62841.0,
+        "value_usd": 48126854.0,
+        "weight_pct": 12.37
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 339283.0,
+        "value_usd": 20740342.0,
+        "weight_pct": 5.33
+      },
+      {
+        "cusip": "46435G516",
+        "security_class": "ESG AW MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 188912.0,
+        "value_usd": 19467354.0,
+        "weight_pct": 5.01
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 214497.0,
+        "value_usd": 19253212.0,
+        "weight_pct": 4.95
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 257579.0,
+        "value_usd": 18532815.0,
+        "weight_pct": 4.77
+      },
+      {
+        "cusip": "78468R853",
+        "security_class": "ST STR SP600 SML",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 299833.0,
+        "value_usd": 15849164.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "46435U515",
+        "security_class": "IBDS DEC28 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 550625.0,
+        "value_usd": 13743605.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "46436E205",
+        "security_class": "IBONDS DEC 29",
+        "issuer": "ISHARES TR",
+        "shares": 603794.0,
+        "value_usd": 13700078.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ST STR P400MID",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 153416.0,
+        "value_usd": 9671328.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "46436E486",
+        "security_class": "IBONDS DEC 2031",
+        "issuer": "ISHARES TR",
+        "shares": 458782.0,
+        "value_usd": 9203167.0,
+        "weight_pct": 2.37
+      }
+    ],
+    "top_five_pct": 32.43,
+    "top_ten_pct": 48.41,
+    "hhi": 369.67,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 45,
+      "exited_positions": 34,
+      "increased_positions": 24,
+      "reduced_positions": 55
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-06",
+        "accession": "0001172661-25-004167"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001172661-26-004507"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

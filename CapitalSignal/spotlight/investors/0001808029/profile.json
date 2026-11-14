@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1808029/0001808029-26-000007.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "dcc47ebcc2fb56c024b5fdb4d709a31bc234fdd3eb84e88ca396ee9bd9b3bf9e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f425225c8e05f24ed9a241eb52e5907c7159bfcd7fa608b34bb5779964c6a73d",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001808029-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1808029/0001808029-26-000007.txt",
+    "distinct_positions": 13,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 541444059.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "35671D857",
+        "security_class": "CL B",
+        "issuer": "FREEPORT MCMORAN INC",
+        "shares": 913282.0,
+        "value_usd": 63929740.0,
+        "weight_pct": 11.81
+      },
+      {
+        "cusip": "878742204",
+        "security_class": "CL B",
+        "issuer": "TECK RESOURCES LTD",
+        "shares": 916182.0,
+        "value_usd": 60275614.0,
+        "weight_pct": 11.13
+      },
+      {
+        "cusip": "278865100",
+        "security_class": "COM",
+        "issuer": "ECOLAB INC",
+        "shares": 213774.0,
+        "value_usd": 58698065.0,
+        "weight_pct": 10.84
+      },
+      {
+        "cusip": "22052L104",
+        "security_class": "COM",
+        "issuer": "CORTEVA INC",
+        "shares": 702140.0,
+        "value_usd": 54521171.0,
+        "weight_pct": 10.07
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 252698.0,
+        "value_usd": 51603459.0,
+        "weight_pct": 9.53
+      },
+      {
+        "cusip": "25179M103",
+        "security_class": "COM",
+        "issuer": "DEVON ENERGY CORP NEW",
+        "shares": 1026825.0,
+        "value_usd": 47275023.0,
+        "weight_pct": 8.73
+      },
+      {
+        "cusip": "806857108",
+        "security_class": "COM STK",
+        "issuer": "SLB LIMITED",
+        "shares": 877705.0,
+        "value_usd": 42761788.0,
+        "weight_pct": 7.9
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "COM",
+        "issuer": "AGNICO EAGLE MINES LTD",
+        "shares": 229365.0,
+        "value_usd": 42035724.0,
+        "weight_pct": 7.76
+      },
+      {
+        "cusip": "26614N201",
+        "security_class": "COMMON STOCK",
+        "issuer": "DUPONT DE NEMOURS INC",
+        "shares": 307164.0,
+        "value_usd": 39897532.0,
+        "weight_pct": 7.37
+      },
+      {
+        "cusip": "G54950103",
+        "security_class": "SHS",
+        "issuer": "LINDE PLC",
+        "shares": 74743.0,
+        "value_usd": 35476765.0,
+        "weight_pct": 6.55
+      }
+    ],
+    "top_five_pct": 53.38,
+    "top_ten_pct": 91.69,
+    "hhi": 893.77,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 13,
+      "exited_positions": 12,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001808029-25-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001808029-26-000007"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

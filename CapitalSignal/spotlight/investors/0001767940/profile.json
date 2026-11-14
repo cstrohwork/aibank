@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1767940/0001767940-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "61d9e024d8d35b0133febeb6aaf969ec91db27df4eb2e8f4675713f9668a4376",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "3cf0a52773c89a106ecc214cbda2b01634ff9ed879859b7532a461bd46ebc5c5",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001767940-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1767940/0001767940-26-000006.txt",
+    "distinct_positions": 102,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 494252405.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 563563.0,
+        "value_usd": 50782684.0,
+        "weight_pct": 10.27
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 702967.0,
+        "value_usd": 49636477.0,
+        "weight_pct": 10.04
+      },
+      {
+        "cusip": "46434V621",
+        "security_class": "CORE DIV GRWTH",
+        "issuer": "ISHARES TR",
+        "shares": 560895.0,
+        "value_usd": 42285893.0,
+        "weight_pct": 8.56
+      },
+      {
+        "cusip": "78464A763",
+        "security_class": "ST STR SP DIV",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 265610.0,
+        "value_usd": 38906606.0,
+        "weight_pct": 7.87
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 223522.0,
+        "value_usd": 34690550.0,
+        "weight_pct": 7.02
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 121697.0,
+        "value_usd": 34621449.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 435230.0,
+        "value_usd": 33621516.0,
+        "weight_pct": 6.8
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MRNGSTR MID CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 367705.0,
+        "value_usd": 28835454.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 380710.0,
+        "value_usd": 21913654.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "CORE BD ETF",
+        "issuer": "VANGUARD MALVERN FDS",
+        "shares": 226416.0,
+        "value_usd": 16668759.0,
+        "weight_pct": 3.37
+      }
+    ],
+    "top_five_pct": 43.76,
+    "top_ten_pct": 71.21,
+    "hhi": 577.34,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 19,
+      "exited_positions": 18,
+      "increased_positions": 30,
+      "reduced_positions": 31
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001767940-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001767940-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

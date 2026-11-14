@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2044121/0002044121-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2ad467360732fd04a6eb60d2aa6f5a15e262c97082ab514acd8ee4c1b4d63194",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "2eb637c592533295ea02e33cdf414983f2a9cc815e8b440932caf21ab9c4d6b5",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0002044121-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2044121/0002044121-26-000005.txt",
+    "distinct_positions": 78,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 224396289.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 197072.0,
+        "value_usd": 24685202.0,
+        "weight_pct": 11.0
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 882124.0,
+        "value_usd": 24231934.0,
+        "weight_pct": 10.8
+      },
+      {
+        "cusip": "464287598",
+        "security_class": "RUS 1000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 79486.0,
+        "value_usd": 19707007.0,
+        "weight_pct": 8.78
+      },
+      {
+        "cusip": "025072349",
+        "security_class": "US LARGE CAP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 177946.0,
+        "value_usd": 16093419.0,
+        "weight_pct": 7.17
+      },
+      {
+        "cusip": "69374H881",
+        "security_class": "US CASH COWS 100",
+        "issuer": "PACER FDS TR",
+        "shares": 212419.0,
+        "value_usd": 14181110.0,
+        "weight_pct": 6.32
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "MRNGSTR MID CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 150800.0,
+        "value_usd": 11825752.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "69374H360",
+        "security_class": "US LRG CP CASH",
+        "issuer": "PACER FDS TR",
+        "shares": 278567.0,
+        "value_usd": 11109269.0,
+        "weight_pct": 4.95
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 21372.0,
+        "value_usd": 10961851.0,
+        "weight_pct": 4.89
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 74658.0,
+        "value_usd": 8792433.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 58147.0,
+        "value_usd": 7910260.0,
+        "weight_pct": 3.53
+      }
+    ],
+    "top_five_pct": 44.07,
+    "top_ten_pct": 66.62,
+    "hhi": 551.77,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 27,
+      "exited_positions": 23,
+      "increased_positions": 21,
+      "reduced_positions": 27
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0002044121-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0002044121-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

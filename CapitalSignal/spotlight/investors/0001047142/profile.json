@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1047142/0001047142-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "38d248086dfb25f25369cdf5eb4b9badc54309079802aee99cf75ee22adff928",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "c8b49b2adaa9f7dc4f501e404a17f4e38d2e1a78fdb12fe7c0e2de184ed10bad",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001047142-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1047142/0001047142-26-000004.txt",
+    "distinct_positions": 144,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2018180461.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COMMON STOCK",
+        "issuer": "NVIDIA CORPORATION SR GLBL NT",
+        "shares": 723203.0,
+        "value_usd": 165165107.0,
+        "weight_pct": 8.18
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 258270.0,
+        "value_usd": 132466736.0,
+        "weight_pct": 6.56
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 376202.0,
+        "value_usd": 125282793.0,
+        "weight_pct": 6.21
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC SR GLBL NT",
+        "shares": 343198.0,
+        "value_usd": 116941294.0,
+        "weight_pct": 5.79
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMAZON COM INC SR",
+        "shares": 348907.0,
+        "value_usd": 86930191.0,
+        "weight_pct": 4.31
+      },
+      {
+        "cusip": "204149108",
+        "security_class": "COMMON STOCK",
+        "issuer": "COMMUNITY TR BANCORP INC",
+        "shares": 1013094.0,
+        "value_usd": 75191834.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COMMON STOCK",
+        "issuer": "BROADCOM INC SR GLBL NT",
+        "shares": 186649.0,
+        "value_usd": 65549266.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COMMON STOCK",
+        "issuer": "META PLATFORMS INC SR GLBL NT",
+        "shares": 77607.0,
+        "value_usd": 56279060.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COMMON STOCK",
+        "issuer": "ADVANCED MICRO DEVICES INC SR",
+        "shares": 90680.0,
+        "value_usd": 55474390.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COMMON STOCK",
+        "issuer": "VISA INC",
+        "shares": 116644.0,
+        "value_usd": 41913704.0,
+        "weight_pct": 2.08
+      }
+    ],
+    "top_five_pct": 31.06,
+    "top_ten_pct": 45.64,
+    "hhi": 298.37,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 22,
+      "exited_positions": 19,
+      "increased_positions": 52,
+      "reduced_positions": 57
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001047142-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001047142-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

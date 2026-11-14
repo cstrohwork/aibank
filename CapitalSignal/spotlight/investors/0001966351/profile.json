@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1966351/0001172661-25-004443.txt",
+    "https://www.sec.gov/Archives/edgar/data/1966351/0001172661-26-002946.txt",
     "https://www.sec.gov/Archives/edgar/data/1966351/0001172661-26-004643.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8a9492608e4b698430c7e55f8cba8d117166c61fb95fc639ad07198b81bca76e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "d163e6d6d9e95e88d8a8a9b0be311bbf4451573f7d54ab037654d86674ed6040",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001172661-26-004643",
+    "source": "https://www.sec.gov/Archives/edgar/data/1966351/0001172661-26-004643.txt",
+    "distinct_positions": 60,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 179271074.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287309",
+        "security_class": "S&P 500 GRWT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 336218.0,
+        "value_usd": 47829579.0,
+        "weight_pct": 26.68
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "S&P 500 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 187338.0,
+        "value_usd": 42765054.0,
+        "weight_pct": 23.85
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 55991.0,
+        "value_usd": 8134430.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "464287705",
+        "security_class": "S&P MC 400VL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 55319.0,
+        "value_usd": 7618329.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "464287630",
+        "security_class": "RUS 2000 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 34514.0,
+        "value_usd": 7229039.0,
+        "weight_pct": 4.03
+      },
+      {
+        "cusip": "464287648",
+        "security_class": "RUS 2000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 16619.0,
+        "value_usd": 5930762.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 113077.0,
+        "value_usd": 5353175.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 13794.0,
+        "value_usd": 4593903.0,
+        "weight_pct": 2.56
+      },
+      {
+        "cusip": "464288877",
+        "security_class": "EAFE VALUE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 47374.0,
+        "value_usd": 3749094.0,
+        "weight_pct": 2.09
+      },
+      {
+        "cusip": "464287234",
+        "security_class": "MSCI EMG MKT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 50701.0,
+        "value_usd": 3386241.0,
+        "weight_pct": 1.89
+      }
+    ],
+    "top_five_pct": 63.35,
+    "top_ten_pct": 76.19,
+    "hhi": 1392.59,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 6,
+      "increased_positions": 22,
+      "reduced_positions": 15
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0001172661-25-004443"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001172661-26-002946"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001172661-26-004643"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

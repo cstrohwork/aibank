@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1904126/0001398344-25-019173.txt",
+    "https://www.sec.gov/Archives/edgar/data/1904126/0001398344-26-012621.txt",
     "https://www.sec.gov/Archives/edgar/data/1904126/0001398344-26-018201.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "79f32bbc1ec99d809487c61a4798d285415c6456de97c1c4ba6230eb6bcb5b87",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "dc9be56efa915fe1eb211cfa3fea18b40e3e0fea2b985c9d147755593195fbe8",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0001398344-26-018201",
+    "source": "https://www.sec.gov/Archives/edgar/data/1904126/0001398344-26-018201.txt",
+    "distinct_positions": 75,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 192696489.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 136538.0,
+        "value_usd": 45469885.0,
+        "weight_pct": 23.6
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 70208.0,
+        "value_usd": 16034103.0,
+        "weight_pct": 8.32
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 13286.0,
+        "value_usd": 9828692.0,
+        "weight_pct": 5.1
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 26998.0,
+        "value_usd": 8869113.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "46120E602",
+        "security_class": "COM NEW",
+        "issuer": "INTUITIVE SURGICAL INC",
+        "shares": 20196.0,
+        "value_usd": 8212299.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 18271.0,
+        "value_usd": 6837739.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "969904101",
+        "security_class": "COM",
+        "issuer": "WILLIAMS SONOMA INC",
+        "shares": 25094.0,
+        "value_usd": 5719926.0,
+        "weight_pct": 2.97
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 10013.0,
+        "value_usd": 5521869.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 15444.0,
+        "value_usd": 5313972.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 11901.0,
+        "value_usd": 4276386.0,
+        "weight_pct": 2.22
+      }
+    ],
+    "top_five_pct": 45.88,
+    "top_ten_pct": 60.24,
+    "hhi": 771.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 9,
+      "reduced_positions": 27
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001398344-25-019173"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001398344-26-012621"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0001398344-26-018201"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

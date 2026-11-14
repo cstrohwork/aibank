@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1977723/0001977723-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "4e2ec1be0208ad69d3b3fda79d8b7a691457e09b32b676c7faf37f1c5430ae7b",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "e2a7f75140ff0db7035126476812021ab665bb4cefc32567e9f2ee0f7c771542",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001977723-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1977723/0001977723-26-000006.txt",
+    "distinct_positions": 214,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 347134454.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 293715.0,
+        "value_usd": 26363826.0,
+        "weight_pct": 7.59
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 54046.0,
+        "value_usd": 12343093.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 14866.0,
+        "value_usd": 11385108.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "CORE MSCI INTL",
+        "issuer": "ISHARES TR",
+        "shares": 116888.0,
+        "value_usd": 10459148.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "87283Q867",
+        "security_class": "CAP APPRECIATION",
+        "issuer": "T ROWE PRICE EXCHANGE-TRADED",
+        "shares": 207957.0,
+        "value_usd": 8790335.0,
+        "weight_pct": 2.53
+      },
+      {
+        "cusip": "025072885",
+        "security_class": "US EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 67559.0,
+        "value_usd": 8653653.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 11261.0,
+        "value_usd": 8330507.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 22633.0,
+        "value_usd": 7537261.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "464287507",
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 97874.0,
+        "value_usd": 7042070.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 67004.0,
+        "value_usd": 6140249.0,
+        "weight_pct": 1.77
+      }
+    ],
+    "top_five_pct": 19.98,
+    "top_ten_pct": 30.84,
+    "hhi": 167.74,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 94,
+      "exited_positions": 108,
+      "increased_positions": 50,
+      "reduced_positions": 69
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001977723-25-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001977723-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

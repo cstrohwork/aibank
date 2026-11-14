@@ -13,8 +13,60 @@
     "https://www.sec.gov/Archives/edgar/data/2096569/0000950157-26-001115.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7d7fe71bf6b650aa2b600a13c06a86d5482d8f9a3fb8ad73c5bc4a1c9a2274a7",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "4e83b223b4bd738be377f3e7b8767ceaaad8c2fac2233abbfa42b3b2864bf5eb",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0000950157-26-001115",
+    "source": "https://www.sec.gov/Archives/edgar/data/2096569/0000950157-26-001115.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 356053462.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "H5919C104",
+        "security_class": "NAMEN AKT A",
+        "issuer": "ON HLDG AG",
+        "shares": 8400000.0,
+        "value_usd": 284724000.0,
+        "weight_pct": 79.97
+      },
+      {
+        "cusip": "76131D103",
+        "security_class": "COM",
+        "issuer": "RESTAURANT BRANDS INTL INC",
+        "shares": 1000000.0,
+        "value_usd": 71329462.0,
+        "weight_pct": 20.03
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6796.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0000950157-26-000867"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0000950157-26-001115"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

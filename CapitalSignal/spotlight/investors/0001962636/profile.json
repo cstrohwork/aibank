@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1962636/0001398344-26-018672.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5fe22204b1eff9df65df7e3ad935e501386e666d5fb5c12c91a1a7b974b4325c",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c16d9c24b256af071263d3d82a6a671f9a8725c4e5b4ea99a0457a9a882b5a2b",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001398344-26-018672",
+    "source": "https://www.sec.gov/Archives/edgar/data/1962636/0001398344-26-018672.txt",
+    "distinct_positions": 437,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 320067451.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 147361.0,
+        "value_usd": 13278699.0,
+        "weight_pct": 4.15
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 39625.0,
+        "value_usd": 13195780.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 53526.0,
+        "value_usd": 11565819.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 8958.0,
+        "value_usd": 9541385.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 110196.0,
+        "value_usd": 9362241.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 13789.0,
+        "value_usd": 7072438.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 17616.0,
+        "value_usd": 5827737.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ST STR P400MID",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 90941.0,
+        "value_usd": 5732939.0,
+        "weight_pct": 1.79
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 24756.0,
+        "value_usd": 5653788.0,
+        "weight_pct": 1.77
+      },
+      {
+        "cusip": "629337106",
+        "security_class": "COM",
+        "issuer": "NN INC",
+        "shares": 1438313.0,
+        "value_usd": 5278609.0,
+        "weight_pct": 1.65
+      }
+    ],
+    "top_five_pct": 17.79,
+    "top_ten_pct": 27.03,
+    "hhi": 121.61,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 168,
+      "exited_positions": 69,
+      "increased_positions": 155,
+      "reduced_positions": 90
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001398344-25-020010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001398344-26-018672"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

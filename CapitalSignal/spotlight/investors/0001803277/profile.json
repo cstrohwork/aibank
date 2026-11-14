@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1803277/0001172661-26-004609.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ca58123467a65062f945e905c9a87e400e62b57eab0fab185ac40333b4e64153",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "8dd24724dcd133f850e2cf406f221875c274a3e537e99342e429d714727904ad",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001172661-26-004609",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803277/0001172661-26-004609.txt",
+    "distinct_positions": 100,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 228997674.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "85207K107",
+        "security_class": "PHYSICAL SILVER",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 2223293.0,
+        "value_usd": 43079291.0,
+        "weight_pct": 18.81
+      },
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 982615.0,
+        "value_usd": 30729839.0,
+        "weight_pct": 13.42
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 137688.0,
+        "value_usd": 12617748.0,
+        "weight_pct": 5.51
+      },
+      {
+        "cusip": "594972408",
+        "security_class": "CL A NEW",
+        "issuer": "STRATEGY INC",
+        "shares": 56628.0,
+        "value_usd": 8669181.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 137916.0,
+        "value_usd": 6528943.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 12391.0,
+        "value_usd": 6170098.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 53851.0,
+        "value_usd": 5940862.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "921078101",
+        "security_class": "GOLD SHS",
+        "issuer": "VANECK MERK GOLD ETF",
+        "shares": 146258.0,
+        "value_usd": 5835694.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "85208P303",
+        "security_class": "URANI MINER ETF",
+        "issuer": "SPROTT FDS TR",
+        "shares": 118302.0,
+        "value_usd": 5614616.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "85208R101",
+        "security_class": "PHYSICAL GOLD AN",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 129375.0,
+        "value_usd": 5377488.0,
+        "weight_pct": 2.35
+      }
+    ],
+    "top_five_pct": 44.38,
+    "top_ten_pct": 57.02,
+    "hhi": 661.48,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 9,
+      "increased_positions": 28,
+      "reduced_positions": 43
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001172661-25-004532"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001172661-26-002961"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001172661-26-004609"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

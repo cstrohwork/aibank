@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1484205/0001484205-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e93fe7324194f170dd9c41752cb8722fc202bac8bc1293b9a1d1f57434b13541",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "319608800097b3851ca0abbf1fadb0846277505ff7aec5015661308f0b62f7ba",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001484205-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1484205/0001484205-26-000009.txt",
+    "distinct_positions": 355,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2277234049.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 490079.0,
+        "value_usd": 375327055.0,
+        "weight_pct": 16.48
+      },
+      {
+        "cusip": "46434V282",
+        "security_class": "U S EQUITY FACTR",
+        "issuer": "ISHARES TR",
+        "shares": 3662435.0,
+        "value_usd": 285120597.0,
+        "weight_pct": 12.52
+      },
+      {
+        "cusip": "97717Y790",
+        "security_class": "US EFFIC CORE FD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 4816774.0,
+        "value_usd": 281540439.0,
+        "weight_pct": 12.36
+      },
+      {
+        "cusip": "97717Y220",
+        "security_class": "U S ADAPTIVE MVN",
+        "issuer": "WISDOMTREE TR",
+        "shares": 7396874.0,
+        "value_usd": 198207367.0,
+        "weight_pct": 8.7
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 1858558.0,
+        "value_usd": 180057093.0,
+        "weight_pct": 7.91
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 2174601.0,
+        "value_usd": 176490590.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "97717Y634",
+        "security_class": "INTERNATIONL EFI",
+        "issuer": "WISDOMTREE TR",
+        "shares": 3126240.0,
+        "value_usd": 143510053.0,
+        "weight_pct": 6.3
+      },
+      {
+        "cusip": "46434V274",
+        "security_class": "INTL EQTY FACTOR",
+        "issuer": "ISHARES TR",
+        "shares": 3390529.0,
+        "value_usd": 140740863.0,
+        "weight_pct": 6.18
+      },
+      {
+        "cusip": "81752T379",
+        "security_class": "ACUITAS SML CAP",
+        "issuer": "SERIES PORTFOLIOS TR",
+        "shares": 3018831.0,
+        "value_usd": 81654233.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "97717Y212",
+        "security_class": "INTL AD MO AV FD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 1820340.0,
+        "value_usd": 76797235.0,
+        "weight_pct": 3.37
+      }
+    ],
+    "top_five_pct": 57.98,
+    "top_ten_pct": 85.17,
+    "hhi": 900.7,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 111,
+      "exited_positions": 479,
+      "increased_positions": 54,
+      "reduced_positions": 139
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001484205-25-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001484205-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

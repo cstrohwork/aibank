@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1690717/0002085853-26-001180.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "b1f3e129ac803091c8d7885422666237d73868998c6f78118436b7410ab6df35",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "ceb37679063139c9ff31025f491ec3dca1227811587b753497b5d8dde57d4171",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0002085853-26-001180",
+    "source": "https://www.sec.gov/Archives/edgar/data/1690717/0002085853-26-001180.txt",
+    "distinct_positions": 171,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 212727591.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "16411R208",
+        "security_class": "COM NEW",
+        "issuer": "CHENIERE ENERGY INC",
+        "shares": 46239.0,
+        "value_usd": 12439678.0,
+        "weight_pct": 5.85
+      },
+      {
+        "cusip": "969457100",
+        "security_class": "COM",
+        "issuer": "WILLIAMS COS INC",
+        "shares": 182448.0,
+        "value_usd": 12400991.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "87612G101",
+        "security_class": "COM",
+        "issuer": "TARGA RES CORP",
+        "shares": 44616.0,
+        "value_usd": 12060151.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "29273V100",
+        "security_class": "COM UT LTD PTN",
+        "issuer": "ENERGY TRANSFER L P LP",
+        "shares": 504780.0,
+        "value_usd": 9979501.0,
+        "weight_pct": 4.69
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 29150.0,
+        "value_usd": 9707533.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC CLASS CLASS C",
+        "shares": 23141.0,
+        "value_usd": 7885064.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 15274.0,
+        "value_usd": 7834035.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 29369.0,
+        "value_usd": 7317286.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 8466.0,
+        "value_usd": 6456426.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "55336V100",
+        "security_class": "COM UNIT REP LTD",
+        "issuer": "MPLX LP LP",
+        "shares": 87441.0,
+        "value_usd": 4924677.0,
+        "weight_pct": 2.32
+      }
+    ],
+    "top_five_pct": 26.6,
+    "top_ten_pct": 42.78,
+    "hhi": 240.68,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 20,
+      "increased_positions": 50,
+      "reduced_positions": 58
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0002085853-25-000233"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0002085853-26-000970"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0002085853-26-001180"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

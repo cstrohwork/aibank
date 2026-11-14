@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1919438/0001919438-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "230802e4736606dda117cb6fcbb8614cb785aed1566f104204b377316d495c4c",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ea3bd6259a8fc8c2cc4c07708016c74cac4496906b0448ebf3f56fe38add31bf",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001919438-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1919438/0001919438-26-000011.txt",
+    "distinct_positions": 148,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 473700582.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92189F676",
+        "security_class": "SEMICONDUCTR ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 58421.0,
+        "value_usd": 32262498.0,
+        "weight_pct": 6.81
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 72290.0,
+        "value_usd": 27201755.0,
+        "weight_pct": 5.74
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 31415.0,
+        "value_usd": 24237644.0,
+        "weight_pct": 5.12
+      },
+      {
+        "cusip": "316092808",
+        "security_class": "MSCI INFO TECH I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 74187.0,
+        "value_usd": 21390414.0,
+        "weight_pct": 4.52
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 75271.0,
+        "value_usd": 18173133.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 76977.0,
+        "value_usd": 17372974.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 185979.0,
+        "value_usd": 16563299.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "25434V401",
+        "security_class": "US EQUI MARK ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 191215.0,
+        "value_usd": 15976181.0,
+        "weight_pct": 3.37
+      },
+      {
+        "cusip": "26922A420",
+        "security_class": "DEFIA QUANT ETF",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 106886.0,
+        "value_usd": 14849551.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "921946794",
+        "security_class": "INTL HIGH ETF",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 141584.0,
+        "value_usd": 14348051.0,
+        "weight_pct": 3.03
+      }
+    ],
+    "top_five_pct": 26.02,
+    "top_ten_pct": 42.72,
+    "hhi": 276.61,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 52,
+      "exited_positions": 50,
+      "increased_positions": 38,
+      "reduced_positions": 46
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001919438-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001919438-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

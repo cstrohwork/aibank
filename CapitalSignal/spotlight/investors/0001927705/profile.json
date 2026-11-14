@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1927705/0001725547-26-000361.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "951a01f7f26bf4ab1c85739472039ea1e0a4395caa1d866503a60ef9b84f69c4",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "cbb3b16fa36c21dc5f2337d57e544e702aa340b7ffb0bdee5a0de76f2b37040c",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001725547-26-000361",
+    "source": "https://www.sec.gov/Archives/edgar/data/1927705/0001725547-26-000361.txt",
+    "distinct_positions": 80,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 290559771.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287150",
+        "security_class": "CORE S&P TTL STK",
+        "issuer": "ISHARES TR",
+        "shares": 223800.0,
+        "value_usd": 37213410.0,
+        "weight_pct": 12.81
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "CORE MSCI INTL",
+        "issuer": "ISHARES TR",
+        "shares": 275688.0,
+        "value_usd": 24668600.0,
+        "weight_pct": 8.49
+      },
+      {
+        "cusip": "25434V708",
+        "security_class": "US COR EQU 2 ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 392040.0,
+        "value_usd": 17426159.0,
+        "weight_pct": 6.0
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 224328.0,
+        "value_usd": 15839818.0,
+        "weight_pct": 5.45
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 389931.0,
+        "value_usd": 15488042.0,
+        "weight_pct": 5.33
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "INTL SMCP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 139468.0,
+        "value_usd": 15254976.0,
+        "weight_pct": 5.25
+      },
+      {
+        "cusip": "02072L565",
+        "security_class": "ALPHA ARCH 1-3",
+        "issuer": "EA SERIES TRUST",
+        "shares": 119323.0,
+        "value_usd": 14126650.0,
+        "weight_pct": 4.86
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 35205.0,
+        "value_usd": 13175191.0,
+        "weight_pct": 4.53
+      },
+      {
+        "cusip": "92206C706",
+        "security_class": "INTER TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 231497.0,
+        "value_usd": 13116597.0,
+        "weight_pct": 4.51
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 199485.0,
+        "value_usd": 8635706.0,
+        "weight_pct": 2.97
+      }
+    ],
+    "top_five_pct": 38.08,
+    "top_ten_pct": 60.21,
+    "hhi": 486.59,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 15,
+      "increased_positions": 23,
+      "reduced_positions": 34
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001725547-25-004217"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001725547-26-000268"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001725547-26-000361"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

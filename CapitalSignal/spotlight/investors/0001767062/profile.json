@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1767062/0001767062-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "7ce72d55c2d3d896380a2bef265a4021a66f04f2d870c369f6cc859cb60bf990",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "8a2e65ca3228e573902b8fd565afbed579ed75d9f90303d8ebb19e60b92728fd",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001767062-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1767062/0001767062-26-000005.txt",
+    "distinct_positions": 151,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 590681879.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 75076.0,
+        "value_usd": 57255249.0,
+        "weight_pct": 9.69
+      },
+      {
+        "cusip": "33738R506",
+        "security_class": "RISNG DIVD ACHIV",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 381720.0,
+        "value_usd": 29884844.0,
+        "weight_pct": 5.06
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "TOTAL BND MRKT",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 353020.0,
+        "value_usd": 24764353.0,
+        "weight_pct": 4.19
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 155998.0,
+        "value_usd": 19200173.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "33739P103",
+        "security_class": "LNG/SHT EQUITY",
+        "issuer": "FIRST TR EXCH TRADED FD III",
+        "shares": 220020.0,
+        "value_usd": 16873334.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "33733E823",
+        "security_class": "GROWTH STRENGTH",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 430306.0,
+        "value_usd": 16317205.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 129319.0,
+        "value_usd": 16251522.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "33740F755",
+        "security_class": "FT LADD BUFF ETF",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 426548.0,
+        "value_usd": 15982753.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 249676.0,
+        "value_usd": 15262709.0,
+        "weight_pct": 2.58
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 186727.0,
+        "value_usd": 14424685.0,
+        "weight_pct": 2.44
+      }
+    ],
+    "top_five_pct": 25.05,
+    "top_ten_pct": 38.3,
+    "hhi": 264.1,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 71,
+      "exited_positions": 42,
+      "increased_positions": 53,
+      "reduced_positions": 25
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-01",
+        "accession": "0001767062-25-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001767062-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

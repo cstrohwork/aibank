@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1612457/0001172661-26-004529.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5496607fa5537dd52a07ea0e8fdf54bc2203a81fe4270749ac844c869c6b52fd",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "cb95c3849b9a27378508eb537a1b1a01f4de06b1951a6b35142f6838c67d8381",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001172661-26-004529",
+    "source": "https://www.sec.gov/Archives/edgar/data/1612457/0001172661-26-004529.txt",
+    "distinct_positions": 36,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 161209640.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V724",
+        "security_class": "US MKTWIDE VALUE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 888084.0,
+        "value_usd": 48844629.0,
+        "weight_pct": 30.3
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 134917.0,
+        "value_usd": 15889226.0,
+        "weight_pct": 9.86
+      },
+      {
+        "cusip": "025072802",
+        "security_class": "INTL SMCP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 106890.0,
+        "value_usd": 11691729.0,
+        "weight_pct": 7.25
+      },
+      {
+        "cusip": "25434V880",
+        "security_class": "WORLD EX US CORE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 303474.0,
+        "value_usd": 11234612.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "25434V849",
+        "security_class": "NATL MUN BD ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 178249.0,
+        "value_usd": 8204824.0,
+        "weight_pct": 5.09
+      },
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 165591.0,
+        "value_usd": 6227891.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "25434V872",
+        "security_class": "CORE FIXE IN ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 137047.0,
+        "value_usd": 5498327.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "25434V807",
+        "security_class": "INTERNATNAL VAL",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 94802.0,
+        "value_usd": 5295695.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "92204A876",
+        "security_class": "UTILITIES ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 29629.0,
+        "value_usd": 5066580.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "25434V856",
+        "security_class": "INFLATION PROTE",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 124859.0,
+        "value_usd": 4877026.0,
+        "weight_pct": 3.03
+      }
+    ],
+    "top_five_pct": 59.47,
+    "top_ten_pct": 76.19,
+    "hhi": 1237.61,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 12,
+      "exited_positions": 11,
+      "increased_positions": 13,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001172661-25-004352"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001172661-26-004529"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

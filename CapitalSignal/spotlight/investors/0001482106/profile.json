@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1482106/0001482106-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "dcac26f53f50c61e09215ceee2eb4cb7e002729a34e81d43ba34efa5fed57b6e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "c6799ee673c1c2701393bbaf6bf62d65da33b0171e94bcf86652b5d0e8c92b39",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001482106-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1482106/0001482106-26-000006.txt",
+    "distinct_positions": 94,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 378878319.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1705341.0,
+        "value_usd": 51160237.0,
+        "weight_pct": 13.5
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1225615.0,
+        "value_usd": 33667643.0,
+        "weight_pct": 8.89
+      },
+      {
+        "cusip": "46432F859",
+        "security_class": "CORE 1 5 YR USD",
+        "issuer": "ISHARES TR",
+        "shares": 607233.0,
+        "value_usd": 28691747.0,
+        "weight_pct": 7.57
+      },
+      {
+        "cusip": "464288646",
+        "security_class": "ISHS 1-5YR INVS",
+        "issuer": "ISHARES TR",
+        "shares": 477755.0,
+        "value_usd": 24475396.0,
+        "weight_pct": 6.46
+      },
+      {
+        "cusip": "808524862",
+        "security_class": "SHT TM US TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 867904.0,
+        "value_usd": 20708197.0,
+        "weight_pct": 5.47
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "TOTAL BND MRKT",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 268895.0,
+        "value_usd": 18862997.0,
+        "weight_pct": 4.98
+      },
+      {
+        "cusip": "808524508",
+        "security_class": "US MID-CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 457044.0,
+        "value_usd": 15548622.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "808524797",
+        "security_class": "US DIVIDEND EQ",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 466882.0,
+        "value_usd": 15187657.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 63950.0,
+        "value_usd": 13302904.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "808524607",
+        "security_class": "US SML CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 358735.0,
+        "value_usd": 11705512.0,
+        "weight_pct": 3.09
+      }
+    ],
+    "top_five_pct": 41.89,
+    "top_ten_pct": 61.58,
+    "hhi": 524.54,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 25,
+      "exited_positions": 16,
+      "increased_positions": 20,
+      "reduced_positions": 39
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001482106-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001482106-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

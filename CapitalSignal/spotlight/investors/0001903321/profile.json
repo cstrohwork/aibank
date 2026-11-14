@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1903321/0001903321-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8130f5e58f43d5525f7153da758aa6b9b5123a11155271a1cdb1efd434e3d0d7",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "6237dc09a79a22e87babbcc525dbd1dc2687df98d4fb8182a0b03feed96ff8a9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001903321-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1903321/0001903321-26-000004.txt",
+    "distinct_positions": 90,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 166086120.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287721",
+        "security_class": "U.S. TECH ETF",
+        "issuer": "ISHARES TR",
+        "shares": 65056.0,
+        "value_usd": 17233380.0,
+        "weight_pct": 10.38
+      },
+      {
+        "cusip": "89834G760",
+        "security_class": "CONVERGENCE LNG",
+        "issuer": "TRUST FOR PROFESSIONAL MANAG",
+        "shares": 390651.0,
+        "value_usd": 13286050.0,
+        "weight_pct": 8.0
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 21945.0,
+        "value_usd": 12478524.0,
+        "weight_pct": 7.51
+      },
+      {
+        "cusip": "33939L779",
+        "security_class": "NRTRN TR DISCPLN",
+        "issuer": "FLEXSHARES TR",
+        "shares": 403104.0,
+        "value_usd": 8011849.0,
+        "weight_pct": 4.82
+      },
+      {
+        "cusip": "33738R506",
+        "security_class": "RISNG DIVD ACHIV",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 86614.0,
+        "value_usd": 6780979.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "464288760",
+        "security_class": "US AER DEF ETF",
+        "issuer": "ISHARES TR",
+        "shares": 32499.0,
+        "value_usd": 6733047.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "46435G250",
+        "security_class": "HIGH YLD SYSTM B",
+        "issuer": "ISHARES TR",
+        "shares": 147069.0,
+        "value_usd": 6612213.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "33735J101",
+        "security_class": "COM SHS",
+        "issuer": "FIRST TR EXCHANGE-TRADED ALP",
+        "shares": 57511.0,
+        "value_usd": 5480849.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "464287515",
+        "security_class": "EXPANDED TECH",
+        "issuer": "ISHARES TR",
+        "shares": 46591.0,
+        "value_usd": 4960968.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "464288752",
+        "security_class": "US HOME CONS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 55366.0,
+        "value_usd": 4817909.0,
+        "weight_pct": 2.9
+      }
+    ],
+    "top_five_pct": 34.8,
+    "top_ten_pct": 52.02,
+    "hhi": 386.17,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 13,
+      "exited_positions": 10,
+      "increased_positions": 27,
+      "reduced_positions": 42
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001903321-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001903321-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

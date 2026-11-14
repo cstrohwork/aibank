@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1632078/0001632078-26-000011.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "64a2abaea5a6b0347c3539e73b5a4abaa6691c428eae8daf99d021f83c867435",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "261aa2ff38386e32dc8ed5902a494f94e26da39b6c25f3cb2f6bbc57a11755f5",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001632078-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632078/0001632078-26-000011.txt",
+    "distinct_positions": 110,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 346071848.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 388794.0,
+        "value_usd": 31122928.0,
+        "weight_pct": 8.99
+      },
+      {
+        "cusip": "92203C303",
+        "security_class": "VANGUARD ULTRA",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 471176.0,
+        "value_usd": 23346771.0,
+        "weight_pct": 6.75
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 88153.0,
+        "value_usd": 18337588.0,
+        "weight_pct": 5.3
+      },
+      {
+        "cusip": "808524409",
+        "security_class": "US LCAP VA ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 535226.0,
+        "value_usd": 17828383.0,
+        "weight_pct": 5.15
+      },
+      {
+        "cusip": "33740F730",
+        "security_class": "FT VEST US EQT",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 272747.0,
+        "value_usd": 13078792.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "33740F680",
+        "security_class": "FT VEST US EQT",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 266981.0,
+        "value_usd": 13047362.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ISHARES NEW",
+        "issuer": "ISHARES GOLD TR",
+        "shares": 162896.0,
+        "value_usd": 12722178.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "33740F615",
+        "security_class": "FT VEST US EQT",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 245860.0,
+        "value_usd": 11240720.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "808524805",
+        "security_class": "INTL EQTY ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 341220.0,
+        "value_usd": 9373317.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "33740F573",
+        "security_class": "FT VEST INTER EQ",
+        "issuer": "FIRST TR EXCHNG TRADED FD VI",
+        "shares": 251687.0,
+        "value_usd": 7306801.0,
+        "weight_pct": 2.11
+      }
+    ],
+    "top_five_pct": 29.97,
+    "top_ten_pct": 45.48,
+    "hhi": 304.26,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 16,
+      "increased_positions": 32,
+      "reduced_positions": 48
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001632078-25-000015"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001632078-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001632078-26-000011"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

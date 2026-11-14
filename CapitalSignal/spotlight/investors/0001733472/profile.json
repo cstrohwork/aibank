@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1733472/0001733472-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1733472/0001733472-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/1733472/0001733472-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "51bf0052da3c56ff265ba75cf1607dc9049a9e0ceee8eb6f6454dd09535f7290",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "af8535b071684aa686dfe7a7abe0e1d22329c4a14d2f22167a0f4364d793ded9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001733472-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1733472/0001733472-26-000005.txt",
+    "distinct_positions": 957,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 341386987.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 177048.0,
+        "value_usd": 66258448.0,
+        "weight_pct": 19.41
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 443567.0,
+        "value_usd": 34265539.0,
+        "weight_pct": 10.04
+      },
+      {
+        "cusip": "921946406",
+        "security_class": "HIGH DIV YLD",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 186796.0,
+        "value_usd": 28990799.0,
+        "weight_pct": 8.49
+      },
+      {
+        "cusip": "92204A702",
+        "security_class": "INF TECH ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 114012.0,
+        "value_usd": 14327884.0,
+        "weight_pct": 4.2
+      },
+      {
+        "cusip": "47103U746",
+        "security_class": "HEND SECU IN ETF",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 278175.0,
+        "value_usd": 13886514.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 131886.0,
+        "value_usd": 11778761.0,
+        "weight_pct": 3.45
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 130393.0,
+        "value_usd": 11749691.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "464288653",
+        "security_class": "10-20 YR TRS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 121256.0,
+        "value_usd": 11176194.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 141216.0,
+        "value_usd": 10983813.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "921946794",
+        "security_class": "INTL HIGH ETF",
+        "issuer": "VANGUARD WHITEHALL FDS",
+        "shares": 107113.0,
+        "value_usd": 10832353.0,
+        "weight_pct": 3.17
+      }
+    ],
+    "top_five_pct": 46.2,
+    "top_ten_pct": 62.76,
+    "hhi": 699.98,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 397,
+      "exited_positions": 409,
+      "increased_positions": 128,
+      "reduced_positions": 115
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001733472-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001733472-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001733472-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

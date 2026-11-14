@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1731169/0002085853-26-001227.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "e0033879753c810d2d1a0188e58a68ef2035572d2d1cdf4c6463d43e10a86afa",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "59b566d05783414ff396cae6aea15a668a0e8c02ebfc92260e2210a7be259b46",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0002085853-26-001227",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731169/0002085853-26-001227.txt",
+    "distinct_positions": 251,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 963606700.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 138545.0,
+        "value_usd": 106104615.0,
+        "weight_pct": 11.01
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 390571.0,
+        "value_usd": 45997558.0,
+        "weight_pct": 4.77
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 58935.0,
+        "value_usd": 44945270.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "33738R506",
+        "security_class": "RISNG DIVD ACHIV",
+        "issuer": "FIRST TR EXCHANGE TRADED FD",
+        "shares": 552438.0,
+        "value_usd": 43250408.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 137801.0,
+        "value_usd": 41979568.0,
+        "weight_pct": 4.36
+      },
+      {
+        "cusip": "464287101",
+        "security_class": "S&P 100 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 109630.0,
+        "value_usd": 41887429.0,
+        "weight_pct": 4.35
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 97564.0,
+        "value_usd": 32490902.0,
+        "weight_pct": 3.37
+      },
+      {
+        "cusip": "316092808",
+        "security_class": "MSCI INFO TECH I",
+        "issuer": "FIDELITY COVINGTON TRUST",
+        "shares": 102270.0,
+        "value_usd": 30686989.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "CORE S&P TTL STK",
+        "issuer": "ISHARES TR",
+        "shares": 183432.0,
+        "value_usd": 30501112.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "46432F339",
+        "security_class": "MSCI USA QLT FCT",
+        "issuer": "ISHARES TR",
+        "shares": 117849.0,
+        "value_usd": 26190787.0,
+        "weight_pct": 2.72
+      }
+    ],
+    "top_five_pct": 29.29,
+    "top_ten_pct": 46.08,
+    "hhi": 316.42,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 89,
+      "exited_positions": 58,
+      "increased_positions": 74,
+      "reduced_positions": 81
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0002085853-25-000112"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0002085853-26-001227"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1541787/0001541787-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1541787/0001541787-26-000008.txt",
     "https://www.sec.gov/Archives/edgar/data/1541787/0001541787-26-000009.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "92a662a896f9bcf2d362cdaa422e3213c34026d48e73d27bf58bb7ae98a10d1f",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "d7e329c17c894f6dd585959fd856c5c64223642f7b2ca2078cc811e31f67aed0",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0001541787-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1541787/0001541787-26-000009.txt",
+    "distinct_positions": 147,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1195834830.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908744",
+        "security_class": "ETF",
+        "issuer": "Vanguard Morningstar Value ETF",
+        "shares": 520825.0,
+        "value_usd": 112539799.0,
+        "weight_pct": 9.41
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "ETF",
+        "issuer": "Vanguard Morningstar Mid-Cap ETF",
+        "shares": 1213045.0,
+        "value_usd": 95126993.0,
+        "weight_pct": 7.95
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "ETF",
+        "issuer": "Vanguard Morningstar Total Stock Market ETF",
+        "shares": 225144.0,
+        "value_usd": 84257959.0,
+        "weight_pct": 7.05
+      },
+      {
+        "cusip": "808524300",
+        "security_class": "ETF",
+        "issuer": "Schwab U.S. Large-Cap Growth ETF",
+        "shares": 2063463.0,
+        "value_usd": 74140218.0,
+        "weight_pct": 6.2
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "Vanguard S&P 500 ETF",
+        "shares": 98855.0,
+        "value_usd": 69283666.0,
+        "weight_pct": 5.79
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "ETF",
+        "issuer": "Vanguard Morningstar Growth ETF",
+        "shares": 768333.0,
+        "value_usd": 69234522.0,
+        "weight_pct": 5.79
+      },
+      {
+        "cusip": "92206C680",
+        "security_class": "ETF",
+        "issuer": "Vanguard Russell 1000 Growth ETF",
+        "shares": 523402.0,
+        "value_usd": 67482235.0,
+        "weight_pct": 5.64
+      },
+      {
+        "cusip": "808524755",
+        "security_class": "ETF",
+        "issuer": "Schwab Fundamental International Equity ETF",
+        "shares": 1158619.0,
+        "value_usd": 62275786.0,
+        "weight_pct": 5.21
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "ETF",
+        "issuer": "Vanguard FTSE Developed Markets ETF",
+        "shares": 773302.0,
+        "value_usd": 54602833.0,
+        "weight_pct": 4.57
+      },
+      {
+        "cusip": "464287614",
+        "security_class": "ETF",
+        "issuer": "iShares Russell 1000 Growth ETF",
+        "shares": 424727.0,
+        "value_usd": 53201329.0,
+        "weight_pct": 4.45
+      }
+    ],
+    "top_five_pct": 36.41,
+    "top_ten_pct": 62.06,
+    "hhi": 479.35,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 9,
+      "increased_positions": 42,
+      "reduced_positions": 49
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001541787-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001541787-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0001541787-26-000009"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

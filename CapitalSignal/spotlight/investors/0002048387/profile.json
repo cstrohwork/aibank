@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2048387/0001941040-25-000600.txt",
+    "https://www.sec.gov/Archives/edgar/data/2048387/0001941040-26-000481.txt",
     "https://www.sec.gov/Archives/edgar/data/2048387/0001941040-26-000761.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "316eacf644077801c58f7886f7f5106b2b42e9e317f84aec7ea3598abc5d9749",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f9c43486ec9c5ce421cb042c917ffd53790158d63e2daeabee4b2fc02119b130",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001941040-26-000761",
+    "source": "https://www.sec.gov/Archives/edgar/data/2048387/0001941040-26-000761.txt",
+    "distinct_positions": 49,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 106822656.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922042775",
+        "security_class": "ALLWRLD EX US",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 125507.0,
+        "value_usd": 10413291.0,
+        "weight_pct": 9.75
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 11354.0,
+        "value_usd": 7957674.0,
+        "weight_pct": 7.45
+      },
+      {
+        "cusip": "922042874",
+        "security_class": "FTSE EUROPE ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 90723.0,
+        "value_usd": 7874758.0,
+        "weight_pct": 7.37
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 13281.0,
+        "value_usd": 6811721.0,
+        "weight_pct": 6.38
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 29300.0,
+        "value_usd": 6095050.0,
+        "weight_pct": 5.71
+      },
+      {
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 14499.0,
+        "value_usd": 5760598.0,
+        "weight_pct": 5.39
+      },
+      {
+        "cusip": "464287234",
+        "security_class": "MSCI EMG MKT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 83843.0,
+        "value_usd": 5599892.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "09260D107",
+        "security_class": "COM",
+        "issuer": "BLACKSTONE INC",
+        "shares": 46960.0,
+        "value_usd": 5263790.0,
+        "weight_pct": 4.93
+      },
+      {
+        "cusip": "21037T109",
+        "security_class": "COM",
+        "issuer": "CONSTELLATION ENERGY CORP",
+        "shares": 18851.0,
+        "value_usd": 4788599.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "46137V431",
+        "security_class": "S&P 500 GARP ETF",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 31331.0,
+        "value_usd": 3722728.0,
+        "weight_pct": 3.48
+      }
+    ],
+    "top_five_pct": 36.65,
+    "top_ten_pct": 60.18,
+    "hhi": 464.61,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 9,
+      "increased_positions": 17,
+      "reduced_positions": 21
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001941040-25-000600"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001941040-26-000481"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001941040-26-000761"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

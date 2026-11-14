@@ -10,11 +10,133 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1650092/0002063364-25-000230.txt",
+    "https://www.sec.gov/Archives/edgar/data/1650092/0002063364-26-000212.txt",
     "https://www.sec.gov/Archives/edgar/data/1650092/0002063364-26-000350.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "563caa566745299fb614d68270bd71c10935b390a00e5d662d8a9d0afe6acb81",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ea7f3184bd807f312b26f5a7e2f279c90c321322b6b5ca9fc6ae2879e9235ec9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0002063364-26-000350",
+    "source": "https://www.sec.gov/Archives/edgar/data/1650092/0002063364-26-000350.txt",
+    "distinct_positions": 124,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 378254461.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 84051.0,
+        "value_usd": 27990523.0,
+        "weight_pct": 7.4
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 48748.0,
+        "value_usd": 25002849.0,
+        "weight_pct": 6.61
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 68451.0,
+        "value_usd": 23552620.0,
+        "weight_pct": 6.23
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 28802.0,
+        "value_usd": 20886634.0,
+        "weight_pct": 5.52
+      },
+      {
+        "cusip": "91913Y100",
+        "security_class": "COM",
+        "issuer": "VALERO ENERGY CORP",
+        "shares": 48290.0,
+        "value_usd": 18717687.0,
+        "weight_pct": 4.95
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 16701.0,
+        "value_usd": 15036912.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "90353T100",
+        "security_class": "COM",
+        "issuer": "UBER TECHNOLOGIES INC",
+        "shares": 197906.0,
+        "value_usd": 13558540.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "617446448",
+        "security_class": "COM NEW",
+        "issuer": "MORGAN STANLEY",
+        "shares": 67134.0,
+        "value_usd": 12626563.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMER CORP",
+        "shares": 229792.0,
+        "value_usd": 12507579.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COM",
+        "issuer": "CHARLES SCHWAB CORP (THE)",
+        "shares": 118727.0,
+        "value_usd": 11604377.0,
+        "weight_pct": 3.07
+      }
+    ],
+    "top_five_pct": 30.71,
+    "top_ten_pct": 47.98,
+    "hhi": 319.16,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 4,
+      "increased_positions": 35,
+      "reduced_positions": 30
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0002063364-25-000230"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0002063364-26-000212"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0002063364-26-000350"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

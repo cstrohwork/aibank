@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/893738/0000893738-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "d96d22929321abaa20c0940f87ada59346ea9d2e554c258d7026e70cfe3ea512",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "7fb6ee20d0f3d204eab2f813633b73c44104daf170dcdd14bbb6464b34b6781f",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0000893738-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/893738/0000893738-26-000004.txt",
+    "distinct_positions": 104,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 204949.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 13075.0,
+        "value_usd": 13926.0,
+        "weight_pct": 6.79
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE COMPUTER INC",
+        "shares": 31749.0,
+        "value_usd": 10573.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM",
+        "issuer": "EXXON MOBIL CORP",
+        "shares": 59236.0,
+        "value_usd": 9641.0,
+        "weight_pct": 4.7
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "J.P. MORGAN CHASE & CO",
+        "shares": 25885.0,
+        "value_usd": 8564.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 8850.0,
+        "value_usd": 7175.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYSTEMS INC",
+        "shares": 48066.0,
+        "value_usd": 5173.0,
+        "weight_pct": 2.52
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COM",
+        "issuer": "SCHWAB CHARLES CORP",
+        "shares": 48975.0,
+        "value_usd": 4787.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC COM",
+        "shares": 17185.0,
+        "value_usd": 4495.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "064058100",
+        "security_class": "COM",
+        "issuer": "BANK OF NEW YORK MELLON",
+        "shares": 29425.0,
+        "value_usd": 4256.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMERICA",
+        "shares": 77770.0,
+        "value_usd": 4233.0,
+        "weight_pct": 2.07
+      }
+    ],
+    "top_five_pct": 24.34,
+    "top_ten_pct": 35.53,
+    "hhi": 231.4,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 17,
+      "exited_positions": 13,
+      "increased_positions": 16,
+      "reduced_positions": 55
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0000893738-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0000893738-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

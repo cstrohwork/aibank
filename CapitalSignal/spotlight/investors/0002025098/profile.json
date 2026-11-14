@@ -10,11 +10,117 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2025098/0002025098-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/2025098/0002025098-26-000006.txt",
     "https://www.sec.gov/Archives/edgar/data/2025098/0002025098-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8599b44a01d5cb505ed9641bb79dc3570567be8546c7e86ae41eba5b881e6f53",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "027025538baefc6cfe1f85127e5ae7e5559950245ab1567f079194c26fdb8c01",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0002025098-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/2025098/0002025098-26-000008.txt",
+    "distinct_positions": 8,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 564967186.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46137V357",
+        "security_class": "Equities",
+        "issuer": "Invesco S&P 500 Equal Weight ET",
+        "shares": 1000351.0,
+        "value_usd": 208091421.0,
+        "weight_pct": 36.83
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "Equities",
+        "issuer": "Vanguard Growth Vipers ETF",
+        "shares": 1166500.0,
+        "value_usd": 105113471.0,
+        "weight_pct": 18.61
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "Equities",
+        "issuer": "Vanguard Value Vipers ETF",
+        "shares": 409437.0,
+        "value_usd": 88471797.0,
+        "weight_pct": 15.66
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "Equities",
+        "issuer": "Vanguard Index Fd S&P 500 ETF",
+        "shares": 115441.0,
+        "value_usd": 80915771.0,
+        "weight_pct": 14.32
+      },
+      {
+        "cusip": "464288521",
+        "security_class": "Mutual Funds",
+        "issuer": "IShares Core US REIT ETF",
+        "shares": 1202727.0,
+        "value_usd": 74063937.0,
+        "weight_pct": 13.11
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "Equities",
+        "issuer": "Ishares Russell 1000 Index Fund",
+        "shares": 10664.0,
+        "value_usd": 4437610.0,
+        "weight_pct": 0.79
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "Equities",
+        "issuer": "Ishares Core S&P 500 ETF",
+        "shares": 3011.0,
+        "value_usd": 2305974.0,
+        "weight_pct": 0.41
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "Equities",
+        "issuer": "SPDR S&P 500 ETF",
+        "shares": 2055.0,
+        "value_usd": 1567205.0,
+        "weight_pct": 0.28
+      }
+    ],
+    "top_five_pct": 98.53,
+    "top_ten_pct": 100.0,
+    "hhi": 2325.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0002025098-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0002025098-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0002025098-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

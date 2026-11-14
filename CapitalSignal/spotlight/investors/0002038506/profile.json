@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/2038506/0002038506-26-000006.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "93d3a70211eec87885c4e40781017d75b7e77bcf1af27666adb171809c3342a8",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "af4f32bcac2e2d36c090a25fa4d6180e1fa4d3a458c0e3447665b834cd0e1c97",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0002038506-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2038506/0002038506-26-000006.txt",
+    "distinct_positions": 70,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 131935374.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287440",
+        "security_class": "7-10 YR TRSY BD",
+        "issuer": "ISHARES TR",
+        "shares": 142254.0,
+        "value_usd": 12704722.0,
+        "weight_pct": 9.63
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 76548.0,
+        "value_usd": 8444798.0,
+        "weight_pct": 6.4
+      },
+      {
+        "cusip": "78468R663",
+        "security_class": "ST STR BLO 1 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 90248.0,
+        "value_usd": 8270344.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 51405.0,
+        "value_usd": 6180423.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 113248.0,
+        "value_usd": 5715643.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "78467V848",
+        "security_class": "ST STR TOTAL ETF",
+        "issuer": "SSGA ACTIVE ETF TR",
+        "shares": 133694.0,
+        "value_usd": 5002832.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "573874104",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 11791.0,
+        "value_usd": 3115188.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 13359.0,
+        "value_usd": 3051004.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "46429B267",
+        "security_class": "US TREAS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 136710.0,
+        "value_usd": 2989847.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 10338.0,
+        "value_usd": 2941035.0,
+        "weight_pct": 2.23
+      }
+    ],
+    "top_five_pct": 31.32,
+    "top_ten_pct": 44.28,
+    "hhi": 312.3,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 38,
+      "exited_positions": 40,
+      "increased_positions": 17,
+      "reduced_positions": 14
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0002038506-25-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0002038506-26-000006"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

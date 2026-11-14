@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1887441/0001887441-26-000008.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "f310fc81fc0b43a84a212b9a79159ec40bb3ef2602454d1bf478ababea3731e0",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "a67e0c8b5d18d7c0c3c4c780ab87984517465f515a03b90e7bd50d7800497599",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001887441-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1887441/0001887441-26-000008.txt",
+    "distinct_positions": 83,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 333549601.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "025072133",
+        "security_class": "AVAN US VALU ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 734458.0,
+        "value_usd": 57552137.0,
+        "weight_pct": 17.25
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 57313.0,
+        "value_usd": 44792784.0,
+        "weight_pct": 13.43
+      },
+      {
+        "cusip": "025072877",
+        "security_class": "US SML CP VALU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 330967.0,
+        "value_usd": 39917972.0,
+        "weight_pct": 11.97
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 31487.0,
+        "value_usd": 23412934.0,
+        "weight_pct": 7.02
+      },
+      {
+        "cusip": "81752T411",
+        "security_class": "EQUAB EQUIT ETF",
+        "issuer": "SERIES PORTFOLIOS TR",
+        "shares": 599259.0,
+        "value_usd": 18565052.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "02072L607",
+        "security_class": "FREEDOM 100 EM",
+        "issuer": "EA SERIES TRUST",
+        "shares": 257317.0,
+        "value_usd": 17352201.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 99413.0,
+        "value_usd": 17305815.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "46434V456",
+        "security_class": "MSCI INTL QUALTY",
+        "issuer": "ISHARES TR",
+        "shares": 315712.0,
+        "value_usd": 15750886.0,
+        "weight_pct": 4.72
+      },
+      {
+        "cusip": "47804J206",
+        "security_class": "MULTIFACTOR MI",
+        "issuer": "JOHN HANCOCK EXCHANGE TRADED",
+        "shares": 176848.0,
+        "value_usd": 12901083.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 50974.0,
+        "value_usd": 7014080.0,
+        "weight_pct": 2.1
+      }
+    ],
+    "top_five_pct": 55.24,
+    "top_ten_pct": 76.32,
+    "hhi": 815.82,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 22,
+      "exited_positions": 8,
+      "increased_positions": 22,
+      "reduced_positions": 35
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001887441-25-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001887441-26-000008"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

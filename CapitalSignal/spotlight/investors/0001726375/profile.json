@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1726375/0001726375-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "c36e4ec3e21adc4d7080faf0612bdc0e42d729ab2a023bbc694ed13dbcdd7a43",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "04dc8458ea932d6b4e6cc6b6d0babaec6c3dd2ecda9de9e033e537f3d6f17997",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001726375-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1726375/0001726375-26-000005.txt",
+    "distinct_positions": 112,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 317397570.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 122868.0,
+        "value_usd": 40917565.0,
+        "weight_pct": 12.89
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "COM",
+        "issuer": "AMGEN INC",
+        "shares": 56400.0,
+        "value_usd": 23773306.0,
+        "weight_pct": 7.49
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 91035.0,
+        "value_usd": 20790573.0,
+        "weight_pct": 6.55
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 77951.0,
+        "value_usd": 15918374.0,
+        "weight_pct": 5.02
+      },
+      {
+        "cusip": "747525103",
+        "security_class": "COM",
+        "issuer": "QUALCOMM INC",
+        "shares": 57612.0,
+        "value_usd": 10603000.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 56665.0,
+        "value_usd": 10519868.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 34169.0,
+        "value_usd": 8938269.0,
+        "weight_pct": 2.82
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 16892.0,
+        "value_usd": 8663650.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "311900104",
+        "security_class": "COM",
+        "issuer": "FASTENAL CO",
+        "shares": 173388.0,
+        "value_usd": 8587908.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 24736.0,
+        "value_usd": 6548609.0,
+        "weight_pct": 2.06
+      }
+    ],
+    "top_five_pct": 35.29,
+    "top_ten_pct": 48.92,
+    "hhi": 389.97,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 15,
+      "exited_positions": 9,
+      "increased_positions": 23,
+      "reduced_positions": 65
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001726375-25-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001726375-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

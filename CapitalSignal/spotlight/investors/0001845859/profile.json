@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1845859/0001951757-26-001039.txt",
     "https://www.sec.gov/Archives/edgar/data/1845859/0001951757-26-001681.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "21e669b9beb1cc56ff8f12e333465c7aa78aece8c17f14cb913942724a0881ca",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "6f0e1dfb4f126e08c6b88bd71c64df0ad1ccb8f3bd15ca1abec691c1e6b64653",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001951757-26-001681",
+    "source": "https://www.sec.gov/Archives/edgar/data/1845859/0001951757-26-001681.txt",
+    "distinct_positions": 260,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 387227443.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 112871.0,
+        "value_usd": 25777486.0,
+        "weight_pct": 6.66
+      },
+      {
+        "cusip": "46138E339",
+        "security_class": "S&P 500 MOMNTM",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 114569.0,
+        "value_usd": 17366374.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 41007.0,
+        "value_usd": 13656310.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 23618.0,
+        "value_usd": 12113885.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "746729300",
+        "security_class": "FOCUSED LAR CAP",
+        "issuer": "PUTNAM ETF TRUST",
+        "shares": 197904.0,
+        "value_usd": 10413695.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "00039J509",
+        "security_class": "DISRUPTORS ETF",
+        "issuer": "AB ACTIVE ETFS INC",
+        "shares": 63716.0,
+        "value_usd": 8385663.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "69374H386",
+        "security_class": "DATA & DIGI REVO",
+        "issuer": "PACER FDS TR",
+        "shares": 80964.0,
+        "value_usd": 8165220.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "015564503",
+        "security_class": "AI ENABLERS ADOP",
+        "issuer": "THE ALGER ETF TRUST",
+        "shares": 166185.0,
+        "value_usd": 7722626.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 30375.0,
+        "value_usd": 7567931.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "46138G698",
+        "security_class": "S&P 500 REVENUE",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 55204.0,
+        "value_usd": 7103682.0,
+        "weight_pct": 1.83
+      }
+    ],
+    "top_five_pct": 20.49,
+    "top_ten_pct": 30.54,
+    "hhi": 165.97,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 37,
+      "exited_positions": 26,
+      "increased_positions": 123,
+      "reduced_positions": 94
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001951757-26-001039"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001951757-26-001681"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

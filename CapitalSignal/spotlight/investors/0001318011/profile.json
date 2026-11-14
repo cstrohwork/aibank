@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1318011/0001318011-26-000019.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "1887f19fff7fe25eb2da12075cf6c78ec8533aae27d677e7875dffdf8aef2f51",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "cbc0ddc2ce9e5280bddf625957209579721b6ce70eab22836f107f242cc48a09",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001318011-26-000019",
+    "source": "https://www.sec.gov/Archives/edgar/data/1318011/0001318011-26-000019.txt",
+    "distinct_positions": 134,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 580202193.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 78389.0,
+        "value_usd": 54939439.0,
+        "weight_pct": 9.47
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 577292.0,
+        "value_usd": 39983241.0,
+        "weight_pct": 6.89
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 103833.0,
+        "value_usd": 34578419.0,
+        "weight_pct": 5.96
+      },
+      {
+        "cusip": "46431W507",
+        "security_class": "SHOR DURA BD ETF",
+        "issuer": "ISHARES U S ETF TR",
+        "shares": 655092.0,
+        "value_usd": 32662872.0,
+        "weight_pct": 5.63
+      },
+      {
+        "cusip": "092528876",
+        "security_class": "ISHA TOTA RE ETF",
+        "issuer": "BLACKROCK ETF TRUST II",
+        "shares": 680201.0,
+        "value_usd": 32540134.0,
+        "weight_pct": 5.61
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 145147.0,
+        "value_usd": 22911448.0,
+        "weight_pct": 3.95
+      },
+      {
+        "cusip": "74460D109",
+        "security_class": "COM",
+        "issuer": "PUBLIC STORAGE",
+        "shares": 76154.0,
+        "value_usd": 21539352.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "46434V274",
+        "security_class": "INTL EQTY FACTOR",
+        "issuer": "ISHARES TR",
+        "shares": 491443.0,
+        "value_usd": 20399811.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "09290C764",
+        "security_class": "ISHA IN CTRY ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 477608.0,
+        "value_usd": 17361053.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "92647X830",
+        "security_class": "SHS FR CA FL ETF",
+        "issuer": "VICTORY PORTFOLIOS II",
+        "shares": 319301.0,
+        "value_usd": 16345026.0,
+        "weight_pct": 2.82
+      }
+    ],
+    "top_five_pct": 33.56,
+    "top_ten_pct": 50.54,
+    "hhi": 351.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 12,
+      "increased_positions": 51,
+      "reduced_positions": 44
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001318011-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001318011-26-000015"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001318011-26-000019"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

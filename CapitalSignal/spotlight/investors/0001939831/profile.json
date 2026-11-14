@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1939831/0001939831-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "8fa85c7855fa46abf9268b4e7290189ffecbd13b7aa96ba23327f88f369ef74a",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "8cf40c0239efaebbbd245cb8c95f861505981f96b7b06502a66b26c8cb1afe0a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001939831-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1939831/0001939831-26-000005.txt",
+    "distinct_positions": 111,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 678988392.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 960527.0,
+        "value_usd": 86553124.0,
+        "weight_pct": 12.75
+      },
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 399431.0,
+        "value_usd": 86309104.0,
+        "weight_pct": 12.71
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 1190635.0,
+        "value_usd": 68532932.0,
+        "weight_pct": 10.09
+      },
+      {
+        "cusip": "922042874",
+        "security_class": "FTSE EUROPE ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 671967.0,
+        "value_usd": 58326738.0,
+        "weight_pct": 8.59
+      },
+      {
+        "cusip": "921937827",
+        "security_class": "SHORT TRM BOND",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 648612.0,
+        "value_usd": 49553954.0,
+        "weight_pct": 7.3
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 750459.0,
+        "value_usd": 44509711.0,
+        "weight_pct": 6.56
+      },
+      {
+        "cusip": "922042866",
+        "security_class": "FTSE PACIFIC ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 292690.0,
+        "value_usd": 33896414.0,
+        "weight_pct": 4.99
+      },
+      {
+        "cusip": "922908538",
+        "security_class": "MRNGSTR MD CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 106827.0,
+        "value_usd": 31204303.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "922908512",
+        "security_class": "MRNGSTR MD CP VA",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 155874.0,
+        "value_usd": 30477972.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "922908553",
+        "security_class": "REAL ESTATE ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 302962.0,
+        "value_usd": 27154476.0,
+        "weight_pct": 4.0
+      }
+    ],
+    "top_five_pct": 51.44,
+    "top_ten_pct": 76.07,
+    "hhi": 710.84,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 47,
+      "exited_positions": 12,
+      "increased_positions": 42,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0001939831-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001939831-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

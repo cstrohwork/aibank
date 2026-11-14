@@ -14,8 +14,129 @@
     "https://www.sec.gov/Archives/edgar/data/1772031/0001772031-26-000005.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "5652f2c75084bdad4a7b9e9e2f6a7ff56e3c0f1f49a23460703311f26489a040",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "23b98a53daaf136b1ac7e94b5d868d0ae9b65db25830c160bb46cecde1a05b8c",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001772031-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1772031/0001772031-26-000005.txt",
+    "distinct_positions": 279,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 908043058.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908744",
+        "security_class": "MRNGSTR VAL ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 248060.0,
+        "value_usd": 53603912.0,
+        "weight_pct": 5.9
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 154672.0,
+        "value_usd": 51508957.0,
+        "weight_pct": 5.67
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 215442.0,
+        "value_usd": 49202594.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 488083.0,
+        "value_usd": 43980633.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 42726.0,
+        "value_usd": 21914409.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 27178.0,
+        "value_usd": 20105117.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "33739Q408",
+        "security_class": "FIRST TR ENH NEW",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 323821.0,
+        "value_usd": 19271138.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 71583.0,
+        "value_usd": 17834904.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 64986.0,
+        "value_usd": 17205044.0,
+        "weight_pct": 1.89
+      },
+      {
+        "cusip": "38748G101",
+        "security_class": "SHS BEN INT",
+        "issuer": "GRANITESHARES GOLD TR",
+        "shares": 398172.0,
+        "value_usd": 16289680.0,
+        "weight_pct": 1.79
+      }
+    ],
+    "top_five_pct": 24.25,
+    "top_ten_pct": 34.24,
+    "hhi": 194.13,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 25,
+      "exited_positions": 21,
+      "increased_positions": 120,
+      "reduced_positions": 108
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001772031-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001772031-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001772031-26-000005"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

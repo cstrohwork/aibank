@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1075444/0001398344-26-018447.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2d010e2ac728e9860ee72eaf16b88831430ee96d8d1bfe89290a368eabc47811",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "ce8a0571e4c6cae43ed578ab2f044c6741811cfcdaf5516d6109de82d655d2e9",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001398344-26-018447",
+    "source": "https://www.sec.gov/Archives/edgar/data/1075444/0001398344-26-018447.txt",
+    "distinct_positions": 88,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 387440810.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 75125.0,
+        "value_usd": 52652230.0,
+        "weight_pct": 13.59
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 57004.0,
+        "value_usd": 43656709.0,
+        "weight_pct": 11.27
+      },
+      {
+        "cusip": "35671D857",
+        "security_class": "CL B",
+        "issuer": "FREEPORT MCMORAN INC",
+        "shares": 250000.0,
+        "value_usd": 17500000.0,
+        "weight_pct": 4.52
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 92614.0,
+        "value_usd": 15072905.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 131631.0,
+        "value_usd": 14167445.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 38775.0,
+        "value_usd": 13341777.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 48399.0,
+        "value_usd": 12813138.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "384802104",
+        "security_class": "COM",
+        "issuer": "WW GRAINGER INC",
+        "shares": 10250.0,
+        "value_usd": 12769040.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "291011104",
+        "security_class": "COM",
+        "issuer": "EMERSON ELEC CO",
+        "shares": 78400.0,
+        "value_usd": 12159840.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 32000.0,
+        "value_usd": 11498560.0,
+        "weight_pct": 2.97
+      }
+    ],
+    "top_five_pct": 36.92,
+    "top_ten_pct": 53.07,
+    "hhi": 500.52,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 24,
+      "exited_positions": 21,
+      "increased_positions": 10,
+      "reduced_positions": 21
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001398344-25-019298"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001398344-26-018447"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2135539/0002135539-26-000011.txt",
     "https://www.sec.gov/Archives/edgar/data/2135539/0002135539-26-000014.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "eaa43b3202f896f3860f0b4821d110a1d804ccbbed56401710dee9e3b614e687",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "f8de334fe57bf341d0ef1fd24d5abd5689000d359a440e552037dab76e10cb7a",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0002135539-26-000014",
+    "source": "https://www.sec.gov/Archives/edgar/data/2135539/0002135539-26-000014.txt",
+    "distinct_positions": 138,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 143341532.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 27025.0,
+        "value_usd": 20696974.0,
+        "weight_pct": 14.44
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 90367.0,
+        "value_usd": 11122340.0,
+        "weight_pct": 7.76
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 263891.0,
+        "value_usd": 10933014.0,
+        "weight_pct": 7.63
+      },
+      {
+        "cusip": "46641Q134",
+        "security_class": "INTRNL RES EQT",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 125640.0,
+        "value_usd": 10322588.0,
+        "weight_pct": 7.2
+      },
+      {
+        "cusip": "464288620",
+        "security_class": "USD INV GRDE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 209374.0,
+        "value_usd": 10198608.0,
+        "weight_pct": 7.11
+      },
+      {
+        "cusip": "25434V302",
+        "security_class": "EMGR CRE EQT MNG",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 253120.0,
+        "value_usd": 9950150.0,
+        "weight_pct": 6.94
+      },
+      {
+        "cusip": "46641Q167",
+        "security_class": "ACTIVE VALUE ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 98922.0,
+        "value_usd": 7886059.0,
+        "weight_pct": 5.5
+      },
+      {
+        "cusip": "464288588",
+        "security_class": "MBS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 86165.0,
+        "value_usd": 7722130.0,
+        "weight_pct": 5.39
+      },
+      {
+        "cusip": "808524854",
+        "security_class": "INT-TRM U.S TRES",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 297869.0,
+        "value_usd": 7059488.0,
+        "weight_pct": 4.92
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 114836.0,
+        "value_usd": 7019947.0,
+        "weight_pct": 4.9
+      }
+    ],
+    "top_five_pct": 44.14,
+    "top_ten_pct": 71.79,
+    "hhi": 620.96,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 5,
+      "increased_positions": 21,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0002135539-26-000011"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0002135539-26-000014"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/928568/0000928568-26-000004.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "2bb28733e63a7eaca6b41bd452990b6074e6c6f7529a21bae39970cbb621521d",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "5237cf4d4cf364ecc707bc7f20a415f2eb5735e4f7e8908ea902a4f7438d256c",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-15",
+    "accession": "0000928568-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/928568/0000928568-26-000004.txt",
+    "distinct_positions": 270,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1909996346.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 258060.0,
+        "value_usd": 132358891.0,
+        "weight_pct": 6.93
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 353711.0,
+        "value_usd": 120523547.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 179155.0,
+        "value_usd": 89210233.0,
+        "weight_pct": 4.67
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 148630.0,
+        "value_usd": 81965074.0,
+        "weight_pct": 4.29
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 113471.0,
+        "value_usd": 76598801.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "760759100",
+        "security_class": "COM",
+        "issuer": "REPUBLIC SVCS INC",
+        "shares": 346671.0,
+        "value_usd": 72755799.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "G87052109",
+        "security_class": "ORD SHS",
+        "issuer": "TE CONNECTIVITY PLC",
+        "shares": 295744.0,
+        "value_usd": 62425644.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "693475105",
+        "security_class": "COM",
+        "issuer": "PNC FINL SVCS GROUP INC",
+        "shares": 251005.0,
+        "value_usd": 55788418.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 117280.0,
+        "value_usd": 53502014.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 259357.0,
+        "value_usd": 52963321.0,
+        "weight_pct": 2.77
+      }
+    ],
+    "top_five_pct": 26.21,
+    "top_ten_pct": 41.78,
+    "hhi": 262.52,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 50,
+      "exited_positions": 41,
+      "increased_positions": 72,
+      "reduced_positions": 111
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-21",
+        "accession": "0000928568-25-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-15",
+        "accession": "0000928568-26-000004"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

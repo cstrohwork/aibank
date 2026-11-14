@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/727117/0001172661-26-004639.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "45d7709a4c57e2aea770d440b12f203e77538f1d7d7027c98c759c475ea87d3e",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "fd4a1c8184253a80fa0acfb76bb7054be9b1d3abab346b3718f9f0f5d4665fd0",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001172661-26-004639",
+    "source": "https://www.sec.gov/Archives/edgar/data/727117/0001172661-26-004639.txt",
+    "distinct_positions": 103,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 492707599.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 778698.0,
+        "value_usd": 177839078.0,
+        "weight_pct": 36.09
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 26089.0,
+        "value_usd": 30187060.0,
+        "weight_pct": 6.13
+      },
+      {
+        "cusip": "25434V203",
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 515385.0,
+        "value_usd": 21352416.0,
+        "weight_pct": 4.33
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 33085.0,
+        "value_usd": 16969315.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 78386.0,
+        "value_usd": 12757322.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "697900108",
+        "security_class": "COM",
+        "issuer": "PAN AMERN SILVER CORP",
+        "shares": 267294.0,
+        "value_usd": 12164550.0,
+        "weight_pct": 2.47
+      },
+      {
+        "cusip": "29446Y502",
+        "security_class": "COM",
+        "issuer": "EQUINOX GOLD CORP",
+        "shares": 1077083.0,
+        "value_usd": 11966392.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 28065.0,
+        "value_usd": 10084596.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 49436.0,
+        "value_usd": 9177897.0,
+        "weight_pct": 1.86
+      },
+      {
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 75444.0,
+        "value_usd": 8120038.0,
+        "weight_pct": 1.65
+      }
+    ],
+    "top_five_pct": 52.59,
+    "top_ten_pct": 63.04,
+    "hhi": 1433.03,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 20,
+      "exited_positions": 19,
+      "increased_positions": 15,
+      "reduced_positions": 45
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001172661-25-004273"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001172661-26-004639"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

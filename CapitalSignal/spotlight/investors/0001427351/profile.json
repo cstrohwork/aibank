@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1427351/0001427351-26-000013.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "313eaef284e3226e2b3061052a528de63e9d971d1ce71f4562748c3476ad12e1",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "a85e29327e030057051cc93ebd3fa9053e5cc50bf09d8bdd38d3fd7ae91ae127",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001427351-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1427351/0001427351-26-000013.txt",
+    "distinct_positions": 230,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 431014664.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 75739.0,
+        "value_usd": 34551374.0,
+        "weight_pct": 8.02
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 60992.0,
+        "value_usd": 20311681.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 25709.0,
+        "value_usd": 13186146.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORPORATION",
+        "shares": 48136.0,
+        "value_usd": 9829853.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ISHARES NEW",
+        "issuer": "ISHARES GOLD TR",
+        "shares": 110405.0,
+        "value_usd": 8622631.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 7940.0,
+        "value_usd": 8456973.0,
+        "weight_pct": 1.96
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 36510.0,
+        "value_usd": 6829196.0,
+        "weight_pct": 1.58
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMER CORP",
+        "shares": 118173.0,
+        "value_usd": 6432156.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "89417E109",
+        "security_class": "COM",
+        "issuer": "TRAVELERS COMPANIES INC",
+        "shares": 17800.0,
+        "value_usd": 6345878.0,
+        "weight_pct": 1.47
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 23764.0,
+        "value_usd": 6216425.0,
+        "weight_pct": 1.44
+      }
+    ],
+    "top_five_pct": 20.07,
+    "top_ten_pct": 28.02,
+    "hhi": 164.29,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 44,
+      "exited_positions": 47,
+      "increased_positions": 37,
+      "reduced_positions": 116
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001427351-25-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001427351-26-000013"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

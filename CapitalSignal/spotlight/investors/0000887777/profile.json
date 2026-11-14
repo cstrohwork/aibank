@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/887777/0000887777-26-000029.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "ef7659555aaf5f5393f5fd2d7820f3ab0b4a79a1b94a213e498e9b274a93e110",
-  "generated_at": "2026-11-14T14:13:49.368713+00:00",
+  "source_fingerprint": "18d887beb7f21854e21fc702034545e842a06fdae7b61e667c09b37272b3e673",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0000887777-26-000029",
+    "source": "https://www.sec.gov/Archives/edgar/data/887777/0000887777-26-000029.txt",
+    "distinct_positions": 1354,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 19317427713.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 996573.0,
+        "value_usd": 510510740.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1428287.0,
+        "value_usd": 474936298.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 1898083.0,
+        "value_usd": 472104520.0,
+        "weight_pct": 2.44
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 2034634.0,
+        "value_usd": 464222567.0,
+        "weight_pct": 2.4
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 705870.0,
+        "value_usd": 352137779.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "570535104",
+        "security_class": "COM",
+        "issuer": "MARKEL GROUP INC",
+        "shares": 197363.0,
+        "value_usd": 339007634.0,
+        "weight_pct": 1.75
+      },
+      {
+        "cusip": "11271J107",
+        "security_class": "CL A LTD VT SH",
+        "issuer": "BROOKFIELD CORP",
+        "shares": 8823389.0,
+        "value_usd": 322504946.0,
+        "weight_pct": 1.67
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 438431.0,
+        "value_usd": 307279093.0,
+        "weight_pct": 1.59
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 1145441.0,
+        "value_usd": 267242954.0,
+        "weight_pct": 1.38
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 770168.0,
+        "value_usd": 264612254.0,
+        "weight_pct": 1.37
+      }
+    ],
+    "top_five_pct": 11.77,
+    "top_ten_pct": 19.54,
+    "hhi": 77.42,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 385,
+      "exited_positions": 235,
+      "increased_positions": 479,
+      "reduced_positions": 469
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0000887777-25-000032"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0000887777-26-000029"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

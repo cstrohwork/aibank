@@ -9,11 +9,128 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2105817/0001754960-26-000633.txt",
     "https://www.sec.gov/Archives/edgar/data/2105817/0001754960-26-000935.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "28889b0066ede2ea645a75c8fb011be56b36a371965e6909336b396ea4e807ea",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "0d855bcea9b28b220e4fe0af87de6e4d12f2e694b5bf2bffced312b793cfee89",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001754960-26-000935",
+    "source": "https://www.sec.gov/Archives/edgar/data/2105817/0001754960-26-000935.txt",
+    "distinct_positions": 90,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 123969386.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 25935.0,
+        "value_usd": 8636908.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 24879.0,
+        "value_usd": 8477363.0,
+        "weight_pct": 6.84
+      },
+      {
+        "cusip": "68404L201",
+        "security_class": "COM NEW",
+        "issuer": "OPTION CARE HEALTH INC",
+        "shares": 345710.0,
+        "value_usd": 7775018.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 46727.0,
+        "value_usd": 4855910.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "369604301",
+        "security_class": "COM NEW",
+        "issuer": "GE AEROSPACE",
+        "shares": 14091.0,
+        "value_usd": 4400369.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "46434V621",
+        "security_class": "CORE DIV GRWTH",
+        "issuer": "ISHARES TR",
+        "shares": 57643.0,
+        "value_usd": 4345675.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "46641Q837",
+        "security_class": "ULTRA SHRT ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 84703.0,
+        "value_usd": 4266490.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 15628.0,
+        "value_usd": 4137475.0,
+        "weight_pct": 3.34
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 13877.0,
+        "value_usd": 3457455.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 3631.0,
+        "value_usd": 3268896.0,
+        "weight_pct": 2.64
+      }
+    ],
+    "top_five_pct": 27.54,
+    "top_ten_pct": 43.25,
+    "hhi": 278.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 6,
+      "increased_positions": 35,
+      "reduced_positions": 35
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001754960-26-000633"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001754960-26-000935"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -13,8 +13,124 @@
     "https://www.sec.gov/Archives/edgar/data/1634556/0001172661-26-004641.txt"
   ],
   "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "a605ae90617320494633b7a8d884d575a6c084dcbf64f9e4dd8f23a6f6ee76cb",
-  "generated_at": "2026-11-14T13:16:40.619741+00:00",
+  "source_fingerprint": "3eb2709bf068198f278fe2e4c1d36a1c19ac2e8995ca97fa10d1bb5fc1a0e8e3",
+  "generated_at": "2026-11-14T19:10:02.519900+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001172661-26-004641",
+    "source": "https://www.sec.gov/Archives/edgar/data/1634556/0001172661-26-004641.txt",
+    "distinct_positions": 302,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1351795645.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 2511902.0,
+        "value_usd": 252898247.0,
+        "weight_pct": 18.71
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 319401.0,
+        "value_usd": 106366965.0,
+        "weight_pct": 7.87
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US L",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 2163768.0,
+        "value_usd": 68093771.0,
+        "weight_pct": 5.04
+      },
+      {
+        "cusip": "526107107",
+        "security_class": "COM",
+        "issuer": "LENNOX INTL INC",
+        "shares": 154404.0,
+        "value_usd": 55026498.0,
+        "weight_pct": 4.07
+      },
+      {
+        "cusip": "025072190",
+        "security_class": "AVANTIS INTL SML",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 461539.0,
+        "value_usd": 36060277.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 49013.0,
+        "value_usd": 34351481.0,
+        "weight_pct": 2.54
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 129617.0,
+        "value_usd": 32294097.0,
+        "weight_pct": 2.39
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 41494.0,
+        "value_usd": 31722829.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 124782.0,
+        "value_usd": 28528395.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 76600.0,
+        "value_usd": 26100542.0,
+        "weight_pct": 1.93
+      }
+    ],
+    "top_five_pct": 38.35,
+    "top_ten_pct": 49.67,
+    "hhi": 522.37,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 143,
+      "exited_positions": 56,
+      "increased_positions": 62,
+      "reduced_positions": 93
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-14",
+        "accession": "0001172661-25-004287"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001172661-26-004641"
+      }
+    ]
+  },
   "reported_13f_value_usd": null,
   "annualized_turnover_proxy_pct": null
 }
