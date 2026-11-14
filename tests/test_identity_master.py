@@ -4,7 +4,7 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
-from build_identity_master import build, cik_id, cusip_valid
+from build_identity_master import build, cik_id, cusip_valid, publish_sharded, read_sharded
 
 class IdentityTests(unittest.TestCase):
     def test_identifiers(self):
@@ -42,5 +42,29 @@ class IdentityTests(unittest.TestCase):
             result=build(root)
             self.assertEqual(len(result['entities']),1)
             self.assertEqual(len(result['securities']),2)
+
+    def test_sharded_publication_round_trip_checksum_and_size_bound(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=pathlib.Path(td);(root/'fundamentals').mkdir()
+            rows=[]
+            for number in range(40):
+                rows.append({'cusip':'037833100','cik':'320193','ticker':'AAPL',
+                             'name':'APPLE '+('X'*number)})
+            (root/'fundamentals/universe.json').write_text(json.dumps({'as_of':'2026-01-01','securities':rows}))
+            result=build(root);result['generated_at']='2026-11-14T13:00:00+00:00'
+            result['quarantine']=[{'reason':'explicit_fixture_gap','identifier':str(i),
+                                   'source':'fixture','observation_count':1} for i in range(100)]
+            out=root/'intelligence';out.mkdir()
+            manifest=publish_sharded(result,out,target_bytes=5000)
+            rebuilt=read_sharded(out/'identity_master.json')
+            self.assertEqual(rebuilt,result)
+            shards=[s for group in manifest['collections'].values() for s in group['shards']]
+            self.assertTrue(all(s['bytes']<=5000 for s in shards))
+            self.assertGreater(len(shards),len(manifest['collections']))
+            self.assertLess((out/'identity_master.json').stat().st_size,100_000)
+            first=out/shards[0]['path']
+            first.write_bytes(first.read_bytes()+b' ')
+            with self.assertRaisesRegex(ValueError,'checksum/size mismatch'):
+                read_sharded(out/'identity_master.json')
 
 if __name__=='__main__':unittest.main()

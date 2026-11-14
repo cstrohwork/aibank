@@ -3,11 +3,16 @@
 import argparse
 import collections
 import datetime as dt
+import hashlib
 import json
 import pathlib
 import re
+import shutil
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+IDENTITY_COLLECTIONS = ('entities', 'securities', 'security_issuer_observations',
+                        'relationships', 'ambiguous_security_issuer_mappings',
+                        'quarantine', 'missing_cached_files')
 
 
 def cik_id(value):
@@ -135,6 +140,108 @@ def build(data_root):
         'missing_cached_files':sorted(set(missing_files))}
 
 
+def json_bytes(value):
+    return json.dumps(value, separators=(',', ':'), sort_keys=True).encode()
+
+
+def save_json(path, value):
+    """Write complete JSON before replacing the visible file."""
+    payload = json_bytes(value)
+    temporary = path.with_suffix(path.suffix + '.tmp')
+    temporary.write_bytes(payload)
+    temporary.replace(path)
+    return payload
+
+
+def collection_records(name, value):
+    if name == 'ambiguous_security_issuer_mappings':
+        return [{'security_id': security_id, 'entity_ids': entity_ids}
+                for security_id, entity_ids in sorted(value.items())]
+    return list(value)
+
+
+def publish_sharded(result, out, target_bytes=20_000_000):
+    """Publish a checksum-addressed manifest whose individual files stay Git-safe.
+
+    This changes storage only. Observation provenance, unknown validity dates,
+    quarantine records and incomplete-coverage labels remain unchanged.
+    """
+    if target_bytes < 1024:
+        raise ValueError('Identity shard target must be at least 1024 bytes')
+    staging = out / 'identity_master_shards.next'
+    visible = out / 'identity_master_shards'
+    previous = out / 'identity_master_shards.previous'
+    for path in (staging, previous):
+        if path.exists():
+            shutil.rmtree(path)
+    staging.mkdir(parents=True)
+    collections = {}
+    try:
+        for name in IDENTITY_COLLECTIONS:
+            rows = collection_records(name, result[name])
+            chunks, chunk, size = [], [], len(json_bytes({'collection': name, 'records': []}))
+            for row in rows:
+                row_size = len(json_bytes(row)) + (1 if chunk else 0)
+                if row_size + len(json_bytes({'collection': name, 'records': []})) > target_bytes:
+                    raise ValueError(f'Identity {name} record exceeds shard byte target')
+                if chunk and size + row_size > target_bytes:
+                    chunks.append(chunk)
+                    chunk, size = [], len(json_bytes({'collection': name, 'records': []}))
+                chunk.append(row)
+                size += row_size
+            if chunk or not rows:
+                chunks.append(chunk)
+            descriptors = []
+            for number, records in enumerate(chunks, 1):
+                filename = f'{name}-{number:05d}.json'
+                payload = save_json(staging / filename, {'collection': name, 'records': records})
+                if len(payload) > target_bytes:
+                    raise ValueError(f'Identity shard exceeds byte target: {filename}')
+                descriptors.append({'path': 'identity_master_shards/' + filename,
+                    'sha256': hashlib.sha256(payload).hexdigest(), 'bytes': len(payload),
+                    'record_count': len(records)})
+            collections[name] = {'record_count': len(rows), 'shard_count': len(descriptors),
+                                 'shards': descriptors}
+        if visible.exists():
+            visible.replace(previous)
+        staging.replace(visible)
+        if previous.exists():
+            shutil.rmtree(previous)
+    except Exception:
+        if staging.exists():
+            shutil.rmtree(staging)
+        raise
+    manifest = {'schema_version': result['schema_version'], 'publication_schema_version': 2,
+        'generated_at': result['generated_at'], 'methodology': result['methodology'],
+        'format': 'checksum-addressed JSON shards; records retain source observations and explicit gaps',
+        'collections': collections}
+    save_json(out / 'identity_master.json', manifest)
+    return manifest
+
+
+def read_sharded(manifest_path):
+    """Verify and reconstruct a published identity master for validation/clients."""
+    manifest = json.loads(manifest_path.read_text())
+    result = {'schema_version': manifest['schema_version'], 'generated_at': manifest['generated_at'],
+              'methodology': manifest['methodology']}
+    for name in IDENTITY_COLLECTIONS:
+        rows = []
+        for descriptor in manifest['collections'][name]['shards']:
+            path = manifest_path.parent / descriptor['path']
+            payload = path.read_bytes()
+            if len(payload) != descriptor['bytes'] or hashlib.sha256(payload).hexdigest() != descriptor['sha256']:
+                raise ValueError('Identity shard checksum/size mismatch: ' + descriptor['path'])
+            document = json.loads(payload)
+            if document.get('collection') != name or not isinstance(document.get('records'), list):
+                raise ValueError('Identity shard schema mismatch: ' + descriptor['path'])
+            rows.extend(document['records'])
+        if len(rows) != manifest['collections'][name]['record_count']:
+            raise ValueError('Identity shard record count mismatch: ' + name)
+        result[name] = ({row['security_id']: row['entity_ids'] for row in rows}
+                        if name == 'ambiguous_security_issuer_mappings' else rows)
+    return result
+
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--data-root',type=pathlib.Path,default=ROOT/'CapitalSignal/data')
@@ -143,11 +250,11 @@ def main():
     result=build(args.data_root)
     result['generated_at']=dt.datetime.now(dt.timezone.utc).isoformat()
     out=args.output_dir or args.data_root/'intelligence';out.mkdir(parents=True,exist_ok=True)
-    def save(name,obj):
-        path=out/name;tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(obj,separators=(',',':')));tmp.replace(path)
-    save('identity_master.json',result)
+    manifest=publish_sharded(result,out)
+    largest=max(shard['bytes'] for collection in manifest['collections'].values() for shard in collection['shards'])
     status={'generated_at':result['generated_at'],'status':'built_with_explicit_gaps','entity_count':len(result['entities']), 'security_count':len(result['securities']), 'relationship_count':len(result['relationships']), 'issuer_mapping_observation_count':len(result['security_issuer_observations']), 'ambiguous_security_count':len(result['ambiguous_security_issuer_mappings']), 'quarantine_observations':sum(x['observation_count'] for x in result['quarantine']), 'missing_cached_files':len(result['missing_cached_files']), 'gaps':['Historical effective identifier dates unknown','Adviser and ultimate parent attribution unverified','Identifiers outside cached filings not covered']}
-    save('identity_status.json',status)
+    status.update(publication_format='sharded_manifest_v2', identity_shard_count=sum(x['shard_count'] for x in manifest['collections'].values()), largest_identity_shard_bytes=largest)
+    save_json(out/'identity_status.json',status)
     print(json.dumps(status))
 
 
