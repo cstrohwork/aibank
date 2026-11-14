@@ -128,7 +128,12 @@ def run(batch=2000):
         if manifest['profiles'].get(str(p.get('manager_cik') or '').zfill(10), {}).get('fingerprint')
         != hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
     )
-    # Separate never-published coverage from changed profiles awaiting refresh.\n    # The combined pending count must not be mistaken for undiscovered investors.\n    never_published_remaining = sum(1 for p in profiles if str(p.get('manager_cik') or '').zfill(10) not in manifest['profiles'])\n    refresh_remaining = remaining - never_published_remaining\n    manifest.update(never_published_remaining=never_published_remaining, refresh_remaining=refresh_remaining,\n                    updated_at=now, cached_investor_count=len(profiles), generated_count=len(manifest['profiles']),
+    # Separate never-published coverage from changed profiles awaiting refresh.
+    # The combined pending count must not be mistaken for undiscovered investors.
+    never_published_remaining = sum(1 for p in profiles if str(p.get('manager_cik') or '').zfill(10) not in manifest['profiles'])
+    refresh_remaining = remaining - never_published_remaining
+    manifest.update(never_published_remaining=never_published_remaining, refresh_remaining=refresh_remaining,
+                    updated_at=now, cached_investor_count=len(profiles), generated_count=len(manifest['profiles']),
                     changed_this_run=changed, remaining_changed_or_unpublished=remaining,
                     selected_this_run=len(selected), errors=errors)
     manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')
