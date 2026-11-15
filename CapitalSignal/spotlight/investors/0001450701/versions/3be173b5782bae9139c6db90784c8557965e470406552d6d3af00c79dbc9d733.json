@@ -1,0 +1,88 @@
+{
+  "manager_cik": "0001450701",
+  "investor_name": "THOMA BRAVO, L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-26",
+  "city": "CHICAGO",
+  "state": "IL",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1450701/0001450701-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1450701/0001450701-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1450701/0001450701-26-000005.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "3be173b5782bae9139c6db90784c8557965e470406552d6d3af00c79dbc9d733",
+  "generated_at": "2026-11-15T09:36:44.320984+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-26",
+    "accession": "0001450701-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1450701/0001450701-26-000005.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 10021048682.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78781J109",
+        "security_class": "COM",
+        "issuer": "SAILPOINT INC",
+        "shares": 479842514.0,
+        "value_usd": 9769593585.0,
+        "weight_pct": 97.49
+      },
+      {
+        "cusip": "62878D100",
+        "security_class": "COMMON STOCK",
+        "issuer": "N-ABLE INC",
+        "shares": 50090643.0,
+        "value_usd": 205371636.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "81764X103",
+        "security_class": "SHS CL A",
+        "issuer": "SERVICETITAN INC",
+        "shares": 700463.0,
+        "value_usd": 46083461.0,
+        "weight_pct": 0.46
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9508.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001450701-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0001450701-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-26",
+        "accession": "0001450701-26-000005"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 10021048682.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001450701-26-000005",
+  "annualized_turnover_proxy_pct": null
+}

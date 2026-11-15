@@ -1,0 +1,96 @@
+{
+  "manager_cik": "0001842727",
+  "investor_name": "Greenfield FTC, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-16",
+  "city": "Reno",
+  "state": "NV",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1842727/0001193125-25-242410.txt",
+    "https://www.sec.gov/Archives/edgar/data/1842727/0001193125-26-306277.txt",
+    "https://www.sec.gov/Archives/edgar/data/1842727/0001193125-26-423863.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "0a244c6e14d5c4cf628e1a41def9b8725dfa8f8dfe331feb2ff626807cf83f52",
+  "generated_at": "2026-11-15T09:36:44.320984+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001193125-26-423863",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842727/0001193125-26-423863.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 742541054.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "Shares",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 699141.0,
+        "value_usd": 533185901.0,
+        "weight_pct": 71.81
+      },
+      {
+        "cusip": "464287234",
+        "security_class": "Shares",
+        "issuer": "MSCI EMERGING MKTS (EEM)",
+        "shares": 1880531.0,
+        "value_usd": 125600665.0,
+        "weight_pct": 16.91
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "Shares",
+        "issuer": "MSCI EAFE ETF (EFA)",
+        "shares": 774023.0,
+        "value_usd": 80413249.0,
+        "weight_pct": 10.83
+      },
+      {
+        "cusip": "05686D200",
+        "security_class": "Shares",
+        "issuer": "MFC BAILLIE GIFFORD ETF TRUST LONG TERM GLOBAL GROWTH (BGGG)",
+        "shares": 96276.0,
+        "value_usd": 3341239.0,
+        "weight_pct": 0.45
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5559.64,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-17",
+        "accession": "0001193125-25-242410"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-17",
+        "accession": "0001193125-26-306277"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001193125-26-423863"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 742541054.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-423863",
+  "annualized_turnover_proxy_pct": null
+}

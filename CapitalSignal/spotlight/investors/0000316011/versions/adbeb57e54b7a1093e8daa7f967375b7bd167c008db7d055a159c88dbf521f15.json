@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0000316011",
+  "investor_name": "LILLY ENDOWMENT INC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-19",
+  "city": "INDIANAPOLIS",
+  "state": "IN",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/316011/0000316011-25-000039.txt",
+    "https://www.sec.gov/Archives/edgar/data/316011/0000316011-26-000027.txt",
+    "https://www.sec.gov/Archives/edgar/data/316011/0000316011-26-000034.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "adbeb57e54b7a1093e8daa7f967375b7bd167c008db7d055a159c88dbf521f15",
+  "generated_at": "2026-11-15T09:36:44.320984+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0000316011-26-000034",
+    "source": "https://www.sec.gov/Archives/edgar/data/316011/0000316011-26-000034.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 104214698904.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "532457108",
+        "security_class": "Common",
+        "issuer": "Eli Lilly and Company",
+        "shares": 90066978.0,
+        "value_usd": 104214698904.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0000316011-25-000039"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-23",
+        "accession": "0000316011-26-000027"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0000316011-26-000034"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 104214698904.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000316011-26-000034",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0002151773",
+  "investor_name": "K5 Global Advisor LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-20",
+  "city": "Miami Beach",
+  "state": "FL",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2151773/0001099910-26-000254.txt",
+    "https://www.sec.gov/Archives/edgar/data/2151773/0001099910-26-000283.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c1edd2b5a73b5f7fe61e60a283c6abbaee4a417e2957053ad7dddbb1f11c0870",
+  "generated_at": "2026-11-15T09:36:44.320984+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001099910-26-000283",
+    "source": "https://www.sec.gov/Archives/edgar/data/2151773/0001099910-26-000283.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4024647332.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "Class A common stock",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 26673191.0,
+        "value_usd": 4023917640.0,
+        "weight_pct": 99.98
+      },
+      {
+        "cusip": "M7518J104",
+        "security_class": "Class A ordinary shares",
+        "issuer": "ODDITY TECH LTD",
+        "shares": 24772.0,
+        "value_usd": 462246.0,
+        "weight_pct": 0.01
+      },
+      {
+        "cusip": "64125S104",
+        "security_class": "Common Stock",
+        "issuer": "NEUTRON HOLDINGS INC",
+        "shares": 9494.0,
+        "value_usd": 267446.0,
+        "weight_pct": 0.01
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9996.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-27",
+        "accession": "0001099910-26-000254"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001099910-26-000283"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 4024647332.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001099910-26-000283",
+  "annualized_turnover_proxy_pct": null
+}
