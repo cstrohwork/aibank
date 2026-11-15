@@ -1,0 +1,88 @@
+{
+  "manager_cik": "0001731118",
+  "investor_name": "Bpifrance SA",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-09",
+  "city": "MAISONS ALFORT, CEDEX",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1731118/0001104659-25-105351.txt",
+    "https://www.sec.gov/Archives/edgar/data/1731118/0001104659-26-086920.txt",
+    "https://www.sec.gov/Archives/edgar/data/1731118/0001104659-26-124182.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "8b58fc8109731e6b30dcb62fc8041aa6184ad3feae8f131834e7dfa4b89c0a3c",
+  "generated_at": "2026-11-15T08:49:21.098178+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001104659-26-124182",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731118/0001104659-26-124182.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1197571345.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "N82405106",
+        "security_class": "COM",
+        "issuer": "STELLANTIS NV",
+        "shares": 192703907.0,
+        "value_usd": 853489025.0,
+        "weight_pct": 71.27
+      },
+      {
+        "cusip": "F21107101",
+        "security_class": "CL A",
+        "issuer": "CONSTELLIUM NV",
+        "shares": 8403903.0,
+        "value_usd": 203290414.0,
+        "weight_pct": 16.98
+      },
+      {
+        "cusip": "F70289107",
+        "security_class": "ORD",
+        "issuer": "PASQUAL HOLDING SA",
+        "shares": 22137092.0,
+        "value_usd": 140791906.0,
+        "weight_pct": 11.76
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5505.55,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001104659-25-105351"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001104659-26-086920"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001104659-26-124182"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1197571345.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-124182",
+  "annualized_turnover_proxy_pct": null
+}

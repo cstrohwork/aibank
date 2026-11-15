@@ -1,0 +1,104 @@
+{
+  "manager_cik": "0001489178",
+  "investor_name": "Liberty Street Advisors, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-05",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1489178/0001489178-25-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1489178/0002071844-26-000931.txt",
+    "https://www.sec.gov/Archives/edgar/data/1489178/0002071844-26-001816.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "ce011b00884fd9d4854affcf3922c7d6e0cb227169f603648bf15a508055b435",
+  "generated_at": "2026-11-15T08:49:21.098178+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0002071844-26-001816",
+    "source": "https://www.sec.gov/Archives/edgar/data/1489178/0002071844-26-001816.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 463483653.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "Space Exploration Tech",
+        "shares": 2451669.0,
+        "value_usd": 369858786.0,
+        "weight_pct": 79.8
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "COM CL A",
+        "issuer": "Cerebras",
+        "shares": 193010.0,
+        "value_usd": 34288226.0,
+        "weight_pct": 7.4
+      },
+      {
+        "cusip": "64125S104",
+        "security_class": "COM",
+        "issuer": "Neutron Holdings Inc.",
+        "shares": 1032159.0,
+        "value_usd": 29075919.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "086921103",
+        "security_class": "COM SHS CL A",
+        "issuer": "Beta Technologies, Inc.",
+        "shares": 799202.0,
+        "value_usd": 17662365.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "29445S100",
+        "security_class": "COM CL A",
+        "issuer": "EquipmentShare",
+        "shares": 725294.0,
+        "value_usd": 12598357.0,
+        "weight_pct": 2.72
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6483.99,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001489178-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0002071844-26-000931"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0002071844-26-001816"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 463483653.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002071844-26-001816",
+  "annualized_turnover_proxy_pct": null
+}

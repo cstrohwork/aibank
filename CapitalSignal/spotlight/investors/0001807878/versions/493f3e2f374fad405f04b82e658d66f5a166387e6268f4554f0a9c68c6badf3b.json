@@ -1,0 +1,88 @@
+{
+  "manager_cik": "0001807878",
+  "investor_name": "Working Capital Advisors (UK) Ltd.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-04",
+  "city": "LONDON",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1807878/0001807878-25-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1807878/0001807878-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1807878/0001807878-26-000008.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "493f3e2f374fad405f04b82e658d66f5a166387e6268f4554f0a9c68c6badf3b",
+  "generated_at": "2026-11-15T08:49:21.098178+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001807878-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1807878/0001807878-26-000008.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 39345174.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "35969L108",
+        "security_class": "SPONSORED ADS",
+        "issuer": "FULL TRUCK ALLIANCE CO LTD",
+        "shares": 2593393.0,
+        "value_usd": 21447360.0,
+        "weight_pct": 54.51
+      },
+      {
+        "cusip": "860897107",
+        "security_class": "COM CL A",
+        "issuer": "STITCH FIX INC",
+        "shares": 6779324.0,
+        "value_usd": 17355069.0,
+        "weight_pct": 44.11
+      },
+      {
+        "cusip": "35969L108",
+        "security_class": "AMERICAN DEPOSITARY SHARES",
+        "issuer": "TENCENT MUSIC ENTERTAINMENT GROUP",
+        "shares": 68442.0,
+        "value_usd": 542745.0,
+        "weight_pct": 1.38
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4919.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001807878-25-000010"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001807878-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001807878-26-000008"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 39345174.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001807878-26-000008",
+  "annualized_turnover_proxy_pct": null
+}

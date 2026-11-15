@@ -1,0 +1,104 @@
+{
+  "manager_cik": "0001353198",
+  "investor_name": "Cabot-Wellington, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-02",
+  "city": "BOSTON",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1353198/0001062993-25-016356.txt",
+    "https://www.sec.gov/Archives/edgar/data/1353198/0001062993-26-003669.txt",
+    "https://www.sec.gov/Archives/edgar/data/1353198/0001062993-26-005658.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "84502e8d3aa1ca39d37fd1e4cb68be378b11590adbca9b21834a28bde9183b7b",
+  "generated_at": "2026-11-15T08:49:21.098178+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001062993-26-005658",
+    "source": "https://www.sec.gov/Archives/edgar/data/1353198/0001062993-26-005658.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 367629660.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 743703.0,
+        "value_usd": 278323262.0,
+        "weight_pct": 75.71
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 655351.0,
+        "value_usd": 63490452.0,
+        "weight_pct": 17.27
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 302780.0,
+        "value_usd": 24573609.0,
+        "weight_pct": 6.68
+      },
+      {
+        "cusip": "922908751",
+        "security_class": "MRNGSTR SML CAP",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 3565.0,
+        "value_usd": 1014239.0,
+        "weight_pct": 0.28
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 1445.0,
+        "value_usd": 228098.0,
+        "weight_pct": 0.06
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6074.65,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001062993-25-016356"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-15",
+        "accession": "0001062993-26-003669"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001062993-26-005658"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 367629660.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001062993-26-005658",
+  "annualized_turnover_proxy_pct": null
+}
