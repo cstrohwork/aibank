@@ -1,0 +1,78 @@
+{
+  "manager_cik": "0001276520",
+  "investor_name": "Genworth Financial Inc",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-21",
+  "city": "Glen Allen",
+  "state": "VA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1276520/0001628280-25-046380.txt",
+    "https://www.sec.gov/Archives/edgar/data/1276520/0001628280-26-049127.txt",
+    "https://www.sec.gov/Archives/edgar/data/1276520/0001276520-26-000044.txt"
+  ],
+  "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
+  "source_fingerprint": "d08eb0b136a9b0f4e486636bab14a15d29c9059ce1dd924973f4594c0107609e",
+  "generated_at": "2026-11-15T02:53:50.850164+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-21",
+    "accession": "0001276520-26-000044",
+    "source": "https://www.sec.gov/Archives/edgar/data/1276520/0001276520-26-000044.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 494592711.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "COM",
+        "issuer": "ISHARES CORE S&P 500\nINDEX ETF",
+        "shares": 601470.0,
+        "value_usd": 460635800.0,
+        "weight_pct": 93.13
+      },
+      {
+        "cusip": "46138E354",
+        "security_class": "COM",
+        "issuer": "INVESCO S&P 500\nLOW VOLATILITY ETF",
+        "shares": 481590.0,
+        "value_usd": 33956911.0,
+        "weight_pct": 6.87
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 8721.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-27",
+        "accession": "0001628280-25-046380"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001628280-26-049127"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-21",
+        "accession": "0001276520-26-000044"
+      }
+    ]
+  },
+  "reported_13f_value_usd": null,
+  "annualized_turnover_proxy_pct": null
+}
