@@ -117,7 +117,7 @@ def run(batch=2000):
             previous_versions = sorted(versions.glob('*.json')) if versions.exists() else []
             history_links = []
             for version_file in previous_versions:
-                if not re.fullmatch(r'[0-9a-f]{64}\\.json', version_file.name):
+                if not re.fullmatch(r'[0-9a-f]{64}\.json', version_file.name):
                     continue
                 try:
                     old_version = json.loads(version_file.read_text())
