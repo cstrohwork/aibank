@@ -184,6 +184,33 @@ class StandaloneIdentityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'series identifier'):
             parse(self.xml(series_name='Another Fund', series_lei='00000000000000000000'), 'SEC original')
 
+    def test_sec_reported_empty_investment_schedule_is_retained_and_labelled(self):
+        raw = (b'<edgarSubmission><regCik>1</regCik><regName>New Fund</regName>'
+               b'<seriesId>S000000001</seriesId><seriesName>New Fund</seriesName>'
+               b'<repPdDate>2025-09-30</repPdDate><totAssets>250000</totAssets>'
+               b'<totLiabs>0</totLiabs><netAssets>250000</netAssets></edgarSubmission>')
+        fund = parse(raw, 'SEC original')
+        self.assertEqual(fund['holdings'], [])
+        self.assertEqual(fund['reported_position_count'], 0)
+        self.assertEqual(fund['position_coverage'], 'sec_reported_no_investment_positions')
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            fund.update(registrant_cik='0000000001', registrant_name='New Fund',
+                        filing_date='2025-10-30', accession='fixture')
+            history.save(root / 'history/normalized/funds/fixture.json.gz', fund)
+            with contextlib.redirect_stdout(io.StringIO()):
+                rebuild(root)
+            entry = history.load(root / 'funds/history_index.json')['funds'][0]
+            self.assertEqual(entry['holdings_count'], 0)
+            self.assertEqual(entry['position_coverage'], 'sec_reported_no_investment_positions')
+
+    def test_unparsed_investment_node_is_not_zero_position_success(self):
+        raw = (b'<edgarSubmission><seriesId>S000000001</seriesId><seriesName>Fund</seriesName>'
+               b'<repPdDate>2025-09-30</repPdDate><totAssets>1</totAssets><totLiabs>0</totLiabs>'
+               b'<netAssets>1</netAssets><invstOrSec><valUSD>unknown</valUSD></invstOrSec>'
+               b'</edgarSubmission>')
+        self.assertIsNone(parse(raw, 'SEC original'))
+
     def test_name_alone_or_invalid_lei_does_not_invent_identity(self):
         for args in ({'series_lei': ''}, {'series_lei': 'NOT-A-VALID-LEI'},
                      {'series_name': 'Another Fund', 'series_lei': 'N/A'}):
