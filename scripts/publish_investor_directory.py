@@ -45,7 +45,7 @@ def run(batch=2000):
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
-        profile['render_version'] = 'validated-usd-concentration-gate-v4'
+        profile['render_version'] = 'validated-value-provenance-v5'
         profile['holdings_fingerprints'] = [blob_map.get('CapitalSignal/data/13f/' + str(e.get('file')), '') for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
     profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or ''), reverse=True)
     # Reserve a quarter of each bounded run for never-published managers.
@@ -109,7 +109,7 @@ def run(batch=2000):
             body = body.replace('<main>', '<div class="layout">' + sidebar + '<main>')
             body += ''.join('<tr><th style="text-align:left;padding:8px">' + esc(k) + '</th><td>' + esc(v) + '</td></tr>' for k,v in rows)
             body += '</table>' + render(p, analytics)
-            body += '<h2>Coverage and verification</h2><p>Profile generated from the current normalized SEC cache. Monetary totals and turnover are withheld pending source-unit and amendment reconciliation. The latest cached reporting period may lag newer filings. Unknown fields indicate missing evidence.</p>'
+            body += '<h2>Coverage and verification</h2><p>Profile generated from the current normalized SEC cache. Monetary totals appear only when normalized USD units and filing precedence pass validation; they have not been independently reconciled to SEC cover-page totals. Turnover remains withheld pending historical and corporate-action validation. The latest cached reporting period may lag newer filings. Unknown fields indicate missing evidence.</p>'
             body += '<h2>SEC filing sources</h2><ul>' + ''.join('<li><a href="' + esc(s) + '">' + esc(s) + '</a></li>' for s in sources) + '</ul>'
             body += '<p><a href="../">All investor profiles</a> · <a href="profile.json">Profile data</a></p></section></main></div></html>'
             target = OUT / cik
@@ -119,13 +119,13 @@ def run(batch=2000):
             doc = {'manager_cik': cik, 'investor_name': name, 'latest_report_date': p.get('latest_report_date'),
                    'filing_date': p.get('filing_date'), 'city': p.get('city'), 'state': p.get('state'), 'country': p.get('country'),
                    'investor_style': style, 'orientation': orientation, 'source_filings': sources,
-                   'evidence_status': 'cached_source_profile_monetary_reconciliation_pending', 'source_fingerprint': fingerprint,
-                   'generated_at': now, 'holdings_analytics': analytics, 'reported_13f_value_usd': None, 'annualized_turnover_proxy_pct': None}
+                   'evidence_status': ('normalized_usd_validated_not_cover_page_reconciled' if analytics.get('reported_long_equity_value_usd') is not None else 'cached_source_profile_monetary_reconciliation_pending'), 'source_fingerprint': fingerprint,
+                   'generated_at': now, 'holdings_analytics': analytics, 'reported_13f_value_usd': analytics.get('reported_long_equity_value_usd'), 'reported_13f_value_basis': 'validated_normalized_long_share_exposure_not_total_aum', 'validated_accession': analytics.get('accession') if analytics.get('reported_long_equity_value_usd') is not None else None, 'annualized_turnover_proxy_pct': None}
             content = json.dumps(doc, indent=2) + '\n'
             (versions / (fingerprint + '.json')).write_text(content)
             (target / 'profile.json').write_text(content)
             (target / 'index.html').write_text(head + body)
-            manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'generated_at': now}
+            manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'validated_accession': doc['validated_accession'], 'generated_at': now}
             manifest['failures'].pop(cik, None)
             changed += 1
         except Exception as exc:
