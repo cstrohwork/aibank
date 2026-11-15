@@ -45,7 +45,7 @@ def run(batch=2000):
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
-        profile['render_version'] = 'amendment-precedence-gate-v2'
+        profile['render_version'] = 'distinct-prior-period-comparison-v3'
         profile['holdings_fingerprints'] = [blob_map.get('CapitalSignal/data/13f/' + str(e.get('file')), '') for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
     profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or ''), reverse=True)
     # Reserve a quarter of each bounded run for never-published managers.
