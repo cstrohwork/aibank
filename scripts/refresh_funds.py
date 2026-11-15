@@ -28,12 +28,14 @@ def fund_identity(root):
     reg_lei=val(root,"regLei").upper()
     series_lei=val(root,"seriesLei").upper()
     same_name=" ".join(reg_name.casefold().split())==" ".join(series_name.casefold().split())
-    same_valid_lei=(bool(re.fullmatch(r"[A-Z0-9]{20}",reg_lei)) and reg_lei==series_lei)
     valid_reg_lei=bool(re.fullmatch(r"[A-Z0-9]{20}",reg_lei)) and reg_lei!="0"*20
     valid_series_lei=bool(re.fullmatch(r"[A-Z0-9]{20}",series_lei)) and series_lei!="0"*20
+    same_valid_lei=valid_reg_lei and valid_series_lei and reg_lei==series_lei
     distinct_series_lei=valid_series_lei and series_lei!=reg_lei
     same_entity=bool(reg_name) and same_name and same_valid_lei
     same_named_entity_without_series_lei=bool(reg_name) and same_name and series_lei=="N/A"
+    same_named_entity_with_zero_series_lei=(bool(reg_name) and same_name and
+                                            series_lei=="0"*20 and valid_reg_lei)
     explicit_na=series_name.upper()=="N/A" and series_lei=="N/A"
     explicit_none_zero_lei=(series_name.upper()=="NONE" and series_lei=="0"*20 and valid_reg_lei)
     if re.fullmatch(r"\d{1,10}",cik) and reg_name and series_name and distinct_series_lei:
@@ -41,11 +43,12 @@ def fund_identity(root):
                 "identity_basis":"sec_series_lei_without_series_id",
                 "identity_registrant_cik":cik.zfill(10),"registrant_lei":reg_lei,
                 "series_lei_reported":series_lei,"series_name_reported":series_name}
-    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_valid_lei or same_named_entity_without_series_lei or explicit_na or explicit_none_zero_lei):
+    if not re.fullmatch(r"\d{1,10}",cik) or not reg_name or not (same_valid_lei or same_named_entity_without_series_lei or same_named_entity_with_zero_series_lei or explicit_na or explicit_none_zero_lei):
         raise ValueError("Missing/invalid N-PORT series identifier")
     if same_entity:basis="matching_registrant_series_lei_and_name"
     elif same_valid_lei:basis="matching_registrant_series_lei"
     elif same_named_entity_without_series_lei:basis="matching_registrant_series_name_series_lei_not_applicable"
+    elif same_named_entity_with_zero_series_lei:basis="matching_registrant_series_name_zero_placeholder_series_lei"
     elif explicit_none_zero_lei:basis="explicit_none_series_zero_lei"
     else:basis="explicit_not_applicable_series"
     return {"series_id":None,"fund_id":"CIK"+cik.zfill(10),

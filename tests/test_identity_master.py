@@ -60,6 +60,19 @@ class IdentityTests(unittest.TestCase):
             self.assertEqual(result['relationships'][0]['parent_id'],'cik:0000000002')
             self.assertFalse(any(q['reason']=='unverified_fund_identity' for q in result['quarantine']))
 
+    def test_matching_name_zero_series_lei_basis_keeps_registrant_scoped_fund(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=pathlib.Path(td);(root/'funds').mkdir()
+            (root/'funds/index.json').write_text(json.dumps({'funds':[{
+                'fund_id':'CIK0002059105','series_id':None,
+                'identity_basis':'matching_registrant_series_name_zero_placeholder_series_lei',
+                'fund_name':'StepStone Private Credit Co-Investment Fund',
+                'registrant_cik':'0002059105','registrant_name':'StepStone Private Credit Co-Investment Fund',
+                'report_date':'2026-06-30','source':'SEC original','file':'missing.json'}]}))
+            result=build(root)
+            self.assertTrue(any(e['id']=='fund:registrant:0002059105' for e in result['entities']))
+            self.assertFalse(any(q['reason']=='unverified_fund_identity' for q in result['quarantine']))
+
     def test_sharded_publication_round_trip_checksum_and_size_bound(self):
         with tempfile.TemporaryDirectory() as td:
             root=pathlib.Path(td);(root/'fundamentals').mkdir()
