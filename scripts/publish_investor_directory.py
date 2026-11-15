@@ -155,7 +155,10 @@ def run(batch=2000):
         if (manifest['profiles'].get(cik, {}).get('fingerprint') != fingerprint
                 or not ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists())):
             next_batch.append({'manager_cik': cik, 'report_date': p.get('latest_report_date'),
-                               'state': 'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'})
+                               'source_fingerprint': fingerprint,
+                               'state': ('failed_retry' if cik in manifest['failures'] else
+                                         'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'),
+                               'retry_attempts': manifest['failures'].get(cik, {}).get('attempts', 0)})
         if len(next_batch) >= min(batch, 200):
             break
     # Reconcile the active discovery universe separately from historical pages.
