@@ -7,7 +7,7 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
-from publish_fundamental_checkpoint import DATA, merge_inputs, publish
+from publish_fundamental_checkpoint import DATA, merge_inputs, publish, summarize
 from match_fundamental_portfolios import match_positions
 from unittest import mock
 
@@ -18,6 +18,14 @@ def record(root, cik, age=0):
 def universe(root, ciks):
     root.mkdir(parents=True,exist_ok=True)
     (root/'universe.json').write_text(json.dumps({'as_of':'2026-11-10','retrieved_at':dt.datetime.now(dt.timezone.utc).isoformat(),'securities':[{'cik':c} for c in ciks]}))
+
+def supplemental(root, ciks):
+    root.mkdir(parents=True,exist_ok=True);stamp=dt.datetime.now(dt.timezone.utc).isoformat()
+    (root/'large_megacap_outside_proxies.json').write_text(json.dumps({
+        'status':'verified_current_screen_outside_etf_proxies','as_of':'2026-11-15','retrieved_at':stamp,
+        'source_url':'https://example.test/screener','source_sha256':'a'*64,
+        'scope':'Current observation only; not historical membership.',
+        'securities':[{'cik':c,'ticker':'OUT'+c[-1]} for c in ciks]}))
 
 def git(root,*args):
     return subprocess.run(['git',*args],cwd=root,check=True,capture_output=True,text=True).stdout
@@ -68,3 +76,19 @@ class PublicationTests(unittest.TestCase):
             record(source,'0000000001');path=source/'companyfacts/0000000001.json.gz'
             path.write_bytes(gzip.compress(b'{"cik":"wrong","fields":{}}'))
             with self.assertRaises(ValueError):merge_inputs(source,target)
+
+    def test_supplemental_screen_and_issuer_survive_publication_merge(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source=pathlib.Path(directory)/'source';target=pathlib.Path(directory)/'target'
+            universe(source,['0000000001']);universe(target,['0000000001'])
+            supplemental(source,['0000000009'])
+            record(source,'0000000001');record(source,'0000000009')
+            merge_inputs(source,target)
+            report=summarize(target,{})
+            self.assertTrue((target/'large_megacap_outside_proxies.json').exists())
+            self.assertEqual(report['unique_mapped_issuers'],1)
+            self.assertEqual(report['ingested_issuers'],1)
+            self.assertEqual(report['fundamental_ingestion_unique_issuers'],2)
+            self.assertEqual(report['fundamental_ingestion_ingested_issuers'],2)
+            self.assertEqual(report['supplemental_large_megacap']['unique_mapped_issuers'],1)
+            self.assertEqual(report['supplemental_large_megacap']['ingested_issuers'],1)

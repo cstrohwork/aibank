@@ -40,10 +40,14 @@ def rank(path, relative):
         if not obj.get('securities'):
             raise ValueError('Empty universe')
         return (dt.date.fromisoformat(obj['as_of']), stamp(obj['retrieved_at']))
+    if relative.name == 'large_megacap_outside_proxies.json':
+        if obj.get('status') != 'verified_current_screen_outside_etf_proxies' or not isinstance(obj.get('securities'), list):
+            raise ValueError('Invalid supplemental large/mega-cap screen')
+        return (dt.date.fromisoformat(obj['as_of']), stamp(obj['retrieved_at']))
     return (stamp(obj['at']),)
 
 def input_files(folder):
-    for name in ('universe.json', 'last_attempt.json'):
+    for name in ('universe.json', 'large_megacap_outside_proxies.json', 'last_attempt.json'):
         p = folder/name
         if p.is_file(): yield p
     for pattern in ('companyfacts/[0-9]*.json.gz', 'universes/*.json'):
@@ -70,8 +74,15 @@ def merge_inputs(source, target):
 def summarize(folder, evidence):
     universe = read(folder/'universe.json')
     members = universe['securities']
-    required = sorted({s['cik'] for s in members if s.get('cik')})
-    pending, invalid, coverage = [], [], collections.Counter()
+    supplemental_path = folder/'large_megacap_outside_proxies.json'
+    supplemental = read(supplemental_path) if supplemental_path.exists() else {'securities': []}
+    supplemental_members = supplemental.get('securities', [])
+    proxy_required = {s['cik'] for s in members if s.get('cik')}
+    supplemental_required = {s['cik'] for s in supplemental_members if s.get('cik')}
+    required = sorted(proxy_required | supplemental_required)
+    pending, invalid = [], []
+    coverage, supplemental_coverage = collections.Counter(), collections.Counter()
+    records, fresh_ciks = {}, set()
     count = fresh = 0
     for cik in required:
         path = folder/'companyfacts'/(cik+'.json.gz')
@@ -80,21 +91,41 @@ def summarize(folder, evidence):
         try:
             record = read(path)
             rank(path, pathlib.Path('companyfacts')/path.name)
-            facts = snapshot(record, universe['as_of'])
+            records[cik] = record
             count += 1
             fresh += (dt.datetime.now(dt.timezone.utc)-stamp(record['retrieved_at'])).total_seconds() < 86400
-            coverage.update(facts.keys())
+            if (dt.datetime.now(dt.timezone.utc)-stamp(record['retrieved_at'])).total_seconds() < 86400:
+                fresh_ciks.add(cik)
+            if cik in proxy_required:
+                coverage.update(snapshot(record, universe['as_of']).keys())
+            if cik in supplemental_required:
+                supplemental_coverage.update(snapshot(record, supplemental['as_of']).keys())
         except (OSError, ValueError, KeyError, TypeError, EOFError) as exc:
             pending.append(cik); invalid.append({'cik':cik,'error':str(exc)})
     errors = {e['cik']: e for e in evidence.get('failed_attempts', []) if e.get('cik') in pending}
     status = dict(evidence)
+    supplemental_evidence = evidence.get('supplemental_large_megacap', {})
     status.update(updated_at=dt.datetime.now(dt.timezone.utc).isoformat(),
         status='complete_with_gaps' if not pending else 'partial',
         universe_as_of=universe['as_of'], universe_basis=universe.get('membership_basis'),
         security_count=len(members), mapped_security_count=sum(bool(s.get('cik')) for s in members),
-        unique_mapped_issuers=len(required), ingested_issuers=count, fresh_issuers=fresh,
-        pending_issuers=pending, failed_attempts=list(errors.values()), invalid_records=invalid,
+        unique_mapped_issuers=len(proxy_required), ingested_issuers=len(proxy_required & records.keys()),
+        fresh_issuers=len(proxy_required & fresh_ciks), pending_issuers=sorted(proxy_required-records.keys()),
+        failed_attempts=list(errors.values()), invalid_records=invalid,
         unmapped_securities=[s for s in members if not s.get('cik')], field_issuer_coverage=dict(coverage),
+        supplemental_large_megacap={
+            'status': supplemental.get('status'), 'as_of': supplemental.get('as_of'),
+            'retrieved_at': supplemental.get('retrieved_at'), 'source_url': supplemental.get('source_url'),
+            'source_sha256': supplemental.get('source_sha256'), 'security_count': len(supplemental_members),
+            'unique_mapped_issuers': len(supplemental_required),
+            'ingested_issuers': len(supplemental_required & records.keys()),
+            'fresh_issuers': len(supplemental_required & fresh_ciks),
+            'pending_issuers': sorted(supplemental_required-records.keys()),
+            'field_issuer_coverage': dict(supplemental_coverage),
+            'field_basis': 'USD annual-duration facts; instant balance-sheet/shares facts; filed and end <= supplemental screen date; annual is not TTM',
+            'source_error': supplemental_evidence.get('source_error'), 'scope': supplemental.get('scope')},
+        fundamental_ingestion_unique_issuers=len(required), fundamental_ingestion_ingested_issuers=count,
+        fundamental_ingestion_fresh_issuers=fresh, fundamental_ingestion_pending_issuers=pending,
         publication_basis='Validated union of checkpoint and current branch caches; generated analytics owned by intelligence workflow')
     (folder/'status.json').write_text(json.dumps(status,separators=(',',':')))
     return status
