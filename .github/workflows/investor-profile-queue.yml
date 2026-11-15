@@ -7,6 +7,9 @@ on:
       - '.github/workflows/investor-profile-queue.yml'
       - 'scripts/publish_investor_directory.py'
       - 'scripts/investor_profile_analytics.py'
+      - 'scripts/build_investor_profiles.py'
+      - 'CapitalSignal/data/investor_profiles.json'
+      - 'CapitalSignal/data/13f/index.json'
   workflow_run:
     workflows: ['Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
     types: [completed]
