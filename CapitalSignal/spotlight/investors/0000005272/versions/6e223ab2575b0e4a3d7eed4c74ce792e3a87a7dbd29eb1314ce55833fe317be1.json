@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0000005272",
+  "investor_name": "AMERICAN INTERNATIONAL GROUP, INC.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-22",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/5272/0000005272-25-000152.txt",
+    "https://www.sec.gov/Archives/edgar/data/5272/0000005272-26-000080.txt",
+    "https://www.sec.gov/Archives/edgar/data/5272/0000005272-26-000094.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "6e223ab2575b0e4a3d7eed4c74ce792e3a87a7dbd29eb1314ce55833fe317be1",
+  "generated_at": "2026-11-15T12:36:20.920416+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0000005272-26-000094",
+    "source": "https://www.sec.gov/Archives/edgar/data/5272/0000005272-26-000094.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4175637.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "781154109",
+        "security_class": "COM",
+        "issuer": "Rubrik Inc.",
+        "shares": 36478.0,
+        "value_usd": 4175637.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0000005272-25-000152"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000005272-26-000080"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0000005272-26-000094"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 4175637.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000005272-26-000094",
+  "annualized_turnover_proxy_pct": null
+}

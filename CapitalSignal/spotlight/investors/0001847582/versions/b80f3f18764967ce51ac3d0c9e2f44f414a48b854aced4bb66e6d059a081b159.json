@@ -1,0 +1,88 @@
+{
+  "manager_cik": "0001847582",
+  "investor_name": "TMT General Partner Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-27",
+  "city": "HONG KONG",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "b80f3f18764967ce51ac3d0c9e2f44f414a48b854aced4bb66e6d059a081b159",
+  "generated_at": "2026-11-15T12:36:20.920416+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001847582-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1847582/0001847582-26-000004.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 153568246.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "98422D105",
+        "security_class": "ADS",
+        "issuer": "XPENG INC",
+        "shares": 10285837.0,
+        "value_usd": 98332602.0,
+        "weight_pct": 64.03
+      },
+      {
+        "cusip": "732908108",
+        "security_class": "SPONSORED ADS",
+        "issuer": "PONY AI INC",
+        "shares": 6942135.0,
+        "value_usd": 45401563.0,
+        "weight_pct": 29.56
+      },
+      {
+        "cusip": "00851L103",
+        "security_class": "ADS",
+        "issuer": "AGORA INC",
+        "shares": 2352651.0,
+        "value_usd": 9834081.0,
+        "weight_pct": 6.4
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5015.14,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-30",
+        "accession": "0001847582-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0001847582-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001847582-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 153568246.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001847582-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

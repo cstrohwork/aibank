@@ -1,0 +1,96 @@
+{
+  "manager_cik": "0001799162",
+  "investor_name": "KPS Global Asset Management UK Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-22",
+  "city": "London",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1799162/0001172661-25-004326.txt",
+    "https://www.sec.gov/Archives/edgar/data/1799162/0001172661-26-002687.txt",
+    "https://www.sec.gov/Archives/edgar/data/1799162/0001172661-26-004649.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "a1e0657c6cbcc42f8d90f172c158517227a55575ff8160b890ebdafb1498985c",
+  "generated_at": "2026-11-15T12:36:20.920416+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001172661-26-004649",
+    "source": "https://www.sec.gov/Archives/edgar/data/1799162/0001172661-26-004649.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 625181804.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "146869102",
+        "security_class": "CL A",
+        "issuer": "CARVANA CO",
+        "shares": 7500000.0,
+        "value_usd": 469050000.0,
+        "weight_pct": 75.03
+      },
+      {
+        "cusip": "81762P102",
+        "security_class": "COM",
+        "issuer": "SERVICENOW INC",
+        "shares": 775000.0,
+        "value_usd": 103857750.0,
+        "weight_pct": 16.61
+      },
+      {
+        "cusip": "L8681T102",
+        "security_class": "SHS",
+        "issuer": "SPOTIFY TECHNOLOGY S A",
+        "shares": 106520.0,
+        "value_usd": 51915718.0,
+        "weight_pct": 8.3
+      },
+      {
+        "cusip": "14161W303",
+        "security_class": "COM NEW",
+        "issuer": "CARDLYTICS INC",
+        "shares": 121883.0,
+        "value_usd": 358336.0,
+        "weight_pct": 0.06
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5973.86,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001172661-25-004326"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-20",
+        "accession": "0001172661-26-002687"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001172661-26-004649"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 625181804.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001172661-26-004649",
+  "annualized_turnover_proxy_pct": null
+}

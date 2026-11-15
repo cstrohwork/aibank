@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0001824827",
+  "investor_name": "True Wind Capital Management, L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-27",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1824827/0001193125-25-247914.txt",
+    "https://www.sec.gov/Archives/edgar/data/1824827/0001193125-26-306149.txt",
+    "https://www.sec.gov/Archives/edgar/data/1824827/0001193125-26-434195.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "fa05b0b09ff4f5945530dc252822e4ac586806b796cdb1c97d90c97600184138",
+  "generated_at": "2026-11-15T12:36:20.920416+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-27",
+    "accession": "0001193125-26-434195",
+    "source": "https://www.sec.gov/Archives/edgar/data/1824827/0001193125-26-434195.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 156074939.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "M2197Q107",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "CELLEBRITE DI LTD",
+        "shares": 13861007.0,
+        "value_usd": 156074939.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-23",
+        "accession": "0001193125-25-247914"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-16",
+        "accession": "0001193125-26-306149"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-27",
+        "accession": "0001193125-26-434195"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 156074939.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-434195",
+  "annualized_turnover_proxy_pct": null
+}

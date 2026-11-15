@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0001865991",
+  "investor_name": "PSG Equity L.L.C.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-19",
+  "city": "BOSTON",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1865991/0001140361-25-040705.txt",
+    "https://www.sec.gov/Archives/edgar/data/1865991/0001140361-26-030166.txt",
+    "https://www.sec.gov/Archives/edgar/data/1865991/0001140361-26-040079.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "3fbe7b2aadee1e53b669d76f1245827c2b130f844480010a72cf5e5025dc1cbd",
+  "generated_at": "2026-11-15T12:36:20.920416+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-19",
+    "accession": "0001140361-26-040079",
+    "source": "https://www.sec.gov/Archives/edgar/data/1865991/0001140361-26-040079.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 740122709.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "29977X105",
+        "security_class": "COM",
+        "issuer": "EverCommerce Inc",
+        "shares": 85464516.0,
+        "value_usd": 740122709.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001140361-25-040705"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0001140361-26-030166"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-19",
+        "accession": "0001140361-26-040079"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 740122709.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001140361-26-040079",
+  "annualized_turnover_proxy_pct": null
+}
