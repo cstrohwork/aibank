@@ -3,6 +3,8 @@
 import collections, datetime as dt, gzip, json, pathlib, math
 from ingest_sp1500_fundamentals import OUT, ROOT, dump, now, snapshot
 
+DIAGNOSTIC_COVERAGE_THRESHOLD_PCT=70.0
+
 def match_positions(holdings, members, records, report_date, fact_cache=None):
  # A missing or conflicting identifier is not evidence of an issuer match.
  candidates=collections.defaultdict(list)
@@ -34,6 +36,42 @@ def match_positions(holdings, members, records, report_date, fact_cache=None):
    if a and b and a.get('start')==b.get('start') and a['end']==b['end'] and b['val']>0:
     weighted[name]+=value*a['val']/b['val'];covered[name]+=value
  return {'eligible_reported_value_usd':total,'current_proxy_identifier_match_value_pct':100*matched/total if total else None,'any_fundamentals_value_coverage_pct':100*fundamental/total if total else None,'portfolio_ratios':{k:{'value':weighted[k]/covered[k],'coverage_pct':100*covered[k]/total,'basis':'market-value-weighted issuer annual ratio; available filings as of portfolio date'} for k in covered},'positions':matched_rows}
+
+def portfolio_gates(result,report_date,universe,threshold=DIAGNOSTIC_COVERAGE_THRESHOLD_PCT):
+ """Publish explicit diagnostic and temporal gates without authorizing a style."""
+ identifier=result.get('current_proxy_identifier_match_value_pct')
+ fundamental=result.get('any_fundamentals_value_coverage_pct')
+ identifier_pass=isinstance(identifier,(int,float)) and math.isfinite(identifier) and identifier>=threshold
+ fundamental_pass=isinstance(fundamental,(int,float)) and math.isfinite(fundamental) and fundamental>=threshold
+ ratio_gates={name:{'coverage_pct':ratio.get('coverage_pct'),
+                    'passed':isinstance(ratio.get('coverage_pct'),(int,float))
+                             and math.isfinite(ratio['coverage_pct'])
+                             and ratio['coverage_pct']>=threshold}
+              for name,ratio in result.get('portfolio_ratios',{}).items()}
+ proxy_as_of=universe.get('as_of')
+ same_date=bool(report_date and proxy_as_of and report_date==proxy_as_of)
+ return {
+  'diagnostic_coverage_gate':{
+   'threshold_pct':threshold,
+   'identifier_value_coverage_pct':identifier,
+   'fundamental_value_coverage_pct':fundamental,
+   'identifier_gate_passed':identifier_pass,
+   'fundamental_gate_passed':fundamental_pass,
+   'combined_gate_passed':identifier_pass and fundamental_pass,
+   'ratio_gates':ratio_gates,
+   'status':'passed_for_diagnostics_only' if identifier_pass and fundamental_pass else 'blocked_insufficient_value_coverage'},
+  'point_in_time_gate':{
+   'portfolio_report_date':report_date,
+   'fundamental_fact_availability_cutoff':report_date,
+   'proxy_snapshot_as_of':proxy_as_of,
+   'same_date_current_proxy_gate_passed':same_date,
+   'historical_membership_verified':False,
+   'historical_benchmark_gate_passed':False,
+   'status':'current_proxy_same_date_diagnostics_only' if same_date else 'blocked_missing_historical_proxy_snapshot'},
+  'production_classification_gate':{
+   'passed':False,
+   'status':'blocked_missing_point_in_time_benchmark_and_market_factors',
+   'calculated_style':None}}
 def benchmark_diagnostics(universe,records):
  """A union's first-provider weights cannot define a combined benchmark."""
  union=bool(universe.get('universe_sources'))
@@ -75,8 +113,18 @@ def main():
   if not path.exists():missing+=1;continue
   data=json.loads(path.read_text());r=match_positions(data['holdings'],universe['securities'],records,e['report_date'],fact_cache)
   r.pop('positions')
-  r.update(manager_cik=e['manager_cik'],report_date=e['report_date'],identifier_mapping_basis='current proxy union with provider-sourced CUSIPs only; missing/conflicting identifiers unmatched; no historical membership inferred',benchmark_comparison_status='pending_historical_benchmark' if e['report_date']!=universe['as_of'] else 'pending_prices_and_sector_data',calculated_style=None)
+  r.update(portfolio_gates(r,e['report_date'],universe))
+  r.update(manager_cik=e['manager_cik'],report_date=e['report_date'],identifier_mapping_basis='current proxy union with provider-sourced CUSIPs only; missing/conflicting identifiers unmatched; no historical membership inferred',benchmark_comparison_status=r['point_in_time_gate']['status'],calculated_style=None)
   profiles.append(r)
- dump(OUT/'portfolio_diagnostics.json',{'updated_at':now(),'profiles':profiles,'missing_cached_portfolio_files':missing,'status':'initial_identifier_matching_and_fundamental_ratio_diagnostics_only','production_classification_status':'pending_70pct_both_dimension_coverage_and_point_in_time_benchmark','editorial_labels':'unchanged'})
+ summary={
+  'profile_count':len(profiles),
+  'coverage_threshold_pct':DIAGNOSTIC_COVERAGE_THRESHOLD_PCT,
+  'identifier_coverage_gate_passed':sum(p['diagnostic_coverage_gate']['identifier_gate_passed'] for p in profiles),
+  'fundamental_coverage_gate_passed':sum(p['diagnostic_coverage_gate']['fundamental_gate_passed'] for p in profiles),
+  'combined_diagnostic_coverage_gate_passed':sum(p['diagnostic_coverage_gate']['combined_gate_passed'] for p in profiles),
+  'same_date_current_proxy_gate_passed':sum(p['point_in_time_gate']['same_date_current_proxy_gate_passed'] for p in profiles),
+  'historical_benchmark_gate_passed':0,
+  'production_classification_gate_passed':0}
+ dump(OUT/'portfolio_diagnostics.json',{'updated_at':now(),'summary':summary,'profiles':profiles,'missing_cached_portfolio_files':missing,'status':'point_in_time_gated_identifier_and_fundamental_diagnostics_only','production_classification_status':'blocked_until_coverage_point_in_time_benchmark_and_market_factor_gates_pass','editorial_labels':'unchanged'})
  print(f'Matched {len(profiles)} cached portfolios; {missing} files unavailable')
 if __name__=='__main__':main()
