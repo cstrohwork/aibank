@@ -17,6 +17,8 @@ on:
       - 'scripts/benchmark_proxy_coverage.py'
       - 'scripts/build_ownership_atlas.py'
       - 'CapitalSignal/atlas/**'
+      - 'CapitalSignal/skunkworks/**'
+      - 'tests/insight-workbench.test.cjs'
       - 'CapitalSignal/model/**'
   workflow_run:
     workflows: ['Recover saved fundamentals checkpoint', 'S&P 1500 fundamentals ingestion', 'Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
@@ -42,7 +44,7 @@ jobs:
       - name: Verify calculation and data safeguards
         run: python -m unittest discover -s tests -v
       - name: Verify ownership visualization gates
-        run: node --test tests/atlas-core.test.cjs tests/skunkworks-core.test.cjs
+        run: node --test tests/atlas-core.test.cjs tests/skunkworks-core.test.cjs tests/insight-workbench.test.cjs
       - name: Acquire bounded public market evidence
         run: python scripts/market_inputs.py --acquire --limit 5
       - name: Advance SEC prospectus evidence queue
