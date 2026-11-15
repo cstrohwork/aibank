@@ -9,7 +9,28 @@ DIR=ROOT/"funds"
 index=json.loads((DIR/"index.json").read_text())
 firms=collections.defaultdict(lambda:{"funds":[],"equity_assets_usd":0.0,"active_equity_assets_usd":0.0,"passive_equity_assets_usd":0.0,"unclassified_equity_assets_usd":0.0})
 bycusip=collections.defaultdict(list)
+# Use one reporting period per fund series. Exclude conflicting same-period
+# snapshots until amendment precedence can be established from SEC evidence.
+selected={}
+ambiguous=set()
 for entry in index["funds"]:
+    series=(str(entry.get("registrant_cik") or ""),str(entry.get("series_id") or entry.get("fund_id") or ""))
+    if not all(series) or not entry.get("report_date"):
+        continue
+    key=series+(entry["report_date"],)
+    prior=selected.get(key)
+    if prior is None:
+        selected[key]=entry
+    elif prior.get("file") != entry.get("file"):
+        ambiguous.add(key)
+latest={}
+for key,entry in selected.items():
+    if key in ambiguous:
+        continue
+    series=key[:2]
+    if series not in latest or key[2]>latest[series]["report_date"]:
+        latest[series]=entry
+for entry in latest.values():
     data=json.loads((DIR/entry["file"]).read_text())
     key=entry["registrant_cik"];firm=firms[key]
     firm["registrant_cik"]=key;firm["registrant_name"]=entry["registrant_name"]
@@ -39,6 +60,6 @@ for firm in firms.values():
     firm["coverage"]="sample_only_incomplete_fund_universe"
     for k in ("equity_assets_usd","active_equity_assets_usd","passive_equity_assets_usd","unclassified_equity_assets_usd"):firm[k]=round(firm[k],2)
     out.append(firm)
-(ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"methodology":"Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
+(ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"excluded_ambiguous_series_periods":len(ambiguous),"methodology":"Latest unambiguous period per fund series; unresolved same-period duplicates excluded. Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
 write_ownership_index(DIR, bycusip, "Disclosed N-PORT fund holdings, with registrant attribution, not a complete issuer register.")
 print("registrant groups",len(out),"funds",sum(x["fund_count"] for x in out),"equity securities",len(bycusip))
