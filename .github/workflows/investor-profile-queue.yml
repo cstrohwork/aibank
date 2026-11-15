@@ -41,6 +41,27 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             python scripts/publish_investor_directory.py --batch-size 2000
+            # Fail closed on an inconsistent checkpoint; never publish a
+            # manifest that counts profiles whose pages are absent.
+            python - <<'PY'
+            import json
+            from pathlib import Path
+            root = Path("CapitalSignal/spotlight/investors")
+            m = json.loads((root / "manifest.json").read_text())
+            profiles = m["profiles"]
+            assert m["generated_count"] == len(profiles), "Generated count mismatch"
+            assert m["cached_investor_count"] >= m["completed_current_version_count"], "Universe count mismatch"
+            assert m["pending_active_count"] + m["completed_current_version_count"] == m["cached_investor_count"], "Queue reconciliation mismatch"
+            assert m["never_published_remaining"] + m["refresh_remaining"] == m["pending_active_count"], "Pending states mismatch"
+            for cik in profiles:
+                assert cik.isdigit() and len(cik) == 10, f"Invalid CIK: {cik}"
+                page = root / cik
+                if not (page / "profile.json").exists() or not (page / "index.html").exists():
+                    raise AssertionError(f"Missing published files: {cik}")
+            print("Profile checkpoint validated:", m["completed_current_version_count"],
+                  "current, ", m["pending_active_count"], "pending,",
+                  m["changed_this_run"], "processed this run")
+            PY
             git add CapitalSignal/spotlight/investors/
             if git diff --cached --quiet; then exit 0; fi
             git commit -m "Generate investor profiles from latest ingested SEC cache"
