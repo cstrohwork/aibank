@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/investor-profile-queue.yml'
       - 'scripts/publish_investor_directory.py'
+      - 'scripts/investor_profile_analytics.py'
   workflow_run:
     workflows: ['Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
     types: [completed]
