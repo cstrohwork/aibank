@@ -161,6 +161,13 @@ class StandaloneIdentityTests(unittest.TestCase):
         self.assertIsNone(fund['series_id'])
         self.assertEqual(fund['identity_basis'], 'matching_registrant_series_name_series_lei_not_applicable')
 
+    def test_distinct_valid_series_lei_is_the_fund_identity(self):
+        fund = parse(self.xml(series_name='Named Portfolio', series_lei='529900TOB3V09W4JX713'), 'SEC original')
+        self.assertIsNone(fund['series_id'])
+        self.assertEqual(fund['fund_id'], 'LEI529900TOB3V09W4JX713')
+        self.assertEqual(fund['identity_basis'], 'sec_series_lei_without_series_id')
+        self.assertEqual(fund['series_lei_reported'], '529900TOB3V09W4JX713')
+
     def test_explicit_na_uses_registrant_name(self):
         fund = parse(self.xml(series_name='N/A', series_lei='N/A'), 'SEC original')
         self.assertEqual(fund['fund_name'], 'Standalone Fund')
@@ -177,8 +184,8 @@ class StandaloneIdentityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'series identifier'):
             parse(self.xml(series_name='Another Fund', series_lei='00000000000000000000'), 'SEC original')
 
-    def test_name_alone_or_disagreeing_lei_does_not_invent_identity(self):
-        for args in ({'series_lei': ''}, {'series_lei': '529900TOB3V09W4JX713'},
+    def test_name_alone_or_invalid_lei_does_not_invent_identity(self):
+        for args in ({'series_lei': ''}, {'series_lei': 'NOT-A-VALID-LEI'},
                      {'series_name': 'Another Fund', 'series_lei': 'N/A'}):
             with self.subTest(args=args), self.assertRaisesRegex(ValueError, 'series identifier'):
                 parse(self.xml(**args), 'SEC original')
