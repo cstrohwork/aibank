@@ -49,7 +49,10 @@ def run(batch=2000):
         manager_cik = str(entry.get('manager_cik') or '').zfill(10)
         entries_by_cik.setdefault(manager_cik, []).append(entry)
     for profile in profiles:
-        profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
+        # Preserve a source-provided filing date when the 13F index has not yet
+        # ingested that manager/report-period entry. Never substitute the
+        # reporting-period date for the actual filing date.
+        profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date'))) or profile.get('filing_date')
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
         profile['render_version'] = 'explicit-holding-usd-v8'
