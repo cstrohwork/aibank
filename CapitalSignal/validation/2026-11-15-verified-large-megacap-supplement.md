@@ -54,6 +54,8 @@ The existing failover path retains a prior validated snapshot when a live refres
 
 Independent snapshot validation found zero issues across security/issuer count reconciliation, unique tickers, ten-digit CIKs, numeric $10-billion floor, supported exchanges, exact dated observations, page URLs, per-row source hashes and explicit outside-proxy membership labels. This snapshot is current observed evidence only. If merged, a later workflow may retain it while disclosing the live source timeout and may use its issuer list for Companyfacts acquisition; no Companyfacts completion is claimed from the snapshot itself.
 
+The workflow push filter originally ignored data-only updates to the fallback snapshot, so merging the verified checkpoint did not schedule its Companyfacts queue. The dedicated workflow now includes the exact supplemental snapshot path. This does not launch duplicate work: the workflow's existing `sp1500-fundamentals` concurrency group remains serialized with `cancel-in-progress: false`. Workflow YAML parsing and a structural assertion for the new path and retained concurrency guard were executed locally before review.
+
 ## Runtime state and next task
 
 At implementation time the existing scheduled fundamentals run [43716501224](https://github.com/cstrohwork/aibank/actions/runs/43716501224) was already active and was not duplicated. The last committed proxy status remained 2,592 current SPTM/IWV ETF-proxy securities, 2,561 mapped issuers and 2,559 successful Companyfacts caches, with two SEC 404s. Those are current ETF holdings proxies, not official S&P Composite 1500 or Russell 3000 membership.
