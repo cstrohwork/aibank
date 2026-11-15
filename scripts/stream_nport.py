@@ -127,7 +127,9 @@ def parse_xml(path, start, max_positions=500_000):
         raise ValueError('N-PORT general information missing')
     if not rows:
         raise ValueError('No supported N-PORT positions')
-    return dict(metadata, total_assets_reported=total_assets, holdings=rows)
+    return dict(metadata, total_assets_reported=total_assets,
+                position_coverage='parsed_supported_positions',
+                reported_position_count=len(rows),holdings=rows)
 
 
 def normalize(root, record, start):
