@@ -141,6 +141,7 @@ class ProxyBenchmarkTests(unittest.TestCase):
    self.assertEqual(supplement['securities'][0]['universe_memberships'],['large_megacap_outside_current_etf_proxies'])
 
  def test_large_megacap_fetches_each_exchange_with_dated_raw_provenance(self):
+  self.assertTrue(all('marketcap=mega%7Clarge' in url for url in ingest.NASDAQ_EXCHANGE_SOURCES.values()))
   blobs={}
   for exchange,base_url in ingest.NASDAQ_EXCHANGE_SOURCES.items():
    for offset,count in ((0,2),(2,1)):

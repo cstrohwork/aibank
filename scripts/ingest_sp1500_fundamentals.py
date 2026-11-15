@@ -8,10 +8,11 @@ HOLDINGS_RUSSELL = 'https://www.ishares.com/us/products/239714/ishares-russell-3
 TICKERS = 'https://www.sec.gov/files/company_tickers.json'
 NASDAQ_SCREENER = 'https://api.nasdaq.com/api/screener/stocks?tableonly=true'
 NASDAQ_PAGE_SIZE = 1000
+NASDAQ_MARKETCAP_FILTER = 'mega%7Clarge'
 NASDAQ_EXCHANGE_SOURCES = {
- 'NASDAQ': NASDAQ_SCREENER+'&exchange=nasdaq',
- 'NYSE': NASDAQ_SCREENER+'&exchange=nyse',
- 'NYSE AMERICAN': NASDAQ_SCREENER+'&exchange=amex',
+ 'NASDAQ': NASDAQ_SCREENER+'&exchange=nasdaq&marketcap='+NASDAQ_MARKETCAP_FILTER,
+ 'NYSE': NASDAQ_SCREENER+'&exchange=nyse&marketcap='+NASDAQ_MARKETCAP_FILTER,
+ 'NYSE AMERICAN': NASDAQ_SCREENER+'&exchange=amex&marketcap='+NASDAQ_MARKETCAP_FILTER,
 }
 LARGE_CAP_MIN_USD = 10_000_000_000
 VERIFIED_US_EXCHANGES = {'NASDAQ', 'NYSE', 'NYSE AMERICAN', 'AMEX'}

@@ -44,6 +44,10 @@ The corrected live paged probe completed at `2026-11-15T18:03:05.508101+00:00`: 
 
 Validation for the paged correction actually executed: 19 focused tests passed; all 215 repository tests passed; the ingestion module compiled; `git diff --check` passed; and the nine-page public-source probe passed. The focused regression uses two pages per exchange and verifies offsets, stable totals, row counts, raw page hashes and the single dated observation.
 
+The first production run after pagination, [43745215335](https://github.com/cstrohwork/aibank/actions/runs/43745215335), completed all steps but its committed `2026-11-15T18:17:51Z` status again disclosed a Nasdaq read timeout and zero supplemental securities. Pagination alone did not fix the Azure-hosted runner path. A second bounded transport correction adds Nasdaq's provider-side `mega|large` screen to each exchange request before paging; numeric capitalization of at least $10 billion is still independently required for admission, so the category is a transport prefilter rather than capitalization evidence.
+
+The filtered public-source probe returned in approximately six seconds per exchange: 315 Nasdaq rows / 63,264 bytes, 648 NYSE rows / 126,413 bytes, and three NYSE American rows / 907 bytes, all dated November 12, 2026. The 966-row total exactly matches the candidate count from the prior unfiltered 7,251-row probe. The parser still excludes any row below the numeric $10-billion floor and still requires explicit exchange evidence and a unique SEC mapping. This filtered response is locally verified; production publication remains unproven until a later workflow commits the snapshot.
+
 ## Runtime state and next task
 
 At implementation time the existing scheduled fundamentals run [43716501224](https://github.com/cstrohwork/aibank/actions/runs/43716501224) was already active and was not duplicated. The last committed proxy status remained 2,592 current SPTM/IWV ETF-proxy securities, 2,561 mapped issuers and 2,559 successful Companyfacts caches, with two SEC 404s. Those are current ETF holdings proxies, not official S&P Composite 1500 or Russell 3000 membership.
