@@ -1,0 +1,66 @@
+{
+  "manager_cik": "0001699292",
+  "investor_name": "Khan Imran",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "DALLAS",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1699292/0000950142-26-002300.txt",
+    "https://www.sec.gov/Archives/edgar/data/1699292/0000950142-26-002993.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "f15047bd6aef4ab2fb4410f6b71d37f9d40ee5e79313bd9f2568996ad1d5dbc8",
+  "generated_at": "2026-11-15T07:10:27.488703+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0000950142-26-002993",
+    "source": "https://www.sec.gov/Archives/edgar/data/1699292/0000950142-26-002993.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3003972.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G7341A129",
+        "security_class": "UNIT 01/29/2031",
+        "issuer": "PROEM ACQUISITION CORP I",
+        "shares": 292500.0,
+        "value_usd": 3003972.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0000950142-26-002300"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0000950142-26-002993"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 3003972.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000950142-26-002993",
+  "annualized_turnover_proxy_pct": null
+}

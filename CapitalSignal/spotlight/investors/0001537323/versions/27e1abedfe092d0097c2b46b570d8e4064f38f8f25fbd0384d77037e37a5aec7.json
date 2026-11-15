@@ -1,0 +1,74 @@
+{
+  "manager_cik": "0001537323",
+  "investor_name": "Corre Partners Management, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1537323/0000919574-26-005116.txt",
+    "https://www.sec.gov/Archives/edgar/data/1537323/0000919574-26-007541.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "27e1abedfe092d0097c2b46b570d8e4064f38f8f25fbd0384d77037e37a5aec7",
+  "generated_at": "2026-11-15T07:10:27.488703+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0000919574-26-007541",
+    "source": "https://www.sec.gov/Archives/edgar/data/1537323/0000919574-26-007541.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 300025672.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G2R11M108",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "DPC HOLDINGS PLC",
+        "shares": 6289659.0,
+        "value_usd": 265800989.0,
+        "weight_pct": 88.59
+      },
+      {
+        "cusip": "40054J109",
+        "security_class": "SPONSORED ADS",
+        "issuer": "GRUPO AEROMEXICO SAB DE CV",
+        "shares": 2167491.0,
+        "value_usd": 34224683.0,
+        "weight_pct": 11.41
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7978.8,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000919574-26-005116"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0000919574-26-007541"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 300025672.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-007541",
+  "annualized_turnover_proxy_pct": null
+}

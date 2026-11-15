@@ -1,0 +1,80 @@
+{
+  "manager_cik": "0001133939",
+  "investor_name": "MEDIATEL PARTNERS",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "FORT WORTH",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1133939/0000897423-25-000086.txt",
+    "https://www.sec.gov/Archives/edgar/data/1133939/0000897423-26-000097.txt",
+    "https://www.sec.gov/Archives/edgar/data/1133939/0000897423-26-000138.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "08bf0a703f7ee5ea1e9152d797fa25d552f260a2012b530d5e87597973007661",
+  "generated_at": "2026-11-15T07:10:27.488703+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000897423-26-000138",
+    "source": "https://www.sec.gov/Archives/edgar/data/1133939/0000897423-26-000138.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 29824320.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00206R102",
+        "security_class": "COM",
+        "issuer": "AT&T INC",
+        "shares": 935304.0,
+        "value_usd": 22821418.0,
+        "weight_pct": 76.52
+      },
+      {
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 226265.0,
+        "value_usd": 7002902.0,
+        "weight_pct": 23.48
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6406.57,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0000897423-25-000086"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0000897423-26-000097"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000897423-26-000138"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 29824320.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000897423-26-000138",
+  "annualized_turnover_proxy_pct": null
+}

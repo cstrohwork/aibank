@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001608126",
+  "investor_name": "Finepoint Capital LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "BOSTON",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1608126/0000904454-26-000450.txt",
+    "https://www.sec.gov/Archives/edgar/data/1608126/0000904454-26-000611.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "4101f07ebceb24d4de22bfc6fbfaff09729a252f5aabac9460fbbc545c708e75",
+  "generated_at": "2026-11-15T07:10:27.488703+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000904454-26-000611",
+    "source": "https://www.sec.gov/Archives/edgar/data/1608126/0000904454-26-000611.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 315078995.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "82846H405",
+        "security_class": "COM NEW",
+        "issuer": "QXO INC",
+        "shares": 23356193.0,
+        "value_usd": 273033896.0,
+        "weight_pct": 86.66
+      },
+      {
+        "cusip": "74982T103",
+        "security_class": "COMMON STOCK",
+        "issuer": "RXO INC",
+        "shares": 2042751.0,
+        "value_usd": 41794685.0,
+        "weight_pct": 13.26
+      },
+      {
+        "cusip": "01444V111",
+        "security_class": "*W EXP 12/13/202",
+        "issuer": "ALEANNA INC",
+        "shares": 490000.0,
+        "value_usd": 153860.0,
+        "weight_pct": 0.05
+      },
+      {
+        "cusip": "01444V103",
+        "security_class": "COM CL A",
+        "issuer": "ALEANNA INC",
+        "shares": 27717.0,
+        "value_usd": 73034.0,
+        "weight_pct": 0.02
+      },
+      {
+        "cusip": "G6202B119",
+        "security_class": "*W EXP 09/13/202",
+        "issuer": "MONEYHERO LTD",
+        "shares": 895000.0,
+        "value_usd": 23449.0,
+        "weight_pct": 0.01
+      },
+      {
+        "cusip": "320703507",
+        "security_class": "COM SHS",
+        "issuer": "CALIDI BIOTHERAPEUTICS INC",
+        "shares": 66.0,
+        "value_usd": 71.0,
+        "weight_pct": 0.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7685.17,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000904454-26-000450"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000904454-26-000611"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 315078995.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000904454-26-000611",
+  "annualized_turnover_proxy_pct": null
+}

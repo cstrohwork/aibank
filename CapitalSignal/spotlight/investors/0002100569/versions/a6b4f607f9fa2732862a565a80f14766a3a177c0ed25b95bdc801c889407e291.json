@@ -1,0 +1,66 @@
+{
+  "manager_cik": "0002100569",
+  "investor_name": "Copperwood Asset Management LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "Houston",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2100569/0001315863-26-000585.txt",
+    "https://www.sec.gov/Archives/edgar/data/2100569/0002100569-26-000005.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "a6b4f607f9fa2732862a565a80f14766a3a177c0ed25b95bdc801c889407e291",
+  "generated_at": "2026-11-15T07:10:27.488703+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002100569-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2100569/0002100569-26-000005.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 70132648.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 1481467.0,
+        "value_usd": 70132648.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001315863-26-000585"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002100569-26-000005"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 70132648.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002100569-26-000005",
+  "annualized_turnover_proxy_pct": null
+}

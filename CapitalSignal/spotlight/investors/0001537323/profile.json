@@ -12,9 +12,9 @@
     "https://www.sec.gov/Archives/edgar/data/1537323/0000919574-26-005116.txt",
     "https://www.sec.gov/Archives/edgar/data/1537323/0000919574-26-007541.txt"
   ],
-  "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "3ae600ff48caeb52b084b3cc50dd6e3b56640c33f2edd1d9e1c4252c3f22a363",
-  "generated_at": "2026-11-15T05:32:32.777461+00:00",
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "27e1abedfe092d0097c2b46b570d8e4064f38f8f25fbd0384d77037e37a5aec7",
+  "generated_at": "2026-11-15T07:10:27.488703+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-09-30",
@@ -25,7 +25,7 @@
     "excluded_invalid_rows": 0,
     "reported_long_equity_value_usd": 300025672.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
-    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "G2R11M108",
@@ -67,6 +67,8 @@
       }
     ]
   },
-  "reported_13f_value_usd": null,
+  "reported_13f_value_usd": 300025672.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-007541",
   "annualized_turnover_proxy_pct": null
 }
