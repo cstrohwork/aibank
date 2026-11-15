@@ -7,11 +7,18 @@ from html import escape
 def holdings(snapshot):
     rows = collections.defaultdict(lambda: {'shares': 0, 'value': 0, 'issuer': ''})
     skipped = 0
+    missing_usd_rows = 0
     for h in snapshot.get('holdings', []):
         if h.get('put_call') or h.get('share_type', 'SH') != 'SH':
             continue
         try:
-            value = float(h.get('value_usd', h.get('value_thousands')))
+            # Never interpret legacy thousands as dollars, even if the
+            # snapshot header declares USD. Missing dollar units invalidate
+            # monetary analytics instead of silently understating exposure.
+            if h.get('value_usd') is None:
+                missing_usd_rows += 1
+                raise ValueError('Missing normalized USD holding value')
+            value = float(h['value_usd'])
             shares = float(str(h.get('shares', '')).replace(',', ''))
             if not math.isfinite(value) or not math.isfinite(shares) or value < 0 or shares < 0:
                 raise ValueError('Invalid holding')
