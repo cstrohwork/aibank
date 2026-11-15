@@ -50,18 +50,18 @@ def analyze(data, cik, period, entries):
     total = sum(x['value'] for x in rows.values())
     ordered = sorted(rows.items(), key=lambda kv:kv[1]['value'], reverse=True)
     # Dollar amounts require an explicit unit declaration and no unresolved amendment.
-    usd = latest.get('value_unit') == 'USD' and not latest.get('amendment_review_required') and not skipped
+    usd = latest.get('value_unit') == 'USD' and not latest.get('amendment_review_required') and not skipped and total > 0
     top = [{'cusip': k[0], 'security_class': k[1], 'issuer': v['issuer'], 'shares': v['shares'],
-            'value_usd': v['value'] if usd else None, 'weight_pct': round(v['value']/total*100, 2) if total else None} for k,v in ordered[:10]]
+            'value_usd': v['value'] if usd else None, 'weight_pct': round(v['value']/total*100, 2) if usd else None} for k,v in ordered[:10]]
     result = {'available': True, 'report_date': period, 'filing_date': latest.get('filing_date'),
               'accession': latest.get('accession'), 'source': latest.get('source'),
               'distinct_positions': len(rows), 'excluded_invalid_rows': skipped,
               'reported_long_equity_value_usd': total if usd else None,
               'value_basis': 'Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals',
-              'weights_basis': 'Relative cached values; excludes options and non-share positions',
-              'top_holdings': top, 'top_five_pct': round(sum(v['value'] for _,v in ordered[:5])/total*100,2) if total else None,
-              'top_ten_pct': round(sum(v['value'] for _,v in ordered[:10])/total*100,2) if total else None,
-              'hhi': round(sum((v['value']/total*100)**2 for v in rows.values()),2) if total else None,
+              'weights_basis': 'Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions',
+              'top_holdings': top, 'top_five_pct': round(sum(v['value'] for _,v in ordered[:5])/total*100,2) if usd else None,
+              'top_ten_pct': round(sum(v['value'] for _,v in ordered[:10])/total*100,2) if usd else None,
+              'hhi': round(sum((v['value']/total*100)**2 for v in rows.values()),2) if usd else None,
               'changes': None, 'timeline': [{'report_date':s.get('report_date'), 'filing_date':s.get('filing_date'), 'accession':s.get('accession')} for s in snaps]}
     # Compare only the immediately preceding *distinct reporting period*.
     # A second filing for the current period is not a prior-quarter position,
@@ -72,7 +72,7 @@ def analyze(data, cik, period, entries):
         previous_candidates = [x for x in snaps if x.get('report_date') == previous_date]
         if len(previous_candidates) == 1 and not previous_candidates[0].get('amendment_review_required'):
             before, bad = holdings(previous_candidates[0])
-            if not bad and not skipped:
+            if usd and previous_candidates[0].get('value_unit') == 'USD' and not bad and not skipped:
                 result['changes'] = {'previous_period': previous_date,
                                      'new_positions': len(rows.keys()-before.keys()),
                                      'exited_positions': len(before.keys()-rows.keys()),
