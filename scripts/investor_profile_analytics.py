@@ -63,13 +63,21 @@ def analyze(data, cik, period, entries):
               'top_ten_pct': round(sum(v['value'] for _,v in ordered[:10])/total*100,2) if total else None,
               'hhi': round(sum((v['value']/total*100)**2 for v in rows.values()),2) if total else None,
               'changes': None, 'timeline': [{'report_date':s.get('report_date'), 'filing_date':s.get('filing_date'), 'accession':s.get('accession')} for s in snaps]}
-    if len(snaps)>1 and not any(s.get('amendment_review_required') for s in snaps[-2:]):
-        before, bad = holdings(snaps[-2])
-        if not bad and not skipped:
-            result['changes'] = {'previous_period': snaps[-2]['report_date'],
-                                 'new_positions': len(rows.keys()-before.keys()), 'exited_positions':len(before.keys()-rows.keys()),
-                                 'increased_positions':sum(rows[k]['shares']>before[k]['shares'] for k in rows.keys()&before.keys()),
-                                 'reduced_positions':sum(rows[k]['shares']<before[k]['shares'] for k in rows.keys()&before.keys())}
+    # Compare only the immediately preceding *distinct reporting period*.
+    # A second filing for the current period is not a prior-quarter position,
+    # and an unresolved amendment in either period invalidates the comparison.
+    prior_periods = sorted({x.get('report_date') for x in snaps if x.get('report_date') and x.get('report_date') < period})
+    if prior_periods:
+        previous_date = prior_periods[-1]
+        previous_candidates = [x for x in snaps if x.get('report_date') == previous_date]
+        if len(previous_candidates) == 1 and not previous_candidates[0].get('amendment_review_required'):
+            before, bad = holdings(previous_candidates[0])
+            if not bad and not skipped:
+                result['changes'] = {'previous_period': previous_date,
+                                     'new_positions': len(rows.keys()-before.keys()),
+                                     'exited_positions': len(before.keys()-rows.keys()),
+                                     'increased_positions': sum(rows[k]['shares']>before[k]['shares'] for k in rows.keys()&before.keys()),
+                                     'reduced_positions': sum(rows[k]['shares']<before[k]['shares'] for k in rows.keys()&before.keys())}
     return result
 
 def render(p, a):
