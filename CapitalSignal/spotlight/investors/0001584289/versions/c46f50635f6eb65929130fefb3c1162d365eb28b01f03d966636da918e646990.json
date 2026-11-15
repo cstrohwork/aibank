@@ -1,0 +1,62 @@
+{
+  "manager_cik": "0001584289",
+  "investor_name": "1922 Investment Co LLC",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "HOUSTON",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1584289/0001104659-26-096402.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c46f50635f6eb65929130fefb3c1162d365eb28b01f03d966636da918e646990",
+  "generated_at": "2026-11-15T09:40:36.386128+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001104659-26-096402",
+    "source": "https://www.sec.gov/Archives/edgar/data/1584289/0001104659-26-096402.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1888547.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "084670702",
+        "security_class": "CS",
+        "issuer": "BERKSHIRE HATHAWAY CLASS B",
+        "shares": 2825.0,
+        "value_usd": 1413602.0,
+        "weight_pct": 74.85
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CS",
+        "issuer": "ALPHABET INC. CLASS A",
+        "shares": 1329.0,
+        "value_usd": 474945.0,
+        "weight_pct": 25.15
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6235.17,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096402"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1888547.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-096402",
+  "annualized_turnover_proxy_pct": null
+}
