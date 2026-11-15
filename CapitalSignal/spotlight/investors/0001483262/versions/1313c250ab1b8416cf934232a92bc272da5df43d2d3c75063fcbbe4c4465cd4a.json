@@ -1,0 +1,96 @@
+{
+  "manager_cik": "0001483262",
+  "investor_name": "State of New Jersey Common Pension Fund A",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-30",
+  "city": "Trenton",
+  "state": "NJ",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1483262/0001483262-25-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1483262/0001483262-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1483262/0001483262-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1313c250ab1b8416cf934232a92bc272da5df43d2d3c75063fcbbe4c4465cd4a",
+  "generated_at": "2026-11-15T11:48:18.806371+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001483262-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1483262/0001483262-26-000004.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 253420477.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "69121K104",
+        "security_class": "COM",
+        "issuer": "BLUE OWL CAPITAL CORPORATION",
+        "shares": 15263873.0,
+        "value_usd": 160118028.0,
+        "weight_pct": 63.18
+      },
+      {
+        "cusip": "095924106",
+        "security_class": "COMMON STOCK",
+        "issuer": "BLUE OWL TECHNOLOGY FIN CORP",
+        "shares": 4206609.0,
+        "value_usd": 41266834.0,
+        "weight_pct": 16.28
+      },
+      {
+        "cusip": "09581B103",
+        "security_class": "COM CL A",
+        "issuer": "BLUE OWL CAPITAL INC",
+        "shares": 3555770.0,
+        "value_usd": 32321949.0,
+        "weight_pct": 12.75
+      },
+      {
+        "cusip": "87266M107",
+        "security_class": "COM",
+        "issuer": "TPG RE FIN TR INC",
+        "shares": 3149148.0,
+        "value_usd": 19713666.0,
+        "weight_pct": 7.78
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4480.41,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-03",
+        "accession": "0001483262-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-27",
+        "accession": "0001483262-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001483262-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 253420477.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001483262-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

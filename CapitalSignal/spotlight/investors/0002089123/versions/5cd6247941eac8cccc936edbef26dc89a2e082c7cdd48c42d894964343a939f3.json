@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0002089123",
+  "investor_name": "PLATINUM PARAMOUNT INVESTMENT LTD.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-09",
+  "city": "NASSAU",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2089123/0002089123-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2089123/0002089123-26-000005.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "5cd6247941eac8cccc936edbef26dc89a2e082c7cdd48c42d894964343a939f3",
+  "generated_at": "2026-11-15T11:48:18.806371+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0002089123-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2089123/0002089123-26-000005.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 545999184.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "H5919C104",
+        "security_class": "CLASS A",
+        "issuer": "ON HOLDING AG",
+        "shares": 11312048.0,
+        "value_usd": 334949741.0,
+        "weight_pct": 61.35
+      },
+      {
+        "cusip": "76131D103",
+        "security_class": "COMMON SHARES",
+        "issuer": "RESTAURANT BRANDS INTERN",
+        "shares": 2813704.0,
+        "value_usd": 199998080.0,
+        "weight_pct": 36.63
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CLASS A",
+        "issuer": "ALPHABET INC",
+        "shares": 26600.0,
+        "value_usd": 9152528.0,
+        "weight_pct": 1.68
+      },
+      {
+        "cusip": "86384P109",
+        "security_class": "CLASS A",
+        "issuer": "STUBHUB HOLDINGS INC",
+        "shares": 340293.0,
+        "value_usd": 1898835.0,
+        "weight_pct": 0.35
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5108.02,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002089123-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0002089123-26-000005"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 545999184.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002089123-26-000005",
+  "annualized_turnover_proxy_pct": null
+}
