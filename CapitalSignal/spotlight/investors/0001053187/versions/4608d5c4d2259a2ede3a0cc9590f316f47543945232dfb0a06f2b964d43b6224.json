@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001053187",
+  "investor_name": "Natixis Investment Managers, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "BOSTON",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1053187/0001104659-26-095950.txt",
+    "https://www.sec.gov/Archives/edgar/data/1053187/0001104659-26-126583.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "4608d5c4d2259a2ede3a0cc9590f316f47543945232dfb0a06f2b964d43b6224",
+  "generated_at": "2026-11-15T10:50:49.429258+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126583",
+    "source": "https://www.sec.gov/Archives/edgar/data/1053187/0001104659-26-126583.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 169121793.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "41456U205",
+        "security_class": "INTL LARGE CAP",
+        "issuer": "HARRIS OAKMARK ETF TRUST",
+        "shares": 1922135.0,
+        "value_usd": 49322176.0,
+        "weight_pct": 29.16
+      },
+      {
+        "cusip": "63873X505",
+        "security_class": "LOOMIS SAYLES TO",
+        "issuer": "NATIXIS ETF TR",
+        "shares": 1986490.0,
+        "value_usd": 47503531.0,
+        "weight_pct": 28.09
+      },
+      {
+        "cusip": "63873X406",
+        "security_class": "LOOMIS SAYLES DY",
+        "issuer": "NATIXIS ETF TR",
+        "shares": 1986490.0,
+        "value_usd": 47452280.0,
+        "weight_pct": 28.06
+      },
+      {
+        "cusip": "41456U304",
+        "security_class": "GLOBAL LARGE CAP",
+        "issuer": "HARRIS OAKMARK ETF TRUST",
+        "shares": 953924.0,
+        "value_usd": 24843806.0,
+        "weight_pct": 14.69
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 2642.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001104659-26-095950"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126583"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 169121793.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-126583",
+  "annualized_turnover_proxy_pct": null
+}

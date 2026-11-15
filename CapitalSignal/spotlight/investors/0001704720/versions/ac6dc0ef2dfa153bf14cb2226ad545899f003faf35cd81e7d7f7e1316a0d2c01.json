@@ -1,0 +1,80 @@
+{
+  "manager_cik": "0001704720",
+  "investor_name": "Cannae Holdings, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-10",
+  "city": "Las Vegas",
+  "state": "NV",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1704720/0001704720-25-000166.txt",
+    "https://www.sec.gov/Archives/edgar/data/1704720/0001704720-26-000136.txt",
+    "https://www.sec.gov/Archives/edgar/data/1704720/0001704720-26-000187.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "ac6dc0ef2dfa153bf14cb2226ad545899f003faf35cd81e7d7f7e1316a0d2c01",
+  "generated_at": "2026-11-15T10:50:49.429258+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001704720-26-000187",
+    "source": "https://www.sec.gov/Archives/edgar/data/1704720/0001704720-26-000187.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 116013711.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "Space Exploration Techn Corp",
+        "shares": 649350.0,
+        "value_usd": 97960941.0,
+        "weight_pct": 84.44
+      },
+      {
+        "cusip": "01626W101",
+        "security_class": "COM CL A",
+        "issuer": "Alight Inc",
+        "shares": 2023853.0,
+        "value_usd": 18052770.0,
+        "weight_pct": 15.56
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7372.1,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0001704720-25-000166"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-14",
+        "accession": "0001704720-26-000136"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001704720-26-000187"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 116013711.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001704720-26-000187",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,66 @@
+{
+  "manager_cik": "0002082507",
+  "investor_name": "Laurore Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "HONG KONG",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2082507/0001104659-26-096238.txt",
+    "https://www.sec.gov/Archives/edgar/data/2082507/0001104659-26-125626.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "0f424c61c461032f313072e48a85491dca7465771cbfc6595f2f55b1ddc39ede",
+  "generated_at": "2026-11-15T10:50:49.429258+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001104659-26-125626",
+    "source": "https://www.sec.gov/Archives/edgar/data/2082507/0001104659-26-125626.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 153678848.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 3246279.0,
+        "value_usd": 153678848.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096238"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001104659-26-125626"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 153678848.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-125626",
+  "annualized_turnover_proxy_pct": null
+}
