@@ -172,7 +172,7 @@ def run(batch=2000):
             # publication of unrelated managers in this bounded batch.
             errors.append({'id': cik, 'error': f'{type(exc).__name__}: {exc}'})
             failure = manifest['failures'].get(cik, {})
-            manifest['failures'][cik] = {'attempts': failure.get('attempts', 0) + 1,
+            manifest['failures'][cik] = {'attempts': (failure.get('attempts', 0) if failure.get('fingerprint') == fingerprint else 0) + 1,
                                          'last_error': str(exc), 'last_attempt_at': now,
                                          'fingerprint': fingerprint}
     remaining = sum(
