@@ -7,6 +7,7 @@ on:
       - '.github/workflows/sp1500-fundamentals.yml'
       - 'scripts/ingest_sp1500_fundamentals.py'
       - 'scripts/publish_fundamental_checkpoint.py'
+      - 'CapitalSignal/data/fundamentals/large_megacap_outside_proxies.json'
   schedule:
     - cron: '43 5 * * *'
 permissions:
