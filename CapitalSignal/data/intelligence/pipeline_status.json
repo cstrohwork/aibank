@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-11-15T02:04:17.475808+00:00",
-  "updated_at": "2026-11-15T02:12:12.694343+00:00",
+  "started_at": "2026-11-15T06:29:40.595412+00:00",
+  "updated_at": "2026-11-15T06:35:29.492266+00:00",
   "status": "completed",
   "scope": "Calculation execution only; successful execution does not certify source coverage or Model activation.",
   "stages": [
@@ -9,7 +9,7 @@
       "script": "build_identity_master.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-15T02:05:09.445554+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 27623, \"security_count\": 401330, \"relationship_count\": 13996, \"issuer_mapping_observation_count\": 3011, \"ambiguous_security_count\": 0, \"quarantine_observations\": 903558, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"], \"publication_format\": \"sharded_manifest_v2\", \"identity_shard_count\": 12, \"largest_identity_shard_bytes\": 19999956}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-15T06:30:48.411890+00:00\", \"status\": \"built_with_explicit_gaps\", \"entity_count\": 27759, \"security_count\": 401997, \"relationship_count\": 14114, \"issuer_mapping_observation_count\": 3011, \"ambiguous_security_count\": 0, \"quarantine_observations\": 905286, \"missing_cached_files\": 0, \"gaps\": [\"Historical effective identifier dates unknown\", \"Adviser and ultimate parent attribution unverified\", \"Identifiers outside cached filings not covered\"], \"publication_format\": \"sharded_manifest_v2\", \"identity_shard_count\": 12, \"largest_identity_shard_bytes\": 19999968}\n",
       "stderr_tail": ""
     },
     {
@@ -17,7 +17,7 @@
       "script": "reconcile_ownership.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"blocked_selections\": 170, \"fund_periods\": 20055, \"manager_periods\": 20957, \"potential_overlap_pairs\": 23, \"unresolved_fund_manager_mappings\": 20032, \"verified_overlap_pairs\": 0}\n",
+      "stdout_tail": "{\"blocked_selections\": 177, \"fund_periods\": 23232, \"manager_periods\": 21026, \"potential_overlap_pairs\": 23, \"unresolved_fund_manager_mappings\": 23209, \"verified_overlap_pairs\": 0}\n",
       "stderr_tail": ""
     },
     {
@@ -25,7 +25,7 @@
       "script": "build_ownership_atlas.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"schema_version\": 1, \"updated_at\": \"2026-11-15T02:05:57.933664+00:00\", \"source\": \"../intelligence/reconciliation.json\", \"basis\": \"Incomplete latest-restated matched-CUSIP equity views; not total institutional AUM. Manager and fund views must not be added.\", \"lenses\": {\"managers\": [{\"report_date\": \"2026-09-30\", \"file\": \"managers-2026-09-30.json\", \"count\": 7122}, {\"report_date\": \"2026-06-30\", \"file\": \"managers-2026-06-30.json\", \"count\": 8918}, {\"report_date\": \"2026-03-31\", \"file\": \"managers-2026-03-31.json\", \"count\": 174}, {\"report_date\": \"2025-12-31\", \"file\": \"managers-2025-12-31.json\", \"count\": 127}, {\"report_date\": \"2025-09-30\", \"file\": \"managers-2025-09-30.json\", \"count\": 4616}], \"funds\": [{\"report_date\": \"2026-09-30\", \"file\": \"funds-2026-09-30.json\", \"count\": 128}, {\"report_date\": \"2026-08-31\", \"file\": \"funds-2026-08-31.json\", \"count\": 2679}, {\"report_date\": \"2026-07-31\", \"file\": \"funds-2026-07-31.json\", \"count\": 4193}, {\"report_date\": \"2026-06-30\", \"file\": \"funds-2026-06-30.json\", \"count\": 6912}, {\"report_date\": \"2026-05-31\", \"file\": \"funds-2026-05-31.json\", \"count\": 2502}, {\"report_date\": \"2026-05-29\", \"file\": \"funds-2026-05-29.json\", \"count\": 197}, {\"report_date\": \"2026-04-30\", \"file\": \"funds-2026-04-30.json\", \"count\": 14}, {\"report_date\": \"2026-03-31\", \"file\": \"funds-2026-03-31.json\", \"count\": 27}, {\"report_date\": \"2026-02-28\", \"file\": \"funds-2026-02-28.json\", \"count\": 7}, {\"report_date\": \"2026-01-31\", \"file\": \"funds-2026-01-31.json\", \"count\": 13}, {\"report_date\": \"2025-12-31\", \"file\": \"funds-2025-12-31.json\", \"count\": 4}, {\"report_date\": \"2025-11-30\", \"file\": \"funds-2025-11-30.json\", \"count\": 3}, {\"report_date\": \"2025-10-31\", \"file\": \"funds-2025-10-31.json\", \"count\": 3244}, {\"report_date\": \"2025-09-30\", \"file\": \"funds-2025-09-30.json\", \"count\": 132}]}}\n{\"skunkworks_validated_managers\": 50}\n",
+      "stdout_tail": "{\"schema_version\": 1, \"updated_at\": \"2026-11-15T06:31:56.491062+00:00\", \"source\": \"../intelligence/reconciliation.json\", \"basis\": \"Incomplete latest-restated matched-CUSIP equity views; not total institutional AUM. Manager and fund views must not be added.\", \"lenses\": {\"managers\": [{\"report_date\": \"2026-09-30\", \"file\": \"managers-2026-09-30.json\", \"count\": 7122}, {\"report_date\": \"2026-06-30\", \"file\": \"managers-2026-06-30.json\", \"count\": 8918}, {\"report_date\": \"2026-03-31\", \"file\": \"managers-2026-03-31.json\", \"count\": 174}, {\"report_date\": \"2025-12-31\", \"file\": \"managers-2025-12-31.json\", \"count\": 127}, {\"report_date\": \"2025-09-30\", \"file\": \"managers-2025-09-30.json\", \"count\": 4685}], \"funds\": [{\"report_date\": \"2026-09-30\", \"file\": \"funds-2026-09-30.json\", \"count\": 128}, {\"report_date\": \"2026-08-31\", \"file\": \"funds-2026-08-31.json\", \"count\": 2679}, {\"report_date\": \"2026-07-31\", \"file\": \"funds-2026-07-31.json\", \"count\": 4193}, {\"report_date\": \"2026-06-30\", \"file\": \"funds-2026-06-30.json\", \"count\": 6921}, {\"report_date\": \"2026-05-31\", \"file\": \"funds-2026-05-31.json\", \"count\": 2502}, {\"report_date\": \"2026-05-29\", \"file\": \"funds-2026-05-29.json\", \"count\": 197}, {\"report_date\": \"2026-04-30\", \"file\": \"funds-2026-04-30.json\", \"count\": 14}, {\"report_date\": \"2026-03-31\", \"file\": \"funds-2026-03-31.json\", \"count\": 27}, {\"report_date\": \"2026-02-28\", \"file\": \"funds-2026-02-28.json\", \"count\": 7}, {\"report_date\": \"2026-01-31\", \"file\": \"funds-2026-01-31.json\", \"count\": 13}, {\"report_date\": \"2025-12-31\", \"file\": \"funds-2025-12-31.json\", \"count\": 4}, {\"report_date\": \"2025-11-30\", \"file\": \"funds-2025-11-30.json\", \"count\": 3}, {\"report_date\": \"2025-10-31\", \"file\": \"funds-2025-10-31.json\", \"count\": 4014}, {\"report_date\": \"2025-09-30\", \"file\": \"funds-2025-09-30.json\", \"count\": 2530}]}}\n{\"skunkworks_validated_managers\": 50}\n",
       "stderr_tail": ""
     },
     {
@@ -33,7 +33,7 @@
       "script": "market_inputs.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"generated_at\": \"2026-11-15T02:06:04.697931+00:00\", \"as_of\": \"2026-11-12\", \"universe_basis\": \"Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.\", \"security_count\": 2592, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 2392, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
+      "stdout_tail": "{\"generated_at\": \"2026-11-15T06:32:05.573366+00:00\", \"as_of\": \"2026-11-12\", \"universe_basis\": \"Union of current SPTM S&P1500 proxy and IWV Russell 3000 ETF holdings proxy; deduplicated by normalized ticker, with CUSIP retained when available. IWV source does not include CUSIPs. Current proxy membership, not point-in-time index constituents. A separate large/mega-cap screen outside these proxies is not yet available.\", \"security_count\": 2592, \"verified_price_count\": 0, \"class_market_cap_count\": 0, \"float_denominator_count\": 0, \"liquidity_count\": 0, \"cached_issuers_with_dated_share_facts\": 2392, \"issuer_share_fact_limitation\": \"Issuer XBRL share facts are not assigned to a security class without corroboration.\", \"status\": \"blocked_missing_verified_market_inputs\", \"provider_adapter\": \"Optional Stooq transport available; adjustment basis remains quarantined.\", \"acquisition\": null}\n",
       "stderr_tail": ""
     },
     {
@@ -41,7 +41,7 @@
       "script": "investor_intelligence.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"funds\": 14003, \"funds_orientation_unknown\": 14003, \"managers\": 9230, \"verified_mandates\": 0}\n",
+      "stdout_tail": "{\"funds\": 14121, \"funds_orientation_unknown\": 14121, \"managers\": 9233, \"verified_mandates\": 0}\n",
       "stderr_tail": ""
     },
     {
@@ -49,7 +49,7 @@
       "script": "match_fundamental_portfolios.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "Matched 9230 cached portfolios; 0 files unavailable\n",
+      "stdout_tail": "Matched 9233 cached portfolios; 0 files unavailable\n",
       "stderr_tail": ""
     },
     {
@@ -73,7 +73,7 @@
       "script": "parse_investor_events.py",
       "status": "passed",
       "return_code": 0,
-      "stdout_tail": "{\"catalogued_candidate_filings\": 25517, \"archived_candidate_filings\": 25517, \"selected_filings\": 2000, \"parsed_filings\": 6797, \"beneficial_ownership_records\": 11758, \"proxy_vote_records\": 1076799, \"unavailable_filings\": 18457, \"unsupported_filings\": 263, \"unselected_archived_filings\": 17115, \"unchanged_unsupported_filings\": 253, \"previously_parsed_filings\": 6149, \"remaining_archived_filings\": 18720, \"release_shards_fetched\": 2}\n",
+      "stdout_tail": "{\"catalogued_candidate_filings\": 26398, \"archived_candidate_filings\": 26398, \"selected_filings\": 2000, \"parsed_filings\": 6948, \"beneficial_ownership_records\": 12159, \"proxy_vote_records\": 1077045, \"unavailable_filings\": 19187, \"unsupported_filings\": 263, \"unselected_archived_filings\": 17338, \"unchanged_unsupported_filings\": 263, \"previously_parsed_filings\": 6797, \"remaining_archived_filings\": 19450, \"release_shards_fetched\": 1}\n",
       "stderr_tail": ""
     },
     {
