@@ -184,6 +184,19 @@ class StandaloneIdentityTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'series identifier'):
             parse(self.xml(series_name='Another Fund', series_lei='00000000000000000000'), 'SEC original')
 
+    def test_matching_legal_names_and_zero_series_lei_use_registrant_identity(self):
+        fund = parse(self.xml(series_lei='00000000000000000000'), 'SEC original')
+        self.assertEqual(fund['fund_id'], 'CIK0000000001')
+        self.assertIsNone(fund['series_id'])
+        self.assertEqual(fund['identity_basis'],
+                         'matching_registrant_series_name_zero_placeholder_series_lei')
+
+    def test_zero_series_lei_needs_a_valid_nonzero_registrant_lei(self):
+        raw = self.xml(series_lei='00000000000000000000').replace(
+            b'549300IRIJ5TBU8V3T78', b'00000000000000000000', 1)
+        with self.assertRaisesRegex(ValueError, 'series identifier'):
+            parse(raw, 'SEC original')
+
     def test_sec_reported_empty_investment_schedule_is_retained_and_labelled(self):
         raw = (b'<edgarSubmission><regCik>1</regCik><regName>New Fund</regName>'
                b'<seriesId>S000000001</seriesId><seriesName>New Fund</seriesName>'

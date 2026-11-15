@@ -103,6 +103,7 @@ def build(data_root):
                           'matching_registrant_series_lei_and_name',
                           'matching_registrant_series_lei',
                           'matching_registrant_series_name_series_lei_not_applicable',
+                          'matching_registrant_series_name_zero_placeholder_series_lei',
                           'explicit_none_series_zero_lei',
                       } and eid):
                     fid='fund:registrant:'+eid[4:]
