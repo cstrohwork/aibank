@@ -210,6 +210,12 @@ def run(batch=2000):
     )
     orphaned_profile_count = sum(1 for cik in manifest['profiles'] if cik not in active_ciks)
     failed_pending_count = sum(1 for item in next_batch if item['manager_cik'] in manifest['failures'])
+    # The next-batch preview is capped at 200; it must not be presented as
+    # the complete failed queue. Reconcile failures against the active universe.
+    failed_active_count = sum(1 for cik in active_ciks if cik in manifest['failures'])
+    failed_outside_universe_count = sum(1 for cik in manifest['failures'] if cik not in active_ciks)
+    pending_active_count = remaining
+    completed_current_version_count = len(active_ciks) - pending_active_count
     # Separate published disclosure pages from those with validated USD evidence.
     # A validated accession is a normalization check, NOT independent cover-page
     # reconciliation or proof of complete institutional coverage.
@@ -222,6 +228,10 @@ def run(batch=2000):
     manifest.update(active_generated_count=active_generated_count,
                     orphaned_profile_count=orphaned_profile_count,
                     failed_pending_next_batch=failed_pending_count,
+                    failed_active_count=failed_active_count,
+                    failed_outside_universe_count=failed_outside_universe_count,
+                    pending_active_count=pending_active_count,
+                    completed_current_version_count=completed_current_version_count,
                     validated_normalized_usd_profile_count=validated_usd_count,
                     without_validated_normalized_usd_count=active_generated_count-validated_usd_count)
     manifest.update(next_batch=next_batch, next_batch_count=len(next_batch),
