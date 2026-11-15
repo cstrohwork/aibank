@@ -1,0 +1,88 @@
+{
+  "manager_cik": "0001912273",
+  "investor_name": "Yunqi Capital Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-09",
+  "city": "HONG KONG",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1912273/0001912273-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1912273/0001912273-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1912273/0001912273-26-000005.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d0fa6036fff01cfc61a0e0d47912ea3ea0f286b78ad67a9fb661fd5f80205312",
+  "generated_at": "2026-11-15T21:12:15.940269+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001912273-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1912273/0001912273-26-000005.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 110885303.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "852312305",
+        "security_class": "COM PAR $0.01",
+        "issuer": "STAAR SURGICAL CO",
+        "shares": 3257130.0,
+        "value_usd": 73643709.0,
+        "weight_pct": 66.41
+      },
+      {
+        "cusip": "73933G202",
+        "security_class": "COM NEW",
+        "issuer": "POWER SOLUTIONS INTL INC",
+        "shares": 521904.0,
+        "value_usd": 23991927.0,
+        "weight_pct": 21.64
+      },
+      {
+        "cusip": "54975P201",
+        "security_class": "SPONSORED ADR",
+        "issuer": "LUFAX HOLDING LTD",
+        "shares": 10950138.0,
+        "value_usd": 13249667.0,
+        "weight_pct": 11.95
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5021.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-21",
+        "accession": "0001912273-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001912273-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001912273-26-000005"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 110885303.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001912273-26-000005",
+  "annualized_turnover_proxy_pct": null
+}
