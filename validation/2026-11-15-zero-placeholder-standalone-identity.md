@@ -27,12 +27,15 @@ This does not infer an adviser or parent, and it does not treat an all-zero LEI 
 
 - `python -m unittest tests.test_worker_recovery.StandaloneIdentityTests -v` — 14 passed.
 - `python -m unittest tests.test_identity_master.IdentityTests -v` — 6 passed.
-- `python -m unittest discover -s tests -v` — 201 passed.
-- `python -m py_compile scripts/refresh_funds.py scripts/build_identity_master.py` — passed.
+- `python -m unittest tests.test_check_capitalsignal -v` — 2 passed.
+- Final `python -m unittest discover -s tests -v` after the health-gate correction — 203 passed.
+- `python -m py_compile scripts/refresh_funds.py scripts/build_identity_master.py scripts/check_capitalsignal.py` — passed.
 - `git diff --check` — passed.
 - Exact retained-original replay through `sec_history.normalize` — one normalized fund record, 356 holdings, `reported_position_count=356`, `position_coverage=parsed_supported_positions`, report date `2026-06-30`, null series ID, and the explicit new identity basis.
 
 The first targeted run exposed that equal all-zero registrant and series LEIs were previously accepted by the generic equality predicate. The predicate now requires both LEIs to be valid and nonzero; the new negative regression confirms placeholder-only evidence remains unknown.
+
+The first cloud review run [43687835048](https://github.com/cstrohwork/aibank/actions/runs/43687835048) then passed all 201 regressions and visualization gates but failed committed-data validation because the cache health checker still rejected the nine newly published, explicitly labelled zero-position schedules as generic empty holdings. The checker now accepts an empty fund schedule only when both its index and snapshot carry `position_coverage=sec_reported_no_investment_positions`, `holdings_count=0`, and `reported_position_count=0`. Unlabelled empty schedules remain errors. Dedicated positive and negative health regressions were added; a replacement cloud run is required before merge.
 
 ## Incomplete state and next task
 

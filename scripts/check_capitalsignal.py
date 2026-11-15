@@ -39,7 +39,11 @@ def check(root):
             holdings_count += len(holdings)
             if len(holdings) != entry.get("holdings_count"):
                 errors.append(f"{file}: holdings count differs from index")
-            if not holdings:
+            reported_empty_schedule = (folder == "funds" and
+                entry.get("position_coverage") == "sec_reported_no_investment_positions" and
+                data.get("position_coverage") == "sec_reported_no_investment_positions" and
+                data.get("reported_position_count") == 0 and entry.get("holdings_count") == 0)
+            if not holdings and not reported_empty_schedule:
                 errors.append(f"{file}: no holdings")
             value_key = "value_thousands" if folder == "13f" else "reported_value_usd"
             for h in holdings:
