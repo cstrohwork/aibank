@@ -18,7 +18,7 @@
   <p class="subtitle">Project, data pipeline, and GitHub worker status</p>
   <a class="skunk-nav" href="#skunkworks">Explore Skunkworks initiatives ↓</a>
 </header>
-<main class="wrap">
+<main class="wrap"><section class="card" id="global-fundamentals" style="margin:22px 0"><div class="section-head"><div><h2>Global Fundamentals &amp; Modeling Expansion</h2><p>Beyond S&amp;P 1500: US-listed SEC issuers, international company filings, valuation and future M&amp;A models</p></div><a href="../CapitalSignal/fundamentals/" class="button">Open dedicated site ↗</a></div><div class="grid stats" style="margin:14px 0"><div><div class="stat-label">US securities in proxy universe</div><div class="stat-value" id="globalFundSecurities">—</div></div><div><div class="stat-label">Mapped US issuers</div><div class="stat-value" id="globalFundIssuers">—</div></div><div><div class="stat-label">Ingested US issuers</div><div class="stat-value" id="globalFundIngested">—</div></div><div><div class="stat-label">International issuers ingested</div><div class="stat-value">Not reported</div></div></div><p class="small">US figures load from the published SEC fundamentals manifest. The existing universe combines SPTM and IWV ETF holdings proxies, not official index membership. Canada, Europe, UK and Asia-Pacific ingestion is planned; no international coverage is claimed.</p><p class="small" id="globalFundTimestamp">Loading fundamentals source status…</p></section>
   <div class="notice"><span aria-hidden="true">●</span><div><strong>Live operational view.</strong> GitHub Actions and the published data status files refresh automatically every five minutes. ChatGPT scheduled agents are listed separately in the process notes below; their private run/pause state is not available to an external webpage.</div></div>
   <div class="grid stats">
     <article class="card"><div class="stat-label">Workers running</div><div class="stat-value" id="runningCount">—</div><div class="stat-note">GitHub Actions jobs currently in progress</div></article>
@@ -275,4 +275,4 @@ $("filters").addEventListener("click",e=>{const b=e.target.closest("button[data-
 load();setInterval(load,300000);
 })();
 </script>
-</body></html>
+<script>(function(){fetch("../CapitalSignal/data/fundamentals/status.json?ts="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(d=>{for(const [id,key] of Object.entries({globalFundSecurities:"security_count",globalFundIssuers:"unique_mapped_issuers",globalFundIngested:"ingested_issuers"})){const e=document.getElementById(id);if(e)e.textContent=Number.isFinite(d[key])?d[key].toLocaleString():"—"}document.getElementById("globalFundTimestamp").textContent="Published manifest: "+(d.updated_at||"unknown")+" · status: "+(d.status||"unknown")}).catch(e=>document.getElementById("globalFundTimestamp").textContent="Coverage manifest unavailable: "+e.message)})();</script></body></html>
