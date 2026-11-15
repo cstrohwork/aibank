@@ -38,7 +38,14 @@ def analyze(data, cik, period, entries):
                 snaps.append(snap)
     if not snaps or snaps[-1].get('report_date') != period:
         return {'available': False}
-    latest = snaps[-1]
+    # Multiple accessions for one report period can represent amendments or
+    # separate filings. Do not silently use whichever appears last in the index.
+    # A source-validated amendment precedence resolver must choose the winner.
+    same_period = [s for s in snaps if s.get('report_date') == period]
+    if len(same_period) != 1 or same_period[0].get('amendment_review_required'):
+        return {'available': False, 'reason': 'Unresolved same-period filing or amendment precedence',
+                'report_date': period, 'filing_count': len(same_period)}
+    latest = same_period[0]
     rows, skipped = holdings(latest)
     total = sum(x['value'] for x in rows.values())
     ordered = sorted(rows.items(), key=lambda kv:kv[1]['value'], reverse=True)
@@ -70,7 +77,7 @@ def render(p, a):
     def pct(v): return e(v)+'%' if v is not None else 'Unavailable'
     def money(v): return '${:,.0f}'.format(v) if v is not None else 'Awaiting unit validation'
     if not a.get('available'):
-        return '<h3>Underlying holdings</h3><p>No matching holdings snapshot is available for this report period.</p>'
+        return '<h3>Underlying holdings</h3><p>'+e(a.get('reason') or 'No matching holdings snapshot is available for this report period.')+'</p>'
     body = '<h3>Profile summary</h3><p>'+e(p['investor_name'])+' disclosed '+e(a['distinct_positions'])+' distinct long share positions in the '+e(a['report_date'])+' cached reporting period. Top five positions represent '+pct(a['top_five_pct'])+' of available long-share value.</p>'
     body += '<h3>Reported positioning and concentration</h3><p>Normalized long-share value: <b>'+money(a['reported_long_equity_value_usd'])+'</b>. This is not total institutional AUM. Top ten concentration: <b>'+pct(a['top_ten_pct'])+'</b>. HHI (0–10,000): '+e(a['hhi'])+'.</p>'
     body += '<h3>Largest disclosed security positions</h3><div style="overflow:auto"><table><tr><th>Security / CUSIP</th><th>Shares</th><th>Value</th><th>Weight</th></tr>'
