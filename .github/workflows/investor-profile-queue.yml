@@ -9,7 +9,9 @@ on:
       - 'scripts/investor_profile_analytics.py'
       - 'scripts/build_investor_profiles.py'
       - 'CapitalSignal/data/investor_profiles.json'
-      - 'CapitalSignal/data/13f/index.json'
+      - 'CapitalSignal/data/13f/**'
+      - 'CapitalSignal/data/funds/**'
+      - 'CapitalSignal/data/history/normalized/**'
   workflow_run:
     workflows: ['Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
     types: [completed]
