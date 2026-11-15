@@ -41,12 +41,19 @@ def run(batch=2000):
         for entry in entries:
             key = (str(entry.get('manager_cik', '')).zfill(10), entry.get('report_date'))
             filing_dates[key] = max(filing_dates.get(key, ''), entry.get('filing_date') or '')
+    # Index filings once by stable manager CIK. Scanning the entire 13F
+    # universe for every profile makes a continuous queue quadratic and
+    # increasingly slow as discovery expands.
+    entries_by_cik = {}
+    for entry in entries:
+        manager_cik = str(entry.get('manager_cik') or '').zfill(10)
+        entries_by_cik.setdefault(manager_cik, []).append(entry)
     for profile in profiles:
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
         profile['render_version'] = 'explicit-holding-usd-v8'
-        matching_entries = [e for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
+        matching_entries = entries_by_cik.get(cik_key, [])
         # Accession metadata must participate in the queue fingerprint even
         # when an ingestion worker has not yet committed a normalized blob.
         profile['accession_fingerprints'] = sorted({
