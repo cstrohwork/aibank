@@ -57,7 +57,7 @@ def run(batch=2000):
         cik = str(p.get('manager_cik') or '').zfill(10)
         prior = manifest['profiles'].get(cik, {})
         fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
-        if prior.get('fingerprint') == fingerprint and (OUT / cik / 'index.html').exists():
+        if prior.get('fingerprint') == fingerprint and ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists()):
             continue
         (unpublished if cik not in manifest['profiles'] else refreshes).append(p)
     reserved = min(len(unpublished), max(1, batch // 4))
@@ -74,7 +74,7 @@ def run(batch=2000):
             continue
         fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
         prior = manifest['profiles'].get(cik, {})
-        if prior.get('fingerprint') == fingerprint and (OUT / cik / 'index.html').exists():
+        if prior.get('fingerprint') == fingerprint and ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists()):
             continue
         if changed >= batch:
             continue
@@ -127,7 +127,7 @@ def run(batch=2000):
         1 for p in profiles
         if (manifest['profiles'].get(str(p.get('manager_cik') or '').zfill(10), {}).get('fingerprint')
             != hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
-            or not (OUT / str(p.get('manager_cik') or '').zfill(10) / 'index.html').exists())
+            or not ((OUT / str(p.get('manager_cik') or '').zfill(10) / 'index.html').exists() and (OUT / str(p.get('manager_cik') or '').zfill(10) / 'profile.json').exists()))
     )
     # Separate never-published coverage from changed profiles awaiting refresh.
     # The combined pending count must not be mistaken for undiscovered investors.
@@ -140,7 +140,7 @@ def run(batch=2000):
         cik = str(p.get('manager_cik') or '').zfill(10)
         fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
         if (manifest['profiles'].get(cik, {}).get('fingerprint') != fingerprint
-                or not (OUT / cik / 'index.html').exists()):
+                or not ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists())):
             next_batch.append({'manager_cik': cik, 'report_date': p.get('latest_report_date'),
                                'state': 'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'})
         if len(next_batch) >= min(batch, 200):
@@ -151,7 +151,7 @@ def run(batch=2000):
     active_ciks = {str(p.get('manager_cik') or '').zfill(10) for p in profiles}
     active_generated_count = sum(
         1 for cik in active_ciks
-        if cik in manifest['profiles'] and (OUT / cik / 'index.html').exists()
+        if cik in manifest['profiles'] and ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists())
     )
     orphaned_profile_count = sum(1 for cik in manifest['profiles'] if cik not in active_ciks)
     failed_pending_count = sum(1 for item in next_batch if item['manager_cik'] in manifest['failures'])
