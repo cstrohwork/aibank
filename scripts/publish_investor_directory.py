@@ -45,8 +45,18 @@ def run(batch=2000):
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
-        profile['render_version'] = 'version-history-links-v6'
-        profile['holdings_fingerprints'] = [blob_map.get('CapitalSignal/data/13f/' + str(e.get('file')), '') for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
+        profile['render_version'] = 'accession-fingerprint-queue-v7'
+        matching_entries = [e for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
+        # Accession metadata must participate in the queue fingerprint even
+        # when an ingestion worker has not yet committed a normalized blob.
+        profile['accession_fingerprints'] = sorted({
+            '|'.join(str(e.get(k) or '') for k in ('report_date', 'filing_date', 'accession', 'source', 'amendment_review_required'))
+            for e in matching_entries
+        })
+        profile['holdings_fingerprints'] = sorted({
+            blob_map.get('CapitalSignal/data/13f/' + str(e.get('file')), '')
+            for e in matching_entries
+        } - {''})
     profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or ''), reverse=True)
     # Reserve a quarter of each bounded run for never-published managers.
     # The remaining slots refresh changed profiles; this prevents frequent
@@ -147,7 +157,7 @@ def run(batch=2000):
             (versions / (fingerprint + '.json')).write_text(content)
             (target / 'profile.json').write_text(content)
             (target / 'index.html').write_text(head + body)
-            manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'validated_accession': doc['validated_accession'], 'generated_at': now}
+            manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'validated_accession': doc['validated_accession'], 'accession_fingerprints': p.get('accession_fingerprints', []), 'generated_at': now}
             manifest['failures'].pop(cik, None)
             changed += 1
         except Exception as exc:
@@ -177,7 +187,7 @@ def run(batch=2000):
         if (manifest['profiles'].get(cik, {}).get('fingerprint') != fingerprint
                 or not ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists())):
             next_batch.append({'manager_cik': cik, 'report_date': p.get('latest_report_date'),
-                               'source_fingerprint': fingerprint,
+                               'source_fingerprint': fingerprint, 'accession_fingerprints': p.get('accession_fingerprints', []),
                                'state': ('failed_retry' if cik in manifest['failures'] else
                                          'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'),
                                'retry_attempts': manifest['failures'].get(cik, {}).get('attempts', 0)})
