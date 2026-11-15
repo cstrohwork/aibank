@@ -59,6 +59,19 @@ def run(batch=2000):
         fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
         if prior.get('fingerprint') == fingerprint and ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists()):
             continue
+        # Back off repeated failures without blocking other managers. A new source
+        # fingerprint bypasses the cooldown so new filings can be processed promptly.
+        failure = manifest.get('failures', {}).get(cik, {})
+        if failure.get('fingerprint') == fingerprint and failure.get('last_attempt_at'):
+            try:
+                last_attempt = dt.datetime.fromisoformat(failure['last_attempt_at'])
+                if last_attempt.tzinfo is None:
+                    last_attempt = last_attempt.replace(tzinfo=dt.timezone.utc)
+                cooldown = dt.timedelta(minutes=min(360, 5 * (2 ** min(int(failure.get('attempts', 1)) - 1, 7))))
+                if dt.datetime.now(dt.timezone.utc) - last_attempt < cooldown:
+                    continue
+            except (ValueError, TypeError, OverflowError):
+                pass
         (unpublished if cik not in manifest['profiles'] else refreshes).append(p)
     reserved = min(len(unpublished), max(1, batch // 4))
     selected = unpublished[:reserved] + refreshes[:max(0, batch - reserved)]
