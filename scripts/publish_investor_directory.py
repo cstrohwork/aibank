@@ -145,6 +145,19 @@ def run(batch=2000):
                                'state': 'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'})
         if len(next_batch) >= min(batch, 200):
             break
+    # Reconcile the active discovery universe separately from historical pages.
+    # A profile left in the manifest is not evidence that its manager remains
+    # present in the latest ingested cache.
+    active_ciks = {str(p.get('manager_cik') or '').zfill(10) for p in profiles}
+    active_generated_count = sum(
+        1 for cik in active_ciks
+        if cik in manifest['profiles'] and (OUT / cik / 'index.html').exists()
+    )
+    orphaned_profile_count = sum(1 for cik in manifest['profiles'] if cik not in active_ciks)
+    failed_pending_count = sum(1 for item in next_batch if item['manager_cik'] in manifest['failures'])
+    manifest.update(active_generated_count=active_generated_count,
+                    orphaned_profile_count=orphaned_profile_count,
+                    failed_pending_next_batch=failed_pending_count)
     manifest.update(next_batch=next_batch, next_batch_count=len(next_batch),
                     profile_evidence_level='cached_sec_disclosure_monetary_reconciliation_pending',
                     never_published_remaining=never_published_remaining, refresh_remaining=refresh_remaining,
