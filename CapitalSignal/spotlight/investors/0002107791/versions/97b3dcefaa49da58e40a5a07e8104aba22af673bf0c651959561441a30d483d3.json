@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0002107791",
+  "investor_name": "Orange County Employees Retirement System",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-02",
+  "city": "Santa Ana",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2107791/0000897069-26-001596.txt",
+    "https://www.sec.gov/Archives/edgar/data/2107791/0000897069-26-001883.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "97b3dcefaa49da58e40a5a07e8104aba22af673bf0c651959561441a30d483d3",
+  "generated_at": "2026-11-15T07:14:00.387876+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0000897069-26-001883",
+    "source": "https://www.sec.gov/Archives/edgar/data/2107791/0000897069-26-001883.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 266828702.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "095924106",
+        "security_class": "COMMON STOCK",
+        "issuer": "BLUE OWL TECHNOLOGY FIN CORP",
+        "shares": 20300151.0,
+        "value_usd": 199144481.0,
+        "weight_pct": 74.63
+      },
+      {
+        "cusip": "38149W481",
+        "security_class": "INDIA EQUITY ETF",
+        "issuer": "GOLDMAN SACHS ETF TR",
+        "shares": 2853513.0,
+        "value_usd": 66872077.0,
+        "weight_pct": 25.06
+      },
+      {
+        "cusip": "70439P108",
+        "security_class": "COM CL A",
+        "issuer": "PAYMENTUS HOLDINGS INC",
+        "shares": 26506.0,
+        "value_usd": 812144.0,
+        "weight_pct": 0.3
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6198.4,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0000897069-26-001596"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0000897069-26-001883"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 266828702.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000897069-26-001883",
+  "annualized_turnover_proxy_pct": null
+}

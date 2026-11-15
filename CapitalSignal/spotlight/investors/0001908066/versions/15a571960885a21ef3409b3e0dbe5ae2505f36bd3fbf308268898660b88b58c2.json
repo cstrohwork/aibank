@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001908066",
+  "investor_name": "ECLIPSE OPERATIONS, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-09",
+  "city": "PALO ALTO",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1908066/0001104659-26-092541.txt",
+    "https://www.sec.gov/Archives/edgar/data/1908066/0001104659-26-124310.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "15a571960885a21ef3409b3e0dbe5ae2505f36bd3fbf308268898660b88b58c2",
+  "generated_at": "2026-11-15T07:14:00.387876+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001104659-26-124310",
+    "source": "https://www.sec.gov/Archives/edgar/data/1908066/0001104659-26-124310.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 981130988.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "15675D103",
+        "security_class": "Common Stock",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 5292222.0,
+        "value_usd": 940163238.0,
+        "weight_pct": 95.82
+      },
+      {
+        "cusip": "69120X206",
+        "security_class": "Common Stock",
+        "issuer": "OWLET INC",
+        "shares": 7700835.0,
+        "value_usd": 40506392.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "04302A104",
+        "security_class": "Common Stock",
+        "issuer": "ARTERIS INC",
+        "shares": 19516.0,
+        "value_usd": 461358.0,
+        "weight_pct": 0.05
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9199.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001104659-26-092541"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001104659-26-124310"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 981130988.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-124310",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,96 @@
+{
+  "manager_cik": "0001482010",
+  "investor_name": "New Jersey Better Educational Savings Trust",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-02",
+  "city": "TRENTON",
+  "state": "NJ",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1482010/0001482010-25-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1482010/0001482010-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1482010/0001482010-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c764e282c1791b0cbe4764bafa84031d019e081024a89003596f62348f2fed28",
+  "generated_at": "2026-11-15T07:14:00.387876+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-02",
+    "accession": "0001482010-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1482010/0001482010-26-000006.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 59908719.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "921937835",
+        "security_class": "TOTAL BND MRKT",
+        "issuer": "VANGUARD BD INDEX FDS",
+        "shares": 354594.0,
+        "value_usd": 24874769.0,
+        "weight_pct": 41.52
+      },
+      {
+        "cusip": "464288620",
+        "security_class": "USD INV GRDE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 507693.0,
+        "value_usd": 24729727.0,
+        "weight_pct": 41.28
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 57427.0,
+        "value_usd": 5154648.0,
+        "weight_pct": 8.6
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 6724.0,
+        "value_usd": 5149575.0,
+        "weight_pct": 8.6
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3575.88,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001482010-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-23",
+        "accession": "0001482010-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-02",
+        "accession": "0001482010-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 59908719.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001482010-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

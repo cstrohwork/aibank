@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0001603328",
+  "investor_name": "FORSTA AP-FONDEN",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-09",
+  "city": "STOCKHOLM",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1603328/0001603328-25-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1603328/0001603328-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1603328/0001603328-26-000007.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "bdda5ddeed0d8dc0dffb7bd97b77a1c93259de7d5e6ba4d68db65a382b18e5d3",
+  "generated_at": "2026-11-15T07:14:00.387876+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001603328-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1603328/0001603328-26-000007.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00766T100",
+        "security_class": "COM",
+        "issuer": "AECOM",
+        "shares": 1.0,
+        "value_usd": 1.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001603328-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001603328-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001603328-26-000007"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001603328-26-000007",
+  "annualized_turnover_proxy_pct": null
+}
