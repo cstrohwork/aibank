@@ -1,0 +1,66 @@
+{
+  "manager_cik": "0002106649",
+  "investor_name": "Brehaut David Pascal",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "Vale",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2106649/0001104659-26-095707.txt",
+    "https://www.sec.gov/Archives/edgar/data/2106649/0001104659-26-126609.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "9a144a1406ed84bbd97394253a8233fbdac7b5bada39d9edfd4b11ba93651e13",
+  "generated_at": "2026-11-15T11:43:52.874356+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126609",
+    "source": "https://www.sec.gov/Archives/edgar/data/2106649/0001104659-26-126609.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1152922108.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "48581R205",
+        "security_class": "SPONSORED ADS",
+        "issuer": "KASPI KZ JSC",
+        "shares": 12257305.0,
+        "value_usd": 1152922108.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001104659-26-095707"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126609"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1152922108.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-126609",
+  "annualized_turnover_proxy_pct": null
+}

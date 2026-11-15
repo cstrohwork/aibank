@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001789908",
+  "investor_name": "Fosse Capital Partners LLP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "LONDON",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1789908/0001789908-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1789908/0001789908-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "62e98de0d13701e6bdb1c2dce2cb2d751db84150ba29fbf500e75033182dc4b1",
+  "generated_at": "2026-11-15T11:43:52.874356+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001789908-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1789908/0001789908-26-000006.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 117111738.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "531229755",
+        "security_class": "COM SER C",
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "shares": 618979.0,
+        "value_usd": 57193660.0,
+        "weight_pct": 48.84
+      },
+      {
+        "cusip": "G8994E103",
+        "security_class": "SHS",
+        "issuer": "TRANE TECHNOLOGIES PLC",
+        "shares": 85706.0,
+        "value_usd": 38737398.0,
+        "weight_pct": 33.08
+      },
+      {
+        "cusip": "43849R105",
+        "security_class": "COM",
+        "issuer": "HONEYWELL AEROSPACE INC",
+        "shares": 136676.0,
+        "value_usd": 21180680.0,
+        "weight_pct": 18.09
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3806.24,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001789908-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001789908-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 117111738.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001789908-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

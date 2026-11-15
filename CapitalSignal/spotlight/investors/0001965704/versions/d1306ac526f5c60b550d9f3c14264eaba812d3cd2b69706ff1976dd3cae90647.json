@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001965704",
+  "investor_name": "BANK OF KOREA",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "SEOUL",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1965704/0001965704-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1965704/0001965704-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d1306ac526f5c60b550d9f3c14264eaba812d3cd2b69706ff1976dd3cae90647",
+  "generated_at": "2026-11-15T11:43:52.874356+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001965704-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1965704/0001965704-26-000004.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4359349190.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 2060681.0,
+        "value_usd": 1578172544.0,
+        "weight_pct": 36.2
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 2203142.0,
+        "value_usd": 1544094102.0,
+        "weight_pct": 35.42
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "CORE MSCI INTL",
+        "issuer": "ISHARES TR",
+        "shares": 9752666.0,
+        "value_usd": 872668554.0,
+        "weight_pct": 20.02
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD TR",
+        "shares": 956869.0,
+        "value_usd": 364413990.0,
+        "weight_pct": 8.36
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3035.8,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001965704-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001965704-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 4359349190.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001965704-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

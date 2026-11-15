@@ -1,0 +1,66 @@
+{
+  "manager_cik": "0001335730",
+  "investor_name": "MIZUHO FINANCIAL GROUP INC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "CHIYODA-KU, TOKYO",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1335730/0001104659-26-096278.txt",
+    "https://www.sec.gov/Archives/edgar/data/1335730/0001104659-26-126458.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "0ca31b29cb335013f4648f711bd9a52b11847f7cece658462d891c1103ff1715",
+  "generated_at": "2026-11-15T11:43:52.874356+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126458",
+    "source": "https://www.sec.gov/Archives/edgar/data/1335730/0001104659-26-126458.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 7866735.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "12572Q105",
+        "security_class": "COM",
+        "issuer": "CME GROUP INC",
+        "shares": 30028.0,
+        "value_usd": 7866735.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 13,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096278"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126458"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 7866735.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-126458",
+  "annualized_turnover_proxy_pct": null
+}
