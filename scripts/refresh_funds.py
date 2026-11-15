@@ -2,7 +2,7 @@
 """Build a bounded, sourced fund-level holdings database from SEC N-PORT-P.
 N-PX is voting activity, not a complete positions statement.
 """
-import os,json,re,time,pathlib,urllib.request,xml.etree.ElementTree as ET
+import os,json,re,time,math,pathlib,urllib.request,xml.etree.ElementTree as ET
 from fund_ownership_index import write_ownership_index
 import datetime as dt
 ROOT=pathlib.Path(__file__).resolve().parents[1]/"CapitalSignal"/"data"
@@ -77,14 +77,29 @@ def parse(raw,source):
     report=val(root,"repPdDate","reportDate","reportingPeriod")
     assets=val(root,"totAssets","totalAssets")
     rows=[]
+    position_nodes=0
     for n in root.iter():
         if local(n.tag) not in ("invstorsec","investmentorsecurity"):continue
+        position_nodes+=1
         position=parse_position(n)
         if position is not None:rows.append(position)
-    if not rows:return None
-    identity=fund_identity(root)
+    # An empty SEC investment schedule is a real zero-position observation only
+    # when the complete filing still supplies identity, period and balance facts.
+    # If position nodes exist but none parse, retain the explicit error instead.
+    if not rows and position_nodes:return None
+    try: identity=fund_identity(root)
+    except ValueError:
+        if not rows:return None
+        raise
+    if not rows:
+        balances=[assets,val(root,"totLiabs","totalLiabilities"),val(root,"netAssets")]
+        try: valid_balances=all(x!="" and math.isfinite(float(x)) for x in balances)
+        except ValueError: valid_balances=False
+        if not report or not valid_balances:return None
     if not fund or fund.upper() in {"N/A","NONE"}:fund=val(root,"regName") or identity["fund_id"]
-    return {**identity,"fund_name":fund,"report_date":report,"total_assets_reported":assets,"source":source,"holdings":rows}
+    return {**identity,"fund_name":fund,"report_date":report,"total_assets_reported":assets,"source":source,
+            "position_coverage":"parsed_supported_positions" if rows else "sec_reported_no_investment_positions",
+            "reported_position_count":len(rows),"holdings":rows}
 def main():
     # Registered fund trust CIKs; these are not assumed to map to 13F managers.
     ciks=[x.strip().zfill(10) for x in os.getenv("SEC_FUND_CIKS","0001100663,0000036405,0000225322").split(",") if x.strip()]
@@ -137,7 +152,7 @@ def main():
                             known.add(accession)
                             continue
                     (OUT/filename).write_text(json.dumps(best,separators=(",",":")))
-                    index.append({"fund_id":best["fund_id"],"identity_basis":best["identity_basis"],"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"accession":accession,"holdings_count":len(best["holdings"]),"file":filename,"source":best["source"]})
+                    index.append({"fund_id":best["fund_id"],"identity_basis":best["identity_basis"],"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"accession":accession,"holdings_count":len(best["holdings"]),"position_coverage":best["position_coverage"],"file":filename,"source":best["source"]})
                     known.add(accession)
                     print("fund cached",filename,len(best["holdings"]))
                 except Exception as e:errors.append(f"{cik} {accession}: {e}")

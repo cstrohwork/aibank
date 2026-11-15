@@ -79,7 +79,7 @@ def rebuild(root=ROOT):
         filename = f'{series}-{date}.json'
         save(root / 'funds' / filename, data)
         entries.append({k: data.get(k) for k in ('fund_id', 'series_id', 'identity_basis', 'fund_name', 'registrant_cik',
-            'registrant_name', 'report_date', 'filing_date', 'accession', 'source')} |
+            'registrant_name', 'report_date', 'filing_date', 'accession', 'source', 'position_coverage')} |
             {'file': filename, 'holdings_count': len(data['holdings'])})
     save(root / 'funds' / 'history_index.json', {'funds': entries, 'start_report_date': '2025-09-30',
         'basis': 'Latest filed version per series/report date; original accessions retained in history/normalized. Not an as-known-on-report-date dataset.'})
