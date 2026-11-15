@@ -1,0 +1,402 @@
+[
+  {
+    "id": "01",
+    "group": "Capital",
+    "title": "EAUM size spectrum",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Investor counts by reported matched-CUSIP equity exposure. Each investor appears once."
+  },
+  {
+    "id": "02",
+    "group": "Capital",
+    "title": "Largest disclosed portfolios",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Ranked reported equity exposure; values are not combined across managers."
+  },
+  {
+    "id": "03",
+    "group": "Capital",
+    "title": "Capital percentile ladder",
+    "unit": "usd",
+    "chart": "line",
+    "note": "Interpolated percentiles of investor equity exposure, including zero exposures."
+  },
+  {
+    "id": "04",
+    "group": "Capital",
+    "title": "Median capital by breadth",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Median investor exposure in each distinct-CUSIP count band."
+  },
+  {
+    "id": "05",
+    "group": "Capital",
+    "title": "Mean disclosed position size",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Reported equity exposure divided by distinct CUSIPs; not a typical trade size."
+  },
+  {
+    "id": "06",
+    "group": "Capital",
+    "title": "Capital above each threshold",
+    "unit": "count",
+    "chart": "line",
+    "note": "Cumulative investor counts at or above each EAUM threshold."
+  },
+  {
+    "id": "07",
+    "group": "Capital",
+    "title": "Upper-quartile capital by size",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "75th percentile of investor exposure within each size band."
+  },
+  {
+    "id": "08",
+    "group": "Capital",
+    "title": "Capital dispersion by breadth",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Interquartile range of investor equity exposure in each breadth band."
+  },
+  {
+    "id": "09",
+    "group": "Capital",
+    "title": "Sub-billion investor landscape",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Investors with reported equity exposure below $1bn, largest first."
+  },
+  {
+    "id": "10",
+    "group": "Capital",
+    "title": "Billion-dollar investor breadth",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Distinct CUSIPs among investors reporting at least $1bn."
+  },
+  {
+    "id": "11",
+    "group": "Breadth",
+    "title": "Portfolio breadth spectrum",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Investor counts by distinct-CUSIP count. CUSIPs are securities, not issuer counts."
+  },
+  {
+    "id": "12",
+    "group": "Breadth",
+    "title": "Broadest portfolios",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Ranked distinct-CUSIP counts at one exact reporting date."
+  },
+  {
+    "id": "13",
+    "group": "Breadth",
+    "title": "Most focused positive portfolios",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Smallest nonzero distinct-CUSIP counts; this does not infer style."
+  },
+  {
+    "id": "14",
+    "group": "Breadth",
+    "title": "Breadth percentile ladder",
+    "unit": "count",
+    "chart": "line",
+    "note": "Interpolated percentiles of distinct-CUSIP counts."
+  },
+  {
+    "id": "15",
+    "group": "Breadth",
+    "title": "Median breadth by capital band",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Median security count for each investor exposure band."
+  },
+  {
+    "id": "16",
+    "group": "Breadth",
+    "title": "Breadth above each threshold",
+    "unit": "count",
+    "chart": "line",
+    "note": "Cumulative count of investors at or above each security-count threshold."
+  },
+  {
+    "id": "17",
+    "group": "Breadth",
+    "title": "Focused capital leaders",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Largest equity exposures among portfolios holding 1–25 distinct CUSIPs."
+  },
+  {
+    "id": "18",
+    "group": "Breadth",
+    "title": "Diversified capital leaders",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Largest equity exposures among portfolios holding at least 500 CUSIPs."
+  },
+  {
+    "id": "19",
+    "group": "Breadth",
+    "title": "Breadth dispersion by capital",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Interquartile range of distinct-CUSIP counts within each exposure band."
+  },
+  {
+    "id": "20",
+    "group": "Breadth",
+    "title": "Securities per billion disclosed",
+    "unit": "ratio",
+    "chart": "bar",
+    "note": "Distinct-CUSIP count divided by reported exposure in billions; zero exposures excluded."
+  },
+  {
+    "id": "21",
+    "group": "Changes",
+    "title": "Common cohort value increases",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Same entity at both dates. Reported value change includes prices and disclosure effects; not flows."
+  },
+  {
+    "id": "22",
+    "group": "Changes",
+    "title": "Common cohort value decreases",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Same entity at both dates. Negative changes are reported exposure changes, not estimated selling."
+  },
+  {
+    "id": "23",
+    "group": "Changes",
+    "title": "Common cohort relative growth",
+    "unit": "percent",
+    "chart": "bar",
+    "note": "(Current/prior equity exposure − 1), excluding zero prior exposure."
+  },
+  {
+    "id": "24",
+    "group": "Changes",
+    "title": "Common cohort relative contraction",
+    "unit": "percent",
+    "chart": "bar",
+    "note": "Smallest relative equity exposure changes among matched entities with positive prior values."
+  },
+  {
+    "id": "25",
+    "group": "Changes",
+    "title": "Portfolio breadth expansion",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Change in distinct-CUSIP count, not a count of purchases."
+  },
+  {
+    "id": "26",
+    "group": "Changes",
+    "title": "Portfolio breadth contraction",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Change in distinct-CUSIP count, not a count of sold positions."
+  },
+  {
+    "id": "27",
+    "group": "Changes",
+    "title": "Capital direction × breadth direction",
+    "unit": "count",
+    "chart": "heatmap",
+    "note": "Matched entities grouped by the sign of exposure and CUSIP-count changes."
+  },
+  {
+    "id": "28",
+    "group": "Changes",
+    "title": "Reporting cohort bridge",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Presence in the selected caches, not new fund launches, closures or first-time filers."
+  },
+  {
+    "id": "29",
+    "group": "Changes",
+    "title": "Capital size-band migration",
+    "unit": "count",
+    "chart": "heatmap",
+    "note": "Matched entities moving between the fixed exposure bands used in view 01."
+  },
+  {
+    "id": "30",
+    "group": "Changes",
+    "title": "Median exposure change by prior size",
+    "unit": "usd",
+    "chart": "bar",
+    "note": "Median dollar change for common entities grouped by their prior exposure band."
+  },
+  {
+    "id": "31",
+    "group": "Securities",
+    "title": "Most widely held sample securities",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Distinct validated manager holders per CUSIP in the fixed largest-50 candidate sample."
+  },
+  {
+    "id": "32",
+    "group": "Securities",
+    "title": "Sample holder-count spectrum",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Security counts by number of distinct validated sample managers holding each CUSIP."
+  },
+  {
+    "id": "33",
+    "group": "Securities",
+    "title": "Highest mean holder commitment",
+    "unit": "percent",
+    "chart": "bar",
+    "note": "Mean within-portfolio security weight among sample managers holding that CUSIP."
+  },
+  {
+    "id": "34",
+    "group": "Securities",
+    "title": "Largest single-holder commitment",
+    "unit": "percent",
+    "chart": "bar",
+    "note": "Maximum within-portfolio security weight among validated sample holders."
+  },
+  {
+    "id": "35",
+    "group": "Securities",
+    "title": "Broad conviction securities",
+    "unit": "percent",
+    "chart": "bar",
+    "note": "Mean portfolio weight among sample holders, restricted to at least 10 sample holders."
+  },
+  {
+    "id": "36",
+    "group": "Securities",
+    "title": "Single-holder sample discoveries",
+    "unit": "percent",
+    "chart": "bar",
+    "note": "Securities with exactly one holder in this sample, ranked by that portfolio weight."
+  },
+  {
+    "id": "37",
+    "group": "Securities",
+    "title": "Top-position concentration",
+    "unit": "percent",
+    "chart": "lollipop",
+    "note": "Largest security weight in each validated sampled portfolio."
+  },
+  {
+    "id": "38",
+    "group": "Securities",
+    "title": "Top-five concentration",
+    "unit": "percent",
+    "chart": "lollipop",
+    "note": "Sum of five largest CUSIP weights within each validated sampled portfolio."
+  },
+  {
+    "id": "39",
+    "group": "Securities",
+    "title": "Top-ten concentration",
+    "unit": "percent",
+    "chart": "lollipop",
+    "note": "Sum of ten largest CUSIP weights within each validated sampled portfolio."
+  },
+  {
+    "id": "40",
+    "group": "Securities",
+    "title": "Effective holdings count",
+    "unit": "ratio",
+    "chart": "bar",
+    "note": "1 / sum of squared security weights within each validated sampled portfolio. Equal weights yield the actual holdings count."
+  },
+  {
+    "id": "41",
+    "group": "Evidence",
+    "title": "Filing-lag spectrum",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Days from report date to latest selected filing date; missing dates excluded. Not ingestion latency."
+  },
+  {
+    "id": "42",
+    "group": "Evidence",
+    "title": "Longest selected filing lags",
+    "unit": "days",
+    "chart": "bar",
+    "note": "Latest selected filing date minus report date, including selected later amendments."
+  },
+  {
+    "id": "43",
+    "group": "Evidence",
+    "title": "Selected source-version spectrum",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Counts of entities by number of selected source accessions."
+  },
+  {
+    "id": "44",
+    "group": "Evidence",
+    "title": "Excluded position reasons",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Counts of source position rows excluded by reconciliation reason; one row may be subject to the source exclusion rules."
+  },
+  {
+    "id": "45",
+    "group": "Evidence",
+    "title": "Largest exclusion burdens",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Excluded source position-row counts per entity; not dollar exposure excluded."
+  },
+  {
+    "id": "46",
+    "group": "Evidence",
+    "title": "Clean versus excluded-row entities",
+    "unit": "count",
+    "chart": "donut",
+    "note": "Entities with any recorded excluded rows versus none. This is not an overall quality certification."
+  },
+  {
+    "id": "47",
+    "group": "Evidence",
+    "title": "Published reporting-date coverage",
+    "unit": "count",
+    "chart": "line",
+    "note": "Cached entity counts by exact report date. Coverage changes are not changes in the investor population."
+  },
+  {
+    "id": "48",
+    "group": "Evidence",
+    "title": "Blocked source selections",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Selections withheld by source reconciliation at this lens and date, grouped by reason."
+  },
+  {
+    "id": "49",
+    "group": "Evidence",
+    "title": "Selected accession form mix",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Source-version counts by form across the selected entities, not counts of unique investors."
+  },
+  {
+    "id": "50",
+    "group": "Evidence",
+    "title": "Source chronology completeness",
+    "unit": "count",
+    "chart": "bar",
+    "note": "Selected source versions with explicit timestamps versus missing fields. Each metric is independent."
+  }
+]

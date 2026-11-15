@@ -42,3 +42,7 @@ def publish(source, destination):
 if __name__ == '__main__':
     report = publish(json.loads((ROOT/'intelligence/reconciliation.json').read_text()), ROOT/'atlas')
     print(json.dumps(report))
+
+    from build_skunkworks import publish as publish_skunkworks
+    sample = publish_skunkworks(ROOT.parent.parent)
+    print(json.dumps({'skunkworks_validated_managers': sample['validated_count']}))

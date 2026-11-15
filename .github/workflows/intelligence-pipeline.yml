@@ -42,7 +42,7 @@ jobs:
       - name: Verify calculation and data safeguards
         run: python -m unittest discover -s tests -v
       - name: Verify ownership visualization gates
-        run: node --test tests/atlas-core.test.cjs
+        run: node --test tests/atlas-core.test.cjs tests/skunkworks-core.test.cjs
       - name: Acquire bounded public market evidence
         run: python scripts/market_inputs.py --acquire --limit 5
       - name: Advance SEC prospectus evidence queue
