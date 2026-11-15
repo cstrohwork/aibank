@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0001788558",
+  "investor_name": "Samson Rock Capital LLP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-06",
+  "city": "LONDON",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1788558/0001788558-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1788558/0001788558-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1788558/0001788558-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "174d9880598431025fcbbd673e71558563d652116e5cf9b9ba0aa2882ad82693",
+  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-06",
+    "accession": "0001788558-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1788558/0001788558-26-000006.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 24760000.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 800000.0,
+        "value_usd": 24760000.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 3,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-22",
+        "accession": "0001788558-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-01",
+        "accession": "0001788558-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-06",
+        "accession": "0001788558-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 24760000.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001788558-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

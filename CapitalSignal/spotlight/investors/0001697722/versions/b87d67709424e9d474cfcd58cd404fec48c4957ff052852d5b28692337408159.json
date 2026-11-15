@@ -1,0 +1,80 @@
+{
+  "manager_cik": "0001697722",
+  "investor_name": "Quadratic Capital Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-13",
+  "city": "GREENWICH",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1697722/0001214659-25-014852.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697722/0001214659-26-008441.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697722/0001214659-26-012807.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "b87d67709424e9d474cfcd58cd404fec48c4957ff052852d5b28692337408159",
+  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-13",
+    "accession": "0001214659-26-012807",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697722/0001214659-26-012807.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 184445545.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524870",
+        "security_class": "US TIPS ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 6960934.0,
+        "value_usd": 174928271.0,
+        "weight_pct": 94.84
+      },
+      {
+        "cusip": "92206C847",
+        "security_class": "LONG TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 189814.0,
+        "value_usd": 9517274.0,
+        "weight_pct": 5.16
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9021.26,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-10",
+        "accession": "0001214659-25-014852"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-13",
+        "accession": "0001214659-26-008441"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-13",
+        "accession": "0001214659-26-012807"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 184445545.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001214659-26-012807",
+  "annualized_turnover_proxy_pct": null
+}

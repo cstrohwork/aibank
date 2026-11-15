@@ -1,0 +1,96 @@
+{
+  "manager_cik": "0001427999",
+  "investor_name": "Stephens Group, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-06",
+  "city": "LITTLE ROCK",
+  "state": "AR",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1427999/0001104659-25-096322.txt",
+    "https://www.sec.gov/Archives/edgar/data/1427999/0001104659-26-082429.txt",
+    "https://www.sec.gov/Archives/edgar/data/1427999/0001104659-26-113850.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "4ce621961bade96a6c92289957eaabf76669dcad465a02638af5570199d99dd4",
+  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-06",
+    "accession": "0001104659-26-113850",
+    "source": "https://www.sec.gov/Archives/edgar/data/1427999/0001104659-26-113850.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 204387822.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "29273V100",
+        "security_class": "COM UT LTD PTN",
+        "issuer": "ENERGY TRANSFER L P",
+        "shares": 5444597.0,
+        "value_usd": 107639683.0,
+        "weight_pct": 52.66
+      },
+      {
+        "cusip": "96145W103",
+        "security_class": "COM",
+        "issuer": "WESTROCK COFFEE CO",
+        "shares": 7347871.0,
+        "value_usd": 59076883.0,
+        "weight_pct": 28.9
+      },
+      {
+        "cusip": "126327105",
+        "security_class": "COM",
+        "issuer": "CS DISCO INC",
+        "shares": 7796632.0,
+        "value_usd": 31966191.0,
+        "weight_pct": 15.64
+      },
+      {
+        "cusip": "86384P109",
+        "security_class": "CL A",
+        "issuer": "STUBHUB HLDGS INC",
+        "shares": 1022413.0,
+        "value_usd": 5705065.0,
+        "weight_pct": 2.79
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3861.4,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-03",
+        "accession": "0001104659-25-096322"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-10",
+        "accession": "0001104659-26-082429"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-06",
+        "accession": "0001104659-26-113850"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 204387822.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-113850",
+  "annualized_turnover_proxy_pct": null
+}

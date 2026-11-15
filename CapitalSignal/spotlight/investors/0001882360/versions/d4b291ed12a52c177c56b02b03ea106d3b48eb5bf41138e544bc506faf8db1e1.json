@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001882360",
+  "investor_name": "Robert Bosch GmbH",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-08",
+  "city": "GERLINGEN SCHILLERHOEHE",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1882360/0000950142-26-002148.txt",
+    "https://www.sec.gov/Archives/edgar/data/1882360/0000950142-26-002715.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d4b291ed12a52c177c56b02b03ea106d3b48eb5bf41138e544bc506faf8db1e1",
+  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-08",
+    "accession": "0000950142-26-002715",
+    "source": "https://www.sec.gov/Archives/edgar/data/1882360/0000950142-26-002715.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 150548994.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G0085J117",
+        "security_class": "SHS",
+        "issuer": "ADS TEC ENERGY PLC",
+        "shares": 10462451.0,
+        "value_usd": 115086961.0,
+        "weight_pct": 76.44
+      },
+      {
+        "cusip": "950915108",
+        "security_class": "SPONSORED ADS",
+        "issuer": "WERIDE INC",
+        "shares": 4114784.0,
+        "value_usd": 21849503.0,
+        "weight_pct": 14.51
+      },
+      {
+        "cusip": "92556W104",
+        "security_class": "COM CL A",
+        "issuer": "VIA TRANSN INC",
+        "shares": 450001.0,
+        "value_usd": 13612530.0,
+        "weight_pct": 9.04
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6136.21,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-23",
+        "accession": "0000950142-26-002148"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-08",
+        "accession": "0000950142-26-002715"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 150548994.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000950142-26-002715",
+  "annualized_turnover_proxy_pct": null
+}
