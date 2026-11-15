@@ -6,6 +6,7 @@ import datetime as dt
 import gzip
 import heapq
 import json
+import math
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[1] / 'CapitalSignal/data'
@@ -41,6 +42,86 @@ def file_exists(root, relative):
         return False
     path = root / relative
     return path.resolve().is_relative_to(root.resolve()) and path.is_file()
+
+
+def validate_portfolio_diagnostics(value):
+    """Verify published gate structure and reconciled counts, not investment results."""
+    issues = []
+    if not isinstance(value, dict):
+        value = {}
+        issues.append('document_not_an_object')
+    profiles = value.get('profiles')
+    summary = value.get('summary')
+    if value.get('status') != 'point_in_time_gated_identifier_and_fundamental_diagnostics_only':
+        issues.append('unexpected_or_stale_status')
+    if not isinstance(profiles, list):
+        issues.append('profiles_not_a_list')
+        profiles = []
+    if not isinstance(summary, dict):
+        issues.append('summary_missing')
+        summary = {}
+    threshold = summary.get('coverage_threshold_pct')
+    if (isinstance(threshold, bool) or not isinstance(threshold, (int, float)) or
+            not math.isfinite(threshold) or not 0 < threshold <= 100):
+        issues.append('invalid_coverage_threshold')
+    if summary.get('profile_count') != len(profiles):
+        issues.append('profile_count_mismatch')
+
+    count_fields = {
+        'identifier_coverage_gate_passed': ('diagnostic_coverage_gate', 'identifier_gate_passed'),
+        'fundamental_coverage_gate_passed': ('diagnostic_coverage_gate', 'fundamental_gate_passed'),
+        'combined_diagnostic_coverage_gate_passed': ('diagnostic_coverage_gate', 'combined_gate_passed'),
+        'same_date_current_proxy_gate_passed': ('point_in_time_gate', 'same_date_current_proxy_gate_passed'),
+        'historical_benchmark_gate_passed': ('point_in_time_gate', 'historical_benchmark_gate_passed'),
+        'production_classification_gate_passed': ('production_classification_gate', 'passed'),
+    }
+    observed = collections.Counter()
+    for index, profile in enumerate(profiles):
+        if not isinstance(profile, dict):
+            issues.append(f'profile_{index}_not_an_object')
+            continue
+        diagnostic = profile.get('diagnostic_coverage_gate')
+        temporal = profile.get('point_in_time_gate')
+        production = profile.get('production_classification_gate')
+        if not isinstance(diagnostic, dict):
+            issues.append(f'profile_{index}_diagnostic_gate_missing')
+            diagnostic = {}
+        if not isinstance(temporal, dict):
+            issues.append(f'profile_{index}_point_in_time_gate_missing')
+            temporal = {}
+        if not isinstance(production, dict):
+            issues.append(f'profile_{index}_production_gate_missing')
+            production = {}
+        if temporal.get('portfolio_report_date') != profile.get('report_date'):
+            issues.append(f'profile_{index}_report_date_gate_mismatch')
+        if temporal.get('fundamental_fact_availability_cutoff') != profile.get('report_date'):
+            issues.append(f'profile_{index}_fact_cutoff_mismatch')
+        if production.get('passed') is not True and (
+                production.get('calculated_style') is not None or profile.get('calculated_style') is not None):
+            issues.append(f'profile_{index}_classification_leaked_through_blocked_gate')
+        for field, (gate_name, key) in count_fields.items():
+            gate = {'diagnostic_coverage_gate': diagnostic,
+                    'point_in_time_gate': temporal,
+                    'production_classification_gate': production}[gate_name]
+            observed[field] += gate.get(key) is True
+    for field in count_fields:
+        count = observed[field]
+        reported = summary.get(field)
+        if isinstance(reported, bool) or not isinstance(reported, int) or reported != count:
+            issues.append(field + '_mismatch')
+    issue_count = len(issues)
+    return {
+        'observed': bool(value),
+        'structure_valid': issue_count == 0,
+        'status': value.get('status'),
+        'updated_at': value.get('updated_at'),
+        'profile_count': len(profiles),
+        'summary': summary,
+        'validation_issue_count': issue_count,
+        'validation_issues': issues[:100],
+        'validation_issues_truncated': issue_count > 100,
+        'scope': 'Structural publication check only; passing does not establish complete coverage, official index membership, or production classification readiness.',
+    }
 
 
 def build_events(root, archive, now, limit=500):
@@ -156,6 +237,11 @@ def build_health(root, now, stale_hours=36):
         blocking.append('historical_benchmark_unavailable')
     if benchmark.get('style_calculation_status') != 'complete':
         blocking.append('style_inputs_not_complete')
+    diagnostics_path = root / 'fundamentals/portfolio_diagnostics.json'
+    diagnostics = read(diagnostics_path, {}, errors) if diagnostics_path.exists() else {}
+    portfolio_diagnostics = validate_portfolio_diagnostics(diagnostics)
+    if not portfolio_diagnostics['structure_valid']:
+        blocking.append('portfolio_diagnostics_missing_or_invalid_gate_structure')
     if errors:
         blocking.append('cache_read_errors')
     pipeline_path = root / 'intelligence/pipeline_status.json'
@@ -189,6 +275,7 @@ def build_health(root, now, stale_hours=36):
                                'reported_count_matches_cache': fundamentals.get('ingested_issuers') == len(records),
                                'source_failures': fundamentals.get('failed_attempts', [])},
               'ownership': ownership,
+              'portfolio_diagnostics': portfolio_diagnostics,
               'history': {**{k: history.get(k) for k in ('catalogued_filings','archived_filings','pending_filings','download_failures','normalization_failures','deferred_filings','storage_blocked','download_interruption')},
                           'cached_archive_state_counts': dict(archive_states),
                           'archived_catalogue_coverage_pct': round(100*history.get('archived_filings', 0)/history['catalogued_filings'], 4) if history.get('catalogued_filings') else None},
@@ -203,7 +290,7 @@ def build_health(root, now, stale_hours=36):
               'parsed_event_signals': {'observed': bool(parsed_signals), 'status': parsed_signals.get('status'),
                                        'summary': parsed_signals.get('summary'),
                                        'activist_intent_inferred': False}, 'errors': errors,
-              'limits': ['Fundamental universe is an SPTM ETF holdings proxy, not certified official S&P 1500 membership.',
+              'limits': ['Fundamental universe is the deduplicated union of current SPTM and IWV ETF holdings proxies, not certified official S&P Composite 1500 or Russell 3000 membership.',
                          'Fresh ingestion is distinct from the economic age of a reported financial fact.',
                          'No workflow API queried; this report measures committed data and records source-reported failures.',
                          'No automatic publication is authorized by an empty or absent gate.']}

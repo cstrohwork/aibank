@@ -7,7 +7,7 @@ import tempfile
 import unittest
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'scripts'))
 from ingest_sp1500_fundamentals import TAGS
-from intelligence_health import age_hours, build_events, build_health, file_exists
+from intelligence_health import age_hours, build_events, build_health, file_exists, validate_portfolio_diagnostics
 
 NOW = dt.datetime(2026, 11, 12, tzinfo=dt.timezone.utc)
 
@@ -28,6 +28,7 @@ class HealthTests(unittest.TestCase):
         write(self.root, 'history/status.json', {'updated_at': NOW.isoformat(), 'status': 'complete', 'pending_filings': 0})
         write(self.root, 'history/archive_state.json.gz', {})
         write(self.root, 'fundamentals/benchmark_status.json', {'historical_benchmark_status': 'complete', 'style_calculation_status': 'complete'})
+        write(self.root, 'fundamentals/portfolio_diagnostics.json', self.valid_portfolio_diagnostics())
         write(self.root, '13f/index.json', {'managers': []})
         write(self.root, 'funds/index.json', {'funds': []})
 
@@ -45,6 +46,38 @@ class HealthTests(unittest.TestCase):
             for point in points:
                 point['tag'] = TAGS[field][0]
         write(self.root, 'fundamentals/companyfacts/0000000001.json.gz', {'cik': '0000000001', 'fields': fields, 'retrieved_at': timestamp or NOW.isoformat()})
+
+    def valid_portfolio_diagnostics(self):
+        return {
+            'updated_at': NOW.isoformat(),
+            'status': 'point_in_time_gated_identifier_and_fundamental_diagnostics_only',
+            'summary': {
+                'profile_count': 1,
+                'coverage_threshold_pct': 70.0,
+                'identifier_coverage_gate_passed': 1,
+                'fundamental_coverage_gate_passed': 1,
+                'combined_diagnostic_coverage_gate_passed': 1,
+                'same_date_current_proxy_gate_passed': 0,
+                'historical_benchmark_gate_passed': 0,
+                'production_classification_gate_passed': 0,
+            },
+            'profiles': [{
+                'report_date': '2026-09-30',
+                'calculated_style': None,
+                'diagnostic_coverage_gate': {
+                    'identifier_gate_passed': True,
+                    'fundamental_gate_passed': True,
+                    'combined_gate_passed': True,
+                },
+                'point_in_time_gate': {
+                    'portfolio_report_date': '2026-09-30',
+                    'fundamental_fact_availability_cutoff': '2026-09-30',
+                    'same_date_current_proxy_gate_passed': False,
+                    'historical_benchmark_gate_passed': False,
+                },
+                'production_classification_gate': {'passed': False, 'calculated_style': None},
+            }],
+        }
 
     def test_success_status_cannot_substitute_for_actual_cache(self):
         health, _ = build_health(self.root, NOW)
@@ -106,6 +139,42 @@ class HealthTests(unittest.TestCase):
     def test_age_requires_timezone(self):
         self.assertIsNone(age_hours('2026-11-12', NOW))
         self.assertEqual(age_hours(NOW.isoformat(), NOW), 0)
+
+    def test_portfolio_gate_structure_and_counts_are_observed(self):
+        health, _ = build_health(self.root, NOW)
+        self.assertTrue(health['portfolio_diagnostics']['structure_valid'])
+        self.assertNotIn('portfolio_diagnostics_missing_or_invalid_gate_structure', health['blocking_reasons'])
+
+    def test_stale_ungated_portfolio_schema_is_blocked(self):
+        write(self.root, 'fundamentals/portfolio_diagnostics.json', {
+            'status': 'initial_identifier_matching_and_fundamental_ratio_diagnostics_only',
+            'profiles': [{'report_date': '2026-09-30', 'calculated_style': None}],
+        })
+        health, _ = build_health(self.root, NOW)
+        self.assertFalse(health['portfolio_diagnostics']['structure_valid'])
+        self.assertIn('summary_missing', health['portfolio_diagnostics']['validation_issues'])
+        self.assertIn('portfolio_diagnostics_missing_or_invalid_gate_structure', health['blocking_reasons'])
+
+    def test_portfolio_gate_count_mismatch_and_label_leak_are_rejected(self):
+        diagnostics = self.valid_portfolio_diagnostics()
+        diagnostics['summary']['production_classification_gate_passed'] = 1
+        diagnostics['profiles'][0]['calculated_style'] = 'value'
+        result = validate_portfolio_diagnostics(diagnostics)
+        self.assertFalse(result['structure_valid'])
+        self.assertIn('production_classification_gate_passed_mismatch', result['validation_issues'])
+        self.assertIn('profile_0_classification_leaked_through_blocked_gate', result['validation_issues'])
+
+    def test_non_object_and_missing_zero_counts_are_rejected(self):
+        self.assertIn('document_not_an_object', validate_portfolio_diagnostics([])['validation_issues'])
+        diagnostics = self.valid_portfolio_diagnostics()
+        diagnostics['profiles'] = []
+        diagnostics['summary']['profile_count'] = 0
+        for field in list(diagnostics['summary']):
+            if field.endswith('_passed'):
+                diagnostics['summary'].pop(field)
+        result = validate_portfolio_diagnostics(diagnostics)
+        self.assertFalse(result['structure_valid'])
+        self.assertIn('identifier_coverage_gate_passed_mismatch', result['validation_issues'])
 
 
 if __name__ == '__main__':
