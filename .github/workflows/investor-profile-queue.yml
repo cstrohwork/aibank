@@ -18,6 +18,7 @@ on:
   schedule:
     - cron: '*/10 * * * *'
 permissions:
+  actions: write
   contents: write
 concurrency:
   group: capitalsignal-profile-queue
@@ -56,3 +57,19 @@ jobs:
         with:
           name: investor-profile-progress
           path: CapitalSignal/spotlight/investors/manifest.json
+
+      - name: Continue productive profile backlog without waiting for schedule
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Only enqueue another run when the persisted checkpoint still has work.
+          # The queue workflow's concurrency group serializes all invocations.
+          pending=$(python -c 'import json; from pathlib import Path; p=Path("CapitalSignal/spotlight/investors/manifest.json"); print(int(json.loads(p.read_text()).get("pending_active_count", 0)))')
+          if [ "$pending" -gt 0 ]; then
+            for attempt in 1 2 3; do
+              if gh api --method POST "repos/${GITHUB_REPOSITORY}/actions/workflows/investor-profile-queue.yml/dispatches" -f ref=main; then exit 0; fi
+              sleep $((attempt * 5))
+            done
+            exit 1
+          fi
