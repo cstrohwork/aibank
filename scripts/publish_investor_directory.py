@@ -113,7 +113,8 @@ def run(batch=2000):
             body += '<h2>SEC filing sources</h2><ul>' + ''.join('<li><a href="' + esc(s) + '">' + esc(s) + '</a></li>' for s in sources) + '</ul>'
             # Show an auditable, immutable per-profile version history rather than
             # leaving generated snapshots discoverable only by guessing hashes.
-            previous_versions = sorted(versions.glob('*.json'))
+            versions = OUT / cik / 'versions'
+            previous_versions = sorted(versions.glob('*.json')) if versions.exists() else []
             history_links = []
             for version_file in previous_versions:
                 if not re.fullmatch(r'[0-9a-f]{64}\\.json', version_file.name):
