@@ -1,0 +1,24 @@
+# Expanded fundamentals and deal-modeling workstream
+
+Owner: Capital Signal development worker. Priority: expand issuer fundamentals beyond SPTM/S&P 1500 proxy without slowing live 13F intake. Created 2026-11-14.
+
+## Execution requirements
+1. Preserve existing S&P 1500 pipeline, checkpoint formats, and 13F worker priority. Build a **deduplicated CIK issuer universe** from the existing SPTM proxy, Russell 3000 constituents when a properly dated/licensed source is available, and all SEC-listed US operating-company issuers discoverable from SEC ticker/exchange mappings. Do not label a SEC ticker list as Russell 3000 membership. Preserve share classes and multiple tickers at the security layer. Exclude funds, SPAC shells and non-operating instruments only through documented classification rules; report uncertain cases.
+2. Reuse SEC companyfacts caches, accession/provenance and SEC-compliant rate limits. Add an incremental issuer queue with stable CIK keys, checkpoint/resume, bounded retries, freshness/last-filed timestamps, and observable per-source errors. Do not commit large raw payloads indefinitely to Git; use external object storage when configured, with GitHub hosting compact manifests.
+3. Coverage tiers: (A) all US-listed SEC-reporting operating companies, (B) official Russell 3000 membership only when validated, (C) SPTM proxy and other available large-cap constituents. Prioritize newly filed issuers, then top issuers by independently sourced market cap, then unprocessed companies. Never conflate market cap with 13F EAUM.
+4. Financial statements: annual and quarterly revenue, COGS, gross profit, operating income, EBITDA (derived and clearly marked), pretax income, net income, EPS, weighted shares, cash, debt, assets, liabilities, equity, CFO, capex, FCF, dividends. Normalize SEC US-GAAP tag alternatives and handle taxonomy changes, amended filings, different fiscal calendars, unit/currency, period overlap, restatements and missing data explicitly. Preserve point-in-time as-filed snapshots.
+5. Compute verified TTM, 3/5-year CAGRs, margin trends, ROIC (with transparent invested-capital definition), ROE, leverage, liquidity, FCF conversion, and per-share measures. Separate historical facts, calculated metrics, market inputs and hypothetical forecast assumptions. Never fabricate estimates or prices.
+6. Publish searchable /CapitalSignal/model/ coverage even when some issuers are incomplete: remove the **global 100% completion gate** only after replacing it with per-issuer eligibility/quality gates, explicit missing-data notices and stale-data badges. No fake demonstration numbers in public pages. Existing model builder currently blocks all users until every issuer is valid; redesign this intentionally, preserving safety on individual invalid companies.
+7. Expand company model: historical 3 statements, 5-year configurable assumptions, working capital, debt schedule, depreciation, capex, tax, integrated cash flow/balance sheet checks; scenarios, DCF (WACC/terminal growth or exit multiple), trading multiples, sensitivity tables, downloadable CSV. Valuation must distinguish enterprise and equity value and include net debt/share count. Provide methodology and assumptions provenance.
+8. M&A future phase: buyer/target search and comparable fundamentals, acquisition price and premium, financing mix, cash/debt/stock, purchase accounting, goodwill/intangibles, synergies and integration costs, pro-forma financials, accretion/dilution, leverage and credit metrics, transaction sensitivities. Do not publish as operational until validated.
+9. Add worker-dashboard tiles: universe issuers, mapped securities, ingested, fresh, partial, missing, failed, last successful filing, rate-limit stops, model-ready companies, published model pages. Counts must derive from real manifests.
+10. Tests: identity dedup, period alignment, TTM math, amendments and as-of constraints, cash-flow sign convention, financial statement reconciliation, missing/negative values, valuation enterprise/equity bridge, resumability and dashboard status. Run a small live SEC smoke test before scaling and publish exact counts and evidence.
+
+## Suggested delivery sequence
+P0: audit existing workflows and model global gate; create dedup issuer universe and resumable worker.
+P1: start incremental SEC ingestion; per-company searchable model publication with actual coverage.
+P2: historical statements, TTM/ratios and three-statement forecast/DCF.
+P3: acquisition transaction model and buyer/target comparables.
+
+## Definition of done
+Actual SEC records ingested and traceable, searchable issuer pages render real fundamentals, incomplete issuers fail locally not globally, monitoring reports measured counts, and existing ownership/newsletter workflows remain healthy. A written plan or placeholder page does not count as ingestion.
