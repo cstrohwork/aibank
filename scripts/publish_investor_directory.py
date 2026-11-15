@@ -45,7 +45,7 @@ def run(batch=2000):
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
-        profile['render_version'] = 'accession-fingerprint-queue-v7'
+        profile['render_version'] = 'explicit-holding-usd-v8'
         matching_entries = [e for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
         # Accession metadata must participate in the queue fingerprint even
         # when an ingestion worker has not yet committed a normalized blob.
