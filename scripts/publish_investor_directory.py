@@ -45,7 +45,7 @@ def run(batch=2000):
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date')))
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
-        profile['render_version'] = 'validated-value-provenance-v5'
+        profile['render_version'] = 'version-history-links-v6'
         profile['holdings_fingerprints'] = [blob_map.get('CapitalSignal/data/13f/' + str(e.get('file')), '') for e in entries if str(e.get('manager_cik', '')).zfill(10) == cik_key]
     profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or ''), reverse=True)
     # Reserve a quarter of each bounded run for never-published managers.
@@ -111,6 +111,27 @@ def run(batch=2000):
             body += '</table>' + render(p, analytics)
             body += '<h2>Coverage and verification</h2><p>Profile generated from the current normalized SEC cache. Monetary totals appear only when normalized USD units and filing precedence pass validation; they have not been independently reconciled to SEC cover-page totals. Turnover remains withheld pending historical and corporate-action validation. The latest cached reporting period may lag newer filings. Unknown fields indicate missing evidence.</p>'
             body += '<h2>SEC filing sources</h2><ul>' + ''.join('<li><a href="' + esc(s) + '">' + esc(s) + '</a></li>' for s in sources) + '</ul>'
+            # Show an auditable, immutable per-profile version history rather than
+            # leaving generated snapshots discoverable only by guessing hashes.
+            previous_versions = sorted(versions.glob('*.json'))
+            history_links = []
+            for version_file in previous_versions:
+                if not re.fullmatch(r'[0-9a-f]{64}\\.json', version_file.name):
+                    continue
+                try:
+                    old_version = json.loads(version_file.read_text())
+                except (ValueError, OSError):
+                    continue
+                history_links.append((old_version.get('generated_at') or '',
+                                      version_file.name,
+                                      old_version.get('latest_report_date') or 'Unknown'))
+            history_links.append((now, fingerprint + '.json', p.get('latest_report_date') or 'Unknown'))
+            history_links = sorted(set(history_links), reverse=True)[:30]
+            body += '<h2>Profile version history</h2><ul>' + ''.join(
+                '<li><a href="versions/' + esc(filename) + '">' + esc(created) +
+                '</a> · reporting period ' + esc(report_date) + '</li>'
+                for created, filename, report_date in history_links
+            ) + '</ul>'
             body += '<p><a href="../">All investor profiles</a> · <a href="profile.json">Profile data</a></p></section></main></div></html>'
             target = OUT / cik
             target.mkdir(exist_ok=True)
