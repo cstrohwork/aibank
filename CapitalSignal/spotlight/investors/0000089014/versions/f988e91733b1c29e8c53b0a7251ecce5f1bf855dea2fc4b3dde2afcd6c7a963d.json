@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0000089014",
+  "investor_name": "SENTRY INVESTMENT MANAGEMENT LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "Stevens Point",
+  "state": "WI",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/89014/0000089014-25-000015.txt",
+    "https://www.sec.gov/Archives/edgar/data/89014/0000089014-26-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/89014/0000089014-26-000012.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "f988e91733b1c29e8c53b0a7251ecce5f1bf855dea2fc4b3dde2afcd6c7a963d",
+  "generated_at": "2026-11-15T08:45:35.800261+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000089014-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/89014/0000089014-26-000012.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 171398.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "Common",
+        "issuer": "VANGUARD EXTENDED MKT INDEX FU",
+        "shares": 244554.0,
+        "value_usd": 171398.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-05",
+        "accession": "0000089014-25-000015"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0000089014-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000089014-26-000012"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 171398.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000089014-26-000012",
+  "annualized_turnover_proxy_pct": null
+}

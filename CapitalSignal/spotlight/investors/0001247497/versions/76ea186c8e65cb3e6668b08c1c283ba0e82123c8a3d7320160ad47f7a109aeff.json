@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001247497",
+  "investor_name": "RIVERSTONE HOLDINGS LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-10",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1247497/0001104659-26-096220.txt",
+    "https://www.sec.gov/Archives/edgar/data/1247497/0001104659-26-125160.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "76ea186c8e65cb3e6668b08c1c283ba0e82123c8a3d7320160ad47f7a109aeff",
+  "generated_at": "2026-11-15T08:45:35.800261+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001104659-26-125160",
+    "source": "https://www.sec.gov/Archives/edgar/data/1247497/0001104659-26-125160.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 28231187.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "71424F105",
+        "security_class": "CLASS A COM",
+        "issuer": "PERMIAN RESOURCES CORP",
+        "shares": 988915.0,
+        "value_usd": 20885885.0,
+        "weight_pct": 73.98
+      },
+      {
+        "cusip": "83422N105",
+        "security_class": "CLASS A COM",
+        "issuer": "SOLID POWER INC",
+        "shares": 2906418.0,
+        "value_usd": 6902743.0,
+        "weight_pct": 24.45
+      },
+      {
+        "cusip": "44952J104",
+        "security_class": "CLASS A COM",
+        "issuer": "CRESCENT ENERGY CO",
+        "shares": 27702.0,
+        "value_usd": 357079.0,
+        "weight_pct": 1.26
+      },
+      {
+        "cusip": "83422N113",
+        "security_class": "*W EXP 12/08/202",
+        "issuer": "SOLID POWER INC",
+        "shares": 4032098.0,
+        "value_usd": 85480.0,
+        "weight_pct": 0.3
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6072.81,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096220"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001104659-26-125160"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 28231187.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-125160",
+  "annualized_turnover_proxy_pct": null
+}

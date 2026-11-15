@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001640521",
+  "investor_name": "Starr Indemnity & Liability Co",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-10",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1640521/0001140361-26-032270.txt",
+    "https://www.sec.gov/Archives/edgar/data/1640521/0001140361-26-043082.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "17dd14807542a78bbc1acf22f567e3fc4303e51f71ab99e39df8e27e8b1b95ab",
+  "generated_at": "2026-11-15T08:45:35.800261+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001140361-26-043082",
+    "source": "https://www.sec.gov/Archives/edgar/data/1640521/0001140361-26-043082.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 379281253.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78463V107",
+        "security_class": "SPDR GOLD",
+        "issuer": "SPDR GOLD TR",
+        "shares": 468700.0,
+        "value_usd": 178499708.0,
+        "weight_pct": 47.06
+      },
+      {
+        "cusip": "98149E303",
+        "security_class": "SPDR GOLD MINIS",
+        "issuer": "WORLD GOLD TR",
+        "shares": 697700.0,
+        "value_usd": 57336986.0,
+        "weight_pct": 15.12
+      },
+      {
+        "cusip": "46435G326",
+        "security_class": "CORE MSCI INTL DM",
+        "issuer": "ISHARES TR",
+        "shares": 612860.0,
+        "value_usd": 54838713.0,
+        "weight_pct": 14.46
+      },
+      {
+        "cusip": "921932885",
+        "security_class": "S&P MC 400",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 369118.0,
+        "value_usd": 44943808.0,
+        "weight_pct": 11.85
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SM-CP",
+        "issuer": "ISHARES TR",
+        "shares": 320950.0,
+        "value_usd": 43662038.0,
+        "weight_pct": 11.51
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 2925.41,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001140361-26-032270"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001140361-26-043082"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 379281253.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001140361-26-043082",
+  "annualized_turnover_proxy_pct": null
+}

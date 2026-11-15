@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0000100517",
+  "investor_name": "United Airlines Holdings, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "CHICAGO",
+  "state": "IL",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/100517/0000905148-26-003743.txt",
+    "https://www.sec.gov/Archives/edgar/data/100517/0000905148-26-004796.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "5f311479a46086dd066cec4bc42d4bb047b5bf2e132c967e6781f30563b585ab",
+  "generated_at": "2026-11-15T08:45:35.800261+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000905148-26-004796",
+    "source": "https://www.sec.gov/Archives/edgar/data/100517/0000905148-26-004796.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 336081604.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "590479408",
+        "security_class": "COM SHS",
+        "issuer": "REPUBLIC AWYS HLDGS INC",
+        "shares": 10490744.0,
+        "value_usd": 189462837.0,
+        "weight_pct": 56.37
+      },
+      {
+        "cusip": "05501U601",
+        "security_class": "SPONSORED ADS",
+        "issuer": "AZUL S A",
+        "shares": 15919380.0,
+        "value_usd": 125763102.0,
+        "weight_pct": 37.42
+      },
+      {
+        "cusip": "03945R102",
+        "security_class": "COM CL A",
+        "issuer": "ARCHER AVIATION INC",
+        "shares": 3165737.0,
+        "value_usd": 15733713.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "29970N104",
+        "security_class": "COM",
+        "issuer": "EVE HLDG INC",
+        "shares": 2653861.0,
+        "value_usd": 5121952.0,
+        "weight_pct": 1.52
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4602.56,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000905148-26-003743"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000905148-26-004796"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 336081604.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000905148-26-004796",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,72 @@
+{
+  "manager_cik": "0001630691",
+  "investor_name": "Pine Brook Road Advisors, L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "BEDFORD",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1630691/0000905148-25-003701.txt",
+    "https://www.sec.gov/Archives/edgar/data/1630691/0000905148-26-003623.txt",
+    "https://www.sec.gov/Archives/edgar/data/1630691/0000905148-26-004769.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "45713374a05e7eb522d0319e70b933dd118b5436e3d08cca3118fed6a3986b34",
+  "generated_at": "2026-11-15T08:45:35.800261+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000905148-26-004769",
+    "source": "https://www.sec.gov/Archives/edgar/data/1630691/0000905148-26-004769.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 103326083.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G3398L118",
+        "security_class": "COM",
+        "issuer": "PELAGOS INS CAP LTD",
+        "shares": 4367121.0,
+        "value_usd": 103326083.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-28",
+        "accession": "0000905148-25-003701"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000905148-26-003623"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000905148-26-004769"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 103326083.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000905148-26-004769",
+  "annualized_turnover_proxy_pct": null
+}
