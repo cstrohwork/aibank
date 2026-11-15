@@ -1,0 +1,74 @@
+{
+  "manager_cik": "0001228754",
+  "investor_name": "PLATINUM EQUITY, LLC",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "Beverly Hills",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1228754/0001104659-25-111859.txt",
+    "https://www.sec.gov/Archives/edgar/data/1228754/0001104659-26-096447.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "92f91bfdbaf35a2d7d2d7286a48937209612cf738c5a9dd0e87823114a9c7b16",
+  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001104659-26-096447",
+    "source": "https://www.sec.gov/Archives/edgar/data/1228754/0001104659-26-096447.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 32022477.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "L02235106",
+        "security_class": "SHS",
+        "issuer": "ARDAGH METAL PACKAGING S A",
+        "shares": 5311164.0,
+        "value_usd": 25174917.0,
+        "weight_pct": 78.62
+      },
+      {
+        "cusip": "91823B109",
+        "security_class": "COM CL A",
+        "issuer": "UWM HOLDINGS CORPORATION",
+        "shares": 2990201.0,
+        "value_usd": 6847560.0,
+        "weight_pct": 21.38
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6637.8,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-111859"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096447"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 32022477.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-096447",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,74 @@
+{
+  "manager_cik": "0001802614",
+  "investor_name": "VORPAL, LLC",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "NASHVILLE",
+  "state": "TN",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-25-003981.txt",
+    "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-003704.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "27cf848de776d08aad9145cb0d963a0f5e818bfd40101ed1304b79b8eb1fd3e3",
+  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0000905148-26-003704",
+    "source": "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-003704.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 31102399.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "293792107",
+        "security_class": "COM",
+        "issuer": "ENTERPRISE PRODS PARTNERS L",
+        "shares": 838807.0,
+        "value_usd": 30834545.0,
+        "weight_pct": 99.14
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "DIV APP ETF",
+        "issuer": "VANGUARD SPECIALIZED FUNDS",
+        "shares": 1132.0,
+        "value_usd": 267854.0,
+        "weight_pct": 0.86
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9829.24,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000905148-25-003981"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000905148-26-003704"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 31102399.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000905148-26-003704",
+  "annualized_turnover_proxy_pct": null
+}
