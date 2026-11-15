@@ -34,6 +34,16 @@ Regressions cover dated source evidence, three separate exchange queries, explic
 
 The first direct source probe exposed the old combined-exchange URL as invalid for the current Nasdaq response shape: it returned HTTP 200 with zero records. The implementation was corrected to fetch and validate each exchange independently and to read `data.table.rows`. The corrected public-source probe succeeded: market-cap date November 12, 2026; retrieval `2026-11-15T17:05:18.452008+00:00`; 4,233 Nasdaq, 2,717 NYSE and 301 NYSE American source rows with separate SHA-256 hashes; 966 securities at or above $10 billion; 965 with a supported exchange and unique SEC ticker-to-CIK match; and 242 securities / 218 issuers outside the current SPTM/IWV proxy union. These are observed candidates for the next ingestion run, not published production coverage.
 
+## Production timeout and paged-source correction
+
+Post-merge fundamentals run [43740054223](https://github.com/cstrohwork/aibank/actions/runs/43740054223) completed its workflow and published commit `3d9569f06030326b80a8b6e368c528b60bcf5fe2`, but the committed status explicitly records `TimeoutError: The read operation timed out` for the supplemental Nasdaq source. It published zero supplemental securities and no supplemental snapshot. Workflow success therefore established execution and safe proxy publication only; it did not establish supplemental ingestion.
+
+The source transport now uses independently validated 1,000-row pages. Every page retains its exchange, offset, provider total, source URL, dated observation and raw SHA-256. Totals must remain identical across an exchange's pages, no page may be empty before the provider total is reached, overflow is rejected, all page dates must agree, and the accumulated count must exactly equal the provider total. This reduces response size without weakening completeness or provenance checks.
+
+The corrected live paged probe completed at `2026-11-15T18:03:05.508101+00:00`: five Nasdaq pages totaling 4,233 rows, three NYSE pages totaling 2,717 rows, and one NYSE American page totaling 301 rows. All nine pages reported the November 12, 2026 market date. The parsed result remained 966 $10-billion candidates, 965 supported-exchange/unique-CIK mappings, and 242 securities / 218 issuers outside the ETF-proxy union. These remain verified source candidates until a later completed workflow publishes their snapshot and actual Companyfacts coverage.
+
+Validation for the paged correction actually executed: 19 focused tests passed; all 215 repository tests passed; the ingestion module compiled; `git diff --check` passed; and the nine-page public-source probe passed. The focused regression uses two pages per exchange and verifies offsets, stable totals, row counts, raw page hashes and the single dated observation.
+
 ## Runtime state and next task
 
 At implementation time the existing scheduled fundamentals run [43716501224](https://github.com/cstrohwork/aibank/actions/runs/43716501224) was already active and was not duplicated. The last committed proxy status remained 2,592 current SPTM/IWV ETF-proxy securities, 2,561 mapped issuers and 2,559 successful Companyfacts caches, with two SEC 404s. Those are current ETF holdings proxies, not official S&P Composite 1500 or Russell 3000 membership.
