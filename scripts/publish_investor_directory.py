@@ -203,9 +203,20 @@ def run(batch=2000):
     )
     orphaned_profile_count = sum(1 for cik in manifest['profiles'] if cik not in active_ciks)
     failed_pending_count = sum(1 for item in next_batch if item['manager_cik'] in manifest['failures'])
+    # Separate published disclosure pages from those with validated USD evidence.
+    # A validated accession is a normalization check, NOT independent cover-page
+    # reconciliation or proof of complete institutional coverage.
+    validated_usd_count = sum(
+        1 for cik in active_ciks
+        if cik in manifest['profiles']
+        and manifest['profiles'][cik].get('validated_accession')
+        and (OUT / cik / 'profile.json').exists()
+    )
     manifest.update(active_generated_count=active_generated_count,
                     orphaned_profile_count=orphaned_profile_count,
-                    failed_pending_next_batch=failed_pending_count)
+                    failed_pending_next_batch=failed_pending_count,
+                    validated_normalized_usd_profile_count=validated_usd_count,
+                    without_validated_normalized_usd_count=active_generated_count-validated_usd_count)
     manifest.update(next_batch=next_batch, next_batch_count=len(next_batch),
                     profile_evidence_level='cached_sec_disclosure_monetary_reconciliation_pending',
                     never_published_remaining=never_published_remaining, refresh_remaining=refresh_remaining,
