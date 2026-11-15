@@ -141,17 +141,23 @@ class ProxyBenchmarkTests(unittest.TestCase):
    self.assertEqual(supplement['securities'][0]['universe_memberships'],['large_megacap_outside_current_etf_proxies'])
 
  def test_large_megacap_fetches_each_exchange_with_dated_raw_provenance(self):
-  def response(exchange):
-   return json.dumps({'data':{'table':{'rows':[{'symbol':exchange[:3],'name':exchange,'marketCap':'15000000000'}]},
-    'totalrecords':1,'asof':'Last price as of Nov 12, 2026'}}).encode()
-  blobs={url:response(exchange) for exchange,url in ingest.NASDAQ_EXCHANGE_SOURCES.items()}
-  with patch.object(ingest,'get',side_effect=lambda url:blobs[url]),patch.object(ingest,'now',return_value='2026-11-15T12:30:00+00:00'):
+  blobs={}
+  for exchange,base_url in ingest.NASDAQ_EXCHANGE_SOURCES.items():
+   for offset,count in ((0,2),(2,1)):
+    url=f'{base_url}&limit=2&offset={offset}'
+    rows=[{'symbol':f'{exchange[:2]}{offset+i}','name':exchange,'marketCap':'15000000000'} for i in range(count)]
+    blobs[url]=json.dumps({'data':{'table':{'rows':rows},'totalrecords':3,
+     'asof':'Last price as of Nov 12, 2026'}}).encode()
+  with patch.object(ingest,'NASDAQ_PAGE_SIZE',2),patch.object(ingest,'get',side_effect=lambda url:blobs[url]),patch.object(ingest,'now',return_value='2026-11-15T12:30:00+00:00'):
    blob,observed=ingest.fetch_large_megacap()
   payload=json.loads(blob)
   self.assertEqual(observed,'2026-11-15T12:30:00+00:00')
   self.assertEqual(payload['as_of'],'2026-11-12')
-  self.assertEqual(len(payload['data']['rows']),3)
+  self.assertEqual(len(payload['data']['rows']),9)
+  self.assertEqual(len(payload['sources']),6)
   self.assertEqual({s['exchange'] for s in payload['sources']},{'NASDAQ','NYSE','NYSE AMERICAN'})
+  self.assertEqual({s['offset'] for s in payload['sources']},{0,2})
+  self.assertTrue(all(s['total_records']==3 for s in payload['sources']))
   for source in payload['sources']:
    self.assertEqual(source['sha256'],hashlib.sha256(blobs[source['url']]).hexdigest())
 

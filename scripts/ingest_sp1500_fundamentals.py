@@ -6,7 +6,8 @@ OUT = ROOT / 'CapitalSignal/data/fundamentals'
 HOLDINGS = 'https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-sptm.xlsx'
 HOLDINGS_RUSSELL = 'https://www.ishares.com/us/products/239714/ishares-russell-3000-etf/latest-holdings.csv'
 TICKERS = 'https://www.sec.gov/files/company_tickers.json'
-NASDAQ_SCREENER = 'https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=5000&offset=0'
+NASDAQ_SCREENER = 'https://api.nasdaq.com/api/screener/stocks?tableonly=true'
+NASDAQ_PAGE_SIZE = 1000
 NASDAQ_EXCHANGE_SOURCES = {
  'NASDAQ': NASDAQ_SCREENER+'&exchange=nasdaq',
  'NYSE': NASDAQ_SCREENER+'&exchange=nyse',
@@ -114,23 +115,34 @@ def provider_market_date(value):
  return dt.datetime.strptime(raw[len(prefix):],'%b %d, %Y').date().isoformat()
 
 def fetch_large_megacap():
- """Fetch each exchange separately so the filter itself is listing evidence."""
+ """Fetch exchange pages separately so listings and completeness remain auditable."""
  observed_at=now();rows=[];sources=[];as_of_dates=set()
- for exchange,url in NASDAQ_EXCHANGE_SOURCES.items():
-  blob=get(url);payload=json.loads(blob);data=payload.get('data') or {};table=data.get('table') or {}
-  source_rows=table.get('rows') if isinstance(table,dict) else None
-  if source_rows is None:source_rows=data.get('rows')
-  if not isinstance(source_rows,list) or not source_rows:raise ValueError('Nasdaq screener returned no stock rows for '+exchange)
-  total=data.get('totalrecords')
-  if not isinstance(total,int) or total<=0 or len(source_rows)<total:
-   raise ValueError(f'Nasdaq screener incomplete for {exchange}: {len(source_rows)} of {total}')
-  market_date=provider_market_date(data.get('asof'));as_of_dates.add(market_date)
-  source_sha=hashlib.sha256(blob).hexdigest()
-  sources.append({'exchange':exchange,'url':url,'sha256':source_sha,'as_of':market_date,'row_count':len(source_rows)})
-  for row in source_rows:
-   rows.append(dict(row,exchange=exchange,market_cap_as_of=market_date,
-    market_cap_source_url=url,market_cap_source_sha256=source_sha,
-    exchange_listing_source_url=url,exchange_listing_source_sha256=source_sha))
+ for exchange,base_url in NASDAQ_EXCHANGE_SOURCES.items():
+  offset=0;exchange_count=0;expected_total=None
+  while expected_total is None or exchange_count<expected_total:
+   url=f'{base_url}&limit={NASDAQ_PAGE_SIZE}&offset={offset}'
+   blob=get(url);payload=json.loads(blob);data=payload.get('data') or {};table=data.get('table') or {}
+   source_rows=table.get('rows') if isinstance(table,dict) else None
+   if source_rows is None:source_rows=data.get('rows')
+   total=data.get('totalrecords')
+   if not isinstance(total,int) or total<=0:raise ValueError('Nasdaq screener missing total for '+exchange)
+   if expected_total is None:expected_total=total
+   elif total!=expected_total:raise ValueError(f'Nasdaq screener total changed for {exchange}: {expected_total} to {total}')
+   if not isinstance(source_rows,list) or not source_rows:
+    raise ValueError(f'Nasdaq screener incomplete for {exchange}: {exchange_count} of {expected_total}')
+   if exchange_count+len(source_rows)>expected_total:
+    raise ValueError(f'Nasdaq screener overflow for {exchange}: {exchange_count+len(source_rows)} of {expected_total}')
+   market_date=provider_market_date(data.get('asof'));as_of_dates.add(market_date)
+   source_sha=hashlib.sha256(blob).hexdigest()
+   sources.append({'exchange':exchange,'url':url,'sha256':source_sha,'as_of':market_date,
+    'row_count':len(source_rows),'offset':offset,'total_records':expected_total})
+   for row in source_rows:
+    rows.append(dict(row,exchange=exchange,market_cap_as_of=market_date,
+     market_cap_source_url=url,market_cap_source_sha256=source_sha,
+     exchange_listing_source_url=url,exchange_listing_source_sha256=source_sha))
+   exchange_count+=len(source_rows);offset=exchange_count
+  if exchange_count!=expected_total:
+   raise ValueError(f'Nasdaq screener incomplete for {exchange}: {exchange_count} of {expected_total}')
  if len(as_of_dates)!=1:raise ValueError('Nasdaq exchange screener dates disagree')
  envelope={'data':{'rows':rows},'as_of':next(iter(as_of_dates)),'retrieved_at':observed_at,'sources':sources}
  return json.dumps(envelope,separators=(',',':'),sort_keys=True).encode(),observed_at
