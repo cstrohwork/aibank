@@ -43,6 +43,23 @@ class IdentityTests(unittest.TestCase):
             self.assertEqual(len(result['entities']),1)
             self.assertEqual(len(result['securities']),2)
 
+    def test_source_series_lei_creates_distinct_fund_entity(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=pathlib.Path(td);(root/'funds').mkdir()
+            lei='529900TOB3V09W4JX713'
+            (root/'funds/index.json').write_text(json.dumps({'funds':[{
+                'fund_id':'LEI'+lei,'series_id':None,
+                'identity_basis':'sec_series_lei_without_series_id',
+                'fund_name':'Named Portfolio','registrant_cik':'2',
+                'registrant_name':'Registrant','report_date':'2025-09-30',
+                'source':'SEC original','file':'missing.json'}]}))
+            result=build(root)
+            fund=next(e for e in result['entities'] if e['id']=='fund:lei:'+lei)
+            self.assertEqual(fund['roles'],['fund'])
+            self.assertEqual(result['relationships'][0]['child_id'],'fund:lei:'+lei)
+            self.assertEqual(result['relationships'][0]['parent_id'],'cik:0000000002')
+            self.assertFalse(any(q['reason']=='unverified_fund_identity' for q in result['quarantine']))
+
     def test_sharded_publication_round_trip_checksum_and_size_bound(self):
         with tempfile.TemporaryDirectory() as td:
             root=pathlib.Path(td);(root/'fundamentals').mkdir()
