@@ -9,11 +9,12 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2024333/0002024333-25-000006.txt",
     "https://www.sec.gov/Archives/edgar/data/2024333/0002024333-26-000004.txt"
   ],
-  "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "43e7af0bf9dd38492bc7fc0f63c66b4125740658579b75238ddd06c51423c2a8",
-  "generated_at": "2026-11-15T04:12:40.063135+00:00",
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "612a497187a5f2187003bedc80b1c762f1c3b9fae91ab4de0b1af7f4b6e7c1a3",
+  "generated_at": "2026-11-15T14:36:41.241770+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-06-30",
@@ -24,7 +25,7 @@
     "excluded_invalid_rows": 0,
     "reported_long_equity_value_usd": 285389181.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
-    "weights_basis": "Relative cached values; excludes options and non-share positions",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908363",
@@ -110,8 +111,19 @@
     "top_five_pct": 34.33,
     "top_ten_pct": 50.27,
     "hhi": 388.26,
-    "changes": null,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 30,
+      "exited_positions": 24,
+      "increased_positions": 38,
+      "reduced_positions": 45
+    },
     "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-25",
+        "accession": "0002024333-25-000006"
+      },
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-03",
@@ -119,6 +131,8 @@
       }
     ]
   },
-  "reported_13f_value_usd": null,
+  "reported_13f_value_usd": 285389181.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002024333-26-000004",
   "annualized_turnover_proxy_pct": null
 }
