@@ -1,4 +1,5 @@
 import copy
+import hashlib
 import json
 import gzip
 import pathlib
@@ -81,6 +82,78 @@ class ProxyBenchmarkTests(unittest.TestCase):
    self.assertEqual(current['proxy_snapshots']['Russell3000_proxy']['source_url'],iwv['source_url'])
    self.assertEqual(json.loads((root/'universes/2026-11-10.json').read_text()),current)
    self.assertEqual(json.loads((root/'status.json').read_text())['status'],'partial')
+
+ def test_large_megacap_requires_dated_cap_us_exchange_and_sec_identity(self):
+  payload={'as_of':'2026-11-12','data':{'rows':[
+   {'symbol':'AAA','name':'Already proxied','marketCap':'$20B','exchange':'Nasdaq','sector':'Tech'},
+   {'symbol':'ZZZ','name':'Outside issuer','marketCap':'15000000000','exchange':'NYSE','sector':'Industrials'},
+   {'symbol':'OTC','name':'Wrong venue','marketCap':'$30B','exchange':'OTC','sector':'Health'},
+   {'symbol':'SMOL','name':'Below floor','marketCap':'$5B','exchange':'NASDAQ','sector':'Tech'},
+   {'symbol':'AMB','name':'Ambiguous','marketCap':'$12B','exchange':'NYSE','sector':'Finance'}]}}
+  blob=json.dumps(payload).encode();tickers={
+   '0':{'ticker':'AAA','cik_str':1},'1':{'ticker':'ZZZ','cik_str':9},'2':{'ticker':'OTC','cik_str':8},
+   '3':{'ticker':'SMOL','cik_str':7},'4':{'ticker':'AMB','cik_str':5},'5':{'ticker':'AMB','cik_str':6}}
+  observed='2026-11-15T12:30:00Z'
+  screen=ingest.parse_large_megacap(blob,tickers,observed,enforce_safety=False)
+  outside=ingest.outside_proxy_large_megacap(screen,{'securities':[{'ticker':'AAA'}]})
+  self.assertEqual([s['ticker'] for s in outside['securities']],['ZZZ'])
+  row=outside['securities'][0]
+  self.assertEqual(row['market_cap_usd'],15_000_000_000)
+  self.assertEqual(row['market_cap_as_of'],'2026-11-12')
+  self.assertEqual(row['exchange'],'NYSE')
+  self.assertEqual(row['cik'],'0000000009')
+  self.assertEqual(row['market_cap_observed_at'],'2026-11-15T12:30:00+00:00')
+  self.assertEqual(outside['source_sha256'],hashlib.sha256(blob).hexdigest())
+  self.assertIn('not historical',outside['scope'])
+  reasons={x['reason'] for x in outside['excluded_screen_rows']}
+  self.assertIn('unverified_us_exchange_listing',reasons)
+  self.assertIn('no_unique_current_sec_ticker_match',reasons)
+
+ def test_large_megacap_rejects_nonfinite_and_conflicting_rows(self):
+  self.assertIsNone(ingest.parse_market_cap('NaN'))
+  self.assertIsNone(ingest.parse_market_cap('Infinity'))
+  payload={'as_of':'2026-11-12','data':{'rows':[
+   {'symbol':'ZZZ','name':'Outside','marketCap':'$15B','exchange':'NYSE'},
+   {'symbol':'ZZZ','name':'Outside','marketCap':'$16B','exchange':'NYSE'}]}}
+  with self.assertRaisesRegex(ValueError,'Conflicting large/mega-cap screener rows'):
+   ingest.parse_large_megacap(json.dumps(payload).encode(),{'0':{'ticker':'ZZZ','cik_str':9}},'2026-11-15T12:30:00Z',enforce_safety=False)
+
+ def test_ingestion_queues_verified_outside_proxy_issuer_separately(self):
+  sp,iwv=self.sources();captured=[]
+  screen={'as_of':'2026-11-15','retrieved_at':'2026-11-15T12:30:00+00:00','source_url':ingest.NASDAQ_SCREENER,
+   'source_sha256':'b'*64,'market_cap_floor_usd':ingest.LARGE_CAP_MIN_USD,'excluded_rows':[],
+   'securities':[{'ticker':'ZZZ','name':'Outside','cik':'0000000009','exchange':'NYSE','market_cap_usd':15_000_000_000,
+    'market_cap_as_of':'2026-11-12','market_cap_retrieved_at':'2026-11-15T12:30:00+00:00',
+    'market_cap_observed_at':'2026-11-15T12:30:00+00:00','market_cap_source_url':ingest.NASDAQ_SCREENER,
+    'market_cap_source_sha256':'b'*64,'exchange_listing_source_url':ingest.NASDAQ_SCREENER,
+    'exchange_listing_source_sha256':'b'*64}]}
+  with tempfile.TemporaryDirectory() as folder:
+   root=pathlib.Path(folder)
+   def queue(ciks,*args):captured.extend(ciks);return []
+   with patch.object(ingest,'OUT',root),patch.object(sys,'argv',['ingest','--limit','1']),patch.object(ingest,'get',return_value=b'{}'),patch.object(ingest,'parse_universe',return_value=sp),patch.object(ingest,'parse_russell',return_value=iwv),patch.object(ingest,'fetch_large_megacap',return_value=(b'{}','2026-11-15T12:30:00+00:00')),patch.object(ingest,'parse_large_megacap',return_value=screen),patch.object(ingest,'work_queue',side_effect=queue),patch('builtins.print'):
+    ingest.main()
+   status=json.loads((root/'status.json').read_text())
+   supplement=json.loads((root/'large_megacap_outside_proxies.json').read_text())
+   self.assertIn('0000000009',captured)
+   self.assertEqual(status['unique_mapped_issuers'],3)
+   self.assertEqual(status['fundamental_ingestion_unique_issuers'],4)
+   self.assertEqual(status['supplemental_large_megacap']['security_count'],1)
+   self.assertEqual(supplement['securities'][0]['universe_memberships'],['large_megacap_outside_current_etf_proxies'])
+
+ def test_large_megacap_fetches_each_exchange_with_dated_raw_provenance(self):
+  def response(exchange):
+   return json.dumps({'data':{'table':{'rows':[{'symbol':exchange[:3],'name':exchange,'marketCap':'15000000000'}]},
+    'totalrecords':1,'asof':'Last price as of Nov 12, 2026'}}).encode()
+  blobs={url:response(exchange) for exchange,url in ingest.NASDAQ_EXCHANGE_SOURCES.items()}
+  with patch.object(ingest,'get',side_effect=lambda url:blobs[url]),patch.object(ingest,'now',return_value='2026-11-15T12:30:00+00:00'):
+   blob,observed=ingest.fetch_large_megacap()
+  payload=json.loads(blob)
+  self.assertEqual(observed,'2026-11-15T12:30:00+00:00')
+  self.assertEqual(payload['as_of'],'2026-11-12')
+  self.assertEqual(len(payload['data']['rows']),3)
+  self.assertEqual({s['exchange'] for s in payload['sources']},{'NASDAQ','NYSE','NYSE AMERICAN'})
+  for source in payload['sources']:
+   self.assertEqual(source['sha256'],hashlib.sha256(blobs[source['url']]).hexdigest())
 
  def test_benchmark_cli_writes_separate_reports(self):
   with tempfile.TemporaryDirectory() as folder:
