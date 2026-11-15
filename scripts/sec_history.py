@@ -571,13 +571,28 @@ def select_download_queue(rows, state, available, limit):
                     for row in rows)
         for period in periods}
     active = next((period for period in periods if outstanding[period]), None)
+    # A due SEC/network failure can otherwise starve indefinitely behind every
+    # newly discovered non-investor filing. Reserve exactly one early slot for
+    # source recovery without allowing retries to monopolize the batch. Legacy
+    # size failures use the streaming path but remain ordinary backlog work.
+    recovery = [row for row in available
+                if state.get(row['accession'], {}).get('status') == 'failed'
+                and state.get(row['accession'], {}).get('error') !=
+                    'Response exceeds configured byte limit; requires larger archive storage']
+    recovery_accessions = {row['accession'] for row in recovery}
     priority = [row for row in available if row['form'] in INVESTOR_FORMS
-                and investor_intake_window(row) == active]
-    others = [row for row in available if row['form'] not in INVESTOR_FORMS]
+                and investor_intake_window(row) == active
+                and row['accession'] not in recovery_accessions]
+    others = [row for row in available if row['form'] not in INVESTOR_FORMS
+              and row['accession'] not in recovery_accessions]
     reserved = max(1, limit // 5)
-    queue = priority[:limit - reserved] + others[:reserved]
+    recovery_pick = recovery[:1]
+    remaining = max(0, limit - len(recovery_pick))
+    other_slots = min(reserved, remaining)
+    priority_slots = remaining - other_slots
+    queue = recovery_pick + priority[:priority_slots] + others[:other_slots]
     used = {row['accession'] for row in queue}
-    queue += [row for row in priority + others
+    queue += [row for row in priority + others + recovery
               if row['accession'] not in used][:limit - len(queue)]
     plan = {
         'active_target_report_date': active,
@@ -587,6 +602,8 @@ def select_download_queue(rows, state, available, limit):
         'current_intake_start': '2026-09-30',
         'june_intake_start': '2026-07-01',
         'june_intake_end': '2026-09-29',
+        'due_failure_recovery_queued': recovery_pick[0]['accession'] if recovery_pick else None,
+        'failure_recovery_slots': len(recovery_pick),
         'current_errors_hold_older_investor_backfill': True}
     return queue, plan
 

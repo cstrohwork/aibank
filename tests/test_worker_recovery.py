@@ -135,6 +135,31 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual(archive.call_args_list[0].args[0], rows[1]['source'])
             self.assertEqual(archive.call_count, 5)
 
+    def test_due_transient_failure_gets_one_early_recovery_slot(self):
+        rows = [dict(cik='0000000001', name='Fixture', form='N-PX',
+                     filing_date='2025-09-30', accession=str(i),
+                     source='https://www.sec.gov/Archives/' + str(i)) for i in range(5)]
+        failed = dict(cik='0000000002', name='Failed source', form='10-Q',
+                      filing_date='2025-09-30', accession='failed',
+                      source='https://www.sec.gov/Archives/failed')
+        rows.append(failed)
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            history.save(root / 'history/archive_state.json.gz', {
+                'failed': dict(failed, status='failed', error='HTTP Error 503: Service Unavailable',
+                               retry_after='2000-01-01T00:00:00+00:00')})
+            with mock.patch.object(history, 'catalogue', return_value=(rows, [])), \
+                 mock.patch.object(history, 'archive_submission', return_value=dict(
+                     sha256='fixture', raw_bytes=1, archive_bytes=1)) as archive, \
+                 mock.patch.dict('os.environ', {'SEC_HISTORY_WORKERS': '1', 'SEC_HISTORY_BATCH': '5'}), \
+                 contextlib.redirect_stdout(io.StringIO()):
+                history.run(root)
+            self.assertEqual(archive.call_args_list[0].args[0], failed['source'])
+            self.assertEqual(archive.call_count, 5)
+            status = history.load(root / 'history/status.json')
+            self.assertEqual(status['investor_ingestion_priority']['due_failure_recovery_queued'], 'failed')
+            self.assertEqual(status['investor_ingestion_priority']['failure_recovery_slots'], 1)
+
 
 class StandaloneIdentityTests(unittest.TestCase):
     def xml(self, cik='1', name='Standalone Fund', series_name='Standalone Fund', series_lei='549300IRIJ5TBU8V3T78'):
