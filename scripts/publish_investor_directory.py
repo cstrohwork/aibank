@@ -161,13 +161,15 @@ def run(batch=2000):
             doc = {'manager_cik': cik, 'investor_name': name, 'latest_report_date': p.get('latest_report_date'),
                    'filing_date': p.get('filing_date'), 'city': p.get('city'), 'state': p.get('state'), 'country': p.get('country'),
                    'investor_style': style, 'orientation': orientation, 'source_filings': sources,
-                   'evidence_status': ('normalized_usd_validated_not_cover_page_reconciled' if analytics.get('reported_long_equity_value_usd') is not None else 'cached_source_profile_monetary_reconciliation_pending'), 'source_fingerprint': fingerprint,
+                   'evidence_status': ('normalized_usd_validated_not_cover_page_reconciled' if analytics.get('reported_long_equity_value_usd') is not None else 'cached_source_profile_monetary_reconciliation_pending'), 'source_fingerprint': fingerprint, 'accession_fingerprints': p.get('accession_fingerprints', []),
+                   'holdings_fingerprints': p.get('holdings_fingerprints', []),
                    'generated_at': now, 'holdings_analytics': analytics, 'reported_13f_value_usd': analytics.get('reported_long_equity_value_usd'), 'reported_13f_value_basis': 'validated_normalized_long_share_exposure_not_total_aum', 'validated_accession': analytics.get('accession') if analytics.get('reported_long_equity_value_usd') is not None else None, 'annualized_turnover_proxy_pct': None}
             content = json.dumps(doc, indent=2) + '\n'
             (versions / (fingerprint + '.json')).write_text(content)
             (target / 'profile.json').write_text(content)
             (target / 'index.html').write_text(head + body)
-            manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'validated_accession': doc['validated_accession'], 'accession_fingerprints': p.get('accession_fingerprints', []), 'generated_at': now}
+            manifest['profiles'][cik] = {'name': name, 'fingerprint': fingerprint, 'report_date': p.get('latest_report_date'), 'validated_accession': doc['validated_accession'], 'accession_fingerprints': p.get('accession_fingerprints', []),
+                                        'holdings_fingerprints': p.get('holdings_fingerprints', []), 'generated_at': now}
             manifest['failures'].pop(cik, None)
             changed += 1
         except Exception as exc:
@@ -198,6 +200,7 @@ def run(batch=2000):
                 or not ((OUT / cik / 'index.html').exists() and (OUT / cik / 'profile.json').exists())):
             next_batch.append({'manager_cik': cik, 'report_date': p.get('latest_report_date'),
                                'source_fingerprint': fingerprint, 'accession_fingerprints': p.get('accession_fingerprints', []),
+                               'holdings_fingerprints': p.get('holdings_fingerprints', []),
                                'state': ('failed_retry' if cik in manifest['failures'] else
                                          'pending_initial' if cik not in manifest['profiles'] else 'pending_refresh'),
                                'retry_attempts': manifest['failures'].get(cik, {}).get('attempts', 0)})
