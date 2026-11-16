@@ -545,6 +545,77 @@ def investor_filing_period(rows, state, start, end):
     }
 
 
+def filing_quarter_tracker(rows, state, coverage_start, as_of):
+    """Measure catalogue and archive progress by SEC filing-date quarter.
+
+    Catalogue membership is discovery evidence only. Archived means the complete
+    public submission was preserved; parsed counts apply only to position forms.
+    """
+    first = dt.date.fromisoformat(coverage_start)
+    last = dt.date.fromisoformat(as_of)
+    if first > last:
+        raise ValueError('Quarter tracker coverage start is after as-of date')
+    periods = []
+    for year, quarter in reversed(list(quarters(coverage_start, last))):
+        quarter_start = dt.date(year, 3 * (quarter - 1) + 1, 1)
+        next_start = dt.date(year + 1, 1, 1) if quarter == 4 else dt.date(year, 3 * quarter + 1, 1)
+        quarter_end = next_start - dt.timedelta(days=1)
+        covered_start = max(first, quarter_start)
+        covered_end = min(last, quarter_end)
+        records = [row for row in rows
+            if covered_start.isoformat() <= row.get('filing_date', '') <= covered_end.isoformat()]
+        archived = [row for row in records
+            if state.get(row['accession'], {}).get('status') == 'archived']
+        failed = sum(state.get(row['accession'], {}).get('status') == 'failed'
+            for row in records)
+        deferred = sum(state.get(row['accession'], {}).get('status') == 'deferred'
+            for row in records)
+        waiting = sum(state.get(row['accession'], {}).get('status')
+            not in ('archived', 'failed', 'deferred') for row in records)
+        investor = investor_filing_period(
+            rows, state, covered_start.isoformat(), covered_end.isoformat())
+        if covered_start > quarter_start:
+            window_status = 'partial_start_quarter'
+        elif covered_end < quarter_end:
+            window_status = 'partial_current_quarter'
+        else:
+            window_status = 'complete_calendar_quarter'
+        periods.append({
+            'quarter': f'{year}Q{quarter}',
+            'calendar_start': quarter_start.isoformat(),
+            'calendar_end': quarter_end.isoformat(),
+            'covered_start': covered_start.isoformat(),
+            'covered_end': covered_end.isoformat(),
+            'window_status': window_status,
+            'catalogued': len(records),
+            'archived': len(archived),
+            'remaining_not_archived': len(records) - len(archived),
+            'waiting': waiting,
+            'failed': failed,
+            'deferred': deferred,
+            'archive_coverage_pct': round(100 * len(archived) / len(records), 4) if records else None,
+            'position_forms_parsed': sum(
+                row['form'] in POSITION_FORMS
+                and not state.get(row['accession'], {}).get('normalization_error')
+                for row in archived),
+            'normalization_errors': sum(
+                row['form'] in POSITION_FORMS
+                and bool(state.get(row['accession'], {}).get('normalization_error'))
+                for row in archived),
+            'investor_forms': {key: investor[key] for key in
+                ('discovered', 'archived', 'pending', 'failed', 'deferred',
+                 'positions_parsed', 'normalization_errors')},
+        })
+    return {
+        'filing_date_timezone': 'America/New_York',
+        'coverage_start': coverage_start,
+        'as_of_date': as_of,
+        'basis': ('All public EDGAR forms grouped by SEC filing date. Catalogue membership does not prove '
+                  'document download; archived means the complete public submission was preserved.'),
+        'quarters': periods,
+    }
+
+
 def investor_intake_window(row):
     """Discovery uses filing dates; normalize() verifies actual holdings dates."""
     filed = row.get('filing_date', '')
@@ -790,6 +861,7 @@ def run(root=ROOT):
         'current_day': investor_filing_period(rows, state, today.isoformat(), today.isoformat()),
         'current_quarter': investor_filing_period(rows, state, quarter_start, today.isoformat()),
     }
+    quarter_tracker = filing_quarter_tracker(rows, state, start, today.isoformat())
     failures = [s for s in state.values() if s.get('status') == 'failed']
     parse_errors = [s for s in archived if s.get('normalization_error')]
     previous_status = load(history / 'status.json', {})
@@ -797,6 +869,7 @@ def run(root=ROOT):
         'checked_at': checked_at,
         'updated_at': checked_at,
         'investor_filings': investor_monitor,
+        'filing_quarter_tracker': quarter_tracker,
         'investor_ingestion_priority': investor_priority_plan,
         'live_feed': LIVE_FEED_STATUS,
         'catalogued_filings': len(rows), 'forms': dict(counts), 'archived_filings': len(archived),
@@ -814,6 +887,7 @@ def run(root=ROOT):
         or LIVE_FEED_STATUS.get('status') == 'error'
         or LIVE_FEED_STATUS.get('new_accessions', 0)
         or summary['investor_filings'] != previous_status.get('investor_filings')
+        or summary['filing_quarter_tracker'] != previous_status.get('filing_quarter_tracker')
         or summary['catalogued_filings'] != previous_status.get('catalogued_filings')
         or summary['forms'] != previous_status.get('forms')
         or summary['normalization_failures'] != previous_status.get('normalization_failures')
