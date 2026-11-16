@@ -313,7 +313,22 @@ def current_feed_rows(start, known_accessions):
     for offset in range(0, 1000, page_size):
         url = ('https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent'
                f'&owner=include&count={page_size}&start={offset}&output=atom')
-        page = parse_current_feed(fetch(url, limit=2_000_000))
+        # A socket can time out after the HTTP connection succeeds, during
+        # response.read(). Retry only this idempotent feed page; never treat a
+        # partial response as a successful empty page.
+        for attempt in range(3):
+            try:
+                page = parse_current_feed(fetch(url, limit=2_000_000))
+                break
+            except (TimeoutError, ConnectionError, http.client.IncompleteRead,
+                    urllib.error.URLError) as exc:
+                if attempt == 2:
+                    raise
+                delay = (2, 5)[attempt]
+                print(json.dumps({'event': 'sec_live_feed_retry',
+                    'offset': offset, 'attempt': attempt + 2,
+                    'pause_seconds': delay, 'error': str(exc)}), flush=True)
+                time.sleep(delay)
         if not page:
             break
         overlap = False
