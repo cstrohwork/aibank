@@ -33,6 +33,9 @@ class ProxyBenchmarkTests(unittest.TestCase):
   self.assertEqual(u['proxy_snapshots']['Russell3000_proxy']['securities'][0]['weight_pct'],20)
   self.assertEqual((sp,iwv),before)
   self.assertIn('not point-in-time index constituents',u['membership_basis'])
+  self.assertNotIn('not yet available',u['membership_basis'])
+  self.assertIn('stored separately',u['membership_basis'])
+  self.assertIn('not part of proxy membership',u['membership_basis'])
  def test_conflicting_cik_or_cusip_is_not_silently_merged(self):
   for conflict in ({'cik':'9'},{'cusip':'999'}):
    sp,iwv=self.sources();iwv['securities'][0].update(conflict)
