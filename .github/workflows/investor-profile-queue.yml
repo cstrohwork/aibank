@@ -53,6 +53,31 @@ jobs:
             # Fail closed on an inconsistent checkpoint; never publish a
             # manifest that counts profiles whose pages are absent.
             python -c 'import json; from pathlib import Path; r=Path("CapitalSignal/spotlight/investors"); m=json.loads((r/"manifest.json").read_text()); p=m["profiles"]; assert m["generated_count"]==len(p); assert m["pending_active_count"]+m["completed_current_version_count"]==m["cached_investor_count"]; assert m["never_published_remaining"]+m["refresh_remaining"]==m["pending_active_count"]; assert all(len(c)==10 and c.isdigit() and (r/c/"profile.json").exists() and (r/c/"index.html").exists() for c in p); print("Checkpoint validated:", m["changed_this_run"], "processed,", m["pending_active_count"], "pending")'
+            # Publish machine-readable progress to the Actions job summary even
+            # when the large manifest cannot be inspected through file readers.
+            python - <<'PY'
+            import json, os
+            from pathlib import Path
+            m = json.loads(Path('CapitalSignal/spotlight/investors/manifest.json').read_text())
+            fields = [
+                ('Discovered cached managers', 'cached_investor_count'),
+                ('Current-version profiles', 'completed_current_version_count'),
+                ('New/updated this batch', 'changed_this_run'),
+                ('Pending', 'pending_active_count'),
+                ('Eligible for next batch', 'eligible_pending_after_batch_count'),
+                ('Retry cooldown', 'retry_cooldown_pending_count'),
+                ('Failed active managers', 'failed_active_count'),
+                ('Never published remaining', 'never_published_remaining'),
+                ('Validated normalized USD', 'validated_normalized_usd_profile_count'),
+                ('Without validated USD', 'without_validated_normalized_usd_count'),
+            ]
+            summary = '## Investor profile checkpoint\\n\\n| Measure | Count |\\n|---|---:|\\n'
+            summary += ''.join(f'| {label} | {m.get(key, "unknown")} |\\n' for label, key in fields)
+            summary += '\\nCounts refer only to the discovered cached manager universe; not all institutional funds.\\n'
+            with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+                out.write(summary)
+            print(summary)
+            PY
             git add CapitalSignal/spotlight/investors/
             if git diff --cached --quiet; then exit 0; fi
             git commit -m "Generate investor profiles from latest ingested SEC cache"
