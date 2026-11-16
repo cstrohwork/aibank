@@ -1,0 +1,144 @@
+{
+  "manager_cik": "0002021242",
+  "investor_name": "Sienna Gestion",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "PARIS",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2021242/0000945621-25-001073.txt",
+    "https://www.sec.gov/Archives/edgar/data/2021242/0000945621-26-001042.txt",
+    "https://www.sec.gov/Archives/edgar/data/2021242/0000945621-26-001361.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d274e69b9c8daddbff6851ce3178082d4f5316f18b331906219107f5da6a7016",
+  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0000945621-26-001361",
+    "source": "https://www.sec.gov/Archives/edgar/data/2021242/0000945621-26-001361.txt",
+    "distinct_positions": 176,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1797123225.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP",
+        "shares": 639312.0,
+        "value_usd": 145450220.0,
+        "weight_pct": 8.09
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 368154.0,
+        "value_usd": 121430338.0,
+        "weight_pct": 6.76
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 220124.0,
+        "value_usd": 112182505.0,
+        "weight_pct": 6.24
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 203730.0,
+        "value_usd": 69547504.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 115408.0,
+        "value_usd": 41035589.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 33454.0,
+        "value_usd": 35678318.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "N97284108",
+        "security_class": "SHS CLASS A",
+        "issuer": "NEBIUS GROUP NV",
+        "shares": 121751.0,
+        "value_usd": 28936434.0,
+        "weight_pct": 1.61
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 85548.0,
+        "value_usd": 28694775.0,
+        "weight_pct": 1.6
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 22514.0,
+        "value_usd": 26706039.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 43487.0,
+        "value_usd": 26456346.0,
+        "weight_pct": 1.47
+      }
+    ],
+    "top_five_pct": 27.25,
+    "top_ten_pct": 35.4,
+    "hhi": 232.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 136,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0000945621-25-001073"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000945621-26-001042"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0000945621-26-001361"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1797123225.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000945621-26-001361",
+  "annualized_turnover_proxy_pct": null
+}

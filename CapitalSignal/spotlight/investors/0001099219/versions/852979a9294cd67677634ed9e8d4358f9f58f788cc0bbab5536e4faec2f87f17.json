@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001099219",
+  "investor_name": "MetLife Inc",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1099219/0001628280-25-052082.txt",
+    "https://www.sec.gov/Archives/edgar/data/1099219/0001628280-26-056848.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "852979a9294cd67677634ed9e8d4358f9f58f788cc0bbab5536e4faec2f87f17",
+  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001628280-26-056848",
+    "source": "https://www.sec.gov/Archives/edgar/data/1099219/0001628280-26-056848.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 13089220.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STREET SPDR S&P  ETF TRUST",
+        "shares": 6878.0,
+        "value_usd": 5136925.0,
+        "weight_pct": 39.25
+      },
+      {
+        "cusip": "464286640",
+        "security_class": "MSCI CHILE",
+        "issuer": "ISHARES MSCI CHILE ETF INC",
+        "shares": 86457.0,
+        "value_usd": 3432771.0,
+        "weight_pct": 26.23
+      },
+      {
+        "cusip": "464287390",
+        "security_class": "LATN AMER",
+        "issuer": "ISHARES LATIN AMERICA  ETF TRUST",
+        "shares": 71751.0,
+        "value_usd": 2421898.0,
+        "weight_pct": 18.5
+      },
+      {
+        "cusip": "46434G822",
+        "security_class": "MSCI JAPAN",
+        "issuer": "ISHARES MSCI JAPAN ETF INC",
+        "shares": 10189.0,
+        "value_usd": 950447.0,
+        "weight_pct": 7.26
+      },
+      {
+        "cusip": "464287861",
+        "security_class": "EUROPE ETF",
+        "issuer": "ISHARES EUROPE ETF",
+        "shares": 9498.0,
+        "value_usd": 692016.0,
+        "weight_pct": 5.29
+      },
+      {
+        "cusip": "464286665",
+        "security_class": "MSCI PAC J",
+        "issuer": "ISHARES MSCI PACIFIC EX JAPAN ETF",
+        "shares": 8545.0,
+        "value_usd": 455163.0,
+        "weight_pct": 3.48
+      }
+    ],
+    "top_five_pct": 96.52,
+    "top_ten_pct": 100.0,
+    "hhi": 2663.14,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001628280-25-052082"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001628280-26-056848"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 13089220.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001628280-26-056848",
+  "annualized_turnover_proxy_pct": null
+}

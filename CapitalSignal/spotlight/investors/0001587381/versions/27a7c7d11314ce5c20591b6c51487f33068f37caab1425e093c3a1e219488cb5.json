@@ -1,0 +1,144 @@
+{
+  "manager_cik": "0001587381",
+  "investor_name": "USS Investment Management Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-10",
+  "city": "London",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1587381/0000919574-25-006678.txt",
+    "https://www.sec.gov/Archives/edgar/data/1587381/0000919574-26-004930.txt",
+    "https://www.sec.gov/Archives/edgar/data/1587381/0000919574-26-007532.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "27a7c7d11314ce5c20591b6c51487f33068f37caab1425e093c3a1e219488cb5",
+  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0000919574-26-007532",
+    "source": "https://www.sec.gov/Archives/edgar/data/1587381/0000919574-26-007532.txt",
+    "distinct_positions": 635,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 25100583858.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 66398232.0,
+        "value_usd": 5958245349.0,
+        "weight_pct": 23.74
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1283922.0,
+        "value_usd": 983259566.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 4258877.0,
+        "value_usd": 972237736.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 1793767.0,
+        "value_usd": 920076907.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 3336061.0,
+        "value_usd": 831179598.0,
+        "weight_pct": 3.31
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 1094668.0,
+        "value_usd": 767115968.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 2279617.0,
+        "value_usd": 759215044.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 969394.0,
+        "value_usd": 348463214.0,
+        "weight_pct": 1.39
+      },
+      {
+        "cusip": "482480100",
+        "security_class": "COM NEW",
+        "issuer": "KLA CORP",
+        "shares": 1749148.0,
+        "value_usd": 341162572.0,
+        "weight_pct": 1.36
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 894993.0,
+        "value_usd": 308043166.0,
+        "weight_pct": 1.23
+      }
+    ],
+    "top_five_pct": 38.51,
+    "top_ten_pct": 48.56,
+    "hhi": 662.12,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 51,
+      "exited_positions": 33,
+      "increased_positions": 112,
+      "reduced_positions": 186
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0000919574-25-006678"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0000919574-26-004930"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0000919574-26-007532"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 25100583858.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-007532",
+  "annualized_turnover_proxy_pct": null
+}
