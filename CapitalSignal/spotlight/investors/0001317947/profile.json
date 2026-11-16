@@ -1,29 +1,30 @@
 {
   "manager_cik": "0001317947",
   "investor_name": "Bain Capital Credit, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
-  "city": "Boston",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "BOSTON",
   "state": "MA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1317947/0001317947-25-000011.txt",
-    "https://www.sec.gov/Archives/edgar/data/1317947/0001193125-26-350236.txt"
+    "https://www.sec.gov/Archives/edgar/data/1317947/0001193125-26-350236.txt",
+    "https://www.sec.gov/Archives/edgar/data/1317947/0001193125-26-461921.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4e8c1e696a4d801e31fa23117a46966e1599d1307f28df2851055465be77f564",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "3eca3446f4a3854f9397620b8cee3fae80f7594d74f19a62aae253cd50da165b",
+  "generated_at": "2026-11-16T12:23:03.458211+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001193125-26-350236",
-    "source": "https://www.sec.gov/Archives/edgar/data/1317947/0001193125-26-350236.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-461921",
+    "source": "https://www.sec.gov/Archives/edgar/data/1317947/0001193125-26-461921.txt",
     "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 367855084.0,
+    "reported_long_equity_value_usd": 302744589.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,59 +33,59 @@
         "security_class": "COM STK",
         "issuer": "BAIN CAP SPECIALTY FIN INC",
         "shares": 11822433.0,
-        "value_usd": 148016857.0,
-        "weight_pct": 40.24
+        "value_usd": 130519657.0,
+        "weight_pct": 43.11
       },
       {
         "cusip": "464288513",
         "security_class": "IBOXX HI YD ETF",
         "issuer": "ISHARES TR",
-        "shares": 1578713.0,
-        "value_usd": 126249679.0,
-        "weight_pct": 34.32
+        "shares": 1397480.0,
+        "value_usd": 107899431.0,
+        "weight_pct": 35.64
       },
       {
         "cusip": "46138G508",
         "security_class": "SR LN ETF",
         "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 3971884.0,
-        "value_usd": 80907277.0,
-        "weight_pct": 21.99
+        "shares": 2685353.0,
+        "value_usd": 54861762.0,
+        "weight_pct": 18.12
       },
       {
         "cusip": "023139884",
         "security_class": "COM NEW",
         "issuer": "OCTAVE SPECIALTY GROUP INC",
         "shares": 1108012.0,
-        "value_usd": 6913995.0,
-        "weight_pct": 1.88
+        "value_usd": 4587170.0,
+        "weight_pct": 1.52
       },
       {
         "cusip": "015658107",
         "security_class": "COM",
         "issuer": "ALGOMA STL GROUP INC",
         "shares": 825777.0,
-        "value_usd": 3344397.0,
-        "weight_pct": 0.91
+        "value_usd": 3443491.0,
+        "weight_pct": 1.14
       },
       {
         "cusip": "78467V608",
         "security_class": "ST STR BL LN ETF",
         "issuer": "SSGA ACTIVE ETF TR",
-        "shares": 60136.0,
-        "value_usd": 2422879.0,
-        "weight_pct": 0.66
+        "shares": 35481.0,
+        "value_usd": 1433078.0,
+        "weight_pct": 0.47
       }
     ],
-    "top_five_pct": 99.34,
+    "top_five_pct": 99.53,
     "top_ten_pct": 100.0,
-    "hhi": 3285.52,
+    "hhi": 3461.1,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 1,
-      "increased_positions": 1,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -96,11 +97,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001193125-26-350236"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-461921"
       }
     ]
   },
-  "reported_13f_value_usd": 367855084.0,
+  "reported_13f_value_usd": 302744589.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-350236",
+  "validated_accession": "0001193125-26-461921",
   "annualized_turnover_proxy_pct": null
 }
