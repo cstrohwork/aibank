@@ -17,7 +17,7 @@ concurrency:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # The bounded 20-minute SEC acquisition plus tests, release publication,\n    # derived rebuilds, rebasing, and cleanup has recently required ~33 minutes.\n    timeout-minutes: 45
     env:
       SEC_HISTORY_START: '2025-09-30'
       SEC_HISTORY_BATCH: '1000'
