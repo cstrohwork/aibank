@@ -218,6 +218,11 @@ def run(batch=2000):
     failed_active_count = sum(1 for cik in active_ciks if cik in manifest['failures'])
     failed_outside_universe_count = sum(1 for cik in manifest['failures'] if cik not in active_ciks)
     pending_active_count = remaining
+    # Distinguish actionable queue work from investors waiting for retry backoff.
+    # This is computed from the same eligible selection as the current batch,
+    # not from the capped 200-entry next-batch preview.
+    eligible_pending_count = len(unpublished) + len(refreshes) - len(selected)
+    retry_cooldown_pending_count = max(0, pending_active_count - len(unpublished) - len(refreshes))
     completed_current_version_count = len(active_ciks) - pending_active_count
     # Separate published disclosure pages from those with validated USD evidence.
     # A validated accession is a normalization check, NOT independent cover-page
@@ -228,7 +233,9 @@ def run(batch=2000):
         and manifest['profiles'][cik].get('validated_accession')
         and (OUT / cik / 'profile.json').exists()
     )
-    manifest.update(active_generated_count=active_generated_count,
+    manifest.update(eligible_pending_after_batch_count=eligible_pending_count,
+                    retry_cooldown_pending_count=retry_cooldown_pending_count,
+                    active_generated_count=active_generated_count,
                     orphaned_profile_count=orphaned_profile_count,
                     failed_pending_next_batch=failed_pending_count,
                     failed_active_count=failed_active_count,
