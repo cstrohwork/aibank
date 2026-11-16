@@ -1,28 +1,37 @@
 {
   "manager_cik": "0001821407",
   "investor_name": "WFA of San Diego, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN DIEGO",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1821407/0001821407-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1821407/0001821407-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1821407/0001821407-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c75aa9c18040731dc71be76faae8236bab6b8fd3eb9e47a13a0107e503e008d1",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "626f63430e9aec7f9b041232359d94e46c275f795dde716126319d49f2e35ee0",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "a5ff7b74e99f7dce7192a08c48e89b40bfe4a4e9",
+    "aab9b8aaf5dec4e603891211df961f15f9008924"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001821407-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1821407/0001821407-26-000004.txt",
-    "distinct_positions": 94,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001821407-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1821407/0001821407-26-000006.txt",
+    "distinct_positions": 84,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 122124854.0,
+    "reported_long_equity_value_usd": 109161422.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "037833100",
         "security_class": "Stock",
         "issuer": "APPLE INC COM",
-        "shares": 51167.0,
-        "value_usd": 15619191.0,
-        "weight_pct": 12.79
+        "shares": 46656.0,
+        "value_usd": 16622088.0,
+        "weight_pct": 15.23
       },
       {
         "cusip": "922908769",
         "security_class": "ETF",
         "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
-        "shares": 29279.0,
-        "value_usd": 11251972.0,
-        "weight_pct": 9.21
+        "shares": 26464.0,
+        "value_usd": 9821171.0,
+        "weight_pct": 9.0
       },
       {
         "cusip": "921937835",
         "security_class": "ETF",
         "issuer": "VANGUARD TOTAL BOND MARKET ETF",
-        "shares": 69299.0,
-        "value_usd": 5022792.0,
-        "weight_pct": 4.11
+        "shares": 66854.0,
+        "value_usd": 4717218.0,
+        "weight_pct": 4.32
       },
       {
         "cusip": "92206C680",
         "security_class": "ETF",
         "issuer": "VANGUARD RUSSELL 1000 GROWTH ETF",
-        "shares": 33135.0,
-        "value_usd": 4286675.0,
-        "weight_pct": 3.51
+        "shares": 30286.0,
+        "value_usd": 3583440.0,
+        "weight_pct": 3.28
       },
       {
         "cusip": "92206C714",
         "security_class": "ETF",
         "issuer": "VANGUARD RUSSELL 1000 VALUE ETF",
-        "shares": 33800.0,
-        "value_usd": 3833596.0,
-        "weight_pct": 3.14
-      },
-      {
-        "cusip": "46137V613",
-        "security_class": "ETF",
-        "issuer": "INVESCO RAFI US 1000 ETF",
-        "shares": 58631.0,
-        "value_usd": 3310278.0,
-        "weight_pct": 2.71
-      },
-      {
-        "cusip": "808524698",
-        "security_class": "ETF",
-        "issuer": "SCHWAB 5-10 YEAR CORPORATE BOND ETF",
-        "shares": 144644.0,
-        "value_usd": 3227008.0,
-        "weight_pct": 2.64
-      },
-      {
-        "cusip": "921908844",
-        "security_class": "ETF",
-        "issuer": "VANGUARD DIVIDEND APPRECIATION ETF",
-        "shares": 13076.0,
-        "value_usd": 3224549.0,
-        "weight_pct": 2.64
+        "shares": 29455.0,
+        "value_usd": 3400874.0,
+        "weight_pct": 3.12
       },
       {
         "cusip": "084670702",
         "security_class": "Stock",
         "issuer": "BERKSHIRE HATHAWAY INC DEL CL B NEW",
-        "shares": 5691.0,
-        "value_usd": 2884685.0,
-        "weight_pct": 2.36
+        "shares": 5431.0,
+        "value_usd": 3219996.0,
+        "weight_pct": 2.95
       },
       {
-        "cusip": "02079K305",
-        "security_class": "Stock",
-        "issuer": "ALPHABET INC CAP STK CL A",
-        "shares": 8122.0,
-        "value_usd": 2813136.0,
-        "weight_pct": 2.3
+        "cusip": "46137V613",
+        "security_class": "ETF",
+        "issuer": "INVESCO RAFI US 1000 ETF",
+        "shares": 53893.0,
+        "value_usd": 3051422.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "808524698",
+        "security_class": "ETF",
+        "issuer": "SCHWAB 5-10 YEAR CORPORATE BOND ETF",
+        "shares": 141107.0,
+        "value_usd": 3038034.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "921908844",
+        "security_class": "ETF",
+        "issuer": "VANGUARD DIVIDEND APPRECIATION ETF",
+        "shares": 11599.0,
+        "value_usd": 2920734.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "46138E354",
+        "security_class": "ETF",
+        "issuer": "INVESCO S&P 500 LOW VOLATILITY ETF",
+        "shares": 33656.0,
+        "value_usd": 2639977.0,
+        "weight_pct": 2.42
       }
     ],
-    "top_five_pct": 32.77,
-    "top_ten_pct": 45.42,
-    "hhi": 382.44,
-    "changes": null,
+    "top_five_pct": 34.94,
+    "top_ten_pct": 48.57,
+    "hhi": 447.39,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 10,
+      "increased_positions": 2,
+      "reduced_positions": 69
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001821407-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001821407-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 122124854.0,
+  "reported_13f_value_usd": 109161422.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001821407-26-000004",
+  "validated_accession": "0001821407-26-000006",
   "annualized_turnover_proxy_pct": null
 }

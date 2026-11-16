@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001532943",
   "investor_name": "Palogic Value Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-09-09",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1532943/0001214659-25-016499.txt",
-    "https://www.sec.gov/Archives/edgar/data/1532943/0001214659-26-011519.txt"
+    "https://www.sec.gov/Archives/edgar/data/1532943/0001214659-26-011519.txt",
+    "https://www.sec.gov/Archives/edgar/data/1532943/0001532943-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "70de6595f556c8d7a157c924444ce688e409a00a3befffa38541256fbfab9a4d",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "7b422be6134a5827b0f348bd60b61642be617fc6b37902276d703e2048029cb7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-09-09|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1dec8048314b651d58b6dd3786c3a2fb24853f68",
+    "55ee16b017be92130d378ac7a6bcc083f2e4bc7e",
+    "fdb69b8b4024438d09695f60729d0ff909b51226"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-09-09",
-    "accession": "0001214659-26-011519",
-    "source": "https://www.sec.gov/Archives/edgar/data/1532943/0001214659-26-011519.txt",
-    "distinct_positions": 180,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001532943-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1532943/0001532943-26-000005.txt",
+    "distinct_positions": 172,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 556310262.0,
+    "reported_long_equity_value_usd": 288776734.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 185752.0,
-        "value_usd": 53747748.0,
-        "weight_pct": 9.66
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 66110.0,
-        "value_usd": 23358646.0,
-        "weight_pct": 4.2
+        "shares": 77459.0,
+        "value_usd": 25795396.0,
+        "weight_pct": 8.93
       },
       {
         "cusip": "78468R663",
         "security_class": "ST STR BLO 1 ETF",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 249072.0,
-        "value_usd": 22824958.0,
-        "weight_pct": 4.1
+        "shares": 130483.0,
+        "value_usd": 11957462.0,
+        "weight_pct": 4.14
       },
       {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 55872.0,
-        "value_usd": 21105648.0,
-        "weight_pct": 3.79
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 150000.0,
+        "value_usd": 11667000.0,
+        "weight_pct": 4.04
       },
       {
-        "cusip": "42225T107",
-        "security_class": "COM",
-        "issuer": "HEALTH CATALYST INC",
-        "shares": 9844884.0,
-        "value_usd": 19591318.0,
-        "weight_pct": 3.52
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 32987.0,
+        "value_usd": 11239990.0,
+        "weight_pct": 3.89
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 42182.0,
-        "value_usd": 15733510.0,
-        "weight_pct": 2.83
+        "shares": 21091.0,
+        "value_usd": 10817574.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 27684.0,
+        "value_usd": 9722344.0,
+        "weight_pct": 3.37
+      },
+      {
+        "cusip": "42225T107",
+        "security_class": "COM",
+        "issuer": "HEALTH CATALYST INC",
+        "shares": 5374949.0,
+        "value_usd": 9298662.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 45522.0,
+        "value_usd": 7408706.0,
+        "weight_pct": 2.57
       },
       {
         "cusip": "78467V608",
         "security_class": "ST STR BL LN ETF",
         "issuer": "SSGA ACTIVE ETF TR",
-        "shares": 326322.0,
-        "value_usd": 13145080.0,
-        "weight_pct": 2.36
+        "shares": 163713.0,
+        "value_usd": 6613220.0,
+        "weight_pct": 2.29
       },
       {
         "cusip": "088606108",
         "security_class": "SPONSORED ADS",
         "issuer": "BHP BILLITON LIMITED",
-        "shares": 155700.0,
-        "value_usd": 12971368.0,
-        "weight_pct": 2.33
-      },
-      {
-        "cusip": "30231G102",
-        "security_class": "COM",
-        "issuer": "EXXON MOBIL CORP",
-        "shares": 92758.0,
-        "value_usd": 12681874.0,
-        "weight_pct": 2.28
-      },
-      {
-        "cusip": "00287Y109",
-        "security_class": "COM",
-        "issuer": "ABBVIE INC",
-        "shares": 37010.0,
-        "value_usd": 9313196.0,
-        "weight_pct": 1.67
+        "shares": 77264.0,
+        "value_usd": 6555078.0,
+        "weight_pct": 2.27
       }
     ],
-    "top_five_pct": 25.28,
-    "top_ten_pct": 36.76,
-    "hhi": 222.57,
+    "top_five_pct": 24.75,
+    "top_ten_pct": 38.46,
+    "hhi": 221.02,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 66,
-      "exited_positions": 35,
-      "increased_positions": 110,
-      "reduced_positions": 4
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 28,
+      "increased_positions": 8,
+      "reduced_positions": 142
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-09-09",
         "accession": "0001214659-26-011519"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001532943-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 556310262.0,
+  "reported_13f_value_usd": 288776734.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-011519",
+  "validated_accession": "0001532943-26-000005",
   "annualized_turnover_proxy_pct": null
 }

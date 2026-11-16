@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001609074",
   "investor_name": "HAWK RIDGE CAPITAL MANAGEMENT LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOS ANGELES",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1609074/0001892688-25-000198.txt",
-    "https://www.sec.gov/Archives/edgar/data/1609074/0001892688-26-000129.txt"
+    "https://www.sec.gov/Archives/edgar/data/1609074/0001892688-26-000129.txt",
+    "https://www.sec.gov/Archives/edgar/data/1609074/0001892688-26-000181.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e9d0b7801d9bde8ec2974a5e8dd34e976651bdc5b3d421369c890ad79155bb58",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "f35b41a3f9d0d7e987b3f464216208804585b31ea1a46bb6dd4c299918ee49da",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "381fbfc42c2757585063abdfc4a854670b32d27e",
+    "6a3a3d999c3ec0e4880b82a25ea01f48ff6efbe0",
+    "9323a470af3e394992126541481f68a16b66f3b5"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001892688-26-000129",
-    "source": "https://www.sec.gov/Archives/edgar/data/1609074/0001892688-26-000129.txt",
-    "distinct_positions": 43,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001892688-26-000181",
+    "source": "https://www.sec.gov/Archives/edgar/data/1609074/0001892688-26-000181.txt",
+    "distinct_positions": 38,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3058059031.0,
+    "reported_long_equity_value_usd": 2519041159.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "SPONSORED ADR",
         "issuer": "SILICON MOTION TECHNOLOGY CO",
         "shares": 1015215.0,
-        "value_usd": 338401616.0,
-        "weight_pct": 11.07
+        "value_usd": 284260200.0,
+        "weight_pct": 11.28
       },
       {
         "cusip": "74935Q107",
         "security_class": "COM",
         "issuer": "RB GLOBAL INC",
-        "shares": 1952874.0,
-        "value_usd": 227412177.0,
-        "weight_pct": 7.44
-      },
-      {
-        "cusip": "48238T109",
-        "security_class": "COM",
-        "issuer": "OPENLANE INC",
-        "shares": 4967144.0,
-        "value_usd": 204845019.0,
-        "weight_pct": 6.7
-      },
-      {
-        "cusip": "92343E102",
-        "security_class": "COM",
-        "issuer": "VERISIGN INC",
-        "shares": 798295.0,
-        "value_usd": 200819090.0,
-        "weight_pct": 6.57
-      },
-      {
-        "cusip": "219948106",
-        "security_class": "COM SHS",
-        "issuer": "CORPAY INC",
-        "shares": 551756.0,
-        "value_usd": 183883722.0,
-        "weight_pct": 6.01
-      },
-      {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 159320.0,
-        "value_usd": 153743800.0,
-        "weight_pct": 5.03
-      },
-      {
-        "cusip": "143130102",
-        "security_class": "COM",
-        "issuer": "CARMAX INC",
-        "shares": 2834458.0,
-        "value_usd": 149914484.0,
-        "weight_pct": 4.9
+        "shares": 1987074.0,
+        "value_usd": 161727953.0,
+        "weight_pct": 6.42
       },
       {
         "cusip": "G0176J109",
         "security_class": "ORD SHS",
         "issuer": "ALLEGION PLC",
         "shares": 1017907.0,
-        "value_usd": 143005754.0,
-        "weight_pct": 4.68
+        "value_usd": 156523559.0,
+        "weight_pct": 6.21
       },
       {
-        "cusip": "980745103",
+        "cusip": "48238T109",
         "security_class": "COM",
-        "issuer": "WOODWARD INC",
-        "shares": 323629.0,
-        "value_usd": 137684722.0,
-        "weight_pct": 4.5
+        "issuer": "OPENLANE INC",
+        "shares": 4349026.0,
+        "value_usd": 148432257.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "219948106",
+        "security_class": "COM SHS",
+        "issuer": "CORPAY INC",
+        "shares": 350956.0,
+        "value_usd": 136381502.0,
+        "weight_pct": 5.41
       },
       {
         "cusip": "573284106",
         "security_class": "COM",
         "issuer": "MARTIN MARIETTA MATLS INC",
-        "shares": 238655.0,
-        "value_usd": 137632339.0,
-        "weight_pct": 4.5
+        "shares": 265575.0,
+        "value_usd": 127425541.0,
+        "weight_pct": 5.06
+      },
+      {
+        "cusip": "81762P102",
+        "security_class": "COM",
+        "issuer": "SERVICENOW INC",
+        "shares": 945381.0,
+        "value_usd": 126690508.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "92047W101",
+        "security_class": "COM",
+        "issuer": "VALVOLINE INC",
+        "shares": 3983666.0,
+        "value_usd": 120067693.0,
+        "weight_pct": 4.77
+      },
+      {
+        "cusip": "296315104",
+        "security_class": "COM",
+        "issuer": "ESCO TECHNOLOGIES INC",
+        "shares": 425380.0,
+        "value_usd": 112772492.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "42824C109",
+        "security_class": "COM",
+        "issuer": "HEWLETT PACKARD ENTERPRISE C",
+        "shares": 1735000.0,
+        "value_usd": 110849150.0,
+        "weight_pct": 4.4
       }
     ],
-    "top_five_pct": 37.78,
-    "top_ten_pct": 61.39,
-    "hhi": 502.08,
+    "top_five_pct": 35.22,
+    "top_ten_pct": 58.96,
+    "hhi": 488.31,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 18,
-      "exited_positions": 19,
-      "increased_positions": 11,
-      "reduced_positions": 13
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 17,
+      "increased_positions": 10,
+      "reduced_positions": 12
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001892688-26-000129"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001892688-26-000181"
       }
     ]
   },
-  "reported_13f_value_usd": 3058059031.0,
+  "reported_13f_value_usd": 2519041159.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001892688-26-000129",
+  "validated_accession": "0001892688-26-000181",
   "annualized_turnover_proxy_pct": null
 }

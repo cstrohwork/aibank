@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001320168",
   "investor_name": "AMERICAN CAPITAL MANAGEMENT INC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1320168/0001104659-25-112700.txt",
-    "https://www.sec.gov/Archives/edgar/data/1320168/0001104659-26-097334.txt"
+    "https://www.sec.gov/Archives/edgar/data/1320168/0001104659-26-097334.txt",
+    "https://www.sec.gov/Archives/edgar/data/1320168/0001104659-26-128198.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "fe11a08cc99da1c8f85df273b9a504080d4b58343a371a68888990348f58e779",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "10672c85daafceaf1e6fe630806bd0b54bc25c706fbf38daf19970ec428263ec",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6c930691284f3b3058664fba8a78aa56e6fc33b5",
+    "7453daf266209eee3d91ac4d8447771e6872f864",
+    "fc8f44e8e1b427ef143de2eed8d7466ebddd343c"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-097334",
-    "source": "https://www.sec.gov/Archives/edgar/data/1320168/0001104659-26-097334.txt",
-    "distinct_positions": 80,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128198",
+    "source": "https://www.sec.gov/Archives/edgar/data/1320168/0001104659-26-128198.txt",
+    "distinct_positions": 84,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2230305912.0,
+    "reported_long_equity_value_usd": 1910012390.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "697435105",
         "security_class": "COM",
         "issuer": "PALO ALTO NETWORKS INC",
-        "shares": 572934.0,
-        "value_usd": 195381953.0,
-        "weight_pct": 8.76
-      },
-      {
-        "cusip": "34959E109",
-        "security_class": "COM",
-        "issuer": "FORTINET INC",
-        "shares": 729885.0,
-        "value_usd": 112124934.0,
-        "weight_pct": 5.03
+        "shares": 425051.0,
+        "value_usd": 168877013.0,
+        "weight_pct": 8.84
       },
       {
         "cusip": "58506Q109",
         "security_class": "COM",
         "issuer": "MEDPACE HOLDINGS INC",
-        "shares": 210217.0,
-        "value_usd": 111328821.0,
-        "weight_pct": 4.99
+        "shares": 178578.0,
+        "value_usd": 111464816.0,
+        "weight_pct": 5.84
       },
       {
-        "cusip": "922280102",
+        "cusip": "34959E109",
         "security_class": "COM",
-        "issuer": "VARONIS SYSTEMS INC",
-        "shares": 2241704.0,
-        "value_usd": 94061900.0,
-        "weight_pct": 4.22
-      },
-      {
-        "cusip": "75524B104",
-        "security_class": "COM",
-        "issuer": "RBC BEARINGS INC",
-        "shares": 143737.0,
-        "value_usd": 92575252.0,
-        "weight_pct": 4.15
-      },
-      {
-        "cusip": "45168D104",
-        "security_class": "COM",
-        "issuer": "IDEXX LABORATORIES INC",
-        "shares": 162110.0,
-        "value_usd": 85341188.0,
-        "weight_pct": 3.83
+        "issuer": "FORTINET INC",
+        "shares": 620043.0,
+        "value_usd": 110838887.0,
+        "weight_pct": 5.8
       },
       {
         "cusip": "63947X101",
         "security_class": "COM",
         "issuer": "NCINO INC",
-        "shares": 5107539.0,
-        "value_usd": 83508263.0,
-        "weight_pct": 3.74
+        "shares": 4524912.0,
+        "value_usd": 82036655.0,
+        "weight_pct": 4.3
+      },
+      {
+        "cusip": "922280102",
+        "security_class": "COM",
+        "issuer": "VARONIS SYSTEMS INC",
+        "shares": 1713015.0,
+        "value_usd": 81282562.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "45168D104",
+        "security_class": "COM",
+        "issuer": "IDEXX LABORATORIES INC",
+        "shares": 138165.0,
+        "value_usd": 72148381.0,
+        "weight_pct": 3.78
       },
       {
         "cusip": "008073108",
         "security_class": "COM",
         "issuer": "AEROVIRONMENT INC",
-        "shares": 422518.0,
-        "value_usd": 69745046.0,
-        "weight_pct": 3.13
+        "shares": 450859.0,
+        "value_usd": 64121167.0,
+        "weight_pct": 3.36
       },
       {
-        "cusip": "09073M104",
+        "cusip": "268150109",
         "security_class": "COM",
-        "issuer": "BIO-TECHNE CORP",
-        "shares": 973789.0,
-        "value_usd": 68798193.0,
-        "weight_pct": 3.08
+        "issuer": "DYNATRACE INC",
+        "shares": 1077339.0,
+        "value_usd": 62205554.0,
+        "weight_pct": 3.26
       },
       {
         "cusip": "784117103",
         "security_class": "COM",
         "issuer": "SEI INVESTMENTS COMPANY",
-        "shares": 745323.0,
-        "value_usd": 65372280.0,
-        "weight_pct": 2.93
+        "shares": 591924.0,
+        "value_usd": 60766918.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "562750109",
+        "security_class": "COM",
+        "issuer": "MANHATTAN ASSOCIATES INC",
+        "shares": 301985.0,
+        "value_usd": 60004420.0,
+        "weight_pct": 3.14
       }
     ],
-    "top_five_pct": 27.15,
-    "top_ten_pct": 43.86,
-    "hhi": 317.35,
+    "top_five_pct": 29.03,
+    "top_ten_pct": 45.75,
+    "hhi": 328.77,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 5,
-      "increased_positions": 23,
-      "reduced_positions": 32
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 0,
+      "increased_positions": 6,
+      "reduced_positions": 57
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-097334"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128198"
       }
     ]
   },
-  "reported_13f_value_usd": 2230305912.0,
+  "reported_13f_value_usd": 1910012390.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-097334",
+  "validated_accession": "0001104659-26-128198",
   "annualized_turnover_proxy_pct": null
 }

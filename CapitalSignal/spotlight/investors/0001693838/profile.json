@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001693838",
   "investor_name": "Ursa Fund Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Danville",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1693838/0001693838-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1693838/0001693838-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1693838/0001693838-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1693838/0001693838-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "291a75a25cfdd902f34adaf847fd1174539523c35307b4caf76066740d3f18c7",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "dca4fe1d83c135b11ce3e6f0dab612dc2419d20d19a7692f072850bcd135a95c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0d2d010b31d30af4c7fbf62e0bd44df57ea6bafc",
+    "752e303575ec6d1bfbb83bba59e803855e1d1f85",
+    "bb6f995f4d6de6460edb406c78a2a2417a81b6d9"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001693838-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1693838/0001693838-26-000004.txt",
-    "distinct_positions": 20,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001693838-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1693838/0001693838-26-000006.txt",
+    "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 610473313.0,
+    "reported_long_equity_value_usd": 433364215.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 550000.0,
-        "value_usd": 205161000.0,
-        "weight_pct": 33.61
+        "cusip": "G5960L103",
+        "security_class": "SHS",
+        "issuer": "MEDTRONIC PLC",
+        "shares": 4018200.0,
+        "value_usd": 346730478.0,
+        "weight_pct": 80.01
       },
       {
-        "cusip": "595112103",
+        "cusip": "864159108",
         "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 125000.0,
-        "value_usd": 144286250.0,
-        "weight_pct": 23.64
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 300000.0,
-        "value_usd": 126180000.0,
-        "weight_pct": 20.67
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 150000.0,
-        "value_usd": 35751000.0,
-        "weight_pct": 5.86
+        "issuer": "STURM RUGER & CO INC",
+        "shares": 743886.0,
+        "value_usd": 31600277.0,
+        "weight_pct": 7.29
       },
       {
         "cusip": "362397101",
         "security_class": "COM",
         "issuer": "GABELLI EQUITY TR INC",
-        "shares": 5555196.0,
-        "value_usd": 31442409.0,
-        "weight_pct": 5.15
+        "shares": 4592899.0,
+        "value_usd": 24066791.0,
+        "weight_pct": 5.55
       },
       {
-        "cusip": "197641103",
+        "cusip": "60365F109",
         "security_class": "COM",
-        "issuer": "COLUMBIA FINL INC",
-        "shares": 1275888.0,
-        "value_usd": 27074343.0,
-        "weight_pct": 4.43
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 100000.0,
-        "value_usd": 20009000.0,
-        "weight_pct": 3.28
-      },
-      {
-        "cusip": "29415C101",
-        "security_class": "COM CL A",
-        "issuer": "EOS ENERGY ENTERPRISES INC",
-        "shares": 1235459.0,
-        "value_usd": 7264499.0,
-        "weight_pct": 1.19
-      },
-      {
-        "cusip": "66611T108",
-        "security_class": "COM",
-        "issuer": "NORTHFIELD BANCORP INC DEL",
-        "shares": 400000.0,
-        "value_usd": 5892000.0,
-        "weight_pct": 0.97
+        "issuer": "MINIMED GROUP INC",
+        "shares": 330000.0,
+        "value_usd": 6425100.0,
+        "weight_pct": 1.48
       },
       {
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
-        "shares": 74400.0,
-        "value_usd": 2476776.0,
-        "weight_pct": 0.41
+        "shares": 80000.0,
+        "value_usd": 3787200.0,
+        "weight_pct": 0.87
+      },
+      {
+        "cusip": "197914104",
+        "security_class": "COM SHS",
+        "issuer": "COLUMBIA FINL INC",
+        "shares": 300000.0,
+        "value_usd": 3318000.0,
+        "weight_pct": 0.77
+      },
+      {
+        "cusip": "44891N208",
+        "security_class": "COM NEW",
+        "issuer": "PEOPLE INC",
+        "shares": 75000.0,
+        "value_usd": 3147000.0,
+        "weight_pct": 0.73
+      },
+      {
+        "cusip": "55825T103",
+        "security_class": "CL A",
+        "issuer": "MADISON SQUARE GRDN SPRT COR",
+        "shares": 7500.0,
+        "value_usd": 3039075.0,
+        "weight_pct": 0.7
+      },
+      {
+        "cusip": "37954Y848",
+        "security_class": "GLOBAL X SILVER",
+        "issuer": "GLOBAL X FDS",
+        "shares": 28000.0,
+        "value_usd": 2408280.0,
+        "weight_pct": 0.56
+      },
+      {
+        "cusip": "21924B302",
+        "security_class": "COM",
+        "issuer": "CORNERSTONE STRATEGIC INVEST",
+        "shares": 374986.0,
+        "value_usd": 2399910.0,
+        "weight_pct": 0.55
       }
     ],
-    "top_five_pct": 88.92,
-    "top_ten_pct": 99.19,
-    "hhi": 2209.19,
+    "top_five_pct": 95.21,
+    "top_ten_pct": 98.51,
+    "hhi": 6491.07,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 7,
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 18,
       "increased_positions": 1,
-      "reduced_positions": 3
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001693838-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001693838-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 610473313.0,
+  "reported_13f_value_usd": 433364215.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001693838-26-000004",
+  "validated_accession": "0001693838-26-000006",
   "annualized_turnover_proxy_pct": null
 }

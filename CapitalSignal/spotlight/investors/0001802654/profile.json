@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001802654",
   "investor_name": "Aberdeen Wealth Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LAKE BLUFF",
   "state": "IL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1802654/0001398344-25-020978.txt",
-    "https://www.sec.gov/Archives/edgar/data/1802654/0001398344-26-014393.txt"
+    "https://www.sec.gov/Archives/edgar/data/1802654/0001398344-26-014393.txt",
+    "https://www.sec.gov/Archives/edgar/data/1802654/0001398344-26-020169.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d6ba7a1020727f1cb46a7bb0e03592f305dd3577f8a7170840911b3fc263ae32",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "145332897b74ef17f21731d4b58e59ba23dcdb9ed2f909552d64a845b355ec59",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "01f6288d2a23de343c837b575f2557380638f78d",
+    "27746c72a0388c9d3b7a75025c5557979fd9c016",
+    "6c613fba62d292e5e24296637211ef52e05304ec"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001398344-26-014393",
-    "source": "https://www.sec.gov/Archives/edgar/data/1802654/0001398344-26-014393.txt",
-    "distinct_positions": 427,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001398344-26-020169",
+    "source": "https://www.sec.gov/Archives/edgar/data/1802654/0001398344-26-020169.txt",
+    "distinct_positions": 183,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 208348883.0,
+    "reported_long_equity_value_usd": 254728427.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 149495.0,
-        "value_usd": 55319415.0,
-        "weight_pct": 26.55
+        "shares": 153753.0,
+        "value_usd": 57540491.0,
+        "weight_pct": 22.59
       },
       {
         "cusip": "921908844",
         "security_class": "DIV APP ETF",
         "issuer": "VANGUARD SPECIALIZED FUNDS",
-        "shares": 62952.0,
-        "value_usd": 14895715.0,
-        "weight_pct": 7.15
+        "shares": 76767.0,
+        "value_usd": 17910552.0,
+        "weight_pct": 7.03
       },
       {
         "cusip": "921932844",
         "security_class": "MIDCP 400 VAL",
         "issuer": "VANGUARD ADMIRAL FDS INC",
-        "shares": 92669.0,
-        "value_usd": 10570800.0,
-        "weight_pct": 5.07
+        "shares": 117209.0,
+        "value_usd": 12527334.0,
+        "weight_pct": 4.92
       },
       {
         "cusip": "808524771",
         "security_class": "FUNDAMENTAL US L",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 240514.0,
-        "value_usd": 7479989.0,
-        "weight_pct": 3.59
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 7110.0,
-        "value_usd": 5140516.0,
-        "weight_pct": 2.47
+        "shares": 375243.0,
+        "value_usd": 11808893.0,
+        "weight_pct": 4.64
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 14527.0,
-        "value_usd": 4203584.0,
-        "weight_pct": 2.02
+        "shares": 22501.0,
+        "value_usd": 7493388.0,
+        "weight_pct": 2.94
       },
       {
-        "cusip": "922042718",
-        "security_class": "FTSE SMCAP ETF",
-        "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 23136.0,
-        "value_usd": 3569527.0,
-        "weight_pct": 1.71
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 11031.0,
+        "value_usd": 5657557.0,
+        "weight_pct": 2.22
       },
       {
-        "cusip": "921909768",
-        "security_class": "VG TL INTL STK F",
-        "issuer": "VANGUARD STAR FDS",
-        "shares": 38932.0,
-        "value_usd": 3328291.0,
-        "weight_pct": 1.6
-      },
-      {
-        "cusip": "084670702",
-        "security_class": "CL B NEW",
-        "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 6216.0,
-        "value_usd": 3082991.0,
-        "weight_pct": 1.48
+        "cusip": "038169207",
+        "security_class": "COM NEW",
+        "issuer": "APPLIED DIGITAL CORP",
+        "shares": 10327.0,
+        "value_usd": 5256498.0,
+        "weight_pct": 2.06
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 8367.0,
-        "value_usd": 2990117.0,
-        "weight_pct": 1.44
+        "shares": 14104.0,
+        "value_usd": 4852904.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 14667.0,
+        "value_usd": 4852284.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 18255.0,
+        "value_usd": 4169077.0,
+        "weight_pct": 1.64
       }
     ],
-    "top_five_pct": 44.83,
-    "top_ten_pct": 53.07,
-    "hhi": 838.01,
+    "top_five_pct": 42.12,
+    "top_ten_pct": 51.85,
+    "hhi": 661.4,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 274,
-      "exited_positions": 12,
-      "increased_positions": 7,
-      "reduced_positions": 130
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 262,
+      "increased_positions": 138,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001398344-26-014393"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001398344-26-020169"
       }
     ]
   },
-  "reported_13f_value_usd": 208348883.0,
+  "reported_13f_value_usd": 254728427.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001398344-26-014393",
+  "validated_accession": "0001398344-26-020169",
   "annualized_turnover_proxy_pct": null
 }

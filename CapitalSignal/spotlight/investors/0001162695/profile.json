@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001162695",
   "investor_name": "MCMORGAN & CO LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1162695/0001162695-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1162695/0001162695-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1162695/0001162695-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1162695/0001162695-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9d5248bafc1ce83d3fc7f9db6b91685d05d04403a3a33ad3abe59e3744afe469",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "2bf596bf1492b172a48592323163d9db0b141c210d255d008ef5ae008a530934",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0ac1e2d0ab470254b92325fbde4c32bc19c35bd9",
+    "24cabf2eaf7795ae85dd32951fd5bb037275e889",
+    "69e2009cd801300e13e127ae66ae8054a145544c"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001162695-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1162695/0001162695-26-000003.txt",
-    "distinct_positions": 37,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001162695-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1162695/0001162695-26-000005.txt",
+    "distinct_positions": 34,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 664035927.0,
+    "reported_long_equity_value_usd": 485522908.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "921937835",
         "security_class": "TOTAL BND MRKT",
         "issuer": "VANGUARD BD INDEX FDS",
-        "shares": 1955898.0,
-        "value_usd": 143582481.0,
-        "weight_pct": 21.62
+        "shares": 1522408.0,
+        "value_usd": 106796968.0,
+        "weight_pct": 22.0
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 120533.0,
-        "value_usd": 82783272.0,
-        "weight_pct": 12.47
+        "shares": 96133.0,
+        "value_usd": 67376112.0,
+        "weight_pct": 13.88
       },
       {
         "cusip": "46434V613",
         "security_class": "CORE TOTAL USD",
         "issuer": "ISHARES TR",
-        "shares": 1099343.0,
-        "value_usd": 50734687.0,
-        "weight_pct": 7.64
+        "shares": 1056382.0,
+        "value_usd": 46575893.0,
+        "weight_pct": 9.59
+      },
+      {
+        "cusip": "09290C665",
+        "security_class": "ISHA SYST AL ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 1229346.0,
+        "value_usd": 36708272.0,
+        "weight_pct": 7.56
       },
       {
         "cusip": "09290C103",
         "security_class": "US EQT FACTOR",
         "issuer": "BLACKROCK ETF TRUST",
-        "shares": 600654.0,
-        "value_usd": 40850489.0,
-        "weight_pct": 6.15
-      },
-      {
-        "cusip": "78464A664",
-        "security_class": "PORTFOLIO LN TSR",
-        "issuer": "SPDR SER TR",
-        "shares": 1504389.0,
-        "value_usd": 39460132.0,
-        "weight_pct": 5.94
+        "shares": 390329.0,
+        "value_usd": 27034218.0,
+        "weight_pct": 5.57
       },
       {
         "cusip": "09290C764",
         "security_class": "ISHARES INTL CTR",
         "issuer": "BLACKROCK ETF TRUST",
-        "shares": 1006205.0,
-        "value_usd": 36827103.0,
+        "shares": 740699.0,
+        "value_usd": 26924439.0,
         "weight_pct": 5.55
       },
       {
-        "cusip": "46641Q837",
-        "security_class": "ULTRA SHRT INC",
-        "issuer": "J P MORGAN EXCHANGE TRADED",
-        "shares": 668362.0,
-        "value_usd": 33799089.0,
-        "weight_pct": 5.09
-      },
-      {
-        "cusip": "921943858",
-        "security_class": "VAN FTSE DEV MKT",
-        "issuer": "VANGUARD TAX-MANAGED FDS",
-        "shares": 450130.0,
-        "value_usd": 32071767.0,
-        "weight_pct": 4.83
-      },
-      {
-        "cusip": "464287309",
-        "security_class": "S&P 500 GRWT ETF",
-        "issuer": "ISHARES TR",
-        "shares": 186940.0,
-        "value_usd": 25709924.0,
-        "weight_pct": 3.87
+        "cusip": "78464A664",
+        "security_class": "PORTFOLIO LN TSR",
+        "issuer": "SPDR SER TR",
+        "shares": 1058184.0,
+        "value_usd": 25237702.0,
+        "weight_pct": 5.2
       },
       {
         "cusip": "46432F339",
         "security_class": "MSCI USA QLT FCT",
         "issuer": "ISHARES TR",
-        "shares": 111785.0,
-        "value_usd": 24529174.0,
-        "weight_pct": 3.69
+        "shares": 80850.0,
+        "value_usd": 17968304.0,
+        "weight_pct": 3.7
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 246486.0,
+        "value_usd": 17404425.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "092528603",
+        "security_class": "FLEXIBLE INCOME",
+        "issuer": "BLACKROCK ETF TRUST II",
+        "shares": 319250.0,
+        "value_usd": 16214743.0,
+        "weight_pct": 3.34
       }
     ],
-    "top_five_pct": 53.82,
-    "top_ten_pct": 76.86,
-    "hhi": 917.31,
+    "top_five_pct": 58.59,
+    "top_ten_pct": 79.96,
+    "hhi": 997.92,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 3,
-      "exited_positions": 25,
-      "increased_positions": 8,
-      "reduced_positions": 26
+      "exited_positions": 6,
+      "increased_positions": 1,
+      "reduced_positions": 20
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001162695-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001162695-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 664035927.0,
+  "reported_13f_value_usd": 485522908.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001162695-26-000003",
+  "validated_accession": "0001162695-26-000005",
   "annualized_turnover_proxy_pct": null
 }

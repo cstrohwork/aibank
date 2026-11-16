@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000035442",
   "investor_name": "Fiduciary Trust Co",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Boston",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/35442/0001140361-25-042195.txt",
-    "https://www.sec.gov/Archives/edgar/data/35442/0001140361-26-032703.txt"
+    "https://www.sec.gov/Archives/edgar/data/35442/0001140361-26-032703.txt",
+    "https://www.sec.gov/Archives/edgar/data/35442/0001140361-26-044174.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8deab8bbed167af523212a98cab54f3711dc1f09545696f36e417158dddcda7c",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "5b26206675675142407479dee02c7749e69dc428d9f1e47de54f9126803734fe",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4ef975548fb06d3d4f60b5896842d8ab13e6e83d",
+    "b288665f3936035b6ecbd07f4d7a8f485e690f88",
+    "fd8b6792d27e0cbb6f579f7fcbd44fe7f5a933ea"
+  ],
+  "generated_at": "2026-11-16T21:46:23.837192+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001140361-26-032703",
-    "source": "https://www.sec.gov/Archives/edgar/data/35442/0001140361-26-032703.txt",
-    "distinct_positions": 892,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001140361-26-044174",
+    "source": "https://www.sec.gov/Archives/edgar/data/35442/0001140361-26-044174.txt",
+    "distinct_positions": 864,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 9194272367.0,
+    "reported_long_equity_value_usd": 9081937139.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 1507059.0,
-        "value_usd": 1128621377.0,
-        "weight_pct": 12.28
+        "shares": 1514794.0,
+        "value_usd": 1160104841.0,
+        "weight_pct": 12.77
       },
       {
         "cusip": "084670108",
         "security_class": "CL A",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
         "shares": 643.0,
-        "value_usd": 481510550.0,
-        "weight_pct": 5.24
-      },
-      {
-        "cusip": "46432F842",
-        "security_class": "CORE MSCI EAFE",
-        "issuer": "ISHARES TR",
-        "shares": 4567544.0,
-        "value_usd": 441133405.0,
-        "weight_pct": 4.8
-      },
-      {
-        "cusip": "872540109",
-        "security_class": "COM",
-        "issuer": "TJX COS INC NEW",
-        "shares": 2832738.0,
-        "value_usd": 429159807.0,
-        "weight_pct": 4.67
+        "value_usd": 480324215.0,
+        "weight_pct": 5.29
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 1409277.0,
-        "value_usd": 407788436.0,
-        "weight_pct": 4.44
+        "shares": 1406085.0,
+        "value_usd": 468254277.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 4595957.0,
+        "value_usd": 445256320.0,
+        "weight_pct": 4.9
+      },
+      {
+        "cusip": "872540109",
+        "security_class": "COM",
+        "issuer": "TJX COS INC NEW",
+        "shares": 2827835.0,
+        "value_usd": 374150885.0,
+        "weight_pct": 4.12
       },
       {
         "cusip": "921943858",
         "security_class": "VAN FTSE DEV MKT",
         "issuer": "VANGUARD TAX-MANAGED FDS",
-        "shares": 4756065.0,
-        "value_usd": 338869631.0,
-        "weight_pct": 3.69
+        "shares": 4681290.0,
+        "value_usd": 330545887.0,
+        "weight_pct": 3.64
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 638426.0,
-        "value_usd": 238145655.0,
-        "weight_pct": 2.59
+        "shares": 625088.0,
+        "value_usd": 320607723.0,
+        "weight_pct": 3.53
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 656486.0,
-        "value_usd": 234608394.0,
-        "weight_pct": 2.55
+        "shares": 645000.0,
+        "value_usd": 221931455.0,
+        "weight_pct": 2.44
       },
       {
-        "cusip": "22266T109",
-        "security_class": "CL A",
-        "issuer": "COUPANG INC",
-        "shares": 11409025.0,
-        "value_usd": 198174764.0,
-        "weight_pct": 2.16
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 714031.0,
+        "value_usd": 163070473.0,
+        "weight_pct": 1.8
       },
       {
         "cusip": "33739Q804",
         "security_class": "ENERGY INM PARTN",
         "issuer": "FIRST TR EXCHANGE-TRADED FD",
-        "shares": 4912761.0,
-        "value_usd": 153769427.0,
-        "weight_pct": 1.67
+        "shares": 4823080.0,
+        "value_usd": 150817719.0,
+        "weight_pct": 1.66
       }
     ],
-    "top_five_pct": 31.41,
-    "top_ten_pct": 44.07,
-    "hhi": 309.08,
+    "top_five_pct": 32.24,
+    "top_ten_pct": 45.31,
+    "hhi": 328.07,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 253,
-      "exited_positions": 208,
-      "increased_positions": 192,
-      "reduced_positions": 418
+      "previous_period": "2026-06-30",
+      "new_positions": 54,
+      "exited_positions": 82,
+      "increased_positions": 299,
+      "reduced_positions": 417
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001140361-26-032703"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001140361-26-044174"
       }
     ]
   },
-  "reported_13f_value_usd": 9194272367.0,
+  "reported_13f_value_usd": 9081937139.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001140361-26-032703",
+  "validated_accession": "0001140361-26-044174",
   "annualized_turnover_proxy_pct": null
 }
