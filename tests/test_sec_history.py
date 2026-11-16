@@ -23,6 +23,44 @@ class HistoryTests(unittest.TestCase):
         import datetime
         self.assertEqual(list(history.quarters('2025-09-30', datetime.date(2026, 1, 1))), [(2025, 3), (2025, 4), (2026, 1)])
 
+    def test_quarter_tracker_distinguishes_catalogue_archive_and_investor_counts(self):
+        rows = [
+            {'accession': 'a', 'filing_date': '2026-07-01', 'form': '13F-HR'},
+            {'accession': 'b', 'filing_date': '2026-08-15', 'form': '8-K'},
+            {'accession': 'c', 'filing_date': '2026-09-30', 'form': 'NPORT-P'},
+            {'accession': 'd', 'filing_date': '2026-10-01', 'form': '13F-HR'},
+        ]
+        state = {
+            'a': {'status': 'archived'},
+            'b': {'status': 'failed'},
+            'c': {'status': 'deferred'},
+            'd': {'status': 'archived', 'normalization_error': 'fixture error'},
+        }
+        tracker = history.filing_quarter_tracker(rows, state, '2026-07-01', '2026-11-16')
+        q4, q3 = tracker['quarters']
+        self.assertEqual(q3['quarter'], '2026Q3')
+        self.assertEqual(q3['window_status'], 'complete_calendar_quarter')
+        self.assertEqual((q3['catalogued'], q3['archived'], q3['remaining_not_archived']), (3, 1, 2))
+        self.assertEqual((q3['waiting'], q3['failed'], q3['deferred']), (0, 1, 1))
+        self.assertEqual(q3['investor_forms']['discovered'], 2)
+        self.assertEqual(q3['investor_forms']['archived'], 1)
+        self.assertEqual(q3['position_forms_parsed'], 1)
+        self.assertEqual(q4['window_status'], 'partial_current_quarter')
+        self.assertEqual(q4['normalization_errors'], 1)
+        self.assertIn('does not prove document download', tracker['basis'])
+
+    def test_quarter_tracker_labels_partial_coverage_start(self):
+        tracker = history.filing_quarter_tracker([], {}, '2025-09-30', '2025-12-31')
+        self.assertEqual(tracker['quarters'][1]['quarter'], '2025Q3')
+        self.assertEqual(tracker['quarters'][1]['covered_start'], '2025-09-30')
+        self.assertEqual(tracker['quarters'][1]['window_status'], 'partial_start_quarter')
+
+    def test_worker_dashboard_renders_quarter_tracker_disclaimers(self):
+        page = (pathlib.Path(__file__).resolve().parents[1] / 'workerdashboard' / 'index.html').read_text()
+        self.assertIn('id="quarterTrackerRows"', page)
+        self.assertIn('function renderQuarterTracker(d)', page)
+        self.assertIn('Catalogue membership is discovery evidence, not document-download completion.', page)
+
     def test_old_submission_pages_are_loaded(self):
         sub = {'filings': {'recent': {'accessionNumber': ['new']}, 'files': [
             {'name': 'old.json', 'filingTo': '2025-11-01'}, {'name': 'excluded.json', 'filingTo': '2024-01-01'}]}}

@@ -34,6 +34,9 @@
     <article class="card"><div class="data-title">Security fundamentals</div><div class="date-label" id="fundDate">Loading fundamentals checkpoint…</div><div class="pill unknown" id="fundTopStatus">Loading</div><div class="data-metrics"><div class="metric"><b id="fundTopFresh">—</b><span>fresh issuers</span></div><div class="metric"><b id="fundTopUniverse">—</b><span>mapped issuers</span></div><div class="metric"><b id="fundTopPending">—</b><span>pending / failed</span></div></div><div class="bar warm"><span id="fundTopBar" style="width:0"></span></div><div class="foot" id="fundTopDetail">Reading fundamentals checkpoint…</div></article>
   </div>
 
+  <div class="section-head"><div><h2>Quarter filing tracker</h2><p>All public EDGAR forms grouped by SEC filing date; complete calendar quarters and partial coverage windows remain explicit.</p></div><div class="foot" id="quarterTrackerMeta">Waiting for status…</div></div>
+  <article class="card tablewrap"><table class="table"><thead><tr><th>Filing quarter</th><th>Covered dates</th><th>Catalogued</th><th>Archived</th><th>Remaining</th><th>Waiting</th><th>Failed</th><th>Deferred</th><th>Investor forms</th><th>Position forms parsed</th><th>Archive coverage</th></tr></thead><tbody id="quarterTrackerRows"><tr><td colspan="11" class="empty">Loading quarter checkpoints…</td></tr></tbody></table><p class="foot">Catalogue membership is discovery evidence, not document-download completion. “Archived” means the complete public SEC submission was preserved. Position parsing covers 13F-HR and NPORT-P forms only; a parsed count does not establish complete market coverage.</p></article>
+
   <div class="notice" id="workerFreshness" style="display:none"></div>
   <div class="section-head"><div><h2>Data pipeline progress</h2><p>Counts below come from the repository’s published status files.</p></div><a class="link" href="https://github.com/cstrohwork/aibank/tree/main/CapitalSignal/data">Open data files ↗</a></div>
   <div class="grid data-grid">
@@ -141,6 +144,21 @@ function renderInvestorMonitor(d){
  $("quarterFeed").className="pill "+feedClass;$("quarterFeed").textContent="Latest feed check: "+(feed.status||"unknown");
  renderPeriod(monitor.current_day,"today");renderPeriod(monitor.current_quarter,"quarter");
 }
+function renderQuarterTracker(d){
+ const tracker=d.filing_quarter_tracker, body=$("quarterTrackerRows"), meta=$("quarterTrackerMeta");
+ if(!tracker||!Array.isArray(tracker.quarters)){
+  body.innerHTML='<tr><td colspan="11" class="empty">This checkpoint predates quarter tracking. Counts will appear after the next successful SEC history publication.</td></tr>';
+  meta.textContent="Quarter tracker unavailable in this checkpoint";return;
+ }
+ const rows=tracker.quarters;
+ body.innerHTML=rows.length?rows.map(q=>{
+  const pct=Number.isFinite(q.archive_coverage_pct)?q.archive_coverage_pct.toFixed(1)+"%":"—";
+  const window=q.window_status==="complete_calendar_quarter"?"Complete quarter":q.window_status==="partial_current_quarter"?"Current partial quarter":"Partial start quarter";
+  const cls=q.failed>0?"failure":q.remaining_not_archived===0?"success":"queued";
+  return "<tr><td><div class=\"job\">"+esc(q.quarter)+"</div><div class=\"small\">"+pill(cls,window)+"</div></td><td>"+esc(q.covered_start)+" – "+esc(q.covered_end)+"</td><td>"+fmtNum(q.catalogued)+"</td><td>"+fmtNum(q.archived)+"</td><td>"+fmtNum(q.remaining_not_archived)+"</td><td>"+fmtNum(q.waiting)+"</td><td>"+fmtNum(q.failed)+"</td><td>"+fmtNum(q.deferred)+"</td><td>"+fmtNum(q.investor_forms&&q.investor_forms.discovered)+" / "+fmtNum(q.investor_forms&&q.investor_forms.archived)+" archived</td><td>"+fmtNum(q.position_forms_parsed)+"</td><td>"+pct+"</td></tr>";
+ }).join(""):'<tr><td colspan="11" class="empty">No filing quarters are catalogued.</td></tr>';
+ meta.textContent="Coverage "+tracker.coverage_start+" through "+tracker.as_of_date+" · filing dates in "+(tracker.filing_date_timezone||"reported timezone");
+}
 function renderWorkflows(){
  const latest=latestByWorkflow();
  const rows=workflows.map(w=>({w,r:latest[w.id]})).filter(x=>{
@@ -230,7 +248,8 @@ async function load(){
    $("secStatus").className="pill "+cls;$("secStatus").textContent=(d.status||"unknown").replaceAll("_"," ");
    $("secMeta").textContent="Live feed: "+(d.live_feed&&d.live_feed.status||"unknown")+" · "+fmtNum(d.download_failures)+" download failures · "+fmtNum(d.normalization_failures)+" normalization failures · updated "+dt(d.updated_at);
    renderInvestorMonitor(d);
-  }else $("secMeta").innerHTML='<span class="error">Could not load SEC history status: '+esc(out[2].reason.message)+'</span>';
+   renderQuarterTracker(d);
+  }else{$("secMeta").innerHTML='<span class="error">Could not load SEC history status: '+esc(out[2].reason.message)+'</span>';$("quarterTrackerRows").innerHTML='<tr><td colspan="11" class="empty error">Quarter tracker unavailable: '+esc(out[2].reason.message)+'</td></tr>';}
   if(out[3].status==="fulfilled"){
    const d=out[3].value,n=Number(d.unique_mapped_issuers||0),done=Number(d.fresh_issuers||d.ingested_issuers||0),pending=(d.pending_issuers||[]).length,failed=(d.failed_attempts||[]).length,pct=n?Math.min(100,done/n*100):0;fundN=n;fundDone=done;fundFailed=failed;fundNextStage=d.next_stage||"—";
    $("fundIngested").textContent=fmtNum(d.ingested_issuers||0);$("fundUniverse").textContent=fmtNum(n);$("fundPending").textContent=fmtNum(pending);$("fundBar").style.width=pct.toFixed(1)+"%";
