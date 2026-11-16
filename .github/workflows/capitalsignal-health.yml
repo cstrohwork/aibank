@@ -27,7 +27,9 @@ concurrency:
 jobs:
   health:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # Checkout has recently consumed most of the former five-minute limit.
+    # Leave bounded headroom for both regression suites and report publication.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
