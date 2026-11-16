@@ -221,8 +221,34 @@ def run(batch=2000):
     # Distinguish actionable queue work from investors waiting for retry backoff.
     # This is computed from the same eligible selection as the current batch,
     # not from the capped 200-entry next-batch preview.
-    eligible_pending_count = len(unpublished) + len(refreshes) - len(selected)
-    retry_cooldown_pending_count = max(0, pending_active_count - len(unpublished) - len(refreshes))
+    # Reconcile eligibility from the post-batch checkpoint, not from the
+    # pre-batch selection. Selected profiles can fail, and those failures
+    # remain pending (often in cooldown) rather than disappearing from totals.
+    eligible_pending_count = 0
+    retry_cooldown_pending_count = 0
+    for p in profiles:
+        cik = str(p.get('manager_cik') or '').zfill(10)
+        fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+        if (manifest['profiles'].get(cik, {}).get('fingerprint') == fingerprint
+                and (OUT / cik / 'index.html').exists()
+                and (OUT / cik / 'profile.json').exists()):
+            continue
+        failure = manifest['failures'].get(cik, {})
+        cooling = False
+        if failure.get('fingerprint') == fingerprint and failure.get('last_attempt_at'):
+            try:
+                attempted = dt.datetime.fromisoformat(failure['last_attempt_at'])
+                if attempted.tzinfo is None:
+                    attempted = attempted.replace(tzinfo=dt.timezone.utc)
+                delay = dt.timedelta(minutes=min(360, 5 * (2 ** min(max(0, int(failure.get('attempts', 1)) - 1), 7))))
+                cooling = dt.datetime.now(dt.timezone.utc) - attempted < delay
+            except (ValueError, TypeError, OverflowError):
+                pass
+        if cooling:
+            retry_cooldown_pending_count += 1
+        else:
+            eligible_pending_count += 1
+    assert eligible_pending_count + retry_cooldown_pending_count == pending_active_count
     completed_current_version_count = len(active_ciks) - pending_active_count
     # Separate published disclosure pages from those with validated USD evidence.
     # A validated accession is a normalization check, NOT independent cover-page
