@@ -30,13 +30,17 @@ class FundamentalsTests(unittest.TestCase):
   self.assertTrue(gates['diagnostic_coverage_gate']['combined_gate_passed'])
   self.assertTrue(gates['diagnostic_coverage_gate']['ratio_gates']['net_margin']['passed'])
   self.assertFalse(gates['point_in_time_gate']['same_date_current_proxy_gate_passed'])
+  self.assertEqual(gates['point_in_time_gate']['status'],'blocked_missing_or_invalid_proxy_snapshot_dates')
   self.assertFalse(gates['point_in_time_gate']['historical_benchmark_gate_passed'])
   self.assertFalse(gates['production_classification_gate']['passed'])
   self.assertIsNone(gates['production_classification_gate']['calculated_style'])
  def test_low_value_coverage_fails_diagnostic_gate(self):
   result={'current_proxy_identifier_match_value_pct':69.99,'any_fundamentals_value_coverage_pct':80,
           'portfolio_ratios':{}}
-  gates=portfolio_gates(result,'2026-11-12',{'as_of':'2026-11-12'})
+  universe={'as_of':'2026-11-12','proxy_snapshots':{
+   'S&P1500_proxy':{'as_of':'2026-11-12'},
+   'Russell3000_proxy':{'as_of':'2026-11-12'}}}
+  gates=portfolio_gates(result,'2026-11-12',universe)
   self.assertFalse(gates['diagnostic_coverage_gate']['combined_gate_passed'])
   self.assertEqual(gates['diagnostic_coverage_gate']['status'],'blocked_insufficient_value_coverage')
   self.assertTrue(gates['point_in_time_gate']['same_date_current_proxy_gate_passed'])

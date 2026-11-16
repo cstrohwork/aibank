@@ -48,8 +48,22 @@ def portfolio_gates(result,report_date,universe,threshold=DIAGNOSTIC_COVERAGE_TH
                              and math.isfinite(ratio['coverage_pct'])
                              and ratio['coverage_pct']>=threshold}
               for name,ratio in result.get('portfolio_ratios',{}).items()}
- proxy_as_of=universe.get('as_of')
- same_date=bool(report_date and proxy_as_of and report_date==proxy_as_of)
+ proxy_snapshots=universe.get('proxy_snapshots') or {}
+ proxy_dates={label:provider.get('as_of') for label,provider in proxy_snapshots.items()}
+ valid_proxy_dates={date for date in proxy_dates.values()
+                    if isinstance(date,str) and _valid_iso_date(date)}
+ all_proxy_dates_valid=bool(proxy_dates) and all(
+  isinstance(date,str) and _valid_iso_date(date) for date in proxy_dates.values())
+ common_proxy_as_of=next(iter(valid_proxy_dates)) if all_proxy_dates_valid and len(valid_proxy_dates)==1 else None
+ same_date=bool(report_date and common_proxy_as_of and report_date==common_proxy_as_of)
+ if not all_proxy_dates_valid:
+  point_in_time_status='blocked_missing_or_invalid_proxy_snapshot_dates'
+ elif common_proxy_as_of is None:
+  point_in_time_status='blocked_misaligned_current_proxy_snapshots'
+ elif same_date:
+  point_in_time_status='current_proxy_same_date_diagnostics_only'
+ else:
+  point_in_time_status='blocked_missing_historical_proxy_snapshot'
  return {
   'diagnostic_coverage_gate':{
    'threshold_pct':threshold,
@@ -63,15 +77,25 @@ def portfolio_gates(result,report_date,universe,threshold=DIAGNOSTIC_COVERAGE_TH
   'point_in_time_gate':{
    'portfolio_report_date':report_date,
    'fundamental_fact_availability_cutoff':report_date,
-   'proxy_snapshot_as_of':proxy_as_of,
+   'proxy_snapshots_as_of':proxy_dates,
+   'proxy_snapshot_as_of':common_proxy_as_of,
+   'common_proxy_snapshot_as_of':common_proxy_as_of,
+   'all_proxy_snapshot_dates_valid':all_proxy_dates_valid,
    'same_date_current_proxy_gate_passed':same_date,
    'historical_membership_verified':False,
    'historical_benchmark_gate_passed':False,
-   'status':'current_proxy_same_date_diagnostics_only' if same_date else 'blocked_missing_historical_proxy_snapshot'},
+   'status':point_in_time_status},
   'production_classification_gate':{
    'passed':False,
    'status':'blocked_missing_point_in_time_benchmark_and_market_factors',
    'calculated_style':None}}
+
+def _valid_iso_date(value):
+ try:
+  dt.date.fromisoformat(value)
+  return True
+ except (TypeError,ValueError):
+  return False
 def benchmark_diagnostics(universe,records):
  """A union's first-provider weights cannot define a combined benchmark."""
  union=bool(universe.get('universe_sources'))

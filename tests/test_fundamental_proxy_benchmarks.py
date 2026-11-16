@@ -11,6 +11,7 @@ sys.path.insert(0,str(pathlib.Path(__file__).resolve().parents[1]/'scripts'))
 import ingest_sp1500_fundamentals as ingest
 import benchmark_proxy_coverage as benchmark
 from benchmark_proxy_coverage import proxy_coverage
+from match_fundamental_portfolios import portfolio_gates
 
 class ProxyBenchmarkTests(unittest.TestCase):
  def sources(self):
@@ -177,5 +178,32 @@ class ProxyBenchmarkTests(unittest.TestCase):
    self.assertEqual(report['benchmarks']['Russell3000_proxy']['field_weight_coverage_pct']['revenue'],20)
    self.assertEqual(report['benchmarks']['S&P1500_proxy']['field_weight_coverage_pct']['revenue'],0)
    self.assertIsNone(report['calculated_style'])
+
+ def test_portfolio_gate_publishes_separate_proxy_dates_and_blocks_misaligned_union(self):
+  universe=self.universe()
+  result={'current_proxy_identifier_match_value_pct':90,
+   'any_fundamentals_value_coverage_pct':85,'portfolio_ratios':{}}
+  gate=portfolio_gates(result,'2026-11-12',universe)['point_in_time_gate']
+  self.assertEqual(gate['proxy_snapshots_as_of'],{
+   'S&P1500_proxy':'2026-11-10','Russell3000_proxy':'2026-11-12'})
+  self.assertIsNone(gate['common_proxy_snapshot_as_of'])
+  self.assertIsNone(gate['proxy_snapshot_as_of'])
+  self.assertFalse(gate['same_date_current_proxy_gate_passed'])
+  self.assertEqual(gate['status'],'blocked_misaligned_current_proxy_snapshots')
+
+ def test_portfolio_gate_requires_all_valid_provider_dates_before_same_date_pass(self):
+  universe=self.universe()
+  universe['proxy_snapshots']['S&P1500_proxy']['as_of']='2026-11-12'
+  result={'current_proxy_identifier_match_value_pct':90,
+   'any_fundamentals_value_coverage_pct':85,'portfolio_ratios':{}}
+  gate=portfolio_gates(result,'2026-11-12',universe)['point_in_time_gate']
+  self.assertEqual(gate['common_proxy_snapshot_as_of'],'2026-11-12')
+  self.assertTrue(gate['same_date_current_proxy_gate_passed'])
+  self.assertEqual(gate['status'],'current_proxy_same_date_diagnostics_only')
+  universe['proxy_snapshots']['Russell3000_proxy']['as_of']='not-a-date'
+  gate=portfolio_gates(result,'2026-11-12',universe)['point_in_time_gate']
+  self.assertFalse(gate['all_proxy_snapshot_dates_valid'])
+  self.assertFalse(gate['same_date_current_proxy_gate_passed'])
+  self.assertEqual(gate['status'],'blocked_missing_or_invalid_proxy_snapshot_dates')
 
 if __name__=='__main__' :unittest.main()
