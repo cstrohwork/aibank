@@ -112,7 +112,7 @@ def run(batch=2000):
         if changed >= batch:
             continue
         try:
-            sources = [s for s in p.get('source_filings', []) if isinstance(s, str) and re.match(r'^https://(?:www\\.)?sec\\.gov/', s, re.IGNORECASE)]
+            sources = [s for s in p.get('source_filings', []) if isinstance(s, str) and re.match(r'^https://(?:www\.)?sec\.gov/', s, re.IGNORECASE)]
             if not sources:
                 raise ValueError('No SEC source link')
             analytics = analyze(DATA, cik, p.get('latest_report_date') or '', entries)
