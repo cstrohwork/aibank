@@ -1,0 +1,128 @@
+{
+  "manager_cik": "0001201001",
+  "investor_name": "HarbourVest Partners LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Boston",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1201001/0001193125-25-281332.txt",
+    "https://www.sec.gov/Archives/edgar/data/1201001/0001193125-26-350253.txt",
+    "https://www.sec.gov/Archives/edgar/data/1201001/0001193125-26-461870.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "72a144d58751d3a345359e16241205eceb62fb43a6e8193d894f823f87d87743",
+  "generated_at": "2026-11-16T11:42:50.121491+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-461870",
+    "source": "https://www.sec.gov/Archives/edgar/data/1201001/0001193125-26-461870.txt",
+    "distinct_positions": 8,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 154950100.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G5279N105",
+        "security_class": "SHS",
+        "issuer": "Klarna Group PLC",
+        "shares": 5023320.0,
+        "value_usd": 62238935.0,
+        "weight_pct": 40.17
+      },
+      {
+        "cusip": "55173P109",
+        "security_class": "COM SHS",
+        "issuer": "Lyntris Inc",
+        "shares": 3594959.0,
+        "value_usd": 44361794.0,
+        "weight_pct": 28.63
+      },
+      {
+        "cusip": "370920100",
+        "security_class": "COM SHS",
+        "issuer": "Generate Biomedicines",
+        "shares": 1722210.0,
+        "value_usd": 25867594.0,
+        "weight_pct": 16.69
+      },
+      {
+        "cusip": "98390R102",
+        "security_class": "SUB VTG B",
+        "issuer": "Xanadu Quantum Technologies, Inc",
+        "shares": 1941933.0,
+        "value_usd": 8894053.0,
+        "weight_pct": 5.74
+      },
+      {
+        "cusip": "35969L108",
+        "security_class": "Sponsored ADS",
+        "issuer": "Full Truck Alliance Co. Ltd.",
+        "shares": 957580.0,
+        "value_usd": 7919187.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "13463J101",
+        "security_class": "Common",
+        "issuer": "CAMP4 Therapeutics Corp",
+        "shares": 1271948.0,
+        "value_usd": 5138670.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "590106100",
+        "security_class": "Common",
+        "issuer": "Merlin Inc",
+        "shares": 255450.0,
+        "value_usd": 480246.0,
+        "weight_pct": 0.31
+      },
+      {
+        "cusip": "15673T100",
+        "security_class": "Common",
+        "issuer": "Century Therapeutics, Inc.",
+        "shares": 29018.0,
+        "value_usd": 49621.0,
+        "weight_pct": 0.03
+      }
+    ],
+    "top_five_pct": 96.34,
+    "top_ten_pct": 100.0,
+    "hhi": 2781.91,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-281332"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001193125-26-350253"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-461870"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 154950100.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-461870",
+  "annualized_turnover_proxy_pct": null
+}

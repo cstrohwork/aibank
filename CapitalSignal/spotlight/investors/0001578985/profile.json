@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001578985",
   "investor_name": "Cumberland Partners Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-06",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TORONTO",
   "state": null,
   "country": null,
@@ -10,113 +10,114 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1578985/0001104659-25-108486.txt",
-    "https://www.sec.gov/Archives/edgar/data/1578985/0001104659-26-091472.txt"
+    "https://www.sec.gov/Archives/edgar/data/1578985/0001104659-26-091472.txt",
+    "https://www.sec.gov/Archives/edgar/data/1578985/0001104659-26-127509.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b95deeb7e9c9a547203cd3ea7c9b1f02cbf01c366d67fe7fb490b6624b55ce52",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "dbed0d021d55a5f41cd99dd536ff2d4b1323fcbaffd4bdc8fb7805cb839a2aac",
+  "generated_at": "2026-11-16T11:42:50.121491+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-06",
-    "accession": "0001104659-26-091472",
-    "source": "https://www.sec.gov/Archives/edgar/data/1578985/0001104659-26-091472.txt",
-    "distinct_positions": 153,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127509",
+    "source": "https://www.sec.gov/Archives/edgar/data/1578985/0001104659-26-127509.txt",
+    "distinct_positions": 144,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1544646505.0,
+    "reported_long_equity_value_usd": 1524713755.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "780087102",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "ROYAL BK CDA",
-        "shares": 386426.0,
-        "value_usd": 79890188.0,
-        "weight_pct": 5.17
+        "issuer": "MICROSOFT CORP",
+        "shares": 167111.0,
+        "value_usd": 85711232.0,
+        "weight_pct": 5.62
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 353693.0,
-        "value_usd": 70770433.0,
-        "weight_pct": 4.58
+        "shares": 352339.0,
+        "value_usd": 80467181.0,
+        "weight_pct": 5.28
       },
       {
-        "cusip": "594918104",
+        "cusip": "780087102",
         "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 176987.0,
-        "value_usd": 66019690.0,
+        "issuer": "ROYAL BK CDA",
+        "shares": 368601.0,
+        "value_usd": 72580540.0,
+        "weight_pct": 4.76
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 190961.0,
+        "value_usd": 65068051.0,
         "weight_pct": 4.27
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 260465.0,
-        "value_usd": 62079228.0,
-        "weight_pct": 4.02
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 167640.0,
-        "value_usd": 59232241.0,
-        "weight_pct": 3.83
-      },
-      {
-        "cusip": "931142103",
-        "security_class": "COM",
-        "issuer": "WALMART INC",
-        "shares": 446379.0,
-        "value_usd": 50556885.0,
-        "weight_pct": 3.27
-      },
-      {
-        "cusip": "G54950103",
-        "security_class": "SHS",
-        "issuer": "LINDE PLC",
-        "shares": 92008.0,
-        "value_usd": 47746632.0,
-        "weight_pct": 3.09
-      },
-      {
-        "cusip": "532457108",
-        "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 39407.0,
-        "value_usd": 47265939.0,
-        "weight_pct": 3.06
+        "shares": 259166.0,
+        "value_usd": 64571209.0,
+        "weight_pct": 4.23
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 161477.0,
-        "value_usd": 46724985.0,
-        "weight_pct": 3.02
+        "shares": 160252.0,
+        "value_usd": 53367120.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 42104.0,
+        "value_usd": 48717696.0,
+        "weight_pct": 3.2
       },
       {
         "cusip": "064149107",
         "security_class": "COM",
         "issuer": "BANK NOVA SCOTIA B C",
-        "shares": 522360.0,
-        "value_usd": 45312173.0,
-        "weight_pct": 2.93
+        "shares": 520764.0,
+        "value_usd": 47383364.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 445573.0,
+        "value_usd": 46303946.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "G54950103",
+        "security_class": "SHS",
+        "issuer": "LINDE PLC",
+        "shares": 91863.0,
+        "value_usd": 43602774.0,
+        "weight_pct": 2.86
       }
     ],
-    "top_five_pct": 21.88,
-    "top_ten_pct": 37.26,
-    "hhi": 223.33,
+    "top_five_pct": 24.16,
+    "top_ten_pct": 39.86,
+    "hhi": 249.18,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 47,
-      "exited_positions": 56,
-      "increased_positions": 47,
-      "reduced_positions": 58
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 24,
+      "increased_positions": 41,
+      "reduced_positions": 47
     },
     "timeline": [
       {
@@ -128,11 +129,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-06",
         "accession": "0001104659-26-091472"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127509"
       }
     ]
   },
-  "reported_13f_value_usd": 1544646505.0,
+  "reported_13f_value_usd": 1524713755.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-091472",
+  "validated_accession": "0001104659-26-127509",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001132597",
   "investor_name": "Itau Unibanco Holding S.A.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAO PAULO",
   "state": null,
   "country": null,
@@ -10,113 +10,114 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1132597/0001292814-25-003919.txt",
-    "https://www.sec.gov/Archives/edgar/data/1132597/0001292814-26-004254.txt"
+    "https://www.sec.gov/Archives/edgar/data/1132597/0001292814-26-004254.txt",
+    "https://www.sec.gov/Archives/edgar/data/1132597/0001292814-26-005323.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "227ce6653a4b07cd37d153e69b66e300f72524938549bdb9e3f6cc5f7fcf36f4",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "f71e81e7fb394abb589a63adfacab6727fcefd4529f2305f255c8a1ee7a27be8",
+  "generated_at": "2026-11-16T11:42:50.121491+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001292814-26-004254",
-    "source": "https://www.sec.gov/Archives/edgar/data/1132597/0001292814-26-004254.txt",
-    "distinct_positions": 355,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001292814-26-005323",
+    "source": "https://www.sec.gov/Archives/edgar/data/1132597/0001292814-26-005323.txt",
+    "distinct_positions": 834,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5075791740.0,
+    "reported_long_equity_value_usd": 3866100213.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "71654V408",
+        "security_class": "SPONSORED ADR",
+        "issuer": "PETROLEO BRASILEIRO S A",
+        "shares": 14822241.0,
+        "value_usd": 309620533.0,
+        "weight_pct": 8.01
+      },
+      {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 871093.0,
-        "value_usd": 650505568.0,
-        "weight_pct": 12.82
+        "shares": 382651.0,
+        "value_usd": 291820923.0,
+        "weight_pct": 7.55
       },
       {
         "cusip": "464288117",
         "security_class": "INTL TREA BD ETF",
         "issuer": "ISHARES TR",
-        "shares": 7658139.0,
-        "value_usd": 314213443.0,
-        "weight_pct": 6.19
-      },
-      {
-        "cusip": "91912E105",
-        "security_class": "SPONSORED ADS",
-        "issuer": "VALE S A",
-        "shares": 15368311.0,
-        "value_usd": 230485868.0,
-        "weight_pct": 4.54
-      },
-      {
-        "cusip": "71654V408",
-        "security_class": "SPONSORED ADR",
-        "issuer": "PETROLEO BRASILEIRO S A",
-        "shares": 13306603.0,
-        "value_usd": 215011731.0,
-        "weight_pct": 4.24
-      },
-      {
-        "cusip": "G6683N103",
-        "security_class": "ORD SHS CL A",
-        "issuer": "NU HLDGS LTD",
-        "shares": 14867176.0,
-        "value_usd": 196592174.0,
-        "weight_pct": 3.87
+        "shares": 7000679.0,
+        "value_usd": 278417004.0,
+        "weight_pct": 7.2
       },
       {
         "cusip": "465562106",
         "security_class": "SPON ADR REP PFD",
         "issuer": "ITAU UNIBANCO HLDG S A",
-        "shares": 23664437.0,
-        "value_usd": 192805111.0,
-        "weight_pct": 3.8
+        "shares": 22980031.0,
+        "value_usd": 193648807.0,
+        "weight_pct": 5.01
       },
       {
-        "cusip": "344419106",
-        "security_class": "SPON ADR UNITS",
-        "issuer": "FOMENTO ECONOMICO MEXICANO S",
-        "shares": 1214976.0,
-        "value_usd": 156889640.0,
-        "weight_pct": 3.09
-      },
-      {
-        "cusip": "G2519Y108",
-        "security_class": "COM",
-        "issuer": "CREDICORP LTD",
-        "shares": 378899.0,
-        "value_usd": 148020043.0,
-        "weight_pct": 2.92
+        "cusip": "91912E105",
+        "security_class": "SPONSORED ADS",
+        "issuer": "VALE S A",
+        "shares": 13596750.0,
+        "value_usd": 182521392.0,
+        "weight_pct": 4.72
       },
       {
         "cusip": "059460303",
         "security_class": "SP ADR PFD NEW",
         "issuer": "BANCO BRADESCO S A",
-        "shares": 42672528.0,
-        "value_usd": 147845177.0,
-        "weight_pct": 2.91
+        "shares": 49561286.0,
+        "value_usd": 172427341.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "71654V101",
+        "security_class": "SP ADR NON VTG",
+        "issuer": "PETROLEO BRASILEIRO S A",
+        "shares": 8596585.0,
+        "value_usd": 163534517.0,
+        "weight_pct": 4.23
+      },
+      {
+        "cusip": "344419106",
+        "security_class": "SPON ADR UNITS",
+        "issuer": "FOMENTO ECONOMICO MEXICANO S",
+        "shares": 1230630.0,
+        "value_usd": 146422296.0,
+        "weight_pct": 3.79
       },
       {
         "cusip": "151290889",
         "security_class": "SPON ADR NEW",
-        "issuer": "CEMEX SA EURO MTN BE 144A",
-        "shares": 11386156.0,
-        "value_usd": 136929278.0,
-        "weight_pct": 2.7
+        "issuer": "CEMEX SAB DE CV",
+        "shares": 12784799.0,
+        "value_usd": 122423132.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "880890108",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TERNIUM SA",
+        "shares": 1742101.0,
+        "value_usd": 94498236.0,
+        "weight_pct": 2.44
       }
     ],
-    "top_five_pct": 31.66,
-    "top_ten_pct": 47.07,
-    "hhi": 353.78,
+    "top_five_pct": 32.49,
+    "top_ten_pct": 50.58,
+    "hhi": 335.56,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 176,
-      "exited_positions": 207,
-      "increased_positions": 110,
-      "reduced_positions": 67
+      "previous_period": "2026-06-30",
+      "new_positions": 557,
+      "exited_positions": 78,
+      "increased_positions": 162,
+      "reduced_positions": 97
     },
     "timeline": [
       {
@@ -128,11 +129,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001292814-26-004254"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001292814-26-005323"
       }
     ]
   },
-  "reported_13f_value_usd": 5075791740.0,
+  "reported_13f_value_usd": 3866100213.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001292814-26-004254",
+  "validated_accession": "0001292814-26-005323",
   "annualized_turnover_proxy_pct": null
 }
