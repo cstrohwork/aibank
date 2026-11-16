@@ -13,7 +13,13 @@ on:
       - 'CapitalSignal/data/investor_profiles.json'
       - 'CapitalSignal/data/13f/**'
       - 'CapitalSignal/data/funds/**'
+      # Voting disclosures are evidence for orientation, not ownership.
+      # Revisit profiles when newly normalized N-PX evidence arrives.
+      - 'CapitalSignal/data/npx/**'
+      - 'CapitalSignal/data/n-px/**'
       - 'CapitalSignal/data/history/normalized/**'
+      # Newly catalogued accessions/amendments may precede holdings parsing.
+      - 'CapitalSignal/data/history/status.json'
   workflow_run:
     workflows: ['Refresh SEC EDGAR public-data cache', 'Backfill SEC filing history']
     types: [completed]
