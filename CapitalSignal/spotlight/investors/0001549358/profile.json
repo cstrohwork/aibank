@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001549358",
   "investor_name": "Old West Investment Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-06",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Los Angeles",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1549358/0001941040-25-000594.txt",
-    "https://www.sec.gov/Archives/edgar/data/1549358/0001941040-26-000526.txt"
+    "https://www.sec.gov/Archives/edgar/data/1549358/0001941040-26-000526.txt",
+    "https://www.sec.gov/Archives/edgar/data/1549358/0001941040-26-000833.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "42500c30612a561a0110d8a948dde1bad25cf3445f02fefed864f2cb1c1f75ef",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "1e5def349c9e4648e816f7ef87b29aa97934a376cce13332e687318fd6b6ecf0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-05|||",
+    "2026-06-30|2026-08-06|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "47644f2060cfbaf098f58533538f765cea732b6f",
+    "dee143517f0ac3b8babf8a340f8b04db3a3e66ae",
+    "f02f7865466fb4f7fcb77998986d98a5ec83ca9b"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-06",
-    "accession": "0001941040-26-000526",
-    "source": "https://www.sec.gov/Archives/edgar/data/1549358/0001941040-26-000526.txt",
-    "distinct_positions": 124,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001941040-26-000833",
+    "source": "https://www.sec.gov/Archives/edgar/data/1549358/0001941040-26-000833.txt",
+    "distinct_positions": 118,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 944172985.0,
+    "reported_long_equity_value_usd": 924122900.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "116794108",
         "security_class": "COM",
         "issuer": "BRUKER CORP",
-        "shares": 667103.0,
-        "value_usd": 40146307.0,
-        "weight_pct": 4.25
-      },
-      {
-        "cusip": "675232102",
-        "security_class": "COM",
-        "issuer": "OCEANEERING INTL INC",
-        "shares": 693549.0,
-        "value_usd": 28102605.0,
-        "weight_pct": 2.98
-      },
-      {
-        "cusip": "88642R109",
-        "security_class": "COM",
-        "issuer": "TIDEWATER INC NEW",
-        "shares": 393788.0,
-        "value_usd": 26238094.0,
-        "weight_pct": 2.78
-      },
-      {
-        "cusip": "539830109",
-        "security_class": "COM",
-        "issuer": "LOCKHEED MARTIN CORP",
-        "shares": 48441.0,
-        "value_usd": 24678873.0,
-        "weight_pct": 2.61
+        "shares": 663974.0,
+        "value_usd": 42992369.0,
+        "weight_pct": 4.65
       },
       {
         "cusip": "452327109",
         "security_class": "COM",
         "issuer": "ILLUMINA INC",
-        "shares": 127804.0,
-        "value_usd": 22471777.0,
-        "weight_pct": 2.38
+        "shares": 107375.0,
+        "value_usd": 29386390.0,
+        "weight_pct": 3.18
       },
       {
         "cusip": "867224107",
         "security_class": "COM",
         "issuer": "SUNCOR ENERGY INC NEW",
-        "shares": 418292.0,
-        "value_usd": 22453964.0,
-        "weight_pct": 2.38
-      },
-      {
-        "cusip": "806857108",
-        "security_class": "COM STK",
-        "issuer": "SLB LIMITED",
-        "shares": 479478.0,
-        "value_usd": 22290960.0,
-        "weight_pct": 2.36
+        "shares": 415179.0,
+        "value_usd": 28178261.0,
+        "weight_pct": 3.05
       },
       {
         "cusip": "136385101",
         "security_class": "COM",
         "issuer": "CANADIAN NAT RES LTD MED TER",
-        "shares": 556966.0,
-        "value_usd": 22000174.0,
-        "weight_pct": 2.33
+        "shares": 560637.0,
+        "value_usd": 26389204.0,
+        "weight_pct": 2.86
       },
       {
-        "cusip": "N07059210",
-        "security_class": "N Y REGISTRY SHS",
-        "issuer": "ASML HLDG NV",
-        "shares": 11000.0,
-        "value_usd": 21883862.0,
-        "weight_pct": 2.32
+        "cusip": "83088M102",
+        "security_class": "COM",
+        "issuer": "SKYWORKS SOLUTIONS INC",
+        "shares": 298498.0,
+        "value_usd": 25515609.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "539830109",
+        "security_class": "COM",
+        "issuer": "LOCKHEED MARTIN CORP",
+        "shares": 48767.0,
+        "value_usd": 24834716.0,
+        "weight_pct": 2.69
       },
       {
         "cusip": "89621C105",
         "security_class": "COM",
         "issuer": "TRILOGY METALS INC NEW",
-        "shares": 6092657.0,
-        "value_usd": 21385226.0,
-        "weight_pct": 2.26
+        "shares": 7980081.0,
+        "value_usd": 24738251.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "806857108",
+        "security_class": "COM STK",
+        "issuer": "SLB LIMITED",
+        "shares": 475889.0,
+        "value_usd": 23185342.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "03674X106",
+        "security_class": "COM",
+        "issuer": "Antero Resources Corporation",
+        "shares": 648446.0,
+        "value_usd": 21651611.0,
+        "weight_pct": 2.34
+      },
+      {
+        "cusip": "44916E100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "IPERIONX LTD",
+        "shares": 1209928.0,
+        "value_usd": 20350988.0,
+        "weight_pct": 2.2
       }
     ],
-    "top_five_pct": 15.0,
-    "top_ten_pct": 26.65,
-    "hhi": 161.32,
+    "top_five_pct": 16.5,
+    "top_ten_pct": 28.92,
+    "hhi": 177.09,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 57,
-      "exited_positions": 19,
-      "increased_positions": 35,
-      "reduced_positions": 17
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 7,
+      "increased_positions": 57,
+      "reduced_positions": 34
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-06",
         "accession": "0001941040-26-000526"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001941040-26-000833"
       }
     ]
   },
-  "reported_13f_value_usd": 944172985.0,
+  "reported_13f_value_usd": 924122900.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001941040-26-000526",
+  "validated_accession": "0001941040-26-000833",
   "annualized_turnover_proxy_pct": null
 }

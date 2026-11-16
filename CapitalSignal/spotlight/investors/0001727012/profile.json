@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001727012",
   "investor_name": "Diameter Capital Partners LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1727012/0001172661-25-004869.txt",
-    "https://www.sec.gov/Archives/edgar/data/1727012/0001172661-26-003822.txt"
+    "https://www.sec.gov/Archives/edgar/data/1727012/0001172661-26-003822.txt",
+    "https://www.sec.gov/Archives/edgar/data/1727012/0001172661-26-005300.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8e7b9e49f780c7909551d0a58b3667d6a23c14f395dec904789a90155a509037",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "9c486c613a049ca1886e746acbe967e078ccf33bb1fba5a59dc7437d1842087c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "b892b7a641ea9ee72303841f6003d049dc89e515",
+    "be10ef84a0be9079235cbd68e656c76fe254fdfb",
+    "e56d995e2433fcd1041f458bae3cecd91ac680da"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003822",
-    "source": "https://www.sec.gov/Archives/edgar/data/1727012/0001172661-26-003822.txt",
-    "distinct_positions": 28,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005300",
+    "source": "https://www.sec.gov/Archives/edgar/data/1727012/0001172661-26-005300.txt",
+    "distinct_positions": 20,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 759862394.0,
+    "reported_long_equity_value_usd": 640128781.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "464285204",
         "security_class": "ISHARES NEW",
         "issuer": "ISHARES GOLD TR",
-        "shares": 3363600.0,
-        "value_usd": 253985436.0,
-        "weight_pct": 33.43
+        "shares": 2467650.0,
+        "value_usd": 192723465.0,
+        "weight_pct": 30.11
       },
       {
         "cusip": "879433829",
         "security_class": "COM NEW",
         "issuer": "TELEPHONE & DATA SYS INC",
-        "shares": 1675955.0,
-        "value_usd": 62027095.0,
-        "weight_pct": 8.16
+        "shares": 1903006.0,
+        "value_usd": 64549964.0,
+        "weight_pct": 10.08
       },
       {
-        "cusip": "57638P104",
-        "security_class": "COMMON STOCK",
-        "issuer": "MASTERBRAND INC",
-        "shares": 4779445.0,
-        "value_usd": 49180489.0,
-        "weight_pct": 6.47
+        "cusip": "92552V100",
+        "security_class": "COM",
+        "issuer": "VIASAT INC",
+        "shares": 897047.0,
+        "value_usd": 63134168.0,
+        "weight_pct": 9.86
+      },
+      {
+        "cusip": "64125S104",
+        "security_class": "COM",
+        "issuer": "NEUTRON HOLDINGS INC",
+        "shares": 1963143.0,
+        "value_usd": 55301738.0,
+        "weight_pct": 8.64
+      },
+      {
+        "cusip": "36168Q104",
+        "security_class": "SUB VTG SHS",
+        "issuer": "GFL ENVIRONMENTAL INC",
+        "shares": 864171.0,
+        "value_usd": 36148273.0,
+        "weight_pct": 5.65
       },
       {
         "cusip": "912932100",
         "security_class": "COM SHS",
         "issuer": "UNITI GROUP LLC",
-        "shares": 4000000.0,
-        "value_usd": 45880000.0,
-        "weight_pct": 6.04
+        "shares": 3548096.0,
+        "value_usd": 29733044.0,
+        "weight_pct": 4.64
       },
       {
-        "cusip": "84615Q103",
-        "security_class": "CLASS A COM STK",
-        "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 250000.0,
-        "value_usd": 42715000.0,
-        "weight_pct": 5.62
+        "cusip": "76118Y104",
+        "security_class": "COM",
+        "issuer": "RESIDEO TECHNOLOGIES INC",
+        "shares": 1387667.0,
+        "value_usd": 25186156.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "69047Q102",
+        "security_class": "COM",
+        "issuer": "OVINTIV INC",
+        "shares": 390000.0,
+        "value_usd": 22549800.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "819047101",
+        "security_class": "CL A",
+        "issuer": "SHAKE SHACK INC",
+        "shares": 375000.0,
+        "value_usd": 22005000.0,
+        "weight_pct": 3.44
       },
       {
         "cusip": "34964C106",
         "security_class": "COM",
         "issuer": "FORTUNE BRANDS INNOVATIONS I",
-        "shares": 696350.0,
-        "value_usd": 38229615.0,
-        "weight_pct": 5.03
-      },
-      {
-        "cusip": "278768106",
-        "security_class": "CL A",
-        "issuer": "ECHOSTAR CORP",
-        "shares": 326754.0,
-        "value_usd": 33165531.0,
-        "weight_pct": 4.36
-      },
-      {
-        "cusip": "G4253H101",
-        "security_class": "ORD SHS",
-        "issuer": "JAMES HARDIE INDS PLC",
-        "shares": 1172112.0,
-        "value_usd": 30685892.0,
-        "weight_pct": 4.04
-      },
-      {
-        "cusip": "L02235106",
-        "security_class": "SHS",
-        "issuer": "ARDAGH METAL PACKAGING S A",
-        "shares": 5030465.0,
-        "value_usd": 23844404.0,
+        "shares": 528735.0,
+        "value_usd": 20118367.0,
         "weight_pct": 3.14
-      },
-      {
-        "cusip": "20337X109",
-        "security_class": "COM",
-        "issuer": "VISTANCE NETWORKS INC",
-        "shares": 1750000.0,
-        "value_usd": 22365000.0,
-        "weight_pct": 2.94
       }
     ],
-    "top_five_pct": 59.72,
-    "top_ten_pct": 79.24,
-    "hhi": 1406.53,
+    "top_five_pct": 64.34,
+    "top_ten_pct": 83.02,
+    "hhi": 1318.3,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 21,
-      "exited_positions": 23,
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 17,
       "increased_positions": 3,
-      "reduced_positions": 4
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003822"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005300"
       }
     ]
   },
-  "reported_13f_value_usd": 759862394.0,
+  "reported_13f_value_usd": 640128781.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003822",
+  "validated_accession": "0001172661-26-005300",
   "annualized_turnover_proxy_pct": null
 }

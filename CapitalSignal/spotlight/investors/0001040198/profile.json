@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001040198",
   "investor_name": "P SCHOENFELD ASSET MANAGEMENT LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1040198/0001140361-25-042133.txt",
-    "https://www.sec.gov/Archives/edgar/data/1040198/0001140361-26-032701.txt"
+    "https://www.sec.gov/Archives/edgar/data/1040198/0001140361-26-032701.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040198/0001140361-26-044108.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ad9768811a9fb61cfefeb86d7b88f039c5947cff2555a5e18aea8e60c1427762",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "ad5894f46ee3c37263269ae0a5679069322621c3650e5b36ac743fadd3b99158",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4ee6b2fd6d6b2ae1c3d7cab5791e9d1907024f8c",
+    "6cd3461ac883246a0f3dbad57d70a5abe89510c9",
+    "ef4b1050976e7cfb2a332d21896c0111c861686e"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001140361-26-032701",
-    "source": "https://www.sec.gov/Archives/edgar/data/1040198/0001140361-26-032701.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001140361-26-044108",
+    "source": "https://www.sec.gov/Archives/edgar/data/1040198/0001140361-26-044108.txt",
     "distinct_positions": 25,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 168264932.0,
+    "reported_long_equity_value_usd": 154487358.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,91 +42,91 @@
         "cusip": "934423104",
         "security_class": "COM SER A",
         "issuer": "WARNER BROS DISCOVERY INC",
-        "shares": 1025403.0,
-        "value_usd": 27337244.0,
-        "weight_pct": 16.25
+        "shares": 831603.0,
+        "value_usd": 25738113.0,
+        "weight_pct": 16.66
       },
       {
         "cusip": "378973507",
         "security_class": "COM NEW",
         "issuer": "GLOBALSTAR INC",
         "shares": 217000.0,
-        "value_usd": 17639930.0,
-        "weight_pct": 10.48
+        "value_usd": 17987130.0,
+        "weight_pct": 11.64
+      },
+      {
+        "cusip": "77543R102",
+        "security_class": "COM CL A",
+        "issuer": "ROKU INC",
+        "shares": 89400.0,
+        "value_usd": 13613832.0,
+        "weight_pct": 8.81
+      },
+      {
+        "cusip": "70975L107",
+        "security_class": "COM",
+        "issuer": "PENUMBRA INC",
+        "shares": 36200.0,
+        "value_usd": 11523908.0,
+        "weight_pct": 7.46
+      },
+      {
+        "cusip": "68622V106",
+        "security_class": "COMMON STOCK",
+        "issuer": "ORGANON & CO",
+        "shares": 656000.0,
+        "value_usd": 8987200.0,
+        "weight_pct": 5.82
       },
       {
         "cusip": "88080T104",
         "security_class": "COM",
         "issuer": "TERAWULF INC",
-        "shares": 616000.0,
-        "value_usd": 15215200.0,
-        "weight_pct": 9.04
-      },
-      {
-        "cusip": "285512109",
-        "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS INC",
-        "shares": 54580.0,
-        "value_usd": 11191083.0,
-        "weight_pct": 6.65
+        "shares": 566000.0,
+        "value_usd": 8376800.0,
+        "weight_pct": 5.42
       },
       {
         "cusip": "92552V100",
         "security_class": "COM",
         "issuer": "VIASAT INC",
         "shares": 103737.0,
-        "value_usd": 9316620.0,
-        "weight_pct": 5.54
+        "value_usd": 7301010.0,
+        "weight_pct": 4.73
       },
       {
-        "cusip": "530307305",
-        "security_class": "COM SER C",
-        "issuer": "LIBERTY BROADBAND CORP",
-        "shares": 271900.0,
-        "value_usd": 9043394.0,
-        "weight_pct": 5.37
-      },
-      {
-        "cusip": "68622V106",
-        "security_class": "COMMON STOCK",
-        "issuer": "ORGANON & CO",
-        "shares": 667400.0,
-        "value_usd": 9036596.0,
-        "weight_pct": 5.37
-      },
-      {
-        "cusip": "70975L107",
+        "cusip": "655844108",
         "security_class": "COM",
-        "issuer": "PENUMBRA INC",
-        "shares": 26200.0,
-        "value_usd": 8272650.0,
-        "weight_pct": 4.92
+        "issuer": "NORFOLK SOUTHN CORP",
+        "shares": 19700.0,
+        "value_usd": 6087300.0,
+        "weight_pct": 3.94
       },
       {
-        "cusip": "G4474Y214",
-        "security_class": "ORD SHS",
-        "issuer": "JANUS HENDERSON GROUP PLC",
-        "shares": 155800.0,
-        "value_usd": 8093810.0,
-        "weight_pct": 4.81
+        "cusip": "70959W103",
+        "security_class": "COM",
+        "issuer": "PENSKE AUTOMOTIVE GRP INC",
+        "shares": 30000.0,
+        "value_usd": 6010200.0,
+        "weight_pct": 3.89
       },
       {
         "cusip": "36472T109",
         "security_class": "COM",
         "issuer": "USA TODAY CO INC",
-        "shares": 747714.0,
-        "value_usd": 6392955.0,
-        "weight_pct": 3.8
+        "shares": 877814.0,
+        "value_usd": 5521450.0,
+        "weight_pct": 3.57
       }
     ],
-    "top_five_pct": 47.96,
-    "top_ten_pct": 72.23,
-    "hhi": 727.22,
+    "top_five_pct": 50.39,
+    "top_ten_pct": 71.95,
+    "hhi": 744.43,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 15,
-      "exited_positions": 17,
-      "increased_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 7,
+      "increased_positions": 5,
       "reduced_positions": 5
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001140361-26-032701"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001140361-26-044108"
       }
     ]
   },
-  "reported_13f_value_usd": 168264932.0,
+  "reported_13f_value_usd": 154487358.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001140361-26-032701",
+  "validated_accession": "0001140361-26-044108",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001848831",
   "investor_name": "MONIMUS CAPITAL MANAGEMENT, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WOODBRIDGE",
   "state": "NJ",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1848831/0001848831-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/1848831/0001848831-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1848831/0001848831-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1848831/0001848831-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "32ea39b5c86f76ede24e3f9024f873b0d909dae2b8889eaa3d3de61db72ec197",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "0585fad654c32a8d64716b40ea129b003b7c58c8facef26d0219d787cdd0c4f6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "031fdd98ddeed4e0f03f7b175f97101511c7919f",
+    "5afe88e7281d32f3b06a3e615b2b5b93103afa26",
+    "db4353089e057b03be43019a3020eb127fe56ae8"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001848831-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1848831/0001848831-26-000005.txt",
-    "distinct_positions": 55,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001848831-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1848831/0001848831-26-000007.txt",
+    "distinct_positions": 52,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 393613058.0,
+    "reported_long_equity_value_usd": 409601865.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "896945201",
         "security_class": "COM",
         "issuer": "TRIPADVISOR INC",
-        "shares": 2511223.0,
-        "value_usd": 34428867.0,
-        "weight_pct": 8.75
-      },
-      {
-        "cusip": "09857L108",
-        "security_class": "COM",
-        "issuer": "BOOKING HOLDINGS INC",
-        "shares": 145478.0,
-        "value_usd": 25929999.0,
-        "weight_pct": 6.59
+        "shares": 3972015.0,
+        "value_usd": 33245766.0,
+        "weight_pct": 8.12
       },
       {
         "cusip": "M8216R109",
         "security_class": "SHS CL A",
         "issuer": "RISKIFIED LTD",
-        "shares": 3619150.0,
-        "value_usd": 18240516.0,
-        "weight_pct": 4.63
+        "shares": 3866172.0,
+        "value_usd": 30581421.0,
+        "weight_pct": 7.47
+      },
+      {
+        "cusip": "09857L108",
+        "security_class": "COM",
+        "issuer": "BOOKING HOLDINGS INC",
+        "shares": 171794.0,
+        "value_usd": 27986961.0,
+        "weight_pct": 6.83
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 37394.0,
+        "value_usd": 19179383.0,
+        "weight_pct": 4.68
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 74550.0,
+        "value_usd": 18574132.0,
+        "weight_pct": 4.53
       },
       {
         "cusip": "55825T103",
         "security_class": "CL A",
         "issuer": "MADISON SQUARE GRDN SPRT COR",
         "shares": 41012.0,
-        "value_usd": 16480262.0,
-        "weight_pct": 4.19
+        "value_usd": 16618473.0,
+        "weight_pct": 4.06
       },
       {
-        "cusip": "594918104",
+        "cusip": "368736104",
         "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 35396.0,
-        "value_usd": 13203416.0,
-        "weight_pct": 3.35
-      },
-      {
-        "cusip": "48123V102",
-        "security_class": "COM",
-        "issuer": "ZIFF DAVIS INC",
-        "shares": 251527.0,
-        "value_usd": 13172469.0,
-        "weight_pct": 3.35
-      },
-      {
-        "cusip": "303075105",
-        "security_class": "COM",
-        "issuer": "FACTSET RESH SYS INC",
-        "shares": 57192.0,
-        "value_usd": 13158735.0,
-        "weight_pct": 3.34
-      },
-      {
-        "cusip": "254423106",
-        "security_class": "COM",
-        "issuer": "DINE BRANDS GLOBAL INC",
-        "shares": 324429.0,
-        "value_usd": 11647001.0,
-        "weight_pct": 2.96
+        "issuer": "GENERAC HLDGS INC",
+        "shares": 66499.0,
+        "value_usd": 13761968.0,
+        "weight_pct": 3.36
       },
       {
         "cusip": "72703H101",
         "security_class": "CL A",
         "issuer": "PLANET FITNESS MASTER ISSUER",
-        "shares": 219748.0,
-        "value_usd": 11464253.0,
-        "weight_pct": 2.91
+        "shares": 303133.0,
+        "value_usd": 12798275.0,
+        "weight_pct": 3.12
       },
       {
-        "cusip": "023135106",
+        "cusip": "88023U101",
         "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 46885.0,
-        "value_usd": 11174571.0,
-        "weight_pct": 2.84
+        "issuer": "SOMNIGROUP INTERNATIONAL INC",
+        "shares": 202238.0,
+        "value_usd": 12561002.0,
+        "weight_pct": 3.07
+      },
+      {
+        "cusip": "577081102",
+        "security_class": "COM",
+        "issuer": "MATTEL INC",
+        "shares": 793485.0,
+        "value_usd": 10045520.0,
+        "weight_pct": 2.45
       }
     ],
-    "top_five_pct": 27.51,
-    "top_ten_pct": 42.91,
-    "hhi": 309.59,
+    "top_five_pct": 31.63,
+    "top_ten_pct": 47.69,
+    "hhi": 348.67,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 30,
-      "exited_positions": 30,
-      "increased_positions": 20,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 16,
+      "increased_positions": 18,
+      "reduced_positions": 11
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001848831-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001848831-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 393613058.0,
+  "reported_13f_value_usd": 409601865.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001848831-26-000005",
+  "validated_accession": "0001848831-26-000007",
   "annualized_turnover_proxy_pct": null
 }

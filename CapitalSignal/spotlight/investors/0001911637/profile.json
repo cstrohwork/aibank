@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001911637",
   "investor_name": "Sovereign's Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Atlanta",
   "state": "GA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1911637/0001172661-25-004850.txt",
-    "https://www.sec.gov/Archives/edgar/data/1911637/0001172661-26-003636.txt"
+    "https://www.sec.gov/Archives/edgar/data/1911637/0001172661-26-003636.txt",
+    "https://www.sec.gov/Archives/edgar/data/1911637/0001172661-26-005297.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "57e901afc08a24c83dff7d615324274d1cf22b9e6374e066a26755866d7e8c4a",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "efee766c3a58caf02baa55bdc895a43560abf645d5e16925b43e42d8f43a5e00",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "43da7a5ec337aad8c3ead656bf619756a2295602",
+    "8df993524210eb159eaad867c2144731c4d147db",
+    "c51fc906156839ba96f4adae9f326a1606a0e8b5"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003636",
-    "source": "https://www.sec.gov/Archives/edgar/data/1911637/0001172661-26-003636.txt",
-    "distinct_positions": 70,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005297",
+    "source": "https://www.sec.gov/Archives/edgar/data/1911637/0001172661-26-005297.txt",
+    "distinct_positions": 66,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 149823647.0,
+    "reported_long_equity_value_usd": 80632284.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "60855R100",
-        "security_class": "COM",
-        "issuer": "MOLINA HEALTHCARE INC",
-        "shares": 41014.0,
-        "value_usd": 9382393.0,
-        "weight_pct": 6.26
-      },
-      {
-        "cusip": "76029L100",
-        "security_class": "COM CL A",
-        "issuer": "REPAY HLDGS CORP",
-        "shares": 1692881.0,
-        "value_usd": 7112136.0,
-        "weight_pct": 4.75
-      },
-      {
-        "cusip": "45778Q107",
-        "security_class": "COM",
-        "issuer": "INSPERITY INC",
-        "shares": 162788.0,
-        "value_usd": 6732669.0,
-        "weight_pct": 4.49
-      },
-      {
-        "cusip": "92840M102",
-        "security_class": "COM",
-        "issuer": "VISTRA CORP",
-        "shares": 37896.0,
-        "value_usd": 6007007.0,
-        "weight_pct": 4.01
-      },
-      {
-        "cusip": "01644J108",
-        "security_class": "COM",
-        "issuer": "ALKAMI TECHNOLOGY INC",
-        "shares": 321766.0,
-        "value_usd": 5833780.0,
-        "weight_pct": 3.89
-      },
-      {
         "cusip": "70432V102",
         "security_class": "COM",
         "issuer": "PAYCOM SOFTWARE INC",
-        "shares": 42938.0,
-        "value_usd": 5401754.0,
-        "weight_pct": 3.61
+        "shares": 19445.0,
+        "value_usd": 4232204.0,
+        "weight_pct": 5.25
       },
       {
-        "cusip": "337738108",
+        "cusip": "747525103",
         "security_class": "COM",
-        "issuer": "FISERV INC",
-        "shares": 102982.0,
-        "value_usd": 5056416.0,
-        "weight_pct": 3.37
+        "issuer": "QUALCOMM INC",
+        "shares": 20280.0,
+        "value_usd": 3732331.0,
+        "weight_pct": 4.63
       },
       {
-        "cusip": "298736109",
+        "cusip": "60855R100",
         "security_class": "COM",
-        "issuer": "EURONET WORLDWIDE INC",
-        "shares": 67518.0,
-        "value_usd": 4944335.0,
-        "weight_pct": 3.3
+        "issuer": "MOLINA HEALTHCARE INC",
+        "shares": 18496.0,
+        "value_usd": 3497594.0,
+        "weight_pct": 4.34
       },
       {
         "cusip": "38526M106",
         "security_class": "COM",
         "issuer": "GRAND CANYON ED INC",
-        "shares": 33116.0,
-        "value_usd": 4742843.0,
-        "weight_pct": 3.17
+        "shares": 20337.0,
+        "value_usd": 3082886.0,
+        "weight_pct": 3.82
       },
       {
-        "cusip": "74164M108",
+        "cusip": "78463M107",
         "security_class": "COM",
-        "issuer": "PRIMERICA INC",
-        "shares": 16214.0,
-        "value_usd": 4610129.0,
-        "weight_pct": 3.08
+        "issuer": "SPS COMM INC",
+        "shares": 36385.0,
+        "value_usd": 2999579.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "76029L100",
+        "security_class": "COM CL A",
+        "issuer": "REPAY HLDGS CORP",
+        "shares": 816713.0,
+        "value_usd": 2956501.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "92840M102",
+        "security_class": "COM",
+        "issuer": "VISTRA CORP",
+        "shares": 18872.0,
+        "value_usd": 2610941.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "68404L201",
+        "security_class": "COM NEW",
+        "issuer": "OPTION CARE HEALTH INC",
+        "shares": 109162.0,
+        "value_usd": 2455053.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "298736109",
+        "security_class": "COM",
+        "issuer": "EURONET WORLDWIDE INC",
+        "shares": 38591.0,
+        "value_usd": 2426216.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "254543101",
+        "security_class": "COM",
+        "issuer": "DIODES INC",
+        "shares": 23939.0,
+        "value_usd": 2317056.0,
+        "weight_pct": 2.87
       }
     ],
-    "top_five_pct": 23.41,
-    "top_ten_pct": 39.93,
-    "hhi": 268.95,
+    "top_five_pct": 21.76,
+    "top_ten_pct": 37.59,
+    "hhi": 245.59,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 16,
-      "increased_positions": 17,
-      "reduced_positions": 45
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 6,
+      "increased_positions": 7,
+      "reduced_positions": 57
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003636"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005297"
       }
     ]
   },
-  "reported_13f_value_usd": 149823647.0,
+  "reported_13f_value_usd": 80632284.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003636",
+  "validated_accession": "0001172661-26-005297",
   "annualized_turnover_proxy_pct": null
 }

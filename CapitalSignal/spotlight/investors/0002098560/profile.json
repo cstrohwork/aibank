@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002098560",
   "investor_name": "MILLBANK DARTMOOR PORTSMOUTH LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ASHEVILLE",
   "state": "NC",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2098560/0001420506-26-001723.txt"
+    "https://www.sec.gov/Archives/edgar/data/2098560/0001420506-26-001723.txt",
+    "https://www.sec.gov/Archives/edgar/data/2098560/0001420506-26-002842.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0363b9c1e9ae8f21e2ec2b34e06f529046f77e20ccb6de02b517ef0898bba588",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "9ed06d89ba64c5badb75350d84f3112da666711328613be1e094840e66e52371",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "619740a24ed34d2312cbc7b897e49deabf362a38",
+    "8487aab95bc511dbf2bf58271c16e5df7a53430e"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001723",
-    "source": "https://www.sec.gov/Archives/edgar/data/2098560/0001420506-26-001723.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002842",
+    "source": "https://www.sec.gov/Archives/edgar/data/2098560/0001420506-26-002842.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 175742002.0,
+    "reported_long_equity_value_usd": 152391718.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,33 +39,44 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 229402.0,
-        "value_usd": 171747202.0,
-        "weight_pct": 97.73
+        "shares": 193902.0,
+        "value_usd": 147875482.0,
+        "weight_pct": 97.04
       },
       {
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
-        "shares": 120000.0,
-        "value_usd": 3994800.0,
-        "weight_pct": 2.27
+        "shares": 95400.0,
+        "value_usd": 4516236.0,
+        "weight_pct": 2.96
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 9555.71,
-    "changes": null,
+    "hhi": 9424.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001723"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002842"
       }
     ]
   },
-  "reported_13f_value_usd": 175742002.0,
+  "reported_13f_value_usd": 152391718.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001723",
+  "validated_accession": "0001420506-26-002842",
   "annualized_turnover_proxy_pct": null
 }

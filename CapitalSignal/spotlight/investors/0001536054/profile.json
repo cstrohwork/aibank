@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001536054",
   "investor_name": "Crestline Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "FORT WORTH",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1536054/0001315863-25-000800.txt",
-    "https://www.sec.gov/Archives/edgar/data/1536054/0001315863-26-000592.txt"
+    "https://www.sec.gov/Archives/edgar/data/1536054/0001315863-26-000592.txt",
+    "https://www.sec.gov/Archives/edgar/data/1536054/0001315863-26-000783.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "52d78f4f629bac0fd72eb0c5b7ddaf3ad34bd791e73d378af4f5a4363979b27b",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "85b0fca49a99dc4ff655d055340ae091b441241a5231afc1be044916357dca61",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0ab8e5237d5fc686fe9c9a0802e693d209ba568d",
+    "51b6393436fb6e2989bcd7b50b18109025c3e666",
+    "d8693c1178614dd8e34b3e0a8560c0e7921b58f8"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001315863-26-000592",
-    "source": "https://www.sec.gov/Archives/edgar/data/1536054/0001315863-26-000592.txt",
-    "distinct_positions": 3,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001315863-26-000783",
+    "source": "https://www.sec.gov/Archives/edgar/data/1536054/0001315863-26-000783.txt",
+    "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 53476000.0,
+    "reported_long_equity_value_usd": 29295800.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,36 +42,28 @@
         "cusip": "24823R105",
         "security_class": "COM",
         "issuer": "DENALI THERAPEUTICS INC",
-        "shares": 1910732.0,
-        "value_usd": 49144027.0,
-        "weight_pct": 91.9
+        "shares": 1310732.0,
+        "value_usd": 27092830.0,
+        "weight_pct": 92.48
       },
       {
         "cusip": "799566104",
         "security_class": "COM",
         "issuer": "SANA BIOTECHNOLOGY INC",
         "shares": 755736.0,
-        "value_usd": 2637619.0,
-        "weight_pct": 4.93
-      },
-      {
-        "cusip": "282914100",
-        "security_class": "COM",
-        "issuer": "8X8 INC NEW",
-        "shares": 990850.0,
-        "value_usd": 1694354.0,
-        "weight_pct": 3.17
+        "value_usd": 2202970.0,
+        "weight_pct": 7.52
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 8479.83,
+    "hhi": 8609.14,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
-      "exited_positions": 0,
-      "increased_positions": 1,
-      "reduced_positions": 2
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -72,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001315863-26-000592"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001315863-26-000783"
       }
     ]
   },
-  "reported_13f_value_usd": 53476000.0,
+  "reported_13f_value_usd": 29295800.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001315863-26-000592",
+  "validated_accession": "0001315863-26-000783",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,126 +1,146 @@
 {
   "manager_cik": "0001841659",
   "investor_name": "DV EQUITIES, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1841659/0001841659-26-000009.txt"
+    "https://www.sec.gov/Archives/edgar/data/1841659/0001841659-26-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1841659/0001841659-26-000012.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a08fad98f5afd7622529869cc44d8e61ec9fe74ac9a743fdc69812deaafe1a49",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "63a708cd38e6424f0a581eea173befc5e3f058ce749434f739aecb6b524e3d90",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "84cced920b06281403f3a71c58b81e2c2b87facc",
+    "f3b88548073ff46815e1fcc88452e95cf1c0ec5a"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001841659-26-000009",
-    "source": "https://www.sec.gov/Archives/edgar/data/1841659/0001841659-26-000009.txt",
-    "distinct_positions": 100,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001841659-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1841659/0001841659-26-000012.txt",
+    "distinct_positions": 122,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 689833600.0,
+    "reported_long_equity_value_usd": 521575806.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "77926X320",
+        "security_class": "MEMORY ETF",
+        "issuer": "ROUNDHILL ETF TRUST",
+        "shares": 1818909.0,
+        "value_usd": 109789347.0,
+        "weight_pct": 21.05
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "GOLD MINERS ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 822209.0,
+        "value_usd": 72189950.0,
+        "weight_pct": 13.84
+      },
+      {
         "cusip": "46434G103",
         "security_class": "CORE MSCI EMKT",
         "issuer": "ISHARES INC",
-        "shares": 1347857.0,
-        "value_usd": 111656474.0,
-        "weight_pct": 16.19
-      },
-      {
-        "cusip": "835699307",
-        "security_class": "SPONSORED ADR",
-        "issuer": "SONY GROUP CORP",
-        "shares": 2529344.0,
-        "value_usd": 50738641.0,
-        "weight_pct": 7.36
+        "shares": 475439.0,
+        "value_usd": 38586629.0,
+        "weight_pct": 7.4
       },
       {
         "cusip": "87583X109",
         "security_class": "COM",
         "issuer": "TANGO THERAPEUTICS INC",
-        "shares": 1318551.0,
-        "value_usd": 41217904.0,
-        "weight_pct": 5.98
+        "shares": 1289778.0,
+        "value_usd": 32179961.0,
+        "weight_pct": 6.17
       },
       {
-        "cusip": "438128308",
-        "security_class": "ADR ECH CNV IN 3",
-        "issuer": "HONDA MOTOR CO LTD",
-        "shares": 1520344.0,
-        "value_usd": 41216526.0,
-        "weight_pct": 5.97
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 342086.0,
+        "value_usd": 24154692.0,
+        "weight_pct": 4.63
       },
       {
         "cusip": "464286772",
         "security_class": "MSCI STH KOR ETF",
         "issuer": "ISHARES INC",
-        "shares": 155525.0,
-        "value_usd": 31400498.0,
-        "weight_pct": 4.55
+        "shares": 119285.0,
+        "value_usd": 21802912.0,
+        "weight_pct": 4.18
       },
       {
-        "cusip": "670100205",
-        "security_class": "ADR",
-        "issuer": "NOVO-NORDISK A S",
-        "shares": 631226.0,
-        "value_usd": 30260974.0,
-        "weight_pct": 4.39
-      },
-      {
-        "cusip": "464287184",
-        "security_class": "CHINA LG-CAP ETF",
-        "issuer": "ISHARES TR",
-        "shares": 861599.0,
-        "value_usd": 27217912.0,
-        "weight_pct": 3.95
-      },
-      {
-        "cusip": "464287465",
-        "security_class": "MSCI EAFE ETF",
-        "issuer": "ISHARES TR",
-        "shares": 184394.0,
-        "value_usd": 19154849.0,
-        "weight_pct": 2.78
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 346442.0,
+        "value_usd": 20547475.0,
+        "weight_pct": 3.94
       },
       {
         "cusip": "N69605108",
         "security_class": "COM",
         "issuer": "PHARVARIS N V",
         "shares": 482524.0,
-        "value_usd": 16685680.0,
-        "weight_pct": 2.42
+        "value_usd": 15305661.0,
+        "weight_pct": 2.93
       },
       {
-        "cusip": "46429B598",
-        "security_class": "MSCI INDIA ETF",
-        "issuer": "ISHARES TR",
-        "shares": 326711.0,
-        "value_usd": 16136256.0,
-        "weight_pct": 2.34
+        "cusip": "46434G772",
+        "security_class": "MSCI TAIWAN ETF",
+        "issuer": "ISHARES INC",
+        "shares": 101142.0,
+        "value_usd": 11418932.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 29810.0,
+        "value_usd": 10157459.0,
+        "weight_pct": 1.95
       }
     ],
-    "top_five_pct": 40.04,
-    "top_ten_pct": 55.91,
-    "hhi": 505.82,
-    "changes": null,
+    "top_five_pct": 53.09,
+    "top_ten_pct": 68.28,
+    "hhi": 827.46,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 76,
+      "exited_positions": 54,
+      "increased_positions": 5,
+      "reduced_positions": 26
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001841659-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001841659-26-000012"
       }
     ]
   },
-  "reported_13f_value_usd": 689833600.0,
+  "reported_13f_value_usd": 521575806.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001841659-26-000009",
+  "validated_accession": "0001841659-26-000012",
   "annualized_turnover_proxy_pct": null
 }

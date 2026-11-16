@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001601086",
   "investor_name": "ARMISTICE CAPITAL, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1601086/0001315863-25-000814.txt",
-    "https://www.sec.gov/Archives/edgar/data/1601086/0001315863-26-000589.txt"
+    "https://www.sec.gov/Archives/edgar/data/1601086/0001315863-26-000589.txt",
+    "https://www.sec.gov/Archives/edgar/data/1601086/0001315863-26-000784.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "17a9bd0489872c403d99d0460f4837436ea85386183fc6a02711a924dfd921f6",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "a7553df0c734132af13aeddb3fa8b63d853f2c15aa33012d3732549b99c77117",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1f954af6d55090e181b6712ce447c010edb87267",
+    "53bb17b4f36795c0a595c1920e038d6f07386836",
+    "a9eee0c5940cd8294f650fd027ebe9cfd82b924e"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001315863-26-000589",
-    "source": "https://www.sec.gov/Archives/edgar/data/1601086/0001315863-26-000589.txt",
-    "distinct_positions": 323,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001315863-26-000784",
+    "source": "https://www.sec.gov/Archives/edgar/data/1601086/0001315863-26-000784.txt",
+    "distinct_positions": 333,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3614910950.0,
+    "reported_long_equity_value_usd": 2982429955.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "558868105",
-        "security_class": "COM",
-        "issuer": "MADRIGAL PHARMACEUTICALS INC",
-        "shares": 288000.0,
-        "value_usd": 154641600.0,
-        "weight_pct": 4.28
-      },
-      {
         "cusip": "868459108",
         "security_class": "COM",
         "issuer": "SUPERNUS PHARMACEUTICALS",
-        "shares": 2646201.0,
-        "value_usd": 123074809.0,
-        "weight_pct": 3.4
+        "shares": 2548000.0,
+        "value_usd": 109665920.0,
+        "weight_pct": 3.68
       },
       {
-        "cusip": "23282W605",
-        "security_class": "COM NEW",
-        "issuer": "CYTOKINETICS INC",
-        "shares": 1201342.0,
-        "value_usd": 102342325.0,
-        "weight_pct": 2.83
-      },
-      {
-        "cusip": "45337C102",
+        "cusip": "00847X104",
         "security_class": "COM",
-        "issuer": "INCYTE CORP",
-        "shares": 900005.0,
-        "value_usd": 102024567.0,
+        "issuer": "AGIOS PHARMACEUTICALS INC",
+        "shares": 2578000.0,
+        "value_usd": 85718500.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "69366J200",
+        "security_class": "COM",
+        "issuer": "PTC THERAPEUTICS INC",
+        "shares": 1297510.0,
+        "value_usd": 84052698.0,
         "weight_pct": 2.82
       },
       {
         "cusip": "64125C109",
         "security_class": "COM",
         "issuer": "NEUROCRINE BIOSCIENCES INC",
-        "shares": 535838.0,
-        "value_usd": 90307457.0,
-        "weight_pct": 2.5
+        "shares": 565251.0,
+        "value_usd": 80175202.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "23282W605",
+        "security_class": "COM NEW",
+        "issuer": "CYTOKINETICS INC",
+        "shares": 1180192.0,
+        "value_usd": 77786455.0,
+        "weight_pct": 2.61
       },
       {
         "cusip": "89422G107",
         "security_class": "COM",
         "issuer": "TRAVERE THERAPEUTICS INC",
-        "shares": 1572539.0,
-        "value_usd": 89335941.0,
-        "weight_pct": 2.47
+        "shares": 1289768.0,
+        "value_usd": 75941540.0,
+        "weight_pct": 2.55
       },
       {
-        "cusip": "00847X104",
+        "cusip": "766559702",
         "security_class": "COM",
-        "issuer": "AGIOS PHARMACEUTICALS INC",
-        "shares": 2400000.0,
-        "value_usd": 89064000.0,
-        "weight_pct": 2.46
+        "issuer": "RIGEL PHARMACEUTICALS INC",
+        "shares": 1536000.0,
+        "value_usd": 73958400.0,
+        "weight_pct": 2.48
       },
       {
-        "cusip": "69366J200",
+        "cusip": "45337C102",
         "security_class": "COM",
-        "issuer": "PTC THERAPEUTICS INC",
-        "shares": 1071395.0,
-        "value_usd": 87393690.0,
-        "weight_pct": 2.42
+        "issuer": "INCYTE CORP",
+        "shares": 600045.0,
+        "value_usd": 72815461.0,
+        "weight_pct": 2.44
       },
       {
-        "cusip": "91324P102",
-        "security_class": "COM",
-        "issuer": "UNITEDHEALTH GROUP INC",
-        "shares": 183000.0,
-        "value_usd": 76060290.0,
-        "weight_pct": 2.1
+        "cusip": "46333X108",
+        "security_class": "COM CL A",
+        "issuer": "IRONWOOD PHARMACEUTICALS INC",
+        "shares": 15000000.0,
+        "value_usd": 59550000.0,
+        "weight_pct": 2.0
       },
       {
-        "cusip": "358039105",
+        "cusip": "45258J102",
         "security_class": "COM",
-        "issuer": "FRESHPET INC",
-        "shares": 1260702.0,
-        "value_usd": 74532702.0,
-        "weight_pct": 2.06
+        "issuer": "IMMUNOVANT INC",
+        "shares": 1738169.0,
+        "value_usd": 58715349.0,
+        "weight_pct": 1.97
       }
     ],
-    "top_five_pct": 15.83,
-    "top_ten_pct": 27.35,
-    "hhi": 140.59,
+    "top_five_pct": 14.67,
+    "top_ten_pct": 26.1,
+    "hhi": 133.34,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 323,
-      "exited_positions": 318,
-      "increased_positions": 0,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 159,
+      "exited_positions": 149,
+      "increased_positions": 69,
+      "reduced_positions": 83
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001315863-26-000589"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001315863-26-000784"
       }
     ]
   },
-  "reported_13f_value_usd": 3614910950.0,
+  "reported_13f_value_usd": 2982429955.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001315863-26-000589",
+  "validated_accession": "0001315863-26-000784",
   "annualized_turnover_proxy_pct": null
 }

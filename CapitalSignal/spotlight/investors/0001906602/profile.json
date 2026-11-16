@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001906602",
   "investor_name": "Alpine Peaks Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1906602/0001906602-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1906602/0000919574-26-005458.txt"
+    "https://www.sec.gov/Archives/edgar/data/1906602/0000919574-26-005458.txt",
+    "https://www.sec.gov/Archives/edgar/data/1906602/0000919574-26-007985.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "830a5f5791ae8f81bf0341447d7811383385267db64e6fa7a2a7b32016c1ce98",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "6839337ca9649c6dc0defacd8ced84e5353451706b517838cbeb41368a270a11",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "33fbcb6df51aaa22eeaa822452b4ca4a56d70cca",
+    "bd2fae0ebf6b808fd82ef0d0599ff1d4952ae6d7",
+    "f5c85a9e4f4da39e5fb03a86fbb339426b16d417"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005458",
-    "source": "https://www.sec.gov/Archives/edgar/data/1906602/0000919574-26-005458.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007985",
+    "source": "https://www.sec.gov/Archives/edgar/data/1906602/0000919574-26-007985.txt",
     "distinct_positions": 20,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 85368388.0,
+    "reported_long_equity_value_usd": 77868173.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "422806208",
         "security_class": "CL A",
         "issuer": "HEICO CORP NEW",
-        "shares": 28368.0,
-        "value_usd": 7316391.0,
-        "weight_pct": 8.57
+        "shares": 27468.0,
+        "value_usd": 6271768.0,
+        "weight_pct": 8.05
       },
       {
         "cusip": "955306105",
         "security_class": "COM",
         "issuer": "WEST PHARMACEUTICAL SVSC INC",
-        "shares": 19191.0,
-        "value_usd": 6889569.0,
-        "weight_pct": 8.07
-      },
-      {
-        "cusip": "192422103",
-        "security_class": "COM",
-        "issuer": "COGNEX CORP",
-        "shares": 89599.0,
-        "value_usd": 6488760.0,
-        "weight_pct": 7.6
+        "shares": 16691.0,
+        "value_usd": 6188355.0,
+        "weight_pct": 7.95
       },
       {
         "cusip": "109194100",
         "security_class": "COM",
         "issuer": "BRIGHT HORIZONS FAM SOL IN D",
-        "shares": 77539.0,
-        "value_usd": 5495964.0,
-        "weight_pct": 6.44
-      },
-      {
-        "cusip": "90337L108",
-        "security_class": "COM",
-        "issuer": "U S PHYSICAL THERAPY",
-        "shares": 76487.0,
-        "value_usd": 5253127.0,
-        "weight_pct": 6.15
-      },
-      {
-        "cusip": "58506Q109",
-        "security_class": "COM",
-        "issuer": "MEDPACE HLDGS INC",
-        "shares": 9418.0,
-        "value_usd": 4987679.0,
-        "weight_pct": 5.84
+        "shares": 78139.0,
+        "value_usd": 4979017.0,
+        "weight_pct": 6.39
       },
       {
         "cusip": "537008104",
         "security_class": "COM",
         "issuer": "LITTELFUSE INC",
-        "shares": 10897.0,
-        "value_usd": 4961731.0,
-        "weight_pct": 5.81
+        "shares": 11697.0,
+        "value_usd": 4956487.0,
+        "weight_pct": 6.37
+      },
+      {
+        "cusip": "192422103",
+        "security_class": "COM",
+        "issuer": "COGNEX CORP",
+        "shares": 80419.0,
+        "value_usd": 4877412.0,
+        "weight_pct": 6.26
+      },
+      {
+        "cusip": "90337L108",
+        "security_class": "COM",
+        "issuer": "U S PHYSICAL THERAPY",
+        "shares": 56487.0,
+        "value_usd": 4842631.0,
+        "weight_pct": 6.22
       },
       {
         "cusip": "426281101",
         "security_class": "COM",
         "issuer": "HENRY JACK & ASSOC INC",
-        "shares": 34480.0,
-        "value_usd": 4749275.0,
-        "weight_pct": 5.56
+        "shares": 33180.0,
+        "value_usd": 4752703.0,
+        "weight_pct": 6.1
       },
       {
-        "cusip": "09073M104",
+        "cusip": "58506Q109",
         "security_class": "COM",
-        "issuer": "BIO-TECHNE CORP",
-        "shares": 66960.0,
-        "value_usd": 4730724.0,
-        "weight_pct": 5.54
+        "issuer": "MEDPACE HLDGS INC",
+        "shares": 7468.0,
+        "value_usd": 4661376.0,
+        "weight_pct": 5.99
       },
       {
         "cusip": "89531P105",
         "security_class": "COM",
         "issuer": "TREX INC",
-        "shares": 91762.0,
-        "value_usd": 4591770.0,
+        "shares": 96262.0,
+        "value_usd": 4193173.0,
         "weight_pct": 5.38
+      },
+      {
+        "cusip": "30040P103",
+        "security_class": "COM",
+        "issuer": "EVERTEC INC",
+        "shares": 155126.0,
+        "value_usd": 4180646.0,
+        "weight_pct": 5.37
       }
     ],
-    "top_five_pct": 36.83,
-    "top_ten_pct": 64.97,
-    "hhi": 572.5,
+    "top_five_pct": 35.02,
+    "top_ten_pct": 64.09,
+    "hhi": 566.57,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 4,
-      "increased_positions": 4,
-      "reduced_positions": 15
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
+      "increased_positions": 6,
+      "reduced_positions": 9
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005458"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007985"
       }
     ]
   },
-  "reported_13f_value_usd": 85368388.0,
+  "reported_13f_value_usd": 77868173.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005458",
+  "validated_accession": "0000919574-26-007985",
   "annualized_turnover_proxy_pct": null
 }

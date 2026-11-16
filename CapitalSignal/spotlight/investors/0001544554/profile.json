@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001544554",
   "investor_name": "GRS Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Chicago",
   "state": "IL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1544554/0001172661-25-004843.txt",
-    "https://www.sec.gov/Archives/edgar/data/1544554/0001172661-26-003501.txt"
+    "https://www.sec.gov/Archives/edgar/data/1544554/0001172661-26-003501.txt",
+    "https://www.sec.gov/Archives/edgar/data/1544554/0001172661-26-005161.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "956a26f9f7bcf4d5d8d77c53246cd20b822dc679caeef88eb0ad5b3029169a86",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e0c9bc926d4e7c67c2c28f6daaf16c928ad1fcb96dabd25363cad92cab9fe4c8",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1fe09096499fe5a3e93d3c2ce64745109f2caa56",
+    "4041a0f6c39ec9d1937a78292da12b04dbaa1020",
+    "d35c52e44629801cafb00312c19415a11ec2e681"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003501",
-    "source": "https://www.sec.gov/Archives/edgar/data/1544554/0001172661-26-003501.txt",
-    "distinct_positions": 27,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005161",
+    "source": "https://www.sec.gov/Archives/edgar/data/1544554/0001172661-26-005161.txt",
+    "distinct_positions": 26,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1184355738.0,
+    "reported_long_equity_value_usd": 1099743476.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "14174T107",
-        "security_class": "COM",
-        "issuer": "CARETRUST REIT INC",
-        "shares": 2338620.0,
-        "value_usd": 94363317.0,
-        "weight_pct": 7.97
-      },
-      {
-        "cusip": "03027X100",
-        "security_class": "COM",
-        "issuer": "AMERICAN TOWER CORP",
-        "shares": 543575.0,
-        "value_usd": 88912563.0,
-        "weight_pct": 7.51
-      },
-      {
-        "cusip": "12504L109",
-        "security_class": "CL A",
-        "issuer": "CBRE GROUP INC",
-        "shares": 557676.0,
-        "value_usd": 75113380.0,
-        "weight_pct": 6.34
-      },
-      {
-        "cusip": "398182303",
-        "security_class": "COM SHS",
-        "issuer": "AMERICAN HEALTHCARE REIT INC",
-        "shares": 1408592.0,
-        "value_usd": 73458073.0,
-        "weight_pct": 6.2
-      },
-      {
-        "cusip": "23128Q101",
-        "security_class": "COM",
-        "issuer": "CURBLINE PPTYS CORP",
-        "shares": 2414069.0,
-        "value_usd": 73387698.0,
-        "weight_pct": 6.2
-      },
-      {
-        "cusip": "22002T108",
-        "security_class": "SHS BEN INT",
-        "issuer": "COPT DEFENSE PROPERTIES",
-        "shares": 1930934.0,
-        "value_usd": 70266688.0,
-        "weight_pct": 5.93
-      },
-      {
-        "cusip": "78410G104",
-        "security_class": "CL A",
-        "issuer": "SBA COMMUNICATIONS CORP",
-        "shares": 368869.0,
-        "value_usd": 65090624.0,
-        "weight_pct": 5.5
-      },
-      {
         "cusip": "76169C100",
         "security_class": "COM",
         "issuer": "REXFORD INDL RLTY INC",
-        "shares": 1849516.0,
-        "value_usd": 61958786.0,
-        "weight_pct": 5.23
-      },
-      {
-        "cusip": "78377T107",
-        "security_class": "COM",
-        "issuer": "RYMAN HOSPITALITY PPTYS INC",
-        "shares": 423830.0,
-        "value_usd": 54483347.0,
-        "weight_pct": 4.6
+        "shares": 2399522.0,
+        "value_usd": 87030663.0,
+        "weight_pct": 7.91
       },
       {
         "cusip": "11135E203",
         "security_class": "COM",
         "issuer": "BROADSTONE NET LEASE INC",
-        "shares": 2420071.0,
-        "value_usd": 50022868.0,
-        "weight_pct": 4.22
+        "shares": 3762253.0,
+        "value_usd": 69601681.0,
+        "weight_pct": 6.33
+      },
+      {
+        "cusip": "22002T108",
+        "security_class": "SHS BEN INT",
+        "issuer": "COPT DEFENSE PROPERTIES",
+        "shares": 2074772.0,
+        "value_usd": 69297385.0,
+        "weight_pct": 6.3
+      },
+      {
+        "cusip": "11120U105",
+        "security_class": "COM",
+        "issuer": "BRIXMOR PPTY GROUP INC",
+        "shares": 2501057.0,
+        "value_usd": 69029173.0,
+        "weight_pct": 6.28
+      },
+      {
+        "cusip": "69007J304",
+        "security_class": "COM NEW",
+        "issuer": "OUTFRONT MEDIA INC",
+        "shares": 2430371.0,
+        "value_usd": 67442795.0,
+        "weight_pct": 6.13
+      },
+      {
+        "cusip": "398182303",
+        "security_class": "COM SHS",
+        "issuer": "AMERICAN HEALTHCARE REIT INC",
+        "shares": 1311138.0,
+        "value_usd": 67208934.0,
+        "weight_pct": 6.11
+      },
+      {
+        "cusip": "44107P104",
+        "security_class": "COM",
+        "issuer": "HOST HOTELS & RESORTS INC",
+        "shares": 2621509.0,
+        "value_usd": 58695587.0,
+        "weight_pct": 5.34
+      },
+      {
+        "cusip": "23128Q101",
+        "security_class": "COM",
+        "issuer": "CURBLINE PPTYS CORP",
+        "shares": 2085730.0,
+        "value_usd": 58045866.0,
+        "weight_pct": 5.28
+      },
+      {
+        "cusip": "502175102",
+        "security_class": "COM",
+        "issuer": "LTC PPTYS INC",
+        "shares": 1221302.0,
+        "value_usd": 52357217.0,
+        "weight_pct": 4.76
+      },
+      {
+        "cusip": "101121101",
+        "security_class": "COM",
+        "issuer": "BXP INC",
+        "shares": 852730.0,
+        "value_usd": 52110330.0,
+        "weight_pct": 4.74
       }
     ],
-    "top_five_pct": 34.22,
-    "top_ten_pct": 59.7,
-    "hhi": 494.63,
+    "top_five_pct": 32.95,
+    "top_ten_pct": 59.18,
+    "hhi": 499.45,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 9,
-      "exited_positions": 13,
-      "increased_positions": 7,
-      "reduced_positions": 11
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 9,
+      "increased_positions": 8,
+      "reduced_positions": 10
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003501"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005161"
       }
     ]
   },
-  "reported_13f_value_usd": 1184355738.0,
+  "reported_13f_value_usd": 1099743476.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003501",
+  "validated_accession": "0001172661-26-005161",
   "annualized_turnover_proxy_pct": null
 }

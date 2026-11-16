@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001533421",
   "investor_name": "Tower Research Capital LLC (TRC)",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1533421/0001533421-25-000019.txt",
-    "https://www.sec.gov/Archives/edgar/data/1533421/0001533421-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1533421/0001533421-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1533421/0001533421-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7a99d881ae42218c61bc48e86aa9f8e5395f65d52cd38f73e63fece75a860403",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "30da478983c7a831fc3560d98e1ca07398b2a4c5248c2f1ed1f1ed011b2f6c72",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2fb0f0588432fde9ce1521be39541da837cf4912",
+    "be1e559f36ee65bc4d81fd3afe0b13331b55dc31",
+    "dcd6575d0c2367938c89c6a41f7cbc46f7f6a861"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001533421-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1533421/0001533421-26-000008.txt",
-    "distinct_positions": 5180,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001533421-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1533421/0001533421-26-000010.txt",
+    "distinct_positions": 5890,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4083888404.0,
+    "reported_long_equity_value_usd": 9012024228.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "78462F103",
-        "security_class": "500 ETF T TR UNIT",
-        "issuer": "STATE STR SPDR S&P",
-        "shares": 233359.0,
-        "value_usd": 174265500.0,
-        "weight_pct": 4.27
-      },
-      {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 467785.0,
-        "value_usd": 93599101.0,
-        "weight_pct": 2.29
-      },
-      {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 112156.0,
-        "value_usd": 83992506.0,
-        "weight_pct": 2.06
+        "shares": 1925120.0,
+        "value_usd": 439658905.0,
+        "weight_pct": 4.88
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 269878.0,
-        "value_usd": 78091898.0,
-        "weight_pct": 1.91
+        "shares": 1083360.0,
+        "value_usd": 360780547.0,
+        "weight_pct": 4.0
       },
       {
-        "cusip": "78464A375",
-        "security_class": "INTER BD ETF",
-        "issuer": "SPDR SERIES TRUST ST",
-        "shares": 2083008.0,
-        "value_usd": 69697447.0,
-        "weight_pct": 1.71
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 56159.0,
-        "value_usd": 64823773.0,
-        "weight_pct": 1.59
-      },
-      {
-        "cusip": "25459W458",
-        "security_class": "DAI SEM BUL ETF",
-        "issuer": "DIREXION SHARES ETF TRUST",
-        "shares": 238921.0,
-        "value_usd": 63722620.0,
-        "weight_pct": 1.56
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 435334.0,
+        "value_usd": 331998768.0,
+        "weight_pct": 3.68
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 148293.0,
-        "value_usd": 55316255.0,
-        "weight_pct": 1.35
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 140400.0,
-        "value_usd": 53036100.0,
-        "weight_pct": 1.3
+        "shares": 643049.0,
+        "value_usd": 329819832.0,
+        "weight_pct": 3.66
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 220370.0,
-        "value_usd": 52522986.0,
-        "weight_pct": 1.29
+        "shares": 786601.0,
+        "value_usd": 195981639.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 506532.0,
+        "value_usd": 174287530.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 203583.0,
+        "value_usd": 147634320.0,
+        "weight_pct": 1.64
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 431067.0,
+        "value_usd": 146881770.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 130186.0,
+        "value_usd": 138662411.0,
+        "weight_pct": 1.54
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 382252.0,
+        "value_usd": 134243080.0,
+        "weight_pct": 1.49
       }
     ],
-    "top_five_pct": 12.23,
-    "top_ten_pct": 19.32,
-    "hhi": 64.61,
+    "top_five_pct": 18.4,
+    "top_ten_pct": 26.63,
+    "hhi": 101.98,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1364,
-      "exited_positions": 1375,
-      "increased_positions": 2304,
-      "reduced_positions": 1505
+      "previous_period": "2026-06-30",
+      "new_positions": 1617,
+      "exited_positions": 907,
+      "increased_positions": 2914,
+      "reduced_positions": 1323
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001533421-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001533421-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 4083888404.0,
+  "reported_13f_value_usd": 9012024228.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001533421-26-000008",
+  "validated_accession": "0001533421-26-000010",
   "annualized_turnover_proxy_pct": null
 }

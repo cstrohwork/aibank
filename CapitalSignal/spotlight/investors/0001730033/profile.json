@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001730033",
   "investor_name": "Crewe Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-24",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SALT LAKE CITY",
   "state": "UT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1730033/0001730033-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1730033/0001730033-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1730033/0001730033-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1730033/0001730033-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2225c07ed04df2f99247e0ccef6d18c4f5da26f43b5174fac12e85541462afe1",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "5c7fb4e53d469f760b5f465a0e451fa6d52945ecfd647bb30623e18eab9a460c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-07-24|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "94a131c284b5e186b2b4616c7ba29c35ba51b815",
+    "afce6d5e7f2c8e89cc78ec488cef4cfd432df9b4",
+    "b88aa9d3daa1121d9e15aef0770c3e412ce58768"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-24",
-    "accession": "0001730033-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1730033/0001730033-26-000003.txt",
-    "distinct_positions": 1135,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001730033-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1730033/0001730033-26-000005.txt",
+    "distinct_positions": 1081,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1380328637.0,
+    "reported_long_equity_value_usd": 1384199122.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 214948.0,
-        "value_usd": 160972665.0,
-        "weight_pct": 11.66
+        "shares": 224702.0,
+        "value_usd": 172088078.0,
+        "weight_pct": 12.43
       },
       {
         "cusip": "69380Q107",
         "security_class": "COM SHS",
         "issuer": "PACS GROUP INC",
-        "shares": 3307188.0,
-        "value_usd": 141018497.0,
-        "weight_pct": 10.22
+        "shares": 2681329.0,
+        "value_usd": 111409220.0,
+        "weight_pct": 8.05
       },
       {
         "cusip": "464287507",
         "security_class": "CORE S&P MCP ETF",
         "issuer": "ISHARES TR",
-        "shares": 1043164.0,
-        "value_usd": 80438378.0,
-        "weight_pct": 5.83
+        "shares": 1098258.0,
+        "value_usd": 79019674.0,
+        "weight_pct": 5.71
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 104579.0,
-        "value_usd": 78096719.0,
-        "weight_pct": 5.66
+        "shares": 103460.0,
+        "value_usd": 78901638.0,
+        "weight_pct": 5.7
       },
       {
         "cusip": "46432F842",
         "security_class": "CORE MSCI EAFE",
         "issuer": "ISHARES TR",
-        "shares": 660188.0,
-        "value_usd": 63760976.0,
-        "weight_pct": 4.62
+        "shares": 704650.0,
+        "value_usd": 68266503.0,
+        "weight_pct": 4.93
       },
       {
         "cusip": "921937835",
         "security_class": "TOTAL BND MRKT",
         "issuer": "VANGUARD BD INDEX FDS",
-        "shares": 691686.0,
-        "value_usd": 50776675.0,
+        "shares": 726167.0,
+        "value_usd": 50940593.0,
         "weight_pct": 3.68
       },
       {
         "cusip": "921910733",
         "security_class": "ESG US STK ETF",
         "issuer": "VANGUARD WORLD FD",
-        "shares": 364656.0,
-        "value_usd": 48222175.0,
-        "weight_pct": 3.49
-      },
-      {
-        "cusip": "233051200",
-        "security_class": "XTRACK MSCI EAFE",
-        "issuer": "DBX ETF TR",
-        "shares": 778666.0,
-        "value_usd": 42538501.0,
-        "weight_pct": 3.08
+        "shares": 362033.0,
+        "value_usd": 49066400.0,
+        "weight_pct": 3.54
       },
       {
         "cusip": "69344A107",
         "security_class": "PGIM ULTRA SH BD",
         "issuer": "PGIM ETF TR",
-        "shares": 847303.0,
-        "value_usd": 41985840.0,
-        "weight_pct": 3.04
+        "shares": 895950.0,
+        "value_usd": 44315779.0,
+        "weight_pct": 3.2
       },
       {
-        "cusip": "084670108",
-        "security_class": "CL A",
-        "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 55.0,
-        "value_usd": 41186750.0,
-        "weight_pct": 2.98
+        "cusip": "233051200",
+        "security_class": "XTRACK MSCI EAFE",
+        "issuer": "DBX ETF TR",
+        "shares": 799573.0,
+        "value_usd": 43936513.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 84903.0,
+        "value_usd": 43546783.0,
+        "weight_pct": 3.15
       }
     ],
-    "top_five_pct": 37.98,
-    "top_ten_pct": 54.26,
-    "hhi": 428.65,
+    "top_five_pct": 36.82,
+    "top_ten_pct": 53.57,
+    "hhi": 414.2,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 381,
-      "exited_positions": 210,
-      "increased_positions": 366,
-      "reduced_positions": 179
+      "previous_period": "2026-06-30",
+      "new_positions": 103,
+      "exited_positions": 157,
+      "increased_positions": 328,
+      "reduced_positions": 333
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-24",
         "accession": "0001730033-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001730033-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 1380328637.0,
+  "reported_13f_value_usd": 1384199122.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001730033-26-000003",
+  "validated_accession": "0001730033-26-000005",
   "annualized_turnover_proxy_pct": null
 }

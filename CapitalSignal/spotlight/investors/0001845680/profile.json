@@ -1,28 +1,37 @@
 {
   "manager_cik": "0001845680",
   "investor_name": "Marino Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-28",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WESTPORT",
   "state": "CT",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1845680/0001172661-26-002886.txt"
+    "https://www.sec.gov/Archives/edgar/data/1845680/0001172661-26-002886.txt",
+    "https://www.sec.gov/Archives/edgar/data/1845680/0001172661-26-005308.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "117649725a4835c61e784f914574d8312baa82690bf896ec34ecfb81037437fb",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "a5ef7c4f805ae74e78094737602c8f2179a7fdcc9b27f0ce8073087a30b6c8a5",
+  "accession_fingerprints": [
+    "2026-06-30|2026-07-28|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "567c6496e620859e9a90999cfa9349271dd7f704",
+    "fad5093d2f1685542ca93f319f1299d96944d80e"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-28",
-    "accession": "0001172661-26-002886",
-    "source": "https://www.sec.gov/Archives/edgar/data/1845680/0001172661-26-002886.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005308",
+    "source": "https://www.sec.gov/Archives/edgar/data/1845680/0001172661-26-005308.txt",
+    "distinct_positions": 12,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 479931765.0,
+    "reported_long_equity_value_usd": 498008542.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,96 +40,107 @@
         "security_class": "GOLD SHS",
         "issuer": "SPDR GOLD TR",
         "shares": 1106395.0,
-        "value_usd": 407573790.0,
-        "weight_pct": 84.92
+        "value_usd": 421359472.0,
+        "weight_pct": 84.61
       },
       {
         "cusip": "464287176",
         "security_class": "TIPS BD ETF",
         "issuer": "ISHARES TR",
         "shares": 126194.0,
-        "value_usd": 13868721.0,
-        "weight_pct": 2.89
+        "value_usd": 13129224.0,
+        "weight_pct": 2.64
       },
       {
         "cusip": "464287432",
         "security_class": "20 YR TR BD ETF",
         "issuer": "ISHARES TR",
         "shares": 154653.0,
-        "value_usd": 13524405.0,
-        "weight_pct": 2.82
+        "value_usd": 12028910.0,
+        "weight_pct": 2.42
       },
       {
         "cusip": "464285204",
         "security_class": "ISHARES NEW",
         "issuer": "ISHARES GOLD TR",
         "shares": 149479.0,
-        "value_usd": 11290149.0,
-        "weight_pct": 2.35
+        "value_usd": 11674310.0,
+        "weight_pct": 2.34
       },
       {
         "cusip": "921943858",
         "security_class": "VAN FTSE DEV MKT",
         "issuer": "VANGUARD TAX-MANAGED FDS",
         "shares": 113061.0,
-        "value_usd": 8018286.0,
-        "weight_pct": 1.67
+        "value_usd": 7983237.0,
+        "weight_pct": 1.6
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
         "shares": 10836.0,
-        "value_usd": 7379424.0,
-        "weight_pct": 1.54
-      },
-      {
-        "cusip": "922042858",
-        "security_class": "FTSE EMR MKT ETF",
-        "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 100287.0,
-        "value_usd": 5934985.0,
-        "weight_pct": 1.24
+        "value_usd": 7594519.0,
+        "weight_pct": 1.52
       },
       {
         "cusip": "086921103",
         "security_class": "COM SHS CL A",
         "issuer": "BETA TECHNOLOGIES INC",
         "shares": 313992.0,
-        "value_usd": 5259366.0,
-        "weight_pct": 1.1
+        "value_usd": 6939223.0,
+        "weight_pct": 1.39
+      },
+      {
+        "cusip": "922042858",
+        "security_class": "FTSE EMR MKT ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 100287.0,
+        "value_usd": 5948022.0,
+        "weight_pct": 1.19
       },
       {
         "cusip": "46138B103",
         "security_class": "UNIT",
         "issuer": "INVESCO DB COMMDY INDX TRCK",
         "shares": 155962.0,
-        "value_usd": 4142351.0,
-        "weight_pct": 0.86
+        "value_usd": 5040692.0,
+        "weight_pct": 1.01
       },
       {
-        "cusip": "46428R107",
-        "security_class": "UNIT BEN INT",
-        "issuer": "ISHARES S&P GSCI COMMODITY-",
-        "shares": 52091.0,
-        "value_usd": 1481468.0,
-        "weight_pct": 0.31
+        "cusip": "29445S100",
+        "security_class": "COM CL A",
+        "issuer": "EQUIPMENTSHARE COM INC",
+        "shares": 156724.0,
+        "value_usd": 2722296.0,
+        "weight_pct": 0.55
       }
     ],
-    "top_five_pct": 94.65,
-    "top_ten_pct": 99.7,
-    "hhi": 7242.61,
-    "changes": null,
+    "top_five_pct": 93.61,
+    "top_ten_pct": 99.28,
+    "hhi": 7186.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-07-28",
         "accession": "0001172661-26-002886"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005308"
       }
     ]
   },
-  "reported_13f_value_usd": 479931765.0,
+  "reported_13f_value_usd": 498008542.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-002886",
+  "validated_accession": "0001172661-26-005308",
   "annualized_turnover_proxy_pct": null
 }

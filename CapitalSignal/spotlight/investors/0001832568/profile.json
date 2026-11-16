@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001832568",
   "investor_name": "RPD Fund Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,55 +10,50 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-25-006997.txt",
-    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-005370.txt"
+    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-005370.txt",
+    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-008067.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f2bf74dab108f51a6564b7d2c083ae2b547e31d51504f211a7787eda73b7643a",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "0ee902064509575c38d6c603cba3b01b6c1fcdaec5da524fac25711a6db61e22",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1ce43c0b2538862ecef0da4fc51edfe7d8ee574d",
+    "60bc6d6d9f0cc0ece55c2156ee393268dbf60252",
+    "70e970f41b7baef759138ec4ad7cfc1abf7be27b"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005370",
-    "source": "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-005370.txt",
-    "distinct_positions": 3,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-008067",
+    "source": "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-008067.txt",
+    "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 75724387.0,
+    "reported_long_equity_value_usd": 13070766.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "03782L101",
-        "security_class": "CL A",
-        "issuer": "APPIAN CORP",
-        "shares": 1856981.0,
-        "value_usd": 42524865.0,
-        "weight_pct": 56.16
-      },
-      {
         "cusip": "98980F104",
         "security_class": "COMMON STOCK",
         "issuer": "ZOOMINFO TECHNOLOGIES INC",
-        "shares": 6131391.0,
-        "value_usd": 17964976.0,
-        "weight_pct": 23.72
-      },
-      {
-        "cusip": "653656108",
-        "security_class": "SPONSORED ADR",
-        "issuer": "NICE LTD",
-        "shares": 167689.0,
-        "value_usd": 15234546.0,
-        "weight_pct": 20.12
+        "shares": 3448751.0,
+        "value_usd": 13070766.0,
+        "weight_pct": 100.0
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 4121.24,
+    "hhi": 10000.0,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 2,
       "increased_positions": 0,
       "reduced_positions": 1
     },
@@ -72,11 +67,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005370"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-008067"
       }
     ]
   },
-  "reported_13f_value_usd": 75724387.0,
+  "reported_13f_value_usd": 13070766.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005370",
+  "validated_accession": "0000919574-26-008067",
   "annualized_turnover_proxy_pct": null
 }

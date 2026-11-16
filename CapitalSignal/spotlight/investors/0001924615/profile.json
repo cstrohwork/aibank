@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001924615",
   "investor_name": "Millington Financial Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NAPERVILLE",
   "state": "IL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1924615/0001986152-25-000093.txt",
-    "https://www.sec.gov/Archives/edgar/data/1924615/0001986152-26-000112.txt"
+    "https://www.sec.gov/Archives/edgar/data/1924615/0001986152-26-000112.txt",
+    "https://www.sec.gov/Archives/edgar/data/1924615/0001986152-26-000208.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3863c3af77f819ae5ed7a36313be15051f22500817e0f92a14fa2d1616a9606a",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "9fe55075d5e2234a6820d2bad36a11768dadfe00c024694589606758e4ee242b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-30|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "15f97e5a4a46803e80c7dd1bba23660d1e0f40cc",
+    "3c4e7c11b797c7363c09b71cca9754da089e00b2",
+    "3d1eefd7e9c371fc7d9fe615bcd57d55ae4dcad2"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0001986152-26-000112",
-    "source": "https://www.sec.gov/Archives/edgar/data/1924615/0001986152-26-000112.txt",
-    "distinct_positions": 128,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001986152-26-000208",
+    "source": "https://www.sec.gov/Archives/edgar/data/1924615/0001986152-26-000208.txt",
+    "distinct_positions": 139,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 254382539.0,
+    "reported_long_equity_value_usd": 260244136.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "78464A409",
-        "security_class": "ST STR P500GRW",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 140478.0,
-        "value_usd": 16330571.0,
-        "weight_pct": 6.42
-      },
-      {
         "cusip": "78463X889",
         "security_class": "ST STR PO EX ETF",
         "issuer": "SPDR INDEX SHS FDS",
-        "shares": 321106.0,
-        "value_usd": 15856231.0,
-        "weight_pct": 6.23
+        "shares": 337989.0,
+        "value_usd": 16679766.0,
+        "weight_pct": 6.41
+      },
+      {
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 132885.0,
+        "value_usd": 15396054.0,
+        "weight_pct": 5.92
       },
       {
         "cusip": "78464A508",
         "security_class": "ST STR P500VAL",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 235324.0,
-        "value_usd": 14571279.0,
-        "weight_pct": 5.73
-      },
-      {
-        "cusip": "78464A847",
-        "security_class": "ST STR P400MID",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 143428.0,
-        "value_usd": 9492068.0,
-        "weight_pct": 3.73
-      },
-      {
-        "cusip": "26922A420",
-        "security_class": "DEFIA QUANT ETF",
-        "issuer": "ETF SER SOLUTIONS",
-        "shares": 64965.0,
-        "value_usd": 9204868.0,
-        "weight_pct": 3.62
+        "shares": 220358.0,
+        "value_usd": 14263780.0,
+        "weight_pct": 5.48
       },
       {
         "cusip": "78463X509",
         "security_class": "ST PORT MARK ETF",
         "issuer": "SPDR INDEX SHS FDS",
-        "shares": 179874.0,
-        "value_usd": 9027891.0,
-        "weight_pct": 3.55
+        "shares": 187010.0,
+        "value_usd": 9191553.0,
+        "weight_pct": 3.53
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ST STR P400MID",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 136618.0,
+        "value_usd": 8837843.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "26922A420",
+        "security_class": "DEFIA QUANT ETF",
+        "issuer": "ETF SER SOLUTIONS",
+        "shares": 60819.0,
+        "value_usd": 8057855.0,
+        "weight_pct": 3.1
       },
       {
         "cusip": "78468R853",
         "security_class": "ST STR SP600 SML",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 153627.0,
-        "value_usd": 8719850.0,
-        "weight_pct": 3.43
+        "shares": 146299.0,
+        "value_usd": 7998149.0,
+        "weight_pct": 3.07
       },
       {
         "cusip": "09290C103",
         "security_class": "ISHARES US EQUIT",
         "issuer": "BLACKROCK ETF TRUST",
-        "shares": 117357.0,
-        "value_usd": 7861764.0,
-        "weight_pct": 3.09
+        "shares": 115139.0,
+        "value_usd": 7738503.0,
+        "weight_pct": 2.97
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 10076.0,
-        "value_usd": 7489395.0,
-        "weight_pct": 2.94
+        "shares": 10079.0,
+        "value_usd": 7631197.0,
+        "weight_pct": 2.93
       },
       {
-        "cusip": "45783Y301",
-        "security_class": "US EQUITY ACCELE",
-        "issuer": "INNOVATOR ETFS TRUST",
-        "shares": 144583.0,
-        "value_usd": 6063811.0,
-        "weight_pct": 2.38
+        "cusip": "78464A631",
+        "security_class": "ST STR SP AERO",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 24000.0,
+        "value_usd": 5602560.0,
+        "weight_pct": 2.15
       }
     ],
-    "top_five_pct": 25.73,
-    "top_ten_pct": 41.13,
-    "hhi": 249.57,
+    "top_five_pct": 24.73,
+    "top_ten_pct": 38.96,
+    "hhi": 232.59,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 57,
-      "exited_positions": 32,
-      "increased_positions": 43,
-      "reduced_positions": 26
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 16,
+      "increased_positions": 55,
+      "reduced_positions": 42
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0001986152-26-000112"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001986152-26-000208"
       }
     ]
   },
-  "reported_13f_value_usd": 254382539.0,
+  "reported_13f_value_usd": 260244136.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001986152-26-000112",
+  "validated_accession": "0001986152-26-000208",
   "annualized_turnover_proxy_pct": null
 }

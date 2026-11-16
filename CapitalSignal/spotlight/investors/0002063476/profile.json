@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002063476",
   "investor_name": "HF Capital, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "KNOXVILLE",
   "state": "TN",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2063476/0002063476-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2063476/0002063476-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2063476/0002063476-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ee26d9e82bd8766decdaacb9784e611bf084ebb00f3411287cca3f5e16d5a54e",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "9e3189237a3994c7ec00a1d3b5ee12d702e2945cf237ed1e0d2b99c6489615ec",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "26c25b009b3f0de4254879c5fcc2a6763765e705",
+    "6decad999bc3050bf818b4443076193270486a86"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0002063476-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2063476/0002063476-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002063476-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2063476/0002063476-26-000005.txt",
     "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 296702785.0,
+    "reported_long_equity_value_usd": 304224518.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,56 +40,67 @@
         "security_class": "MSCI ACWI ETF",
         "issuer": "ISHARES TR",
         "shares": 868367.0,
-        "value_usd": 136307568.0,
-        "weight_pct": 45.94
+        "value_usd": 137866287.0,
+        "weight_pct": 45.32
       },
       {
         "cusip": "96145W103",
         "security_class": "COM",
         "issuer": "WESTROCK COFFEE CO",
         "shares": 12749755.0,
-        "value_usd": 103400513.0,
-        "weight_pct": 34.85
+        "value_usd": 112070346.0,
+        "weight_pct": 36.84
       },
       {
         "cusip": "48662X105",
         "security_class": "COM SHS",
         "issuer": "KAYNE ANDERSON BDC INC",
         "shares": 2216905.0,
-        "value_usd": 29994725.0,
-        "weight_pct": 10.11
+        "value_usd": 27844327.0,
+        "weight_pct": 9.15
       },
       {
         "cusip": "009158106",
         "security_class": "COM",
         "issuer": "AIR PRODUCTS AND CHEMICALS I",
         "shares": 63149.0,
-        "value_usd": 18514024.0,
-        "weight_pct": 6.24
+        "value_usd": 17569946.0,
+        "weight_pct": 5.78
       },
       {
         "cusip": "25278X109",
         "security_class": "COM",
         "issuer": "DIAMONDBACK ENERGY INC",
         "shares": 48276.0,
-        "value_usd": 8485955.0,
-        "weight_pct": 2.86
+        "value_usd": 8873612.0,
+        "weight_pct": 2.92
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3474.38,
-    "changes": null,
+    "hhi": 3536.33,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0002063476-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002063476-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 296702785.0,
+  "reported_13f_value_usd": 304224518.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002063476-26-000003",
+  "validated_accession": "0002063476-26-000005",
   "annualized_turnover_proxy_pct": null
 }

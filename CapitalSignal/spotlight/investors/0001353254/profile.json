@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001353254",
   "investor_name": "EJF Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Arlington",
   "state": "VA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1353254/0000895345-25-000350.txt",
-    "https://www.sec.gov/Archives/edgar/data/1353254/0000895345-26-000360.txt"
+    "https://www.sec.gov/Archives/edgar/data/1353254/0000895345-26-000360.txt",
+    "https://www.sec.gov/Archives/edgar/data/1353254/0001172661-26-005289.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b8ee67ed07fc80a30cdbd6fc61fb8cb997f990ae0813e5b94a8a970784cfdc38",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "9ce7e1f5883a1b106e28d90b03be6ad7b7589fee715e2422a374f76a74f4798c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "05b9eac76ae84f0bb0667313bcdf5d15d8c3c205",
+    "5b9cb66a71e00c6810820bd33266b4fce1bfbda5",
+    "d8699670035a2c2f0b0ef7156d7cd836f81ace5b"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0000895345-26-000360",
-    "source": "https://www.sec.gov/Archives/edgar/data/1353254/0000895345-26-000360.txt",
-    "distinct_positions": 72,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005289",
+    "source": "https://www.sec.gov/Archives/edgar/data/1353254/0001172661-26-005289.txt",
+    "distinct_positions": 73,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 149503855.0,
+    "reported_long_equity_value_usd": 135171616.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "055298103",
+        "security_class": "COM",
+        "issuer": "BCB BANCORP INC",
+        "shares": 680000.0,
+        "value_usd": 5841200.0,
+        "weight_pct": 4.32
+      },
+      {
         "cusip": "19058X207",
         "security_class": "COM NEW",
         "issuer": "COASTALSOUTH BANCSHARES INC",
-        "shares": 192676.0,
-        "value_usd": 5173351.0,
-        "weight_pct": 3.46
+        "shares": 203604.0,
+        "value_usd": 5338497.0,
+        "weight_pct": 3.95
       },
       {
-        "cusip": "828730200",
-        "security_class": "CL A $1 PAR",
-        "issuer": "SIMMONS FIRST NATL CORP",
-        "shares": 224842.0,
-        "value_usd": 5092671.0,
-        "weight_pct": 3.41
+        "cusip": "197914104",
+        "security_class": "COM SHS",
+        "issuer": "COLUMBIA FINL INC",
+        "shares": 427989.0,
+        "value_usd": 4733558.0,
+        "weight_pct": 3.5
       },
       {
-        "cusip": "319383204",
-        "security_class": "COM NEW",
-        "issuer": "FIRST BUSEY CORP",
-        "shares": 149404.0,
-        "value_usd": 4407418.0,
-        "weight_pct": 2.95
-      },
-      {
-        "cusip": "591774104",
+        "cusip": "74726N107",
         "security_class": "COM",
-        "issuer": "METROPOLITAN BK HLDG CORP",
-        "shares": 43477.0,
-        "value_usd": 4293789.0,
-        "weight_pct": 2.87
-      },
-      {
-        "cusip": "919794107",
-        "security_class": "COM",
-        "issuer": "VALLEY NATL BANCORP",
-        "shares": 283082.0,
-        "value_usd": 4147151.0,
-        "weight_pct": 2.77
-      },
-      {
-        "cusip": "05990K106",
-        "security_class": "COM",
-        "issuer": "BANC OF CALIFORNIA INC",
-        "shares": 202967.0,
-        "value_usd": 4146616.0,
-        "weight_pct": 2.77
+        "issuer": "QNB CORP",
+        "shares": 94524.0,
+        "value_usd": 4311240.0,
+        "weight_pct": 3.19
       },
       {
         "cusip": "37247D106",
         "security_class": "COM SHS",
         "issuer": "GENWORTH FINL INC",
         "shares": 428000.0,
-        "value_usd": 4053160.0,
+        "value_usd": 3839160.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "13765N107",
+        "security_class": "COM",
+        "issuer": "CANNAE HLDGS INC",
+        "shares": 250000.0,
+        "value_usd": 3835000.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "828730200",
+        "security_class": "CL A $1 PAR",
+        "issuer": "SIMMONS FIRST NATL CORP",
+        "shares": 162016.0,
+        "value_usd": 3658322.0,
         "weight_pct": 2.71
       },
       {
-        "cusip": "950810101",
+        "cusip": "292554102",
         "security_class": "COM",
-        "issuer": "WESBANCO INC",
-        "shares": 102453.0,
-        "value_usd": 3998741.0,
-        "weight_pct": 2.67
+        "issuer": "ENCORE CAP GROUP INC",
+        "shares": 38000.0,
+        "value_usd": 3588720.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "05990K106",
+        "security_class": "COM",
+        "issuer": "BANC OF CALIFORNIA INC",
+        "shares": 204499.0,
+        "value_usd": 3523518.0,
+        "weight_pct": 2.61
       },
       {
         "cusip": "084680107",
         "security_class": "COM",
         "issuer": "BEACON FINANCIAL CORP.",
-        "shares": 128480.0,
-        "value_usd": 3912216.0,
-        "weight_pct": 2.62
-      },
-      {
-        "cusip": "20112C106",
-        "security_class": "COM",
-        "issuer": "COMMERCIAL BANCGROUP INC",
-        "shares": 119725.0,
-        "value_usd": 3865920.0,
-        "weight_pct": 2.59
+        "shares": 120617.0,
+        "value_usd": 3376069.0,
+        "weight_pct": 2.5
       }
     ],
-    "top_five_pct": 15.46,
-    "top_ten_pct": 28.82,
-    "hhi": 204.7,
+    "top_five_pct": 17.8,
+    "top_ten_pct": 31.11,
+    "hhi": 208.29,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 18,
-      "increased_positions": 8,
-      "reduced_positions": 37
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 12,
+      "increased_positions": 2,
+      "reduced_positions": 40
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0000895345-26-000360"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005289"
       }
     ]
   },
-  "reported_13f_value_usd": 149503855.0,
+  "reported_13f_value_usd": 135171616.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000895345-26-000360",
+  "validated_accession": "0001172661-26-005289",
   "annualized_turnover_proxy_pct": null
 }

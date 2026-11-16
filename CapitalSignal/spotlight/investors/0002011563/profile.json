@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002011563",
   "investor_name": "Pennant Select, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Summit",
   "state": "NJ",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2011563/0000919574-25-006861.txt",
-    "https://www.sec.gov/Archives/edgar/data/2011563/0000919574-26-005352.txt"
+    "https://www.sec.gov/Archives/edgar/data/2011563/0000919574-26-005352.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011563/0000919574-26-008069.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "42a203a566db17f53e0df9bc87bdee84218c0ebf875d5d0d4e00a0c5d20a6543",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "bd8a0e3de5d2f29fea5d3be9f72597a4d80a172a8dcfe35b87b4d7613930ba52",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "05a0caf89478c1205519970a6ddd2c748f0bbf29",
+    "4fc9f342d77f982b0aff1937e18a7691b791fcbf",
+    "e90202087274b739412852b0f1a856756edeca69"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005352",
-    "source": "https://www.sec.gov/Archives/edgar/data/2011563/0000919574-26-005352.txt",
-    "distinct_positions": 15,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-008069",
+    "source": "https://www.sec.gov/Archives/edgar/data/2011563/0000919574-26-008069.txt",
+    "distinct_positions": 13,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 225059992.0,
+    "reported_long_equity_value_usd": 189581720.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "278768106",
         "security_class": "CL A",
         "issuer": "ECHOSTAR CORP",
-        "shares": 422000.0,
-        "value_usd": 42833000.0,
-        "weight_pct": 19.03
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 121300.0,
-        "value_usd": 28910642.0,
-        "weight_pct": 12.85
+        "shares": 379300.0,
+        "value_usd": 33913213.0,
+        "weight_pct": 17.89
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 67600.0,
-        "value_usd": 25216152.0,
-        "weight_pct": 11.2
+        "shares": 65400.0,
+        "value_usd": 33543660.0,
+        "weight_pct": 17.69
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 117400.0,
+        "value_usd": 29250210.0,
+        "weight_pct": 15.43
       },
       {
         "cusip": "N07059210",
         "security_class": "N Y REGISTRY SHS",
         "issuer": "ASML HLDG NV",
-        "shares": 12000.0,
-        "value_usd": 23873280.0,
-        "weight_pct": 10.61
+        "shares": 11600.0,
+        "value_usd": 21015372.0,
+        "weight_pct": 11.09
       },
       {
         "cusip": "920253101",
         "security_class": "COM",
         "issuer": "VALMONT INDS INC",
-        "shares": 33000.0,
-        "value_usd": 19060800.0,
-        "weight_pct": 8.47
-      },
-      {
-        "cusip": "82846H405",
-        "security_class": "COM NEW",
-        "issuer": "QXO INC",
-        "shares": 795000.0,
-        "value_usd": 13737600.0,
-        "weight_pct": 6.1
-      },
-      {
-        "cusip": "612160101",
-        "security_class": "CL A",
-        "issuer": "AIRJOULE TECHNOLOGIES CORP",
-        "shares": 2280601.0,
-        "value_usd": 12634530.0,
-        "weight_pct": 5.61
-      },
-      {
-        "cusip": "368736104",
-        "security_class": "COM",
-        "issuer": "GENERAC HLDGS INC",
-        "shares": 32000.0,
-        "value_usd": 9369920.0,
-        "weight_pct": 4.16
+        "shares": 31900.0,
+        "value_usd": 14769062.0,
+        "weight_pct": 7.79
       },
       {
         "cusip": "34354P105",
         "security_class": "COM",
         "issuer": "FLOWSERVE CORP",
-        "shares": 125000.0,
-        "value_usd": 9270000.0,
-        "weight_pct": 4.12
+        "shares": 120900.0,
+        "value_usd": 8840208.0,
+        "weight_pct": 4.66
       },
       {
-        "cusip": "893641100",
+        "cusip": "612160101",
+        "security_class": "CL A",
+        "issuer": "AIRJOULE TECHNOLOGIES CORP",
+        "shares": 2206601.0,
+        "value_usd": 8605744.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "G9600F104",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "VERSIGENT PLC",
+        "shares": 166883.0,
+        "value_usd": 7499722.0,
+        "weight_pct": 3.96
+      },
+      {
+        "cusip": "03674X106",
         "security_class": "COM",
-        "issuer": "TRANSDIGM GROUP INC",
-        "shares": 6200.0,
-        "value_usd": 8258648.0,
-        "weight_pct": 3.67
+        "issuer": "ANTERO RESOURCES CORP",
+        "shares": 206369.0,
+        "value_usd": 6890661.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 19400.0,
+        "value_usd": 6675152.0,
+        "weight_pct": 3.52
       }
     ],
-    "top_five_pct": 62.16,
-    "top_ten_pct": 85.83,
-    "hhi": 995.74,
+    "top_five_pct": 69.89,
+    "top_ten_pct": 90.2,
+    "hhi": 1170.41,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
       "exited_positions": 2,
-      "increased_positions": 3,
-      "reduced_positions": 2
+      "increased_positions": 0,
+      "reduced_positions": 13
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005352"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-008069"
       }
     ]
   },
-  "reported_13f_value_usd": 225059992.0,
+  "reported_13f_value_usd": 189581720.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005352",
+  "validated_accession": "0000919574-26-008069",
   "annualized_turnover_proxy_pct": null
 }

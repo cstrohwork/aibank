@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001042063",
   "investor_name": "WELCH CAPITAL PARTNERS LLC/NY",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HARRISON",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1042063/0001042063-25-000013.txt",
-    "https://www.sec.gov/Archives/edgar/data/1042063/0001042063-26-000009.txt"
+    "https://www.sec.gov/Archives/edgar/data/1042063/0001042063-26-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1042063/0001042063-26-000011.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0b27f7526864da8af2c48834dfbd279bec50da0435ed0c8b69f8f52cbcc5fd11",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "8b556e3768fa8072ac709613ef95448fe91bd01e86194c31c0f5464b691e6855",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "37208a786d2adb55373f521393a7c44a0ca29915",
+    "5f9a5585104263e3b3a69231348c81395d988e2a",
+    "713fd76ad142d15956955f5d3b0145312be4a473"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001042063-26-000009",
-    "source": "https://www.sec.gov/Archives/edgar/data/1042063/0001042063-26-000009.txt",
-    "distinct_positions": 26,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001042063-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1042063/0001042063-26-000011.txt",
+    "distinct_positions": 28,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 510257.0,
+    "reported_long_equity_value_usd": 508973.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,72 +42,72 @@
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 341085.0,
-        "value_usd": 234261.0,
-        "weight_pct": 45.91
+        "shares": 336040.0,
+        "value_usd": 235517.0,
+        "weight_pct": 46.27
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 207396.0,
-        "value_usd": 154877.0,
-        "weight_pct": 30.35
+        "shares": 201102.0,
+        "value_usd": 153366.0,
+        "weight_pct": 30.13
       },
       {
         "cusip": "02079K107",
-        "security_class": "CAP STK CL A",
+        "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
         "shares": 91102.0,
-        "value_usd": 32189.0,
-        "weight_pct": 6.31
+        "value_usd": 31042.0,
+        "weight_pct": 6.1
       },
       {
         "cusip": "92204A702",
         "security_class": "INF TECH ETF",
         "issuer": "VANGUARD WORLD FD",
-        "shares": 218480.0,
-        "value_usd": 26113.0,
-        "weight_pct": 5.12
+        "shares": 218166.0,
+        "value_usd": 27417.0,
+        "weight_pct": 5.39
       },
       {
         "cusip": "09260D107",
         "security_class": "COM",
-        "issuer": "BLACKSTONE GROUP INC",
-        "shares": 166437.0,
-        "value_usd": 19585.0,
-        "weight_pct": 3.84
+        "issuer": "BLACKSTONE INC",
+        "shares": 166245.0,
+        "value_usd": 18634.0,
+        "weight_pct": 3.66
       },
       {
         "cusip": "78464A854",
         "security_class": "ST STR P500ETF",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 117765.0,
-        "value_usd": 10349.0,
-        "weight_pct": 2.03
+        "shares": 117645.0,
+        "value_usd": 10560.0,
+        "weight_pct": 2.07
       },
       {
         "cusip": "G8473T100",
         "security_class": "SHS USD",
         "issuer": "STERIS PLC",
-        "shares": 33777.0,
-        "value_usd": 7112.0,
+        "shares": 33694.0,
+        "value_usd": 7076.0,
         "weight_pct": 1.39
       },
       {
         "cusip": "097023105",
         "security_class": "COM",
         "issuer": "BOEING CO",
-        "shares": 28384.0,
-        "value_usd": 6144.0,
-        "weight_pct": 1.2
+        "shares": 26865.0,
+        "value_usd": 4998.0,
+        "weight_pct": 0.98
       },
       {
         "cusip": "806407102",
         "security_class": "COM",
         "issuer": "SCHEIN HENRY INC",
-        "shares": 57246.0,
-        "value_usd": 4781.0,
+        "shares": 57037.0,
+        "value_usd": 4789.0,
         "weight_pct": 0.94
       },
       {
@@ -104,19 +115,19 @@
         "security_class": "S&P500 EQL WGT",
         "issuer": "INVESCO EXCHANGE TRADED FD T",
         "shares": 12488.0,
-        "value_usd": 2657.0,
-        "weight_pct": 0.52
+        "value_usd": 2598.0,
+        "weight_pct": 0.51
       }
     ],
-    "top_five_pct": 91.53,
-    "top_ten_pct": 97.61,
-    "hhi": 3118.96,
+    "top_five_pct": 91.55,
+    "top_ten_pct": 97.45,
+    "hhi": 3137.79,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 7,
-      "exited_positions": 7,
-      "increased_positions": 2,
-      "reduced_positions": 6
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 2,
+      "increased_positions": 1,
+      "reduced_positions": 10
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001042063-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001042063-26-000011"
       }
     ]
   },
-  "reported_13f_value_usd": 510257.0,
+  "reported_13f_value_usd": 508973.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001042063-26-000009",
+  "validated_accession": "0001042063-26-000011",
   "annualized_turnover_proxy_pct": null
 }

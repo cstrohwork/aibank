@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001629283",
   "investor_name": "Bluescape Energy Partners LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Dallas",
   "state": "TX",
   "country": "United States",
@@ -10,17 +10,28 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1629283/0001172661-25-004792.txt",
-    "https://www.sec.gov/Archives/edgar/data/1629283/0001172661-26-003516.txt"
+    "https://www.sec.gov/Archives/edgar/data/1629283/0001172661-26-003516.txt",
+    "https://www.sec.gov/Archives/edgar/data/1629283/0001172661-26-005153.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "439a0c2aa8aea476979e93ec8e8f42e5bb49a75cc64414c07c7fde003351b75a",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "4bbd960b3a96db885e57f9b8bf1b1d6e9de57ef4cfa0176b66dac1275e5fb5d0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "515472b54edbc5ba20075df3aab2ba8b58bce903",
+    "8d63f60de140d32a79daa02173e826dcf5f26331",
+    "adfeef58320f2b2aea963e201ae739b2144db18e"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003516",
-    "source": "https://www.sec.gov/Archives/edgar/data/1629283/0001172661-26-003516.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005153",
+    "source": "https://www.sec.gov/Archives/edgar/data/1629283/0001172661-26-005153.txt",
     "distinct_positions": 4,
     "excluded_invalid_rows": 0,
     "reported_long_equity_value_usd": 297352512.0,
@@ -64,10 +75,10 @@
     "top_ten_pct": 100.0,
     "hhi": 6281.41,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
-      "exited_positions": 2,
-      "increased_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
       "reduced_positions": 0
     },
     "timeline": [
@@ -80,11 +91,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003516"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005153"
       }
     ]
   },
   "reported_13f_value_usd": 297352512.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003516",
+  "validated_accession": "0001172661-26-005153",
   "annualized_turnover_proxy_pct": null
 }

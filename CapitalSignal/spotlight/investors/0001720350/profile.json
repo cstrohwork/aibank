@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001720350",
   "investor_name": "7G CAPITAL MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1720350/0001720350-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1720350/0001104659-26-095606.txt"
+    "https://www.sec.gov/Archives/edgar/data/1720350/0001104659-26-095606.txt",
+    "https://www.sec.gov/Archives/edgar/data/1720350/0001104659-26-128103.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e52e18a45f2030efede229f8b0fd77e747de4651030eeb3059fe0384676f62aa",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "95183ee2e08b96d35bafc18b89e8cc1493e4c9e0617347e123346228858036e4",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "15e2516e9b990f53ecc9de33daf01556da27358d",
+    "477779cc52c524630d0550563bc461e0bd82cfc0",
+    "9be8f2cf73a60178befb974fcf01afdd4d0b717d"
+  ],
+  "generated_at": "2026-11-16T20:37:48.622156+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001104659-26-095606",
-    "source": "https://www.sec.gov/Archives/edgar/data/1720350/0001104659-26-095606.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128103",
+    "source": "https://www.sec.gov/Archives/edgar/data/1720350/0001104659-26-128103.txt",
     "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 218595965.0,
+    "reported_long_equity_value_usd": 174595785.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,91 +42,91 @@
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 165000.0,
-        "value_usd": 58966050.0,
-        "weight_pct": 26.97
-      },
-      {
-        "cusip": "874039100",
-        "security_class": "Sponsored ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
-        "shares": 72500.0,
-        "value_usd": 34623825.0,
-        "weight_pct": 15.84
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 100000.0,
-        "value_usd": 28936000.0,
-        "weight_pct": 13.24
+        "shares": 170000.0,
+        "value_usd": 58493600.0,
+        "weight_pct": 33.5
       },
       {
         "cusip": "90353T100",
         "security_class": "COM",
         "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 385000.0,
-        "value_usd": 27781600.0,
-        "weight_pct": 12.71
+        "shares": 425000.0,
+        "value_usd": 29116750.0,
+        "weight_pct": 16.68
       },
       {
         "cusip": "084670108",
         "security_class": "CL A",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
         "shares": 30.0,
-        "value_usd": 22465500.0,
-        "weight_pct": 10.28
+        "value_usd": 22410150.0,
+        "weight_pct": 12.84
       },
       {
         "cusip": "58733R102",
         "security_class": "COM",
         "issuer": "MERCADOLIBRE INC",
         "shares": 10000.0,
-        "value_usd": 16973900.0,
-        "weight_pct": 7.76
+        "value_usd": 17285300.0,
+        "weight_pct": 9.9
       },
       {
         "cusip": "227046109",
         "security_class": "COM",
         "issuer": "CROCS INC",
         "shares": 78500.0,
-        "value_usd": 9470240.0,
-        "weight_pct": 4.33
+        "value_usd": 9208835.0,
+        "weight_pct": 5.27
+      },
+      {
+        "cusip": "00724F101",
+        "security_class": "COM",
+        "issuer": "ADOBE INC",
+        "shares": 35000.0,
+        "value_usd": 8397900.0,
+        "weight_pct": 4.81
       },
       {
         "cusip": "743315103",
         "security_class": "COM",
         "issuer": "PROGRESSIVE CORP",
         "shares": 40000.0,
-        "value_usd": 8738000.0,
-        "weight_pct": 4.0
+        "value_usd": 8292400.0,
+        "weight_pct": 4.75
+      },
+      {
+        "cusip": "722304102",
+        "security_class": "SPONSORED ADS",
+        "issuer": "PDD HOLDINGS INC",
+        "shares": 100000.0,
+        "value_usd": 7794000.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "Sponsored ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
+        "shares": 15000.0,
+        "value_usd": 6842850.0,
+        "weight_pct": 3.92
       },
       {
         "cusip": "084423102",
         "security_class": "COM",
         "issuer": "Berkley W R Corp",
         "shares": 100000.0,
-        "value_usd": 7053000.0,
-        "weight_pct": 3.23
-      },
-      {
-        "cusip": "00724F101",
-        "security_class": "COM",
-        "issuer": "ADOBE INC",
-        "shares": 17500.0,
-        "value_usd": 3587850.0,
-        "weight_pct": 1.64
+        "value_usd": 6754000.0,
+        "weight_pct": 3.87
       }
     ],
-    "top_five_pct": 79.04,
+    "top_five_pct": 78.19,
     "top_ten_pct": 100.0,
-    "hhi": 1529.04,
+    "hhi": 1787.04,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
-      "exited_positions": 4,
-      "increased_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 3,
       "reduced_positions": 1
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001104659-26-095606"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128103"
       }
     ]
   },
-  "reported_13f_value_usd": 218595965.0,
+  "reported_13f_value_usd": 174595785.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-095606",
+  "validated_accession": "0001104659-26-128103",
   "annualized_turnover_proxy_pct": null
 }
