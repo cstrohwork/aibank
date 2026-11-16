@@ -24,3 +24,10 @@ A second test protects the serialized/recovery invariants:
 ## Scope and non-claims
 
 This is a preventive regression test. It does not download SEC filings, alter worker scope, extend the acquisition budget, classify unknown holdings, or prove the currently running production backfill completed. Production completeness still depends on committed status counters and actual run conclusions.
+
+
+## Cloud failure and correction
+
+Exact-head cloud health [43783333699](https://github.com/cstrohwork/aibank/actions/runs/43783333699) failed during the Python regression suite. The new test correctly detected that the previous contents-API edit had written literal `\n` characters inside a YAML comment, leaving the intended `timeout-minutes: 45` text commented out. The production run [43777908896](https://github.com/cstrohwork/aibank/actions/runs/43777908896) completed successfully, but it used GitHub's default job timeout rather than the intended explicit 45-minute setting; it is not proof of the exact bounded limit.
+
+The workflow is corrected on the same review branch with real line breaks. The regression test now protects both the presence and the budget relationship of the active timeout setting. A new exact-head cloud result is required before merge.
