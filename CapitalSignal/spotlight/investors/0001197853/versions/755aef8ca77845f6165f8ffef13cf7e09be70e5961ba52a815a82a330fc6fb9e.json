@@ -1,0 +1,88 @@
+{
+  "manager_cik": "0001197853",
+  "investor_name": "Francisco Partners Management, LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "SAN FRANCISCO",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1197853/0001197853-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1197853/0001197853-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1197853/0001197853-26-000008.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "755aef8ca77845f6165f8ffef13cf7e09be70e5961ba52a815a82a330fc6fb9e",
+  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001197853-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1197853/0001197853-26-000008.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 343259306.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "38246G108",
+        "security_class": "COM CL A",
+        "issuer": "GoodRx Hldgs Inc",
+        "shares": 52578184.0,
+        "value_usd": 172982225.0,
+        "weight_pct": 50.39
+      },
+      {
+        "cusip": "52466B103",
+        "security_class": "COM",
+        "issuer": "LegalZoom Com Inc",
+        "shares": 28625744.0,
+        "value_usd": 160590424.0,
+        "weight_pct": 46.78
+      },
+      {
+        "cusip": "G6964L206",
+        "security_class": "SHS",
+        "issuer": "Paysafe Limited",
+        "shares": 1720543.0,
+        "value_usd": 9686657.0,
+        "weight_pct": 2.82
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4736.26,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001197853-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001197853-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001197853-26-000008"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 343259306.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001197853-26-000008",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,66 @@
+{
+  "manager_cik": "0001501927",
+  "investor_name": "VK Services, LLC",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "Menlo Park",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-25-283005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-26-352292.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "17a61cc3b4923abf02db2b8b14cf9cc7ec8084fb288e10eca7e986eaaa935edb",
+  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001193125-26-352292",
+    "source": "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-26-352292.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1014566.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92259N302",
+        "security_class": "COMMON STOCK",
+        "issuer": "VELO3D INC",
+        "shares": 57810.0,
+        "value_usd": 1014566.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-283005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001193125-26-352292"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1014566.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-352292",
+  "annualized_turnover_proxy_pct": null
+}

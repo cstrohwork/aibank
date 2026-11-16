@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0002087977",
+  "investor_name": "Pureheart Capital Pte Ltd.",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "SINGAPORE",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2087977/0001214659-25-016633.txt",
+    "https://www.sec.gov/Archives/edgar/data/2087977/0001214659-26-010381.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "48f13dcd3b518c84f066bb27d3c07b49b538a50742d85fc08333928402002b7a",
+  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001214659-26-010381",
+    "source": "https://www.sec.gov/Archives/edgar/data/2087977/0001214659-26-010381.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 221700149.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 376050.0,
+        "value_usd": 158166630.0,
+        "weight_pct": 71.34
+      },
+      {
+        "cusip": "115637209",
+        "security_class": "CL B",
+        "issuer": "BROWN FORMAN CORP",
+        "shares": 1442248.0,
+        "value_usd": 38435909.0,
+        "weight_pct": 17.34
+      },
+      {
+        "cusip": "25243Q205",
+        "security_class": "SPON ADR NEW",
+        "issuer": "DIAGEO PLC",
+        "shares": 312237.0,
+        "value_usd": 25097610.0,
+        "weight_pct": 11.32
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5518.49,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 3,
+      "exited_positions": 15,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001214659-25-016633"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001214659-26-010381"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 221700149.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001214659-26-010381",
+  "annualized_turnover_proxy_pct": null
+}
