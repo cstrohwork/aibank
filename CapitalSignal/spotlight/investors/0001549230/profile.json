@@ -9,11 +9,12 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1549230/0001549230-25-000031.txt",
     "https://www.sec.gov/Archives/edgar/data/1549230/0001549230-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f7986390543143c832004da861780d4f0ac50719bfdb2a8bf09cb3a1eebeba9f",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "4cf48acccd16b973bc13c353a1ec65ee797172cf41cda1c9eca6dc6c4bdea139",
+  "generated_at": "2026-11-16T01:08:53.533576+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-06-30",
@@ -110,8 +111,19 @@
     "top_five_pct": 5.79,
     "top_ten_pct": 9.66,
     "hhi": 26.51,
-    "changes": null,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 993,
+      "exited_positions": 612,
+      "increased_positions": 495,
+      "reduced_positions": 404
+    },
     "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001549230-25-000031"
+      },
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",

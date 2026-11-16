@@ -1,0 +1,112 @@
+{
+  "manager_cik": "0000104889",
+  "investor_name": "Graham Holdings Co",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "ARLINGTON",
+  "state": "VA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/104889/0001628280-25-052369.txt",
+    "https://www.sec.gov/Archives/edgar/data/104889/0001628280-26-057130.txt",
+    "https://www.sec.gov/Archives/edgar/data/104889/0001628280-26-073846.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "0d6d784935ff0fde729cab76b7509fa5368dac3125a3729f40c05eddf667c1db",
+  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001628280-26-073846",
+    "source": "https://www.sec.gov/Archives/edgar/data/104889/0001628280-26-073846.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1063033.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 982250.0,
+        "value_usd": 334692.0,
+        "weight_pct": 31.48
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 422.0,
+        "value_usd": 315236.0,
+        "weight_pct": 29.65
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 481920.0,
+        "value_usd": 239972.0,
+        "weight_pct": 22.57
+      },
+      {
+        "cusip": "570535104",
+        "security_class": "COM",
+        "issuer": "MARKEL GROUP INC",
+        "shares": 63793.0,
+        "value_usd": 109242.0,
+        "weight_pct": 10.28
+      },
+      {
+        "cusip": "74467Q103",
+        "security_class": "COM CL A",
+        "issuer": "PUBMATIC INC",
+        "shares": 3398904.0,
+        "value_usd": 63661.0,
+        "weight_pct": 5.99
+      },
+      {
+        "cusip": "12685J105",
+        "security_class": "COM",
+        "issuer": "CABLE ONE INC",
+        "shares": 20838.0,
+        "value_usd": 230.0,
+        "weight_pct": 0.02
+      }
+    ],
+    "top_five_pct": 99.98,
+    "top_ten_pct": 100.0,
+    "hhi": 2521.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001628280-25-052369"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001628280-26-057130"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001628280-26-073846"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1063033.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001628280-26-073846",
+  "annualized_turnover_proxy_pct": null
+}
