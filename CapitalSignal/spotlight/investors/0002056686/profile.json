@@ -1,28 +1,29 @@
 {
   "manager_cik": "0002056686",
   "investor_name": "Advaya LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2056686/0002056686-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/2056686/0002056686-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/2056686/0002056686-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7599d3040ec6c09b2fc19f3b0da3f513f28ac123ceee7cf4ad41d8e019166297",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "1283e938b089f57c07cb427ca9cd9be3de2fd315096f853715eb8686eb7003bb",
+  "generated_at": "2026-11-16T18:33:40.761964+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0002056686-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/2056686/0002056686-26-000005.txt",
-    "distinct_positions": 6,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002056686-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056686/0002056686-26-000006.txt",
+    "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 151824163.0,
+    "reported_long_equity_value_usd": 146445980.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,65 +31,68 @@
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 212800.0,
-        "value_usd": 50718752.0,
-        "weight_pct": 33.41
+        "shares": 220600.0,
+        "value_usd": 54962490.0,
+        "weight_pct": 37.53
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 57440.0,
+        "value_usd": 31676437.0,
+        "weight_pct": 21.63
+      },
+      {
+        "cusip": "422806208",
+        "security_class": "CL A",
+        "issuer": "HEICO CORP NEW",
+        "shares": 96720.0,
+        "value_usd": 22084078.0,
+        "weight_pct": 15.08
       },
       {
         "cusip": "980745103",
         "security_class": "COM",
         "issuer": "WOODWARD INC",
         "shares": 60600.0,
-        "value_usd": 25781664.0,
-        "weight_pct": 16.98
+        "value_usd": 19912554.0,
+        "weight_pct": 13.6
       },
       {
-        "cusip": "57636Q104",
+        "cusip": "30303M102",
         "security_class": "CL A",
-        "issuer": "MASTERCARD INCORPORATED",
-        "shares": 50000.0,
-        "value_usd": 25680000.0,
-        "weight_pct": 16.91
-      },
-      {
-        "cusip": "422806208",
-        "security_class": "CL A",
-        "issuer": "HEICO CORP NEW",
-        "shares": 94520.0,
-        "value_usd": 24377653.0,
-        "weight_pct": 16.06
-      },
-      {
-        "cusip": "530909308",
-        "security_class": "COM SHS SER C",
-        "issuer": "LIBERTY LIVE HOLDINGS INC",
-        "shares": 154800.0,
-        "value_usd": 16353072.0,
-        "weight_pct": 10.77
-      },
-      {
-        "cusip": "80004C200",
-        "security_class": "COM",
-        "issuer": "SANDISK CORP",
-        "shares": 3920.0,
-        "value_usd": 8913022.0,
-        "weight_pct": 5.87
+        "issuer": "META PLATFORMS INC",
+        "shares": 24560.0,
+        "value_usd": 17810421.0,
+        "weight_pct": 12.16
       }
     ],
-    "top_five_pct": 94.13,
+    "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 2098.73,
-    "changes": null,
+    "hhi": 2436.63,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 2,
+      "increased_positions": 3,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0002056686-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002056686-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 151824163.0,
+  "reported_13f_value_usd": 146445980.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002056686-26-000005",
+  "validated_accession": "0002056686-26-000006",
   "annualized_turnover_proxy_pct": null
 }

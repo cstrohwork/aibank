@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001232395",
   "investor_name": "SILVERCREST ASSET MANAGEMENT GROUP LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,114 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1232395/0001193125-25-282298.txt",
-    "https://www.sec.gov/Archives/edgar/data/1232395/0001193125-26-352195.txt"
+    "https://www.sec.gov/Archives/edgar/data/1232395/0001193125-26-352195.txt",
+    "https://www.sec.gov/Archives/edgar/data/1232395/0001193125-26-462346.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3ebf4b9b49777ddd9cdaa92df2c7ee9f069d60f97186b11df31fb7035821c3e6",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "c2a3d9ed575eb13eba59b553ff4f9090dd677f33b64c815967990ba233b5e13b",
+  "generated_at": "2026-11-16T18:33:40.761964+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001193125-26-352195",
-    "source": "https://www.sec.gov/Archives/edgar/data/1232395/0001193125-26-352195.txt",
-    "distinct_positions": 843,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-462346",
+    "source": "https://www.sec.gov/Archives/edgar/data/1232395/0001193125-26-462346.txt",
+    "distinct_positions": 844,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 15259223822.0,
+    "reported_long_equity_value_usd": 14559061696.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP COM",
+        "shares": 648885.0,
+        "value_usd": 332813331.0,
+        "weight_pct": 2.29
+      },
+      {
         "cusip": "11135F101",
         "security_class": "COM",
         "issuer": "BROADCOM INC COM",
-        "shares": 820278.0,
-        "value_usd": 309860067.0,
-        "weight_pct": 2.03
+        "shares": 832314.0,
+        "value_usd": 292300432.0,
+        "weight_pct": 2.01
       },
       {
         "cusip": "02079K107",
         "security_class": "COM",
         "issuer": "ALPHABET INC CAP STK CL C",
-        "shares": 820096.0,
-        "value_usd": 289764513.0,
-        "weight_pct": 1.9
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP COM",
-        "shares": 634750.0,
-        "value_usd": 236774316.0,
-        "weight_pct": 1.55
+        "shares": 801651.0,
+        "value_usd": 273154651.0,
+        "weight_pct": 1.88
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC COM",
-        "shares": 802249.0,
-        "value_usd": 232138705.0,
-        "weight_pct": 1.52
+        "shares": 772050.0,
+        "value_usd": 257108110.0,
+        "weight_pct": 1.77
       },
       {
-        "cusip": "17275R102",
+        "cusip": "023135106",
         "security_class": "COM",
-        "issuer": "CISCO SYS INC",
-        "shares": 1800337.0,
-        "value_usd": 211467546.0,
-        "weight_pct": 1.39
+        "issuer": "AMAZON COM INC COM",
+        "shares": 819847.0,
+        "value_usd": 204264880.0,
+        "weight_pct": 1.4
       },
       {
         "cusip": "02079K305",
         "security_class": "COM",
         "issuer": "ALPHABET INC CAP STK CL A",
-        "shares": 548519.0,
-        "value_usd": 196024083.0,
-        "weight_pct": 1.28
+        "shares": 538323.0,
+        "value_usd": 185226122.0,
+        "weight_pct": 1.27
       },
       {
-        "cusip": "28618M106",
+        "cusip": "17275R102",
         "security_class": "COM",
-        "issuer": "ELEMENT SOLUTIONS INC COM",
-        "shares": 3785405.0,
-        "value_usd": 180753176.0,
-        "weight_pct": 1.18
+        "issuer": "CISCO SYS INC",
+        "shares": 1617827.0,
+        "value_usd": 174126756.0,
+        "weight_pct": 1.2
       },
       {
         "cusip": "87162W100",
         "security_class": "COM",
         "issuer": "TD SYNNEX CORP",
-        "shares": 638867.0,
-        "value_usd": 170795094.0,
-        "weight_pct": 1.12
+        "shares": 673252.0,
+        "value_usd": 172925047.0,
+        "weight_pct": 1.19
       },
       {
-        "cusip": "537008104",
+        "cusip": "G29183103",
         "security_class": "COM",
-        "issuer": "LITTELFUSE INC COM",
-        "shares": 343546.0,
-        "value_usd": 156427497.0,
-        "weight_pct": 1.03
+        "issuer": "EATON CORP PLC SHS",
+        "shares": 381701.0,
+        "value_usd": 164020737.0,
+        "weight_pct": 1.13
       },
       {
-        "cusip": "247361702",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "DELTA AIR LINES INC DEL COM NEW",
-        "shares": 1621636.0,
-        "value_usd": 151882418.0,
-        "weight_pct": 1.0
+        "issuer": "NVIDIA CORP COM",
+        "shares": 697955.0,
+        "value_usd": 159398903.0,
+        "weight_pct": 1.09
       }
     ],
-    "top_five_pct": 8.39,
-    "top_ten_pct": 14.0,
-    "hhi": 51.81,
+    "top_five_pct": 9.34,
+    "top_ten_pct": 15.22,
+    "hhi": 54.64,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 173,
-      "exited_positions": 153,
-      "increased_positions": 188,
-      "reduced_positions": 445
+      "previous_period": "2026-06-30",
+      "new_positions": 82,
+      "exited_positions": 81,
+      "increased_positions": 279,
+      "reduced_positions": 413
     },
     "timeline": [
       {
@@ -128,11 +129,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001193125-26-352195"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-462346"
       }
     ]
   },
-  "reported_13f_value_usd": 15259223822.0,
+  "reported_13f_value_usd": 14559061696.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-352195",
+  "validated_accession": "0001193125-26-462346",
   "annualized_turnover_proxy_pct": null
 }

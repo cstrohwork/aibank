@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001887451",
   "investor_name": "Blantyre Capital Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,20 +10,21 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1887451/0001012975-25-000754.txt",
-    "https://www.sec.gov/Archives/edgar/data/1887451/0001012975-26-000766.txt"
+    "https://www.sec.gov/Archives/edgar/data/1887451/0001012975-26-000766.txt",
+    "https://www.sec.gov/Archives/edgar/data/1887451/0001012975-26-001055.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d7e16d1d0c95f48f09d9304b9d32d03492586b8b61c0299a1394f6be4cc8f15a",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "fb1f28940a1f1e7e605276ee53b4c9964fd4e7d3ffbf6ea66c46e91e58cd20f3",
+  "generated_at": "2026-11-16T18:33:40.761964+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001012975-26-000766",
-    "source": "https://www.sec.gov/Archives/edgar/data/1887451/0001012975-26-000766.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001012975-26-001055",
+    "source": "https://www.sec.gov/Archives/edgar/data/1887451/0001012975-26-001055.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 103149628.0,
+    "reported_long_equity_value_usd": 60796976.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,8 +32,8 @@
         "cusip": "635309206",
         "security_class": "COM NEW",
         "issuer": "NATIONAL CINEMEDIA INC",
-        "shares": 27144639.0,
-        "value_usd": 103149628.0,
+        "shares": 27141507.0,
+        "value_usd": 60796976.0,
         "weight_pct": 100.0
       }
     ],
@@ -40,11 +41,11 @@
     "top_ten_pct": 100.0,
     "hhi": 10000.0,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 0
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -56,11 +57,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001012975-26-000766"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001012975-26-001055"
       }
     ]
   },
-  "reported_13f_value_usd": 103149628.0,
+  "reported_13f_value_usd": 60796976.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001012975-26-000766",
+  "validated_accession": "0001012975-26-001055",
   "annualized_turnover_proxy_pct": null
 }

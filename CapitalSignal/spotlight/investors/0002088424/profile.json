@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002088424",
   "investor_name": "Alamut Investment Management LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,57 +10,58 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2088424/0002088424-25-000001.txt",
-    "https://www.sec.gov/Archives/edgar/data/2088424/0002088424-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2088424/0002088424-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2088424/0002088424-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4d31ddbed997689e34b9459b546ad2e2e1c0ca3a71691d2da0be227650cb0a7e",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "305dc8cc1d1a57d611edc2d17b54506e83927d331fd4fd685642b6f26efef2e9",
+  "generated_at": "2026-11-16T18:33:40.761964+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002088424-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2088424/0002088424-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002088424-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2088424/0002088424-26-000005.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 122794494.0,
+    "reported_long_equity_value_usd": 118610031.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "531229755",
-        "security_class": "COM LBTY ONE S C",
+        "security_class": "COM SER C",
         "issuer": "LIBERTY MEDIA CORP DEL",
-        "shares": 621673.0,
-        "value_usd": 59145969.0,
-        "weight_pct": 48.17
+        "shares": 589574.0,
+        "value_usd": 54476638.0,
+        "weight_pct": 45.93
       },
       {
         "cusip": "G63755105",
         "security_class": "ORDINARY SHARES",
         "issuer": "NIQ GLOBAL INTELLIGENCE PLC",
-        "shares": 3427873.0,
-        "value_usd": 32050613.0,
-        "weight_pct": 26.1
+        "shares": 1942904.0,
+        "value_usd": 33048797.0,
+        "weight_pct": 27.86
       },
       {
         "cusip": "G3643J108",
         "security_class": "SHS",
         "issuer": "FLUTTER ENTMT PLC",
-        "shares": 309268.0,
-        "value_usd": 31597912.0,
-        "weight_pct": 25.73
+        "shares": 417019.0,
+        "value_usd": 31084596.0,
+        "weight_pct": 26.21
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3663.44,
+    "hhi": 3572.69,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 0,
-      "exited_positions": 0,
-      "increased_positions": 3,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -72,11 +73,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002088424-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002088424-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 122794494.0,
+  "reported_13f_value_usd": 118610031.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002088424-26-000003",
+  "validated_accession": "0002088424-26-000005",
   "annualized_turnover_proxy_pct": null
 }
