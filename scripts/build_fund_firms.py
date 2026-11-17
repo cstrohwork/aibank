@@ -45,11 +45,23 @@ for key, entries in by_period.items():
         ambiguous.add(key)
         continue
     selected[key]=winners[0]
+# A newer unresolved reporting period must not silently fall back to an
+# older period and present stale positions as the latest fund exposure.
+# Keep the entire series out until the newest period is reconciled.
+newest_period_by_series={}
+for key in by_period:
+    series=key[:2]
+    if series not in newest_period_by_series or key[2]>newest_period_by_series[series]:
+        newest_period_by_series[series]=key[2]
+blocked_latest_series={
+    key[:2] for key in ambiguous
+    if key[2]==newest_period_by_series.get(key[:2])
+}
 latest={}
 for key,entry in selected.items():
-    if key in ambiguous:
-        continue
     series=key[:2]
+    if series in blocked_latest_series:
+        continue
     if series not in latest or key[2]>latest[series]["report_date"]:
         latest[series]=entry
 for entry in latest.values():
@@ -82,6 +94,6 @@ for firm in firms.values():
     firm["coverage"]="sample_only_incomplete_fund_universe"
     for k in ("equity_assets_usd","active_equity_assets_usd","passive_equity_assets_usd","unclassified_equity_assets_usd"):firm[k]=round(firm[k],2)
     out.append(firm)
-(ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"excluded_ambiguous_series_periods":len(ambiguous),"methodology":"Latest verified filing-date/accession per series/report period; conflicting or undated duplicates excluded. Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
+(ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"excluded_ambiguous_series_periods":len(ambiguous),"excluded_series_with_ambiguous_latest_period":len(blocked_latest_series),"methodology":"Latest verified filing-date/accession per series/report period; conflicting or undated duplicates excluded; series with unresolved newest periods withheld rather than using stale older positions. Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
 write_ownership_index(DIR, bycusip, "Disclosed N-PORT fund holdings, with registrant attribution, not a complete issuer register.")
 print("registrant groups",len(out),"funds",sum(x["fund_count"] for x in out),"equity securities",len(bycusip))
