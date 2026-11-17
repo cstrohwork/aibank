@@ -58,22 +58,7 @@ jobs:
             python -c 'import json,os; from pathlib import Path; m=json.loads(Path("CapitalSignal/spotlight/investors/manifest.json").read_text()); keys=["cached_investor_count","completed_current_version_count","changed_this_run","pending_active_count","eligible_pending_after_batch_count","retry_cooldown_pending_count","failed_active_count","never_published_remaining","validated_normalized_usd_profile_count","without_validated_normalized_usd_count"]; report="## Investor profile checkpoint\n\n| Measure | Count |\n|---|---:|\n"+"".join("| "+k+" | "+str(m.get(k,"unknown"))+" |\n" for k in keys)+"\nCached manager universe only; not all institutional funds.\n"; open(os.environ["GITHUB_STEP_SUMMARY"],"a").write(report); print(report)'
             # Persist a compact checkpoint independently of the oversized manifest.
             # Stable values avoid no-op commits on idle ten-minute checks.
-            python - <<'PY'
-            import json
-            from pathlib import Path
-            root = Path('CapitalSignal/spotlight/investors')
-            manifest = json.loads((root / 'manifest.json').read_text())
-            keys = ('cached_investor_count', 'generated_count',
-                    'completed_current_version_count', 'changed_this_run',
-                    'pending_active_count', 'eligible_pending_after_batch_count',
-                    'retry_cooldown_pending_count', 'failed_active_count',
-                    'never_published_remaining', 'refresh_remaining',
-                    'validated_normalized_usd_profile_count',
-                    'without_validated_normalized_usd_count')
-            checkpoint = {key: manifest.get(key) for key in keys}
-            checkpoint['scope'] = 'cached_13f_manager_universe_not_all_funds'
-            (root / 'checkpoint.json').write_text(json.dumps(checkpoint, indent=2, sort_keys=True) + '\n')
-            PY
+            python -c 'import json; from pathlib import Path; root=Path("CapitalSignal/spotlight/investors"); m=json.loads((root/"manifest.json").read_text()); keys=("cached_investor_count","generated_count","completed_current_version_count","changed_this_run","pending_active_count","eligible_pending_after_batch_count","retry_cooldown_pending_count","failed_active_count","never_published_remaining","refresh_remaining","validated_normalized_usd_profile_count","without_validated_normalized_usd_count"); c={k:m.get(k) for k in keys}; c["scope"]="cached_13f_manager_universe_not_all_funds"; (root/"checkpoint.json").write_text(json.dumps(c,indent=2,sort_keys=True)+chr(10))'
             git add CapitalSignal/spotlight/investors/
             if git diff --cached --quiet; then exit 0; fi
             git commit -m "Generate investor profiles from latest ingested SEC cache"
