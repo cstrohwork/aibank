@@ -13,30 +13,38 @@ bycusip=collections.defaultdict(list)
 # Never infer precedence from local filenames or download timestamps.
 history_path=DIR/"history_index.json"
 candidates=json.loads(history_path.read_text()).get("funds",[]) if history_path.exists() else index["funds"]
-selected={}
-ambiguous=set()
+# Group all candidate filings before choosing a period winner. A same-day
+# conflict in an older filing must not disqualify a later, independently
+# verified filing for the same series/reporting period.
+by_period=collections.defaultdict(list)
 for entry in candidates:
     series=(str(entry.get("registrant_cik") or ""),str(entry.get("series_id") or entry.get("fund_id") or ""))
-    if not all(series) or not entry.get("report_date"):
+    if all(series) and entry.get("report_date"):
+        by_period[series+(entry["report_date"],)].append(entry)
+selected={}
+ambiguous=set()
+for key, entries in by_period.items():
+    # Duplicate index references to the same source are harmless.
+    unique={str(e.get("file") or ""):e for e in entries}
+    entries=list(unique.values())
+    if len(entries)==1:
+        selected[key]=entries[0]
         continue
-    key=series+(entry["report_date"],)
-    prior=selected.get(key)
-    if prior is None:
-        selected[key]=entry
-        continue
-    if prior.get("file")==entry.get("file"):
-        continue
-    # SEC accession numbers are identifiers, not chronological sequence numbers.
-    # Distinct accessions on the same filing date have no defensible ordering
-    # without verified amendment linkage, so exclude the disputed period.
-    # A later filing date establishes precedence only when both source
-    # accessions and dates are present. Do not revive a disputed period here.
-    a_date,a_accession=str(prior.get("filing_date") or ""),str(prior.get("accession") or "")
-    b_date,b_accession=str(entry.get("filing_date") or ""),str(entry.get("accession") or "")
-    if not all((a_date,a_accession,b_date,b_accession)) or a_date==b_date:
+    # Without dates and accession evidence for every candidate, precedence
+    # cannot be established safely. Accessions themselves are not timestamps.
+    if any(not e.get("filing_date") or not e.get("accession") for e in entries):
         ambiguous.add(key)
-    elif key not in ambiguous and b_date>a_date:
-        selected[key]=entry
+        continue
+    newest=max(str(e["filing_date"]) for e in entries)
+    winners=[e for e in entries if str(e["filing_date"])==newest]
+    if len({str(e["accession"]) for e in winners})!=1:
+        ambiguous.add(key)
+        continue
+    # Same accession can occur twice in a cache; require consistent source.
+    if len({str(e.get("file") or "") for e in winners})!=1:
+        ambiguous.add(key)
+        continue
+    selected[key]=winners[0]
 latest={}
 for key,entry in selected.items():
     if key in ambiguous:
