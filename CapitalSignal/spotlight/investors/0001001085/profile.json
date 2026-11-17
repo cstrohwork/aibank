@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001001085",
-  "investor_name": "Brookfield Corp /ON/",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "investor_name": "BROOKFIELD Corp /ON/",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TORONTO",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1001085/0001193125-25-282721.txt",
-    "https://www.sec.gov/Archives/edgar/data/1001085/0001193125-26-352024.txt"
+    "https://www.sec.gov/Archives/edgar/data/1001085/0001193125-26-352024.txt",
+    "https://www.sec.gov/Archives/edgar/data/1001085/0001193125-26-464328.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1956dacfd2fd14281ff74c96aad659d6a936f844a1858eccfad6328bc002d537",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "581f451eb8fdc87e9684c61c610014dbc0f965150d9c0f670d09be2a0651098a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2705389dd1d746334639ed9f66f90f120d84f43c",
+    "79638bd0042b9365676fd6cfceaa1275dfa63e10",
+    "ffa2eb2f2f6b14e5dd683422b218e3b26790f877"
+  ],
+  "generated_at": "2026-11-17T16:25:33.488462+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001193125-26-352024",
-    "source": "https://www.sec.gov/Archives/edgar/data/1001085/0001193125-26-352024.txt",
-    "distinct_positions": 139,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-464328",
+    "source": "https://www.sec.gov/Archives/edgar/data/1001085/0001193125-26-464328.txt",
+    "distinct_positions": 194,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 76987645805.0,
+    "reported_long_equity_value_usd": 78486373053.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "113004105",
         "security_class": "COMMON STOCK",
-        "issuer": "BROOKFIELD ASSET MANAGMT LTD",
+        "issuer": "BROOKFIELD ASSET MANAGEMENT LTD",
         "shares": 1193021145.0,
-        "value_usd": 53506998353.0,
-        "weight_pct": 69.5
+        "value_usd": 53184882644.0,
+        "weight_pct": 67.76
       },
       {
         "cusip": "16411Q101",
         "security_class": "COMMON STOCK",
         "issuer": "CHENIERE ENERGY PARTNERS L P",
         "shares": 101620376.0,
-        "value_usd": 6193761917.0,
-        "weight_pct": 8.05
+        "value_usd": 6184616083.0,
+        "weight_pct": 7.88
       },
       {
         "cusip": "113006100",
         "security_class": "COMMON STOCK",
         "issuer": "BROOKFIELD BUSINESS CORP",
         "shares": 142749301.0,
-        "value_usd": 4261066635.0,
-        "weight_pct": 5.53
+        "value_usd": 3641534669.0,
+        "weight_pct": 4.64
       },
       {
         "cusip": "84615Q103",
         "security_class": "COMMON STOCK",
         "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 19167305.0,
-        "value_usd": 3274925732.0,
-        "weight_pct": 4.25
+        "shares": 16321600.0,
+        "value_usd": 2462276576.0,
+        "weight_pct": 3.14
       },
       {
         "cusip": "G16258108",
         "security_class": "COMMON STOCK",
         "issuer": "BROOKFIELD RENEWABLE ENERGY",
-        "shares": 81306719.0,
-        "value_usd": 2823782351.0,
-        "weight_pct": 3.67
+        "shares": 81306919.0,
+        "value_usd": 2287976701.0,
+        "weight_pct": 2.92
       },
       {
         "cusip": "11271J107",
         "security_class": "COMMON STOCK",
         "issuer": "BROOKFIELD CORP",
         "shares": 46824404.0,
-        "value_usd": 1994251366.0,
-        "weight_pct": 2.59
+        "value_usd": 1707217770.0,
+        "weight_pct": 2.18
       },
       {
-        "cusip": "11285B108",
+        "cusip": "22946R101",
         "security_class": "COMMON STOCK",
-        "issuer": "BROOKFIELD RENEWABLE CORP",
-        "shares": 10094152.0,
-        "value_usd": 374694922.0,
-        "weight_pct": 0.49
+        "issuer": "CSQUARE INC",
+        "shares": 106887373.0,
+        "value_usd": 1689889367.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "165167735",
+        "security_class": "COMMON STOCK",
+        "issuer": "EXPAND ENERGY CORP",
+        "shares": 5237477.0,
+        "value_usd": 440419440.0,
+        "weight_pct": 0.56
       },
       {
         "cusip": "89346D107",
         "security_class": "COMMON STOCK",
         "issuer": "TRANSALTA CORP",
-        "shares": 26960857.0,
-        "value_usd": 372868652.0,
-        "weight_pct": 0.48
-      },
-      {
-        "cusip": "969457100",
-        "security_class": "COM",
-        "issuer": "Williams Cos Inc/The",
-        "shares": 4913845.0,
-        "value_usd": 365295251.0,
-        "weight_pct": 0.47
+        "shares": 29968103.0,
+        "value_usd": 362014684.0,
+        "weight_pct": 0.46
       },
       {
         "cusip": "87612G101",
         "security_class": "COM",
         "issuer": "Targa Resources Corp",
-        "shares": 1315907.0,
-        "value_usd": 352847492.0,
+        "shares": 1328952.0,
+        "value_usd": 359229124.0,
         "weight_pct": 0.46
       }
     ],
-    "top_five_pct": 91.0,
-    "top_ten_pct": 95.5,
-    "hhi": 4965.55,
+    "top_five_pct": 86.34,
+    "top_ten_pct": 92.14,
+    "hhi": 4705.26,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 49,
-      "exited_positions": 29,
-      "increased_positions": 24,
-      "reduced_positions": 61
+      "previous_period": "2026-06-30",
+      "new_positions": 71,
+      "exited_positions": 16,
+      "increased_positions": 37,
+      "reduced_positions": 54
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001193125-26-352024"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-464328"
       }
     ]
   },
-  "reported_13f_value_usd": 76987645805.0,
+  "reported_13f_value_usd": 78486373053.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-352024",
+  "validated_accession": "0001193125-26-464328",
   "annualized_turnover_proxy_pct": null
 }

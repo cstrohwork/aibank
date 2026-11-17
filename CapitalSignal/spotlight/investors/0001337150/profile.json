@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001337150",
   "investor_name": "Permira Holdings LTD",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "ST. PETER PORT",
   "state": null,
   "country": null,
@@ -10,36 +10,53 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1337150/0001493152-25-027264.txt",
-    "https://www.sec.gov/Archives/edgar/data/1337150/0001493152-26-037976.txt"
+    "https://www.sec.gov/Archives/edgar/data/1337150/0001493152-26-037976.txt",
+    "https://www.sec.gov/Archives/edgar/data/1337150/0001493152-26-052736.txt"
   ],
-  "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
-  "source_fingerprint": "9df367646cc91333cf1b62d1aad0ae0cf567c655319ef20c59200afdf7c760b2",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "553921e4162c10b7a9001bb5d4f95309778818e24f58f3a62c9c16655b717626",
+  "accession_fingerprints": [
+    "2025-09-30|2025-12-11|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "c2612992f2f43cfceda86c66daf4702bfe9c87a3",
+    "ccdd7e48d143c65eee4624f67b17b3cfcf728dd6",
+    "e92b1520cb0c6fce4def99c750a448f2f59f8bcd"
+  ],
+  "generated_at": "2026-11-17T16:25:33.488462+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-037976",
-    "source": "https://www.sec.gov/Archives/edgar/data/1337150/0001493152-26-037976.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001493152-26-052736",
+    "source": "https://www.sec.gov/Archives/edgar/data/1337150/0001493152-26-052736.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": null,
+    "reported_long_equity_value_usd": 348463522.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "000000000",
-        "security_class": "N/A",
-        "issuer": "N/A",
-        "shares": 0.0,
-        "value_usd": null,
-        "weight_pct": null
+        "cusip": "75867H106",
+        "security_class": "COM",
+        "issuer": "REFORMATION INC",
+        "shares": 28942153.0,
+        "value_usd": 348463522.0,
+        "weight_pct": 100.0
       }
     ],
-    "top_five_pct": null,
-    "top_ten_pct": null,
-    "hhi": null,
-    "changes": null,
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
@@ -50,11 +67,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-037976"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001493152-26-052736"
       }
     ]
   },
-  "reported_13f_value_usd": null,
+  "reported_13f_value_usd": 348463522.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": null,
+  "validated_accession": "0001493152-26-052736",
   "annualized_turnover_proxy_pct": null
 }
