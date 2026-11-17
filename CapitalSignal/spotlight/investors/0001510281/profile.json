@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001510281",
   "investor_name": "Saba Capital Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1510281/0001062993-25-016858.txt",
-    "https://www.sec.gov/Archives/edgar/data/1510281/0001062993-26-004420.txt"
+    "https://www.sec.gov/Archives/edgar/data/1510281/0001062993-26-004420.txt",
+    "https://www.sec.gov/Archives/edgar/data/1510281/0001062993-26-006091.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b696a3eead9d11bf53cbd4737f50be2ed201bba8adbae6ff6e50054bebc7f109",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "f3a5a0bd5aab861bad1acc8a5626e8d12b50a0079dc22101996461af0676df5c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "71f9fe2f7f9917dea260b7c65c54d909433bd391",
+    "7c473f7e9dd39b0c8d34ddddc6aae16d81c6cfb4",
+    "be51ca0fad3d8cacfea98d42ede26e0132201cbc"
+  ],
+  "generated_at": "2026-11-17T01:25:44.831270+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001062993-26-004420",
-    "source": "https://www.sec.gov/Archives/edgar/data/1510281/0001062993-26-004420.txt",
-    "distinct_positions": 376,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001062993-26-006091",
+    "source": "https://www.sec.gov/Archives/edgar/data/1510281/0001062993-26-006091.txt",
+    "distinct_positions": 410,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3263097496.0,
+    "reported_long_equity_value_usd": 3412222258.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "SHS",
         "issuer": "ASA GOLD AND PRECIOUS MTLS L",
         "shares": 5903701.0,
-        "value_usd": 307228600.0,
-        "weight_pct": 9.42
+        "value_usd": 329131331.0,
+        "weight_pct": 9.65
+      },
+      {
+        "cusip": "464287242",
+        "security_class": "IBOXX INV CP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 2003340.0,
+        "value_usd": 204701281.0,
+        "weight_pct": 6.0
       },
       {
         "cusip": "09262F100",
         "security_class": "SHS BEN INT",
         "issuer": "BLACKROCK ESG CAP ALLC TERM",
-        "shares": 17612449.0,
-        "value_usd": 276867698.0,
-        "weight_pct": 8.48
+        "shares": 12534679.0,
+        "value_usd": 173730651.0,
+        "weight_pct": 5.09
       },
       {
         "cusip": "09260K101",
         "security_class": "SHS BEN INT",
         "issuer": "BLACKROCK SCIENCE & TECHNOLO",
-        "shares": 5696873.0,
-        "value_usd": 171077096.0,
-        "weight_pct": 5.24
+        "shares": 5562235.0,
+        "value_usd": 163640954.0,
+        "weight_pct": 4.8
       },
       {
         "cusip": "92840R101",
         "security_class": "COM",
         "issuer": "VIRTUS DIVIDEND INTEREST & P",
         "shares": 10216703.0,
-        "value_usd": 155191719.0,
-        "weight_pct": 4.76
-      },
-      {
-        "cusip": "36242H104",
-        "security_class": "COM",
-        "issuer": "GABELLI DIVID & INCOME TR",
-        "shares": 4679415.0,
-        "value_usd": 137574801.0,
-        "weight_pct": 4.22
+        "value_usd": 153761380.0,
+        "weight_pct": 4.51
       },
       {
         "cusip": "69346N107",
         "security_class": "COM SHS BEN INT",
         "issuer": "PIMCO DYNAMIC INCOME STRATEG",
-        "shares": 6416087.0,
-        "value_usd": 133582931.0,
-        "weight_pct": 4.09
+        "shares": 6322940.0,
+        "value_usd": 128355682.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "36242H104",
+        "security_class": "COM",
+        "issuer": "GABELLI DIVID & INCOME TR",
+        "shares": 4445297.0,
+        "value_usd": 125757452.0,
+        "weight_pct": 3.69
       },
       {
         "cusip": "64133Q108",
         "security_class": "COMMON STOCK",
         "issuer": "NEUBERGER NEXT GENERATION",
         "shares": 7548223.0,
-        "value_usd": 124847608.0,
-        "weight_pct": 3.83
+        "value_usd": 118431619.0,
+        "weight_pct": 3.47
       },
       {
         "cusip": "368802104",
         "security_class": "COM",
         "issuer": "GENERAL AMERN INVS CO INC",
         "shares": 1751470.0,
-        "value_usd": 111656213.0,
-        "weight_pct": 3.42
+        "value_usd": 111113257.0,
+        "weight_pct": 3.26
       },
       {
         "cusip": "09631P102",
         "security_class": "COM",
         "issuer": "BLUEROCK PVT REAL ESTATE FD",
-        "shares": 6742126.0,
-        "value_usd": 87715059.0,
+        "shares": 7322660.0,
+        "value_usd": 91826156.0,
         "weight_pct": 2.69
-      },
-      {
-        "cusip": "00548F105",
-        "security_class": "COM",
-        "issuer": "ADAM NAT RES FD INC",
-        "shares": 2269294.0,
-        "value_usd": 56096948.0,
-        "weight_pct": 1.72
       }
     ],
-    "top_five_pct": 32.11,
-    "top_ten_pct": 47.86,
-    "hhi": 314.69,
+    "top_five_pct": 30.04,
+    "top_ten_pct": 46.9,
+    "hhi": 289.54,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 192,
-      "exited_positions": 117,
-      "increased_positions": 49,
-      "reduced_positions": 66
+      "previous_period": "2026-06-30",
+      "new_positions": 95,
+      "exited_positions": 61,
+      "increased_positions": 64,
+      "reduced_positions": 69
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001062993-26-004420"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001062993-26-006091"
       }
     ]
   },
-  "reported_13f_value_usd": 3263097496.0,
+  "reported_13f_value_usd": 3412222258.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001062993-26-004420",
+  "validated_accession": "0001062993-26-006091",
   "annualized_turnover_proxy_pct": null
 }

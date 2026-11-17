@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001577806",
   "investor_name": "SQUADRA INVESTMENTS - GESTAO DE RECURSOS LTDA.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "RIO DE JANEIRO",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1577806/0000899140-25-001316.txt",
-    "https://www.sec.gov/Archives/edgar/data/1577806/0000899140-26-000862.txt"
+    "https://www.sec.gov/Archives/edgar/data/1577806/0000899140-26-000862.txt",
+    "https://www.sec.gov/Archives/edgar/data/1577806/0000899140-26-001372.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "47ca73c99b1ff3248994e4b3818c48a8270c06c550527bfd73777f076c348b80",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "4a722a62bc8d0a6f6cad968dd3432ebe99af0b63c0fdff69d49512221223d16b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "25e2fd1f4fd58ba479eca22766aa2df62608b82b",
+    "58236985314d814878f426b08934165b46dc0b2b",
+    "e201dcaf130d43ab18b9f99ec05b4a3b356e1fd6"
+  ],
+  "generated_at": "2026-11-17T01:25:44.831270+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000899140-26-000862",
-    "source": "https://www.sec.gov/Archives/edgar/data/1577806/0000899140-26-000862.txt",
-    "distinct_positions": 4,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001372",
+    "source": "https://www.sec.gov/Archives/edgar/data/1577806/0000899140-26-001372.txt",
+    "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 714808751.0,
+    "reported_long_equity_value_usd": 360637344.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,44 +42,52 @@
         "cusip": "G6683N103",
         "security_class": "ORD SHS CL A",
         "issuer": "Nu Holdings Ltd. (NU)",
-        "shares": 24533236.0,
-        "value_usd": 327764033.0,
-        "weight_pct": 45.85
+        "shares": 13011468.0,
+        "value_usd": 164725185.0,
+        "weight_pct": 45.68
       },
       {
         "cusip": "58733R102",
         "security_class": "COM",
         "issuer": "MercadoLibre, Inc. (MELI)",
-        "shares": 171881.0,
-        "value_usd": 291749091.0,
-        "weight_pct": 40.81
+        "shares": 95043.0,
+        "value_usd": 164284677.0,
+        "weight_pct": 45.55
       },
       {
         "cusip": "G4R20B107",
         "security_class": "CLASS A COM",
         "issuer": "Inter & Co, Inc. (INTR)",
-        "shares": 10069301.0,
-        "value_usd": 54676304.0,
-        "weight_pct": 7.65
+        "shares": 2251829.0,
+        "value_usd": 12024767.0,
+        "weight_pct": 3.33
       },
       {
         "cusip": "G85158106",
         "security_class": "COM CL A",
         "issuer": "StoneCo Ltd. (STNE)",
-        "shares": 3747170.0,
-        "value_usd": 40619323.0,
-        "weight_pct": 5.68
+        "shares": 1244200.0,
+        "value_usd": 11620828.0,
+        "weight_pct": 3.22
+      },
+      {
+        "cusip": "191241108",
+        "security_class": "SPONS ADS REP",
+        "issuer": "Coca-Cola FEMSA, S.A.B. de C.V. (KOF)",
+        "shares": 73879.0,
+        "value_usd": 7981887.0,
+        "weight_pct": 2.21
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3859.2,
+    "hhi": 4187.87,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 1,
-      "exited_positions": 1,
-      "increased_positions": 3,
-      "reduced_positions": 0
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -80,11 +99,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000899140-26-000862"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001372"
       }
     ]
   },
-  "reported_13f_value_usd": 714808751.0,
+  "reported_13f_value_usd": 360637344.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000899140-26-000862",
+  "validated_accession": "0000899140-26-001372",
   "annualized_turnover_proxy_pct": null
 }

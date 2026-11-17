@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001903866",
   "investor_name": "Highlander Partners, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-29",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1903866/0001754960-25-000783.txt",
-    "https://www.sec.gov/Archives/edgar/data/1903866/0001754960-26-000663.txt"
+    "https://www.sec.gov/Archives/edgar/data/1903866/0001754960-26-000663.txt",
+    "https://www.sec.gov/Archives/edgar/data/1903866/0001754960-26-001009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9b015a01629ec55809c20cc1bacb9345f2b0145edc583af20842db0bf72622cb",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "afed2298147c243ee72c04613992bc3401ecd23fa2dc93d943178d4f630b0a12",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-07-29|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8820ef66bf1825a1de8cd20986c9399f29763bc6",
+    "afc705cbdbc9dcf38190b5e1756d34363fb8283c",
+    "bca20585f475d993ef167ae8e0cc27ae93df6e83"
+  ],
+  "generated_at": "2026-11-17T01:25:44.831270+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-29",
-    "accession": "0001754960-26-000663",
-    "source": "https://www.sec.gov/Archives/edgar/data/1903866/0001754960-26-000663.txt",
-    "distinct_positions": 44,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001754960-26-001009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1903866/0001754960-26-001009.txt",
+    "distinct_positions": 42,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 298322787.0,
+    "reported_long_equity_value_usd": 281621182.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM CL A",
         "issuer": "VERTIV HOLDINGS CO",
         "shares": 197569.0,
-        "value_usd": 66150053.0,
-        "weight_pct": 22.17
-      },
-      {
-        "cusip": "09260D107",
-        "security_class": "COM",
-        "issuer": "BLACKSTONE INC",
-        "shares": 238600.0,
-        "value_usd": 28076062.0,
-        "weight_pct": 9.41
+        "value_usd": 47675375.0,
+        "weight_pct": 16.93
       },
       {
         "cusip": "49338L103",
         "security_class": "COM",
         "issuer": "KEYSIGHT TECHNOLOGIES INC",
         "shares": 79200.0,
-        "value_usd": 27725544.0,
-        "weight_pct": 9.29
+        "value_usd": 28831968.0,
+        "weight_pct": 10.24
       },
       {
-        "cusip": "88023U101",
+        "cusip": "09260D107",
         "security_class": "COM",
-        "issuer": "SOMNIGROUP INTERNATIONAL INC",
-        "shares": 329500.0,
-        "value_usd": 25832800.0,
-        "weight_pct": 8.66
+        "issuer": "BLACKSTONE INC",
+        "shares": 238600.0,
+        "value_usd": 26744674.0,
+        "weight_pct": 9.5
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
         "shares": 104000.0,
-        "value_usd": 24787360.0,
-        "weight_pct": 8.31
+        "value_usd": 25911600.0,
+        "weight_pct": 9.2
       },
       {
-        "cusip": "604749101",
+        "cusip": "88023U101",
         "security_class": "COM",
-        "issuer": "MIRUM PHARMACEUTICALS INC",
-        "shares": 122980.0,
-        "value_usd": 14397269.0,
-        "weight_pct": 4.83
+        "issuer": "SOMNIGROUP INTERNATIONAL INC",
+        "shares": 395500.0,
+        "value_usd": 24564505.0,
+        "weight_pct": 8.72
+      },
+      {
+        "cusip": "26969P108",
+        "security_class": "COM",
+        "issuer": "EAGLE MATLS INC",
+        "shares": 119700.0,
+        "value_usd": 20471094.0,
+        "weight_pct": 7.27
       },
       {
         "cusip": "24703L202",
         "security_class": "CL C",
         "issuer": "DELL TECHNOLOGIES INC",
         "shares": 30000.0,
-        "value_usd": 12943800.0,
-        "weight_pct": 4.34
+        "value_usd": 16138500.0,
+        "weight_pct": 5.73
       },
       {
-        "cusip": "78473E103",
+        "cusip": "235851102",
         "security_class": "COM",
-        "issuer": "SPX TECHNOLOGIES INC",
-        "shares": 52250.0,
-        "value_usd": 12810133.0,
-        "weight_pct": 4.29
-      },
-      {
-        "cusip": "88224Q107",
-        "security_class": "COM",
-        "issuer": "TEXAS CAP BANCSHARES INC",
-        "shares": 123842.0,
-        "value_usd": 12787925.0,
-        "weight_pct": 4.29
+        "issuer": "DANAHER CORP DEL",
+        "shares": 58000.0,
+        "value_usd": 12849900.0,
+        "weight_pct": 4.56
       },
       {
         "cusip": "866966104",
         "security_class": "SHS",
         "issuer": "SUNBELT RENTALS HOLDINGS INC",
         "shares": 150000.0,
-        "value_usd": 11221500.0,
-        "weight_pct": 3.76
+        "value_usd": 10981500.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "78473E103",
+        "security_class": "COM",
+        "issuer": "SPX TECHNOLOGIES INC",
+        "shares": 62250.0,
+        "value_usd": 10555110.0,
+        "weight_pct": 3.75
       }
     ],
-    "top_five_pct": 57.85,
-    "top_ten_pct": 79.35,
-    "hhi": 944.5,
+    "top_five_pct": 54.59,
+    "top_ten_pct": 79.8,
+    "hhi": 823.93,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
-      "exited_positions": 11,
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 5,
       "increased_positions": 2,
-      "reduced_positions": 5
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-29",
         "accession": "0001754960-26-000663"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001754960-26-001009"
       }
     ]
   },
-  "reported_13f_value_usd": 298322787.0,
+  "reported_13f_value_usd": 281621182.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001754960-26-000663",
+  "validated_accession": "0001754960-26-001009",
   "annualized_turnover_proxy_pct": null
 }

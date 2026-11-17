@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001777813",
   "investor_name": "Atreides Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1777813/0001777813-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1777813/0001777813-26-000009.txt"
+    "https://www.sec.gov/Archives/edgar/data/1777813/0001777813-26-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1777813/0001777813-26-000013.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ca1762beae2a5c120d2e4fa092720fc667804f449dcd60bae6afdc172ad00d09",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "f024b46afeb5f1a173c32953cde3258f1141d574aadfd0d2f4ccfb29e586763b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "48f3016c27e125bdbe20f9b5337c1a0c897daf37",
+    "aef5fd83423a22bbb3c70d92ee59eed7808a961b",
+    "c948b2659f7c96760b0758f620ea8e69fe8a7e9b"
+  ],
+  "generated_at": "2026-11-17T01:25:44.831270+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001777813-26-000009",
-    "source": "https://www.sec.gov/Archives/edgar/data/1777813/0001777813-26-000009.txt",
-    "distinct_positions": 46,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001777813-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1777813/0001777813-26-000013.txt",
+    "distinct_positions": 41,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 11148289162.0,
+    "reported_long_equity_value_usd": 10741425085.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "84615Q103",
         "security_class": "CLASS A COM STK",
         "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 27332943.0,
-        "value_usd": 4670106641.0,
-        "weight_pct": 41.89
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 711364.0,
-        "value_usd": 821120352.0,
-        "weight_pct": 7.37
-      },
-      {
-        "cusip": "15675D103",
-        "security_class": "COM CL A",
-        "issuer": "CEREBRAS SYSTEMS INC",
-        "shares": 3110086.0,
-        "value_usd": 687329006.0,
-        "weight_pct": 6.17
+        "shares": 27406054.0,
+        "value_usd": 4134477306.0,
+        "weight_pct": 38.49
       },
       {
         "cusip": "04626A103",
         "security_class": "COM",
         "issuer": "ASTERA LABS INC",
-        "shares": 1216795.0,
-        "value_usd": 587736321.0,
-        "weight_pct": 5.27
+        "shares": 2459106.0,
+        "value_usd": 875367963.0,
+        "weight_pct": 8.15
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 872413.0,
+        "value_usd": 632656459.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "COM CL A",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 3487828.0,
+        "value_usd": 619612644.0,
+        "weight_pct": 5.77
       },
       {
         "cusip": "171779309",
         "security_class": "COM NEW",
         "issuer": "CIENA CORP",
-        "shares": 688521.0,
-        "value_usd": 337760862.0,
-        "weight_pct": 3.03
-      },
-      {
-        "cusip": "G25457105",
-        "security_class": "ORDINARY SHARES",
-        "issuer": "CREDO TECHNOLOGY GROUP HOLDI",
-        "shares": 1129285.0,
-        "value_usd": 307109056.0,
-        "weight_pct": 2.75
-      },
-      {
-        "cusip": "697435105",
-        "security_class": "COM",
-        "issuer": "PALO ALTO NETWORKS INC",
-        "shares": 876954.0,
-        "value_usd": 299058853.0,
-        "weight_pct": 2.68
-      },
-      {
-        "cusip": "91332U101",
-        "security_class": "COM",
-        "issuer": "UNITY SOFTWARE INC",
-        "shares": 10245819.0,
-        "value_usd": 292825507.0,
-        "weight_pct": 2.63
-      },
-      {
-        "cusip": "19247G107",
-        "security_class": "COM",
-        "issuer": "COHERENT CORP",
-        "shares": 642101.0,
-        "value_usd": 253289581.0,
-        "weight_pct": 2.27
+        "shares": 1038827.0,
+        "value_usd": 365480115.0,
+        "weight_pct": 3.4
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 1249291.0,
-        "value_usd": 249970636.0,
-        "weight_pct": 2.24
+        "shares": 1476231.0,
+        "value_usd": 337141636.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 303569.0,
+        "value_usd": 323334378.0,
+        "weight_pct": 3.01
+      },
+      {
+        "cusip": "91332U101",
+        "security_class": "COM",
+        "issuer": "UNITY SOFTWARE INC",
+        "shares": 7730696.0,
+        "value_usd": 316417387.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "316841105",
+        "security_class": "CLASS A COM STK",
+        "issuer": "FIGMA INC",
+        "shares": 12806699.0,
+        "value_usd": 269196813.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "N97284108",
+        "security_class": "SHS CLASS A",
+        "issuer": "NEBIUS GROUP N.V.",
+        "shares": 1130793.0,
+        "value_usd": 266731453.0,
+        "weight_pct": 2.48
       }
     ],
-    "top_five_pct": 63.72,
-    "top_ten_pct": 76.3,
-    "hhi": 1942.51,
+    "top_five_pct": 61.7,
+    "top_ten_pct": 75.79,
+    "hhi": 1701.29,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 20,
-      "exited_positions": 30,
-      "increased_positions": 13,
-      "reduced_positions": 13
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 12,
+      "increased_positions": 23,
+      "reduced_positions": 11
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001777813-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001777813-26-000013"
       }
     ]
   },
-  "reported_13f_value_usd": 11148289162.0,
+  "reported_13f_value_usd": 10741425085.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001777813-26-000009",
+  "validated_accession": "0001777813-26-000013",
   "annualized_turnover_proxy_pct": null
 }

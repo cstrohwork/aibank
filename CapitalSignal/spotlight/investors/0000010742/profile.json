@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000010742",
   "investor_name": "BECK MACK & OLIVER LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/10742/0000010742-25-000021.txt",
-    "https://www.sec.gov/Archives/edgar/data/10742/0000010742-26-000013.txt"
+    "https://www.sec.gov/Archives/edgar/data/10742/0000010742-26-000013.txt",
+    "https://www.sec.gov/Archives/edgar/data/10742/0000010742-26-000016.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "42ca50c8eff05004378559a2c0643bb9f77f0bc662b91d3febc3f63be35fc1e4",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "b1da86baebe4ee1fb53fe0f6e644e73fd94c3b48c542d9cafe81cb24428c7270",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "18eb63fd597ac0cc4c46977224c24e7b0289be8f",
+    "21cdc982b670d71d7a7b931fdfa4c368a161e59d",
+    "e723f9e11c3722ff9bb42c4817f6532b7b57527c"
+  ],
+  "generated_at": "2026-11-17T01:25:44.831270+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000010742-26-000013",
-    "source": "https://www.sec.gov/Archives/edgar/data/10742/0000010742-26-000013.txt",
-    "distinct_positions": 201,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000010742-26-000016",
+    "source": "https://www.sec.gov/Archives/edgar/data/10742/0000010742-26-000016.txt",
+    "distinct_positions": 196,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5128876867.0,
+    "reported_long_equity_value_usd": 5016373258.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "03769M106",
         "security_class": "COM",
         "issuer": "APOLLO GLOBAL MGMT INC",
-        "shares": 2693798.0,
-        "value_usd": 318703295.0,
-        "weight_pct": 6.21
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "COM",
-        "issuer": "ALPHABET INC CAP STK CL C",
-        "shares": 804126.0,
-        "value_usd": 284121840.0,
-        "weight_pct": 5.54
-      },
-      {
-        "cusip": "09260D107",
-        "security_class": "COM",
-        "issuer": "BLACKSTONE INC.",
-        "shares": 2230056.0,
-        "value_usd": 262410719.0,
-        "weight_pct": 5.12
-      },
-      {
-        "cusip": "363576109",
-        "security_class": "COM",
-        "issuer": "GALLAGHER ARTHUR J",
-        "shares": 1061905.0,
-        "value_usd": 243781531.0,
-        "weight_pct": 4.75
-      },
-      {
-        "cusip": "866966104",
-        "security_class": "COM",
-        "issuer": "SUNBELT RENTALS HOLDING COMMON",
-        "shares": 3168656.0,
-        "value_usd": 237047155.0,
-        "weight_pct": 4.62
+        "shares": 2578388.0,
+        "value_usd": 299247663.0,
+        "weight_pct": 5.97
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 545934.0,
-        "value_usd": 203644354.0,
-        "weight_pct": 3.97
+        "shares": 535947.0,
+        "value_usd": 274887291.0,
+        "weight_pct": 5.48
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC CAP STK CL C",
+        "shares": 772082.0,
+        "value_usd": 263079221.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "09260D107",
+        "security_class": "COM",
+        "issuer": "BLACKSTONE INC.",
+        "shares": 2142700.0,
+        "value_usd": 240175257.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "363576109",
+        "security_class": "COM",
+        "issuer": "GALLAGHER ARTHUR J",
+        "shares": 1024414.0,
+        "value_usd": 233679078.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "866966104",
+        "security_class": "COM",
+        "issuer": "SUNBELT RENTALS HOLDING COMMON",
+        "shares": 3040201.0,
+        "value_usd": 222573115.0,
+        "weight_pct": 4.44
       },
       {
         "cusip": "750491102",
         "security_class": "COM",
         "issuer": "RADNET INC COM",
-        "shares": 3163592.0,
-        "value_usd": 195098719.0,
-        "weight_pct": 3.8
-      },
-      {
-        "cusip": "225310101",
-        "security_class": "COM",
-        "issuer": "CREDIT ACCEP CORP MICH COM",
-        "shares": 305983.0,
-        "value_usd": 194831615.0,
-        "weight_pct": 3.8
-      },
-      {
-        "cusip": "88023U101",
-        "security_class": "COM",
-        "issuer": "SOMNIGROUP INTERNATIONAL COM",
-        "shares": 2468485.0,
-        "value_usd": 193529224.0,
-        "weight_pct": 3.77
+        "shares": 2997752.0,
+        "value_usd": 206665023.0,
+        "weight_pct": 4.12
       },
       {
         "cusip": "808513105",
         "security_class": "COM",
         "issuer": "SCHWAB CHARLES CP NEW COM",
-        "shares": 2016840.0,
-        "value_usd": 186093843.0,
-        "weight_pct": 3.63
+        "shares": 1930257.0,
+        "value_usd": 188663336.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "941848103",
+        "security_class": "COM",
+        "issuer": "WATERS CORPORATION",
+        "shares": 416823.0,
+        "value_usd": 183147858.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "504922105",
+        "security_class": "COM",
+        "issuer": "LABCORP HOLDINGS",
+        "shares": 592085.0,
+        "value_usd": 182427309.0,
+        "weight_pct": 3.64
       }
     ],
-    "top_five_pct": 26.24,
-    "top_ten_pct": 45.22,
-    "hhi": 305.96,
+    "top_five_pct": 26.14,
+    "top_ten_pct": 45.74,
+    "hhi": 307.66,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 44,
-      "exited_positions": 30,
-      "increased_positions": 37,
-      "reduced_positions": 88
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 13,
+      "increased_positions": 32,
+      "reduced_positions": 79
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000010742-26-000013"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000010742-26-000016"
       }
     ]
   },
-  "reported_13f_value_usd": 5128876867.0,
+  "reported_13f_value_usd": 5016373258.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000010742-26-000013",
+  "validated_accession": "0000010742-26-000016",
   "annualized_turnover_proxy_pct": null
 }
