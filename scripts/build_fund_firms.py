@@ -25,7 +25,7 @@ selected={}
 ambiguous=set()
 for key, entries in by_period.items():
     # Duplicate index references to the same source are harmless.
-    unique={str(e.get("file") or ""):e for e in entries}
+    unique={(str(e.get("file") or ""), str(e.get("accession") or ""), str(e.get("filing_date") or ""), str(e.get("source") or "")): e for e in entries}
     entries=list(unique.values())
     if len(entries)==1:
         selected[key]=entries[0]
