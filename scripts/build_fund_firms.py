@@ -9,11 +9,13 @@ DIR=ROOT/"funds"
 index=json.loads((DIR/"index.json").read_text())
 firms=collections.defaultdict(lambda:{"funds":[],"equity_assets_usd":0.0,"active_equity_assets_usd":0.0,"passive_equity_assets_usd":0.0,"unclassified_equity_assets_usd":0.0})
 bycusip=collections.defaultdict(list)
-# Use one reporting period per fund series. Exclude conflicting same-period
-# snapshots until amendment precedence can be established from SEC evidence.
+# Reconcile same-period filings by verified SEC filing date and accession.
+# Never infer precedence from local filenames or download timestamps.
+history_path=DIR/"history_index.json"
+candidates=json.loads(history_path.read_text()).get("funds",[]) if history_path.exists() else index["funds"]
 selected={}
 ambiguous=set()
-for entry in index["funds"]:
+for entry in candidates:
     series=(str(entry.get("registrant_cik") or ""),str(entry.get("series_id") or entry.get("fund_id") or ""))
     if not all(series) or not entry.get("report_date"):
         continue
@@ -21,8 +23,17 @@ for entry in index["funds"]:
     prior=selected.get(key)
     if prior is None:
         selected[key]=entry
-    elif prior.get("file") != entry.get("file"):
+        continue
+    if prior.get("file")==entry.get("file"):
+        continue
+    # Both records must carry independently recorded SEC dates/accessions.
+    # Identical rank with conflicting files remains ambiguous and excluded.
+    rank=lambda x:(str(x.get("filing_date") or ""),str(x.get("accession") or ""))
+    a,b=rank(prior),rank(entry)
+    if not (a[0] and a[1] and b[0] and b[1]) or a==b:
         ambiguous.add(key)
+    elif key not in ambiguous and b>a:
+        selected[key]=entry
 latest={}
 for key,entry in selected.items():
     if key in ambiguous:
@@ -60,6 +71,6 @@ for firm in firms.values():
     firm["coverage"]="sample_only_incomplete_fund_universe"
     for k in ("equity_assets_usd","active_equity_assets_usd","passive_equity_assets_usd","unclassified_equity_assets_usd"):firm[k]=round(firm[k],2)
     out.append(firm)
-(ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"excluded_ambiguous_series_periods":len(ambiguous),"methodology":"Latest unambiguous period per fund series; unresolved same-period duplicates excluded. Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
+(ROOT/"fund_firms.json").write_text(json.dumps({"firms":out,"excluded_ambiguous_series_periods":len(ambiguous),"methodology":"Latest verified filing-date/accession per series/report period; conflicting or undated duplicates excluded. Registrant groupings from SEC N-PORT filings; fund equity assets sum disclosed EC and EP positions. No attribution to 13F managers or adviser groups without verified mapping. Ratios use only sampled fund assets and are NOT institution-wide. Explicit index fund name is passive evidence; other funds unclassified."},separators=(",",":")))
 write_ownership_index(DIR, bycusip, "Disclosed N-PORT fund holdings, with registrant attribution, not a complete issuer register.")
 print("registrant groups",len(out),"funds",sum(x["fund_count"] for x in out),"equity securities",len(bycusip))
