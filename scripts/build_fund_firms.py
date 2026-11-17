@@ -26,13 +26,16 @@ for entry in candidates:
         continue
     if prior.get("file")==entry.get("file"):
         continue
-    # Both records must carry independently recorded SEC dates/accessions.
-    # Identical rank with conflicting files remains ambiguous and excluded.
-    rank=lambda x:(str(x.get("filing_date") or ""),str(x.get("accession") or ""))
-    a,b=rank(prior),rank(entry)
-    if not (a[0] and a[1] and b[0] and b[1]) or a==b:
+    # SEC accession numbers are identifiers, not chronological sequence numbers.
+    # Distinct accessions on the same filing date have no defensible ordering
+    # without verified amendment linkage, so exclude the disputed period.
+    # A later filing date establishes precedence only when both source
+    # accessions and dates are present. Do not revive a disputed period here.
+    a_date,a_accession=str(prior.get("filing_date") or ""),str(prior.get("accession") or "")
+    b_date,b_accession=str(entry.get("filing_date") or ""),str(entry.get("accession") or "")
+    if not all((a_date,a_accession,b_date,b_accession)) or a_date==b_date:
         ambiguous.add(key)
-    elif key not in ambiguous and b>a:
+    elif key not in ambiguous and b_date>a_date:
         selected[key]=entry
 latest={}
 for key,entry in selected.items():
