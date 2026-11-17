@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001990716",
   "investor_name": "TRV GP VI, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-10",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Boston",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1990716/0001193125-25-280201.txt",
-    "https://www.sec.gov/Archives/edgar/data/1990716/0001193125-26-340715.txt"
+    "https://www.sec.gov/Archives/edgar/data/1990716/0001193125-26-340715.txt",
+    "https://www.sec.gov/Archives/edgar/data/1990716/0001193125-26-463547.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "58eaca8bd9230eeef138c46cb1a73dc9c883db5d5601e8fa035ac55b9943a04a",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "bc63e3764b9871dc90cffe50973143a79dbe8638868bef1b790596843a488e82",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "bacc2d5d0690ef6d99e574425bf94e8aff82736d",
+    "bbc78f8a7abfff5c855fb96bb23e9aadb5b059b5",
+    "d588bab28124beec8133c8a37d75701f208006fd"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-10",
-    "accession": "0001193125-26-340715",
-    "source": "https://www.sec.gov/Archives/edgar/data/1990716/0001193125-26-340715.txt",
-    "distinct_positions": 4,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463547",
+    "source": "https://www.sec.gov/Archives/edgar/data/1990716/0001193125-26-463547.txt",
+    "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 232275395.0,
+    "reported_long_equity_value_usd": 243857193.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,39 +43,47 @@
         "security_class": "COM",
         "issuer": "SEPTERNA, INC.",
         "shares": 4211659.0,
-        "value_usd": 141048460.0,
-        "weight_pct": 60.72
+        "value_usd": 164802217.0,
+        "weight_pct": 67.58
       },
       {
         "cusip": "81221K108",
         "security_class": "COM",
-        "issuer": "SEAPORT THEREAPEUTICS, INC.",
+        "issuer": "SEAPORT THERAPEUTICS, INC.",
         "shares": 2061222.0,
-        "value_usd": 44769742.0,
-        "weight_pct": 19.27
+        "value_usd": 41574848.0,
+        "weight_pct": 17.05
       },
       {
         "cusip": "75383L102",
         "security_class": "COM",
         "issuer": "RAPPORT THERAPEUTICS, INC.",
         "shares": 969218.0,
-        "value_usd": 40387314.0,
-        "weight_pct": 17.39
+        "value_usd": 32565725.0,
+        "weight_pct": 13.35
       },
       {
         "cusip": "87583X109",
         "security_class": "COM",
         "issuer": "TANGO THERAPEUTICS, INC.",
         "shares": 194174.0,
-        "value_usd": 6069879.0,
-        "weight_pct": 2.61
+        "value_usd": 4844641.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "128058302",
+        "security_class": "COM",
+        "issuer": "LISATA THERAPEUTICS, INC.",
+        "shares": 48446.0,
+        "value_usd": 69762.0,
+        "weight_pct": 0.03
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 4368.15,
+    "hhi": 5040.2,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 1,
       "exited_positions": 0,
       "increased_positions": 0,
@@ -80,11 +99,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-10",
         "accession": "0001193125-26-340715"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463547"
       }
     ]
   },
-  "reported_13f_value_usd": 232275395.0,
+  "reported_13f_value_usd": 243857193.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-340715",
+  "validated_accession": "0001193125-26-463547",
   "annualized_turnover_proxy_pct": null
 }

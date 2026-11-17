@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001566887",
   "investor_name": "Ratan Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-18",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MIAMI",
   "state": "FL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1566887/0001566887-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1566887/0001566887-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1566887/0001566887-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1566887/0001566887-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "bc522a6ab1979b76dcd50bcd194089365a6f640cc152b7f85f5e33e2ac74c5ac",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "6486a458459b13acfb61e43dc219447be6ffb2a7a649d23a2b483aa71038cb46",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-18|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "077b8f3a49b72caf61852509ff8a471f2c60151e",
+    "355dc9bda32f5fbb1b6cded3627ce8e92532f995",
+    "bcdde1fd95473d3172d88f088a20d173eefe8cc4"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-18",
-    "accession": "0001566887-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1566887/0001566887-26-000004.txt",
-    "distinct_positions": 47,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001566887-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1566887/0001566887-26-000005.txt",
+    "distinct_positions": 31,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 309839514.0,
+    "reported_long_equity_value_usd": 79298542.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "82706C108",
-        "security_class": "SPONSORED ADS",
-        "issuer": "Silicon Motion Technology Corp",
-        "shares": 117623.0,
-        "value_usd": 39207275.0,
-        "weight_pct": 12.65
-      },
-      {
-        "cusip": "92840M102",
-        "security_class": "COM",
-        "issuer": "Vistra Corp",
-        "shares": 86728.0,
-        "value_usd": 25794788.0,
-        "weight_pct": 8.33
-      },
-      {
         "cusip": "458110100",
         "security_class": "COM",
         "issuer": "Intel Corp",
-        "shares": 183653.0,
-        "value_usd": 25643468.0,
-        "weight_pct": 8.28
+        "shares": 132142.0,
+        "value_usd": 15887433.0,
+        "weight_pct": 20.03
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "Amazon.Com Inc",
-        "shares": 94288.0,
-        "value_usd": 22472602.0,
-        "weight_pct": 7.25
+        "shares": 37288.0,
+        "value_usd": 9290305.0,
+        "weight_pct": 11.72
       },
       {
-        "cusip": "747525103",
+        "cusip": "53626N102",
         "security_class": "COM",
-        "issuer": "Qualcomm Inc",
-        "shares": 108429.0,
-        "value_usd": 20036595.0,
-        "weight_pct": 6.47
+        "issuer": "Lionsgate Studios Corp",
+        "shares": 825592.0,
+        "value_usd": 9246630.0,
+        "weight_pct": 11.66
       },
       {
-        "cusip": "314911108",
-        "security_class": "COM",
-        "issuer": "Fermi Inc",
-        "shares": 2158749.0,
-        "value_usd": 19774141.0,
-        "weight_pct": 6.38
-      },
-      {
-        "cusip": "093712107",
-        "security_class": "CL A",
-        "issuer": "Bloom Energy Corp",
-        "shares": 52249.0,
-        "value_usd": 15815772.0,
-        "weight_pct": 5.1
-      },
-      {
-        "cusip": "042068205",
+        "cusip": "82706C108",
         "security_class": "SPONSORED ADS",
-        "issuer": "Arm Holdings Plc",
-        "shares": 43515.0,
-        "value_usd": 15429114.0,
-        "weight_pct": 4.98
+        "issuer": "Silicon Motion Technology Corp",
+        "shares": 30873.0,
+        "value_usd": 8644440.0,
+        "weight_pct": 10.9
       },
       {
-        "cusip": "595112103",
+        "cusip": "92840M102",
         "security_class": "COM",
-        "issuer": "Micron Technology Inc",
-        "shares": 13000.0,
-        "value_usd": 15005770.0,
-        "weight_pct": 4.84
+        "issuer": "Vertiv Holdings Co",
+        "shares": 26900.0,
+        "value_usd": 6491239.0,
+        "weight_pct": 8.19
       },
       {
-        "cusip": "57776J100",
+        "cusip": "717051076",
         "security_class": "COM",
-        "issuer": "MaxLinear Inc",
-        "shares": 107581.0,
-        "value_usd": 13773595.0,
-        "weight_pct": 4.45
+        "issuer": "Bausch Lomb Corp",
+        "shares": 292261.0,
+        "value_usd": 4968437.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "Advanced Micro Devices Inc",
+        "shares": 6200.0,
+        "value_usd": 3792912.0,
+        "weight_pct": 4.78
+      },
+      {
+        "cusip": "15674D103",
+        "security_class": "COM",
+        "issuer": "Cerebras Systems Inc",
+        "shares": 11000.0,
+        "value_usd": 1954150.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "83444M101",
+        "security_class": "COM",
+        "issuer": "Solventum Corp",
+        "shares": 20000.0,
+        "value_usd": 1763000.0,
+        "weight_pct": 2.22
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "COM",
+        "issuer": "MasterCard Inc",
+        "shares": 3100.0,
+        "value_usd": 1709557.0,
+        "weight_pct": 2.16
       }
     ],
-    "top_five_pct": 42.98,
-    "top_ten_pct": 68.73,
-    "hhi": 589.25,
+    "top_five_pct": 62.5,
+    "top_ten_pct": 80.39,
+    "hhi": 961.73,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 30,
-      "exited_positions": 12,
-      "increased_positions": 3,
-      "reduced_positions": 9
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 17,
+      "increased_positions": 2,
+      "reduced_positions": 10
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-18",
         "accession": "0001566887-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001566887-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 309839514.0,
+  "reported_13f_value_usd": 79298542.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001566887-26-000004",
+  "validated_accession": "0001566887-26-000005",
   "annualized_turnover_proxy_pct": null
 }

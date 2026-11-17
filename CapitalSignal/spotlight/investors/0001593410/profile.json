@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001593410",
   "investor_name": "Claar Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1593410/0001493152-25-023427.txt",
-    "https://www.sec.gov/Archives/edgar/data/1593410/0001493152-26-038307.txt"
+    "https://www.sec.gov/Archives/edgar/data/1593410/0001493152-26-038307.txt",
+    "https://www.sec.gov/Archives/edgar/data/1593410/0001493152-26-052374.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b780bf96f8ed8e6ec37f2a243cc16a0b5f1dbf1ad985dbc01dac340e57b00dcd",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "829508644f30c3c63f261e1744fa1c54b23db28da972e7bf85a44a60b09c9a6a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "248584f36427e894b1d84e829014cb3a557f9746",
+    "34c66547f85246b35b63d54f3bd2ee708a200e21",
+    "6c94b2a3bbcd76e385c235444e1433589f43b518"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-038307",
-    "source": "https://www.sec.gov/Archives/edgar/data/1593410/0001493152-26-038307.txt",
-    "distinct_positions": 17,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001493152-26-052374",
+    "source": "https://www.sec.gov/Archives/edgar/data/1593410/0001493152-26-052374.txt",
+    "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 310410761.0,
+    "reported_long_equity_value_usd": 349251072.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,91 +42,91 @@
         "cusip": "464287150",
         "security_class": "CORE S&P TTL STK",
         "issuer": "ISHARES TR",
-        "shares": 993607.0,
-        "value_usd": 163219822.0,
-        "weight_pct": 52.58
+        "shares": 993616.0,
+        "value_usd": 165218468.0,
+        "weight_pct": 47.31
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
-        "shares": 86980.0,
-        "value_usd": 30732643.0,
-        "weight_pct": 9.9
+        "shares": 83980.0,
+        "value_usd": 28615345.0,
+        "weight_pct": 8.19
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 104353.0,
-        "value_usd": 24871494.0,
-        "weight_pct": 8.01
+        "shares": 102410.0,
+        "value_usd": 25515452.0,
+        "weight_pct": 7.31
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 46929.0,
-        "value_usd": 17505456.0,
-        "weight_pct": 5.64
+        "shares": 44929.0,
+        "value_usd": 23044084.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 308585.0,
+        "value_usd": 14608414.0,
+        "weight_pct": 4.18
       },
       {
         "cusip": "57636Q104",
-        "security_class": "CLASS A",
-        "issuer": "MASTERCARD INC",
-        "shares": 21695.0,
-        "value_usd": 11142552.0,
-        "weight_pct": 3.59
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 21696.0,
+        "value_usd": 11964693.0,
+        "weight_pct": 3.43
       },
       {
         "cusip": "78409V104",
         "security_class": "COM",
         "issuer": "S&P GLOBAL INC",
-        "shares": 23494.0,
-        "value_usd": 9568166.0,
-        "weight_pct": 3.08
+        "shares": 23493.0,
+        "value_usd": 9267284.0,
+        "weight_pct": 2.65
       },
       {
-        "cusip": "90353T100",
+        "cusip": "45866F104",
         "security_class": "COM",
-        "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 109687.0,
-        "value_usd": 7915014.0,
-        "weight_pct": 2.55
+        "issuer": "INTERCONTINENTAL EXCHANGE IN",
+        "shares": 57615.0,
+        "value_usd": 8759208.0,
+        "weight_pct": 2.51
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 36251.0,
+        "value_usd": 8279003.0,
+        "weight_pct": 2.37
       },
       {
         "cusip": "92826C839",
         "security_class": "COM CL A",
         "issuer": "VISA INC",
-        "shares": 22662.0,
-        "value_usd": 7775106.0,
-        "weight_pct": 2.5
-      },
-      {
-        "cusip": "45866F104",
-        "security_class": "COM",
-        "issuer": "INTERCONTINENTAL EXCHANGE INC",
-        "shares": 57615.0,
-        "value_usd": 7092983.0,
-        "weight_pct": 2.29
-      },
-      {
-        "cusip": "01609W102",
-        "security_class": "SPONSORED ADS",
-        "issuer": "ALIBABA GROUP HLDG LTD",
-        "shares": 57650.0,
-        "value_usd": 5533247.0,
-        "weight_pct": 1.78
+        "shares": 22663.0,
+        "value_usd": 8143496.0,
+        "weight_pct": 2.33
       }
     ],
-    "top_five_pct": 79.72,
-    "top_ten_pct": 91.93,
-    "hhi": 3012.6,
+    "top_five_pct": 73.59,
+    "top_ten_pct": 86.88,
+    "hhi": 2473.52,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
-      "exited_positions": 4,
-      "increased_positions": 9,
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 2,
+      "increased_positions": 6,
       "reduced_positions": 5
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-038307"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001493152-26-052374"
       }
     ]
   },
-  "reported_13f_value_usd": 310410761.0,
+  "reported_13f_value_usd": 349251072.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001493152-26-038307",
+  "validated_accession": "0001493152-26-052374",
   "annualized_turnover_proxy_pct": null
 }

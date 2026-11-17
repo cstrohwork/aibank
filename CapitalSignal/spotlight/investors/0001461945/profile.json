@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001461945",
   "investor_name": "JCP Investment Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HOUSTON",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1461945/0001461945-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1461945/0001461945-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1461945/0001461945-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1461945/0001461945-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b5f6638ba5ca8b8933db4959988e069dda3ae782fe5fc843f753ed417309c673",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "19013e0a2e7f4425873cc04444e8165188c933d9fdafc04af28f63e28886022a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4ec69929088c2cf6867409a1100db9f7da03afc8",
+    "539b8777ba98eb71c8cd892a4bdf6f392e79d4bd",
+    "7bcaaea7d6b9161415ddad83f79e827a4daa325a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001461945-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1461945/0001461945-26-000004.txt",
-    "distinct_positions": 26,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001461945-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1461945/0001461945-26-000006.txt",
+    "distinct_positions": 22,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 187122270.0,
+    "reported_long_equity_value_usd": 186373970.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "SPDR S&P 500 ETF TR",
-        "shares": 51888.0,
-        "value_usd": 38846326.0,
-        "weight_pct": 20.76
+        "shares": 58271.0,
+        "value_usd": 44549621.0,
+        "weight_pct": 23.9
+      },
+      {
+        "cusip": "44267T102",
+        "security_class": "COM",
+        "issuer": "HOWARD HUGHES HOLDINGS INC",
+        "shares": 405157.0,
+        "value_usd": 29827658.0,
+        "weight_pct": 16.0
       },
       {
         "cusip": "911163103",
         "security_class": "COM",
         "issuer": "UNITED NAT FOODS INC",
         "shares": 494371.0,
-        "value_usd": 22577924.0,
-        "weight_pct": 12.07
-      },
-      {
-        "cusip": "44267T102",
-        "security_class": "COM",
-        "issuer": "HOWARD HUGHES HOLDINGS INC",
-        "shares": 314100.0,
-        "value_usd": 22455009.0,
-        "weight_pct": 12.0
+        "value_usd": 22142877.0,
+        "weight_pct": 11.88
       },
       {
         "cusip": "31620R303",
         "security_class": "COM SHS",
         "issuer": "FIDELITY NATIONAL FINANCIAL",
-        "shares": 376527.0,
-        "value_usd": 17757013.0,
-        "weight_pct": 9.49
+        "shares": 378527.0,
+        "value_usd": 14630069.0,
+        "weight_pct": 7.85
       },
       {
         "cusip": "75689M101",
         "security_class": "COM",
         "issuer": "RED ROBIN GOURMET BURGERS IN",
         "shares": 1912614.0,
-        "value_usd": 15281786.0,
-        "weight_pct": 8.17
+        "value_usd": 14478488.0,
+        "weight_pct": 7.77
       },
       {
-        "cusip": "084670702",
-        "security_class": "CL B NEW",
-        "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 26324.0,
-        "value_usd": 13172266.0,
-        "weight_pct": 7.04
+        "cusip": "000957100",
+        "security_class": "COM",
+        "issuer": "ABM INDS INC",
+        "shares": 300728.0,
+        "value_usd": 14465017.0,
+        "weight_pct": 7.76
       },
       {
         "cusip": "02361E108",
         "security_class": "CL A",
         "issuer": "AMERESCO INC",
         "shares": 339000.0,
-        "value_usd": 9356400.0,
-        "weight_pct": 5.0
+        "value_usd": 7020690.0,
+        "weight_pct": 3.77
       },
       {
-        "cusip": "000957100",
+        "cusip": "704551100",
         "security_class": "COM",
-        "issuer": "ABM INDS INC",
-        "shares": 140728.0,
-        "value_usd": 6225807.0,
-        "weight_pct": 3.33
+        "issuer": "PEABODY ENGR CORP",
+        "shares": 236000.0,
+        "value_usd": 5756040.0,
+        "weight_pct": 3.09
       },
       {
-        "cusip": "47973J102",
+        "cusip": "580135101",
         "security_class": "COM",
-        "issuer": "JOINT CORP",
-        "shares": 593906.0,
-        "value_usd": 5214495.0,
-        "weight_pct": 2.79
+        "issuer": "MCDONALDS CORP",
+        "shares": 20800.0,
+        "value_usd": 4803552.0,
+        "weight_pct": 2.58
       },
       {
         "cusip": "49456B101",
         "security_class": "COM",
         "issuer": "KINDER MORGAN INC DEL",
         "shares": 139731.0,
-        "value_usd": 4467200.0,
-        "weight_pct": 2.39
+        "value_usd": 4212890.0,
+        "weight_pct": 2.26
       }
     ],
-    "top_five_pct": 62.48,
-    "top_ten_pct": 83.02,
-    "hhi": 1000.75,
+    "top_five_pct": 67.41,
+    "top_ten_pct": 86.86,
+    "hhi": 1207.85,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 15,
-      "exited_positions": 7,
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 8,
       "increased_positions": 6,
-      "reduced_positions": 3
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001461945-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001461945-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 187122270.0,
+  "reported_13f_value_usd": 186373970.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001461945-26-000004",
+  "validated_accession": "0001461945-26-000006",
   "annualized_turnover_proxy_pct": null
 }

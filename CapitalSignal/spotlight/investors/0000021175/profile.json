@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000021175",
   "investor_name": "CNA FINANCIAL CORP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/21175/0000021175-25-000099.txt",
-    "https://www.sec.gov/Archives/edgar/data/21175/0000021175-26-000047.txt"
+    "https://www.sec.gov/Archives/edgar/data/21175/0000021175-26-000047.txt",
+    "https://www.sec.gov/Archives/edgar/data/21175/0000021175-26-000063.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "eab9a5b347fef66a877061bf47ae4884de9d3c98481f19741d95b2b6e4e72eda",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "a74df00c70b43b580aed4ccd6706ce3f2876f4a1f7de417e9f256e27a9487385",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "9a7c9985c7559f56db3a3e13c9e6d91efb77e4a9",
+    "ba58439b166c5c31447adf6c3b876e93efb2906a",
+    "fe8094c99a6b1090fd1af29af6a145ad022395de"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000021175-26-000047",
-    "source": "https://www.sec.gov/Archives/edgar/data/21175/0000021175-26-000047.txt",
-    "distinct_positions": 18,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000021175-26-000063",
+    "source": "https://www.sec.gov/Archives/edgar/data/21175/0000021175-26-000063.txt",
+    "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 238996980.0,
+    "reported_long_equity_value_usd": 212914750.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "293792107",
         "security_class": "COM",
         "issuer": "ENTERPRISE PRODS PARTNERS L",
-        "shares": 900000.0,
-        "value_usd": 33084000.0,
-        "weight_pct": 13.84
+        "shares": 800000.0,
+        "value_usd": 28488000.0,
+        "weight_pct": 13.38
       },
       {
         "cusip": "29273V100",
         "security_class": "COM UT LTD PTN",
         "issuer": "ENERGY TRANSFER L P",
-        "shares": 1000000.0,
-        "value_usd": 19120000.0,
-        "weight_pct": 8.0
+        "shares": 950000.0,
+        "value_usd": 18781500.0,
+        "weight_pct": 8.82
       },
       {
-        "cusip": "14040H105",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "CAPITAL ONE FINL CORP",
-        "shares": 80000.0,
-        "value_usd": 16049600.0,
-        "weight_pct": 6.72
-      },
-      {
-        "cusip": "369604301",
-        "security_class": "COM NEW",
-        "issuer": "GE AEROSPACE",
-        "shares": 40000.0,
-        "value_usd": 14949200.0,
-        "weight_pct": 6.25
-      },
-      {
-        "cusip": "532457108",
-        "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 12000.0,
-        "value_usd": 14393160.0,
-        "weight_pct": 6.02
-      },
-      {
-        "cusip": "235851102",
-        "security_class": "COM",
-        "issuer": "DANAHER CORP DEL",
-        "shares": 75000.0,
-        "value_usd": 14286000.0,
-        "weight_pct": 5.98
-      },
-      {
-        "cusip": "11271J107",
-        "security_class": "CL A LTD VT SH",
-        "issuer": "BROOKFIELD CORP",
-        "shares": 325000.0,
-        "value_usd": 13841750.0,
-        "weight_pct": 5.79
-      },
-      {
-        "cusip": "16411R208",
-        "security_class": "COM NEW",
-        "issuer": "CHENIERE ENERGY INC",
-        "shares": 56000.0,
-        "value_usd": 13384560.0,
-        "weight_pct": 5.6
-      },
-      {
-        "cusip": "M22465104",
-        "security_class": "ORD",
-        "issuer": "CHECK POINT SOFTWARE TECH LT",
-        "shares": 100000.0,
-        "value_usd": 13143000.0,
-        "weight_pct": 5.5
+        "issuer": "MICROSOFT CORP",
+        "shares": 33000.0,
+        "value_usd": 16925700.0,
+        "weight_pct": 7.95
       },
       {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
-        "shares": 23000.0,
-        "value_usd": 12955670.0,
-        "weight_pct": 5.42
+        "shares": 22500.0,
+        "value_usd": 16316550.0,
+        "weight_pct": 7.66
+      },
+      {
+        "cusip": "866966104",
+        "security_class": "SHS",
+        "issuer": "SUNBELT RENTALS HOLDINGS INC",
+        "shares": 205000.0,
+        "value_usd": 15008050.0,
+        "weight_pct": 7.05
+      },
+      {
+        "cusip": "16411R208",
+        "security_class": "COM NEW",
+        "issuer": "CHENIERE ENERGY INC",
+        "shares": 55000.0,
+        "value_usd": 14796650.0,
+        "weight_pct": 6.95
+      },
+      {
+        "cusip": "M22465104",
+        "security_class": "ORD",
+        "issuer": "CHECK POINT SOFTWARE TECH LT",
+        "shares": 101500.0,
+        "value_usd": 13027525.0,
+        "weight_pct": 6.12
+      },
+      {
+        "cusip": "11271J107",
+        "security_class": "CL A LTD VT SH",
+        "issuer": "BROOKFIELD CORP",
+        "shares": 350000.0,
+        "value_usd": 12761000.0,
+        "weight_pct": 5.99
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 50000.0,
+        "value_usd": 12457500.0,
+        "weight_pct": 5.85
+      },
+      {
+        "cusip": "457187102",
+        "security_class": "COM",
+        "issuer": "INGREDION INC",
+        "shares": 130000.0,
+        "value_usd": 12455300.0,
+        "weight_pct": 5.85
       }
     ],
-    "top_five_pct": 40.84,
-    "top_ten_pct": 69.13,
-    "hhi": 666.09,
+    "top_five_pct": 44.86,
+    "top_ten_pct": 75.63,
+    "hhi": 721.95,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 6,
-      "increased_positions": 4,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 5,
+      "reduced_positions": 9
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000021175-26-000047"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000021175-26-000063"
       }
     ]
   },
-  "reported_13f_value_usd": 238996980.0,
+  "reported_13f_value_usd": 212914750.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000021175-26-000047",
+  "validated_accession": "0000021175-26-000063",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001641447",
   "investor_name": "Lavaca Capital LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HOUSTON",
   "state": "TX",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1641447/0001420506-25-003207.txt",
-    "https://www.sec.gov/Archives/edgar/data/1641447/0001420506-26-001747.txt"
+    "https://www.sec.gov/Archives/edgar/data/1641447/0001420506-26-001747.txt",
+    "https://www.sec.gov/Archives/edgar/data/1641447/0001420506-26-002896.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0a325916989da942ef748fcce2b84de87171c5da49c02233ed1842126e3e0900",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "8cd3c4023dfd6284642df68a5d7aecfe578eada3271523fd81d599e6c993744d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5d82b5d3d3fe8e5d4b71de74e4166a69dfce26eb",
+    "6c55306bd6d4c8177c9ab736384d8621c2153a2c",
+    "c869c0327a1d4ea8995a6335cf60b7476b82f256"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001747",
-    "source": "https://www.sec.gov/Archives/edgar/data/1641447/0001420506-26-001747.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002896",
+    "source": "https://www.sec.gov/Archives/edgar/data/1641447/0001420506-26-002896.txt",
     "distinct_positions": 345,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 959497684.0,
+    "reported_long_equity_value_usd": 997052490.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "21873S108",
-        "security_class": "COM CL A",
-        "issuer": "COREWEAVE INC",
-        "shares": 3323566.0,
-        "value_usd": 330827760.0,
-        "weight_pct": 34.48
-      },
       {
         "cusip": "17243V102",
         "security_class": "COM",
         "issuer": "CINEMARK HLDGS INC",
         "shares": 10143931.0,
-        "value_usd": 321866931.0,
-        "weight_pct": 33.55
+        "value_usd": 378368626.0,
+        "weight_pct": 37.95
+      },
+      {
+        "cusip": "21873S108",
+        "security_class": "COM CL A",
+        "issuer": "COREWEAVE INC",
+        "shares": 3323566.0,
+        "value_usd": 289549070.0,
+        "weight_pct": 29.04
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 108439.0,
-        "value_usd": 80979077.0,
-        "weight_pct": 8.44
+        "shares": 109069.0,
+        "value_usd": 83179291.0,
+        "weight_pct": 8.34
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 118960.0,
-        "value_usd": 23802706.0,
-        "weight_pct": 2.48
+        "shares": 117307.0,
+        "value_usd": 26790571.0,
+        "weight_pct": 2.69
       },
       {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 60576.0,
-        "value_usd": 17528379.0,
-        "weight_pct": 1.83
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 138773.0,
+        "value_usd": 13971666.0,
+        "weight_pct": 1.4
       },
       {
         "cusip": "871829107",
         "security_class": "COM",
         "issuer": "SYSCO CORP",
         "shares": 178051.0,
-        "value_usd": 14881502.0,
-        "weight_pct": 1.55
+        "value_usd": 13880856.0,
+        "weight_pct": 1.39
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 39809.0,
+        "value_usd": 13257192.0,
+        "weight_pct": 1.33
+      },
+      {
+        "cusip": "02072L565",
+        "security_class": "ALPHA ARCH 1-3",
+        "issuer": "EA SERIES TRUST",
+        "shares": 87947.0,
+        "value_usd": 10412046.0,
+        "weight_pct": 1.04
       },
       {
         "cusip": "58933Y105",
         "security_class": "COM",
         "issuer": "MERCK & CO INC",
-        "shares": 65773.0,
-        "value_usd": 8451834.0,
-        "weight_pct": 0.88
+        "shares": 66057.0,
+        "value_usd": 9598743.0,
+        "weight_pct": 0.96
       },
       {
-        "cusip": "30231G102",
-        "security_class": "COM",
-        "issuer": "EXXON MOBIL CORP",
-        "shares": 57603.0,
-        "value_usd": 7875542.0,
-        "weight_pct": 0.82
-      },
-      {
-        "cusip": "48251W104",
-        "security_class": "COM",
-        "issuer": "KKR & CO INC",
-        "shares": 84519.0,
-        "value_usd": 7757154.0,
-        "weight_pct": 0.81
-      },
-      {
-        "cusip": "87612G101",
-        "security_class": "COM",
-        "issuer": "TARGA RES CORP",
-        "shares": 28200.0,
-        "value_usd": 7561548.0,
-        "weight_pct": 0.79
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 57685.0,
+        "value_usd": 9388235.0,
+        "weight_pct": 0.94
       }
     ],
-    "top_five_pct": 80.77,
-    "top_ten_pct": 85.62,
-    "hhi": 2403.54,
+    "top_five_pct": 79.42,
+    "top_ten_pct": 85.09,
+    "hhi": 2373.2,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 128,
-      "exited_positions": 40,
-      "increased_positions": 71,
-      "reduced_positions": 43
+      "previous_period": "2026-06-30",
+      "new_positions": 51,
+      "exited_positions": 51,
+      "increased_positions": 86,
+      "reduced_positions": 64
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001747"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002896"
       }
     ]
   },
-  "reported_13f_value_usd": 959497684.0,
+  "reported_13f_value_usd": 997052490.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001747",
+  "validated_accession": "0001420506-26-002896",
   "annualized_turnover_proxy_pct": null
 }

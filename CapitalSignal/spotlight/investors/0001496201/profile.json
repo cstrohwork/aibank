@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001496201",
   "investor_name": "SPHERA FUNDS MANAGEMENT LTD.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TEL AVIV",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1496201/0001496201-25-000017.txt",
-    "https://www.sec.gov/Archives/edgar/data/1496201/0001496201-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1496201/0001496201-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1496201/0001496201-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c9005ab00e5096052e537b92f4d9f5d9f56766179020014942a670811198f104",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "3c14ca64b8fa504a591eb1b777eb2e9857755492b8103d27b793918c079b0bc8",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "36221e6a743b73a10a86657afa4be0042974845d",
+    "5afcffaa0b6f96e78cdf26851f48d2283c69ca3e",
+    "f8456f46875bf766e39383b1e553c81323d6f47e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001496201-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1496201/0001496201-26-000004.txt",
-    "distinct_positions": 97,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001496201-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1496201/0001496201-26-000006.txt",
+    "distinct_positions": 100,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 698825963.0,
+    "reported_long_equity_value_usd": 660392803.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "881624209",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TEVA PHARMACEUTICAL INDS LTD",
-        "shares": 1500082.0,
-        "value_usd": 50822778.0,
-        "weight_pct": 7.27
-      },
-      {
         "cusip": "603170101",
         "security_class": "COM",
         "issuer": "MINERALYS THERAPEUTICS INC",
-        "shares": 1469971.0,
-        "value_usd": 39659818.0,
-        "weight_pct": 5.68
+        "shares": 1321861.0,
+        "value_usd": 33218367.0,
+        "weight_pct": 5.03
       },
       {
-        "cusip": "M87915274",
-        "security_class": "SHS NEW",
-        "issuer": "TOWER SEMICONDUCTOR LTD",
-        "shares": 108265.0,
-        "value_usd": 28218190.0,
-        "weight_pct": 4.04
+        "cusip": "M8769Q102",
+        "security_class": "SHS",
+        "issuer": "TEVA PHARMACEUTICAL INDS LTD",
+        "shares": 821282.0,
+        "value_usd": 32522767.0,
+        "weight_pct": 4.92
       },
       {
-        "cusip": "87164F105",
+        "cusip": "02043Q107",
         "security_class": "COM",
-        "issuer": "SYNDAX PHARMACEUTICALS INC",
-        "shares": 1014606.0,
-        "value_usd": 22179287.0,
-        "weight_pct": 3.17
-      },
-      {
-        "cusip": "09062X103",
-        "security_class": "COM",
-        "issuer": "BIOGEN INC",
-        "shares": 96626.0,
-        "value_usd": 20877014.0,
-        "weight_pct": 2.99
-      },
-      {
-        "cusip": "90400D108",
-        "security_class": "COM",
-        "issuer": "ULTRAGENYX PHARMACEUTICAL IN",
-        "shares": 588494.0,
-        "value_usd": 19649815.0,
-        "weight_pct": 2.81
-      },
-      {
-        "cusip": "09061G101",
-        "security_class": "COM",
-        "issuer": "BIOMARIN PHARMACEUTICAL INC",
-        "shares": 328550.0,
-        "value_usd": 18799631.0,
-        "weight_pct": 2.69
+        "issuer": "ALNYLAM PHARMACEUTICALS INC",
+        "shares": 120602.0,
+        "value_usd": 29757337.0,
+        "weight_pct": 4.51
       },
       {
         "cusip": "23282W605",
         "security_class": "COM NEW",
         "issuer": "CYTOKINETICS INC",
-        "shares": 219987.0,
-        "value_usd": 18740693.0,
-        "weight_pct": 2.68
+        "shares": 361897.0,
+        "value_usd": 23852631.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 37000.0,
+        "value_usd": 21039680.0,
+        "weight_pct": 3.19
       },
       {
         "cusip": "10806X102",
         "security_class": "COM",
         "issuer": "BRIDGEBIO PHARMA INC",
-        "shares": 245346.0,
-        "value_usd": 18273370.0,
-        "weight_pct": 2.61
+        "shares": 311717.0,
+        "value_usd": 20510979.0,
+        "weight_pct": 3.11
       },
       {
-        "cusip": "19240Q201",
+        "cusip": "M87915274",
+        "security_class": "SHS NEW",
+        "issuer": "TOWER SEMICONDUCTOR LTD",
+        "shares": 84740.0,
+        "value_usd": 19272418.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "87164F105",
         "security_class": "COM",
-        "issuer": "COGENT BIOSCIENCES INC",
-        "shares": 459340.0,
-        "value_usd": 17776458.0,
-        "weight_pct": 2.54
+        "issuer": "SYNDAX PHARMACEUTICALS INC",
+        "shares": 1007278.0,
+        "value_usd": 18936826.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "09061G101",
+        "security_class": "COM",
+        "issuer": "BIOMARIN PHARMACEUTICAL INC",
+        "shares": 293246.0,
+        "value_usd": 17594760.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "09062X103",
+        "security_class": "COM",
+        "issuer": "BIOGEN INC",
+        "shares": 75763.0,
+        "value_usd": 17113346.0,
+        "weight_pct": 2.59
       }
     ],
-    "top_five_pct": 23.15,
-    "top_ten_pct": 36.49,
-    "hhi": 219.68,
+    "top_five_pct": 21.26,
+    "top_ten_pct": 35.41,
+    "hhi": 202.68,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 46,
-      "exited_positions": 50,
+      "previous_period": "2026-06-30",
+      "new_positions": 22,
+      "exited_positions": 19,
       "increased_positions": 30,
-      "reduced_positions": 18
+      "reduced_positions": 34
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001496201-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001496201-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 698825963.0,
+  "reported_13f_value_usd": 660392803.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001496201-26-000004",
+  "validated_accession": "0001496201-26-000006",
   "annualized_turnover_proxy_pct": null
 }

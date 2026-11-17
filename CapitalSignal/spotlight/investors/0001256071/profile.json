@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001256071",
   "investor_name": "PLATINUM INVESTMENT MANAGEMENT LTD",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SYDNEY AUSTRALIA 2000",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1256071/0001256071-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1256071/0001256071-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1256071/0001256071-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1256071/0001256071-26-000016.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "03372a008ad9afe78eac667ed395c3f035d186c269aeb3ac3eec2ea2f6ded931",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "516ca6d72f648233f59cfb1e6989e7e64d2b98228a1a9f60a6be4d7305517c65",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "50595af8e086fa134ad586212fb1e0519c6d5317",
+    "ae382e584968c686d530531c0124eb6123afebec",
+    "f7a74d0dd9811788531ba01a4d4aa66359c176a6"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001256071-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1256071/0001256071-26-000007.txt",
-    "distinct_positions": 85,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001256071-26-000016",
+    "source": "https://www.sec.gov/Archives/edgar/data/1256071/0001256071-26-000016.txt",
+    "distinct_positions": 54,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 406746419.0,
+    "reported_long_equity_value_usd": 195337406.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "98980A105",
         "security_class": "SPONSORED ADS A",
         "issuer": "ZTO EXPRESS CAYMAN INC",
-        "shares": 1994127.0,
-        "value_usd": 44628562.0,
-        "weight_pct": 10.97
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 17782.0,
-        "value_usd": 20525585.0,
-        "weight_pct": 5.05
-      },
-      {
-        "cusip": "512807306",
-        "security_class": "COM NEW",
-        "issuer": "LAM RESEARCH CORP",
-        "shares": 46439.0,
-        "value_usd": 20123412.0,
-        "weight_pct": 4.95
-      },
-      {
-        "cusip": "89677Q107",
-        "security_class": "ADS",
-        "issuer": "TRIP COM GROUP LTD",
-        "shares": 351921.0,
-        "value_usd": 14020533.0,
-        "weight_pct": 3.45
+        "shares": 1654183.0,
+        "value_usd": 32124234.0,
+        "weight_pct": 16.45
       },
       {
         "cusip": "25445D101",
         "security_class": "ADS",
         "issuer": "DINGDONG CAYMAN LTD",
-        "shares": 6486507.0,
-        "value_usd": 12518959.0,
-        "weight_pct": 3.08
+        "shares": 6236451.0,
+        "value_usd": 13283641.0,
+        "weight_pct": 6.8
       },
       {
-        "cusip": "65487X102",
-        "security_class": "SPON ADS",
-        "issuer": "NOAH HLDGS LTD",
-        "shares": 993612.0,
-        "value_usd": 9926184.0,
-        "weight_pct": 2.44
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 26186.0,
-        "value_usd": 9891762.0,
-        "weight_pct": 2.43
+        "cusip": "89677Q107",
+        "security_class": "ADS",
+        "issuer": "TRIP COM GROUP LTD",
+        "shares": 321618.0,
+        "value_usd": 12575264.0,
+        "weight_pct": 6.44
       },
       {
         "cusip": "M2029K104",
         "security_class": "COM SHS",
         "issuer": "BIRKENSTOCK HOLDING PLC",
-        "shares": 210000.0,
-        "value_usd": 9036300.0,
-        "weight_pct": 2.22
+        "shares": 250000.0,
+        "value_usd": 8102500.0,
+        "weight_pct": 4.15
       },
       {
-        "cusip": "G0593M107",
-        "security_class": "ORD",
-        "issuer": "ASTRAZENECA PLC",
-        "shares": 48088.0,
-        "value_usd": 8997357.0,
-        "weight_pct": 2.21
+        "cusip": "65487X102",
+        "security_class": "SPON ADS",
+        "issuer": "NOAH HLDGS LTD",
+        "shares": 921108.0,
+        "value_usd": 7285964.0,
+        "weight_pct": 3.73
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 24592.0,
-        "value_usd": 8689091.0,
-        "weight_pct": 2.14
+        "cusip": "722304102",
+        "security_class": "SPONSORED ADS",
+        "issuer": "PDD HOLDINGS INC",
+        "shares": 78445.0,
+        "value_usd": 6114003.0,
+        "weight_pct": 3.13
+      },
+      {
+        "cusip": "45166A102",
+        "security_class": "COM",
+        "issuer": "IDEAYA BIOSCIENCES INC",
+        "shares": 153849.0,
+        "value_usd": 5910879.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "19240Q201",
+        "security_class": "COM",
+        "issuer": "COGENT BIOSCIENCES INC",
+        "shares": 161435.0,
+        "value_usd": 5169149.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 7000.0,
+        "value_usd": 5076260.0,
+        "weight_pct": 2.6
+      },
+      {
+        "cusip": "44332N106",
+        "security_class": "SPONSORED ADS",
+        "issuer": "H WORLD GROUP LTD",
+        "shares": 117996.0,
+        "value_usd": 5050229.0,
+        "weight_pct": 2.59
       }
     ],
-    "top_five_pct": 27.49,
-    "top_ten_pct": 38.93,
-    "hhi": 283.74,
+    "top_five_pct": 37.56,
+    "top_ten_pct": 51.55,
+    "hhi": 494.32,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 20,
-      "exited_positions": 55,
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 37,
       "increased_positions": 10,
-      "reduced_positions": 52
+      "reduced_positions": 18
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001256071-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001256071-26-000016"
       }
     ]
   },
-  "reported_13f_value_usd": 406746419.0,
+  "reported_13f_value_usd": 195337406.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001256071-26-000007",
+  "validated_accession": "0001256071-26-000016",
   "annualized_turnover_proxy_pct": null
 }

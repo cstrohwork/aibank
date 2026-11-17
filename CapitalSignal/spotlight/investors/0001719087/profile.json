@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001719087",
   "investor_name": "Diametric Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1719087/0001719087-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1719087/0001719087-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1719087/0001719087-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1719087/0001719087-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4ad5e26e038e4a37d94d828f8f404738d882f8517c98d9d011f1f33ded60058a",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "6a950eb4e76a0d99c5944be5bf291bf2eedadaffe4e9a566c08ccf25fcfdefe4",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "06ca7def693aa60df88325c49d3b1f12518a6555",
+    "2685886604ba59b41e82735ccbf48f0079a462c0",
+    "e1845c6b93011b260247a1ea39bc87ab6be2f95f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001719087-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1719087/0001719087-26-000005.txt",
-    "distinct_positions": 473,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001719087-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1719087/0001719087-26-000008.txt",
+    "distinct_positions": 504,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 940407346.0,
+    "reported_long_equity_value_usd": 1173155882.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 316249.0,
-        "value_usd": 236165265.0,
-        "weight_pct": 25.11
-      },
-      {
-        "cusip": "74017N105",
-        "security_class": "COM",
-        "issuer": "PRECIGEN INC",
-        "shares": 9269926.0,
-        "value_usd": 52838578.0,
-        "weight_pct": 5.62
+        "shares": 316201.0,
+        "value_usd": 241144368.0,
+        "weight_pct": 20.56
       },
       {
         "cusip": "46138E354",
         "security_class": "S&P500 LOW VOL",
         "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 225231.0,
-        "value_usd": 16869801.0,
-        "weight_pct": 1.79
-      },
-      {
-        "cusip": "359664109",
-        "security_class": "COM",
-        "issuer": "FULGENT GENETICS INC",
-        "shares": 697784.0,
-        "value_usd": 14318527.0,
-        "weight_pct": 1.52
+        "shares": 902468.0,
+        "value_usd": 63633018.0,
+        "weight_pct": 5.42
       },
       {
         "cusip": "464287465",
         "security_class": "MSCI EAFE ETF",
         "issuer": "ISHARES TR",
-        "shares": 96265.0,
-        "value_usd": 10000008.0,
-        "weight_pct": 1.06
+        "shares": 375465.0,
+        "value_usd": 39007058.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "74017N105",
+        "security_class": "COM",
+        "issuer": "PRECIGEN INC",
+        "shares": 3917452.0,
+        "value_usd": 33533389.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "09175A206",
+        "security_class": "COM NEW",
+        "issuer": "BITMINE IMMERSION TECHS INC",
+        "shares": 821780.0,
+        "value_usd": 21719645.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "359664109",
+        "security_class": "COM",
+        "issuer": "FULGENT GENETICS INC",
+        "shares": 932410.0,
+        "value_usd": 20531668.0,
+        "weight_pct": 1.75
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 27617.0,
+        "value_usd": 19355650.0,
+        "weight_pct": 1.65
       },
       {
         "cusip": "002205102",
         "security_class": "COM",
         "issuer": "A2Z CUST2MATE SOLUTIONS CORP",
-        "shares": 1669711.0,
-        "value_usd": 9717718.0,
-        "weight_pct": 1.03
+        "shares": 2983164.0,
+        "value_usd": 17153193.0,
+        "weight_pct": 1.46
       },
       {
-        "cusip": "N90064101",
-        "security_class": "SHS",
-        "issuer": "UNIQURE NV",
-        "shares": 197242.0,
-        "value_usd": 9084966.0,
-        "weight_pct": 0.97
+        "cusip": "131428104",
+        "security_class": "COM",
+        "issuer": "CALUMET INC",
+        "shares": 281320.0,
+        "value_usd": 14735541.0,
+        "weight_pct": 1.26
       },
       {
-        "cusip": "53635D202",
-        "security_class": "COM NEW",
-        "issuer": "LIQUIDIA CORPORATION",
-        "shares": 105781.0,
-        "value_usd": 8433919.0,
-        "weight_pct": 0.9
-      },
-      {
-        "cusip": "020398707",
-        "security_class": "COM NEW",
-        "issuer": "ALMONTY INDS INC",
-        "shares": 500000.0,
-        "value_usd": 8280000.0,
-        "weight_pct": 0.88
-      },
-      {
-        "cusip": "G9456A100",
-        "security_class": "SHS",
-        "issuer": "GOLAR LNG LTD",
-        "shares": 161701.0,
-        "value_usd": 8059177.0,
-        "weight_pct": 0.86
+        "cusip": "74347Y730",
+        "security_class": "VIX SHT TERM FUT",
+        "issuer": "PROSHARES TR II",
+        "shares": 736346.0,
+        "value_usd": 12473701.0,
+        "weight_pct": 1.06
       }
     ],
-    "top_five_pct": 35.11,
-    "top_ten_pct": 39.75,
-    "hhi": 688.54,
+    "top_five_pct": 34.01,
+    "top_ten_pct": 41.2,
+    "hhi": 499.86,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 367,
-      "exited_positions": 267,
-      "increased_positions": 75,
-      "reduced_positions": 30
+      "previous_period": "2026-06-30",
+      "new_positions": 246,
+      "exited_positions": 215,
+      "increased_positions": 165,
+      "reduced_positions": 89
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001719087-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001719087-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 940407346.0,
+  "reported_13f_value_usd": 1173155882.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001719087-26-000005",
+  "validated_accession": "0001719087-26-000008",
   "annualized_turnover_proxy_pct": null
 }

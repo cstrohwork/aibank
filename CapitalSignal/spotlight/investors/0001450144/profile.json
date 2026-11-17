@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001450144",
   "investor_name": "TWO SIGMA SECURITIES, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1450144/0000899140-25-001288.txt",
-    "https://www.sec.gov/Archives/edgar/data/1450144/0000899140-26-000857.txt"
+    "https://www.sec.gov/Archives/edgar/data/1450144/0000899140-26-000857.txt",
+    "https://www.sec.gov/Archives/edgar/data/1450144/0000899140-26-001334.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "53a0cc9696501ab91da6a7860e9707afab1b4b2af73d50bb6178cc7ae5a05ce7",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "fdf3d11b01f2e1d53fb62821e279928c1555bac91da4c7db2c0a4b186bd9406c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "44588983f1dab5809dd87a539f2b3627a201be98",
+    "4713a4743b4c71c1bd2870a9dc94c36c6ed98072",
+    "bcb7d8613a330bf79e9ce4a659b6dce65bb001cf"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000899140-26-000857",
-    "source": "https://www.sec.gov/Archives/edgar/data/1450144/0000899140-26-000857.txt",
-    "distinct_positions": 1668,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001334",
+    "source": "https://www.sec.gov/Archives/edgar/data/1450144/0000899140-26-001334.txt",
+    "distinct_positions": 1682,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1159454589.0,
+    "reported_long_equity_value_usd": 1256889917.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "038222105",
+        "cusip": "037833100",
         "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 28021.0,
-        "value_usd": 20259183.0,
-        "weight_pct": 1.75
-      },
-      {
-        "cusip": "922908363",
-        "security_class": "S&P 500 ETF SHS",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 28062.0,
-        "value_usd": 19273262.0,
-        "weight_pct": 1.66
-      },
-      {
-        "cusip": "512807306",
-        "security_class": "COM NEW",
-        "issuer": "LAM RESEARCH CORP",
-        "shares": 30889.0,
-        "value_usd": 13385130.0,
-        "weight_pct": 1.15
-      },
-      {
-        "cusip": "68389X105",
-        "security_class": "COM",
-        "issuer": "ORACLE CORP",
-        "shares": 85509.0,
-        "value_usd": 12531344.0,
-        "weight_pct": 1.08
-      },
-      {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 15697.0,
-        "value_usd": 11755326.0,
-        "weight_pct": 1.01
-      },
-      {
-        "cusip": "78464A375",
-        "security_class": "ST INTER BD ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 306163.0,
-        "value_usd": 10244214.0,
-        "weight_pct": 0.88
+        "issuer": "APPLE INC",
+        "shares": 81170.0,
+        "value_usd": 27031233.0,
+        "weight_pct": 2.15
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
-        "shares": 27166.0,
-        "value_usd": 9598563.0,
-        "weight_pct": 0.83
+        "shares": 65895.0,
+        "value_usd": 22453062.0,
+        "weight_pct": 1.79
       },
       {
-        "cusip": "007903107",
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 26799.0,
+        "value_usd": 18782347.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 15767.0,
-        "value_usd": 9159208.0,
-        "weight_pct": 0.79
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 74131.0,
+        "value_usd": 16930038.0,
+        "weight_pct": 1.35
       },
       {
-        "cusip": "25459W458",
-        "security_class": "DAI SEM BUL ETF",
-        "issuer": "DIREXION SHARES ETF TRUST",
-        "shares": 31759.0,
-        "value_usd": 8470443.0,
-        "weight_pct": 0.73
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 22907.0,
+        "value_usd": 16611698.0,
+        "weight_pct": 1.32
       },
       {
-        "cusip": "09290D101",
+        "cusip": "11135F101",
         "security_class": "COM",
-        "issuer": "BLACKROCK INC",
-        "shares": 7954.0,
-        "value_usd": 7648248.0,
-        "weight_pct": 0.66
+        "issuer": "BROADCOM INC",
+        "shares": 40700.0,
+        "value_usd": 14293433.0,
+        "weight_pct": 1.14
+      },
+      {
+        "cusip": "931142103",
+        "security_class": "COM",
+        "issuer": "WALMART INC",
+        "shares": 113896.0,
+        "value_usd": 11836072.0,
+        "weight_pct": 0.94
+      },
+      {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 147645.0,
+        "value_usd": 11405576.0,
+        "weight_pct": 0.91
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 19128.0,
+        "value_usd": 9810751.0,
+        "weight_pct": 0.78
+      },
+      {
+        "cusip": "958102105",
+        "security_class": "COM",
+        "issuer": "WESTERN DIGITAL CORP",
+        "shares": 21016.0,
+        "value_usd": 9550931.0,
+        "weight_pct": 0.76
       }
     ],
-    "top_five_pct": 6.66,
-    "top_ten_pct": 10.55,
-    "hhi": 27.7,
+    "top_five_pct": 8.1,
+    "top_ten_pct": 12.63,
+    "hhi": 33.28,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1188,
-      "exited_positions": 847,
-      "increased_positions": 289,
-      "reduced_positions": 191
+      "previous_period": "2026-06-30",
+      "new_positions": 986,
+      "exited_positions": 972,
+      "increased_positions": 359,
+      "reduced_positions": 333
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000899140-26-000857"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001334"
       }
     ]
   },
-  "reported_13f_value_usd": 1159454589.0,
+  "reported_13f_value_usd": 1256889917.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000899140-26-000857",
+  "validated_accession": "0000899140-26-001334",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002135133",
   "investor_name": "Coral Wealth Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-04",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MIAMI",
   "state": "FL",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2135133/0001172661-26-003034.txt"
+    "https://www.sec.gov/Archives/edgar/data/2135133/0001172661-26-003034.txt",
+    "https://www.sec.gov/Archives/edgar/data/2135133/0001172661-26-005436.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8b3fe77ec1500116833d3dc20845af6b026ae209ce92973e2bb271c505e4b323",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "6da7e3d67ab82324b6461790baac6f9c28c56831f4030e4e7bd676b345b2bd85",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-04|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1fca824f6932fd475269b7e38c5366ff55e989b2",
+    "9fb1427d27653f9780b358f370b2746a5a3f9839"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-04",
-    "accession": "0001172661-26-003034",
-    "source": "https://www.sec.gov/Archives/edgar/data/2135133/0001172661-26-003034.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005436",
+    "source": "https://www.sec.gov/Archives/edgar/data/2135133/0001172661-26-005436.txt",
     "distinct_positions": 17,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 122058850.0,
+    "reported_long_equity_value_usd": 123493574.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
         "issuer": "INVESCO QQQ TR",
-        "shares": 26930.0,
-        "value_usd": 19831252.0,
-        "weight_pct": 16.25
+        "shares": 27365.0,
+        "value_usd": 20243613.0,
+        "weight_pct": 16.39
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 23144.0,
-        "value_usd": 17283245.0,
-        "weight_pct": 14.16
+        "shares": 24269.0,
+        "value_usd": 18507947.0,
+        "weight_pct": 14.99
       },
       {
         "cusip": "46434V407",
         "security_class": "0-5YR HI YL CP",
         "issuer": "ISHARES TR",
-        "shares": 213527.0,
-        "value_usd": 9055689.0,
-        "weight_pct": 7.42
+        "shares": 221725.0,
+        "value_usd": 9146166.0,
+        "weight_pct": 7.41
       },
       {
         "cusip": "47103U845",
         "security_class": "HENDRSON AAA CL",
         "issuer": "JANUS DETROIT STR TR",
-        "shares": 173366.0,
-        "value_usd": 8753249.0,
-        "weight_pct": 7.17
+        "shares": 180008.0,
+        "value_usd": 9085004.0,
+        "weight_pct": 7.36
       },
       {
-        "cusip": "464288687",
-        "security_class": "PFD AND INCM SEC",
+        "cusip": "46429B655",
+        "security_class": "FLTG RATE NT ETF",
         "issuer": "ISHARES TR",
-        "shares": 285927.0,
-        "value_usd": 8717914.0,
-        "weight_pct": 7.14
-      },
-      {
-        "cusip": "464287242",
-        "security_class": "IBOXX INV CP ETF",
-        "issuer": "ISHARES TR",
-        "shares": 79514.0,
-        "value_usd": 8672592.0,
-        "weight_pct": 7.11
+        "shares": 158824.0,
+        "value_usd": 8107955.0,
+        "weight_pct": 6.57
       },
       {
         "cusip": "46434G103",
         "security_class": "CORE MSCI EMKT",
         "issuer": "ISHARES INC",
-        "shares": 95282.0,
-        "value_usd": 7893161.0,
-        "weight_pct": 6.47
+        "shares": 99322.0,
+        "value_usd": 8060974.0,
+        "weight_pct": 6.53
+      },
+      {
+        "cusip": "78467V608",
+        "security_class": "ST STR BL LN ETF",
+        "issuer": "SSGA ACTIVE ETF TR",
+        "shares": 195569.0,
+        "value_usd": 7899048.0,
+        "weight_pct": 6.4
       },
       {
         "cusip": "46432F842",
         "security_class": "CORE MSCI EAFE",
         "issuer": "ISHARES TR",
-        "shares": 77562.0,
-        "value_usd": 7490938.0,
-        "weight_pct": 6.14
+        "shares": 81168.0,
+        "value_usd": 7863556.0,
+        "weight_pct": 6.37
       },
       {
         "cusip": "464287804",
         "security_class": "CORE S&P SCP ETF",
         "issuer": "ISHARES TR",
-        "shares": 50277.0,
-        "value_usd": 7456582.0,
-        "weight_pct": 6.11
+        "shares": 54406.0,
+        "value_usd": 7401351.0,
+        "weight_pct": 5.99
       },
       {
         "cusip": "464287507",
         "security_class": "CORE S&P MCP ETF",
         "issuer": "ISHARES TR",
-        "shares": 93550.0,
-        "value_usd": 7213641.0,
-        "weight_pct": 5.91
+        "shares": 101923.0,
+        "value_usd": 7333371.0,
+        "weight_pct": 5.94
       }
     ],
-    "top_five_pct": 52.14,
-    "top_ten_pct": 83.87,
-    "hhi": 890.59,
-    "changes": null,
+    "top_five_pct": 52.71,
+    "top_ten_pct": 83.93,
+    "hhi": 909.5,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
+      "increased_positions": 13,
+      "reduced_positions": 1
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-04",
         "accession": "0001172661-26-003034"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005436"
       }
     ]
   },
-  "reported_13f_value_usd": 122058850.0,
+  "reported_13f_value_usd": 123493574.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003034",
+  "validated_accession": "0001172661-26-005436",
   "annualized_turnover_proxy_pct": null
 }

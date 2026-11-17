@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001589115",
   "investor_name": "Emergence GP Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "San Francisco",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1589115/0001193125-25-276348.txt",
-    "https://www.sec.gov/Archives/edgar/data/1589115/0001193125-26-339891.txt"
+    "https://www.sec.gov/Archives/edgar/data/1589115/0001193125-26-339891.txt",
+    "https://www.sec.gov/Archives/edgar/data/1589115/0001193125-26-462982.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b6c159902a2fbf9e0047f657caff735048d4a907522c376600c45b5ae6de6c2a",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "905802d570a864b38072fd8f4cb1d5837f7f887884f6500559ed8d245ae695d1",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1242e68ffac10a28eee518cc1e24c1ef48a5ac0e",
+    "4b9efaad9228bbf100fd8fe05113b37e10f230db",
+    "f5573aec8f917fd438db7864f3fea8419c13b808"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0001193125-26-339891",
-    "source": "https://www.sec.gov/Archives/edgar/data/1589115/0001193125-26-339891.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-462982",
+    "source": "https://www.sec.gov/Archives/edgar/data/1589115/0001193125-26-462982.txt",
     "distinct_positions": 4,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 112267353.0,
+    "reported_long_equity_value_usd": 94380495.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,44 +42,44 @@
         "cusip": "922475108",
         "security_class": "CL A COM",
         "issuer": "VEEVA SYS INC",
-        "shares": 500000.0,
-        "value_usd": 88735000.0,
-        "weight_pct": 79.04
-      },
-      {
-        "cusip": "81764X103",
-        "security_class": "SHS CL A",
-        "issuer": "SERVICETITAN INC",
-        "shares": 116500.0,
-        "value_usd": 8237715.0,
-        "weight_pct": 7.34
+        "shares": 250000.0,
+        "value_usd": 71362500.0,
+        "weight_pct": 75.61
       },
       {
         "cusip": "26622P107",
         "security_class": "CL A COM",
         "issuer": "DOXIMITY INC",
         "shares": 387500.0,
-        "value_usd": 8036750.0,
-        "weight_pct": 7.16
+        "value_usd": 10981750.0,
+        "weight_pct": 11.64
+      },
+      {
+        "cusip": "81764X103",
+        "security_class": "SHS CL A",
+        "issuer": "SERVICETITAN INC",
+        "shares": 116500.0,
+        "value_usd": 7664535.0,
+        "weight_pct": 8.12
       },
       {
         "cusip": "09352U108",
         "security_class": "CL A COM",
         "issuer": "BLEND LABS INC",
         "shares": 4244379.0,
-        "value_usd": 7257888.0,
-        "weight_pct": 6.46
+        "value_usd": 4371710.0,
+        "weight_pct": 4.63
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 6394.04,
+    "hhi": 5939.89,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 0
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -80,11 +91,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0001193125-26-339891"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-462982"
       }
     ]
   },
-  "reported_13f_value_usd": 112267353.0,
+  "reported_13f_value_usd": 94380495.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-339891",
+  "validated_accession": "0001193125-26-462982",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001455468",
   "investor_name": "Dean Capital Management",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "OVERLAND PARK",
   "state": "KS",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1455468/0001455468-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1455468/0001455468-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1455468/0001455468-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1455468/0001455468-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "545b5d846eeefe52de8a5184da25e3e5dfc7d93879f7934cdc1afcaa692b1eaa",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "c46200072fb39135bd1140644743606cbe39a8c26962e7aaa187d511dbfb9216",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3496a7ac3e9907b0773c74a3b85b3de1bd9b500e",
+    "a697b074fcfb85cee0228b9c78be826e7f2eb9e7",
+    "f0a17ec4a293dbbc3e89676243c54771361ae02c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001455468-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1455468/0001455468-26-000005.txt",
-    "distinct_positions": 112,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001455468-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1455468/0001455468-26-000006.txt",
+    "distinct_positions": 111,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 276148729.0,
+    "reported_long_equity_value_usd": 263009184.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "G50871105",
+        "cusip": "55955D100",
         "security_class": "CS",
-        "issuer": "Jazz Pharmaceuticals PLC",
-        "shares": 21156.0,
-        "value_usd": 5097961.0,
-        "weight_pct": 1.85
+        "issuer": "Magnite Inc",
+        "shares": 196170.0,
+        "value_usd": 4955254.0,
+        "weight_pct": 1.88
+      },
+      {
+        "cusip": "405024100",
+        "security_class": "CS",
+        "issuer": "Haemonetics Corp",
+        "shares": 45397.0,
+        "value_usd": 4780304.0,
+        "weight_pct": 1.82
       },
       {
         "cusip": "029899101",
         "security_class": "CS",
         "issuer": "American States Water Co",
-        "shares": 61578.0,
-        "value_usd": 5088190.0,
-        "weight_pct": 1.84
-      },
-      {
-        "cusip": "422347104",
-        "security_class": "CS",
-        "issuer": "Heartland Express Inc",
-        "shares": 332689.0,
-        "value_usd": 5063527.0,
-        "weight_pct": 1.83
+        "shares": 57456.0,
+        "value_usd": 4730352.0,
+        "weight_pct": 1.8
       },
       {
         "cusip": "292218104",
         "security_class": "CS",
         "issuer": "Employers Holdings",
-        "shares": 99072.0,
-        "value_usd": 5001155.0,
-        "weight_pct": 1.81
+        "shares": 98173.0,
+        "value_usd": 4686779.0,
+        "weight_pct": 1.78
       },
       {
-        "cusip": "816300107",
+        "cusip": "006739106",
         "security_class": "CS",
-        "issuer": "Selective Ins Group Inc",
-        "shares": 51255.0,
-        "value_usd": 4972248.0,
-        "weight_pct": 1.8
+        "issuer": "Addus Homecare Corp",
+        "shares": 39471.0,
+        "value_usd": 4363124.0,
+        "weight_pct": 1.66
       },
       {
-        "cusip": "800422107",
+        "cusip": "313148306",
         "security_class": "CS",
-        "issuer": "John B Sanfilippo & Son Inc",
-        "shares": 56833.0,
-        "value_usd": 4887070.0,
-        "weight_pct": 1.77
+        "issuer": "Federal Agricultural Mortgage",
+        "shares": 20744.0,
+        "value_usd": 4292348.0,
+        "weight_pct": 1.63
       },
       {
-        "cusip": "11135E203",
+        "cusip": "G50871105",
         "security_class": "CS",
-        "issuer": "Broadstone Net Lease",
-        "shares": 233736.0,
-        "value_usd": 4831323.0,
-        "weight_pct": 1.75
+        "issuer": "Jazz Pharmaceuticals PLC",
+        "shares": 17897.0,
+        "value_usd": 4143513.0,
+        "weight_pct": 1.58
       },
       {
-        "cusip": "736508847",
+        "cusip": "127203107",
         "security_class": "CS",
-        "issuer": "Portland General Electric Co",
-        "shares": 93019.0,
-        "value_usd": 4821175.0,
-        "weight_pct": 1.75
+        "issuer": "Cactus Inc",
+        "shares": 62939.0,
+        "value_usd": 3916065.0,
+        "weight_pct": 1.49
       },
       {
-        "cusip": "950755108",
+        "cusip": "981475106",
         "security_class": "CS",
-        "issuer": "Werner Enterprises Inc",
-        "shares": 105597.0,
-        "value_usd": 4605085.0,
-        "weight_pct": 1.67
+        "issuer": "World Kinect Corp",
+        "shares": 111065.0,
+        "value_usd": 3905045.0,
+        "weight_pct": 1.48
       },
       {
-        "cusip": "76171L106",
+        "cusip": "493732101",
         "security_class": "CS",
-        "issuer": "Reynolds Consumer Products",
-        "shares": 159226.0,
-        "value_usd": 4275218.0,
-        "weight_pct": 1.55
+        "issuer": "Kforce Inc",
+        "shares": 73443.0,
+        "value_usd": 3852820.0,
+        "weight_pct": 1.46
       }
     ],
-    "top_five_pct": 9.13,
-    "top_ten_pct": 17.61,
-    "hhi": 106.32,
+    "top_five_pct": 8.94,
+    "top_ten_pct": 16.59,
+    "hhi": 104.74,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 27,
-      "exited_positions": 36,
-      "increased_positions": 50,
-      "reduced_positions": 35
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 13,
+      "increased_positions": 32,
+      "reduced_positions": 37
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001455468-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001455468-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 276148729.0,
+  "reported_13f_value_usd": 263009184.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001455468-26-000005",
+  "validated_accession": "0001455468-26-000006",
   "annualized_turnover_proxy_pct": null
 }

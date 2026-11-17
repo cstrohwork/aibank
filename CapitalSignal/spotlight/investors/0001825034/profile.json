@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001825034",
   "investor_name": "Euclidean Capital LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1825034/0001012975-25-000761.txt",
-    "https://www.sec.gov/Archives/edgar/data/1825034/0001012975-26-000776.txt"
+    "https://www.sec.gov/Archives/edgar/data/1825034/0001012975-26-000776.txt",
+    "https://www.sec.gov/Archives/edgar/data/1825034/0001012975-26-001061.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8b6d4a27c64c70f262fbe60eed6de5693481779cdc36110036d1fdfa5a172b2e",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "6463207ab26ba476ac1134d21312af16bbbb5ffc4a36db93d6b5157a00d7e944",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "da9ec72e21b31e0a41e270cfea1367d00e7b2af2",
+    "e49af89d3de866f7eef01fe5c8d1739a4953c979",
+    "fe2918ad2e527e49da72323cc8d94217f410f92e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001012975-26-000776",
-    "source": "https://www.sec.gov/Archives/edgar/data/1825034/0001012975-26-000776.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001012975-26-001061",
+    "source": "https://www.sec.gov/Archives/edgar/data/1825034/0001012975-26-001061.txt",
+    "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 439836054.0,
+    "reported_long_equity_value_usd": 323634131.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,90 +43,90 @@
         "security_class": "ALLWRLD EX US",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
         "shares": 3243484.0,
-        "value_usd": 271641785.0,
-        "weight_pct": 61.76
-      },
-      {
-        "cusip": "922908744",
-        "security_class": "VALUE ETF",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 520000.0,
-        "value_usd": 113323600.0,
-        "weight_pct": 25.76
+        "value_usd": 269111867.0,
+        "weight_pct": 83.15
       },
       {
         "cusip": "46429B598",
         "security_class": "MSCI INDIA ETF",
         "issuer": "ISHARES TR",
         "shares": 369600.0,
-        "value_usd": 18254544.0,
-        "weight_pct": 4.15
+        "value_usd": 17252928.0,
+        "weight_pct": 5.33
       },
       {
         "cusip": "68622P109",
         "security_class": "COM",
         "issuer": "ORIC PHARMACEUTICALS INC",
         "shares": 989410.0,
-        "value_usd": 10715310.0,
-        "weight_pct": 2.44
+        "value_usd": 13327353.0,
+        "weight_pct": 4.12
       },
       {
         "cusip": "87821B109",
         "security_class": "COM",
         "issuer": "TEAMSHARES INC",
         "shares": 1099974.0,
-        "value_usd": 9041786.0,
-        "weight_pct": 2.06
+        "value_usd": 7991311.0,
+        "weight_pct": 2.47
       },
       {
         "cusip": "344174107",
         "security_class": "COM",
         "issuer": "FOGHORN THERAPEUTICS INC",
         "shares": 1573761.0,
-        "value_usd": 7679954.0,
-        "weight_pct": 1.75
+        "value_usd": 5618327.0,
+        "weight_pct": 1.74
       },
       {
         "cusip": "69353Y103",
         "security_class": "COM",
         "issuer": "PMV PHARMACEUTICALS INC",
         "shares": 2627643.0,
-        "value_usd": 3521042.0,
-        "weight_pct": 0.8
-      },
-      {
-        "cusip": "014442107",
-        "security_class": "COM",
-        "issuer": "ALECTOR INC",
-        "shares": 1307858.0,
-        "value_usd": 2628795.0,
-        "weight_pct": 0.6
+        "value_usd": 4388164.0,
+        "weight_pct": 1.36
       },
       {
         "cusip": "86889P208",
         "security_class": "COM NEW",
         "issuer": "SURROZEN INC",
         "shares": 87696.0,
-        "value_usd": 2275711.0,
-        "weight_pct": 0.52
+        "value_usd": 2822057.0,
+        "weight_pct": 0.87
+      },
+      {
+        "cusip": "014442107",
+        "security_class": "COM",
+        "issuer": "ALECTOR INC",
+        "shares": 1307858.0,
+        "value_usd": 2419537.0,
+        "weight_pct": 0.75
       },
       {
         "cusip": "87990A106",
         "security_class": "COM",
         "issuer": "TENAYA THERAPEUTICS INC",
         "shares": 1015705.0,
-        "value_usd": 750708.0,
-        "weight_pct": 0.17
+        "value_usd": 613080.0,
+        "weight_pct": 0.19
+      },
+      {
+        "cusip": "590106100",
+        "security_class": "COM",
+        "issuer": "MERLIN INC",
+        "shares": 47610.0,
+        "value_usd": 89507.0,
+        "weight_pct": 0.03
       }
     ],
-    "top_five_pct": 96.17,
+    "top_five_pct": 96.81,
     "top_ten_pct": 100.0,
-    "hhi": 4509.83,
+    "hhi": 6972.12,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 2,
-      "increased_positions": 1,
+      "increased_positions": 0,
       "reduced_positions": 0
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001012975-26-000776"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001012975-26-001061"
       }
     ]
   },
-  "reported_13f_value_usd": 439836054.0,
+  "reported_13f_value_usd": 323634131.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001012975-26-000776",
+  "validated_accession": "0001012975-26-001061",
   "annualized_turnover_proxy_pct": null
 }

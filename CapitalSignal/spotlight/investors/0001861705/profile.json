@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001861705",
   "investor_name": "Flight Deck Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,116 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1861705/0001214659-25-016620.txt",
-    "https://www.sec.gov/Archives/edgar/data/1861705/0001214659-26-010365.txt"
+    "https://www.sec.gov/Archives/edgar/data/1861705/0001214659-26-010365.txt",
+    "https://www.sec.gov/Archives/edgar/data/1861705/0001214659-26-014349.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b74b2d61762a590c8cae9cf04640eb469019139ae9b9bc1091626bcc1efdd795",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "1007bbdb804f13d5745e2d131afb3dd1d7e57884581b600a5f75cc51c2e2898f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "a8f7deabcc4344a5b117b0b65c32306bd7602627",
+    "d86910e41457f79031cdccfd375eb62b56cc38dc",
+    "e173388e61314eea243163045517cc9453b14678"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010365",
-    "source": "https://www.sec.gov/Archives/edgar/data/1861705/0001214659-26-010365.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014349",
+    "source": "https://www.sec.gov/Archives/edgar/data/1861705/0001214659-26-014349.txt",
+    "distinct_positions": 9,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 205955321.0,
+    "reported_long_equity_value_usd": 168032728.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "093712107",
-        "security_class": "COM CL A",
-        "issuer": "BLOOM ENERGY CORP",
-        "shares": 205276.0,
-        "value_usd": 62137045.0,
-        "weight_pct": 30.17
-      },
-      {
         "cusip": "91332U101",
         "security_class": "COM",
         "issuer": "UNITY SOFTWARE INC",
-        "shares": 1399900.0,
-        "value_usd": 40009142.0,
-        "weight_pct": 19.43
+        "shares": 1199900.0,
+        "value_usd": 49111907.0,
+        "weight_pct": 29.23
       },
       {
         "cusip": "18915M107",
         "security_class": "CL A COM",
         "issuer": "CLOUDFLARE INC",
         "shares": 89800.0,
-        "value_usd": 22026144.0,
-        "weight_pct": 10.69
+        "value_usd": 31185744.0,
+        "weight_pct": 18.56
+      },
+      {
+        "cusip": "336433107",
+        "security_class": "COM",
+        "issuer": "FIRST SOLAR INC",
+        "shares": 126000.0,
+        "value_usd": 22070160.0,
+        "weight_pct": 13.13
+      },
+      {
+        "cusip": "833445109",
+        "security_class": "COM SHS",
+        "issuer": "SNOWFLAKE INC",
+        "shares": 59400.0,
+        "value_usd": 20169864.0,
+        "weight_pct": 12.0
       },
       {
         "cusip": "81141R100",
         "security_class": "SPONSORD ADS",
         "issuer": "SEA LTD",
-        "shares": 190900.0,
-        "value_usd": 18293947.0,
-        "weight_pct": 8.88
-      },
-      {
-        "cusip": "146869102",
-        "security_class": "CL A",
-        "issuer": "CARVANA CO",
-        "shares": 209780.0,
-        "value_usd": 13807720.0,
-        "weight_pct": 6.7
+        "shares": 167900.0,
+        "value_usd": 16346744.0,
+        "weight_pct": 9.73
       },
       {
         "cusip": "15675D103",
         "security_class": "COM CL A",
         "issuer": "CEREBRAS SYSTEMS INC",
-        "shares": 62200.0,
-        "value_usd": 13746200.0,
-        "weight_pct": 6.67
-      },
-      {
-        "cusip": "770700102",
-        "security_class": "COM CL A",
-        "issuer": "ROBINHOOD MKTS INC",
-        "shares": 133000.0,
-        "value_usd": 13337240.0,
-        "weight_pct": 6.48
+        "shares": 59300.0,
+        "value_usd": 10534645.0,
+        "weight_pct": 6.27
       },
       {
         "cusip": "58733R102",
         "security_class": "COM",
-        "issuer": "MERCADOLIBRE  INC",
+        "issuer": "MERCADOLIBRE INC",
         "shares": 5567.0,
-        "value_usd": 9449370.0,
-        "weight_pct": 4.59
-      },
-      {
-        "cusip": "888787108",
-        "security_class": "CL A",
-        "issuer": "TOAST INC",
-        "shares": 236062.0,
-        "value_usd": 6567245.0,
-        "weight_pct": 3.19
+        "value_usd": 9622727.0,
+        "weight_pct": 5.73
       },
       {
         "cusip": "732908108",
         "security_class": "SPONSORED ADS",
         "issuer": "PONY AI INC",
         "shares": 839900.0,
-        "value_usd": 5837305.0,
-        "weight_pct": 2.83
+        "value_usd": 5492946.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "888787108",
+        "security_class": "CL A",
+        "issuer": "TOAST INC",
+        "shares": 120662.0,
+        "value_usd": 3497991.0,
+        "weight_pct": 2.08
       }
     ],
-    "top_five_pct": 75.88,
-    "top_ten_pct": 99.64,
-    "hhi": 1651.7,
+    "top_five_pct": 82.65,
+    "top_ten_pct": 100.0,
+    "hhi": 1697.06,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
-      "exited_positions": 5,
-      "increased_positions": 5,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 0,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +131,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010365"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014349"
       }
     ]
   },
-  "reported_13f_value_usd": 205955321.0,
+  "reported_13f_value_usd": 168032728.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010365",
+  "validated_accession": "0001214659-26-014349",
   "annualized_turnover_proxy_pct": null
 }

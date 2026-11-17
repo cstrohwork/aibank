@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001050477",
   "investor_name": "SNYDER CAPITAL MANAGEMENT L P",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "San Francisco",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1050477/0000935836-25-000656.txt",
-    "https://www.sec.gov/Archives/edgar/data/1050477/0000935836-26-000386.txt"
+    "https://www.sec.gov/Archives/edgar/data/1050477/0000935836-26-000386.txt",
+    "https://www.sec.gov/Archives/edgar/data/1050477/0000935836-26-000568.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "993062668bdd4c3e425f137facc013a2c03e1205e9e3dc4b3c52c83009cc3f70",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "084751e51d471eefe22e0f138087b26e6ca4011bdb4b0622f59e4e00613ef87b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "64a3b447e6e94985ef8fa19f7aa80eacd7adcf3d",
+    "6d764bc3525a274a022e2b4a831742c4a6cd1e59",
+    "db8861859012b15440776fe2bf950f5c55716263"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0000935836-26-000386",
-    "source": "https://www.sec.gov/Archives/edgar/data/1050477/0000935836-26-000386.txt",
-    "distinct_positions": 69,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000935836-26-000568",
+    "source": "https://www.sec.gov/Archives/edgar/data/1050477/0000935836-26-000568.txt",
+    "distinct_positions": 70,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5788149315.0,
+    "reported_long_equity_value_usd": 5092806221.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "29362U104",
-        "security_class": "COM",
-        "issuer": "ENTEGRIS INC",
-        "shares": 1764240.0,
-        "value_usd": 317316206.0,
-        "weight_pct": 5.48
-      },
-      {
         "cusip": "184496107",
         "security_class": "COM",
         "issuer": "CLEAN HARBORS INC",
-        "shares": 922182.0,
-        "value_usd": 275501872.0,
-        "weight_pct": 4.76
+        "shares": 853069.0,
+        "value_usd": 264647596.0,
+        "weight_pct": 5.2
       },
       {
-        "cusip": "05605H100",
+        "cusip": "29362U104",
         "security_class": "COM",
-        "issuer": "BWX TECHNOLOGIES INC",
-        "shares": 1237512.0,
-        "value_usd": 240881711.0,
-        "weight_pct": 4.16
-      },
-      {
-        "cusip": "09073M104",
-        "security_class": "COM",
-        "issuer": "BIO TECHNE CORP",
-        "shares": 3163816.0,
-        "value_usd": 223523600.0,
-        "weight_pct": 3.86
+        "issuer": "ENTEGRIS INC",
+        "shares": 1648858.0,
+        "value_usd": 254023063.0,
+        "weight_pct": 4.99
       },
       {
         "cusip": "40637H109",
         "security_class": "COM",
         "issuer": "HALOZYME THERAPEUTICS INC",
-        "shares": 2396101.0,
-        "value_usd": 187542825.0,
-        "weight_pct": 3.24
-      },
-      {
-        "cusip": "902681105",
-        "security_class": "COM",
-        "issuer": "UGI CORP",
-        "shares": 5365031.0,
-        "value_usd": 185308171.0,
-        "weight_pct": 3.2
+        "shares": 2212694.0,
+        "value_usd": 244281418.0,
+        "weight_pct": 4.8
       },
       {
         "cusip": "031100100",
         "security_class": "COM",
         "issuer": "AMETEK INC",
-        "shares": 757386.0,
-        "value_usd": 183241969.0,
-        "weight_pct": 3.17
+        "shares": 735794.0,
+        "value_usd": 182278248.0,
+        "weight_pct": 3.58
       },
       {
-        "cusip": "75524B104",
+        "cusip": "78467J100",
         "security_class": "COM",
-        "issuer": "RBC BEARINGS INC",
-        "shares": 273687.0,
-        "value_usd": 176270849.0,
-        "weight_pct": 3.05
+        "issuer": "SS&C TECHNOLOGIES HOLDINGS IN",
+        "shares": 2347478.0,
+        "value_usd": 180920129.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "902681105",
+        "security_class": "COM",
+        "issuer": "UGI CORP",
+        "shares": 4993311.0,
+        "value_usd": 178111403.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "05605H100",
+        "security_class": "COM",
+        "issuer": "BWX TECHNOLOGIES INC",
+        "shares": 1262052.0,
+        "value_usd": 172901124.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "124765108",
+        "security_class": "COM",
+        "issuer": "CAE INC",
+        "shares": 5589237.0,
+        "value_usd": 134197580.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "94106B101",
+        "security_class": "COM",
+        "issuer": "WASTE CONNECTIONS INC",
+        "shares": 866671.0,
+        "value_usd": 133406667.0,
+        "weight_pct": 2.62
       },
       {
         "cusip": "980745103",
         "security_class": "COM",
         "issuer": "WOODWARD INC",
-        "shares": 412362.0,
-        "value_usd": 175435289.0,
-        "weight_pct": 3.03
-      },
-      {
-        "cusip": "78467J100",
-        "security_class": "COM",
-        "issuer": "SS&C  TECHNOLOGIES HOLDINGS IN",
-        "shares": 2415716.0,
-        "value_usd": 149895178.0,
-        "weight_pct": 2.59
+        "shares": 398385.0,
+        "value_usd": 130905327.0,
+        "weight_pct": 2.57
       }
     ],
-    "top_five_pct": 21.51,
-    "top_ten_pct": 36.54,
-    "hhi": 226.8,
+    "top_five_pct": 22.11,
+    "top_ten_pct": 36.83,
+    "hhi": 229.53,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 4,
-      "increased_positions": 27,
-      "reduced_positions": 36
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 15,
+      "reduced_positions": 53
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0000935836-26-000386"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000935836-26-000568"
       }
     ]
   },
-  "reported_13f_value_usd": 5788149315.0,
+  "reported_13f_value_usd": 5092806221.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000935836-26-000386",
+  "validated_accession": "0000935836-26-000568",
   "annualized_turnover_proxy_pct": null
 }

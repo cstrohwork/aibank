@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001706766",
   "investor_name": "Caption Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "OKLAHOMA CITY",
   "state": "OK",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1706766/0001706766-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1706766/0001706766-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1706766/0001706766-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1706766/0001706766-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e20f5b298c59d55e3b6960d509e30dc3ab723e5339b14eb8e0a15bfdf5a473fd",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "641cd4aa2ec27846498cd188f228e9bb79af33b7f517cbf82c5cd9d515e2b26b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1c25f739e0dab7eae780bfad265011db50005670",
+    "3ddf18267c7fa7777f3b763b11f099649f4c885d",
+    "5133c600526fa3ae5ca455f3db7e273e061345bd"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001706766-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1706766/0001706766-26-000005.txt",
-    "distinct_positions": 538,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001706766-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1706766/0001706766-26-000008.txt",
+    "distinct_positions": 561,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2839326158.0,
+    "reported_long_equity_value_usd": 3082540853.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 1838800.0,
-        "value_usd": 367925492.0,
-        "weight_pct": 12.96
-      },
-      {
-        "cusip": "874039100",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 565700.0,
-        "value_usd": 270161349.0,
-        "weight_pct": 9.51
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 515000.0,
-        "value_usd": 192105300.0,
-        "weight_pct": 6.77
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 397700.0,
-        "value_usd": 167272620.0,
-        "weight_pct": 5.89
-      },
-      {
-        "cusip": "09581B103",
-        "security_class": "COM CL A",
-        "issuer": "BLUE OWL CAPITAL INC",
-        "shares": 15995905.0,
-        "value_usd": 139964169.0,
-        "weight_pct": 4.93
+        "shares": 2690847.0,
+        "value_usd": 614535638.0,
+        "weight_pct": 19.94
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 428000.0,
-        "value_usd": 102009520.0,
-        "weight_pct": 3.59
+        "shares": 780600.0,
+        "value_usd": 194486490.0,
+        "weight_pct": 6.31
       },
       {
-        "cusip": "21874A114",
-        "security_class": "*W EXP 01/23/202",
-        "issuer": "CORE SCIENTIFIC INC NEW",
-        "shares": 3487150.0,
-        "value_usd": 65558420.0,
-        "weight_pct": 2.31
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 330072.0,
+        "value_usd": 150575546.0,
+        "weight_pct": 4.88
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
+        "cusip": "09581B103",
+        "security_class": "COM CL A",
+        "issuer": "BLUE OWL CAPITAL INC",
+        "shares": 11486006.0,
+        "value_usd": 104407795.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 249800.0,
+        "value_usd": 83188396.0,
+        "weight_pct": 2.7
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 182700.0,
-        "value_usd": 64553391.0,
-        "weight_pct": 2.27
-      },
-      {
-        "cusip": "81369Y605",
-        "security_class": "ST STR FINL ETF",
-        "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 1149802.0,
-        "value_usd": 61640885.0,
-        "weight_pct": 2.17
+        "shares": 202000.0,
+        "value_usd": 69504160.0,
+        "weight_pct": 2.25
       },
       {
         "cusip": "81369Y209",
         "security_class": "ST STR CARE ETF",
         "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 338498.0,
-        "value_usd": 53706093.0,
-        "weight_pct": 1.89
+        "shares": 385298.0,
+        "value_usd": 64891889.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "36168Q104",
+        "security_class": "SUB VTG SHS",
+        "issuer": "GFL ENVIRONMENTAL INC",
+        "shares": 1511303.0,
+        "value_usd": 63217804.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "92189F106",
+        "security_class": "GOLD MINERS ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 569650.0,
+        "value_usd": 50015270.0,
+        "weight_pct": 1.62
+      },
+      {
+        "cusip": "91307C102",
+        "security_class": "COM",
+        "issuer": "UNITED THERAPEUTICS CORP DEL",
+        "shares": 85734.0,
+        "value_usd": 46458397.0,
+        "weight_pct": 1.51
       }
     ],
-    "top_five_pct": 40.06,
-    "top_ten_pct": 52.3,
-    "hhi": 411.95,
+    "top_five_pct": 37.22,
+    "top_ten_pct": 46.76,
+    "hhi": 517.74,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 327,
-      "exited_positions": 378,
-      "increased_positions": 107,
-      "reduced_positions": 96
+      "previous_period": "2026-06-30",
+      "new_positions": 250,
+      "exited_positions": 227,
+      "increased_positions": 144,
+      "reduced_positions": 107
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001706766-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001706766-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 2839326158.0,
+  "reported_13f_value_usd": 3082540853.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001706766-26-000005",
+  "validated_accession": "0001706766-26-000008",
   "annualized_turnover_proxy_pct": null
 }

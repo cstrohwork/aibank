@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001404574",
   "investor_name": "683 Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1404574/0001404574-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/1404574/0001404574-26-000023.txt"
+    "https://www.sec.gov/Archives/edgar/data/1404574/0001404574-26-000023.txt",
+    "https://www.sec.gov/Archives/edgar/data/1404574/0001404574-26-000027.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9db2d9277718e09f42b5de26904783098aba5043c1a34ab01f4e93225c25eafb",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "9f89ceecd5ac59d82193fd8d8e584d04b011f8056cec044e399186407c6868a5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "090da24690f3ccc1d0a244ff951b8bc34da7192a",
+    "0c3152e8b571f4acdf94c5f2dab3371a8b10a069",
+    "3376ee1f622fb0095f1061a01a93443e513bd442"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001404574-26-000023",
-    "source": "https://www.sec.gov/Archives/edgar/data/1404574/0001404574-26-000023.txt",
-    "distinct_positions": 125,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001404574-26-000027",
+    "source": "https://www.sec.gov/Archives/edgar/data/1404574/0001404574-26-000027.txt",
+    "distinct_positions": 122,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1040991181.0,
+    "reported_long_equity_value_usd": 1037055430.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "CAPITAL ONE FINL CORP",
         "shares": 365000.0,
-        "value_usd": 73226300.0,
-        "weight_pct": 7.03
+        "value_usd": 70470550.0,
+        "weight_pct": 6.8
       },
       {
         "cusip": "146869102",
         "security_class": "CL A",
         "issuer": "CARVANA CO",
-        "shares": 750000.0,
-        "value_usd": 49365000.0,
-        "weight_pct": 4.74
-      },
-      {
-        "cusip": "032724106",
-        "security_class": "COM",
-        "issuer": "ANAPTYSBIO INC",
-        "shares": 660000.0,
-        "value_usd": 44550001.0,
-        "weight_pct": 4.28
-      },
-      {
-        "cusip": "48581R205",
-        "security_class": "SPONSORED ADS",
-        "issuer": "KASPI KZ JSC",
-        "shares": 470000.0,
-        "value_usd": 40720800.0,
-        "weight_pct": 3.91
+        "shares": 795000.0,
+        "value_usd": 49719300.0,
+        "weight_pct": 4.79
       },
       {
         "cusip": "075887109",
         "security_class": "COM",
         "issuer": "BECTON DICKINSON & CO",
         "shares": 250000.0,
-        "value_usd": 37832500.0,
-        "weight_pct": 3.63
+        "value_usd": 44750000.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "48581R205",
+        "security_class": "SPONSORED ADS",
+        "issuer": "KASPI KZ JSC",
+        "shares": 470000.0,
+        "value_usd": 44208200.0,
+        "weight_pct": 4.26
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 56000.0,
+        "value_usd": 40610080.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "032724106",
+        "security_class": "COM",
+        "issuer": "ANAPTYSBIO INC",
+        "shares": 740000.0,
+        "value_usd": 37192400.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "74366E102",
+        "security_class": "COM",
+        "issuer": "PROTAGONIST THERAPEUTICS INC",
+        "shares": 255000.0,
+        "value_usd": 35926950.0,
+        "weight_pct": 3.46
+      },
+      {
+        "cusip": "03237H101",
+        "security_class": "COM",
+        "issuer": "AMYLYX PHARMACEUTICALS INC",
+        "shares": 1150000.0,
+        "value_usd": 33465000.0,
+        "weight_pct": 3.23
       },
       {
         "cusip": "60855R100",
         "security_class": "COM",
         "issuer": "MOLINA HEALTHCARE INC",
         "shares": 165000.0,
-        "value_usd": 37735500.0,
-        "weight_pct": 3.62
-      },
-      {
-        "cusip": "43283X105",
-        "security_class": "COM",
-        "issuer": "HILTON GRAND VACATIONS INC",
-        "shares": 690000.0,
-        "value_usd": 36135300.0,
-        "weight_pct": 3.47
-      },
-      {
-        "cusip": "74366E102",
-        "security_class": "COM",
-        "issuer": "PROTAGONIST THERAPEUTICS INC",
-        "shares": 290000.0,
-        "value_usd": 35548200.0,
-        "weight_pct": 3.41
+        "value_usd": 31201500.0,
+        "weight_pct": 3.01
       },
       {
         "cusip": "G59665102",
         "security_class": "COM",
         "issuer": "MEIRAGTX HLDGS PLC",
-        "shares": 2300000.0,
-        "value_usd": 31073000.0,
-        "weight_pct": 2.98
-      },
-      {
-        "cusip": "Y95308105",
-        "security_class": "SHS",
-        "issuer": "WAVE LIFE SCIENCES LTD",
-        "shares": 4950000.0,
-        "value_usd": 28759500.0,
-        "weight_pct": 2.76
+        "shares": 2224000.0,
+        "value_usd": 24464000.0,
+        "weight_pct": 2.36
       }
     ],
-    "top_five_pct": 23.6,
-    "top_ten_pct": 39.86,
-    "hhi": 241.29,
+    "top_five_pct": 24.08,
+    "top_ten_pct": 39.73,
+    "hhi": 241.22,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 55,
-      "exited_positions": 43,
-      "increased_positions": 29,
-      "reduced_positions": 25
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 15,
+      "increased_positions": 23,
+      "reduced_positions": 23
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001404574-26-000023"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001404574-26-000027"
       }
     ]
   },
-  "reported_13f_value_usd": 1040991181.0,
+  "reported_13f_value_usd": 1037055430.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001404574-26-000023",
+  "validated_accession": "0001404574-26-000027",
   "annualized_turnover_proxy_pct": null
 }

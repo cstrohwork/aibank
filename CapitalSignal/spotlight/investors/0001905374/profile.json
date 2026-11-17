@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001905374",
   "investor_name": "Liberty 77 Capital L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Washington",
   "state": "DC",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1905374/0001172661-25-004692.txt",
-    "https://www.sec.gov/Archives/edgar/data/1905374/0001172661-26-003497.txt"
+    "https://www.sec.gov/Archives/edgar/data/1905374/0001172661-26-003497.txt",
+    "https://www.sec.gov/Archives/edgar/data/1905374/0001172661-26-005101.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "065bc1a7bfd62326b205c5cc3c100e9acd6f992dc6f20ca7dd750d84f8ef1497",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "49e95538765c4864398b9fa8c5410abbdf865b4dccc50d579c152e6891576dc0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3b6a35ed5f5c8b6b14ed64aee5b2f575513ae4d0",
+    "c712c9f73e069098facf1d51c051a798b2e2e2c1",
+    "dea1538d8feb8ab15aa2ad53cfa46d7d75d09080"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003497",
-    "source": "https://www.sec.gov/Archives/edgar/data/1905374/0001172661-26-003497.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005101",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905374/0001172661-26-005101.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1752561704.0,
+    "reported_long_equity_value_usd": 1351088930.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,35 +43,35 @@
         "security_class": "COM NEW",
         "issuer": "FLAGSTAR BANK NATIONAL ASSOC",
         "shares": 74999994.0,
-        "value_usd": 1120499910.0,
-        "weight_pct": 63.93
+        "value_usd": 875249930.0,
+        "weight_pct": 64.78
       },
       {
         "cusip": "53626N102",
         "security_class": "COM",
         "issuer": "LIONSGATE STUDIOS CORP",
         "shares": 37548125.0,
-        "value_usd": 574861794.0,
-        "weight_pct": 32.8
+        "value_usd": 420539000.0,
+        "weight_pct": 31.13
       },
       {
         "cusip": "80401C100",
         "security_class": "COM CL A",
         "issuer": "SATELLOGIC INC",
         "shares": 10000000.0,
-        "value_usd": 57200000.0,
-        "weight_pct": 3.26
+        "value_usd": 55300000.0,
+        "weight_pct": 4.09
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5174.25,
+    "hhi": 5182.16,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
-      "exited_positions": 1,
+      "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 1
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -72,11 +83,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003497"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005101"
       }
     ]
   },
-  "reported_13f_value_usd": 1752561704.0,
+  "reported_13f_value_usd": 1351088930.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003497",
+  "validated_accession": "0001172661-26-005101",
   "annualized_turnover_proxy_pct": null
 }

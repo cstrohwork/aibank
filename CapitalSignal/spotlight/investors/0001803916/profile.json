@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001803916",
   "investor_name": "Aquatic Capital Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1803916/0001803916-25-000015.txt",
-    "https://www.sec.gov/Archives/edgar/data/1803916/0001803916-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1803916/0001803916-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803916/0001803916-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "28b645fc166bc01a07baf71b28dd98fda1ddd7dfdc4aebecb6ea3adf04856449",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "bb81c016890faab4c938490dce2bae732b4ec56d3e42398a8dc8ed4cbb8535a5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "09df81b082e346987604d918bb86ea2009f01808",
+    "5f4e7f6df4d85101f13095fd23294c96ae6f9442",
+    "aebbfc235e9c925236d27297162c63c14891deb6"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001803916-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1803916/0001803916-26-000004.txt",
-    "distinct_positions": 1217,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001803916-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803916/0001803916-26-000005.txt",
+    "distinct_positions": 1182,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2911977355.0,
+    "reported_long_equity_value_usd": 3254722108.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "30303M102",
-        "security_class": "CL A",
-        "issuer": "META PLATFORMS INC",
-        "shares": 109852.0,
-        "value_usd": 61878533.0,
-        "weight_pct": 2.12
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 158962.0,
+        "value_usd": 55825865.0,
+        "weight_pct": 1.72
+      },
+      {
+        "cusip": "G25508105",
+        "security_class": "ORD",
+        "issuer": "CRH PLC",
+        "shares": 672019.0,
+        "value_usd": 55643173.0,
+        "weight_pct": 1.71
+      },
+      {
+        "cusip": "025816109",
+        "security_class": "COM",
+        "issuer": "AMERICAN EXPRESS CO",
+        "shares": 158946.0,
+        "value_usd": 48335479.0,
+        "weight_pct": 1.49
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 256835.0,
+        "value_usd": 41799896.0,
+        "weight_pct": 1.28
+      },
+      {
+        "cusip": "617446448",
+        "security_class": "COM NEW",
+        "issuer": "MORGAN STANLEY",
+        "shares": 222206.0,
+        "value_usd": 41792504.0,
+        "weight_pct": 1.28
+      },
+      {
+        "cusip": "437076102",
+        "security_class": "COM",
+        "issuer": "HOME DEPOT INC",
+        "shares": 139723.0,
+        "value_usd": 39749796.0,
+        "weight_pct": 1.22
       },
       {
         "cusip": "64110L106",
         "security_class": "COM",
         "issuer": "NETFLIX INC.",
-        "shares": 785172.0,
-        "value_usd": 56061281.0,
-        "weight_pct": 1.93
+        "shares": 564017.0,
+        "value_usd": 39244303.0,
+        "weight_pct": 1.21
       },
       {
-        "cusip": "101137107",
+        "cusip": "504922105",
+        "security_class": "COM SHS",
+        "issuer": "LABCORP HOLDINGS INC",
+        "shares": 107950.0,
+        "value_usd": 33260474.0,
+        "weight_pct": 1.02
+      },
+      {
+        "cusip": "007903107",
         "security_class": "COM",
-        "issuer": "BOSTON SCIENTIFIC CORP",
-        "shares": 985535.0,
-        "value_usd": 42062634.0,
-        "weight_pct": 1.44
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 53031.0,
+        "value_usd": 32442245.0,
+        "weight_pct": 1.0
       },
       {
-        "cusip": "747525103",
+        "cusip": "679580100",
         "security_class": "COM",
-        "issuer": "QUALCOMM INC",
-        "shares": 209032.0,
-        "value_usd": 38627023.0,
-        "weight_pct": 1.33
-      },
-      {
-        "cusip": "68389X105",
-        "security_class": "COM",
-        "issuer": "ORACLE CORP",
-        "shares": 242037.0,
-        "value_usd": 35470522.0,
-        "weight_pct": 1.22
-      },
-      {
-        "cusip": "46120E602",
-        "security_class": "COM NEW",
-        "issuer": "INTUITIVE SURGICAL INC",
-        "shares": 82901.0,
-        "value_usd": 32968070.0,
-        "weight_pct": 1.13
-      },
-      {
-        "cusip": "461202103",
-        "security_class": "COM",
-        "issuer": "INTUIT",
-        "shares": 122381.0,
-        "value_usd": 31941441.0,
-        "weight_pct": 1.1
-      },
-      {
-        "cusip": "57636Q104",
-        "security_class": "CL A",
-        "issuer": "MASTERCARD INCORPORATED",
-        "shares": 59754.0,
-        "value_usd": 30689654.0,
-        "weight_pct": 1.05
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 108961.0,
-        "value_usd": 25969765.0,
-        "weight_pct": 0.89
-      },
-      {
-        "cusip": "98978V103",
-        "security_class": "CL A",
-        "issuer": "ZOETIS INC",
-        "shares": 300272.0,
-        "value_usd": 21577546.0,
-        "weight_pct": 0.74
+        "issuer": "OLD DOMINION FREIGHT LINE IN",
+        "shares": 173236.0,
+        "value_usd": 30115346.0,
+        "weight_pct": 0.93
       }
     ],
-    "top_five_pct": 8.04,
-    "top_ten_pct": 12.95,
-    "hhi": 40.01,
+    "top_five_pct": 7.48,
+    "top_ten_pct": 12.85,
+    "hhi": 41.34,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 578,
-      "exited_positions": 706,
-      "increased_positions": 252,
-      "reduced_positions": 387
+      "previous_period": "2026-06-30",
+      "new_positions": 614,
+      "exited_positions": 649,
+      "increased_positions": 303,
+      "reduced_positions": 263
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001803916-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001803916-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 2911977355.0,
+  "reported_13f_value_usd": 3254722108.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001803916-26-000004",
+  "validated_accession": "0001803916-26-000005",
   "annualized_turnover_proxy_pct": null
 }

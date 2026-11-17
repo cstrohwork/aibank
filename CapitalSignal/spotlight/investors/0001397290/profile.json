@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001397290",
   "investor_name": "Rodgers Brothers Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-05",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Harmony",
   "state": "PA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1397290/0001172661-25-004688.txt",
-    "https://www.sec.gov/Archives/edgar/data/1397290/0001172661-26-003087.txt"
+    "https://www.sec.gov/Archives/edgar/data/1397290/0001172661-26-003087.txt",
+    "https://www.sec.gov/Archives/edgar/data/1397290/0001172661-26-005178.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4c1373cffb374007a39994baff05e71801ef28e2e385bcd8b54d92b9d9f4e18c",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "f705d53dafbbf1224f5f1c1d44fb7f5106b8994d157a93b7fe5ca18ee5dd44ed",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-05|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "43a921ba3a96d4c8c912b2bf4641c466bad3ea14",
+    "6326525879cd0f72e98084cb1d9e93c2a58fafa1",
+    "b3ccbe969bd915a56529467ef4581ae13d3e9cd6"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-05",
-    "accession": "0001172661-26-003087",
-    "source": "https://www.sec.gov/Archives/edgar/data/1397290/0001172661-26-003087.txt",
-    "distinct_positions": 247,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005178",
+    "source": "https://www.sec.gov/Archives/edgar/data/1397290/0001172661-26-005178.txt",
+    "distinct_positions": 244,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1030264844.0,
+    "reported_long_equity_value_usd": 973237528.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "19247G107",
         "security_class": "COM",
         "issuer": "COHERENT CORP",
-        "shares": 355805.0,
-        "value_usd": 140354398.0,
-        "weight_pct": 13.62
+        "shares": 349380.0,
+        "value_usd": 100555058.0,
+        "weight_pct": 10.33
       },
       {
         "cusip": "532457108",
         "security_class": "COM",
         "issuer": "ELI LILLY & CO",
-        "shares": 55538.0,
-        "value_usd": 66613762.0,
-        "weight_pct": 6.47
-      },
-      {
-        "cusip": "969904101",
-        "security_class": "COM",
-        "issuer": "WILLIAMS SONOMA INC",
-        "shares": 139653.0,
-        "value_usd": 32553114.0,
-        "weight_pct": 3.16
+        "shares": 55127.0,
+        "value_usd": 63786174.0,
+        "weight_pct": 6.55
       },
       {
         "cusip": "00287Y109",
         "security_class": "COM",
         "issuer": "ABBVIE INC",
-        "shares": 127464.0,
-        "value_usd": 32075040.0,
-        "weight_pct": 3.11
+        "shares": 127113.0,
+        "value_usd": 33251476.0,
+        "weight_pct": 3.42
       },
       {
-        "cusip": "219350105",
+        "cusip": "969904101",
         "security_class": "COM",
-        "issuer": "CORNING INC",
-        "shares": 97001.0,
-        "value_usd": 24776981.0,
-        "weight_pct": 2.4
-      },
-      {
-        "cusip": "056525108",
-        "security_class": "COM",
-        "issuer": "BADGER METER INC",
-        "shares": 155230.0,
-        "value_usd": 23033069.0,
-        "weight_pct": 2.24
-      },
-      {
-        "cusip": "773903109",
-        "security_class": "COM",
-        "issuer": "ROCKWELL AUTOMATION INC",
-        "shares": 45749.0,
-        "value_usd": 22649478.0,
-        "weight_pct": 2.2
-      },
-      {
-        "cusip": "512807306",
-        "security_class": "COM NEW",
-        "issuer": "LAM RESEARCH CORP",
-        "shares": 46200.0,
-        "value_usd": 20019846.0,
-        "weight_pct": 1.94
+        "issuer": "WILLIAMS SONOMA INC",
+        "shares": 138103.0,
+        "value_usd": 31479198.0,
+        "weight_pct": 3.23
       },
       {
         "cusip": "291011104",
         "security_class": "COM",
         "issuer": "EMERSON ELEC CO",
-        "shares": 137704.0,
-        "value_usd": 19712328.0,
-        "weight_pct": 1.91
+        "shares": 136135.0,
+        "value_usd": 21114478.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 39454.0,
+        "value_usd": 20235724.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "773903109",
+        "security_class": "COM",
+        "issuer": "ROCKWELL AUTOMATION INC",
+        "shares": 45285.0,
+        "value_usd": 19713974.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "056525108",
+        "security_class": "COM",
+        "issuer": "BADGER METER INC",
+        "shares": 156284.0,
+        "value_usd": 19307287.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "002824100",
+        "security_class": "COM",
+        "issuer": "ABBOTT LABORATORIES",
+        "shares": 177725.0,
+        "value_usd": 17564608.0,
+        "weight_pct": 1.8
       },
       {
         "cusip": "742718109",
         "security_class": "COM",
         "issuer": "PROCTER & GAMBLE CO",
-        "shares": 118433.0,
-        "value_usd": 17366949.0,
-        "weight_pct": 1.69
+        "shares": 116349.0,
+        "value_usd": 16903237.0,
+        "weight_pct": 1.74
       }
     ],
-    "top_five_pct": 28.77,
-    "top_ten_pct": 38.74,
-    "hhi": 311.38,
+    "top_five_pct": 25.71,
+    "top_ten_pct": 35.34,
+    "hhi": 238.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 35,
-      "exited_positions": 23,
-      "increased_positions": 50,
-      "reduced_positions": 117
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 15,
+      "increased_positions": 44,
+      "reduced_positions": 114
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-05",
         "accession": "0001172661-26-003087"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005178"
       }
     ]
   },
-  "reported_13f_value_usd": 1030264844.0,
+  "reported_13f_value_usd": 973237528.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003087",
+  "validated_accession": "0001172661-26-005178",
   "annualized_turnover_proxy_pct": null
 }

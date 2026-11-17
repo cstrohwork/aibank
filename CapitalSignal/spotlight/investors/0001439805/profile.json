@@ -2,7 +2,7 @@
   "manager_cik": "0001439805",
   "investor_name": "Greenwich Wealth Management LLC",
   "latest_report_date": "2026-09-30",
-  "filing_date": "2026-11-12",
+  "filing_date": "2026-11-16",
   "city": "GREENWICH",
   "state": "CT",
   "country": "United States",
@@ -11,113 +11,123 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1439805/0001439805-25-000008.txt",
     "https://www.sec.gov/Archives/edgar/data/1439805/0001439805-26-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1439805/0001439805-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1439805/0001439805-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "99d2c2f88033190587405855f4d44efbaa369fd3e89a913764f8726bae2ac716",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "55e2699a67925288d8232e6e3193041fea40b9051b5591f454f38395142781c3",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-09-29|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "58dccf05451e6fdcfba49dba046732ebacfa3f34",
+    "e977d1aa3c6be01467f47acdd3f4f9ffd4874660",
+    "ea5daaa6b6b79f6d1d1d91897c4e63270303ebf1"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-09-30",
-    "filing_date": "2026-11-12",
-    "accession": "0001439805-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1439805/0001439805-26-000007.txt",
-    "distinct_positions": 305,
+    "filing_date": "2026-11-16",
+    "accession": "0001439805-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1439805/0001439805-26-000008.txt",
+    "distinct_positions": 401,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3094044.0,
+    "reported_long_equity_value_usd": 3097129689.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "45841N107",
-        "security_class": "CL A",
-        "issuer": "INTERACTIVE BROKERS GROUP IN COM",
-        "shares": 9921127.0,
-        "value_usd": 847463.0,
-        "weight_pct": 27.39
+        "security_class": "COM CL A",
+        "issuer": "INTERACTIVE BROKERS GROUP IN",
+        "shares": 9921126.0,
+        "value_usd": 847462645.0,
+        "weight_pct": 27.36
       },
       {
         "cusip": "65250K105",
         "security_class": "COM SHS CLASS B",
         "issuer": "NEWSMAX INC",
-        "shares": 21962657.0,
-        "value_usd": 237416.0,
+        "shares": 43925314.0,
+        "value_usd": 237653738.0,
         "weight_pct": 7.67
       },
       {
         "cusip": "284902509",
         "security_class": "COM",
         "issuer": "ELDORADO GOLD CORP NEW",
-        "shares": 6000612.0,
-        "value_usd": 231026.0,
+        "shares": 12001224.0,
+        "value_usd": 231257434.0,
         "weight_pct": 7.47
       },
       {
         "cusip": "78462F103",
-        "security_class": "UNIT",
-        "issuer": "SPDR S&P 500 ETF TR TR",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
         "shares": 244539.0,
-        "value_usd": 186493.0,
-        "weight_pct": 6.03
+        "value_usd": 186493077.0,
+        "weight_pct": 6.02
       },
       {
         "cusip": "36118L106",
         "security_class": "SPON ADS CL A",
         "issuer": "FUTU HLDGS LTD",
-        "shares": 1500000.0,
-        "value_usd": 165825.0,
+        "shares": 3000000.0,
+        "value_usd": 165990825.0,
         "weight_pct": 5.36
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "NVIDIA CORP",
-        "shares": 277060.0,
-        "value_usd": 63275.0,
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 554120.0,
+        "value_usd": 63338286.0,
         "weight_pct": 2.05
       },
       {
         "cusip": "13321L108",
         "security_class": "COM",
         "issuer": "CAMECO CORP",
-        "shares": 700068.0,
-        "value_usd": 60675.0,
+        "shares": 1400136.0,
+        "value_usd": 60735612.0,
         "weight_pct": 1.96
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 174818.0,
-        "value_usd": 58218.0,
+        "shares": 349636.0,
+        "value_usd": 58276096.0,
         "weight_pct": 1.88
       },
       {
         "cusip": "46050R102",
         "security_class": "COM",
         "issuer": "INTERNATIONAL TOWER HILL MIN",
-        "shares": 20000000.0,
-        "value_usd": 51000.0,
+        "shares": 40000000.0,
+        "value_usd": 51051000.0,
         "weight_pct": 1.65
       },
       {
         "cusip": "808513105",
         "security_class": "COM",
-        "issuer": "SCHWAB CHARLES CORP NEW",
-        "shares": 504473.0,
-        "value_usd": 49307.0,
+        "issuer": "CHARLES SCHWAB CORP (THE)",
+        "shares": 1008945.0,
+        "value_usd": 49356482.0,
         "weight_pct": 1.59
       }
     ],
-    "top_five_pct": 53.92,
-    "top_ten_pct": 63.05,
-    "hhi": 965.51,
+    "top_five_pct": 53.88,
+    "top_ten_pct": 63.01,
+    "hhi": 963.94,
     "changes": {
       "previous_period": "2026-06-30",
-      "new_positions": 26,
+      "new_positions": 122,
       "exited_positions": 18,
-      "increased_positions": 92,
-      "reduced_positions": 124
+      "increased_positions": 211,
+      "reduced_positions": 44
     },
     "timeline": [
       {
@@ -132,13 +142,13 @@
       },
       {
         "report_date": "2026-09-30",
-        "filing_date": "2026-11-12",
-        "accession": "0001439805-26-000007"
+        "filing_date": "2026-11-16",
+        "accession": "0001439805-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 3094044.0,
+  "reported_13f_value_usd": 3097129689.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001439805-26-000007",
+  "validated_accession": "0001439805-26-000008",
   "annualized_turnover_proxy_pct": null
 }

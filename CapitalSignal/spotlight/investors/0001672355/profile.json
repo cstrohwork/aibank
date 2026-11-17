@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001672355",
   "investor_name": "RIPOSTE CAPITAL LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1672355/0001672355-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1672355/0001672355-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1672355/0001672355-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1672355/0001672355-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7053703b3f3a93240fb9c1f67d54af505ed26a8a81db0b98dba06c9d7e00fe74",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "5b4015b2a40db3aad57c806d07f0ee10f69a74c7a669dc8e4ba6fbf8820455be",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "577dbe73b5b857c15f81c862396e60ec3a659a96",
+    "b86e4fd3eef257e09c7ea78876e8db107f0a2e85",
+    "bf46517a1939eacb719924b48f4ce145dbb5a1f4"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001672355-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1672355/0001672355-26-000006.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001672355-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1672355/0001672355-26-000008.txt",
     "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 294576250.0,
+    "reported_long_equity_value_usd": 249083900.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "144285103",
+        "security_class": "COM",
+        "issuer": "CARPENTER TECHNOLOGY CORP",
+        "shares": 70000.0,
+        "value_usd": 27217400.0,
+        "weight_pct": 10.93
+      },
+      {
         "cusip": "595112103",
         "security_class": "COM",
         "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 25000.0,
-        "value_usd": 28857250.0,
-        "weight_pct": 9.8
+        "shares": 20000.0,
+        "value_usd": 21302200.0,
+        "weight_pct": 8.55
       },
       {
-        "cusip": "N3167Y103",
+        "cusip": "87422Q109",
         "security_class": "COM",
-        "issuer": "FERRARI N V",
+        "issuer": "TALEN ENERGY CORP",
         "shares": 60000.0,
-        "value_usd": 22337400.0,
-        "weight_pct": 7.58
-      },
-      {
-        "cusip": "171779309",
-        "security_class": "COM NEW",
-        "issuer": "CIENA CORP",
-        "shares": 40000.0,
-        "value_usd": 19622400.0,
-        "weight_pct": 6.66
+        "value_usd": 18761400.0,
+        "weight_pct": 7.53
       },
       {
         "cusip": "683344105",
         "security_class": "COM",
         "issuer": "ONTO INNOVATION INC",
         "shares": 50000.0,
-        "value_usd": 18922500.0,
-        "weight_pct": 6.42
+        "value_usd": 15391000.0,
+        "weight_pct": 6.18
       },
       {
-        "cusip": "861012102",
-        "security_class": "NY REGISTRY",
-        "issuer": "STMICROELECTRONICS NV",
-        "shares": 250000.0,
-        "value_usd": 18722500.0,
-        "weight_pct": 6.36
+        "cusip": "74743L100",
+        "security_class": "COMMON STOCK",
+        "issuer": "QNITY ELECTRONICS INC",
+        "shares": 120000.0,
+        "value_usd": 15088800.0,
+        "weight_pct": 6.06
       },
       {
-        "cusip": "29275Y102",
-        "security_class": "COM",
-        "issuer": "ENERSYS",
-        "shares": 80000.0,
-        "value_usd": 18705600.0,
-        "weight_pct": 6.35
-      },
-      {
-        "cusip": "L8681T102",
-        "security_class": "SHS",
-        "issuer": "SPOTIFY TECHNOLOGY S A",
+        "cusip": "171779309",
+        "security_class": "COM NEW",
+        "issuer": "CIENA CORP",
         "shares": 40000.0,
-        "value_usd": 18365200.0,
-        "weight_pct": 6.23
+        "value_usd": 14072800.0,
+        "weight_pct": 5.65
       },
       {
-        "cusip": "219350105",
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 25000.0,
+        "value_usd": 13786750.0,
+        "weight_pct": 5.53
+      },
+      {
+        "cusip": "N3167Y103",
         "security_class": "COM",
-        "issuer": "CORNING INC",
-        "shares": 65000.0,
-        "value_usd": 16602950.0,
-        "weight_pct": 5.64
+        "issuer": "FERRARI N V",
+        "shares": 35000.0,
+        "value_usd": 13749750.0,
+        "weight_pct": 5.52
       },
       {
         "cusip": "576323109",
         "security_class": "COM",
         "issuer": "MASTEC INC",
-        "shares": 35000.0,
-        "value_usd": 14562100.0,
-        "weight_pct": 4.94
+        "shares": 60000.0,
+        "value_usd": 12817200.0,
+        "weight_pct": 5.15
       },
       {
-        "cusip": "67066G104",
+        "cusip": "252784301",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 65000.0,
-        "value_usd": 13005850.0,
-        "weight_pct": 4.42
+        "issuer": "DIAMONDROCK HOSPITALITY CO",
+        "shares": 1000000.0,
+        "value_usd": 12360000.0,
+        "weight_pct": 4.96
       }
     ],
-    "top_five_pct": 36.82,
-    "top_ten_pct": 64.4,
-    "hhi": 558.66,
+    "top_five_pct": 39.25,
+    "top_ten_pct": 66.06,
+    "hhi": 589.94,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 19,
-      "exited_positions": 15,
-      "increased_positions": 2,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 8,
+      "increased_positions": 5,
+      "reduced_positions": 6
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001672355-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001672355-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 294576250.0,
+  "reported_13f_value_usd": 249083900.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001672355-26-000006",
+  "validated_accession": "0001672355-26-000008",
   "annualized_turnover_proxy_pct": null
 }

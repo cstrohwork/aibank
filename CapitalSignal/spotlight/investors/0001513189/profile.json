@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001513189",
   "investor_name": "First Western Trust Bank",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-29",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Denver",
   "state": "CO",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1513189/0001628280-25-052137.txt",
-    "https://www.sec.gov/Archives/edgar/data/1513189/0001628280-26-050494.txt"
+    "https://www.sec.gov/Archives/edgar/data/1513189/0001628280-26-050494.txt",
+    "https://www.sec.gov/Archives/edgar/data/1513189/0001628280-26-073941.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "13c40bf20250e3170756eba378db0e477964707db3ab38f4f685f5ea060f25de",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "84daa407d31d77a22a706e540a7d58f20c2f90a7e57e1039870e2cc914352ada",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-07-29|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4a85a59174cfbb77a9c894d646e3b341ff3d347f",
+    "714c74a0c66375e8b48a3e82c17bf6598c737573",
+    "dae522230e57d2fef5fcb08d6181d7a5c28af96e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-29",
-    "accession": "0001628280-26-050494",
-    "source": "https://www.sec.gov/Archives/edgar/data/1513189/0001628280-26-050494.txt",
-    "distinct_positions": 215,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001628280-26-073941",
+    "source": "https://www.sec.gov/Archives/edgar/data/1513189/0001628280-26-073941.txt",
+    "distinct_positions": 207,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2051271791.0,
+    "reported_long_equity_value_usd": 1894413965.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "863667101",
         "security_class": "Common Stock",
         "issuer": "STRYKER CORPORATION",
-        "shares": 3017349.0,
-        "value_usd": 949982257.0,
-        "weight_pct": 46.31
+        "shares": 3014804.0,
+        "value_usd": 830246960.0,
+        "weight_pct": 43.83
       },
       {
         "cusip": "922908363",
         "security_class": "Exchange Traded Fund",
         "issuer": "Vanguard S&P 500",
-        "shares": 219510.0,
-        "value_usd": 150761863.0,
-        "weight_pct": 7.35
+        "shares": 215269.0,
+        "value_usd": 150873635.0,
+        "weight_pct": 7.96
       },
       {
         "cusip": "464287499",
         "security_class": "Exchange Traded Fund",
         "issuer": "iShares Russell Mid Cap",
-        "shares": 1022959.0,
-        "value_usd": 112852887.0,
-        "weight_pct": 5.5
+        "shares": 1006967.0,
+        "value_usd": 107453497.0,
+        "weight_pct": 5.67
       },
       {
         "cusip": "78462F103",
         "security_class": "Exchange Traded Fund",
         "issuer": "SPDR S&P 500",
-        "shares": 122949.0,
-        "value_usd": 91814625.0,
-        "weight_pct": 4.48
+        "shares": 121653.0,
+        "value_usd": 92776227.0,
+        "weight_pct": 4.9
       },
       {
         "cusip": "46137V357",
         "security_class": "Exchange Traded Fund",
         "issuer": "Invesco S&P 500 Equal Weight",
-        "shares": 350642.0,
-        "value_usd": 74606098.0,
-        "weight_pct": 3.64
-      },
-      {
-        "cusip": "464287655",
-        "security_class": "Exchange Traded Fund",
-        "issuer": "iShares Russell 2000",
-        "shares": 234431.0,
-        "value_usd": 70434942.0,
-        "weight_pct": 3.43
+        "shares": 360643.0,
+        "value_usd": 75020956.0,
+        "weight_pct": 3.96
       },
       {
         "cusip": "921943858",
         "security_class": "Exchange Traded Fund",
         "issuer": "Vanguard FTSE Developed Markets",
-        "shares": 966922.0,
-        "value_usd": 68893193.0,
-        "weight_pct": 3.36
+        "shares": 979598.0,
+        "value_usd": 69169415.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares Russell 2000",
+        "shares": 230170.0,
+        "value_usd": 63962078.0,
+        "weight_pct": 3.38
       },
       {
         "cusip": "922908769",
         "security_class": "Exchange Traded Fund",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 135734.0,
-        "value_usd": 50227009.0,
-        "weight_pct": 2.45
+        "shares": 135620.0,
+        "value_usd": 50754429.0,
+        "weight_pct": 2.68
       },
       {
         "cusip": "464287234",
         "security_class": "Exchange Traded Fund",
         "issuer": "ISHARES TR",
-        "shares": 660248.0,
-        "value_usd": 45167566.0,
-        "weight_pct": 2.2
+        "shares": 698915.0,
+        "value_usd": 46680533.0,
+        "weight_pct": 2.46
       },
       {
         "cusip": "037833100",
         "security_class": "Common Stock",
         "issuer": "APPLE INC",
-        "shares": 116839.0,
-        "value_usd": 33808533.0,
-        "weight_pct": 1.65
+        "shares": 112904.0,
+        "value_usd": 37599290.0,
+        "weight_pct": 1.98
       }
     ],
-    "top_five_pct": 67.28,
-    "top_ten_pct": 80.37,
-    "hhi": 2306.24,
+    "top_five_pct": 66.32,
+    "top_ten_pct": 80.48,
+    "hhi": 2105.2,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 43,
-      "exited_positions": 19,
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 18,
       "increased_positions": 62,
-      "reduced_positions": 101
+      "reduced_positions": 104
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-29",
         "accession": "0001628280-26-050494"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001628280-26-073941"
       }
     ]
   },
-  "reported_13f_value_usd": 2051271791.0,
+  "reported_13f_value_usd": 1894413965.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001628280-26-050494",
+  "validated_accession": "0001628280-26-073941",
   "annualized_turnover_proxy_pct": null
 }

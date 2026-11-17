@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001773206",
   "investor_name": "Integral Health Asset Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1773206/0001172661-25-004839.txt",
-    "https://www.sec.gov/Archives/edgar/data/1773206/0001172661-26-003449.txt"
+    "https://www.sec.gov/Archives/edgar/data/1773206/0001172661-26-003449.txt",
+    "https://www.sec.gov/Archives/edgar/data/1773206/0001172661-26-005192.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6cfb7a5241504d80ba64d53c6bcf744a57d86190a6db7873bac903066956dd43",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "822274ea29e51a55c18361412dafb60e51c2aa909afd8f59369b63ceb0b52f29",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "148071b0a380ec968e53e22e3bc52f692204385f",
+    "6672f61fd327c88cdeee2a7b16f35a361d5c36f9",
+    "b1bf32f9ed97eaa5462e085a0ef6b8dce4387400"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003449",
-    "source": "https://www.sec.gov/Archives/edgar/data/1773206/0001172661-26-003449.txt",
-    "distinct_positions": 89,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005192",
+    "source": "https://www.sec.gov/Archives/edgar/data/1773206/0001172661-26-005192.txt",
+    "distinct_positions": 96,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2437377300.0,
+    "reported_long_equity_value_usd": 1635097325.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "76155X100",
         "security_class": "COM",
         "issuer": "REVOLUTION MEDICINES INC",
-        "shares": 1500000.0,
-        "value_usd": 280920000.0,
-        "weight_pct": 11.53
+        "shares": 1000000.0,
+        "value_usd": 130340100.0,
+        "weight_pct": 7.97
       },
       {
         "cusip": "457669307",
         "security_class": "COM PAR $.01",
         "issuer": "INSMED INC",
         "shares": 1600000.0,
-        "value_usd": 170592000.0,
-        "weight_pct": 7.0
+        "value_usd": 128978200.0,
+        "weight_pct": 7.89
+      },
+      {
+        "cusip": "28036F105",
+        "security_class": "COM",
+        "issuer": "EDGEWISE THERAPEUTICS INC",
+        "shares": 2400000.0,
+        "value_usd": 97440000.0,
+        "weight_pct": 5.96
       },
       {
         "cusip": "23282W605",
         "security_class": "COM NEW",
         "issuer": "CYTOKINETICS INC",
         "shares": 1600000.0,
-        "value_usd": 136304000.0,
-        "weight_pct": 5.59
+        "value_usd": 72501000.0,
+        "weight_pct": 4.43
       },
       {
-        "cusip": "126650100",
+        "cusip": "58933Y105",
         "security_class": "COM",
-        "issuer": "CVS HEALTH CORP",
-        "shares": 1100000.0,
-        "value_usd": 113795000.0,
-        "weight_pct": 4.67
+        "issuer": "MERCK & CO INC",
+        "shares": 450000.0,
+        "value_usd": 65389500.0,
+        "weight_pct": 4.0
       },
       {
-        "cusip": "28036F105",
+        "cusip": "80706P103",
         "security_class": "COM",
-        "issuer": "EDGEWISE THERAPEUTICS INC",
-        "shares": 2000000.0,
-        "value_usd": 81260000.0,
-        "weight_pct": 3.33
+        "issuer": "SCHOLAR ROCK HLDG CORP",
+        "shares": 1255000.0,
+        "value_usd": 60641600.0,
+        "weight_pct": 3.71
       },
       {
-        "cusip": "92337R101",
-        "security_class": "CL A",
-        "issuer": "VERA THERAPEUTICS INC",
-        "shares": 1750000.0,
-        "value_usd": 75092500.0,
-        "weight_pct": 3.08
+        "cusip": "15135B101",
+        "security_class": "COM",
+        "issuer": "CENTENE CORP DEL",
+        "shares": 750000.0,
+        "value_usd": 46590000.0,
+        "weight_pct": 2.85
       },
       {
         "cusip": "05464T104",
         "security_class": "COM",
         "issuer": "AXSOME THERAPEUTICS INC.",
-        "shares": 300000.0,
-        "value_usd": 73431000.0,
-        "weight_pct": 3.01
+        "shares": 250000.0,
+        "value_usd": 46097500.0,
+        "weight_pct": 2.82
       },
       {
-        "cusip": "14149Y108",
+        "cusip": "92337R101",
+        "security_class": "CL A",
+        "issuer": "VERA THERAPEUTICS INC",
+        "shares": 1500000.0,
+        "value_usd": 32290000.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "031162100",
         "security_class": "COM",
-        "issuer": "CARDINAL HEALTH INC",
-        "shares": 300000.0,
-        "value_usd": 71268000.0,
-        "weight_pct": 2.92
-      },
-      {
-        "cusip": "G76279101",
-        "security_class": "SHS",
-        "issuer": "ROIVANT SCIENCES LTD",
-        "shares": 2000000.0,
-        "value_usd": 70780000.0,
-        "weight_pct": 2.9
-      },
-      {
-        "cusip": "76243J105",
-        "security_class": "COM",
-        "issuer": "RHYTHM PHARMACEUTICALS INC",
-        "shares": 550000.0,
-        "value_usd": 61066500.0,
-        "weight_pct": 2.51
+        "issuer": "AMGEN INC",
+        "shares": 75000.0,
+        "value_usd": 31613250.0,
+        "weight_pct": 1.93
       }
     ],
-    "top_five_pct": 32.12,
-    "top_ten_pct": 46.55,
-    "hhi": 345.98,
+    "top_five_pct": 30.25,
+    "top_ten_pct": 43.54,
+    "hhi": 286.91,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 47,
-      "exited_positions": 30,
-      "increased_positions": 25,
-      "reduced_positions": 11
+      "previous_period": "2026-06-30",
+      "new_positions": 39,
+      "exited_positions": 32,
+      "increased_positions": 12,
+      "reduced_positions": 26
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003449"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005192"
       }
     ]
   },
-  "reported_13f_value_usd": 2437377300.0,
+  "reported_13f_value_usd": 1635097325.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003449",
+  "validated_accession": "0001172661-26-005192",
   "annualized_turnover_proxy_pct": null
 }

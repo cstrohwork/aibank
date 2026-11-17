@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001512171",
   "investor_name": "Route One Investment Company, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "San Francisco",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1512171/0000935836-25-000701.txt",
-    "https://www.sec.gov/Archives/edgar/data/1512171/0000935836-26-000421.txt"
+    "https://www.sec.gov/Archives/edgar/data/1512171/0000935836-26-000421.txt",
+    "https://www.sec.gov/Archives/edgar/data/1512171/0000935836-26-000608.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b91ed93f2b07e63c58cbc5ff1f963befc911d90b5a2388e1d395bc41dc92add6",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e2f2da6bbc110167a1dc152531db1abd6fa64f2601fb6b7627f922d36696961f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "33bd3ad574e10c3b6dd396672e381082efe78504",
+    "c745df0784bca76d6a12f3f5357bcb7ca7d1da58",
+    "ce667007f260a26ebb23fc77b71f164faa4522c1"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000935836-26-000421",
-    "source": "https://www.sec.gov/Archives/edgar/data/1512171/0000935836-26-000421.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000935836-26-000608",
+    "source": "https://www.sec.gov/Archives/edgar/data/1512171/0000935836-26-000608.txt",
     "distinct_positions": 19,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2415684555.0,
+    "reported_long_equity_value_usd": 2332884186.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "737446104",
-        "security_class": "COM",
-        "issuer": "POST HLDGS INC",
-        "shares": 2950568.0,
-        "value_usd": 260417132.0,
-        "weight_pct": 10.78
-      },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
         "shares": 1032200.0,
-        "value_usd": 246014548.0,
-        "weight_pct": 10.18
+        "value_usd": 257172630.0,
+        "weight_pct": 11.02
       },
       {
         "cusip": "40171V100",
         "security_class": "COM",
         "issuer": "GUIDEWIRE SOFTWARE INC",
-        "shares": 1849364.0,
-        "value_usd": 227564240.0,
-        "weight_pct": 9.42
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 584050.0,
-        "value_usd": 206362387.0,
-        "weight_pct": 8.54
-      },
-      {
-        "cusip": "91324P102",
-        "security_class": "COM",
-        "issuer": "UNITEDHEALTH GROUP INC",
-        "shares": 487725.0,
-        "value_usd": 202713142.0,
-        "weight_pct": 8.39
+        "shares": 1604464.0,
+        "value_usd": 228764477.0,
+        "weight_pct": 9.81
       },
       {
         "cusip": "808513105",
         "security_class": "COM",
         "issuer": "SCHWAB CHARLES CORP",
         "shares": 2189893.0,
-        "value_usd": 202061427.0,
-        "weight_pct": 8.36
+        "value_usd": 214040142.0,
+        "weight_pct": 9.17
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 563150.0,
+        "value_usd": 191887731.0,
+        "weight_pct": 8.23
+      },
+      {
+        "cusip": "737446104",
+        "security_class": "COM",
+        "issuer": "POST HLDGS INC",
+        "shares": 2566568.0,
+        "value_usd": 186974479.0,
+        "weight_pct": 8.01
+      },
+      {
+        "cusip": "91324P102",
+        "security_class": "COM",
+        "issuer": "UNITEDHEALTH GROUP INC",
+        "shares": 487725.0,
+        "value_usd": 179034093.0,
+        "weight_pct": 7.67
       },
       {
         "cusip": "650111107",
         "security_class": "CL A",
         "issuer": "NEW YORK TIMES CO",
-        "shares": 2458659.0,
-        "value_usd": 172056957.0,
-        "weight_pct": 7.12
+        "shares": 2677859.0,
+        "value_usd": 170579618.0,
+        "weight_pct": 7.31
       },
       {
         "cusip": "49427F108",
         "security_class": "COM",
         "issuer": "KILROY RLTY CORP",
         "shares": 4248213.0,
-        "value_usd": 159180541.0,
-        "weight_pct": 6.59
-      },
-      {
-        "cusip": "883556102",
-        "security_class": "COM",
-        "issuer": "THERMO FISHER SCIENTIFIC INC",
-        "shares": 280400.0,
-        "value_usd": 140581344.0,
-        "weight_pct": 5.82
+        "value_usd": 141338047.0,
+        "weight_pct": 6.06
       },
       {
         "cusip": "58733R102",
         "security_class": "COM",
         "issuer": "MERCADOLIBRE INC",
-        "shares": 65560.0,
-        "value_usd": 111280888.0,
-        "weight_pct": 4.61
+        "shares": 81650.0,
+        "value_usd": 141134475.0,
+        "weight_pct": 6.05
+      },
+      {
+        "cusip": "G0896C103",
+        "security_class": "CL A COM",
+        "issuer": "BBB FOODS INC",
+        "shares": 2064101.0,
+        "value_usd": 108654277.0,
+        "weight_pct": 4.66
       }
     ],
-    "top_five_pct": 47.32,
-    "top_ten_pct": 79.82,
-    "hhi": 729.37,
+    "top_five_pct": 46.24,
+    "top_ten_pct": 78.0,
+    "hhi": 706.39,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
       "increased_positions": 5,
-      "reduced_positions": 7
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000935836-26-000421"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000935836-26-000608"
       }
     ]
   },
-  "reported_13f_value_usd": 2415684555.0,
+  "reported_13f_value_usd": 2332884186.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000935836-26-000421",
+  "validated_accession": "0000935836-26-000608",
   "annualized_turnover_proxy_pct": null
 }

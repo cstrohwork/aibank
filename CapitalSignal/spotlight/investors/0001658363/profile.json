@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001658363",
   "investor_name": "Maple Rock Capital Partners Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Toronto",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1658363/0001658363-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1658363/0001658363-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1658363/0001658363-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1658363/0001658363-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f9e0c9418ff6859ab186e392d84df165ac98abe30bb7752e02e3a77e226eb80d",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "c893587688486636a60bd11640b0002f03da61ca8c37d1a90046a2328d37717d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2f562d6124b558a0f4dcc11ca577e9532b327521",
+    "5fb8861a3de1a9af329d1fd8461e4c0ba6ff7481",
+    "7025ababad3d316c761bab047013ec6ad183013c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001658363-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1658363/0001658363-26-000007.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001658363-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1658363/0001658363-26-000010.txt",
     "distinct_positions": 51,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5100027142.0,
+    "reported_long_equity_value_usd": 4808246880.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "958102105",
         "security_class": "COM",
         "issuer": "WESTERN DIGITAL CORP",
-        "shares": 1357834.0,
-        "value_usd": 867275732.0,
-        "weight_pct": 17.01
-      },
-      {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 301162.0,
-        "value_usd": 290621330.0,
-        "weight_pct": 5.7
-      },
-      {
-        "cusip": "91324P102",
-        "security_class": "COM",
-        "issuer": "UNITEDHEALTH GROUP INC",
-        "shares": 681100.0,
-        "value_usd": 283085593.0,
-        "weight_pct": 5.55
-      },
-      {
-        "cusip": "444859102",
-        "security_class": "COM",
-        "issuer": "HUMANA INC",
-        "shares": 628251.0,
-        "value_usd": 249553862.0,
-        "weight_pct": 4.89
+        "shares": 1074734.0,
+        "value_usd": 488423614.0,
+        "weight_pct": 10.16
       },
       {
         "cusip": "G4705A100",
         "security_class": "SHS",
         "issuer": "ICON PUB LTD CO",
-        "shares": 1199600.0,
-        "value_usd": 208382516.0,
-        "weight_pct": 4.09
+        "shares": 1519000.0,
+        "value_usd": 258214810.0,
+        "weight_pct": 5.37
       },
       {
-        "cusip": "87241L109",
-        "security_class": "COM",
-        "issuer": "TFI INTERNATIONAL INC",
-        "shares": 1418409.0,
-        "value_usd": 203640980.0,
-        "weight_pct": 3.99
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 261776.0,
+        "value_usd": 241446476.0,
+        "weight_pct": 5.02
       },
       {
-        "cusip": "29446Y502",
-        "security_class": "COM",
-        "issuer": "EQUINOX GOLD CORP",
-        "shares": 17531248.0,
-        "value_usd": 170435907.0,
-        "weight_pct": 3.34
+        "cusip": "03938L203",
+        "security_class": "NY REGISTRY SH",
+        "issuer": "ARCELORMITTAL SA LUXEMBOURG",
+        "shares": 3067225.0,
+        "value_usd": 204706597.0,
+        "weight_pct": 4.26
       },
       {
-        "cusip": "00751Y106",
+        "cusip": "883556102",
         "security_class": "COM",
-        "issuer": "ADVANCE AUTO PARTS INC",
-        "shares": 2421040.0,
-        "value_usd": 150637109.0,
-        "weight_pct": 2.95
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 280735.0,
+        "value_usd": 189510162.0,
+        "weight_pct": 3.94
       },
       {
-        "cusip": "112463104",
+        "cusip": "444859102",
         "security_class": "COM",
-        "issuer": "BROOKDALE SR LIVING INC",
-        "shares": 8888148.0,
-        "value_usd": 143010301.0,
-        "weight_pct": 2.8
+        "issuer": "HUMANA INC",
+        "shares": 494851.0,
+        "value_usd": 188820296.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 756620.0,
+        "value_usd": 188511873.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "91324P102",
+        "security_class": "COM",
+        "issuer": "UNITEDHEALTH GROUP INC",
+        "shares": 501200.0,
+        "value_usd": 183980496.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "013872106",
+        "security_class": "COM",
+        "issuer": "ALCOA CORP",
+        "shares": 3898420.0,
+        "value_usd": 163733640.0,
+        "weight_pct": 3.41
       },
       {
         "cusip": "670346105",
         "security_class": "COM",
         "issuer": "NUCOR CORP",
-        "shares": 614000.0,
-        "value_usd": 136768500.0,
-        "weight_pct": 2.68
+        "shares": 650900.0,
+        "value_usd": 152147875.0,
+        "weight_pct": 3.16
       }
     ],
-    "top_five_pct": 37.23,
-    "top_ten_pct": 53.01,
-    "hhi": 514.14,
+    "top_five_pct": 28.75,
+    "top_ten_pct": 46.99,
+    "hhi": 350.66,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 21,
-      "exited_positions": 10,
-      "increased_positions": 19,
-      "reduced_positions": 11
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 8,
+      "increased_positions": 14,
+      "reduced_positions": 25
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001658363-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001658363-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 5100027142.0,
+  "reported_13f_value_usd": 4808246880.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001658363-26-000007",
+  "validated_accession": "0001658363-26-000010",
   "annualized_turnover_proxy_pct": null
 }

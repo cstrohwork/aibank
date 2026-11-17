@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001924953",
   "investor_name": "ATLAS Infrastructure Partners (UK) Ltd.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1924953/0001214659-25-016614.txt",
-    "https://www.sec.gov/Archives/edgar/data/1924953/0001214659-26-010359.txt"
+    "https://www.sec.gov/Archives/edgar/data/1924953/0001214659-26-010359.txt",
+    "https://www.sec.gov/Archives/edgar/data/1924953/0001214659-26-014340.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b83f70140e072974059e374cb8faea641a541738373727084c9cfedd5d80d445",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "568676c7433c2ad6a31dc5153dc116030cf810ee9444508d1aed8848aaaa3ee7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6af34b89644117c126e52156fe4e5d70ca2663c4",
+    "a018a9bd8fb926ff43f23a3a7c834b9ae2a2a8a9",
+    "a2f4e0c1dc534c837530f2368987b512b4b6cfd0"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010359",
-    "source": "https://www.sec.gov/Archives/edgar/data/1924953/0001214659-26-010359.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014340",
+    "source": "https://www.sec.gov/Archives/edgar/data/1924953/0001214659-26-014340.txt",
+    "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3298352882.0,
+    "reported_long_equity_value_usd": 2724735085.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "723484101",
         "security_class": "COM",
         "issuer": "PINNACLE WEST CAP CORP",
-        "shares": 5332226.0,
-        "value_usd": 570548182.0,
-        "weight_pct": 17.3
+        "shares": 5512578.0,
+        "value_usd": 512890257.0,
+        "weight_pct": 18.82
       },
       {
         "cusip": "744573106",
         "security_class": "COM",
         "issuer": "PUBLIC SVC ENTERPRISE GROUP",
-        "shares": 6163358.0,
-        "value_usd": 500218135.0,
-        "weight_pct": 15.17
+        "shares": 7313703.0,
+        "value_usd": 492504760.0,
+        "weight_pct": 18.08
       },
       {
         "cusip": "209115104",
         "security_class": "COM",
         "issuer": "CONSOLIDATED EDISON INC",
-        "shares": 3418444.0,
-        "value_usd": 378182460.0,
-        "weight_pct": 11.47
+        "shares": 3143692.0,
+        "value_usd": 321316759.0,
+        "weight_pct": 11.79
       },
       {
-        "cusip": "290876101",
+        "cusip": "125896100",
         "security_class": "COM",
-        "issuer": "EMERA INC",
-        "shares": 7069271.0,
-        "value_usd": 374812748.0,
-        "weight_pct": 11.36
-      },
-      {
-        "cusip": "30161N101",
-        "security_class": "COM",
-        "issuer": "EXELON CORP",
-        "shares": 7750912.0,
-        "value_usd": 361347517.0,
-        "weight_pct": 10.96
-      },
-      {
-        "cusip": "281020107",
-        "security_class": "COM",
-        "issuer": "EDISON INTL",
-        "shares": 3839521.0,
-        "value_usd": 285852338.0,
-        "weight_pct": 8.67
+        "issuer": "CMS ENERGY CORP",
+        "shares": 4981343.0,
+        "value_usd": 314223116.0,
+        "weight_pct": 11.53
       },
       {
         "cusip": "784305104",
         "security_class": "COM",
         "issuer": "H2O AMERICA",
-        "shares": 4612035.0,
-        "value_usd": 280273367.0,
-        "weight_pct": 8.5
+        "shares": 4675469.0,
+        "value_usd": 288149154.0,
+        "weight_pct": 10.58
+      },
+      {
+        "cusip": "281020107",
+        "security_class": "COM",
+        "issuer": "EDISON INTL",
+        "shares": 3967005.0,
+        "value_usd": 213147179.0,
+        "weight_pct": 7.82
       },
       {
         "cusip": "69331C108",
         "security_class": "COM",
         "issuer": "PG&E CORP",
-        "shares": 15629238.0,
-        "value_usd": 262883783.0,
-        "weight_pct": 7.97
-      },
-      {
-        "cusip": "130788102",
-        "security_class": "COM",
-        "issuer": "CALIFORNIA WTR SVC GROUP",
-        "shares": 1984605.0,
-        "value_usd": 96551033.0,
-        "weight_pct": 2.93
+        "shares": 16164963.0,
+        "value_usd": 198020797.0,
+        "weight_pct": 7.27
       },
       {
         "cusip": "78410G104",
         "security_class": "CL A",
         "issuer": "SBA COMMUNICATIONS CORP",
-        "shares": 532422.0,
-        "value_usd": 93951186.0,
-        "weight_pct": 2.85
+        "shares": 1187587.0,
+        "value_usd": 190156430.0,
+        "weight_pct": 6.98
+      },
+      {
+        "cusip": "290876101",
+        "security_class": "COM",
+        "issuer": "EMERA INC",
+        "shares": 2200000.0,
+        "value_usd": 105226000.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "05379B107",
+        "security_class": "COM",
+        "issuer": "AVISTA CORP",
+        "shares": 2539203.0,
+        "value_usd": 89100633.0,
+        "weight_pct": 3.27
       }
     ],
-    "top_five_pct": 66.25,
-    "top_ten_pct": 97.16,
-    "hhi": 1145.43,
+    "top_five_pct": 70.8,
+    "top_ten_pct": 100.0,
+    "hhi": 1253.26,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 2,
-      "increased_positions": 6,
-      "reduced_positions": 1
+      "increased_positions": 7,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010359"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014340"
       }
     ]
   },
-  "reported_13f_value_usd": 3298352882.0,
+  "reported_13f_value_usd": 2724735085.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010359",
+  "validated_accession": "0001214659-26-014340",
   "annualized_turnover_proxy_pct": null
 }

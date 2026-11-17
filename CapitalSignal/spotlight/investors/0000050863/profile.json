@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000050863",
   "investor_name": "Intel Corp",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Santa Clara",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/50863/0000050863-25-000171.txt",
-    "https://www.sec.gov/Archives/edgar/data/50863/0000050863-26-000176.txt"
+    "https://www.sec.gov/Archives/edgar/data/50863/0000050863-26-000176.txt",
+    "https://www.sec.gov/Archives/edgar/data/50863/0000050863-26-000197.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1b4c18703293cb0fe4154181c35a06ab08a1c8751efa741fbe8ec838d2a5aaff",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "12f6a9b4f428630648895514462448b4f008b5aa40b214c7f7420e3d3be43a95",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-28|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "03935f438942480c12ff3e5bc4e9cc0f1867e2ee",
+    "976ebd4bba04e90a192a749c38d493dd991bc85c",
+    "9dfb19632384962133663e0b2ca3e6f975781ceb"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000050863-26-000176",
-    "source": "https://www.sec.gov/Archives/edgar/data/50863/0000050863-26-000176.txt",
-    "distinct_positions": 2,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000050863-26-000197",
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/0000050863-26-000197.txt",
+    "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 620621529.0,
+    "reported_long_equity_value_usd": 514913827.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,27 +43,35 @@
         "security_class": "Common - Class A",
         "issuer": "Mobileye Global Inc.",
         "shares": 50000000.0,
-        "value_usd": 484000000.0,
-        "weight_pct": 77.99
+        "value_usd": 369500000.0,
+        "weight_pct": 71.76
       },
       {
         "cusip": "G65163100",
         "security_class": "Common",
         "issuer": "Joby Aviation Inc.",
         "shares": 15316315.0,
-        "value_usd": 136621529.0,
-        "weight_pct": 22.01
+        "value_usd": 92663706.0,
+        "weight_pct": 18.0
+      },
+      {
+        "cusip": "Q4982L109",
+        "security_class": "Ordinary",
+        "issuer": "IREN Limited",
+        "shares": 1290365.0,
+        "value_usd": 52750121.0,
+        "weight_pct": 10.24
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 6566.47,
+    "hhi": 5578.24,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 0,
-      "exited_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 1
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -64,11 +83,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000050863-26-000176"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000050863-26-000197"
       }
     ]
   },
-  "reported_13f_value_usd": 620621529.0,
+  "reported_13f_value_usd": 514913827.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000050863-26-000176",
+  "validated_accession": "0000050863-26-000197",
   "annualized_turnover_proxy_pct": null
 }

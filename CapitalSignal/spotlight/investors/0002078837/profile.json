@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002078837",
   "investor_name": "VARCOV Co.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DARIEN",
   "state": "CT",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2078837/0001214659-26-010392.txt"
+    "https://www.sec.gov/Archives/edgar/data/2078837/0001214659-26-010392.txt",
+    "https://www.sec.gov/Archives/edgar/data/2078837/0001214659-26-014373.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b9b71390997675515c66984034f39f158743e8983fc1b9867676410e16d6321d",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "0f851d6dd519ef1c291079831d66d0a50e2f229caeefca7a5e82040e3a70f237",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "17d482bdcdec1a0367466b8f58ad5e48e159fdea",
+    "cec0d09bbc958e21379a286625d629655418316e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010392",
-    "source": "https://www.sec.gov/Archives/edgar/data/2078837/0001214659-26-010392.txt",
-    "distinct_positions": 352,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014373",
+    "source": "https://www.sec.gov/Archives/edgar/data/2078837/0001214659-26-014373.txt",
+    "distinct_positions": 345,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 263383063.0,
+    "reported_long_equity_value_usd": 204741872.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "143130102",
-        "security_class": "COM",
-        "issuer": "CARMAX INC",
-        "shares": 75144.0,
-        "value_usd": 3974366.0,
-        "weight_pct": 1.51
-      },
-      {
         "cusip": "64119V303",
         "security_class": "COM",
         "issuer": "NETSTREIT CORP",
-        "shares": 182213.0,
-        "value_usd": 3850161.0,
-        "weight_pct": 1.46
+        "shares": 170165.0,
+        "value_usd": 3008517.0,
+        "weight_pct": 1.47
       },
       {
-        "cusip": "00790R104",
+        "cusip": "023939101",
         "security_class": "COM",
-        "issuer": "ADVANCED DRAIN SYS INC DEL",
-        "shares": 20190.0,
-        "value_usd": 3169022.0,
-        "weight_pct": 1.2
+        "issuer": "AMENTUM HOLDINGS INC",
+        "shares": 149785.0,
+        "value_usd": 2714104.0,
+        "weight_pct": 1.33
       },
       {
-        "cusip": "91823B109",
-        "security_class": "COM CL A",
-        "issuer": "UWM HOLDINGS CORPORATION",
-        "shares": 1375522.0,
-        "value_usd": 3149945.0,
-        "weight_pct": 1.2
-      },
-      {
-        "cusip": "302635206",
+        "cusip": "15135B101",
         "security_class": "COM",
-        "issuer": "FS KKR CAP CORP",
-        "shares": 274163.0,
-        "value_usd": 2878712.0,
-        "weight_pct": 1.09
+        "issuer": "CENTENE CORP DEL",
+        "shares": 40467.0,
+        "value_usd": 2513810.0,
+        "weight_pct": 1.23
       },
       {
-        "cusip": "04914Y102",
+        "cusip": "388689101",
         "security_class": "COM",
-        "issuer": "ATLANTICUS HOLDINGS CORP",
-        "shares": 26491.0,
-        "value_usd": 2708705.0,
-        "weight_pct": 1.03
+        "issuer": "GRAPHIC PACKAGING HLDG CO",
+        "shares": 275633.0,
+        "value_usd": 2494479.0,
+        "weight_pct": 1.22
       },
       {
-        "cusip": "82900L102",
+        "cusip": "686688102",
         "security_class": "COM",
-        "issuer": "SIMPLY GOOD FOODS CO",
-        "shares": 195369.0,
-        "value_usd": 2594500.0,
-        "weight_pct": 0.99
+        "issuer": "ORMAT TECHNOLOGIES INC",
+        "shares": 26968.0,
+        "value_usd": 2467302.0,
+        "weight_pct": 1.21
       },
       {
-        "cusip": "22266M104",
+        "cusip": "070830104",
         "security_class": "COM",
-        "issuer": "COURSERA INC",
-        "shares": 431106.0,
-        "value_usd": 2431438.0,
-        "weight_pct": 0.92
+        "issuer": "BATH & BODY WORKS INC",
+        "shares": 143389.0,
+        "value_usd": 2282753.0,
+        "weight_pct": 1.11
       },
       {
-        "cusip": "61945C103",
+        "cusip": "96208T104",
         "security_class": "COM",
-        "issuer": "MOSAIC CO",
-        "shares": 109714.0,
-        "value_usd": 2324840.0,
-        "weight_pct": 0.88
+        "issuer": "WEX INC",
+        "shares": 13349.0,
+        "value_usd": 2251976.0,
+        "weight_pct": 1.1
       },
       {
-        "cusip": "23128Q101",
+        "cusip": "197914104",
+        "security_class": "COM SHS",
+        "issuer": "COLUMBIA FINL INC",
+        "shares": 198480.0,
+        "value_usd": 2195189.0,
+        "weight_pct": 1.07
+      },
+      {
+        "cusip": "687793109",
+        "security_class": "CL A",
+        "issuer": "OSCAR HEALTH INC",
+        "shares": 64297.0,
+        "value_usd": 1982919.0,
+        "weight_pct": 0.97
+      },
+      {
+        "cusip": "09180C106",
         "security_class": "COM",
-        "issuer": "CURBLINE PPTYS CORP",
-        "shares": 74522.0,
-        "value_usd": 2265469.0,
-        "weight_pct": 0.86
+        "issuer": "BJS RESTAURANTS INC",
+        "shares": 33363.0,
+        "value_usd": 1911366.0,
+        "weight_pct": 0.93
       }
     ],
-    "top_five_pct": 6.46,
-    "top_ten_pct": 11.14,
-    "hhi": 47.95,
-    "changes": null,
+    "top_five_pct": 6.45,
+    "top_ten_pct": 11.64,
+    "hhi": 47.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 223,
+      "exited_positions": 230,
+      "increased_positions": 51,
+      "reduced_positions": 71
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010392"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014373"
       }
     ]
   },
-  "reported_13f_value_usd": 263383063.0,
+  "reported_13f_value_usd": 204741872.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010392",
+  "validated_accession": "0001214659-26-014373",
   "annualized_turnover_proxy_pct": null
 }

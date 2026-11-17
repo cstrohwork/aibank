@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001777015",
   "investor_name": "Parkman Healthcare Partners LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1777015/0001420506-25-003321.txt",
-    "https://www.sec.gov/Archives/edgar/data/1777015/0001420506-26-001734.txt"
+    "https://www.sec.gov/Archives/edgar/data/1777015/0001420506-26-001734.txt",
+    "https://www.sec.gov/Archives/edgar/data/1777015/0001420506-26-002809.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b238f90cea869a154567dcc2d8ff4dc49e602f837f7acdfd45f5a8e472255e3c",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "11e9e50fb98be9d7fbcf030c11ad6028425b52978758db779fda694999a95424",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "52f2d4f07042e90d650962455a4ff5447d64c077",
+    "69930a709a3f2a32c42204e9c0c0dfb1eb49f64f",
+    "ed8437e34594e0d141b9382629e4d9864c054115"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001734",
-    "source": "https://www.sec.gov/Archives/edgar/data/1777015/0001420506-26-001734.txt",
-    "distinct_positions": 76,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002809",
+    "source": "https://www.sec.gov/Archives/edgar/data/1777015/0001420506-26-002809.txt",
+    "distinct_positions": 91,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 973687540.0,
+    "reported_long_equity_value_usd": 1110270067.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "55287L101",
+        "cusip": "69366J200",
         "security_class": "COM",
-        "issuer": "MBX BIOSCIENCES INC",
-        "shares": 800173.0,
-        "value_usd": 44169550.0,
-        "weight_pct": 4.54
+        "issuer": "PTC THERAPEUTICS INC",
+        "shares": 700393.0,
+        "value_usd": 45371459.0,
+        "weight_pct": 4.09
       },
       {
         "cusip": "532457108",
         "security_class": "COM",
         "issuer": "ELI LILLY & CO",
-        "shares": 35000.0,
-        "value_usd": 41980050.0,
-        "weight_pct": 4.31
+        "shares": 38119.0,
+        "value_usd": 44106733.0,
+        "weight_pct": 3.97
       },
       {
-        "cusip": "126650100",
+        "cusip": "55287L101",
         "security_class": "COM",
-        "issuer": "CVS HEALTH CORP",
-        "shares": 391791.0,
-        "value_usd": 40530779.0,
-        "weight_pct": 4.16
+        "issuer": "MBX BIOSCIENCES INC",
+        "shares": 716542.0,
+        "value_usd": 42003692.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "46266C105",
+        "security_class": "COM",
+        "issuer": "IQVIA HLDGS INC",
+        "shares": 145221.0,
+        "value_usd": 39042666.0,
+        "weight_pct": 3.52
       },
       {
         "cusip": "252131107",
         "security_class": "COM",
         "issuer": "DEXCOM INC",
-        "shares": 534767.0,
-        "value_usd": 36016557.0,
-        "weight_pct": 3.7
-      },
-      {
-        "cusip": "69366J200",
-        "security_class": "COM",
-        "issuer": "PTC THERAPEUTICS INC",
-        "shares": 435691.0,
-        "value_usd": 35539315.0,
-        "weight_pct": 3.65
-      },
-      {
-        "cusip": "03969F109",
-        "security_class": "COM",
-        "issuer": "ARCUS BIOSCIENCES INC",
-        "shares": 919266.0,
-        "value_usd": 28340971.0,
-        "weight_pct": 2.91
-      },
-      {
-        "cusip": "86366E106",
-        "security_class": "SPONSORED ADS",
-        "issuer": "STRUCTURE THERAPEUTICS INC",
-        "shares": 485661.0,
-        "value_usd": 26065426.0,
-        "weight_pct": 2.68
-      },
-      {
-        "cusip": "92790C104",
-        "security_class": "COM",
-        "issuer": "VIRIDIAN THERAPEUTICS INC",
-        "shares": 1377576.0,
-        "value_usd": 25306071.0,
-        "weight_pct": 2.6
-      },
-      {
-        "cusip": "00847X104",
-        "security_class": "COM",
-        "issuer": "AGIOS PHARMACEUTICALS INC",
-        "shares": 669046.0,
-        "value_usd": 24828297.0,
-        "weight_pct": 2.55
+        "shares": 437034.0,
+        "value_usd": 37711664.0,
+        "weight_pct": 3.4
       },
       {
         "cusip": "45720N103",
         "security_class": "COM",
         "issuer": "INHIBRX BIOSCIENCES INC",
-        "shares": 256950.0,
-        "value_usd": 24346013.0,
-        "weight_pct": 2.5
+        "shares": 360260.0,
+        "value_usd": 36054821.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "92790C104",
+        "security_class": "COM",
+        "issuer": "VIRIDIAN THERAPEUTICS INC",
+        "shares": 1674834.0,
+        "value_usd": 34484832.0,
+        "weight_pct": 3.11
+      },
+      {
+        "cusip": "M96088105",
+        "security_class": "COM",
+        "issuer": "UROGEN PHARMA LTD",
+        "shares": 750202.0,
+        "value_usd": 30480707.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "80706P103",
+        "security_class": "COM",
+        "issuer": "SCHOLAR ROCK HLDG CORP",
+        "shares": 540000.0,
+        "value_usd": 26092800.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "126650100",
+        "security_class": "COM",
+        "issuer": "CVS HEALTH CORP",
+        "shares": 286286.0,
+        "value_usd": 24531847.0,
+        "weight_pct": 2.21
       }
     ],
-    "top_five_pct": 20.36,
-    "top_ten_pct": 33.6,
-    "hhi": 215.6,
+    "top_five_pct": 18.76,
+    "top_ten_pct": 32.41,
+    "hhi": 188.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 34,
-      "exited_positions": 48,
-      "increased_positions": 24,
-      "reduced_positions": 17
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 12,
+      "increased_positions": 31,
+      "reduced_positions": 32
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001734"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002809"
       }
     ]
   },
-  "reported_13f_value_usd": 973687540.0,
+  "reported_13f_value_usd": 1110270067.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001734",
+  "validated_accession": "0001420506-26-002809",
   "annualized_turnover_proxy_pct": null
 }

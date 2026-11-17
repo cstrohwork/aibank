@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001633648",
   "investor_name": "Quaker Capital Investments, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MOUNT LEBANON",
   "state": "PA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1633648/0000919574-25-006762.txt",
-    "https://www.sec.gov/Archives/edgar/data/1633648/0000919574-26-005400.txt"
+    "https://www.sec.gov/Archives/edgar/data/1633648/0000919574-26-005400.txt",
+    "https://www.sec.gov/Archives/edgar/data/1633648/0000919574-26-007829.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "105a63c0f1b24e70380474e7ce0851d7765a0ac3a394c7f4e675d905902b13cb",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "113df7b0d22a76f8b09bf83514da011bdca4b364b6fd5d69f5a255cd7f868f2f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "418fb5b1c043ccdf24408b486921f42610bb4a47",
+    "879e8e9bd952e4f50f72d57ba058b09fe9fc99a4",
+    "a657485e6635cda4424020323419031e2409b26b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005400",
-    "source": "https://www.sec.gov/Archives/edgar/data/1633648/0000919574-26-005400.txt",
-    "distinct_positions": 22,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007829",
+    "source": "https://www.sec.gov/Archives/edgar/data/1633648/0000919574-26-007829.txt",
+    "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 365716411.0,
+    "reported_long_equity_value_usd": 356156177.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "26884L109",
         "security_class": "COM",
         "issuer": "EQT CORP",
-        "shares": 1090368.0,
-        "value_usd": 57974867.0,
-        "weight_pct": 15.85
+        "shares": 1075368.0,
+        "value_usd": 52219870.0,
+        "weight_pct": 14.66
       },
       {
         "cusip": "G9001E128",
         "security_class": "COM CL C",
         "issuer": "LIBERTY LATIN AMERICA LTD",
-        "shares": 5388364.0,
-        "value_usd": 41975356.0,
-        "weight_pct": 11.48
+        "shares": 4815291.0,
+        "value_usd": 39581692.0,
+        "weight_pct": 11.11
       },
       {
         "cusip": "16119P108",
         "security_class": "CL A",
         "issuer": "CHARTER COMMUNICATIONS INC",
-        "shares": 289677.0,
-        "value_usd": 41194966.0,
-        "weight_pct": 11.26
+        "shares": 301137.0,
+        "value_usd": 33396093.0,
+        "weight_pct": 9.38
       },
       {
         "cusip": "G4701H109",
         "security_class": "ORD SHS",
         "issuer": "IHS HOLDING LIMITED",
-        "shares": 3824422.0,
-        "value_usd": 31513237.0,
-        "weight_pct": 8.62
-      },
-      {
-        "cusip": "90353T100",
-        "security_class": "COM",
-        "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 377171.0,
-        "value_usd": 27216659.0,
-        "weight_pct": 7.44
-      },
-      {
-        "cusip": "337738108",
-        "security_class": "COM",
-        "issuer": "FISERV INC",
-        "shares": 540104.0,
-        "value_usd": 26492101.0,
-        "weight_pct": 7.24
+        "shares": 3793635.0,
+        "value_usd": 31714789.0,
+        "weight_pct": 8.9
       },
       {
         "cusip": "461202103",
         "security_class": "COM",
         "issuer": "INTUIT",
-        "shares": 98779.0,
-        "value_usd": 25781319.0,
-        "weight_pct": 7.05
+        "shares": 105183.0,
+        "value_usd": 29000005.0,
+        "weight_pct": 8.14
+      },
+      {
+        "cusip": "90353T100",
+        "security_class": "COM",
+        "issuer": "UBER TECHNOLOGIES INC",
+        "shares": 374292.0,
+        "value_usd": 25642745.0,
+        "weight_pct": 7.2
+      },
+      {
+        "cusip": "337738108",
+        "security_class": "COM",
+        "issuer": "FISERV INC",
+        "shares": 539104.0,
+        "value_usd": 24356719.0,
+        "weight_pct": 6.84
       },
       {
         "cusip": "92556V106",
         "security_class": "COM",
         "issuer": "VIATRIS INC",
-        "shares": 1358154.0,
-        "value_usd": 21567486.0,
-        "weight_pct": 5.9
+        "shares": 1359154.0,
+        "value_usd": 24084209.0,
+        "weight_pct": 6.76
+      },
+      {
+        "cusip": "04040Y109",
+        "security_class": "COM",
+        "issuer": "ARIS MINING CORPORATION",
+        "shares": 1012968.0,
+        "value_usd": 17625643.0,
+        "weight_pct": 4.95
       },
       {
         "cusip": "22266M104",
         "security_class": "COM",
         "issuer": "COURSERA INC",
-        "shares": 3434099.0,
-        "value_usd": 19368318.0,
-        "weight_pct": 5.3
-      },
-      {
-        "cusip": "50060P106",
-        "security_class": "COM",
-        "issuer": "KOPPERS HOLDINGS INC",
-        "shares": 408555.0,
-        "value_usd": 18344120.0,
-        "weight_pct": 5.02
+        "shares": 3424099.0,
+        "value_usd": 16983531.0,
+        "weight_pct": 4.77
       }
     ],
-    "top_five_pct": 54.65,
-    "top_ten_pct": 85.16,
-    "hhi": 869.86,
+    "top_five_pct": 52.2,
+    "top_ten_pct": 82.72,
+    "hhi": 818.13,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
-      "exited_positions": 4,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
       "increased_positions": 5,
-      "reduced_positions": 11
+      "reduced_positions": 9
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005400"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007829"
       }
     ]
   },
-  "reported_13f_value_usd": 365716411.0,
+  "reported_13f_value_usd": 356156177.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005400",
+  "validated_accession": "0000919574-26-007829",
   "annualized_turnover_proxy_pct": null
 }

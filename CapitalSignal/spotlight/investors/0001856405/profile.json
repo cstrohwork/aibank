@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001856405",
   "investor_name": "SONA ASSET MANAGEMENT (US) LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1856405/0000905148-25-004047.txt",
-    "https://www.sec.gov/Archives/edgar/data/1856405/0000905148-26-003745.txt"
+    "https://www.sec.gov/Archives/edgar/data/1856405/0000905148-26-003745.txt",
+    "https://www.sec.gov/Archives/edgar/data/1856405/0000905148-26-004925.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "019b1b46cb0aa2dc59091a74a534ce677ffbe3befae3df1a316e48078753d4dc",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "0376807de286b23a166c560833b6b5e29bcc1ea2ff6624a8a4d942e945830fc2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "06bdc9602c3f106742dd0d32773d10a84760a3b7",
+    "7ca16b6a000379fbe1f1408f6f6a29be761821b1",
+    "f6c7bd19714bc68ea8fbe176d18cc6bc375858ae"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000905148-26-003745",
-    "source": "https://www.sec.gov/Archives/edgar/data/1856405/0000905148-26-003745.txt",
-    "distinct_positions": 379,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000905148-26-004925",
+    "source": "https://www.sec.gov/Archives/edgar/data/1856405/0000905148-26-004925.txt",
+    "distinct_positions": 368,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2206833720.0,
+    "reported_long_equity_value_usd": 1564042359.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "46429B267",
+        "security_class": "US TREAS BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 5700000.0,
+        "value_usd": 124659000.0,
+        "weight_pct": 7.97
+      },
+      {
         "cusip": "278768106",
         "security_class": "CL A",
         "issuer": "ECHOSTAR CORP",
-        "shares": 2287240.0,
-        "value_usd": 232154860.0,
-        "weight_pct": 10.52
-      },
-      {
-        "cusip": "934423104",
-        "security_class": "COM SER A",
-        "issuer": "WARNER BROS DISCOVERY INC",
-        "shares": 5495158.0,
-        "value_usd": 146500912.0,
-        "weight_pct": 6.64
-      },
-      {
-        "cusip": "46137V357",
-        "security_class": "S&P500 EQL WGT",
-        "issuer": "INVESCO EXCHANGE TRADED FD T",
-        "shares": 648262.0,
-        "value_usd": 137930706.0,
-        "weight_pct": 6.25
-      },
-      {
-        "cusip": "G5331N101",
-        "security_class": "ORD SHS",
-        "issuer": "KYIVSTAR GROUP LTD",
-        "shares": 4014331.0,
-        "value_usd": 64911732.0,
-        "weight_pct": 2.94
+        "shares": 1125326.0,
+        "value_usd": 100615398.0,
+        "weight_pct": 6.43
       },
       {
         "cusip": "778920306",
         "security_class": "COM CL A",
         "issuer": "SHARONAI HOLDINGS INC",
-        "shares": 749362.0,
-        "value_usd": 63440987.0,
-        "weight_pct": 2.87
+        "shares": 1690924.0,
+        "value_usd": 92324450.0,
+        "weight_pct": 5.9
       },
       {
-        "cusip": "02079K602",
-        "security_class": "DEP SHS RP1/20 B",
-        "issuer": "ALPHABET INC",
-        "shares": 1245000.0,
-        "value_usd": 62442972.0,
-        "weight_pct": 2.83
+        "cusip": "47103U845",
+        "security_class": "HENDRSON AAA CL",
+        "issuer": "JANUS DETROIT STR TR",
+        "shares": 1500000.0,
+        "value_usd": 75705000.0,
+        "weight_pct": 4.84
       },
       {
-        "cusip": "464288281",
-        "security_class": "JPMORGAN USD EMG",
-        "issuer": "ISHARES TR",
-        "shares": 536466.0,
-        "value_usd": 51736781.0,
-        "weight_pct": 2.34
-      },
-      {
-        "cusip": "00130H105",
+        "cusip": "44812J104",
         "security_class": "COM",
-        "issuer": "AES CORP",
-        "shares": 3319005.0,
-        "value_usd": 48656613.0,
-        "weight_pct": 2.2
+        "issuer": "HUT 8 CORP",
+        "shares": 752937.0,
+        "value_usd": 64827876.0,
+        "weight_pct": 4.14
       },
       {
-        "cusip": "02079K404",
-        "security_class": "DEP SHS RP1/20 A",
-        "issuer": "ALPHABET INC",
-        "shares": 850000.0,
-        "value_usd": 42943700.0,
-        "weight_pct": 1.95
+        "cusip": "21874A106",
+        "security_class": "COM",
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "shares": 3401000.0,
+        "value_usd": 54347980.0,
+        "weight_pct": 3.47
       },
       {
-        "cusip": "77311W101",
-        "security_class": "COM CL A",
-        "issuer": "ROCKET COS INC",
-        "shares": 2575000.0,
-        "value_usd": 40556250.0,
-        "weight_pct": 1.84
+        "cusip": "16119P108",
+        "security_class": "CL A",
+        "issuer": "CHARTER COMMUNICATIONS INC",
+        "shares": 431996.0,
+        "value_usd": 47908356.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "655844108",
+        "security_class": "COM",
+        "issuer": "NORFOLK SOUTHN CORP",
+        "shares": 153805.0,
+        "value_usd": 47525745.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "69349H107",
+        "security_class": "COM",
+        "issuer": "TXNM ENERGY INC",
+        "shares": 811852.0,
+        "value_usd": 47347209.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "G5331N101",
+        "security_class": "ORD SHS",
+        "issuer": "KYIVSTAR GROUP LTD",
+        "shares": 3270999.0,
+        "value_usd": 40364128.0,
+        "weight_pct": 2.58
       }
     ],
-    "top_five_pct": 29.22,
-    "top_ten_pct": 40.39,
-    "hhi": 263.28,
+    "top_five_pct": 29.29,
+    "top_ten_pct": 44.48,
+    "hhi": 264.6,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 345,
-      "exited_positions": 50,
-      "increased_positions": 11,
-      "reduced_positions": 14
+      "previous_period": "2026-06-30",
+      "new_positions": 95,
+      "exited_positions": 106,
+      "increased_positions": 24,
+      "reduced_positions": 110
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000905148-26-003745"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000905148-26-004925"
       }
     ]
   },
-  "reported_13f_value_usd": 2206833720.0,
+  "reported_13f_value_usd": 1564042359.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000905148-26-003745",
+  "validated_accession": "0000905148-26-004925",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001620220",
   "investor_name": "Engineers Gate Manager LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1620220/0001620220-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1620220/0001620220-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1620220/0001620220-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1620220/0001620220-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7783c8348153fbe6e843153a32d1a1fa7cfb8b09733129a5d7066a2515fa1db0",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "caf1e70fd9effce2478d0df4e7bf6a12413ce8c5a11aa42fd0f57d5a7e74e346",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "22b8284d732b8b97b15eb467b7d6ea819d34b0d0",
+    "25cbfb78822f3e013228606dd6e59b4b3b1675b6",
+    "69e4c879309e48df3ebb14668cafda9eefbbbdce"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001620220-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1620220/0001620220-26-000007.txt",
-    "distinct_positions": 2192,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001620220-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1620220/0001620220-26-000010.txt",
+    "distinct_positions": 2245,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 7710749547.0,
+    "reported_long_equity_value_usd": 7809051619.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "092113109",
-        "security_class": "COM",
-        "issuer": "BLACK HILLS CORP",
-        "shares": 1442064.0,
-        "value_usd": 107289562.0,
-        "weight_pct": 1.39
-      },
-      {
-        "cusip": "531229755",
-        "security_class": "COM LBTY ONE S C",
-        "issuer": "LIBERTY MEDIA CORP DEL",
-        "shares": 1049351.0,
-        "value_usd": 99835254.0,
-        "weight_pct": 1.29
-      },
-      {
         "cusip": "37045V100",
         "security_class": "COM",
         "issuer": "GENERAL MTRS CO",
-        "shares": 1290019.0,
-        "value_usd": 99434665.0,
-        "weight_pct": 1.29
+        "shares": 2099811.0,
+        "value_usd": 161685447.0,
+        "weight_pct": 2.07
       },
       {
-        "cusip": "57636Q104",
-        "security_class": "CL A",
-        "issuer": "MASTERCARD INCORPORATED",
-        "shares": 171347.0,
-        "value_usd": 88003819.0,
-        "weight_pct": 1.14
-      },
-      {
-        "cusip": "45073V108",
+        "cusip": "092113109",
         "security_class": "COM",
-        "issuer": "ITT INC",
-        "shares": 385727.0,
-        "value_usd": 76281372.0,
-        "weight_pct": 0.99
+        "issuer": "BLACK HILLS CORP",
+        "shares": 1690507.0,
+        "value_usd": 118470731.0,
+        "weight_pct": 1.52
       },
       {
-        "cusip": "876030107",
+        "cusip": "871829107",
         "security_class": "COM",
-        "issuer": "TAPESTRY INC",
-        "shares": 472467.0,
-        "value_usd": 69159719.0,
-        "weight_pct": 0.9
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 288313.0,
-        "value_usd": 68716520.0,
-        "weight_pct": 0.89
-      },
-      {
-        "cusip": "780259305",
-        "security_class": "SPON ADS",
-        "issuer": "SHELL PLC",
-        "shares": 840770.0,
-        "value_usd": 65193306.0,
-        "weight_pct": 0.85
+        "issuer": "SYSCO CORP",
+        "shares": 1228129.0,
+        "value_usd": 95744937.0,
+        "weight_pct": 1.23
       },
       {
         "cusip": "097023105",
         "security_class": "COM",
         "issuer": "BOEING CO",
-        "shares": 281264.0,
-        "value_usd": 60885218.0,
-        "weight_pct": 0.79
+        "shares": 380822.0,
+        "value_usd": 70851934.0,
+        "weight_pct": 0.91
       },
       {
-        "cusip": "88023U101",
+        "cusip": "883203101",
         "security_class": "COM",
-        "issuer": "SOMNIGROUP INTERNATIONAL INC",
-        "shares": 765457.0,
-        "value_usd": 60011829.0,
+        "issuer": "TEXTRON INC",
+        "shares": 849221.0,
+        "value_usd": 64710641.0,
+        "weight_pct": 0.83
+      },
+      {
+        "cusip": "29444U700",
+        "security_class": "COM",
+        "issuer": "EQUINIX INC",
+        "shares": 62663.0,
+        "value_usd": 63388637.0,
+        "weight_pct": 0.81
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 121613.0,
+        "value_usd": 62375308.0,
+        "weight_pct": 0.8
+      },
+      {
+        "cusip": "G8994E103",
+        "security_class": "SHS",
+        "issuer": "TRANE TECHNOLOGIES PLC",
+        "shares": 135445.0,
+        "value_usd": 61218431.0,
         "weight_pct": 0.78
+      },
+      {
+        "cusip": "958102105",
+        "security_class": "COM",
+        "issuer": "WESTERN DIGITAL CORP",
+        "shares": 127319.0,
+        "value_usd": 57861393.0,
+        "weight_pct": 0.74
+      },
+      {
+        "cusip": "531229755",
+        "security_class": "COM SER C",
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "shares": 613547.0,
+        "value_usd": 56691743.0,
+        "weight_pct": 0.73
       }
     ],
-    "top_five_pct": 6.11,
-    "top_ten_pct": 10.31,
-    "hhi": 29.91,
+    "top_five_pct": 6.55,
+    "top_ten_pct": 10.41,
+    "hhi": 31.33,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 794,
-      "exited_positions": 713,
-      "increased_positions": 677,
-      "reduced_positions": 721
+      "previous_period": "2026-06-30",
+      "new_positions": 592,
+      "exited_positions": 539,
+      "increased_positions": 863,
+      "reduced_positions": 784
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001620220-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001620220-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 7710749547.0,
+  "reported_13f_value_usd": 7809051619.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001620220-26-000007",
+  "validated_accession": "0001620220-26-000010",
   "annualized_turnover_proxy_pct": null
 }

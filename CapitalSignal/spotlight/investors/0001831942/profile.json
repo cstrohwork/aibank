@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001831942",
   "investor_name": "Commodore Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1831942/0001831942-25-000023.txt",
-    "https://www.sec.gov/Archives/edgar/data/1831942/0001831942-26-000033.txt"
+    "https://www.sec.gov/Archives/edgar/data/1831942/0001831942-26-000033.txt",
+    "https://www.sec.gov/Archives/edgar/data/1831942/0001831942-26-000052.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a444cf0fdbef4ae8171cf8c510363e5c6009920c5e9e44cccb91dc9c547b2bf9",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "796588eff5931b33ccbc448cabdafce5c6a9f8d34e8e4712707cdf30e29b89c2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0c9d87395fb7bd2abc248067275458822baa70e4",
+    "66a316d99894555b6dacc41a9243986ee2e78695",
+    "ab2fb41483ab184b33a20429dd759543fcd8363c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001831942-26-000033",
-    "source": "https://www.sec.gov/Archives/edgar/data/1831942/0001831942-26-000033.txt",
-    "distinct_positions": 33,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001831942-26-000052",
+    "source": "https://www.sec.gov/Archives/edgar/data/1831942/0001831942-26-000052.txt",
+    "distinct_positions": 37,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1678964770.0,
+    "reported_long_equity_value_usd": 1290641676.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,90 +43,90 @@
         "security_class": "COM",
         "issuer": "RELAY THERAPEUTICS INC",
         "shares": 12000000.0,
-        "value_usd": 224520000.0,
-        "weight_pct": 13.37
+        "value_usd": 216600000.0,
+        "weight_pct": 16.78
       },
       {
         "cusip": "29337E102",
         "security_class": "COM",
         "issuer": "ENLIVEN THERAPEUTICS INC",
         "shares": 3275000.0,
-        "value_usd": 166206250.0,
-        "weight_pct": 9.9
+        "value_usd": 150126000.0,
+        "weight_pct": 11.63
       },
       {
         "cusip": "G01767105",
         "security_class": "SHS",
         "issuer": "ALKERMES PLC",
-        "shares": 3000000.0,
-        "value_usd": 157185000.0,
-        "weight_pct": 9.36
-      },
-      {
-        "cusip": "19240Q201",
-        "security_class": "COM",
-        "issuer": "COGENT BIOSCIENCES INC",
-        "shares": 3050000.0,
-        "value_usd": 118035000.0,
-        "weight_pct": 7.03
-      },
-      {
-        "cusip": "03237H101",
-        "security_class": "COM",
-        "issuer": "AMYLYX PHARMACEUTICALS INC",
-        "shares": 5650000.0,
-        "value_usd": 101474000.0,
-        "weight_pct": 6.04
-      },
-      {
-        "cusip": "24477V105",
-        "security_class": "COM SHS",
-        "issuer": "DEFINIUM THERAPEUTICS INC",
-        "shares": 2000000.0,
-        "value_usd": 94080000.0,
-        "weight_pct": 5.6
-      },
-      {
-        "cusip": "00773J202",
-        "security_class": "COM NEW",
-        "issuer": "SPYRE THERAPEUTICS INC",
-        "shares": 846786.0,
-        "value_usd": 75177661.0,
-        "weight_pct": 4.48
+        "shares": 2875360.0,
+        "value_usd": 116509587.0,
+        "weight_pct": 9.03
       },
       {
         "cusip": "02157Q109",
         "security_class": "COM SHS",
         "issuer": "ALTO NEUROSCIENCE INC",
         "shares": 2723196.0,
-        "value_usd": 71865142.0,
-        "weight_pct": 4.28
+        "value_usd": 69523194.0,
+        "weight_pct": 5.39
       },
       {
-        "cusip": "87583X109",
-        "security_class": "COM",
-        "issuer": "TANGO THERAPEUTICS INC",
-        "shares": 2250000.0,
-        "value_usd": 70335000.0,
-        "weight_pct": 4.19
-      },
-      {
-        "cusip": "30233G209",
+        "cusip": "00773J202",
         "security_class": "COM NEW",
-        "issuer": "EYEPOINT INC",
-        "shares": 4600000.0,
-        "value_usd": 65780000.0,
-        "weight_pct": 3.92
+        "issuer": "SPYRE THERAPEUTICS INC",
+        "shares": 700000.0,
+        "value_usd": 62321000.0,
+        "weight_pct": 4.83
+      },
+      {
+        "cusip": "03237H101",
+        "security_class": "COM",
+        "issuer": "AMYLYX PHARMACEUTICALS INC",
+        "shares": 2000000.0,
+        "value_usd": 58200000.0,
+        "weight_pct": 4.51
+      },
+      {
+        "cusip": "50180M108",
+        "security_class": "COM SHS",
+        "issuer": "LB PHARMACEUTICALS INC",
+        "shares": 1282273.0,
+        "value_usd": 49213638.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "G2646Y104",
+        "security_class": "COM SHS",
+        "issuer": "DAMORA THERAPEUTICS INC",
+        "shares": 1939000.0,
+        "value_usd": 41261920.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "19240Q201",
+        "security_class": "COM",
+        "issuer": "COGENT BIOSCIENCES INC",
+        "shares": 1265000.0,
+        "value_usd": 40505300.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "90240B106",
+        "security_class": "COM",
+        "issuer": "TYRA BIOSCIENCES INC",
+        "shares": 1725000.0,
+        "value_usd": 37725750.0,
+        "weight_pct": 2.92
       }
     ],
-    "top_five_pct": 45.71,
-    "top_ten_pct": 68.18,
-    "hhi": 621.77,
+    "top_five_pct": 47.66,
+    "top_ten_pct": 65.24,
+    "hhi": 671.46,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 14,
-      "exited_positions": 18,
-      "increased_positions": 6,
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 7,
+      "increased_positions": 2,
       "reduced_positions": 11
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001831942-26-000033"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001831942-26-000052"
       }
     ]
   },
-  "reported_13f_value_usd": 1678964770.0,
+  "reported_13f_value_usd": 1290641676.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001831942-26-000033",
+  "validated_accession": "0001831942-26-000052",
   "annualized_turnover_proxy_pct": null
 }

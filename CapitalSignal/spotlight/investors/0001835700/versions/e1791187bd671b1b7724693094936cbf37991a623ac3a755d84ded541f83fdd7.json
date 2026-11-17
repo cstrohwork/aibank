@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001835700",
+  "investor_name": "Wolfswood Holdings, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1835700/0001835700-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1835700/0001835700-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1835700/0001835700-26-000005.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "e1791187bd671b1b7724693094936cbf37991a623ac3a755d84ded541f83fdd7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6c71dfde309490cd4b036c85baa9438b7f40a71d",
+    "946a4ff50b586204e648617bf6650603c3e410e0",
+    "f96a4c097f9494801201bd56c565a313d56345d8"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001835700-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1835700/0001835700-26-000005.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2536388.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "22266T109",
+        "security_class": "CL A",
+        "issuer": "COUPANG INC",
+        "shares": 100000.0,
+        "value_usd": 1387000.0,
+        "weight_pct": 54.68
+      },
+      {
+        "cusip": "00835T107",
+        "security_class": "COM CL A",
+        "issuer": "AEVEX CORP",
+        "shares": 75000.0,
+        "value_usd": 1135500.0,
+        "weight_pct": 44.77
+      },
+      {
+        "cusip": "G7490F127",
+        "security_class": "*W EXP 05/15/203",
+        "issuer": "RENATUS TACTICAL ACQUIS",
+        "shares": 25000.0,
+        "value_usd": 13500.0,
+        "weight_pct": 0.53
+      },
+      {
+        "cusip": "051774115",
+        "security_class": "*W EXP 11/03/202",
+        "issuer": "AURORA INNOVATION INC",
+        "shares": 12500.0,
+        "value_usd": 388.0,
+        "weight_pct": 0.02
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4994.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001835700-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001835700-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001835700-26-000005"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 2536388.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001835700-26-000005",
+  "annualized_turnover_proxy_pct": null
+}

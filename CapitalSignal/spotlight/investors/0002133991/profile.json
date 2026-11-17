@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002133991",
   "investor_name": "1015 Capital Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-21",
-  "city": "NARBERTH",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "POTTSTOWN",
   "state": "PA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2133991/0002133991-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2133991/0002133991-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2133991/0001376474-26-000734.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a0a13f25a02ba5270317975ee65e08c2e5e3277f854746fc802683dfc2f4655a",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "3cd14623a6a27472ce6c933ddc3223294ada7afb7cb2bea8a906073190f40d94",
+  "accession_fingerprints": [
+    "2026-06-30|2026-07-21|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "11f1a619fb336ad3a93bfe36012e42925f8fe705",
+    "b6b9efb0a3797dcdd99b0aa8a549bce93c0f28bc"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-21",
-    "accession": "0002133991-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2133991/0002133991-26-000003.txt",
-    "distinct_positions": 609,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001376474-26-000734",
+    "source": "https://www.sec.gov/Archives/edgar/data/2133991/0001376474-26-000734.txt",
+    "distinct_positions": 97,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 119363313.0,
+    "reported_long_equity_value_usd": 118888443.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "464287200",
-        "security_class": "ETF",
-        "issuer": "ISHARES CORE S&P 500 ETF",
-        "shares": 14341.0,
-        "value_usd": 10739840.0,
-        "weight_pct": 9.0
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 16254.0,
+        "value_usd": 12448135.0,
+        "weight_pct": 10.47
       },
       {
         "cusip": "464287507",
-        "security_class": "ETF",
-        "issuer": "ISHARES CORE S&P MID-CAP ETF",
-        "shares": 113246.0,
-        "value_usd": 8732399.0,
-        "weight_pct": 7.32
+        "security_class": "CORE S&P MCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 113755.0,
+        "value_usd": 8184703.0,
+        "weight_pct": 6.88
       },
       {
         "cusip": "922908769",
-        "security_class": "ETF",
-        "issuer": "VANGUARD TOTAL STOCK MARKET ETF",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
         "shares": 17393.0,
-        "value_usd": 6436106.0,
-        "weight_pct": 5.39
+        "value_usd": 6509156.0,
+        "weight_pct": 5.48
       },
       {
         "cusip": "67066G104",
-        "security_class": "Stock",
-        "issuer": "NVIDIA CORPORATION COM",
-        "shares": 26912.0,
-        "value_usd": 5384822.0,
-        "weight_pct": 4.51
-      },
-      {
-        "cusip": "464287804",
-        "security_class": "ETF",
-        "issuer": "ISHARES CORE S&P SMALL CAP ETF",
-        "shares": 29628.0,
-        "value_usd": 4394129.0,
-        "weight_pct": 3.68
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 27425.0,
+        "value_usd": 6263322.0,
+        "weight_pct": 5.27
       },
       {
         "cusip": "464288158",
-        "security_class": "ETF",
-        "issuer": "ISHARES SHORT-TERM NATIONAL MUNI BOND ETF",
-        "shares": 36323.0,
-        "value_usd": 3867310.0,
-        "weight_pct": 3.24
+        "security_class": "SHRT NAT MUN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 46931.0,
+        "value_usd": 4906217.0,
+        "weight_pct": 4.13
+      },
+      {
+        "cusip": "464287804",
+        "security_class": "CORE S&P SCP ETF",
+        "issuer": "ISHARES TR",
+        "shares": 30903.0,
+        "value_usd": 4204044.0,
+        "weight_pct": 3.54
       },
       {
         "cusip": "46641Q134",
-        "security_class": "ETF",
-        "issuer": "JPMORGAN INTERNATIONAL RESEARCH ENHANCED EQUITY ETF",
-        "shares": 35920.0,
-        "value_usd": 2963041.0,
-        "weight_pct": 2.48
+        "security_class": "INTRNL RES EQT",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 40736.0,
+        "value_usd": 3346870.0,
+        "weight_pct": 2.82
       },
       {
-        "cusip": "78462F103",
-        "security_class": "ETF",
-        "issuer": "STATE STREET SPDR S&P 500 ETF",
-        "shares": 3750.0,
-        "value_usd": 2800388.0,
-        "weight_pct": 2.35
-      },
-      {
-        "cusip": "921946406",
-        "security_class": "ETF",
-        "issuer": "VANGUARD HIGH DIVIDEND YIELD INDEX ETF",
-        "shares": 17635.0,
-        "value_usd": 2786859.0,
-        "weight_pct": 2.33
+        "cusip": "46641Q647",
+        "security_class": "MUNICIPAL ETF",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 61837.0,
+        "value_usd": 2942192.0,
+        "weight_pct": 2.47
       },
       {
         "cusip": "007903107",
-        "security_class": "Stock",
-        "issuer": "ADVANCED MICRO DEVICES INC COM",
-        "shares": 4726.0,
-        "value_usd": 2745381.0,
-        "weight_pct": 2.3
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 4755.0,
+        "value_usd": 2908919.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 3750.0,
+        "value_usd": 2859863.0,
+        "weight_pct": 2.41
       }
     ],
-    "top_five_pct": 29.9,
-    "top_ten_pct": 42.6,
-    "hhi": 284.88,
-    "changes": null,
+    "top_five_pct": 32.22,
+    "top_ten_pct": 45.9,
+    "hhi": 330.9,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 97,
+      "exited_positions": 609,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-07-21",
         "accession": "0002133991-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001376474-26-000734"
       }
     ]
   },
-  "reported_13f_value_usd": 119363313.0,
+  "reported_13f_value_usd": 118888443.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002133991-26-000003",
+  "validated_accession": "0001376474-26-000734",
   "annualized_turnover_proxy_pct": null
 }

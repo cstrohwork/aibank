@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001332905",
   "investor_name": "Curi Capital, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1332905/0001172661-25-004750.txt",
-    "https://www.sec.gov/Archives/edgar/data/1332905/0001172661-26-003671.txt"
+    "https://www.sec.gov/Archives/edgar/data/1332905/0001172661-26-003671.txt",
+    "https://www.sec.gov/Archives/edgar/data/1332905/0001172661-26-005312.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "27bce62f2d381fb88b36fe9a16b823e5b9f80563cca90bfcc62732ffc6487346",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "bed454d7907645e31d40d4f2b14bdec68ec0c5ea55473dd8e250fd2233b51b17",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "134f9ccc3fadfa630141a05992d5ccc7c66294d1",
+    "150b5671c099e463eca7a1a2502885c234883a97",
+    "492c5afbc9cb77154dba241214a298827037e551"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003671",
-    "source": "https://www.sec.gov/Archives/edgar/data/1332905/0001172661-26-003671.txt",
-    "distinct_positions": 888,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005312",
+    "source": "https://www.sec.gov/Archives/edgar/data/1332905/0001172661-26-005312.txt",
+    "distinct_positions": 849,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 6465630407.0,
+    "reported_long_equity_value_usd": 6221452358.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 656915.0,
-        "value_usd": 190085115.0,
-        "weight_pct": 2.94
+        "shares": 710177.0,
+        "value_usd": 236503358.0,
+        "weight_pct": 3.8
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 463081.0,
-        "value_usd": 172738508.0,
-        "weight_pct": 2.67
+        "shares": 447412.0,
+        "value_usd": 229477574.0,
+        "weight_pct": 3.69
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 802406.0,
-        "value_usd": 160553369.0,
-        "weight_pct": 2.48
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 407173.0,
-        "value_usd": 145511511.0,
-        "weight_pct": 2.25
+        "shares": 852484.0,
+        "value_usd": 194874253.0,
+        "weight_pct": 3.13
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 559571.0,
-        "value_usd": 133368295.0,
-        "weight_pct": 2.06
+        "shares": 584112.0,
+        "value_usd": 145531471.0,
+        "weight_pct": 2.34
       },
       {
         "cusip": "46432F842",
         "security_class": "CORE MSCI EAFE",
         "issuer": "ISHARES TR",
-        "shares": 1293588.0,
-        "value_usd": 124934697.0,
-        "weight_pct": 1.93
+        "shares": 1412327.0,
+        "value_usd": 136826278.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 396576.0,
+        "value_usd": 136453927.0,
+        "weight_pct": 2.19
       },
       {
         "cusip": "46625H100",
         "security_class": "COM",
         "issuer": "JPMORGAN CHASE & CO",
-        "shares": 373734.0,
-        "value_usd": 122334402.0,
-        "weight_pct": 1.89
-      },
-      {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 127183.0,
-        "value_usd": 95245407.0,
-        "weight_pct": 1.47
-      },
-      {
-        "cusip": "808524201",
-        "security_class": "US LRG CAP ETF",
-        "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 3116813.0,
-        "value_usd": 91727811.0,
-        "weight_pct": 1.42
+        "shares": 380080.0,
+        "value_usd": 125742102.0,
+        "weight_pct": 2.02
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 120637.0,
-        "value_usd": 90297220.0,
-        "weight_pct": 1.4
+        "shares": 127954.0,
+        "value_usd": 97800417.0,
+        "weight_pct": 1.57
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 117479.0,
+        "value_usd": 89971440.0,
+        "weight_pct": 1.45
+      },
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 2852642.0,
+        "value_usd": 85579246.0,
+        "weight_pct": 1.38
       }
     ],
-    "top_five_pct": 12.41,
-    "top_ten_pct": 20.52,
-    "hhi": 78.55,
+    "top_five_pct": 15.16,
+    "top_ten_pct": 23.77,
+    "hhi": 96.67,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 310,
-      "exited_positions": 120,
-      "increased_positions": 341,
-      "reduced_positions": 219
+      "previous_period": "2026-06-30",
+      "new_positions": 90,
+      "exited_positions": 129,
+      "increased_positions": 322,
+      "reduced_positions": 363
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003671"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005312"
       }
     ]
   },
-  "reported_13f_value_usd": 6465630407.0,
+  "reported_13f_value_usd": 6221452358.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003671",
+  "validated_accession": "0001172661-26-005312",
   "annualized_turnover_proxy_pct": null
 }

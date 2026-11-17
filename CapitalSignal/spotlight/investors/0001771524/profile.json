@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001771524",
   "investor_name": "Bayberry Capital Partners LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1771524/0001892688-25-000194.txt",
-    "https://www.sec.gov/Archives/edgar/data/1771524/0001892688-26-000120.txt"
+    "https://www.sec.gov/Archives/edgar/data/1771524/0001892688-26-000120.txt",
+    "https://www.sec.gov/Archives/edgar/data/1771524/0001892688-26-000172.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3ed2a56b3bcdb1a18cd4d07e54bd403f983e8f9737adc98451f483eb9d007461",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "1bd2ae2353379a43792a7139c6e1b1bd52921da07fdf5a8aac277e8a5cafa6a0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4f3ed43db093d03c4c1842dbbc50c685170ec365",
+    "6240623d934fa802dee2b0ba12884f23cc980406",
+    "e13df1049a0a4e9db48fc4841f1f5c21e34b5e20"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001892688-26-000120",
-    "source": "https://www.sec.gov/Archives/edgar/data/1771524/0001892688-26-000120.txt",
-    "distinct_positions": 27,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001892688-26-000172",
+    "source": "https://www.sec.gov/Archives/edgar/data/1771524/0001892688-26-000172.txt",
+    "distinct_positions": 30,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 290198923.0,
+    "reported_long_equity_value_usd": 258356878.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "F21107101",
-        "security_class": "CL A SHS",
-        "issuer": "CONSTELLIUM SE",
-        "shares": 655000.0,
-        "value_usd": 20874850.0,
-        "weight_pct": 7.19
-      },
-      {
         "cusip": "81725T100",
         "security_class": "COM",
         "issuer": "SENSIENT TECHNOLOGIES CORP",
-        "shares": 163000.0,
-        "value_usd": 20096270.0,
-        "weight_pct": 6.92
+        "shares": 133600.0,
+        "value_usd": 17464192.0,
+        "weight_pct": 6.76
       },
       {
         "cusip": "G9456A100",
         "security_class": "SHS",
         "issuer": "GOLAR LNG LTD",
-        "shares": 349000.0,
-        "value_usd": 17394160.0,
+        "shares": 340000.0,
+        "value_usd": 16156800.0,
+        "weight_pct": 6.25
+      },
+      {
+        "cusip": "F21107101",
+        "security_class": "CL A SHS",
+        "issuer": "CONSTELLIUM SE",
+        "shares": 640000.0,
+        "value_usd": 15481600.0,
         "weight_pct": 5.99
-      },
-      {
-        "cusip": "980745103",
-        "security_class": "COM",
-        "issuer": "WOODWARD INC",
-        "shares": 38700.0,
-        "value_usd": 16464528.0,
-        "weight_pct": 5.67
-      },
-      {
-        "cusip": "171484108",
-        "security_class": "COM",
-        "issuer": "CHURCHILL DOWNS INC",
-        "shares": 178000.0,
-        "value_usd": 15955920.0,
-        "weight_pct": 5.5
-      },
-      {
-        "cusip": "741623102",
-        "security_class": "CLASS A COM SHS",
-        "issuer": "PRIMO BRANDS CORPORATION",
-        "shares": 614000.0,
-        "value_usd": 15006160.0,
-        "weight_pct": 5.17
-      },
-      {
-        "cusip": "95082P105",
-        "security_class": "COM",
-        "issuer": "WESCO INTL INC",
-        "shares": 37700.0,
-        "value_usd": 13022711.0,
-        "weight_pct": 4.49
       },
       {
         "cusip": "36168Q104",
         "security_class": "SUB VTG SHS",
         "issuer": "GFL ENVIRONMENTAL INC",
-        "shares": 335000.0,
-        "value_usd": 12324650.0,
-        "weight_pct": 4.25
+        "shares": 327174.0,
+        "value_usd": 13685688.0,
+        "weight_pct": 5.3
       },
       {
-        "cusip": "83443Q103",
-        "security_class": "COM SHS",
-        "issuer": "SOLSTICE ADVANCED MATLS INC",
-        "shares": 137000.0,
-        "value_usd": 12138200.0,
-        "weight_pct": 4.18
+        "cusip": "171484108",
+        "security_class": "COM",
+        "issuer": "CHURCHILL DOWNS INC",
+        "shares": 166000.0,
+        "value_usd": 12562880.0,
+        "weight_pct": 4.86
       },
       {
         "cusip": "92343E102",
         "security_class": "COM",
         "issuer": "VERISIGN INC",
-        "shares": 47300.0,
-        "value_usd": 11898788.0,
-        "weight_pct": 4.1
+        "shares": 40000.0,
+        "value_usd": 11280400.0,
+        "weight_pct": 4.37
+      },
+      {
+        "cusip": "980745103",
+        "security_class": "COM",
+        "issuer": "WOODWARD INC",
+        "shares": 33700.0,
+        "value_usd": 11073483.0,
+        "weight_pct": 4.29
+      },
+      {
+        "cusip": "95082P105",
+        "security_class": "COM",
+        "issuer": "WESCO INTL INC",
+        "shares": 30700.0,
+        "value_usd": 11039413.0,
+        "weight_pct": 4.27
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 24000.0,
+        "value_usd": 10948560.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "741623102",
+        "security_class": "CLASS A COM SHS",
+        "issuer": "PRIMO BRANDS CORPORATION",
+        "shares": 513000.0,
+        "value_usd": 9772650.0,
+        "weight_pct": 3.78
       }
     ],
-    "top_five_pct": 31.28,
-    "top_ten_pct": 53.47,
-    "hhi": 437.54,
+    "top_five_pct": 29.17,
+    "top_ten_pct": 50.11,
+    "hhi": 395.86,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 15,
-      "increased_positions": 1,
-      "reduced_positions": 10
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 2,
+      "increased_positions": 4,
+      "reduced_positions": 15
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001892688-26-000120"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001892688-26-000172"
       }
     ]
   },
-  "reported_13f_value_usd": 290198923.0,
+  "reported_13f_value_usd": 258356878.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001892688-26-000120",
+  "validated_accession": "0001892688-26-000172",
   "annualized_turnover_proxy_pct": null
 }

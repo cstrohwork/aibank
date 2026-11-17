@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000915191",
   "investor_name": "FAIRFAX FINANCIAL HOLDINGS LTD/ CAN",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TORONTO",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/915191/0001104659-25-111826.txt",
-    "https://www.sec.gov/Archives/edgar/data/915191/0001104659-26-096276.txt"
+    "https://www.sec.gov/Archives/edgar/data/915191/0001104659-26-096276.txt",
+    "https://www.sec.gov/Archives/edgar/data/915191/0001104659-26-127473.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1b18e9300a95fd25784a980ae6c20758f4862c3b8727be17ed5da69fce5d72f6",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "c382a7c11180f2ba4c1b84a9c2e06b9fd559398fd8c776adaea43c50c7e9a878",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "49294bfa82575651908eb70e311f345140436c0a",
+    "badfa5ef1f6eac3fab5d854bae21145b83639093",
+    "d50ce35349fe7272799c9ca382389c09c5eb78bd"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-096276",
-    "source": "https://www.sec.gov/Archives/edgar/data/915191/0001104659-26-096276.txt",
-    "distinct_positions": 32,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127473",
+    "source": "https://www.sec.gov/Archives/edgar/data/915191/0001104659-26-127473.txt",
+    "distinct_positions": 34,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2638451995.0,
+    "reported_long_equity_value_usd": 2648176662.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "68634K106",
+        "cusip": "29446Y502",
         "security_class": "COM",
-        "issuer": "ORLA MINING LTD",
+        "issuer": "EQUINOX GOLD CORP",
         "shares": 58399504.0,
-        "value_usd": 568456141.0,
-        "weight_pct": 21.55
+        "value_usd": 649089046.0,
+        "weight_pct": 24.51
       },
       {
         "cusip": "284902509",
         "security_class": "COM",
         "issuer": "ELDORADO GOLD CORP",
         "shares": 13746506.0,
-        "value_usd": 427001600.0,
-        "weight_pct": 16.18
+        "value_usd": 526719441.0,
+        "weight_pct": 19.89
       },
       {
         "cusip": "500754106",
         "security_class": "COM",
         "issuer": "KRAFT HEINZ CO",
         "shares": 14306500.0,
-        "value_usd": 337633400.0,
-        "weight_pct": 12.8
-      },
-      {
-        "cusip": "904311107",
-        "security_class": "CL A",
-        "issuer": "UNDER ARMOUR INC",
-        "shares": 45356965.0,
-        "value_usd": 289831006.0,
-        "weight_pct": 10.98
+        "value_usd": 325043680.0,
+        "weight_pct": 12.27
       },
       {
         "cusip": "126650100",
         "security_class": "COM",
         "issuer": "CVS HEALTH CORP",
         "shares": 2712000.0,
-        "value_usd": 280502160.0,
-        "weight_pct": 10.63
+        "value_usd": 232418400.0,
+        "weight_pct": 8.78
+      },
+      {
+        "cusip": "904311107",
+        "security_class": "CL A",
+        "issuer": "UNDER ARMOUR INC",
+        "shares": 45356965.0,
+        "value_usd": 202292064.0,
+        "weight_pct": 7.64
       },
       {
         "cusip": "185899101",
         "security_class": "COM",
         "issuer": "CLEVELAND-CLIFFS INC",
         "shares": 14899273.0,
-        "value_usd": 139904173.0,
-        "weight_pct": 5.3
+        "value_usd": 164189988.0,
+        "weight_pct": 6.2
       },
       {
         "cusip": "904311206",
         "security_class": "CL C",
         "issuer": "UNDER ARMOUR INC",
         "shares": 21999128.0,
-        "value_usd": 136614585.0,
-        "weight_pct": 5.18
+        "value_usd": 95696207.0,
+        "weight_pct": 3.61
       },
       {
         "cusip": "60871R209",
         "security_class": "CL B",
         "issuer": "MOLSON COORS BEVERAGE CO",
-        "shares": 1994500.0,
-        "value_usd": 77665830.0,
-        "weight_pct": 2.94
-      },
-      {
-        "cusip": "00217Y104",
-        "security_class": "COM",
-        "issuer": "ATS CORP",
-        "shares": 2486400.0,
-        "value_usd": 70487018.0,
-        "weight_pct": 2.67
+        "shares": 2294500.0,
+        "value_usd": 83657470.0,
+        "weight_pct": 3.16
       },
       {
         "cusip": "95058W100",
         "security_class": "COM",
         "issuer": "WENDYS CO",
         "shares": 8005627.0,
-        "value_usd": 66286592.0,
-        "weight_pct": 2.51
+        "value_usd": 51075900.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "00217Y104",
+        "security_class": "COM",
+        "issuer": "ATS CORP",
+        "shares": 2486400.0,
+        "value_usd": 44874798.0,
+        "weight_pct": 1.69
       }
     ],
-    "top_five_pct": 72.14,
-    "top_ten_pct": 90.75,
-    "hhi": 1210.52,
+    "top_five_pct": 73.09,
+    "top_ten_pct": 89.69,
+    "hhi": 1362.53,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 10,
-      "exited_positions": 7,
-      "increased_positions": 7,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 4,
+      "increased_positions": 3,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-096276"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127473"
       }
     ]
   },
-  "reported_13f_value_usd": 2638451995.0,
+  "reported_13f_value_usd": 2648176662.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-096276",
+  "validated_accession": "0001104659-26-127473",
   "annualized_turnover_proxy_pct": null
 }

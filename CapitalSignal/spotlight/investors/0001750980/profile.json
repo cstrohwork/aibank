@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001750980",
   "investor_name": "Farringdon Capital, Ltd.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1750980/0001420506-25-003182.txt",
-    "https://www.sec.gov/Archives/edgar/data/1750980/0001420506-26-001540.txt"
+    "https://www.sec.gov/Archives/edgar/data/1750980/0001420506-26-001540.txt",
+    "https://www.sec.gov/Archives/edgar/data/1750980/0001420506-26-002746.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "147f2f6bc8740f3b05222f0d29b4118e67838c57c28aebcfe740b1f4baa9589f",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "349ea2d362ffc5bf7c9e436aff9acb3fad35552cc59cf159b948fff421824e69",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "66235da3a6cbf9aac2cb3663e60a5be6b39597be",
+    "6c714993bb5a296cf86d9d1f3cb15c9f6c56317f",
+    "7fadfcfbf0ab22bc063cbe4e9b5bab842adc227a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001420506-26-001540",
-    "source": "https://www.sec.gov/Archives/edgar/data/1750980/0001420506-26-001540.txt",
-    "distinct_positions": 184,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002746",
+    "source": "https://www.sec.gov/Archives/edgar/data/1750980/0001420506-26-002746.txt",
+    "distinct_positions": 259,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 201843168.0,
+    "reported_long_equity_value_usd": 161759071.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
-        "shares": 349511.0,
-        "value_usd": 11635221.0,
-        "weight_pct": 5.76
-      },
-      {
-        "cusip": "464288679",
-        "security_class": "TRUST ISHARE 0-1",
-        "issuer": "ISHARES TR",
-        "shares": 95088.0,
-        "value_usd": 10492961.0,
-        "weight_pct": 5.2
+        "shares": 249024.0,
+        "value_usd": 11788796.0,
+        "weight_pct": 7.29
       },
       {
         "cusip": "539439109",
         "security_class": "SPONSORED ADR",
         "issuer": "LLOYDS BANKING GROUP PLC",
-        "shares": 1797519.0,
-        "value_usd": 10479536.0,
-        "weight_pct": 5.19
+        "shares": 1621642.0,
+        "value_usd": 9129844.0,
+        "weight_pct": 5.64
       },
       {
         "cusip": "639057207",
         "security_class": "SPONS ADR",
         "issuer": "NATWEST GROUP PLC",
-        "shares": 523909.0,
-        "value_usd": 9236516.0,
-        "weight_pct": 4.58
+        "shares": 289720.0,
+        "value_usd": 5258418.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 12092.0,
+        "value_usd": 4160615.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 129136.0,
+        "value_usd": 4038083.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "92937A102",
+        "security_class": "ADR",
+        "issuer": "WPP PLC NEW",
+        "shares": 133152.0,
+        "value_usd": 3291517.0,
+        "weight_pct": 2.03
       },
       {
         "cusip": "46438R105",
         "security_class": "SHS",
         "issuer": "ISHARES ETHEREUM TR",
-        "shares": 719595.0,
-        "value_usd": 8555985.0,
-        "weight_pct": 4.24
+        "shares": 154567.0,
+        "value_usd": 3109888.0,
+        "weight_pct": 1.92
       },
       {
-        "cusip": "06738E204",
-        "security_class": "ADR",
-        "issuer": "BARCLAYS PLC",
-        "shares": 251211.0,
-        "value_usd": 6747527.0,
-        "weight_pct": 3.34
+        "cusip": "71654V408",
+        "security_class": "SPONSORED ADR",
+        "issuer": "PETROLEO BRASILEIRO S A",
+        "shares": 143565.0,
+        "value_usd": 2996202.0,
+        "weight_pct": 1.85
       },
       {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 15523.0,
-        "value_usd": 5863813.0,
-        "weight_pct": 2.91
+        "cusip": "315948109",
+        "security_class": "SHS",
+        "issuer": "FIDELITY WISE ORIGIN BITCOIN",
+        "shares": 41246.0,
+        "value_usd": 2996109.0,
+        "weight_pct": 1.85
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 14330.0,
-        "value_usd": 5063219.0,
-        "weight_pct": 2.51
-      },
-      {
-        "cusip": "040919102",
-        "security_class": "SHS BEN INT",
-        "issuer": "ARK 21SHARES BITCOIN ETF",
-        "shares": 255448.0,
-        "value_usd": 4971018.0,
-        "weight_pct": 2.46
-      },
-      {
-        "cusip": "09174C104",
-        "security_class": "SHS BEN INT",
-        "issuer": "BITWISE BITCOIN ETF TR",
-        "shares": 155362.0,
-        "value_usd": 4949833.0,
-        "weight_pct": 2.45
+        "cusip": "636274409",
+        "security_class": "SPONSORED ADR NE",
+        "issuer": "NATIONAL GRID PLC",
+        "shares": 35825.0,
+        "value_usd": 2716252.0,
+        "weight_pct": 1.68
       }
     ],
-    "top_five_pct": 24.97,
-    "top_ten_pct": 38.64,
-    "hhi": 226.82,
+    "top_five_pct": 21.25,
+    "top_ten_pct": 30.59,
+    "hhi": 156.02,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 98,
-      "exited_positions": 344,
-      "increased_positions": 35,
-      "reduced_positions": 51
+      "previous_period": "2026-06-30",
+      "new_positions": 183,
+      "exited_positions": 108,
+      "increased_positions": 37,
+      "reduced_positions": 38
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001420506-26-001540"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002746"
       }
     ]
   },
-  "reported_13f_value_usd": 201843168.0,
+  "reported_13f_value_usd": 161759071.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001540",
+  "validated_accession": "0001420506-26-002746",
   "annualized_turnover_proxy_pct": null
 }

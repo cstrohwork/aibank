@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001964400",
   "investor_name": "FACT Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1964400/0001420506-25-003415.txt",
-    "https://www.sec.gov/Archives/edgar/data/1964400/0001420506-26-001813.txt"
+    "https://www.sec.gov/Archives/edgar/data/1964400/0001420506-26-001813.txt",
+    "https://www.sec.gov/Archives/edgar/data/1964400/0001420506-26-002899.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6c48129a120784b663ba62907bdec904dcb2fdeba1d116104da8a2512702f7c4",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "b43bc1d728db8c0cf693ea5cf3ebd049b44f75448e227ba2719776d509adfebb",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "b9a1f7c65fe38915350e8114a9807f540cd1255e",
+    "bf87cc2d91e24742c4278e3adc542535cd676b3e",
+    "ea297920a5f8034897dbcf8f1e4b35768143d958"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001813",
-    "source": "https://www.sec.gov/Archives/edgar/data/1964400/0001420506-26-001813.txt",
-    "distinct_positions": 17,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002899",
+    "source": "https://www.sec.gov/Archives/edgar/data/1964400/0001420506-26-002899.txt",
+    "distinct_positions": 18,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 177961335.0,
+    "reported_long_equity_value_usd": 87075565.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "874039100",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 51891.0,
-        "value_usd": 24781585.0,
-        "weight_pct": 13.93
-      },
-      {
-        "cusip": "55405W104",
-        "security_class": "COM",
-        "issuer": "MYR GROUP INC",
-        "shares": 47875.0,
-        "value_usd": 23956650.0,
-        "weight_pct": 13.46
-      },
       {
         "cusip": "01741R102",
         "security_class": "COM",
         "issuer": "ATI INC",
         "shares": 99684.0,
-        "value_usd": 19647716.0,
-        "weight_pct": 11.04
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 54752.0,
-        "value_usd": 19566722.0,
-        "weight_pct": 10.99
-      },
-      {
-        "cusip": "980745103",
-        "security_class": "COM",
-        "issuer": "WOODWARD INC",
-        "shares": 37544.0,
-        "value_usd": 15972719.0,
-        "weight_pct": 8.98
-      },
-      {
-        "cusip": "G93A5A101",
-        "security_class": "ORD SHS",
-        "issuer": "VIKING HOLDINGS LTD",
-        "shares": 141579.0,
-        "value_usd": 14819074.0,
-        "weight_pct": 8.33
+        "value_usd": 8657937.0,
+        "weight_pct": 9.94
       },
       {
         "cusip": "45104G104",
         "security_class": "ADR",
-        "issuer": "ICICI BANK LIMITED",
+        "issuer": "ICICI BK LTD",
         "shares": 430329.0,
-        "value_usd": 12492451.0,
-        "weight_pct": 7.02
+        "value_usd": 7228565.0,
+        "weight_pct": 8.3
       },
       {
         "cusip": "95082P105",
         "security_class": "COM",
         "issuer": "WESCO INTL INC",
         "shares": 29506.0,
-        "value_usd": 10192258.0,
-        "weight_pct": 5.73
-      },
-      {
-        "cusip": "04965M106",
-        "security_class": "SPONSORED ADS",
-        "issuer": "ATOUR LIFESTYLE HLDGS LTD",
-        "shares": 253421.0,
-        "value_usd": 8058788.0,
-        "weight_pct": 4.53
+        "value_usd": 7060351.0,
+        "weight_pct": 8.11
       },
       {
         "cusip": "722304102",
         "security_class": "SPONSORED ADS",
         "issuer": "PDD HOLDINGS INC",
-        "shares": 81435.0,
-        "value_usd": 6211862.0,
-        "weight_pct": 3.49
+        "shares": 54634.0,
+        "value_usd": 6806751.0,
+        "weight_pct": 7.82
+      },
+      {
+        "cusip": "55405W104",
+        "security_class": "COM",
+        "issuer": "MYR GROUP INC",
+        "shares": 47875.0,
+        "value_usd": 6675746.0,
+        "weight_pct": 7.67
+      },
+      {
+        "cusip": "G93A5A101",
+        "security_class": "ORD SHS",
+        "issuer": "VIKING HOLDINGS LTD",
+        "shares": 141579.0,
+        "value_usd": 6421061.0,
+        "weight_pct": 7.37
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 54752.0,
+        "value_usd": 6261842.0,
+        "weight_pct": 7.19
+      },
+      {
+        "cusip": "980745103",
+        "security_class": "COM",
+        "issuer": "WOODWARD INC",
+        "shares": 37544.0,
+        "value_usd": 5915043.0,
+        "weight_pct": 6.79
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 51891.0,
+        "value_usd": 5498127.0,
+        "weight_pct": 6.31
+      },
+      {
+        "cusip": "90138A103",
+        "security_class": "SPONSORED ADS A",
+        "issuer": "VNET GROUP INC",
+        "shares": 478246.0,
+        "value_usd": 4986307.0,
+        "weight_pct": 5.73
       }
     ],
-    "top_five_pct": 58.4,
-    "top_ten_pct": 87.49,
-    "hhi": 907.42,
+    "top_five_pct": 41.84,
+    "top_ten_pct": 75.24,
+    "hhi": 672.8,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 7,
-      "exited_positions": 8,
-      "increased_positions": 1,
-      "reduced_positions": 9
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001813"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002899"
       }
     ]
   },
-  "reported_13f_value_usd": 177961335.0,
+  "reported_13f_value_usd": 87075565.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001813",
+  "validated_accession": "0001420506-26-002899",
   "annualized_turnover_proxy_pct": null
 }

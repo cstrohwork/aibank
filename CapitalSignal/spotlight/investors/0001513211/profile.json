@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001513211",
   "investor_name": "Main Street Research LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-29",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAUSALITO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1513211/0001420506-25-003188.txt",
-    "https://www.sec.gov/Archives/edgar/data/1513211/0001420506-26-001335.txt"
+    "https://www.sec.gov/Archives/edgar/data/1513211/0001420506-26-001335.txt",
+    "https://www.sec.gov/Archives/edgar/data/1513211/0001420506-26-002851.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c1239f5199eab8a82274b0a76b0bcc175a3ef35273a8e41c33a73a18e8b1ed0e",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "f942047796b585007e80ea74d7e5e66ce0bdd72d93a8679cb456be6cb2a5e657",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-07-29|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8b53e743e7e6bd2e606f4cf49e35e1063d01c385",
+    "99ee9b748012976eba492b2b1e81060addfcd280",
+    "e1bef11e07c6e24380e1bd4de474ec77886f4d7b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-29",
-    "accession": "0001420506-26-001335",
-    "source": "https://www.sec.gov/Archives/edgar/data/1513211/0001420506-26-001335.txt",
-    "distinct_positions": 140,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002851",
+    "source": "https://www.sec.gov/Archives/edgar/data/1513211/0001420506-26-002851.txt",
+    "distinct_positions": 104,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2118491302.0,
+    "reported_long_equity_value_usd": 1941985912.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 630053.0,
-        "value_usd": 126067297.0,
-        "weight_pct": 5.95
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 108636.0,
-        "value_usd": 125397358.0,
-        "weight_pct": 5.92
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 406129.0,
-        "value_usd": 117517404.0,
-        "weight_pct": 5.55
+        "shares": 622968.0,
+        "value_usd": 142428167.0,
+        "weight_pct": 7.33
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 316947.0,
-        "value_usd": 113267393.0,
-        "weight_pct": 5.35
+        "shares": 314550.0,
+        "value_usd": 108230365.0,
+        "weight_pct": 5.57
       },
       {
         "cusip": "874039100",
         "security_class": "SPONSORED ADS",
         "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 228429.0,
-        "value_usd": 109090838.0,
-        "weight_pct": 5.15
+        "shares": 231611.0,
+        "value_usd": 105912286.0,
+        "weight_pct": 5.45
       },
       {
-        "cusip": "219350105",
+        "cusip": "595112103",
         "security_class": "COM",
-        "issuer": "CORNING INC",
-        "shares": 394058.0,
-        "value_usd": 100654235.0,
-        "weight_pct": 4.75
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 92488.0,
+        "value_usd": 98509840.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 282615.0,
+        "value_usd": 94116472.0,
+        "weight_pct": 4.85
       },
       {
         "cusip": "78464A870",
         "security_class": "ST STR SP BIOT",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 576754.0,
-        "value_usd": 91271321.0,
-        "weight_pct": 4.31
+        "shares": 582358.0,
+        "value_usd": 91826209.0,
+        "weight_pct": 4.73
       },
       {
         "cusip": "46434V266",
         "security_class": "INTERNATIONAL SL",
         "issuer": "ISHARES TR",
-        "shares": 2027356.0,
-        "value_usd": 87764241.0,
-        "weight_pct": 4.14
+        "shares": 2052531.0,
+        "value_usd": 91666034.0,
+        "weight_pct": 4.72
       },
       {
         "cusip": "N07059210",
         "security_class": "N Y REGISTRY SHS",
         "issuer": "ASML HLDG NV",
-        "shares": 42396.0,
-        "value_usd": 84344300.0,
-        "weight_pct": 3.98
+        "shares": 43071.0,
+        "value_usd": 78030439.0,
+        "weight_pct": 4.02
       },
       {
-        "cusip": "11135F101",
+        "cusip": "46625H100",
         "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 213841.0,
-        "value_usd": 80778363.0,
-        "weight_pct": 3.81
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 226538.0,
+        "value_usd": 74945724.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "464286772",
+        "security_class": "MSCI STH KOR ETF",
+        "issuer": "ISHARES INC",
+        "shares": 370628.0,
+        "value_usd": 67743386.0,
+        "weight_pct": 3.49
       }
     ],
-    "top_five_pct": 27.91,
-    "top_ten_pct": 48.91,
-    "hhi": 351.98,
+    "top_five_pct": 28.28,
+    "top_ten_pct": 49.09,
+    "hhi": 360.1,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 37,
-      "exited_positions": 26,
-      "increased_positions": 54,
-      "reduced_positions": 41
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 45,
+      "increased_positions": 35,
+      "reduced_positions": 59
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-29",
         "accession": "0001420506-26-001335"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002851"
       }
     ]
   },
-  "reported_13f_value_usd": 2118491302.0,
+  "reported_13f_value_usd": 1941985912.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001335",
+  "validated_accession": "0001420506-26-002851",
   "annualized_turnover_proxy_pct": null
 }

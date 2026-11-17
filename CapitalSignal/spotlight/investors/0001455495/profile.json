@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001455495",
   "investor_name": "IMA Advisory Services, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-10",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DENVER",
   "state": "CO",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1455495/0001455495-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1455495/0001455495-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1455495/0001455495-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1455495/0001455495-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "46bf71aa14a25c2205954ec1fd1616ff4e59ea81c85dcc0d1b81913bc2adea45",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "8960eb6f86a9160f6f8136995f10dc87e84eb95e28f6458b0fea667914bc3155",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-06|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "29844a421d8f4e8c9399b9d10e3f1387e6033742",
+    "52b65de9aee8d702131b3fc4ad231ef0a5ea76d9",
+    "8b63db83fdbacf5bfccae24ac847c2d2d4c68a85"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-10",
-    "accession": "0001455495-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1455495/0001455495-26-000008.txt",
-    "distinct_positions": 1384,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001455495-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1455495/0001455495-26-000009.txt",
+    "distinct_positions": 1212,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1598833265.0,
+    "reported_long_equity_value_usd": 1594387086.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "464288802",
-        "security_class": "ETF",
-        "issuer": "ISHARES ESG OPTIMIZED MSCI USA ETF",
-        "shares": 524325.0,
-        "value_usd": 80903456.0,
-        "weight_pct": 5.06
+        "security_class": "ESG OPTIMIZED",
+        "issuer": "ISHARES TR",
+        "shares": 466212.0,
+        "value_usd": 72579825.0,
+        "weight_pct": 4.55
       },
       {
         "cusip": "46436E759",
-        "security_class": "ETF",
-        "issuer": "ISHARES ESG ADVANCED MSCI EAFE ETF",
-        "shares": 822257.0,
-        "value_usd": 69495724.0,
-        "weight_pct": 4.35
+        "security_class": "ESG EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 835930.0,
+        "value_usd": 70684680.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 720326.0,
+        "value_usd": 61171779.0,
+        "weight_pct": 3.84
       },
       {
         "cusip": "464288570",
-        "security_class": "ETF",
-        "issuer": "ISHARES TR KLD 400 SOCIAL INDEX FD",
-        "shares": 444726.0,
-        "value_usd": 62989722.0,
-        "weight_pct": 3.94
+        "security_class": "ESG MSCI KLD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 395100.0,
+        "value_usd": 57433736.0,
+        "weight_pct": 3.6
       },
       {
         "cusip": "808524201",
         "security_class": "US LRG CAP ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 1869009.0,
-        "value_usd": 55004941.0,
-        "weight_pct": 3.44
-      },
-      {
-        "cusip": "921909768",
-        "security_class": "ETF",
-        "issuer": "VANGUARD TOTAL INTERNATIONAL STOCK ETF",
-        "shares": 622737.0,
-        "value_usd": 53210714.0,
-        "weight_pct": 3.33
+        "shares": 1883358.0,
+        "value_usd": 56500741.0,
+        "weight_pct": 3.54
       },
       {
         "cusip": "921910733",
-        "security_class": "ETF",
-        "issuer": "VANGUARD ESG U.S. STOCK ETF",
-        "shares": 349458.0,
-        "value_usd": 46212405.0,
-        "weight_pct": 2.89
+        "security_class": "ESG US STK ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 331053.0,
+        "value_usd": 44867600.0,
+        "weight_pct": 2.81
       },
       {
         "cusip": "46435G268",
-        "security_class": "ETF",
-        "issuer": "ISHARES RUSSELL 2500 ETF",
-        "shares": 491513.0,
-        "value_usd": 45027043.0,
-        "weight_pct": 2.82
-      },
-      {
-        "cusip": "921910725",
-        "security_class": "ETF",
-        "issuer": "VANGUARD ESG INTERNATIONAL STOCK ETF",
-        "shares": 483384.0,
-        "value_usd": 39801906.0,
-        "weight_pct": 2.49
+        "security_class": "RUSEL 2500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 504800.0,
+        "value_usd": 43161263.0,
+        "weight_pct": 2.71
       },
       {
         "cusip": "922908736",
-        "security_class": "ETF",
-        "issuer": "VANGUARD GROWTH ETF",
-        "shares": 430119.0,
-        "value_usd": 37050486.0,
-        "weight_pct": 2.32
+        "security_class": "MRNGSTR GRWT ETF",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 439599.0,
+        "value_usd": 39612220.0,
+        "weight_pct": 2.48
+      },
+      {
+        "cusip": "921910725",
+        "security_class": "ESG INTL STK ETF",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 469424.0,
+        "value_usd": 38056228.0,
+        "weight_pct": 2.39
       },
       {
         "cusip": "25434V203",
-        "security_class": "ETF",
-        "issuer": "DIMENSIONAL INTERNATIONAL CORE EQUITY MARKET ETF",
-        "shares": 830927.0,
-        "value_usd": 34275738.0,
-        "weight_pct": 2.14
+        "security_class": "INTL CORE EQT MK",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 849421.0,
+        "value_usd": 35191498.0,
+        "weight_pct": 2.21
       }
     ],
-    "top_five_pct": 20.11,
-    "top_ten_pct": 32.77,
-    "hhi": 164.83,
+    "top_five_pct": 19.97,
+    "top_ten_pct": 32.57,
+    "hhi": 163.06,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 952,
-      "exited_positions": 120,
-      "increased_positions": 245,
-      "reduced_positions": 115
+      "previous_period": "2026-06-30",
+      "new_positions": 959,
+      "exited_positions": 1131,
+      "increased_positions": 97,
+      "reduced_positions": 68
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-10",
         "accession": "0001455495-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001455495-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 1598833265.0,
+  "reported_13f_value_usd": 1594387086.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001455495-26-000008",
+  "validated_accession": "0001455495-26-000009",
   "annualized_turnover_proxy_pct": null
 }

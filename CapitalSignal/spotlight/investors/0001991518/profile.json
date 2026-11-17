@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001991518",
   "investor_name": "Aragon Global Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MIAMI",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1991518/0001420506-25-003260.txt",
-    "https://www.sec.gov/Archives/edgar/data/1991518/0001420506-26-001669.txt"
+    "https://www.sec.gov/Archives/edgar/data/1991518/0001420506-26-001669.txt",
+    "https://www.sec.gov/Archives/edgar/data/1991518/0001420506-26-002744.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "553f5801f0341dd96c02896d45f8779d2880f1d1869e9983c47ead998cf95423",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "b7ab2a0fe8d9d288d337247f912894664cdc57b540fa1126efdcd913bef047c9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2ef03544e590ab2b8cf29461b314d49e7803432b",
+    "3a3ce9e445206deead399c8f8b35a8925b7da9ce",
+    "66a9ddefe5bc23467a98093d1ed0324759c18f25"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001669",
-    "source": "https://www.sec.gov/Archives/edgar/data/1991518/0001420506-26-001669.txt",
-    "distinct_positions": 23,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002744",
+    "source": "https://www.sec.gov/Archives/edgar/data/1991518/0001420506-26-002744.txt",
+    "distinct_positions": 18,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 263859931.0,
+    "reported_long_equity_value_usd": 173381638.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "UNIT SER 1",
         "issuer": "INVESCO QQQ TR",
         "shares": 77995.0,
-        "value_usd": 57435518.0,
-        "weight_pct": 21.77
+        "value_usd": 57698361.0,
+        "weight_pct": 33.28
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
         "shares": 44580.0,
-        "value_usd": 33291007.0,
-        "weight_pct": 12.62
+        "value_usd": 33998045.0,
+        "weight_pct": 19.61
       },
       {
-        "cusip": "80004C200",
+        "cusip": "84265V105",
         "security_class": "COM",
-        "issuer": "SANDISK CORP",
-        "shares": 10350.0,
-        "value_usd": 23533106.0,
-        "weight_pct": 8.92
-      },
-      {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 19043.0,
-        "value_usd": 18376495.0,
-        "weight_pct": 6.96
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 121250.0,
-        "value_usd": 16930138.0,
-        "weight_pct": 6.42
-      },
-      {
-        "cusip": "36828A101",
-        "security_class": "COM",
-        "issuer": "GE VERNOVA INC",
-        "shares": 11850.0,
-        "value_usd": 13922091.0,
-        "weight_pct": 5.28
-      },
-      {
-        "cusip": "92537N108",
-        "security_class": "COM CL A",
-        "issuer": "VERTIV HOLDINGS CO",
-        "shares": 39900.0,
-        "value_usd": 13359318.0,
-        "weight_pct": 5.06
+        "issuer": "SOUTHERN COPPER CORP",
+        "shares": 55920.0,
+        "value_usd": 11331629.0,
+        "weight_pct": 6.54
       },
       {
         "cusip": "92189F676",
         "security_class": "SEMICONDUCTR ETF",
         "issuer": "VANECK ETF TRUST",
         "shares": 18600.0,
-        "value_usd": 12199554.0,
-        "weight_pct": 4.62
+        "value_usd": 11327400.0,
+        "weight_pct": 6.53
       },
       {
-        "cusip": "464286772",
-        "security_class": "MSCI STH KOR ETF",
+        "cusip": "36828A101",
+        "security_class": "COM",
+        "issuer": "GE VERNOVA INC",
+        "shares": 11850.0,
+        "value_usd": 11263307.0,
+        "weight_pct": 6.5
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 33050.0,
+        "value_usd": 11261457.0,
+        "weight_pct": 6.5
+      },
+      {
+        "cusip": "46434G822",
+        "security_class": "MSCI JAPAN ETF",
         "issuer": "ISHARES INC",
-        "shares": 49794.0,
-        "value_usd": 10053409.0,
-        "weight_pct": 3.81
+        "shares": 64575.0,
+        "value_usd": 6293480.0,
+        "weight_pct": 3.63
+      },
+      {
+        "cusip": "92537N108",
+        "security_class": "COM CL A",
+        "issuer": "VERTIV HOLDINGS CO",
+        "shares": 19950.0,
+        "value_usd": 4814135.0,
+        "weight_pct": 2.78
       },
       {
         "cusip": "38141G104",
         "security_class": "COM",
         "issuer": "GOLDMAN SACHS GROUP INC",
-        "shares": 9915.0,
-        "value_usd": 10027734.0,
-        "weight_pct": 3.8
+        "shares": 4957.0,
+        "value_usd": 4463085.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "617446448",
+        "security_class": "COM NEW",
+        "issuer": "MORGAN STANLEY",
+        "shares": 23625.0,
+        "value_usd": 4443390.0,
+        "weight_pct": 2.56
       }
     ],
-    "top_five_pct": 56.68,
-    "top_ten_pct": 79.26,
-    "hhi": 954.92,
+    "top_five_pct": 72.45,
+    "top_ten_pct": 90.49,
+    "hhi": 1709.18,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 20,
-      "increased_positions": 2,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 6,
+      "increased_positions": 3,
+      "reduced_positions": 7
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001669"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002744"
       }
     ]
   },
-  "reported_13f_value_usd": 263859931.0,
+  "reported_13f_value_usd": 173381638.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001669",
+  "validated_accession": "0001420506-26-002744",
   "annualized_turnover_proxy_pct": null
 }

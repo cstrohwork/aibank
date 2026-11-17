@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001423686",
   "investor_name": "CADIAN CAPITAL MANAGEMENT, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1423686/0001423686-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1423686/0001423686-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1423686/0001423686-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1423686/0001423686-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c9911f4f016b44e078c505a3bd496f4f721299bc0c83f62124bdb65df3f172dd",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "41a43dcf618c8258ef4a7afe48dc4c89ae3e1c2a538d73c11624af949a501c96",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "08a57ae55f3b88b87e22ad77d17630824140a96b",
+    "7163f194a4434484a1d1fb9260a7a5ded5111046",
+    "7ab0d572627664508a5fe5d7ce7373edbb930727"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001423686-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1423686/0001423686-26-000006.txt",
-    "distinct_positions": 28,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001423686-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1423686/0001423686-26-000009.txt",
+    "distinct_positions": 26,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1321381479.0,
+    "reported_long_equity_value_usd": 1199269956.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "46266C105",
         "security_class": "COM",
         "issuer": "IQVIA HLDGS INC",
-        "shares": 815752.0,
-        "value_usd": 157619601.0,
-        "weight_pct": 11.93
-      },
-      {
-        "cusip": "40131M109",
-        "security_class": "COM",
-        "issuer": "GUARDANT HEALTH INC",
-        "shares": 757393.0,
-        "value_usd": 113631672.0,
-        "weight_pct": 8.6
+        "shares": 537719.0,
+        "value_usd": 144565753.0,
+        "weight_pct": 12.05
       },
       {
         "cusip": "302492103",
         "security_class": "COM VTG",
         "issuer": "FLYWIRE CORPORATION",
-        "shares": 5744166.0,
-        "value_usd": 100924997.0,
-        "weight_pct": 7.64
+        "shares": 7679607.0,
+        "value_usd": 134393123.0,
+        "weight_pct": 11.21
       },
       {
-        "cusip": "72703H101",
-        "security_class": "CL A",
-        "issuer": "PLANET FITNESS MASTER ISSUER",
-        "shares": 1600340.0,
-        "value_usd": 83489738.0,
-        "weight_pct": 6.32
+        "cusip": "45784P101",
+        "security_class": "COM",
+        "issuer": "INSULET CORP",
+        "shares": 887100.0,
+        "value_usd": 115739937.0,
+        "weight_pct": 9.65
+      },
+      {
+        "cusip": "40131M109",
+        "security_class": "COM",
+        "issuer": "GUARDANT HEALTH INC",
+        "shares": 499514.0,
+        "value_usd": 89093317.0,
+        "weight_pct": 7.43
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 342395.0,
+        "value_usd": 85307714.0,
+        "weight_pct": 7.11
+      },
+      {
+        "cusip": "825704109",
+        "security_class": "COM",
+        "issuer": "SI BONE INC",
+        "shares": 3791497.0,
+        "value_usd": 71280144.0,
+        "weight_pct": 5.94
       },
       {
         "cusip": "L8681T102",
         "security_class": "SHS",
         "issuer": "SPOTIFY TECHNOLOGY S A",
-        "shares": 174000.0,
-        "value_usd": 79888620.0,
-        "weight_pct": 6.05
+        "shares": 144560.0,
+        "value_usd": 70455653.0,
+        "weight_pct": 5.87
       },
       {
-        "cusip": "M7S64H106",
-        "security_class": "SHS",
-        "issuer": "MONDAY COM LTD",
-        "shares": 944029.0,
-        "value_usd": 68338259.0,
-        "weight_pct": 5.17
-      },
-      {
-        "cusip": "922280102",
+        "cusip": "74275K108",
         "security_class": "COM",
-        "issuer": "VARONIS SYS INC",
-        "shares": 1585693.0,
-        "value_usd": 66535678.0,
-        "weight_pct": 5.04
+        "issuer": "PROCORE TECHNOLOGIES INC",
+        "shares": 1130372.0,
+        "value_usd": 58462840.0,
+        "weight_pct": 4.87
       },
       {
         "cusip": "235851102",
         "security_class": "COM",
         "issuer": "DANAHER CORP DEL",
-        "shares": 326063.0,
-        "value_usd": 62108480.0,
-        "weight_pct": 4.7
+        "shares": 259851.0,
+        "value_usd": 57569989.0,
+        "weight_pct": 4.8
       },
       {
-        "cusip": "30050B101",
-        "security_class": "CL A",
-        "issuer": "EVOLENT HEALTH INC",
-        "shares": 10814473.0,
-        "value_usd": 58614444.0,
-        "weight_pct": 4.44
-      },
-      {
-        "cusip": "42226A107",
+        "cusip": "87357P100",
         "security_class": "COM",
-        "issuer": "HEALTHEQUITY INC",
-        "shares": 626700.0,
-        "value_usd": 56603544.0,
-        "weight_pct": 4.28
+        "issuer": "TACTILE SYS TECHNOLOGY INC",
+        "shares": 2238365.0,
+        "value_usd": 49893156.0,
+        "weight_pct": 4.16
       }
     ],
-    "top_five_pct": 40.53,
-    "top_ten_pct": 64.16,
-    "hhi": 568.5,
+    "top_five_pct": 47.45,
+    "top_ten_pct": 73.11,
+    "hhi": 671.48,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 15,
-      "exited_positions": 13,
-      "increased_positions": 5,
-      "reduced_positions": 8
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 6,
+      "increased_positions": 8,
+      "reduced_positions": 12
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001423686-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001423686-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 1321381479.0,
+  "reported_13f_value_usd": 1199269956.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001423686-26-000006",
+  "validated_accession": "0001423686-26-000009",
   "annualized_turnover_proxy_pct": null
 }

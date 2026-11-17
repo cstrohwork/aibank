@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001512857",
   "investor_name": "Brevan Howard Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ST. HELIER",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1512857/0000905148-25-004026.txt",
-    "https://www.sec.gov/Archives/edgar/data/1512857/0000905148-26-003711.txt"
+    "https://www.sec.gov/Archives/edgar/data/1512857/0000905148-26-003711.txt",
+    "https://www.sec.gov/Archives/edgar/data/1512857/0000905148-26-004906.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "75b80d8718eb1939acae716a011b0aaa184a447bf217120d0815fd0f42221654",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "a33248201ee9426d114fefedb908d33ed6136a403b1b95198c1c9905a587ef20",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "15314f19620d4f599f7ead2a8138600b1245dcba",
+    "55a80ae87b41b79c7e2d79f728063f418d856b3e",
+    "7b0fd21af08f2d892f165df48222734f2e0d4e6c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000905148-26-003711",
-    "source": "https://www.sec.gov/Archives/edgar/data/1512857/0000905148-26-003711.txt",
-    "distinct_positions": 1889,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000905148-26-004906",
+    "source": "https://www.sec.gov/Archives/edgar/data/1512857/0000905148-26-004906.txt",
+    "distinct_positions": 1761,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 6764151112.0,
+    "reported_long_equity_value_usd": 6378539348.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 1202676.0,
-        "value_usd": 898212557.0,
-        "weight_pct": 13.28
-      },
-      {
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
-        "shares": 7205004.0,
-        "value_usd": 239854583.0,
-        "weight_pct": 3.55
+        "shares": 22405494.0,
+        "value_usd": 1060676086.0,
+        "weight_pct": 16.63
       },
       {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 583127.0,
-        "value_usd": 168733629.0,
-        "weight_pct": 2.49
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 418592.0,
-        "value_usd": 156143188.0,
-        "weight_pct": 2.31
-      },
-      {
-        "cusip": "78464A698",
-        "security_class": "ST STR SP REGBNK",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 1978054.0,
-        "value_usd": 148057342.0,
-        "weight_pct": 2.19
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1189400.0,
+        "value_usd": 918139489.0,
+        "weight_pct": 14.39
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 657548.0,
-        "value_usd": 131568780.0,
-        "weight_pct": 1.95
+        "shares": 675860.0,
+        "value_usd": 155904005.0,
+        "weight_pct": 2.44
       },
       {
-        "cusip": "007903107",
+        "cusip": "88160R101",
         "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 217647.0,
-        "value_usd": 126433319.0,
-        "weight_pct": 1.87
+        "issuer": "TESLA INC",
+        "shares": 309030.0,
+        "value_usd": 107876193.0,
+        "weight_pct": 1.69
       },
       {
-        "cusip": "532457108",
+        "cusip": "60770K107",
         "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 77094.0,
-        "value_usd": 92468856.0,
-        "weight_pct": 1.37
+        "issuer": "MODERNA INC",
+        "shares": 483922.0,
+        "value_usd": 93188859.0,
+        "weight_pct": 1.46
       },
       {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 348404.0,
-        "value_usd": 83038609.0,
-        "weight_pct": 1.23
+        "cusip": "82509L107",
+        "security_class": "CL A SUB VTG SHS",
+        "issuer": "SHOPIFY INC",
+        "shares": 491563.0,
+        "value_usd": 72898793.0,
+        "weight_pct": 1.14
       },
       {
-        "cusip": "166764100",
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 94239.0,
+        "value_usd": 72427855.0,
+        "weight_pct": 1.14
+      },
+      {
+        "cusip": "04626A103",
         "security_class": "COM",
-        "issuer": "CHEVRON CORPORATION",
-        "shares": 404553.0,
-        "value_usd": 67058705.0,
-        "weight_pct": 0.99
+        "issuer": "ASTERA LABS INC",
+        "shares": 170630.0,
+        "value_usd": 60739161.0,
+        "weight_pct": 0.95
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 153922.0,
+        "value_usd": 53595640.0,
+        "weight_pct": 0.84
+      },
+      {
+        "cusip": "00724F101",
+        "security_class": "COM",
+        "issuer": "ADOBE INC",
+        "shares": 205741.0,
+        "value_usd": 49365495.0,
+        "weight_pct": 0.77
       }
     ],
-    "top_five_pct": 23.82,
-    "top_ten_pct": 31.22,
-    "hhi": 228.6,
+    "top_five_pct": 36.62,
+    "top_ten_pct": 41.46,
+    "hhi": 507.27,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 683,
-      "exited_positions": 588,
-      "increased_positions": 640,
-      "reduced_positions": 565
+      "previous_period": "2026-06-30",
+      "new_positions": 426,
+      "exited_positions": 554,
+      "increased_positions": 637,
+      "reduced_positions": 689
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000905148-26-003711"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000905148-26-004906"
       }
     ]
   },
-  "reported_13f_value_usd": 6764151112.0,
+  "reported_13f_value_usd": 6378539348.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000905148-26-003711",
+  "validated_accession": "0000905148-26-004906",
   "annualized_turnover_proxy_pct": null
 }

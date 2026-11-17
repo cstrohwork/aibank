@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001529872",
+  "investor_name": "GLADE BROOK CAPITAL PARTNERS LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "GREENWICH",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1529872/0001529872-25-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1529872/0001529872-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1529872/0001529872-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "275c40482a01ae51c33860c0064b8bad6e2364e34d0aba7d17aef0bdc4cbc5a2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "04e3964c3e415139a58bff54082e3214362b96f5",
+    "3ef5e218b926106770020cb3ef7e5a90d91c1082",
+    "68741657fd477ade0884ed2ab70163a8547e0988"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001529872-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1529872/0001529872-26-000004.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2222791757.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 14734136.0,
+        "value_usd": 2222791757.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001529872-25-000004"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001529872-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001529872-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 2222791757.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001529872-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

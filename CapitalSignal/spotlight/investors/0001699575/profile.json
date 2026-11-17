@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001699575",
   "investor_name": "Cable Car Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1699575/0001699575-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/1699575/0001699575-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1699575/0001699575-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1699575/0001699575-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "87d2d0c298d4757ec1c6b976da4676dbd7abb9a216420aa14cf2ef23e77df7af",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "a150ad42904bb8494b1c625ede64912abbe62012bd7ecf0783f76d4d556299e2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0b9b9f11917e31e8bb267b5432818e9aa485d0fd",
+    "8f7eee9b8a1b7ac89026b2abfa320fda1ca6a598",
+    "9c1cc68ed7ce1e6693db86f74719b304e5f442be"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001699575-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1699575/0001699575-26-000005.txt",
-    "distinct_positions": 212,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001699575-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1699575/0001699575-26-000008.txt",
+    "distinct_positions": 160,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4610269863.0,
+    "reported_long_equity_value_usd": 275518290.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "595112953",
-        "security_class": "PUT",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 332200.0,
-        "value_usd": 383455138.0,
-        "weight_pct": 8.32
-      },
-      {
-        "cusip": "595112103",
+        "cusip": "09260U109",
         "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 332200.0,
-        "value_usd": 383455138.0,
-        "weight_pct": 8.32
+        "issuer": "BLACKROCK CAP ALLOCATION TER",
+        "shares": 1500000.0,
+        "value_usd": 20550000.0,
+        "weight_pct": 7.46
       },
       {
-        "cusip": "67066G954",
-        "security_class": "PUT",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 1658500.0,
-        "value_usd": 331849265.0,
-        "weight_pct": 7.2
+        "cusip": "85207K107",
+        "security_class": "PHYSICAL SILVER",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 1000000.0,
+        "value_usd": 19370000.0,
+        "weight_pct": 7.03
       },
       {
-        "cusip": "67066G104",
+        "cusip": "00289Y206",
+        "security_class": "COM NEW",
+        "issuer": "ABEONA THERAPEUTICS INC",
+        "shares": 3600000.0,
+        "value_usd": 18900000.0,
+        "weight_pct": 6.86
+      },
+      {
+        "cusip": "82655M206",
+        "security_class": "SPONSORED ADR",
+        "issuer": "SIFY TECHNOLOGIES LTD",
+        "shares": 1229549.0,
+        "value_usd": 16389888.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "03044L204",
+        "security_class": "COM CL A NEW",
+        "issuer": "AMERICAN WELL CORP",
+        "shares": 1047851.0,
+        "value_usd": 14229817.0,
+        "weight_pct": 5.16
+      },
+      {
+        "cusip": "02074J501",
+        "security_class": "COM NEW",
+        "issuer": "ALPHA COGNITION INC",
+        "shares": 1382339.0,
+        "value_usd": 12441051.0,
+        "weight_pct": 4.52
+      },
+      {
+        "cusip": "077347201",
+        "security_class": "CL A",
+        "issuer": "BEL FUSE INC",
+        "shares": 46463.0,
+        "value_usd": 9187129.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "21924B302",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 1658500.0,
-        "value_usd": 331849265.0,
-        "weight_pct": 7.2
+        "issuer": "CORNERSTONE STRATEGIC INVEST",
+        "shares": 1274145.0,
+        "value_usd": 8154526.0,
+        "weight_pct": 2.96
       },
       {
-        "cusip": "594918954",
-        "security_class": "PUT",
-        "issuer": "MICROSOFT CORP",
-        "shares": 639000.0,
-        "value_usd": 238359780.0,
-        "weight_pct": 5.17
-      },
-      {
-        "cusip": "594918104",
+        "cusip": "70975L107",
         "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 639000.0,
-        "value_usd": 238359780.0,
-        "weight_pct": 5.17
+        "issuer": "PENUMBRA INC",
+        "shares": 25000.0,
+        "value_usd": 7958500.0,
+        "weight_pct": 2.89
       },
       {
-        "cusip": "88160R951",
-        "security_class": "PUT",
-        "issuer": "TESLA INC",
-        "shares": 519500.0,
-        "value_usd": 218501700.0,
-        "weight_pct": 4.74
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 519500.0,
-        "value_usd": 218501700.0,
-        "weight_pct": 4.74
-      },
-      {
-        "cusip": "80004C900",
-        "security_class": "CALL",
-        "issuer": "SANDISK CORP",
-        "shares": 95000.0,
-        "value_usd": 216004350.0,
-        "weight_pct": 4.69
-      },
-      {
-        "cusip": "84615Q903",
-        "security_class": "CALL",
-        "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 750000.0,
-        "value_usd": 128145000.0,
-        "weight_pct": 2.78
+        "cusip": "21874A114",
+        "security_class": "*W EXP 01/23/202",
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "shares": 852213.0,
+        "value_usd": 7908537.0,
+        "weight_pct": 2.87
       }
     ],
-    "top_five_pct": 36.2,
-    "top_ten_pct": 58.32,
-    "hhi": 423.4,
+    "top_five_pct": 32.46,
+    "top_ten_pct": 49.03,
+    "hhi": 324.1,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 173,
-      "exited_positions": 37,
-      "increased_positions": 11,
-      "reduced_positions": 7
+      "previous_period": "2026-06-30",
+      "new_positions": 22,
+      "exited_positions": 74,
+      "increased_positions": 10,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001699575-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001699575-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 4610269863.0,
+  "reported_13f_value_usd": 275518290.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001699575-26-000005",
+  "validated_accession": "0001699575-26-000008",
   "annualized_turnover_proxy_pct": null
 }

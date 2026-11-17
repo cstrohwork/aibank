@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002042502",
   "investor_name": "Kiker Wealth Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-30",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "JASPER",
   "state": "GA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2042502/0001398344-25-019800.txt",
-    "https://www.sec.gov/Archives/edgar/data/2042502/0001398344-26-013152.txt"
+    "https://www.sec.gov/Archives/edgar/data/2042502/0001398344-26-013152.txt",
+    "https://www.sec.gov/Archives/edgar/data/2042502/0001398344-26-020161.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f808ec6b962cb98aa64ee08ed43acaab65c572342241621b653b4a537158c052",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "d2b0d0c59fdb007e0a064bf11d56db9be7db71d959510889fde27d5008bc2389",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-27|||",
+    "2026-06-30|2026-07-30|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "52da1804bd92cfbb05a8bce9acf42eab1159728b",
+    "6cee7150fb8a422c3d5d050773a91b16f41a5ebc",
+    "93d4204f1aca2be3932436b0e87e699438847d2f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-30",
-    "accession": "0001398344-26-013152",
-    "source": "https://www.sec.gov/Archives/edgar/data/2042502/0001398344-26-013152.txt",
-    "distinct_positions": 161,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001398344-26-020161",
+    "source": "https://www.sec.gov/Archives/edgar/data/2042502/0001398344-26-020161.txt",
+    "distinct_positions": 570,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 256279585.0,
+    "reported_long_equity_value_usd": 266756359.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "464287655",
-        "security_class": "RUSSELL 2000 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 60644.0,
-        "value_usd": 18220378.0,
-        "weight_pct": 7.11
-      },
-      {
         "cusip": "921078101",
         "security_class": "GOLD SHS",
         "issuer": "VANECK MERK GOLD ETF",
-        "shares": 422678.0,
-        "value_usd": 16311148.0,
-        "weight_pct": 6.36
+        "shares": 471740.0,
+        "value_usd": 18822417.0,
+        "weight_pct": 7.06
       },
       {
         "cusip": "46090F100",
         "security_class": "OPTIMUM YIELD",
         "issuer": "INVESCO ACTVELY MNGD ETC FD",
-        "shares": 925387.0,
-        "value_usd": 14695149.0,
-        "weight_pct": 5.73
+        "shares": 884656.0,
+        "value_usd": 17073866.0,
+        "weight_pct": 6.4
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 56901.0,
+        "value_usd": 15812151.0,
+        "weight_pct": 5.93
       },
       {
         "cusip": "464288646",
         "security_class": "ISHS 1-5YR INVS",
         "issuer": "ISHARES TR",
-        "shares": 250646.0,
-        "value_usd": 13136364.0,
-        "weight_pct": 5.13
+        "shares": 253375.0,
+        "value_usd": 12980410.0,
+        "weight_pct": 4.87
       },
       {
         "cusip": "33734X846",
         "security_class": "NASDAQ CYB ETF",
         "issuer": "FIRST TR EXCHANGE-TRADED FD",
-        "shares": 123750.0,
-        "value_usd": 11118945.0,
-        "weight_pct": 4.34
-      },
-      {
-        "cusip": "92189F601",
-        "security_class": "URANI NUCLE ETF",
-        "issuer": "VANECK ETF TRUST",
-        "shares": 90191.0,
-        "value_usd": 10460362.0,
-        "weight_pct": 4.08
+        "shares": 116251.0,
+        "value_usd": 11984317.0,
+        "weight_pct": 4.49
       },
       {
         "cusip": "92189H300",
         "security_class": "JP MRGAN EM LOC",
         "issuer": "VANECK ETF TRUST",
-        "shares": 398278.0,
-        "value_usd": 10179989.0,
-        "weight_pct": 3.97
-      },
-      {
-        "cusip": "464287432",
-        "security_class": "20 YR TR BD ETF",
-        "issuer": "ISHARES TR",
-        "shares": 113384.0,
-        "value_usd": 9798666.0,
-        "weight_pct": 3.82
+        "shares": 409485.0,
+        "value_usd": 10167514.0,
+        "weight_pct": 3.81
       },
       {
         "cusip": "81369Y506",
         "security_class": "ST STR ENERG ETF",
         "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 159977.0,
-        "value_usd": 8496369.0,
-        "weight_pct": 3.32
+        "shares": 154342.0,
+        "value_usd": 9492029.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 113259.0,
+        "value_usd": 8809256.0,
+        "weight_pct": 3.3
       },
       {
         "cusip": "003264108",
         "security_class": "PHYSCL SILVR SHS",
         "issuer": "ABRDN SILVER ETF TRUST",
-        "shares": 144275.0,
-        "value_usd": 8111132.0,
-        "weight_pct": 3.16
+        "shares": 137624.0,
+        "value_usd": 7887248.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "464287390",
+        "security_class": "LATN AMER 40 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 223524.0,
+        "value_usd": 7711586.0,
+        "weight_pct": 2.89
       }
     ],
-    "top_five_pct": 28.67,
-    "top_ten_pct": 47.03,
-    "hhi": 301.85,
+    "top_five_pct": 28.74,
+    "top_ten_pct": 45.26,
+    "hhi": 277.79,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 74,
-      "exited_positions": 133,
-      "increased_positions": 38,
-      "reduced_positions": 38
+      "previous_period": "2026-06-30",
+      "new_positions": 434,
+      "exited_positions": 25,
+      "increased_positions": 37,
+      "reduced_positions": 78
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-30",
         "accession": "0001398344-26-013152"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001398344-26-020161"
       }
     ]
   },
-  "reported_13f_value_usd": 256279585.0,
+  "reported_13f_value_usd": 266756359.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001398344-26-013152",
+  "validated_accession": "0001398344-26-020161",
   "annualized_turnover_proxy_pct": null
 }

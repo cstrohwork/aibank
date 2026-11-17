@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001715635",
   "investor_name": "Ninepoint Partners LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TORONTO",
   "state": null,
   "country": null,
@@ -11,20 +11,33 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-25-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-26-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-26-000002.txt"
+    "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-26-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b5ab06d9c469cc8e7f635edece55e1d516952f13c91319e87fc9405082d39fb4",
-  "generated_at": "2026-11-16T06:17:23.526016+00:00",
+  "source_fingerprint": "5d4846c5c40809f54da6f73bc005cb5272543fd6ff0c707d2cb64e11e8b5f0e6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-03-31|2026-08-11|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "10c0c3ffddd32e52481f565aca011da99be383aa",
+    "81f1f0c98b9eaa6966604da4275be1d9d1ea168b",
+    "a0392b442259d994319501251b04edb780adef14",
+    "eefd75e89a265fde3321d51c96aaa28c88694d6d"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001715635-26-000002",
-    "source": "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-26-000002.txt",
-    "distinct_positions": 162,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001715635-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1715635/0001715635-26-000004.txt",
+    "distinct_positions": 179,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1122746355.0,
+    "reported_long_equity_value_usd": 1098537551.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +45,91 @@
         "cusip": "867224107",
         "security_class": "COM",
         "issuer": "SUNCOR ENERGY INC",
-        "shares": 2436936.0,
-        "value_usd": 130814724.0,
-        "weight_pct": 11.65
+        "shares": 2201721.0,
+        "value_usd": 149430804.0,
+        "weight_pct": 13.6
       },
       {
         "cusip": "15135U109",
         "security_class": "COM",
         "issuer": "CENOVUS ENERGY",
-        "shares": 5100000.0,
-        "value_usd": 126531000.0,
-        "weight_pct": 11.27
+        "shares": 4179760.0,
+        "value_usd": 129906941.0,
+        "weight_pct": 11.83
       },
       {
-        "cusip": "25179M103",
+        "cusip": "806857108",
         "security_class": "COM",
-        "issuer": "DEVON ENERGY CORP",
-        "shares": 1700000.0,
-        "value_usd": 70244000.0,
-        "weight_pct": 6.26
-      },
-      {
-        "cusip": "25278X109",
-        "security_class": "COM",
-        "issuer": "DIAMONDBACK ENERGY INC",
-        "shares": 397598.0,
-        "value_usd": 69889776.0,
-        "weight_pct": 6.22
-      },
-      {
-        "cusip": "07317Q105",
-        "security_class": "COM",
-        "issuer": "BAYTEX ENERGY CORP",
-        "shares": 17000000.0,
-        "value_usd": 68000000.0,
-        "weight_pct": 6.06
+        "issuer": "SLB",
+        "shares": 1019158.0,
+        "value_usd": 49653378.0,
+        "weight_pct": 4.52
       },
       {
         "cusip": "13321L108",
         "security_class": "COM",
         "issuer": "CAMECO CORP",
-        "shares": 353107.0,
-        "value_usd": 35967479.0,
-        "weight_pct": 3.2
+        "shares": 522789.0,
+        "value_usd": 45310123.0,
+        "weight_pct": 4.12
       },
       {
-        "cusip": "H8817H100",
+        "cusip": "29250N105",
         "security_class": "COM",
-        "issuer": "TRANSOCEAN LTD",
-        "shares": 7000000.0,
-        "value_usd": 34230000.0,
-        "weight_pct": 3.05
+        "issuer": "ENBRIDGE",
+        "shares": 892018.0,
+        "value_usd": 41469917.0,
+        "weight_pct": 3.78
       },
       {
-        "cusip": "78462F103",
+        "cusip": "82509L107",
         "security_class": "COM",
-        "issuer": "SPDR S&P 500",
-        "shares": 41100.0,
-        "value_usd": 30692247.0,
-        "weight_pct": 2.73
+        "issuer": "SHOPIFY CLASS A",
+        "shares": 262724.0,
+        "value_usd": 38961969.0,
+        "weight_pct": 3.55
       },
       {
         "cusip": "891160509",
         "security_class": "COM",
-        "issuer": "TORONTO DOMINION BK",
-        "shares": 246256.0,
-        "value_usd": 29902866.0,
-        "weight_pct": 2.66
+        "issuer": "TORONTO DOMINION",
+        "shares": 280341.0,
+        "value_usd": 32948478.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "406216101",
+        "security_class": "COM",
+        "issuer": "HALLIBURTON",
+        "shares": 1028830.0,
+        "value_usd": 32716794.0,
+        "weight_pct": 2.98
       },
       {
         "cusip": "780087102",
         "security_class": "COM",
         "issuer": "ROYAL BANK OF CANADA",
-        "shares": 143827.0,
-        "value_usd": 29767874.0,
-        "weight_pct": 2.65
+        "shares": 165345.0,
+        "value_usd": 32505174.0,
+        "weight_pct": 2.96
+      },
+      {
+        "cusip": "136375102",
+        "security_class": "COM",
+        "issuer": "CANADIAN NATIONAL RAILWAY",
+        "shares": 273217.0,
+        "value_usd": 32485501.0,
+        "weight_pct": 2.96
       }
     ],
-    "top_five_pct": 41.46,
-    "top_ten_pct": 55.76,
-    "hhi": 463.08,
+    "top_five_pct": 37.85,
+    "top_ten_pct": 53.29,
+    "hhi": 471.48,
     "changes": {
-      "previous_period": "2026-03-31",
-      "new_positions": 38,
-      "exited_positions": 23,
-      "increased_positions": 47,
+      "previous_period": "2026-06-30",
+      "new_positions": 50,
+      "exited_positions": 33,
+      "increased_positions": 63,
       "reduced_positions": 40
     },
     "timeline": [
@@ -134,11 +147,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001715635-26-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001715635-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 1122746355.0,
+  "reported_13f_value_usd": 1098537551.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001715635-26-000002",
+  "validated_accession": "0001715635-26-000004",
   "annualized_turnover_proxy_pct": null
 }

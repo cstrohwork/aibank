@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001468395",
   "investor_name": "Crestwood Capital Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-10",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1468395/0001468395-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1468395/0001468395-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1468395/0001468395-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1468395/0001468395-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a1ee9623ac66eb47dec40aa4e94bd5701111e7e5cb622afca20ae21bab980b14",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "4e3da7703b3919825c0af723f728bc8ef547c7fdc89656835f57596445485181",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "99e58779935b6eb99ad157a8f7a4bffbab3d9c8a",
+    "e8762173663cf3d923168c7eef9e29c38b3c91e3",
+    "eee0ee6a22b3c5aa83f7eb9b6a54bfa5b78297c3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-10",
-    "accession": "0001468395-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1468395/0001468395-26-000005.txt",
-    "distinct_positions": 16,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001468395-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1468395/0001468395-26-000008.txt",
+    "distinct_positions": 15,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 152664962.0,
+    "reported_long_equity_value_usd": 123102440.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "G93A5A101",
         "security_class": "ORD SHS",
         "issuer": "VIKING HOLDINGS LTD",
-        "shares": 207226.0,
-        "value_usd": 21690345.0,
-        "weight_pct": 14.21
-      },
-      {
-        "cusip": "26701L100",
-        "security_class": "CL A",
-        "issuer": "DUTCH BROS INC",
-        "shares": 234569.0,
-        "value_usd": 16844400.0,
-        "weight_pct": 11.03
+        "shares": 212832.0,
+        "value_usd": 16671131.0,
+        "weight_pct": 13.54
       },
       {
         "cusip": "45104G104",
         "security_class": "ADR",
-        "issuer": "ICICI BANK LIMITED",
-        "shares": 560822.0,
-        "value_usd": 16280663.0,
-        "weight_pct": 10.66
+        "issuer": "ICICI BK LTD",
+        "shares": 548556.0,
+        "value_usd": 15112718.0,
+        "weight_pct": 12.28
       },
       {
         "cusip": "88339P101",
         "security_class": "COM",
         "issuer": "THE REALREAL INC",
-        "shares": 1300404.0,
-        "value_usd": 15331763.0,
-        "weight_pct": 10.04
-      },
-      {
-        "cusip": "83570H108",
-        "security_class": "COM",
-        "issuer": "SONOS INC",
-        "shares": 935812.0,
-        "value_usd": 12661536.0,
-        "weight_pct": 8.29
+        "shares": 1404410.0,
+        "value_usd": 12414984.0,
+        "weight_pct": 10.09
       },
       {
         "cusip": "34631F102",
         "security_class": "COM SHS CL A",
         "issuer": "FORGENT POWER SOLUTIONS INC",
-        "shares": 192866.0,
-        "value_usd": 10773495.0,
-        "weight_pct": 7.06
+        "shares": 293330.0,
+        "value_usd": 10982275.0,
+        "weight_pct": 8.92
+      },
+      {
+        "cusip": "83570H108",
+        "security_class": "COM",
+        "issuer": "SONOS INC",
+        "shares": 608447.0,
+        "value_usd": 10885117.0,
+        "weight_pct": 8.84
+      },
+      {
+        "cusip": "26701L100",
+        "security_class": "CL A",
+        "issuer": "DUTCH BROS INC",
+        "shares": 264993.0,
+        "value_usd": 10218130.0,
+        "weight_pct": 8.3
       },
       {
         "cusip": "00971T101",
         "security_class": "COM",
         "issuer": "AKAMAI TECHNOLOGIES INC",
-        "shares": 90300.0,
-        "value_usd": 10674363.0,
-        "weight_pct": 6.99
-      },
-      {
-        "cusip": "04626A103",
-        "security_class": "COM",
-        "issuer": "ASTERA LABS INC",
-        "shares": 19717.0,
-        "value_usd": 9523705.0,
-        "weight_pct": 6.24
+        "shares": 90597.0,
+        "value_usd": 9634991.0,
+        "weight_pct": 7.83
       },
       {
         "cusip": "92537N108",
         "security_class": "COM CL A",
         "issuer": "VERTIV HOLDINGS CO",
-        "shares": 27711.0,
-        "value_usd": 9278197.0,
-        "weight_pct": 6.08
+        "shares": 32291.0,
+        "value_usd": 7792141.0,
+        "weight_pct": 6.33
+      },
+      {
+        "cusip": "04626A103",
+        "security_class": "COM",
+        "issuer": "ASTERA LABS INC",
+        "shares": 19769.0,
+        "value_usd": 7037171.0,
+        "weight_pct": 5.72
       },
       {
         "cusip": "G3730V105",
         "security_class": "SHS",
         "issuer": "FTAI AVIATION LTD",
-        "shares": 27464.0,
-        "value_usd": 7429836.0,
-        "weight_pct": 4.87
+        "shares": 38543.0,
+        "value_usd": 6437837.0,
+        "weight_pct": 5.23
       }
     ],
-    "top_five_pct": 54.24,
-    "top_ten_pct": 85.47,
-    "hhi": 843.82,
+    "top_five_pct": 53.67,
+    "top_ten_pct": 87.07,
+    "hhi": 862.48,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 3,
-      "increased_positions": 2,
-      "reduced_positions": 8
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 11,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-10",
         "accession": "0001468395-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001468395-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 152664962.0,
+  "reported_13f_value_usd": 123102440.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001468395-26-000005",
+  "validated_accession": "0001468395-26-000008",
   "annualized_turnover_proxy_pct": null
 }

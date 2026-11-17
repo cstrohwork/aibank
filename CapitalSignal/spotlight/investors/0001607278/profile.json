@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001607278",
   "investor_name": "Whetstone Capital Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SHAWNEE MISSION",
   "state": "KS",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1607278/0001214659-25-016665.txt",
-    "https://www.sec.gov/Archives/edgar/data/1607278/0001214659-26-010400.txt"
+    "https://www.sec.gov/Archives/edgar/data/1607278/0001214659-26-010400.txt",
+    "https://www.sec.gov/Archives/edgar/data/1607278/0001214659-26-014380.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "156511d6f62faaa800576f21e84fe50d8fe625cd028e273e599554efd286840b",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "04c4bd63b6c2a255ae213dd842c6670bbc4b447d92cb22a97c00a2cbcbb1d6f3",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6277deeedb33df6f5086ca0bd161f5ec0a4f62cf",
+    "afa1b945875bcbf03881125c8c8679fb54c5ca70",
+    "f0921c05c66482de9aeaca0677e9e43982efe6bd"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010400",
-    "source": "https://www.sec.gov/Archives/edgar/data/1607278/0001214659-26-010400.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014380",
+    "source": "https://www.sec.gov/Archives/edgar/data/1607278/0001214659-26-014380.txt",
     "distinct_positions": 67,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 377399712.0,
+    "reported_long_equity_value_usd": 414400086.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "23834J201",
-        "security_class": "CLASS A COM NEW",
-        "issuer": "DAVE INC",
-        "shares": 223078.0,
-        "value_usd": 83116632.0,
-        "weight_pct": 22.02
-      },
-      {
         "cusip": "18915M107",
         "security_class": "CL A COM",
         "issuer": "CLOUDFLARE INC",
-        "shares": 292861.0,
-        "value_usd": 71832946.0,
-        "weight_pct": 19.03
+        "shares": 292681.0,
+        "value_usd": 101642258.0,
+        "weight_pct": 24.53
+      },
+      {
+        "cusip": "23834J201",
+        "security_class": "CLASS A COM NEW",
+        "issuer": "DAVE INC",
+        "shares": 212798.0,
+        "value_usd": 68416685.0,
+        "weight_pct": 16.51
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
         "shares": 115630.0,
-        "value_usd": 40855548.0,
-        "weight_pct": 10.83
+        "value_usd": 39399766.0,
+        "weight_pct": 9.51
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 69271.0,
-        "value_usd": 16510050.0,
-        "weight_pct": 4.37
+        "shares": 69088.0,
+        "value_usd": 17213275.0,
+        "weight_pct": 4.15
       },
       {
-        "cusip": "314911108",
-        "security_class": "COM",
-        "issuer": "FERMI INC",
-        "shares": 1311002.0,
-        "value_usd": 12008778.0,
-        "weight_pct": 3.18
-      },
-      {
-        "cusip": "G5279N105",
-        "security_class": "SHS",
-        "issuer": "KLARNA GROUP PLC",
-        "shares": 508644.0,
-        "value_usd": 10294955.0,
-        "weight_pct": 2.73
-      },
-      {
-        "cusip": "852234103",
-        "security_class": "CL A",
-        "issuer": "BLOCK INC",
-        "shares": 123945.0,
-        "value_usd": 9419820.0,
-        "weight_pct": 2.5
-      },
-      {
-        "cusip": "888787108",
-        "security_class": "CL A",
-        "issuer": "TOAST INC",
-        "shares": 336853.0,
-        "value_usd": 9371250.0,
-        "weight_pct": 2.48
-      },
-      {
-        "cusip": "30234F101",
-        "security_class": "COM SHS",
-        "issuer": "EXZEO GROUP INC",
-        "shares": 541544.0,
-        "value_usd": 9135847.0,
-        "weight_pct": 2.42
+        "cusip": "G32089107",
+        "security_class": "SHS CL A",
+        "issuer": "ETORO GROUP LTD",
+        "shares": 667865.0,
+        "value_usd": 17164131.0,
+        "weight_pct": 4.14
       },
       {
         "cusip": "68401U204",
         "security_class": "COM NEW",
         "issuer": "OPTIMIZERX CORP",
         "shares": 1508303.0,
-        "value_usd": 8627493.0,
-        "weight_pct": 2.29
+        "value_usd": 12594330.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "888787108",
+        "security_class": "CL A",
+        "issuer": "TOAST INC",
+        "shares": 401796.0,
+        "value_usd": 11648066.0,
+        "weight_pct": 2.81
+      },
+      {
+        "cusip": "81764X103",
+        "security_class": "SHS CL A",
+        "issuer": "SERVICETITAN INC",
+        "shares": 172164.0,
+        "value_usd": 11326670.0,
+        "weight_pct": 2.73
+      },
+      {
+        "cusip": "349381103",
+        "security_class": "COM CL A",
+        "issuer": "FIGURE TECHNOLOGY SOLUTIO",
+        "shares": 338814.0,
+        "value_usd": 9774784.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "852234103",
+        "security_class": "CL A",
+        "issuer": "BLOCK INC",
+        "shares": 123568.0,
+        "value_usd": 9085955.0,
+        "weight_pct": 2.19
       }
     ],
-    "top_five_pct": 59.44,
-    "top_ten_pct": 71.85,
-    "hhi": 1061.89,
+    "top_five_pct": 58.84,
+    "top_ten_pct": 71.98,
+    "hhi": 1066.97,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 33,
-      "exited_positions": 22,
-      "increased_positions": 18,
-      "reduced_positions": 15
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 19,
+      "increased_positions": 15,
+      "reduced_positions": 29
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010400"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014380"
       }
     ]
   },
-  "reported_13f_value_usd": 377399712.0,
+  "reported_13f_value_usd": 414400086.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010400",
+  "validated_accession": "0001214659-26-014380",
   "annualized_turnover_proxy_pct": null
 }

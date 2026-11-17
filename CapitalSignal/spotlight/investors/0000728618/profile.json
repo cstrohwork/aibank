@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000728618",
   "investor_name": "Metropolitan Life Insurance Co/NY",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/728618/0001628280-25-052078.txt",
-    "https://www.sec.gov/Archives/edgar/data/728618/0001628280-26-056851.txt"
+    "https://www.sec.gov/Archives/edgar/data/728618/0001628280-26-056851.txt",
+    "https://www.sec.gov/Archives/edgar/data/728618/0001628280-26-073958.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "90dba4d6c9086527063658ed1197dd89f3f01cbd7d2b61f073837771220d27cd",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "ce930fdd1a20cd57fba101ea264983febe9289efb8241cc946ddb83195a13c66",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "9a858dc017d22c7f37420749ad51c2415ddc4342",
+    "ab1ebfb238e5417c6f8df9815b361a97ab3a95c7",
+    "af299fed5bd375a3a6a307f0039d72b8982150ca"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001628280-26-056851",
-    "source": "https://www.sec.gov/Archives/edgar/data/728618/0001628280-26-056851.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001628280-26-073958",
+    "source": "https://www.sec.gov/Archives/edgar/data/728618/0001628280-26-073958.txt",
     "distinct_positions": 11,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 357433227.0,
+    "reported_long_equity_value_usd": 334889980.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STREET SPDR S&P  ETF TRUST",
-        "shares": 184574.0,
-        "value_usd": 137834326.0,
-        "weight_pct": 38.56
+        "shares": 172553.0,
+        "value_usd": 131594094.0,
+        "weight_pct": 39.29
       },
       {
         "cusip": "464287226",
-        "security_class": "CORE US AG",
+        "security_class": "CORE US AGGBD ET",
         "issuer": "ISHARES CORE US AGGREGATE BOND ETF",
-        "shares": 873733.0,
-        "value_usd": 86482092.0,
-        "weight_pct": 24.2
+        "shares": 836433.0,
+        "value_usd": 79076376.0,
+        "weight_pct": 23.61
       },
       {
         "cusip": "921937793",
-        "security_class": "LONG TERM",
-        "issuer": "VANGUARD LONG-TERM BOND INDEX FUND",
+        "security_class": "LONG TERM BOND",
+        "issuer": "VANGUARD LONG-TERM BOND ETF",
         "shares": 599208.0,
-        "value_usd": 41303407.0,
-        "weight_pct": 11.56
+        "value_usd": 37588318.0,
+        "weight_pct": 11.22
       },
       {
         "cusip": "464287655",
-        "security_class": "RUSSELL 20",
+        "security_class": "RUSSELL 2000 ETF",
         "issuer": "ISHARES RUSSELL  ETF",
         "shares": 121345.0,
-        "value_usd": 36458105.0,
-        "weight_pct": 10.2
+        "value_usd": 33720562.0,
+        "weight_pct": 10.07
       },
       {
         "cusip": "464287234",
-        "security_class": "MSCI EMG M",
+        "security_class": "MSCI EMG MKT ETF",
         "issuer": "ISHARES MSCI EMERGING MARKETS ETF",
         "shares": 202478.0,
-        "value_usd": 13851520.0,
-        "weight_pct": 3.88
+        "value_usd": 13523506.0,
+        "weight_pct": 4.04
       },
       {
         "cusip": "464287465",
-        "security_class": "MSCI EAFE",
+        "security_class": "MSCI EAFE ETF",
         "issuer": "ISHARES MSCI EAFE ETF",
         "shares": 116347.0,
-        "value_usd": 12086126.0,
-        "weight_pct": 3.38
-      },
-      {
-        "cusip": "92206C409",
-        "security_class": "SHRT TRM C",
-        "issuer": "VANGUARD SHORT-TERM CORPORATE BOND",
-        "shares": 91419.0,
-        "value_usd": 7224844.0,
-        "weight_pct": 2.02
+        "value_usd": 12087290.0,
+        "weight_pct": 3.61
       },
       {
         "cusip": "92206C102",
-        "security_class": "SHORT TERM",
-        "issuer": "VANGUARD SHORT-TERM TREASURY INDEX",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SHORT-TERM TREASURY ETF",
         "shares": 123600.0,
-        "value_usd": 7193520.0,
-        "weight_pct": 2.01
+        "value_usd": 7114416.0,
+        "weight_pct": 2.12
       },
       {
-        "cusip": "46090E103",
-        "security_class": "UNIT SER 1",
-        "issuer": "INVESCO QQQ TRUST, SERIES TRUST",
-        "shares": 6900.0,
-        "value_usd": 5081160.0,
-        "weight_pct": 1.42
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SHORT-TERM CORPORATE BOND",
+        "shares": 91419.0,
+        "value_usd": 7062118.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES IBOXX $ HIGH YIELD CORPORA",
+        "shares": 60500.0,
+        "value_usd": 4671205.0,
+        "weight_pct": 1.39
       },
       {
         "cusip": "808524797",
-        "security_class": "US DIVIDEN",
+        "security_class": "US DIVIDEND EQ",
         "issuer": "SCHWAB US DIVIDEND EQUITY ETF",
-        "shares": 160200.0,
-        "value_usd": 5079942.0,
-        "weight_pct": 1.42
+        "shares": 130200.0,
+        "value_usd": 4235406.0,
+        "weight_pct": 1.26
       }
     ],
-    "top_five_pct": 88.39,
-    "top_ten_pct": 98.65,
-    "hhi": 2350.49,
+    "top_five_pct": 88.24,
+    "top_ten_pct": 98.74,
+    "hhi": 2372.42,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 0,
-      "exited_positions": 0,
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 9,
       "increased_positions": 0,
-      "reduced_positions": 6
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001628280-26-056851"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001628280-26-073958"
       }
     ]
   },
-  "reported_13f_value_usd": 357433227.0,
+  "reported_13f_value_usd": 334889980.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001628280-26-056851",
+  "validated_accession": "0001628280-26-073958",
   "annualized_turnover_proxy_pct": null
 }

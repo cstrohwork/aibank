@@ -1,28 +1,37 @@
 {
   "manager_cik": "0001803307",
   "investor_name": "ION Crossover Partners Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Herzliya Pituach",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1803307/0001178913-26-004151.txt"
+    "https://www.sec.gov/Archives/edgar/data/1803307/0001178913-26-004151.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803307/0001178913-26-005251.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "15c1b4a671f66dd04949d3eb8f060f1f1b8233859929db44b1f8b615e7278e1e",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "97516e7a86cf02412db13bf3b170ab132c4ae93c799e33a444c247d565b495e3",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "400da86011e42b3dbf8f8002076014e35c2d36bd",
+    "b2d33cb95952d312ad161f50d4ea4349db795e73"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001178913-26-004151",
-    "source": "https://www.sec.gov/Archives/edgar/data/1803307/0001178913-26-004151.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001178913-26-005251",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803307/0001178913-26-005251.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 74672370.0,
+    "reported_long_equity_value_usd": 112579625.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,40 +40,51 @@
         "security_class": "COM CL A",
         "issuer": "VIA TRANSN INC",
         "shares": 2844179.0,
-        "value_usd": 51593407.0,
-        "weight_pct": 69.09
+        "value_usd": 86036415.0,
+        "weight_pct": 76.42
       },
       {
         "cusip": "M84137104",
         "security_class": "SHS",
         "issuer": "SIMILARWEB LTD",
         "shares": 3030826.0,
-        "value_usd": 18578963.0,
-        "weight_pct": 24.88
+        "value_usd": 23519210.0,
+        "weight_pct": 20.89
       },
       {
         "cusip": "M8744T106",
         "security_class": "ORD SHS",
         "issuer": "TABOOLA.COM LTD",
         "shares": 900000.0,
-        "value_usd": 4500000.0,
-        "weight_pct": 6.03
+        "value_usd": 3024000.0,
+        "weight_pct": 2.69
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5429.21,
-    "changes": null,
+    "hhi": 6284.09,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001178913-26-004151"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001178913-26-005251"
       }
     ]
   },
-  "reported_13f_value_usd": 74672370.0,
+  "reported_13f_value_usd": 112579625.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001178913-26-004151",
+  "validated_accession": "0001178913-26-005251",
   "annualized_turnover_proxy_pct": null
 }

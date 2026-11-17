@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001426749",
   "investor_name": "Ancient Art, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "AUSTIN",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1426749/0001426749-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1426749/0001426749-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1426749/0001426749-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1426749/0001426749-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "806ab1da1282fb0e3d4aabe34cec8c6be6322fb6e753b191cb4ecc0161eb2f86",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "bf9e8c1337a35bc8753066913659d7e0459b52635e823ed669548a1b7d0c6f1f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1dc766fd5daa9a54f8195070485265da8e62e09e",
+    "de1117f2944c9c929806a4864cf7ac6adab3b828",
+    "efdf83662457f652b899d33c68a4cda88d7a6d1f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001426749-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1426749/0001426749-26-000003.txt",
-    "distinct_positions": 16,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001426749-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1426749/0001426749-26-000006.txt",
+    "distinct_positions": 15,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 489387995.0,
+    "reported_long_equity_value_usd": 450935957.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM CL A",
         "issuer": "INTERACTIVE BROKERS GROUP IN",
         "shares": 1285193.0,
-        "value_usd": 111863199.0,
-        "weight_pct": 22.86
-      },
-      {
-        "cusip": "98954M200",
-        "security_class": "CL C CAP STK",
-        "issuer": "ZILLOW GROUP INC",
-        "shares": 2160359.0,
-        "value_usd": 68094516.0,
-        "weight_pct": 13.91
+        "value_usd": 109781186.0,
+        "weight_pct": 24.35
       },
       {
         "cusip": "91688F104",
         "security_class": "COM",
         "issuer": "UPWORK INC",
         "shares": 7228530.0,
-        "value_usd": 60430511.0,
-        "weight_pct": 12.35
+        "value_usd": 58984805.0,
+        "weight_pct": 13.08
+      },
+      {
+        "cusip": "98954M200",
+        "security_class": "CL C CAP STK",
+        "issuer": "ZILLOW GROUP INC",
+        "shares": 2060359.0,
+        "value_usd": 55897540.0,
+        "weight_pct": 12.4
+      },
+      {
+        "cusip": "22266T109",
+        "security_class": "CL A",
+        "issuer": "COUPANG INC",
+        "shares": 4016850.0,
+        "value_usd": 55713710.0,
+        "weight_pct": 12.36
       },
       {
         "cusip": "02005N100",
         "security_class": "COM",
         "issuer": "ALLY FINL INC",
         "shares": 1308399.0,
-        "value_usd": 60120934.0,
-        "weight_pct": 12.28
-      },
-      {
-        "cusip": "22266T109",
-        "security_class": "CL A",
-        "issuer": "COUPANG INC",
-        "shares": 1784799.0,
-        "value_usd": 31001959.0,
-        "weight_pct": 6.33
+        "value_usd": 49221970.0,
+        "weight_pct": 10.92
       },
       {
         "cusip": "77311W101",
         "security_class": "COM CL A",
         "issuer": "ROCKET COS INC",
-        "shares": 1500000.0,
-        "value_usd": 23625000.0,
-        "weight_pct": 4.83
-      },
-      {
-        "cusip": "37637K108",
-        "security_class": "CLASS A COM",
-        "issuer": "GITLAB INC",
-        "shares": 750000.0,
-        "value_usd": 22897500.0,
-        "weight_pct": 4.68
-      },
-      {
-        "cusip": "85209W109",
-        "security_class": "COM CL A",
-        "issuer": "SPROUT SOCIAL INC",
-        "shares": 2537074.0,
-        "value_usd": 19154909.0,
-        "weight_pct": 3.91
-      },
-      {
-        "cusip": "35909R108",
-        "security_class": "COM",
-        "issuer": "FRONTIER GROUP HLDGS INC",
-        "shares": 2395119.0,
-        "value_usd": 18945391.0,
-        "weight_pct": 3.87
+        "shares": 1600000.0,
+        "value_usd": 18416000.0,
+        "weight_pct": 4.08
       },
       {
         "cusip": "G0896C103",
         "security_class": "CL A COM",
         "issuer": "BBB FOODS INC",
-        "shares": 451497.0,
-        "value_usd": 18813880.0,
-        "weight_pct": 3.84
+        "shares": 312437.0,
+        "value_usd": 16446684.0,
+        "weight_pct": 3.65
+      },
+      {
+        "cusip": "G4R20B107",
+        "security_class": "CLASS A COM",
+        "issuer": "INTER & CO INC",
+        "shares": 3000741.0,
+        "value_usd": 16023957.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "87422Q109",
+        "security_class": "COM",
+        "issuer": "TALEN ENERGY CORP",
+        "shares": 50000.0,
+        "value_usd": 15634500.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "87507T101",
+        "security_class": "COM",
+        "issuer": "TAMBORAN RES CORP",
+        "shares": 437142.0,
+        "value_usd": 14408200.0,
+        "weight_pct": 3.2
       }
     ],
-    "top_five_pct": 67.74,
-    "top_ten_pct": 88.88,
-    "hhi": 1184.39,
+    "top_five_pct": 73.09,
+    "top_ten_pct": 91.04,
+    "hhi": 1277.72,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 2,
-      "increased_positions": 2,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 3,
+      "increased_positions": 3,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001426749-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001426749-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 489387995.0,
+  "reported_13f_value_usd": 450935957.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001426749-26-000003",
+  "validated_accession": "0001426749-26-000006",
   "annualized_turnover_proxy_pct": null
 }

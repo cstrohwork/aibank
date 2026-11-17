@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001562087",
+  "investor_name": "Thiel Macro LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "MIAMI",
+  "state": "FL",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1562087/0001315863-25-000812.txt",
+    "https://www.sec.gov/Archives/edgar/data/1562087/0001315863-26-000593.txt",
+    "https://www.sec.gov/Archives/edgar/data/1562087/0001315863-26-000787.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "78de2c12033093b4889d7f22512558e0f3d404040db7eb14c63029b8790ac582",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3a22f3a4ec066a21232a4433d55fe1c0cd3429f6",
+    "50cbcea69512a5f733624b2b2f910afc0d1b4ff1",
+    "ef503ea7992973229b8c70249e3a9f4c3ec1cc0c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001315863-26-000787",
+    "source": "https://www.sec.gov/Archives/edgar/data/1562087/0001315863-26-000787.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 460194159.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 283068.0,
+        "value_usd": 160963788.0,
+        "weight_pct": 34.98
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 495000.0,
+        "value_usd": 123329250.0,
+        "weight_pct": 26.8
+      },
+      {
+        "cusip": "92837L109",
+        "security_class": "SPONSORED ADS",
+        "issuer": "VISTA ENERGY S.A.B. DE C.V.",
+        "shares": 1886835.0,
+        "value_usd": 123304667.0,
+        "weight_pct": 26.79
+      },
+      {
+        "cusip": "92840M102",
+        "security_class": "COM",
+        "issuer": "VISTRA CORP",
+        "shares": 372755.0,
+        "value_usd": 51570654.0,
+        "weight_pct": 11.21
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 2000.0,
+        "value_usd": 1025800.0,
+        "weight_pct": 0.22
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 2785.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 5,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001315863-25-000812"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001315863-26-000593"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001315863-26-000787"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 460194159.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001315863-26-000787",
+  "annualized_turnover_proxy_pct": null
+}

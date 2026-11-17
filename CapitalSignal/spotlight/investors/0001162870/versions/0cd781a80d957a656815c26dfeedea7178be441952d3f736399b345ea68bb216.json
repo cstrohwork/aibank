@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001162870",
+  "investor_name": "WARBURG PINCUS LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1162870/0001104659-25-112546.txt",
+    "https://www.sec.gov/Archives/edgar/data/1162870/0001104659-26-097166.txt",
+    "https://www.sec.gov/Archives/edgar/data/1162870/0001104659-26-128334.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "0cd781a80d957a656815c26dfeedea7178be441952d3f736399b345ea68bb216",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "85a5a1c958386be78a300e1c06ed04427f36d388",
+    "86ea67ebbee62620dc8753700a79392756377573",
+    "aa56738d83fcca15d1247f53dbc80820b5b0759c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128334",
+    "source": "https://www.sec.gov/Archives/edgar/data/1162870/0001104659-26-128334.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 914717253.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "559663109",
+        "security_class": "CL A",
+        "issuer": "MAGNOLIA OIL & GAS CORP (1)",
+        "shares": 32203000.0,
+        "value_usd": 756448470.0,
+        "weight_pct": 82.7
+      },
+      {
+        "cusip": "675234108",
+        "security_class": "COM",
+        "issuer": "OCEANFIRST FINANCIAL CORP.",
+        "shares": 9574639.0,
+        "value_usd": 158268783.0,
+        "weight_pct": 17.3
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7138.26,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-112546"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-097166"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128334"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 914717253.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-128334",
+  "annualized_turnover_proxy_pct": null
+}

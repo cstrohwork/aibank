@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001313756",
   "investor_name": "Owl Creek Asset Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1313756/0001172661-25-005072.txt",
-    "https://www.sec.gov/Archives/edgar/data/1313756/0001172661-26-003787.txt"
+    "https://www.sec.gov/Archives/edgar/data/1313756/0001172661-26-003787.txt",
+    "https://www.sec.gov/Archives/edgar/data/1313756/0001172661-26-005201.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0f06e4f85d5b5cebd724624c7e7c57b583d1271a9f07dc569f44235cad36ab31",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e1e12d0e4ccbb947336aede13a7d95c7d9599d644895af2a711924deac31301f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "05be5030234b77b45bccd5fae4d117e036d6df1a",
+    "3a1fc5425f4983909f9e4b7567243ee4ba8f9973",
+    "3fbfb6599af16ffb5977688997fb69fbdcec8034"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003787",
-    "source": "https://www.sec.gov/Archives/edgar/data/1313756/0001172661-26-003787.txt",
-    "distinct_positions": 31,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005201",
+    "source": "https://www.sec.gov/Archives/edgar/data/1313756/0001172661-26-005201.txt",
+    "distinct_positions": 22,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1127933505.0,
+    "reported_long_equity_value_usd": 748987539.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,90 +43,90 @@
         "security_class": "COM",
         "issuer": "ANTERIX INC",
         "shares": 5411776.0,
-        "value_usd": 557088221.0,
-        "weight_pct": 49.39
+        "value_usd": 424824416.0,
+        "weight_pct": 56.72
       },
       {
         "cusip": "590479408",
         "security_class": "COM SHS",
         "issuer": "REPUBLIC AWYS HLDGS INC",
-        "shares": 4278689.0,
-        "value_usd": 89895256.0,
-        "weight_pct": 7.97
+        "shares": 4280953.0,
+        "value_usd": 77314011.0,
+        "weight_pct": 10.32
       },
       {
         "cusip": "69331C108",
         "security_class": "COM",
         "issuer": "PG&E CORP",
-        "shares": 4726388.0,
-        "value_usd": 79497846.0,
-        "weight_pct": 7.05
+        "shares": 5099032.0,
+        "value_usd": 62463142.0,
+        "weight_pct": 8.34
       },
       {
         "cusip": "G3730V105",
         "security_class": "SHS",
         "issuer": "FTAI AVIATION LTD",
-        "shares": 127453.0,
-        "value_usd": 34479860.0,
-        "weight_pct": 3.06
+        "shares": 141186.0,
+        "value_usd": 23582298.0,
+        "weight_pct": 3.15
       },
       {
-        "cusip": "03831W108",
-        "security_class": "COM CL A",
-        "issuer": "APPLOVIN CORP",
-        "shares": 54304.0,
-        "value_usd": 27979050.0,
-        "weight_pct": 2.48
-      },
-      {
-        "cusip": "011659109",
+        "cusip": "55024U109",
         "security_class": "COM",
-        "issuer": "ALASKA AIR GROUP INC",
-        "shares": 482112.0,
-        "value_usd": 25166246.0,
-        "weight_pct": 2.23
+        "issuer": "LUMENTUM HLDGS INC",
+        "shares": 18104.0,
+        "value_usd": 17583691.0,
+        "weight_pct": 2.35
       },
       {
-        "cusip": "03990B101",
-        "security_class": "CL A COM STK",
-        "issuer": "ARES MANAGEMENT CORPORATION",
-        "shares": 220118.0,
-        "value_usd": 24501335.0,
-        "weight_pct": 2.17
+        "cusip": "19247G107",
+        "security_class": "COM",
+        "issuer": "COHERENT CORP",
+        "shares": 60773.0,
+        "value_usd": 17491077.0,
+        "weight_pct": 2.34
       },
       {
-        "cusip": "25809K105",
+        "cusip": "92552V100",
+        "security_class": "COM",
+        "issuer": "VIASAT INC",
+        "shares": 204021.0,
+        "value_usd": 14358998.0,
+        "weight_pct": 1.92
+      },
+      {
+        "cusip": "443201108",
+        "security_class": "COM",
+        "issuer": "HOWMET AEROSPACE INC",
+        "shares": 61942.0,
+        "value_usd": 14010042.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "Y2573F102",
+        "security_class": "ORD",
+        "issuer": "FLEX LTD",
+        "shares": 113359.0,
+        "value_usd": 12468356.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "03748R747",
         "security_class": "CL A",
-        "issuer": "DOORDASH INC",
-        "shares": 130176.0,
-        "value_usd": 24021377.0,
-        "weight_pct": 2.13
-      },
-      {
-        "cusip": "92840M102",
-        "security_class": "COM",
-        "issuer": "VISTRA CORP",
-        "shares": 149799.0,
-        "value_usd": 23762615.0,
-        "weight_pct": 2.11
-      },
-      {
-        "cusip": "V7780T103",
-        "security_class": "COM",
-        "issuer": "ROYAL CARIBBEAN GROUP",
-        "shares": 69856.0,
-        "value_usd": 22181376.0,
-        "weight_pct": 1.97
+        "issuer": "APARTMENT INVT & MGMT CO",
+        "shares": 6046400.0,
+        "value_usd": 11971872.0,
+        "weight_pct": 1.6
       }
     ],
-    "top_five_pct": 69.95,
-    "top_ten_pct": 80.55,
-    "hhi": 2615.4,
+    "top_five_pct": 80.88,
+    "top_ten_pct": 90.26,
+    "hhi": 3435.18,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 19,
-      "increased_positions": 4,
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 15,
+      "increased_positions": 5,
       "reduced_positions": 9
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003787"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005201"
       }
     ]
   },
-  "reported_13f_value_usd": 1127933505.0,
+  "reported_13f_value_usd": 748987539.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003787",
+  "validated_accession": "0001172661-26-005201",
   "annualized_turnover_proxy_pct": null
 }

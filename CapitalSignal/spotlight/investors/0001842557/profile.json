@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001842557",
   "investor_name": "Tandem Wealth Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PHOENIX",
   "state": "AZ",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1842557/0001842557-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/1842557/0001842557-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1842557/0001842557-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1842557/0001842557-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ecf42897a9cb9931b6cb91847eb4ec9433c7e20f347860fb7fa15bd18b745738",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "eeb8f2ce3369b5febb219130c1b445b5863468a5dc73ccf8cc4b125930889757",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1d0481934cd15aed4d88209fcc130b0ad2d12b88",
+    "4045d983d578dc2b25571cdaae249f29c3490ec3",
+    "510df59c391524d4b604c5d2aa02e811f6843d11"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001842557-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1842557/0001842557-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001842557-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842557/0001842557-26-000005.txt",
     "distinct_positions": 48,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 251247866.0,
+    "reported_long_equity_value_usd": 255412932.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD ETF",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 393311.0,
+        "value_usd": 30383282.0,
+        "weight_pct": 11.9
+      },
+      {
         "cusip": "78467Y107",
-        "security_class": "ETF",
-        "issuer": "SPDR S&P Mid Cap 400 ETF",
-        "shares": 41156.0,
-        "value_usd": 28946902.0,
-        "weight_pct": 11.52
+        "security_class": "UTSER1 S&PDCRP",
+        "issuer": "SPDR S&P MIDCAP 400 ETF TR",
+        "shares": 42720.0,
+        "value_usd": 28054403.0,
+        "weight_pct": 10.98
       },
       {
         "cusip": "464287465",
-        "security_class": "ETF",
-        "issuer": "iShares MSCI EAFE ETF",
-        "shares": 244341.0,
-        "value_usd": 25382132.0,
-        "weight_pct": 10.1
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "ISHARES TR",
+        "shares": 254747.0,
+        "value_usd": 26465697.0,
+        "weight_pct": 10.36
       },
       {
         "cusip": "464287234",
-        "security_class": "ETF",
-        "issuer": "iShares MSCI Emerging Markets ETF",
-        "shares": 347610.0,
-        "value_usd": 23779978.0,
-        "weight_pct": 9.46
-      },
-      {
-        "cusip": "464287226",
-        "security_class": "ETF",
-        "issuer": "iShares Core U.S. Aggregate Bond ETF",
-        "shares": 235324.0,
-        "value_usd": 23292400.0,
-        "weight_pct": 9.27
-      },
-      {
-        "cusip": "92206C409",
-        "security_class": "ETF",
-        "issuer": "Vanguard Short-Term Corporate Bond Index Fund ETF",
-        "shares": 278252.0,
-        "value_usd": 21990218.0,
-        "weight_pct": 8.75
+        "security_class": "MSCI EMG MKT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 361066.0,
+        "value_usd": 24115615.0,
+        "weight_pct": 9.44
       },
       {
         "cusip": "46434V621",
-        "security_class": "ETF",
-        "issuer": "iShares Core Dividend Growth ETF",
-        "shares": 231146.0,
-        "value_usd": 17518578.0,
-        "weight_pct": 6.97
+        "security_class": "CORE DIV GRWTH",
+        "issuer": "ISHARES TR",
+        "shares": 232951.0,
+        "value_usd": 17562165.0,
+        "weight_pct": 6.88
       },
       {
         "cusip": "78462F103",
-        "security_class": "ETF",
-        "issuer": "SPDR S&P 500 ETF",
-        "shares": 22120.0,
-        "value_usd": 16518626.0,
-        "weight_pct": 6.57
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 22318.0,
+        "value_usd": 17020161.0,
+        "weight_pct": 6.66
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 162427.0,
+        "value_usd": 15355808.0,
+        "weight_pct": 6.01
       },
       {
         "cusip": "46137V357",
-        "security_class": "ETF",
-        "issuer": "Invesco S&P 500 Equal Weight ETF",
-        "shares": 71243.0,
-        "value_usd": 15158275.0,
-        "weight_pct": 6.03
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 71814.0,
+        "value_usd": 14938709.0,
+        "weight_pct": 5.85
       },
       {
         "cusip": "46429B655",
-        "security_class": "ETF",
-        "issuer": "iShares Floating Rate Bond ETF",
-        "shares": 269317.0,
-        "value_usd": 13748610.0,
-        "weight_pct": 5.47
+        "security_class": "FLTG RATE NT ETF",
+        "issuer": "ISHARES TR",
+        "shares": 278427.0,
+        "value_usd": 14213680.0,
+        "weight_pct": 5.56
       },
       {
         "cusip": "464288588",
-        "security_class": "ETF",
-        "issuer": "iShares MBS ETF",
-        "shares": 133260.0,
-        "value_usd": 12595780.0,
-        "weight_pct": 5.01
+        "security_class": "MBS ETF",
+        "issuer": "ISHARES TR",
+        "shares": 138940.0,
+        "value_usd": 12451818.0,
+        "weight_pct": 4.88
       }
     ],
-    "top_five_pct": 49.11,
-    "top_ten_pct": 79.18,
-    "hhi": 692.46,
+    "top_five_pct": 49.56,
+    "top_ten_pct": 78.52,
+    "hhi": 698.29,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
-      "exited_positions": 4,
-      "increased_positions": 36,
-      "reduced_positions": 7
+      "previous_period": "2026-06-30",
+      "new_positions": 48,
+      "exited_positions": 48,
+      "increased_positions": 0,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001842557-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001842557-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 251247866.0,
+  "reported_13f_value_usd": 255412932.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001842557-26-000003",
+  "validated_accession": "0001842557-26-000005",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001990717",
+  "investor_name": "TRV GP V, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Boston",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1990717/0001193125-25-280200.txt",
+    "https://www.sec.gov/Archives/edgar/data/1990717/0001193125-26-340725.txt",
+    "https://www.sec.gov/Archives/edgar/data/1990717/0001193125-26-463550.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "4e8c059d38b32bdc8db9162ece6e11cf8da554f241c151ed2ab51ac61b6f6364",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3cbe46183db96f48260b28645f254ed5e7063e07",
+    "53ff01bd8ea032160e18406d6a6784e42d07b877",
+    "ca7265398a340abbf425acf937d19ce05e9d2d51"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463550",
+    "source": "https://www.sec.gov/Archives/edgar/data/1990717/0001193125-26-463550.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 474980000.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "81734D104",
+        "security_class": "COM",
+        "issuer": "SEPTERNA, INC.",
+        "shares": 6068391.0,
+        "value_usd": 237456140.0,
+        "weight_pct": 49.99
+      },
+      {
+        "cusip": "75383L102",
+        "security_class": "COM",
+        "issuer": "RAPPORT THERAPEUTICS, INC.",
+        "shares": 6280525.0,
+        "value_usd": 211025640.0,
+        "weight_pct": 44.43
+      },
+      {
+        "cusip": "578784100",
+        "security_class": "COM",
+        "issuer": "MAZE THERAPEUTICS, INC.",
+        "shares": 950800.0,
+        "value_usd": 25842744.0,
+        "weight_pct": 5.44
+      },
+      {
+        "cusip": "128058302",
+        "security_class": "COM",
+        "issuer": "LISATA THERAPEUTICS, INC.",
+        "shares": 455192.0,
+        "value_usd": 655476.0,
+        "weight_pct": 0.14
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4502.78,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001193125-25-280200"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001193125-26-340725"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463550"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 474980000.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-463550",
+  "annualized_turnover_proxy_pct": null
+}

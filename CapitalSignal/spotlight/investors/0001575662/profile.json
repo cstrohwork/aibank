@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001575662",
   "investor_name": "Lionstone Capital Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1575662/0001193125-25-282101.txt",
-    "https://www.sec.gov/Archives/edgar/data/1575662/0001193125-26-350682.txt"
+    "https://www.sec.gov/Archives/edgar/data/1575662/0001193125-26-350682.txt",
+    "https://www.sec.gov/Archives/edgar/data/1575662/0001193125-26-462147.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "08e8debf984bf1901b46ec4b6cf4adc2d7345b0034f11c81e788d1ef400c4d4d",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "c2b571124bb2c94d2cd61a92642034516c1b9f47ee288895316e837bdc373967",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0bb83082b347c3760245f25d149a731ba6921b31",
+    "37292ec8f6e3bf92eb26ce7626b301a57eb1257e",
+    "394b778c79378cc8f103f329b9c5f347094467c7"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001193125-26-350682",
-    "source": "https://www.sec.gov/Archives/edgar/data/1575662/0001193125-26-350682.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-462147",
+    "source": "https://www.sec.gov/Archives/edgar/data/1575662/0001193125-26-462147.txt",
+    "distinct_positions": 12,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 434997855.0,
+    "reported_long_equity_value_usd": 407489774.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM STK",
         "issuer": "API GROUP CORP",
         "shares": 2476270.0,
-        "value_usd": 104870035.0,
-        "weight_pct": 24.11
+        "value_usd": 95584022.0,
+        "weight_pct": 23.46
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
         "shares": 233545.0,
-        "value_usd": 82518455.0,
-        "weight_pct": 18.97
+        "value_usd": 79578123.0,
+        "weight_pct": 19.53
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
         "shares": 279740.0,
-        "value_usd": 66673232.0,
-        "weight_pct": 15.33
-      },
-      {
-        "cusip": "82846H405",
-        "security_class": "COM NEW",
-        "issuer": "QXO INC",
-        "shares": 2558740.0,
-        "value_usd": 44215027.0,
-        "weight_pct": 10.16
+        "value_usd": 69697221.0,
+        "weight_pct": 17.1
       },
       {
         "cusip": "33767E202",
         "security_class": "COM",
         "issuer": "FIRSTSERVICE CORP NEW",
-        "shares": 290920.0,
-        "value_usd": 41342641.0,
-        "weight_pct": 9.5
+        "shares": 299226.0,
+        "value_usd": 38265021.0,
+        "weight_pct": 9.39
       },
       {
         "cusip": "31488V107",
         "security_class": "COMMON STOCK NEW",
         "issuer": "FERGUSON ENTERPRISES INC",
         "shares": 161048.0,
-        "value_usd": 38221522.0,
-        "weight_pct": 8.79
+        "value_usd": 35852506.0,
+        "weight_pct": 8.8
       },
       {
         "cusip": "78409V104",
         "security_class": "COM",
         "issuer": "S&P GLOBAL INC",
         "shares": 84000.0,
-        "value_usd": 34209840.0,
-        "weight_pct": 7.86
+        "value_usd": 33135480.0,
+        "weight_pct": 8.13
+      },
+      {
+        "cusip": "82846H405",
+        "security_class": "COM NEW",
+        "issuer": "QXO INC",
+        "shares": 2727365.0,
+        "value_usd": 31882897.0,
+        "weight_pct": 7.82
       },
       {
         "cusip": "217204106",
         "security_class": "COM",
         "issuer": "COPART INC",
         "shares": 776300.0,
-        "value_usd": 21883897.0,
-        "weight_pct": 5.03
+        "value_usd": 21177464.0,
+        "weight_pct": 5.2
       },
       {
-        "cusip": "530307305",
-        "security_class": "COM SER C",
-        "issuer": "LIBERTY BROADBAND CORP",
-        "shares": 24605.0,
-        "value_usd": 818362.0,
-        "weight_pct": 0.19
+        "cusip": "60744M106",
+        "security_class": "COM SHS",
+        "issuer": "MOBILITY GLOBAL INC",
+        "shares": 84000.0,
+        "value_usd": 1440600.0,
+        "weight_pct": 0.35
       },
       {
-        "cusip": "36164V800",
-        "security_class": "SER C GCI GROUP",
-        "issuer": "LIBERTY CAP CORP",
-        "shares": 6810.0,
-        "value_usd": 146824.0,
-        "weight_pct": 0.03
+        "cusip": "16119P108",
+        "security_class": "CL A",
+        "issuer": "CHARTER COMMUNICATIONS INC",
+        "shares": 5806.0,
+        "value_usd": 643885.0,
+        "weight_pct": 0.16
       }
     ],
-    "top_five_pct": 78.07,
-    "top_ten_pct": 99.98,
-    "hhi": 1534.03,
+    "top_five_pct": 78.28,
+    "top_ten_pct": 99.94,
+    "hhi": 1544.24,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 2,
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
       "increased_positions": 2,
-      "reduced_positions": 3
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001193125-26-350682"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-462147"
       }
     ]
   },
-  "reported_13f_value_usd": 434997855.0,
+  "reported_13f_value_usd": 407489774.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-350682",
+  "validated_accession": "0001193125-26-462147",
   "annualized_turnover_proxy_pct": null
 }

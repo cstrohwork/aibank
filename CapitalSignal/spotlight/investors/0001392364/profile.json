@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001392364",
   "investor_name": "L & S Advisors Inc",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Los Angeles",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1392364/0001104659-25-108437.txt",
-    "https://www.sec.gov/Archives/edgar/data/1392364/0001104659-26-094673.txt"
+    "https://www.sec.gov/Archives/edgar/data/1392364/0001104659-26-094673.txt",
+    "https://www.sec.gov/Archives/edgar/data/1392364/0001104659-26-127921.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7161936143ad1bdea3a589af033535fd22803d6f44774f8709959f7355023593",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "ce72daee19f2b33df4db64245f6e8808c815a9ed2c7f31c9ac5ff104fe22b322",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "38dc427fcd239e9c46420fa053245e55b2e6809c",
+    "827fceb16caa678e308c27c375fd77234ac7ca2e",
+    "d25bb785d875e5e6f11cc1cd3db479d23c299585"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001104659-26-094673",
-    "source": "https://www.sec.gov/Archives/edgar/data/1392364/0001104659-26-094673.txt",
-    "distinct_positions": 236,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127921",
+    "source": "https://www.sec.gov/Archives/edgar/data/1392364/0001104659-26-127921.txt",
+    "distinct_positions": 223,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 967412770.0,
+    "reported_long_equity_value_usd": 902067458.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 91162.0,
-        "value_usd": 26378716.0,
-        "weight_pct": 2.73
+        "shares": 103497.0,
+        "value_usd": 34466656.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "COM",
+        "issuer": "ENERGY SELECT SPDR",
+        "shares": 525629.0,
+        "value_usd": 32326159.0,
+        "weight_pct": 3.58
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORP",
-        "shares": 104102.0,
-        "value_usd": 20829815.0,
-        "weight_pct": 2.15
-      },
-      {
-        "cusip": "78462F103",
-        "security_class": "COM",
-        "issuer": "SPDR S&P 500 ETF",
-        "shares": 25568.0,
-        "value_usd": 19093071.0,
-        "weight_pct": 1.97
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "COM",
-        "issuer": "ALPHABET INC A",
-        "shares": 50353.0,
-        "value_usd": 17994517.0,
-        "weight_pct": 1.86
-      },
-      {
-        "cusip": "149123101",
-        "security_class": "COM",
-        "issuer": "CATERPILLAR INC",
-        "shares": 15032.0,
-        "value_usd": 16007577.0,
-        "weight_pct": 1.65
-      },
-      {
-        "cusip": "58933Y105",
-        "security_class": "COM",
-        "issuer": "MERCK & CO INC",
-        "shares": 120404.0,
-        "value_usd": 15471914.0,
-        "weight_pct": 1.6
-      },
-      {
-        "cusip": "38141G104",
-        "security_class": "COM",
-        "issuer": "GOLDMAN SACHS",
-        "shares": 15101.0,
-        "value_usd": 15272357.0,
-        "weight_pct": 1.58
-      },
-      {
-        "cusip": "874039100",
-        "security_class": "COM",
-        "issuer": "TAIWAN SEMICONDUCTOR",
-        "shares": 31300.0,
-        "value_usd": 14947941.0,
-        "weight_pct": 1.55
+        "shares": 125211.0,
+        "value_usd": 28595740.0,
+        "weight_pct": 3.17
       },
       {
         "cusip": "532457108",
         "security_class": "COM",
         "issuer": "ELI LILLY & COMPANY",
-        "shares": 12439.0,
-        "value_usd": 14919474.0,
-        "weight_pct": 1.54
+        "shares": 20602.0,
+        "value_usd": 23837828.0,
+        "weight_pct": 2.64
       },
       {
-        "cusip": "172967424",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "CITIGROUP INC",
-        "shares": 102988.0,
-        "value_usd": 14414225.0,
-        "weight_pct": 1.49
+        "issuer": "MICROSOFT CORPORATION",
+        "shares": 42092.0,
+        "value_usd": 21589128.0,
+        "weight_pct": 2.39
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COM",
+        "issuer": "ALPHABET INC A",
+        "shares": 62720.0,
+        "value_usd": 21580682.0,
+        "weight_pct": 2.39
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 132697.0,
+        "value_usd": 19282201.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COM",
+        "issuer": "META PLATFORMS INC",
+        "shares": 26073.0,
+        "value_usd": 18907294.0,
+        "weight_pct": 2.1
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "COM",
+        "issuer": "SPDR S&P 500 ETF",
+        "shares": 24657.0,
+        "value_usd": 18804317.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM LIMITED",
+        "shares": 48899.0,
+        "value_usd": 17172726.0,
+        "weight_pct": 1.9
       }
     ],
-    "top_five_pct": 10.37,
-    "top_ten_pct": 18.12,
-    "hhi": 97.13,
+    "top_five_pct": 15.61,
+    "top_ten_pct": 26.22,
+    "hhi": 139.35,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 68,
-      "exited_positions": 47,
-      "increased_positions": 58,
-      "reduced_positions": 98
+      "previous_period": "2026-06-30",
+      "new_positions": 30,
+      "exited_positions": 43,
+      "increased_positions": 77,
+      "reduced_positions": 88
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001104659-26-094673"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127921"
       }
     ]
   },
-  "reported_13f_value_usd": 967412770.0,
+  "reported_13f_value_usd": 902067458.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-094673",
+  "validated_accession": "0001104659-26-127921",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001695078",
   "investor_name": "Faithward Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LANCASTER",
   "state": "PA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1695078/0001398344-25-021081.txt",
-    "https://www.sec.gov/Archives/edgar/data/1695078/0001398344-26-014139.txt"
+    "https://www.sec.gov/Archives/edgar/data/1695078/0001398344-26-014139.txt",
+    "https://www.sec.gov/Archives/edgar/data/1695078/0001398344-26-020162.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "94545f3cd06870665ea023f78396aa9db30db0cceb4b200f70dc3ebe5c8466c5",
-  "generated_at": "2026-11-15T21:21:24.592669+00:00",
+  "source_fingerprint": "694631b3b92875214cdf21465a5e3a974fd2826752242c5dec023b761cb94538",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-19|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "417358e9479ab68af2c17edaef4dbe8dede115d1",
+    "4c19ded075f44102e7dfce80d7befc1737072fda",
+    "4e9ba6977189830171cae8bd74cbc50438187090"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001398344-26-014139",
-    "source": "https://www.sec.gov/Archives/edgar/data/1695078/0001398344-26-014139.txt",
-    "distinct_positions": 339,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001398344-26-020162",
+    "source": "https://www.sec.gov/Archives/edgar/data/1695078/0001398344-26-020162.txt",
+    "distinct_positions": 350,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 819395589.0,
+    "reported_long_equity_value_usd": 841152966.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "66538H633",
         "security_class": "INSPIRE CORP BD",
         "issuer": "NORTHERN LTS FD TR IV",
-        "shares": 1715901.0,
-        "value_usd": 40786956.0,
-        "weight_pct": 4.98
+        "shares": 1915332.0,
+        "value_usd": 44052628.0,
+        "weight_pct": 5.24
       },
       {
         "cusip": "66538H369",
         "security_class": "INSPI GROWT ETF",
         "issuer": "NORTHERN LTS FD TR IV",
-        "shares": 736729.0,
-        "value_usd": 32187679.0,
-        "weight_pct": 3.93
+        "shares": 734758.0,
+        "value_usd": 27854693.0,
+        "weight_pct": 3.31
       },
       {
-        "cusip": "092528603",
-        "security_class": "ISHA FLEX IN ETF",
-        "issuer": "BLACKROCK ETF TRUST II",
-        "shares": 404716.0,
-        "value_usd": 21182829.0,
-        "weight_pct": 2.59
+        "cusip": "337959407",
+        "security_class": "BRIG PORT BD ETF",
+        "issuer": "FIS TR",
+        "shares": 925851.0,
+        "value_usd": 22308194.0,
+        "weight_pct": 2.65
       },
       {
         "cusip": "26923N660",
         "security_class": "IDX DY FI IN ETF",
         "issuer": "ETF OPPORTUNITIES TRUST",
-        "shares": 901650.0,
-        "value_usd": 20525784.0,
-        "weight_pct": 2.5
-      },
-      {
-        "cusip": "86280R811",
-        "security_class": "EVEN HIGH DI ETF",
-        "issuer": "STRATEGY SHS",
-        "shares": 544378.0,
-        "value_usd": 17893718.0,
-        "weight_pct": 2.18
-      },
-      {
-        "cusip": "464285204",
-        "security_class": "ISHARES NEW",
-        "issuer": "ISHARES GOLD TR",
-        "shares": 228192.0,
-        "value_usd": 17230778.0,
-        "weight_pct": 2.1
-      },
-      {
-        "cusip": "482480100",
-        "security_class": "COM NEW",
-        "issuer": "KLA CORP",
-        "shares": 56415.0,
-        "value_usd": 17020996.0,
-        "weight_pct": 2.08
-      },
-      {
-        "cusip": "66538H419",
-        "security_class": "INSPIRE INTL ETF",
-        "issuer": "NORTHERN LTS FD TR IV",
-        "shares": 441139.0,
-        "value_usd": 16820633.0,
-        "weight_pct": 2.05
+        "shares": 1005174.0,
+        "value_usd": 22305212.0,
+        "weight_pct": 2.65
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 73044.0,
-        "value_usd": 14615440.0,
-        "weight_pct": 1.78
+        "shares": 75874.0,
+        "value_usd": 17328013.0,
+        "weight_pct": 2.06
+      },
+      {
+        "cusip": "66538H419",
+        "security_class": "INSPIRE INTL ETF",
+        "issuer": "NORTHERN LTS FD TR IV",
+        "shares": 439804.0,
+        "value_usd": 17051187.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "86280R811",
+        "security_class": "EVEN HIGH DI ETF",
+        "issuer": "STRATEGY SHS",
+        "shares": 537013.0,
+        "value_usd": 16276870.0,
+        "weight_pct": 1.94
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 46051.0,
-        "value_usd": 13325312.0,
+        "shares": 44459.0,
+        "value_usd": 14805680.0,
+        "weight_pct": 1.76
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 20313.0,
+        "value_usd": 14236221.0,
+        "weight_pct": 1.69
+      },
+      {
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 36567.0,
+        "value_usd": 13684913.0,
         "weight_pct": 1.63
       }
     ],
-    "top_five_pct": 16.18,
-    "top_ten_pct": 25.82,
-    "hhi": 124.77,
+    "top_five_pct": 15.91,
+    "top_ten_pct": 24.95,
+    "hhi": 121.51,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 92,
-      "exited_positions": 57,
-      "increased_positions": 114,
-      "reduced_positions": 131
+      "previous_period": "2026-06-30",
+      "new_positions": 35,
+      "exited_positions": 24,
+      "increased_positions": 192,
+      "reduced_positions": 108
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001398344-26-014139"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001398344-26-020162"
       }
     ]
   },
-  "reported_13f_value_usd": 819395589.0,
+  "reported_13f_value_usd": 841152966.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001398344-26-014139",
+  "validated_accession": "0001398344-26-020162",
   "annualized_turnover_proxy_pct": null
 }

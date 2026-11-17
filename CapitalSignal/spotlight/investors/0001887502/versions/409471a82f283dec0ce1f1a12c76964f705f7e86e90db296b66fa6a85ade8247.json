@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001887502",
+  "investor_name": "Raine Group LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1887502/0001012975-25-000764.txt",
+    "https://www.sec.gov/Archives/edgar/data/1887502/0001012975-26-000780.txt",
+    "https://www.sec.gov/Archives/edgar/data/1887502/0001012975-26-001069.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "409471a82f283dec0ce1f1a12c76964f705f7e86e90db296b66fa6a85ade8247",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "266c44140da986f1e8854e6b1831e701d4e29fd0",
+    "a1ad406b8c51e2ef74645d35918c4ffea5004e5e",
+    "a433368183cc2030a7aa0a04eb3d210a228a7e9b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001012975-26-001069",
+    "source": "https://www.sec.gov/Archives/edgar/data/1887502/0001012975-26-001069.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 8829658.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "808524201",
+        "security_class": "US LRG CAP ETF",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 215168.0,
+        "value_usd": 6455040.0,
+        "weight_pct": 73.11
+      },
+      {
+        "cusip": "92206C573",
+        "security_class": "TOTAL CORP BND",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 32347.0,
+        "value_usd": 2354218.0,
+        "weight_pct": 26.66
+      },
+      {
+        "cusip": "073463309",
+        "security_class": "COM CL A NEW",
+        "issuer": "THE BEACHBODY COMPANY INC",
+        "shares": 4331.0,
+        "value_usd": 20400.0,
+        "weight_pct": 0.23
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6055.49,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001012975-25-000764"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001012975-26-000780"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001012975-26-001069"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 8829658.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001012975-26-001069",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001380393",
   "investor_name": "Fortress Investment Group LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1380393/0001085146-25-005998.txt",
-    "https://www.sec.gov/Archives/edgar/data/1380393/0001085146-26-000610.txt"
+    "https://www.sec.gov/Archives/edgar/data/1380393/0001085146-26-000610.txt",
+    "https://www.sec.gov/Archives/edgar/data/1380393/0001380393-26-000001.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9a8858a9fdb9366ad836a8aa411149cc5b0fc5c7474607de83103ec6a802e90a",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "fa20f2955fe5d8b17f8605eb099da0d780dd7768bbc3885a12e6bd84901e914e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1c6f51b4671c48380dcb3a79a8da9f3532b99260",
+    "3cd3b44cd2b9b533e722d1cf928822e7d70ec72f",
+    "a5b295e5697f8634b5c005d18b682a9ede7585e3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001085146-26-000610",
-    "source": "https://www.sec.gov/Archives/edgar/data/1380393/0001085146-26-000610.txt",
-    "distinct_positions": 25,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001380393-26-000001",
+    "source": "https://www.sec.gov/Archives/edgar/data/1380393/0001380393-26-000001.txt",
+    "distinct_positions": 29,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 530649141.0,
+    "reported_long_equity_value_usd": 489902726.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,90 +43,90 @@
         "security_class": "COMMON STOCK",
         "issuer": "NEXTNAV INC",
         "shares": 18167792.0,
-        "value_usd": 323931731.0,
-        "weight_pct": 61.04
+        "value_usd": 261252849.0,
+        "weight_pct": 53.33
       },
       {
         "cusip": "33767U107",
         "security_class": "COM",
         "issuer": "FIRSTSUN CAP BANCORP",
         "shares": 2196449.0,
-        "value_usd": 85178292.0,
-        "weight_pct": 16.05
+        "value_usd": 84804896.0,
+        "weight_pct": 17.31
       },
       {
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
         "shares": 1325000.0,
-        "value_usd": 44109250.0,
-        "weight_pct": 8.31
+        "value_usd": 62725500.0,
+        "weight_pct": 12.8
       },
       {
         "cusip": "72814P109",
         "security_class": "COM",
         "issuer": "PLAYBOY INC",
-        "shares": 14684769.0,
-        "value_usd": 17915418.0,
-        "weight_pct": 3.38
-      },
-      {
-        "cusip": "49177J102",
-        "security_class": "COM",
-        "issuer": "KENVUE INC",
-        "shares": 339446.0,
-        "value_usd": 6486813.0,
-        "weight_pct": 1.22
-      },
-      {
-        "cusip": "530307305",
-        "security_class": "COM SER C",
-        "issuer": "LIBERTY BROADBAND CORP",
-        "shares": 170038.0,
-        "value_usd": 5655464.0,
-        "weight_pct": 1.07
+        "shares": 11827626.0,
+        "value_usd": 12123317.0,
+        "weight_pct": 2.47
       },
       {
         "cusip": "70975L107",
         "security_class": "COM",
         "issuer": "PENUMBRA INC",
-        "shares": 17141.0,
-        "value_usd": 5412271.0,
-        "weight_pct": 1.02
+        "shares": 29838.0,
+        "value_usd": 9498629.0,
+        "weight_pct": 1.94
       },
       {
-        "cusip": "03770N101",
+        "cusip": "49177J102",
         "security_class": "COM",
-        "issuer": "APOGEE THERAPEUTICS INC",
-        "shares": 40105.0,
-        "value_usd": 5323137.0,
-        "weight_pct": 1.0
+        "issuer": "KENVUE INC",
+        "shares": 495466.0,
+        "value_usd": 8749930.0,
+        "weight_pct": 1.79
       },
       {
-        "cusip": "644393100",
+        "cusip": "77543R102",
         "security_class": "COM CL A",
-        "issuer": "NEW FORTRESS ENERGY INC",
-        "shares": 13399317.0,
-        "value_usd": 4863952.0,
-        "weight_pct": 0.92
+        "issuer": "ROKU INC",
+        "shares": 52197.0,
+        "value_usd": 7948559.0,
+        "weight_pct": 1.62
       },
       {
-        "cusip": "09073M104",
+        "cusip": "57060D108",
         "security_class": "COM",
-        "issuer": "BIO-TECHNE CORP",
-        "shares": 67000.0,
-        "value_usd": 4733550.0,
-        "weight_pct": 0.89
+        "issuer": "MARKETAXESS HLDGS INC",
+        "shares": 38408.0,
+        "value_usd": 6295839.0,
+        "weight_pct": 1.29
+      },
+      {
+        "cusip": "21037T109",
+        "security_class": "COM",
+        "issuer": "CONSTELLATION ENERGY CORP",
+        "shares": 22500.0,
+        "value_usd": 5715450.0,
+        "weight_pct": 1.17
+      },
+      {
+        "cusip": "139737100",
+        "security_class": "COM",
+        "issuer": "CAPITAL BANCORP INC MD",
+        "shares": 85027.0,
+        "value_usd": 3342411.0,
+        "weight_pct": 0.68
       }
     ],
-    "top_five_pct": 90.01,
-    "top_ten_pct": 94.9,
-    "hhi": 4073.95,
+    "top_five_pct": 87.86,
+    "top_ten_pct": 94.4,
+    "hhi": 3329.06,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 20,
-      "exited_positions": 41,
-      "increased_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 13,
+      "increased_positions": 3,
       "reduced_positions": 1
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001085146-26-000610"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001380393-26-000001"
       }
     ]
   },
-  "reported_13f_value_usd": 530649141.0,
+  "reported_13f_value_usd": 489902726.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001085146-26-000610",
+  "validated_accession": "0001380393-26-000001",
   "annualized_turnover_proxy_pct": null
 }

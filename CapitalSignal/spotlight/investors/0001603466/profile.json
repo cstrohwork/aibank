@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001603466",
   "investor_name": "Point72 Asset Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1603466/0000902664-25-005042.txt",
-    "https://www.sec.gov/Archives/edgar/data/1603466/0000919574-26-005520.txt"
+    "https://www.sec.gov/Archives/edgar/data/1603466/0000919574-26-005520.txt",
+    "https://www.sec.gov/Archives/edgar/data/1603466/0000919574-26-008126.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "29a4066045c91c965acb889b1bb76115bb6930e06680564501c0b0cede71121f",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "f4a4cc28b7143a2050fdf5c2c50d05aaf28c4020bf74f1a5b2f084a6a925e79a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2fe16b0890876aaa6ead672074c822edaf6b9cc3",
+    "cc4080aebd3e38fecf2e8da02e063c6e26b2065a",
+    "ea5b88c79270f281eba22a2844f18d12055b6a86"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005520",
-    "source": "https://www.sec.gov/Archives/edgar/data/1603466/0000919574-26-005520.txt",
-    "distinct_positions": 1913,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-008126",
+    "source": "https://www.sec.gov/Archives/edgar/data/1603466/0000919574-26-008126.txt",
+    "distinct_positions": 1916,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 62899401216.0,
+    "reported_long_equity_value_usd": 60506656151.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "G25457105",
-        "security_class": "ORDINARY SHARES",
-        "issuer": "CREDO TECHNOLOGY GROUP HOLDI",
-        "shares": 6153132.0,
-        "value_usd": 1673344247.0,
-        "weight_pct": 2.66
-      },
-      {
-        "cusip": "N07059210",
-        "security_class": "N Y REGISTRY SHS",
-        "issuer": "ASML HLDG NV",
-        "shares": 554661.0,
-        "value_usd": 1103464780.0,
-        "weight_pct": 1.75
-      },
-      {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 4449716.0,
-        "value_usd": 1060545311.0,
-        "weight_pct": 1.69
+        "shares": 4364619.0,
+        "value_usd": 1087444824.0,
+        "weight_pct": 1.8
       },
       {
-        "cusip": "55306N104",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "MKS INC.",
-        "shares": 1996843.0,
-        "value_usd": 888195766.0,
-        "weight_pct": 1.41
+        "issuer": "MICROSOFT CORP",
+        "shares": 2055578.0,
+        "value_usd": 1054305956.0,
+        "weight_pct": 1.74
+      },
+      {
+        "cusip": "G25457105",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "CREDO TECHNOLOGY GROUP HOLDI",
+        "shares": 4597235.0,
+        "value_usd": 895495406.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 6087662.0,
+        "value_usd": 731919602.0,
+        "weight_pct": 1.21
       },
       {
         "cusip": "040413205",
         "security_class": "COM SHS",
         "issuer": "ARISTA NETWORKS INC",
-        "shares": 5139737.0,
-        "value_usd": 873138522.0,
-        "weight_pct": 1.39
+        "shares": 3544119.0,
+        "value_usd": 721547187.0,
+        "weight_pct": 1.19
       },
       {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 822914.0,
-        "value_usd": 794112010.0,
-        "weight_pct": 1.26
-      },
-      {
-        "cusip": "007903107",
+        "cusip": "15101Q207",
         "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 1328436.0,
-        "value_usd": 771701757.0,
-        "weight_pct": 1.23
-      },
-      {
-        "cusip": "874039100",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 1603897.0,
-        "value_usd": 765973090.0,
-        "weight_pct": 1.22
-      },
-      {
-        "cusip": "833445109",
-        "security_class": "COM SHS",
-        "issuer": "SNOWFLAKE INC",
-        "shares": 2813766.0,
-        "value_usd": 716103447.0,
-        "weight_pct": 1.14
+        "issuer": "CELESTICA INC",
+        "shares": 1886416.0,
+        "value_usd": 681810569.0,
+        "weight_pct": 1.13
       },
       {
         "cusip": "742718109",
         "security_class": "COM",
         "issuer": "PROCTER & GAMBLE CO",
-        "shares": 4322996.0,
-        "value_usd": 633924133.0,
-        "weight_pct": 1.01
+        "shares": 3995849.0,
+        "value_usd": 580516943.0,
+        "weight_pct": 0.96
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 3035777.0,
+        "value_usd": 563592000.0,
+        "weight_pct": 0.93
+      },
+      {
+        "cusip": "833445109",
+        "security_class": "COM SHS",
+        "issuer": "SNOWFLAKE INC",
+        "shares": 1630831.0,
+        "value_usd": 553764974.0,
+        "weight_pct": 0.92
+      },
+      {
+        "cusip": "81141R100",
+        "security_class": "SPONSORD ADS",
+        "issuer": "SEA LTD",
+        "shares": 5427574.0,
+        "value_usd": 528428605.0,
+        "weight_pct": 0.87
       }
     ],
-    "top_five_pct": 8.9,
-    "top_ten_pct": 14.75,
-    "hhi": 44.88,
+    "top_five_pct": 7.42,
+    "top_ten_pct": 12.23,
+    "hhi": 37.01,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1149,
-      "exited_positions": 525,
-      "increased_positions": 488,
-      "reduced_positions": 272
+      "previous_period": "2026-06-30",
+      "new_positions": 624,
+      "exited_positions": 621,
+      "increased_positions": 656,
+      "reduced_positions": 607
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005520"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-008126"
       }
     ]
   },
-  "reported_13f_value_usd": 62899401216.0,
+  "reported_13f_value_usd": 60506656151.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005520",
+  "validated_accession": "0000919574-26-008126",
   "annualized_turnover_proxy_pct": null
 }

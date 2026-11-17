@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001713390",
   "investor_name": "Kontiki Capital Management (HK) Ltd.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Hong Kong",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1713390/0000899140-25-001307.txt",
-    "https://www.sec.gov/Archives/edgar/data/1713390/0000899140-26-000804.txt"
+    "https://www.sec.gov/Archives/edgar/data/1713390/0000899140-26-000804.txt",
+    "https://www.sec.gov/Archives/edgar/data/1713390/0000899140-26-001323.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e39e1bbee6f41e9981b059b9a7a752e55104e4f0715fa93075d25874111188c8",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "0339d53209340991adf1fb71d3df9542674db66554fe7aea67d4084e6eb4329b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3cb0d63fb5bc8dbb5ed5fcc912f495ddfcc88c72",
+    "9166244a46a64a796d466c15cfe3705df87f8bd6",
+    "eb5dbf6f0359e22e6fdad80b9ddac0cd3b321202"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0000899140-26-000804",
-    "source": "https://www.sec.gov/Archives/edgar/data/1713390/0000899140-26-000804.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001323",
+    "source": "https://www.sec.gov/Archives/edgar/data/1713390/0000899140-26-001323.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1524856302.0,
+    "reported_long_equity_value_usd": 1304120026.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,68 +42,68 @@
         "cusip": "G6683N103",
         "security_class": "ORD SHS CL A",
         "issuer": "NU HLDGS LTD",
-        "shares": 39032382.0,
-        "value_usd": 521472624.0,
-        "weight_pct": 34.2
-      },
-      {
-        "cusip": "22266T109",
-        "security_class": "CL A",
-        "issuer": "COUPANG INC",
-        "shares": 13050169.0,
-        "value_usd": 226681436.0,
-        "weight_pct": 14.87
+        "shares": 28415130.0,
+        "value_usd": 359735546.0,
+        "weight_pct": 27.58
       },
       {
         "cusip": "40415F101",
         "security_class": "SPONSORED ADS",
         "issuer": "HDFC BANK LTD",
-        "shares": 8424500.0,
-        "value_usd": 217604835.0,
-        "weight_pct": 14.27
+        "shares": 8569985.0,
+        "value_usd": 191453465.0,
+        "weight_pct": 14.68
       },
       {
         "cusip": "81141R100",
         "security_class": "SPONSORD ADS",
         "issuer": "SEA LTD",
-        "shares": 1896564.0,
-        "value_usd": 181747728.0,
-        "weight_pct": 11.92
+        "shares": 1928834.0,
+        "value_usd": 187791278.0,
+        "weight_pct": 14.4
       },
       {
-        "cusip": "829933100",
-        "security_class": "COMMON STOCK",
-        "issuer": "SIRIUSXM HOLDINGS INC",
-        "shares": 6082824.0,
-        "value_usd": 179686621.0,
-        "weight_pct": 11.78
+        "cusip": "22266T109",
+        "security_class": "CL A",
+        "issuer": "COUPANG INC",
+        "shares": 13274279.0,
+        "value_usd": 184114250.0,
+        "weight_pct": 14.12
       },
       {
         "cusip": "44332N106",
         "security_class": "SPONSORED ADS",
         "issuer": "H WORLD GROUP LTD",
-        "shares": 3774658.0,
-        "value_usd": 157478732.0,
-        "weight_pct": 10.33
+        "shares": 4133510.0,
+        "value_usd": 176914228.0,
+        "weight_pct": 13.57
+      },
+      {
+        "cusip": "829933100",
+        "security_class": "COMMON STOCK",
+        "issuer": "SIRIUSXM HOLDINGS INC",
+        "shares": 6187164.0,
+        "value_usd": 160123804.0,
+        "weight_pct": 12.28
       },
       {
         "cusip": "36164V800",
         "security_class": "SER C GCI GROUP",
         "issuer": "LIBERTY CAP CORP",
-        "shares": 1863837.0,
-        "value_usd": 40184326.0,
-        "weight_pct": 2.64
+        "shares": 1896011.0,
+        "value_usd": 43987455.0,
+        "weight_pct": 3.37
       }
     ],
-    "top_five_pct": 87.04,
+    "top_five_pct": 84.35,
     "top_ten_pct": 100.0,
-    "hhi": 1988.67,
+    "hhi": 1729.26,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 1,
-      "increased_positions": 4,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 6,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -104,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0000899140-26-000804"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001323"
       }
     ]
   },
-  "reported_13f_value_usd": 1524856302.0,
+  "reported_13f_value_usd": 1304120026.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000899140-26-000804",
+  "validated_accession": "0000899140-26-001323",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001322924",
   "investor_name": "S SQUARED TECHNOLOGY, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "RYE",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1322924/0001322924-25-000013.txt",
-    "https://www.sec.gov/Archives/edgar/data/1322924/0001322924-26-000011.txt"
+    "https://www.sec.gov/Archives/edgar/data/1322924/0001322924-26-000011.txt",
+    "https://www.sec.gov/Archives/edgar/data/1322924/0001322924-26-000015.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ca1b1f199c28dc367e924037c9c02a208986c20fee395d37189d028f0774db34",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "f3a8061db6ec3403462f30d3b63a43197070a0adf70cc31dbb448b0661f83e58",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "33eba5375f79aad154c33cd11be8b76da78fb267",
+    "35fc05a6ff64bcb2dd2671f298f237673c70722a",
+    "780182f352d940005bb2d54121415ae6be217e09"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001322924-26-000011",
-    "source": "https://www.sec.gov/Archives/edgar/data/1322924/0001322924-26-000011.txt",
-    "distinct_positions": 33,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001322924-26-000015",
+    "source": "https://www.sec.gov/Archives/edgar/data/1322924/0001322924-26-000015.txt",
+    "distinct_positions": 34,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 322270970.0,
+    "reported_long_equity_value_usd": 304139328.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "518415104",
         "security_class": "COM",
         "issuer": "LATTICE SEMICONDUCTOR CORP",
-        "shares": 254979.0,
-        "value_usd": 39001588.0,
-        "weight_pct": 12.1
+        "shares": 284979.0,
+        "value_usd": 35799062.0,
+        "weight_pct": 11.77
       },
       {
         "cusip": "501147102",
         "security_class": "COM",
         "issuer": "KRYSTAL BIOTECH INC",
-        "shares": 77545.0,
-        "value_usd": 28821150.0,
-        "weight_pct": 8.94
-      },
-      {
-        "cusip": "743713109",
-        "security_class": "COM",
-        "issuer": "PROTO LABS INC",
-        "shares": 288120.0,
-        "value_usd": 23484661.0,
-        "weight_pct": 7.29
-      },
-      {
-        "cusip": "01749D105",
-        "security_class": "COM",
-        "issuer": "ALLEGRO MICROSYSTEMS INC",
-        "shares": 332451.0,
-        "value_usd": 23145239.0,
-        "weight_pct": 7.18
+        "shares": 72545.0,
+        "value_usd": 24125565.0,
+        "weight_pct": 7.93
       },
       {
         "cusip": "87151X101",
         "security_class": "CLASS A COM",
         "issuer": "SYMBOTIC INC",
-        "shares": 487126.0,
-        "value_usd": 21896314.0,
-        "weight_pct": 6.79
+        "shares": 502126.0,
+        "value_usd": 21124441.0,
+        "weight_pct": 6.95
       },
       {
-        "cusip": "44980X109",
+        "cusip": "743713109",
         "security_class": "COM",
-        "issuer": "IPG PHOTONICS CORP",
-        "shares": 168916.0,
-        "value_usd": 19817225.0,
-        "weight_pct": 6.15
-      },
-      {
-        "cusip": "23834J201",
-        "security_class": "CLASS A COM NEW",
-        "issuer": "DAVE INC",
-        "shares": 38040.0,
-        "value_usd": 14173324.0,
-        "weight_pct": 4.4
-      },
-      {
-        "cusip": "50077B207",
-        "security_class": "COM NEW",
-        "issuer": "KRATOS DEFENSE & SECURITY",
-        "shares": 249475.0,
-        "value_usd": 12438824.0,
-        "weight_pct": 3.86
-      },
-      {
-        "cusip": "91347P105",
-        "security_class": "COM",
-        "issuer": "UNIVERSAL DISPLAY CORP",
-        "shares": 136000.0,
-        "value_usd": 11776240.0,
-        "weight_pct": 3.65
+        "issuer": "PROTO LABS INC",
+        "shares": 220120.0,
+        "value_usd": 20878382.0,
+        "weight_pct": 6.86
       },
       {
         "cusip": "338307101",
         "security_class": "COM",
         "issuer": "FIVE9 INC",
-        "shares": 515195.0,
-        "value_usd": 10983957.0,
-        "weight_pct": 3.41
+        "shares": 495195.0,
+        "value_usd": 16841582.0,
+        "weight_pct": 5.54
+      },
+      {
+        "cusip": "44980X109",
+        "security_class": "COM",
+        "issuer": "IPG PHOTONICS CORP",
+        "shares": 201565.0,
+        "value_usd": 15778508.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "01749D105",
+        "security_class": "COM",
+        "issuer": "ALLEGRO MICROSYSTEMS INC",
+        "shares": 385451.0,
+        "value_usd": 14011144.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "M84137104",
+        "security_class": "SHS",
+        "issuer": "SIMILARWEB LTD",
+        "shares": 1751435.0,
+        "value_usd": 13591136.0,
+        "weight_pct": 4.47
+      },
+      {
+        "cusip": "74467Q103",
+        "security_class": "COM CL A",
+        "issuer": "PUBMATIC INC-CLASS A",
+        "shares": 698099.0,
+        "value_usd": 13075394.0,
+        "weight_pct": 4.3
+      },
+      {
+        "cusip": "55955D100",
+        "security_class": "COM",
+        "issuer": "MAGNITE INC",
+        "shares": 447862.0,
+        "value_usd": 11312994.0,
+        "weight_pct": 3.72
       }
     ],
-    "top_five_pct": 42.31,
-    "top_ten_pct": 63.78,
-    "hhi": 556.31,
+    "top_five_pct": 39.05,
+    "top_ten_pct": 61.33,
+    "hhi": 514.81,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 11,
-      "increased_positions": 14,
-      "reduced_positions": 10
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 13,
+      "reduced_positions": 11
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001322924-26-000011"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001322924-26-000015"
       }
     ]
   },
-  "reported_13f_value_usd": 322270970.0,
+  "reported_13f_value_usd": 304139328.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001322924-26-000011",
+  "validated_accession": "0001322924-26-000015",
   "annualized_turnover_proxy_pct": null
 }

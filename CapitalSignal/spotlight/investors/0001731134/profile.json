@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001731134",
   "investor_name": "MayTech Global Investments, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-29",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1731134/0001172661-25-004727.txt",
-    "https://www.sec.gov/Archives/edgar/data/1731134/0001172661-26-002894.txt"
+    "https://www.sec.gov/Archives/edgar/data/1731134/0001172661-26-002894.txt",
+    "https://www.sec.gov/Archives/edgar/data/1731134/0001172661-26-005226.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2ad909e79887ef6d41abb90b0cefdd50ed88c9140dae1d154164760076b293b8",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "2ccfaa6f2c08bb9d6564fee006091104c6de37b3a2689f1ed259d5874091a4e0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-07-29|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5b5ce06285b197f573b2750e05a4de03be957266",
+    "808adbaeb19a843864e6430ed713c0aa0a7f9708",
+    "939c10c5d7881dc65d6d73fc40a4922397a1da37"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-29",
-    "accession": "0001172661-26-002894",
-    "source": "https://www.sec.gov/Archives/edgar/data/1731134/0001172661-26-002894.txt",
-    "distinct_positions": 22,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005226",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731134/0001172661-26-005226.txt",
+    "distinct_positions": 25,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 900191627.0,
+    "reported_long_equity_value_usd": 1026034915.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 878980.0,
-        "value_usd": 175875745.0,
-        "weight_pct": 19.54
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 273112.0,
-        "value_usd": 96500260.0,
-        "weight_pct": 10.72
-      },
-      {
-        "cusip": "N07059210",
-        "security_class": "N Y REGISTRY SHS",
-        "issuer": "ASML HLDG NV",
-        "shares": 34952.0,
-        "value_usd": 69544107.0,
-        "weight_pct": 7.73
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 281682.0,
-        "value_usd": 67137017.0,
-        "weight_pct": 7.46
+        "shares": 890547.0,
+        "value_usd": 203383961.0,
+        "weight_pct": 19.82
       },
       {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
-        "shares": 113252.0,
-        "value_usd": 63796260.0,
-        "weight_pct": 7.09
+        "shares": 177716.0,
+        "value_usd": 128879522.0,
+        "weight_pct": 12.56
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 280398.0,
+        "value_usd": 95544372.0,
+        "weight_pct": 9.31
       },
       {
         "cusip": "697435105",
         "security_class": "COM",
         "issuer": "PALO ALTO NETWORKS INC",
-        "shares": 185946.0,
-        "value_usd": 63412821.0,
-        "weight_pct": 7.04
+        "shares": 190048.0,
+        "value_usd": 75509677.0,
+        "weight_pct": 7.36
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 285248.0,
+        "value_usd": 71070636.0,
+        "weight_pct": 6.93
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 35128.0,
+        "value_usd": 63649077.0,
+        "weight_pct": 6.2
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 148882.0,
-        "value_usd": 43081649.0,
+        "shares": 147707.0,
+        "value_usd": 49190648.0,
         "weight_pct": 4.79
-      },
-      {
-        "cusip": "58733R102",
-        "security_class": "COM",
-        "issuer": "MERCADOLIBRE INC",
-        "shares": 23135.0,
-        "value_usd": 39277804.0,
-        "weight_pct": 4.36
       },
       {
         "cusip": "57636Q104",
         "security_class": "CL A",
         "issuer": "MASTERCARD INCORPORATED",
-        "shares": 76229.0,
-        "value_usd": 39153953.0,
-        "weight_pct": 4.35
+        "shares": 76797.0,
+        "value_usd": 42354230.0,
+        "weight_pct": 4.13
       },
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 86646.0,
-        "value_usd": 30964681.0,
-        "weight_pct": 3.44
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE INC",
+        "shares": 23812.0,
+        "value_usd": 41168256.0,
+        "weight_pct": 4.01
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 27246.0,
+        "value_usd": 31531507.0,
+        "weight_pct": 3.07
       }
     ],
-    "top_five_pct": 52.53,
-    "top_ten_pct": 76.51,
-    "hhi": 841.15,
+    "top_five_pct": 55.98,
+    "top_ten_pct": 78.19,
+    "hhi": 889.37,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 8,
-      "increased_positions": 1,
-      "reduced_positions": 15
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 1,
+      "increased_positions": 17,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-29",
         "accession": "0001172661-26-002894"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005226"
       }
     ]
   },
-  "reported_13f_value_usd": 900191627.0,
+  "reported_13f_value_usd": 1026034915.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-002894",
+  "validated_accession": "0001172661-26-005226",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001536006",
   "investor_name": "Progeny 3, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "KIRKLAND",
   "state": "WA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1536006/0000899140-25-001311.txt",
-    "https://www.sec.gov/Archives/edgar/data/1536006/0000899140-26-000882.txt"
+    "https://www.sec.gov/Archives/edgar/data/1536006/0000899140-26-000882.txt",
+    "https://www.sec.gov/Archives/edgar/data/1536006/0000899140-26-001362.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e25d6e754f22b445936f9038468b9f9b896ae0a5b4be886ea7cbd54d375dad78",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "b25f6d50b29d3dcf552ea6bb6921299ed557e455534cdca870ce4f07aab850b2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "22ea411d7fcaf0b7065b6a23e0509e0209cf414c",
+    "68d4fea6ca674ef00da4e3838a839db67afb4411",
+    "b960ad13bedc6269f7cd9b2ee44f83bfab4e4e9e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000899140-26-000882",
-    "source": "https://www.sec.gov/Archives/edgar/data/1536006/0000899140-26-000882.txt",
-    "distinct_positions": 29,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001362",
+    "source": "https://www.sec.gov/Archives/edgar/data/1536006/0000899140-26-001362.txt",
+    "distinct_positions": 32,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1938092199.0,
+    "reported_long_equity_value_usd": 1867961306.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "CAMECO CORP",
         "shares": 2367131.0,
-        "value_usd": 241115964.0,
-        "weight_pct": 12.44
+        "value_usd": 205159244.0,
+        "weight_pct": 10.98
       },
       {
         "cusip": "45841N107",
         "security_class": "COM CL A",
         "issuer": "INTERACTIVE BROKERS GROUP IN",
         "shares": 2195640.0,
-        "value_usd": 191108506.0,
-        "weight_pct": 9.86
+        "value_usd": 187551569.0,
+        "weight_pct": 10.04
       },
       {
         "cusip": "00187Y100",
         "security_class": "COM STK",
         "issuer": "API GROUP CORP",
-        "shares": 3540787.0,
-        "value_usd": 149952329.0,
-        "weight_pct": 7.74
+        "shares": 3547247.0,
+        "value_usd": 136923734.0,
+        "weight_pct": 7.33
       },
       {
         "cusip": "00510N102",
         "security_class": "COM",
         "issuer": "TIC SOLUTIONS INC",
-        "shares": 15562990.0,
-        "value_usd": 125904589.0,
-        "weight_pct": 6.5
+        "shares": 15652965.0,
+        "value_usd": 130232669.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "78467J100",
+        "security_class": "COM",
+        "issuer": "SS&C TECHNOLOGIES HLDGS INC",
+        "shares": 1402900.0,
+        "value_usd": 108121503.0,
+        "weight_pct": 5.79
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
         "shares": 139069.0,
-        "value_usd": 104147383.0,
-        "weight_pct": 5.37
-      },
-      {
-        "cusip": "78467J100",
-        "security_class": "COM",
-        "issuer": "SS&C TECHNOLOGIES HLDGS INC",
-        "shares": 1332900.0,
-        "value_usd": 82706445.0,
-        "weight_pct": 4.27
+        "value_usd": 106505994.0,
+        "weight_pct": 5.7
       },
       {
         "cusip": "01877R108",
         "security_class": "UT LTD PART",
         "issuer": "ALLIANCE RESOURCE PARTNERS L",
-        "shares": 3248264.0,
-        "value_usd": 77893371.0,
-        "weight_pct": 4.02
+        "shares": 3267764.0,
+        "value_usd": 79373988.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 312800.0,
+        "value_usd": 77934120.0,
+        "weight_pct": 4.17
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
         "shares": 103300.0,
-        "value_usd": 70947473.0,
-        "weight_pct": 3.66
+        "value_usd": 72398838.0,
+        "weight_pct": 3.88
       },
       {
-        "cusip": "573284106",
+        "cusip": "293792107",
         "security_class": "COM",
-        "issuer": "MARTIN MARIETTA MATLS INC",
-        "shares": 113150.0,
-        "value_usd": 65253605.0,
-        "weight_pct": 3.37
-      },
-      {
-        "cusip": "83443Q103",
-        "security_class": "COM SHS",
-        "issuer": "SOLSTICE ADVANCED MATLS INC",
-        "shares": 731100.0,
-        "value_usd": 64775460.0,
-        "weight_pct": 3.34
+        "issuer": "ENTERPRISE PRODS PARTNERS L",
+        "shares": 1688631.0,
+        "value_usd": 60132150.0,
+        "weight_pct": 3.22
       }
     ],
-    "top_five_pct": 41.91,
-    "top_ten_pct": 60.56,
-    "hhi": 551.8,
+    "top_five_pct": 41.11,
+    "top_ten_pct": 62.33,
+    "hhi": 542.91,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 11,
-      "increased_positions": 7,
-      "reduced_positions": 6
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 2,
+      "increased_positions": 10,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000899140-26-000882"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001362"
       }
     ]
   },
-  "reported_13f_value_usd": 1938092199.0,
+  "reported_13f_value_usd": 1867961306.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000899140-26-000882",
+  "validated_accession": "0000899140-26-001362",
   "annualized_turnover_proxy_pct": null
 }

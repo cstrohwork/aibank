@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001801619",
   "investor_name": "BELLEVUE ASSET MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-04",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BELLEVUE",
   "state": "WA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1801619/0001801619-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1801619/0001801619-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1801619/0001801619-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1801619/0001801619-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "99db05ad436a3ff37d540a9e469f364b94a11ec24e7bd5ce92143d050c0b7d7b",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "bc588da5f113d37f6ee9b11a7461007b5ffe4c998731c6adb0375bb3e736e810",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-04|||",
+    "2026-06-30|2026-08-04|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1af8e5c0342e73e9f4ea8f62a93628c3e77afdec",
+    "37146f37d8fb6a1249e5173a6a85524b1ed58daa",
+    "89d7d4e3a02400ad39868c4935801ea05544c1f6"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-04",
-    "accession": "0001801619-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1801619/0001801619-26-000004.txt",
-    "distinct_positions": 578,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001801619-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1801619/0001801619-26-000005.txt",
+    "distinct_positions": 641,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 216736787.0,
+    "reported_long_equity_value_usd": 228211914.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 130090.0,
-        "value_usd": 48526223.0,
-        "weight_pct": 22.39
+        "shares": 121955.0,
+        "value_usd": 62551220.0,
+        "weight_pct": 27.41
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 53609.0,
-        "value_usd": 15512534.0,
-        "weight_pct": 7.16
+        "shares": 51827.0,
+        "value_usd": 17259454.0,
+        "weight_pct": 7.56
       },
       {
         "cusip": "14020G101",
         "security_class": "SHS CREAT UNIT",
         "issuer": "CAPITAL GROUP GROWTH ETF",
-        "shares": 250564.0,
-        "value_usd": 11826621.0,
-        "weight_pct": 5.46
+        "shares": 254113.0,
+        "value_usd": 12052624.0,
+        "weight_pct": 5.28
       },
       {
         "cusip": "33738R506",
         "security_class": "RISNG DIVD ACHIV",
         "issuer": "FIRST TR EXCHANGE-TRADED FD",
-        "shares": 143165.0,
-        "value_usd": 11604964.0,
-        "weight_pct": 5.35
+        "shares": 143432.0,
+        "value_usd": 11229328.0,
+        "weight_pct": 4.92
       },
       {
         "cusip": "33739Q200",
         "security_class": "FST LOW OPPT ETF",
         "issuer": "FIRST TR EXCHANGE- TRADED FD",
-        "shares": 179754.0,
-        "value_usd": 8948198.0,
-        "weight_pct": 4.13
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 26546.0,
-        "value_usd": 6326973.0,
-        "weight_pct": 2.92
-      },
-      {
-        "cusip": "22160K105",
-        "security_class": "COM",
-        "issuer": "COSTCO WHOLESALE CORPORATION",
-        "shares": 6626.0,
-        "value_usd": 6199239.0,
-        "weight_pct": 2.86
+        "shares": 177110.0,
+        "value_usd": 8582796.0,
+        "weight_pct": 3.76
       },
       {
         "cusip": "92204A702",
         "security_class": "INF TECH ETF",
         "issuer": "VANGUARD WORLD FD",
-        "shares": 51058.0,
-        "value_usd": 6102527.0,
-        "weight_pct": 2.82
+        "shares": 51074.0,
+        "value_usd": 6418482.0,
+        "weight_pct": 2.81
       },
       {
         "cusip": "09290C103",
         "security_class": "ISHARES US EQUIT",
         "issuer": "BLACKROCK ETF TRUST",
-        "shares": 88192.0,
-        "value_usd": 5997996.0,
-        "weight_pct": 2.77
+        "shares": 91456.0,
+        "value_usd": 6334298.0,
+        "weight_pct": 2.78
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 25067.0,
+        "value_usd": 6245443.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 6645.0,
+        "value_usd": 6049498.0,
+        "weight_pct": 2.65
       },
       {
         "cusip": "46641Q134",
         "security_class": "INTRNL RES EQT",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 66634.0,
-        "value_usd": 5496705.0,
-        "weight_pct": 2.54
+        "shares": 67489.0,
+        "value_usd": 5544963.0,
+        "weight_pct": 2.43
       }
     ],
-    "top_five_pct": 44.49,
-    "top_ten_pct": 58.39,
-    "hhi": 703.35,
+    "top_five_pct": 48.93,
+    "top_ten_pct": 62.34,
+    "hhi": 943.12,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 257,
-      "exited_positions": 166,
-      "increased_positions": 139,
-      "reduced_positions": 76
+      "previous_period": "2026-06-30",
+      "new_positions": 226,
+      "exited_positions": 163,
+      "increased_positions": 124,
+      "reduced_positions": 77
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-04",
         "accession": "0001801619-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001801619-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 216736787.0,
+  "reported_13f_value_usd": 228211914.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001801619-26-000004",
+  "validated_accession": "0001801619-26-000005",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001058854",
   "investor_name": "CANNELL CAPITAL LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-18",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ALTA",
   "state": "WY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1058854/0001420506-25-003414.txt",
-    "https://www.sec.gov/Archives/edgar/data/1058854/0001420506-26-001852.txt"
+    "https://www.sec.gov/Archives/edgar/data/1058854/0001420506-26-001852.txt",
+    "https://www.sec.gov/Archives/edgar/data/1058854/0001420506-26-002862.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e930d955907842541f0ebecd8e8ad70a2ca987ac0fdd3d5d609dac0a78bc6e7a",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "95607df6b7663ac1a8d94638745f73da1e2c29731a7c99a6bc16b9d99ad72c4d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-18|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1125679c7b0490f863a334515f3de4f8f970440f",
+    "7b9b14b028edea85a6a5ec1d72a164be51da1acd",
+    "ed1aaa38893295edd489e9cf842ec2f0a8d1ccad"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-18",
-    "accession": "0001420506-26-001852",
-    "source": "https://www.sec.gov/Archives/edgar/data/1058854/0001420506-26-001852.txt",
-    "distinct_positions": 34,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002862",
+    "source": "https://www.sec.gov/Archives/edgar/data/1058854/0001420506-26-002862.txt",
+    "distinct_positions": 29,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 143233628.0,
+    "reported_long_equity_value_usd": 112166413.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "04681Y103",
-        "security_class": "COM",
-        "issuer": "ATEGRITY SPECIALTY IN CO HO",
-        "shares": 490482.0,
-        "value_usd": 11791187.0,
-        "weight_pct": 8.23
-      },
       {
         "cusip": "83307B101",
         "security_class": "COM",
         "issuer": "SNDL INC",
         "shares": 8639381.0,
-        "value_usd": 11663164.0,
-        "weight_pct": 8.14
+        "value_usd": 11144801.0,
+        "weight_pct": 9.94
       },
       {
-        "cusip": "656811106",
+        "cusip": "04681Y103",
         "security_class": "COM",
-        "issuer": "NORTH AMERN CONSTR GROUP LTD",
-        "shares": 783691.0,
-        "value_usd": 10423090.0,
-        "weight_pct": 7.28
-      },
-      {
-        "cusip": "163092AF6",
-        "security_class": "NOTE 9/0",
-        "issuer": "CHEGG INC",
-        "shares": 8126000.0,
-        "value_usd": 7689634.0,
-        "weight_pct": 5.37
-      },
-      {
-        "cusip": "29765A101",
-        "security_class": "CL A",
-        "issuer": "ETHOS TECHNOLOGIES INC",
-        "shares": 408496.0,
-        "value_usd": 7410117.0,
-        "weight_pct": 5.17
+        "issuer": "ATEGRITY SPECIALTY IN CO HO",
+        "shares": 401323.0,
+        "value_usd": 10253803.0,
+        "weight_pct": 9.14
       },
       {
         "cusip": "602496101",
         "security_class": "COM",
         "issuer": "MIMEDX GROUP INC",
-        "shares": 1870436.0,
-        "value_usd": 7201179.0,
-        "weight_pct": 5.03
+        "shares": 1883794.0,
+        "value_usd": 8778480.0,
+        "weight_pct": 7.83
       },
       {
-        "cusip": "69120X206",
-        "security_class": "CL A NEW",
-        "issuer": "OWLET INC",
-        "shares": 1234053.0,
-        "value_usd": 7083464.0,
-        "weight_pct": 4.95
+        "cusip": "656811106",
+        "security_class": "COM",
+        "issuer": "NORTH AMERN CONSTR GROUP LTD",
+        "shares": 606504.0,
+        "value_usd": 7296243.0,
+        "weight_pct": 6.5
+      },
+      {
+        "cusip": "00181T107",
+        "security_class": "COM",
+        "issuer": "GOLD COM INC",
+        "shares": 152902.0,
+        "value_usd": 6509038.0,
+        "weight_pct": 5.8
       },
       {
         "cusip": "37959R103",
         "security_class": "COM CL A",
         "issuer": "GLOBAL INDEMNITY GROUP LLC",
         "shares": 257875.0,
-        "value_usd": 6454611.0,
-        "weight_pct": 4.51
+        "value_usd": 6317938.0,
+        "weight_pct": 5.63
       },
       {
-        "cusip": "68554V108",
-        "security_class": "COM",
-        "issuer": "ORASURE TECHNOLOGIES INC",
-        "shares": 1427419.0,
-        "value_usd": 6366289.0,
-        "weight_pct": 4.44
+        "cusip": "92852X103",
+        "security_class": "COMMON STOCK",
+        "issuer": "VITESSE ENERGY INC",
+        "shares": 357328.0,
+        "value_usd": 5967378.0,
+        "weight_pct": 5.32
       },
       {
-        "cusip": "00181T107",
+        "cusip": "69120X206",
+        "security_class": "CL A NEW",
+        "issuer": "OWLET INC",
+        "shares": 1054481.0,
+        "value_usd": 5546570.0,
+        "weight_pct": 4.94
+      },
+      {
+        "cusip": "746228303",
+        "security_class": "COM NEW",
+        "issuer": "PURE CYCLE CORP",
+        "shares": 468822.0,
+        "value_usd": 5175795.0,
+        "weight_pct": 4.61
+      },
+      {
+        "cusip": "02913V103",
         "security_class": "COM",
-        "issuer": "GOLD COM INC",
-        "shares": 152691.0,
-        "value_usd": 6353473.0,
-        "weight_pct": 4.44
+        "issuer": "AMERICAN PUB ED INC",
+        "shares": 119152.0,
+        "value_usd": 5025831.0,
+        "weight_pct": 4.48
       }
     ],
-    "top_five_pct": 34.19,
-    "top_ten_pct": 57.55,
-    "hhi": 473.24,
+    "top_five_pct": 39.21,
+    "top_ten_pct": 64.2,
+    "hhi": 548.97,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 14,
-      "exited_positions": 35,
-      "increased_positions": 5,
-      "reduced_positions": 15
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 10,
+      "increased_positions": 11,
+      "reduced_positions": 11
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-18",
         "accession": "0001420506-26-001852"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002862"
       }
     ]
   },
-  "reported_13f_value_usd": 143233628.0,
+  "reported_13f_value_usd": 112166413.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001852",
+  "validated_accession": "0001420506-26-002862",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002103364",
   "investor_name": "KR Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK CITY",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2103364/0001172661-26-003651.txt"
+    "https://www.sec.gov/Archives/edgar/data/2103364/0001172661-26-003651.txt",
+    "https://www.sec.gov/Archives/edgar/data/2103364/0001172661-26-005107.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d78084c2e51f956f7027fa7dbc0fe17280ef1861059affd280927e0c3b61697d",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "49b68e66b5244927c430912bde1ea60795cfaee12d53bdb08b5d1fd4543da8d2",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "477901722f34babb268658729f8c31f7f8297c79",
+    "f35ad6961e782c07ef915ad8ab0e660c93958daf"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003651",
-    "source": "https://www.sec.gov/Archives/edgar/data/2103364/0001172661-26-003651.txt",
-    "distinct_positions": 79,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005107",
+    "source": "https://www.sec.gov/Archives/edgar/data/2103364/0001172661-26-005107.txt",
+    "distinct_positions": 92,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1008777237.0,
+    "reported_long_equity_value_usd": 1166958832.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "03852U106",
         "security_class": "COM",
         "issuer": "ARAMARK",
-        "shares": 1797740.0,
-        "value_usd": 102291406.0,
-        "weight_pct": 10.14
-      },
-      {
-        "cusip": "71377A103",
-        "security_class": "COM",
-        "issuer": "PERFORMANCE FOOD GROUP CO",
-        "shares": 525123.0,
-        "value_usd": 58703500.0,
-        "weight_pct": 5.82
-      },
-      {
-        "cusip": "53190C102",
-        "security_class": "COMMON STOCK",
-        "issuer": "LIFE TIME GROUP HOLDINGS INC",
-        "shares": 1318564.0,
-        "value_usd": 53850154.0,
-        "weight_pct": 5.34
+        "shares": 2097425.0,
+        "value_usd": 112317109.0,
+        "weight_pct": 9.62
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 188778.0,
-        "value_usd": 44993349.0,
-        "weight_pct": 4.46
+        "shares": 249099.0,
+        "value_usd": 62063016.0,
+        "weight_pct": 5.32
       },
       {
-        "cusip": "30303M102",
-        "security_class": "CL A",
-        "issuer": "META PLATFORMS INC",
-        "shares": 75619.0,
-        "value_usd": 42595427.0,
-        "weight_pct": 4.22
-      },
-      {
-        "cusip": "92826C839",
-        "security_class": "COM CL A",
-        "issuer": "VISA INC",
-        "shares": 103034.0,
-        "value_usd": 35349935.0,
-        "weight_pct": 3.5
-      },
-      {
-        "cusip": "29444U700",
+        "cusip": "71377A103",
         "security_class": "COM",
-        "issuer": "EQUINIX INC",
-        "shares": 28778.0,
-        "value_usd": 29997899.0,
-        "weight_pct": 2.97
+        "issuer": "PERFORMANCE FOOD GROUP CO",
+        "shares": 591849.0,
+        "value_usd": 54160102.0,
+        "weight_pct": 4.64
       },
       {
-        "cusip": "032095101",
-        "security_class": "CL A",
-        "issuer": "AMPHENOL CORP",
-        "shares": 152165.0,
-        "value_usd": 26829733.0,
-        "weight_pct": 2.66
+        "cusip": "53190C102",
+        "security_class": "COMMON STOCK",
+        "issuer": "LIFE TIME GROUP HOLDINGS INC",
+        "shares": 1071232.0,
+        "value_usd": 42720732.0,
+        "weight_pct": 3.66
       },
       {
-        "cusip": "146869102",
-        "security_class": "CL A",
-        "issuer": "CARVANA CO",
-        "shares": 370184.0,
-        "value_usd": 24365511.0,
-        "weight_pct": 2.42
-      },
-      {
-        "cusip": "231021106",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "CUMMINS INC",
-        "shares": 28573.0,
-        "value_usd": 20378549.0,
-        "weight_pct": 2.02
+        "issuer": "MICROSOFT CORP",
+        "shares": 77777.0,
+        "value_usd": 39891823.0,
+        "weight_pct": 3.42
+      },
+      {
+        "cusip": "375916103",
+        "security_class": "COM",
+        "issuer": "GILDAN ACTIVEWEAR INC",
+        "shares": 718830.0,
+        "value_usd": 30643723.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "92343E102",
+        "security_class": "COM",
+        "issuer": "VERISIGN INC",
+        "shares": 102038.0,
+        "value_usd": 28775736.0,
+        "weight_pct": 2.47
+      },
+      {
+        "cusip": "871607107",
+        "security_class": "COM",
+        "issuer": "SYNOPSYS INC",
+        "shares": 60520.0,
+        "value_usd": 26322569.0,
+        "weight_pct": 2.26
+      },
+      {
+        "cusip": "097023105",
+        "security_class": "COM",
+        "issuer": "BOEING CO",
+        "shares": 120760.0,
+        "value_usd": 22467398.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "36168Q104",
+        "security_class": "SUB VTG SHS",
+        "issuer": "GFL ENVIRONMENTAL INC",
+        "shares": 533259.0,
+        "value_usd": 22306224.0,
+        "weight_pct": 1.91
       }
     ],
-    "top_five_pct": 29.98,
-    "top_ten_pct": 43.55,
-    "hhi": 299.51,
-    "changes": null,
+    "top_five_pct": 26.66,
+    "top_ten_pct": 37.85,
+    "hhi": 256.74,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 45,
+      "exited_positions": 32,
+      "increased_positions": 29,
+      "reduced_positions": 18
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003651"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005107"
       }
     ]
   },
-  "reported_13f_value_usd": 1008777237.0,
+  "reported_13f_value_usd": 1166958832.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003651",
+  "validated_accession": "0001172661-26-005107",
   "annualized_turnover_proxy_pct": null
 }

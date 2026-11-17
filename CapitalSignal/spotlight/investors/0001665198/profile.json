@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001665198",
   "investor_name": "NorthCoast Asset Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1665198/0001665198-25-000016.txt",
-    "https://www.sec.gov/Archives/edgar/data/1665198/0001765380-26-000370.txt"
+    "https://www.sec.gov/Archives/edgar/data/1665198/0001765380-26-000370.txt",
+    "https://www.sec.gov/Archives/edgar/data/1665198/0001765380-26-000515.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "97e12ad1d73edec019983ce957263595bdaaab48c13a12da2fd9fb080ce467b4",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "719e2b78526771035205fc3d65cd7abc21dd09450d2267f7f5516261039ab322",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-10|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "60a9757b6b4b4a9ed4408c6a0c04a718769155ce",
+    "926f73cc6c0262c0e3ff6106540d09c763bc7b81",
+    "f684fa02e3b42297143121999f3effcf8b81da94"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001765380-26-000370",
-    "source": "https://www.sec.gov/Archives/edgar/data/1665198/0001765380-26-000370.txt",
-    "distinct_positions": 478,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001765380-26-000515",
+    "source": "https://www.sec.gov/Archives/edgar/data/1665198/0001765380-26-000515.txt",
+    "distinct_positions": 372,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4515159034.0,
+    "reported_long_equity_value_usd": 3327079148.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "037833100",
-        "security_class": "COMMON",
-        "issuer": "APPLE INC",
-        "shares": 913249.0,
-        "value_usd": 264257731.0,
-        "weight_pct": 5.85
-      },
-      {
         "cusip": "78462F103",
         "security_class": "UNITS SER 1 S&P",
         "issuer": "STATE ST SPDR S&P500",
-        "shares": 329739.0,
-        "value_usd": 246239858.0,
-        "weight_pct": 5.45
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COMMON",
-        "issuer": "NVIDIA CORP",
-        "shares": 905564.0,
-        "value_usd": 181194500.0,
-        "weight_pct": 4.01
-      },
-      {
-        "cusip": "464287200",
-        "security_class": "CORE S&P 500 ETF",
-        "issuer": "ISHARES TRUST",
-        "shares": 228483.0,
-        "value_usd": 171109335.0,
-        "weight_pct": 3.79
+        "shares": 312754.0,
+        "value_usd": 236355045.0,
+        "weight_pct": 7.1
       },
       {
         "cusip": "594918104",
         "security_class": "COMMON",
         "issuer": "MICROSOFT CORP",
-        "shares": 403049.0,
-        "value_usd": 150345598.0,
-        "weight_pct": 3.33
+        "shares": 422166.0,
+        "value_usd": 220332739.0,
+        "weight_pct": 6.62
       },
       {
-        "cusip": "02079K305",
-        "security_class": "CLASS A",
-        "issuer": "ALPHABET INC",
-        "shares": 357905.0,
-        "value_usd": 127904527.0,
-        "weight_pct": 2.83
-      },
-      {
-        "cusip": "46137V241",
-        "security_class": "S&P 500 QUALITY ETF",
-        "issuer": "INVESCO EXCHANGETRAD",
-        "shares": 1260240.0,
-        "value_usd": 113547680.0,
-        "weight_pct": 2.51
-      },
-      {
-        "cusip": "007903107",
+        "cusip": "67066G104",
         "security_class": "COMMON",
-        "issuer": "ADV MICRO DEVICES",
-        "shares": 146710.0,
-        "value_usd": 85225394.0,
-        "weight_pct": 1.89
+        "issuer": "NVIDIA CORP",
+        "shares": 1069188.0,
+        "value_usd": 218798788.0,
+        "weight_pct": 6.58
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P 500 ETF",
+        "issuer": "ISHARES TRUST",
+        "shares": 263850.0,
+        "value_usd": 200310072.0,
+        "weight_pct": 6.02
+      },
+      {
+        "cusip": "46436E841",
+        "security_class": "IBONDS DEC 2027 TERM",
+        "issuer": "ISHARES TRUST",
+        "shares": 3659599.0,
+        "value_usd": 81810340.0,
+        "weight_pct": 2.46
       },
       {
         "cusip": "46436E858",
         "security_class": "IBONDS DEC 2026 TERM",
         "issuer": "ISHARES TRUST",
-        "shares": 3459551.0,
-        "value_usd": 79189128.0,
-        "weight_pct": 1.75
+        "shares": 3308074.0,
+        "value_usd": 75721819.0,
+        "weight_pct": 2.28
       },
       {
-        "cusip": "023135106",
+        "cusip": "46137V241",
+        "security_class": "S&P 500 QUALITY ETF",
+        "issuer": "INVESCO EXCHANGETRAD",
+        "shares": 912122.0,
+        "value_usd": 75678811.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "464288588",
+        "security_class": "MBS FIXED BDFD",
+        "issuer": "ISHARES TR",
+        "shares": 666902.0,
+        "value_usd": 61388369.0,
+        "weight_pct": 1.85
+      },
+      {
+        "cusip": "808524771",
+        "security_class": "FUNDAMENTAL US LRG C",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 1845202.0,
+        "value_usd": 60356569.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "595112103",
         "security_class": "COMMON",
-        "issuer": "AMAZON COM INC",
-        "shares": 306315.0,
-        "value_usd": 73007159.0,
-        "weight_pct": 1.62
+        "issuer": "MICRON TECHNOLOGY",
+        "shares": 60520.0,
+        "value_usd": 53544734.0,
+        "weight_pct": 1.61
       }
     ],
-    "top_five_pct": 22.44,
-    "top_ten_pct": 33.04,
-    "hhi": 168.83,
+    "top_five_pct": 28.78,
+    "top_ten_pct": 38.6,
+    "hhi": 239.68,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 406,
-      "exited_positions": 1315,
-      "increased_positions": 16,
-      "reduced_positions": 56
+      "previous_period": "2026-06-30",
+      "new_positions": 46,
+      "exited_positions": 152,
+      "increased_positions": 177,
+      "reduced_positions": 130
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001765380-26-000370"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001765380-26-000515"
       }
     ]
   },
-  "reported_13f_value_usd": 4515159034.0,
+  "reported_13f_value_usd": 3327079148.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001765380-26-000370",
+  "validated_accession": "0001765380-26-000515",
   "annualized_turnover_proxy_pct": null
 }

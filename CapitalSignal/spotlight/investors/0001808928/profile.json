@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001808928",
   "investor_name": "Cartenna Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
@@ -10,112 +10,123 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1808928/0001420506-25-003323.txt",
-    "https://www.sec.gov/Archives/edgar/data/1808928/0001420506-26-001751.txt"
+    "https://www.sec.gov/Archives/edgar/data/1808928/0001420506-26-001751.txt",
+    "https://www.sec.gov/Archives/edgar/data/1808928/0001420506-26-002760.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b239b04e9b758da12b0c650f302b3433639dfea3306d45199601ae2f31db1c76",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "c02a4cbc09b5a9611882168d0263b37453a66c17460f91a61be6ce7c451d23ef",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2737c6a8d4ea09e11af50c800b639cdc2ff17a6d",
+    "5d327fe2472e4e2a3c1a238a43afedcec3d6b371",
+    "753682261f8b032427e4b67a4cd8169b60df4ce2"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001751",
-    "source": "https://www.sec.gov/Archives/edgar/data/1808928/0001420506-26-001751.txt",
-    "distinct_positions": 35,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002760",
+    "source": "https://www.sec.gov/Archives/edgar/data/1808928/0001420506-26-002760.txt",
+    "distinct_positions": 28,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2701590820.0,
+    "reported_long_equity_value_usd": 2736843208.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "88579Y101",
-        "security_class": "COM",
-        "issuer": "3M CO",
-        "shares": 1150000.0,
-        "value_usd": 186196500.0,
-        "weight_pct": 6.89
-      },
-      {
-        "cusip": "031100100",
-        "security_class": "COM",
-        "issuer": "AMETEK INC",
-        "shares": 650000.0,
-        "value_usd": 157261000.0,
-        "weight_pct": 5.82
-      },
-      {
-        "cusip": "032654105",
-        "security_class": "COM",
-        "issuer": "ANALOG DEVICES INC",
-        "shares": 385000.0,
-        "value_usd": 152910450.0,
-        "weight_pct": 5.66
-      },
-      {
-        "cusip": "512807306",
-        "security_class": "COM NEW",
-        "issuer": "LAM RESEARCH CORP",
-        "shares": 345000.0,
-        "value_usd": 149498850.0,
-        "weight_pct": 5.53
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 190000.0,
-        "value_usd": 137370000.0,
-        "weight_pct": 5.08
-      },
-      {
-        "cusip": "443201108",
-        "security_class": "COM",
-        "issuer": "HOWMET AEROSPACE INC",
-        "shares": 450000.0,
-        "value_usd": 120987000.0,
-        "weight_pct": 4.48
-      },
-      {
         "cusip": "620076307",
         "security_class": "COM NEW",
         "issuer": "MOTOROLA SOLUTIONS INC",
-        "shares": 290000.0,
-        "value_usd": 120434100.0,
-        "weight_pct": 4.46
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 490000.0,
-        "value_usd": 116786600.0,
-        "weight_pct": 4.32
-      },
-      {
-        "cusip": "49338L103",
-        "security_class": "COM",
-        "issuer": "KEYSIGHT TECHNOLOGIES INC",
-        "shares": 325000.0,
-        "value_usd": 113772750.0,
-        "weight_pct": 4.21
+        "shares": 400000.0,
+        "value_usd": 178388000.0,
+        "weight_pct": 6.52
       },
       {
         "cusip": "032095101",
         "security_class": "CL A",
         "issuer": "AMPHENOL CORP",
-        "shares": 615000.0,
-        "value_usd": 108436800.0,
-        "weight_pct": 4.01
+        "shares": 2075000.0,
+        "value_usd": 174922500.0,
+        "weight_pct": 6.39
+      },
+      {
+        "cusip": "942749102",
+        "security_class": "CL A",
+        "issuer": "WATTS WATER TECHNOLOGIES INC",
+        "shares": 456826.0,
+        "value_usd": 161798633.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "855244109",
+        "security_class": "COM",
+        "issuer": "STARBUCKS CORP",
+        "shares": 1700000.0,
+        "value_usd": 159732000.0,
+        "weight_pct": 5.84
+      },
+      {
+        "cusip": "88579Y101",
+        "security_class": "COM",
+        "issuer": "3M CO",
+        "shares": 950000.0,
+        "value_usd": 155942500.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "49338L103",
+        "security_class": "COM",
+        "issuer": "KEYSIGHT TECHNOLOGIES INC",
+        "shares": 425000.0,
+        "value_usd": 154717000.0,
+        "weight_pct": 5.65
+      },
+      {
+        "cusip": "15101Q207",
+        "security_class": "COM",
+        "issuer": "CELESTICA INC",
+        "shares": 415000.0,
+        "value_usd": 149993450.0,
+        "weight_pct": 5.48
+      },
+      {
+        "cusip": "031100100",
+        "security_class": "COM",
+        "issuer": "AMETEK INC",
+        "shares": 585000.0,
+        "value_usd": 144922050.0,
+        "weight_pct": 5.3
+      },
+      {
+        "cusip": "032654105",
+        "security_class": "COM",
+        "issuer": "ANALOG DEVICES INC",
+        "shares": 325000.0,
+        "value_usd": 128930750.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "405552100",
+        "security_class": "SPON ADS",
+        "issuer": "HALEON PLC",
+        "shares": 13750000.0,
+        "value_usd": 123750000.0,
+        "weight_pct": 4.52
       }
     ],
-    "top_five_pct": 28.99,
-    "top_ten_pct": 50.48,
-    "hhi": 381.57,
+    "top_five_pct": 30.36,
+    "top_ten_pct": 56.02,
+    "hhi": 443.64,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 27,
-      "exited_positions": 23,
-      "increased_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 19,
+      "increased_positions": 11,
       "reduced_positions": 5
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001751"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002760"
       }
     ]
   },
-  "reported_13f_value_usd": 2701590820.0,
+  "reported_13f_value_usd": 2736843208.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001751",
+  "validated_accession": "0001420506-26-002760",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001824821",
   "investor_name": "SW Investment Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Telluride",
   "state": "CO",
   "country": "United States",
@@ -10,73 +10,92 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1824821/0001420506-25-003090.txt",
-    "https://www.sec.gov/Archives/edgar/data/1824821/0001420506-26-001681.txt"
+    "https://www.sec.gov/Archives/edgar/data/1824821/0001420506-26-001681.txt",
+    "https://www.sec.gov/Archives/edgar/data/1824821/0001420506-26-002726.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a2696e4b9df495ec8134147dd0486980d4eccc04b225985994cc326c138a6678",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "da7c02e6b2b87ffa579e375e011725eb75b5f020b08628f24cfd4387b197a721",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "347c4c9ea3e4e763f16dbc81b3a43b541bfe8594",
+    "b0c9410939065fd44ec8f2922abe93afdcb24cf5",
+    "c4772f7e53388f1acbae91000c5d69dc39e17400"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001681",
-    "source": "https://www.sec.gov/Archives/edgar/data/1824821/0001420506-26-001681.txt",
-    "distinct_positions": 5,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002726",
+    "source": "https://www.sec.gov/Archives/edgar/data/1824821/0001420506-26-002726.txt",
+    "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 351649700.0,
+    "reported_long_equity_value_usd": 221714591.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "830879102",
-        "security_class": "COM",
-        "issuer": "SKYWEST INC",
-        "shares": 1000000.0,
-        "value_usd": 99330000.0,
-        "weight_pct": 28.25
-      },
-      {
         "cusip": "90353W103",
         "security_class": "COM",
         "issuer": "UBIQUITI INC",
-        "shares": 140000.0,
-        "value_usd": 74764200.0,
-        "weight_pct": 21.26
+        "shares": 119372.0,
+        "value_usd": 67747191.0,
+        "weight_pct": 30.56
+      },
+      {
+        "cusip": "830879102",
+        "security_class": "COM",
+        "issuer": "SKYWEST INC",
+        "shares": 500000.0,
+        "value_usd": 48460000.0,
+        "weight_pct": 21.86
       },
       {
         "cusip": "H2906T109",
         "security_class": "SHS",
         "issuer": "GARMIN LTD",
-        "shares": 275000.0,
-        "value_usd": 65323500.0,
-        "weight_pct": 18.58
+        "shares": 135000.0,
+        "value_usd": 38723400.0,
+        "weight_pct": 17.47
       },
       {
         "cusip": "302130109",
         "security_class": "COM",
         "issuer": "EXPEDITORS INTL WASH INC",
-        "shares": 400000.0,
-        "value_usd": 65192000.0,
-        "weight_pct": 18.54
+        "shares": 200000.0,
+        "value_usd": 36928000.0,
+        "weight_pct": 16.66
       },
       {
         "cusip": "88023U101",
         "security_class": "COM",
         "issuer": "SOMNIGROUP INTERNATIONAL INC",
-        "shares": 600000.0,
-        "value_usd": 47040000.0,
-        "weight_pct": 13.38
+        "shares": 300000.0,
+        "value_usd": 18633000.0,
+        "weight_pct": 8.4
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 60000.0,
+        "value_usd": 11223000.0,
+        "weight_pct": 5.06
       }
     ],
-    "top_five_pct": 100.0,
+    "top_five_pct": 94.94,
     "top_ten_pct": 100.0,
-    "hhi": 2117.63,
+    "hhi": 2090.1,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 1,
-      "exited_positions": 4,
-      "increased_positions": 3,
-      "reduced_positions": 1
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -88,11 +107,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001681"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002726"
       }
     ]
   },
-  "reported_13f_value_usd": 351649700.0,
+  "reported_13f_value_usd": 221714591.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001681",
+  "validated_accession": "0001420506-26-002726",
   "annualized_turnover_proxy_pct": null
 }

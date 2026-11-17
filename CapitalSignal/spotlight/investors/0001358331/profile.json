@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001358331",
   "investor_name": "Bruce & Co., Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1358331/0001104659-25-111225.txt",
-    "https://www.sec.gov/Archives/edgar/data/1358331/0001104659-26-096709.txt"
+    "https://www.sec.gov/Archives/edgar/data/1358331/0001104659-26-096709.txt",
+    "https://www.sec.gov/Archives/edgar/data/1358331/0001104659-26-127888.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "45dc87db95003fbac377126a1d81ee51811ea297348ed4ff1934d9d8245014dc",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "279d6b64280fce9da4f092c3f7578bdb85b9e005bfaddf65f78861d94a964089",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0aeb43634618726a493ce015e71293cf884dcda4",
+    "411d407d9b91836c9c854a24584a4e86ff3cefc5",
+    "eae0f19628c8c548533929030350c6b97b707d03"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-096709",
-    "source": "https://www.sec.gov/Archives/edgar/data/1358331/0001104659-26-096709.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127888",
+    "source": "https://www.sec.gov/Archives/edgar/data/1358331/0001104659-26-127888.txt",
     "distinct_positions": 41,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 369495763.0,
+    "reported_long_equity_value_usd": 369182447.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "Common",
         "issuer": "Abbvie",
         "shares": 121000.0,
-        "value_usd": 30448440.0,
-        "weight_pct": 8.24
-      },
-      {
-        "cusip": "020002101",
-        "security_class": "Common",
-        "issuer": "Allstate",
-        "shares": 122500.0,
-        "value_usd": 29147650.0,
-        "weight_pct": 7.89
-      },
-      {
-        "cusip": "N00985106",
-        "security_class": "Common",
-        "issuer": "AerCap Holdings",
-        "shares": 185000.0,
-        "value_usd": 26969300.0,
-        "weight_pct": 7.3
-      },
-      {
-        "cusip": "302571104",
-        "security_class": "Common",
-        "issuer": "Nextera Energy",
-        "shares": 294300.0,
-        "value_usd": 25830711.0,
-        "weight_pct": 6.99
+        "value_usd": 31652390.0,
+        "weight_pct": 8.57
       },
       {
         "cusip": "589331107",
         "security_class": "Common",
         "issuer": "Merck",
         "shares": 190800.0,
-        "value_usd": 24517800.0,
-        "weight_pct": 6.64
+        "value_usd": 27725148.0,
+        "weight_pct": 7.51
+      },
+      {
+        "cusip": "020002101",
+        "security_class": "Common",
+        "issuer": "Allstate",
+        "shares": 122500.0,
+        "value_usd": 27177850.0,
+        "weight_pct": 7.36
+      },
+      {
+        "cusip": "N00985106",
+        "security_class": "Common",
+        "issuer": "AerCap Holdings",
+        "shares": 185000.0,
+        "value_usd": 26551200.0,
+        "weight_pct": 7.19
+      },
+      {
+        "cusip": "302571104",
+        "security_class": "Common",
+        "issuer": "Nextera Energy",
+        "shares": 294300.0,
+        "value_usd": 22290282.0,
+        "weight_pct": 6.04
       },
       {
         "cusip": "023586506",
         "security_class": "Common",
         "issuer": "Uhaul B",
-        "shares": 417000.0,
-        "value_usd": 24060900.0,
-        "weight_pct": 6.51
+        "shares": 387000.0,
+        "value_usd": 20452950.0,
+        "weight_pct": 5.54
       },
       {
         "cusip": "26441C204",
         "security_class": "Common",
         "issuer": "Duke Energy",
         "shares": 144816.0,
-        "value_usd": 18330809.0,
-        "weight_pct": 4.96
+        "value_usd": 16510472.0,
+        "weight_pct": 4.47
       },
       {
         "cusip": "925815102",
         "security_class": "Common",
         "issuer": "Vicor",
         "shares": 48000.0,
-        "value_usd": 18229440.0,
-        "weight_pct": 4.93
+        "value_usd": 13869120.0,
+        "weight_pct": 3.76
       },
       {
         "cusip": "98389B100",
         "security_class": "Common",
         "issuer": "XCEL Energy",
         "shares": 182500.0,
-        "value_usd": 14654750.0,
-        "weight_pct": 3.97
+        "value_usd": 12862600.0,
+        "weight_pct": 3.48
       },
       {
-        "cusip": "125896100",
+        "cusip": "00206R102",
         "security_class": "Common",
-        "issuer": "CMS Energy",
-        "shares": 153000.0,
-        "value_usd": 11704500.0,
-        "weight_pct": 3.17
+        "issuer": "AT & T",
+        "shares": 518000.0,
+        "value_usd": 12639200.0,
+        "weight_pct": 3.42
       }
     ],
-    "top_five_pct": 37.05,
-    "top_ten_pct": 60.59,
-    "hhi": 472.38,
+    "top_five_pct": 36.67,
+    "top_ten_pct": 57.35,
+    "hhi": 459.2,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
       "exited_positions": 0,
-      "increased_positions": 3,
-      "reduced_positions": 22
+      "increased_positions": 1,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-096709"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127888"
       }
     ]
   },
-  "reported_13f_value_usd": 369495763.0,
+  "reported_13f_value_usd": 369182447.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-096709",
+  "validated_accession": "0001104659-26-127888",
   "annualized_turnover_proxy_pct": null
 }

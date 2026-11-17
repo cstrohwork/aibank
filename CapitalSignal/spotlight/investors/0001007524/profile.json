@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001007524",
   "investor_name": "OSTERWEIS CAPITAL MANAGEMENT INC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1007524/0001007524-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1007524/0001007524-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1007524/0001007524-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1007524/0001007524-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "cfd171e21e28a3cf5b06d6eb0c0f0cf59c7ee2510cd3cc5413542b96d7b86702",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "ac4a5fdfbb79c4e5bfb0e07ef8e1a0c3fdf88ef3a97872c73220124d7627d4d0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0bca962e5ede2b4a2d872a9da55bf7a6c852b423",
+    "39c3f3b6d1a646516c7529d6627d4b5cc914bd4b",
+    "f041babb7c7307921c3404f67e25725703970610"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001007524-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1007524/0001007524-26-000003.txt",
-    "distinct_positions": 200,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001007524-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1007524/0001007524-26-000004.txt",
+    "distinct_positions": 177,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1841115702.0,
+    "reported_long_equity_value_usd": 1720668872.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
-        "shares": 322182.0,
-        "value_usd": 113836566.0,
-        "weight_pct": 6.18
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 239818.0,
-        "value_usd": 69393693.0,
-        "weight_pct": 3.77
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 252721.0,
-        "value_usd": 60233523.0,
-        "weight_pct": 3.27
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 81318.0,
-        "value_usd": 58792914.0,
-        "weight_pct": 3.19
-      },
-      {
-        "cusip": "032654105",
-        "security_class": "COM",
-        "issuer": "ANALOG DEVICES INC",
-        "shares": 135169.0,
-        "value_usd": 53685072.0,
-        "weight_pct": 2.92
+        "shares": 299826.0,
+        "value_usd": 102162711.0,
+        "weight_pct": 5.94
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 140900.0,
-        "value_usd": 52558517.0,
-        "weight_pct": 2.85
+        "shares": 177781.0,
+        "value_usd": 91183875.0,
+        "weight_pct": 5.3
       },
       {
-        "cusip": "532457108",
+        "cusip": "037833100",
         "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 43596.0,
-        "value_usd": 52290350.0,
-        "weight_pct": 2.84
+        "issuer": "APPLE INC",
+        "shares": 235617.0,
+        "value_usd": 78465123.0,
+        "weight_pct": 4.56
       },
       {
-        "cusip": "11135F101",
+        "cusip": "023135106",
         "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 135358.0,
-        "value_usd": 51131484.0,
-        "weight_pct": 2.78
+        "issuer": "AMAZON COM INC",
+        "shares": 235814.0,
+        "value_usd": 58753058.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "032654105",
+        "security_class": "COM",
+        "issuer": "ANALOG DEVICES INC",
+        "shares": 127114.0,
+        "value_usd": 50427395.0,
+        "weight_pct": 2.93
       },
       {
         "cusip": "92826C839",
         "security_class": "COM CL A",
         "issuer": "VISA INC",
-        "shares": 142213.0,
-        "value_usd": 48791858.0,
-        "weight_pct": 2.65
+        "shares": 131920.0,
+        "value_usd": 47402813.0,
+        "weight_pct": 2.75
       },
       {
-        "cusip": "94106B101",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "WASTE CONNECTIONS INC",
-        "shares": 278498.0,
-        "value_usd": 46422832.0,
-        "weight_pct": 2.52
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 206757.0,
+        "value_usd": 47219164.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 134288.0,
+        "value_usd": 47160603.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 136718.0,
+        "value_usd": 45230416.0,
+        "weight_pct": 2.63
+      },
+      {
+        "cusip": "053332102",
+        "security_class": "COM",
+        "issuer": "AUTOZONE INC",
+        "shares": 15976.0,
+        "value_usd": 45212399.0,
+        "weight_pct": 2.63
       }
     ],
-    "top_five_pct": 19.33,
-    "top_ten_pct": 32.98,
-    "hhi": 202.11,
+    "top_five_pct": 22.14,
+    "top_ten_pct": 35.64,
+    "hhi": 219.74,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 42,
-      "exited_positions": 82,
-      "increased_positions": 36,
-      "reduced_positions": 72
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 34,
+      "increased_positions": 28,
+      "reduced_positions": 66
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001007524-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001007524-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 1841115702.0,
+  "reported_13f_value_usd": 1720668872.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001007524-26-000003",
+  "validated_accession": "0001007524-26-000004",
   "annualized_turnover_proxy_pct": null
 }

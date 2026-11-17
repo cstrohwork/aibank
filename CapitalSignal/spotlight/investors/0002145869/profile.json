@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002145869",
   "investor_name": "FRIENDS OF THE CORNELL LAB OF ORNITHOLOGY, INC.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Riverside",
   "state": "CT",
   "country": "United States",
@@ -11,20 +11,33 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-032985.txt",
     "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-032990.txt",
-    "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-032993.txt"
+    "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-032993.txt",
+    "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-044066.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9455a48229f12df83a4a17ff14e4978ede43b797439a6b5a3904681943ab6f7b",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "9640a59d6c8286cac418e1a06086896a8ac93f7ba4312f4dad681065304e4cef",
+  "accession_fingerprints": [
+    "2025-12-31|2026-08-14|||",
+    "2026-03-31|2026-08-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2552a9d595f334f77b55f24ba314bbd073aa66c2",
+    "41793df6221e3f7728037378631110dd517e7c45",
+    "b4c584de3df3ec5c521bb4eec8c1eb5e728b3d3d",
+    "cf1249ca0696be1e48d3071c84678fb4c04e0a37"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001140361-26-032993",
-    "source": "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-032993.txt",
-    "distinct_positions": 5,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001140361-26-044066",
+    "source": "https://www.sec.gov/Archives/edgar/data/2145869/0001140361-26-044066.txt",
+    "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 123760354.0,
+    "reported_long_equity_value_usd": 137331769.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -33,50 +46,58 @@
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
         "shares": 54482.0,
-        "value_usd": 40685272.0,
-        "weight_pct": 32.87
+        "value_usd": 41549351.0,
+        "weight_pct": 30.25
       },
       {
         "cusip": "464287655",
         "security_class": "RUSSELL 2000 ETF",
         "issuer": "ISHARES TR",
         "shares": 104532.0,
-        "value_usd": 31406522.0,
-        "weight_pct": 25.38
+        "value_usd": 29048289.0,
+        "weight_pct": 21.15
       },
       {
         "cusip": "084670108",
         "security_class": "CL A",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
         "shares": 30.0,
-        "value_usd": 22465500.0,
-        "weight_pct": 18.15
+        "value_usd": 22410150.0,
+        "weight_pct": 16.32
       },
       {
         "cusip": "921943858",
         "security_class": "VAN FTSE DEV MKT",
         "issuer": "VANGUARD TAX-MANAGED FDS",
         "shares": 273651.0,
-        "value_usd": 19497615.0,
-        "weight_pct": 15.75
+        "value_usd": 19322479.0,
+        "weight_pct": 14.07
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "S&P500 EQL WGT",
+        "issuer": "INVESCO EXCHANGE TRADED FD T",
+        "shares": 74637.0,
+        "value_usd": 15525888.0,
+        "weight_pct": 11.31
       },
       {
         "cusip": "464287234",
         "security_class": "MSCI EMG MKT ETF",
         "issuer": "ISHARES TR",
         "shares": 141872.0,
-        "value_usd": 9705445.0,
-        "weight_pct": 7.84
+        "value_usd": 9475612.0,
+        "weight_pct": 6.9
       }
     ],
-    "top_five_pct": 100.0,
+    "top_five_pct": 93.1,
     "top_ten_pct": 100.0,
-    "hhi": 2363.91,
+    "hhi": 2002.42,
     "changes": {
-      "previous_period": "2026-03-31",
-      "new_positions": 0,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 0,
-      "increased_positions": 4,
+      "increased_positions": 0,
       "reduced_positions": 0
     },
     "timeline": [
@@ -94,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001140361-26-032993"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001140361-26-044066"
       }
     ]
   },
-  "reported_13f_value_usd": 123760354.0,
+  "reported_13f_value_usd": 137331769.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001140361-26-032993",
+  "validated_accession": "0001140361-26-044066",
   "annualized_turnover_proxy_pct": null
 }

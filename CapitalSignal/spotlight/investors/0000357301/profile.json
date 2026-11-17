@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000357301",
   "investor_name": "TRUSTCO BANK CORP N Y",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ALBANY",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/357301/0001140361-25-042176.txt",
-    "https://www.sec.gov/Archives/edgar/data/357301/0001140361-26-032999.txt"
+    "https://www.sec.gov/Archives/edgar/data/357301/0001140361-26-032999.txt",
+    "https://www.sec.gov/Archives/edgar/data/357301/0001140361-26-044256.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "05f36d782100359a492cf33e6afe327ed63afd264ac97c301aa6b178992e8395",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "0174721810f0ccd41dcb9409faa9b43700082edde4d428969851357405817f6a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8641bc6f8a084668b20aa3a9cc0daa6fcafd4b91",
+    "e18e1b6ebf8183bc2c7edf12a9f4f687df652694",
+    "f894ab4321f9503223b6b8140a317e62657f6d7a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001140361-26-032999",
-    "source": "https://www.sec.gov/Archives/edgar/data/357301/0001140361-26-032999.txt",
-    "distinct_positions": 77,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001140361-26-044256",
+    "source": "https://www.sec.gov/Archives/edgar/data/357301/0001140361-26-044256.txt",
+    "distinct_positions": 73,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 137123681.0,
+    "reported_long_equity_value_usd": 126179077.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "038222105",
         "security_class": "COMMON STOCK",
         "issuer": "APPLIED MATERIALS INC",
-        "shares": 25711.0,
-        "value_usd": 18589053.0,
-        "weight_pct": 13.56
-      },
-      {
-        "cusip": "369604301",
-        "security_class": "COMMON STOCK",
-        "issuer": "GE AEROSPACE",
-        "shares": 24862.0,
-        "value_usd": 9291681.0,
-        "weight_pct": 6.78
-      },
-      {
-        "cusip": "36828A101",
-        "security_class": "COMMON STOCK",
-        "issuer": "GE VERNOVA INC",
-        "shares": 6473.0,
-        "value_usd": 7604873.0,
-        "weight_pct": 5.55
-      },
-      {
-        "cusip": "46625H100",
-        "security_class": "COMMON STOCK",
-        "issuer": "JP MORGAN CHASE & CO",
-        "shares": 22136.0,
-        "value_usd": 7245780.0,
-        "weight_pct": 5.28
+        "shares": 24986.0,
+        "value_usd": 12777341.0,
+        "weight_pct": 10.13
       },
       {
         "cusip": "037833100",
         "security_class": "COMMON STOCK",
         "issuer": "APPLE INC",
-        "shares": 23617.0,
-        "value_usd": 6833816.0,
-        "weight_pct": 4.98
+        "shares": 23262.0,
+        "value_usd": 7746712.0,
+        "weight_pct": 6.14
       },
       {
-        "cusip": "898349204",
+        "cusip": "369604301",
         "security_class": "COMMON STOCK",
-        "issuer": "TRUSTCO BANK CORP NY",
-        "shares": 93341.0,
-        "value_usd": 5125352.0,
-        "weight_pct": 3.74
+        "issuer": "GE AEROSPACE",
+        "shares": 23632.0,
+        "value_usd": 7380036.0,
+        "weight_pct": 5.85
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COMMON STOCK",
+        "issuer": "JP MORGAN CHASE & CO",
+        "shares": 21430.0,
+        "value_usd": 7089691.0,
+        "weight_pct": 5.62
       },
       {
         "cusip": "594918104",
         "security_class": "COMMON STOCK",
         "issuer": "MICROSOFT CORP",
-        "shares": 13360.0,
-        "value_usd": 4983549.0,
-        "weight_pct": 3.63
+        "shares": 13331.0,
+        "value_usd": 6837474.0,
+        "weight_pct": 5.42
+      },
+      {
+        "cusip": "36828A101",
+        "security_class": "COMMON STOCK",
+        "issuer": "GE VERNOVA INC",
+        "shares": 6111.0,
+        "value_usd": 5808440.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "898349204",
+        "security_class": "COMMON STOCK",
+        "issuer": "TRUSTCO BANK CORP NY",
+        "shares": 93451.0,
+        "value_usd": 5073455.0,
+        "weight_pct": 4.02
       },
       {
         "cusip": "478160104",
         "security_class": "COMMON STOCK",
-        "issuer": "JOHNSON & JOHNSON",
-        "shares": 19555.0,
-        "value_usd": 4966387.0,
-        "weight_pct": 3.62
+        "issuer": "JOHNSON & JOHNSON SR GLBL NT",
+        "shares": 18716.0,
+        "value_usd": 4954876.0,
+        "weight_pct": 3.93
       },
       {
         "cusip": "00287Y109",
         "security_class": "COMMON STOCK",
         "issuer": "ABBVIE INC SR NT",
-        "shares": 18576.0,
-        "value_usd": 4674465.0,
-        "weight_pct": 3.41
+        "shares": 18103.0,
+        "value_usd": 4735566.0,
+        "weight_pct": 3.75
       },
       {
-        "cusip": "30231G102",
+        "cusip": "30233Q108",
         "security_class": "COMMON STOCK",
-        "issuer": "EXXON MOBIL CORP",
-        "shares": 30102.0,
-        "value_usd": 4115543.0,
-        "weight_pct": 3.0
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 28950.0,
+        "value_usd": 4711621.0,
+        "weight_pct": 3.73
       }
     ],
-    "top_five_pct": 36.15,
-    "top_ten_pct": 53.55,
-    "hhi": 429.71,
+    "top_five_pct": 33.15,
+    "top_ten_pct": 53.19,
+    "hhi": 373.77,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 9,
-      "exited_positions": 3,
-      "increased_positions": 28,
-      "reduced_positions": 34
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 7,
+      "increased_positions": 4,
+      "reduced_positions": 49
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001140361-26-032999"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001140361-26-044256"
       }
     ]
   },
-  "reported_13f_value_usd": 137123681.0,
+  "reported_13f_value_usd": 126179077.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001140361-26-032999",
+  "validated_accession": "0001140361-26-044256",
   "annualized_turnover_proxy_pct": null
 }

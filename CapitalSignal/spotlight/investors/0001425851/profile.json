@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001425851",
   "investor_name": "Pentwater Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Naples",
   "state": "FL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1425851/0001140361-25-042346.txt",
-    "https://www.sec.gov/Archives/edgar/data/1425851/0001140361-26-033162.txt"
+    "https://www.sec.gov/Archives/edgar/data/1425851/0001140361-26-033162.txt",
+    "https://www.sec.gov/Archives/edgar/data/1425851/0001140361-26-044224.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9742268e07a0727c26dc8ac12cd8e033fdfead7f5c78df18fbac92bc8a171c31",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "6815238643fd79f2925ed0edfed60951d2fade071896c43020a1ed34cd28a846",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "03c3e2c1dc6d2697d1f224bb0804a5e510587fd2",
+    "21d6fa8715d2d270f48ca109457f71bf647fca62",
+    "e4bd58b2b7317b872868efabf004190d8e03317c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001140361-26-033162",
-    "source": "https://www.sec.gov/Archives/edgar/data/1425851/0001140361-26-033162.txt",
-    "distinct_positions": 59,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001140361-26-044224",
+    "source": "https://www.sec.gov/Archives/edgar/data/1425851/0001140361-26-044224.txt",
+    "distinct_positions": 53,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 12520509341.0,
+    "reported_long_equity_value_usd": 13161682319.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "285512109",
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 63700000.0,
+        "value_usd": 1971515000.0,
+        "weight_pct": 14.98
+      },
+      {
+        "cusip": "68389X105",
         "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS INC",
-        "shares": 13475000.0,
-        "value_usd": 2762914000.0,
-        "weight_pct": 22.07
+        "issuer": "ORACLE CORP",
+        "shares": 11750000.0,
+        "value_usd": 1613275000.0,
+        "weight_pct": 12.26
       },
       {
         "cusip": "097023105",
         "security_class": "COM",
         "issuer": "BOEING CO",
-        "shares": 6200000.0,
-        "value_usd": 1342114000.0,
-        "weight_pct": 10.72
-      },
-      {
-        "cusip": "934423104",
-        "security_class": "COM SER A",
-        "issuer": "WARNER BROS DISCOVERY INC",
-        "shares": 47576000.0,
-        "value_usd": 1268376160.0,
-        "weight_pct": 10.13
+        "shares": 8610000.0,
+        "value_usd": 1601890500.0,
+        "weight_pct": 12.17
       },
       {
         "cusip": "49177J102",
         "security_class": "COM",
         "issuer": "KENVUE INC",
-        "shares": 51130000.0,
-        "value_usd": 977094300.0,
-        "weight_pct": 7.8
+        "shares": 65445000.0,
+        "value_usd": 1155758700.0,
+        "weight_pct": 8.78
       },
       {
         "cusip": "655844108",
         "security_class": "COM",
         "issuer": "NORFOLK SOUTHN CORP",
-        "shares": 2775000.0,
-        "value_usd": 872987250.0,
-        "weight_pct": 6.97
+        "shares": 3053617.0,
+        "value_usd": 943567653.0,
+        "weight_pct": 7.17
       },
       {
         "cusip": "77543R102",
         "security_class": "COM CL A",
         "issuer": "ROKU INC",
-        "shares": 4325000.0,
-        "value_usd": 597455500.0,
-        "weight_pct": 4.77
-      },
-      {
-        "cusip": "278768106",
-        "security_class": "CL A",
-        "issuer": "ECHOSTAR CORP",
-        "shares": 3860000.0,
-        "value_usd": 391790000.0,
-        "weight_pct": 3.13
-      },
-      {
-        "cusip": "053774105",
-        "security_class": "COM",
-        "issuer": "AVIS BUDGET GROUP INC",
-        "shares": 2513300.0,
-        "value_usd": 371541139.0,
-        "weight_pct": 2.97
+        "shares": 5500000.0,
+        "value_usd": 837540000.0,
+        "weight_pct": 6.36
       },
       {
         "cusip": "69349H107",
         "security_class": "COM",
         "issuer": "TXNM ENERGY INC",
-        "shares": 6487500.0,
-        "value_usd": 368360250.0,
-        "weight_pct": 2.94
+        "shares": 7450000.0,
+        "value_usd": 434484000.0,
+        "weight_pct": 3.3
       },
       {
-        "cusip": "878742204",
-        "security_class": "CL B",
-        "issuer": "TECK RESOURCES LTD",
-        "shares": 5960000.0,
-        "value_usd": 354381600.0,
-        "weight_pct": 2.83
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 395000.0,
+        "value_usd": 420718450.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "516544103",
+        "security_class": "COM",
+        "issuer": "LANTHEUS HLDGS INC",
+        "shares": 3900000.0,
+        "value_usd": 388167000.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "053774105",
+        "security_class": "COM",
+        "issuer": "AVIS BUDGET GROUP INC",
+        "shares": 3202200.0,
+        "value_usd": 341578674.0,
+        "weight_pct": 2.6
       }
     ],
-    "top_five_pct": 57.69,
-    "top_ten_pct": 74.33,
-    "hhi": 910.46,
+    "top_five_pct": 55.36,
+    "top_ten_pct": 73.76,
+    "hhi": 770.28,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 38,
-      "exited_positions": 44,
-      "increased_positions": 11,
-      "reduced_positions": 9
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 18,
+      "increased_positions": 23,
+      "reduced_positions": 15
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001140361-26-033162"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001140361-26-044224"
       }
     ]
   },
-  "reported_13f_value_usd": 12520509341.0,
+  "reported_13f_value_usd": 13161682319.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001140361-26-033162",
+  "validated_accession": "0001140361-26-044224",
   "annualized_turnover_proxy_pct": null
 }

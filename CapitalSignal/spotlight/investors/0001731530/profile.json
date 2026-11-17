@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001731530",
   "investor_name": "FIRST SABREPOINT CAPITAL MANAGEMENT LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1731530/0001731530-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1731530/0001731530-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1731530/0001731530-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1731530/0001731530-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8ebf0cf0c31e60a624551f8c73f750137e71823f0cee59638d15f926e4fb40d1",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "5781ce2e97848031a820381ec51f2f6a57dcb54f5f57cddf650c6a1b7efa1cc1",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2f52d2c523fdae0976146c535744ff29838c3fc1",
+    "7325825b5b80c6ae12505f3469e60caf95250ac6",
+    "ae520f5aa2aef3ddec40bdc654d8327c4738a81c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001731530-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1731530/0001731530-26-000004.txt",
-    "distinct_positions": 20,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001731530-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731530/0001731530-26-000006.txt",
+    "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 233976035.0,
+    "reported_long_equity_value_usd": 208146163.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "90041L105",
-        "security_class": "COM",
-        "issuer": "TURNING PT BRANDS INC",
-        "shares": 480000.0,
-        "value_usd": 40708800.0,
-        "weight_pct": 17.4
-      },
-      {
         "cusip": "33768G107",
         "security_class": "COM",
         "issuer": "FIRSTCASH HOLDINGS INC",
-        "shares": 172103.0,
-        "value_usd": 37229321.0,
-        "weight_pct": 15.91
+        "shares": 195654.0,
+        "value_usd": 41327994.0,
+        "weight_pct": 19.86
       },
       {
-        "cusip": "859241101",
+        "cusip": "90041L105",
         "security_class": "COM",
-        "issuer": "STERLING INFRASTRUCTURE INC",
-        "shares": 20000.0,
-        "value_usd": 16787200.0,
-        "weight_pct": 7.17
+        "issuer": "TURNING PT BRANDS INC",
+        "shares": 500000.0,
+        "value_usd": 29350000.0,
+        "weight_pct": 14.1
       },
       {
         "cusip": "91851C201",
         "security_class": "COM NEW",
         "issuer": "VAALCO ENERGY INC",
-        "shares": 3300000.0,
-        "value_usd": 16764000.0,
-        "weight_pct": 7.16
-      },
-      {
-        "cusip": "89679E300",
-        "security_class": "COM",
-        "issuer": "TRIUMPH FINANCIAL INC",
-        "shares": 155000.0,
-        "value_usd": 11828050.0,
-        "weight_pct": 5.06
+        "shares": 2850000.0,
+        "value_usd": 16131000.0,
+        "weight_pct": 7.75
       },
       {
         "cusip": "149568107",
         "security_class": "COM",
         "issuer": "CAVCO INDS INC DEL",
-        "shares": 18500.0,
-        "value_usd": 11366030.0,
-        "weight_pct": 4.86
+        "shares": 25000.0,
+        "value_usd": 14006500.0,
+        "weight_pct": 6.73
       },
       {
-        "cusip": "H2927K103",
-        "security_class": "SHS",
-        "issuer": "AMRIZE LTD",
-        "shares": 200000.0,
-        "value_usd": 10660000.0,
-        "weight_pct": 4.56
-      },
-      {
-        "cusip": "90385V107",
+        "cusip": "531914109",
         "security_class": "COM",
-        "issuer": "ULTRA CLEAN HLDGS INC",
-        "shares": 70000.0,
-        "value_usd": 9981300.0,
-        "weight_pct": 4.27
+        "issuer": "LIFEWAY FOODS INC",
+        "shares": 630000.0,
+        "value_usd": 13349700.0,
+        "weight_pct": 6.41
       },
       {
-        "cusip": "110448107",
-        "security_class": "SPONSORED ADR",
-        "issuer": "BRITISH AMERN TOB PLC",
-        "shares": 160000.0,
-        "value_usd": 9881600.0,
-        "weight_pct": 4.22
+        "cusip": "87615L107",
+        "security_class": "COM",
+        "issuer": "TARGET HOSPITALITY CORP",
+        "shares": 635000.0,
+        "value_usd": 12522200.0,
+        "weight_pct": 6.02
+      },
+      {
+        "cusip": "859241101",
+        "security_class": "COM",
+        "issuer": "STERLING INFRASTRUCTURE INC",
+        "shares": 25000.0,
+        "value_usd": 12294500.0,
+        "weight_pct": 5.91
       },
       {
         "cusip": "651718504",
         "security_class": "COM SHS",
         "issuer": "NPK INTERNATIONAL INC",
-        "shares": 600000.0,
-        "value_usd": 9546000.0,
-        "weight_pct": 4.08
+        "shares": 1000000.0,
+        "value_usd": 11420000.0,
+        "weight_pct": 5.49
+      },
+      {
+        "cusip": "90385V107",
+        "security_class": "COM",
+        "issuer": "ULTRA CLEAN HLDGS INC",
+        "shares": 125000.0,
+        "value_usd": 10132500.0,
+        "weight_pct": 4.87
+      },
+      {
+        "cusip": "518613203",
+        "security_class": "COMMON STOCK",
+        "issuer": "LAUREATE ED INC",
+        "shares": 250000.0,
+        "value_usd": 9540000.0,
+        "weight_pct": 4.58
       }
     ],
-    "top_five_pct": 52.71,
-    "top_ten_pct": 74.69,
-    "hhi": 854.49,
+    "top_five_pct": 54.85,
+    "top_ten_pct": 81.71,
+    "hhi": 949.93,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 11,
-      "exited_positions": 9,
-      "increased_positions": 2,
-      "reduced_positions": 7
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 5,
+      "increased_positions": 11,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001731530-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001731530-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 233976035.0,
+  "reported_13f_value_usd": 208146163.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001731530-26-000004",
+  "validated_accession": "0001731530-26-000006",
   "annualized_turnover_proxy_pct": null
 }

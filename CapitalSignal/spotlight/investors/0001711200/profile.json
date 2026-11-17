@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001711200",
   "investor_name": "HGC Investment Management Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TORONTO",
   "state": null,
   "country": null,
@@ -10,78 +10,65 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1711200/0001711200-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1711200/0001711200-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1711200/0001711200-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1711200/0001711200-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3e5f8eddf77a6324cd06a41cb44bf2c9c4194dccd4bd72b89f6a05d86a36a770",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "d1e6b2680cf58228a245d70b5d471b91538c26d9086f1a896fec17ac039946a1",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "65f0e1108d1ad6ed05c55be38023b124011dc83b",
+    "9ad22aad4e647d1ada21623b7db7d873d918f4cd",
+    "f6247ddee8ae8a38837fb7d1526d1a4da598c4be"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001711200-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1711200/0001711200-26-000003.txt",
-    "distinct_positions": 184,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001711200-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1711200/0001711200-26-000004.txt",
+    "distinct_positions": 195,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 506577155.0,
+    "reported_long_equity_value_usd": 499285908.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "G0509J115",
-        "security_class": "SHS CL A",
-        "issuer": "ARTIUS II ACQUISITION INC-A",
-        "shares": 1500000.0,
-        "value_usd": 15735000.0,
-        "weight_pct": 3.11
-      },
-      {
-        "cusip": "G01900201",
-        "security_class": "UNIT 12/23/2030",
-        "issuer": "ALDABRA 4 LIQUIDITY OPPORTUN",
+        "cusip": "G01900102",
+        "security_class": "CL A ORD SHS",
+        "issuer": "ALDABRA 4 LIQUIDITY OPP-CL A",
         "shares": 1468965.0,
-        "value_usd": 14777788.0,
-        "weight_pct": 2.92
+        "value_usd": 14704340.0,
+        "weight_pct": 2.95
       },
       {
         "cusip": "G8118C124",
         "security_class": "CL A SHS",
         "issuer": "SIDDHI ACQUISITION CORP-A",
         "shares": 1250000.0,
-        "value_usd": 13025000.0,
-        "weight_pct": 2.57
-      },
-      {
-        "cusip": "G7310E128",
-        "security_class": "UNIT 01/28/2031",
-        "issuer": "QDRO ACQUISITION CORP",
-        "shares": 1291800.0,
-        "value_usd": 12943836.0,
-        "weight_pct": 2.56
+        "value_usd": 13187500.0,
+        "weight_pct": 2.64
       },
       {
         "cusip": "G2104X127",
         "security_class": "UNIT 99/99/9999",
         "issuer": "CH4 NATURAL SOLUTIONS CORP",
         "shares": 1250000.0,
-        "value_usd": 12525000.0,
-        "weight_pct": 2.47
+        "value_usd": 12562500.0,
+        "weight_pct": 2.52
       },
       {
-        "cusip": "G1051M126",
-        "security_class": "UNIT 03/06/2031",
-        "issuer": "BERTO ACQUISITION CORP II",
-        "shares": 1065000.0,
-        "value_usd": 10777800.0,
-        "weight_pct": 2.13
-      },
-      {
-        "cusip": "G3793T112",
-        "security_class": "UNIT 04/13/2031",
-        "issuer": "GENERAL CATALYST GLOBAL RESI",
-        "shares": 1000000.0,
-        "value_usd": 10290000.0,
-        "weight_pct": 2.03
+        "cusip": "G8858A122",
+        "security_class": "UNIT 08/06/2031",
+        "issuer": "THUNDER BRIDGE CAPITAL PARTN",
+        "shares": 1100000.0,
+        "value_usd": 10945000.0,
+        "weight_pct": 2.19
       },
       {
         "cusip": "G5315G122",
@@ -89,14 +76,22 @@
         "issuer": "KRAKACQUISITION CORP",
         "shares": 1000000.0,
         "value_usd": 10140000.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "G7115W125",
+        "security_class": "UNIT 99/99/9999",
+        "issuer": "PINNACLE ACQUISITION CORP",
+        "shares": 1000016.0,
+        "value_usd": 10010160.0,
         "weight_pct": 2.0
       },
       {
-        "cusip": "G37307124",
-        "security_class": "UNIT 99/99/9999",
-        "issuer": "FUTURECORP SPACE ACQUISITION",
+        "cusip": "G7310E102",
+        "security_class": "ORD SHS CL A",
+        "issuer": "QDRO ACQUISITION CORP-CL A",
         "shares": 1000000.0,
-        "value_usd": 10130000.0,
+        "value_usd": 10000000.0,
         "weight_pct": 2.0
       },
       {
@@ -105,18 +100,34 @@
         "issuer": "INTERPRIVATE INVESTMENT PART",
         "shares": 1000000.0,
         "value_usd": 9920000.0,
-        "weight_pct": 1.96
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "G6858G123",
+        "security_class": "UNIT 06/17/2030",
+        "issuer": "OXLEY BRIDGE ACQUISITION LTD",
+        "shares": 950000.0,
+        "value_usd": 9851595.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "G40008123",
+        "security_class": "UNIT 06/24/2031",
+        "issuer": "GORES HOLDINGS XI INC",
+        "shares": 950000.0,
+        "value_usd": 9671000.0,
+        "weight_pct": 1.94
       }
     ],
-    "top_five_pct": 13.62,
-    "top_ten_pct": 23.74,
-    "hhi": 140.12,
+    "top_five_pct": 12.33,
+    "top_ten_pct": 22.23,
+    "hhi": 131.3,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 122,
-      "exited_positions": 62,
-      "increased_positions": 5,
-      "reduced_positions": 18
+      "previous_period": "2026-06-30",
+      "new_positions": 43,
+      "exited_positions": 32,
+      "increased_positions": 3,
+      "reduced_positions": 17
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001711200-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001711200-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 506577155.0,
+  "reported_13f_value_usd": 499285908.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001711200-26-000003",
+  "validated_accession": "0001711200-26-000004",
   "annualized_turnover_proxy_pct": null
 }

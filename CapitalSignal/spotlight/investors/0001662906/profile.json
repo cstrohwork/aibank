@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001662906",
   "investor_name": "Atalan Capital Partners, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1662906/0001662906-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1662906/0001662906-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1662906/0001662906-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1662906/0001662906-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b91da7d5ecf9f9ca780c681754ce2be4c80740b8182eadd52ee7c839bf0e1709",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "ac70a8b45e4075020699ed7d4d97cbc677796f69246bd3be1c932bdeeef07900",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3fc8f9d2f76f9b21f7092fea088659c869c98389",
+    "722baf94eef54a4ef782154b95b2f7c9ecd0870e",
+    "8d7e4a5accf394e750556d9cab40e4e71e1883e1"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001662906-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1662906/0001662906-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001662906-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1662906/0001662906-26-000005.txt",
     "distinct_positions": 9,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1630164711.0,
+    "reported_long_equity_value_usd": 1483549250.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,84 +42,84 @@
         "cusip": "G7997R103",
         "security_class": "ORD SHS",
         "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 573000.0,
-        "value_usd": 552945000.0,
-        "weight_pct": 33.92
+        "shares": 331000.0,
+        "value_usd": 305294540.0,
+        "weight_pct": 20.58
       },
       {
         "cusip": "57636Q104",
         "security_class": "CL A",
         "issuer": "MASTERCARD INCORPORATED",
-        "shares": 426650.0,
-        "value_usd": 219127440.0,
-        "weight_pct": 13.44
-      },
-      {
-        "cusip": "87305R109",
-        "security_class": "COM",
-        "issuer": "TTM TECHNOLOGIES INC",
-        "shares": 1011840.0,
-        "value_usd": 189234317.0,
-        "weight_pct": 11.61
-      },
-      {
-        "cusip": "219350105",
-        "security_class": "COM",
-        "issuer": "CORNING INC",
-        "shares": 597300.0,
-        "value_usd": 152568339.0,
-        "weight_pct": 9.36
-      },
-      {
-        "cusip": "893641100",
-        "security_class": "COM",
-        "issuer": "TRANSDIGM GROUP INC",
-        "shares": 87530.0,
-        "value_usd": 116593461.0,
-        "weight_pct": 7.15
+        "shares": 519385.0,
+        "value_usd": 286425246.0,
+        "weight_pct": 19.31
       },
       {
         "cusip": "912008109",
         "security_class": "COM",
         "issuer": "US FOODS HLDG CORP",
-        "shares": 1088500.0,
-        "value_usd": 111299125.0,
-        "weight_pct": 6.83
+        "shares": 1805000.0,
+        "value_usd": 166439050.0,
+        "weight_pct": 11.22
+      },
+      {
+        "cusip": "87305R109",
+        "security_class": "COM",
+        "issuer": "TTM TECHNOLOGIES INC",
+        "shares": 1298900.0,
+        "value_usd": 159556876.0,
+        "weight_pct": 10.76
       },
       {
         "cusip": "L8681T102",
         "security_class": "SHS",
         "issuer": "SPOTIFY TECHNOLOGY S A",
-        "shares": 239500.0,
-        "value_usd": 109961635.0,
-        "weight_pct": 6.75
+        "shares": 296000.0,
+        "value_usd": 144264480.0,
+        "weight_pct": 9.72
+      },
+      {
+        "cusip": "G8267P108",
+        "security_class": "SHS",
+        "issuer": "SMURFIT WESTROCK PLC",
+        "shares": 2624050.0,
+        "value_usd": 115720605.0,
+        "weight_pct": 7.8
+      },
+      {
+        "cusip": "893641100",
+        "security_class": "COM",
+        "issuer": "TRANSDIGM GROUP INC",
+        "shares": 106640.0,
+        "value_usd": 115448464.0,
+        "weight_pct": 7.78
       },
       {
         "cusip": "032095101",
         "security_class": "CL A",
         "issuer": "AMPHENOL CORP",
-        "shares": 543150.0,
-        "value_usd": 95768208.0,
-        "weight_pct": 5.87
+        "shares": 1199950.0,
+        "value_usd": 101155785.0,
+        "weight_pct": 6.82
       },
       {
-        "cusip": "42226A107",
+        "cusip": "929160109",
         "security_class": "COM",
-        "issuer": "HEALTHEQUITY INC",
-        "shares": 915270.0,
-        "value_usd": 82667186.0,
-        "weight_pct": 5.07
+        "issuer": "VULCAN MATLS CO",
+        "shares": 364813.0,
+        "value_usd": 89244204.0,
+        "weight_pct": 6.02
       }
     ],
-    "top_five_pct": 75.48,
+    "top_five_pct": 71.58,
     "top_ten_pct": 100.0,
-    "hhi": 1757.07,
+    "hhi": 1336.41,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
-      "exited_positions": 4,
-      "increased_positions": 2,
-      "reduced_positions": 4
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
+      "increased_positions": 6,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -120,11 +131,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001662906-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001662906-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 1630164711.0,
+  "reported_13f_value_usd": 1483549250.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001662906-26-000003",
+  "validated_accession": "0001662906-26-000005",
   "annualized_turnover_proxy_pct": null
 }

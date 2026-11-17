@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001803391",
   "investor_name": "SoftVest Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ABILENE",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1803391/0001420506-25-003146.txt",
-    "https://www.sec.gov/Archives/edgar/data/1803391/0001420506-26-001802.txt"
+    "https://www.sec.gov/Archives/edgar/data/1803391/0001420506-26-001802.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803391/0001420506-26-002890.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "afc38fd54b795e6c42d4a54a7076ebd9c7d550cf3462538a92dd189365523e25",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "27e0e506ccd41e62555c5cfb6cc4cf42be11d2b11bf7d700f949430dcf71d1b1",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2788234c3a79f13432f596be6ce457a457aed8f0",
+    "895bb462a225206f4c333110fd8dcd2c9113d4b3",
+    "b07fe80a2ffd83b0f9996da4eee6d8ad86cd4a20"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001802",
-    "source": "https://www.sec.gov/Archives/edgar/data/1803391/0001420506-26-001802.txt",
-    "distinct_positions": 3,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002890",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803391/0001420506-26-002890.txt",
+    "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 628855003.0,
+    "reported_long_equity_value_usd": 568435525.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,32 +43,56 @@
         "security_class": "COM",
         "issuer": "TEXAS PACIFIC LAND CORPORATI",
         "shares": 1062099.0,
-        "value_usd": 464817006.0,
-        "weight_pct": 73.91
+        "value_usd": 346063717.0,
+        "weight_pct": 60.88
       },
       {
         "cusip": "714236106",
         "security_class": "UNIT BEN INT",
         "issuer": "PERMIAN BASIN RTY TR",
         "shares": 6217107.0,
-        "value_usd": 155676359.0,
-        "weight_pct": 24.76
+        "value_usd": 195714528.0,
+        "weight_pct": 34.43
       },
       {
         "cusip": "22757R109",
         "security_class": "TR UNIT",
         "issuer": "CROSS TIMBERS RTY TR",
-        "shares": 924960.0,
-        "value_usd": 8361638.0,
-        "weight_pct": 1.33
+        "shares": 1005873.0,
+        "value_usd": 11909536.0,
+        "weight_pct": 2.1
+      },
+      {
+        "cusip": "798241105",
+        "security_class": "UNIT BEN INT",
+        "issuer": "SAN JUAN BASIN RTY TR",
+        "shares": 1970223.0,
+        "value_usd": 7191314.0,
+        "weight_pct": 1.27
+      },
+      {
+        "cusip": "64361Q101",
+        "security_class": "CL A",
+        "issuer": "VIPER ENERGY INC",
+        "shares": 171000.0,
+        "value_usd": 6821190.0,
+        "weight_pct": 1.2
+      },
+      {
+        "cusip": "25278X109",
+        "security_class": "COM",
+        "issuer": "DIAMONDBACK ENERGY INC",
+        "shares": 4000.0,
+        "value_usd": 735240.0,
+        "weight_pct": 0.13
       }
     ],
-    "top_five_pct": 100.0,
+    "top_five_pct": 99.87,
     "top_ten_pct": 100.0,
-    "hhi": 6078.0,
+    "hhi": 4899.28,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
       "exited_positions": 0,
       "increased_positions": 1,
       "reduced_positions": 0
@@ -72,11 +107,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001802"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002890"
       }
     ]
   },
-  "reported_13f_value_usd": 628855003.0,
+  "reported_13f_value_usd": 568435525.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001802",
+  "validated_accession": "0001420506-26-002890",
   "annualized_turnover_proxy_pct": null
 }

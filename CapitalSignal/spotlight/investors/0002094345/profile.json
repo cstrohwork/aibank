@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002094345",
   "investor_name": "BBFIT INVESTMENTS PTE LTD",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
-  "city": "SINGAPORE",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Singapore",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2094345/0001213900-26-090023.txt"
+    "https://www.sec.gov/Archives/edgar/data/2094345/0001213900-26-090023.txt",
+    "https://www.sec.gov/Archives/edgar/data/2094345/0001213900-26-120614.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4b3498fbb66d5531adaa5031efa46b1b5da15d29cb3d4ac163b77fe590f662eb",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "a07460702b8659a3f9f21f1529518791930abf2444a2ece9345228f5d65e00af",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "68de4c58d5232968bb8526a899fa280f11a58314",
+    "6fa574680710e2313779162f4ad33bb24cb917b2"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001213900-26-090023",
-    "source": "https://www.sec.gov/Archives/edgar/data/2094345/0001213900-26-090023.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001213900-26-120614",
+    "source": "https://www.sec.gov/Archives/edgar/data/2094345/0001213900-26-120614.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1099293306.0,
+    "reported_long_equity_value_usd": 1046622672.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,73 +39,84 @@
         "cusip": "926400102",
         "security_class": "Common Stock",
         "issuer": "VICTORIAS SECRET AND CO",
-        "shares": 8898930.0,
-        "value_usd": 742891024.0,
-        "weight_pct": 67.58
+        "shares": 7810531.0,
+        "value_usd": 690928418.0,
+        "weight_pct": 66.02
       },
       {
         "cusip": "002896207",
         "security_class": "CL A",
         "issuer": "ABERCROMBIE & FITCH CO",
-        "shares": 1632944.0,
-        "value_usd": 146981289.0,
-        "weight_pct": 13.37
+        "shares": 1132944.0,
+        "value_usd": 152596227.0,
+        "weight_pct": 14.58
       },
       {
         "cusip": "828806109",
         "security_class": "COM",
         "issuer": "SIMON PPTY GROUP INC NEW",
         "shares": 432500.0,
-        "value_usd": 96728625.0,
-        "weight_pct": 8.8
+        "value_usd": 86828700.0,
+        "weight_pct": 8.3
       },
       {
         "cusip": "01609W102",
         "security_class": "SPONSORED ADS",
         "issuer": "ALIBABA GROUP HLDG LTD",
         "shares": 728800.0,
-        "value_usd": 69950224.0,
-        "weight_pct": 6.36
+        "value_usd": 78375152.0,
+        "weight_pct": 7.49
       },
       {
         "cusip": "097023105",
         "security_class": "COM",
         "issuer": "BOEING CO",
         "shares": 99000.0,
-        "value_usd": 21430530.0,
-        "weight_pct": 1.95
+        "value_usd": 18418950.0,
+        "weight_pct": 1.76
       },
       {
         "cusip": "885160101",
         "security_class": "COM",
         "issuer": "THOR INDS INC",
         "shares": 263716.0,
-        "value_usd": 19820895.0,
-        "weight_pct": 1.8
+        "value_usd": 18222776.0,
+        "weight_pct": 1.74
       },
       {
         "cusip": "72814P109",
         "security_class": "COM",
         "issuer": "PLAYBOY INC",
         "shares": 1221901.0,
-        "value_usd": 1490719.0,
-        "weight_pct": 0.14
+        "value_usd": 1252449.0,
+        "weight_pct": 0.12
       }
     ],
-    "top_five_pct": 98.06,
+    "top_five_pct": 98.14,
     "top_ten_pct": 100.0,
-    "hhi": 4870.67,
-    "changes": null,
+    "hhi": 4701.6,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001213900-26-090023"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001213900-26-120614"
       }
     ]
   },
-  "reported_13f_value_usd": 1099293306.0,
+  "reported_13f_value_usd": 1046622672.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001213900-26-090023",
+  "validated_accession": "0001213900-26-120614",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001586986",
   "investor_name": "Electron Capital Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1586986/0001012975-25-000783.txt",
-    "https://www.sec.gov/Archives/edgar/data/1586986/0001012975-26-000779.txt"
+    "https://www.sec.gov/Archives/edgar/data/1586986/0001012975-26-000779.txt",
+    "https://www.sec.gov/Archives/edgar/data/1586986/0001012975-26-001064.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ae236d660378c9229eb0d85214914f6b4d79ad135b3ecb15156114ea5321e314",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "0763066cfc47ef4265c0952871ab69afbb94be8e2e4679afaf334b315d68ea4c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6f0d8dd814c494069e304a3f8dafea5c4653d0d7",
+    "7d1852d186632ebc46ba383ba3736627333c85a2",
+    "d85f5f34d69e5b236aea16ad5eb9b0e51be5516b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001012975-26-000779",
-    "source": "https://www.sec.gov/Archives/edgar/data/1586986/0001012975-26-000779.txt",
-    "distinct_positions": 46,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001012975-26-001064",
+    "source": "https://www.sec.gov/Archives/edgar/data/1586986/0001012975-26-001064.txt",
+    "distinct_positions": 41,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2504858962.0,
+    "reported_long_equity_value_usd": 1777528866.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "Y2573F102",
-        "security_class": "ORD",
-        "issuer": "FLEX LTD",
-        "shares": 1727715.0,
-        "value_usd": 280010770.0,
-        "weight_pct": 11.18
-      },
-      {
-        "cusip": "576323109",
-        "security_class": "COM",
-        "issuer": "MASTEC INC",
-        "shares": 620190.0,
-        "value_usd": 258036252.0,
-        "weight_pct": 10.3
+        "cusip": "G29183103",
+        "security_class": "SHS",
+        "issuer": "EATON CORP PLC",
+        "shares": 425833.0,
+        "value_usd": 182984699.0,
+        "weight_pct": 10.29
       },
       {
         "cusip": "98389B100",
         "security_class": "COM",
         "issuer": "XCEL ENERGY INC",
-        "shares": 2522174.0,
-        "value_usd": 202530572.0,
-        "weight_pct": 8.09
+        "shares": 2577359.0,
+        "value_usd": 181652263.0,
+        "weight_pct": 10.22
       },
       {
-        "cusip": "65339F101",
-        "security_class": "COM",
-        "issuer": "NEXTERA ENERGY INC",
-        "shares": 1932900.0,
-        "value_usd": 169650633.0,
-        "weight_pct": 6.77
+        "cusip": "Y2573F102",
+        "security_class": "ORD",
+        "issuer": "FLEX LTD",
+        "shares": 1520137.0,
+        "value_usd": 167199869.0,
+        "weight_pct": 9.41
       },
       {
         "cusip": "29364G103",
         "security_class": "COM",
         "issuer": "ENTERGY CORP NEW",
-        "shares": 1340648.0,
-        "value_usd": 153986829.0,
-        "weight_pct": 6.15
+        "shares": 1517274.0,
+        "value_usd": 150604617.0,
+        "weight_pct": 8.47
       },
       {
-        "cusip": "19247G107",
+        "cusip": "65339F101",
         "security_class": "COM",
-        "issuer": "COHERENT CORP",
-        "shares": 277072.0,
-        "value_usd": 109296592.0,
-        "weight_pct": 4.36
+        "issuer": "NEXTERA ENERGY INC",
+        "shares": 1782955.0,
+        "value_usd": 135041012.0,
+        "weight_pct": 7.6
       },
       {
-        "cusip": "337932107",
+        "cusip": "576323109",
         "security_class": "COM",
-        "issuer": "FIRSTENERGY CORP",
-        "shares": 2046976.0,
-        "value_usd": 97313239.0,
-        "weight_pct": 3.88
-      },
-      {
-        "cusip": "G51502105",
-        "security_class": "SHS",
-        "issuer": "JOHNSON CONTROLS INTERNATION",
-        "shares": 622330.0,
-        "value_usd": 90928636.0,
-        "weight_pct": 3.63
-      },
-      {
-        "cusip": "969457100",
-        "security_class": "COM",
-        "issuer": "WILLIAMS COS INC",
-        "shares": 1154694.0,
-        "value_usd": 85839952.0,
-        "weight_pct": 3.43
+        "issuer": "MASTEC INC",
+        "shares": 550317.0,
+        "value_usd": 117558717.0,
+        "weight_pct": 6.61
       },
       {
         "cusip": "21037T109",
         "security_class": "COM",
         "issuer": "CONSTELLATION ENERGY CORP",
-        "shares": 286137.0,
-        "value_usd": 71067847.0,
-        "weight_pct": 2.84
+        "shares": 397877.0,
+        "value_usd": 101068716.0,
+        "weight_pct": 5.69
+      },
+      {
+        "cusip": "337932107",
+        "security_class": "COM",
+        "issuer": "FIRSTENERGY CORP",
+        "shares": 2322800.0,
+        "value_usd": 100646924.0,
+        "weight_pct": 5.66
+      },
+      {
+        "cusip": "G51502105",
+        "security_class": "SHS",
+        "issuer": "JOHNSON CONTROLS INTERNATION",
+        "shares": 675029.0,
+        "value_usd": 100343061.0,
+        "weight_pct": 5.65
+      },
+      {
+        "cusip": "30040W108",
+        "security_class": "COM",
+        "issuer": "EVERSOURCE ENERGY",
+        "shares": 1415783.0,
+        "value_usd": 90836637.0,
+        "weight_pct": 5.11
       }
     ],
-    "top_five_pct": 42.49,
-    "top_ten_pct": 60.63,
-    "hhi": 517.86,
+    "top_five_pct": 45.99,
+    "top_ten_pct": 74.71,
+    "hhi": 651.95,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 22,
-      "exited_positions": 13,
-      "increased_positions": 4,
-      "reduced_positions": 18
+      "previous_period": "2026-06-30",
+      "new_positions": 10,
+      "exited_positions": 15,
+      "increased_positions": 17,
+      "reduced_positions": 14
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001012975-26-000779"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001012975-26-001064"
       }
     ]
   },
-  "reported_13f_value_usd": 2504858962.0,
+  "reported_13f_value_usd": 1777528866.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001012975-26-000779",
+  "validated_accession": "0001012975-26-001064",
   "annualized_turnover_proxy_pct": null
 }

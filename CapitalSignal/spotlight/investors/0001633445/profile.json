@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001633445",
   "investor_name": "Trexquant Investment LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1633445/0001633445-25-000014.txt",
-    "https://www.sec.gov/Archives/edgar/data/1633445/0001633445-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1633445/0001633445-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1633445/0001633445-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "cc22afe091ccf6b4e66e1a177124b7ebce3347ad75e83851f729bcf9ba4d00d8",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "0efd1927e616cbd319f8cf52a3d9d2c965ede522a1276e0260ba53e28631f78a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "20880bc6dd3c1bcc0c9236e8915b2181a7b7619f",
+    "976b34da05277219d2814668288a750550062fc0",
+    "ce812beec3127e9c911e3100b1a64f5041183905"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001633445-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1633445/0001633445-26-000005.txt",
-    "distinct_positions": 1625,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001633445-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1633445/0001633445-26-000008.txt",
+    "distinct_positions": 1617,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 16172905130.0,
+    "reported_long_equity_value_usd": 15751455981.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 2536240.0,
-        "value_usd": 507476262.0,
-        "weight_pct": 3.14
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 1375007.0,
-        "value_usd": 327719168.0,
-        "weight_pct": 2.03
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 1032523.0,
-        "value_usd": 298770855.0,
-        "weight_pct": 1.85
+        "shares": 1982538.0,
+        "value_usd": 452772028.0,
+        "weight_pct": 2.87
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 650859.0,
-        "value_usd": 242783424.0,
-        "weight_pct": 1.5
+        "shares": 509228.0,
+        "value_usd": 261183041.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 780306.0,
+        "value_usd": 259857504.0,
+        "weight_pct": 1.65
       },
       {
         "cusip": "595112103",
         "security_class": "COM",
         "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 195109.0,
-        "value_usd": 225212368.0,
-        "weight_pct": 1.39
+        "shares": 198003.0,
+        "value_usd": 210894975.0,
+        "weight_pct": 1.34
       },
       {
-        "cusip": "88160R101",
+        "cusip": "023135106",
         "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 475664.0,
-        "value_usd": 200064278.0,
-        "weight_pct": 1.24
+        "issuer": "AMAZON COM INC",
+        "shares": 759442.0,
+        "value_usd": 189214974.0,
+        "weight_pct": 1.2
       },
       {
-        "cusip": "46625H100",
+        "cusip": "11135F101",
         "security_class": "COM",
-        "issuer": "JPMORGAN CHASE & CO",
-        "shares": 588465.0,
-        "value_usd": 192622248.0,
-        "weight_pct": 1.19
+        "issuer": "BROADCOM INC",
+        "shares": 505340.0,
+        "value_usd": 177470355.0,
+        "weight_pct": 1.13
+      },
+      {
+        "cusip": "68389X105",
+        "security_class": "COM",
+        "issuer": "ORACLE CORP",
+        "shares": 944899.0,
+        "value_usd": 129734633.0,
+        "weight_pct": 0.82
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 482626.0,
-        "value_usd": 172476054.0,
-        "weight_pct": 1.07
+        "shares": 349989.0,
+        "value_usd": 120424215.0,
+        "weight_pct": 0.76
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 462882.0,
-        "value_usd": 163550097.0,
-        "weight_pct": 1.01
-      },
-      {
-        "cusip": "461202103",
+        "cusip": "22160K105",
         "security_class": "COM",
-        "issuer": "INTUIT",
-        "shares": 584565.0,
-        "value_usd": 152571465.0,
-        "weight_pct": 0.94
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 123638.0,
+        "value_usd": 112552617.0,
+        "weight_pct": 0.71
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 310671.0,
+        "value_usd": 102779287.0,
+        "weight_pct": 0.65
       }
     ],
-    "top_five_pct": 9.91,
-    "top_ten_pct": 15.35,
-    "hhi": 43.2,
+    "top_five_pct": 8.72,
+    "top_ten_pct": 12.8,
+    "hhi": 34.99,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 733,
-      "exited_positions": 647,
-      "increased_positions": 537,
-      "reduced_positions": 355
+      "previous_period": "2026-06-30",
+      "new_positions": 442,
+      "exited_positions": 450,
+      "increased_positions": 654,
+      "reduced_positions": 520
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001633445-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001633445-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 16172905130.0,
+  "reported_13f_value_usd": 15751455981.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001633445-26-000005",
+  "validated_accession": "0001633445-26-000008",
   "annualized_turnover_proxy_pct": null
 }

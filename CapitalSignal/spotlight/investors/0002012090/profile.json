@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002012090",
   "investor_name": "Unisphere Establishment",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "VADUZ",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2012090/0000947871-25-001008.txt",
-    "https://www.sec.gov/Archives/edgar/data/2012090/0000947871-26-000794.txt"
+    "https://www.sec.gov/Archives/edgar/data/2012090/0000947871-26-000794.txt",
+    "https://www.sec.gov/Archives/edgar/data/2012090/0000947871-26-001026.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f4a95287a851821fb9bf0eba545c6fedea5946cbcb0dd3de963d18e4fbef399f",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "6a098935d6c98275dc1ac49f6957e95211a77a0d602abd1d8f80a29474e29f9c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5358585d7a34adc097a41e5ccb3be072847a9c32",
+    "6fc81feb91a56fb7757dcd98b1211efcdc43534b",
+    "c95d4cc57d248d8cd2e37e162a60872cd83741e5"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000947871-26-000794",
-    "source": "https://www.sec.gov/Archives/edgar/data/2012090/0000947871-26-000794.txt",
-    "distinct_positions": 56,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000947871-26-001026",
+    "source": "https://www.sec.gov/Archives/edgar/data/2012090/0000947871-26-001026.txt",
+    "distinct_positions": 55,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 11744201548.0,
+    "reported_long_equity_value_usd": 11898422762.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "JPMORGAN CHASE & CO",
         "shares": 4800000.0,
-        "value_usd": 1571184000.0,
-        "weight_pct": 13.38
+        "value_usd": 1587984000.0,
+        "weight_pct": 13.35
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 3193600.0,
-        "value_usd": 1141296832.0,
-        "weight_pct": 9.72
+        "shares": 4338600.0,
+        "value_usd": 1492825488.0,
+        "weight_pct": 12.55
       },
       {
         "cusip": "883556102",
         "security_class": "COM",
         "issuer": "THERMO FISHER SCIENTIFIC INC",
-        "shares": 2060000.0,
-        "value_usd": 1032801600.0,
-        "weight_pct": 8.79
-      },
-      {
-        "cusip": "09290D101",
-        "security_class": "COM",
-        "issuer": "BLACKROCK INC",
-        "shares": 915500.0,
-        "value_usd": 880308180.0,
-        "weight_pct": 7.5
-      },
-      {
-        "cusip": "78409V104",
-        "security_class": "COM",
-        "issuer": "S&P GLOBAL INC",
-        "shares": 2133600.0,
-        "value_usd": 821884056.0,
-        "weight_pct": 7.0
+        "shares": 1960000.0,
+        "value_usd": 1323098000.0,
+        "weight_pct": 11.12
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 1974550.0,
-        "value_usd": 736546641.0,
-        "weight_pct": 6.27
+        "shares": 1959650.0,
+        "value_usd": 1005104485.0,
+        "weight_pct": 8.45
       },
       {
-        "cusip": "438516205",
+        "cusip": "09290D101",
         "security_class": "COM",
-        "issuer": "HONEYWELL INTL INC",
-        "shares": 2050000.0,
-        "value_usd": 458995000.0,
-        "weight_pct": 3.91
+        "issuer": "BLACKROCK INC",
+        "shares": 912900.0,
+        "value_usd": 966112941.0,
+        "weight_pct": 8.12
       },
       {
-        "cusip": "43849R105",
+        "cusip": "78409V104",
         "security_class": "COM",
-        "issuer": "HONEYWELL AEROSPACE INC",
-        "shares": 2075000.0,
-        "value_usd": 458741000.0,
-        "weight_pct": 3.91
+        "issuer": "S&P GLOBAL INC",
+        "shares": 2233600.0,
+        "value_usd": 881088192.0,
+        "weight_pct": 7.41
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 1720000.0,
+        "value_usd": 428538000.0,
+        "weight_pct": 3.6
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 2209800.0,
-        "value_usd": 442158882.0,
-        "weight_pct": 3.76
+        "shares": 1731600.0,
+        "value_usd": 395462808.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "717081103",
+        "security_class": "COM",
+        "issuer": "PFIZER INC",
+        "shares": 13050000.0,
+        "value_usd": 372186000.0,
+        "weight_pct": 3.13
       },
       {
         "cusip": "461202103",
         "security_class": "COM",
         "issuer": "INTUIT",
-        "shares": 1485000.0,
-        "value_usd": 387585000.0,
-        "weight_pct": 3.3
+        "shares": 1335000.0,
+        "value_usd": 368072850.0,
+        "weight_pct": 3.09
       }
     ],
-    "top_five_pct": 46.38,
-    "top_ten_pct": 67.54,
-    "hhi": 606.63,
+    "top_five_pct": 53.58,
+    "top_ten_pct": 74.13,
+    "hhi": 727.78,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 19,
-      "exited_positions": 24,
-      "increased_positions": 20,
-      "reduced_positions": 14
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 10,
+      "increased_positions": 17,
+      "reduced_positions": 19
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000947871-26-000794"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000947871-26-001026"
       }
     ]
   },
-  "reported_13f_value_usd": 11744201548.0,
+  "reported_13f_value_usd": 11898422762.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000947871-26-000794",
+  "validated_accession": "0000947871-26-001026",
   "annualized_turnover_proxy_pct": null
 }

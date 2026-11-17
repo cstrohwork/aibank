@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001409751",
   "investor_name": "Coliseum Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Rowayton",
   "state": "CT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1409751/0001193125-25-282991.txt",
-    "https://www.sec.gov/Archives/edgar/data/1409751/0001193125-26-352389.txt"
+    "https://www.sec.gov/Archives/edgar/data/1409751/0001193125-26-352389.txt",
+    "https://www.sec.gov/Archives/edgar/data/1409751/0001193125-26-463568.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3efe07d74859df1a970b8c955430aa06a76a1240e52543b173f51279948339b8",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "df3dc2030678320b679804a3c418284e2a9b6400a22cb2bbb4f63fb50ea7240c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2866a39e1cd7997571eae641a1eb844f5d6af9ba",
+    "c165e305310e7415796d4c033cb9381b3e49cfd8",
+    "fae0d9b2be31e7847981f1d0e8a6ce63c37cd380"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001193125-26-352389",
-    "source": "https://www.sec.gov/Archives/edgar/data/1409751/0001193125-26-352389.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463568",
+    "source": "https://www.sec.gov/Archives/edgar/data/1409751/0001193125-26-463568.txt",
     "distinct_positions": 11,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1162253900.0,
+    "reported_long_equity_value_usd": 982934304.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "SONOS INC",
         "shares": 18070762.0,
-        "value_usd": 244497410.0,
-        "weight_pct": 21.04
+        "value_usd": 323285932.0,
+        "weight_pct": 32.89
       },
       {
         "cusip": "12008R107",
         "security_class": "COM",
         "issuer": "BUILDERS FIRSTSOURCE, INC.",
-        "shares": 2598218.0,
-        "value_usd": 232488547.0,
-        "weight_pct": 20.0
+        "shares": 3070450.0,
+        "value_usd": 175046355.0,
+        "weight_pct": 17.81
       },
       {
         "cusip": "42704L104",
         "security_class": "COM",
         "issuer": "HERC HOLDINGS INC.",
-        "shares": 1117122.0,
-        "value_usd": 160128267.0,
-        "weight_pct": 13.78
-      },
-      {
-        "cusip": "57638P104",
-        "security_class": "COM",
-        "issuer": "MASTERBRAND INC",
-        "shares": 13200117.0,
-        "value_usd": 135829204.0,
-        "weight_pct": 11.69
+        "shares": 1125468.0,
+        "value_usd": 140458406.0,
+        "weight_pct": 14.29
       },
       {
         "cusip": "971378104",
-        "security_class": "COM",
-        "issuer": "WILLSCOT MOBILE MINI HOLDINGS CORP.",
-        "shares": 4351193.0,
-        "value_usd": 125575430.0,
-        "weight_pct": 10.8
+        "security_class": "COM CL A",
+        "issuer": "WILLSCOT HOLDINGS CORP",
+        "shares": 6065739.0,
+        "value_usd": 104209396.0,
+        "weight_pct": 10.6
+      },
+      {
+        "cusip": "57638P104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MASTERBRAND INC",
+        "shares": 14537480.0,
+        "value_usd": 101762360.0,
+        "weight_pct": 10.35
       },
       {
         "cusip": "57637H103",
         "security_class": "COM",
         "issuer": "MASTERCRAFT BOAT HOLDINGS INC",
         "shares": 3697422.0,
-        "value_usd": 95467436.0,
-        "weight_pct": 8.21
+        "value_usd": 73208956.0,
+        "weight_pct": 7.45
       },
       {
-        "cusip": "63001N106",
+        "cusip": "35138V102",
         "security_class": "COM",
-        "issuer": "NCR ATLEOS CORP",
-        "shares": 1071128.0,
-        "value_usd": 46497666.0,
-        "weight_pct": 4.0
-      },
-      {
-        "cusip": "690732102",
-        "security_class": "COM",
-        "issuer": "ACCENDRA HEALTH INC",
-        "shares": 13100807.0,
-        "value_usd": 44804760.0,
-        "weight_pct": 3.85
+        "issuer": "FOX FACTORY HOLDING CORP.",
+        "shares": 1597660.0,
+        "value_usd": 29349014.0,
+        "weight_pct": 2.99
       },
       {
         "cusip": "913915104",
         "security_class": "COM",
         "issuer": "UNIVERSAL TECHNICAL INSTITUTE INC",
         "shares": 971440.0,
-        "value_usd": 41548489.0,
-        "weight_pct": 3.57
+        "value_usd": 18136785.0,
+        "weight_pct": 1.85
       },
       {
-        "cusip": "35138V102",
+        "cusip": "690732102",
         "security_class": "COM",
-        "issuer": "FOX FACTORY HOLDING CORP.",
-        "shares": 1102942.0,
-        "value_usd": 18689352.0,
-        "weight_pct": 1.61
+        "issuer": "ACCENDRA HEALTH INC",
+        "shares": 13100807.0,
+        "value_usd": 7371824.0,
+        "weight_pct": 0.75
+      },
+      {
+        "cusip": "741623102",
+        "security_class": "CLASS A COM SHS",
+        "issuer": "PRIMO BRANDS CORP",
+        "shares": 315000.0,
+        "value_usd": 6000750.0,
+        "weight_pct": 0.61
       }
     ],
-    "top_five_pct": 77.31,
-    "top_ten_pct": 98.56,
-    "hhi": 1401.57,
+    "top_five_pct": 85.94,
+    "top_ten_pct": 99.58,
+    "hhi": 1891.57,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 2,
-      "increased_positions": 4,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 4,
+      "increased_positions": 3,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001193125-26-352389"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463568"
       }
     ]
   },
-  "reported_13f_value_usd": 1162253900.0,
+  "reported_13f_value_usd": 982934304.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-352389",
+  "validated_accession": "0001193125-26-463568",
   "annualized_turnover_proxy_pct": null
 }

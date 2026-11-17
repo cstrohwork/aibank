@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001449434",
   "investor_name": "Apollo Management Holdings, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1449434/0001449434-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/1449434/0001449434-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1449434/0001449434-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1449434/0001449434-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b369fc150ebca13056b1c8511c3f168a4f81d77b610b342b7818fc19bdccd7bc",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "c77774c00fb8a8b5c1b4dc64f0658cb7fc11d9408cdd4faeea8bbc7f1d048963",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3342acb80e0d20411d87352762ea0447c1cb7026",
+    "8761a34a7054d2d8f59d7ec2d1d841910565db57",
+    "c5024c56cfa1dd00803f6d6bc09b69cebcf0ffe1"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001449434-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1449434/0001449434-26-000006.txt",
-    "distinct_positions": 82,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001449434-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1449434/0001449434-26-000009.txt",
+    "distinct_positions": 72,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 6148875004.0,
+    "reported_long_equity_value_usd": 5009096474.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "750102105",
-        "security_class": "COM",
-        "issuer": "RACKSPACE TECHNOLOGY INC",
-        "shares": 129609000.0,
-        "value_usd": 846346770.0,
-        "weight_pct": 13.76
-      },
       {
         "cusip": "718968100",
         "security_class": "COM",
         "issuer": "PHOENIX ED PARTNERS INC",
         "shares": 24901320.0,
-        "value_usd": 818008362.0,
-        "weight_pct": 13.3
+        "value_usd": 633240568.0,
+        "weight_pct": 12.64
       },
       {
-        "cusip": "43283X105",
+        "cusip": "750102105",
         "security_class": "COM",
-        "issuer": "HILTON GRAND VACATIONS INC",
-        "shares": 12495825.0,
-        "value_usd": 654406355.0,
-        "weight_pct": 10.64
+        "issuer": "RACKSPACE TECHNOLOGY INC",
+        "shares": 129609000.0,
+        "value_usd": 483441570.0,
+        "weight_pct": 9.65
       },
       {
         "cusip": "40054J109",
         "security_class": "SPONSORED ADS",
         "issuer": "GRUPO AEROMEXICO SAB DE CV",
         "shares": 27505017.0,
-        "value_usd": 495090306.0,
-        "weight_pct": 8.05
+        "value_usd": 434304218.0,
+        "weight_pct": 8.67
       },
       {
-        "cusip": "922908363",
-        "security_class": "S&P 500 ETF SHS",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 592238.0,
-        "value_usd": 406754981.0,
-        "weight_pct": 6.62
+        "cusip": "43283X105",
+        "security_class": "COM",
+        "issuer": "HILTON GRAND VACATIONS INC",
+        "shares": 12495825.0,
+        "value_usd": 433105295.0,
+        "weight_pct": 8.65
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 543365.0,
+        "value_usd": 416136085.0,
+        "weight_pct": 8.31
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1000000.0,
+        "value_usd": 333020000.0,
+        "weight_pct": 6.65
       },
       {
         "cusip": "278768106",
         "security_class": "CL A",
         "issuer": "ECHOSTAR CORP",
-        "shares": 3698611.0,
-        "value_usd": 375409016.0,
-        "weight_pct": 6.11
-      },
-      {
-        "cusip": "84615Q103",
-        "security_class": "CLASS A COM STK",
-        "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 2023307.0,
-        "value_usd": 345702234.0,
-        "weight_pct": 5.62
-      },
-      {
-        "cusip": "37890B100",
-        "security_class": "COM CL A",
-        "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
-        "shares": 21712184.0,
-        "value_usd": 203877406.0,
-        "weight_pct": 3.32
+        "shares": 3465576.0,
+        "value_usd": 309857150.0,
+        "weight_pct": 6.19
       },
       {
         "cusip": "741623102",
         "security_class": "CLASS A COM SHS",
         "issuer": "PRIMO BRANDS CORPORATION",
-        "shares": 6885351.0,
-        "value_usd": 168277978.0,
-        "weight_pct": 2.74
+        "shares": 15232290.0,
+        "value_usd": 290175125.0,
+        "weight_pct": 5.79
       },
       {
-        "cusip": "912932100",
-        "security_class": "COM SHS",
-        "issuer": "UNITI GROUP LLC",
-        "shares": 10638901.0,
-        "value_usd": 122028194.0,
-        "weight_pct": 1.98
+        "cusip": "171484108",
+        "security_class": "COM",
+        "issuer": "CHURCHILL DOWNS INC",
+        "shares": 3059065.0,
+        "value_usd": 231510039.0,
+        "weight_pct": 4.62
+      },
+      {
+        "cusip": "21874A106",
+        "security_class": "COM",
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "shares": 14262158.0,
+        "value_usd": 227909285.0,
+        "weight_pct": 4.55
       }
     ],
-    "top_five_pct": 52.38,
-    "top_ten_pct": 72.14,
-    "hhi": 705.01,
+    "top_five_pct": 47.92,
+    "top_ten_pct": 75.72,
+    "hhi": 653.67,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 60,
-      "exited_positions": 21,
-      "increased_positions": 3,
-      "reduced_positions": 7
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 15,
+      "increased_positions": 10,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001449434-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001449434-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 6148875004.0,
+  "reported_13f_value_usd": 5009096474.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001449434-26-000006",
+  "validated_accession": "0001449434-26-000009",
   "annualized_turnover_proxy_pct": null
 }

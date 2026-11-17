@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001578684",
   "investor_name": "Abdiel Capital Advisors, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1578684/0000904454-25-000605.txt",
-    "https://www.sec.gov/Archives/edgar/data/1578684/0001578684-26-000002.txt"
+    "https://www.sec.gov/Archives/edgar/data/1578684/0001578684-26-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1578684/0001578684-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4c5b5b0f9fd185349e969b0c95c584357dd822f64ff56590b36f65a25623781f",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "fc5ec138b550402e3a88dc907d8e246e2b6828b58bcd55a0269f012a1b5783e3",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1661f8402df2bd2514168613c2bfcabdd5a073b0",
+    "94f42ff493e2696a98779838c9c90a1b6071a741",
+    "dc3fcfc512fb0805c6ed4c15ea02f0b5a6d2a40a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001578684-26-000002",
-    "source": "https://www.sec.gov/Archives/edgar/data/1578684/0001578684-26-000002.txt",
-    "distinct_positions": 5,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001578684-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1578684/0001578684-26-000004.txt",
+    "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 51803813.0,
+    "reported_long_equity_value_usd": 44048398.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,51 +43,27 @@
         "security_class": "COM",
         "issuer": "HCA HEALTHCARE INC",
         "shares": 75137.0,
-        "value_usd": 29295165.0,
-        "weight_pct": 56.55
-      },
-      {
-        "cusip": "00827B106",
-        "security_class": "COM CL A",
-        "issuer": "AFFIRM HLDGS INC",
-        "shares": 134741.0,
-        "value_usd": 10988129.0,
-        "weight_pct": 21.21
+        "value_usd": 32063963.0,
+        "weight_pct": 72.79
       },
       {
         "cusip": "M5216V106",
         "security_class": "SHS",
         "issuer": "GLOBAL E ONLINE LTD",
         "shares": 301647.0,
-        "value_usd": 10476200.0,
-        "weight_pct": 20.22
-      },
-      {
-        "cusip": "639193101",
-        "security_class": "CL A",
-        "issuer": "NAVAN INC",
-        "shares": 37000.0,
-        "value_usd": 846190.0,
-        "weight_pct": 1.63
-      },
-      {
-        "cusip": "37890B100",
-        "security_class": "COM CL A",
-        "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
-        "shares": 21100.0,
-        "value_usd": 198129.0,
-        "weight_pct": 0.38
+        "value_usd": 11984435.0,
+        "weight_pct": 27.21
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 4059.61,
+    "hhi": 6039.0,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 2,
-      "increased_positions": 1,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 3,
+      "increased_positions": 0,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -88,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001578684-26-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001578684-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 51803813.0,
+  "reported_13f_value_usd": 44048398.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001578684-26-000002",
+  "validated_accession": "0001578684-26-000004",
   "annualized_turnover_proxy_pct": null
 }

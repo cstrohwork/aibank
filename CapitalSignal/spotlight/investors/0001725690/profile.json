@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001725690",
   "investor_name": "Bridgefront Capital, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "AUSTIN",
   "state": "TX",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1725690/0001420506-25-003390.txt",
-    "https://www.sec.gov/Archives/edgar/data/1725690/0001420506-26-001762.txt"
+    "https://www.sec.gov/Archives/edgar/data/1725690/0001420506-26-001762.txt",
+    "https://www.sec.gov/Archives/edgar/data/1725690/0001420506-26-002829.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "aa26e1784314182329e65e65e733a19dfef69ae5bea2192c5f78aa9dd2639215",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "1324a56d90aeb1ae27516fe712e571cabdb3f2092dffc1e1b7f44b8f51ea2982",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "04f4ef3f09121afcf2aea3d7ddf68304b61de3e4",
+    "05f66205101a61ed9d8fc979e2250d25da6e91eb",
+    "cff7d44dc2569a7dac5a9b8af84b6ca5ada62258"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001762",
-    "source": "https://www.sec.gov/Archives/edgar/data/1725690/0001420506-26-001762.txt",
-    "distinct_positions": 486,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002829",
+    "source": "https://www.sec.gov/Archives/edgar/data/1725690/0001420506-26-002829.txt",
+    "distinct_positions": 473,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 379527412.0,
+    "reported_long_equity_value_usd": 422161515.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "60871R209",
+        "security_class": "CL B",
+        "issuer": "MOLSON COORS BEVERAGE CO",
+        "shares": 170998.0,
+        "value_usd": 6236297.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 12096.0,
+        "value_usd": 6204038.0,
+        "weight_pct": 1.47
+      },
+      {
         "cusip": "194162103",
         "security_class": "COM",
         "issuer": "COLGATE PALMOLIVE CO",
-        "shares": 60327.0,
-        "value_usd": 5530779.0,
+        "shares": 72402.0,
+        "value_usd": 6177339.0,
         "weight_pct": 1.46
-      },
-      {
-        "cusip": "494368103",
-        "security_class": "COM",
-        "issuer": "KIMBERLY-CLARK CORP",
-        "shares": 44815.0,
-        "value_usd": 4919343.0,
-        "weight_pct": 1.3
-      },
-      {
-        "cusip": "902494103",
-        "security_class": "CL A",
-        "issuer": "TYSON FOODS INC",
-        "shares": 85126.0,
-        "value_usd": 4873464.0,
-        "weight_pct": 1.28
       },
       {
         "cusip": "21036P108",
         "security_class": "CL A",
         "issuer": "CONSTELLATION BRANDS INC",
-        "shares": 30750.0,
-        "value_usd": 4277018.0,
-        "weight_pct": 1.13
+        "shares": 49631.0,
+        "value_usd": 5611281.0,
+        "weight_pct": 1.33
       },
       {
-        "cusip": "518439104",
-        "security_class": "CL A",
-        "issuer": "LAUDER ESTEE COS INC",
-        "shares": 50230.0,
-        "value_usd": 3965659.0,
-        "weight_pct": 1.04
-      },
-      {
-        "cusip": "191216100",
+        "cusip": "75513E101",
         "security_class": "COM",
-        "issuer": "COCA COLA CO",
-        "shares": 48186.0,
-        "value_usd": 3916076.0,
+        "issuer": "RTX CORPORATION",
+        "shares": 23850.0,
+        "value_usd": 4427753.0,
+        "weight_pct": 1.05
+      },
+      {
+        "cusip": "824348106",
+        "security_class": "COM",
+        "issuer": "SHERWIN WILLIAMS CO",
+        "shares": 13402.0,
+        "value_usd": 4332465.0,
         "weight_pct": 1.03
       },
       {
-        "cusip": "60871R209",
-        "security_class": "CL B",
-        "issuer": "MOLSON COORS BEVERAGE CO",
-        "shares": 92933.0,
-        "value_usd": 3620670.0,
-        "weight_pct": 0.95
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 12969.0,
+        "value_usd": 4260446.0,
+        "weight_pct": 1.01
       },
       {
-        "cusip": "03027X100",
-        "security_class": "COM",
-        "issuer": "AMERICAN TOWER CORP",
-        "shares": 19875.0,
-        "value_usd": 3250954.0,
-        "weight_pct": 0.86
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 4216.0,
+        "value_usd": 3888585.0,
+        "weight_pct": 0.92
       },
       {
-        "cusip": "008492100",
+        "cusip": "882508104",
         "security_class": "COM",
-        "issuer": "AGREE RLTY CORP",
-        "shares": 41513.0,
-        "value_usd": 3144195.0,
-        "weight_pct": 0.83
+        "issuer": "TEXAS INSTRS INC",
+        "shares": 13407.0,
+        "value_usd": 3755167.0,
+        "weight_pct": 0.89
       },
       {
-        "cusip": "949746101",
-        "security_class": "COM",
-        "issuer": "WELLS FARGO & CO",
-        "shares": 37577.0,
-        "value_usd": 3105363.0,
-        "weight_pct": 0.82
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 19864.0,
+        "value_usd": 3715561.0,
+        "weight_pct": 0.88
       }
     ],
-    "top_five_pct": 6.21,
-    "top_ten_pct": 10.7,
-    "hhi": 38.88,
+    "top_five_pct": 6.79,
+    "top_ten_pct": 11.51,
+    "hhi": 42.41,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 313,
-      "exited_positions": 388,
-      "increased_positions": 92,
-      "reduced_positions": 81
+      "previous_period": "2026-06-30",
+      "new_positions": 271,
+      "exited_positions": 284,
+      "increased_positions": 110,
+      "reduced_positions": 90
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001762"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002829"
       }
     ]
   },
-  "reported_13f_value_usd": 379527412.0,
+  "reported_13f_value_usd": 422161515.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001762",
+  "validated_accession": "0001420506-26-002829",
   "annualized_turnover_proxy_pct": null
 }

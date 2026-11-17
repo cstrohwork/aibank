@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001717479",
   "investor_name": "Redwood Investment Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SCOTTSDALE",
   "state": "AZ",
   "country": "United States",
@@ -11,113 +11,126 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000006.txt",
     "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0bdb902ce7c8c17094e41be73453d24cee1ec4d3560ef9e1ebf717ddca5632d0",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "b1d3d90e77245df27c87815018ee2aaf736cf8d2db6251fe07a3df0e9dfcaa38",
+  "accession_fingerprints": [
+    "2025-09-30|2026-08-26|||",
+    "2025-12-31|2026-08-26|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0a3fc9a27a762f6cf25f19616e38ab00ee3e9980",
+    "16893b8e516c237e352afbfa00adfb1b0c37e56a",
+    "185df1ec19ae8c3e68009d1226d4f7993a65f20e",
+    "5f166978f4e67ffb4a7259cd8623ec1ba8369f4b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0001717479-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000004.txt",
-    "distinct_positions": 306,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001717479-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1717479/0001717479-26-000010.txt",
+    "distinct_positions": 245,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1008897.0,
+    "reported_long_equity_value_usd": 694393.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
-        "issuer": "Vanguard S&P 500 ETF",
-        "shares": 188831.0,
-        "value_usd": 129691.0,
-        "weight_pct": 12.85
+        "issuer": "Vanguard",
+        "shares": 127608.0,
+        "value_usd": 89435.0,
+        "weight_pct": 12.88
       },
       {
         "cusip": "46138E339",
         "security_class": "S&P 500 MOMNTM",
-        "issuer": "Invesco S&P 500 Momentum ETF",
-        "shares": 638049.0,
-        "value_usd": 103070.0,
-        "weight_pct": 10.22
+        "issuer": "Invesco",
+        "shares": 421842.0,
+        "value_usd": 63943.0,
+        "weight_pct": 9.21
       },
       {
         "cusip": "90214Q774",
         "security_class": "LDRSHS ALPFACT",
-        "issuer": "LeaderShares AlphaFactor US Co",
-        "shares": 1183825.0,
-        "value_usd": 61305.0,
-        "weight_pct": 6.08
+        "issuer": "LeaderShares",
+        "shares": 830766.0,
+        "value_usd": 44237.0,
+        "weight_pct": 6.37
       },
       {
         "cusip": "78464A409",
         "security_class": "PRTFLO S&P500 GW",
-        "issuer": "State Street SPDR Portfolio S&",
-        "shares": 410139.0,
-        "value_usd": 48802.0,
+        "issuer": "State Street",
+        "shares": 273157.0,
+        "value_usd": 33620.0,
         "weight_pct": 4.84
       },
       {
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
         "issuer": "Invesco QQQ Trust Series 1",
-        "shares": 59592.0,
-        "value_usd": 43884.0,
-        "weight_pct": 4.35
-      },
-      {
-        "cusip": "464287465",
-        "security_class": "MSCI EAFE ETF",
-        "issuer": "ISHARES MSCI EAFE ETF",
-        "shares": 419150.0,
-        "value_usd": 43541.0,
-        "weight_pct": 4.32
+        "shares": 44379.0,
+        "value_usd": 32831.0,
+        "weight_pct": 4.73
       },
       {
         "cusip": "90214Q691",
         "security_class": "LEADERSHS ALPHAF",
-        "issuer": "LeaderShares AlphaFactor Tacti",
-        "shares": 609585.0,
-        "value_usd": 27246.0,
-        "weight_pct": 2.7
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 55173.0,
-        "value_usd": 15965.0,
-        "weight_pct": 1.58
-      },
-      {
-        "cusip": "922042718",
-        "security_class": "FTSE SMCAP ETF",
-        "issuer": "VANGUARD FTSE ALL WO X-US SC",
-        "shares": 100174.0,
-        "value_usd": 15456.0,
-        "weight_pct": 1.53
+        "issuer": "LeaderShares",
+        "shares": 546098.0,
+        "value_usd": 24001.0,
+        "weight_pct": 3.46
       },
       {
         "cusip": "808524888",
         "security_class": "INTL SCEQT ETF",
-        "issuer": "SCHWAB INTL SMALL-CAP EQUITY",
-        "shares": 317380.0,
-        "value_usd": 15272.0,
-        "weight_pct": 1.51
+        "issuer": "Schwab",
+        "shares": 313728.0,
+        "value_usd": 15605.0,
+        "weight_pct": 2.25
+      },
+      {
+        "cusip": "922042718",
+        "security_class": "FTSE SMCAP ETF",
+        "issuer": "Vanguard",
+        "shares": 99024.0,
+        "value_usd": 15373.0,
+        "weight_pct": 2.21
+      },
+      {
+        "cusip": "78464A854",
+        "security_class": "PORTFOLIO S&P500",
+        "issuer": "State Street",
+        "shares": 156800.0,
+        "value_usd": 14074.0,
+        "weight_pct": 2.03
+      },
+      {
+        "cusip": "464287465",
+        "security_class": "MSCI EAFE ETF",
+        "issuer": "iShares MSCI",
+        "shares": 112577.0,
+        "value_usd": 11696.0,
+        "weight_pct": 1.68
       }
     ],
-    "top_five_pct": 38.33,
-    "top_ten_pct": 49.98,
-    "hhi": 404.95,
+    "top_five_pct": 38.03,
+    "top_ten_pct": 49.66,
+    "hhi": 382.93,
     "changes": {
-      "previous_period": "2025-12-31",
-      "new_positions": 97,
-      "exited_positions": 86,
-      "increased_positions": 102,
-      "reduced_positions": 107
+      "previous_period": "2026-06-30",
+      "new_positions": 44,
+      "exited_positions": 105,
+      "increased_positions": 124,
+      "reduced_positions": 75
     },
     "timeline": [
       {
@@ -134,11 +147,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0001717479-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001717479-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 1008897.0,
+  "reported_13f_value_usd": 694393.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001717479-26-000004",
+  "validated_accession": "0001717479-26-000010",
   "annualized_turnover_proxy_pct": null
 }

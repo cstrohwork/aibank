@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001764756",
   "investor_name": "Johns Hopkins University",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BALTIMORE",
   "state": "MD",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1764756/0001764756-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1764756/0001764756-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1764756/0001764756-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1764756/0001764756-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "428718347ff74e614748282580da0567130c27fb2fa23208c3fde9a4cfc3a9c8",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "3a3a1c0cc0dc5d3322a2eac6acea1ad6ca712dd9aec776b02a82634259db9f73",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "19af9c35def982f251740103f9f784f5a0e0e777",
+    "1df324c04724c27eac4f7cf5d08213a256c4eea6",
+    "896bd3d037cc3171ad6067979fc8b4b991abc4b3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001764756-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1764756/0001764756-26-000005.txt",
-    "distinct_positions": 18,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001764756-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1764756/0001764756-26-000007.txt",
+    "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1495622259.0,
+    "reported_long_equity_value_usd": 1329238319.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "CORE US AGGBD ET",
         "issuer": "ISHARES TR",
         "shares": 8024716.0,
-        "value_usd": 794286390.0,
-        "weight_pct": 53.11
+        "value_usd": 758656651.0,
+        "weight_pct": 57.07
       },
       {
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
         "issuer": "INVESCO QQQ TR",
         "shares": 258537.0,
-        "value_usd": 190386647.0,
-        "weight_pct": 12.73
-      },
-      {
-        "cusip": "46434G764",
-        "security_class": "MSCI EMRG CHN",
-        "issuer": "ISHARES INC",
-        "shares": 1423744.0,
-        "value_usd": 145649011.0,
-        "weight_pct": 9.74
-      },
-      {
-        "cusip": "464287622",
-        "security_class": "RUS 1000 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 264479.0,
-        "value_usd": 108304151.0,
-        "weight_pct": 7.24
+        "value_usd": 191257916.0,
+        "weight_pct": 14.39
       },
       {
         "cusip": "78463X541",
         "security_class": "ST STR NAT ETF",
         "issuer": "SPDR INDEX SHS FDS",
         "shares": 1572088.0,
-        "value_usd": 105817243.0,
-        "weight_pct": 7.08
+        "value_usd": 116287349.0,
+        "weight_pct": 8.75
+      },
+      {
+        "cusip": "464287622",
+        "security_class": "RUS 1000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 264479.0,
+        "value_usd": 110057646.0,
+        "weight_pct": 8.28
       },
       {
         "cusip": "92206C102",
         "security_class": "SHORT TERM TREAS",
         "issuer": "VANGUARD SCOTTSDALE FDS",
         "shares": 616877.0,
-        "value_usd": 35902241.0,
-        "weight_pct": 2.4
+        "value_usd": 35507440.0,
+        "weight_pct": 2.67
       },
       {
         "cusip": "464288257",
         "security_class": "MSCI ACWI ETF",
         "issuer": "ISHARES TR",
         "shares": 181055.0,
-        "value_usd": 28420203.0,
-        "weight_pct": 1.9
+        "value_usd": 28745197.0,
+        "weight_pct": 2.16
       },
       {
         "cusip": "464288588",
         "security_class": "MBS ETF",
         "issuer": "ISHARES TR",
         "shares": 193437.0,
-        "value_usd": 18283665.0,
-        "weight_pct": 1.22
+        "value_usd": 17335824.0,
+        "weight_pct": 1.3
       },
       {
         "cusip": "464288646",
         "security_class": "ISHS 1-5YR INVS",
         "issuer": "ISHARES TR",
         "shares": 321905.0,
-        "value_usd": 16871041.0,
-        "weight_pct": 1.13
+        "value_usd": 16491193.0,
+        "weight_pct": 1.24
       },
       {
         "cusip": "46434G822",
         "security_class": "MSCI JAPAN ETF",
         "issuer": "ISHARES INC",
         "shares": 146318.0,
-        "value_usd": 13647080.0,
-        "weight_pct": 0.91
+        "value_usd": 14260152.0,
+        "weight_pct": 1.07
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 26995.0,
+        "value_usd": 13845736.0,
+        "weight_pct": 1.04
       }
     ],
-    "top_five_pct": 89.89,
-    "top_ten_pct": 97.46,
-    "hhi": 3194.44,
+    "top_five_pct": 91.16,
+    "top_ten_pct": 97.98,
+    "hhi": 3628.47,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 6,
-      "increased_positions": 1,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 2,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001764756-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001764756-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 1495622259.0,
+  "reported_13f_value_usd": 1329238319.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001764756-26-000005",
+  "validated_accession": "0001764756-26-000007",
   "annualized_turnover_proxy_pct": null
 }

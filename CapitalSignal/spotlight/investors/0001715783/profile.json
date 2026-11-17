@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001715783",
   "investor_name": "Grace & Mercy Foundation, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1715783/0001493152-25-023433.txt",
-    "https://www.sec.gov/Archives/edgar/data/1715783/0001493152-26-038299.txt"
+    "https://www.sec.gov/Archives/edgar/data/1715783/0001493152-26-038299.txt",
+    "https://www.sec.gov/Archives/edgar/data/1715783/0001493152-26-052369.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d6896717a9bed7675fd84930d60a05d87305dd7938baabdde8134747acc24b2b",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "af93e4f988432bae8be1650e00950bbb2215b738e145e4a64c2e22a42ab5f123",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "21c27fdb18d7bbcce856f7ef9f110f17a5fdee64",
+    "722a60ac2fba3ea0e42e7482d9709b059dee9921",
+    "dcbf469a56e495488407d944c6412c9f30d2ef1f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-038299",
-    "source": "https://www.sec.gov/Archives/edgar/data/1715783/0001493152-26-038299.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001493152-26-052369",
+    "source": "https://www.sec.gov/Archives/edgar/data/1715783/0001493152-26-052369.txt",
     "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 401697761.0,
+    "reported_long_equity_value_usd": 419282585.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 173448.0,
-        "value_usd": 61985112.0,
-        "weight_pct": 15.43
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 251913.0,
-        "value_usd": 60040944.0,
-        "weight_pct": 14.95
-      },
-      {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
-        "shares": 97485.0,
-        "value_usd": 54912326.0,
-        "weight_pct": 13.67
+        "shares": 87984.0,
+        "value_usd": 63804237.0,
+        "weight_pct": 15.22
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 118530.0,
-        "value_usd": 44214061.0,
-        "weight_pct": 11.01
+        "shares": 110507.0,
+        "value_usd": 56679040.0,
+        "weight_pct": 13.52
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 225783.0,
+        "value_usd": 56253834.0,
+        "weight_pct": 13.42
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 159144.0,
+        "value_usd": 54758268.0,
+        "weight_pct": 13.06
       },
       {
         "cusip": "64110L106",
         "security_class": "COM",
         "issuer": "NETFLIX INC.",
         "shares": 459190.0,
-        "value_usd": 32786166.0,
-        "weight_pct": 8.16
+        "value_usd": 31950440.0,
+        "weight_pct": 7.62
+      },
+      {
+        "cusip": "81762P102",
+        "security_class": "COM",
+        "issuer": "SERVICENOW INC",
+        "shares": 186978.0,
+        "value_usd": 25056922.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "35137L105",
+        "security_class": "CL A COM",
+        "issuer": "FOX CORP",
+        "shares": 350000.0,
+        "value_usd": 21927500.0,
+        "weight_pct": 5.23
       },
       {
         "cusip": "771049103",
         "security_class": "CL A",
         "issuer": "ROBLOX CORP",
         "shares": 506600.0,
-        "value_usd": 27548908.0,
-        "weight_pct": 6.86
-      },
-      {
-        "cusip": "81762P102",
-        "security_class": "COM",
-        "issuer": "SERVICENOW INC",
-        "shares": 246000.0,
-        "value_usd": 24422880.0,
-        "weight_pct": 6.08
-      },
-      {
-        "cusip": "254687106",
-        "security_class": "COM",
-        "issuer": "DISNEY WALT CO",
-        "shares": 201100.0,
-        "value_usd": 19355875.0,
-        "weight_pct": 4.82
+        "value_usd": 21464642.0,
+        "weight_pct": 5.12
       },
       {
         "cusip": "00724F101",
         "security_class": "COM",
         "issuer": "ADOBE INC",
-        "shares": 89220.0,
-        "value_usd": 18291884.0,
-        "weight_pct": 4.55
+        "shares": 84800.0,
+        "value_usd": 20346912.0,
+        "weight_pct": 4.85
       },
       {
-        "cusip": "55087P104",
-        "security_class": "CL A COM",
-        "issuer": "LYFT INC",
-        "shares": 875000.0,
-        "value_usd": 12783750.0,
-        "weight_pct": 3.18
+        "cusip": "254687106",
+        "security_class": "COM",
+        "issuer": "DISNEY WALT CO",
+        "shares": 173300.0,
+        "value_usd": 18179170.0,
+        "weight_pct": 4.34
       }
     ],
-    "top_five_pct": 63.22,
-    "top_ten_pct": 88.71,
-    "hhi": 994.96,
+    "top_five_pct": 62.83,
+    "top_ten_pct": 88.35,
+    "hhi": 977.74,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 1,
-      "increased_positions": 7,
-      "reduced_positions": 8
+      "increased_positions": 2,
+      "reduced_positions": 10
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-038299"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001493152-26-052369"
       }
     ]
   },
-  "reported_13f_value_usd": 401697761.0,
+  "reported_13f_value_usd": 419282585.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001493152-26-038299",
+  "validated_accession": "0001493152-26-052369",
   "annualized_turnover_proxy_pct": null
 }

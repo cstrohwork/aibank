@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001844103",
   "investor_name": "BRX Global LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GREENWICH",
   "state": "CT",
   "country": "United States",
@@ -10,57 +10,60 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1844103/0001844103-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/1844103/0001844103-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1844103/0001844103-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1844103/0001844103-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "260832ba35d29ab8965f06ebf13540cd6b30a65fc5838d3dd77ed0b21fef5585",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "dcf56b6e321ac93f586706acaf39bcf830e53671046784b19b49335bb4628bc9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8d4ceac308b8102cd309a9fcddc38658eb39e07b",
+    "c324be05503085642e2b9b877324ae6b745b9f52",
+    "e67b3777bef3d8fb93f1e011257469727322579c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001844103-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1844103/0001844103-26-000004.txt",
-    "distinct_positions": 3,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001844103-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844103/0001844103-26-000005.txt",
+    "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 81927266.0,
+    "reported_long_equity_value_usd": 67665417.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "893641100",
-        "security_class": "COM",
-        "issuer": "Transdigm Group Inc",
-        "shares": 31097.0,
-        "value_usd": 41422448.0,
-        "weight_pct": 50.56
-      },
       {
         "cusip": "615369105",
         "security_class": "COM",
         "issuer": "Moodys Corp",
         "shares": 74868.0,
-        "value_usd": 33909215.0,
-        "weight_pct": 41.39
+        "value_usd": 33999805.0,
+        "weight_pct": 50.25
       },
       {
-        "cusip": "40171V100",
+        "cusip": "893641100",
         "security_class": "COM",
-        "issuer": "Guidewire Software Inc",
-        "shares": 53601.0,
-        "value_usd": 6595603.0,
-        "weight_pct": 8.05
+        "issuer": "Transdigm Group Inc",
+        "shares": 31097.0,
+        "value_usd": 33665612.0,
+        "weight_pct": 49.75
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 4334.21,
+    "hhi": 5000.12,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
-      "exited_positions": 0,
-      "increased_positions": 2,
-      "reduced_positions": 1
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -72,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001844103-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001844103-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 81927266.0,
+  "reported_13f_value_usd": 67665417.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001844103-26-000004",
+  "validated_accession": "0001844103-26-000005",
   "annualized_turnover_proxy_pct": null
 }

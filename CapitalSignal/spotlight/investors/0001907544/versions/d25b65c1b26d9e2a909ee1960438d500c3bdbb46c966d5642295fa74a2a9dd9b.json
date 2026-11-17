@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001907544",
+  "investor_name": "Magma Venture Partners General Partner Ltd.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Tel Aviv",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1907544/0001213900-25-108824.txt",
+    "https://www.sec.gov/Archives/edgar/data/1907544/0001213900-26-087124.txt",
+    "https://www.sec.gov/Archives/edgar/data/1907544/0001213900-26-120058.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d25b65c1b26d9e2a909ee1960438d500c3bdbb46c966d5642295fa74a2a9dd9b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "9cd24541f9a00b6e73f272d05a33dc5d088ca477",
+    "c8a602da21835cb68c55e9810744ea575ea3e40b",
+    "ecc7ab7d8279b1a15562ff97a37a15a5933c1c41"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001213900-26-120058",
+    "source": "https://www.sec.gov/Archives/edgar/data/1907544/0001213900-26-120058.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 38741509.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "75585H206",
+        "security_class": "COM NEW",
+        "issuer": "The Real Brokerage Inc.",
+        "shares": 2368063.0,
+        "value_usd": 38741509.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0001213900-25-108824"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001213900-26-087124"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001213900-26-120058"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 38741509.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001213900-26-120058",
+  "annualized_turnover_proxy_pct": null
+}

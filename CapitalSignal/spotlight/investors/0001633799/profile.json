@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001633799",
   "investor_name": "Nishkama Capital, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DORADO",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1633799/0001633799-25-000018.txt",
-    "https://www.sec.gov/Archives/edgar/data/1633799/0001633799-26-000009.txt"
+    "https://www.sec.gov/Archives/edgar/data/1633799/0001633799-26-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1633799/0001633799-26-000012.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c8a0ad1940dfd3092036b7c22d9a94290915182e6795ceeec81fb40e415f2f26",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "db00573ea679851c9a681536aac5b531a050b3e0f928f7c418bec0f4ced36d3a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "62048e4b5ae136075324e2531902e25351957df2",
+    "a424e83eff3ca4de88af64d73259ef1285c070d1",
+    "f37f5f2de1da80f8acf20766165f6195021b36ac"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001633799-26-000009",
-    "source": "https://www.sec.gov/Archives/edgar/data/1633799/0001633799-26-000009.txt",
-    "distinct_positions": 34,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001633799-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1633799/0001633799-26-000012.txt",
+    "distinct_positions": 36,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 886178459.0,
+    "reported_long_equity_value_usd": 624132868.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 104699.0,
+        "value_usd": 53700117.0,
+        "weight_pct": 8.6
+      },
+      {
+        "cusip": "883556102",
+        "security_class": "COM",
+        "issuer": "THERMO FISHER SCIENTIFIC INC",
+        "shares": 63957.0,
+        "value_usd": 43174173.0,
+        "weight_pct": 6.92
+      },
+      {
+        "cusip": "82509L107",
+        "security_class": "CL A SUB VTG SHS",
+        "issuer": "SHOPIFY INC",
+        "shares": 254302.0,
+        "value_usd": 37712987.0,
+        "weight_pct": 6.04
+      },
+      {
+        "cusip": "90138F102",
+        "security_class": "CL A",
+        "issuer": "TWILIO INC",
+        "shares": 124447.0,
+        "value_usd": 36395770.0,
+        "weight_pct": 5.83
+      },
+      {
         "cusip": "29444U700",
         "security_class": "COM",
         "issuer": "EQUINIX INC",
-        "shares": 108800.0,
-        "value_usd": 113412032.0,
-        "weight_pct": 12.8
-      },
-      {
-        "cusip": "007903107",
-        "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 159888.0,
-        "value_usd": 92880538.0,
-        "weight_pct": 10.48
-      },
-      {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 75373.0,
-        "value_usd": 72734945.0,
-        "weight_pct": 8.21
-      },
-      {
-        "cusip": "92343E102",
-        "security_class": "COM",
-        "issuer": "VERISIGN INC",
-        "shares": 218352.0,
-        "value_usd": 54928629.0,
-        "weight_pct": 6.2
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 303043.0,
-        "value_usd": 42313894.0,
-        "weight_pct": 4.77
-      },
-      {
-        "cusip": "861012102",
-        "security_class": "NY REGISTRY",
-        "issuer": "STMICROELECTRONICS N V",
-        "shares": 527522.0,
-        "value_usd": 39506123.0,
-        "weight_pct": 4.46
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 54033.0,
-        "value_usd": 39065859.0,
-        "weight_pct": 4.41
+        "shares": 35653.0,
+        "value_usd": 36065862.0,
+        "weight_pct": 5.78
       },
       {
         "cusip": "531229755",
-        "security_class": "COM LBTY ONE S C",
+        "security_class": "COM SER C",
         "issuer": "LIBERTY MEDIA CORP DEL",
-        "shares": 315569.0,
-        "value_usd": 30023235.0,
-        "weight_pct": 3.39
+        "shares": 385065.0,
+        "value_usd": 35580006.0,
+        "weight_pct": 5.7
       },
       {
-        "cusip": "N07059210",
-        "security_class": "NY REGISTRY SHS",
-        "issuer": "ASML HLDG NV",
-        "shares": 12915.0,
-        "value_usd": 25693618.0,
-        "weight_pct": 2.9
+        "cusip": "679295105",
+        "security_class": "CL A",
+        "issuer": "OKTA INC",
+        "shares": 159521.0,
+        "value_usd": 33357436.0,
+        "weight_pct": 5.34
       },
       {
-        "cusip": "969457100",
+        "cusip": "770700102",
+        "security_class": "COM CL A",
+        "issuer": "ROBINHOOD MKTS INC",
+        "shares": 198058.0,
+        "value_usd": 22281525.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "620076307",
+        "security_class": "COM NEW",
+        "issuer": "MOTOROLA SOLUTIONS INC",
+        "shares": 49626.0,
+        "value_usd": 22131707.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "910047109",
         "security_class": "COM",
-        "issuer": "WILLIAMS COS INC",
-        "shares": 345109.0,
-        "value_usd": 25655403.0,
-        "weight_pct": 2.9
+        "issuer": "UNITED AIRLS HLDGS INC",
+        "shares": 191973.0,
+        "value_usd": 21299404.0,
+        "weight_pct": 3.41
       }
     ],
-    "top_five_pct": 42.46,
-    "top_ten_pct": 60.51,
-    "hhi": 546.29,
+    "top_five_pct": 33.17,
+    "top_ten_pct": 54.75,
+    "hhi": 419.71,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 26,
-      "exited_positions": 61,
-      "increased_positions": 5,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 22,
+      "exited_positions": 20,
+      "increased_positions": 9,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001633799-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001633799-26-000012"
       }
     ]
   },
-  "reported_13f_value_usd": 886178459.0,
+  "reported_13f_value_usd": 624132868.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001633799-26-000009",
+  "validated_accession": "0001633799-26-000012",
   "annualized_turnover_proxy_pct": null
 }

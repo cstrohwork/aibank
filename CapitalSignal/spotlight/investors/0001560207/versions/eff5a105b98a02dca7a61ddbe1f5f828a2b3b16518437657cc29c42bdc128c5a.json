@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001560207",
+  "investor_name": "Legion Partners Asset Management, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "LOS ANGELES",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1560207/0002085853-25-000281.txt",
+    "https://www.sec.gov/Archives/edgar/data/1560207/0002085853-26-001016.txt",
+    "https://www.sec.gov/Archives/edgar/data/1560207/0000921895-26-003165.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "eff5a105b98a02dca7a61ddbe1f5f828a2b3b16518437657cc29c42bdc128c5a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "49217706c5274746da8e8bbfa450b081ffea483e",
+    "50de1ad0793f0223f5b3e7b3fd2c43136f755aff",
+    "bde110b2583bc6d2dea644ede979099a5829acbf"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000921895-26-003165",
+    "source": "https://www.sec.gov/Archives/edgar/data/1560207/0000921895-26-003165.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 29487145.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "514766104",
+        "security_class": "COM",
+        "issuer": "LIFECORE BIOMEDICAL INC",
+        "shares": 4481329.0,
+        "value_usd": 29487145.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0002085853-25-000281"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002085853-26-001016"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000921895-26-003165"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 29487145.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000921895-26-003165",
+  "annualized_turnover_proxy_pct": null
+}

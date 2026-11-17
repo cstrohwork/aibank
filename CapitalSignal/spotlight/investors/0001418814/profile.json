@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001418814",
   "investor_name": "ValueAct Holdings, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1418814/0001418814-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1418814/0001418814-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1418814/0001418814-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1418814/0001418814-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a26aa8ab855477523e674fd65a0e214c581d95562730bb823e87e72fb5f4a59d",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "6aea22c332f29c59cd0f65d72e1783cf454a00595fd2387079b5395846568e53",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "47ee008db7aa7ea15ba2d8def898997ade1ed5f0",
+    "5d44f398698052f47a8121e4b019399eeadf5908",
+    "993d56f8fba96836012b7fae446041353590c2ea"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001418814-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1418814/0001418814-26-000003.txt",
-    "distinct_positions": 18,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001418814-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1418814/0001418814-26-000006.txt",
+    "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5634931372.0,
+    "reported_long_equity_value_usd": 6177720948.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM CL A",
         "issuer": "VISA INC",
         "shares": 2316250.0,
-        "value_usd": 794682213.0,
-        "weight_pct": 14.1
+        "value_usd": 832298113.0,
+        "weight_pct": 13.47
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 2941700.0,
-        "value_usd": 701124778.0,
-        "weight_pct": 12.44
-      },
-      {
-        "cusip": "77311W101",
-        "security_class": "COM CL A",
-        "issuer": "ROCKET COS INC",
-        "shares": 41668774.0,
-        "value_usd": 656283191.0,
-        "weight_pct": 11.65
-      },
-      {
-        "cusip": "09290D101",
-        "security_class": "COM",
-        "issuer": "BLACKROCK INC",
-        "shares": 581700.0,
-        "value_usd": 559339452.0,
-        "weight_pct": 9.93
-      },
-      {
-        "cusip": "30303M102",
-        "security_class": "CL A",
-        "issuer": "META PLATFORMS INC",
-        "shares": 915674.0,
-        "value_usd": 515790007.0,
-        "weight_pct": 9.15
+        "shares": 3002700.0,
+        "value_usd": 748122705.0,
+        "weight_pct": 12.11
       },
       {
         "cusip": "79466L302",
         "security_class": "COM",
         "issuer": "SALESFORCE INC",
         "shares": 2994509.0,
-        "value_usd": 469119780.0,
-        "weight_pct": 8.33
+        "value_usd": 687449431.0,
+        "weight_pct": 11.13
       },
       {
-        "cusip": "888787108",
+        "cusip": "30303M102",
         "security_class": "CL A",
-        "issuer": "TOAST INC",
-        "shares": 14134038.0,
-        "value_usd": 393208937.0,
-        "weight_pct": 6.98
+        "issuer": "META PLATFORMS INC",
+        "shares": 915674.0,
+        "value_usd": 664028471.0,
+        "weight_pct": 10.75
       },
       {
-        "cusip": "48251W104",
+        "cusip": "09290D101",
         "security_class": "COM",
-        "issuer": "KKR & CO INC",
-        "shares": 3558200.0,
-        "value_usd": 326571596.0,
-        "weight_pct": 5.8
+        "issuer": "BLACKROCK INC",
+        "shares": 491200.0,
+        "value_usd": 519832048.0,
+        "weight_pct": 8.41
+      },
+      {
+        "cusip": "77311W101",
+        "security_class": "COM CL A",
+        "issuer": "ROCKET COS INC",
+        "shares": 40428074.0,
+        "value_usd": 465327132.0,
+        "weight_pct": 7.53
       },
       {
         "cusip": "L8681T102",
         "security_class": "SHS",
         "issuer": "SPOTIFY TECHNOLOGY S A",
-        "shares": 526800.0,
-        "value_usd": 241869684.0,
-        "weight_pct": 4.29
+        "shares": 497000.0,
+        "value_usd": 242227860.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "48251W104",
+        "security_class": "COM",
+        "issuer": "KKR & CO INC",
+        "shares": 2606600.0,
+        "value_usd": 237982580.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "888787108",
+        "security_class": "CL A",
+        "issuer": "TOAST INC",
+        "shares": 8180338.0,
+        "value_usd": 237147999.0,
+        "weight_pct": 3.84
       },
       {
         "cusip": "530909308",
         "security_class": "COM SHS SER C",
         "issuer": "LIBERTY LIVE HOLDINGS INC",
-        "shares": 2172388.0,
-        "value_usd": 229491068.0,
-        "weight_pct": 4.07
+        "shares": 2051887.0,
+        "value_usd": 199546011.0,
+        "weight_pct": 3.23
       }
     ],
-    "top_five_pct": 57.27,
-    "top_ten_pct": 86.74,
-    "hhi": 887.58,
+    "top_five_pct": 55.87,
+    "top_ten_pct": 78.25,
+    "hhi": 797.1,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 7,
-      "exited_positions": 5,
-      "increased_positions": 6,
-      "reduced_positions": 5
+      "exited_positions": 4,
+      "increased_positions": 2,
+      "reduced_positions": 9
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001418814-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001418814-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 5634931372.0,
+  "reported_13f_value_usd": 6177720948.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001418814-26-000003",
+  "validated_accession": "0001418814-26-000006",
   "annualized_turnover_proxy_pct": null
 }

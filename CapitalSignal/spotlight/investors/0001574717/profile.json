@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001574717",
   "investor_name": "Hengistbury Investment Partners LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "London",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1574717/0000919574-25-006592.txt",
-    "https://www.sec.gov/Archives/edgar/data/1574717/0000919574-26-005168.txt"
+    "https://www.sec.gov/Archives/edgar/data/1574717/0000919574-26-005168.txt",
+    "https://www.sec.gov/Archives/edgar/data/1574717/0000919574-26-007884.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7ce1398aead390d5e665ca02593caef33351d4278dfd63293382fe05bc162696",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "32876bf7fe72aa5916564923e064e5d5a6e6fb1e6950b0103afb1a908169f10b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "549f60c9e4d85027bf3ff9934675c01f36227ca0",
+    "70c791caf996eb3dd268a7c13e4e7e48b76369c6",
+    "b7ca9ab15ba7287d468a44e1fda7e25fee870b2f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005168",
-    "source": "https://www.sec.gov/Archives/edgar/data/1574717/0000919574-26-005168.txt",
-    "distinct_positions": 4,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007884",
+    "source": "https://www.sec.gov/Archives/edgar/data/1574717/0000919574-26-007884.txt",
+    "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 311063373.0,
+    "reported_long_equity_value_usd": 362619479.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,43 +43,51 @@
         "security_class": "COM CL A",
         "issuer": "VISA INC",
         "shares": 475021.0,
-        "value_usd": 162974955.0,
-        "weight_pct": 52.39
+        "value_usd": 170689296.0,
+        "weight_pct": 47.07
       },
       {
         "cusip": "45841N107",
         "security_class": "COM CL A",
         "issuer": "INTERACTIVE BROKERS GROUP IN",
         "shares": 1008550.0,
-        "value_usd": 87784192.0,
-        "weight_pct": 28.22
+        "value_usd": 86150341.0,
+        "weight_pct": 23.76
+      },
+      {
+        "cusip": "446413106",
+        "security_class": "COM",
+        "issuer": "HUNTINGTON INGALLS INDS INC",
+        "shares": 164500.0,
+        "value_usd": 43933015.0,
+        "weight_pct": 12.12
       },
       {
         "cusip": "57636Q104",
         "security_class": "CL A",
         "issuer": "MASTERCARD INCORPORATED",
         "shares": 61687.0,
-        "value_usd": 31682443.0,
-        "weight_pct": 10.19
+        "value_usd": 34018530.0,
+        "weight_pct": 9.38
       },
       {
         "cusip": "872590104",
         "security_class": "COM",
         "issuer": "T-MOBILE US INC",
         "shares": 170642.0,
-        "value_usd": 28621783.0,
-        "weight_pct": 9.2
+        "value_usd": 27828297.0,
+        "weight_pct": 7.67
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3729.82,
+    "hhi": 3073.82,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 1,
-      "increased_positions": 1,
-      "reduced_positions": 1
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -80,11 +99,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005168"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007884"
       }
     ]
   },
-  "reported_13f_value_usd": 311063373.0,
+  "reported_13f_value_usd": 362619479.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005168",
+  "validated_accession": "0000919574-26-007884",
   "annualized_turnover_proxy_pct": null
 }

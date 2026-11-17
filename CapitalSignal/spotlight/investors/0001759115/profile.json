@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001759115",
   "investor_name": "Broad Bay Capital Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1759115/0001172661-25-004904.txt",
-    "https://www.sec.gov/Archives/edgar/data/1759115/0001172661-26-003592.txt"
+    "https://www.sec.gov/Archives/edgar/data/1759115/0001172661-26-003592.txt",
+    "https://www.sec.gov/Archives/edgar/data/1759115/0001172661-26-005132.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c5986e0f5d4f60f7b055e959b4134651c415dbf621597f961b85dbd0a5ed8c90",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "87df0573731dcfb4d3e24b656408c1d8cd88cb4baeb2d6bccf6440bbc24c3d97",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "55fdc98051e8a812eca1b0a9088d948f780cec86",
+    "56f5320ec34c8bdf34f3cec63f84bcbcffa78edb",
+    "795fb946b1829e282cf46749f1e60c874d61d29d"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003592",
-    "source": "https://www.sec.gov/Archives/edgar/data/1759115/0001172661-26-003592.txt",
-    "distinct_positions": 23,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005132",
+    "source": "https://www.sec.gov/Archives/edgar/data/1759115/0001172661-26-005132.txt",
+    "distinct_positions": 22,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1055230230.0,
+    "reported_long_equity_value_usd": 989460399.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "000361105",
-        "security_class": "COM",
-        "issuer": "AAR CORP",
-        "shares": 749675.0,
-        "value_usd": 107151048.0,
-        "weight_pct": 10.15
+        "cusip": "833445109",
+        "security_class": "COM SHS",
+        "issuer": "SNOWFLAKE INC",
+        "shares": 358900.0,
+        "value_usd": 121868084.0,
+        "weight_pct": 12.32
       },
       {
         "cusip": "047726302",
         "security_class": "COM SER C",
         "issuer": "ATLANTA BRAVES HLDGS INC",
-        "shares": 2046239.0,
-        "value_usd": 106199804.0,
-        "weight_pct": 10.06
-      },
-      {
-        "cusip": "77311W101",
-        "security_class": "COM CL A",
-        "issuer": "ROCKET COS INC",
-        "shares": 4789632.0,
-        "value_usd": 75436704.0,
-        "weight_pct": 7.15
-      },
-      {
-        "cusip": "833445109",
-        "security_class": "COM SHS",
-        "issuer": "SNOWFLAKE INC",
-        "shares": 291400.0,
-        "value_usd": 74161300.0,
-        "weight_pct": 7.03
+        "shares": 1907855.0,
+        "value_usd": 101001844.0,
+        "weight_pct": 10.21
       },
       {
         "cusip": "443320106",
         "security_class": "CL A",
         "issuer": "HUB GROUP INC",
-        "shares": 1574804.0,
-        "value_usd": 68960667.0,
-        "weight_pct": 6.54
+        "shares": 2417959.0,
+        "value_usd": 71523227.0,
+        "weight_pct": 7.23
       },
       {
-        "cusip": "53626N102",
+        "cusip": "000361105",
         "security_class": "COM",
-        "issuer": "LIONSGATE STUDIOS CORP",
-        "shares": 4095508.0,
-        "value_usd": 62702227.0,
-        "weight_pct": 5.94
-      },
-      {
-        "cusip": "75734B100",
-        "security_class": "CL A",
-        "issuer": "REDDIT INC",
-        "shares": 322700.0,
-        "value_usd": 56014266.0,
-        "weight_pct": 5.31
-      },
-      {
-        "cusip": "918204108",
-        "security_class": "COM",
-        "issuer": "V F CORP",
-        "shares": 3203800.0,
-        "value_usd": 53439384.0,
-        "weight_pct": 5.06
-      },
-      {
-        "cusip": "302130109",
-        "security_class": "COM",
-        "issuer": "EXPEDITORS INTL WASH INC",
-        "shares": 327851.0,
-        "value_usd": 53433156.0,
-        "weight_pct": 5.06
+        "issuer": "AAR CORP",
+        "shares": 647375.0,
+        "value_usd": 65689141.0,
+        "weight_pct": 6.64
       },
       {
         "cusip": "18915M107",
         "security_class": "CL A COM",
         "issuer": "CLOUDFLARE INC",
-        "shares": 202875.0,
-        "value_usd": 49761180.0,
-        "weight_pct": 4.72
+        "shares": 181475.0,
+        "value_usd": 63022638.0,
+        "weight_pct": 6.37
+      },
+      {
+        "cusip": "53626N102",
+        "security_class": "COM",
+        "issuer": "LIONSGATE STUDIOS CORP",
+        "shares": 5302665.0,
+        "value_usd": 59389848.0,
+        "weight_pct": 6.0
+      },
+      {
+        "cusip": "77311W101",
+        "security_class": "COM CL A",
+        "issuer": "ROCKET COS INC",
+        "shares": 5039632.0,
+        "value_usd": 58006164.0,
+        "weight_pct": 5.86
+      },
+      {
+        "cusip": "75734B100",
+        "security_class": "CL A",
+        "issuer": "REDDIT INC",
+        "shares": 396005.0,
+        "value_usd": 56406952.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "453204109",
+        "security_class": "COM",
+        "issuer": "IMPINJ INC",
+        "shares": 261679.0,
+        "value_usd": 46916428.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "918204108",
+        "security_class": "COM",
+        "issuer": "V F CORP",
+        "shares": 3303800.0,
+        "value_usd": 46451428.0,
+        "weight_pct": 4.69
       }
     ],
-    "top_five_pct": 40.93,
-    "top_ten_pct": 67.02,
-    "hhi": 587.37,
+    "top_five_pct": 42.76,
+    "top_ten_pct": 69.76,
+    "hhi": 630.32,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 14,
-      "exited_positions": 15,
-      "increased_positions": 5,
-      "reduced_positions": 4
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 5,
+      "increased_positions": 12,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003592"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005132"
       }
     ]
   },
-  "reported_13f_value_usd": 1055230230.0,
+  "reported_13f_value_usd": 989460399.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003592",
+  "validated_accession": "0001172661-26-005132",
   "annualized_turnover_proxy_pct": null
 }

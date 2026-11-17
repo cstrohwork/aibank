@@ -1,0 +1,122 @@
+{
+  "manager_cik": "0001668029",
+  "investor_name": "Yu Fan",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "CENTRAL, HONG KONG",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1668029/0001193125-25-283155.txt",
+    "https://www.sec.gov/Archives/edgar/data/1668029/0001193125-26-352356.txt",
+    "https://www.sec.gov/Archives/edgar/data/1668029/0001193125-26-463618.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "05188e6a81b7fec4859ec7fd1954c961cef0dd9a02a129f43b402aeeb872ec0e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "66c06b6a65f4ad46ec13142ad7720da4fe254201",
+    "9565dce610f64570fa32d58ff510a1bf7edacf37",
+    "c3a85d60bd85d232ac055af288004d452de5546d"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463618",
+    "source": "https://www.sec.gov/Archives/edgar/data/1668029/0001193125-26-463618.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 94920432.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G52441105",
+        "security_class": "SHS",
+        "issuer": "KESTRA MED TECHNOLOGIES LTD",
+        "shares": 2282519.0,
+        "value_usd": 64572463.0,
+        "weight_pct": 68.03
+      },
+      {
+        "cusip": "00032Q104",
+        "security_class": "COM",
+        "issuer": "WHITEHAWK THERAPEUTICS INC",
+        "shares": 4829398.0,
+        "value_usd": 18158536.0,
+        "weight_pct": 19.13
+      },
+      {
+        "cusip": "46124U107",
+        "security_class": "ADS",
+        "issuer": "INVENTIVA SA",
+        "shares": 1500000.0,
+        "value_usd": 5535000.0,
+        "weight_pct": 5.83
+      },
+      {
+        "cusip": "74346M505",
+        "security_class": "COM SHS",
+        "issuer": "PROMIS NEUROSCIENCES INC",
+        "shares": 329760.0,
+        "value_usd": 3577896.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "46489V302",
+        "security_class": "COM NEW",
+        "issuer": "PERSPECTIVE THERAPEUTICS INC",
+        "shares": 1055409.0,
+        "value_usd": 2902375.0,
+        "weight_pct": 3.06
+      },
+      {
+        "cusip": "02462A104",
+        "security_class": "COM CL A",
+        "issuer": "AMERICAN BITCOIN CORP.",
+        "shares": 20538.0,
+        "value_usd": 174162.0,
+        "weight_pct": 0.18
+      }
+    ],
+    "top_five_pct": 99.82,
+    "top_ten_pct": 100.0,
+    "hhi": 5051.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-283155"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001193125-26-352356"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463618"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 94920432.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-463618",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002067281",
   "investor_name": "Obsido Oy",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TAMPERE",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2067281/0001493152-25-023430.txt",
-    "https://www.sec.gov/Archives/edgar/data/2067281/0001493152-26-038308.txt"
+    "https://www.sec.gov/Archives/edgar/data/2067281/0001493152-26-038308.txt",
+    "https://www.sec.gov/Archives/edgar/data/2067281/0001493152-26-052366.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "fd2b33a9dab3438f2f323399112866808402a6290570a63c3226fdf26620b4d9",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "1cdea996888a88cb2a96cdf9a87cc201d385a2579e3512a266fa40a14c16c405",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4ada757c9528469468075a8208760d2467478af7",
+    "5db9c4e123328dd2ccdf1d87abcb42026b99a28f",
+    "90d36e02490908266754b63debcbfff183d79b82"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-038308",
-    "source": "https://www.sec.gov/Archives/edgar/data/2067281/0001493152-26-038308.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001493152-26-052366",
+    "source": "https://www.sec.gov/Archives/edgar/data/2067281/0001493152-26-052366.txt",
     "distinct_positions": 20,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 187007384.0,
+    "reported_long_equity_value_usd": 203157819.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 210709.0,
-        "value_usd": 77970758.0,
-        "weight_pct": 41.69
+        "shares": 228496.0,
+        "value_usd": 85512343.0,
+        "weight_pct": 42.09
       },
       {
         "cusip": "922042874",
         "security_class": "FTSE EUROPE ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 257049.0,
-        "value_usd": 22759118.0,
-        "weight_pct": 12.17
+        "shares": 273841.0,
+        "value_usd": 23769399.0,
+        "weight_pct": 11.7
       },
       {
         "cusip": "46434V282",
         "security_class": "U S EQUITY FACTR",
         "issuer": "ISHARES TR",
-        "shares": 172107.0,
-        "value_usd": 13016452.0,
-        "weight_pct": 6.96
+        "shares": 185520.0,
+        "value_usd": 14442732.0,
+        "weight_pct": 7.11
       },
       {
         "cusip": "46434V274",
         "security_class": "INTL EQTY FACTOR",
         "issuer": "ISHARES TR",
-        "shares": 308413.0,
-        "value_usd": 12632596.0,
-        "weight_pct": 6.76
+        "shares": 333740.0,
+        "value_usd": 13853547.0,
+        "weight_pct": 6.82
       },
       {
         "cusip": "922042858",
         "security_class": "FTSE EMR MKT ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 200316.0,
-        "value_usd": 11956862.0,
-        "weight_pct": 6.39
+        "shares": 226966.0,
+        "value_usd": 13461353.0,
+        "weight_pct": 6.63
       },
       {
         "cusip": "922042866",
         "security_class": "FTSE PACIFIC ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 69939.0,
-        "value_usd": 8091243.0,
-        "weight_pct": 4.33
-      },
-      {
-        "cusip": "922908611",
-        "security_class": "SM CP VAL ETF",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 25193.0,
-        "value_usd": 6121647.0,
-        "weight_pct": 3.27
+        "shares": 72921.0,
+        "value_usd": 8444981.0,
+        "weight_pct": 4.16
       },
       {
         "cusip": "922042718",
         "security_class": "FTSE SMCAP ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 39135.0,
-        "value_usd": 6038139.0,
-        "weight_pct": 3.23
+        "shares": 43225.0,
+        "value_usd": 6710681.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "922908611",
+        "security_class": "MRNGSTR SML CP V",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 27886.0,
+        "value_usd": 6442503.0,
+        "weight_pct": 3.17
       },
       {
         "cusip": "78464A151",
         "security_class": "SST SPDR BLOOMBE",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 172843.0,
-        "value_usd": 5389245.0,
-        "weight_pct": 2.88
+        "shares": 204091.0,
+        "value_usd": 6098239.0,
+        "weight_pct": 3.0
       },
       {
-        "cusip": "922908553",
-        "security_class": "REAL ESTATE ETF",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 34260.0,
-        "value_usd": 3303692.0,
-        "weight_pct": 1.77
+        "cusip": "922042676",
+        "security_class": "GLB EX US ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 82687.0,
+        "value_usd": 3515851.0,
+        "weight_pct": 1.73
       }
     ],
-    "top_five_pct": 73.97,
-    "top_ten_pct": 89.45,
-    "hhi": 2086.87,
+    "top_five_pct": 74.35,
+    "top_ten_pct": 89.71,
+    "hhi": 2113.22,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 2,
       "exited_positions": 2,
-      "increased_positions": 15,
-      "reduced_positions": 3
+      "increased_positions": 18,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-038308"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001493152-26-052366"
       }
     ]
   },
-  "reported_13f_value_usd": 187007384.0,
+  "reported_13f_value_usd": 203157819.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001493152-26-038308",
+  "validated_accession": "0001493152-26-052366",
   "annualized_turnover_proxy_pct": null
 }

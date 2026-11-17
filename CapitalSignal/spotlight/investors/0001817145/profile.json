@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001817145",
   "investor_name": "Masterton Capital Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1817145/0001892688-25-000200.txt",
-    "https://www.sec.gov/Archives/edgar/data/1817145/0001892688-26-000131.txt"
+    "https://www.sec.gov/Archives/edgar/data/1817145/0001892688-26-000131.txt",
+    "https://www.sec.gov/Archives/edgar/data/1817145/0001892688-26-000183.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e67ef4c2aaedf1c31f9799f387ea76f4490c7116b254a12b0ed30920a6249044",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "6f556963202ae4148bd940dc1e37506a37df3890fa7f74af9171cc2fe315c3b4",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "548f2c05cf6d1edc70d0e4d9a37989b3a0ff2260",
+    "fa7f8f9648572ccc85d77340748246b74f2b9a5d",
+    "fb589a60415b7f1922e6e577fa27ed6b6d1251ca"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001892688-26-000131",
-    "source": "https://www.sec.gov/Archives/edgar/data/1817145/0001892688-26-000131.txt",
-    "distinct_positions": 24,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001892688-26-000183",
+    "source": "https://www.sec.gov/Archives/edgar/data/1817145/0001892688-26-000183.txt",
+    "distinct_positions": 20,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 118088037.0,
+    "reported_long_equity_value_usd": 182418948.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "74340W103",
         "security_class": "COM",
         "issuer": "PROLOGIS INC.",
-        "shares": 121800.0,
-        "value_usd": 16500246.0,
-        "weight_pct": 13.97
+        "shares": 163494.0,
+        "value_usd": 21228061.0,
+        "weight_pct": 11.64
       },
       {
-        "cusip": "12504L109",
-        "security_class": "CL A",
-        "issuer": "CBRE GROUP INC",
-        "shares": 79700.0,
-        "value_usd": 10734793.0,
-        "weight_pct": 9.09
-      },
-      {
-        "cusip": "313745101",
-        "security_class": "SH BEN INT NEW",
-        "issuer": "FEDERAL RLTY INVT TR NEW",
-        "shares": 75246.0,
-        "value_usd": 9288366.0,
-        "weight_pct": 7.87
+        "cusip": "29476L107",
+        "security_class": "SH BEN INT",
+        "issuer": "VIVMARK RESIDENTIAL",
+        "shares": 320485.0,
+        "value_usd": 19472669.0,
+        "weight_pct": 10.67
       },
       {
         "cusip": "008492100",
         "security_class": "COM",
         "issuer": "AGREE RLTY CORP",
-        "shares": 103300.0,
-        "value_usd": 7823942.0,
-        "weight_pct": 6.63
+        "shares": 268773.0,
+        "value_usd": 17956724.0,
+        "weight_pct": 9.84
       },
       {
-        "cusip": "871829107",
+        "cusip": "866674104",
         "security_class": "COM",
-        "issuer": "SYSCO CORP",
-        "shares": 80900.0,
-        "value_usd": 6761622.0,
-        "weight_pct": 5.73
+        "issuer": "SUN CMNTYS INC",
+        "shares": 149373.0,
+        "value_usd": 16547541.0,
+        "weight_pct": 9.07
       },
       {
         "cusip": "43300A203",
         "security_class": "COM",
         "issuer": "HILTON WORLDWIDE HLDGS INC",
-        "shares": 18720.0,
-        "value_usd": 6186211.0,
-        "weight_pct": 5.24
+        "shares": 41745.0,
+        "value_usd": 13279919.0,
+        "weight_pct": 7.28
       },
       {
-        "cusip": "49446R109",
+        "cusip": "313745101",
+        "security_class": "SH BEN INT NEW",
+        "issuer": "FEDERAL RLTY INVT TR NEW",
+        "shares": 108935.0,
+        "value_usd": 11796571.0,
+        "weight_pct": 6.47
+      },
+      {
+        "cusip": "12504L109",
+        "security_class": "CL A",
+        "issuer": "CBRE GROUP INC",
+        "shares": 87268.0,
+        "value_usd": 11211320.0,
+        "weight_pct": 6.15
+      },
+      {
+        "cusip": "871829107",
         "security_class": "COM",
-        "issuer": "KIMCO REALTY CORP",
-        "shares": 242913.0,
-        "value_usd": 6157845.0,
-        "weight_pct": 5.21
+        "issuer": "SYSCO CORP",
+        "shares": 141361.0,
+        "value_usd": 11020504.0,
+        "weight_pct": 6.04
       },
       {
-        "cusip": "88146M101",
+        "cusip": "297178105",
         "security_class": "COM",
-        "issuer": "TERRENO RLTY CORP",
-        "shares": 89980.0,
-        "value_usd": 5828005.0,
-        "weight_pct": 4.94
+        "issuer": "ESSEX PPTY TR INC",
+        "shares": 37962.0,
+        "value_usd": 10226583.0,
+        "weight_pct": 5.61
       },
       {
-        "cusip": "29476L107",
-        "security_class": "SH BEN INT",
-        "issuer": "EQUITY RESIDENTIAL",
-        "shares": 85246.0,
-        "value_usd": 5790761.0,
-        "weight_pct": 4.9
-      },
-      {
-        "cusip": "546347105",
+        "cusip": "122017106",
         "security_class": "COM",
-        "issuer": "LOUISIANA PAC CORP",
-        "shares": 60700.0,
-        "value_usd": 4774662.0,
-        "weight_pct": 4.04
+        "issuer": "BURLINGTON STORES INC",
+        "shares": 31496.0,
+        "value_usd": 8415416.0,
+        "weight_pct": 4.61
       }
     ],
-    "top_five_pct": 43.28,
-    "top_ten_pct": 67.62,
-    "hhi": 627.07,
+    "top_five_pct": 48.51,
+    "top_ten_pct": 77.38,
+    "hhi": 720.88,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 13,
-      "exited_positions": 10,
-      "increased_positions": 1,
-      "reduced_positions": 10
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 5,
+      "increased_positions": 17,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001892688-26-000131"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001892688-26-000183"
       }
     ]
   },
-  "reported_13f_value_usd": 118088037.0,
+  "reported_13f_value_usd": 182418948.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001892688-26-000131",
+  "validated_accession": "0001892688-26-000183",
   "annualized_turnover_proxy_pct": null
 }

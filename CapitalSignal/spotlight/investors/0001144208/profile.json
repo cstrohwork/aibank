@@ -1,28 +1,37 @@
 {
   "manager_cik": "0001144208",
   "investor_name": "BLUEFIN CAPITAL MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1144208/0001144208-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1144208/0001144208-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1144208/0001144208-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a610a8951e2f6a0de05f0f45452eddedc4f803cbcf8a5e5ecdf499185a39550f",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "df43a15a50c18dbb25e250e0eae85a167cdbc5d83b420701f51b11e7acc23b08",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "15f19fb519b43253d842fedfaf7a48b9bbd0cb04",
+    "3e92ecfbd9b81bedf0f2d81e6591cd6df2d323ce"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001144208-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1144208/0001144208-26-000008.txt",
-    "distinct_positions": 90,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001144208-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1144208/0001144208-26-000010.txt",
+    "distinct_positions": 83,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 346666794.0,
+    "reported_long_equity_value_usd": 323988976.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,7 +41,7 @@
         "issuer": "MICROSOFT CORP",
         "shares": 200537.0,
         "value_usd": 74804312.0,
-        "weight_pct": 21.58
+        "weight_pct": 23.09
       },
       {
         "cusip": "67066G104",
@@ -40,7 +49,7 @@
         "issuer": "NVIDIA CORPORATION",
         "shares": 200000.0,
         "value_usd": 40018000.0,
-        "weight_pct": 11.54
+        "weight_pct": 12.35
       },
       {
         "cusip": "293828877",
@@ -48,7 +57,7 @@
         "issuer": "ENTREPRENEURSHARES SERIES TR",
         "shares": 1502443.0,
         "value_usd": 31626425.0,
-        "weight_pct": 9.12
+        "weight_pct": 9.76
       },
       {
         "cusip": "007903107",
@@ -56,7 +65,7 @@
         "issuer": "ADVANCED MICRO DEVICES INC",
         "shares": 50750.0,
         "value_usd": 29481183.0,
-        "weight_pct": 8.5
+        "weight_pct": 9.1
       },
       {
         "cusip": "78462F103",
@@ -64,7 +73,7 @@
         "issuer": "STATE STR SPDR S&P 500 ETF T",
         "shares": 30604.0,
         "value_usd": 22854149.0,
-        "weight_pct": 6.59
+        "weight_pct": 7.05
       },
       {
         "cusip": "21873S108",
@@ -72,15 +81,7 @@
         "issuer": "COREWEAVE INC",
         "shares": 189460.0,
         "value_usd": 18858848.0,
-        "weight_pct": 5.44
-      },
-      {
-        "cusip": "89055F103",
-        "security_class": "COM",
-        "issuer": "TOPBUILD COR",
-        "shares": 36054.0,
-        "value_usd": 12782225.0,
-        "weight_pct": 3.69
+        "weight_pct": 5.82
       },
       {
         "cusip": "02072L565",
@@ -88,7 +89,7 @@
         "issuer": "EA SERIES TRUST",
         "shares": 80000.0,
         "value_usd": 9367200.0,
-        "weight_pct": 2.7
+        "weight_pct": 2.89
       },
       {
         "cusip": "82846H405",
@@ -96,7 +97,7 @@
         "issuer": "QXO INC",
         "shares": 416650.0,
         "value_usd": 7199712.0,
-        "weight_pct": 2.08
+        "weight_pct": 2.22
       },
       {
         "cusip": "29273V100",
@@ -104,23 +105,42 @@
         "issuer": "ENERGY TRANSFER L P",
         "shares": 328947.0,
         "value_usd": 6289467.0,
-        "weight_pct": 1.81
+        "weight_pct": 1.94
+      },
+      {
+        "cusip": "172967424",
+        "security_class": "COM NEW",
+        "issuer": "CITIGROUP INC",
+        "shares": 44400.0,
+        "value_usd": 6214224.0,
+        "weight_pct": 1.92
       }
     ],
-    "top_five_pct": 57.34,
-    "top_ten_pct": 73.06,
-    "hhi": 879.78,
-    "changes": null,
+    "top_five_pct": 61.36,
+    "top_ten_pct": 76.15,
+    "hhi": 987.13,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 8,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001144208-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001144208-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 346666794.0,
+  "reported_13f_value_usd": 323988976.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001144208-26-000008",
+  "validated_accession": "0001144208-26-000010",
   "annualized_turnover_proxy_pct": null
 }

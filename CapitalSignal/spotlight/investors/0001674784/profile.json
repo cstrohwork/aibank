@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001674784",
   "investor_name": "Silver Rock Financial LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Los Angeles",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1674784/0001172661-25-004818.txt",
-    "https://www.sec.gov/Archives/edgar/data/1674784/0001172661-26-003610.txt"
+    "https://www.sec.gov/Archives/edgar/data/1674784/0001172661-26-003610.txt",
+    "https://www.sec.gov/Archives/edgar/data/1674784/0001172661-26-005071.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "15d1e166f027b5c8768cfcfe31df45d714cd2594dcfdb00ef9b071d52cf0b56b",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "d8e9430077d12d31cfba7d0ee1e1632c1af4e5db16d1df941d4f500b9007d00d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2bfad78a646c6de1b94e7ff1cb166454a60a902a",
+    "9813f42c694d715f864d6d91a98fe7a9ef9183c6",
+    "f8503bb6cfdae92b5c5a26a5414618aad7c4e435"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003610",
-    "source": "https://www.sec.gov/Archives/edgar/data/1674784/0001172661-26-003610.txt",
-    "distinct_positions": 21,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005071",
+    "source": "https://www.sec.gov/Archives/edgar/data/1674784/0001172661-26-005071.txt",
+    "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 26504226.0,
+    "reported_long_equity_value_usd": 17871627.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "20030N101",
         "security_class": "CL A",
         "issuer": "COMCAST CORP NEW",
-        "shares": 611500.0,
-        "value_usd": 15012325.0,
-        "weight_pct": 56.64
-      },
-      {
-        "cusip": "02156K103",
-        "security_class": "CL A",
-        "issuer": "OPTIMUM COMMUNICATIONS INC",
-        "shares": 3800000.0,
-        "value_usd": 5510000.0,
-        "weight_pct": 20.79
-      },
-      {
-        "cusip": "203668108",
-        "security_class": "COM",
-        "issuer": "COMMUNITY HEALTH SYS INC NEW",
-        "shares": 1100000.0,
-        "value_usd": 3674000.0,
-        "weight_pct": 13.86
-      },
-      {
-        "cusip": "05601U105",
-        "security_class": "COM CL A",
-        "issuer": "BRC INC",
-        "shares": 859986.0,
-        "value_usd": 954584.0,
-        "weight_pct": 3.6
-      },
-      {
-        "cusip": "12685J105",
-        "security_class": "COM",
-        "issuer": "CABLE ONE INC",
-        "shares": 15000.0,
-        "value_usd": 796650.0,
-        "weight_pct": 3.01
+        "shares": 800000.0,
+        "value_usd": 17408000.0,
+        "weight_pct": 97.41
       },
       {
         "cusip": "92854T209",
         "security_class": "COM CL A",
         "issuer": "VIVID SEATS INC",
         "shares": 56943.0,
-        "value_usd": 371268.0,
-        "weight_pct": 1.4
+        "value_usd": 219800.0,
+        "weight_pct": 1.23
+      },
+      {
+        "cusip": "12685J105",
+        "security_class": "COM",
+        "issuer": "CABLE ONE INC",
+        "shares": 15000.0,
+        "value_usd": 165300.0,
+        "weight_pct": 0.92
       },
       {
         "cusip": "23834J110",
         "security_class": "*W EXP 01/05/202",
         "issuer": "DAVE INC",
         "shares": 40979.0,
-        "value_usd": 98759.0,
-        "weight_pct": 0.37
+        "value_usd": 40159.0,
+        "weight_pct": 0.22
       },
       {
         "cusip": "G5568L117",
         "security_class": "*W EXP 07/05/202",
         "issuer": "LIFEZONE METALS LIMITED",
         "shares": 47386.0,
-        "value_usd": 19428.0,
-        "weight_pct": 0.07
+        "value_usd": 14690.0,
+        "weight_pct": 0.08
       },
       {
-        "cusip": "64081V109",
-        "security_class": "CL A COM",
-        "issuer": "NERDY INC",
-        "shares": 17668.0,
-        "value_usd": 16186.0,
-        "weight_pct": 0.06
+        "cusip": "08774B110",
+        "security_class": "*W EXP 08/22/202",
+        "issuer": "BETTER HOME & FINANCE HOLDIN",
+        "shares": 45085.0,
+        "value_usd": 5234.0,
+        "weight_pct": 0.03
       },
       {
         "cusip": "104932116",
         "security_class": "*W EXP 03/14/202",
         "issuer": "BRAND ENGAGEMENT NETWORK INC",
         "shares": 79596.0,
-        "value_usd": 11143.0,
-        "weight_pct": 0.04
+        "value_usd": 3980.0,
+        "weight_pct": 0.02
+      },
+      {
+        "cusip": "G7606H116",
+        "security_class": "*W EXP 11/30/202",
+        "issuer": "ROADZEN INC",
+        "shares": 39183.0,
+        "value_usd": 3526.0,
+        "weight_pct": 0.02
+      },
+      {
+        "cusip": "29415V117",
+        "security_class": "*W EXP 09/29/202",
+        "issuer": "ENVOY MEDICAL INC",
+        "shares": 81975.0,
+        "value_usd": 2582.0,
+        "weight_pct": 0.01
+      },
+      {
+        "cusip": "G1331C112",
+        "security_class": "*W EXP 04/01/203",
+        "issuer": "BLUE GOLD LTD",
+        "shares": 69908.0,
+        "value_usd": 2580.0,
+        "weight_pct": 0.01
       }
     ],
-    "top_five_pct": 97.9,
-    "top_ten_pct": 99.85,
-    "hhi": 3856.69,
+    "top_five_pct": 99.87,
+    "top_ten_pct": 99.97,
+    "hhi": 9490.32,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 0,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 6,
       "increased_positions": 1,
-      "reduced_positions": 1
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003610"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005071"
       }
     ]
   },
-  "reported_13f_value_usd": 26504226.0,
+  "reported_13f_value_usd": 17871627.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003610",
+  "validated_accession": "0001172661-26-005071",
   "annualized_turnover_proxy_pct": null
 }

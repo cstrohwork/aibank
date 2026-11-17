@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001596053",
   "investor_name": "Arosa Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MIAMI BEACH",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1596053/0001596053-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1596053/0001596053-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1596053/0001596053-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1596053/0001596053-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "df26f67548a2960890fd1e0cd7535b655bfde1b506e1d445ee93aec8a6ce9b1a",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "c6904e9b84394f3827b74d9d38d885adc1d8f7b214708ad6502645a91b3e3761",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1c273aca070907798d4f5d7f745b783a0ea0d004",
+    "3618f97cda97a7d5b0fa0e08182e65d1b1be3398",
+    "f4f007741f72e13debb498451442b09ca1e73729"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001596053-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1596053/0001596053-26-000004.txt",
-    "distinct_positions": 22,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001596053-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1596053/0001596053-26-000005.txt",
+    "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 114630846.0,
+    "reported_long_equity_value_usd": 46068727.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,68 @@
         "cusip": "925815102",
         "security_class": "COM",
         "issuer": "VICOR CORP",
-        "shares": 125000.0,
-        "value_usd": 47472500.0,
-        "weight_pct": 41.41
+        "shares": 90000.0,
+        "value_usd": 26004600.0,
+        "weight_pct": 56.45
       },
       {
         "cusip": "609839105",
         "security_class": "COM",
         "issuer": "MONOLITHIC PWR SYS INC",
-        "shares": 12000.0,
-        "value_usd": 16588320.0,
-        "weight_pct": 14.47
-      },
-      {
-        "cusip": "739276103",
-        "security_class": "COM",
-        "issuer": "POWER INTEGRATIONS INC",
-        "shares": 125000.0,
-        "value_usd": 10470000.0,
-        "weight_pct": 9.13
-      },
-      {
-        "cusip": "74743L100",
-        "security_class": "COMMON STOCK",
-        "issuer": "QNITY ELECTRONICS INC",
-        "shares": 50000.0,
-        "value_usd": 8165500.0,
-        "weight_pct": 7.12
-      },
-      {
-        "cusip": "969457100",
-        "security_class": "COM",
-        "issuer": "WILLIAMS COS INC",
-        "shares": 60000.0,
-        "value_usd": 4460400.0,
-        "weight_pct": 3.89
-      },
-      {
-        "cusip": "05614L209",
-        "security_class": "COM",
-        "issuer": "BABCOCK & WILCOX ENTERPRISES",
-        "shares": 275000.0,
-        "value_usd": 3877500.0,
-        "weight_pct": 3.38
-      },
-      {
-        "cusip": "775133101",
-        "security_class": "COM",
-        "issuer": "ROGERS CORP",
-        "shares": 22000.0,
-        "value_usd": 3602060.0,
-        "weight_pct": 3.14
-      },
-      {
-        "cusip": "157210105",
-        "security_class": "COM",
-        "issuer": "CEVA INC",
-        "shares": 70000.0,
-        "value_usd": 3301200.0,
-        "weight_pct": 2.88
-      },
-      {
-        "cusip": "83418M103",
-        "security_class": "COM CL A",
-        "issuer": "SOLARIS ENERGY INFRAS INC",
-        "shares": 40000.0,
-        "value_usd": 3218400.0,
-        "weight_pct": 2.81
+        "shares": 7500.0,
+        "value_usd": 10104150.0,
+        "weight_pct": 21.93
       },
       {
         "cusip": "G037AX101",
         "security_class": "SHS",
         "issuer": "AMBARELLA INC",
-        "shares": 35000.0,
-        "value_usd": 3003000.0,
-        "weight_pct": 2.62
+        "shares": 100000.0,
+        "value_usd": 6951000.0,
+        "weight_pct": 15.09
+      },
+      {
+        "cusip": "157210105",
+        "security_class": "COM",
+        "issuer": "CEVA INC",
+        "shares": 75000.0,
+        "value_usd": 2649750.0,
+        "weight_pct": 5.75
+      },
+      {
+        "cusip": "881454110",
+        "security_class": "*W EXP 10/28/203",
+        "issuer": "TERRESTRIAL ENERGY INC",
+        "shares": 175000.0,
+        "value_usd": 239750.0,
+        "weight_pct": 0.52
+      },
+      {
+        "cusip": "269710117",
+        "security_class": "*W EXP 02/25/203",
+        "issuer": "EAGLE NUCLEAR ENERGY CORP",
+        "shares": 148700.0,
+        "value_usd": 96655.0,
+        "weight_pct": 0.21
+      },
+      {
+        "cusip": "64107A113",
+        "security_class": "*W EXP 06/08/202",
+        "issuer": "NET POWER INC",
+        "shares": 106249.0,
+        "value_usd": 22822.0,
+        "weight_pct": 0.05
       }
     ],
-    "top_five_pct": 76.03,
-    "top_ten_pct": 90.86,
-    "hhi": 2126.67,
+    "top_five_pct": 99.74,
+    "top_ten_pct": 100.0,
+    "hhi": 3928.41,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 18,
-      "exited_positions": 40,
-      "increased_positions": 1,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 15,
+      "increased_positions": 2,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -128,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001596053-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001596053-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 114630846.0,
+  "reported_13f_value_usd": 46068727.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001596053-26-000004",
+  "validated_accession": "0001596053-26-000005",
   "annualized_turnover_proxy_pct": null
 }

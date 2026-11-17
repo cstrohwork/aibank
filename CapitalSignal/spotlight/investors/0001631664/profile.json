@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001631664",
   "investor_name": "Punch Card Management L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WINTER PARK",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1631664/0001398344-25-020995.txt",
-    "https://www.sec.gov/Archives/edgar/data/1631664/0001398344-26-014658.txt"
+    "https://www.sec.gov/Archives/edgar/data/1631664/0001398344-26-014658.txt",
+    "https://www.sec.gov/Archives/edgar/data/1631664/0001398344-26-020179.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a14c56a0d53fc0da682753267785c094914e58866a42787a509062a867ecf8ef",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "8fae0b7cb49bd90f09e64c8ff285d65509a64a7513ef7feacf9b99486c20a1a5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2861e89def48c526fe7586f61d608ee27551c61c",
+    "4e07c17281b3549184502fe90831b0679beb6d22",
+    "74bc67ea95b5f08934a40f6f782b927fef190900"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001398344-26-014658",
-    "source": "https://www.sec.gov/Archives/edgar/data/1631664/0001398344-26-014658.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001398344-26-020179",
+    "source": "https://www.sec.gov/Archives/edgar/data/1631664/0001398344-26-020179.txt",
     "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 255951708.0,
+    "reported_long_equity_value_usd": 228907482.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,51 +43,51 @@
         "security_class": "CL A",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
         "shares": 145.0,
-        "value_usd": 108583250.0,
-        "weight_pct": 42.42
+        "value_usd": 108315725.0,
+        "weight_pct": 47.32
       },
       {
         "cusip": "227046109",
         "security_class": "COM",
         "issuer": "CROCS INC",
-        "shares": 577170.0,
-        "value_usd": 69629789.0,
-        "weight_pct": 27.2
+        "shares": 424370.0,
+        "value_usd": 49782845.0,
+        "weight_pct": 21.75
       },
       {
         "cusip": "722304102",
         "security_class": "SPONSORED ADS",
         "issuer": "PDD HOLDINGS INC",
-        "shares": 415004.0,
-        "value_usd": 31656505.0,
-        "weight_pct": 12.37
+        "shares": 385004.0,
+        "value_usd": 30007212.0,
+        "weight_pct": 13.11
       },
       {
         "cusip": "70450Y103",
         "security_class": "COM",
         "issuer": "PAYPAL HLDGS INC",
-        "shares": 628907.0,
-        "value_usd": 27156204.0,
-        "weight_pct": 10.61
+        "shares": 416407.0,
+        "value_usd": 21873860.0,
+        "weight_pct": 9.56
       },
       {
         "cusip": "46436E718",
         "security_class": "0-3 MTH TREASURY",
         "issuer": "ISHARES TR",
         "shares": 188000.0,
-        "value_usd": 18925960.0,
-        "weight_pct": 7.39
+        "value_usd": 18927840.0,
+        "weight_pct": 8.27
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 2860.03,
+    "hhi": 3043.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 2,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 2
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -88,11 +99,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001398344-26-014658"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001398344-26-020179"
       }
     ]
   },
-  "reported_13f_value_usd": 255951708.0,
+  "reported_13f_value_usd": 228907482.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001398344-26-014658",
+  "validated_accession": "0001398344-26-020179",
   "annualized_turnover_proxy_pct": null
 }

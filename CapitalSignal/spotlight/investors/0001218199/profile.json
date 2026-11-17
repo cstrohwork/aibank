@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001218199",
   "investor_name": "KING STREET CAPITAL MANAGEMENT, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,81 +10,100 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1218199/0001172661-25-004996.txt",
-    "https://www.sec.gov/Archives/edgar/data/1218199/0001172661-26-003543.txt"
+    "https://www.sec.gov/Archives/edgar/data/1218199/0001172661-26-003543.txt",
+    "https://www.sec.gov/Archives/edgar/data/1218199/0001172661-26-005139.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ec8df6e74b7981fa7f91b33369882e2235c4e8f291114137b3dd67c7d4f3c782",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "c999dcb40cd17ee4064fa3159f22aaf32f5e18c69c00b0224cda2267d284fbe6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "53d35570196f12e39857a13f1383959e4e48702f",
+    "a20838fa17e08475612c06d42c02052491dd0688",
+    "c15f07fac3c1627043c3880a3e104b42b0407427"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003543",
-    "source": "https://www.sec.gov/Archives/edgar/data/1218199/0001172661-26-003543.txt",
-    "distinct_positions": 6,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005139",
+    "source": "https://www.sec.gov/Archives/edgar/data/1218199/0001172661-26-005139.txt",
+    "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 189671275.0,
+    "reported_long_equity_value_usd": 479668996.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "86881A100",
-        "security_class": "COM",
-        "issuer": "SURGERY PARTNERS INC",
-        "shares": 6058141.0,
-        "value_usd": 101776768.0,
-        "weight_pct": 53.66
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1680500.0,
+        "value_usd": 129751405.0,
+        "weight_pct": 27.05
+      },
+      {
+        "cusip": "643926207",
+        "security_class": "PFD SER A MAND",
+        "issuer": "NEW FORTRESS ENERGY INC",
+        "shares": 301730.0,
+        "value_usd": 125217950.0,
+        "weight_pct": 26.11
+      },
+      {
+        "cusip": "46138G508",
+        "security_class": "SR LN ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 4891000.0,
+        "value_usd": 99923130.0,
+        "weight_pct": 20.83
       },
       {
         "cusip": "46435U853",
         "security_class": "BROAD USD HIGH",
         "issuer": "ISHARES TR",
-        "shares": 999000.0,
-        "value_usd": 36982980.0,
-        "weight_pct": 19.5
-      },
-      {
-        "cusip": "464288513",
-        "security_class": "IBOXX HI YD ETF",
-        "issuer": "ISHARES TR",
-        "shares": 237100.0,
-        "value_usd": 18960887.0,
-        "weight_pct": 10.0
+        "shares": 2627000.0,
+        "value_usd": 93836440.0,
+        "weight_pct": 19.56
       },
       {
         "cusip": "87422Q109",
         "security_class": "COM",
         "issuer": "TALEN ENERGY CORP",
-        "shares": 47000.0,
-        "value_usd": 18060220.0,
-        "weight_pct": 9.52
+        "shares": 64360.0,
+        "value_usd": 20124728.0,
+        "weight_pct": 4.2
       },
       {
         "cusip": "92840M102",
         "security_class": "COM",
         "issuer": "VISTRA CORP",
-        "shares": 59000.0,
-        "value_usd": 9359170.0,
-        "weight_pct": 4.93
+        "shares": 53173.0,
+        "value_usd": 7356485.0,
+        "weight_pct": 1.53
       },
       {
-        "cusip": "02156K103",
-        "security_class": "CL A",
-        "issuer": "OPTIMUM COMMUNICATIONS INC",
-        "shares": 3125000.0,
-        "value_usd": 4531250.0,
-        "weight_pct": 2.39
+        "cusip": "644393308",
+        "security_class": "COM CL A",
+        "issuer": "NEW FORTRESS ENERGY INC",
+        "shares": 551652.0,
+        "value_usd": 3458858.0,
+        "weight_pct": 0.72
       }
     ],
-    "top_five_pct": 97.61,
+    "top_five_pct": 97.75,
     "top_ten_pct": 100.0,
-    "hhi": 3480.19,
+    "hhi": 2250.32,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
-      "exited_positions": 12,
-      "increased_positions": 0,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 3,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -96,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003543"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005139"
       }
     ]
   },
-  "reported_13f_value_usd": 189671275.0,
+  "reported_13f_value_usd": 479668996.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003543",
+  "validated_accession": "0001172661-26-005139",
   "annualized_turnover_proxy_pct": null
 }

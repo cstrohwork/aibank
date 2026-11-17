@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001515070",
   "investor_name": "Tetragon Partners GP Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GRAND CAYMAN",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1515070/0000902664-25-005067.txt",
-    "https://www.sec.gov/Archives/edgar/data/1515070/0000919574-26-005024.txt"
+    "https://www.sec.gov/Archives/edgar/data/1515070/0000919574-26-005024.txt",
+    "https://www.sec.gov/Archives/edgar/data/1515070/0000919574-26-008018.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8c67946ea13e36e6fcd2298826c9fafed3cb00f67191f30de1c898643ec25259",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "2859947a5537b54786facba07d33fadfc1a87f798ff680b88bac56dd547c33c6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "18a23a8555fed5235c556b4c068603ce168c0549",
+    "30ef12af9a931e28467a3db1f5c7539ee7c83f87",
+    "7e5354575af896a957d032a5d7fd22ae5284361e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0000919574-26-005024",
-    "source": "https://www.sec.gov/Archives/edgar/data/1515070/0000919574-26-005024.txt",
-    "distinct_positions": 32,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-008018",
+    "source": "https://www.sec.gov/Archives/edgar/data/1515070/0000919574-26-008018.txt",
+    "distinct_positions": 33,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 614316975.0,
+    "reported_long_equity_value_usd": 757501822.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "90364P105",
         "security_class": "CL A",
         "issuer": "UIPATH INC",
-        "shares": 30950000.0,
-        "value_usd": 336426500.0,
-        "weight_pct": 54.76
+        "shares": 32500000.0,
+        "value_usd": 417300000.0,
+        "weight_pct": 55.09
       },
       {
         "cusip": "50043K406",
         "security_class": "COM NEW",
         "issuer": "KOLIBRI GLOBAL ENERGY INC",
         "shares": 6834504.0,
-        "value_usd": 33845142.0,
-        "weight_pct": 5.51
+        "value_usd": 42259440.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "82686Q101",
+        "security_class": "ADS",
+        "issuer": "SILENCE THERAPEUTICS PLC",
+        "shares": 2436051.0,
+        "value_usd": 26626037.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "N69605108",
+        "security_class": "COM",
+        "issuer": "Pharvaris Nv",
+        "shares": 838247.0,
+        "value_usd": 26589195.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "462222100",
+        "security_class": "COM",
+        "issuer": "IONIS PHARMACEUTICALS INC",
+        "shares": 440930.0,
+        "value_usd": 19687525.0,
+        "weight_pct": 2.6
       },
       {
         "cusip": "05280R100",
         "security_class": "SPON ADS",
         "issuer": "AUTOLUS THERAPEUTICS LTD",
         "shares": 9500000.0,
-        "value_usd": 15200000.0,
-        "weight_pct": 2.47
+        "value_usd": 18430000.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "04280A100",
+        "security_class": "COM",
+        "issuer": "ARROWHEAD PHARMACEUTICALS IN",
+        "shares": 264040.0,
+        "value_usd": 17281418.0,
+        "weight_pct": 2.28
       },
       {
         "cusip": "55087P104",
         "security_class": "CL A COM",
         "issuer": "LYFT INC",
         "shares": 1000000.0,
-        "value_usd": 14610000.0,
-        "weight_pct": 2.38
-      },
-      {
-        "cusip": "24477V105",
-        "security_class": "COM SHS",
-        "issuer": "DEFINIUM THERAPEUTICS INC",
-        "shares": 286990.0,
-        "value_usd": 13500010.0,
-        "weight_pct": 2.2
+        "value_usd": 15010000.0,
+        "weight_pct": 1.98
       },
       {
         "cusip": "98139A105",
         "security_class": "COM CL A",
         "issuer": "WORKIVA INC",
-        "shares": 250000.0,
-        "value_usd": 12127500.0,
-        "weight_pct": 1.97
-      },
-      {
-        "cusip": "85208T107",
-        "security_class": "CL A",
-        "issuer": "SPRINKLR INC",
-        "shares": 2200000.0,
-        "value_usd": 11352000.0,
-        "weight_pct": 1.85
+        "shares": 225000.0,
+        "value_usd": 14978250.0,
+        "weight_pct": 1.98
       },
       {
         "cusip": "55287L101",
         "security_class": "COM",
         "issuer": "MBX BIOSCIENCES INC",
-        "shares": 203543.0,
-        "value_usd": 11235574.0,
-        "weight_pct": 1.83
-      },
-      {
-        "cusip": "01644J108",
-        "security_class": "COM",
-        "issuer": "ALKAMI TECHNOLOGY INC",
-        "shares": 600284.0,
-        "value_usd": 10877146.0,
-        "weight_pct": 1.77
-      },
-      {
-        "cusip": "15117B202",
-        "security_class": "COM NEW",
-        "issuer": "CELLDEX THERAPEUTICS INC NEW",
-        "shares": 290441.0,
-        "value_usd": 10807310.0,
-        "weight_pct": 1.76
+        "shares": 220647.0,
+        "value_usd": 12934327.0,
+        "weight_pct": 1.71
       }
     ],
-    "top_five_pct": 67.32,
-    "top_ten_pct": 76.5,
-    "hhi": 3093.0,
+    "top_five_pct": 70.29,
+    "top_ten_pct": 80.67,
+    "hhi": 3139.41,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 16,
-      "increased_positions": 12,
-      "reduced_positions": 4
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 4,
+      "increased_positions": 16,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0000919574-26-005024"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-008018"
       }
     ]
   },
-  "reported_13f_value_usd": 614316975.0,
+  "reported_13f_value_usd": 757501822.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005024",
+  "validated_accession": "0000919574-26-008018",
   "annualized_turnover_proxy_pct": null
 }

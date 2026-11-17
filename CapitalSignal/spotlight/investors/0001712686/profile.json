@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001712686",
   "investor_name": "Broadleaf Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Hudson",
   "state": "OH",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1712686/0001193125-25-280140.txt",
-    "https://www.sec.gov/Archives/edgar/data/1712686/0001193125-26-347796.txt"
+    "https://www.sec.gov/Archives/edgar/data/1712686/0001193125-26-347796.txt",
+    "https://www.sec.gov/Archives/edgar/data/1712686/0001193125-26-462361.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ef6895d5883ae303b8cf0da58c144d32b8436a0a1da98827993c8427d70e8d3a",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "6ce44e199374538a84376a36bd758b212e534d40b44014834f18b488cb06d5ca",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "01ed825a3d26df6e3b813d4dffd7ee629fea6990",
+    "570c57b1b49a99471e601bc51f64e4007f948f50",
+    "69e9d5896bcd39e96e1634ce0eec8d379275c281"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001193125-26-347796",
-    "source": "https://www.sec.gov/Archives/edgar/data/1712686/0001193125-26-347796.txt",
-    "distinct_positions": 86,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-462361",
+    "source": "https://www.sec.gov/Archives/edgar/data/1712686/0001193125-26-462361.txt",
+    "distinct_positions": 83,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 516555287.0,
+    "reported_long_equity_value_usd": 519974780.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "Nvidia Corp.",
-        "shares": 180057.0,
-        "value_usd": 36027606.0,
-        "weight_pct": 6.97
+        "shares": 181502.0,
+        "value_usd": 41451428.0,
+        "weight_pct": 7.97
       },
       {
         "cusip": "02079K107",
         "security_class": "COM",
         "issuer": "Alphabet Inc. Class C",
-        "shares": 98432.0,
-        "value_usd": 34778979.0,
-        "weight_pct": 6.73
+        "shares": 99231.0,
+        "value_usd": 33811971.0,
+        "weight_pct": 6.5
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "Apple Inc.",
-        "shares": 93535.0,
-        "value_usd": 27065288.0,
-        "weight_pct": 5.24
+        "shares": 94416.0,
+        "value_usd": 31442488.0,
+        "weight_pct": 6.05
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "Amazon.com Inc.",
-        "shares": 105103.0,
-        "value_usd": 25050249.0,
-        "weight_pct": 4.85
+        "shares": 106265.0,
+        "value_usd": 26475925.0,
+        "weight_pct": 5.09
       },
       {
         "cusip": "808524805",
         "security_class": "ETF",
         "issuer": "Schwab International Equity ET",
-        "shares": 895562.0,
-        "value_usd": 24807077.0,
-        "weight_pct": 4.8
-      },
-      {
-        "cusip": "532457108",
-        "security_class": "COM",
-        "issuer": "Eli Lilly & Co",
-        "shares": 17036.0,
-        "value_usd": 20433489.0,
-        "weight_pct": 3.96
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "Broadcom Inc.",
-        "shares": 49924.0,
-        "value_usd": 18858791.0,
-        "weight_pct": 3.65
-      },
-      {
-        "cusip": "92537N108",
-        "security_class": "COM",
-        "issuer": "Vertiv Holdings Co Class A",
-        "shares": 46774.0,
-        "value_usd": 15660871.0,
-        "weight_pct": 3.03
+        "shares": 883795.0,
+        "value_usd": 24277859.0,
+        "weight_pct": 4.67
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "Microsoft Corp.",
-        "shares": 41425.0,
-        "value_usd": 15452353.0,
-        "weight_pct": 2.99
+        "shares": 41699.0,
+        "value_usd": 21387417.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "Eli Lilly & Co",
+        "shares": 17232.0,
+        "value_usd": 19938803.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "COM",
+        "issuer": "Meta Platforms Inc Class A",
+        "shares": 24903.0,
+        "value_usd": 18059158.0,
+        "weight_pct": 3.47
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "Broadcom Inc.",
+        "shares": 50170.0,
+        "value_usd": 17619202.0,
+        "weight_pct": 3.39
       },
       {
         "cusip": "040413205",
         "security_class": "COM",
         "issuer": "Arista Networks Inc.",
-        "shares": 86097.0,
-        "value_usd": 14626158.0,
-        "weight_pct": 2.83
+        "shares": 86394.0,
+        "value_usd": 17588954.0,
+        "weight_pct": 3.38
       }
     ],
-    "top_five_pct": 28.6,
-    "top_ten_pct": 45.06,
-    "hhi": 322.62,
+    "top_five_pct": 30.28,
+    "top_ten_pct": 48.47,
+    "hhi": 336.96,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 18,
-      "exited_positions": 12,
-      "increased_positions": 20,
-      "reduced_positions": 36
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 7,
+      "increased_positions": 35,
+      "reduced_positions": 20
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001193125-26-347796"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-462361"
       }
     ]
   },
-  "reported_13f_value_usd": 516555287.0,
+  "reported_13f_value_usd": 519974780.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-347796",
+  "validated_accession": "0001193125-26-462361",
   "annualized_turnover_proxy_pct": null
 }

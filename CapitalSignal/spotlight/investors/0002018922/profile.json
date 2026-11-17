@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002018922",
   "investor_name": "CRITERIA CAIXA, S.A.U.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-24",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BARCELONA",
   "state": null,
   "country": null,
@@ -10,50 +10,47 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2018922/0001104659-25-111516.txt",
-    "https://www.sec.gov/Archives/edgar/data/2018922/0001104659-26-086654.txt"
+    "https://www.sec.gov/Archives/edgar/data/2018922/0001104659-26-086654.txt",
+    "https://www.sec.gov/Archives/edgar/data/2018922/0001104659-26-127366.txt"
   ],
-  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1e011dbb682d5b1c1d93da5ad876d56cf34980c0ccb072dec30293281ae4f03b",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
+  "source_fingerprint": "360edb1cd1fc0756eb538d5c0b7a7f4d182dff8c0726d6a02f394d7b4fb810bf",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-07-24|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "44c724c34994ed754ca95f86b066396e66e8715b",
+    "53f1c93eb0736f2961e13ef12e4abde25761a6e7",
+    "c5948b71fa3c174593b00c59ff5aeaf05644f2db"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-24",
-    "accession": "0001104659-26-086654",
-    "source": "https://www.sec.gov/Archives/edgar/data/2018922/0001104659-26-086654.txt",
-    "distinct_positions": 2,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127366",
+    "source": "https://www.sec.gov/Archives/edgar/data/2018922/0001104659-26-127366.txt",
+    "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 23645420.0,
+    "reported_long_equity_value_usd": null,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "464287457",
-        "security_class": "1 3 YR TREAS BD",
-        "issuer": "ISHARES USD TREASURY BOND 1-3YR UCITS ETF",
-        "shares": 2000000.0,
-        "value_usd": 11894000.0,
-        "weight_pct": 50.3
-      },
-      {
-        "cusip": "464288661",
-        "security_class": "3 7 YR TREAS BD",
-        "issuer": "ISHARES USD TREASURY BOND 3-7YR UCITS ETF",
-        "shares": 82000.0,
-        "value_usd": 11751420.0,
-        "weight_pct": 49.7
+        "cusip": "000000000",
+        "security_class": "NONE",
+        "issuer": "NONE",
+        "shares": 0.0,
+        "value_usd": null,
+        "weight_pct": null
       }
     ],
-    "top_five_pct": 100.0,
-    "top_ten_pct": 100.0,
-    "hhi": 5000.18,
-    "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 0,
-      "exited_positions": 17,
-      "increased_positions": 0,
-      "reduced_positions": 0
-    },
+    "top_five_pct": null,
+    "top_ten_pct": null,
+    "hhi": null,
+    "changes": null,
     "timeline": [
       {
         "report_date": "2025-09-30",
@@ -64,11 +61,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-24",
         "accession": "0001104659-26-086654"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127366"
       }
     ]
   },
-  "reported_13f_value_usd": 23645420.0,
+  "reported_13f_value_usd": null,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-086654",
+  "validated_accession": null,
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001635663",
   "investor_name": "Steamboat Capital Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "RYE",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1635663/0001635663-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1635663/0001635663-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1635663/0001635663-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1635663/0001635663-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "dc798e898e7d2d1c172f279b617a4cc345c2ba10706564986a2a5bc7b49f5b4c",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "4031cb630bb9e6f8cc7ffd870783e2242eaddc740c56bf23ec06fa23e819628a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "a04c8c76bc2ec65df6868a44ee0641ff912f454f",
+    "b26c0ec3cfc6fbf6212bedc4555b3f726bce6803",
+    "e384a8765b416a160d8c11e6daf0958b1170efe4"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001635663-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1635663/0001635663-26-000007.txt",
-    "distinct_positions": 59,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001635663-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1635663/0001635663-26-000008.txt",
+    "distinct_positions": 63,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 467564986.0,
+    "reported_long_equity_value_usd": 475127077.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "00108J109",
-        "security_class": "COM CL A",
-        "issuer": "ACM Research Inc",
-        "shares": 182773.0,
-        "value_usd": 23192066.0,
-        "weight_pct": 4.96
-      },
-      {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "Alphabet Inc",
-        "shares": 60976.0,
-        "value_usd": 21544650.0,
-        "weight_pct": 4.61
+        "shares": 60978.0,
+        "value_usd": 20777644.0,
+        "weight_pct": 4.37
       },
       {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "Broadcom Inc",
-        "shares": 54388.0,
-        "value_usd": 20545067.0,
-        "weight_pct": 4.39
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "Micron Technology Inc",
-        "shares": 16806.0,
-        "value_usd": 19398998.0,
-        "weight_pct": 4.15
+        "cusip": "G9600F104",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "Versigent PLC",
+        "shares": 448898.0,
+        "value_usd": 20173476.0,
+        "weight_pct": 4.25
       },
       {
         "cusip": "N00985106",
         "security_class": "SHS",
         "issuer": "AerCap Holdings NV",
-        "shares": 122485.0,
-        "value_usd": 17855863.0,
-        "weight_pct": 3.82
+        "shares": 132844.0,
+        "value_usd": 19065771.0,
+        "weight_pct": 4.01
       },
       {
-        "cusip": "20464U100",
-        "security_class": "CL A",
-        "issuer": "Compass Inc",
-        "shares": 1384358.0,
-        "value_usd": 17069134.0,
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "Micron Technology Inc",
+        "shares": 16807.0,
+        "value_usd": 17901304.0,
+        "weight_pct": 3.77
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "Broadcom Inc",
+        "shares": 49315.0,
+        "value_usd": 17318935.0,
         "weight_pct": 3.65
       },
       {
         "cusip": "24703L202",
         "security_class": "CL C",
         "issuer": "Dell Technologies Inc",
-        "shares": 39540.0,
-        "value_usd": 17059928.0,
-        "weight_pct": 3.65
+        "shares": 30000.0,
+        "value_usd": 16138500.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "38013D106",
+        "security_class": "COM CL A                   *A*",
+        "issuer": "GMR Solutions Inc",
+        "shares": 1600000.0,
+        "value_usd": 15408000.0,
+        "weight_pct": 3.24
       },
       {
         "cusip": "88033G407",
         "security_class": "COM NEW",
         "issuer": "Tenet Healthcare Corp",
-        "shares": 79074.0,
-        "value_usd": 14793164.0,
-        "weight_pct": 3.16
+        "shares": 60000.0,
+        "value_usd": 15333600.0,
+        "weight_pct": 3.23
       },
       {
-        "cusip": "156431108",
-        "security_class": "COM",
-        "issuer": "Century Aluminum Co",
-        "shares": 296666.0,
-        "value_usd": 13649603.0,
-        "weight_pct": 2.92
+        "cusip": "00108J109",
+        "security_class": "COM CL A",
+        "issuer": "ACM Research Inc",
+        "shares": 182937.0,
+        "value_usd": 14803262.0,
+        "weight_pct": 3.12
       },
       {
-        "cusip": "55305B101",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "M/I Homes Inc",
-        "shares": 75523.0,
-        "value_usd": 12143343.0,
-        "weight_pct": 2.6
+        "issuer": "NVIDIA Corp",
+        "shares": 53975.0,
+        "value_usd": 12326811.0,
+        "weight_pct": 2.59
       }
     ],
-    "top_five_pct": 21.93,
-    "top_ten_pct": 37.91,
-    "hhi": 245.95,
+    "top_five_pct": 20.04,
+    "top_ten_pct": 35.62,
+    "hhi": 231.42,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 58,
-      "exited_positions": 59,
-      "increased_positions": 0,
-      "reduced_positions": 1
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 2,
+      "increased_positions": 14,
+      "reduced_positions": 41
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001635663-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001635663-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 467564986.0,
+  "reported_13f_value_usd": 475127077.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001635663-26-000007",
+  "validated_accession": "0001635663-26-000008",
   "annualized_turnover_proxy_pct": null
 }

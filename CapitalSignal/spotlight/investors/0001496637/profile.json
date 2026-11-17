@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001496637",
   "investor_name": "Norinchukin Bank, The",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TOKYO",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1496637/0000905148-25-003989.txt",
-    "https://www.sec.gov/Archives/edgar/data/1496637/0000905148-26-003695.txt"
+    "https://www.sec.gov/Archives/edgar/data/1496637/0000905148-26-003695.txt",
+    "https://www.sec.gov/Archives/edgar/data/1496637/0000905148-26-004858.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2cc0c02ad4de7f6b10cf7b95abc9a1cb0a27b1632ce11ac5a07a02a1a52f205e",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "4ffb6d7d86645c8999067ca3d347cacc781c9e739976a71c78fd427c8a4ef7ff",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0daefa2e26df7139dd668d71969b2e43774896aa",
+    "6c11f1aeedba14ea0d4474b61f3c2f5f3a3d2d14",
+    "a5005ebe1b54674185aa2aa6300e0a94456d9820"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000905148-26-003695",
-    "source": "https://www.sec.gov/Archives/edgar/data/1496637/0000905148-26-003695.txt",
-    "distinct_positions": 567,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000905148-26-004858",
+    "source": "https://www.sec.gov/Archives/edgar/data/1496637/0000905148-26-004858.txt",
+    "distinct_positions": 563,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 10276037938.0,
+    "reported_long_equity_value_usd": 10765890714.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
-        "issuer": "SPDR S&P 500 ETF TR",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
         "shares": 1233000.0,
-        "value_usd": 920767410.0,
-        "weight_pct": 8.96
+        "value_usd": 940322790.0,
+        "weight_pct": 8.73
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
         "shares": 819080.0,
-        "value_usd": 613400821.0,
-        "weight_pct": 5.97
+        "value_usd": 627292418.0,
+        "weight_pct": 5.83
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
         "shares": 733080.0,
-        "value_usd": 503486675.0,
-        "weight_pct": 4.9
+        "value_usd": 513786449.0,
+        "weight_pct": 4.77
       },
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 1045000.0,
-        "value_usd": 386691800.0,
-        "weight_pct": 3.76
+        "shares": 1274400.0,
+        "value_usd": 476931456.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 1861823.0,
+        "value_usd": 425203137.0,
+        "weight_pct": 3.95
       },
       {
         "cusip": "464287150",
         "security_class": "CORE S&P TTL STK",
         "issuer": "ISHARES TR",
         "shares": 2246560.0,
-        "value_usd": 369042411.0,
-        "weight_pct": 3.59
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 1832081.0,
-        "value_usd": 366581087.0,
-        "weight_pct": 3.57
-      },
-      {
-        "cusip": "46641Q399",
-        "security_class": "BETABUILDRS US",
-        "issuer": "J P MORGAN EXCHANGE TRADED",
-        "shares": 2459000.0,
-        "value_usd": 331276480.0,
-        "weight_pct": 3.22
-      },
-      {
-        "cusip": "46138G649",
-        "security_class": "NASDAQ 100 ETF",
-        "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 1080000.0,
-        "value_usd": 327207600.0,
-        "weight_pct": 3.18
+        "value_usd": 373557997.0,
+        "weight_pct": 3.47
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 1097240.0,
-        "value_usd": 317497366.0,
-        "weight_pct": 3.09
+        "shares": 1108009.0,
+        "value_usd": 368989157.0,
+        "weight_pct": 3.43
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "NASDAQ 100 ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 1149000.0,
+        "value_usd": 350031360.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "46641Q399",
+        "security_class": "BETABUILDRS US",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 2459000.0,
+        "value_usd": 338309220.0,
+        "weight_pct": 3.14
       },
       {
         "cusip": "78464A854",
         "security_class": "ST STR P500ETF",
         "issuer": "SPDR SERIES TRUST",
         "shares": 3511270.0,
-        "value_usd": 308570408.0,
-        "weight_pct": 3.0
+        "value_usd": 315171595.0,
+        "weight_pct": 2.93
       }
     ],
-    "top_five_pct": 27.18,
-    "top_ten_pct": 43.25,
-    "hhi": 261.83,
+    "top_five_pct": 27.71,
+    "top_ten_pct": 43.93,
+    "hhi": 266.75,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 34,
-      "exited_positions": 34,
-      "increased_positions": 405,
-      "reduced_positions": 124
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 16,
+      "increased_positions": 191,
+      "reduced_positions": 351
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000905148-26-003695"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000905148-26-004858"
       }
     ]
   },
-  "reported_13f_value_usd": 10276037938.0,
+  "reported_13f_value_usd": 10765890714.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000905148-26-003695",
+  "validated_accession": "0000905148-26-004858",
   "annualized_turnover_proxy_pct": null
 }

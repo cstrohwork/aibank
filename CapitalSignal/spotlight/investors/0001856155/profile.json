@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001856155",
   "investor_name": "MANE GLOBAL CAPITAL MANAGEMENT LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,112 +10,123 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1856155/0000902664-25-004961.txt",
-    "https://www.sec.gov/Archives/edgar/data/1856155/0000902664-26-003473.txt"
+    "https://www.sec.gov/Archives/edgar/data/1856155/0000902664-26-003473.txt",
+    "https://www.sec.gov/Archives/edgar/data/1856155/0000902664-26-004558.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "12d59552412c566f6023335695a3e144241e1e9e8986ff67a90b4d71f100c88f",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "eeb110617274c32f7bcac945af26f4178b869f65bc9eedf06667e49210a180f4",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0938b08f6454d6330242864f75eb46b3f9653293",
+    "634a4677e09ea69fb10baa6cdcc857386f2ea590",
+    "ff9ccd4063c272a9e63048c749a14243ec071140"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000902664-26-003473",
-    "source": "https://www.sec.gov/Archives/edgar/data/1856155/0000902664-26-003473.txt",
-    "distinct_positions": 54,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000902664-26-004558",
+    "source": "https://www.sec.gov/Archives/edgar/data/1856155/0000902664-26-004558.txt",
+    "distinct_positions": 60,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1210055108.0,
+    "reported_long_equity_value_usd": 1842076279.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 191534.0,
-        "value_usd": 68448506.0,
-        "weight_pct": 5.66
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 263799.0,
+        "value_usd": 135302507.0,
+        "weight_pct": 7.35
       },
       {
         "cusip": "03852U106",
         "security_class": "COM",
         "issuer": "ARAMARK",
-        "shares": 1055248.0,
-        "value_usd": 60043611.0,
-        "weight_pct": 4.96
-      },
-      {
-        "cusip": "538034109",
-        "security_class": "COM",
-        "issuer": "LIVE NATION ENTERTAINMENT IN",
-        "shares": 314946.0,
-        "value_usd": 57669762.0,
-        "weight_pct": 4.77
-      },
-      {
-        "cusip": "609207105",
-        "security_class": "CL A",
-        "issuer": "MONDELEZ INTL INC",
-        "shares": 912144.0,
-        "value_usd": 52758409.0,
-        "weight_pct": 4.36
+        "shares": 1324658.0,
+        "value_usd": 70935436.0,
+        "weight_pct": 3.85
       },
       {
         "cusip": "824348106",
         "security_class": "COM",
         "issuer": "SHERWIN WILLIAMS CO",
-        "shares": 148940.0,
-        "value_usd": 51283021.0,
-        "weight_pct": 4.24
+        "shares": 216733.0,
+        "value_usd": 70063277.0,
+        "weight_pct": 3.8
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 262324.0,
+        "value_usd": 65358025.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "35137L105",
+        "security_class": "CL A COM",
+        "issuer": "FOX CORP",
+        "shares": 1040812.0,
+        "value_usd": 65206872.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 106266.0,
+        "value_usd": 58602511.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "538034109",
+        "security_class": "COM",
+        "issuer": "LIVE NATION ENTERTAINMENT IN",
+        "shares": 344717.0,
+        "value_usd": 58360588.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "G93A5A101",
+        "security_class": "ORD SHS",
+        "issuer": "VIKING HOLDINGS LTD",
+        "shares": 726221.0,
+        "value_usd": 56884891.0,
+        "weight_pct": 3.09
       },
       {
         "cusip": "437076102",
         "security_class": "COM",
         "issuer": "HOME DEPOT INC",
-        "shares": 137444.0,
-        "value_usd": 48473750.0,
-        "weight_pct": 4.01
+        "shares": 198311.0,
+        "value_usd": 56417496.0,
+        "weight_pct": 3.06
       },
       {
-        "cusip": "988498101",
+        "cusip": "V7780T103",
         "security_class": "COM",
-        "issuer": "YUM BRANDS INC",
-        "shares": 294217.0,
-        "value_usd": 47033530.0,
-        "weight_pct": 3.89
-      },
-      {
-        "cusip": "169656105",
-        "security_class": "COM",
-        "issuer": "CHIPOTLE MEXICAN GRILL INC",
-        "shares": 1315019.0,
-        "value_usd": 44710646.0,
-        "weight_pct": 3.69
-      },
-      {
-        "cusip": "882681109",
-        "security_class": "COM",
-        "issuer": "TEXAS ROADHOUSE INC",
-        "shares": 215429.0,
-        "value_usd": 41627346.0,
-        "weight_pct": 3.44
-      },
-      {
-        "cusip": "N07059210",
-        "security_class": "N Y REGISTRY SHS",
-        "issuer": "ASML HLDG NV",
-        "shares": 18906.0,
-        "value_usd": 37612353.0,
-        "weight_pct": 3.11
+        "issuer": "ROYAL CARIBBEAN GROUP",
+        "shares": 198014.0,
+        "value_usd": 52644002.0,
+        "weight_pct": 2.86
       }
     ],
-    "top_five_pct": 23.98,
-    "top_ten_pct": 42.12,
-    "hhi": 303.02,
+    "top_five_pct": 22.09,
+    "top_ten_pct": 37.45,
+    "hhi": 269.9,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 32,
-      "exited_positions": 41,
-      "increased_positions": 8,
+      "previous_period": "2026-06-30",
+      "new_positions": 25,
+      "exited_positions": 19,
+      "increased_positions": 21,
       "reduced_positions": 14
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000902664-26-003473"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000902664-26-004558"
       }
     ]
   },
-  "reported_13f_value_usd": 1210055108.0,
+  "reported_13f_value_usd": 1842076279.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000902664-26-003473",
+  "validated_accession": "0000902664-26-004558",
   "annualized_turnover_proxy_pct": null
 }

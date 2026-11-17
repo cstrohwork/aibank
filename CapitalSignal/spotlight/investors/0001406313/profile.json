@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001406313",
   "investor_name": "P2 Capital Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1406313/0001172661-25-004819.txt",
-    "https://www.sec.gov/Archives/edgar/data/1406313/0001172661-26-003641.txt"
+    "https://www.sec.gov/Archives/edgar/data/1406313/0001172661-26-003641.txt",
+    "https://www.sec.gov/Archives/edgar/data/1406313/0001172661-26-005085.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "03a39e6a2f073c6903af4368a42832244df30ceddbe979b9dfca4af523760c92",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "73312bb18814982472bb4794825de07f682e4a8c5a09fa062f7ed23a63c94df0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2430e1e2eaac90e7e63b926596dc77d06176203c",
+    "cbefbba94be2f4a7c2157e8b67335d90877f2d33",
+    "f4db91b327e5252aa930925822d5959018a5b1c8"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003641",
-    "source": "https://www.sec.gov/Archives/edgar/data/1406313/0001172661-26-003641.txt",
-    "distinct_positions": 12,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005085",
+    "source": "https://www.sec.gov/Archives/edgar/data/1406313/0001172661-26-005085.txt",
+    "distinct_positions": 14,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 245565611.0,
+    "reported_long_equity_value_usd": 299366346.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "00404A109",
-        "security_class": "COM",
-        "issuer": "ACADIA HEALTHCARE COMPANY IN",
-        "shares": 1774484.0,
-        "value_usd": 52400513.0,
-        "weight_pct": 21.34
-      },
-      {
         "cusip": "124805102",
         "security_class": "COM",
-        "issuer": "CBIZ INC",
-        "shares": 1136974.0,
-        "value_usd": 36474126.0,
-        "weight_pct": 14.85
+        "issuer": "CBIZ Inc (CBZ)",
+        "shares": 1128774.0,
+        "value_usd": 61732650.0,
+        "weight_pct": 20.62
+      },
+      {
+        "cusip": "00404A109",
+        "security_class": "COM",
+        "issuer": "Acadia Healthcare Company, Inc. (ACHC)",
+        "shares": 1774484.0,
+        "value_usd": 48798310.0,
+        "weight_pct": 16.3
+      },
+      {
+        "cusip": "98956A105",
+        "security_class": "COM",
+        "issuer": "Zeta Global Holdings Corp. (ZETA)",
+        "shares": 920000.0,
+        "value_usd": 29044400.0,
+        "weight_pct": 9.7
       },
       {
         "cusip": "477839104",
         "security_class": "COM",
-        "issuer": "JBT MAREL CORPORATION",
-        "shares": 225470.0,
-        "value_usd": 32693150.0,
-        "weight_pct": 13.31
+        "issuer": "JBT Marel Corporation (JBTM)",
+        "shares": 260890.0,
+        "value_usd": 27547375.0,
+        "weight_pct": 9.2
       },
       {
         "cusip": "806407102",
         "security_class": "COM",
-        "issuer": "SCHEIN HENRY INC",
+        "issuer": "Henry Schein, Inc. (HSIC)",
         "shares": 264486.0,
-        "value_usd": 22089871.0,
-        "weight_pct": 9.0
-      },
-      {
-        "cusip": "880345103",
-        "security_class": "COM",
-        "issuer": "TENNANT CO",
-        "shares": 225255.0,
-        "value_usd": 19718823.0,
-        "weight_pct": 8.03
-      },
-      {
-        "cusip": "98956A105",
-        "security_class": "CL A",
-        "issuer": "ZETA GLOBAL HOLDINGS CORP",
-        "shares": 920000.0,
-        "value_usd": 18105600.0,
-        "weight_pct": 7.37
-      },
-      {
-        "cusip": "553498106",
-        "security_class": "COM",
-        "issuer": "MSA SAFETY INC",
-        "shares": 99117.0,
-        "value_usd": 17303846.0,
-        "weight_pct": 7.05
+        "value_usd": 22208889.0,
+        "weight_pct": 7.42
       },
       {
         "cusip": "09227Q100",
         "security_class": "COM",
-        "issuer": "BLACKBAUD INC",
+        "issuer": "Blackbaud, Inc. (BLKB)",
         "shares": 482874.0,
-        "value_usd": 14302728.0,
-        "weight_pct": 5.82
+        "value_usd": 20097216.0,
+        "weight_pct": 6.71
       },
       {
-        "cusip": "147448104",
-        "security_class": "CL A",
-        "issuer": "CASELLA WASTE SYS INC",
-        "shares": 147236.0,
-        "value_usd": 14277475.0,
-        "weight_pct": 5.81
-      },
-      {
-        "cusip": "86333M108",
+        "cusip": "12510Q100",
         "security_class": "COM",
-        "issuer": "STRIDE INC",
-        "shares": 116630.0,
-        "value_usd": 10058171.0,
-        "weight_pct": 4.1
+        "issuer": "CCC Intelligent Solutions Holdings Inc (CCC)",
+        "shares": 2443167.0,
+        "value_usd": 16271492.0,
+        "weight_pct": 5.44
+      },
+      {
+        "cusip": "553498106",
+        "security_class": "COM",
+        "issuer": "MSA Safety Incorporated (MSA)",
+        "shares": 84117.0,
+        "value_usd": 14962732.0,
+        "weight_pct": 5.0
+      },
+      {
+        "cusip": "52476L109",
+        "security_class": "COM",
+        "issuer": "Legence Corp. (LGN)",
+        "shares": 235000.0,
+        "value_usd": 12614800.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "464287655",
+        "security_class": "COM",
+        "issuer": "iShares Russell 2000 Index (IWM)",
+        "shares": 38713.0,
+        "value_usd": 10757956.0,
+        "weight_pct": 3.59
       }
     ],
-    "top_five_pct": 66.53,
-    "top_ten_pct": 96.68,
-    "hhi": 1194.78,
+    "top_five_pct": 63.24,
+    "top_ten_pct": 88.2,
+    "hhi": 1091.31,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 2,
-      "increased_positions": 0,
-      "reduced_positions": 10
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 3,
+      "increased_positions": 1,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003641"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005085"
       }
     ]
   },
-  "reported_13f_value_usd": 245565611.0,
+  "reported_13f_value_usd": 299366346.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003641",
+  "validated_accession": "0001172661-26-005085",
   "annualized_turnover_proxy_pct": null
 }

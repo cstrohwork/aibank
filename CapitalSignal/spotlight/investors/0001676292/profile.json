@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001676292",
   "investor_name": "Hill Path Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1676292/0000921895-25-003093.txt",
-    "https://www.sec.gov/Archives/edgar/data/1676292/0000921895-26-002167.txt"
+    "https://www.sec.gov/Archives/edgar/data/1676292/0000921895-26-002167.txt",
+    "https://www.sec.gov/Archives/edgar/data/1676292/0000921895-26-003163.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "62e65a41b97f3ccc5a5897e872ba5a6de5bfa05aff890871330f9cebdf7888e3",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e81c02cda204a116e9e2581cee71f1a60b6a9e04df1b9bf3f9e25148b2124eca",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "525812c9b909b4218d64f2d9cca77f0c462477c8",
+    "9b5e926c6a1d033555c01d67a5aa22f0d6a05db5",
+    "ac7358e0d1b3212ffd1dcdbb1fb149b896c5b899"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000921895-26-002167",
-    "source": "https://www.sec.gov/Archives/edgar/data/1676292/0000921895-26-002167.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000921895-26-003163",
+    "source": "https://www.sec.gov/Archives/edgar/data/1676292/0000921895-26-003163.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1917411807.0,
+    "reported_long_equity_value_usd": 1378331277.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,66 +43,66 @@
         "security_class": "COM",
         "issuer": "UNITED PARKS & RESORTS INC",
         "shares": 27205306.0,
-        "value_usd": 1298781308.0,
-        "weight_pct": 67.74
+        "value_usd": 881451914.0,
+        "weight_pct": 63.95
       },
       {
         "cusip": "43283X105",
         "security_class": "COM",
         "issuer": "HILTON GRAND VACATIONS INC",
         "shares": 6509913.0,
-        "value_usd": 340924144.0,
-        "weight_pct": 17.78
+        "value_usd": 225633585.0,
+        "weight_pct": 16.37
+      },
+      {
+        "cusip": "925652109",
+        "security_class": "COM",
+        "issuer": "VICI PPTYS INC",
+        "shares": 3754089.0,
+        "value_usd": 86231424.0,
+        "weight_pct": 6.26
       },
       {
         "cusip": "707569109",
         "security_class": "COM",
         "issuer": "PENN ENTERTAINMENT INC",
         "shares": 5759820.0,
-        "value_usd": 123029755.0,
-        "weight_pct": 6.42
+        "value_usd": 84381363.0,
+        "weight_pct": 6.12
       },
       {
         "cusip": "238337109",
         "security_class": "COM",
         "issuer": "DAVE & BUSTERS ENTMT INC",
         "shares": 7119255.0,
-        "value_usd": 81159507.0,
-        "weight_pct": 4.23
+        "value_usd": 45420847.0,
+        "weight_pct": 3.3
       },
       {
         "cusip": "00436Q106",
         "security_class": "COM CL A1",
         "issuer": "ACCEL ENTERTAINMENT INC",
         "shares": 2789113.0,
-        "value_usd": 35170715.0,
-        "weight_pct": 1.83
+        "value_usd": 29731945.0,
+        "weight_pct": 2.16
       },
       {
         "cusip": "14575E105",
         "security_class": "COM",
         "issuer": "CARS COM INC",
         "shares": 2481032.0,
-        "value_usd": 27142490.0,
-        "weight_pct": 1.42
-      },
-      {
-        "cusip": "925652109",
-        "security_class": "COM",
-        "issuer": "VICI PPTYS INC",
-        "shares": 421992.0,
-        "value_usd": 11203888.0,
-        "weight_pct": 0.58
+        "value_usd": 25480199.0,
+        "weight_pct": 1.85
       }
     ],
-    "top_five_pct": 98.0,
+    "top_five_pct": 95.99,
     "top_ten_pct": 100.0,
-    "hhi": 4969.13,
+    "hhi": 4453.21,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 2,
-      "increased_positions": 0,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
       "reduced_positions": 0
     },
     "timeline": [
@@ -104,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000921895-26-002167"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000921895-26-003163"
       }
     ]
   },
-  "reported_13f_value_usd": 1917411807.0,
+  "reported_13f_value_usd": 1378331277.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000921895-26-002167",
+  "validated_accession": "0000921895-26-003163",
   "annualized_turnover_proxy_pct": null
 }

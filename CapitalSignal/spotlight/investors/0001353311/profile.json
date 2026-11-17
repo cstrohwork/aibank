@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001353311",
   "investor_name": "Marathon Partners Equity Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1353311/0000919574-25-006796.txt",
-    "https://www.sec.gov/Archives/edgar/data/1353311/0000919574-26-005181.txt"
+    "https://www.sec.gov/Archives/edgar/data/1353311/0000919574-26-005181.txt",
+    "https://www.sec.gov/Archives/edgar/data/1353311/0000919574-26-007838.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f98fcb9b38970e215c2e64e48067b900d8d6d78cbad305a7a50d5bcc7cdd560e",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "36884dd3f469f7877a5caa54e1da075731b383dcb2346212603dddf254366142",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "ac605e5333b276c17feb157ac7ebaacaf4f18095",
+    "cb28ea2516af2cffbb67dc7b16f84d278c61d71b",
+    "e424090e18879a11bfbdbe88727b0c5b28ad6b78"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005181",
-    "source": "https://www.sec.gov/Archives/edgar/data/1353311/0000919574-26-005181.txt",
-    "distinct_positions": 14,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007838",
+    "source": "https://www.sec.gov/Archives/edgar/data/1353311/0000919574-26-007838.txt",
+    "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 101520133.0,
+    "reported_long_equity_value_usd": 101237820.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "75960P104",
         "security_class": "COM",
         "issuer": "REMITLY GLOBAL INC",
-        "shares": 1117000.0,
-        "value_usd": 25031970.0,
-        "weight_pct": 24.66
-      },
-      {
-        "cusip": "87256C101",
-        "security_class": "CL A",
-        "issuer": "TKO GROUP HOLDINGS INC",
-        "shares": 71500.0,
-        "value_usd": 14393665.0,
-        "weight_pct": 14.18
+        "shares": 1032000.0,
+        "value_usd": 22022880.0,
+        "weight_pct": 21.75
       },
       {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
         "shares": 25000.0,
-        "value_usd": 14082250.0,
-        "weight_pct": 13.87
-      },
-      {
-        "cusip": "98423F109",
-        "security_class": "CLASS A COM",
-        "issuer": "XOMETRY INC",
-        "shares": 113000.0,
-        "value_usd": 10906760.0,
-        "weight_pct": 10.74
+        "value_usd": 18129500.0,
+        "weight_pct": 17.91
       },
       {
         "cusip": "90353T100",
         "security_class": "COM",
         "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 148500.0,
-        "value_usd": 10715760.0,
-        "weight_pct": 10.56
+        "shares": 193500.0,
+        "value_usd": 13256685.0,
+        "weight_pct": 13.09
+      },
+      {
+        "cusip": "87256C101",
+        "security_class": "CL A",
+        "issuer": "TKO GROUP HOLDINGS INC",
+        "shares": 71500.0,
+        "value_usd": 12849980.0,
+        "weight_pct": 12.69
+      },
+      {
+        "cusip": "98423F109",
+        "security_class": "CLASS A COM",
+        "issuer": "XOMETRY INC",
+        "shares": 112500.0,
+        "value_usd": 11570625.0,
+        "weight_pct": 11.43
       },
       {
         "cusip": "19247A100",
         "security_class": "COM",
         "issuer": "COHEN & STEERS INC",
-        "shares": 100000.0,
-        "value_usd": 7614000.0,
-        "weight_pct": 7.5
-      },
-      {
-        "cusip": "90041L105",
-        "security_class": "COM",
-        "issuer": "TURNING PT BRANDS INC",
-        "shares": 49500.0,
-        "value_usd": 4198095.0,
-        "weight_pct": 4.14
-      },
-      {
-        "cusip": "04956D107",
-        "security_class": "COM",
-        "issuer": "ATMUS FILTRATION TECHNOLOGIE",
-        "shares": 77000.0,
-        "value_usd": 3926230.0,
-        "weight_pct": 3.87
+        "shares": 102000.0,
+        "value_usd": 7457220.0,
+        "weight_pct": 7.37
       },
       {
         "cusip": "372460105",
         "security_class": "COM",
         "issuer": "GENUINE PARTS CO",
-        "shares": 27500.0,
-        "value_usd": 3244450.0,
-        "weight_pct": 3.2
+        "shares": 30000.0,
+        "value_usd": 3772200.0,
+        "weight_pct": 3.73
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 5750.0,
-        "value_usd": 2031648.0,
-        "weight_pct": 2.0
+        "cusip": "04956D107",
+        "security_class": "COM",
+        "issuer": "ATMUS FILTRATION TECHNOLOGIE",
+        "shares": 80000.0,
+        "value_usd": 3473600.0,
+        "weight_pct": 3.43
+      },
+      {
+        "cusip": "90041L105",
+        "security_class": "COM",
+        "issuer": "TURNING PT BRANDS INC",
+        "shares": 52500.0,
+        "value_usd": 3081750.0,
+        "weight_pct": 3.04
+      },
+      {
+        "cusip": "Y2573F102",
+        "security_class": "ORD",
+        "issuer": "FLEX LTD",
+        "shares": 15000.0,
+        "value_usd": 1649850.0,
+        "weight_pct": 1.63
       }
     ],
-    "top_five_pct": 74.01,
-    "top_ten_pct": 94.71,
-    "hhi": 1339.73,
+    "top_five_pct": 76.88,
+    "top_ten_pct": 96.08,
+    "hhi": 1352.64,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
-      "exited_positions": 6,
-      "increased_positions": 1,
-      "reduced_positions": 9
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 1,
+      "increased_positions": 6,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005181"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007838"
       }
     ]
   },
-  "reported_13f_value_usd": 101520133.0,
+  "reported_13f_value_usd": 101237820.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005181",
+  "validated_accession": "0000919574-26-007838",
   "annualized_turnover_proxy_pct": null
 }

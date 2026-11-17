@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001357550",
   "investor_name": "Weiss Asset Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1357550/0001357550-25-000038.txt",
-    "https://www.sec.gov/Archives/edgar/data/1357550/0001357550-26-000029.txt"
+    "https://www.sec.gov/Archives/edgar/data/1357550/0001357550-26-000029.txt",
+    "https://www.sec.gov/Archives/edgar/data/1357550/0001357550-26-000042.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f9c9bbcde209445ddf87b82541529ee975ab79bb78d83a2fa3ef9f5602ed0425",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "5be2997e6cfce44897422bd757e9c826b4da3aadfc40bccd085c0d1bf3a4888b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4ee1d194a527e57c99910906530b2b40176806e9",
+    "4fd71a7925d6c8b2864d3f07e1e167ffeeceec7c",
+    "a8e616a8713594395ec19237323eb80e62cdad6b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001357550-26-000029",
-    "source": "https://www.sec.gov/Archives/edgar/data/1357550/0001357550-26-000029.txt",
-    "distinct_positions": 574,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001357550-26-000042",
+    "source": "https://www.sec.gov/Archives/edgar/data/1357550/0001357550-26-000042.txt",
+    "distinct_positions": 662,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 6857966405.0,
+    "reported_long_equity_value_usd": 5925280362.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 5263485.0,
-        "value_usd": 1053170714.0,
-        "weight_pct": 15.36
+        "shares": 3819679.0,
+        "value_usd": 872338290.0,
+        "weight_pct": 14.72
+      },
+      {
+        "cusip": "80004C200",
+        "security_class": "COM",
+        "issuer": "SANDISK CORP",
+        "shares": 313640.0,
+        "value_usd": 545699100.0,
+        "weight_pct": 9.21
       },
       {
         "cusip": "595112103",
         "security_class": "COM",
         "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 743769.0,
-        "value_usd": 858525119.0,
-        "weight_pct": 12.52
+        "shares": 371419.0,
+        "value_usd": 395602091.0,
+        "weight_pct": 6.68
       },
       {
         "cusip": "86800U500",
         "security_class": "7 DEP CM SR A WI",
         "issuer": "SUPER MICRO COMPUTER INC",
-        "shares": 4850000.0,
-        "value_usd": 249112167.0,
-        "weight_pct": 3.63
+        "shares": 3945000.0,
+        "value_usd": 271225136.0,
+        "weight_pct": 4.58
       },
       {
-        "cusip": "88160R101",
+        "cusip": "594972408",
+        "security_class": "CL A NEW",
+        "issuer": "STRATEGY INC",
+        "shares": 1276698.0,
+        "value_usd": 195449697.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "573874104",
         "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 455491.0,
-        "value_usd": 191579515.0,
-        "weight_pct": 2.79
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 608762.0,
+        "value_usd": 160841008.0,
+        "weight_pct": 2.71
+      },
+      {
+        "cusip": "012653200",
+        "security_class": "7.25% DEP SHS A",
+        "issuer": "ALBEMARLE CORP",
+        "shares": 3495000.0,
+        "value_usd": 158582130.0,
+        "weight_pct": 2.68
       },
       {
         "cusip": "097023204",
         "security_class": "DEP CONV PFD A",
         "issuer": "BOEING CO",
-        "shares": 2775000.0,
-        "value_usd": 188319631.0,
-        "weight_pct": 2.75
+        "shares": 2575000.0,
+        "value_usd": 151811638.0,
+        "weight_pct": 2.56
       },
       {
-        "cusip": "65339F655",
-        "security_class": "UNIT 02/15/2029",
-        "issuer": "NEXTERA ENERGY INC",
-        "shares": 2697000.0,
-        "value_usd": 129375471.0,
-        "weight_pct": 1.89
-      },
-      {
-        "cusip": "G8807B106",
-        "security_class": "COM",
-        "issuer": "THERAVANCE BIOPHARMA INC",
-        "shares": 7457060.0,
-        "value_usd": 126770020.0,
-        "weight_pct": 1.85
-      },
-      {
-        "cusip": "85208R101",
-        "security_class": "PHYSICAL GOLD AN",
-        "issuer": "SPROTT ASSET MANAGEMENT LP",
-        "shares": 3099716.0,
-        "value_usd": 124701575.0,
-        "weight_pct": 1.82
-      },
-      {
-        "cusip": "770700102",
+        "cusip": "19260Q107",
         "security_class": "COM CL A",
-        "issuer": "ROBINHOOD MKTS INC",
-        "shares": 1090686.0,
-        "value_usd": 109373992.0,
-        "weight_pct": 1.59
+        "issuer": "COINBASE GLOBAL INC",
+        "shares": 708692.0,
+        "value_usd": 132107276.0,
+        "weight_pct": 2.23
       },
       {
-        "cusip": "293828877",
-        "security_class": "ERSH PRI PUB ETF",
-        "issuer": "ENTREPRENEURSHARES SERIES TR",
-        "shares": 5097483.0,
-        "value_usd": 107302017.0,
-        "weight_pct": 1.56
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 2495514.0,
+        "value_usd": 118137633.0,
+        "weight_pct": 1.99
       }
     ],
-    "top_five_pct": 37.05,
-    "top_ten_pct": 45.76,
-    "hhi": 460.15,
+    "top_five_pct": 38.48,
+    "top_ten_pct": 50.66,
+    "hhi": 436.18,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 425,
-      "exited_positions": 410,
-      "increased_positions": 68,
-      "reduced_positions": 69
+      "previous_period": "2026-06-30",
+      "new_positions": 450,
+      "exited_positions": 362,
+      "increased_positions": 73,
+      "reduced_positions": 101
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001357550-26-000029"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001357550-26-000042"
       }
     ]
   },
-  "reported_13f_value_usd": 6857966405.0,
+  "reported_13f_value_usd": 5925280362.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001357550-26-000029",
+  "validated_accession": "0001357550-26-000042",
   "annualized_turnover_proxy_pct": null
 }

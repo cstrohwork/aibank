@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001802614",
   "investor_name": "VORPAL, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NASHVILLE",
   "state": "TN",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-25-003981.txt",
-    "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-003704.txt"
+    "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-003704.txt",
+    "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-004860.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "27cf848de776d08aad9145cb0d963a0f5e818bfd40101ed1304b79b8eb1fd3e3",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e08f86872efc32479d4112e3f63d65611111275c67fcf5ef26b61fc2ab0122e5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "06de50dacd952a479df665bd39415d0ae1c7cad6",
+    "1e55cd4b2ea0807a0edaa5e05680ce4705d8fa1a",
+    "b5eac485930f826b1338cddf04fc5cba55cea8a3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000905148-26-003704",
-    "source": "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-003704.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000905148-26-004860",
+    "source": "https://www.sec.gov/Archives/edgar/data/1802614/0000905148-26-004860.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 31102399.0,
+    "reported_long_equity_value_usd": 30135190.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,26 +43,26 @@
         "security_class": "COM",
         "issuer": "ENTERPRISE PRODS PARTNERS L",
         "shares": 838807.0,
-        "value_usd": 30834545.0,
-        "weight_pct": 99.14
+        "value_usd": 29869917.0,
+        "weight_pct": 99.12
       },
       {
         "cusip": "921908844",
         "security_class": "DIV APP ETF",
         "issuer": "VANGUARD SPECIALIZED FUNDS",
-        "shares": 1132.0,
-        "value_usd": 267854.0,
-        "weight_pct": 0.86
+        "shares": 1137.0,
+        "value_usd": 265273.0,
+        "weight_pct": 0.88
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 9829.24,
+    "hhi": 9825.49,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
-      "increased_positions": 2,
+      "increased_positions": 1,
       "reduced_positions": 0
     },
     "timeline": [
@@ -64,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000905148-26-003704"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000905148-26-004860"
       }
     ]
   },
-  "reported_13f_value_usd": 31102399.0,
+  "reported_13f_value_usd": 30135190.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000905148-26-003704",
+  "validated_accession": "0000905148-26-004860",
   "annualized_turnover_proxy_pct": null
 }

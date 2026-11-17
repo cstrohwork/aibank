@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001472850",
   "investor_name": "Permian Investment Partners, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1472850/0001472850-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1472850/0001472850-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1472850/0001472850-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1472850/0001472850-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5a32d0ad4c4d6e4bda8be7fa982ae9d4454e3e8e7f3b81966bdafb74467194d8",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "bd53bd9916f573f13c293e0ba6fdd78d9c62b1d6479b5413437503f2c4ead546",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0f6dd210757fac8b22180bbe8376ab98bb8a46e1",
+    "e1f2efb32dc7f629334a02df627919e3eb25b94d",
+    "fa13f18c697e2a33d21c6dca2e0526969b8456cb"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001472850-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1472850/0001472850-26-000007.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001472850-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1472850/0001472850-26-000009.txt",
+    "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 881381482.0,
+    "reported_long_equity_value_usd": 760085549.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "00510N102",
         "security_class": "COM",
         "issuer": "TIC SOLUTIONS INC",
-        "shares": 21310094.0,
-        "value_usd": 172398660.0,
-        "weight_pct": 19.56
+        "shares": 21296794.0,
+        "value_usd": 177189326.0,
+        "weight_pct": 23.31
       },
       {
         "cusip": "398438408",
         "security_class": "SP ADR REP B NVT",
         "issuer": "GRIFOLS S A",
-        "shares": 19740679.0,
-        "value_usd": 139764007.0,
-        "weight_pct": 15.86
-      },
-      {
-        "cusip": "601137102",
-        "security_class": "COM CL A",
-        "issuer": "MILLROSE PPTYS INC",
-        "shares": 3977316.0,
-        "value_usd": 119518346.0,
-        "weight_pct": 13.56
+        "shares": 17757141.0,
+        "value_usd": 129804701.0,
+        "weight_pct": 17.08
       },
       {
         "cusip": "N20944109",
         "security_class": "SHS",
         "issuer": "CNH INDL N V",
-        "shares": 9522311.0,
-        "value_usd": 106935553.0,
-        "weight_pct": 12.13
+        "shares": 9654600.0,
+        "value_usd": 124061610.0,
+        "weight_pct": 16.32
+      },
+      {
+        "cusip": "601137102",
+        "security_class": "COM CL A",
+        "issuer": "MILLROSE PPTYS INC",
+        "shares": 3944316.0,
+        "value_usd": 102433887.0,
+        "weight_pct": 13.48
       },
       {
         "cusip": "03852U106",
         "security_class": "COM",
         "issuer": "ARAMARK",
-        "shares": 1794698.0,
-        "value_usd": 102118316.0,
-        "weight_pct": 11.59
-      },
-      {
-        "cusip": "629377508",
-        "security_class": "COM NEW",
-        "issuer": "NRG ENERGY INC",
-        "shares": 590431.0,
-        "value_usd": 86238352.0,
-        "weight_pct": 9.78
-      },
-      {
-        "cusip": "H2927K103",
-        "security_class": "SHS",
-        "issuer": "AMRIZE LTD",
-        "shares": 1313663.0,
-        "value_usd": 70018238.0,
-        "weight_pct": 7.94
+        "shares": 1649261.0,
+        "value_usd": 88317927.0,
+        "weight_pct": 11.62
       },
       {
         "cusip": "896215209",
         "security_class": "COM NEW",
         "issuer": "TRIMAS CORP",
-        "shares": 1165414.0,
-        "value_usd": 52478592.0,
-        "weight_pct": 5.95
+        "shares": 1356847.0,
+        "value_usd": 52367510.0,
+        "weight_pct": 6.89
       },
       {
-        "cusip": "023939101",
+        "cusip": "109696104",
         "security_class": "COM",
-        "issuer": "AMENTUM HOLDINGS INC",
-        "shares": 1433028.0,
-        "value_usd": 29620689.0,
-        "weight_pct": 3.36
+        "issuer": "BRINKS CO",
+        "shares": 443631.0,
+        "value_usd": 44802295.0,
+        "weight_pct": 5.89
+      },
+      {
+        "cusip": "95058W100",
+        "security_class": "COM",
+        "issuer": "WENDYS CO",
+        "shares": 4527174.0,
+        "value_usd": 28883370.0,
+        "weight_pct": 3.8
+      },
+      {
+        "cusip": "46438F101",
+        "security_class": "SHS BEN INT",
+        "issuer": "ISHARES BITCOIN TRUST ETF",
+        "shares": 216807.0,
+        "value_usd": 10263643.0,
+        "weight_pct": 1.35
       },
       {
         "cusip": "315948109",
         "security_class": "SHS",
         "issuer": "FIDELITY WISE ORIGIN BITCOIN",
         "shares": 27000.0,
-        "value_usd": 1378350.0,
-        "weight_pct": 0.16
+        "value_usd": 1961280.0,
+        "weight_pct": 0.26
       }
     ],
-    "top_five_pct": 72.7,
-    "top_ten_pct": 99.9,
-    "hhi": 1305.0,
+    "top_five_pct": 81.81,
+    "top_ten_pct": 100.0,
+    "hhi": 1516.67,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
       "exited_positions": 3,
       "increased_positions": 3,
-      "reduced_positions": 3
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001472850-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001472850-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 881381482.0,
+  "reported_13f_value_usd": 760085549.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001472850-26-000007",
+  "validated_accession": "0001472850-26-000009",
   "annualized_turnover_proxy_pct": null
 }

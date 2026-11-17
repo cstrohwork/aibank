@@ -1,70 +1,90 @@
 {
   "manager_cik": "0001569633",
   "investor_name": "Rizvi Traverse Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-10-15",
-  "city": "WEST PALM BEACH",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "West Palm Beach",
   "state": "FL",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1569633/0001104659-26-116165.txt"
+    "https://www.sec.gov/Archives/edgar/data/1569633/0001104659-26-116165.txt",
+    "https://www.sec.gov/Archives/edgar/data/1569633/0001172661-26-005090.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "af5f1abbe0b368225263793e2adef6dd16771e456797f4405dee8c488377713c",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "870cd9f419494def84496d55488ac87ae7a75c2cfc18363d5bca1bcb8992a2a6",
+  "accession_fingerprints": [
+    "2026-06-30|2026-10-15|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "95904d4f28b9e292866f7f6bde979dc36686fb5f",
+    "b12a1f93fbfd7be42522cb683372ee528568ed98"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-10-15",
-    "accession": "0001104659-26-116165",
-    "source": "https://www.sec.gov/Archives/edgar/data/1569633/0001104659-26-116165.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005090",
+    "source": "https://www.sec.gov/Archives/edgar/data/1569633/0001172661-26-005090.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1409511027.0,
+    "reported_long_equity_value_usd": 1112131180.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "84615Q103",
         "security_class": "CLASS A COM STK",
-        "issuer": "SPACE EXPLORATION TECHNOLOGIES CORP",
-        "shares": 8036060.0,
-        "value_usd": 1373041212.0,
-        "weight_pct": 97.41
-      },
-      {
-        "cusip": "72703X106",
-        "security_class": "CL A COMMON",
-        "issuer": "PLANET LABS PBC",
-        "shares": 573791.0,
-        "value_usd": 19009696.0,
-        "weight_pct": 1.35
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 7212365.0,
+        "value_usd": 1088057384.0,
+        "weight_pct": 97.84
       },
       {
         "cusip": "72814P109",
         "security_class": "COM",
-        "issuer": "PLBY GROUP INC",
+        "issuer": "PLAYBOY INC",
         "shares": 14311573.0,
-        "value_usd": 17460119.0,
-        "weight_pct": 1.24
+        "value_usd": 14669362.0,
+        "weight_pct": 1.32
+      },
+      {
+        "cusip": "72703X106",
+        "security_class": "COM CL A",
+        "issuer": "PLANET LABS PBC",
+        "shares": 573791.0,
+        "value_usd": 9404434.0,
+        "weight_pct": 0.85
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 9492.57,
-    "changes": null,
+    "hhi": 9574.21,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-10-15",
         "accession": "0001104659-26-116165"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005090"
       }
     ]
   },
-  "reported_13f_value_usd": 1409511027.0,
+  "reported_13f_value_usd": 1112131180.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-116165",
+  "validated_accession": "0001172661-26-005090",
   "annualized_turnover_proxy_pct": null
 }

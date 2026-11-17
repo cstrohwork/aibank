@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001632368",
   "investor_name": "Prospect Capital Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Sausalito",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1632368/0001632368-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1632368/0001632368-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1632368/0001632368-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1632368/0001632368-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "fb1ebd19e908d54c2779f6fe5a24e1cb450829bf3e895a7f21606b6d6a82f432",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "2febbad2db7c635d899dd9e0afa87c39370771e0daeaf02f45475fc90d0a4877",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5c13b4aab5a991bf72ec0a2a7058005d5318cfbc",
+    "7d60d23fb1f7908251179b1902ea095da5baf024",
+    "e5830c012d650d5b6f3185a90fc41b5d0c54b893"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001632368-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1632368/0001632368-26-000006.txt",
-    "distinct_positions": 30,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001632368-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632368/0001632368-26-000008.txt",
+    "distinct_positions": 29,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 220245828.0,
+    "reported_long_equity_value_usd": 202777451.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "29357K103",
-        "security_class": "COM",
-        "issuer": "ENOVA INTL INC",
-        "shares": 78610.0,
-        "value_usd": 18923785.0,
-        "weight_pct": 8.59
-      },
-      {
         "cusip": "69343T107",
         "security_class": "COM CL A",
         "issuer": "PJT PARTNERS INC",
-        "shares": 98230.0,
-        "value_usd": 14826836.0,
+        "shares": 95655.0,
+        "value_usd": 13650925.0,
         "weight_pct": 6.73
-      },
-      {
-        "cusip": "G8588X103",
-        "security_class": "ORD SHS",
-        "issuer": "SUPER GROUP SGHC LIMITED",
-        "shares": 1047100.0,
-        "value_usd": 14188205.0,
-        "weight_pct": 6.44
       },
       {
         "cusip": "671044105",
         "security_class": "COM",
         "issuer": "OSI SYSTEMS INC",
-        "shares": 57640.0,
-        "value_usd": 12605868.0,
-        "weight_pct": 5.72
-      },
-      {
-        "cusip": "82706C108",
-        "security_class": "SPONSORED ADR",
-        "issuer": "SILICON MOTION TECHNOLOGY CO",
-        "shares": 36660.0,
-        "value_usd": 12219878.0,
-        "weight_pct": 5.55
-      },
-      {
-        "cusip": "782011100",
-        "security_class": "COM",
-        "issuer": "RUSH STREET INTERACTIVE INC",
-        "shares": 406150.0,
-        "value_usd": 12078901.0,
-        "weight_pct": 5.48
-      },
-      {
-        "cusip": "38526M106",
-        "security_class": "COM",
-        "issuer": "GRAND CANYON ED INC",
-        "shares": 83265.0,
-        "value_usd": 11916054.0,
-        "weight_pct": 5.41
-      },
-      {
-        "cusip": "87305R109",
-        "security_class": "COM",
-        "issuer": "TTM TECHNOLOGIES INC",
-        "shares": 62900.0,
-        "value_usd": 11763558.0,
-        "weight_pct": 5.34
+        "shares": 67800.0,
+        "value_usd": 13178286.0,
+        "weight_pct": 6.5
       },
       {
         "cusip": "45867G101",
         "security_class": "COM",
         "issuer": "INTERDIGITAL INC",
-        "shares": 36680.0,
-        "value_usd": 10385208.0,
-        "weight_pct": 4.72
+        "shares": 40115.0,
+        "value_usd": 13080298.0,
+        "weight_pct": 6.45
       },
       {
-        "cusip": "90041L105",
+        "cusip": "38526M106",
         "security_class": "COM",
-        "issuer": "TURNING PT BRANDS INC",
-        "shares": 104480.0,
-        "value_usd": 8860949.0,
-        "weight_pct": 4.02
+        "issuer": "GRAND CANYON ED INC",
+        "shares": 81665.0,
+        "value_usd": 12379597.0,
+        "weight_pct": 6.11
+      },
+      {
+        "cusip": "G8588X103",
+        "security_class": "ORD SHS",
+        "issuer": "SUPER GROUP SGHC LIMITED",
+        "shares": 1060100.0,
+        "value_usd": 12032135.0,
+        "weight_pct": 5.93
+      },
+      {
+        "cusip": "29357K103",
+        "security_class": "COM",
+        "issuer": "ENOVA INTL INC",
+        "shares": 62510.0,
+        "value_usd": 10446046.0,
+        "weight_pct": 5.15
+      },
+      {
+        "cusip": "82706C108",
+        "security_class": "SPONSORED ADR",
+        "issuer": "SILICON MOTION TECHNOLOGY CO",
+        "shares": 36460.0,
+        "value_usd": 10208800.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "29765A101",
+        "security_class": "CL A",
+        "issuer": "ETHOS TECHNOLOGIES INC",
+        "shares": 297300.0,
+        "value_usd": 9980361.0,
+        "weight_pct": 4.92
+      },
+      {
+        "cusip": "31447P100",
+        "security_class": "COM",
+        "issuer": "FENNEC PHARMACEUTICALS INC",
+        "shares": 886600.0,
+        "value_usd": 9442290.0,
+        "weight_pct": 4.66
+      },
+      {
+        "cusip": "G72245122",
+        "security_class": "SHS NEW",
+        "issuer": "PRENETICS GLOBAL LTD",
+        "shares": 401150.0,
+        "value_usd": 9278600.0,
+        "weight_pct": 4.58
       }
     ],
-    "top_five_pct": 33.04,
-    "top_ten_pct": 58.01,
-    "hhi": 454.57,
+    "top_five_pct": 31.72,
+    "top_ten_pct": 56.06,
+    "hhi": 446.77,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 7,
-      "exited_positions": 5,
-      "increased_positions": 8,
-      "reduced_positions": 12
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 4,
+      "increased_positions": 10,
+      "reduced_positions": 15
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001632368-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001632368-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 220245828.0,
+  "reported_13f_value_usd": 202777451.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001632368-26-000006",
+  "validated_accession": "0001632368-26-000008",
   "annualized_turnover_proxy_pct": null
 }

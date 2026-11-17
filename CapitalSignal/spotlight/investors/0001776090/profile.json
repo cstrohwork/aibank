@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001776090",
   "investor_name": "Parsifal Capital Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GREENWICH",
   "state": "CT",
   "country": "United States",
@@ -10,112 +10,123 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1776090/0001776090-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1776090/0001776090-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1776090/0001776090-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1776090/0001776090-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "10c31d10083796fb8843de3071eae63909d551b01489b8d460ee5b1b115c2a93",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "54549db60b1f98606323ad7c5883cbe90ad6c34b0510e264e63b5a56f1a5a93c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "576b3c0da0198db099c4298f32785d922833c068",
+    "a9974e7034a60ea62465efe114c8704667ec04a3",
+    "b4a41c86203657c94a079433356f5821bfbbfe36"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001776090-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1776090/0001776090-26-000004.txt",
-    "distinct_positions": 14,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001776090-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1776090/0001776090-26-000007.txt",
+    "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 816526605.0,
+    "reported_long_equity_value_usd": 724316531.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "20464U100",
-        "security_class": "CL A",
-        "issuer": "COMPASS INC",
-        "shares": 11859422.0,
-        "value_usd": 146226673.0,
-        "weight_pct": 17.91
+        "cusip": "00971T101",
+        "security_class": "COM",
+        "issuer": "AKAMAI TECHNOLOGIES INC",
+        "shares": 858787.0,
+        "value_usd": 91331997.0,
+        "weight_pct": 12.61
       },
       {
         "cusip": "43283X105",
         "security_class": "COM",
         "issuer": "HILTON GRAND VACATIONS INC",
-        "shares": 2078729.0,
-        "value_usd": 108863038.0,
-        "weight_pct": 13.33
+        "shares": 2565261.0,
+        "value_usd": 88911946.0,
+        "weight_pct": 12.28
+      },
+      {
+        "cusip": "20464U100",
+        "security_class": "CL A",
+        "issuer": "COMPASS INC",
+        "shares": 8665850.0,
+        "value_usd": 76952748.0,
+        "weight_pct": 10.62
       },
       {
         "cusip": "G8068L108",
         "security_class": "COM SHS",
         "issuer": "SHARKNINJA INC",
-        "shares": 551756.0,
-        "value_usd": 84015886.0,
-        "weight_pct": 10.29
+        "shares": 364835.0,
+        "value_usd": 65714080.0,
+        "weight_pct": 9.07
       },
       {
         "cusip": "G0750C108",
         "security_class": "COM",
         "issuer": "AXALTA COATING SYS LTD",
-        "shares": 2398295.0,
-        "value_usd": 82069655.0,
-        "weight_pct": 10.05
-      },
-      {
-        "cusip": "00971T101",
-        "security_class": "COM",
-        "issuer": "AKAMAI TECHNOLOGIES INC",
-        "shares": 684922.0,
-        "value_usd": 80964630.0,
-        "weight_pct": 9.92
-      },
-      {
-        "cusip": "88579Y101",
-        "security_class": "COM",
-        "issuer": "3M CO",
-        "shares": 352338.0,
-        "value_usd": 57047046.0,
-        "weight_pct": 6.99
-      },
-      {
-        "cusip": "36262G101",
-        "security_class": "COMMON STOCK",
-        "issuer": "GXO LOGISTICS INCORPORATED",
-        "shares": 908632.0,
-        "value_usd": 46067642.0,
-        "weight_pct": 5.64
+        "shares": 1866463.0,
+        "value_usd": 60025450.0,
+        "weight_pct": 8.29
       },
       {
         "cusip": "053604104",
         "security_class": "COM CL A",
         "issuer": "AVEPOINT INC",
-        "shares": 3827722.0,
-        "value_usd": 42908764.0,
-        "weight_pct": 5.26
+        "shares": 3269798.0,
+        "value_usd": 46038756.0,
+        "weight_pct": 6.36
+      },
+      {
+        "cusip": "88579Y101",
+        "security_class": "COM",
+        "issuer": "3M CO",
+        "shares": 256527.0,
+        "value_usd": 42108907.0,
+        "weight_pct": 5.81
+      },
+      {
+        "cusip": "15118V207",
+        "security_class": "COM NEW",
+        "issuer": "CELSIUS HLDGS INC",
+        "shares": 1410590.0,
+        "value_usd": 38579637.0,
+        "weight_pct": 5.33
       },
       {
         "cusip": "44951W106",
         "security_class": "COM",
         "issuer": "IES HOLDINGS INC",
-        "shares": 48971.0,
-        "value_usd": 35977035.0,
-        "weight_pct": 4.41
+        "shares": 104514.0,
+        "value_usd": 33557355.0,
+        "weight_pct": 4.63
       },
       {
         "cusip": "48138M105",
         "security_class": "SPONSORED ADS",
         "issuer": "JUMIA TECHNOLOGIES AG",
-        "shares": 4697521.0,
-        "value_usd": 33117523.0,
-        "weight_pct": 4.06
+        "shares": 4946270.0,
+        "value_usd": 32892696.0,
+        "weight_pct": 4.54
       }
     ],
-    "top_five_pct": 61.5,
-    "top_ten_pct": 87.84,
-    "hhi": 986.37,
+    "top_five_pct": 52.87,
+    "top_ten_pct": 79.54,
+    "hhi": 793.83,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 8,
-      "increased_positions": 0,
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 1,
+      "increased_positions": 5,
       "reduced_positions": 8
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001776090-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001776090-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 816526605.0,
+  "reported_13f_value_usd": 724316531.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001776090-26-000004",
+  "validated_accession": "0001776090-26-000007",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001590729",
   "investor_name": "Millstreet Capital Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1590729/0001590729-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1590729/0001590729-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1590729/0001590729-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1590729/0001590729-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0b5f8ef16464c7a644be16f78aeb7a9ad8ed3d16f03bc87ab7e60622f3601c25",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "0b00110b49809f5c6209b5495db741e8c9698aa4309f18e7f0f56a2253cfa77f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "58b19906b9ed3837d6c74857c58e2e8f2471f814",
+    "a6a044e651ed85b5ecf0cb6da20509b180349af5",
+    "ab7c0f8df1c192dfcad5ecd79f688386b61c4828"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001590729-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1590729/0001590729-26-000008.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001590729-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1590729/0001590729-26-000010.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 368063724.0,
+    "reported_long_equity_value_usd": 255618751.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,25 +43,25 @@
         "security_class": "COM SHS",
         "issuer": "DIEBOLD NIXDORF INC",
         "shares": 4104432.0,
-        "value_usd": 348958809.0,
-        "weight_pct": 94.81
+        "value_usd": 251273327.0,
+        "weight_pct": 98.3
       },
       {
         "cusip": "25520W107",
         "security_class": "COMMON STOCK",
         "issuer": "DIVERSIFIED ENERGY CO",
-        "shares": 1378421.0,
-        "value_usd": 19104915.0,
-        "weight_pct": 5.19
+        "shares": 325013.0,
+        "value_usd": 4345424.0,
+        "weight_pct": 1.7
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 9015.75,
+    "hhi": 9665.79,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
       "increased_positions": 0,
       "reduced_positions": 1
     },
@@ -64,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001590729-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001590729-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 368063724.0,
+  "reported_13f_value_usd": 255618751.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001590729-26-000008",
+  "validated_accession": "0001590729-26-000010",
   "annualized_turnover_proxy_pct": null
 }

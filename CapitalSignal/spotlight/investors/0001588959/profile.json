@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001588959",
   "investor_name": "Black Maple Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MILWAUKEE",
   "state": "WI",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1588959/0001214659-25-016615.txt",
-    "https://www.sec.gov/Archives/edgar/data/1588959/0001214659-26-010360.txt"
+    "https://www.sec.gov/Archives/edgar/data/1588959/0001214659-26-010360.txt",
+    "https://www.sec.gov/Archives/edgar/data/1588959/0001214659-26-014341.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8143b44f119701431b33b1844d3cadb25b3ba3b3578a02f0d358466ed6d050a8",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "2ccb27039e4bc47bfaae0aeee83ea906ee2cf104c6eb2901e1685198c2899223",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "17333e7b7253952e284dba7447c3cf222db03422",
+    "a78bc13b9d914a05044edfb14f63fb658e34f160",
+    "cb8edf166c0107bfb9cb01aaf581fabd142d3563"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010360",
-    "source": "https://www.sec.gov/Archives/edgar/data/1588959/0001214659-26-010360.txt",
-    "distinct_positions": 82,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014341",
+    "source": "https://www.sec.gov/Archives/edgar/data/1588959/0001214659-26-014341.txt",
+    "distinct_positions": 96,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 149099890.0,
+    "reported_long_equity_value_usd": 130055353.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 42006.0,
-        "value_usd": 31368821.0,
-        "weight_pct": 21.04
-      },
-      {
-        "cusip": "165167735",
-        "security_class": "COM",
-        "issuer": "EXPAND ENERGY CORPORATION",
-        "shares": 127578.0,
-        "value_usd": 11633838.0,
-        "weight_pct": 7.8
-      },
-      {
-        "cusip": "72348N109",
-        "security_class": "COM",
-        "issuer": "PINNACLE FINL PARTNERS INC",
-        "shares": 75834.0,
-        "value_usd": 7650134.0,
-        "weight_pct": 5.13
+        "shares": 40006.0,
+        "value_usd": 30509776.0,
+        "weight_pct": 23.46
       },
       {
         "cusip": "446150104",
         "security_class": "COM",
         "issuer": "HUNTINGTON BANCSHARES INC",
-        "shares": 395356.0,
-        "value_usd": 7009662.0,
-        "weight_pct": 4.7
+        "shares": 408308.0,
+        "value_usd": 6230780.0,
+        "weight_pct": 4.79
       },
       {
-        "cusip": "011659109",
-        "security_class": "COM",
-        "issuer": "ALASKA AIR GROUP INC",
-        "shares": 133000.0,
-        "value_usd": 6942600.0,
-        "weight_pct": 4.66
-      },
-      {
-        "cusip": "89832Q109",
-        "security_class": "COM",
-        "issuer": "TRUIST FINL CORP",
-        "shares": 133000.0,
-        "value_usd": 6626060.0,
-        "weight_pct": 4.44
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 17172.0,
-        "value_usd": 6486723.0,
-        "weight_pct": 4.35
+        "cusip": "464288661",
+        "security_class": "3 7 YR TREAS BD",
+        "issuer": "ISHARES TR",
+        "shares": 54050.0,
+        "value_usd": 6131432.0,
+        "weight_pct": 4.71
       },
       {
         "cusip": "46137V357",
         "security_class": "S&P500 EQL WGT",
         "issuer": "INVESCO EXCHANGE TRADED FD T",
-        "shares": 28900.0,
-        "value_usd": 6149053.0,
-        "weight_pct": 4.12
+        "shares": 26900.0,
+        "value_usd": 5595738.0,
+        "weight_pct": 4.3
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 15752.0,
+        "value_usd": 5531945.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "72348N109",
+        "security_class": "COM",
+        "issuer": "PINNACLE FINL PARTNERS INC",
+        "shares": 56395.0,
+        "value_usd": 5279136.0,
+        "weight_pct": 4.06
       },
       {
         "cusip": "90353T100",
         "security_class": "COM",
         "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 71642.0,
-        "value_usd": 5169687.0,
-        "weight_pct": 3.47
+        "shares": 62873.0,
+        "value_usd": 4307429.0,
+        "weight_pct": 3.31
       },
       {
-        "cusip": "14040H105",
+        "cusip": "165167735",
         "security_class": "COM",
-        "issuer": "CAPITAL ONE FINL CORP",
-        "shares": 18100.0,
-        "value_usd": 3631222.0,
-        "weight_pct": 2.44
+        "issuer": "EXPAND ENERGY CORPORATION",
+        "shares": 50278.0,
+        "value_usd": 4227877.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "957638109",
+        "security_class": "COM",
+        "issuer": "WESTERN ALLIANCE BANCORP",
+        "shares": 50358.0,
+        "value_usd": 3781886.0,
+        "weight_pct": 2.91
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 7356.0,
+        "value_usd": 3772892.0,
+        "weight_pct": 2.9
       }
     ],
-    "top_five_pct": 43.33,
-    "top_ten_pct": 62.15,
-    "hhi": 689.51,
+    "top_five_pct": 41.52,
+    "top_ten_pct": 57.95,
+    "hhi": 727.01,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 52,
-      "exited_positions": 46,
-      "increased_positions": 9,
-      "reduced_positions": 19
+      "previous_period": "2026-06-30",
+      "new_positions": 23,
+      "exited_positions": 9,
+      "increased_positions": 22,
+      "reduced_positions": 15
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010360"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014341"
       }
     ]
   },
-  "reported_13f_value_usd": 149099890.0,
+  "reported_13f_value_usd": 130055353.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010360",
+  "validated_accession": "0001214659-26-014341",
   "annualized_turnover_proxy_pct": null
 }

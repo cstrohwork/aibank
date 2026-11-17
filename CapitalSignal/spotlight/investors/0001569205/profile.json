@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001569205",
   "investor_name": "Fundsmith LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,112 +10,123 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1569205/0001569205-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1569205/0001569205-26-000012.txt"
+    "https://www.sec.gov/Archives/edgar/data/1569205/0001569205-26-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1569205/0001569205-26-000014.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a543ce615084e40cfd1db75b90bf80594b0a96a5ca5e4227452e9d73267c9a6e",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "d990f1a2b0fb47492d6ad33ece406ecfc762fa69bda4ca119167ec608856a47b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1a3addceaf931578a31072b14d372372cc67c174",
+    "3de5f1b5a5d7bd7b1b272c1370ebc381d2337247",
+    "9728ca666af893ead1ce3459f5abe40ff0056b32"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001569205-26-000012",
-    "source": "https://www.sec.gov/Archives/edgar/data/1569205/0001569205-26-000012.txt",
-    "distinct_positions": 41,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001569205-26-000014",
+    "source": "https://www.sec.gov/Archives/edgar/data/1569205/0001569205-26-000014.txt",
+    "distinct_positions": 42,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 13648923682.0,
+    "reported_long_equity_value_usd": 12922460889.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "571903202",
-        "security_class": "CL A",
-        "issuer": "MARRIOTT INTL INC NEW",
-        "shares": 2585757.0,
-        "value_usd": 958255687.0,
-        "weight_pct": 7.02
-      },
-      {
-        "cusip": "863667101",
-        "security_class": "COM",
-        "issuer": "STRYKER CORPORATION",
-        "shares": 2913833.0,
-        "value_usd": 917391182.0,
-        "weight_pct": 6.72
-      },
-      {
         "cusip": "941848103",
         "security_class": "COM",
         "issuer": "WATERS CORP",
-        "shares": 2273632.0,
-        "value_usd": 852702945.0,
-        "weight_pct": 6.25
+        "shares": 2266492.0,
+        "value_usd": 995873920.0,
+        "weight_pct": 7.71
       },
       {
         "cusip": "92826C839",
         "security_class": "COM CL A",
         "issuer": "VISA INC",
-        "shares": 2019810.0,
-        "value_usd": 692976613.0,
-        "weight_pct": 5.08
-      },
-      {
-        "cusip": "90353T100",
-        "security_class": "COM",
-        "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 8943151.0,
-        "value_usd": 645337776.0,
-        "weight_pct": 4.73
+        "shares": 2251945.0,
+        "value_usd": 809191397.0,
+        "weight_pct": 6.26
       },
       {
         "cusip": "57636Q104",
         "security_class": "CL A",
         "issuer": "MASTERCARD INCORPORATED",
-        "shares": 1245051.0,
-        "value_usd": 639458194.0,
-        "weight_pct": 4.69
+        "shares": 1461250.0,
+        "value_usd": 805835538.0,
+        "weight_pct": 6.24
       },
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 1773354.0,
-        "value_usd": 633743519.0,
-        "weight_pct": 4.64
+        "cusip": "922475108",
+        "security_class": "CL A COM",
+        "issuer": "VEEVA SYS INC",
+        "shares": 2705345.0,
+        "value_usd": 772240730.0,
+        "weight_pct": 5.98
+      },
+      {
+        "cusip": "863667101",
+        "security_class": "COM",
+        "issuer": "STRYKER CORPORATION",
+        "shares": 2672488.0,
+        "value_usd": 735976470.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "90353T100",
+        "security_class": "COM",
+        "issuer": "UBER TECHNOLOGIES INC",
+        "shares": 8931422.0,
+        "value_usd": 611891721.0,
+        "weight_pct": 4.74
       },
       {
         "cusip": "171340102",
         "security_class": "COM",
         "issuer": "CHURCH & DWIGHT CO INC",
-        "shares": 6456634.0,
-        "value_usd": 625518702.0,
-        "weight_pct": 4.58
+        "shares": 6446597.0,
+        "value_usd": 607398369.0,
+        "weight_pct": 4.7
       },
       {
-        "cusip": "742718109",
+        "cusip": "34959E109",
         "security_class": "COM",
-        "issuer": "PROCTER & GAMBLE CO",
-        "shares": 4078371.0,
-        "value_usd": 598052323.0,
-        "weight_pct": 4.38
+        "issuer": "FORTINET INC",
+        "shares": 3380707.0,
+        "value_usd": 604335183.0,
+        "weight_pct": 4.68
       },
       {
-        "cusip": "594918104",
+        "cusip": "988498101",
         "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 1596737.0,
-        "value_usd": 595614836.0,
-        "weight_pct": 4.36
+        "issuer": "YUM BRANDS INC",
+        "shares": 4162086.0,
+        "value_usd": 567458805.0,
+        "weight_pct": 4.39
+      },
+      {
+        "cusip": "718172109",
+        "security_class": "COM",
+        "issuer": "PHILIP MORRIS INTL INC",
+        "shares": 2759311.0,
+        "value_usd": 526531725.0,
+        "weight_pct": 4.07
       }
     ],
-    "top_five_pct": 29.79,
-    "top_ten_pct": 52.45,
-    "hhi": 447.4,
+    "top_five_pct": 31.88,
+    "top_ten_pct": 54.45,
+    "hhi": 448.78,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 10,
-      "increased_positions": 0,
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 7,
       "reduced_positions": 25
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001569205-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001569205-26-000014"
       }
     ]
   },
-  "reported_13f_value_usd": 13648923682.0,
+  "reported_13f_value_usd": 12922460889.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001569205-26-000012",
+  "validated_accession": "0001569205-26-000014",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001595533",
   "investor_name": "Summit Street Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1595533/0001595533-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1595533/0001595533-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1595533/0001595533-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1595533/0001595533-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "14a95b2c5fc689b828ff4850796a81b850c1fcac5c57e927af3f99f00a2bb08f",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "d8d31399ccef83957e6cea39f8d405196a0cb2ead451a2e7fd11d508b6e84a93",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5acf835eb4ffaafb0ae6f99c890f3b9ae253c998",
+    "a7c485f87255b3ba506a03a9a6b5b67068eadace",
+    "e5bebe2abc9bdd8ae80c641769ddbf516da00ca3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001595533-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1595533/0001595533-26-000004.txt",
-    "distinct_positions": 31,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001595533-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1595533/0001595533-26-000005.txt",
+    "distinct_positions": 34,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 712597515.0,
+    "reported_long_equity_value_usd": 730775146.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "G81276100",
+        "security_class": "SHS",
+        "issuer": "SIGNET JEWELERS LTD",
+        "shares": 361193.0,
+        "value_usd": 36960879.0,
+        "weight_pct": 5.06
+      },
+      {
         "cusip": "516544103",
         "security_class": "COM",
         "issuer": "LANTHEUS HLDGS INC",
-        "shares": 400699.0,
-        "value_usd": 44453546.0,
-        "weight_pct": 6.24
-      },
-      {
-        "cusip": "60855R100",
-        "security_class": "COM",
-        "issuer": "MOLINA HEALTHCARE INC",
-        "shares": 182031.0,
-        "value_usd": 41630489.0,
-        "weight_pct": 5.84
-      },
-      {
-        "cusip": "444859102",
-        "security_class": "COM",
-        "issuer": "HUMANA INC",
-        "shares": 91449.0,
-        "value_usd": 36325372.0,
-        "weight_pct": 5.1
-      },
-      {
-        "cusip": "G81276100",
-        "security_class": "SHS",
-        "issuer": "SIGNET JEWELERS LIMITED",
-        "shares": 337316.0,
-        "value_usd": 29076639.0,
-        "weight_pct": 4.08
-      },
-      {
-        "cusip": "91307C102",
-        "security_class": "COM",
-        "issuer": "UNITED THERAPEUTICS CORP DEL",
-        "shares": 52789.0,
-        "value_usd": 28602663.0,
-        "weight_pct": 4.01
-      },
-      {
-        "cusip": "036752103",
-        "security_class": "COM",
-        "issuer": "ELEVANCE HEALTH INC FORMERLY",
-        "shares": 72040.0,
-        "value_usd": 27860028.0,
-        "weight_pct": 3.91
-      },
-      {
-        "cusip": "G48833118",
-        "security_class": "ORD SHS",
-        "issuer": "WEATHERFORD INTL PLC",
-        "shares": 337875.0,
-        "value_usd": 27536812.0,
-        "weight_pct": 3.86
-      },
-      {
-        "cusip": "35137L105",
-        "security_class": "CL A COM",
-        "issuer": "FOX CORP",
-        "shares": 514311.0,
-        "value_usd": 26826461.0,
-        "weight_pct": 3.76
+        "shares": 343862.0,
+        "value_usd": 34224584.0,
+        "weight_pct": 4.68
       },
       {
         "cusip": "40434L105",
         "security_class": "COM",
         "issuer": "HP INC",
-        "shares": 1189974.0,
-        "value_usd": 26108029.0,
-        "weight_pct": 3.66
+        "shares": 1038852.0,
+        "value_usd": 32495290.0,
+        "weight_pct": 4.45
       },
       {
         "cusip": "91913Y100",
         "security_class": "COM",
         "issuer": "VALERO ENERGY CORP",
-        "shares": 100073.0,
-        "value_usd": 26063012.0,
-        "weight_pct": 3.66
+        "shares": 81122.0,
+        "value_usd": 31443698.0,
+        "weight_pct": 4.3
+      },
+      {
+        "cusip": "60855R100",
+        "security_class": "COM",
+        "issuer": "MOLINA HEALTHCARE INC",
+        "shares": 163026.0,
+        "value_usd": 30828216.0,
+        "weight_pct": 4.22
+      },
+      {
+        "cusip": "35137L105",
+        "security_class": "CL A COM",
+        "issuer": "FOX CORP",
+        "shares": 466673.0,
+        "value_usd": 29237063.0,
+        "weight_pct": 4.0
+      },
+      {
+        "cusip": "56585A102",
+        "security_class": "COM",
+        "issuer": "MARATHON PETE CORP",
+        "shares": 70520.0,
+        "value_usd": 27885018.0,
+        "weight_pct": 3.82
+      },
+      {
+        "cusip": "91307C102",
+        "security_class": "COM",
+        "issuer": "UNITED THERAPEUTICS CORP DEL",
+        "shares": 50684.0,
+        "value_usd": 27465152.0,
+        "weight_pct": 3.76
+      },
+      {
+        "cusip": "93627C101",
+        "security_class": "COM",
+        "issuer": "WARRIOR MET COAL INC",
+        "shares": 305346.0,
+        "value_usd": 26891821.0,
+        "weight_pct": 3.68
+      },
+      {
+        "cusip": "403949100",
+        "security_class": "COM",
+        "issuer": "HF SINCLAIR CORP",
+        "shares": 245002.0,
+        "value_usd": 26293614.0,
+        "weight_pct": 3.6
       }
     ],
-    "top_five_pct": 25.27,
-    "top_ten_pct": 44.13,
-    "hhi": 361.1,
+    "top_five_pct": 22.71,
+    "top_ten_pct": 41.56,
+    "hhi": 337.22,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 1,
-      "increased_positions": 7,
-      "reduced_positions": 22
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 27
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001595533-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001595533-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 712597515.0,
+  "reported_13f_value_usd": 730775146.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001595533-26-000004",
+  "validated_accession": "0001595533-26-000005",
   "annualized_turnover_proxy_pct": null
 }

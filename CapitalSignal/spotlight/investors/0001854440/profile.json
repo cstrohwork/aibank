@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001854440",
   "investor_name": "DARLINGTON PARTNERS CAPITAL MANAGEMENT, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GREENBRAE",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1854440/0001854440-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/1854440/0001854440-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1854440/0001854440-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1854440/0001854440-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "95a65ac04645b8be7735d6d53bc0ee8198d0fb05fd7cedfed3b1a9eee6b60277",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "22e7952ad1c7dbfdf13394537d2652a2ee480087f6656e1912b54bb4d993aa87",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5efb6182a61c55c3f3b89e49d3bef10e3f3b62d7",
+    "aad8376f95facabfa558167ee6337544777459c9",
+    "c2241db3baa7660a6b34040a05f14113d2579ec0"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001854440-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1854440/0001854440-26-000004.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001854440-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1854440/0001854440-26-000006.txt",
     "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2265315317.0,
+    "reported_long_equity_value_usd": 2201241465.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "872657101",
         "security_class": "COM CL A",
         "issuer": "TPG INC",
-        "shares": 9000000.0,
-        "value_usd": 364950000.0,
-        "weight_pct": 16.11
+        "shares": 8054912.0,
+        "value_usd": 355463267.0,
+        "weight_pct": 16.15
+      },
+      {
+        "cusip": "50212V100",
+        "security_class": "COM",
+        "issuer": "LPL FINL HLDGS INC",
+        "shares": 954506.0,
+        "value_usd": 291887935.0,
+        "weight_pct": 13.26
+      },
+      {
+        "cusip": "M5216V106",
+        "security_class": "SHS",
+        "issuer": "GLOBAL E ONLINE LTD",
+        "shares": 6661820.0,
+        "value_usd": 264674109.0,
+        "weight_pct": 12.02
       },
       {
         "cusip": "82452J109",
         "security_class": "CL A",
         "issuer": "SHIFT4 PMTS INC",
         "shares": 7161844.0,
-        "value_usd": 348352092.0,
-        "weight_pct": 15.38
-      },
-      {
-        "cusip": "50212V100",
-        "security_class": "COM",
-        "issuer": "LPL FINL HLDGS INC",
-        "shares": 993006.0,
-        "value_usd": 279709930.0,
-        "weight_pct": 12.35
+        "value_usd": 259043897.0,
+        "weight_pct": 11.77
       },
       {
         "cusip": "87256C101",
         "security_class": "CL A",
         "issuer": "TKO GROUP HOLDINGS INC",
-        "shares": 1350367.0,
-        "value_usd": 271842381.0,
-        "weight_pct": 12.0
-      },
-      {
-        "cusip": "79466L302",
-        "security_class": "COM",
-        "issuer": "SALESFORCE INC",
-        "shares": 1561852.0,
-        "value_usd": 244679734.0,
-        "weight_pct": 10.8
-      },
-      {
-        "cusip": "M5216V106",
-        "security_class": "SHS",
-        "issuer": "GLOBAL E ONLINE LTD",
-        "shares": 6961820.0,
-        "value_usd": 241784009.0,
-        "weight_pct": 10.67
+        "shares": 1409867.0,
+        "value_usd": 253381297.0,
+        "weight_pct": 11.51
       },
       {
         "cusip": "934550203",
         "security_class": "COM CL A",
         "issuer": "WARNER MUSIC GROUP CORP",
-        "shares": 6705884.0,
-        "value_usd": 181528280.0,
-        "weight_pct": 8.01
+        "shares": 8803111.0,
+        "value_usd": 243053895.0,
+        "weight_pct": 11.04
       },
       {
-        "cusip": "83001C108",
+        "cusip": "79466L302",
         "security_class": "COM",
-        "issuer": "SIX FLAGS ENTERTAINMENT CORP",
-        "shares": 7700000.0,
-        "value_usd": 164010000.0,
-        "weight_pct": 7.24
+        "issuer": "SALESFORCE INC",
+        "shares": 796852.0,
+        "value_usd": 182933314.0,
+        "weight_pct": 8.31
+      },
+      {
+        "cusip": "08265T208",
+        "security_class": "COM CL B",
+        "issuer": "BENTLEY SYS INC",
+        "shares": 5696662.0,
+        "value_usd": 182008351.0,
+        "weight_pct": 8.27
       },
       {
         "cusip": "00436Q106",
         "security_class": "COM CL A1",
         "issuer": "ACCEL ENTERTAINMENT INC",
         "shares": 8098349.0,
-        "value_usd": 102120181.0,
-        "weight_pct": 4.51
+        "value_usd": 86328400.0,
+        "weight_pct": 3.92
       },
       {
-        "cusip": "53566V106",
+        "cusip": "83001C108",
         "security_class": "COM",
-        "issuer": "LINEAGE INC",
-        "shares": 1533843.0,
-        "value_usd": 66338710.0,
-        "weight_pct": 2.93
+        "issuer": "SIX FLAGS ENTERTAINMENT CORP",
+        "shares": 7700000.0,
+        "value_usd": 82467000.0,
+        "weight_pct": 3.75
       }
     ],
-    "top_five_pct": 66.64,
+    "top_five_pct": 64.71,
     "top_ten_pct": 100.0,
-    "hhi": 1168.59,
+    "hhi": 1140.93,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 1,
-      "exited_positions": 5,
-      "increased_positions": 4,
-      "reduced_positions": 3
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001854440-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001854440-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 2265315317.0,
+  "reported_13f_value_usd": 2201241465.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001854440-26-000004",
+  "validated_accession": "0001854440-26-000006",
   "annualized_turnover_proxy_pct": null
 }

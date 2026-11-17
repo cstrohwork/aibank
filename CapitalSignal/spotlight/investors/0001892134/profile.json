@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001892134",
   "investor_name": "Frazier Life Sciences Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PALO ALTO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1892134/0001892134-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/1892134/0001892134-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1892134/0001892134-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1892134/0001892134-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "94481000c709afd1d017183cb4189085852e3a4eef5f5872371369feff6dc41d",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "721f35f50902081da48a1fea3d85c040a097ab56a3501a74a2337cd6c7f52ade",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "07a79fd9adc20a9895e4d3c27b9289b44abe3a25",
+    "b0a35e2636f01b4932fedc129c804568584b5d1c",
+    "be7d717ce513a6d90329a7b11515691c3711a935"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001892134-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1892134/0001892134-26-000003.txt",
-    "distinct_positions": 41,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001892134-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1892134/0001892134-26-000007.txt",
+    "distinct_positions": 44,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4592076814.0,
+    "reported_long_equity_value_usd": 4030605205.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "MIRUM PHARMACEUTICALS INC",
         "shares": 7679684.0,
-        "value_usd": 899060606.0,
-        "weight_pct": 19.58
+        "value_usd": 656459388.0,
+        "weight_pct": 16.29
       },
       {
         "cusip": "N62509109",
         "security_class": "ORDINARY SHARES",
         "issuer": "NEWAMSTERDAM PHARMA COMPANY",
-        "shares": 18088902.0,
-        "value_usd": 613032889.0,
-        "weight_pct": 13.35
+        "shares": 18988902.0,
+        "value_usd": 461810097.0,
+        "weight_pct": 11.46
       },
       {
         "cusip": "29479A108",
         "security_class": "COM",
         "issuer": "ERASCA INC",
-        "shares": 24975188.0,
-        "value_usd": 457545444.0,
-        "weight_pct": 9.96
+        "shares": 29475188.0,
+        "value_usd": 432106256.0,
+        "weight_pct": 10.72
       },
       {
         "cusip": "55287L101",
         "security_class": "COM",
         "issuer": "MBX BIOSCIENCES INC",
         "shares": 6652013.0,
-        "value_usd": 367191118.0,
-        "weight_pct": 8.0
+        "value_usd": 389941002.0,
+        "weight_pct": 9.67
       },
       {
         "cusip": "03969K108",
         "security_class": "COM",
         "issuer": "ARCUTIS BIOTHERAPEUTICS INC",
         "shares": 9874511.0,
-        "value_usd": 258909678.0,
-        "weight_pct": 5.64
-      },
-      {
-        "cusip": "89532M101",
-        "security_class": "COM",
-        "issuer": "TREVI THERAPEUTICS INC",
-        "shares": 9939447.0,
-        "value_usd": 185370687.0,
-        "weight_pct": 4.04
-      },
-      {
-        "cusip": "501147102",
-        "security_class": "COM",
-        "issuer": "KRYSTAL BIOTECH INC",
-        "shares": 481307.0,
-        "value_usd": 178887373.0,
-        "weight_pct": 3.9
+        "value_usd": 260983326.0,
+        "weight_pct": 6.48
       },
       {
         "cusip": "578784100",
         "security_class": "COM",
         "issuer": "MAZE THERAPEUTICS INC",
-        "shares": 5032915.0,
-        "value_usd": 150182184.0,
-        "weight_pct": 3.27
+        "shares": 5282915.0,
+        "value_usd": 143589630.0,
+        "weight_pct": 3.56
       },
       {
-        "cusip": "71722W107",
+        "cusip": "89532M101",
         "security_class": "COM",
-        "issuer": "PHATHOM PHARMACEUTICALS INC",
-        "shares": 12466489.0,
-        "value_usd": 135261406.0,
-        "weight_pct": 2.95
+        "issuer": "TREVI THERAPEUTICS INC",
+        "shares": 9539147.0,
+        "value_usd": 136600585.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "501147102",
+        "security_class": "COM",
+        "issuer": "KRYSTAL BIOTECH INC",
+        "shares": 391319.0,
+        "value_usd": 130137047.0,
+        "weight_pct": 3.23
       },
       {
         "cusip": "697947109",
         "security_class": "COM",
         "issuer": "PALVELLA THERAPEUTICS INC NE",
         "shares": 882400.0,
-        "value_usd": 134848368.0,
-        "weight_pct": 2.94
+        "value_usd": 121709432.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "04987L102",
+        "security_class": "COM",
+        "issuer": "ATTOVIA THERAPEUTICS INC",
+        "shares": 7046271.0,
+        "value_usd": 120773085.0,
+        "weight_pct": 3.0
       }
     ],
-    "top_five_pct": 56.53,
-    "top_ten_pct": 73.61,
-    "hhi": 849.48,
+    "top_five_pct": 54.61,
+    "top_ten_pct": 70.81,
+    "hhi": 738.94,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 18,
-      "increased_positions": 14,
-      "reduced_positions": 8
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 4,
+      "increased_positions": 10,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001892134-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001892134-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 4592076814.0,
+  "reported_13f_value_usd": 4030605205.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001892134-26-000003",
+  "validated_accession": "0001892134-26-000007",
   "annualized_turnover_proxy_pct": null
 }

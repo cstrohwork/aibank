@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001853635",
   "investor_name": "Ampfield Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-30",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,73 +10,92 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1853635/0001853635-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1853635/0001853635-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1853635/0001853635-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1853635/0001853635-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "768d095d9cb9ede2430e409eafcb8aa0eb0fb76861fbf731b98a44e800c99030",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "9d3d6e697d0818569886e1a3dd166596cc7694b2a62c694feeeb1a59559dad8a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-28|||",
+    "2026-06-30|2026-07-30|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "64e2489b69f153d122042911495ac7dc3dc5a1d2",
+    "6fa728d78d36f9e7589a9b601dbc4784573ca9a8",
+    "f7055bfec42453d0f5f7876b55da6c7d2b35839c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-30",
-    "accession": "0001853635-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1853635/0001853635-26-000008.txt",
-    "distinct_positions": 5,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001853635-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1853635/0001853635-26-000010.txt",
+    "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 100234.0,
+    "reported_long_equity_value_usd": 95214998.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "29667J101",
-        "security_class": "COMM",
+        "security_class": "COM",
         "issuer": "ESQUIRE FINANCIAL HOLDINGS INC",
         "shares": 313470.0,
-        "value_usd": 37337.0,
-        "weight_pct": 37.25
+        "value_usd": 36478504.0,
+        "weight_pct": 38.31
       },
       {
         "cusip": "893641100",
-        "security_class": "COMM",
+        "security_class": "COM",
         "issuer": "TRANSDIGM GROUP INC",
         "shares": 21473.0,
-        "value_usd": 28603.0,
-        "weight_pct": 28.54
+        "value_usd": 23246670.0,
+        "weight_pct": 24.41
       },
       {
         "cusip": "66405S100",
-        "security_class": "COMM",
+        "security_class": "COM",
         "issuer": "NORTHEAST BANK",
         "shares": 173536.0,
-        "value_usd": 22999.0,
-        "weight_pct": 22.95
+        "value_usd": 21459462.0,
+        "weight_pct": 22.54
       },
       {
         "cusip": "78573M104",
-        "security_class": "COMM",
+        "security_class": "COM",
         "issuer": "SABRE CORP",
-        "shares": 5234482.0,
-        "value_usd": 10940.0,
-        "weight_pct": 10.91
+        "shares": 5244482.0,
+        "value_usd": 11118302.0,
+        "weight_pct": 11.68
+      },
+      {
+        "cusip": "83207R107",
+        "security_class": "COM SHS CL A",
+        "issuer": "SMITH DOUGLAS HOMES CORP",
+        "shares": 248279.0,
+        "value_usd": 2522515.0,
+        "weight_pct": 2.65
       },
       {
         "cusip": "778296103",
-        "security_class": "COMM",
+        "security_class": "COM",
         "issuer": "ROSS STORES INC",
         "shares": 1669.0,
-        "value_usd": 355.0,
-        "weight_pct": 0.35
+        "value_usd": 389545.0,
+        "weight_pct": 0.41
       }
     ],
-    "top_five_pct": 100.0,
+    "top_five_pct": 99.59,
     "top_ten_pct": 100.0,
-    "hhi": 2847.6,
+    "hhi": 2715.37,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 1,
-      "increased_positions": 1,
-      "reduced_positions": 1
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 0,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -88,11 +107,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-30",
         "accession": "0001853635-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001853635-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 100234.0,
+  "reported_13f_value_usd": 95214998.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001853635-26-000008",
+  "validated_accession": "0001853635-26-000010",
   "annualized_turnover_proxy_pct": null
 }

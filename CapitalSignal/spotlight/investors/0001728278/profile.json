@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001728278",
   "investor_name": "One Madison Group LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1728278/0001420506-25-003405.txt",
-    "https://www.sec.gov/Archives/edgar/data/1728278/0001420506-26-001829.txt"
+    "https://www.sec.gov/Archives/edgar/data/1728278/0001420506-26-001829.txt",
+    "https://www.sec.gov/Archives/edgar/data/1728278/0001420506-26-002877.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "dad2621976cd057577c96eebf0c42ef776326a3e000c1848fea579cef43adce5",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "0aec98bfce3ec84852285b8bf96a767497862fe530b2ad6162fb1f94c34aa82d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "20cd4415f081fe21a3d68991247560e4e5c2c3e7",
+    "982846a09b4a758bc064cea9c1c987a849ceedb6",
+    "fc21995ff68d180114fdea7db064f039a7e09dbc"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001829",
-    "source": "https://www.sec.gov/Archives/edgar/data/1728278/0001420506-26-001829.txt",
-    "distinct_positions": 27,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002877",
+    "source": "https://www.sec.gov/Archives/edgar/data/1728278/0001420506-26-002877.txt",
+    "distinct_positions": 29,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1040366644.0,
+    "reported_long_equity_value_usd": 1260784304.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 2300168.0,
+        "value_usd": 347003345.0,
+        "weight_pct": 27.52
+      },
+      {
         "cusip": "224408104",
         "security_class": "COMMON STOCK",
         "issuer": "CRANE COMPANY",
-        "shares": 355000.0,
-        "value_usd": 79189850.0,
-        "weight_pct": 7.61
-      },
-      {
-        "cusip": "983793100",
-        "security_class": "COM",
-        "issuer": "XPO INC",
-        "shares": 350100.0,
-        "value_usd": 71872029.0,
-        "weight_pct": 6.91
+        "shares": 338000.0,
+        "value_usd": 68958760.0,
+        "weight_pct": 5.47
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 300000.0,
-        "value_usd": 71502000.0,
-        "weight_pct": 6.87
+        "shares": 250000.0,
+        "value_usd": 62287500.0,
+        "weight_pct": 4.94
       },
       {
-        "cusip": "874054109",
+        "cusip": "983793100",
         "security_class": "COM",
-        "issuer": "TAKE-TWO INTERACTIVE SOFTWAR",
-        "shares": 235000.0,
-        "value_usd": 58745300.0,
-        "weight_pct": 5.65
+        "issuer": "XPO INC",
+        "shares": 350000.0,
+        "value_usd": 61593000.0,
+        "weight_pct": 4.89
       },
       {
-        "cusip": "G51502105",
-        "security_class": "SHS",
-        "issuer": "JOHNSON CONTROLS INTERNATION",
-        "shares": 400000.0,
-        "value_usd": 58444000.0,
-        "weight_pct": 5.62
+        "cusip": "G2R11M108",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "DPC HOLDINGS PLC",
+        "shares": 1450000.0,
+        "value_usd": 61277000.0,
+        "weight_pct": 4.86
       },
       {
-        "cusip": "36828A101",
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 73950.0,
+        "value_usd": 53627061.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "GE VERNOVA INC",
-        "shares": 48000.0,
-        "value_usd": 56393280.0,
-        "weight_pct": 5.42
-      },
-      {
-        "cusip": "53947R105",
-        "security_class": "COM SHS",
-        "issuer": "LOAR HOLDINGS INC",
-        "shares": 690000.0,
-        "value_usd": 55620900.0,
-        "weight_pct": 5.35
+        "issuer": "MICROSOFT CORP",
+        "shares": 95000.0,
+        "value_usd": 48725500.0,
+        "weight_pct": 3.86
       },
       {
         "cusip": "75524B104",
         "security_class": "COM",
         "issuer": "RBC BEARINGS INC",
-        "shares": 80000.0,
-        "value_usd": 51524800.0,
-        "weight_pct": 4.95
+        "shares": 95000.0,
+        "value_usd": 47426850.0,
+        "weight_pct": 3.76
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 145000.0,
-        "value_usd": 51232850.0,
-        "weight_pct": 4.92
+        "cusip": "G51502105",
+        "security_class": "SHS",
+        "issuer": "JOHNSON CONTROLS INTERNATION",
+        "shares": 295000.0,
+        "value_usd": 43851750.0,
+        "weight_pct": 3.48
       },
       {
-        "cusip": "980745103",
-        "security_class": "COM",
-        "issuer": "WOODWARD INC",
-        "shares": 120000.0,
-        "value_usd": 51052800.0,
-        "weight_pct": 4.91
+        "cusip": "53947R105",
+        "security_class": "COM SHS",
+        "issuer": "LOAR HOLDINGS INC",
+        "shares": 660000.0,
+        "value_usd": 40603200.0,
+        "weight_pct": 3.22
       }
     ],
-    "top_five_pct": 32.66,
-    "top_ten_pct": 58.21,
-    "hhi": 474.21,
+    "top_five_pct": 47.68,
+    "top_ten_pct": 66.26,
+    "hhi": 1006.98,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 5,
-      "exited_positions": 9,
-      "increased_positions": 12,
-      "reduced_positions": 9
+      "exited_positions": 3,
+      "increased_positions": 6,
+      "reduced_positions": 18
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001829"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002877"
       }
     ]
   },
-  "reported_13f_value_usd": 1040366644.0,
+  "reported_13f_value_usd": 1260784304.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001829",
+  "validated_accession": "0001420506-26-002877",
   "annualized_turnover_proxy_pct": null
 }

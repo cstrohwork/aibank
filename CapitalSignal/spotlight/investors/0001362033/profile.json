@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001362033",
   "investor_name": "GSA CAPITAL PARTNERS LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-06",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1362033/0001362033-25-000016.txt",
-    "https://www.sec.gov/Archives/edgar/data/1362033/0001362033-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1362033/0001362033-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1362033/0001362033-26-000013.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "cc94167cdd4e79133c289aec06c3feef470015bd461263483d94990354ea2630",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "abb555d1018d5d341bec0d1f18da78aaaec58827058f8f1a219b768fd706bf2e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-08-06|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "28fdd3fe43f9033516862b184ab96ee6e1a12c79",
+    "528b0727039e8ebdf392ec716796c168c081d490",
+    "c57b11fbfdab7f3960e638dbc52af95298e490ae"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-06",
-    "accession": "0001362033-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1362033/0001362033-26-000006.txt",
-    "distinct_positions": 1692,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001362033-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1362033/0001362033-26-000013.txt",
+    "distinct_positions": 1814,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1585756.0,
+    "reported_long_equity_value_usd": 1689867.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "92206C409",
         "security_class": "SHRT TRM CORP BD",
         "issuer": "VANGUARD SCOTTSDALE FDS",
-        "shares": 456828.0,
-        "value_usd": 36103.0,
-        "weight_pct": 2.28
+        "shares": 330110.0,
+        "value_usd": 25501.0,
+        "weight_pct": 1.51
       },
       {
         "cusip": "464288646",
         "security_class": "ISHS 1-5YR INVS",
         "issuer": "ISHARES TR",
         "shares": 313035.0,
-        "value_usd": 16406.0,
-        "weight_pct": 1.03
+        "value_usd": 16037.0,
+        "weight_pct": 0.95
       },
       {
-        "cusip": "92206C870",
-        "security_class": "INT-TERM CORP",
-        "issuer": "VANGUARD SCOTTSDALE FDS",
-        "shares": 147444.0,
-        "value_usd": 12186.0,
-        "weight_pct": 0.77
-      },
-      {
-        "cusip": "78464A474",
-        "security_class": "ST SHOR CORP ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 312201.0,
-        "value_usd": 9369.0,
-        "weight_pct": 0.59
+        "cusip": "548661107",
+        "security_class": "COM",
+        "issuer": "LOWES COS INC",
+        "shares": 58256.0,
+        "value_usd": 10736.0,
+        "weight_pct": 0.64
       },
       {
         "cusip": "46429B655",
         "security_class": "FLTG RATE NT ETF",
         "issuer": "ISHARES TR",
-        "shares": 175033.0,
-        "value_usd": 8935.0,
-        "weight_pct": 0.56
+        "shares": 197047.0,
+        "value_usd": 10059.0,
+        "weight_pct": 0.6
       },
       {
-        "cusip": "008492100",
-        "security_class": "COM",
-        "issuer": "AGREE RLTY CORP",
-        "shares": 93165.0,
-        "value_usd": 7056.0,
-        "weight_pct": 0.44
+        "cusip": "78464A474",
+        "security_class": "ST SHOR CORP ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 324814.0,
+        "value_usd": 9611.0,
+        "weight_pct": 0.57
+      },
+      {
+        "cusip": "Y8162K204",
+        "security_class": "SHS PAR",
+        "issuer": "STAR BULK CARRIERS CORP.",
+        "shares": 261328.0,
+        "value_usd": 7673.0,
+        "weight_pct": 0.45
       },
       {
         "cusip": "06417N103",
         "security_class": "COM",
         "issuer": "BANK OZK LITTLE ROCK ARK",
-        "shares": 129863.0,
-        "value_usd": 6765.0,
+        "shares": 157832.0,
+        "value_usd": 7254.0,
         "weight_pct": 0.43
       },
       {
-        "cusip": "69349H107",
+        "cusip": "00130H105",
         "security_class": "COM",
-        "issuer": "TXNM ENERGY INC",
-        "shares": 116439.0,
-        "value_usd": 6611.0,
-        "weight_pct": 0.42
+        "issuer": "AES CORP",
+        "shares": 427063.0,
+        "value_usd": 6363.0,
+        "weight_pct": 0.38
       },
       {
-        "cusip": "29670E107",
+        "cusip": "14040H105",
         "security_class": "COM",
-        "issuer": "ESSENTIAL PPTYS RLTY TR INC",
-        "shares": 217401.0,
-        "value_usd": 6489.0,
-        "weight_pct": 0.41
+        "issuer": "CAPITAL ONE FINL CORP",
+        "shares": 31565.0,
+        "value_usd": 6094.0,
+        "weight_pct": 0.36
       },
       {
-        "cusip": "872540109",
+        "cusip": "011659109",
         "security_class": "COM",
-        "issuer": "TJX COS INC NEW",
-        "shares": 38792.0,
-        "value_usd": 5877.0,
-        "weight_pct": 0.37
+        "issuer": "ALASKA AIR GROUP INC",
+        "shares": 135901.0,
+        "value_usd": 5259.0,
+        "weight_pct": 0.31
       }
     ],
-    "top_five_pct": 5.23,
-    "top_ten_pct": 7.3,
-    "hhi": 17.96,
+    "top_five_pct": 4.26,
+    "top_ten_pct": 6.19,
+    "hhi": 14.06,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 831,
-      "exited_positions": 735,
-      "increased_positions": 462,
-      "reduced_positions": 399
+      "previous_period": "2026-06-30",
+      "new_positions": 644,
+      "exited_positions": 522,
+      "increased_positions": 638,
+      "reduced_positions": 520
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-06",
         "accession": "0001362033-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001362033-26-000013"
       }
     ]
   },
-  "reported_13f_value_usd": 1585756.0,
+  "reported_13f_value_usd": 1689867.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001362033-26-000006",
+  "validated_accession": "0001362033-26-000013",
   "annualized_turnover_proxy_pct": null
 }

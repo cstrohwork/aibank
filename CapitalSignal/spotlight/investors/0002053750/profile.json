@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002053750",
   "investor_name": "CAPITAL & PLANNING, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-09-02",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "JONESBORO",
   "state": "GA",
   "country": "United States",
@@ -10,111 +10,122 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2053750/0001420506-25-002971.txt",
-    "https://www.sec.gov/Archives/edgar/data/2053750/0001420506-26-002238.txt"
+    "https://www.sec.gov/Archives/edgar/data/2053750/0001420506-26-002238.txt",
+    "https://www.sec.gov/Archives/edgar/data/2053750/0001420506-26-002855.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6c2f25137a3b7729b8650d24861cbe9a8e13c3c6efaab4ca2c4a9d3103a77fa2",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "466474f7079edc2848bb854842672134a496cc829f55ffa2f236f98547a74aa0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-04|||",
+    "2026-06-30|2026-09-02|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "008466cf0fd326f3a4705aa4bfef216e94887e4e",
+    "ccabb173f5250813180356545d912fa1d9694220",
+    "e5973208cdffec300973e8fa94b7c9d662a319d0"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-09-02",
-    "accession": "0001420506-26-002238",
-    "source": "https://www.sec.gov/Archives/edgar/data/2053750/0001420506-26-002238.txt",
-    "distinct_positions": 45,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002855",
+    "source": "https://www.sec.gov/Archives/edgar/data/2053750/0001420506-26-002855.txt",
+    "distinct_positions": 55,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 193664008.0,
+    "reported_long_equity_value_usd": 201887749.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "02079K305",
-        "security_class": "Common Stock",
+        "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 74285.0,
-        "value_usd": 26547306.0,
-        "weight_pct": 13.71
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "Common Stock",
-        "issuer": "AMAZON COM",
-        "shares": 78295.0,
-        "value_usd": 18660913.0,
-        "weight_pct": 9.64
+        "shares": 74655.0,
+        "value_usd": 25687250.0,
+        "weight_pct": 12.72
       },
       {
         "cusip": "594918104",
-        "security_class": "Common Stock",
+        "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 44584.0,
-        "value_usd": 16630804.0,
-        "weight_pct": 8.59
+        "shares": 44998.0,
+        "value_usd": 23079447.0,
+        "weight_pct": 11.43
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 78759.0,
+        "value_usd": 19622900.0,
+        "weight_pct": 9.72
       },
       {
         "cusip": "92826C839",
-        "security_class": "Common Stock",
+        "security_class": "COM CL A",
         "issuer": "VISA INC",
-        "shares": 42000.0,
-        "value_usd": 14409902.0,
-        "weight_pct": 7.44
-      },
-      {
-        "cusip": "842587107",
-        "security_class": "Common Stock",
-        "issuer": "SOUTHERN COMPANY",
-        "shares": 150547.0,
-        "value_usd": 14408889.0,
-        "weight_pct": 7.44
+        "shares": 40354.0,
+        "value_usd": 14500364.0,
+        "weight_pct": 7.18
       },
       {
         "cusip": "532457108",
-        "security_class": "Common Stock",
-        "issuer": "ELI LILLY",
-        "shares": 11273.0,
-        "value_usd": 13520718.0,
-        "weight_pct": 6.98
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 11522.0,
+        "value_usd": 13331719.0,
+        "weight_pct": 6.6
+      },
+      {
+        "cusip": "842587107",
+        "security_class": "COM",
+        "issuer": "SOUTHERN CO",
+        "shares": 155717.0,
+        "value_usd": 12907439.0,
+        "weight_pct": 6.39
       },
       {
         "cusip": "037833100",
-        "security_class": "Common Stock",
+        "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 29050.0,
-        "value_usd": 8406063.0,
-        "weight_pct": 4.34
+        "shares": 29828.0,
+        "value_usd": 9933421.0,
+        "weight_pct": 4.92
       },
       {
         "cusip": "882508104",
-        "security_class": "Common Stock",
-        "issuer": "TEXAS INSTRUMENTS",
-        "shares": 24996.0,
-        "value_usd": 7450413.0,
-        "weight_pct": 3.85
-      },
-      {
-        "cusip": "149123101",
-        "security_class": "Common Stock",
-        "issuer": "CATERPILLAR INC",
-        "shares": 6983.0,
-        "value_usd": 7435862.0,
-        "weight_pct": 3.84
+        "security_class": "COM",
+        "issuer": "TEXAS INSTRS INC",
+        "shares": 25514.0,
+        "value_usd": 7146211.0,
+        "weight_pct": 3.54
       },
       {
         "cusip": "26441C204",
-        "security_class": "Common Stock",
-        "issuer": "DUKE ENERGY",
-        "shares": 58318.0,
-        "value_usd": 7381946.0,
-        "weight_pct": 3.81
+        "security_class": "COM NEW",
+        "issuer": "DUKE ENERGY CORP NEW",
+        "shares": 62244.0,
+        "value_usd": 7096462.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 29801.0,
+        "value_usd": 6806035.0,
+        "weight_pct": 3.37
       }
     ],
-    "top_five_pct": 46.81,
-    "top_ten_pct": 69.63,
-    "hhi": 630.32,
+    "top_five_pct": 47.66,
+    "top_ten_pct": 69.4,
+    "hhi": 629.4,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 45,
-      "exited_positions": 39,
+      "previous_period": "2026-06-30",
+      "new_positions": 55,
+      "exited_positions": 45,
       "increased_positions": 0,
       "reduced_positions": 0
     },
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-09-02",
         "accession": "0001420506-26-002238"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002855"
       }
     ]
   },
-  "reported_13f_value_usd": 193664008.0,
+  "reported_13f_value_usd": 201887749.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-002238",
+  "validated_accession": "0001420506-26-002855",
   "annualized_turnover_proxy_pct": null
 }

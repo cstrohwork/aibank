@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002032200",
   "investor_name": "Orion Resource Partners LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2032200/0000905148-25-004044.txt",
-    "https://www.sec.gov/Archives/edgar/data/2032200/0000905148-26-003750.txt"
+    "https://www.sec.gov/Archives/edgar/data/2032200/0000905148-26-003750.txt",
+    "https://www.sec.gov/Archives/edgar/data/2032200/0000905148-26-004920.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a7c289aeda28842fc91e97229286cefc5c8bb2a5ec9738637e7a7f4121434e61",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "3e592159524f4480292e8c74cf9fc9ff82773d9999022fab615c0113a84f5788",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1a06b593c2d3ffda85cea3ee1daa1f196a8b6631",
+    "6b45d237fde87d985580e3596559de63d04a093f",
+    "f403b3cff956e4a9e5376c1b1a7915c9b006b3e0"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000905148-26-003750",
-    "source": "https://www.sec.gov/Archives/edgar/data/2032200/0000905148-26-003750.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000905148-26-004920",
+    "source": "https://www.sec.gov/Archives/edgar/data/2032200/0000905148-26-004920.txt",
     "distinct_positions": 24,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 219436446.0,
+    "reported_long_equity_value_usd": 875218183.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "91703D100",
+        "security_class": "COM",
+        "issuer": "URANIUM RTY CORP",
+        "shares": 162586241.0,
+        "value_usd": 656848414.0,
+        "weight_pct": 75.05
+      },
+      {
         "cusip": "83056P715",
         "security_class": "COM",
         "issuer": "SKEENA RES LTD NEW",
-        "shares": 2775640.0,
-        "value_usd": 73905079.0,
-        "weight_pct": 33.68
+        "shares": 1650740.0,
+        "value_usd": 49090142.0,
+        "weight_pct": 5.61
       },
       {
         "cusip": "83419D201",
         "security_class": "COM NEW",
         "issuer": "SOLARIS RES INC",
         "shares": 2700000.0,
-        "value_usd": 22626000.0,
-        "weight_pct": 10.31
+        "value_usd": 18792000.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "91733P107",
+        "security_class": "COM",
+        "issuer": "USA RARE EARTH INC",
+        "shares": 1220020.0,
+        "value_usd": 17177882.0,
+        "weight_pct": 1.96
       },
       {
         "cusip": "46655E100",
         "security_class": "COM",
         "issuer": "DAKOTA GOLD CORP",
-        "shares": 4181766.0,
-        "value_usd": 17814323.0,
-        "weight_pct": 8.12
+        "shares": 2293416.0,
+        "value_usd": 13966903.0,
+        "weight_pct": 1.6
+      },
+      {
+        "cusip": "13321L108",
+        "security_class": "COM",
+        "issuer": "CAMECO CORP",
+        "shares": 158698.0,
+        "value_usd": 13754356.0,
+        "weight_pct": 1.57
+      },
+      {
+        "cusip": "878742204",
+        "security_class": "CL B",
+        "issuer": "TECK RESOURCES LTD",
+        "shares": 152434.0,
+        "value_usd": 10028633.0,
+        "weight_pct": 1.15
       },
       {
         "cusip": "92528V200",
         "security_class": "COM NEW",
         "issuer": "VERSAMET ROYALTIES CORP",
         "shares": 1027453.0,
-        "value_usd": 12637672.0,
-        "weight_pct": 5.76
+        "value_usd": 9041586.0,
+        "weight_pct": 1.03
       },
       {
-        "cusip": "833635105",
-        "security_class": "SPON ADR SER B",
-        "issuer": "SOCIEDAD QUIMICA Y MINERA DE",
-        "shares": 135933.0,
-        "value_usd": 10064479.0,
-        "weight_pct": 4.59
-      },
-      {
-        "cusip": "13321L108",
-        "security_class": "COM",
-        "issuer": "CAMECO CORP",
-        "shares": 78252.0,
-        "value_usd": 7970749.0,
-        "weight_pct": 3.63
-      },
-      {
-        "cusip": "152006102",
-        "security_class": "COM",
-        "issuer": "CENTERRA GOLD INC",
-        "shares": 492816.0,
-        "value_usd": 7807169.0,
-        "weight_pct": 3.56
-      },
-      {
-        "cusip": "878742204",
-        "security_class": "CL B",
-        "issuer": "TECK RESOURCES LTD",
-        "shares": 112539.0,
-        "value_usd": 6691569.0,
-        "weight_pct": 3.05
-      },
-      {
-        "cusip": "82835P103",
-        "security_class": "COM",
-        "issuer": "SILVERCORP METALS INC",
-        "shares": 557663.0,
-        "value_usd": 5640864.0,
-        "weight_pct": 2.57
-      },
-      {
-        "cusip": "74022D407",
+        "cusip": "675222400",
         "security_class": "COM NEW",
-        "issuer": "PRECISION DRILLING CORP",
-        "shares": 62689.0,
-        "value_usd": 4805739.0,
-        "weight_pct": 2.19
+        "issuer": "OCEANAGOLD CORP",
+        "shares": 324888.0,
+        "value_usd": 8947030.0,
+        "weight_pct": 1.02
+      },
+      {
+        "cusip": "156431108",
+        "security_class": "COM",
+        "issuer": "CENTURY ALUM CO",
+        "shares": 231949.0,
+        "value_usd": 8345525.0,
+        "weight_pct": 0.95
       }
     ],
-    "top_five_pct": 62.45,
-    "top_ten_pct": 77.45,
-    "hhi": 1446.89,
+    "top_five_pct": 86.36,
+    "top_ten_pct": 92.09,
+    "hhi": 5686.74,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 13,
-      "exited_positions": 16,
-      "increased_positions": 8,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 6,
+      "increased_positions": 9,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000905148-26-003750"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000905148-26-004920"
       }
     ]
   },
-  "reported_13f_value_usd": 219436446.0,
+  "reported_13f_value_usd": 875218183.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000905148-26-003750",
+  "validated_accession": "0000905148-26-004920",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,7 +1,7 @@
 {
   "manager_cik": "0002157078",
   "investor_name": "Infinity Advisory Group, LLC",
-  "latest_report_date": "2025-12-31",
+  "latest_report_date": "2026-06-30",
   "filing_date": "2026-11-16",
   "city": "Portage",
   "state": "MI",
@@ -9,26 +9,32 @@
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2157078/0001725547-26-000400.txt"
+    "https://www.sec.gov/Archives/edgar/data/2157078/0001725547-26-000400.txt",
+    "https://www.sec.gov/Archives/edgar/data/2157078/0001725547-26-000401.txt",
+    "https://www.sec.gov/Archives/edgar/data/2157078/0001725547-26-000402.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d30f67cc79ba06401117bcd775cb320df6dad237c402f71714a3d577d5f13efe",
+  "source_fingerprint": "ea0019cc8841445c9e3cb7b95468e0255607d98434a8b9153c1445a47b03679b",
   "accession_fingerprints": [
-    "2025-12-31|2026-11-16|||"
+    "2025-12-31|2026-11-16|||",
+    "2026-03-31|2026-11-16|||",
+    "2026-06-30|2026-11-16|||"
   ],
   "holdings_fingerprints": [
-    "2a42631cca408bdae9eab710624bdeae40f7cfb6"
+    "2a42631cca408bdae9eab710624bdeae40f7cfb6",
+    "a52aa571dde3211178bbf68574cda621038ca305",
+    "c3568b0f85e278baf22eac3820214b7ae6db3d25"
   ],
-  "generated_at": "2026-11-16T20:37:48.622156+00:00",
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-12-31",
+    "report_date": "2026-06-30",
     "filing_date": "2026-11-16",
-    "accession": "0001725547-26-000400",
-    "source": "https://www.sec.gov/Archives/edgar/data/2157078/0001725547-26-000400.txt",
-    "distinct_positions": 16,
+    "accession": "0001725547-26-000402",
+    "source": "https://www.sec.gov/Archives/edgar/data/2157078/0001725547-26-000402.txt",
+    "distinct_positions": 17,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 116362116.0,
+    "reported_long_equity_value_usd": 131396478.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -36,97 +42,113 @@
         "cusip": "464287150",
         "security_class": "CORE S&P TTL STK",
         "issuer": "ISHARES TR",
-        "shares": 178974.0,
-        "value_usd": 26611685.0,
-        "weight_pct": 22.87
+        "shares": 185587.0,
+        "value_usd": 30486447.0,
+        "weight_pct": 23.2
       },
       {
         "cusip": "02072L532",
-        "security_class": "EA BRIDGEWAY OMN",
+        "security_class": "BRID OMN SMA ETF",
         "issuer": "EA SERIES TRUST",
-        "shares": 801587.0,
-        "value_usd": 18676979.0,
-        "weight_pct": 16.05
+        "shares": 783539.0,
+        "value_usd": 22871276.0,
+        "weight_pct": 17.41
       },
       {
         "cusip": "92206C706",
         "security_class": "INTER TERM TREAS",
         "issuer": "VANGUARD SCOTTSDALE FDS",
-        "shares": 288621.0,
-        "value_usd": 17297053.0,
-        "weight_pct": 14.86
+        "shares": 315198.0,
+        "value_usd": 18590371.0,
+        "weight_pct": 14.15
       },
       {
         "cusip": "025072802",
         "security_class": "INTL SMCP VLU",
         "issuer": "AMERICAN CENTY ETF TR",
-        "shares": 135802.0,
-        "value_usd": 12761332.0,
-        "weight_pct": 10.97
+        "shares": 132506.0,
+        "value_usd": 13654717.0,
+        "weight_pct": 10.39
       },
       {
         "cusip": "46435G326",
         "security_class": "CORE MSCI INTL",
         "issuer": "ISHARES TR",
-        "shares": 142756.0,
-        "value_usd": 11774534.0,
-        "weight_pct": 10.12
-      },
-      {
-        "cusip": "25434V864",
-        "security_class": "SHORT DURATION F",
-        "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 195807.0,
-        "value_usd": 9388962.0,
-        "weight_pct": 8.07
+        "shares": 147787.0,
+        "value_usd": 13154564.0,
+        "weight_pct": 10.01
       },
       {
         "cusip": "25434V732",
         "security_class": "EMERGING MKTS CO",
         "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 250685.0,
-        "value_usd": 8292656.0,
-        "weight_pct": 7.13
+        "shares": 250663.0,
+        "value_usd": 10186964.0,
+        "weight_pct": 7.75
+      },
+      {
+        "cusip": "25434V864",
+        "security_class": "SHOR DUR FIX ETF",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 206427.0,
+        "value_usd": 9856868.0,
+        "weight_pct": 7.5
       },
       {
         "cusip": "922020805",
         "security_class": "STRM INFPROIDX",
         "issuer": "VANGUARD MALVERN FDS",
-        "shares": 140167.0,
-        "value_usd": 6932662.0,
-        "weight_pct": 5.96
+        "shares": 147437.0,
+        "value_usd": 7405737.0,
+        "weight_pct": 5.64
       },
       {
         "cusip": "922908769",
         "security_class": "TOTAL STK MKT",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 4091.0,
-        "value_usd": 1371568.0,
-        "weight_pct": 1.18
+        "shares": 4074.0,
+        "value_usd": 1507364.0,
+        "weight_pct": 1.15
       },
       {
         "cusip": "33734H106",
         "security_class": "SHS",
         "issuer": "FIRST TR EXCHANGE-TRADED FD",
-        "shares": 17325.0,
-        "value_usd": 798343.0,
-        "weight_pct": 0.69
+        "shares": 17114.0,
+        "value_usd": 824541.0,
+        "weight_pct": 0.63
       }
     ],
-    "top_five_pct": 74.87,
-    "top_ten_pct": 97.89,
-    "hhi": 1378.31,
-    "changes": null,
+    "top_five_pct": 75.16,
+    "top_ten_pct": 97.83,
+    "hhi": 1400.28,
+    "changes": {
+      "previous_period": "2026-03-31",
+      "new_positions": 4,
+      "exited_positions": 11,
+      "increased_positions": 0,
+      "reduced_positions": 13
+    },
     "timeline": [
       {
         "report_date": "2025-12-31",
         "filing_date": "2026-11-16",
         "accession": "0001725547-26-000400"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-11-16",
+        "accession": "0001725547-26-000401"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001725547-26-000402"
       }
     ]
   },
-  "reported_13f_value_usd": 116362116.0,
+  "reported_13f_value_usd": 131396478.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001725547-26-000400",
+  "validated_accession": "0001725547-26-000402",
   "annualized_turnover_proxy_pct": null
 }

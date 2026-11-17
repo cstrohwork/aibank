@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001881567",
   "investor_name": "Clear Street Group Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1881567/0001881567-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1881567/0001881567-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1881567/0001881567-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1881567/0001881567-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5d37d33840e9ccd1b6494800ac83c227193c68a963c7be1eeac740b267b86cf7",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "ab46c9eb935ef6de0a5baadb0c537811fc331fa4c158e90cb75e222adc6e191a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "867529c21b4c87ab1d220b7df8b0229c18b7256a",
+    "890318362780906b2ab5eb511c0b1f00319aec17",
+    "b3ef660a9ef07f410fa6f4d25c7fba905839e2a5"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001881567-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1881567/0001881567-26-000005.txt",
-    "distinct_positions": 1364,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001881567-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1881567/0001881567-26-000006.txt",
+    "distinct_positions": 1432,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 31605751255.0,
+    "reported_long_equity_value_usd": 24364882213.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "80004C200",
-        "security_class": "COM",
-        "issuer": "SANDISK CORP",
-        "shares": 2983392.0,
-        "value_usd": 6783427892.0,
-        "weight_pct": 21.46
-      },
-      {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 30700549.0,
-        "value_usd": 6142872849.0,
-        "weight_pct": 19.44
+        "shares": 28686649.0,
+        "value_usd": 6553123159.0,
+        "weight_pct": 26.9
       },
       {
-        "cusip": "007903107",
+        "cusip": "80004C200",
         "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 3462632.0,
-        "value_usd": 2011477555.0,
-        "weight_pct": 6.36
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 3764485.0,
-        "value_usd": 1089291380.0,
-        "weight_pct": 3.45
+        "issuer": "SANDISK CORP",
+        "shares": 1599678.0,
+        "value_usd": 2783263755.0,
+        "weight_pct": 11.42
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 2904438.0,
-        "value_usd": 1083413463.0,
-        "weight_pct": 3.43
-      },
-      {
-        "cusip": "77926X320",
-        "security_class": "MEMORY ETF",
-        "issuer": "ROUNDHILL ETF TRUST",
-        "shares": 14481133.0,
-        "value_usd": 1069431672.0,
-        "weight_pct": 3.38
-      },
-      {
-        "cusip": "N97284108",
-        "security_class": "SHS CLASS A",
-        "issuer": "NEBIUS GROUP N.V.",
-        "shares": 3618657.0,
-        "value_usd": 999364504.0,
-        "weight_pct": 3.16
+        "shares": 2584922.0,
+        "value_usd": 1325811110.0,
+        "weight_pct": 5.44
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 4144837.0,
-        "value_usd": 987880451.0,
-        "weight_pct": 3.13
+        "shares": 4252886.0,
+        "value_usd": 1059612527.0,
+        "weight_pct": 4.35
       },
       {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
-        "shares": 1276017.0,
-        "value_usd": 718767616.0,
-        "weight_pct": 2.27
+        "shares": 1214498.0,
+        "value_usd": 880736186.0,
+        "weight_pct": 3.61
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 2004159.0,
-        "value_usd": 716226302.0,
-        "weight_pct": 2.27
+        "shares": 2436930.0,
+        "value_usd": 838498874.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 1262395.0,
+        "value_usd": 772282765.0,
+        "weight_pct": 3.17
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 1642606.0,
+        "value_usd": 559701568.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "78392B206",
+        "security_class": "AMERICAN DEPOSIT",
+        "issuer": "SK HYNIX INC",
+        "shares": 2864155.0,
+        "value_usd": 527434143.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1520383.0,
+        "value_usd": 506321277.0,
+        "weight_pct": 2.08
       }
     ],
-    "top_five_pct": 54.14,
-    "top_ten_pct": 68.35,
-    "hhi": 964.61,
+    "top_five_pct": 51.72,
+    "top_ten_pct": 64.88,
+    "hhi": 979.76,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 803,
-      "exited_positions": 254,
-      "increased_positions": 244,
-      "reduced_positions": 289
+      "previous_period": "2026-06-30",
+      "new_positions": 266,
+      "exited_positions": 198,
+      "increased_positions": 438,
+      "reduced_positions": 556
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001881567-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001881567-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 31605751255.0,
+  "reported_13f_value_usd": 24364882213.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001881567-26-000005",
+  "validated_accession": "0001881567-26-000006",
   "annualized_turnover_proxy_pct": null
 }

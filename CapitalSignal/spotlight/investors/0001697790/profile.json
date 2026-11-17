@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001697790",
   "investor_name": "WITTENBERG INVESTMENT MANAGEMENT, INC.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CARLISLE",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1697790/0001062993-25-016732.txt",
-    "https://www.sec.gov/Archives/edgar/data/1697790/0001062993-26-004208.txt"
+    "https://www.sec.gov/Archives/edgar/data/1697790/0001062993-26-004208.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697790/0001062993-26-006020.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1b4c665c1b6d9ef6e5ffec9c7cd0932c19706f9e48055bbabbe80fb28538c2c0",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "6c82656e3e78bbf695d52ad1722ace3df5854e74807ef31bddd1a44c55347ec5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0d655317a2d5b3d214b0bf7330c3f8557a8ec2b0",
+    "44ad702f064aea768b0f8dd7cdaf1207d5dbeaf0",
+    "bb608effe49f528cfdb8c7e1aec014d2054a7501"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001062993-26-004208",
-    "source": "https://www.sec.gov/Archives/edgar/data/1697790/0001062993-26-004208.txt",
-    "distinct_positions": 78,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001062993-26-006020",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697790/0001062993-26-006020.txt",
+    "distinct_positions": 72,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 292480761.0,
+    "reported_long_equity_value_usd": 284413215.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "084670702",
         "security_class": "CL B NEW",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 101513.0,
-        "value_usd": 50796090.0,
-        "weight_pct": 17.37
+        "shares": 100913.0,
+        "value_usd": 50249628.0,
+        "weight_pct": 17.67
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 99726.0,
-        "value_usd": 28857294.0,
-        "weight_pct": 9.87
-      },
-      {
-        "cusip": "829933100",
-        "security_class": "COMMON STOCK",
-        "issuer": "SIRIUSXM HOLDINGS INC",
-        "shares": 934864.0,
-        "value_usd": 27615883.0,
-        "weight_pct": 9.44
+        "shares": 98074.0,
+        "value_usd": 32660603.0,
+        "weight_pct": 11.48
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
-        "shares": 77406.0,
-        "value_usd": 27349862.0,
-        "weight_pct": 9.35
+        "shares": 75241.0,
+        "value_usd": 25637618.0,
+        "weight_pct": 9.01
+      },
+      {
+        "cusip": "829933100",
+        "security_class": "COMMON STOCK",
+        "issuer": "SIRIUSXM HOLDINGS INC",
+        "shares": 883212.0,
+        "value_usd": 22857527.0,
+        "weight_pct": 8.04
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 64992.0,
-        "value_usd": 23226191.0,
-        "weight_pct": 7.94
+        "shares": 64788.0,
+        "value_usd": 22292255.0,
+        "weight_pct": 7.84
       },
       {
         "cusip": "934423104",
         "security_class": "COM SER A",
         "issuer": "WARNER BROS DISCOVERY INC",
         "shares": 540434.0,
-        "value_usd": 14407970.0,
-        "weight_pct": 4.93
+        "value_usd": 16726432.0,
+        "weight_pct": 5.88
       },
       {
-        "cusip": "896945201",
-        "security_class": "COM",
-        "issuer": "TRIPADVISOR INC",
-        "shares": 687580.0,
-        "value_usd": 9426722.0,
-        "weight_pct": 3.22
-      },
-      {
-        "cusip": "530307107",
-        "security_class": "COM SER A",
-        "issuer": "LIBERTY BROADBAND CORP",
-        "shares": 259624.0,
-        "value_usd": 8640287.0,
-        "weight_pct": 2.95
+        "cusip": "16119P108",
+        "security_class": "CL A",
+        "issuer": "CHARTER COMMUNICATIONS INC",
+        "shares": 104463.0,
+        "value_usd": 11584947.0,
+        "weight_pct": 4.07
       },
       {
         "cusip": "811054402",
         "security_class": "CL A NEW",
         "issuer": "SCRIPPS E W CO OHIO",
-        "shares": 2636071.0,
-        "value_usd": 7301917.0,
-        "weight_pct": 2.5
+        "shares": 2862795.0,
+        "value_usd": 7443267.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "896945201",
+        "security_class": "COM",
+        "issuer": "TRIPADVISOR INC",
+        "shares": 883080.0,
+        "value_usd": 7391380.0,
+        "weight_pct": 2.6
       },
       {
         "cusip": "46625H100",
         "security_class": "COM",
         "issuer": "JPMORGAN CHASE & CO",
         "shares": 20543.0,
-        "value_usd": 6694881.0,
-        "weight_pct": 2.29
+        "value_usd": 6766466.0,
+        "weight_pct": 2.38
       }
     ],
-    "top_five_pct": 53.97,
-    "top_ten_pct": 69.86,
-    "hhi": 720.4,
+    "top_five_pct": 54.04,
+    "top_ten_pct": 71.59,
+    "hhi": 747.19,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 14,
-      "increased_positions": 14,
-      "reduced_positions": 32
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 11,
+      "increased_positions": 6,
+      "reduced_positions": 24
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001062993-26-004208"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001062993-26-006020"
       }
     ]
   },
-  "reported_13f_value_usd": 292480761.0,
+  "reported_13f_value_usd": 284413215.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001062993-26-004208",
+  "validated_accession": "0001062993-26-006020",
   "annualized_turnover_proxy_pct": null
 }

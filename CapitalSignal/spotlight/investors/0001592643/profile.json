@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001592643",
   "investor_name": "Select Equity Group, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1592643/0001592643-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1592643/0001592643-26-000010.txt"
+    "https://www.sec.gov/Archives/edgar/data/1592643/0001592643-26-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1592643/0001592643-26-000016.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "46cfaa2cdfa81aa70eb2bfaa82dbe2c6167caad23a07d1e8820c21ebbfdb0561",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "74dc1a190afddfb60af7237955b554dafff0d9d02783941d3012463f63dcb105",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1093c2da121dfa97808c3efd2ddfa303a1a0fe75",
+    "c1b09da4ce8bd676a7e01b743e54f63e908fb824",
+    "e41a450ff5da0494c4e037127a04675ecc6b0e3a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001592643-26-000010",
-    "source": "https://www.sec.gov/Archives/edgar/data/1592643/0001592643-26-000010.txt",
-    "distinct_positions": 143,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001592643-26-000016",
+    "source": "https://www.sec.gov/Archives/edgar/data/1592643/0001592643-26-000016.txt",
+    "distinct_positions": 135,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 18864654470.0,
+    "reported_long_equity_value_usd": 15463200587.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "G93A5A101",
-        "security_class": "ORD SHS",
-        "issuer": "VIKING HOLDINGS LTD",
-        "shares": 8601393.0,
-        "value_usd": 900307805.0,
-        "weight_pct": 4.77
-      },
-      {
         "cusip": "538034109",
         "security_class": "COM",
         "issuer": "LIVE NATION ENTERTAINMENT IN",
-        "shares": 4523826.0,
-        "value_usd": 828357779.0,
-        "weight_pct": 4.39
-      },
-      {
-        "cusip": "88023U101",
-        "security_class": "COM",
-        "issuer": "SOMNIGROUP INTERNATIONAL INC",
-        "shares": 8892691.0,
-        "value_usd": 697186974.0,
-        "weight_pct": 3.7
+        "shares": 3823653.0,
+        "value_usd": 647344453.0,
+        "weight_pct": 4.19
       },
       {
         "cusip": "45073V108",
         "security_class": "COM",
         "issuer": "ITT INC",
-        "shares": 3466371.0,
-        "value_usd": 685509529.0,
-        "weight_pct": 3.63
+        "shares": 3055931.0,
+        "value_usd": 616747994.0,
+        "weight_pct": 3.99
       },
       {
-        "cusip": "929740108",
+        "cusip": "88023U101",
         "security_class": "COM",
-        "issuer": "WABTEC",
-        "shares": 2421552.0,
-        "value_usd": 652850419.0,
-        "weight_pct": 3.46
+        "issuer": "SOMNIGROUP INTERNATIONAL INC",
+        "shares": 8640167.0,
+        "value_usd": 536640772.0,
+        "weight_pct": 3.47
       },
       {
-        "cusip": "570535104",
+        "cusip": "443510607",
         "security_class": "COM",
-        "issuer": "MARKEL GROUP INC",
-        "shares": 331679.0,
-        "value_usd": 647772404.0,
-        "weight_pct": 3.43
-      },
-      {
-        "cusip": "573284106",
-        "security_class": "COM",
-        "issuer": "MARTIN MARIETTA MATLS INC",
-        "shares": 1011255.0,
-        "value_usd": 583190759.0,
-        "weight_pct": 3.09
+        "issuer": "HUBBELL INC",
+        "shares": 1036245.0,
+        "value_usd": 470040732.0,
+        "weight_pct": 3.04
       },
       {
         "cusip": "504922105",
         "security_class": "COM SHS",
         "issuer": "LABCORP HOLDINGS INC",
-        "shares": 1981948.0,
-        "value_usd": 554945440.0,
-        "weight_pct": 2.94
+        "shares": 1522632.0,
+        "value_usd": 469138146.0,
+        "weight_pct": 3.03
       },
       {
-        "cusip": "G25508105",
-        "security_class": "ORD",
-        "issuer": "CRH PLC",
-        "shares": 4577115.0,
-        "value_usd": 489751305.0,
-        "weight_pct": 2.6
+        "cusip": "929740108",
+        "security_class": "COM",
+        "issuer": "WABTEC",
+        "shares": 1587550.0,
+        "value_usd": 455912609.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "573284106",
+        "security_class": "COM",
+        "issuer": "MARTIN MARIETTA MATLS INC",
+        "shares": 937349.0,
+        "value_usd": 449749424.0,
+        "weight_pct": 2.91
+      },
+      {
+        "cusip": "570535104",
+        "security_class": "COM",
+        "issuer": "MARKEL GROUP INC",
+        "shares": 258358.0,
+        "value_usd": 442425157.0,
+        "weight_pct": 2.86
+      },
+      {
+        "cusip": "631103108",
+        "security_class": "COM",
+        "issuer": "NASDAQ INC",
+        "shares": 4762698.0,
+        "value_usd": 438215843.0,
+        "weight_pct": 2.83
       },
       {
         "cusip": "874039100",
         "security_class": "SPONSORED ADS",
         "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 1024189.0,
-        "value_usd": 489121941.0,
-        "weight_pct": 2.59
+        "shares": 944936.0,
+        "value_usd": 431070354.0,
+        "weight_pct": 2.79
       }
     ],
-    "top_five_pct": 19.95,
-    "top_ten_pct": 34.61,
-    "hhi": 207.26,
+    "top_five_pct": 17.72,
+    "top_ten_pct": 32.06,
+    "hhi": 195.32,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 41,
-      "exited_positions": 50,
-      "increased_positions": 51,
-      "reduced_positions": 51
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 22,
+      "increased_positions": 49,
+      "reduced_positions": 72
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001592643-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001592643-26-000016"
       }
     ]
   },
-  "reported_13f_value_usd": 18864654470.0,
+  "reported_13f_value_usd": 15463200587.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001592643-26-000010",
+  "validated_accession": "0001592643-26-000016",
   "annualized_turnover_proxy_pct": null
 }

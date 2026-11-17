@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001665077",
   "investor_name": "Sand Grove Capital Management LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,112 +10,91 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1665077/0001665077-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1665077/0001665077-26-000013.txt"
+    "https://www.sec.gov/Archives/edgar/data/1665077/0001665077-26-000013.txt",
+    "https://www.sec.gov/Archives/edgar/data/1665077/0001665077-26-000015.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b8fa3723b73967baf8591845c28cddcf940b54167b204820461e7e3e56db034f",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "e4961c981788a45ee101e2068502ae46547b9cf16e2cffda5595a44e281c5a00",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "24efac6bf9fae99d13ff88b642307b342d6a428e",
+    "496a68e028d3cbf317029c1f0323b7f1fa8369bc",
+    "d0c411d09aeae72104742b488e950bf5a7d97fae"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001665077-26-000013",
-    "source": "https://www.sec.gov/Archives/edgar/data/1665077/0001665077-26-000013.txt",
-    "distinct_positions": 13,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001665077-26-000015",
+    "source": "https://www.sec.gov/Archives/edgar/data/1665077/0001665077-26-000015.txt",
+    "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 357409459.0,
+    "reported_long_equity_value_usd": 166603282.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "90187B804",
+        "cusip": "69349H107",
         "security_class": "COM",
-        "issuer": "TWO HARBORS INVENTMENT CORPO",
-        "shares": 4494970.0,
-        "value_usd": 55782578.0,
-        "weight_pct": 15.61
-      },
-      {
-        "cusip": "934423104",
-        "security_class": "COM SER A",
-        "issuer": "WARNER BROS DISCOVERY INC",
-        "shares": 1475644.0,
-        "value_usd": 39340669.0,
-        "weight_pct": 11.01
-      },
-      {
-        "cusip": "01921D204",
-        "security_class": "COM NEW",
-        "issuer": "ALLIED GOLD CORP",
-        "shares": 1345274.0,
-        "value_usd": 31934491.0,
-        "weight_pct": 8.93
-      },
-      {
-        "cusip": "947890109",
-        "security_class": "COM",
-        "issuer": "WEBSTER FINL CORP",
-        "shares": 414723.0,
-        "value_usd": 31693132.0,
-        "weight_pct": 8.87
+        "issuer": "TXNM ENERGY INC",
+        "shares": 734767.0,
+        "value_usd": 42851611.0,
+        "weight_pct": 25.72
       },
       {
         "cusip": "655844108",
         "security_class": "COM",
         "issuer": "NORFOLK SOUTHN CORP",
-        "shares": 99091.0,
-        "value_usd": 31173038.0,
-        "weight_pct": 8.72
+        "shares": 120749.0,
+        "value_usd": 37311441.0,
+        "weight_pct": 22.4
       },
       {
-        "cusip": "69349H107",
+        "cusip": "25862V105",
         "security_class": "COM",
-        "issuer": "TXNM ENERGY INC",
-        "shares": 506546.0,
-        "value_usd": 28761682.0,
-        "weight_pct": 8.05
+        "issuer": "DOUBLEVERIFY HLDGS INC",
+        "shares": 2178065.0,
+        "value_usd": 29382097.0,
+        "weight_pct": 17.64
       },
       {
-        "cusip": "00130H105",
+        "cusip": "01921D204",
+        "security_class": "COM NEW",
+        "issuer": "ALLIED GOLD CORP",
+        "shares": 964536.0,
+        "value_usd": 20204605.0,
+        "weight_pct": 12.13
+      },
+      {
+        "cusip": "904708104",
         "security_class": "COM",
-        "issuer": "AES CORP",
-        "shares": 1872474.0,
-        "value_usd": 27450469.0,
-        "weight_pct": 7.68
+        "issuer": "UNIFIRST CORP MASS",
+        "shares": 76453.0,
+        "value_usd": 19153006.0,
+        "weight_pct": 11.5
       },
       {
-        "cusip": "09073M104",
-        "security_class": "COM",
-        "issuer": "BIO-TECHNE CORP",
-        "shares": 370990.0,
-        "value_usd": 26210444.0,
-        "weight_pct": 7.33
-      },
-      {
-        "cusip": "77543R102",
-        "security_class": "COM CL A",
-        "issuer": "ROKU INC",
-        "shares": 166158.0,
-        "value_usd": 22953066.0,
-        "weight_pct": 6.42
-      },
-      {
-        "cusip": "285512109",
-        "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS INC",
-        "shares": 90986.0,
-        "value_usd": 18655769.0,
-        "weight_pct": 5.22
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 571907.0,
+        "value_usd": 17700522.0,
+        "weight_pct": 10.62
       }
     ],
-    "top_five_pct": 53.14,
-    "top_ten_pct": 87.84,
-    "hhi": 897.56,
+    "top_five_pct": 89.38,
+    "top_ten_pct": 100.0,
+    "hhi": 1866.25,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 10,
-      "exited_positions": 9,
-      "increased_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 8,
+      "increased_positions": 3,
       "reduced_positions": 2
     },
     "timeline": [
@@ -128,11 +107,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001665077-26-000013"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001665077-26-000015"
       }
     ]
   },
-  "reported_13f_value_usd": 357409459.0,
+  "reported_13f_value_usd": 166603282.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001665077-26-000013",
+  "validated_accession": "0001665077-26-000015",
   "annualized_turnover_proxy_pct": null
 }

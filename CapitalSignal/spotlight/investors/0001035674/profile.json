@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001035674",
   "investor_name": "PAULSON & CO. INC.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "JERSEY CITY",
   "state": "NJ",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1035674/0001013594-25-001436.txt",
-    "https://www.sec.gov/Archives/edgar/data/1035674/0001013594-26-000913.txt"
+    "https://www.sec.gov/Archives/edgar/data/1035674/0001013594-26-000913.txt",
+    "https://www.sec.gov/Archives/edgar/data/1035674/0001013594-26-001205.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b6ad3ec6a876c6bb9053f4d4f40c73ebdd2911055e5a8700dbde97077fc801ad",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "0b20c9f374ab5bc99454b532ff32765248300f59bae15cb68a2e3be9fa1b0eeb",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "46e7a8a6ffad1393fd195aa11f3d19c25d5e1047",
+    "705c27ddc38cc7dde5019a2f824c3520248d579a",
+    "9636812c4e103700056e40956920c8123cb1ac94"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001013594-26-000913",
-    "source": "https://www.sec.gov/Archives/edgar/data/1035674/0001013594-26-000913.txt",
-    "distinct_positions": 8,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001013594-26-001205",
+    "source": "https://www.sec.gov/Archives/edgar/data/1035674/0001013594-26-001205.txt",
+    "distinct_positions": 9,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2575691752.0,
+    "reported_long_equity_value_usd": 2916534729.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,76 +42,84 @@
         "cusip": "558868105",
         "security_class": "COM",
         "issuer": "MADRIGAL PHARMACEUTICALS INC",
-        "shares": 1340020.0,
-        "value_usd": 719523739.0,
-        "weight_pct": 27.94
+        "shares": 1491619.0,
+        "value_usd": 751716311.0,
+        "weight_pct": 25.77
       },
       {
         "cusip": "714266103",
         "security_class": "COM",
         "issuer": "PERPETUA RESOURCES CORP",
         "shares": 32347299.0,
-        "value_usd": 671529927.0,
-        "weight_pct": 26.07
+        "value_usd": 697731239.0,
+        "weight_pct": 23.92
       },
       {
         "cusip": "10948W103",
         "security_class": "COM",
         "issuer": "ACADIAN ASSET MANAGEMENT INC",
         "shares": 5843282.0,
-        "value_usd": 417911529.0,
-        "weight_pct": 16.23
+        "value_usd": 535887392.0,
+        "weight_pct": 18.37
       },
       {
         "cusip": "071734107",
         "security_class": "COM",
         "issuer": "BAUSCH HEALTH COS INC",
         "shares": 73255869.0,
-        "value_usd": 361151434.0,
-        "weight_pct": 14.02
+        "value_usd": 427081716.0,
+        "weight_pct": 14.64
       },
       {
         "cusip": "46050R102",
         "security_class": "COM",
         "issuer": "INTERNATIONAL TOWER HILL MIN",
         "shares": 104486703.0,
-        "value_usd": 207928539.0,
-        "weight_pct": 8.07
+        "value_usd": 266441093.0,
+        "weight_pct": 9.14
       },
       {
         "cusip": "66987E206",
         "security_class": "COM NEW",
         "issuer": "NOVAGOLD RESOURCES INC",
         "shares": 27238061.0,
-        "value_usd": 162611224.0,
-        "weight_pct": 6.31
+        "value_usd": 177047396.0,
+        "weight_pct": 6.07
+      },
+      {
+        "cusip": "693656100",
+        "security_class": "COM",
+        "issuer": "PVH CORPORATION",
+        "shares": 620820.0,
+        "value_usd": 45971721.0,
+        "weight_pct": 1.58
       },
       {
         "cusip": "886029206",
         "security_class": "COM NEW",
         "issuer": "THRYV HLDGS INC",
-        "shares": 8443835.0,
-        "value_usd": 33268710.0,
-        "weight_pct": 1.29
+        "shares": 8843383.0,
+        "value_usd": 13884111.0,
+        "weight_pct": 0.48
       },
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 5000.0,
-        "value_usd": 1766650.0,
-        "weight_pct": 0.07
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 25000.0,
+        "value_usd": 773750.0,
+        "weight_pct": 0.03
       }
     ],
-    "top_five_pct": 92.33,
+    "top_five_pct": 91.85,
     "top_ten_pct": 100.0,
-    "hhi": 2026.67,
+    "hhi": 1911.7,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 3,
-      "increased_positions": 3,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -112,11 +131,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001013594-26-000913"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001013594-26-001205"
       }
     ]
   },
-  "reported_13f_value_usd": 2575691752.0,
+  "reported_13f_value_usd": 2916534729.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001013594-26-000913",
+  "validated_accession": "0001013594-26-001205",
   "annualized_turnover_proxy_pct": null
 }

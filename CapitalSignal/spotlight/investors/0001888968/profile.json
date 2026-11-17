@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001888968",
   "investor_name": "KIM, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WICHITA",
   "state": "KS",
   "country": "United States",
@@ -10,111 +10,122 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1888968/0001888968-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1888968/0001888968-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1888968/0001888968-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1888968/0001888968-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3df707d957da2b4ad186a0bb3c8c28b848921511e87e645f9419fa6d76832610",
-  "generated_at": "2026-11-16T06:17:23.526016+00:00",
+  "source_fingerprint": "42eacbcac08ec1a9ed8eccb21f189b8e37125ded75c1359498872a8e10c2d194",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "9e2d596dec776411e95a62e3934e900e62f8bf9f",
+    "b76059a29e896f7359506b13031a69c12d6effd5",
+    "db7872f3845c666743eec781ae440a911cc51081"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001888968-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1888968/0001888968-26-000003.txt",
-    "distinct_positions": 20,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001888968-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1888968/0001888968-26-000006.txt",
+    "distinct_positions": 19,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 350553836.0,
+    "reported_long_equity_value_usd": 331560049.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
+      {
+        "cusip": "298736109",
+        "security_class": "COM",
+        "issuer": "EURONET WORLDWIDE INC",
+        "shares": 1463611.0,
+        "value_usd": 92017224.0,
+        "weight_pct": 27.75
+      },
       {
         "cusip": "83617A108",
         "security_class": "COMMON STOCK",
         "issuer": "SOUND POINT MERIDIAN CAP INC",
         "shares": 10790928.0,
-        "value_usd": 106830186.0,
-        "weight_pct": 30.47
+        "value_usd": 90751703.0,
+        "weight_pct": 27.37
       },
       {
-        "cusip": "04523Y105",
-        "security_class": "COM",
-        "issuer": "ASPEN AEROGELS INC",
-        "shares": 12280426.0,
-        "value_usd": 77857901.0,
-        "weight_pct": 22.21
-      },
-      {
-        "cusip": "928298108",
-        "security_class": "COM",
-        "issuer": "VISHAY INTERTECHNOLOGY INC",
-        "shares": 1107866.0,
-        "value_usd": 59581033.0,
-        "weight_pct": 17.0
+        "cusip": "G22845104",
+        "security_class": "ORD SHS CL B",
+        "issuer": "OCTAVE INTELLIGENCE PLC",
+        "shares": 3333472.0,
+        "value_usd": 62969286.0,
+        "weight_pct": 18.99
       },
       {
         "cusip": "29273V704",
         "security_class": "9.250% FXD PFD I",
         "issuer": "ENERGY TRANSFER L P",
         "shares": 2074034.0,
-        "value_usd": 23768637.0,
-        "weight_pct": 6.78
+        "value_usd": 22835114.0,
+        "weight_pct": 6.89
       },
       {
-        "cusip": "88636J352",
-        "security_class": "RETU STAC BD ETF",
-        "issuer": "TIDAL TRUST II",
-        "shares": 1265000.0,
-        "value_usd": 23339250.0,
-        "weight_pct": 6.66
+        "cusip": "09227Q100",
+        "security_class": "COM",
+        "issuer": "BLACKBAUD INC",
+        "shares": 449371.0,
+        "value_usd": 18702821.0,
+        "weight_pct": 5.64
       },
       {
-        "cusip": "50066V107",
-        "security_class": "COM NEW",
-        "issuer": "KORE GROUP HLDGS INC",
-        "shares": 2000000.0,
-        "value_usd": 18460000.0,
-        "weight_pct": 5.27
-      },
-      {
-        "cusip": "88636J345",
-        "security_class": "RETU S YIEL ETF",
-        "issuer": "TIDAL TRUST II",
-        "shares": 340000.0,
-        "value_usd": 8678840.0,
-        "weight_pct": 2.48
-      },
-      {
-        "cusip": "G2R11M108",
-        "security_class": "ORDINARY SHARES",
-        "issuer": "DPC HOLDINGS PLC",
-        "shares": 127868.0,
-        "value_usd": 6273204.0,
-        "weight_pct": 1.79
+        "cusip": "928298108",
+        "security_class": "COM",
+        "issuer": "VISHAY INTERTECHNOLOGY INC",
+        "shares": 264604.0,
+        "value_usd": 8612860.0,
+        "weight_pct": 2.6
       },
       {
         "cusip": "16935C109",
         "security_class": "COM SHS CL A",
         "issuer": "CHIME FINL INC",
         "shares": 289032.0,
-        "value_usd": 5919375.0,
-        "weight_pct": 1.69
+        "value_usd": 7699812.0,
+        "weight_pct": 2.32
       },
       {
-        "cusip": "67070X101",
-        "security_class": "COM SH BEN INT",
-        "issuer": "NUVEEN MUN CR INCOME FD",
-        "shares": 250000.0,
-        "value_usd": 3170000.0,
-        "weight_pct": 0.9
+        "cusip": "05501U601",
+        "security_class": "SPONSORED ADS",
+        "issuer": "AZUL S A",
+        "shares": 771846.0,
+        "value_usd": 6097583.0,
+        "weight_pct": 1.84
+      },
+      {
+        "cusip": "G2R11M108",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "DPC HOLDINGS PLC",
+        "shares": 127868.0,
+        "value_usd": 5403702.0,
+        "weight_pct": 1.63
+      },
+      {
+        "cusip": "83193G107",
+        "security_class": "COM CL A",
+        "issuer": "SMARTRENT INC",
+        "shares": 2656173.0,
+        "value_usd": 3134284.0,
+        "weight_pct": 0.95
       }
     ],
-    "top_five_pct": 83.12,
-    "top_ten_pct": 95.24,
-    "hhi": 1844.8,
+    "top_five_pct": 86.64,
+    "top_ten_pct": 95.98,
+    "hhi": 1980.75,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 5,
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 4,
       "increased_positions": 4,
       "reduced_positions": 1
     },
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001888968-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001888968-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 350553836.0,
+  "reported_13f_value_usd": 331560049.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001888968-26-000003",
+  "validated_accession": "0001888968-26-000006",
   "annualized_turnover_proxy_pct": null
 }

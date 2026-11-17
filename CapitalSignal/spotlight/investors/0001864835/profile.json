@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001864835",
   "investor_name": "Metavasi Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LARCHMONT",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1864835/0001892688-25-000201.txt",
-    "https://www.sec.gov/Archives/edgar/data/1864835/0001892688-26-000123.txt"
+    "https://www.sec.gov/Archives/edgar/data/1864835/0001892688-26-000123.txt",
+    "https://www.sec.gov/Archives/edgar/data/1864835/0001892688-26-000184.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "07c97f81eda2ad78920172c8fd2c983cbf597277f3425169feb2d30239ee9db2",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "eae33e2befda9847448b9a70a6e8d9423f4017ca7057499f24d4d778014cd00e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "09dbd399a74c8241cd47c3425ad484fa34c100a2",
+    "22d1005043aa26212654158c3659a173bac63829",
+    "ca965c429b074cd1d89a11ab07951664d2772979"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001892688-26-000123",
-    "source": "https://www.sec.gov/Archives/edgar/data/1864835/0001892688-26-000123.txt",
-    "distinct_positions": 22,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001892688-26-000184",
+    "source": "https://www.sec.gov/Archives/edgar/data/1864835/0001892688-26-000184.txt",
+    "distinct_positions": 23,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 257224391.0,
+    "reported_long_equity_value_usd": 247999286.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "03831W108",
-        "security_class": "COM CL A",
-        "issuer": "APPLOVIN CORP",
-        "shares": 68398.0,
-        "value_usd": 35240702.0,
-        "weight_pct": 13.7
-      },
-      {
         "cusip": "23834J201",
         "security_class": "CLASS A COM NEW",
         "issuer": "DAVE INC",
-        "shares": 72534.0,
-        "value_usd": 27025443.0,
-        "weight_pct": 10.51
-      },
-      {
-        "cusip": "770700102",
-        "security_class": "COM CL A",
-        "issuer": "ROBINHOOD MKTS INC",
-        "shares": 194789.0,
-        "value_usd": 19533441.0,
-        "weight_pct": 7.59
-      },
-      {
-        "cusip": "433000106",
-        "security_class": "COM CL A",
-        "issuer": "HIMS & HERS HEALTH INC",
-        "shares": 546429.0,
-        "value_usd": 18944693.0,
-        "weight_pct": 7.37
-      },
-      {
-        "cusip": "87305R109",
-        "security_class": "COM",
-        "issuer": "TTM TECHNOLOGIES INC",
-        "shares": 99485.0,
-        "value_usd": 18605685.0,
-        "weight_pct": 7.23
-      },
-      {
-        "cusip": "90184D100",
-        "security_class": "COM",
-        "issuer": "TWIST BIOSCIENCE CORP",
-        "shares": 176004.0,
-        "value_usd": 18107292.0,
-        "weight_pct": 7.04
-      },
-      {
-        "cusip": "29414B104",
-        "security_class": "COM",
-        "issuer": "EPAM SYS INC",
-        "shares": 149000.0,
-        "value_usd": 11823150.0,
-        "weight_pct": 4.6
-      },
-      {
-        "cusip": "767292105",
-        "security_class": "COM",
-        "issuer": "RIOT PLATFORMS INC",
-        "shares": 416000.0,
-        "value_usd": 11390080.0,
-        "weight_pct": 4.43
+        "shares": 93351.0,
+        "value_usd": 30013280.0,
+        "weight_pct": 12.1
       },
       {
         "cusip": "433313103",
         "security_class": "CL A",
         "issuer": "HINGE HEALTH INC",
-        "shares": 125000.0,
-        "value_usd": 10375000.0,
-        "weight_pct": 4.03
+        "shares": 231000.0,
+        "value_usd": 22462440.0,
+        "weight_pct": 9.06
       },
       {
-        "cusip": "G6683N103",
-        "security_class": "ORD SHS CL A",
-        "issuer": "NU HLDGS LTD",
-        "shares": 710228.0,
-        "value_usd": 9488646.0,
-        "weight_pct": 3.69
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 71422.0,
+        "value_usd": 17794791.0,
+        "weight_pct": 7.18
+      },
+      {
+        "cusip": "87305R109",
+        "security_class": "COM",
+        "issuer": "TTM TECHNOLOGIES INC",
+        "shares": 115113.0,
+        "value_usd": 14140481.0,
+        "weight_pct": 5.7
+      },
+      {
+        "cusip": "36118L106",
+        "security_class": "SPON ADS CL A",
+        "issuer": "FUTU HLDGS LTD",
+        "shares": 122000.0,
+        "value_usd": 13487100.0,
+        "weight_pct": 5.44
+      },
+      {
+        "cusip": "78392B206",
+        "security_class": "AMERICAN DEPOSIT",
+        "issuer": "SK HYNIX INC",
+        "shares": 70311.0,
+        "value_usd": 12947771.0,
+        "weight_pct": 5.22
+      },
+      {
+        "cusip": "349381103",
+        "security_class": "COM CL A",
+        "issuer": "FIGURE TECHNOLOGY SOLUTIO",
+        "shares": 448562.0,
+        "value_usd": 12941014.0,
+        "weight_pct": 5.22
+      },
+      {
+        "cusip": "01609W102",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ALIBABA GROUP HLDG LTD",
+        "shares": 119217.0,
+        "value_usd": 12820596.0,
+        "weight_pct": 5.17
+      },
+      {
+        "cusip": "433000106",
+        "security_class": "COM CL A",
+        "issuer": "HIMS & HERS HEALTH INC",
+        "shares": 422267.0,
+        "value_usd": 12579334.0,
+        "weight_pct": 5.07
+      },
+      {
+        "cusip": "25402D102",
+        "security_class": "COM",
+        "issuer": "DIGITALOCEAN HLDGS INC",
+        "shares": 89544.0,
+        "value_usd": 11944274.0,
+        "weight_pct": 4.82
       }
     ],
-    "top_five_pct": 46.4,
-    "top_ten_pct": 70.19,
-    "hhi": 670.0,
+    "top_five_pct": 39.48,
+    "top_ten_pct": 64.97,
+    "hhi": 574.2,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 12,
-      "exited_positions": 19,
-      "increased_positions": 6,
-      "reduced_positions": 4
+      "exited_positions": 11,
+      "increased_positions": 4,
+      "reduced_positions": 7
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001892688-26-000123"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001892688-26-000184"
       }
     ]
   },
-  "reported_13f_value_usd": 257224391.0,
+  "reported_13f_value_usd": 247999286.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001892688-26-000123",
+  "validated_accession": "0001892688-26-000184",
   "annualized_turnover_proxy_pct": null
 }

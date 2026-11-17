@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001507683",
   "investor_name": "RWWM, INC.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ROCKLIN",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1507683/0001507683-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1507683/0001507683-26-000020.txt"
+    "https://www.sec.gov/Archives/edgar/data/1507683/0001507683-26-000020.txt",
+    "https://www.sec.gov/Archives/edgar/data/1507683/0001507683-26-000030.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "fae0bcffa1c44733c5236fd186b5314efd97b9d505cf0494a57760511bcd61c0",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "7435b23d18ff2c195e89888c813149c8129fcbcea56e5461f8d9482ad81a3547",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-04|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "16a775ef81e916a938b5b656d0391625502338fd",
+    "366345d99001b056c966d6e1cdaf9b24a835a65e",
+    "618da5374b18ebbd22e36454c76b650b0eec800a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001507683-26-000020",
-    "source": "https://www.sec.gov/Archives/edgar/data/1507683/0001507683-26-000020.txt",
-    "distinct_positions": 40,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001507683-26-000030",
+    "source": "https://www.sec.gov/Archives/edgar/data/1507683/0001507683-26-000030.txt",
+    "distinct_positions": 36,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1353388287.0,
+    "reported_long_equity_value_usd": 1366319023.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "233912104",
-        "security_class": "COM",
-        "issuer": "DAILY JOURNAL CORP",
-        "shares": 354295.0,
-        "value_usd": 212998611.0,
-        "weight_pct": 15.74
-      },
-      {
         "cusip": "01609W102",
         "security_class": "SPONSORED ADS",
         "issuer": "ALIBABA GROUP HLDG LTD",
-        "shares": 2217364.0,
-        "value_usd": 212822597.0,
-        "weight_pct": 15.73
+        "shares": 2145183.0,
+        "value_usd": 230692980.0,
+        "weight_pct": 16.88
       },
       {
-        "cusip": "949746101",
+        "cusip": "233912104",
         "security_class": "COM",
-        "issuer": "WELLS FARGO & CO",
-        "shares": 1680197.0,
-        "value_usd": 138851480.0,
-        "weight_pct": 10.26
-      },
-      {
-        "cusip": "084670702",
-        "security_class": "CL B NEW",
-        "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 255944.0,
-        "value_usd": 128071818.0,
-        "weight_pct": 9.46
+        "issuer": "DAILY JOURNAL CORP",
+        "shares": 349497.0,
+        "value_usd": 225851951.0,
+        "weight_pct": 16.53
       },
       {
         "cusip": "963320106",
         "security_class": "COM",
         "issuer": "WHIRLPOOL CORP",
-        "shares": 3140419.0,
-        "value_usd": 123795317.0,
-        "weight_pct": 9.15
+        "shares": 5209250.0,
+        "value_usd": 159819790.0,
+        "weight_pct": 11.7
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 1642101.0,
+        "value_usd": 131450185.0,
+        "weight_pct": 9.62
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 253438.0,
+        "value_usd": 126199452.0,
+        "weight_pct": 9.24
       },
       {
         "cusip": "35138V102",
         "security_class": "COM",
         "issuer": "FOX FACTORY HLDG CORP",
-        "shares": 5381694.0,
-        "value_usd": 91192805.0,
-        "weight_pct": 6.74
+        "shares": 5248695.0,
+        "value_usd": 96418527.0,
+        "weight_pct": 7.06
       },
       {
         "cusip": "46436E718",
         "security_class": "0-3 MTH TREASURY",
         "issuer": "ISHARES TR",
-        "shares": 845240.0,
-        "value_usd": 85090263.0,
-        "weight_pct": 6.29
+        "shares": 660206.0,
+        "value_usd": 66487709.0,
+        "weight_pct": 4.87
       },
       {
         "cusip": "146229109",
         "security_class": "COM",
         "issuer": "CARTERS INC",
-        "shares": 1444045.0,
-        "value_usd": 59436892.0,
-        "weight_pct": 4.39
+        "shares": 1622990.0,
+        "value_usd": 50815812.0,
+        "weight_pct": 3.72
       },
       {
-        "cusip": "500754106",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "KRAFT HEINZ CO",
-        "shares": 2349610.0,
-        "value_usd": 55497788.0,
-        "weight_pct": 4.1
+        "issuer": "MICROSOFT CORP",
+        "shares": 89813.0,
+        "value_usd": 46065088.0,
+        "weight_pct": 3.37
       },
       {
-        "cusip": "30231G102",
+        "cusip": "550021109",
         "security_class": "COM",
-        "issuer": "EXXON MOBIL CORP",
-        "shares": 301524.0,
-        "value_usd": 41224361.0,
-        "weight_pct": 3.05
+        "issuer": "LULULEMON ATHLETICA INC",
+        "shares": 448499.0,
+        "value_usd": 43141119.0,
+        "weight_pct": 3.16
       }
     ],
-    "top_five_pct": 60.33,
-    "top_ten_pct": 84.9,
-    "hhi": 928.31,
+    "top_five_pct": 63.97,
+    "top_ten_pct": 86.14,
+    "hhi": 1000.0,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 13,
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
       "exited_positions": 6,
-      "increased_positions": 10,
-      "reduced_positions": 15
+      "increased_positions": 6,
+      "reduced_positions": 21
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001507683-26-000020"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001507683-26-000030"
       }
     ]
   },
-  "reported_13f_value_usd": 1353388287.0,
+  "reported_13f_value_usd": 1366319023.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001507683-26-000020",
+  "validated_accession": "0001507683-26-000030",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001857024",
   "investor_name": "Schusterman Interests, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Tulsa",
   "state": "OK",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1857024/0000899140-25-001313.txt",
-    "https://www.sec.gov/Archives/edgar/data/1857024/0000899140-26-000884.txt"
+    "https://www.sec.gov/Archives/edgar/data/1857024/0000899140-26-000884.txt",
+    "https://www.sec.gov/Archives/edgar/data/1857024/0000899140-26-001369.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "4e741045b310959bfbebcb14e8c789438d519beff7ad65dc8b0d710b60ab24b7",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "ddffffc14d43e6f252b12ddbf40b86f4c16f6ebf65aaa2c7c5742b08b0e96e91",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2a6200659f4beb399eb9323d59815c712e504cd6",
+    "6eb2957c818e5594f88ce947bfe574d8e542677a",
+    "b5b0543772b53d5e92e8ee2c8a17cf0f3c4b5c2d"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000899140-26-000884",
-    "source": "https://www.sec.gov/Archives/edgar/data/1857024/0000899140-26-000884.txt",
-    "distinct_positions": 9,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001369",
+    "source": "https://www.sec.gov/Archives/edgar/data/1857024/0000899140-26-001369.txt",
+    "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 383300116.0,
+    "reported_long_equity_value_usd": 377290898.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,64 +42,72 @@
         "cusip": "46137V357",
         "security_class": "S&P500 EQL WGT",
         "issuer": "INVESCO EXCHANGE TRADED FD T",
-        "shares": 625000.0,
-        "value_usd": 132981250.0,
-        "weight_pct": 34.69
+        "shares": 718400.0,
+        "value_usd": 149441568.0,
+        "weight_pct": 39.61
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 133977.0,
-        "value_usd": 100050004.0,
-        "weight_pct": 26.1
-      },
-      {
-        "cusip": "485924104",
-        "security_class": "COMMON STOCK",
-        "issuer": "KARMAN HLDGS INC",
-        "shares": 1507287.0,
-        "value_usd": 75243767.0,
-        "weight_pct": 19.63
+        "shares": 160202.0,
+        "value_usd": 122174851.0,
+        "weight_pct": 32.38
       },
       {
         "cusip": "14020Y300",
         "security_class": "US MULTI-SECTOR",
         "issuer": "CAPITAL GRP FIXED INCM ETF T",
         "shares": 1818185.0,
-        "value_usd": 49690996.0,
-        "weight_pct": 12.96
+        "value_usd": 47690993.0,
+        "weight_pct": 12.64
+      },
+      {
+        "cusip": "485924104",
+        "security_class": "COMMON STOCK",
+        "issuer": "KARMAN HLDGS INC",
+        "shares": 807287.0,
+        "value_usd": 26172245.0,
+        "weight_pct": 6.94
+      },
+      {
+        "cusip": "55173P109",
+        "security_class": "COM SHS",
+        "issuer": "LYNTRIS INC",
+        "shares": 1299920.0,
+        "value_usd": 16041013.0,
+        "weight_pct": 4.25
       },
       {
         "cusip": "75321W103",
         "security_class": "COM CL A",
         "issuer": "RANPAK HOLDINGS CORP",
         "shares": 3018616.0,
-        "value_usd": 22066083.0,
-        "weight_pct": 5.76
+        "value_usd": 12527256.0,
+        "weight_pct": 3.32
       },
       {
         "cusip": "464286392",
         "security_class": "MSCI WORLD ETF",
         "issuer": "ISHARES INC",
         "shares": 5375.0,
-        "value_usd": 1089190.0,
-        "weight_pct": 0.28
+        "value_usd": 1108486.0,
+        "weight_pct": 0.29
       },
       {
         "cusip": "464287465",
         "security_class": "MSCI EAFE ETF",
         "issuer": "ISHARES TR",
         "shares": 10460.0,
-        "value_usd": 1086585.0,
-        "weight_pct": 0.28
+        "value_usd": 1086689.0,
+        "weight_pct": 0.29
       },
       {
         "cusip": "464287655",
         "security_class": "RUSSELL 2000 ETF",
         "issuer": "ISHARES TR",
         "shares": 1970.0,
-        "value_usd": 591887.0,
+        "value_usd": 547443.0,
         "weight_pct": 0.15
       },
       {
@@ -100,14 +119,14 @@
         "weight_pct": 0.13
       }
     ],
-    "top_five_pct": 99.15,
+    "top_five_pct": 95.82,
     "top_ten_pct": 100.0,
-    "hhi": 2471.75,
+    "hhi": 2854.69,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
-      "exited_positions": 2,
-      "increased_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 2,
       "reduced_positions": 1
     },
     "timeline": [
@@ -120,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000899140-26-000884"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001369"
       }
     ]
   },
-  "reported_13f_value_usd": 383300116.0,
+  "reported_13f_value_usd": 377290898.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000899140-26-000884",
+  "validated_accession": "0000899140-26-001369",
   "annualized_turnover_proxy_pct": null
 }

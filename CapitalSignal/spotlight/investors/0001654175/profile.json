@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001654175",
   "investor_name": "Proficio Capital Partners LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEWTON",
   "state": "MA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1654175/0001214659-25-016818.txt",
-    "https://www.sec.gov/Archives/edgar/data/1654175/0001214659-26-010442.txt"
+    "https://www.sec.gov/Archives/edgar/data/1654175/0001214659-26-010442.txt",
+    "https://www.sec.gov/Archives/edgar/data/1654175/0001214659-26-014247.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7962d389a8654444d6de30efc02fe818cead583ed0855c92768b104aa6133d43",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "786b4878d472eb24228a5ed90e83410972e25aecfa514fa080c4669202df0aa7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "382824d0642c52e3084fa5a3cadc4a81f51f4ce1",
+    "38aeed880bb91184e8b68caf0460266138714300",
+    "71f886009e187a719fb997f0d77c9f37cfc6ce6a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0001214659-26-010442",
-    "source": "https://www.sec.gov/Archives/edgar/data/1654175/0001214659-26-010442.txt",
-    "distinct_positions": 690,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014247",
+    "source": "https://www.sec.gov/Archives/edgar/data/1654175/0001214659-26-014247.txt",
+    "distinct_positions": 301,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2783370691.0,
+    "reported_long_equity_value_usd": 3588005760.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "78468R101",
-        "security_class": "ST SHO TREAS ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 6991445.0,
-        "value_usd": 202821819.0,
-        "weight_pct": 7.29
-      },
-      {
-        "cusip": "464285204",
-        "security_class": "ISHARES NEW",
-        "issuer": "ISHARES GOLD TR",
-        "shares": 2191169.0,
-        "value_usd": 165455145.0,
-        "weight_pct": 5.94
+        "cusip": "21873S108",
+        "security_class": "COM CL A",
+        "issuer": "COREWEAVE INC",
+        "shares": 9282594.0,
+        "value_usd": 808699589.0,
+        "weight_pct": 22.54
       },
       {
         "cusip": "78463V107",
         "security_class": "GOLD SHS",
         "issuer": "SPDR GOLD TR",
-        "shares": 400439.0,
-        "value_usd": 147513719.0,
-        "weight_pct": 5.3
+        "shares": 465990.0,
+        "value_usd": 178811636.0,
+        "weight_pct": 4.98
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 212237.0,
-        "value_usd": 145766265.0,
-        "weight_pct": 5.24
+        "shares": 248452.0,
+        "value_usd": 173501576.0,
+        "weight_pct": 4.84
+      },
+      {
+        "cusip": "464285204",
+        "security_class": "ISHARES NEW",
+        "issuer": "ISHARES GOLD TR",
+        "shares": 2171606.0,
+        "value_usd": 168990900.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "46431W507",
+        "security_class": "SHOR DURA BD ETF",
+        "issuer": "ISHARES U S ETF TR",
+        "shares": 2570775.0,
+        "value_usd": 128248640.0,
+        "weight_pct": 3.57
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 1071729.0,
+        "value_usd": 108359736.0,
+        "weight_pct": 3.02
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 99708.0,
-        "value_usd": 74458873.0,
-        "weight_pct": 2.68
-      },
-      {
-        "cusip": "72201R833",
-        "security_class": "ENHAN SHRT MA AC",
-        "issuer": "PIMCO ETF TR",
-        "shares": 722776.0,
-        "value_usd": 72863005.0,
-        "weight_pct": 2.62
-      },
-      {
-        "cusip": "464289420",
-        "security_class": "RUS TP200 VL ETF",
-        "issuer": "ISHARES TR",
-        "shares": 692856.0,
-        "value_usd": 72860783.0,
-        "weight_pct": 2.62
+        "shares": 121818.0,
+        "value_usd": 92129265.0,
+        "weight_pct": 2.57
       },
       {
         "cusip": "09174D201",
         "security_class": "PROF CURR DE ETF",
         "issuer": "BITWISE FUNDS TRUST",
-        "shares": 3728348.0,
-        "value_usd": 70540715.0,
-        "weight_pct": 2.53
+        "shares": 4033928.0,
+        "value_usd": 79710583.0,
+        "weight_pct": 2.22
       },
       {
-        "cusip": "464287689",
-        "security_class": "RUSSELL 3000 ETF",
+        "cusip": "464287630",
+        "security_class": "RUS 2000 VAL ETF",
         "issuer": "ISHARES TR",
-        "shares": 143298.0,
-        "value_usd": 61102131.0,
-        "weight_pct": 2.2
+        "shares": 344230.0,
+        "value_usd": 72099052.0,
+        "weight_pct": 2.01
       },
       {
-        "cusip": "78468R663",
-        "security_class": "ST STR BLO 1 ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 641290.0,
-        "value_usd": 58767816.0,
-        "weight_pct": 2.11
+        "cusip": "922908769",
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 183932.0,
+        "value_usd": 68834566.0,
+        "weight_pct": 1.92
       }
     ],
-    "top_five_pct": 26.44,
-    "top_ten_pct": 38.52,
-    "hhi": 222.86,
+    "top_five_pct": 40.64,
+    "top_ten_pct": 52.38,
+    "hhi": 652.36,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 522,
-      "exited_positions": 54,
-      "increased_positions": 120,
-      "reduced_positions": 37
+      "previous_period": "2026-06-30",
+      "new_positions": 38,
+      "exited_positions": 427,
+      "increased_positions": 86,
+      "reduced_positions": 150
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0001214659-26-010442"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014247"
       }
     ]
   },
-  "reported_13f_value_usd": 2783370691.0,
+  "reported_13f_value_usd": 3588005760.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010442",
+  "validated_accession": "0001214659-26-014247",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001232621",
   "investor_name": "TANG CAPITAL MANAGEMENT LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN DIEGO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1232621/0001214659-25-016677.txt",
-    "https://www.sec.gov/Archives/edgar/data/1232621/0001214659-26-010416.txt"
+    "https://www.sec.gov/Archives/edgar/data/1232621/0001214659-26-010416.txt",
+    "https://www.sec.gov/Archives/edgar/data/1232621/0001214659-26-014410.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6f60b0df51d18a040c5730b560b300b0a2901fa6a9c0fd4a7cd7210e78d57aee",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "ca05d7ce4426da927c57c5f6d3ff2409d96ce4e3f7b2651c59718ff9d1f47cae",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0c24c1bb58d47645be851ba12e47425e5cfd114d",
+    "2db0cf91c8c7e0b5c9af93fe68f28658860a5160",
+    "d638135f33f45fd99f86b2e0d36830cdedd239c4"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010416",
-    "source": "https://www.sec.gov/Archives/edgar/data/1232621/0001214659-26-010416.txt",
-    "distinct_positions": 40,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014410",
+    "source": "https://www.sec.gov/Archives/edgar/data/1232621/0001214659-26-014410.txt",
+    "distinct_positions": 44,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2190319533.0,
+    "reported_long_equity_value_usd": 2162607886.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "AURINIA PHARMACEUTICALS INC",
         "shares": 13044106.0,
-        "value_usd": 221358479.0,
-        "weight_pct": 10.11
-      },
-      {
-        "cusip": "00773J202",
-        "security_class": "COM NEW",
-        "issuer": "SPYRE THERAPEUTICS INC",
-        "shares": 1892200.0,
-        "value_usd": 167989516.0,
-        "weight_pct": 7.67
-      },
-      {
-        "cusip": "604749101",
-        "security_class": "COM",
-        "issuer": "MIRUM PHARMACEUTICALS INC",
-        "shares": 1236027.0,
-        "value_usd": 144701681.0,
-        "weight_pct": 6.61
-      },
-      {
-        "cusip": "G52694109",
-        "security_class": "ORD SHS CL A",
-        "issuer": "KINIKSA PHARMACEUTICALS INTL",
-        "shares": 2259889.0,
-        "value_usd": 144519902.0,
-        "weight_pct": 6.6
-      },
-      {
-        "cusip": "15102K100",
-        "security_class": "COM",
-        "issuer": "CELCUITY INC",
-        "shares": 1314594.0,
-        "value_usd": 137532824.0,
-        "weight_pct": 6.28
+        "value_usd": 211249297.0,
+        "weight_pct": 9.77
       },
       {
         "cusip": "218352102",
         "security_class": "COM",
         "issuer": "CORCEPT THERAPEUTICS INC",
         "shares": 1500000.0,
-        "value_usd": 130425000.0,
-        "weight_pct": 5.95
+        "value_usd": 172845000.0,
+        "weight_pct": 7.99
+      },
+      {
+        "cusip": "G52694109",
+        "security_class": "ORD SHS CL A",
+        "issuer": "KINIKSA PHARMACEUTICALS INTL",
+        "shares": 2259889.0,
+        "value_usd": 168610318.0,
+        "weight_pct": 7.8
+      },
+      {
+        "cusip": "00773J202",
+        "security_class": "COM NEW",
+        "issuer": "SPYRE THERAPEUTICS INC",
+        "shares": 1892200.0,
+        "value_usd": 168462566.0,
+        "weight_pct": 7.79
+      },
+      {
+        "cusip": "87650L103",
+        "security_class": "COM",
+        "issuer": "TARSUS PHARMACEUTICALS INC",
+        "shares": 1917666.0,
+        "value_usd": 150747724.0,
+        "weight_pct": 6.97
+      },
+      {
+        "cusip": "36315X101",
+        "security_class": "SPON ADR",
+        "issuer": "LAKEFRONT BIOTHERAPEUTICS NV",
+        "shares": 3985991.0,
+        "value_usd": 118184633.0,
+        "weight_pct": 5.46
+      },
+      {
+        "cusip": "15102K100",
+        "security_class": "COM",
+        "issuer": "CELCUITY INC",
+        "shares": 1464594.0,
+        "value_usd": 116464515.0,
+        "weight_pct": 5.39
+      },
+      {
+        "cusip": "604749101",
+        "security_class": "COM",
+        "issuer": "MIRUM PHARMACEUTICALS INC",
+        "shares": 1236027.0,
+        "value_usd": 105655588.0,
+        "weight_pct": 4.89
       },
       {
         "cusip": "69366J200",
         "security_class": "COM",
         "issuer": "PTC THERAPEUTICS INC",
         "shares": 1500000.0,
-        "value_usd": 122355000.0,
-        "weight_pct": 5.59
+        "value_usd": 97170000.0,
+        "weight_pct": 4.49
       },
       {
-        "cusip": "36315X101",
-        "security_class": "SPON ADR",
-        "issuer": "LAKEFRONT BIOTHERAPEUTICS NV",
-        "shares": 3785991.0,
-        "value_usd": 113504010.0,
-        "weight_pct": 5.18
-      },
-      {
-        "cusip": "14070B309",
-        "security_class": "COM NEW",
-        "issuer": "CAPRICOR THERAPEUTICS INC",
-        "shares": 4099900.0,
-        "value_usd": 98725592.0,
-        "weight_pct": 4.51
-      },
-      {
-        "cusip": "87650L103",
-        "security_class": "COM",
-        "issuer": "TARSUS PHARMACEUTICALS INC",
-        "shares": 1568266.0,
-        "value_usd": 98706662.0,
-        "weight_pct": 4.51
+        "cusip": "45258D105",
+        "security_class": "ADS",
+        "issuer": "IMMUNOCORE HLDGS PLC",
+        "shares": 2884149.0,
+        "value_usd": 87360873.0,
+        "weight_pct": 4.04
       }
     ],
-    "top_five_pct": 37.26,
-    "top_ten_pct": 63.0,
-    "hhi": 511.0,
+    "top_five_pct": 40.32,
+    "top_ten_pct": 64.59,
+    "hhi": 516.49,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 162,
-      "increased_positions": 11,
-      "reduced_positions": 18
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 2,
+      "increased_positions": 12,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010416"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014410"
       }
     ]
   },
-  "reported_13f_value_usd": 2190319533.0,
+  "reported_13f_value_usd": 2162607886.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010416",
+  "validated_accession": "0001214659-26-014410",
   "annualized_turnover_proxy_pct": null
 }

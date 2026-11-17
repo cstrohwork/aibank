@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001794034",
   "investor_name": "Juniper Investment Company, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,112 +10,107 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1794034/0001214659-25-016625.txt",
-    "https://www.sec.gov/Archives/edgar/data/1794034/0001214659-26-010370.txt"
+    "https://www.sec.gov/Archives/edgar/data/1794034/0001214659-26-010370.txt",
+    "https://www.sec.gov/Archives/edgar/data/1794034/0001214659-26-014353.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b7ed190a6b29ad2707b6cb8aba25f4be102c7c924c9bec49f58541fd2814e90e",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "b50f8178bd6964b72ff56a4969ed23bc5c837cc8c2ab9375255a6c42e46d9e31",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "43db26dbce03fc3e5d3481f15b7f7601f9252ef9",
+    "6210eeefc103aae10b194e5368e15671aac18a1c",
+    "ec25b76304617db986e6f825ca377bb84e639b74"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010370",
-    "source": "https://www.sec.gov/Archives/edgar/data/1794034/0001214659-26-010370.txt",
-    "distinct_positions": 10,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014353",
+    "source": "https://www.sec.gov/Archives/edgar/data/1794034/0001214659-26-014353.txt",
+    "distinct_positions": 8,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 377467062.0,
+    "reported_long_equity_value_usd": 333274895.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "533535100",
-        "security_class": "COM",
-        "issuer": "LINCOLN EDL SVCS CORP",
-        "shares": 1732966.0,
-        "value_usd": 86475003.0,
-        "weight_pct": 22.91
-      },
-      {
-        "cusip": "019330109",
-        "security_class": "COM",
-        "issuer": "ALLIENT INC",
-        "shares": 762305.0,
-        "value_usd": 78464054.0,
-        "weight_pct": 20.79
-      },
       {
         "cusip": "09075A108",
         "security_class": "COM CL A",
         "issuer": "BIOVENTUS INC",
         "shares": 6939357.0,
-        "value_usd": 65507530.0,
-        "weight_pct": 17.35
+        "value_usd": 94583436.0,
+        "weight_pct": 28.38
+      },
+      {
+        "cusip": "019330109",
+        "security_class": "COM",
+        "issuer": "ALLIENT INC",
+        "shares": 585414.0,
+        "value_usd": 65332202.0,
+        "weight_pct": 19.6
       },
       {
         "cusip": "228903100",
         "security_class": "COM",
         "issuer": "ARTIVION INC",
         "shares": 2019885.0,
-        "value_usd": 45386816.0,
-        "weight_pct": 12.02
+        "value_usd": 46093776.0,
+        "weight_pct": 13.83
       },
       {
         "cusip": "68752M108",
         "security_class": "COM",
         "issuer": "ORTHOFIX MED INC",
-        "shares": 4442543.0,
-        "value_usd": 40604843.0,
-        "weight_pct": 10.76
+        "shares": 4792043.0,
+        "value_usd": 45093125.0,
+        "weight_pct": 13.53
+      },
+      {
+        "cusip": "533535100",
+        "security_class": "COM",
+        "issuer": "LINCOLN EDL SVCS CORP",
+        "shares": 1732966.0,
+        "value_usd": 37899966.0,
+        "weight_pct": 11.37
       },
       {
         "cusip": "901476101",
         "security_class": "COM",
         "issuer": "TWIN DISC INC",
         "shares": 1024954.0,
-        "value_usd": 23778933.0,
-        "weight_pct": 6.3
+        "value_usd": 26853795.0,
+        "weight_pct": 8.06
       },
       {
         "cusip": "50216C108",
         "security_class": "COM",
         "issuer": "LSI INDS INC OHIO",
-        "shares": 781399.0,
-        "value_usd": 20769585.0,
-        "weight_pct": 5.5
-      },
-      {
-        "cusip": "04638F108",
-        "security_class": "COM",
-        "issuer": "ASTRONOVA INC",
-        "shares": 535203.0,
-        "value_usd": 15237229.0,
-        "weight_pct": 4.04
+        "shares": 777399.0,
+        "value_usd": 16131029.0,
+        "weight_pct": 4.84
       },
       {
         "cusip": "60649T107",
         "security_class": "COM",
         "issuer": "MISTRAS GROUP INC",
         "shares": 61138.0,
-        "value_usd": 1068081.0,
-        "weight_pct": 0.28
-      },
-      {
-        "cusip": "101137107",
-        "security_class": "COM",
-        "issuer": "BOSTON SCIENTIFIC CORP",
-        "shares": 4100.0,
-        "value_usd": 174988.0,
-        "weight_pct": 0.05
+        "value_usd": 1287566.0,
+        "weight_pct": 0.39
       }
     ],
-    "top_five_pct": 83.83,
+    "top_five_pct": 86.72,
     "top_ten_pct": 100.0,
-    "hhi": 1604.75,
+    "hhi": 1781.88,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 1,
-      "increased_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 1,
       "reduced_positions": 2
     },
     "timeline": [
@@ -128,11 +123,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010370"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014353"
       }
     ]
   },
-  "reported_13f_value_usd": 377467062.0,
+  "reported_13f_value_usd": 333274895.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010370",
+  "validated_accession": "0001214659-26-014353",
   "annualized_turnover_proxy_pct": null
 }

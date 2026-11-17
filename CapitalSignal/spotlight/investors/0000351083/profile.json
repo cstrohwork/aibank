@@ -1,86 +1,122 @@
 {
   "manager_cik": "0000351083",
   "investor_name": "Trustees of the University of Pennsylvania",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-10",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Philadelphia",
   "state": "PA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/351083/0001193125-26-342162.txt"
+    "https://www.sec.gov/Archives/edgar/data/351083/0001193125-26-342162.txt",
+    "https://www.sec.gov/Archives/edgar/data/351083/0001193125-26-462485.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e059397f43672c67bc2b445e5dc92718fd0ab6e7ecc6086d34252028048688cd",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "e5a076e6b250dba935115bd637c40bffdb4b802a327f26c1f9e3ace59ab3cc05",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "b492f891ecc6e5c0a4868dfad03b1932007816c8",
+    "d21152a68a90c078ce29f0ba09be25583c8f69a2"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-10",
-    "accession": "0001193125-26-342162",
-    "source": "https://www.sec.gov/Archives/edgar/data/351083/0001193125-26-342162.txt",
-    "distinct_positions": 5,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-462485",
+    "source": "https://www.sec.gov/Archives/edgar/data/351083/0001193125-26-462485.txt",
+    "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 104240547.0,
+    "reported_long_equity_value_usd": 72383885.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "485924104",
+        "cusip": "55173P109",
         "security_class": "COM",
-        "issuer": "Karman Holdings Inc",
-        "shares": 1652568.0,
-        "value_usd": 82496195.0,
-        "weight_pct": 79.14
-      },
-      {
-        "cusip": "91733P107",
-        "security_class": "COM",
-        "issuer": "USA Rare Earth Inc",
-        "shares": 493094.0,
-        "value_usd": 10640969.0,
-        "weight_pct": 10.21
+        "issuer": "Lyntris Inc",
+        "shares": 3106389.0,
+        "value_usd": 48304349.0,
+        "weight_pct": 66.73
       },
       {
         "cusip": "15675D103",
         "security_class": "COM",
         "issuer": "Cerebras Systems Inc",
-        "shares": 32135.0,
-        "value_usd": 7101835.0,
-        "weight_pct": 6.81
+        "shares": 42236.0,
+        "value_usd": 7503225.0,
+        "weight_pct": 10.37
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "COM",
+        "issuer": "Space Exploration Technologies Corp",
+        "shares": 44384.0,
+        "value_usd": 6695770.0,
+        "weight_pct": 9.25
+      },
+      {
+        "cusip": "91733P107",
+        "security_class": "COM",
+        "issuer": "USA Rare Earth Inc",
+        "shares": 293094.0,
+        "value_usd": 4126764.0,
+        "weight_pct": 5.7
       },
       {
         "cusip": "46125A100",
         "security_class": "COM",
         "issuer": "Intuitive Machines Inc",
         "shares": 179994.0,
-        "value_usd": 3850072.0,
-        "weight_pct": 3.69
+        "value_usd": 2563115.0,
+        "weight_pct": 3.54
       },
       {
-        "cusip": "03214Q108",
+        "cusip": "98390R102",
         "security_class": "COM",
-        "issuer": "Amprius Technologies Inc",
-        "shares": 10929.0,
-        "value_usd": 151476.0,
-        "weight_pct": 0.15
+        "issuer": "Xanadu Quantum Technologies Limited",
+        "shares": 543184.0,
+        "value_usd": 2487783.0,
+        "weight_pct": 3.44
+      },
+      {
+        "cusip": "590106100",
+        "security_class": "COM",
+        "issuer": "Merlin Inc",
+        "shares": 373872.0,
+        "value_usd": 702879.0,
+        "weight_pct": 0.97
       }
     ],
-    "top_five_pct": 100.0,
+    "top_five_pct": 95.59,
     "top_ten_pct": 100.0,
-    "hhi": 6427.46,
-    "changes": null,
+    "hhi": 4704.19,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 2,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-10",
         "accession": "0001193125-26-342162"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-462485"
       }
     ]
   },
-  "reported_13f_value_usd": 104240547.0,
+  "reported_13f_value_usd": 72383885.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-342162",
+  "validated_accession": "0001193125-26-462485",
   "annualized_turnover_proxy_pct": null
 }

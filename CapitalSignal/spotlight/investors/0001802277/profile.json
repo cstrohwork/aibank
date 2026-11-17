@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001802277",
   "investor_name": "Strategic Financial Planning, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PLANO",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1802277/0001214659-25-016430.txt",
-    "https://www.sec.gov/Archives/edgar/data/1802277/0001214659-26-010179.txt"
+    "https://www.sec.gov/Archives/edgar/data/1802277/0001214659-26-010179.txt",
+    "https://www.sec.gov/Archives/edgar/data/1802277/0001214659-26-014288.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3f60b0c72e6dfdf440cb536b742abbe2ac27b6b37f8d395ec7ec8f07218b6fde",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "932aac06e745be046d1606402c6d71019e3b4444466bf757bab2793e22c04ee9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "546bb954ada031cbf4b6ec482453e825ac4710f0",
+    "60eb452f3354e0b5da82c4f72c9c4068a13eeec9",
+    "895f7aed17cddb9d027f093c23ec410a7962e9c7"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010179",
-    "source": "https://www.sec.gov/Archives/edgar/data/1802277/0001214659-26-010179.txt",
-    "distinct_positions": 41,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014288",
+    "source": "https://www.sec.gov/Archives/edgar/data/1802277/0001214659-26-014288.txt",
+    "distinct_positions": 42,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 191566170.0,
+    "reported_long_equity_value_usd": 187351593.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "808524102",
         "security_class": "US BRD MKT ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 841398.0,
-        "value_usd": 24366893.0,
-        "weight_pct": 12.72
+        "shares": 832071.0,
+        "value_usd": 24387987.0,
+        "weight_pct": 13.02
       },
       {
         "cusip": "808524607",
         "security_class": "US SML CAP ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 605509.0,
-        "value_usd": 21872277.0,
-        "weight_pct": 11.42
+        "shares": 615263.0,
+        "value_usd": 20073295.0,
+        "weight_pct": 10.71
       },
       {
         "cusip": "922042858",
         "security_class": "FTSE EMR MKT ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 315363.0,
-        "value_usd": 18812924.0,
-        "weight_pct": 9.82
+        "shares": 317021.0,
+        "value_usd": 18792041.0,
+        "weight_pct": 10.03
       },
       {
         "cusip": "78463X889",
         "security_class": "PORTFOLIO DEVLPD",
         "issuer": "SPDR INDEX SHS FDS",
-        "shares": 352236.0,
-        "value_usd": 17744357.0,
-        "weight_pct": 9.26
-      },
-      {
-        "cusip": "78468R853",
-        "security_class": "PORTFOLIO SM ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 217032.0,
-        "value_usd": 12516234.0,
-        "weight_pct": 6.53
+        "shares": 348524.0,
+        "value_usd": 17494656.0,
+        "weight_pct": 9.34
       },
       {
         "cusip": "922042718",
         "security_class": "FTSE SMCAP ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 78172.0,
-        "value_usd": 12033884.0,
-        "weight_pct": 6.28
+        "shares": 78916.0,
+        "value_usd": 12243907.0,
+        "weight_pct": 6.54
       },
       {
         "cusip": "808524847",
         "security_class": "US REIT ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 499423.0,
-        "value_usd": 11816753.0,
-        "weight_pct": 6.17
+        "shares": 510632.0,
+        "value_usd": 11251542.0,
+        "weight_pct": 6.01
+      },
+      {
+        "cusip": "78468R853",
+        "security_class": "PORTFOLIO SM ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 212049.0,
+        "value_usd": 11208925.0,
+        "weight_pct": 5.98
       },
       {
         "cusip": "808524888",
         "security_class": "INTL SCEQT ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 160420.0,
-        "value_usd": 7719397.0,
-        "weight_pct": 4.03
+        "shares": 160219.0,
+        "value_usd": 7969272.0,
+        "weight_pct": 4.25
       },
       {
         "cusip": "808524631",
         "security_class": "HIGH YIELD BD ET",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 234403.0,
-        "value_usd": 6136666.0,
-        "weight_pct": 3.2
+        "shares": 246952.0,
+        "value_usd": 6233067.0,
+        "weight_pct": 3.33
       },
       {
         "cusip": "922908769",
         "security_class": "TOTAL STK MKT",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 15925.0,
-        "value_usd": 5892104.0,
-        "weight_pct": 3.08
+        "shares": 15928.0,
+        "value_usd": 5960180.0,
+        "weight_pct": 3.18
       }
     ],
-    "top_five_pct": 49.75,
-    "top_ten_pct": 72.51,
-    "hhi": 674.88,
+    "top_five_pct": 49.63,
+    "top_ten_pct": 72.39,
+    "hhi": 670.57,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 0,
-      "increased_positions": 14,
-      "reduced_positions": 21
+      "increased_positions": 17,
+      "reduced_positions": 15
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010179"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014288"
       }
     ]
   },
-  "reported_13f_value_usd": 191566170.0,
+  "reported_13f_value_usd": 187351593.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010179",
+  "validated_accession": "0001214659-26-014288",
   "annualized_turnover_proxy_pct": null
 }

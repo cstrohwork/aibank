@@ -1,28 +1,37 @@
 {
   "manager_cik": "0001880817",
   "investor_name": "Windward Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Miami Beach",
   "state": "FL",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1880817/0001880817-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1880817/0001880817-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1880817/0001880817-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0ccc0a36ce84a286b714db606e9ae46ee4ba1ddccb81e058b472e20834424d38",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "05f2814976d5d5770a3ebe0e96f7964b18db56b5d723b9b4d7a689b476929ae0",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "57ba4d9aaf09489061e67cf9713bc20cc0518a6d",
+    "db58b4c8c63db65f6084ae2ad8a61b8cc7af3b7e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0001880817-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1880817/0001880817-26-000008.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001880817-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1880817/0001880817-26-000009.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 137680697.0,
+    "reported_long_equity_value_usd": 124621097.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,73 +39,84 @@
         "cusip": "399473206",
         "security_class": "COM NEW",
         "issuer": "GROUPON INC",
-        "shares": 2345000.0,
-        "value_usd": 56420700.0,
-        "weight_pct": 40.98
+        "shares": 2294898.0,
+        "value_usd": 45347184.0,
+        "weight_pct": 36.39
       },
       {
         "cusip": "64111Q104",
         "security_class": "COM",
         "issuer": "NETGEAR INC",
-        "shares": 1368956.0,
-        "value_usd": 31965123.0,
-        "weight_pct": 23.22
-      },
-      {
-        "cusip": "06777U200",
-        "security_class": "COM NEW",
-        "issuer": "BARNES & NOBLE ED INC",
-        "shares": 1656736.0,
-        "value_usd": 20808604.0,
-        "weight_pct": 15.11
+        "shares": 1520000.0,
+        "value_usd": 33759200.0,
+        "weight_pct": 27.09
       },
       {
         "cusip": "900450206",
         "security_class": "COM NEW",
         "issuer": "TURTLE BEACH CORP",
         "shares": 1607989.0,
-        "value_usd": 20019463.0,
-        "weight_pct": 14.54
+        "value_usd": 20534020.0,
+        "weight_pct": 16.48
       },
       {
-        "cusip": "238337109",
-        "security_class": "COM",
-        "issuer": "DAVE & BUSTERS ENTMT INC",
-        "shares": 350000.0,
-        "value_usd": 3990000.0,
-        "weight_pct": 2.9
+        "cusip": "06777U200",
+        "security_class": "COM NEW",
+        "issuer": "BARNES & NOBLE ED INC",
+        "shares": 1666736.0,
+        "value_usd": 19317470.0,
+        "weight_pct": 15.5
       },
       {
         "cusip": "466367109",
         "security_class": "COM",
         "issuer": "JACK IN THE BOX INC",
         "shares": 182404.0,
-        "value_usd": 2883807.0,
-        "weight_pct": 2.09
+        "value_usd": 2411381.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "238337109",
+        "security_class": "COM",
+        "issuer": "DAVE & BUSTERS ENTMT INC",
+        "shares": 271574.0,
+        "value_usd": 1732642.0,
+        "weight_pct": 1.39
       },
       {
         "cusip": "M0854Q105",
         "security_class": "SHS",
         "issuer": "ALLOT LTD",
         "shares": 180000.0,
-        "value_usd": 1593000.0,
-        "weight_pct": 1.16
+        "value_usd": 1519200.0,
+        "weight_pct": 1.22
       }
     ],
-    "top_five_pct": 96.75,
+    "top_five_pct": 97.39,
     "top_ten_pct": 100.0,
-    "hhi": 2672.31,
-    "changes": null,
+    "hhi": 2576.87,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 2
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0001880817-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001880817-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 137680697.0,
+  "reported_13f_value_usd": 124621097.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001880817-26-000008",
+  "validated_accession": "0001880817-26-000009",
   "annualized_turnover_proxy_pct": null
 }

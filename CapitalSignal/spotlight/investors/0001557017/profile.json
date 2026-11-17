@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001557017",
   "investor_name": "Capula Management Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Grand Cayman",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1557017/0001172661-25-005004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1557017/0001172661-26-003473.txt"
+    "https://www.sec.gov/Archives/edgar/data/1557017/0001172661-26-003473.txt",
+    "https://www.sec.gov/Archives/edgar/data/1557017/0001172661-26-005110.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "921715eab4b731f606d85fd33abf95db085e68812920e19b2afcc5492c382a89",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "63a0aaf4c8704fffac6a7ad7ec4ce0a0ca3625fbe98a9aedd2bd145199779d68",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0be078de52548042bfc61886e8decf676b90d254",
+    "492283adef192d80017d6bf5c52e824e83a86cd2",
+    "c9020caf71f9a917b89f77388cebff5a500cda50"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003473",
-    "source": "https://www.sec.gov/Archives/edgar/data/1557017/0001172661-26-003473.txt",
-    "distinct_positions": 298,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005110",
+    "source": "https://www.sec.gov/Archives/edgar/data/1557017/0001172661-26-005110.txt",
+    "distinct_positions": 498,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 22680902505.0,
+    "reported_long_equity_value_usd": 23895194131.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 20051540.0,
-        "value_usd": 15016397791.0,
-        "weight_pct": 66.21
+        "shares": 19589072.0,
+        "value_usd": 15002290791.0,
+        "weight_pct": 62.78
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 4595409.0,
-        "value_usd": 3431713581.0,
-        "weight_pct": 15.13
+        "shares": 5452697.0,
+        "value_usd": 4158390313.0,
+        "weight_pct": 17.4
       },
       {
-        "cusip": "01609W102",
-        "security_class": "SPONSORED ADS",
-        "issuer": "ALIBABA GROUP HLDG LTD",
-        "shares": 3343509.0,
-        "value_usd": 320909994.0,
-        "weight_pct": 1.41
+        "cusip": "78464A854",
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 7250000.0,
+        "value_usd": 650760000.0,
+        "weight_pct": 2.72
       },
       {
-        "cusip": "097023105",
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 275000.0,
+        "value_usd": 192736500.0,
+        "weight_pct": 0.81
+      },
+      {
+        "cusip": "81762P102",
         "security_class": "COM",
-        "issuer": "BOEING CO",
-        "shares": 951980.0,
-        "value_usd": 206075111.0,
-        "weight_pct": 0.91
-      },
-      {
-        "cusip": "958102105",
-        "security_class": "COM",
-        "issuer": "WESTERN DIGITAL CORP",
-        "shares": 280315.0,
-        "value_usd": 179042797.0,
+        "issuer": "SERVICENOW INC",
+        "shares": 1400903.0,
+        "value_usd": 187735011.0,
         "weight_pct": 0.79
       },
       {
-        "cusip": "90353T100",
+        "cusip": "80004C200",
         "security_class": "COM",
-        "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 2205388.0,
-        "value_usd": 159140798.0,
+        "issuer": "SANDISK CORP",
+        "shares": 98822.0,
+        "value_usd": 171939409.0,
+        "weight_pct": 0.72
+      },
+      {
+        "cusip": "G54950103",
+        "security_class": "SHS",
+        "issuer": "LINDE PLC",
+        "shares": 350699.0,
+        "value_usd": 166459280.0,
         "weight_pct": 0.7
       },
       {
-        "cusip": "464288513",
-        "security_class": "IBOXX HI YD ETF",
-        "issuer": "ISHARES TR",
-        "shares": 1913439.0,
-        "value_usd": 153017717.0,
-        "weight_pct": 0.67
-      },
-      {
-        "cusip": "458140100",
+        "cusip": "697435105",
         "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 1052463.0,
-        "value_usd": 146955409.0,
-        "weight_pct": 0.65
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 418503.0,
+        "value_usd": 166275427.0,
+        "weight_pct": 0.7
       },
       {
-        "cusip": "722304102",
-        "security_class": "SPONSORED ADS",
-        "issuer": "PDD HOLDINGS INC",
-        "shares": 1914949.0,
-        "value_usd": 146072310.0,
-        "weight_pct": 0.64
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 197429.0,
+        "value_usd": 146052052.0,
+        "weight_pct": 0.61
       },
       {
-        "cusip": "931142103",
-        "security_class": "COM",
-        "issuer": "WALMART INC",
-        "shares": 1253680.0,
-        "value_usd": 141991798.0,
-        "weight_pct": 0.63
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 501948.0,
+        "value_usd": 132890734.0,
+        "weight_pct": 0.56
       }
     ],
-    "top_five_pct": 84.45,
-    "top_ten_pct": 87.74,
-    "hhi": 4620.92,
+    "top_five_pct": 84.5,
+    "top_ten_pct": 87.78,
+    "hhi": 4258.53,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 154,
-      "exited_positions": 164,
-      "increased_positions": 69,
-      "reduced_positions": 75
+      "previous_period": "2026-06-30",
+      "new_positions": 257,
+      "exited_positions": 57,
+      "increased_positions": 131,
+      "reduced_positions": 105
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003473"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005110"
       }
     ]
   },
-  "reported_13f_value_usd": 22680902505.0,
+  "reported_13f_value_usd": 23895194131.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003473",
+  "validated_accession": "0001172661-26-005110",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001729242",
   "investor_name": "Conrad N. Hilton Foundation",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WESTLAKE VILLAGE",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1729242/0001729242-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1729242/0001729242-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1729242/0001729242-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1729242/0001729242-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "93a57b15d8ef806629abf5f3484896768f9665c0cd51849335b684db3767009b",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "4735b1ab0de4fb9995b4ef5109659d4a7900c7d5b16eda52b3d8308942521c31",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "403d550a98748ffa8b0997fd67f562019eb02cc8",
+    "5a3d4df960dab3768669b5635da5279990c81ca0",
+    "c248eb9ee36d5ff22c179e24a0bc8ae0b0249e62"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001729242-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1729242/0001729242-26-000003.txt",
-    "distinct_positions": 2,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001729242-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1729242/0001729242-26-000004.txt",
+    "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 575606367.0,
+    "reported_long_equity_value_usd": 572426158.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,25 +42,17 @@
         "cusip": "464287200",
         "security_class": "COMM",
         "issuer": "ISHARES CORE S&P 500 ETF",
-        "shares": 727217.0,
-        "value_usd": 544605539.0,
-        "weight_pct": 94.61
-      },
-      {
-        "cusip": "46432F842",
-        "security_class": "COMM",
-        "issuer": "ISHARES CORE MSCI EAFE ETF",
-        "shares": 320986.0,
-        "value_usd": 31000828.0,
-        "weight_pct": 5.39
+        "shares": 747439.0,
+        "value_usd": 572426158.0,
+        "weight_pct": 100.0
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 8980.86,
+    "hhi": 10000.0,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
       "exited_positions": 1,
       "increased_positions": 1,
       "reduced_positions": 0
@@ -64,11 +67,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001729242-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001729242-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 575606367.0,
+  "reported_13f_value_usd": 572426158.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001729242-26-000003",
+  "validated_accession": "0001729242-26-000004",
   "annualized_turnover_proxy_pct": null
 }

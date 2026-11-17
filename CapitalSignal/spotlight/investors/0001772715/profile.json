@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001772715",
   "investor_name": "Prestige Wealth Management Group LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "FLEMINGTON",
   "state": "NJ",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1772715/0001772715-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1772715/0001772715-26-000010.txt"
+    "https://www.sec.gov/Archives/edgar/data/1772715/0001772715-26-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1772715/0001772715-26-000012.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2efdd2f76994337d792c705a6635879c0f36078f3260199f4e00a07756e31f31",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "ed7d535e0549244ab408b7b436b01a1e8a606f0ef98effff94a341d19f1bd5ce",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-10|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "51862438203e4852229f9da46a9149cffa289728",
+    "5c6ec5691058cd12c26563aa8aade9d19349226a",
+    "deb0df7bb9740be3e677673232ea8c06440d82f3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001772715-26-000010",
-    "source": "https://www.sec.gov/Archives/edgar/data/1772715/0001772715-26-000010.txt",
-    "distinct_positions": 1101,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001772715-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1772715/0001772715-26-000012.txt",
+    "distinct_positions": 1104,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 550630315.0,
+    "reported_long_equity_value_usd": 555236487.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 1287615.0,
+        "value_usd": 64882920.0,
+        "weight_pct": 11.69
+      },
+      {
         "cusip": "97717X669",
         "security_class": "US QTLY DIV GRT",
         "issuer": "WISDOMTREE TR",
-        "shares": 605899.0,
-        "value_usd": 57936062.0,
-        "weight_pct": 10.52
-      },
-      {
-        "cusip": "464288588",
-        "security_class": "MBS ETF",
-        "issuer": "ISHARES TR",
-        "shares": 361979.0,
-        "value_usd": 34214256.0,
-        "weight_pct": 6.21
+        "shares": 600985.0,
+        "value_usd": 58439781.0,
+        "weight_pct": 10.53
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 106001.0,
-        "value_usd": 30672458.0,
-        "weight_pct": 5.57
+        "shares": 106618.0,
+        "value_usd": 35506089.0,
+        "weight_pct": 6.39
       },
       {
         "cusip": "46435U853",
         "security_class": "BROAD USD HIGH",
         "issuer": "ISHARES TR",
-        "shares": 818912.0,
-        "value_usd": 30316123.0,
-        "weight_pct": 5.51
+        "shares": 820044.0,
+        "value_usd": 29291972.0,
+        "weight_pct": 5.28
       },
       {
         "cusip": "921937835",
         "security_class": "TOTAL BND MRKT",
         "issuer": "VANGUARD BD INDEX FDS",
-        "shares": 409324.0,
-        "value_usd": 30048475.0,
-        "weight_pct": 5.46
-      },
-      {
-        "cusip": "97717X511",
-        "security_class": "YIELD ENHANCD US",
-        "issuer": "WISDOMTREE TR",
-        "shares": 674986.0,
-        "value_usd": 29348404.0,
-        "weight_pct": 5.33
+        "shares": 411291.0,
+        "value_usd": 28852064.0,
+        "weight_pct": 5.2
       },
       {
         "cusip": "97717Y477",
         "security_class": "US QUALITY GROW",
         "issuer": "WISDOMTREE TR",
-        "shares": 360786.0,
-        "value_usd": 23822700.0,
-        "weight_pct": 4.33
+        "shares": 359055.0,
+        "value_usd": 24659898.0,
+        "weight_pct": 4.44
+      },
+      {
+        "cusip": "81369Y605",
+        "security_class": "ST STR FINL ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 247749.0,
+        "value_usd": 13229797.0,
+        "weight_pct": 2.38
       },
       {
         "cusip": "194162103",
         "security_class": "COM",
         "issuer": "COLGATE PALMOLIVE CO",
-        "shares": 145809.0,
-        "value_usd": 13367801.0,
-        "weight_pct": 2.43
+        "shares": 146088.0,
+        "value_usd": 12464258.0,
+        "weight_pct": 2.24
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 23887.0,
+        "value_usd": 12251443.0,
+        "weight_pct": 2.21
       },
       {
         "cusip": "922908744",
-        "security_class": "VALUE ETF",
+        "security_class": "MRNGSTR VAL ETF",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 54640.0,
-        "value_usd": 11907696.0,
-        "weight_pct": 2.16
-      },
-      {
-        "cusip": "81369Y209",
-        "security_class": "ST STR CARE ETF",
-        "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 61524.0,
-        "value_usd": 9761441.0,
-        "weight_pct": 1.77
+        "shares": 54314.0,
+        "value_usd": 11736170.0,
+        "weight_pct": 2.11
       }
     ],
-    "top_five_pct": 33.27,
-    "top_ten_pct": 49.29,
-    "hhi": 340.03,
+    "top_five_pct": 39.08,
+    "top_ten_pct": 52.47,
+    "hhi": 419.36,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 248,
-      "exited_positions": 143,
-      "increased_positions": 269,
-      "reduced_positions": 262
+      "previous_period": "2026-06-30",
+      "new_positions": 38,
+      "exited_positions": 35,
+      "increased_positions": 154,
+      "reduced_positions": 111
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001772715-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001772715-26-000012"
       }
     ]
   },
-  "reported_13f_value_usd": 550630315.0,
+  "reported_13f_value_usd": 555236487.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001772715-26-000010",
+  "validated_accession": "0001772715-26-000012",
   "annualized_turnover_proxy_pct": null
 }

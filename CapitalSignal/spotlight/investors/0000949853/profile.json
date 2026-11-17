@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000949853",
   "investor_name": "P.A.W. CAPITAL CORP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-11-10",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GREENWICH",
   "state": "CT",
   "country": "United States",
@@ -11,113 +11,126 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/949853/0000949853-25-000007.txt",
     "https://www.sec.gov/Archives/edgar/data/949853/0000949853-26-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/949853/0000949853-26-000012.txt"
+    "https://www.sec.gov/Archives/edgar/data/949853/0000949853-26-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/949853/0000949853-26-000013.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "93cf20542daced37bfccfa3ea4764cef879eb49c947556bf8b006a53e2a63bff",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "67d18822608f7e2bac6280cac5eea73be332b419909b0fe82ba5cc11ceeb9f89",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-03-31|2026-07-21|||",
+    "2026-06-30|2026-11-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "216bf7521e137330eee9a0ad0d510caec0cb25b3",
+    "44925565285f94de5a7a1f3b8a4bc278c3c5c4a1",
+    "4ebc9b2b921d16aac429b64e440240a24b5b9b97",
+    "c6c3ef76acbde4dfaa995ff485dfab17299053ea"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-11-10",
-    "accession": "0000949853-26-000012",
-    "source": "https://www.sec.gov/Archives/edgar/data/949853/0000949853-26-000012.txt",
-    "distinct_positions": 88,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000949853-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/949853/0000949853-26-000013.txt",
+    "distinct_positions": 87,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 315170059.0,
+    "reported_long_equity_value_usd": 335432734.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "38141G104",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "GOLDMAN SACHS GROUP INC",
-        "shares": 11621.0,
-        "value_usd": 11753131.0,
-        "weight_pct": 3.73
-      },
-      {
-        "cusip": "617446448",
-        "security_class": "COM NEW",
-        "issuer": "MORGAN STANLEY CO",
-        "shares": 53675.0,
-        "value_usd": 11220222.0,
-        "weight_pct": 3.56
+        "issuer": "MICROSOFT CORP",
+        "shares": 24470.0,
+        "value_usd": 12550663.0,
+        "weight_pct": 3.74
       },
       {
         "cusip": "46625H100",
         "security_class": "COM",
         "issuer": "JPMORGAN CHASE CO",
-        "shares": 28200.0,
-        "value_usd": 9230706.0,
-        "weight_pct": 2.93
-      },
-      {
-        "cusip": "00287Y109",
-        "security_class": "COM",
-        "issuer": "ABBVIE INC",
-        "shares": 35135.0,
-        "value_usd": 8841371.0,
-        "weight_pct": 2.81
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC NON VOTING CAP STK CL C",
-        "shares": 24940.0,
-        "value_usd": 8812051.0,
-        "weight_pct": 2.8
-      },
-      {
-        "cusip": "58933Y105",
-        "security_class": "COM",
-        "issuer": "MERCK CO INC NEW",
-        "shares": 65295.0,
-        "value_usd": 8390408.0,
-        "weight_pct": 2.66
-      },
-      {
-        "cusip": "478160104",
-        "security_class": "COM",
-        "issuer": "JOHNSON JOHNSON",
-        "shares": 30800.0,
-        "value_usd": 7822276.0,
-        "weight_pct": 2.48
-      },
-      {
-        "cusip": "17275R102",
-        "security_class": "COM",
-        "issuer": "CISCO SYSTEMS INC",
-        "shares": 66550.0,
-        "value_usd": 7816963.0,
-        "weight_pct": 2.48
+        "shares": 32095.0,
+        "value_usd": 10617990.0,
+        "weight_pct": 3.17
       },
       {
         "cusip": "30233Q108",
         "security_class": "COM",
         "issuer": "EXXON MOBIL CORP",
-        "shares": 56155.0,
-        "value_usd": 7677512.0,
-        "weight_pct": 2.44
+        "shares": 64620.0,
+        "value_usd": 10516906.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 39715.0,
+        "value_usd": 10389048.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY",
+        "shares": 8560.0,
+        "value_usd": 9904605.0,
+        "weight_pct": 2.95
       },
       {
         "cusip": "780259305",
         "security_class": "SPON ADS",
         "issuer": "SHELL PLC ADR",
-        "shares": 94220.0,
-        "value_usd": 7305819.0,
-        "weight_pct": 2.32
+        "shares": 103400.0,
+        "value_usd": 9828170.0,
+        "weight_pct": 2.93
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK CO INC NEW",
+        "shares": 64575.0,
+        "value_usd": 9383393.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "166764100",
+        "security_class": "COM",
+        "issuer": "CHEVRON CORP",
+        "shares": 45880.0,
+        "value_usd": 9369155.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 9482.0,
+        "value_usd": 8537214.0,
+        "weight_pct": 2.55
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON JOHNSON",
+        "shares": 31875.0,
+        "value_usd": 8438588.0,
+        "weight_pct": 2.52
       }
     ],
-    "top_five_pct": 15.82,
-    "top_ten_pct": 28.2,
-    "hhi": 189.93,
+    "top_five_pct": 16.09,
+    "top_ten_pct": 29.67,
+    "hhi": 199.87,
     "changes": {
-      "previous_period": "2026-03-31",
-      "new_positions": 31,
-      "exited_positions": 7,
-      "increased_positions": 47,
-      "reduced_positions": 7
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 34,
+      "reduced_positions": 35
     },
     "timeline": [
       {
@@ -134,11 +147,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-11-10",
         "accession": "0000949853-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000949853-26-000013"
       }
     ]
   },
-  "reported_13f_value_usd": 315170059.0,
+  "reported_13f_value_usd": 335432734.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000949853-26-000012",
+  "validated_accession": "0000949853-26-000013",
   "annualized_turnover_proxy_pct": null
 }

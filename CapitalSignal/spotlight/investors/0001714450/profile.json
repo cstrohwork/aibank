@@ -1,29 +1,40 @@
 {
   "manager_cik": "0001714450",
   "investor_name": "RPTC Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
-  "city": "JACKSON",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Jackson",
   "state": "WY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1714450/0001104659-25-111959.txt",
-    "https://www.sec.gov/Archives/edgar/data/1714450/0001104659-26-096663.txt"
+    "https://www.sec.gov/Archives/edgar/data/1714450/0001104659-26-096663.txt",
+    "https://www.sec.gov/Archives/edgar/data/1714450/0001104659-26-127685.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d45856fd1c5e474fb475621721c15cfedd37e10bc964befec6484ab255dc9f45",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "a42799186d6615c46e4926771ef22384957404fb5f84089c3eaa6e4f7c29e858",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "43bc07749af0e2a03117bb579f610500d2164cf5",
+    "71d2e13b57236221ec8474e016a4e1c795455b99",
+    "cfc9da3fe9c60b8cc435ac19a574fc0f17da740d"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-096663",
-    "source": "https://www.sec.gov/Archives/edgar/data/1714450/0001104659-26-096663.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127685",
+    "source": "https://www.sec.gov/Archives/edgar/data/1714450/0001104659-26-127685.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 593779828.0,
+    "reported_long_equity_value_usd": 617289721.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,67 +43,67 @@
         "security_class": "COM",
         "issuer": "THE CHARLES SCHWAB CORPORATION",
         "shares": 3522501.0,
-        "value_usd": 325021167.0,
-        "weight_pct": 54.74
+        "value_usd": 344289248.0,
+        "weight_pct": 55.77
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 225810.0,
-        "value_usd": 169106813.0,
-        "weight_pct": 28.48
+        "shares": 226423.0,
+        "value_usd": 173405853.0,
+        "weight_pct": 28.09
       },
       {
         "cusip": "921943858",
         "security_class": "VAN FTSE DEV MKT",
         "issuer": "VANGUARD TAX-MANAGED FDS",
-        "shares": 611154.0,
-        "value_usd": 43544700.0,
-        "weight_pct": 7.33
+        "shares": 611627.0,
+        "value_usd": 43186991.0,
+        "weight_pct": 7.0
       },
       {
         "cusip": "46432F842",
         "security_class": "CORE MSCI EAFE",
         "issuer": "ISHARES TR",
         "shares": 315891.0,
-        "value_usd": 30508753.0,
-        "weight_pct": 5.14
+        "value_usd": 30603520.0,
+        "weight_pct": 4.96
       },
       {
         "cusip": "922042858",
         "security_class": "FTSE EMR MKT ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 218423.0,
-        "value_usd": 13037696.0,
-        "weight_pct": 2.2
+        "shares": 218830.0,
+        "value_usd": 12978833.0,
+        "weight_pct": 2.1
       },
       {
         "cusip": "46434G103",
         "security_class": "CORE MSCI EMKT",
         "issuer": "ISHARES INC",
         "shares": 137518.0,
-        "value_usd": 11391991.0,
-        "weight_pct": 1.92
+        "value_usd": 11160961.0,
+        "weight_pct": 1.81
       },
       {
         "cusip": "354921108",
         "security_class": "BITCOIN ETF SHS",
         "issuer": "FRANKLIN TEMPLETON DIGITAL H",
         "shares": 34465.0,
-        "value_usd": 1168708.0,
-        "weight_pct": 0.2
+        "value_usd": 1664315.0,
+        "weight_pct": 0.27
       }
     ],
-    "top_five_pct": 97.88,
+    "top_five_pct": 97.92,
     "top_ten_pct": 100.0,
-    "hhi": 3896.03,
+    "hhi": 3981.2,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
-      "increased_positions": 2,
-      "reduced_positions": 3
+      "increased_positions": 3,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -104,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-096663"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127685"
       }
     ]
   },
-  "reported_13f_value_usd": 593779828.0,
+  "reported_13f_value_usd": 617289721.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-096663",
+  "validated_accession": "0001104659-26-127685",
   "annualized_turnover_proxy_pct": null
 }

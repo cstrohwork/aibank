@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001389574",
   "investor_name": "Nicholas Investment Partners, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "RANCHO SANTA FE",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1389574/0001389574-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/1389574/0001389574-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1389574/0001389574-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1389574/0001389574-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "04c15a5ddc744d171e682e819b4bde3e3cebe790f44e877563cf398bc1133196",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "962544ce15a3faa76d33dc58925e9f6c32c1146421c9cc219bf6afe29a0fc322",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "155d6558b44439347ce33050bb392c3f6bb2a384",
+    "63a003d395e9bec437c44238399bafb45082b4bd",
+    "8db964f369f3115437e439bb1e0fc5e700db96fe"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001389574-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1389574/0001389574-26-000005.txt",
-    "distinct_positions": 175,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001389574-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1389574/0001389574-26-000006.txt",
+    "distinct_positions": 187,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1550635647.0,
+    "reported_long_equity_value_usd": 1319011789.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "05605H100",
         "security_class": "COM",
         "issuer": "BWX TECHNOLOGIES INC",
-        "shares": 272395.0,
-        "value_usd": 53021687.0,
-        "weight_pct": 3.42
+        "shares": 251542.0,
+        "value_usd": 34461254.0,
+        "weight_pct": 2.61
       },
       {
-        "cusip": "76155X100",
+        "cusip": "97717P104",
         "security_class": "COM",
-        "issuer": "REVOLUTION MEDICINES INC",
-        "shares": 244594.0,
-        "value_usd": 45807564.0,
-        "weight_pct": 2.95
-      },
-      {
-        "cusip": "131193104",
-        "security_class": "COM",
-        "issuer": "CALLAWAY GOLF CO",
-        "shares": 1954378.0,
-        "value_usd": 36722763.0,
-        "weight_pct": 2.37
-      },
-      {
-        "cusip": "607828100",
-        "security_class": "COM",
-        "issuer": "MODINE MFG CO",
-        "shares": 111261.0,
-        "value_usd": 29708912.0,
-        "weight_pct": 1.92
-      },
-      {
-        "cusip": "144285103",
-        "security_class": "COM",
-        "issuer": "CARPENTER TECHNOLOGY CORP",
-        "shares": 43653.0,
-        "value_usd": 26926917.0,
-        "weight_pct": 1.74
-      },
-      {
-        "cusip": "533535100",
-        "security_class": "COM",
-        "issuer": "LINCOLN EDL SVCS CORP",
-        "shares": 531935.0,
-        "value_usd": 26543557.0,
-        "weight_pct": 1.71
+        "issuer": "WISDOMTREE INC",
+        "shares": 1364215.0,
+        "value_usd": 33136782.0,
+        "weight_pct": 2.51
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 126682.0,
-        "value_usd": 25347801.0,
+        "shares": 125712.0,
+        "value_usd": 28710107.0,
+        "weight_pct": 2.18
+      },
+      {
+        "cusip": "29337E102",
+        "security_class": "COM",
+        "issuer": "ENLIVEN THERAPEUTICS INC",
+        "shares": 549190.0,
+        "value_usd": 25174870.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "131193104",
+        "security_class": "COM",
+        "issuer": "CALLAWAY GOLF CO",
+        "shares": 1719903.0,
+        "value_usd": 24233433.0,
+        "weight_pct": 1.84
+      },
+      {
+        "cusip": "163086101",
+        "security_class": "COM",
+        "issuer": "CHEFS WHSE INC",
+        "shares": 202225.0,
+        "value_usd": 22683578.0,
+        "weight_pct": 1.72
+      },
+      {
+        "cusip": "87241L109",
+        "security_class": "COM",
+        "issuer": "TFI INTERNATIONAL INC",
+        "shares": 179044.0,
+        "value_usd": 21460214.0,
         "weight_pct": 1.63
       },
       {
-        "cusip": "859241101",
-        "security_class": "COM",
-        "issuer": "STERLING INFRASTRUCTURE INC",
-        "shares": 30120.0,
-        "value_usd": 25281523.0,
-        "weight_pct": 1.63
-      },
-      {
-        "cusip": "05464T104",
-        "security_class": "COM",
-        "issuer": "AXSOME THERAPEUTICS INC.",
-        "shares": 98974.0,
-        "value_usd": 24225866.0,
-        "weight_pct": 1.56
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 45335.0,
+        "value_usd": 20681374.0,
+        "weight_pct": 1.57
       },
       {
         "cusip": "36828A101",
         "security_class": "COM",
         "issuer": "GE VERNOVA INC",
         "shares": 20532.0,
-        "value_usd": 24122226.0,
-        "weight_pct": 1.56
+        "value_usd": 19515461.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "82982T106",
+        "security_class": "COM",
+        "issuer": "SITIME CORP",
+        "shares": 29550.0,
+        "value_usd": 19267487.0,
+        "weight_pct": 1.46
       }
     ],
-    "top_five_pct": 12.39,
-    "top_ten_pct": 20.49,
-    "hhi": 109.9,
+    "top_five_pct": 11.05,
+    "top_ten_pct": 18.9,
+    "hhi": 100.01,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 73,
-      "exited_positions": 79,
-      "increased_positions": 48,
-      "reduced_positions": 46
+      "previous_period": "2026-06-30",
+      "new_positions": 47,
+      "exited_positions": 35,
+      "increased_positions": 40,
+      "reduced_positions": 69
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001389574-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001389574-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 1550635647.0,
+  "reported_13f_value_usd": 1319011789.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001389574-26-000005",
+  "validated_accession": "0001389574-26-000006",
   "annualized_turnover_proxy_pct": null
 }

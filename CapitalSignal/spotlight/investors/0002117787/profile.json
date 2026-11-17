@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002117787",
   "investor_name": "Up Capital Management, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-05",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ROSEVILLE",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2117787/0001214659-26-009669.txt"
+    "https://www.sec.gov/Archives/edgar/data/2117787/0001214659-26-009669.txt",
+    "https://www.sec.gov/Archives/edgar/data/2117787/0001214659-26-014220.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e658685d539f699518cea6ef19d10731b1773088d75341befd3bfbf593570000",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "acfa98f8ae4973950ac43bd4022256bf9b8b678fcd8067834815e8a88bdbb82e",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-05|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "27efe7d726e423b49716fffdea6f5c20ac5e92c0",
+    "f54f3e79b415adb7025c0f35534b087af41cea94"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-05",
-    "accession": "0001214659-26-009669",
-    "source": "https://www.sec.gov/Archives/edgar/data/2117787/0001214659-26-009669.txt",
-    "distinct_positions": 20,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014220",
+    "source": "https://www.sec.gov/Archives/edgar/data/2117787/0001214659-26-014220.txt",
+    "distinct_positions": 140,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 129229079.0,
+    "reported_long_equity_value_usd": 128102778.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 148587.0,
-        "value_usd": 29730786.0,
-        "weight_pct": 23.01
+        "issuer": "NVIDIA CORP",
+        "shares": 144156.0,
+        "value_usd": 32922375.0,
+        "weight_pct": 25.7
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "ETF",
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 22370.0,
+        "value_usd": 15678177.0,
+        "weight_pct": 12.24
       },
       {
         "cusip": "958102105",
         "security_class": "COM",
         "issuer": "WESTERN DIGITAL CORP",
-        "shares": 30747.0,
-        "value_usd": 19638724.0,
-        "weight_pct": 15.2
-      },
-      {
-        "cusip": "922908363",
-        "security_class": "S&P 500 ETF SHS",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 23126.0,
-        "value_usd": 15883030.0,
-        "weight_pct": 12.29
+        "shares": 29986.0,
+        "value_usd": 13627438.0,
+        "weight_pct": 10.64
       },
       {
         "cusip": "81369Y803",
-        "security_class": "STATE STREET TEC",
-        "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 50290.0,
-        "value_usd": 9581193.0,
-        "weight_pct": 7.41
+        "security_class": "ETF",
+        "issuer": "STATE STREET TECHNOLOGY SELECT SECTOR SPDR ETF",
+        "shares": 48781.0,
+        "value_usd": 9548816.0,
+        "weight_pct": 7.45
       },
       {
         "cusip": "46090E103",
-        "security_class": "UNIT SER 1",
+        "security_class": "ETF",
         "issuer": "INVESCO QQQ TR",
-        "shares": 12500.0,
-        "value_usd": 9205225.0,
-        "weight_pct": 7.12
-      },
-      {
-        "cusip": "46432F842",
-        "security_class": "CORE MSCI EAFE",
-        "issuer": "ISHARES TR",
-        "shares": 75584.0,
-        "value_usd": 7299903.0,
-        "weight_pct": 5.65
-      },
-      {
-        "cusip": "78464A847",
-        "security_class": "STATE STREET SPD",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 104595.0,
-        "value_usd": 7066426.0,
-        "weight_pct": 5.47
-      },
-      {
-        "cusip": "464287234",
-        "security_class": "MSCI EMERG MKT ETF",
-        "issuer": "ISHARES TR",
-        "shares": 101561.0,
-        "value_usd": 6947788.0,
-        "weight_pct": 5.38
+        "shares": 11977.0,
+        "value_usd": 8860477.0,
+        "weight_pct": 6.92
       },
       {
         "cusip": "040413205",
-        "security_class": "COM SHS",
+        "security_class": "COM",
         "issuer": "ARISTA NETWORKS INC",
-        "shares": 40861.0,
-        "value_usd": 6941467.0,
-        "weight_pct": 5.37
+        "shares": 38953.0,
+        "value_usd": 7930441.0,
+        "weight_pct": 6.19
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "ETF",
+        "issuer": "ISHARES CORE MSCI EAFE ETF",
+        "shares": 71833.0,
+        "value_usd": 6959181.0,
+        "weight_pct": 5.43
+      },
+      {
+        "cusip": "464287234",
+        "security_class": "ETF",
+        "issuer": "ISHARES MSCI EMERGING MARKETS ETF",
+        "shares": 96385.0,
+        "value_usd": 6437554.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 400 MID CAP ETF",
+        "shares": 101693.0,
+        "value_usd": 6410732.0,
+        "weight_pct": 5.0
       },
       {
         "cusip": "78468R853",
-        "security_class": "STATE STREET SPD",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 111660.0,
-        "value_usd": 6439432.0,
-        "weight_pct": 4.98
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR PORTFOLIO S&P 600 SMALL CAP ETF",
+        "shares": 107115.0,
+        "value_usd": 5662099.0,
+        "weight_pct": 4.42
       }
     ],
-    "top_five_pct": 65.03,
-    "top_ten_pct": 91.88,
-    "hhi": 1183.48,
-    "changes": null,
+    "top_five_pct": 62.95,
+    "top_ten_pct": 89.02,
+    "hhi": 1186.11,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 134,
+      "exited_positions": 14,
+      "increased_positions": 2,
+      "reduced_positions": 4
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-05",
         "accession": "0001214659-26-009669"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014220"
       }
     ]
   },
-  "reported_13f_value_usd": 129229079.0,
+  "reported_13f_value_usd": 128102778.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-009669",
+  "validated_accession": "0001214659-26-014220",
   "annualized_turnover_proxy_pct": null
 }

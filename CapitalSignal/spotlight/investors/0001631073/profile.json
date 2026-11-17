@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001631073",
   "investor_name": "RAFFA WEALTH MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-27",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WASHINGTON",
   "state": "DC",
   "country": "United States",
@@ -12,20 +12,35 @@
     "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-009029.txt",
     "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-009030.txt",
     "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-009031.txt",
-    "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-009032.txt"
+    "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-009032.txt",
+    "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-014430.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "03f7915e89c1cf466b5ef46b03bdc15229ab3ad6e382c327dc9bb5eaf933b798",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "dc14a7ba23e6f6b89040f1eb80fec88390eafb9918507512c925be080a073f58",
+  "accession_fingerprints": [
+    "2025-09-30|2026-07-27|||",
+    "2025-12-31|2026-07-27|||",
+    "2026-03-31|2026-07-27|||",
+    "2026-06-30|2026-07-27|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0570de08a985dd40c2fda1585e8c0c17af5d1fa6",
+    "33a2fffc9ed2e1dc2a25bc3132ee4c9442e801f7",
+    "33cd1c3d68111ed465d1da3275ca6e310d411ecd",
+    "ad6fecaad007d751545d6e6b32008e12578a2d74",
+    "cdd2219cc8bbc8deef20cc89a2afa7795838e51c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-27",
-    "accession": "0001214659-26-009032",
-    "source": "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-009032.txt",
-    "distinct_positions": 1591,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014430",
+    "source": "https://www.sec.gov/Archives/edgar/data/1631073/0001214659-26-014430.txt",
+    "distinct_positions": 1611,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 793303331.0,
+    "reported_long_equity_value_usd": 786877444.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -33,92 +48,92 @@
         "cusip": "922908769",
         "security_class": "ETF",
         "issuer": "Vanguard Total Stock Market ETF",
-        "shares": 241262.0,
-        "value_usd": 89275222.0,
-        "weight_pct": 11.25
-      },
-      {
-        "cusip": "46436E718",
-        "security_class": "ETF",
-        "issuer": "iShares 0-3 Month Treasury Bond ETF",
-        "shares": 694542.0,
-        "value_usd": 69919575.0,
-        "weight_pct": 8.81
-      },
-      {
-        "cusip": "921943858",
-        "security_class": "ETF",
-        "issuer": "Vanguard FTSE Developed Markets ETF",
-        "shares": 863323.0,
-        "value_usd": 61511772.0,
-        "weight_pct": 7.75
+        "shares": 232954.0,
+        "value_usd": 87180721.0,
+        "weight_pct": 11.08
       },
       {
         "cusip": "025072885",
         "security_class": "ETF",
         "issuer": "Avantis US Equity ETF",
-        "shares": 450553.0,
-        "value_usd": 57706866.0,
-        "weight_pct": 7.27
+        "shares": 484993.0,
+        "value_usd": 62122782.0,
+        "weight_pct": 7.89
       },
       {
-        "cusip": "921937835",
+        "cusip": "921943858",
         "security_class": "ETF",
-        "issuer": "Vanguard Total Bond Market ETF",
-        "shares": 728737.0,
-        "value_usd": 53496567.0,
-        "weight_pct": 6.74
+        "issuer": "Vanguard FTSE Developed Markets ETF",
+        "shares": 879506.0,
+        "value_usd": 62101942.0,
+        "weight_pct": 7.89
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "ETF",
+        "issuer": "iShares 0-3 Month Treasury Bond ETF",
+        "shares": 591608.0,
+        "value_usd": 59563159.0,
+        "weight_pct": 7.57
       },
       {
         "cusip": "464288646",
         "security_class": "ETF",
         "issuer": "iShares Short-Term Corporate Bond ETF",
-        "shares": 987415.0,
-        "value_usd": 51750434.0,
-        "weight_pct": 6.52
+        "shares": 1033979.0,
+        "value_usd": 52970754.0,
+        "weight_pct": 6.73
       },
       {
         "cusip": "92206C870",
         "security_class": "ETF",
         "issuer": "Vanguard Intermediate-Term Corporate Bond ETF",
-        "shares": 613965.0,
-        "value_usd": 50744194.0,
-        "weight_pct": 6.4
+        "shares": 637590.0,
+        "value_usd": 49929747.0,
+        "weight_pct": 6.35
+      },
+      {
+        "cusip": "921937835",
+        "security_class": "ETF",
+        "issuer": "Vanguard Total Bond Market ETF",
+        "shares": 682163.0,
+        "value_usd": 47853758.0,
+        "weight_pct": 6.08
       },
       {
         "cusip": "46435G672",
         "security_class": "ETF",
         "issuer": "iShares Core International Aggregate Bond ETF",
-        "shares": 880019.0,
-        "value_usd": 44528950.0,
-        "weight_pct": 5.61
+        "shares": 916796.0,
+        "value_usd": 45106370.0,
+        "weight_pct": 5.73
       },
       {
-        "cusip": "25434V708",
+        "cusip": "25239Y212",
         "security_class": "ETF",
         "issuer": "Dimensional U.S. Core Equity 2 ETF",
-        "shares": 894699.0,
-        "value_usd": 39687800.0,
-        "weight_pct": 5.0
+        "shares": 856915.0,
+        "value_usd": 38089890.0,
+        "weight_pct": 4.84
       },
       {
         "cusip": "316092790",
         "security_class": "ETF",
         "issuer": "Fidelity Quality Factor ETF",
-        "shares": 424404.0,
-        "value_usd": 34529853.0,
-        "weight_pct": 4.35
+        "shares": 429332.0,
+        "value_usd": 35741961.0,
+        "weight_pct": 4.54
       }
     ],
-    "top_five_pct": 41.84,
-    "top_ten_pct": 69.73,
-    "hhi": 559.77,
+    "top_five_pct": 41.17,
+    "top_ten_pct": 68.71,
+    "hhi": 540.96,
     "changes": {
-      "previous_period": "2026-03-31",
-      "new_positions": 173,
-      "exited_positions": 100,
-      "increased_positions": 653,
-      "reduced_positions": 315
+      "previous_period": "2026-06-30",
+      "new_positions": 115,
+      "exited_positions": 95,
+      "increased_positions": 305,
+      "reduced_positions": 309
     },
     "timeline": [
       {
@@ -140,11 +155,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-27",
         "accession": "0001214659-26-009032"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014430"
       }
     ]
   },
-  "reported_13f_value_usd": 793303331.0,
+  "reported_13f_value_usd": 786877444.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-009032",
+  "validated_accession": "0001214659-26-014430",
   "annualized_turnover_proxy_pct": null
 }

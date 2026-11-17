@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001626220",
   "investor_name": "Greenhouse Funds LLLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BALTIMORE",
   "state": "MD",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1626220/0001626220-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1626220/0001626220-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1626220/0001626220-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1626220/0001626220-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "734f43ee878747d63b00510b6af487828cf8042a47e67deeb145a26732787fbb",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "c2dacad1b724bdcdf01b0ea9b028b93f40ee61fb804be1afe4b95f77998d8b46",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "55a036a52a4adf30a14c8646d1a4248d8d39f5bd",
+    "b3a8f83168b6dd68233c0ae613c881f0fb5445b7",
+    "d1aff8aa2ca5b9bec10eab26c6beda0bb0b4c985"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001626220-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1626220/0001626220-26-000005.txt",
-    "distinct_positions": 29,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001626220-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1626220/0001626220-26-000006.txt",
+    "distinct_positions": 28,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1899483774.0,
+    "reported_long_equity_value_usd": 1678158533.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "64049M209",
+        "security_class": "COM NEW",
+        "issuer": "NEOGENOMICS INC",
+        "shares": 8395422.0,
+        "value_usd": 154139948.0,
+        "weight_pct": 9.19
+      },
+      {
         "cusip": "62886E108",
         "security_class": "COM",
         "issuer": "NCR VOYIX CORPORATION",
-        "shares": 19897615.0,
-        "value_usd": 162563515.0,
-        "weight_pct": 8.56
+        "shares": 21657455.0,
+        "value_usd": 148136992.0,
+        "weight_pct": 8.83
       },
       {
         "cusip": "75524B104",
         "security_class": "COM",
         "issuer": "RBC BEARINGS INC",
-        "shares": 195498.0,
-        "value_usd": 125912442.0,
-        "weight_pct": 6.63
-      },
-      {
-        "cusip": "64049M209",
-        "security_class": "COM NEW",
-        "issuer": "NEOGENOMICS INC",
-        "shares": 8574210.0,
-        "value_usd": 125097724.0,
-        "weight_pct": 6.59
-      },
-      {
-        "cusip": "H8088L103",
-        "security_class": "CLASS A ORD SHS",
-        "issuer": "SPORTRADAR GROUP AG",
-        "shares": 8287494.0,
-        "value_usd": 124063785.0,
-        "weight_pct": 6.53
-      },
-      {
-        "cusip": "42226A107",
-        "security_class": "COM",
-        "issuer": "HEALTHEQUITY INC",
-        "shares": 1183024.0,
-        "value_usd": 106850728.0,
-        "weight_pct": 5.63
-      },
-      {
-        "cusip": "G66721104",
-        "security_class": "SHS",
-        "issuer": "NORWEGIAN CRUISE LINE HLDGS",
-        "shares": 4733164.0,
-        "value_usd": 99917092.0,
-        "weight_pct": 5.26
+        "shares": 194363.0,
+        "value_usd": 97031840.0,
+        "weight_pct": 5.78
       },
       {
         "cusip": "090043100",
         "security_class": "COM",
         "issuer": "BILL HOLDINGS INC",
-        "shares": 2672670.0,
-        "value_usd": 96643747.0,
-        "weight_pct": 5.09
+        "shares": 2135327.0,
+        "value_usd": 90836811.0,
+        "weight_pct": 5.41
+      },
+      {
+        "cusip": "42226A107",
+        "security_class": "COM",
+        "issuer": "HEALTHEQUITY INC",
+        "shares": 1002314.0,
+        "value_usd": 88664696.0,
+        "weight_pct": 5.28
+      },
+      {
+        "cusip": "H8088L103",
+        "security_class": "CLASS A ORD SHS",
+        "issuer": "SPORTRADAR GROUP AG",
+        "shares": 7534654.0,
+        "value_usd": 87100600.0,
+        "weight_pct": 5.19
+      },
+      {
+        "cusip": "589889104",
+        "security_class": "COM",
+        "issuer": "MERIT MED SYS INC",
+        "shares": 968970.0,
+        "value_usd": 83554283.0,
+        "weight_pct": 4.98
+      },
+      {
+        "cusip": "78464A870",
+        "security_class": "ST STR SP BIOT",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 488463.0,
+        "value_usd": 77020846.0,
+        "weight_pct": 4.59
+      },
+      {
+        "cusip": "920253101",
+        "security_class": "COM",
+        "issuer": "VALMONT INDS INC",
+        "shares": 157629.0,
+        "value_usd": 72979074.0,
+        "weight_pct": 4.35
       },
       {
         "cusip": "421298100",
         "security_class": "COM",
         "issuer": "HAYWARD HLDGS INC",
-        "shares": 5507710.0,
-        "value_usd": 95338460.0,
-        "weight_pct": 5.02
-      },
-      {
-        "cusip": "12763L105",
-        "security_class": "COM",
-        "issuer": "CADRE HLDGS INC",
-        "shares": 2868664.0,
-        "value_usd": 81785611.0,
-        "weight_pct": 4.31
-      },
-      {
-        "cusip": "675232102",
-        "security_class": "COM",
-        "issuer": "OCEANEERING INTL INC",
-        "shares": 1896343.0,
-        "value_usd": 76839818.0,
-        "weight_pct": 4.05
+        "shares": 5901576.0,
+        "value_usd": 72235290.0,
+        "weight_pct": 4.3
       }
     ],
-    "top_five_pct": 33.93,
-    "top_ten_pct": 57.65,
-    "hhi": 472.41,
+    "top_five_pct": 34.49,
+    "top_ten_pct": 57.9,
+    "hhi": 493.8,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 10,
-      "exited_positions": 13,
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 3,
       "increased_positions": 8,
-      "reduced_positions": 10
+      "reduced_positions": 17
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001626220-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001626220-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 1899483774.0,
+  "reported_13f_value_usd": 1678158533.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001626220-26-000005",
+  "validated_accession": "0001626220-26-000006",
   "annualized_turnover_proxy_pct": null
 }

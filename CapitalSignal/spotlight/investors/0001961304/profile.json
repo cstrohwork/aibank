@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001961304",
   "investor_name": "Templeton & Phillips Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOOKOUT MOUNTAIN",
   "state": "TN",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1961304/0001398344-25-020456.txt",
-    "https://www.sec.gov/Archives/edgar/data/1961304/0001398344-26-013793.txt"
+    "https://www.sec.gov/Archives/edgar/data/1961304/0001398344-26-013793.txt",
+    "https://www.sec.gov/Archives/edgar/data/1961304/0001398344-26-020141.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6af45d3f363c1c17d6b955a16a317cf81a6ea040cd97160a6b1f01379ea333db",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "0a3ee69f245d82ed815002122889f60b86322e8e7a731343f135265c303674c5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-06|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4c1a0d268d5f4ec509995133299c637fb45df09d",
+    "6f6ab3e651ffefec72499a280697a464498fffe5",
+    "91fc3c299bef15aabca15fbb769a6aa515041117"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0001398344-26-013793",
-    "source": "https://www.sec.gov/Archives/edgar/data/1961304/0001398344-26-013793.txt",
-    "distinct_positions": 52,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001398344-26-020141",
+    "source": "https://www.sec.gov/Archives/edgar/data/1961304/0001398344-26-020141.txt",
+    "distinct_positions": 56,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 137081915.0,
+    "reported_long_equity_value_usd": 139514477.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "084670702",
         "security_class": "CL B NEW",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 92232.0,
-        "value_usd": 46151970.0,
-        "weight_pct": 33.67
+        "shares": 92220.0,
+        "value_usd": 45920949.0,
+        "weight_pct": 32.91
       },
       {
         "cusip": "136375102",
         "security_class": "COM",
         "issuer": "CANADIAN NATL RY CO",
-        "shares": 105443.0,
-        "value_usd": 12573046.0,
-        "weight_pct": 9.17
+        "shares": 105475.0,
+        "value_usd": 12541000.0,
+        "weight_pct": 8.99
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 47669.0,
-        "value_usd": 11361429.0,
-        "weight_pct": 8.29
-      },
-      {
-        "cusip": "11271J107",
-        "security_class": "CL A LTD VT SH",
-        "issuer": "BROOKFIELD CORP",
-        "shares": 235746.0,
-        "value_usd": 10040422.0,
-        "weight_pct": 7.32
+        "shares": 44017.0,
+        "value_usd": 10966836.0,
+        "weight_pct": 7.86
       },
       {
         "cusip": "681116109",
         "security_class": "COM",
         "issuer": "OLLIES BARGAIN OUTLET HLDGS",
-        "shares": 100940.0,
-        "value_usd": 7760267.0,
-        "weight_pct": 5.66
+        "shares": 104567.0,
+        "value_usd": 8956164.0,
+        "weight_pct": 6.42
+      },
+      {
+        "cusip": "11271J107",
+        "security_class": "CL A LTD VT SH",
+        "issuer": "BROOKFIELD CORP",
+        "shares": 236323.0,
+        "value_usd": 8616337.0,
+        "weight_pct": 6.18
       },
       {
         "cusip": "45104G104",
         "security_class": "ADR",
-        "issuer": "ICICI BANK LIMITED",
-        "shares": 249393.0,
-        "value_usd": 7239879.0,
-        "weight_pct": 5.28
+        "issuer": "ICICI BK LTD",
+        "shares": 290675.0,
+        "value_usd": 8008096.0,
+        "weight_pct": 5.74
       },
       {
         "cusip": "344419106",
         "security_class": "SPON ADR UNITS",
         "issuer": "FOMENTO ECONOMICO MEXICANO S",
         "shares": 53586.0,
-        "value_usd": 6853649.0,
-        "weight_pct": 5.0
-      },
-      {
-        "cusip": "71385M107",
-        "security_class": "COMMON STOCK",
-        "issuer": "PERIMETER SOLUTIONS INC",
-        "shares": 116151.0,
-        "value_usd": 4140783.0,
-        "weight_pct": 3.02
+        "value_usd": 6353156.0,
+        "weight_pct": 4.55
       },
       {
         "cusip": "191098102",
         "security_class": "COM",
         "issuer": "COCA COLA CONS INC",
         "shares": 20430.0,
-        "value_usd": 3900496.0,
-        "weight_pct": 2.85
+        "value_usd": 3866786.0,
+        "weight_pct": 2.77
       },
       {
-        "cusip": "22284P105",
-        "security_class": "CL A",
-        "issuer": "COVENANT LOGISTICS GROUP INC",
-        "shares": 80134.0,
-        "value_usd": 2981885.0,
-        "weight_pct": 2.18
+        "cusip": "71385M107",
+        "security_class": "COMMON STOCK",
+        "issuer": "PERIMETER SOLUTIONS INC",
+        "shares": 92151.0,
+        "value_usd": 2425414.0,
+        "weight_pct": 1.74
+      },
+      {
+        "cusip": "713448108",
+        "security_class": "COM",
+        "issuer": "PEPSICO INC",
+        "shares": 17585.0,
+        "value_usd": 2228371.0,
+        "weight_pct": 1.6
       }
     ],
-    "top_five_pct": 64.11,
-    "top_ten_pct": 82.44,
-    "hhi": 1459.01,
+    "top_five_pct": 62.36,
+    "top_ten_pct": 78.76,
+    "hhi": 1388.99,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 16,
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 4,
       "increased_positions": 8,
-      "reduced_positions": 10
+      "reduced_positions": 11
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0001398344-26-013793"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001398344-26-020141"
       }
     ]
   },
-  "reported_13f_value_usd": 137081915.0,
+  "reported_13f_value_usd": 139514477.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001398344-26-013793",
+  "validated_accession": "0001398344-26-020141",
   "annualized_turnover_proxy_pct": null
 }

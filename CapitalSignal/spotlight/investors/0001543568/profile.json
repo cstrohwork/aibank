@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001543568",
   "investor_name": "Connective Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PALO ALTO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1543568/0001543568-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1543568/0001543568-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1543568/0001543568-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1543568/0001543568-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6532164134550f2eb945d4b4f257ac4998753fe3defc63b1b244c5a8f41f6f88",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "f71fa3aeffa6ecd3ccb9a6b155f2a0e507b3d1a29d4af2202ce6e6cf7db9b1ef",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "45fcd13fc02ad61be8212530c818f3b11954fb7f",
+    "a9859303f92bedd934348385a5a13285dd5e0f8d",
+    "f68050c0cdc8137bd9a38527ea31a726854bd49e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001543568-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1543568/0001543568-26-000008.txt",
-    "distinct_positions": 70,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001543568-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1543568/0001543568-26-000009.txt",
+    "distinct_positions": 79,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 141927753.0,
+    "reported_long_equity_value_usd": 134383679.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
         "issuer": "INVESCO QQQ TR",
-        "shares": 48645.0,
-        "value_usd": 35822178.0,
-        "weight_pct": 25.24
+        "shares": 39225.0,
+        "value_usd": 29017478.0,
+        "weight_pct": 21.59
       },
       {
         "cusip": "74347R206",
         "security_class": "PSHS ULTRA QQQ",
         "issuer": "PROSHARES TR",
         "shares": 105918.0,
-        "value_usd": 10248626.0,
-        "weight_pct": 7.22
+        "value_usd": 10131057.0,
+        "weight_pct": 7.54
       },
       {
         "cusip": "46120E602",
         "security_class": "COM NEW",
         "issuer": "INTUITIVE SURGICAL INC",
         "shares": 23392.0,
-        "value_usd": 9302531.0,
-        "weight_pct": 6.55
+        "value_usd": 9511889.0,
+        "weight_pct": 7.08
       },
       {
-        "cusip": "007903107",
-        "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 12189.0,
-        "value_usd": 7080712.0,
-        "weight_pct": 4.99
-      },
-      {
-        "cusip": "874039100",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 13191.0,
-        "value_usd": 6299626.0,
-        "weight_pct": 4.44
-      },
-      {
-        "cusip": "25809K105",
+        "cusip": "30303M102",
         "security_class": "CL A",
-        "issuer": "DOORDASH INC",
-        "shares": 31569.0,
-        "value_usd": 5825428.0,
-        "weight_pct": 4.1
+        "issuer": "META PLATFORMS INC",
+        "shares": 10481.0,
+        "value_usd": 7600612.0,
+        "weight_pct": 5.66
       },
       {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 29025.0,
-        "value_usd": 5807612.0,
-        "weight_pct": 4.09
+        "cusip": "315912808",
+        "security_class": "NASDAQ COMPSIT",
+        "issuer": "FIDELITY COMWLTH TR",
+        "shares": 71000.0,
+        "value_usd": 7514640.0,
+        "weight_pct": 5.59
       },
       {
-        "cusip": "11135F101",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 15089.0,
-        "value_usd": 5699870.0,
-        "weight_pct": 4.02
+        "issuer": "MICROSOFT CORP",
+        "shares": 14354.0,
+        "value_usd": 7362167.0,
+        "weight_pct": 5.48
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
         "shares": 19379.0,
-        "value_usd": 5607507.0,
-        "weight_pct": 3.95
+        "value_usd": 6453595.0,
+        "weight_pct": 4.8
       },
       {
-        "cusip": "22160K105",
+        "cusip": "007903107",
         "security_class": "COM",
-        "issuer": "COSTCO WHOLESALE CORPORATION",
-        "shares": 5935.0,
-        "value_usd": 5552014.0,
-        "weight_pct": 3.91
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 10056.0,
+        "value_usd": 6151859.0,
+        "weight_pct": 4.58
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 16546.0,
+        "value_usd": 5810790.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 45811.0,
+        "value_usd": 5507857.0,
+        "weight_pct": 4.1
       }
     ],
-    "top_five_pct": 48.44,
-    "top_ten_pct": 68.52,
-    "hhi": 918.82,
+    "top_five_pct": 47.46,
+    "top_ten_pct": 70.74,
+    "hhi": 782.46,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 46,
-      "exited_positions": 49,
-      "increased_positions": 6,
-      "reduced_positions": 11
+      "previous_period": "2026-06-30",
+      "new_positions": 35,
+      "exited_positions": 26,
+      "increased_positions": 10,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001543568-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001543568-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 141927753.0,
+  "reported_13f_value_usd": 134383679.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001543568-26-000008",
+  "validated_accession": "0001543568-26-000009",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001051359",
   "investor_name": "PAR CAPITAL MANAGEMENT INC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1051359/0001051359-25-000011.txt",
-    "https://www.sec.gov/Archives/edgar/data/1051359/0001051359-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1051359/0001051359-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1051359/0001051359-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5ccea46bf638eab0c5363bd6c05a9baaa0c35cc6e204eb9e2952a9b75f337de7",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "38433c39fe4d098533acd74c66fa370545535a9756e4a1b300741247a2fc8158",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "59b051d5dd5a27bb7bf844a6feeab3dc61509f35",
+    "a1a89ee5c1e4f61b4a28f03eaa2a4351ec461e38",
+    "ec6797f111269c00f1aef72d4779864f99d16de4"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001051359-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1051359/0001051359-26-000008.txt",
-    "distinct_positions": 45,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001051359-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1051359/0001051359-26-000010.txt",
+    "distinct_positions": 43,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4030610106.0,
+    "reported_long_equity_value_usd": 3784325694.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "910047109",
         "security_class": "COM",
         "issuer": "UNITED AIRLS HLDGS INC",
-        "shares": 5359741.0,
-        "value_usd": 728871179.0,
-        "weight_pct": 18.08
+        "shares": 5274837.0,
+        "value_usd": 585243165.0,
+        "weight_pct": 15.46
       },
       {
         "cusip": "87165B103",
         "security_class": "COM",
         "issuer": "SYNCHRONY FINANCIAL",
         "shares": 7612137.0,
-        "value_usd": 578903019.0,
-        "weight_pct": 14.36
+        "value_usd": 540233363.0,
+        "weight_pct": 14.28
       },
       {
         "cusip": "30212P303",
         "security_class": "COM NEW",
         "issuer": "EXPEDIA GROUP INC",
         "shares": 1895847.0,
-        "value_usd": 485109330.0,
-        "weight_pct": 12.04
-      },
-      {
-        "cusip": "247361702",
-        "security_class": "COM NEW",
-        "issuer": "DELTA AIR LINES INC",
-        "shares": 3482745.0,
-        "value_usd": 326193897.0,
-        "weight_pct": 8.09
+        "value_usd": 499290266.0,
+        "weight_pct": 13.19
       },
       {
         "cusip": "96208T104",
         "security_class": "COM",
         "issuer": "WEX INC",
         "shares": 2254984.0,
-        "value_usd": 318155693.0,
-        "weight_pct": 7.89
+        "value_usd": 380415801.0,
+        "weight_pct": 10.05
       },
       {
         "cusip": "90353T100",
         "security_class": "COM",
         "issuer": "UBER TECHNOLOGIES INC",
-        "shares": 4217700.0,
-        "value_usd": 304349232.0,
-        "weight_pct": 7.55
+        "shares": 5354600.0,
+        "value_usd": 366843646.0,
+        "weight_pct": 9.69
+      },
+      {
+        "cusip": "247361702",
+        "security_class": "COM NEW",
+        "issuer": "DELTA AIR LINES INC",
+        "shares": 3482745.0,
+        "value_usd": 290669898.0,
+        "weight_pct": 7.68
       },
       {
         "cusip": "844741108",
         "security_class": "COM",
         "issuer": "SOUTHWEST AIRLS CO",
-        "shares": 4905756.0,
-        "value_usd": 252253974.0,
-        "weight_pct": 6.26
-      },
-      {
-        "cusip": "09857L108",
-        "security_class": "COM",
-        "issuer": "BOOKING HOLDINGS INC",
-        "shares": 992100.0,
-        "value_usd": 176831904.0,
-        "weight_pct": 4.39
-      },
-      {
-        "cusip": "146869102",
-        "security_class": "CL A",
-        "issuer": "CARVANA CO",
-        "shares": 1739360.0,
-        "value_usd": 114484675.0,
-        "weight_pct": 2.84
+        "shares": 5352015.0,
+        "value_usd": 222857905.0,
+        "weight_pct": 5.89
       },
       {
         "cusip": "009066101",
         "security_class": "COM CL A",
         "issuer": "AIRBNB INC",
-        "shares": 750000.0,
-        "value_usd": 107325000.0,
-        "weight_pct": 2.66
+        "shares": 752000.0,
+        "value_usd": 120808800.0,
+        "weight_pct": 3.19
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 161333.0,
+        "value_usd": 116995465.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "146869102",
+        "security_class": "CL A",
+        "issuer": "CARVANA CO",
+        "shares": 1743360.0,
+        "value_usd": 109029734.0,
+        "weight_pct": 2.88
       }
     ],
-    "top_five_pct": 60.47,
-    "top_ten_pct": 84.17,
-    "hhi": 956.12,
+    "top_five_pct": 62.68,
+    "top_ten_pct": 85.42,
+    "hhi": 948.44,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 20,
-      "increased_positions": 15,
-      "reduced_positions": 20
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 5,
+      "increased_positions": 13,
+      "reduced_positions": 8
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001051359-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001051359-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 4030610106.0,
+  "reported_13f_value_usd": 3784325694.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001051359-26-000008",
+  "validated_accession": "0001051359-26-000010",
   "annualized_turnover_proxy_pct": null
 }

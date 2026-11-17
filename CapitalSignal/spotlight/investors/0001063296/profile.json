@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001063296",
   "investor_name": "ATLANTIC INVESTMENT MANAGEMENT, INC.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1063296/0001493152-25-023434.txt",
-    "https://www.sec.gov/Archives/edgar/data/1063296/0001493152-26-038311.txt"
+    "https://www.sec.gov/Archives/edgar/data/1063296/0001493152-26-038311.txt",
+    "https://www.sec.gov/Archives/edgar/data/1063296/0001493152-26-052375.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "64df5988ee5c24cbf5f60cb80490e5f453b80b546748cdfb09a349e81d474912",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "29c1b28c5fc7798beb1430dd08a432d6faedfdecf8abd65dc52af3580dd1a6ab",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2a27d877fb7da178a00ffb300b8300a885cd4723",
+    "2a9faad3d467327031ab2dbff19ec9f376815b78",
+    "2d979d5d30be0ee408bdcefa901d11158d8b4962"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-038311",
-    "source": "https://www.sec.gov/Archives/edgar/data/1063296/0001493152-26-038311.txt",
-    "distinct_positions": 12,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001493152-26-052375",
+    "source": "https://www.sec.gov/Archives/edgar/data/1063296/0001493152-26-052375.txt",
+    "distinct_positions": 11,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 191967442.0,
+    "reported_long_equity_value_usd": 179865438.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "044186104",
-        "security_class": "COM",
-        "issuer": "ASHLAND INC",
-        "shares": 509000.0,
-        "value_usd": 33538010.0,
-        "weight_pct": 17.47
-      },
-      {
         "cusip": "G3265R107",
         "security_class": "COM SHS",
         "issuer": "APTIV PLC",
-        "shares": 453842.0,
-        "value_usd": 27856822.0,
-        "weight_pct": 14.51
+        "shares": 737542.0,
+        "value_usd": 31729057.0,
+        "weight_pct": 17.64
       },
       {
         "cusip": "497266106",
         "security_class": "COM",
         "issuer": "KIRBY CORP",
-        "shares": 186700.0,
-        "value_usd": 25385599.0,
-        "weight_pct": 13.22
+        "shares": 229200.0,
+        "value_usd": 30082500.0,
+        "weight_pct": 16.73
       },
       {
-        "cusip": "24906P109",
-        "security_class": "COM",
-        "issuer": "DENTSPLY SIRONA INC",
-        "shares": 2203000.0,
-        "value_usd": 23373830.0,
-        "weight_pct": 12.18
+        "cusip": "G48833118",
+        "security_class": "ORD SHS",
+        "issuer": "WEATHERFORD INTERNATIONAL PLC",
+        "shares": 305023.0,
+        "value_usd": 23999210.0,
+        "weight_pct": 13.34
       },
       {
         "cusip": "693656100",
         "security_class": "COM",
         "issuer": "PVH CORPORATION",
-        "shares": 256426.0,
-        "value_usd": 19042195.0,
-        "weight_pct": 9.92
+        "shares": 266926.0,
+        "value_usd": 19765870.0,
+        "weight_pct": 10.99
       },
       {
-        "cusip": "G6564A105",
-        "security_class": "USD ORD SHS",
-        "issuer": "NOMAD FOODS LTD",
-        "shares": 1333772.0,
-        "value_usd": 14604803.0,
-        "weight_pct": 7.61
+        "cusip": "24906P109",
+        "security_class": "COM",
+        "issuer": "DENTSPLY SIRONA INC",
+        "shares": 2034000.0,
+        "value_usd": 18021240.0,
+        "weight_pct": 10.02
       },
       {
         "cusip": "000957100",
         "security_class": "COM",
         "issuer": "ABM INDS INC",
-        "shares": 308287.0,
-        "value_usd": 13638617.0,
-        "weight_pct": 7.1
+        "shares": 357287.0,
+        "value_usd": 17185505.0,
+        "weight_pct": 9.55
       },
       {
         "cusip": "688239201",
         "security_class": "COM",
         "issuer": "OSHKOSH CORP",
-        "shares": 83700.0,
-        "value_usd": 12846276.0,
-        "weight_pct": 6.69
+        "shares": 113100.0,
+        "value_usd": 14569542.0,
+        "weight_pct": 8.1
+      },
+      {
+        "cusip": "G6564A105",
+        "security_class": "USD ORD SHS",
+        "issuer": "NOMAD FOODS LTD",
+        "shares": 1157772.0,
+        "value_usd": 11959785.0,
+        "weight_pct": 6.65
       },
       {
         "cusip": "024061103",
         "security_class": "COM",
         "issuer": "DAUCH CORP",
-        "shares": 1404420.0,
-        "value_usd": 7611956.0,
-        "weight_pct": 3.97
+        "shares": 1000063.0,
+        "value_usd": 5220329.0,
+        "weight_pct": 2.9
       },
       {
-        "cusip": "G9600F104",
-        "security_class": "ORDINARY SHARES",
-        "issuer": "VERSIGENT PLC",
-        "shares": 120656.0,
-        "value_usd": 5068759.0,
-        "weight_pct": 2.64
+        "cusip": "G6375R107",
+        "security_class": "SHS",
+        "issuer": "NATIONAL ENERGY SERVICES REU",
+        "shares": 170000.0,
+        "value_usd": 4329900.0,
+        "weight_pct": 2.41
       }
     ],
-    "top_five_pct": 67.3,
-    "top_ten_pct": 95.31,
-    "hhi": 1124.2,
+    "top_five_pct": 68.72,
+    "top_ten_pct": 98.33,
+    "hhi": 1208.22,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 5,
-      "increased_positions": 4,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 2,
+      "increased_positions": 7,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-038311"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001493152-26-052375"
       }
     ]
   },
-  "reported_13f_value_usd": 191967442.0,
+  "reported_13f_value_usd": 179865438.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001493152-26-038311",
+  "validated_accession": "0001493152-26-052375",
   "annualized_turnover_proxy_pct": null
 }

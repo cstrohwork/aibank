@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001312908",
   "investor_name": "Gates Capital Management, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1312908/0001172661-25-004848.txt",
-    "https://www.sec.gov/Archives/edgar/data/1312908/0001172661-26-003599.txt"
+    "https://www.sec.gov/Archives/edgar/data/1312908/0001172661-26-003599.txt",
+    "https://www.sec.gov/Archives/edgar/data/1312908/0001172661-26-005430.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8b491da05f0f06c48cf91574b5e56775923c9ef8e90bd9818e4e59c4a7e099e2",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "82951ad021894cda85b0c569b4322f09365059d60057ab13beec21601fb9e29a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "539c10920e5f88d19be6340c572e9faa23a76623",
+    "6d37611c429a382407cc424ad35b52e7e768b842",
+    "7fcac2489d9efc85005aa59731ef79f682a51e90"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003599",
-    "source": "https://www.sec.gov/Archives/edgar/data/1312908/0001172661-26-003599.txt",
-    "distinct_positions": 31,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005430",
+    "source": "https://www.sec.gov/Archives/edgar/data/1312908/0001172661-26-005430.txt",
+    "distinct_positions": 29,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3045560272.0,
+    "reported_long_equity_value_usd": 2728288905.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "237266101",
-        "security_class": "COM",
-        "issuer": "DARLING INGREDIENTS INC",
-        "shares": 2902582.0,
-        "value_usd": 158539029.0,
-        "weight_pct": 5.21
-      },
-      {
         "cusip": "00510N102",
         "security_class": "COM",
         "issuer": "TIC SOLUTIONS INC",
-        "shares": 19501621.0,
-        "value_usd": 157768114.0,
-        "weight_pct": 5.18
+        "shares": 20621267.0,
+        "value_usd": 171568941.0,
+        "weight_pct": 6.29
       },
       {
-        "cusip": "23918K108",
-        "security_class": "COM",
-        "issuer": "DAVITA INC",
-        "shares": 688136.0,
-        "value_usd": 153096497.0,
-        "weight_pct": 5.03
+        "cusip": "G7S00T104",
+        "security_class": "SHS",
+        "issuer": "PENTAIR PLC",
+        "shares": 3181841.0,
+        "value_usd": 168605755.0,
+        "weight_pct": 6.18
       },
       {
-        "cusip": "760125104",
-        "security_class": "SPONSORED ADR",
-        "issuer": "RENTOKIL INITIAL PLC",
-        "shares": 5173407.0,
-        "value_usd": 148011174.0,
-        "weight_pct": 4.86
+        "cusip": "G25508105",
+        "security_class": "ORD",
+        "issuer": "CRH PLC",
+        "shares": 1763584.0,
+        "value_usd": 146024755.0,
+        "weight_pct": 5.35
       },
       {
-        "cusip": "78409V104",
-        "security_class": "COM",
-        "issuer": "S&P GLOBAL INC",
-        "shares": 361186.0,
-        "value_usd": 147096610.0,
-        "weight_pct": 4.83
-      },
-      {
-        "cusip": "29415F104",
-        "security_class": "COM",
-        "issuer": "ENVISTA HOLDINGS CORPORATION",
-        "shares": 5552383.0,
-        "value_usd": 146305292.0,
-        "weight_pct": 4.8
-      },
-      {
-        "cusip": "14448C104",
-        "security_class": "COM",
-        "issuer": "CARRIER GLOBAL CORPORATION",
-        "shares": 1991308.0,
-        "value_usd": 146062442.0,
-        "weight_pct": 4.8
-      },
-      {
-        "cusip": "57638P104",
-        "security_class": "COMMON STOCK",
-        "issuer": "MASTERBRAND INC",
-        "shares": 13186754.0,
-        "value_usd": 135691699.0,
-        "weight_pct": 4.46
+        "cusip": "60744M106",
+        "security_class": "COM SHS",
+        "issuer": "MOBILITY GLOBAL INC",
+        "shares": 8366387.0,
+        "value_usd": 143483537.0,
+        "weight_pct": 5.26
       },
       {
         "cusip": "829933100",
         "security_class": "COMMON STOCK",
         "issuer": "SIRIUSXM HOLDINGS INC",
-        "shares": 4539927.0,
-        "value_usd": 134109444.0,
-        "weight_pct": 4.4
+        "shares": 5055971.0,
+        "value_usd": 130848529.0,
+        "weight_pct": 4.8
       },
       {
-        "cusip": "047649108",
+        "cusip": "216648501",
         "security_class": "COM",
-        "issuer": "ATKORE INC",
-        "shares": 1710192.0,
-        "value_usd": 130043000.0,
-        "weight_pct": 4.27
+        "issuer": "COOPER COS INC",
+        "shares": 2287269.0,
+        "value_usd": 129299317.0,
+        "weight_pct": 4.74
+      },
+      {
+        "cusip": "36467J108",
+        "security_class": "COM",
+        "issuer": "GAMING & LEISURE P",
+        "shares": 3210527.0,
+        "value_usd": 121903710.0,
+        "weight_pct": 4.47
+      },
+      {
+        "cusip": "57638P104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MASTERBRAND INC",
+        "shares": 17298679.0,
+        "value_usd": 121090753.0,
+        "weight_pct": 4.44
+      },
+      {
+        "cusip": "28618M106",
+        "security_class": "COM",
+        "issuer": "ELEMENT SOLUTIONS INC",
+        "shares": 3327814.0,
+        "value_usd": 120733092.0,
+        "weight_pct": 4.43
+      },
+      {
+        "cusip": "237266101",
+        "security_class": "COM",
+        "issuer": "DARLING INGREDIENTS INC",
+        "shares": 1982698.0,
+        "value_usd": 120369596.0,
+        "weight_pct": 4.41
       }
     ],
-    "top_five_pct": 25.1,
-    "top_ten_pct": 47.83,
-    "hhi": 379.51,
+    "top_five_pct": 27.88,
+    "top_ten_pct": 50.36,
+    "hhi": 409.73,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 4,
-      "increased_positions": 7,
-      "reduced_positions": 18
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 3,
+      "increased_positions": 11,
+      "reduced_positions": 16
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003599"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005430"
       }
     ]
   },
-  "reported_13f_value_usd": 3045560272.0,
+  "reported_13f_value_usd": 2728288905.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003599",
+  "validated_accession": "0001172661-26-005430",
   "annualized_turnover_proxy_pct": null
 }

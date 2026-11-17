@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001908450",
   "investor_name": "Newlands Management Operations LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1908450/0000902664-25-004933.txt",
-    "https://www.sec.gov/Archives/edgar/data/1908450/0000902664-26-003458.txt"
+    "https://www.sec.gov/Archives/edgar/data/1908450/0000902664-26-003458.txt",
+    "https://www.sec.gov/Archives/edgar/data/1908450/0000902664-26-004542.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "60df9220d6f147ddf4f0fbb21169465160ca00f6dfba0a65f236cdca53cc9554",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "174f685c54022e6fee72ffc29a465c6b28b19803c3d15105d45ecdcb6dad291e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "16b4794788ae114a74f7aaffa85753edc2893587",
+    "3d67e43b767cc80a9d077ea70ec9e1646782da63",
+    "af18926a903b61b4d502ec9432055b285016415b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000902664-26-003458",
-    "source": "https://www.sec.gov/Archives/edgar/data/1908450/0000902664-26-003458.txt",
-    "distinct_positions": 16,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000902664-26-004542",
+    "source": "https://www.sec.gov/Archives/edgar/data/1908450/0000902664-26-004542.txt",
+    "distinct_positions": 21,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 16567453751.0,
+    "reported_long_equity_value_usd": 18568832424.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
         "shares": 9664414.0,
-        "value_usd": 5443867762.0,
-        "weight_pct": 32.86
+        "value_usd": 7008439745.0,
+        "weight_pct": 37.74
       },
       {
         "cusip": "770700102",
         "security_class": "COM CL A",
         "issuer": "ROBINHOOD MKTS INC",
         "shares": 24158860.0,
-        "value_usd": 2422650481.0,
-        "weight_pct": 14.62
+        "value_usd": 2717871750.0,
+        "weight_pct": 14.64
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
         "shares": 6207074.0,
-        "value_usd": 2218222035.0,
-        "weight_pct": 13.39
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 3766106.0,
-        "value_usd": 1584024184.0,
-        "weight_pct": 9.56
+        "value_usd": 2135730022.0,
+        "weight_pct": 11.5
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
         "shares": 6589070.0,
-        "value_usd": 1570438944.0,
-        "weight_pct": 9.48
+        "value_usd": 1641666791.0,
+        "weight_pct": 8.84
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 3766106.0,
+        "value_usd": 1336252070.0,
+        "weight_pct": 7.2
       },
       {
         "cusip": "25809K105",
         "security_class": "CL A",
         "issuer": "DOORDASH INC",
         "shares": 7068299.0,
-        "value_usd": 1304313214.0,
-        "weight_pct": 7.87
+        "value_usd": 1297386281.0,
+        "weight_pct": 6.99
       },
       {
         "cusip": "82509L107",
         "security_class": "CL A SUB VTG SHS",
         "issuer": "SHOPIFY INC",
         "shares": 6325050.0,
-        "value_usd": 722194209.0,
-        "weight_pct": 4.36
-      },
-      {
-        "cusip": "64110L106",
-        "security_class": "COM",
-        "issuer": "NETFLIX INC",
-        "shares": 6707220.0,
-        "value_usd": 478895508.0,
-        "weight_pct": 2.89
+        "value_usd": 938004915.0,
+        "weight_pct": 5.05
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
         "shares": 1050322.0,
-        "value_usd": 391791112.0,
-        "weight_pct": 2.36
+        "value_usd": 538710154.0,
+        "weight_pct": 2.9
+      },
+      {
+        "cusip": "64110L106",
+        "security_class": "COM",
+        "issuer": "NETFLIX INC.",
+        "shares": 6707220.0,
+        "value_usd": 466688368.0,
+        "weight_pct": 2.51
       },
       {
         "cusip": "47215P106",
         "security_class": "SPON ADS CL A",
         "issuer": "JD.COM INC",
         "shares": 11693590.0,
-        "value_usd": 297952673.0,
-        "weight_pct": 1.8
+        "value_usd": 311049494.0,
+        "weight_pct": 1.68
       }
     ],
-    "top_five_pct": 79.91,
-    "top_ten_pct": 99.2,
-    "hhi": 1752.48,
+    "top_five_pct": 79.92,
+    "top_ten_pct": 99.05,
+    "hhi": 1993.15,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 11,
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 0,
       "increased_positions": 1,
-      "reduced_positions": 1
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000902664-26-003458"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000902664-26-004542"
       }
     ]
   },
-  "reported_13f_value_usd": 16567453751.0,
+  "reported_13f_value_usd": 18568832424.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000902664-26-003458",
+  "validated_accession": "0000902664-26-004542",
   "annualized_turnover_proxy_pct": null
 }

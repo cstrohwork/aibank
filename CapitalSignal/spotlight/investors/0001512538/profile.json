@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001512538",
   "investor_name": "New Vernon Capital Holdings II LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Morristown",
   "state": "NJ",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1512538/0001512538-25-000014.txt",
-    "https://www.sec.gov/Archives/edgar/data/1512538/0001512538-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1512538/0001512538-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1512538/0001512538-26-000012.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6c81619242678ce3442f7a7a1f6bd536b9ea047a4262c2bdd894f82580e731c5",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "3a7b04cf5e345ecab4409a176f24b1d761fee3c6ecb2731063fbefb159c98950",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "b65ef4e3e0efcf329b3a292c237769021b6fb6bd",
+    "e1e8e44f155057c537fd81ed95d83144a3f2214c",
+    "ff023ede9b9eaa68b033a1eb32b38b00540cb52e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001512538-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1512538/0001512538-26-000008.txt",
-    "distinct_positions": 73,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001512538-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1512538/0001512538-26-000012.txt",
+    "distinct_positions": 160,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 181421075.0,
+    "reported_long_equity_value_usd": 160456960.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "874039100",
         "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
         "shares": 51186.0,
-        "value_usd": 24444898.0,
-        "weight_pct": 13.47
+        "value_usd": 23350541.0,
+        "weight_pct": 14.55
+      },
+      {
+        "cusip": "45104G104",
+        "security_class": "ADR",
+        "issuer": "ICICI BK LTD",
+        "shares": 705207.0,
+        "value_usd": 19428453.0,
+        "weight_pct": 12.11
       },
       {
         "cusip": "922042858",
         "security_class": "FTSE EMR MKT ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
         "shares": 319003.0,
-        "value_usd": 19041289.0,
-        "weight_pct": 10.5
-      },
-      {
-        "cusip": "45104G104",
-        "security_class": "ADR",
-        "issuer": "ICICI BANK LIMITED",
-        "shares": 569499.0,
-        "value_usd": 16532556.0,
-        "weight_pct": 9.11
+        "value_usd": 18920068.0,
+        "weight_pct": 11.79
       },
       {
         "cusip": "46434G780",
         "security_class": "MSCI SINGPOR ETF",
         "issuer": "ISHARES INC",
-        "shares": 521660.0,
-        "value_usd": 15446353.0,
-        "weight_pct": 8.51
-      },
-      {
-        "cusip": "97717W422",
-        "security_class": "INDIA ERNGS FD",
-        "issuer": "WISDOMTREE TR",
-        "shares": 334978.0,
-        "value_usd": 14330359.0,
-        "weight_pct": 7.9
+        "shares": 554767.0,
+        "value_usd": 18451551.0,
+        "weight_pct": 11.5
       },
       {
         "cusip": "46434G772",
         "security_class": "MSCI TAIWAN ETF",
         "issuer": "ISHARES INC",
-        "shares": 124587.0,
-        "value_usd": 13531394.0,
-        "weight_pct": 7.46
+        "shares": 98587.0,
+        "value_usd": 11130473.0,
+        "weight_pct": 6.94
       },
       {
-        "cusip": "40415F101",
-        "security_class": "SPONSORED ADS",
-        "issuer": "HDFC BANK LTD",
-        "shares": 400241.0,
-        "value_usd": 10338225.0,
-        "weight_pct": 5.7
-      },
-      {
-        "cusip": "97717W851",
-        "security_class": "JAPN HEDGE EQT",
+        "cusip": "97717W422",
+        "security_class": "INDIA ERNGS FD",
         "issuer": "WISDOMTREE TR",
-        "shares": 57605.0,
-        "value_usd": 9995620.0,
-        "weight_pct": 5.51
-      },
-      {
-        "cusip": "482480100",
-        "security_class": "COM NEW",
-        "issuer": "KLA CORP",
-        "shares": 21760.0,
-        "value_usd": 6565210.0,
-        "weight_pct": 3.62
+        "shares": 254278.0,
+        "value_usd": 10356743.0,
+        "weight_pct": 6.45
       },
       {
         "cusip": "464286509",
         "security_class": "MSCI CDA ETF",
         "issuer": "ISHARES INC",
         "shares": 110826.0,
-        "value_usd": 6388011.0,
-        "weight_pct": 3.52
+        "value_usd": 6470022.0,
+        "weight_pct": 4.03
+      },
+      {
+        "cusip": "46641Q217",
+        "security_class": "BETABULDRS JAPAN",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 71563.0,
+        "value_usd": 5617696.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "97717W851",
+        "security_class": "JAPN HEDGE EQT",
+        "issuer": "WISDOMTREE TR",
+        "shares": 29605.0,
+        "value_usd": 5345183.0,
+        "weight_pct": 3.33
+      },
+      {
+        "cusip": "46435G334",
+        "security_class": "MSCI UK ETF NEW",
+        "issuer": "ISHARES TR",
+        "shares": 93343.0,
+        "value_usd": 4343250.0,
+        "weight_pct": 2.71
       }
     ],
-    "top_five_pct": 49.5,
-    "top_ten_pct": 75.3,
-    "hhi": 696.21,
+    "top_five_pct": 56.89,
+    "top_ten_pct": 76.91,
+    "hhi": 786.85,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 32,
-      "exited_positions": 40,
+      "previous_period": "2026-06-30",
+      "new_positions": 99,
+      "exited_positions": 12,
       "increased_positions": 9,
-      "reduced_positions": 15
+      "reduced_positions": 9
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001512538-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001512538-26-000012"
       }
     ]
   },
-  "reported_13f_value_usd": 181421075.0,
+  "reported_13f_value_usd": 160456960.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001512538-26-000008",
+  "validated_accession": "0001512538-26-000012",
   "annualized_turnover_proxy_pct": null
 }

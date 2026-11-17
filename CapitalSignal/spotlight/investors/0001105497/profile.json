@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001105497",
   "investor_name": "MSD CAPITAL, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1105497/0001104659-25-112564.txt",
-    "https://www.sec.gov/Archives/edgar/data/1105497/0001104659-26-097244.txt"
+    "https://www.sec.gov/Archives/edgar/data/1105497/0001104659-26-097244.txt",
+    "https://www.sec.gov/Archives/edgar/data/1105497/0001104659-26-128473.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "638470722b4a8671ae1b520d4ffe739f514a53ba758596cc5fad13e2d07f66ac",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "631d088f96120396ffee56802ee416a14277b4601dbe975a41ae8b73ac040f5c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "23f2361fac5c9ee47dfbd217afe2b554621a8d17",
+    "eb50f6534980e6e7b165f2e67760034db269346b",
+    "ff9a44596a6c2830270279184777c9b13746420a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-097244",
-    "source": "https://www.sec.gov/Archives/edgar/data/1105497/0001104659-26-097244.txt",
-    "distinct_positions": 3,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128473",
+    "source": "https://www.sec.gov/Archives/edgar/data/1105497/0001104659-26-128473.txt",
+    "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 101790124.0,
+    "reported_long_equity_value_usd": 40061068.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,34 +42,26 @@
         "cusip": "78646V107",
         "security_class": "COM",
         "issuer": "SAFEHOLD INC",
-        "shares": 5782745.0,
-        "value_usd": 90789097.0,
-        "weight_pct": 89.19
-      },
-      {
-        "cusip": "421298100",
-        "security_class": "COM",
-        "issuer": "HAYWARD HLDGS INC",
-        "shares": 384229.0,
-        "value_usd": 6651004.0,
-        "weight_pct": 6.53
+        "shares": 3226267.0,
+        "value_usd": 37973163.0,
+        "weight_pct": 94.79
       },
       {
         "cusip": "892231101",
         "security_class": "CL A",
         "issuer": "TOWNSQUARE MEDIA INC",
-        "shares": 615279.0,
-        "value_usd": 4350023.0,
-        "weight_pct": 4.27
+        "shares": 443292.0,
+        "value_usd": 2087905.0,
+        "weight_pct": 5.21
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 8016.25,
+    "hhi": 9011.96,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
-      "exited_positions": 0,
+      "exited_positions": 1,
       "increased_positions": 0,
       "reduced_positions": 2
     },
@@ -72,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-097244"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128473"
       }
     ]
   },
-  "reported_13f_value_usd": 101790124.0,
+  "reported_13f_value_usd": 40061068.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-097244",
+  "validated_accession": "0001104659-26-128473",
   "annualized_turnover_proxy_pct": null
 }

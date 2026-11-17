@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001794499",
   "investor_name": "Hyperion Capital Advisors LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1794499/0000919574-25-006763.txt",
-    "https://www.sec.gov/Archives/edgar/data/1794499/0000919574-26-005177.txt"
+    "https://www.sec.gov/Archives/edgar/data/1794499/0000919574-26-005177.txt",
+    "https://www.sec.gov/Archives/edgar/data/1794499/0000919574-26-007859.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "878faf3b843beaccf1ad0d846d12ccbfd7043c536c4ce75395e074ee10bb9ee1",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "52b661310fad06e39bbfd7bc9e1d6656d3b6000d149c98a9bb6681bb33f5937f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "05376f3a60675ad29f7087f2321e35e2c17cd0c7",
+    "7e8dcdd7546be8123044c26395c1a9679b789eb4",
+    "d23d9dd5dca634a0c6eda74d5f1755746782d92e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005177",
-    "source": "https://www.sec.gov/Archives/edgar/data/1794499/0000919574-26-005177.txt",
-    "distinct_positions": 67,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007859",
+    "source": "https://www.sec.gov/Archives/edgar/data/1794499/0000919574-26-007859.txt",
+    "distinct_positions": 68,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 221748674.0,
+    "reported_long_equity_value_usd": 169256661.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "G4705A100",
         "security_class": "SHS",
         "issuer": "ICON PUB LTD CO",
-        "shares": 224665.0,
-        "value_usd": 39026557.0,
-        "weight_pct": 17.6
+        "shares": 203902.0,
+        "value_usd": 34661301.0,
+        "weight_pct": 20.48
       },
       {
         "cusip": "531229755",
-        "security_class": "COM LBTY ONE S C",
+        "security_class": "COM SER C",
         "issuer": "LIBERTY MEDIA CORP DEL",
-        "shares": 186680.0,
-        "value_usd": 17760735.0,
-        "weight_pct": 8.01
-      },
-      {
-        "cusip": "036752103",
-        "security_class": "COM",
-        "issuer": "ELEVANCE HEALTH INC FORMERLY",
-        "shares": 42924.0,
-        "value_usd": 16599999.0,
-        "weight_pct": 7.49
+        "shares": 198014.0,
+        "value_usd": 18296494.0,
+        "weight_pct": 10.81
       },
       {
         "cusip": "866966104",
         "security_class": "SHS",
         "issuer": "SUNBELT RENTALS HOLDINGS INC",
-        "shares": 207305.0,
-        "value_usd": 15508487.0,
-        "weight_pct": 6.99
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 42224.0,
-        "value_usd": 15089591.0,
-        "weight_pct": 6.8
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 38128.0,
-        "value_usd": 13471766.0,
-        "weight_pct": 6.08
+        "shares": 214723.0,
+        "value_usd": 15719871.0,
+        "weight_pct": 9.29
       },
       {
         "cusip": "874039100",
         "security_class": "SPONSORED ADS",
         "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 27515.0,
-        "value_usd": 13140339.0,
-        "weight_pct": 5.93
+        "shares": 29826.0,
+        "value_usd": 13606323.0,
+        "weight_pct": 8.04
+      },
+      {
+        "cusip": "036752103",
+        "security_class": "COM",
+        "issuer": "ELEVANCE HEALTH INC FORMERLY",
+        "shares": 22275.0,
+        "value_usd": 8660966.0,
+        "weight_pct": 5.12
       },
       {
         "cusip": "G0403H108",
         "security_class": "SHS CL A",
         "issuer": "AON PLC",
         "shares": 30001.0,
-        "value_usd": 9951032.0,
-        "weight_pct": 4.49
+        "value_usd": 8303377.0,
+        "weight_pct": 4.91
       },
       {
         "cusip": "776696106",
         "security_class": "COM",
         "issuer": "ROPER TECHNOLOGIES INC",
-        "shares": 22500.0,
-        "value_usd": 7613775.0,
-        "weight_pct": 3.43
+        "shares": 23409.0,
+        "value_usd": 8179339.0,
+        "weight_pct": 4.83
       },
       {
-        "cusip": "91324P102",
-        "security_class": "COM",
-        "issuer": "UNITEDHEALTH GROUP INC",
-        "shares": 17416.0,
-        "value_usd": 7238612.0,
-        "weight_pct": 3.26
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 22552.0,
+        "value_usd": 7684368.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 20086.0,
+        "value_usd": 6911191.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "92538J106",
+        "security_class": "CL A",
+        "issuer": "VERTEX INC",
+        "shares": 480000.0,
+        "value_usd": 5654400.0,
+        "weight_pct": 3.34
       }
     ],
-    "top_five_pct": 46.89,
-    "top_ten_pct": 70.08,
-    "hhi": 685.05,
+    "top_five_pct": 53.73,
+    "top_ten_pct": 75.43,
+    "hhi": 836.54,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 11,
-      "increased_positions": 15,
-      "reduced_positions": 15
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 8,
+      "reduced_positions": 13
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005177"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007859"
       }
     ]
   },
-  "reported_13f_value_usd": 221748674.0,
+  "reported_13f_value_usd": 169256661.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005177",
+  "validated_accession": "0000919574-26-007859",
   "annualized_turnover_proxy_pct": null
 }

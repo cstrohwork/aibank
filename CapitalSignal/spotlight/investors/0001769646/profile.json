@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001769646",
   "investor_name": "TWINBEECH CAPITAL LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PURCHASE",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1769646/0001214659-25-016644.txt",
-    "https://www.sec.gov/Archives/edgar/data/1769646/0001214659-26-010391.txt"
+    "https://www.sec.gov/Archives/edgar/data/1769646/0001214659-26-010391.txt",
+    "https://www.sec.gov/Archives/edgar/data/1769646/0001214659-26-014372.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9d4c7dd8d35371dea1871742c86aa13d159e405ad57e831350e64e607759ed91",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "b336a6769edfdee2b80f4dc328196cef64d9e3f99a8c0e3936c790f502377550",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8a3dfa6fffd206afe5f86be5e0c52f38019e3fb6",
+    "bc6fad2da4fd56d0f582e872015d3dcbfd26b323",
+    "fdaddff79fe8806c23dd0ca36aa6ab69c06b28c9"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010391",
-    "source": "https://www.sec.gov/Archives/edgar/data/1769646/0001214659-26-010391.txt",
-    "distinct_positions": 352,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014372",
+    "source": "https://www.sec.gov/Archives/edgar/data/1769646/0001214659-26-014372.txt",
+    "distinct_positions": 380,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 552561335.0,
+    "reported_long_equity_value_usd": 429305073.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "12572Q105",
+        "cusip": "437076102",
         "security_class": "COM",
-        "issuer": "CME GROUP INC",
-        "shares": 32166.0,
-        "value_usd": 7103218.0,
-        "weight_pct": 1.29
+        "issuer": "HOME DEPOT INC",
+        "shares": 18583.0,
+        "value_usd": 5286678.0,
+        "weight_pct": 1.23
       },
       {
-        "cusip": "43300A203",
+        "cusip": "064058100",
         "security_class": "COM",
-        "issuer": "HILTON WORLDWIDE HLDGS INC",
-        "shares": 21216.0,
-        "value_usd": 7011039.0,
-        "weight_pct": 1.27
+        "issuer": "BANK OF NY MELLON CORP",
+        "shares": 35239.0,
+        "value_usd": 5096617.0,
+        "weight_pct": 1.19
       },
       {
-        "cusip": "101137107",
+        "cusip": "776696106",
         "security_class": "COM",
-        "issuer": "BOSTON SCIENTIFIC CORP",
-        "shares": 149622.0,
-        "value_usd": 6385867.0,
-        "weight_pct": 1.16
+        "issuer": "ROPER TECHNOLOGIES INC",
+        "shares": 14564.0,
+        "value_usd": 5088807.0,
+        "weight_pct": 1.19
       },
       {
-        "cusip": "45866F104",
+        "cusip": "231021106",
         "security_class": "COM",
-        "issuer": "INTERCONTINENTAL EXCHANGE IN",
-        "shares": 51769.0,
-        "value_usd": 6373282.0,
+        "issuer": "CUMMINS INC",
+        "shares": 9517.0,
+        "value_usd": 4916197.0,
         "weight_pct": 1.15
+      },
+      {
+        "cusip": "693475105",
+        "security_class": "COM",
+        "issuer": "PNC FINL SVCS GROUP INC",
+        "shares": 21127.0,
+        "value_usd": 4695687.0,
+        "weight_pct": 1.09
+      },
+      {
+        "cusip": "461202103",
+        "security_class": "COM",
+        "issuer": "INTUIT",
+        "shares": 16972.0,
+        "value_usd": 4679350.0,
+        "weight_pct": 1.09
       },
       {
         "cusip": "775711104",
         "security_class": "COM",
         "issuer": "ROLLINS INC",
-        "shares": 152053.0,
-        "value_usd": 6346692.0,
-        "weight_pct": 1.15
-      },
-      {
-        "cusip": "09290D101",
-        "security_class": "COM",
-        "issuer": "BLACKROCK INC",
-        "shares": 6311.0,
-        "value_usd": 6068405.0,
-        "weight_pct": 1.1
-      },
-      {
-        "cusip": "443201108",
-        "security_class": "COM",
-        "issuer": "HOWMET AEROSPACE INC",
-        "shares": 22226.0,
-        "value_usd": 5975682.0,
-        "weight_pct": 1.08
-      },
-      {
-        "cusip": "78467J100",
-        "security_class": "COM",
-        "issuer": "SS&C TECH HLDGS",
-        "shares": 95932.0,
-        "value_usd": 5952581.0,
-        "weight_pct": 1.08
-      },
-      {
-        "cusip": "682189105",
-        "security_class": "COM",
-        "issuer": "ON SEMICONDUCTOR CORP",
-        "shares": 62779.0,
-        "value_usd": 5935127.0,
+        "shares": 152766.0,
+        "value_usd": 4601312.0,
         "weight_pct": 1.07
       },
       {
-        "cusip": "95082P105",
+        "cusip": "668771108",
         "security_class": "COM",
-        "issuer": "WESCO INTL INC",
-        "shares": 16900.0,
-        "value_usd": 5837767.0,
-        "weight_pct": 1.06
+        "issuer": "GEN DIGITAL INC",
+        "shares": 208884.0,
+        "value_usd": 4599626.0,
+        "weight_pct": 1.07
+      },
+      {
+        "cusip": "G25508105",
+        "security_class": "ORD",
+        "issuer": "CRH PLC",
+        "shares": 52999.0,
+        "value_usd": 4388317.0,
+        "weight_pct": 1.02
+      },
+      {
+        "cusip": "548661107",
+        "security_class": "COM",
+        "issuer": "LOWES COS INC",
+        "shares": 23304.0,
+        "value_usd": 4294694.0,
+        "weight_pct": 1.0
       }
     ],
-    "top_five_pct": 6.01,
-    "top_ten_pct": 11.4,
-    "hhi": 62.77,
+    "top_five_pct": 5.84,
+    "top_ten_pct": 11.1,
+    "hhi": 55.33,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 238,
-      "exited_positions": 421,
-      "increased_positions": 37,
-      "reduced_positions": 77
+      "previous_period": "2026-06-30",
+      "new_positions": 286,
+      "exited_positions": 258,
+      "increased_positions": 44,
+      "reduced_positions": 47
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010391"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014372"
       }
     ]
   },
-  "reported_13f_value_usd": 552561335.0,
+  "reported_13f_value_usd": 429305073.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010391",
+  "validated_accession": "0001214659-26-014372",
   "annualized_turnover_proxy_pct": null
 }

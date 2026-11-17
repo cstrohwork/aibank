@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001920938",
   "investor_name": "BRAIDWELL LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1920938/0001420506-25-003410.txt",
-    "https://www.sec.gov/Archives/edgar/data/1920938/0001420506-26-001823.txt"
+    "https://www.sec.gov/Archives/edgar/data/1920938/0001420506-26-001823.txt",
+    "https://www.sec.gov/Archives/edgar/data/1920938/0001420506-26-002894.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0499edd0510c5362d805ed5427882b8a1c5e2c883c9d29f9a05bbabd64540bb7",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "ca7f6136c390716f1904e33cab4ba01f738dd0659b719f02c457a2f63d8e3d3d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "189992446ca904280ffccd951f0ae0a991b19ac1",
+    "f224ddb1eae7b572f3e3527085f39ee93300b6ed",
+    "f4867f007b025316d079b3a70073a478b2af3372"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001823",
-    "source": "https://www.sec.gov/Archives/edgar/data/1920938/0001420506-26-001823.txt",
-    "distinct_positions": 83,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002894",
+    "source": "https://www.sec.gov/Archives/edgar/data/1920938/0001420506-26-002894.txt",
+    "distinct_positions": 86,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2603956806.0,
+    "reported_long_equity_value_usd": 2323210443.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "50015M109",
+        "security_class": "COM",
+        "issuer": "KODIAK SCIENCES INC",
+        "shares": 1085743.0,
+        "value_usd": 102928436.0,
+        "weight_pct": 4.43
+      },
+      {
         "cusip": "142152107",
         "security_class": "COM",
         "issuer": "CARIS LIFE SCIENCES INC",
-        "shares": 8256032.0,
-        "value_usd": 147122490.0,
-        "weight_pct": 5.65
-      },
-      {
-        "cusip": "433313103",
-        "security_class": "CL A",
-        "issuer": "HINGE HEALTH INC",
-        "shares": 1330127.0,
-        "value_usd": 110400541.0,
-        "weight_pct": 4.24
-      },
-      {
-        "cusip": "377322102",
-        "security_class": "COM",
-        "issuer": "GLAUKOS CORP",
-        "shares": 591927.0,
-        "value_usd": 82727718.0,
-        "weight_pct": 3.18
+        "shares": 2746688.0,
+        "value_usd": 84131053.0,
+        "weight_pct": 3.62
       },
       {
         "cusip": "28036F105",
         "security_class": "COM",
         "issuer": "EDGEWISE THERAPEUTICS INC",
-        "shares": 1996965.0,
-        "value_usd": 81136688.0,
-        "weight_pct": 3.12
+        "shares": 2069091.0,
+        "value_usd": 84005095.0,
+        "weight_pct": 3.62
       },
       {
-        "cusip": "00773J202",
+        "cusip": "02081G201",
         "security_class": "COM NEW",
-        "issuer": "SPYRE THERAPEUTICS INC",
-        "shares": 879467.0,
-        "value_usd": 78079080.0,
-        "weight_pct": 3.0
+        "issuer": "ALPHATEC HLDGS INC",
+        "shares": 7228839.0,
+        "value_usd": 74601618.0,
+        "weight_pct": 3.21
       },
       {
         "cusip": "450056106",
         "security_class": "COM",
         "issuer": "IRHYTHM HOLDINGS INC",
-        "shares": 654262.0,
-        "value_usd": 77824465.0,
-        "weight_pct": 2.99
+        "shares": 640562.0,
+        "value_usd": 72806277.0,
+        "weight_pct": 3.13
       },
       {
-        "cusip": "64049M209",
+        "cusip": "433313103",
+        "security_class": "CL A",
+        "issuer": "HINGE HEALTH INC",
+        "shares": 655306.0,
+        "value_usd": 63721955.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "00773J202",
         "security_class": "COM NEW",
-        "issuer": "NEOGENOMICS INC",
-        "shares": 4918202.0,
-        "value_usd": 71756567.0,
-        "weight_pct": 2.76
-      },
-      {
-        "cusip": "50015M109",
-        "security_class": "COM",
-        "issuer": "KODIAK SCIENCES INC",
-        "shares": 1787318.0,
-        "value_usd": 69633909.0,
-        "weight_pct": 2.67
+        "issuer": "SPYRE THERAPEUTICS INC",
+        "shares": 713957.0,
+        "value_usd": 63563592.0,
+        "weight_pct": 2.74
       },
       {
         "cusip": "98420N105",
         "security_class": "COM",
         "issuer": "XENON PHARMACEUTICALS INC",
-        "shares": 1131452.0,
-        "value_usd": 68294443.0,
-        "weight_pct": 2.62
+        "shares": 1708435.0,
+        "value_usd": 63536698.0,
+        "weight_pct": 2.73
       },
       {
-        "cusip": "61225M102",
+        "cusip": "64049M209",
+        "security_class": "COM NEW",
+        "issuer": "NEOGENOMICS INC",
+        "shares": 3348502.0,
+        "value_usd": 61478497.0,
+        "weight_pct": 2.65
+      },
+      {
+        "cusip": "377322102",
         "security_class": "COM",
-        "issuer": "MONTE ROSA THERAPEUTICS INC",
-        "shares": 2451562.0,
-        "value_usd": 59327800.0,
-        "weight_pct": 2.28
+        "issuer": "GLAUKOS CORP",
+        "shares": 343873.0,
+        "value_usd": 56460508.0,
+        "weight_pct": 2.43
       }
     ],
-    "top_five_pct": 19.18,
-    "top_ten_pct": 32.5,
-    "hhi": 201.65,
+    "top_five_pct": 18.01,
+    "top_ten_pct": 31.3,
+    "hhi": 192.82,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 49,
-      "exited_positions": 30,
-      "increased_positions": 12,
-      "reduced_positions": 21
+      "previous_period": "2026-06-30",
+      "new_positions": 16,
+      "exited_positions": 13,
+      "increased_positions": 20,
+      "reduced_positions": 38
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001823"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002894"
       }
     ]
   },
-  "reported_13f_value_usd": 2603956806.0,
+  "reported_13f_value_usd": 2323210443.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001823",
+  "validated_accession": "0001420506-26-002894",
   "annualized_turnover_proxy_pct": null
 }

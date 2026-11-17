@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001348145",
   "investor_name": "VR Advisory Services Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CAMANA BAY, GRAND CAYMAN",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1348145/0001348145-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1348145/0001315863-26-000591.txt"
+    "https://www.sec.gov/Archives/edgar/data/1348145/0001315863-26-000591.txt",
+    "https://www.sec.gov/Archives/edgar/data/1348145/0001315863-26-000786.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c8d07f944841f38127dddd0395ed65f58730114cd31b12c6ba76d6204354753d",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "e867ab2c536652de69b74a4ff193d213265d97eeeab9a39ddbbd01736110791d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "39f9ecd9bee648611c693589a56ae07a5bc12526",
+    "b563dadd5de2b52d37c211a6f846cfb56ac24fa9",
+    "ef779ca1f2b3e62dc1053f8455fab2691593935f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001315863-26-000591",
-    "source": "https://www.sec.gov/Archives/edgar/data/1348145/0001315863-26-000591.txt",
-    "distinct_positions": 43,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001315863-26-000786",
+    "source": "https://www.sec.gov/Archives/edgar/data/1348145/0001315863-26-000786.txt",
+    "distinct_positions": 38,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1127357376.0,
+    "reported_long_equity_value_usd": 1056366412.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "984245100",
-        "security_class": "SPON ADR CL D",
+        "security_class": "SPONSORED ADS",
         "issuer": "YPF SOCIEDAD ANONIMA",
         "shares": 3231396.0,
-        "value_usd": 146931576.0,
-        "weight_pct": 13.03
+        "value_usd": 161989881.0,
+        "weight_pct": 15.33
+      },
+      {
+        "cusip": "74347M108",
+        "security_class": "COM",
+        "issuer": "PROPETRO HLDG CORP",
+        "shares": 11324952.0,
+        "value_usd": 100112576.0,
+        "weight_pct": 9.48
       },
       {
         "cusip": "40054J109",
         "security_class": "SPONSORED ADS",
         "issuer": "GRUPO AEROMEXICO SAB DE CV",
-        "shares": 5355255.0,
-        "value_usd": 96394590.0,
-        "weight_pct": 8.55
+        "shares": 5479494.0,
+        "value_usd": 86521210.0,
+        "weight_pct": 8.19
       },
       {
-        "cusip": "48581R205",
-        "security_class": "SPONSORED ADS",
-        "issuer": "KASPI KZ JSC",
-        "shares": 1049999.0,
-        "value_usd": 90971913.0,
-        "weight_pct": 8.07
+        "cusip": "53190C102",
+        "security_class": "COMMON STOCK",
+        "issuer": "LIFE TIME GROUP HOLDINGS INC",
+        "shares": 2012055.0,
+        "value_usd": 80240753.0,
+        "weight_pct": 7.6
       },
       {
         "cusip": "05501U601",
         "security_class": "SPONSORED ADS",
         "issuer": "AZUL S A",
-        "shares": 8854652.0,
-        "value_usd": 79603321.0,
-        "weight_pct": 7.06
+        "shares": 8681987.0,
+        "value_usd": 68587697.0,
+        "weight_pct": 6.49
       },
       {
         "cusip": "N00985106",
         "security_class": "SHS",
         "issuer": "AERCAP HOLDINGS NV",
         "shares": 446793.0,
-        "value_usd": 65133484.0,
-        "weight_pct": 5.78
+        "value_usd": 64123731.0,
+        "weight_pct": 6.07
       },
       {
-        "cusip": "74347M108",
-        "security_class": "COM",
-        "issuer": "PROPETRO HLDG CORP",
-        "shares": 4097401.0,
-        "value_usd": 58756730.0,
-        "weight_pct": 5.21
+        "cusip": "G9456A100",
+        "security_class": "SHS",
+        "issuer": "GOLAR LNG LTD",
+        "shares": 1333367.0,
+        "value_usd": 63361600.0,
+        "weight_pct": 6.0
       },
       {
-        "cusip": "23292B104",
+        "cusip": "91822M502",
         "security_class": "SPONSORED ADS",
-        "issuer": "D MARKET ELECTR SVCS & TRADI",
-        "shares": 19390670.0,
-        "value_usd": 56426850.0,
-        "weight_pct": 5.01
+        "issuer": "VEON LTD",
+        "shares": 601205.0,
+        "value_usd": 44447086.0,
+        "weight_pct": 4.21
       },
       {
-        "cusip": "53190C102",
-        "security_class": "COMMON STOCK",
-        "issuer": "LIFE TIME GROUP HOLDINGS INC",
-        "shares": 1221597.0,
-        "value_usd": 49890021.0,
-        "weight_pct": 4.43
-      },
-      {
-        "cusip": "450047303",
-        "security_class": "SPON GDS ECH 10",
-        "issuer": "IRSA INVERSIONES Y REP S A",
-        "shares": 2670087.0,
-        "value_usd": 41226143.0,
-        "weight_pct": 3.66
+        "cusip": "25179M103",
+        "security_class": "COM",
+        "issuer": "DEVON ENERGY CORP NEW",
+        "shares": 952565.0,
+        "value_usd": 43856093.0,
+        "weight_pct": 4.15
       },
       {
         "cusip": "21874A106",
         "security_class": "COM",
         "issuer": "CORE SCIENTIFIC INC NEW",
-        "shares": 1552206.0,
-        "value_usd": 39720952.0,
-        "weight_pct": 3.52
+        "shares": 2464664.0,
+        "value_usd": 39385331.0,
+        "weight_pct": 3.73
       }
     ],
-    "top_five_pct": 42.49,
-    "top_ten_pct": 64.31,
-    "hhi": 572.55,
+    "top_five_pct": 47.09,
+    "top_ten_pct": 71.25,
+    "hhi": 686.58,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 9,
-      "increased_positions": 7,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 8,
+      "increased_positions": 8,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001315863-26-000591"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001315863-26-000786"
       }
     ]
   },
-  "reported_13f_value_usd": 1127357376.0,
+  "reported_13f_value_usd": 1056366412.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001315863-26-000591",
+  "validated_accession": "0001315863-26-000786",
   "annualized_turnover_proxy_pct": null
 }

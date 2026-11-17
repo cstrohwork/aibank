@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001539639",
   "investor_name": "Little Harbor Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MARBLEHEAD",
   "state": "MA",
   "country": "United States",
@@ -10,79 +10,58 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1539639/0001539639-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1539639/0001539639-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1539639/0001539639-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1539639/0001539639-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0079c9873691755067fbeb7ab016a41f553a22148f3355432f5b03cbbf7a5483",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "697d4b31babd34824db5dab7d285cadbfe8bd753f108fc01f3f683d0bd588b5d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-25|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "018caf2096a4dd0ebb7d856971043ad699b930de",
+    "125099e7afc7cd53023dcfd060f91dc003886a3f",
+    "5fe406837e9555d0898533dd73d4ee8736f3a93a"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001539639-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1539639/0001539639-26-000005.txt",
-    "distinct_positions": 6,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001539639-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1539639/0001539639-26-000007.txt",
+    "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 203417090.0,
+    "reported_long_equity_value_usd": 188503491.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
-        "issuer": "State Street SPDR S&P 500 ETF Trust",
-        "shares": 216634.0,
-        "value_usd": 161775772.0,
-        "weight_pct": 79.53
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 213085.0,
+        "value_usd": 162505014.0,
+        "weight_pct": 86.21
       },
       {
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
-        "issuer": "Invesco QQQ Trust Series 1",
-        "shares": 33790.0,
-        "value_usd": 24882956.0,
-        "weight_pct": 12.23
-      },
-      {
-        "cusip": "78468R408",
-        "security_class": "ST TERM HIGH ETF",
-        "issuer": "State Street SPDR Bloomberg Short Term High Yield Bond ETF",
-        "shares": 170530.0,
-        "value_usd": 4244008.0,
-        "weight_pct": 2.09
-      },
-      {
-        "cusip": "464288513",
-        "security_class": "IBOXX HI YD ETF",
-        "issuer": "iShares iBoxx USD High Yield Corporate Bond ETF",
-        "shares": 52461.0,
-        "value_usd": 4173851.0,
-        "weight_pct": 2.05
-      },
-      {
-        "cusip": "78468R622",
-        "security_class": "ST BLOO HIGH ETF",
-        "issuer": "State Street SPDR Bloomberg High Yield Bond ETF",
-        "shares": 43543.0,
-        "value_usd": 4173462.0,
-        "weight_pct": 2.05
-      },
-      {
-        "cusip": "233051432",
-        "security_class": "XTRACK USD HIGH",
-        "issuer": "Xtrackers USD High Yield Corporate Bond ETF",
-        "shares": 114728.0,
-        "value_usd": 4167041.0,
-        "weight_pct": 2.05
+        "issuer": "INVESCO QQQ TR",
+        "shares": 35144.0,
+        "value_usd": 25998477.0,
+        "weight_pct": 13.79
       }
     ],
-    "top_five_pct": 97.95,
+    "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 6491.48,
+    "hhi": 7622.03,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
-      "exited_positions": 6,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 4,
       "increased_positions": 1,
       "reduced_positions": 1
     },
@@ -96,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001539639-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001539639-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 203417090.0,
+  "reported_13f_value_usd": 188503491.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001539639-26-000005",
+  "validated_accession": "0001539639-26-000007",
   "annualized_turnover_proxy_pct": null
 }

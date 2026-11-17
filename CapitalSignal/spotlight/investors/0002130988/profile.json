@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002130988",
   "investor_name": "TRB Wealth Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HOUSTON",
   "state": "TX",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2130988/0001214659-26-009943.txt"
+    "https://www.sec.gov/Archives/edgar/data/2130988/0001214659-26-009943.txt",
+    "https://www.sec.gov/Archives/edgar/data/2130988/0001214659-26-014453.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0d8a06ac787d6e81cef0048cec8553969b22201ed48bfa84d99560693e6ed038",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "dc331468ee98ca2d16826282715a57b49d26ae90e15722d0f8b6945ed1d5dd17",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8ef97070e28c9b652e22004b90f3b68eb11a0255",
+    "f33e983711074cbbce3fb061ef6b48f1150ec9dd"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001214659-26-009943",
-    "source": "https://www.sec.gov/Archives/edgar/data/2130988/0001214659-26-009943.txt",
-    "distinct_positions": 296,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014453",
+    "source": "https://www.sec.gov/Archives/edgar/data/2130988/0001214659-26-014453.txt",
+    "distinct_positions": 286,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 751265471.0,
+    "reported_long_equity_value_usd": 717237133.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908637",
-        "security_class": "LARGE CAP ETF",
+        "security_class": "MRNGSTR LRG CAP",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 190058.0,
-        "value_usd": 65362902.0,
-        "weight_pct": 8.7
+        "shares": 183519.0,
+        "value_usd": 64571123.0,
+        "weight_pct": 9.0
       },
       {
         "cusip": "921909768",
         "security_class": "VG TL INTL STK F",
         "issuer": "VANGUARD STAR FDS",
-        "shares": 529782.0,
-        "value_usd": 45291079.0,
-        "weight_pct": 6.03
-      },
-      {
-        "cusip": "25434V708",
-        "security_class": "US COR EQU 2 ETF",
-        "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 846296.0,
-        "value_usd": 37541690.0,
-        "weight_pct": 5.0
+        "shares": 513800.0,
+        "value_usd": 43652426.0,
+        "weight_pct": 6.09
       },
       {
         "cusip": "922908629",
-        "security_class": "MID CAP ETF",
+        "security_class": "MRNGSTR MID CAP",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 435256.0,
-        "value_usd": 35068569.0,
-        "weight_pct": 4.67
+        "shares": 438358.0,
+        "value_usd": 34376043.0,
+        "weight_pct": 4.79
       },
       {
         "cusip": "46434V621",
         "security_class": "CORE DIV GRWTH",
         "issuer": "ISHARES TR",
-        "shares": 447648.0,
-        "value_usd": 33927278.0,
-        "weight_pct": 4.52
+        "shares": 451717.0,
+        "value_usd": 34054950.0,
+        "weight_pct": 4.75
       },
       {
         "cusip": "922908751",
-        "security_class": "SMALL CP ETF",
+        "security_class": "MRNGSTR SML CAP",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 98465.0,
-        "value_usd": 29846624.0,
-        "weight_pct": 3.97
+        "shares": 97673.0,
+        "value_usd": 27787039.0,
+        "weight_pct": 3.87
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 76936.0,
-        "value_usd": 22262201.0,
-        "weight_pct": 2.96
+        "shares": 77945.0,
+        "value_usd": 25957138.0,
+        "weight_pct": 3.62
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 109343.0,
-        "value_usd": 21878441.0,
-        "weight_pct": 2.91
+        "shares": 110220.0,
+        "value_usd": 25172044.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "464287226",
+        "security_class": "CORE US AGGBD ET",
+        "issuer": "ISHARES TR",
+        "shares": 235091.0,
+        "value_usd": 22225513.0,
+        "weight_pct": 3.1
       },
       {
         "cusip": "46432F339",
         "security_class": "MSCI USA QLT FCT",
         "issuer": "ISHARES TR",
         "shares": 95651.0,
-        "value_usd": 20988699.0,
-        "weight_pct": 2.79
+        "value_usd": 21257498.0,
+        "weight_pct": 2.96
       },
       {
-        "cusip": "464287226",
-        "security_class": "CORE US AGGBD ET",
+        "cusip": "46434V266",
+        "security_class": "INTERNATIONAL SL",
         "issuer": "ISHARES TR",
-        "shares": 210632.0,
-        "value_usd": 20848388.0,
-        "weight_pct": 2.78
+        "shares": 386309.0,
+        "value_usd": 17252542.0,
+        "weight_pct": 2.41
       }
     ],
-    "top_five_pct": 28.91,
-    "top_ten_pct": 44.33,
-    "hhi": 278.44,
-    "changes": null,
+    "top_five_pct": 28.5,
+    "top_ten_pct": 44.1,
+    "hhi": 277.58,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 45,
+      "exited_positions": 55,
+      "increased_positions": 144,
+      "reduced_positions": 67
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001214659-26-009943"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014453"
       }
     ]
   },
-  "reported_13f_value_usd": 751265471.0,
+  "reported_13f_value_usd": 717237133.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-009943",
+  "validated_accession": "0001214659-26-014453",
   "annualized_turnover_proxy_pct": null
 }

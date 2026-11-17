@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001857581",
   "investor_name": "Granby Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Miami Beach",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1857581/0000919574-25-006790.txt",
-    "https://www.sec.gov/Archives/edgar/data/1857581/0000919574-26-005169.txt"
+    "https://www.sec.gov/Archives/edgar/data/1857581/0000919574-26-005169.txt",
+    "https://www.sec.gov/Archives/edgar/data/1857581/0000919574-26-007857.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a0fec1058e03e61ece8d59d8c5e6bc896926896de39a47bafd39adff3a452fe3",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "76b650452612a9d87d6cdc189710e3f40540ccb2efdc606374253f16a4be47be",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4d97d1ef461f9ad83f144d329f49413d0ad5cb15",
+    "88b2fa769d90527975f2fa195eef924fd88c3e38",
+    "9d6d7a161927d6dcf97d309f9af67575f1121126"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000919574-26-005169",
-    "source": "https://www.sec.gov/Archives/edgar/data/1857581/0000919574-26-005169.txt",
-    "distinct_positions": 14,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007857",
+    "source": "https://www.sec.gov/Archives/edgar/data/1857581/0000919574-26-007857.txt",
+    "distinct_positions": 13,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 191685300.0,
+    "reported_long_equity_value_usd": 202304900.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 89500.0,
-        "value_usd": 66836000.0,
-        "weight_pct": 34.87
+        "shares": 82500.0,
+        "value_usd": 62917000.0,
+        "weight_pct": 31.1
       },
       {
         "cusip": "922042775",
         "security_class": "ALLWRLD EX US",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
         "shares": 390000.0,
-        "value_usd": 32662600.0,
-        "weight_pct": 17.04
+        "value_usd": 32358400.0,
+        "weight_pct": 15.99
+      },
+      {
+        "cusip": "464287432",
+        "security_class": "20 YR TR BD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 238000.0,
+        "value_usd": 18511600.0,
+        "weight_pct": 9.15
       },
       {
         "cusip": "46137V357",
         "security_class": "S&P500 EQL WGT",
         "issuer": "INVESCO EXCHANGE TRADED FD T",
         "shares": 80000.0,
-        "value_usd": 17021600.0,
-        "weight_pct": 8.88
+        "value_usd": 16641600.0,
+        "weight_pct": 8.23
       },
       {
-        "cusip": "464287432",
-        "security_class": "20 YR TR BD ETF",
-        "issuer": "ISHARES TR",
-        "shares": 138000.0,
-        "value_usd": 11926000.0,
-        "weight_pct": 6.22
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 85000.0,
+        "value_usd": 13417300.0,
+        "weight_pct": 6.63
       },
       {
         "cusip": "464287465",
         "security_class": "MSCI EAFE ETF",
         "issuer": "ISHARES TR",
         "shares": 100000.0,
-        "value_usd": 10388000.0,
-        "weight_pct": 5.42
+        "value_usd": 10389000.0,
+        "weight_pct": 5.14
       },
       {
         "cusip": "00162Q452",
         "security_class": "ALERIAN MLP",
         "issuer": "ALPS ETF TR",
         "shares": 200000.0,
-        "value_usd": 10370000.0,
-        "weight_pct": 5.41
+        "value_usd": 10374000.0,
+        "weight_pct": 5.13
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
         "shares": 13000.0,
-        "value_usd": 9735600.0,
-        "weight_pct": 5.08
+        "value_usd": 9956100.0,
+        "weight_pct": 4.92
       },
       {
         "cusip": "922908611",
-        "security_class": "SM CP VAL ETF",
+        "security_class": "MRNGSTR SML CP V",
         "issuer": "VANGUARD INDEX FDS",
         "shares": 35000.0,
-        "value_usd": 8504700.0,
-        "weight_pct": 4.44
-      },
-      {
-        "cusip": "670928100",
-        "security_class": "COM",
-        "issuer": "NUVEEN MUN VALUE FD INC",
-        "shares": 736112.0,
-        "value_usd": 6787000.0,
-        "weight_pct": 3.54
+        "value_usd": 8086100.0,
+        "weight_pct": 4.0
       },
       {
         "cusip": "69374H881",
         "security_class": "US CASH COWS 100",
         "issuer": "PACER FDS TR",
         "shares": 100000.0,
-        "value_usd": 6220000.0,
-        "weight_pct": 3.24
+        "value_usd": 6676000.0,
+        "weight_pct": 3.3
       }
     ],
-    "top_five_pct": 72.43,
-    "top_ten_pct": 94.14,
-    "hhi": 1763.63,
+    "top_five_pct": 71.1,
+    "top_ten_pct": 93.59,
+    "hhi": 1536.95,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 3,
-      "exited_positions": 7,
-      "increased_positions": 0,
-      "reduced_positions": 5
+      "exited_positions": 4,
+      "increased_positions": 1,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000919574-26-005169"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007857"
       }
     ]
   },
-  "reported_13f_value_usd": 191685300.0,
+  "reported_13f_value_usd": 202304900.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000919574-26-005169",
+  "validated_accession": "0000919574-26-007857",
   "annualized_turnover_proxy_pct": null
 }

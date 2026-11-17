@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001719307",
   "investor_name": "Beryl Capital Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "REDONDO BEACH",
   "state": "CA",
   "country": "United States",
@@ -10,87 +10,122 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1719307/0001719307-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1719307/0001719307-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1719307/0001719307-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1719307/0001719307-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2e203683c83ba18de640bd28652848ff1f39ee5868b9a4b503d3955a290dcaa7",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "70deacdebd0cd7355eb908c0a386af47e21819de6f576c78c0b63618f4f20a31",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "e366ac6afe22528a1e493d932cb5c75395a80779",
+    "ecff81b157e9945cc042ea9a5a269e66cacf6854",
+    "f3373f953a13a44596f9e4d587eeab9d0110e537"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001719307-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1719307/0001719307-26-000005.txt",
-    "distinct_positions": 7,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001719307-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1719307/0001719307-26-000007.txt",
+    "distinct_positions": 29,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 110668789.0,
+    "reported_long_equity_value_usd": 314734075.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "G4474Y214",
-        "security_class": "ORD SHS",
-        "issuer": "JANUS HENDERSON GROUP PLC",
-        "shares": 1414000.0,
-        "value_usd": 73528000.0,
-        "weight_pct": 66.44
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 3505000.0,
+        "value_usd": 108479750.0,
+        "weight_pct": 34.47
       },
       {
-        "cusip": "29664W105",
+        "cusip": "007903107",
         "security_class": "COM",
-        "issuer": "ESPERION THERAPEUTICS INC NE",
-        "shares": 4431598.0,
-        "value_usd": 14003850.0,
-        "weight_pct": 12.65
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 55000.0,
+        "value_usd": 33646800.0,
+        "weight_pct": 10.69
       },
       {
-        "cusip": "03770N101",
+        "cusip": "458140100",
         "security_class": "COM",
-        "issuer": "APOGEE THERAPEUTICS INC",
-        "shares": 58676.0,
-        "value_usd": 7788065.0,
-        "weight_pct": 7.04
+        "issuer": "INTEL CORP",
+        "shares": 270000.0,
+        "value_usd": 32462100.0,
+        "weight_pct": 10.31
       },
       {
-        "cusip": "146280508",
-        "security_class": "COMMON STOCK",
-        "issuer": "SILA REALTY TRUST INC",
-        "shares": 200000.0,
-        "value_usd": 6072000.0,
-        "weight_pct": 5.49
-      },
-      {
-        "cusip": "05350V106",
+        "cusip": "925815102",
         "security_class": "COM",
-        "issuer": "AVANOS MED INC",
-        "shares": 155056.0,
-        "value_usd": 3857793.0,
-        "weight_pct": 3.49
-      },
-      {
-        "cusip": "87724P106",
-        "security_class": "COM",
-        "issuer": "TAYLOR MORRISON HOME CORP",
+        "issuer": "VICOR CORP",
         "shares": 50000.0,
-        "value_usd": 3587000.0,
-        "weight_pct": 3.24
+        "value_usd": 14447000.0,
+        "weight_pct": 4.59
       },
       {
-        "cusip": "87162W100",
+        "cusip": "25402D102",
         "security_class": "COM",
-        "issuer": "TD SYNNEX CORPORATION",
-        "shares": 6853.0,
-        "value_usd": 1832081.0,
-        "weight_pct": 1.66
+        "issuer": "DIGITALOCEAN HLDGS INC",
+        "shares": 89400.0,
+        "value_usd": 11925066.0,
+        "weight_pct": 3.79
+      },
+      {
+        "cusip": "04626A103",
+        "security_class": "COM",
+        "issuer": "ASTERA LABS INC",
+        "shares": 30000.0,
+        "value_usd": 10679100.0,
+        "weight_pct": 3.39
+      },
+      {
+        "cusip": "15101Q207",
+        "security_class": "COM",
+        "issuer": "CELESTICA INC",
+        "shares": 25000.0,
+        "value_usd": 9035750.0,
+        "weight_pct": 2.87
+      },
+      {
+        "cusip": "80004C200",
+        "security_class": "COM",
+        "issuer": "SANDISK CORP",
+        "shares": 5000.0,
+        "value_usd": 8699450.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "042068205",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ARM HOLDINGS PLC",
+        "shares": 30000.0,
+        "value_usd": 8689800.0,
+        "weight_pct": 2.76
+      },
+      {
+        "cusip": "346375108",
+        "security_class": "COM",
+        "issuer": "FORMFACTOR INC",
+        "shares": 58000.0,
+        "value_usd": 8659980.0,
+        "weight_pct": 2.75
       }
     ],
-    "top_five_pct": 95.1,
-    "top_ten_pct": 100.0,
-    "hhi": 4679.38,
+    "top_five_pct": 63.85,
+    "top_ten_pct": 78.39,
+    "hhi": 1520.54,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 7,
-      "exited_positions": 6,
+      "previous_period": "2026-06-30",
+      "new_positions": 29,
+      "exited_positions": 7,
       "increased_positions": 0,
       "reduced_positions": 0
     },
@@ -104,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001719307-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001719307-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 110668789.0,
+  "reported_13f_value_usd": 314734075.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001719307-26-000005",
+  "validated_accession": "0001719307-26-000007",
   "annualized_turnover_proxy_pct": null
 }

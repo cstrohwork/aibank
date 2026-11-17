@@ -1,29 +1,40 @@
 {
   "manager_cik": "0000011544",
   "investor_name": "BERKLEY W R CORP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-24",
-  "city": "Greenwich",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "GREENWICH",
   "state": "CT",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/11544/0000899140-25-001317.txt",
-    "https://www.sec.gov/Archives/edgar/data/11544/0000899140-26-000955.txt"
+    "https://www.sec.gov/Archives/edgar/data/11544/0000899140-26-000955.txt",
+    "https://www.sec.gov/Archives/edgar/data/11544/0000899140-26-001373.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ffdd6a34c2e991c20803375bf32e784d95acaeffe17894436cdbeac7c521b8f4",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "eddda439e9b3c7d7da680f493dcbb59973ad96fa42c5970349fbaf1cf158bc7e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-24|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4c0743957e659a26b1c6016869dd03ef5eaa7c8c",
+    "77446e9f268aa59b5f27d45f6fef2bd3ed970cd6",
+    "8fd777b5d24543cb572308324ba92ce5b0a4e09e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-24",
-    "accession": "0000899140-26-000955",
-    "source": "https://www.sec.gov/Archives/edgar/data/11544/0000899140-26-000955.txt",
-    "distinct_positions": 339,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001373",
+    "source": "https://www.sec.gov/Archives/edgar/data/11544/0000899140-26-001373.txt",
+    "distinct_positions": 355,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2038368033.0,
+    "reported_long_equity_value_usd": 2161036260.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "ENTERPRISE PRODS PARTNERS L",
         "shares": 6825000.0,
-        "value_usd": 250887000.0,
-        "weight_pct": 12.31
+        "value_usd": 243038250.0,
+        "weight_pct": 11.25
       },
       {
         "cusip": "29273V100",
         "security_class": "COM UT LTD PTN",
         "issuer": "ENERGY TRANSFER L P",
         "shares": 8250000.0,
-        "value_usd": 157740000.0,
-        "weight_pct": 7.74
+        "value_usd": 163102500.0,
+        "weight_pct": 7.55
       },
       {
         "cusip": "49456B101",
         "security_class": "COM",
         "issuer": "KINDER MORGAN INC DEL",
         "shares": 2837206.0,
-        "value_usd": 90705476.0,
-        "weight_pct": 4.45
+        "value_usd": 85541761.0,
+        "weight_pct": 3.96
       },
       {
         "cusip": "726503105",
         "security_class": "UNIT LTD PARTN",
         "issuer": "PLAINS ALL AMERN PIPELINE L",
         "shares": 3184307.0,
-        "value_usd": 70882674.0,
-        "weight_pct": 3.48
+        "value_usd": 75531762.0,
+        "weight_pct": 3.5
+      },
+      {
+        "cusip": "958669103",
+        "security_class": "COM UNIT LP INT",
+        "issuer": "WESTERN MIDSTREAM PARTNERS L",
+        "shares": 1266970.0,
+        "value_usd": 56215459.0,
+        "weight_pct": 2.6
       },
       {
         "cusip": "682189105",
         "security_class": "COM",
         "issuer": "ON SEMICONDUCTOR CORP",
         "shares": 731118.0,
-        "value_usd": 69119896.0,
-        "weight_pct": 3.39
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 149400.0,
-        "value_usd": 55729188.0,
-        "weight_pct": 2.73
-      },
-      {
-        "cusip": "958669103",
-        "security_class": "COM UNIT LP INT",
-        "issuer": "WESTERN MIDSTREAM PARTNERS",
-        "shares": 1266970.0,
-        "value_usd": 55442607.0,
-        "weight_pct": 2.72
+        "value_usd": 56201041.0,
+        "weight_pct": 2.6
       },
       {
         "cusip": "743315103",
         "security_class": "COM",
         "issuer": "PROGRESSIVE CORP",
         "shares": 207589.0,
-        "value_usd": 45347817.0,
-        "weight_pct": 2.22
+        "value_usd": 43035276.0,
+        "weight_pct": 1.99
       },
       {
-        "cusip": "G0131Y100",
-        "security_class": "SHS CL A",
-        "issuer": "AGRICULTURE & NAT SOL ACQ CO",
-        "shares": 3265181.0,
-        "value_usd": 37059804.0,
-        "weight_pct": 1.82
-      },
-      {
-        "cusip": "67066G104",
+        "cusip": "717081103",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 124800.0,
-        "value_usd": 24971232.0,
-        "weight_pct": 1.23
+        "issuer": "PFIZER INC",
+        "shares": 965537.0,
+        "value_usd": 27537115.0,
+        "weight_pct": 1.27
+      },
+      {
+        "cusip": "G7633M104",
+        "security_class": "ORD SHS CL A",
+        "issuer": "ROMAN DBDR ACQUISITION CORP",
+        "shares": 2276587.0,
+        "value_usd": 24359481.0,
+        "weight_pct": 1.13
+      },
+      {
+        "cusip": "G3106Q102",
+        "security_class": "ORD SHS CL A",
+        "issuer": "EQV VENTURES AC CORP. II",
+        "shares": 2303662.0,
+        "value_usd": 23773792.0,
+        "weight_pct": 1.1
       }
     ],
-    "top_five_pct": 31.37,
-    "top_ten_pct": 42.09,
-    "hhi": 306.37,
+    "top_five_pct": 28.85,
+    "top_ten_pct": 36.94,
+    "hhi": 260.0,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 215,
-      "exited_positions": 101,
-      "increased_positions": 64,
-      "reduced_positions": 32
+      "previous_period": "2026-06-30",
+      "new_positions": 82,
+      "exited_positions": 66,
+      "increased_positions": 110,
+      "reduced_positions": 39
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-24",
         "accession": "0000899140-26-000955"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001373"
       }
     ]
   },
-  "reported_13f_value_usd": 2038368033.0,
+  "reported_13f_value_usd": 2161036260.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000899140-26-000955",
+  "validated_accession": "0000899140-26-001373",
   "annualized_turnover_proxy_pct": null
 }

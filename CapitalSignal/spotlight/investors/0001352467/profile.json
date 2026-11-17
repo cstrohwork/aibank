@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001352467",
   "investor_name": "BBR PARTNERS, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1352467/0001352467-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1352467/0001352467-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1352467/0001352467-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1352467/0001352467-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0adacbad57b7558234812c0cf129780ad899ec0b71f1fe545ec8cf8292003eae",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "984de17bb174c79f3e8300aa14ea69a732fe029a5d41d8bc6236f5261c644edf",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "611aa0998c7939baa8eaea1be7f475acaa688c1c",
+    "6b3173a4ba2306195c718a9ba9574d18d17d85bd",
+    "7452a2c5e8b862cdfc0fe9066c0408168357381e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001352467-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1352467/0001352467-26-000004.txt",
-    "distinct_positions": 250,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001352467-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1352467/0001352467-26-000007.txt",
+    "distinct_positions": 278,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2132415032.0,
+    "reported_long_equity_value_usd": 2303607022.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "SPDR S&P 500 ETF TR",
-        "shares": 1073616.0,
-        "value_usd": 801744502.0,
-        "weight_pct": 37.6
+        "shares": 1054639.0,
+        "value_usd": 804299549.0,
+        "weight_pct": 34.91
       },
       {
         "cusip": "00039J822",
         "security_class": "INTL LOW VOLATLT",
         "issuer": "AB ACTIVE ETFS INC",
-        "shares": 4856373.0,
-        "value_usd": 220770718.0,
-        "weight_pct": 10.35
+        "shares": 5300084.0,
+        "value_usd": 241789820.0,
+        "weight_pct": 10.5
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 224946.0,
-        "value_usd": 168459901.0,
-        "weight_pct": 7.9
+        "shares": 224994.0,
+        "value_usd": 172311748.0,
+        "weight_pct": 7.48
       },
       {
         "cusip": "911312106",
         "security_class": "CL B",
         "issuer": "UNITED PARCEL SERVICE INC",
-        "shares": 754288.0,
-        "value_usd": 81085961.0,
-        "weight_pct": 3.8
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 194145.0,
-        "value_usd": 56177916.0,
-        "weight_pct": 2.63
-      },
-      {
-        "cusip": "30151E517",
-        "security_class": "LONG POND REAL E",
-        "issuer": "EXCHANGE LISTED FDS TR",
-        "shares": 1281464.0,
-        "value_usd": 38572073.0,
-        "weight_pct": 1.81
+        "shares": 754712.0,
+        "value_usd": 70520289.0,
+        "weight_pct": 3.06
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 55497.0,
-        "value_usd": 38115684.0,
-        "weight_pct": 1.79
+        "shares": 96092.0,
+        "value_usd": 67347288.0,
+        "weight_pct": 2.92
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 193520.0,
+        "value_usd": 64445897.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "30151E517",
+        "security_class": "LONG POND REAL E",
+        "issuer": "EXCHANGE LISTED FDS TR",
+        "shares": 1498120.0,
+        "value_usd": 40299417.0,
+        "weight_pct": 1.75
+      },
+      {
+        "cusip": "464288570",
+        "security_class": "MSCI KLD400 SOC",
+        "issuer": "ISHARES TR",
+        "shares": 274767.0,
+        "value_usd": 40165424.0,
+        "weight_pct": 1.74
       },
       {
         "cusip": "92204A702",
         "security_class": "INF TECH ETF",
         "issuer": "VANGUARD WORLD FDS",
-        "shares": 255848.0,
-        "value_usd": 30578953.0,
-        "weight_pct": 1.43
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 83888.0,
-        "value_usd": 29978897.0,
+        "shares": 259048.0,
+        "value_usd": 32554562.0,
         "weight_pct": 1.41
       },
       {
-        "cusip": "46137V357",
-        "security_class": "S&P500 EQL WGT",
-        "issuer": "INVESCO EXCHANGE TRADED FD T",
-        "shares": 124287.0,
-        "value_usd": 26444468.0,
-        "weight_pct": 1.24
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 62845.0,
+        "value_usd": 32233285.0,
+        "weight_pct": 1.4
       }
     ],
-    "top_five_pct": 62.29,
-    "top_ten_pct": 69.96,
-    "hhi": 1630.46,
+    "top_five_pct": 58.88,
+    "top_ten_pct": 67.98,
+    "hhi": 1436.41,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 43,
-      "exited_positions": 63,
-      "increased_positions": 51,
-      "reduced_positions": 106
+      "previous_period": "2026-06-30",
+      "new_positions": 47,
+      "exited_positions": 19,
+      "increased_positions": 110,
+      "reduced_positions": 30
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001352467-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001352467-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 2132415032.0,
+  "reported_13f_value_usd": 2303607022.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001352467-26-000004",
+  "validated_accession": "0001352467-26-000007",
   "annualized_turnover_proxy_pct": null
 }

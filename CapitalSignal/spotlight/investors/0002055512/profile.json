@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002055512",
   "investor_name": "Keewaydin Investments LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Southampton",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2055512/0001013594-26-000906.txt"
+    "https://www.sec.gov/Archives/edgar/data/2055512/0001013594-26-000906.txt",
+    "https://www.sec.gov/Archives/edgar/data/2055512/0001013594-26-001199.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9d617b180ac4b9b87508bf09fef7711121c1bd119ff9ec6bcc97b01b89e7a521",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "ac7b8c7a4c8ebd9ed09ba6dd275a05602dea6a79d560efb8347f3dc544185fc8",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "69ccf8f2560e09e296b4e15fb91ec29caa4f8b1d",
+    "9f8bfb64ae4ba3ba92a033256a8066840ba48b5b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001013594-26-000906",
-    "source": "https://www.sec.gov/Archives/edgar/data/2055512/0001013594-26-000906.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001013594-26-001199",
+    "source": "https://www.sec.gov/Archives/edgar/data/2055512/0001013594-26-001199.txt",
     "distinct_positions": 18,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 346602547.0,
+    "reported_long_equity_value_usd": 315886263.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "921943858",
         "security_class": "VAN FTSE DEV MKT",
         "issuer": "VANGUARD TAX-MANAGED FDS",
-        "shares": 2090711.0,
-        "value_usd": 148963159.0,
-        "weight_pct": 42.98
+        "shares": 1829256.0,
+        "value_usd": 129163766.0,
+        "weight_pct": 40.89
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 162462.0,
-        "value_usd": 111580526.0,
-        "weight_pct": 32.19
+        "shares": 145854.0,
+        "value_usd": 102223234.0,
+        "weight_pct": 32.36
       },
       {
         "cusip": "922042858",
         "security_class": "FTSE EMR MKT ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 546363.0,
-        "value_usd": 32612407.0,
-        "weight_pct": 9.41
+        "shares": 543006.0,
+        "value_usd": 32205686.0,
+        "weight_pct": 10.2
       },
       {
         "cusip": "46434G822",
         "security_class": "MSCI JAPAN ETF",
         "issuer": "ISHARES INC",
-        "shares": 324733.0,
-        "value_usd": 30287847.0,
-        "weight_pct": 8.74
+        "shares": 310833.0,
+        "value_usd": 30293784.0,
+        "weight_pct": 9.59
       },
       {
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
         "issuer": "INVESCO QQQ TR",
-        "shares": 6379.0,
-        "value_usd": 4697496.0,
-        "weight_pct": 1.36
-      },
-      {
-        "cusip": "30049H102",
-        "security_class": "COM CL A",
-        "issuer": "EVOLV TECHNOLOGIES HLDNGS IN",
-        "shares": 692360.0,
-        "value_usd": 4015688.0,
-        "weight_pct": 1.16
+        "shares": 5966.0,
+        "value_usd": 4413468.0,
+        "weight_pct": 1.4
       },
       {
         "cusip": "922908553",
         "security_class": "REAL ESTATE ETF",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 40985.0,
-        "value_usd": 3952184.0,
-        "weight_pct": 1.14
+        "shares": 41614.0,
+        "value_usd": 3729863.0,
+        "weight_pct": 1.18
+      },
+      {
+        "cusip": "30049H102",
+        "security_class": "COM CL A",
+        "issuer": "EVOLV TECHNOLOGIES HLDNGS IN",
+        "shares": 698890.0,
+        "value_usd": 3249839.0,
+        "weight_pct": 1.03
       },
       {
         "cusip": "084670108",
         "security_class": "CL A",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
         "shares": 4.0,
-        "value_usd": 2995400.0,
-        "weight_pct": 0.86
+        "value_usd": 2988020.0,
+        "weight_pct": 0.95
       },
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
         "shares": 7548.0,
-        "value_usd": 2793062.0,
-        "weight_pct": 0.81
+        "value_usd": 2824764.0,
+        "weight_pct": 0.89
       },
       {
         "cusip": "00162Q452",
         "security_class": "ALERIAN MLP",
         "issuer": "ALPS ETF TR",
-        "shares": 47160.0,
-        "value_usd": 2445235.0,
-        "weight_pct": 0.71
+        "shares": 50554.0,
+        "value_usd": 2622242.0,
+        "weight_pct": 0.83
       }
     ],
-    "top_five_pct": 94.67,
-    "top_ten_pct": 99.35,
-    "hhi": 3054.88,
-    "changes": null,
+    "top_five_pct": 94.43,
+    "top_ten_pct": 99.31,
+    "hhi": 2922.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 3,
+      "increased_positions": 3,
+      "reduced_positions": 5
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001013594-26-000906"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001013594-26-001199"
       }
     ]
   },
-  "reported_13f_value_usd": 346602547.0,
+  "reported_13f_value_usd": 315886263.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001013594-26-000906",
+  "validated_accession": "0001013594-26-001199",
   "annualized_turnover_proxy_pct": null
 }

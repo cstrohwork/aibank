@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001327055",
   "investor_name": "Bragg Financial Advisors, Inc",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHARLOTTE",
   "state": "NC",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1327055/0001062993-25-016705.txt",
-    "https://www.sec.gov/Archives/edgar/data/1327055/0001062993-26-004202.txt"
+    "https://www.sec.gov/Archives/edgar/data/1327055/0001062993-26-004202.txt",
+    "https://www.sec.gov/Archives/edgar/data/1327055/0001062993-26-006053.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1257dfac8dbfc6f41735c1e458cb53a381f897a17c1777d901d58363d418b280",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "17d0217a3dc38c1086b750c18e7fd8872df04d7f88c094016497c25bdfd6043f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "b9c0adc4e6b9e0e69a5b31d3dd205045630c1954",
+    "c53cdd2dd6da30cfe6e4ccf8bdee9cd72b63684c",
+    "ed72aff13320514d18033eab214f07b27764abcf"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001062993-26-004202",
-    "source": "https://www.sec.gov/Archives/edgar/data/1327055/0001062993-26-004202.txt",
-    "distinct_positions": 363,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001062993-26-006053",
+    "source": "https://www.sec.gov/Archives/edgar/data/1327055/0001062993-26-006053.txt",
+    "distinct_positions": 381,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3736846779.0,
+    "reported_long_equity_value_usd": 3621196924.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 143808.0,
-        "value_usd": 103973403.0,
-        "weight_pct": 2.78
-      },
-      {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 300663.0,
-        "value_usd": 86999839.0,
-        "weight_pct": 2.33
-      },
-      {
-        "cusip": "87162W100",
-        "security_class": "COM",
-        "issuer": "TD SYNNEX CORPORATION",
-        "shares": 274794.0,
-        "value_usd": 73463428.0,
-        "weight_pct": 1.97
-      },
-      {
-        "cusip": "922908611",
-        "security_class": "SM CP VAL ETF",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 290690.0,
-        "value_usd": 70634712.0,
-        "weight_pct": 1.89
+        "shares": 299119.0,
+        "value_usd": 99612763.0,
+        "weight_pct": 2.75
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 173801.0,
-        "value_usd": 64831269.0,
-        "weight_pct": 1.73
+        "shares": 174583.0,
+        "value_usd": 89543541.0,
+        "weight_pct": 2.47
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 178691.0,
-        "value_usd": 63137001.0,
-        "weight_pct": 1.69
-      },
-      {
-        "cusip": "219350105",
+        "cusip": "038222105",
         "security_class": "COM",
-        "issuer": "CORNING INC",
-        "shares": 237059.0,
-        "value_usd": 60552075.0,
-        "weight_pct": 1.62
+        "issuer": "APPLIED MATLS INC",
+        "shares": 137680.0,
+        "value_usd": 70407028.0,
+        "weight_pct": 1.94
+      },
+      {
+        "cusip": "922908611",
+        "security_class": "MRNGSTR SML CP V",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 286491.0,
+        "value_usd": 66188009.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "87162W100",
+        "security_class": "COM",
+        "issuer": "TD SYNNEX CORPORATION",
+        "shares": 245624.0,
+        "value_usd": 63088525.0,
+        "weight_pct": 1.74
       },
       {
         "cusip": "902681105",
         "security_class": "COM",
         "issuer": "UGI CORP NEW",
-        "shares": 1732179.0,
-        "value_usd": 59829463.0,
-        "weight_pct": 1.6
+        "shares": 1737679.0,
+        "value_usd": 61983010.0,
+        "weight_pct": 1.71
       },
       {
-        "cusip": "042735100",
-        "security_class": "COM",
-        "issuer": "ARROW ELECTRS INC",
-        "shares": 268624.0,
-        "value_usd": 57327048.0,
-        "weight_pct": 1.53
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 179920.0,
+        "value_usd": 61306091.0,
+        "weight_pct": 1.69
       },
       {
         "cusip": "007903107",
         "security_class": "COM",
         "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 92512.0,
-        "value_usd": 53741146.0,
-        "weight_pct": 1.44
+        "shares": 83415.0,
+        "value_usd": 51029961.0,
+        "weight_pct": 1.41
+      },
+      {
+        "cusip": "042735100",
+        "security_class": "COM",
+        "issuer": "ARROW ELECTRS INC",
+        "shares": 217406.0,
+        "value_usd": 49351162.0,
+        "weight_pct": 1.36
+      },
+      {
+        "cusip": "922908595",
+        "security_class": "MRNGSTR SM CP GR",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 142744.0,
+        "value_usd": 48223294.0,
+        "weight_pct": 1.33
       }
     ],
-    "top_five_pct": 10.7,
-    "top_ten_pct": 18.58,
-    "hhi": 91.72,
+    "top_five_pct": 10.74,
+    "top_ten_pct": 18.25,
+    "hhi": 88.88,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 60,
-      "exited_positions": 41,
-      "increased_positions": 155,
-      "reduced_positions": 133
+      "previous_period": "2026-06-30",
+      "new_positions": 37,
+      "exited_positions": 19,
+      "increased_positions": 147,
+      "reduced_positions": 152
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001062993-26-004202"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001062993-26-006053"
       }
     ]
   },
-  "reported_13f_value_usd": 3736846779.0,
+  "reported_13f_value_usd": 3621196924.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001062993-26-004202",
+  "validated_accession": "0001062993-26-006053",
   "annualized_turnover_proxy_pct": null
 }

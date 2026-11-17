@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001050464",
   "investor_name": "PECONIC PARTNERS LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,88 +10,83 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1050464/0001050464-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1050464/0001050464-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1050464/0001050464-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1050464/0001050464-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b43c9f1981c953f8f4e59989b6a2a125fef143ac70e8e8e2b359db024821fa6e",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "9f2f1d6f4be7a64b804718dadd405ad2cdc19f7a4016c712badd046ff4c3b73b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2ee747e021513e54513238ed350049496f202833",
+    "57a69225dc0cef90d1c4b1b5cc79dcaa8f767137",
+    "c1bf30244a5bfa47461570e56f42c4076fa9075c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001050464-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1050464/0001050464-26-000005.txt",
-    "distinct_positions": 7,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001050464-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1050464/0001050464-26-000010.txt",
+    "distinct_positions": 5,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 7522069334.0,
+    "reported_long_equity_value_usd": 4642917675.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "74762E102",
-        "security_class": "COM",
+        "security_class": "CL B",
         "issuer": "QUANTA SCVS INC",
-        "shares": 4720847.0,
-        "value_usd": 3399198674.0,
-        "weight_pct": 45.19
+        "shares": 4046993.0,
+        "value_usd": 2600233472.0,
+        "weight_pct": 56.0
       },
       {
         "cusip": "267475101",
         "security_class": "COM",
         "issuer": "DYCOM INDS INC",
         "shares": 4443320.0,
-        "value_usd": 2246498159.0,
-        "weight_pct": 29.87
+        "value_usd": 1195608546.0,
+        "weight_pct": 25.75
       },
       {
         "cusip": "576323109",
         "security_class": "COM",
         "issuer": "MASTEC INC",
-        "shares": 3678431.0,
-        "value_usd": 1530448002.0,
-        "weight_pct": 20.35
-      },
-      {
-        "cusip": "35671D857",
-        "security_class": "CL B",
-        "issuer": "FREEPORT-MCMORAN INC",
-        "shares": 3917068.0,
-        "value_usd": 246344407.0,
-        "weight_pct": 3.27
+        "shares": 2943747.0,
+        "value_usd": 628843234.0,
+        "weight_pct": 13.54
       },
       {
         "cusip": "00165C302",
         "security_class": "CL A NEW",
         "issuer": "AMC ENTMT HLDGS INC",
-        "shares": 32000000.0,
-        "value_usd": 60800000.0,
-        "weight_pct": 0.81
+        "shares": 56134141.0,
+        "value_usd": 168402423.0,
+        "weight_pct": 3.63
       },
       {
-        "cusip": "17243V102",
-        "security_class": "COM",
-        "issuer": "CINEMARK HLDGS INC",
-        "shares": 1201917.0,
-        "value_usd": 38136826.0,
-        "weight_pct": 0.51
-      },
-      {
-        "cusip": "02079K305",
+        "cusip": "023135106",
         "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 1800.0,
-        "value_usd": 643266.0,
-        "weight_pct": 0.01
+        "issuer": "AMAZON",
+        "shares": 200000.0,
+        "value_usd": 49830000.0,
+        "weight_pct": 1.07
       }
     ],
-    "top_five_pct": 99.48,
+    "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3359.65,
+    "hhi": 3997.36,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 2,
-      "exited_positions": 7,
-      "increased_positions": 3,
+      "exited_positions": 4,
+      "increased_positions": 1,
       "reduced_positions": 1
     },
     "timeline": [
@@ -104,11 +99,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001050464-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001050464-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 7522069334.0,
+  "reported_13f_value_usd": 4642917675.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001050464-26-000005",
+  "validated_accession": "0001050464-26-000010",
   "annualized_turnover_proxy_pct": null
 }

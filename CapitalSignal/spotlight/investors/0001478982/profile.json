@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001478982",
   "investor_name": "Altai Capital Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "IRVINE",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1478982/0001478982-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1478982/0001478982-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1478982/0001478982-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1478982/0001478982-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "24e82f5968c8d0e4419b5360f503af0674b2a57b1ee5a18f41b9ace98d733be0",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "b6a6dd1a8799c54a9438e343e98ec61c390cc3d256852196514161379bb01229",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2cb8cd2686b09915558d32ca96f51fbea2cf68d8",
+    "38adfa62f22c428df716690db912fc4ba26b95e9",
+    "91d958f8a3e7a9cb6e10b5cd32a6f0c8d63b08af"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001478982-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1478982/0001478982-26-000004.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001478982-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1478982/0001478982-26-000005.txt",
     "distinct_positions": 4,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 48986.0,
+    "reported_long_equity_value_usd": 40122.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,43 +43,43 @@
         "security_class": "COM",
         "issuer": "DIGIMARC CORP NEW COM",
         "shares": 2769346.0,
-        "value_usd": 22764.0,
-        "weight_pct": 46.47
+        "value_usd": 16118.0,
+        "weight_pct": 40.17
       },
       {
         "cusip": "68554V108",
         "security_class": "COM",
         "issuer": "ORASURE TECHNOLOGIES INC COM",
         "shares": 3613836.0,
-        "value_usd": 16118.0,
-        "weight_pct": 32.9
+        "value_usd": 14166.0,
+        "weight_pct": 35.31
       },
       {
         "cusip": "83085C107",
         "security_class": "COM",
         "issuer": "SKY HARBOUR GROUP CORPORATIO COM CL A",
         "shares": 715327.0,
-        "value_usd": 7039.0,
-        "weight_pct": 14.37
+        "value_usd": 6774.0,
+        "weight_pct": 16.88
       },
       {
         "cusip": "G98338109",
         "security_class": "COM",
         "issuer": "YATRA ONLINE INC ORD SHS",
         "shares": 3252708.0,
-        "value_usd": 3065.0,
-        "weight_pct": 6.26
+        "value_usd": 3064.0,
+        "weight_pct": 7.64
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3487.75,
+    "hhi": 3203.81,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 2
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -80,11 +91,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001478982-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001478982-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 48986.0,
+  "reported_13f_value_usd": 40122.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001478982-26-000004",
+  "validated_accession": "0001478982-26-000005",
   "annualized_turnover_proxy_pct": null
 }

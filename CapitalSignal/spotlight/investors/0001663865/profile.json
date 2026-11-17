@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001663865",
   "investor_name": "Orbis Allan Gray Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HamiltoN",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1663865/0001663865-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/1663865/0001663865-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1663865/0001663865-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1663865/0001663865-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e9c8eb5b58e9779d1faa52db649f6871194c0c2edf7442e20bc312a1ea3b17b2",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "84d160c8cf42f337db772eb8e6ae0e57cbaadc31176c7ffe5346d6c338b38d1e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1642305b18db7128a4380e0c51250b6f950a8ed2",
+    "3b5006054c4b6420b033267815af5ffd62c434a8",
+    "59c2fd286e5986020b863c2ef133d65dc8ae6125"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001663865-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1663865/0001663865-26-000004.txt",
-    "distinct_positions": 97,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001663865-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1663865/0001663865-26-000005.txt",
+    "distinct_positions": 95,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 29098622771.0,
+    "reported_long_equity_value_usd": 30054272061.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "219948106",
         "security_class": "COM SHS",
         "issuer": "CORPAY INC",
-        "shares": 5408507.0,
-        "value_usd": 1802493128.0,
-        "weight_pct": 6.19
+        "shares": 5415543.0,
+        "value_usd": 2104480009.0,
+        "weight_pct": 7.0
       },
       {
         "cusip": "N97284108",
         "security_class": "SHS CLASS A",
         "issuer": "NEBIUS GROUP N.V.",
-        "shares": 6494719.0,
-        "value_usd": 1793646546.0,
-        "weight_pct": 6.16
+        "shares": 5752084.0,
+        "value_usd": 1356801574.0,
+        "weight_pct": 4.51
       },
       {
-        "cusip": "09857L108",
-        "security_class": "COM",
-        "issuer": "BOOKING HOLDINGS INC",
-        "shares": 7191572.0,
-        "value_usd": 1281825793.0,
-        "weight_pct": 4.41
-      },
-      {
-        "cusip": "82846H405",
+        "cusip": "620076307",
         "security_class": "COM NEW",
-        "issuer": "QXO INC",
-        "shares": 73951325.0,
-        "value_usd": 1277878896.0,
+        "issuer": "MOTOROLA SOLUTIONS INC",
+        "shares": 2957803.0,
+        "value_usd": 1319091404.0,
         "weight_pct": 4.39
+      },
+      {
+        "cusip": "780259305",
+        "security_class": "SPON ADS",
+        "issuer": "SHELL PLC",
+        "shares": 12776781.0,
+        "value_usd": 1214433034.0,
+        "weight_pct": 4.04
       },
       {
         "cusip": "116794108",
         "security_class": "COM",
         "issuer": "BRUKER CORP",
         "shares": 17940076.0,
-        "value_usd": 1079633773.0,
-        "weight_pct": 3.71
+        "value_usd": 1161619922.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "09857L108",
+        "security_class": "COM",
+        "issuer": "BOOKING HOLDINGS INC",
+        "shares": 6897822.0,
+        "value_usd": 1123724182.0,
+        "weight_pct": 3.74
+      },
+      {
+        "cusip": "82846H405",
+        "security_class": "COM NEW",
+        "issuer": "QXO INC",
+        "shares": 92818707.0,
+        "value_usd": 1085050685.0,
+        "weight_pct": 3.61
+      },
+      {
+        "cusip": "26884L109",
+        "security_class": "COM",
+        "issuer": "EQT CORP",
+        "shares": 18427640.0,
+        "value_usd": 894846198.0,
+        "weight_pct": 2.98
+      },
+      {
+        "cusip": "457669307",
+        "security_class": "COM PAR $.01",
+        "issuer": "INSMED INC",
+        "shares": 6733982.0,
+        "value_usd": 768616705.0,
+        "weight_pct": 2.56
       },
       {
         "cusip": "74982T103",
         "security_class": "COMMON STOCK",
         "issuer": "RXO INC",
         "shares": 36397974.0,
-        "value_usd": 1004220102.0,
-        "weight_pct": 3.45
-      },
-      {
-        "cusip": "620076307",
-        "security_class": "COM NEW",
-        "issuer": "MOTOROLA SOLUTIONS INC",
-        "shares": 2389623.0,
-        "value_usd": 992386536.0,
-        "weight_pct": 3.41
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 2340624.0,
-        "value_usd": 836468799.0,
-        "weight_pct": 2.87
-      },
-      {
-        "cusip": "26884L109",
-        "security_class": "COM",
-        "issuer": "EQT CORP",
-        "shares": 15706047.0,
-        "value_usd": 835090519.0,
-        "weight_pct": 2.87
-      },
-      {
-        "cusip": "983793100",
-        "security_class": "COM",
-        "issuer": "XPO INC",
-        "shares": 3402819.0,
-        "value_usd": 698564713.0,
-        "weight_pct": 2.4
+        "value_usd": 744702548.0,
+        "weight_pct": 2.48
       }
     ],
-    "top_five_pct": 24.87,
-    "top_ten_pct": 39.87,
-    "hhi": 254.59,
+    "top_five_pct": 23.81,
+    "top_ten_pct": 39.17,
+    "hhi": 255.9,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 29,
-      "exited_positions": 18,
-      "increased_positions": 35,
-      "reduced_positions": 33
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 8,
+      "increased_positions": 52,
+      "reduced_positions": 27
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001663865-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001663865-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 29098622771.0,
+  "reported_13f_value_usd": 30054272061.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001663865-26-000004",
+  "validated_accession": "0001663865-26-000005",
   "annualized_turnover_proxy_pct": null
 }

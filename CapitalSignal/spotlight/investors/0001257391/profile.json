@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001257391",
   "investor_name": "WHITEBOX ADVISORS LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MINNEAPOLIS",
   "state": "MN",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1257391/0000905148-26-003954.txt",
-    "https://www.sec.gov/Archives/edgar/data/1257391/0001257391-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1257391/0001257391-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1257391/0001257391-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "340bf2471fb302de7b7f090b710bd068cb6208d0fc9bdc1d549acf0d89b62d25",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "8b7a07e8986a3dd9e9d278db23a68ed0c8c9185cc390c3be1e49ce8413286378",
+  "accession_fingerprints": [
+    "2025-09-30|2026-08-26|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "01ace4b1d132c76cae4b28505f67d6eba84476fb",
+    "2902a1b571ab2565bbf0daabd1ef7ad73841ae6f",
+    "c982174a828ecdb1959870aab8df039d01edee6e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001257391-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1257391/0001257391-26-000006.txt",
-    "distinct_positions": 581,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001257391-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1257391/0001257391-26-000008.txt",
+    "distinct_positions": 639,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2047969295.0,
+    "reported_long_equity_value_usd": 2088755521.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "70975L107",
-        "security_class": "COM",
-        "issuer": "PENUMBRA INC",
-        "shares": 506881.0,
-        "value_usd": 160047676.0,
-        "weight_pct": 7.81
-      },
-      {
         "cusip": "09073M104",
         "security_class": "COM",
         "issuer": "BIO-TECHNE CORP",
-        "shares": 2100001.0,
-        "value_usd": 148365071.0,
-        "weight_pct": 7.24
+        "shares": 2623801.0,
+        "value_usd": 190146858.0,
+        "weight_pct": 9.1
       },
       {
-        "cusip": "947890109",
+        "cusip": "70975L107",
         "security_class": "COM",
-        "issuer": "WEBSTER FINL CORP",
-        "shares": 1560001.0,
-        "value_usd": 119215276.0,
-        "weight_pct": 5.82
+        "issuer": "PENUMBRA INC",
+        "shares": 535001.0,
+        "value_usd": 170312218.0,
+        "weight_pct": 8.15
+      },
+      {
+        "cusip": "77543R102",
+        "security_class": "COM CL A",
+        "issuer": "ROKU INC",
+        "shares": 980001.0,
+        "value_usd": 149234552.0,
+        "weight_pct": 7.14
       },
       {
         "cusip": "12769G100",
         "security_class": "COM",
         "issuer": "CAESARS ENTERTAINMENT INC NE",
-        "shares": 3379426.0,
-        "value_usd": 101991077.0,
-        "weight_pct": 4.98
-      },
-      {
-        "cusip": "05501U601",
-        "security_class": "SPONSORED ADS",
-        "issuer": "AZUL S A",
-        "shares": 8362136.0,
-        "value_usd": 75175603.0,
-        "weight_pct": 3.67
-      },
-      {
-        "cusip": "86800U500",
-        "security_class": "7 DEP CM SR A WI",
-        "issuer": "SUPER MICRO COMPUTER INC",
-        "shares": 1400000.0,
-        "value_usd": 72744000.0,
-        "weight_pct": 3.55
+        "shares": 3329965.0,
+        "value_usd": 98733462.0,
+        "weight_pct": 4.73
       },
       {
         "cusip": "G9460G101",
         "security_class": "CL A",
         "issuer": "VALARIS LTD",
-        "shares": 850696.0,
-        "value_usd": 61760530.0,
-        "weight_pct": 3.02
+        "shares": 1127128.0,
+        "value_usd": 88502091.0,
+        "weight_pct": 4.24
       },
       {
-        "cusip": "03770N101",
+        "cusip": "29670G102",
         "security_class": "COM",
-        "issuer": "APOGEE THERAPEUTICS INC",
-        "shares": 450001.0,
-        "value_usd": 59728633.0,
-        "weight_pct": 2.92
+        "issuer": "ESSENTIAL UTILS INC",
+        "shares": 2243172.0,
+        "value_usd": 87909911.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "05501U601",
+        "security_class": "SPONSORED ADS",
+        "issuer": "AZUL S A",
+        "shares": 8154946.0,
+        "value_usd": 64424074.0,
+        "weight_pct": 3.08
+      },
+      {
+        "cusip": "42330P107",
+        "security_class": "COM",
+        "issuer": "HORNBECK OFFSHORE SERVICES I",
+        "shares": 8239303.0,
+        "value_usd": 58581444.0,
+        "weight_pct": 2.8
       },
       {
         "cusip": "402635502",
         "security_class": "COMMON SHARES",
         "issuer": "GULFPORT ENERGY CORP",
-        "shares": 274627.0,
-        "value_usd": 46604202.0,
-        "weight_pct": 2.28
+        "shares": 337809.0,
+        "value_usd": 50833498.0,
+        "weight_pct": 2.43
       },
       {
         "cusip": "89679M104",
         "security_class": "COM",
         "issuer": "TRIPLE FLAG PRECIOUS METAL",
         "shares": 1518950.0,
-        "value_usd": 45512609.0,
-        "weight_pct": 2.22
+        "value_usd": 46792418.0,
+        "weight_pct": 2.24
       }
     ],
-    "top_five_pct": 29.53,
-    "top_ten_pct": 43.51,
-    "hhi": 253.98,
+    "top_five_pct": 33.37,
+    "top_ten_pct": 48.14,
+    "hhi": 303.42,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 369,
-      "exited_positions": 121,
-      "increased_positions": 16,
-      "reduced_positions": 19
+      "previous_period": "2026-06-30",
+      "new_positions": 149,
+      "exited_positions": 91,
+      "increased_positions": 29,
+      "reduced_positions": 22
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001257391-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001257391-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 2047969295.0,
+  "reported_13f_value_usd": 2088755521.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001257391-26-000006",
+  "validated_accession": "0001257391-26-000008",
   "annualized_turnover_proxy_pct": null
 }

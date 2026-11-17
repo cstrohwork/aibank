@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001275880",
   "investor_name": "HARBOUR INVESTMENT MANAGEMENT LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-22",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "EDMONDS",
   "state": "WA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1275880/0001275880-25-000011.txt",
-    "https://www.sec.gov/Archives/edgar/data/1275880/0001275880-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1275880/0001275880-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1275880/0001275880-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "721cacc970089f6961f597052aca976718c14921492ce5d48d6cc4536874faa2",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "27a090ce6af89a18d71e774fb9984a3d68023132182a4afb220da1566e4b3820",
+  "accession_fingerprints": [
+    "2025-09-30|2025-12-15|||",
+    "2026-06-30|2026-07-22|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "48cfa61d4109c6455bdb17f232ac918f635c7eb9",
+    "8dba7d7887a4e2743d6710f8b50b21170400d153",
+    "d63fe82f10d488d10a97d1e6054fbb58f01087e7"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-22",
-    "accession": "0001275880-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1275880/0001275880-26-000004.txt",
-    "distinct_positions": 108,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001275880-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1275880/0001275880-26-000007.txt",
+    "distinct_positions": 113,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 193637088.0,
+    "reported_long_equity_value_usd": 198988965.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 33331.0,
-        "value_usd": 12433135.0,
-        "weight_pct": 6.42
+        "shares": 32383.0,
+        "value_usd": 16609248.0,
+        "weight_pct": 8.35
       },
       {
         "cusip": "92203C303",
         "security_class": "VANGUARD ULTRA",
         "issuer": "VANGUARD BD INDEX FDS",
-        "shares": 236587.0,
-        "value_usd": 11777301.0,
-        "weight_pct": 6.08
+        "shares": 238887.0,
+        "value_usd": 11836830.0,
+        "weight_pct": 5.95
       },
       {
         "cusip": "46641Q837",
         "security_class": "ULTRA SHRT ETF",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 191705.0,
-        "value_usd": 9694522.0,
-        "weight_pct": 5.01
-      },
-      {
-        "cusip": "22160K105",
-        "security_class": "COM",
-        "issuer": "COSTCO WHOLESALE CORPORATION",
-        "shares": 10155.0,
-        "value_usd": 9499698.0,
-        "weight_pct": 4.91
-      },
-      {
-        "cusip": "922040845",
-        "security_class": "0 3 MO TR BI ETF",
-        "issuer": "VANGUARD INSTL INDEX FD",
-        "shares": 114851.0,
-        "value_usd": 8691924.0,
-        "weight_pct": 4.49
+        "shares": 199213.0,
+        "value_usd": 10034359.0,
+        "weight_pct": 5.04
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 29326.0,
-        "value_usd": 8485719.0,
-        "weight_pct": 4.38
+        "shares": 27916.0,
+        "value_usd": 9296526.0,
+        "weight_pct": 4.67
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 9836.0,
+        "value_usd": 8954104.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "922040845",
+        "security_class": "0 3 MO TR BI ETF",
+        "issuer": "VANGUARD INSTL INDEX FD",
+        "shares": 112802.0,
+        "value_usd": 8541360.0,
+        "weight_pct": 4.29
       },
       {
         "cusip": "11135F101",
         "security_class": "COM",
         "issuer": "BROADCOM INC",
-        "shares": 17619.0,
-        "value_usd": 6655759.0,
-        "weight_pct": 3.44
+        "shares": 17158.0,
+        "value_usd": 6025887.0,
+        "weight_pct": 3.03
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 24570.0,
-        "value_usd": 5856014.0,
-        "weight_pct": 3.02
+        "shares": 23584.0,
+        "value_usd": 5875954.0,
+        "weight_pct": 2.95
       },
       {
         "cusip": "464287556",
         "security_class": "ISHARES BIOTECH",
         "issuer": "ISHARES TR",
-        "shares": 25150.0,
-        "value_usd": 4783274.0,
-        "weight_pct": 2.47
+        "shares": 23641.0,
+        "value_usd": 4977135.0,
+        "weight_pct": 2.5
       },
       {
         "cusip": "084670702",
         "security_class": "CL B NEW",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 8762.0,
-        "value_usd": 4384417.0,
-        "weight_pct": 2.26
+        "shares": 8761.0,
+        "value_usd": 4362540.0,
+        "weight_pct": 2.19
       }
     ],
-    "top_five_pct": 26.9,
-    "top_ten_pct": 42.48,
-    "hhi": 253.67,
+    "top_five_pct": 28.51,
+    "top_ten_pct": 43.48,
+    "hhi": 268.16,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 19,
-      "exited_positions": 17,
-      "increased_positions": 11,
-      "reduced_positions": 61
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 9,
+      "increased_positions": 9,
+      "reduced_positions": 62
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-22",
         "accession": "0001275880-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001275880-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 193637088.0,
+  "reported_13f_value_usd": 198988965.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001275880-26-000004",
+  "validated_accession": "0001275880-26-000007",
   "annualized_turnover_proxy_pct": null
 }

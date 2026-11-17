@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001644187",
   "investor_name": "Governors Lane LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1644187/0001644187-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1644187/0001644187-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1644187/0001644187-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1644187/0001644187-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "bbfee0cdae286ee4b9b047d1116d7f7cbd405a649b883ac3cc524005fd6af3c1",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "7d5484c5f30778be7db8422592975f827a587c156f3255806d757b41ce58d7a2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "693e29fe5996ade21f25c5571c6f55840ff67bc7",
+    "b5bde4a7fbb08a39e6888f0f68415dae158ac7f8",
+    "df472cbc154363bbaa98b34dc380c53badd7da94"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001644187-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1644187/0001644187-26-000003.txt",
-    "distinct_positions": 184,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001644187-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1644187/0001644187-26-000005.txt",
+    "distinct_positions": 181,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 998277250.0,
+    "reported_long_equity_value_usd": 889788189.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "655844108",
-        "security_class": "COM",
-        "issuer": "NORFOLK SOUTHN CORP",
-        "shares": 234843.0,
-        "value_usd": 73879259.0,
-        "weight_pct": 7.4
-      },
-      {
         "cusip": "69349H107",
         "security_class": "COM",
         "issuer": "TXNM ENERGY INC",
-        "shares": 1079170.0,
-        "value_usd": 61275273.0,
-        "weight_pct": 6.14
+        "shares": 1424122.0,
+        "value_usd": 83054795.0,
+        "weight_pct": 9.33
       },
       {
-        "cusip": "934423104",
-        "security_class": "COM SER A",
-        "issuer": "WARNER BROS DISCOVERY INC",
-        "shares": 1457766.0,
-        "value_usd": 38864042.0,
-        "weight_pct": 3.89
-      },
-      {
-        "cusip": "285512109",
+        "cusip": "655844108",
         "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS INC",
-        "shares": 182445.0,
-        "value_usd": 37408523.0,
-        "weight_pct": 3.75
+        "issuer": "NORFOLK SOUTHN CORP",
+        "shares": 248650.0,
+        "value_usd": 76832850.0,
+        "weight_pct": 8.63
       },
       {
-        "cusip": "824348106",
-        "security_class": "COM",
-        "issuer": "SHERWIN WILLIAMS CO",
-        "shares": 76087.0,
-        "value_usd": 26198276.0,
-        "weight_pct": 2.62
-      },
-      {
-        "cusip": "74736K101",
-        "security_class": "COM",
-        "issuer": "QORVO INC",
-        "shares": 254976.0,
-        "value_usd": 23781612.0,
-        "weight_pct": 2.38
-      },
-      {
-        "cusip": "77311W101",
+        "cusip": "77543R102",
         "security_class": "COM CL A",
-        "issuer": "ROCKET COS INC",
-        "shares": 1483818.0,
-        "value_usd": 23370134.0,
-        "weight_pct": 2.34
+        "issuer": "ROKU INC",
+        "shares": 298747.0,
+        "value_usd": 45493193.0,
+        "weight_pct": 5.11
       },
       {
-        "cusip": "98138H101",
-        "security_class": "CL A",
-        "issuer": "WORKDAY INC",
-        "shares": 186926.0,
-        "value_usd": 22883481.0,
-        "weight_pct": 2.29
-      },
-      {
-        "cusip": "21871X109",
+        "cusip": "N3167Y103",
         "security_class": "COM",
-        "issuer": "COREBRIDGE FINL INC",
-        "shares": 722000.0,
-        "value_usd": 20670860.0,
-        "weight_pct": 2.07
+        "issuer": "FERRARI N V",
+        "shares": 62735.0,
+        "value_usd": 24645445.0,
+        "weight_pct": 2.77
       },
       {
         "cusip": "14040H105",
         "security_class": "COM",
         "issuer": "CAPITAL ONE FINL CORP",
-        "shares": 99742.0,
-        "value_usd": 20010240.0,
-        "weight_pct": 2.0
+        "shares": 121891.0,
+        "value_usd": 23533495.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "824348106",
+        "security_class": "COM",
+        "issuer": "SHERWIN WILLIAMS CO",
+        "shares": 72582.0,
+        "value_usd": 23463583.0,
+        "weight_pct": 2.64
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 50145.0,
+        "value_usd": 22875648.0,
+        "weight_pct": 2.57
+      },
+      {
+        "cusip": "00130H105",
+        "security_class": "COM",
+        "issuer": "AES CORP",
+        "shares": 1331984.0,
+        "value_usd": 19846562.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "N07059210",
+        "security_class": "N Y REGISTRY SHS",
+        "issuer": "ASML HLDG NV",
+        "shares": 9665.0,
+        "value_usd": 17509791.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "G1051H101",
+        "security_class": "ORD SHS",
+        "issuer": "BERTO ACQUISITION CORP",
+        "shares": 1350000.0,
+        "value_usd": 14134500.0,
+        "weight_pct": 1.59
       }
     ],
-    "top_five_pct": 23.8,
-    "top_ten_pct": 34.89,
-    "hhi": 211.48,
+    "top_five_pct": 28.5,
+    "top_ten_pct": 39.49,
+    "hhi": 281.31,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 125,
-      "exited_positions": 65,
-      "increased_positions": 26,
-      "reduced_positions": 15
+      "previous_period": "2026-06-30",
+      "new_positions": 30,
+      "exited_positions": 33,
+      "increased_positions": 11,
+      "reduced_positions": 13
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001644187-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001644187-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 998277250.0,
+  "reported_13f_value_usd": 889788189.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001644187-26-000003",
+  "validated_accession": "0001644187-26-000005",
   "annualized_turnover_proxy_pct": null
 }

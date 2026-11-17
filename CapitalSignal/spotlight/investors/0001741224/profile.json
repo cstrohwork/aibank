@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001741224",
   "investor_name": "Aigen Investment Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1741224/0001420506-25-003307.txt",
-    "https://www.sec.gov/Archives/edgar/data/1741224/0001420506-26-001705.txt"
+    "https://www.sec.gov/Archives/edgar/data/1741224/0001420506-26-001705.txt",
+    "https://www.sec.gov/Archives/edgar/data/1741224/0001420506-26-002793.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "21fa4d99c712a2abaf860bfab6d47df9a2e9e9cd54c6ec0a8c68a510702032f2",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "8a2e09fefe16535e9663fad55c6260b5f5cd50c9ca0f7a6ac2d67113da2cb2a6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "087a8f9c628000056941a8db4edcb3b92b878ad0",
+    "5513c6ee778bb599feddbf5f2d4e625809be9181",
+    "c6d1493c976bdf624e85f7184681555cd5d745c3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001705",
-    "source": "https://www.sec.gov/Archives/edgar/data/1741224/0001420506-26-001705.txt",
-    "distinct_positions": 517,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002793",
+    "source": "https://www.sec.gov/Archives/edgar/data/1741224/0001420506-26-002793.txt",
+    "distinct_positions": 632,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 365751705.0,
+    "reported_long_equity_value_usd": 377326635.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "949746101",
+        "cusip": "46266C105",
         "security_class": "COM",
-        "issuer": "WELLS FARGO & CO",
-        "shares": 74722.0,
-        "value_usd": 6175026.0,
-        "weight_pct": 1.69
+        "issuer": "IQVIA HLDGS INC",
+        "shares": 16260.0,
+        "value_usd": 4371501.0,
+        "weight_pct": 1.16
       },
       {
-        "cusip": "14040H105",
+        "cusip": "26441C204",
+        "security_class": "COM NEW",
+        "issuer": "DUKE ENERGY CORP NEW",
+        "shares": 35023.0,
+        "value_usd": 3992972.0,
+        "weight_pct": 1.06
+      },
+      {
+        "cusip": "443201108",
         "security_class": "COM",
-        "issuer": "CAPITAL ONE FINL CORP",
-        "shares": 30345.0,
-        "value_usd": 6087814.0,
-        "weight_pct": 1.66
-      },
-      {
-        "cusip": "126408103",
-        "security_class": "COM",
-        "issuer": "CSX CORP",
-        "shares": 96205.0,
-        "value_usd": 4572624.0,
-        "weight_pct": 1.25
-      },
-      {
-        "cusip": "002824100",
-        "security_class": "COM",
-        "issuer": "ABBOTT LABORATORIES",
-        "shares": 49551.0,
-        "value_usd": 4496258.0,
-        "weight_pct": 1.23
-      },
-      {
-        "cusip": "25179M103",
-        "security_class": "COM",
-        "issuer": "DEVON ENERGY CORP NEW",
-        "shares": 100230.0,
-        "value_usd": 4141504.0,
-        "weight_pct": 1.13
-      },
-      {
-        "cusip": "69351T106",
-        "security_class": "COM",
-        "issuer": "PPL CORP",
-        "shares": 113056.0,
-        "value_usd": 4109586.0,
-        "weight_pct": 1.12
-      },
-      {
-        "cusip": "375558103",
-        "security_class": "COM",
-        "issuer": "GILEAD SCIENCES INC",
-        "shares": 29983.0,
-        "value_usd": 3788052.0,
-        "weight_pct": 1.04
-      },
-      {
-        "cusip": "874039100",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 7931.0,
-        "value_usd": 3787608.0,
-        "weight_pct": 1.04
-      },
-      {
-        "cusip": "G8994E103",
-        "security_class": "SHS",
-        "issuer": "TRANE TECHNOLOGIES PLC",
-        "shares": 7669.0,
-        "value_usd": 3766706.0,
+        "issuer": "HOWMET AEROSPACE INC",
+        "shares": 17192.0,
+        "value_usd": 3888487.0,
         "weight_pct": 1.03
       },
       {
-        "cusip": "H1467J104",
+        "cusip": "594918104",
         "security_class": "COM",
-        "issuer": "CHUBB LIMITED",
-        "shares": 10957.0,
-        "value_usd": 3733488.0,
-        "weight_pct": 1.02
+        "issuer": "MICROSOFT CORP",
+        "shares": 7554.0,
+        "value_usd": 3874447.0,
+        "weight_pct": 1.03
+      },
+      {
+        "cusip": "58933Y105",
+        "security_class": "COM",
+        "issuer": "MERCK & CO INC",
+        "shares": 26032.0,
+        "value_usd": 3782710.0,
+        "weight_pct": 1.0
+      },
+      {
+        "cusip": "03769M106",
+        "security_class": "COM",
+        "issuer": "APOLLO GLOBAL MGMT INC",
+        "shares": 32109.0,
+        "value_usd": 3726571.0,
+        "weight_pct": 0.99
+      },
+      {
+        "cusip": "742718109",
+        "security_class": "COM",
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 24797.0,
+        "value_usd": 3602508.0,
+        "weight_pct": 0.95
+      },
+      {
+        "cusip": "609839105",
+        "security_class": "COM",
+        "issuer": "MONOLITHIC PWR SYS INC",
+        "shares": 2593.0,
+        "value_usd": 3493341.0,
+        "weight_pct": 0.93
+      },
+      {
+        "cusip": "43300A203",
+        "security_class": "COM",
+        "issuer": "HILTON WORLDWIDE HLDGS INC",
+        "shares": 10905.0,
+        "value_usd": 3469099.0,
+        "weight_pct": 0.92
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 39768.0,
+        "value_usd": 3183428.0,
+        "weight_pct": 0.84
       }
     ],
-    "top_five_pct": 6.96,
-    "top_ten_pct": 12.21,
-    "hhi": 48.4,
+    "top_five_pct": 5.28,
+    "top_ten_pct": 9.91,
+    "hhi": 38.04,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 345,
-      "exited_positions": 592,
-      "increased_positions": 62,
-      "reduced_positions": 110
+      "previous_period": "2026-06-30",
+      "new_positions": 399,
+      "exited_positions": 284,
+      "increased_positions": 129,
+      "reduced_positions": 104
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001705"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002793"
       }
     ]
   },
-  "reported_13f_value_usd": 365751705.0,
+  "reported_13f_value_usd": 377326635.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001705",
+  "validated_accession": "0001420506-26-002793",
   "annualized_turnover_proxy_pct": null
 }

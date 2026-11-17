@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001393818",
   "investor_name": "Blackstone Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-10-09",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1393818/0001193125-26-352125.txt",
-    "https://www.sec.gov/Archives/edgar/data/1393818/0001193125-26-419121.txt"
+    "https://www.sec.gov/Archives/edgar/data/1393818/0001193125-26-463479.txt",
+    "https://www.sec.gov/Archives/edgar/data/1393818/0001193125-26-463513.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2f16a0d4fc4e4ddc5d1253d7a0aedff18c8b7cb00b9e41c5a64cc80ba40359d2",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "c81b2e6322fecf6791ed659c9ff56b6527e3ca2ca95a0886a0b31e5606364a06",
+  "accession_fingerprints": [
+    "2025-09-30|2026-08-14|||",
+    "2026-06-30|2026-11-16|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "54b22fd1349daa0f61c5adcbb4753f4db2b9af4d",
+    "5d13423b85374d7e7f348e698f3788e7dbc2f4ee",
+    "b847737f1b1985710e0a25891cae6d958665c5c8"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-10-09",
-    "accession": "0001193125-26-419121",
-    "source": "https://www.sec.gov/Archives/edgar/data/1393818/0001193125-26-419121.txt",
-    "distinct_positions": 516,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463513",
+    "source": "https://www.sec.gov/Archives/edgar/data/1393818/0001193125-26-463513.txt",
+    "distinct_positions": 397,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 36578803202.0,
+    "reported_long_equity_value_usd": 32501164333.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM UNIT",
         "issuer": "CHENIERE ENERGY PARTNERS L P",
         "shares": 102346331.0,
-        "value_usd": 6238008875.0,
-        "weight_pct": 17.05
+        "value_usd": 6228797705.0,
+        "weight_pct": 19.16
       },
       {
         "cusip": "58507V107",
         "security_class": "COM CL A",
         "issuer": "MEDLINE INC",
         "shares": 101791008.0,
-        "value_usd": 4014637356.0,
-        "weight_pct": 10.98
+        "value_usd": 3532147978.0,
+        "weight_pct": 10.87
+      },
+      {
+        "cusip": "47668J102",
+        "security_class": "COM SHS CL A",
+        "issuer": "JERSEY MIKES SUBS INC",
+        "shares": 187280911.0,
+        "value_usd": 3150064923.0,
+        "weight_pct": 9.69
       },
       {
         "cusip": "84615Q103",
         "security_class": "CLASS A COM STK",
         "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 15532870.0,
-        "value_usd": 2653946169.0,
-        "weight_pct": 7.26
+        "shares": 13150517.0,
+        "value_usd": 1983886995.0,
+        "weight_pct": 6.1
       },
       {
-        "cusip": "253868103",
+        "cusip": "21871X109",
         "security_class": "COM",
-        "issuer": "DIGITAL RLTY TR INC",
-        "shares": 12313486.0,
-        "value_usd": 2211255816.0,
-        "weight_pct": 6.05
+        "issuer": "COREBRIDGE FINL INC",
+        "shares": 47462123.0,
+        "value_usd": 1571945514.0,
+        "weight_pct": 4.84
       },
       {
         "cusip": "53229X101",
         "security_class": "COM",
         "issuer": "LIFTOFF MOBILE INC",
         "shares": 83831109.0,
-        "value_usd": 2013623238.0,
-        "weight_pct": 5.5
+        "value_usd": 1324531522.0,
+        "weight_pct": 4.08
       },
       {
-        "cusip": "21871X109",
+        "cusip": "969457100",
         "security_class": "COM",
-        "issuer": "COREBRIDGE FINL INC",
-        "shares": 61962123.0,
-        "value_usd": 1773975581.0,
-        "weight_pct": 4.85
-      },
-      {
-        "cusip": "52476L109",
-        "security_class": "CL A",
-        "issuer": "LEGENCE CORP",
-        "shares": 19475952.0,
-        "value_usd": 1659935389.0,
-        "weight_pct": 4.54
+        "issuer": "WILLIAMS COS INC",
+        "shares": 18885762.0,
+        "value_usd": 1283665243.0,
+        "weight_pct": 3.95
       },
       {
         "cusip": "337932107",
         "security_class": "COM",
         "issuer": "FIRSTENERGY CORP",
         "shares": 28832099.0,
-        "value_usd": 1370677986.0,
-        "weight_pct": 3.75
+        "value_usd": 1249294850.0,
+        "weight_pct": 3.84
       },
       {
-        "cusip": "969457100",
+        "cusip": "87612G101",
         "security_class": "COM",
-        "issuer": "WILLIAMS COS INC",
-        "shares": 17340999.0,
-        "value_usd": 1289129866.0,
-        "weight_pct": 3.52
+        "issuer": "TARGA RES CORP",
+        "shares": 3941448.0,
+        "value_usd": 1065412809.0,
+        "weight_pct": 3.28
       },
       {
-        "cusip": "78462F103",
-        "security_class": "TR UNIT",
-        "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 1703368.0,
-        "value_usd": 1272024121.0,
-        "weight_pct": 3.48
+        "cusip": "52476L109",
+        "security_class": "CL A",
+        "issuer": "LEGENCE CORP",
+        "shares": 19475952.0,
+        "value_usd": 1045469103.0,
+        "weight_pct": 3.22
       }
     ],
-    "top_five_pct": 46.83,
-    "top_ten_pct": 66.97,
-    "hhi": 654.67,
+    "top_five_pct": 50.67,
+    "top_ten_pct": 69.03,
+    "hhi": 748.59,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 382,
-      "exited_positions": 109,
-      "increased_positions": 47,
-      "reduced_positions": 69
+      "previous_period": "2026-06-30",
+      "new_positions": 175,
+      "exited_positions": 295,
+      "increased_positions": 91,
+      "reduced_positions": 95
     },
     "timeline": [
       {
@@ -126,13 +137,18 @@
       },
       {
         "report_date": "2026-06-30",
-        "filing_date": "2026-10-09",
-        "accession": "0001193125-26-419121"
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463479"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463513"
       }
     ]
   },
-  "reported_13f_value_usd": 36578803202.0,
+  "reported_13f_value_usd": 32501164333.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-419121",
+  "validated_accession": "0001193125-26-463513",
   "annualized_turnover_proxy_pct": null
 }

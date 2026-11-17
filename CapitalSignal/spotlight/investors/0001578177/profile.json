@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001578177",
   "investor_name": "Hood River Capital Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PALM BEACH GARDENS",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1578177/0001214659-25-016490.txt",
-    "https://www.sec.gov/Archives/edgar/data/1578177/0001214659-26-010150.txt"
+    "https://www.sec.gov/Archives/edgar/data/1578177/0001214659-26-010150.txt",
+    "https://www.sec.gov/Archives/edgar/data/1578177/0001214659-26-014212.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "bd8872959018963c3d70e76d7812fc5b34fd098800780027b0f79203bf2c57f1",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "1e703e13ab2931ba9fd5f776eae1183c759398607f246f5ffb90f09dffc126de",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0f61cd32882b5aaef4a257560eb4bfcb34a7312b",
+    "17e9453249c1058833c83b5ce940acedaa6b170f",
+    "f9f048734b785fd6b34abfda6585ab0a7ede19b3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010150",
-    "source": "https://www.sec.gov/Archives/edgar/data/1578177/0001214659-26-010150.txt",
-    "distinct_positions": 166,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014212",
+    "source": "https://www.sec.gov/Archives/edgar/data/1578177/0001214659-26-014212.txt",
+    "distinct_positions": 165,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 13791963477.0,
+    "reported_long_equity_value_usd": 11818744397.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "038169207",
         "security_class": "COMMON STOCKS",
         "issuer": "APPLIED DIGITAL CORP",
-        "shares": 22518887.0,
-        "value_usd": 839954485.0,
-        "weight_pct": 6.09
+        "shares": 23822172.0,
+        "value_usd": 580546332.0,
+        "weight_pct": 4.91
       },
       {
         "cusip": "25402D102",
         "security_class": "COMMON STOCKS",
         "issuer": "DIGITALOCEAN HOLDINGS INC",
-        "shares": 4200719.0,
-        "value_usd": 659638905.0,
-        "weight_pct": 4.78
-      },
-      {
-        "cusip": "576323109",
-        "security_class": "COMMON STOCKS",
-        "issuer": "MASTEC INC",
-        "shares": 1173918.0,
-        "value_usd": 488420323.0,
-        "weight_pct": 3.54
-      },
-      {
-        "cusip": "23834J201",
-        "security_class": "COMMON STOCKS",
-        "issuer": "DAVE INC",
-        "shares": 1104277.0,
-        "value_usd": 411442567.0,
-        "weight_pct": 2.98
-      },
-      {
-        "cusip": "093712107",
-        "security_class": "COMMON STOCKS",
-        "issuer": "BLOOM ENERGY CORP- A",
-        "shares": 1345873.0,
-        "value_usd": 407395757.0,
-        "weight_pct": 2.95
+        "shares": 4153082.0,
+        "value_usd": 553979608.0,
+        "weight_pct": 4.69
       },
       {
         "cusip": "816850101",
         "security_class": "COMMON STOCKS",
         "issuer": "SEMTECH CORP",
-        "shares": 2250382.0,
-        "value_usd": 364224327.0,
-        "weight_pct": 2.64
+        "shares": 2162396.0,
+        "value_usd": 385663327.0,
+        "weight_pct": 3.26
       },
       {
-        "cusip": "983793100",
+        "cusip": "23834J201",
         "security_class": "COMMON STOCKS",
-        "issuer": "XPO INC",
-        "shares": 1297453.0,
-        "value_usd": 266354126.0,
-        "weight_pct": 1.93
+        "issuer": "DAVE INC",
+        "shares": 1118908.0,
+        "value_usd": 359740111.0,
+        "weight_pct": 3.04
       },
       {
         "cusip": "33768G107",
         "security_class": "COMMON STOCKS",
         "issuer": "FIRSTCASH HOLDINGS INC",
-        "shares": 1221912.0,
-        "value_usd": 264324004.0,
-        "weight_pct": 1.92
+        "shares": 1232561.0,
+        "value_usd": 260353860.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "40131M109",
+        "security_class": "COMMON STOCKS",
+        "issuer": "GUARDANT HEALTH INC",
+        "shares": 1414797.0,
+        "value_usd": 252343193.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "55024U109",
+        "security_class": "COMMON STOCKS",
+        "issuer": "LUMENTUM HOLDINGS INC",
+        "shares": 242348.0,
+        "value_usd": 235382918.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "983793100",
+        "security_class": "COMMON STOCKS",
+        "issuer": "XPO INC",
+        "shares": 1314711.0,
+        "value_usd": 231362842.0,
+        "weight_pct": 1.96
       },
       {
         "cusip": "501147102",
         "security_class": "COMMON STOCKS",
         "issuer": "KRYSTAL BIOTECH INC",
-        "shares": 663375.0,
-        "value_usd": 246556586.0,
-        "weight_pct": 1.79
+        "shares": 671985.0,
+        "value_usd": 223475332.0,
+        "weight_pct": 1.89
       },
       {
         "cusip": "499049104",
         "security_class": "COMMON STOCKS",
         "issuer": "KNIGHT-SWIFT TRANSPORTATION",
-        "shares": 3058241.0,
-        "value_usd": 238145227.0,
-        "weight_pct": 1.73
+        "shares": 3271827.0,
+        "value_usd": 208055479.0,
+        "weight_pct": 1.76
       }
     ],
-    "top_five_pct": 20.35,
-    "top_ten_pct": 30.35,
-    "hhi": 166.28,
+    "top_five_pct": 18.11,
+    "top_ten_pct": 27.84,
+    "hhi": 150.23,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 76,
-      "exited_positions": 63,
-      "increased_positions": 68,
-      "reduced_positions": 21
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 28,
+      "increased_positions": 96,
+      "reduced_positions": 40
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010150"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014212"
       }
     ]
   },
-  "reported_13f_value_usd": 13791963477.0,
+  "reported_13f_value_usd": 11818744397.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010150",
+  "validated_accession": "0001214659-26-014212",
   "annualized_turnover_proxy_pct": null
 }

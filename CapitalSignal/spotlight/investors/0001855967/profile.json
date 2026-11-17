@@ -1,126 +1,146 @@
 {
   "manager_cik": "0001855967",
   "investor_name": "January Capital Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-25",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1855967/0001855967-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1855967/0001855967-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1855967/0001855967-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d7a61dcaa0a2cc33184222c1177bd7acc938ec0201c4cc1ebff90df79be148f6",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "753b213b831b13678e01dc3f01d20054e91e8110ef55342c6132458e154cd315",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-25|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "e35f1af542e1a9e09c3cd32fbb3360ac1382185d",
+    "f3f812eec5b5616f18e2f6d1d672dff6e878db93"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-25",
-    "accession": "0001855967-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1855967/0001855967-26-000004.txt",
-    "distinct_positions": 55,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001855967-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1855967/0001855967-26-000006.txt",
+    "distinct_positions": 61,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 119658623.0,
+    "reported_long_equity_value_usd": 126627414.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "98149E303",
-        "security_class": "SPDR GLD MINIS",
-        "issuer": "WORLD GOLD TR",
-        "shares": 159214.0,
-        "value_usd": 12644776.0,
-        "weight_pct": 10.57
-      },
-      {
         "cusip": "81369Y803",
         "security_class": "ST STR TECHN ETF",
         "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 52413.0,
-        "value_usd": 9985725.0,
-        "weight_pct": 8.35
+        "shares": 69609.0,
+        "value_usd": 13626014.0,
+        "weight_pct": 10.76
+      },
+      {
+        "cusip": "98149E303",
+        "security_class": "SPDR GLD MINIS",
+        "issuer": "WORLD GOLD TR",
+        "shares": 143459.0,
+        "value_usd": 11789461.0,
+        "weight_pct": 9.31
+      },
+      {
+        "cusip": "81369Y605",
+        "security_class": "ST STR FINL ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 203402.0,
+        "value_usd": 10861644.0,
+        "weight_pct": 8.58
       },
       {
         "cusip": "02072Q267",
         "security_class": "VARI PE CYCL ETF",
         "issuer": "EA SERIES TRUST",
         "shares": 326099.0,
-        "value_usd": 9686800.0,
-        "weight_pct": 8.1
-      },
-      {
-        "cusip": "808524755",
-        "security_class": "FUNDAMENTAL INTL",
-        "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 162267.0,
-        "value_usd": 8561207.0,
-        "weight_pct": 7.15
+        "value_usd": 10128632.0,
+        "weight_pct": 8.0
       },
       {
         "cusip": "808524730",
         "security_class": "FUND EM EQUI ETF",
         "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 212219.0,
-        "value_usd": 8420850.0,
-        "weight_pct": 7.04
+        "shares": 224421.0,
+        "value_usd": 9396507.0,
+        "weight_pct": 7.42
+      },
+      {
+        "cusip": "808524755",
+        "security_class": "FUNDAMENTAL INTL",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 169384.0,
+        "value_usd": 9104390.0,
+        "weight_pct": 7.19
+      },
+      {
+        "cusip": "81369Y704",
+        "security_class": "ST STR INDL ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 40594.0,
+        "value_usd": 6778444.0,
+        "weight_pct": 5.35
       },
       {
         "cusip": "14020Y102",
         "security_class": "CORE PLUS INCM",
         "issuer": "CAPITAL GRP FIXED INCM ETF T",
-        "shares": 368860.0,
-        "value_usd": 8221889.0,
-        "weight_pct": 6.87
-      },
-      {
-        "cusip": "808524839",
-        "security_class": "US AGGREGATE B",
-        "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 341513.0,
-        "value_usd": 7899196.0,
-        "weight_pct": 6.6
-      },
-      {
-        "cusip": "81369Y506",
-        "security_class": "ST STR ENERG ETF",
-        "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 133886.0,
-        "value_usd": 7110696.0,
-        "weight_pct": 5.94
+        "shares": 248029.0,
+        "value_usd": 5250774.0,
+        "weight_pct": 4.15
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
         "shares": 15019.0,
-        "value_usd": 5306708.0,
-        "weight_pct": 4.43
+        "value_usd": 5117618.0,
+        "weight_pct": 4.04
       },
       {
-        "cusip": "81369Y704",
-        "security_class": "ST STR INDL ETF",
-        "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 22556.0,
-        "value_usd": 4178048.0,
-        "weight_pct": 3.49
+        "cusip": "808524839",
+        "security_class": "US AGGREGATE B",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 226785.0,
+        "value_usd": 5011948.0,
+        "weight_pct": 3.96
       }
     ],
-    "top_five_pct": 41.2,
-    "top_ten_pct": 68.54,
-    "hhi": 549.39,
-    "changes": null,
+    "top_five_pct": 44.07,
+    "top_ten_pct": 68.76,
+    "hhi": 565.31,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 3,
+      "increased_positions": 12,
+      "reduced_positions": 15
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-25",
         "accession": "0001855967-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001855967-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 119658623.0,
+  "reported_13f_value_usd": 126627414.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001855967-26-000004",
+  "validated_accession": "0001855967-26-000006",
   "annualized_turnover_proxy_pct": null
 }

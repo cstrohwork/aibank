@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001792430",
   "investor_name": "Karani Asset Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1792430/0001493152-25-023413.txt",
-    "https://www.sec.gov/Archives/edgar/data/1792430/0001493152-26-038313.txt"
+    "https://www.sec.gov/Archives/edgar/data/1792430/0001493152-26-038313.txt",
+    "https://www.sec.gov/Archives/edgar/data/1792430/0001493152-26-052370.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a247c89b9d1a748887fbb3eaaeaa5a97d16c84e97fc622276dc1ad166559ccd0",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "fb2767476bf129721e1adb4f1ce7c2ccb26b4262a244ef2e895f2e307460839b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "161f233d9169e7c052c1d49d0d30ebb261a8c847",
+    "2087af433ca8e7d4bedafcea2b4e3c5993006bb9",
+    "f7200608bab90931eab992656d6cd2a0160a74aa"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-038313",
-    "source": "https://www.sec.gov/Archives/edgar/data/1792430/0001493152-26-038313.txt",
-    "distinct_positions": 56,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001493152-26-052370",
+    "source": "https://www.sec.gov/Archives/edgar/data/1792430/0001493152-26-052370.txt",
+    "distinct_positions": 37,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 137744865.0,
+    "reported_long_equity_value_usd": 49124935.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 65153.0,
-        "value_usd": 13036464.0,
-        "weight_pct": 9.46
+        "shares": 25427.0,
+        "value_usd": 5807018.0,
+        "weight_pct": 11.82
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 43229.0,
-        "value_usd": 12508743.0,
-        "weight_pct": 9.08
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 31100.0,
-        "value_usd": 11114207.0,
-        "weight_pct": 8.07
+        "shares": 15945.0,
+        "value_usd": 5310004.0,
+        "weight_pct": 10.81
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 21877.0,
-        "value_usd": 8160559.0,
-        "weight_pct": 5.92
+        "shares": 7963.0,
+        "value_usd": 4084223.0,
+        "weight_pct": 8.31
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 11566.0,
+        "value_usd": 3979629.0,
+        "weight_pct": 8.1
       },
       {
         "cusip": "N07059210",
-        "security_class": "NY REGISTRY SHS",
+        "security_class": "N Y REGISTRY SHS",
         "issuer": "ASML HLDG NV",
-        "shares": 3214.0,
-        "value_usd": 6394060.0,
-        "weight_pct": 4.64
+        "shares": 1241.0,
+        "value_usd": 2248282.0,
+        "weight_pct": 4.58
       },
       {
-        "cusip": "038222105",
+        "cusip": "244199105",
         "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 7451.0,
-        "value_usd": 5387073.0,
-        "weight_pct": 3.91
-      },
-      {
-        "cusip": "231021106",
-        "security_class": "COM",
-        "issuer": "CUMMINS INC",
-        "shares": 6747.0,
-        "value_usd": 4812028.0,
-        "weight_pct": 3.49
+        "issuer": "DEERE & CO",
+        "shares": 2909.0,
+        "value_usd": 1953539.0,
+        "weight_pct": 3.98
       },
       {
         "cusip": "57636Q104",
         "security_class": "CL A",
         "issuer": "MASTERCARD INCORPORATED",
-        "shares": 8839.0,
-        "value_usd": 4539710.0,
-        "weight_pct": 3.3
+        "shares": 3094.0,
+        "value_usd": 1706248.0,
+        "weight_pct": 3.47
       },
       {
         "cusip": "007903107",
         "security_class": "COM",
         "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 7755.0,
-        "value_usd": 4504957.0,
-        "weight_pct": 3.27
+        "shares": 2693.0,
+        "value_usd": 1647470.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 2967.0,
+        "value_usd": 1517264.0,
+        "weight_pct": 3.09
       },
       {
         "cusip": "858119100",
         "security_class": "COM",
         "issuer": "STEEL DYNAMICS INC",
-        "shares": 17764.0,
-        "value_usd": 4076127.0,
-        "weight_pct": 2.96
+        "shares": 6450.0,
+        "value_usd": 1429385.0,
+        "weight_pct": 2.91
       }
     ],
-    "top_five_pct": 37.18,
-    "top_ten_pct": 54.11,
-    "hhi": 431.53,
+    "top_five_pct": 43.62,
+    "top_ten_pct": 60.42,
+    "hhi": 546.07,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 28,
-      "exited_positions": 8,
-      "increased_positions": 12,
-      "reduced_positions": 16
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 21,
+      "increased_positions": 2,
+      "reduced_positions": 32
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-038313"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001493152-26-052370"
       }
     ]
   },
-  "reported_13f_value_usd": 137744865.0,
+  "reported_13f_value_usd": 49124935.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001493152-26-038313",
+  "validated_accession": "0001493152-26-052370",
   "annualized_turnover_proxy_pct": null
 }

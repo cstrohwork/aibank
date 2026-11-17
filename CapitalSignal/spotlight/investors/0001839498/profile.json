@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001839498",
   "investor_name": "DCM Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1839498/0001839498-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1839498/0001839498-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1839498/0001839498-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1839498/0001839498-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "64ce046129088d7c4f3ea586d3a641801fbc81c60eff618326e63a4e90945691",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "b2ca99056425a1ecc8d1485202ee35afd98c72946c7d8bc83ac0e5e5bc90df99",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "29ede4a2b1427e333f3a02e64a6b42e4b1966c77",
+    "6fa9d7e22653d24f6994deac262a3103e616680c",
+    "81b33d7bbb696108bba947716c53568e2b17ee66"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001839498-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1839498/0001839498-26-000004.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001839498-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1839498/0001839498-26-000009.txt",
     "distinct_positions": 38,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 253303420.0,
+    "reported_long_equity_value_usd": 260519277.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "Apple Inc",
-        "shares": 49554.0,
-        "value_usd": 14231144.0,
-        "weight_pct": 5.62
-      },
-      {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 35002.0,
-        "value_usd": 13018958.0,
-        "weight_pct": 5.14
+        "shares": 36187.0,
+        "value_usd": 18497861.0,
+        "weight_pct": 7.1
       },
       {
-        "cusip": "617446448",
+        "cusip": "037833100",
         "security_class": "COM",
-        "issuer": "MORGAN STANLEY",
-        "shares": 58482.0,
-        "value_usd": 11912772.0,
-        "weight_pct": 4.7
+        "issuer": "Apple Inc",
+        "shares": 49556.0,
+        "value_usd": 16378969.0,
+        "weight_pct": 6.29
       },
       {
-        "cusip": "060505104",
+        "cusip": "56585A102",
         "security_class": "COM",
-        "issuer": "BANK OF AMERICA CORP",
-        "shares": 203369.0,
-        "value_usd": 11587966.0,
-        "weight_pct": 4.57
-      },
-      {
-        "cusip": "38141G104",
-        "security_class": "COM",
-        "issuer": "GOLDMAN SACHS GROUP INC",
-        "shares": 11443.0,
-        "value_usd": 11129115.0,
-        "weight_pct": 4.39
-      },
-      {
-        "cusip": "24703L202",
-        "security_class": "COM",
-        "issuer": "DELL TECHNOLOGIES -C",
-        "shares": 24212.0,
-        "value_usd": 10446510.0,
-        "weight_pct": 4.12
-      },
-      {
-        "cusip": "46625H100",
-        "security_class": "COM",
-        "issuer": "JPMORGAN CHASE & CO",
-        "shares": 31070.0,
-        "value_usd": 10170143.0,
-        "weight_pct": 4.02
-      },
-      {
-        "cusip": "949746101",
-        "security_class": "COM",
-        "issuer": "WELLS FARGO CO",
-        "shares": 121232.0,
-        "value_usd": 10018612.0,
-        "weight_pct": 3.96
+        "issuer": "MARATHON PETROLEUM CORP",
+        "shares": 34182.0,
+        "value_usd": 13516246.0,
+        "weight_pct": 5.19
       },
       {
         "cusip": "30303M102",
         "security_class": "COM",
         "issuer": "Meta Platforms Inc",
         "shares": 17485.0,
-        "value_usd": 9849126.0,
-        "weight_pct": 3.89
+        "value_usd": 12679772.0,
+        "weight_pct": 4.87
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COM",
+        "issuer": "BANK OF AMERICA CORP",
+        "shares": 203369.0,
+        "value_usd": 11069375.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "617446448",
+        "security_class": "COM",
+        "issuer": "MORGAN STANLEY",
+        "shares": 58482.0,
+        "value_usd": 10718303.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "64110L106",
+        "security_class": "COM",
+        "issuer": "NETFLIX INC",
+        "shares": 153496.0,
+        "value_usd": 10680252.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 31070.0,
+        "value_usd": 10278888.0,
+        "weight_pct": 3.95
       },
       {
         "cusip": "254687106",
         "security_class": "COM",
         "issuer": "DISNEY WALT CO",
-        "shares": 101355.0,
-        "value_usd": 9753572.0,
-        "weight_pct": 3.85
+        "shares": 97940.0,
+        "value_usd": 10271862.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "38141G104",
+        "security_class": "COM",
+        "issuer": "GOLDMAN SACHS GROUP INC",
+        "shares": 11443.0,
+        "value_usd": 9907561.0,
+        "weight_pct": 3.8
       }
     ],
-    "top_five_pct": 24.43,
-    "top_ten_pct": 44.26,
-    "hhi": 345.76,
+    "top_five_pct": 27.69,
+    "top_ten_pct": 47.6,
+    "hhi": 364.84,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 2,
-      "increased_positions": 29,
-      "reduced_positions": 7
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 9,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001839498-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001839498-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 253303420.0,
+  "reported_13f_value_usd": 260519277.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001839498-26-000004",
+  "validated_accession": "0001839498-26-000009",
   "annualized_turnover_proxy_pct": null
 }

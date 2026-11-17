@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002007591",
   "investor_name": "Freestone Grove Partners LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "San Francisco",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2007591/0001172661-25-005120.txt",
-    "https://www.sec.gov/Archives/edgar/data/2007591/0001172661-26-003818.txt"
+    "https://www.sec.gov/Archives/edgar/data/2007591/0001172661-26-003818.txt",
+    "https://www.sec.gov/Archives/edgar/data/2007591/0001172661-26-005424.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "204b7e97ace2b00fd342bc07dd53466f39022f3f064fad0de544ecc7fd24048e",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "3542167d0a18580e04605c075230e5558a7c5aed0caf69955e68be255a85f57f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "548cb309354bd19b476d9607c0043219f728e30e",
+    "5d04252c8ac7dffa4c3bd329026f5b1f45e8d803",
+    "f3127b4f4b4dd6e500f090ec7703f1fac7626097"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003818",
-    "source": "https://www.sec.gov/Archives/edgar/data/2007591/0001172661-26-003818.txt",
-    "distinct_positions": 989,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005424",
+    "source": "https://www.sec.gov/Archives/edgar/data/2007591/0001172661-26-005424.txt",
+    "distinct_positions": 619,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 15240450655.0,
+    "reported_long_equity_value_usd": 11389382863.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 1413000.0,
-        "value_usd": 1058181570.0,
-        "weight_pct": 6.94
-      },
-      {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 1501826.0,
-        "value_usd": 1031469115.0,
-        "weight_pct": 6.77
+        "shares": 1409832.0,
+        "value_usd": 988094856.0,
+        "weight_pct": 8.68
       },
       {
-        "cusip": "902973304",
-        "security_class": "COM NEW",
-        "issuer": "US BANCORP",
-        "shares": 2764240.0,
-        "value_usd": 166960096.0,
-        "weight_pct": 1.1
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 332000.0,
+        "value_usd": 254262200.0,
+        "weight_pct": 2.23
       },
       {
-        "cusip": "75513E101",
+        "cusip": "742718109",
         "security_class": "COM",
-        "issuer": "RTX CORPORATION",
-        "shares": 830532.0,
-        "value_usd": 157576836.0,
-        "weight_pct": 1.03
+        "issuer": "PROCTER & GAMBLE CO",
+        "shares": 1216825.0,
+        "value_usd": 176780336.0,
+        "weight_pct": 1.55
       },
       {
-        "cusip": "369604301",
-        "security_class": "COM NEW",
-        "issuer": "GE AEROSPACE",
-        "shares": 414905.0,
-        "value_usd": 155062446.0,
-        "weight_pct": 1.02
+        "cusip": "871829107",
+        "security_class": "COM",
+        "issuer": "SYSCO CORP",
+        "shares": 2207329.0,
+        "value_usd": 172083369.0,
+        "weight_pct": 1.51
+      },
+      {
+        "cusip": "609207105",
+        "security_class": "CL A",
+        "issuer": "MONDELEZ INTL INC",
+        "shares": 2150292.0,
+        "value_usd": 124329883.0,
+        "weight_pct": 1.09
       },
       {
         "cusip": "224408104",
         "security_class": "COMMON STOCK",
         "issuer": "CRANE COMPANY",
-        "shares": 675065.0,
-        "value_usd": 150586750.0,
-        "weight_pct": 0.99
+        "shares": 606278.0,
+        "value_usd": 123692838.0,
+        "weight_pct": 1.09
       },
       {
-        "cusip": "026874784",
-        "security_class": "COM NEW",
-        "issuer": "AMERICAN INTL GROUP INC",
-        "shares": 1925980.0,
-        "value_usd": 143543289.0,
-        "weight_pct": 0.94
-      },
-      {
-        "cusip": "833445109",
-        "security_class": "COM SHS",
-        "issuer": "SNOWFLAKE INC",
-        "shares": 546925.0,
-        "value_usd": 139192413.0,
-        "weight_pct": 0.91
-      },
-      {
-        "cusip": "34964C106",
+        "cusip": "031100100",
         "security_class": "COM",
-        "issuer": "FORTUNE BRANDS INNOVATIONS I",
-        "shares": 2478374.0,
-        "value_usd": 136062733.0,
-        "weight_pct": 0.89
+        "issuer": "AMETEK INC",
+        "shares": 493500.0,
+        "value_usd": 122254755.0,
+        "weight_pct": 1.07
       },
       {
-        "cusip": "478160104",
+        "cusip": "701094104",
         "security_class": "COM",
-        "issuer": "JOHNSON & JOHNSON",
-        "shares": 517230.0,
-        "value_usd": 131360903.0,
-        "weight_pct": 0.86
+        "issuer": "PARKER-HANNIFIN CORP",
+        "shares": 124995.0,
+        "value_usd": 119422723.0,
+        "weight_pct": 1.05
+      },
+      {
+        "cusip": "941848103",
+        "security_class": "COM",
+        "issuer": "WATERS CORP",
+        "shares": 271582.0,
+        "value_usd": 119330415.0,
+        "weight_pct": 1.05
+      },
+      {
+        "cusip": "122017106",
+        "security_class": "COM",
+        "issuer": "BURLINGTON STORES INC",
+        "shares": 425993.0,
+        "value_usd": 113821070.0,
+        "weight_pct": 1.0
       }
     ],
-    "top_five_pct": 16.86,
-    "top_ten_pct": 21.46,
-    "hhi": 129.75,
+    "top_five_pct": 15.06,
+    "top_ten_pct": 20.32,
+    "hhi": 122.33,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 638,
-      "exited_positions": 327,
-      "increased_positions": 160,
-      "reduced_positions": 190
+      "previous_period": "2026-06-30",
+      "new_positions": 242,
+      "exited_positions": 612,
+      "increased_positions": 179,
+      "reduced_positions": 196
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003818"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005424"
       }
     ]
   },
-  "reported_13f_value_usd": 15240450655.0,
+  "reported_13f_value_usd": 11389382863.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003818",
+  "validated_accession": "0001172661-26-005424",
   "annualized_turnover_proxy_pct": null
 }

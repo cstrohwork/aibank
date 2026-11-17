@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001697490",
   "investor_name": "IHT Wealth Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Chicago",
   "state": "IL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1697490/0001104659-25-112424.txt",
-    "https://www.sec.gov/Archives/edgar/data/1697490/0001104659-26-096531.txt"
+    "https://www.sec.gov/Archives/edgar/data/1697490/0001104659-26-096531.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697490/0001104659-26-127917.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8bf1927fad70b8350bb5364464d7a91026a8f6d63b585b4af384aa1c3364f3b6",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "cbaed8d1d01f1efb3cf5f57db25ca9b594e575b5d25ff7851cf9b948fa1e9930",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "03da20304c356a6a2b6bf31522dc5f10d60f3572",
+    "10548cecfdba87eeab3dba383949c3d2e1ba5cf9",
+    "81b0c5043cb587c6684d9f0651732cf38a0321af"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-096531",
-    "source": "https://www.sec.gov/Archives/edgar/data/1697490/0001104659-26-096531.txt",
-    "distinct_positions": 1236,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127917",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697490/0001104659-26-127917.txt",
+    "distinct_positions": 1316,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4701360601.0,
+    "reported_long_equity_value_usd": 4808715831.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 478371.0,
-        "value_usd": 138421439.0,
-        "weight_pct": 2.94
+        "shares": 561182.0,
+        "value_usd": 186884907.0,
+        "weight_pct": 3.89
       },
       {
         "cusip": "78464A508",
         "security_class": "ST STR P500VAL",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 1828577.0,
-        "value_usd": 111159164.0,
-        "weight_pct": 2.36
+        "issuer": "STATE STREET",
+        "shares": 1871080.0,
+        "value_usd": 114379124.0,
+        "weight_pct": 2.38
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 502653.0,
-        "value_usd": 100575965.0,
-        "weight_pct": 2.14
+        "issuer": "NVIDIA CORP",
+        "shares": 477213.0,
+        "value_usd": 108986150.0,
+        "weight_pct": 2.27
       },
       {
         "cusip": "78464A409",
         "security_class": "ST STR P500GRW",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 765741.0,
-        "value_usd": 91115620.0,
-        "weight_pct": 1.94
+        "issuer": "STATE STREET",
+        "shares": 807755.0,
+        "value_usd": 99418458.0,
+        "weight_pct": 2.07
       },
       {
         "cusip": "09290C103",
         "security_class": "ISHARES US EQUIT",
-        "issuer": "BLACKROCK ETF TRUST",
-        "shares": 1281560.0,
-        "value_usd": 87158862.0,
-        "weight_pct": 1.85
+        "issuer": "ISHARES U S",
+        "shares": 1355843.0,
+        "value_usd": 93905685.0,
+        "weight_pct": 1.95
       },
       {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 192857.0,
-        "value_usd": 81115835.0,
-        "weight_pct": 1.73
-      },
-      {
-        "cusip": "46090E903",
+        "cusip": "46090E103",
         "security_class": "UNIT SER 1",
-        "issuer": "INVESCO QQQ TR",
-        "shares": 104657.0,
-        "value_usd": 77069501.0,
+        "issuer": "INVESCO QQQ",
+        "shares": 106362.0,
+        "value_usd": 78683605.0,
         "weight_pct": 1.64
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 138989.0,
+        "value_usd": 71287611.0,
+        "weight_pct": 1.48
       },
       {
         "cusip": "97717Y527",
         "security_class": "FLOATNG RAT TREA",
-        "issuer": "WISDOMTREE TR",
-        "shares": 1368150.0,
-        "value_usd": 68886399.0,
-        "weight_pct": 1.47
+        "issuer": "WISDOMTREE FLOATING",
+        "shares": 1384655.0,
+        "value_usd": 69772768.0,
+        "weight_pct": 1.45
       },
       {
         "cusip": "78464A854",
         "security_class": "ST STR P500ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 727035.0,
-        "value_usd": 63891821.0,
-        "weight_pct": 1.36
+        "issuer": "STATE STREET",
+        "shares": 752146.0,
+        "value_usd": 67512613.0,
+        "weight_pct": 1.4
       },
       {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 84992.0,
-        "value_usd": 63649264.0,
-        "weight_pct": 1.35
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STREET",
+        "shares": 84177.0,
+        "value_usd": 64196160.0,
+        "weight_pct": 1.33
       }
     ],
-    "top_five_pct": 11.24,
-    "top_ten_pct": 18.78,
-    "hhi": 65.39,
+    "top_five_pct": 12.55,
+    "top_ten_pct": 19.86,
+    "hhi": 70.54,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 349,
-      "exited_positions": 279,
-      "increased_positions": 431,
-      "reduced_positions": 446
+      "previous_period": "2026-06-30",
+      "new_positions": 238,
+      "exited_positions": 158,
+      "increased_positions": 664,
+      "reduced_positions": 378
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-096531"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127917"
       }
     ]
   },
-  "reported_13f_value_usd": 4701360601.0,
+  "reported_13f_value_usd": 4808715831.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-096531",
+  "validated_accession": "0001104659-26-127917",
   "annualized_turnover_proxy_pct": null
 }

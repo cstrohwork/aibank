@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001632512",
   "investor_name": "Peak Asset Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOUISVILLE",
   "state": "CO",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1632512/0001062993-25-016725.txt",
-    "https://www.sec.gov/Archives/edgar/data/1632512/0001062993-26-004338.txt"
+    "https://www.sec.gov/Archives/edgar/data/1632512/0001062993-26-004338.txt",
+    "https://www.sec.gov/Archives/edgar/data/1632512/0001062993-26-006100.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1777c72cd8b9f9172128ba4712e331aed2b95f36b148acf851ff78ae42348ae1",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "5ab068bb5313093b47191d77ff4dfb1b5c8c9728fb01fec32de057d2e7559660",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "162c1f539c89da0ad64ccd713dede1e8933312dc",
+    "7e367fe8cad0c817c247abee7f5a7b9fb1a76110",
+    "a137bc7af89560505d49f06ece63ccef534ea0a1"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001062993-26-004338",
-    "source": "https://www.sec.gov/Archives/edgar/data/1632512/0001062993-26-004338.txt",
-    "distinct_positions": 181,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001062993-26-006100",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632512/0001062993-26-006100.txt",
+    "distinct_positions": 180,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 680210346.0,
+    "reported_long_equity_value_usd": 716046074.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 117906.0,
-        "value_usd": 34117380.0,
-        "weight_pct": 5.02
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 88779.0,
-        "value_usd": 31726952.0,
-        "weight_pct": 4.66
-      },
-      {
-        "cusip": "17275R102",
-        "security_class": "COM",
-        "issuer": "CISCO SYS INC",
-        "shares": 240883.0,
-        "value_usd": 28294118.0,
-        "weight_pct": 4.16
-      },
-      {
-        "cusip": "46625H100",
-        "security_class": "COM",
-        "issuer": "JPMORGAN CHASE & CO",
-        "shares": 82577.0,
-        "value_usd": 27029930.0,
-        "weight_pct": 3.97
+        "shares": 115314.0,
+        "value_usd": 38401996.0,
+        "weight_pct": 5.36
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 67052.0,
-        "value_usd": 25011853.0,
-        "weight_pct": 3.68
+        "shares": 66964.0,
+        "value_usd": 34346030.0,
+        "weight_pct": 4.8
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 86896.0,
+        "value_usd": 29899176.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 81380.0,
+        "value_usd": 26922946.0,
+        "weight_pct": 3.76
       },
       {
         "cusip": "34959E109",
         "security_class": "COM",
         "issuer": "FORTINET INC",
-        "shares": 159052.0,
-        "value_usd": 24433569.0,
-        "weight_pct": 3.59
+        "shares": 148991.0,
+        "value_usd": 26633632.0,
+        "weight_pct": 3.72
       },
       {
-        "cusip": "78468R523",
-        "security_class": "ST STR BL 12 ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 224499.0,
-        "value_usd": 22310711.0,
-        "weight_pct": 3.28
+        "cusip": "17275R102",
+        "security_class": "COM",
+        "issuer": "CISCO SYS INC",
+        "shares": 234115.0,
+        "value_usd": 25197798.0,
+        "weight_pct": 3.52
       },
       {
         "cusip": "92206C102",
         "security_class": "SHORT TERM TREAS",
         "issuer": "VANGUARD SCOTTSDALE FDS",
-        "shares": 381952.0,
-        "value_usd": 22229578.0,
-        "weight_pct": 3.27
+        "shares": 410189.0,
+        "value_usd": 23610451.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "78468R523",
+        "security_class": "ST STR BL 12 ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 216514.0,
+        "value_usd": 21508501.0,
+        "weight_pct": 3.0
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 108775.0,
+        "value_usd": 20194079.0,
+        "weight_pct": 2.82
       },
       {
         "cusip": "025072877",
         "security_class": "US SML CP VALU",
         "issuer": "AMERICAN CENTY ETF TR",
-        "shares": 167233.0,
-        "value_usd": 20864051.0,
-        "weight_pct": 3.07
-      },
-      {
-        "cusip": "46137V357",
-        "security_class": "S&P500 EQL WGT",
-        "issuer": "INVESCO EXCHANGE TRADED FD T",
-        "shares": 92726.0,
-        "value_usd": 19729215.0,
-        "weight_pct": 2.9
+        "shares": 168150.0,
+        "value_usd": 19802970.0,
+        "weight_pct": 2.77
       }
     ],
-    "top_five_pct": 21.49,
-    "top_ten_pct": 37.6,
-    "hhi": 226.43,
+    "top_five_pct": 21.81,
+    "top_ten_pct": 37.22,
+    "hhi": 224.74,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 51,
-      "exited_positions": 18,
-      "increased_positions": 59,
-      "reduced_positions": 48
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 15,
+      "increased_positions": 40,
+      "reduced_positions": 61
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001062993-26-004338"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001062993-26-006100"
       }
     ]
   },
-  "reported_13f_value_usd": 680210346.0,
+  "reported_13f_value_usd": 716046074.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001062993-26-004338",
+  "validated_accession": "0001062993-26-006100",
   "annualized_turnover_proxy_pct": null
 }

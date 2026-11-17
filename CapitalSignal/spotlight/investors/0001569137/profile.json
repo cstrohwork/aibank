@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001569137",
   "investor_name": "Grandeur Peak Global Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SALT LAKE CITY",
   "state": "UT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1569137/0001569137-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1569137/0001569137-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1569137/0001569137-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1569137/0001569137-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "602f1aad310643b429b58a2435b65c13143ec73b17ee731c02dc99cb452aa147",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "214cb37339675e253bb745ab95d58d72038946830874ae6808e47a1bd061a4ac",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "470928eb8af0537f3e2dafc13eb71c062d470e08",
+    "99f7dbf8e2df5f970a1af657deb39248cbe9f833",
+    "b03ef25add2a7d2723bc7fa6583285df44501609"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0001569137-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1569137/0001569137-26-000007.txt",
-    "distinct_positions": 75,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001569137-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1569137/0001569137-26-000008.txt",
+    "distinct_positions": 62,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 432052106.0,
+    "reported_long_equity_value_usd": 432869767.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "48282T104",
         "security_class": "COM",
         "issuer": "KADANT INC",
-        "shares": 211036.0,
-        "value_usd": 66313842.0,
-        "weight_pct": 15.35
+        "shares": 226851.0,
+        "value_usd": 59326074.0,
+        "weight_pct": 13.71
       },
       {
         "cusip": "609839105",
         "security_class": "COM",
         "issuer": "MONOLITHIC PWR SYS INC",
-        "shares": 41727.0,
-        "value_usd": 57681736.0,
-        "weight_pct": 13.35
+        "shares": 38823.0,
+        "value_usd": 52303122.0,
+        "weight_pct": 12.08
+      },
+      {
+        "cusip": "G5T40M104",
+        "security_class": "ORD",
+        "issuer": "MAREX GROUP LTD",
+        "shares": 695304.0,
+        "value_usd": 48504407.0,
+        "weight_pct": 11.21
       },
       {
         "cusip": "45073V108",
         "security_class": "COM",
         "issuer": "ITT INC",
-        "shares": 184902.0,
-        "value_usd": 36566220.0,
-        "weight_pct": 8.46
-      },
-      {
-        "cusip": "G6700G107",
-        "security_class": "SHS",
-        "issuer": "NVENT ELECTRIC PLC",
-        "shares": 140484.0,
-        "value_usd": 23827491.0,
-        "weight_pct": 5.51
-      },
-      {
-        "cusip": "G0896C103",
-        "security_class": "CL A COM",
-        "issuer": "BBB FOODS INC",
-        "shares": 543399.0,
-        "value_usd": 22643436.0,
-        "weight_pct": 5.24
-      },
-      {
-        "cusip": "537008104",
-        "security_class": "COM",
-        "issuer": "LITTELFUSE INC",
-        "shares": 41857.0,
-        "value_usd": 19058748.0,
-        "weight_pct": 4.41
-      },
-      {
-        "cusip": "04963C209",
-        "security_class": "COM",
-        "issuer": "ATRICURE INC",
-        "shares": 587399.0,
-        "value_usd": 16435424.0,
-        "weight_pct": 3.8
-      },
-      {
-        "cusip": "525558201",
-        "security_class": "COM",
-        "issuer": "LEMAITRE VASCULAR INC",
-        "shares": 161010.0,
-        "value_usd": 15450520.0,
-        "weight_pct": 3.58
+        "shares": 177808.0,
+        "value_usd": 35885211.0,
+        "weight_pct": 8.29
       },
       {
         "cusip": "681116109",
         "security_class": "COM",
         "issuer": "OLLIE'S BARGAIN OUTLET HOLDING",
-        "shares": 189463.0,
-        "value_usd": 14565915.0,
-        "weight_pct": 3.37
+        "shares": 228104.0,
+        "value_usd": 19537108.0,
+        "weight_pct": 4.51
       },
       {
-        "cusip": "077347300",
-        "security_class": "CL A",
-        "issuer": "BEL FUSE INC",
-        "shares": 32570.0,
-        "value_usd": 10847113.0,
-        "weight_pct": 2.51
+        "cusip": "G6700G107",
+        "security_class": "SHS",
+        "issuer": "NVENT ELECTRIC PLC",
+        "shares": 107760.0,
+        "value_usd": 17281471.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "537008104",
+        "security_class": "COM",
+        "issuer": "LITTELFUSE INC",
+        "shares": 39714.0,
+        "value_usd": 16828410.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "525558201",
+        "security_class": "COM",
+        "issuer": "LEMAITRE VASCULAR INC",
+        "shares": 187463.0,
+        "value_usd": 15482569.0,
+        "weight_pct": 3.58
+      },
+      {
+        "cusip": "G0896C103",
+        "security_class": "CL A COM",
+        "issuer": "BBB FOODS INC",
+        "shares": 288449.0,
+        "value_usd": 15183955.0,
+        "weight_pct": 3.51
+      },
+      {
+        "cusip": "902673102",
+        "security_class": "COM",
+        "issuer": "UFP TECHNOLOGIES INC",
+        "shares": 36009.0,
+        "value_usd": 10688191.0,
+        "weight_pct": 2.47
       }
     ],
-    "top_five_pct": 47.92,
-    "top_ten_pct": 65.59,
-    "hhi": 639.33,
+    "top_five_pct": 49.8,
+    "top_ten_pct": 67.23,
+    "hhi": 649.14,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 24,
-      "exited_positions": 53,
-      "increased_positions": 15,
-      "reduced_positions": 35
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 19,
+      "increased_positions": 18,
+      "reduced_positions": 37
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0001569137-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001569137-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 432052106.0,
+  "reported_13f_value_usd": 432869767.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001569137-26-000007",
+  "validated_accession": "0001569137-26-000008",
   "annualized_turnover_proxy_pct": null
 }

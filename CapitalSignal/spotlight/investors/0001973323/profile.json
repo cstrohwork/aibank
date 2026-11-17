@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001973323",
   "investor_name": "Foresight Global Investors, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PURCHASE",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1973323/0001754960-25-000773.txt",
-    "https://www.sec.gov/Archives/edgar/data/1973323/0001754960-26-000729.txt"
+    "https://www.sec.gov/Archives/edgar/data/1973323/0001754960-26-000729.txt",
+    "https://www.sec.gov/Archives/edgar/data/1973323/0001754960-26-001002.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "345d711f68bb837b1c55e446bb8cd937cbf9f870a4d30995484cbfc64ab0b013",
-  "generated_at": "2026-11-16T06:17:23.526016+00:00",
+  "source_fingerprint": "eefc3f5faa5e2c3ea1916c139bcf2ee543f72a65b565f351a674011f43b9f41e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3224b6078550bae64ebc43059aab16aebdac82dd",
+    "aa8a553b0c7f75276feaadeb82b7c8dcd0da8524",
+    "fd58c563cc3be6c843d8e7d0745888beec4c1082"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001754960-26-000729",
-    "source": "https://www.sec.gov/Archives/edgar/data/1973323/0001754960-26-000729.txt",
-    "distinct_positions": 32,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001754960-26-001002",
+    "source": "https://www.sec.gov/Archives/edgar/data/1973323/0001754960-26-001002.txt",
+    "distinct_positions": 43,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 164962881.0,
+    "reported_long_equity_value_usd": 103671294.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "66987V109",
         "security_class": "SPONSORED ADR",
         "issuer": "NOVARTIS AG",
-        "shares": 153693.0,
-        "value_usd": 24086767.0,
-        "weight_pct": 14.6
-      },
-      {
-        "cusip": "G0593M107",
-        "security_class": "ORD",
-        "issuer": "ASTRAZENECA PLC",
-        "shares": 118844.0,
-        "value_usd": 22535199.0,
-        "weight_pct": 13.66
+        "shares": 126790.0,
+        "value_usd": 18076450.0,
+        "weight_pct": 17.44
       },
       {
         "cusip": "404280406",
         "security_class": "SPON ADR NEW",
         "issuer": "HSBC HLDGS PLC",
-        "shares": 213514.0,
-        "value_usd": 20303046.0,
-        "weight_pct": 12.31
-      },
-      {
-        "cusip": "835699307",
-        "security_class": "SPONSORED ADR",
-        "issuer": "SONY GROUP CORP",
-        "shares": 740300.0,
-        "value_usd": 14850418.0,
-        "weight_pct": 9.0
+        "shares": 131373.0,
+        "value_usd": 13046653.0,
+        "weight_pct": 12.58
       },
       {
         "cusip": "D18190898",
         "security_class": "NAMEN AKT",
         "issuer": "DEUTSCHE BK AG",
-        "shares": 438200.0,
-        "value_usd": 14793632.0,
-        "weight_pct": 8.97
+        "shares": 328263.0,
+        "value_usd": 11781359.0,
+        "weight_pct": 11.36
       },
       {
         "cusip": "H01301128",
         "security_class": "ORD SHS",
         "issuer": "ALCON AG",
-        "shares": 175700.0,
-        "value_usd": 11789470.0,
-        "weight_pct": 7.15
+        "shares": 179591.0,
+        "value_usd": 11628517.0,
+        "weight_pct": 11.22
+      },
+      {
+        "cusip": "835699307",
+        "security_class": "SPONSORED ADR",
+        "issuer": "SONY GROUP CORP",
+        "shares": 461850.0,
+        "value_usd": 10867331.0,
+        "weight_pct": 10.48
+      },
+      {
+        "cusip": "780259305",
+        "security_class": "SPON ADS",
+        "issuer": "SHELL PLC",
+        "shares": 84895.0,
+        "value_usd": 8069270.0,
+        "weight_pct": 7.78
       },
       {
         "cusip": "670100205",
         "security_class": "ADR",
         "issuer": "NOVO-NORDISK A S",
-        "shares": 245289.0,
-        "value_usd": 11759155.0,
-        "weight_pct": 7.13
-      },
-      {
-        "cusip": "861012102",
-        "security_class": "NY REGISTRY",
-        "issuer": "STMICROELECTRONICS N V",
-        "shares": 110722.0,
-        "value_usd": 8291971.0,
-        "weight_pct": 5.03
+        "shares": 148005.0,
+        "value_usd": 5610870.0,
+        "weight_pct": 5.41
       },
       {
         "cusip": "767204100",
         "security_class": "SPONSORED ADR",
         "issuer": "RIO TINTO PLC",
-        "shares": 86466.0,
-        "value_usd": 8208217.0,
-        "weight_pct": 4.98
+        "shares": 58739.0,
+        "value_usd": 5531452.0,
+        "weight_pct": 5.34
       },
       {
         "cusip": "803054204",
         "security_class": "SPON ADR",
         "issuer": "SAP SE",
-        "shares": 51414.0,
-        "value_usd": 7923412.0,
-        "weight_pct": 4.8
+        "shares": 26034.0,
+        "value_usd": 5427568.0,
+        "weight_pct": 5.24
+      },
+      {
+        "cusip": "861012102",
+        "security_class": "NY REGISTRY",
+        "issuer": "STMICROELECTRONICS N V",
+        "shares": 53983.0,
+        "value_usd": 2880533.0,
+        "weight_pct": 2.78
       }
     ],
-    "top_five_pct": 58.54,
-    "top_ten_pct": 87.62,
-    "hhi": 915.05,
+    "top_five_pct": 63.08,
+    "top_ten_pct": 89.63,
+    "hhi": 985.79,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 7,
-      "exited_positions": 8,
-      "increased_positions": 7,
-      "reduced_positions": 13
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 3,
+      "increased_positions": 5,
+      "reduced_positions": 14
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001754960-26-000729"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001754960-26-001002"
       }
     ]
   },
-  "reported_13f_value_usd": 164962881.0,
+  "reported_13f_value_usd": 103671294.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001754960-26-000729",
+  "validated_accession": "0001754960-26-001002",
   "annualized_turnover_proxy_pct": null
 }

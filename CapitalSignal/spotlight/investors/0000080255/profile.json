@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000080255",
   "investor_name": "PRICE T ROWE ASSOCIATES INC /MD/",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BALTIMORE",
   "state": "MD",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/80255/0000080255-25-000782.txt",
-    "https://www.sec.gov/Archives/edgar/data/80255/0000080255-26-000519.txt"
+    "https://www.sec.gov/Archives/edgar/data/80255/0000080255-26-000519.txt",
+    "https://www.sec.gov/Archives/edgar/data/80255/0000080255-26-000736.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2e2850eea17cf29d8dca922195ea0b29fe274d006d6e6ec362c941fef400cc57",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "139fdde8313ccbed9e33b0fea5c880feff2346a9f7af5913d22363ed15881922",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "104b141fad85532ad83edb58752990aae5cfa06d",
+    "5167f7731e71743443a1add685622415dfa702fd",
+    "5bd3bac092c6b83754758f85df360af7d8ad8700"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000080255-26-000519",
-    "source": "https://www.sec.gov/Archives/edgar/data/80255/0000080255-26-000519.txt",
-    "distinct_positions": 3219,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000080255-26-000736",
+    "source": "https://www.sec.gov/Archives/edgar/data/80255/0000080255-26-000736.txt",
+    "distinct_positions": 3238,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 996914746.0,
+    "reported_long_equity_value_usd": 989768777.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COMM STK",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 369829781.0,
-        "value_usd": 73999242.0,
-        "weight_pct": 7.42
+        "shares": 369431543.0,
+        "value_usd": 84370776.0,
+        "weight_pct": 8.52
       },
       {
         "cusip": "037833100",
         "security_class": "COMM STK",
         "issuer": "APPLE INC",
-        "shares": 159811362.0,
-        "value_usd": 46243017.0,
-        "weight_pct": 4.64
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "COMM STK",
-        "issuer": "ALPHABET INC",
-        "shares": 101316099.0,
-        "value_usd": 36207335.0,
-        "weight_pct": 3.63
+        "shares": 156274684.0,
+        "value_usd": 52042596.0,
+        "weight_pct": 5.26
       },
       {
         "cusip": "594918104",
         "security_class": "COMM STK",
         "issuer": "MICROSOFT CORP",
-        "shares": 87287163.0,
-        "value_usd": 32559858.0,
-        "weight_pct": 3.27
+        "shares": 90797330.0,
+        "value_usd": 46569952.0,
+        "weight_pct": 4.71
       },
       {
-        "cusip": "11135F101",
+        "cusip": "02079K305",
         "security_class": "COMM STK",
-        "issuer": "BROADCOM INC",
-        "shares": 82851970.0,
-        "value_usd": 31297332.0,
-        "weight_pct": 3.14
+        "issuer": "ALPHABET INC",
+        "shares": 99230074.0,
+        "value_usd": 34143084.0,
+        "weight_pct": 3.45
       },
       {
         "cusip": "023135106",
         "security_class": "COMM STK",
         "issuer": "AMAZON COM INC",
-        "shares": 108907465.0,
-        "value_usd": 25957006.0,
-        "weight_pct": 2.6
+        "shares": 113050186.0,
+        "value_usd": 28166455.0,
+        "weight_pct": 2.85
       },
       {
-        "cusip": "02079K107",
+        "cusip": "11135F101",
         "security_class": "COMM STK",
-        "issuer": "ALPHABET INC",
-        "shares": 59258327.0,
-        "value_usd": 20937746.0,
-        "weight_pct": 2.1
+        "issuer": "BROADCOM INC",
+        "shares": 77618450.0,
+        "value_usd": 27258824.0,
+        "weight_pct": 2.75
       },
       {
         "cusip": "007903107",
         "security_class": "COMM STK",
         "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 35938258.0,
-        "value_usd": 20876894.0,
-        "weight_pct": 2.09
+        "shares": 36659447.0,
+        "value_usd": 22426785.0,
+        "weight_pct": 2.27
       },
       {
         "cusip": "30303M102",
         "security_class": "COMM STK",
         "issuer": "META PLATFORMS INC",
-        "shares": 30793354.0,
-        "value_usd": 17345589.0,
-        "weight_pct": 1.74
+        "shares": 30453558.0,
+        "value_usd": 22084312.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COMM STK",
+        "issuer": "ALPHABET INC",
+        "shares": 58009821.0,
+        "value_usd": 19766267.0,
+        "weight_pct": 2.0
       },
       {
         "cusip": "532457108",
         "security_class": "COMM STK",
         "issuer": "ELI LILLY & CO",
-        "shares": 13911839.0,
-        "value_usd": 16686278.0,
-        "weight_pct": 1.67
+        "shares": 13383370.0,
+        "value_usd": 15485631.0,
+        "weight_pct": 1.56
       }
     ],
-    "top_five_pct": 22.1,
-    "top_ten_pct": 32.31,
-    "hhi": 155.71,
+    "top_five_pct": 24.78,
+    "top_ten_pct": 35.6,
+    "hhi": 186.61,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 426,
-      "exited_positions": 226,
-      "increased_positions": 1979,
-      "reduced_positions": 779
+      "previous_period": "2026-06-30",
+      "new_positions": 99,
+      "exited_positions": 80,
+      "increased_positions": 1475,
+      "reduced_positions": 1040
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000080255-26-000519"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000080255-26-000736"
       }
     ]
   },
-  "reported_13f_value_usd": 996914746.0,
+  "reported_13f_value_usd": 989768777.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000080255-26-000519",
+  "validated_accession": "0000080255-26-000736",
   "annualized_turnover_proxy_pct": null
 }

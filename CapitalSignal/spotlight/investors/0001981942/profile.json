@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001981942",
   "investor_name": "Call To Action Foundation",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-06",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Salt Lake City",
   "state": "UT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1981942/0000912282-25-001228.txt",
-    "https://www.sec.gov/Archives/edgar/data/1981942/0000912282-26-001038.txt"
+    "https://www.sec.gov/Archives/edgar/data/1981942/0000912282-26-001038.txt",
+    "https://www.sec.gov/Archives/edgar/data/1981942/0000912282-26-001500.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ade7f145cefff2f720fb9b9e60333532c05397b60411f7cb3c62ec85a9f125a9",
-  "generated_at": "2026-11-16T04:40:41.135138+00:00",
+  "source_fingerprint": "9d35f71ccf3e50846b4b20604a063c4de55097df00fdf05cf8b6ec92f80b2868",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-06|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3575c7f9e986f4c96691dcbf2c3ce15d28542395",
+    "838440bf946cbb96042612b657feda12f234e5ef",
+    "8ede1abc02497debb4c02a7a2a1d934db65386d3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-06",
-    "accession": "0000912282-26-001038",
-    "source": "https://www.sec.gov/Archives/edgar/data/1981942/0000912282-26-001038.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000912282-26-001500",
+    "source": "https://www.sec.gov/Archives/edgar/data/1981942/0000912282-26-001500.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 578967246.0,
+    "reported_long_equity_value_usd": 577520617.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,8 +42,8 @@
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 842980.0,
-        "value_usd": 578967246.0,
+        "shares": 824017.0,
+        "value_usd": 577520617.0,
         "weight_pct": 100.0
       }
     ],
@@ -40,7 +51,7 @@
     "top_ten_pct": 100.0,
     "hhi": 10000.0,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 0,
@@ -56,11 +67,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-06",
         "accession": "0000912282-26-001038"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000912282-26-001500"
       }
     ]
   },
-  "reported_13f_value_usd": 578967246.0,
+  "reported_13f_value_usd": 577520617.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000912282-26-001038",
+  "validated_accession": "0000912282-26-001500",
   "annualized_turnover_proxy_pct": null
 }

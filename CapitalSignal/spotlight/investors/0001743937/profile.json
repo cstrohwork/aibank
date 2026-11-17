@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001743937",
   "investor_name": "TOMS Capital Investment Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1743937/0000902664-25-005065.txt",
-    "https://www.sec.gov/Archives/edgar/data/1743937/0000902664-26-003522.txt"
+    "https://www.sec.gov/Archives/edgar/data/1743937/0000902664-26-003522.txt",
+    "https://www.sec.gov/Archives/edgar/data/1743937/0000902664-26-004588.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5cae25879d9d1ad7c49573a0ad8b766aabe4ab3223946d3c345dcc7cd51fa13b",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "8e2e35bfa3ae762b86afb7e122f558c7cb41871c49e3d5eef9a81595d7af9a77",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "e47a81103068324a1596cd6cd46c05f6ca947c06",
+    "f1d98baafc40c2654881ed3146f801c8ff1de5b2",
+    "f8717a751a7b771af07bc487e3b43a5cdb5dd5d1"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000902664-26-003522",
-    "source": "https://www.sec.gov/Archives/edgar/data/1743937/0000902664-26-003522.txt",
-    "distinct_positions": 16,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000902664-26-004588",
+    "source": "https://www.sec.gov/Archives/edgar/data/1743937/0000902664-26-004588.txt",
+    "distinct_positions": 12,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1893895452.0,
+    "reported_long_equity_value_usd": 2004878038.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "25179M103",
         "security_class": "COM",
         "issuer": "DEVON ENERGY CORP NEW",
-        "shares": 10259000.0,
-        "value_usd": 423901880.0,
-        "weight_pct": 22.38
-      },
-      {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 180300.0,
-        "value_usd": 173989500.0,
-        "weight_pct": 9.19
-      },
-      {
-        "cusip": "767292105",
-        "security_class": "COM",
-        "issuer": "RIOT PLATFORMS INC",
-        "shares": 5875000.0,
-        "value_usd": 160857500.0,
-        "weight_pct": 8.49
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 1047000.0,
-        "value_usd": 146192610.0,
-        "weight_pct": 7.72
-      },
-      {
-        "cusip": "55306N104",
-        "security_class": "COM",
-        "issuer": "MKS INC.",
-        "shares": 293000.0,
-        "value_usd": 130326400.0,
-        "weight_pct": 6.88
-      },
-      {
-        "cusip": "G6700G107",
-        "security_class": "SHS",
-        "issuer": "NVENT ELEC PLC",
-        "shares": 733000.0,
-        "value_usd": 124324130.0,
-        "weight_pct": 6.56
-      },
-      {
-        "cusip": "09940T100",
-        "security_class": "ORD SHS CL A",
-        "issuer": "BOOST RUN INC",
-        "shares": 3125000.0,
-        "value_usd": 121281250.0,
-        "weight_pct": 6.4
-      },
-      {
-        "cusip": "91529Y106",
-        "security_class": "COM",
-        "issuer": "UNUM GROUP",
-        "shares": 1275000.0,
-        "value_usd": 113985000.0,
-        "weight_pct": 6.02
-      },
-      {
-        "cusip": "929089100",
-        "security_class": "COM",
-        "issuer": "VOYA FINANCIAL INC",
-        "shares": 1251000.0,
-        "value_usd": 113253030.0,
-        "weight_pct": 5.98
+        "shares": 11625000.0,
+        "value_usd": 535215000.0,
+        "weight_pct": 26.7
       },
       {
         "cusip": "21871X109",
         "security_class": "COM",
         "issuer": "COREBRIDGE FINL INC",
-        "shares": 3075000.0,
-        "value_usd": 88037250.0,
-        "weight_pct": 4.65
+        "shares": 5950000.0,
+        "value_usd": 197064000.0,
+        "weight_pct": 9.83
+      },
+      {
+        "cusip": "G7997R103",
+        "security_class": "ORD SHS",
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "shares": 195000.0,
+        "value_usd": 179856300.0,
+        "weight_pct": 8.97
+      },
+      {
+        "cusip": "91529Y106",
+        "security_class": "COM",
+        "issuer": "UNUM GROUP",
+        "shares": 1931000.0,
+        "value_usd": 169406630.0,
+        "weight_pct": 8.45
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 1361000.0,
+        "value_usd": 163633030.0,
+        "weight_pct": 8.16
+      },
+      {
+        "cusip": "36168Q104",
+        "security_class": "SUB VTG SHS",
+        "issuer": "GFL ENVIRONMENTAL INC",
+        "shares": 3775000.0,
+        "value_usd": 157908250.0,
+        "weight_pct": 7.88
+      },
+      {
+        "cusip": "55825T103",
+        "security_class": "CL A",
+        "issuer": "MADISON SQUARE GRDN SPRT COR",
+        "shares": 295000.0,
+        "value_usd": 119536950.0,
+        "weight_pct": 5.96
+      },
+      {
+        "cusip": "929089100",
+        "security_class": "COM",
+        "issuer": "VOYA FINANCIAL INC",
+        "shares": 1208000.0,
+        "value_usd": 114131840.0,
+        "weight_pct": 5.69
+      },
+      {
+        "cusip": "767292105",
+        "security_class": "COM",
+        "issuer": "RIOT PLATFORMS INC",
+        "shares": 5614850.0,
+        "value_usd": 113139228.0,
+        "weight_pct": 5.64
+      },
+      {
+        "cusip": "499049104",
+        "security_class": "CL A",
+        "issuer": "KNIGHT-SWIFT TRANSN HLDGS IN",
+        "shares": 1689000.0,
+        "value_usd": 107403510.0,
+        "weight_pct": 5.36
       }
     ],
-    "top_five_pct": 54.66,
-    "top_ten_pct": 84.28,
-    "hhi": 995.44,
+    "top_five_pct": 62.11,
+    "top_ten_pct": 92.64,
+    "hhi": 1247.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 11,
-      "increased_positions": 0,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 7,
+      "increased_positions": 6,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000902664-26-003522"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000902664-26-004588"
       }
     ]
   },
-  "reported_13f_value_usd": 1893895452.0,
+  "reported_13f_value_usd": 2004878038.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000902664-26-003522",
+  "validated_accession": "0000902664-26-004588",
   "annualized_turnover_proxy_pct": null
 }

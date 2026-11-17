@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001489933",
   "investor_name": "DME Capital Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1489933/0001172661-25-005032.txt",
-    "https://www.sec.gov/Archives/edgar/data/1489933/0001172661-26-003786.txt"
+    "https://www.sec.gov/Archives/edgar/data/1489933/0001172661-26-003786.txt",
+    "https://www.sec.gov/Archives/edgar/data/1489933/0001172661-26-005372.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e31b2a613f1803a193d84d4cc97a514c776a9f06b2c0893adc6176056ad1515d",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e793f66f476e32ea148c6eb4ddab6ee79445c03535668db4354277ae8756c0c7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "005423433725bc8af511721ed8d2397b52852171",
+    "4663602ed25f1510a26770ae2bf2946dfc902dd4",
+    "e06a17a23a59160633fb9839282248c53f5fcd94"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003786",
-    "source": "https://www.sec.gov/Archives/edgar/data/1489933/0001172661-26-003786.txt",
-    "distinct_positions": 46,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005372",
+    "source": "https://www.sec.gov/Archives/edgar/data/1489933/0001172661-26-005372.txt",
+    "distinct_positions": 45,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3908853490.0,
+    "reported_long_equity_value_usd": 3553265746.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "GREEN BRICK PARTNERS INC",
         "shares": 9467383.0,
-        "value_usd": 757769335.0,
-        "weight_pct": 19.39
+        "value_usd": 625888690.0,
+        "weight_pct": 17.61
       },
       {
         "cusip": "343412102",
         "security_class": "COM",
         "issuer": "FLUOR CORP",
-        "shares": 4658750.0,
-        "value_usd": 244071913.0,
-        "weight_pct": 6.24
+        "shares": 4607666.0,
+        "value_usd": 220615048.0,
+        "weight_pct": 6.21
       },
       {
         "cusip": "218937100",
         "security_class": "COM SHS",
         "issuer": "CORE NATURAL RESOURCES INC",
-        "shares": 2283200.0,
-        "value_usd": 182701664.0,
-        "weight_pct": 4.67
+        "shares": 2255990.0,
+        "value_usd": 193654182.0,
+        "weight_pct": 5.45
+      },
+      {
+        "cusip": "G9600F104",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "VERSIGENT PLC",
+        "shares": 3220500.0,
+        "value_usd": 144729270.0,
+        "weight_pct": 4.07
       },
       {
         "cusip": "10922N103",
         "security_class": "COM",
         "issuer": "BRIGHTHOUSE FINL INC",
         "shares": 2842100.0,
-        "value_usd": 179904931.0,
-        "weight_pct": 4.6
+        "value_usd": 141820790.0,
+        "weight_pct": 3.99
+      },
+      {
+        "cusip": "69331C108",
+        "security_class": "COM",
+        "issuer": "PG&E CORP",
+        "shares": 10000000.0,
+        "value_usd": 122500000.0,
+        "weight_pct": 3.45
       },
       {
         "cusip": "00404A109",
         "security_class": "COM",
         "issuer": "ACADIA HEALTHCARE COMPANY IN",
         "shares": 4400641.0,
-        "value_usd": 129950928.0,
-        "weight_pct": 3.32
-      },
-      {
-        "cusip": "707569109",
-        "security_class": "COM",
-        "issuer": "PENN ENTERTAINMENT INC",
-        "shares": 5860270.0,
-        "value_usd": 125175368.0,
-        "weight_pct": 3.2
-      },
-      {
-        "cusip": "34964C106",
-        "security_class": "COM",
-        "issuer": "FORTUNE BRANDS INNOVATIONS I",
-        "shares": 2241875.0,
-        "value_usd": 123078938.0,
-        "weight_pct": 3.15
-      },
-      {
-        "cusip": "69331C108",
-        "security_class": "COM",
-        "issuer": "PG&E CORP",
-        "shares": 6632852.0,
-        "value_usd": 111564570.0,
-        "weight_pct": 2.85
+        "value_usd": 121017628.0,
+        "weight_pct": 3.41
       },
       {
         "cusip": "15135B101",
         "security_class": "COM",
         "issuer": "CENTENE CORP DEL",
         "shares": 1651150.0,
-        "value_usd": 105987319.0,
-        "weight_pct": 2.71
+        "value_usd": 102569438.0,
+        "weight_pct": 2.89
       },
       {
-        "cusip": "388689101",
+        "cusip": "Y2065G121",
+        "security_class": "SHS NEW",
+        "issuer": "DHT HOLDINGS INC",
+        "shares": 4281242.0,
+        "value_usd": 96627632.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "024061103",
         "security_class": "COM",
-        "issuer": "GRAPHIC PACKAGING HLDG CO",
-        "shares": 9953430.0,
-        "value_usd": 105207755.0,
-        "weight_pct": 2.69
+        "issuer": "DAUCH CORP",
+        "shares": 18411629.0,
+        "value_usd": 96108704.0,
+        "weight_pct": 2.7
       }
     ],
-    "top_five_pct": 38.23,
-    "top_ten_pct": 52.84,
-    "hhi": 592.37,
+    "top_five_pct": 37.34,
+    "top_ten_pct": 52.5,
+    "hhi": 541.32,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 22,
-      "exited_positions": 13,
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 8,
       "increased_positions": 10,
-      "reduced_positions": 9
+      "reduced_positions": 11
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003786"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005372"
       }
     ]
   },
-  "reported_13f_value_usd": 3908853490.0,
+  "reported_13f_value_usd": 3553265746.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003786",
+  "validated_accession": "0001172661-26-005372",
   "annualized_turnover_proxy_pct": null
 }

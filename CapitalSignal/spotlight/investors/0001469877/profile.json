@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001469877",
   "investor_name": "NEXPOINT ASSET MANAGEMENT, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Dallas",
   "state": "TX",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1469877/0001172661-25-005068.txt",
-    "https://www.sec.gov/Archives/edgar/data/1469877/0001172661-26-003458.txt"
+    "https://www.sec.gov/Archives/edgar/data/1469877/0001172661-26-003458.txt",
+    "https://www.sec.gov/Archives/edgar/data/1469877/0001172661-26-005323.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2b958046c9640037c40809bd2db9f5713b10a1f175a2655b222f09ac06bfbbcf",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "edf5b73c305866127c3ff5e7e397d54a9bcaed728bc67a163aa6977bb319917b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0a3fd7dbfd39c5643fd165af45dd6abd2bca7b50",
+    "8d88ecd3a62fdb672961390592754067dbc9b8e9",
+    "f0e0112d6cec881147d69206ba18c20f67fbe716"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003458",
-    "source": "https://www.sec.gov/Archives/edgar/data/1469877/0001172661-26-003458.txt",
-    "distinct_positions": 67,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005323",
+    "source": "https://www.sec.gov/Archives/edgar/data/1469877/0001172661-26-005323.txt",
+    "distinct_positions": 72,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1495842784.0,
+    "reported_long_equity_value_usd": 1211745458.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
+      {
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 4779056.0,
+        "value_usd": 147911783.0,
+        "weight_pct": 12.21
+      },
       {
         "cusip": "65342V101",
         "security_class": "COM",
         "issuer": "NEXPOINT REAL ESTATE FIN INC",
         "shares": 9439635.0,
-        "value_usd": 146314343.0,
-        "weight_pct": 9.78
-      },
-      {
-        "cusip": "670703107",
-        "security_class": "COM",
-        "issuer": "NUVALENT INC",
-        "shares": 617820.0,
-        "value_usd": 76300770.0,
-        "weight_pct": 5.1
-      },
-      {
-        "cusip": "37890B100",
-        "security_class": "COM CL A",
-        "issuer": "GLOBAL BUSINESS TRAVEL GROUP",
-        "shares": 8089339.0,
-        "value_usd": 75958894.0,
-        "weight_pct": 5.08
-      },
-      {
-        "cusip": "87724P106",
-        "security_class": "COM",
-        "issuer": "TAYLOR MORRISON HOME CORP",
-        "shares": 1049930.0,
-        "value_usd": 75321978.0,
-        "weight_pct": 5.04
+        "value_usd": 146503135.0,
+        "weight_pct": 12.09
       },
       {
         "cusip": "29670G102",
         "security_class": "COM",
         "issuer": "ESSENTIAL UTILS INC",
         "shares": 1780349.0,
-        "value_usd": 68205170.0,
-        "weight_pct": 4.56
+        "value_usd": 69771878.0,
+        "weight_pct": 5.76
       },
       {
-        "cusip": "89055F103",
+        "cusip": "45826H109",
         "security_class": "COM",
-        "issuer": "TOPBUILD COR",
-        "shares": 185680.0,
-        "value_usd": 65829131.0,
-        "weight_pct": 4.4
+        "issuer": "INTEGER HLDGS CORP",
+        "shares": 518184.0,
+        "value_usd": 65472549.0,
+        "weight_pct": 5.4
       },
       {
-        "cusip": "G4474Y214",
-        "security_class": "ORD SHS",
-        "issuer": "JANUS HENDERSON GROUP PLC",
-        "shares": 1263211.0,
-        "value_usd": 65623811.0,
-        "weight_pct": 4.39
-      },
-      {
-        "cusip": "285512109",
+        "cusip": "70451X104",
         "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS INC",
-        "shares": 306964.0,
-        "value_usd": 62939899.0,
-        "weight_pct": 4.21
+        "issuer": "PAYONEER GLOBAL INC",
+        "shares": 9167375.0,
+        "value_usd": 65455057.0,
+        "weight_pct": 5.4
       },
       {
-        "cusip": "146280508",
+        "cusip": "77543R102",
+        "security_class": "COM CL A",
+        "issuer": "ROKU INC",
+        "shares": 428329.0,
+        "value_usd": 65225940.0,
+        "weight_pct": 5.38
+      },
+      {
+        "cusip": "68622V106",
         "security_class": "COMMON STOCK",
-        "issuer": "SILA REALTY TRUST INC",
-        "shares": 1966063.0,
-        "value_usd": 59689672.0,
-        "weight_pct": 3.99
+        "issuer": "ORGANON & CO",
+        "shares": 4403462.0,
+        "value_usd": 60327429.0,
+        "weight_pct": 4.98
       },
       {
-        "cusip": "966084204",
+        "cusip": "124805102",
         "security_class": "COM",
-        "issuer": "WHITESTONE REIT",
-        "shares": 3050205.0,
-        "value_usd": 57831887.0,
-        "weight_pct": 3.87
+        "issuer": "CBIZ INC",
+        "shares": 994502.0,
+        "value_usd": 54389314.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "69349H107",
+        "security_class": "COM",
+        "issuer": "TXNM ENERGY INC",
+        "shares": 811090.0,
+        "value_usd": 47302769.0,
+        "weight_pct": 3.9
+      },
+      {
+        "cusip": "918090101",
+        "security_class": "COM CL A",
+        "issuer": "UTZ BRANDS INC",
+        "shares": 3316645.0,
+        "value_usd": 47262192.0,
+        "weight_pct": 3.9
       }
     ],
-    "top_five_pct": 29.56,
-    "top_ten_pct": 50.41,
-    "hhi": 395.58,
+    "top_five_pct": 40.86,
+    "top_ten_pct": 63.51,
+    "hhi": 551.79,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 39,
-      "exited_positions": 65,
-      "increased_positions": 13,
-      "reduced_positions": 4
+      "previous_period": "2026-06-30",
+      "new_positions": 30,
+      "exited_positions": 25,
+      "increased_positions": 6,
+      "reduced_positions": 6
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003458"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005323"
       }
     ]
   },
-  "reported_13f_value_usd": 1495842784.0,
+  "reported_13f_value_usd": 1211745458.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003458",
+  "validated_accession": "0001172661-26-005323",
   "annualized_turnover_proxy_pct": null
 }

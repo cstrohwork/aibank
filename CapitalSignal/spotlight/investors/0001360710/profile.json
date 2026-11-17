@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001360710",
   "investor_name": "Hirtle & Co., LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WEST CONSHOHOCKEN",
   "state": "PA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1360710/0001104659-25-111019.txt",
-    "https://www.sec.gov/Archives/edgar/data/1360710/0001104659-26-096680.txt"
+    "https://www.sec.gov/Archives/edgar/data/1360710/0001104659-26-096680.txt",
+    "https://www.sec.gov/Archives/edgar/data/1360710/0001104659-26-128138.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b6e6df2ef9d6f0ef1eaa71d869e6b45c9d7cd8025abe4ca8a80a704226f250cb",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "21291d695d08c10d19bd6f6850e9cb8885e7820792b9a56f75825e9b4d381294",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "54b45ae9b76fbe23e13945f8dfa42d8891743301",
+    "6998be9257001d8bc44e68bfd0bf9cb5586c440e",
+    "8150377a83b72b630bb45d038e102c5183eacdde"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-096680",
-    "source": "https://www.sec.gov/Archives/edgar/data/1360710/0001104659-26-096680.txt",
-    "distinct_positions": 99,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128138",
+    "source": "https://www.sec.gov/Archives/edgar/data/1360710/0001104659-26-128138.txt",
+    "distinct_positions": 131,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2859041806.0,
+    "reported_long_equity_value_usd": 2979067599.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78462F103",
         "security_class": "Common Stock",
         "issuer": "STATE STREET SPDR S&P 500 ETF",
-        "shares": 985680.0,
-        "value_usd": 736076254.0,
-        "weight_pct": 25.75
+        "shares": 938075.0,
+        "value_usd": 715404137.0,
+        "weight_pct": 24.01
       },
       {
         "cusip": "46432F842",
         "security_class": "Common Stock",
         "issuer": "ISHARES CORE MSCI EAFE ETF",
-        "shares": 4008471.0,
-        "value_usd": 387138129.0,
-        "weight_pct": 13.54
+        "shares": 3917392.0,
+        "value_usd": 379516937.0,
+        "weight_pct": 12.74
       },
       {
         "cusip": "464287200",
         "security_class": "Common Stock",
         "issuer": "ISHARES CORE S&P 500 ETF",
-        "shares": 445526.0,
-        "value_usd": 333649966.0,
-        "weight_pct": 11.67
+        "shares": 413739.0,
+        "value_usd": 316862013.0,
+        "weight_pct": 10.64
       },
       {
         "cusip": "464287465",
         "security_class": "Common Stock",
         "issuer": "ISHARES MSCI EAFE ETF",
-        "shares": 1980601.0,
-        "value_usd": 205744832.0,
-        "weight_pct": 7.2
+        "shares": 1982212.0,
+        "value_usd": 205932005.0,
+        "weight_pct": 6.91
       },
       {
         "cusip": "46434G103",
         "security_class": "Common Stock",
         "issuer": "ISHARES CORE MSCI EMERGING MARKETS ETF",
-        "shares": 2249929.0,
-        "value_usd": 186384118.0,
-        "weight_pct": 6.52
+        "shares": 2204515.0,
+        "value_usd": 178918437.0,
+        "weight_pct": 6.01
       },
       {
         "cusip": "921943858",
         "security_class": "Common Stock",
         "issuer": "VANGUARD FTSE DEVELOPED MARKETS ETF",
-        "shares": 2324023.0,
-        "value_usd": 165586639.0,
-        "weight_pct": 5.79
+        "shares": 2406245.0,
+        "value_usd": 169904959.0,
+        "weight_pct": 5.7
       },
       {
         "cusip": "922908363",
         "security_class": "Common Stock",
         "issuer": "VANGUARD S&P 500 ETF",
-        "shares": 235658.0,
-        "value_usd": 161852271.0,
-        "weight_pct": 5.66
+        "shares": 227524.0,
+        "value_usd": 159462471.0,
+        "weight_pct": 5.35
       },
       {
         "cusip": "464287234",
         "security_class": "Common Stock",
         "issuer": "ISHARES MSCI EMERGING MARKETS ETF",
-        "shares": 1887366.0,
-        "value_usd": 129114708.0,
-        "weight_pct": 4.52
+        "shares": 1891480.0,
+        "value_usd": 126331949.0,
+        "weight_pct": 4.24
       },
       {
         "cusip": "922908769",
         "security_class": "Common Stock",
-        "issuer": "VANGUARD TOTAL STOCK MARKET ETF",
-        "shares": 216487.0,
-        "value_usd": 80108849.0,
-        "weight_pct": 2.8
+        "issuer": "VANGUARD MORNINGSTAR TOTAL STOCK MARKET ETF",
+        "shares": 237282.0,
+        "value_usd": 88800416.0,
+        "weight_pct": 2.98
       },
       {
-        "cusip": "922042858",
+        "cusip": "922908736",
         "security_class": "Common Stock",
-        "issuer": "VANGUARD FTSE EMERGING MARKETS ETF",
-        "shares": 1331530.0,
-        "value_usd": 79479026.0,
-        "weight_pct": 2.78
+        "issuer": "VANGUARD MORNINGSTAR GROWTH ETF",
+        "shares": 850920.0,
+        "value_usd": 76676401.0,
+        "weight_pct": 2.57
       }
     ],
-    "top_five_pct": 64.67,
-    "top_ten_pct": 86.22,
-    "hhi": 1196.01,
+    "top_five_pct": 60.31,
+    "top_ten_pct": 81.16,
+    "hhi": 1049.01,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 34,
-      "exited_positions": 9,
-      "increased_positions": 21,
-      "reduced_positions": 31
+      "previous_period": "2026-06-30",
+      "new_positions": 33,
+      "exited_positions": 1,
+      "increased_positions": 14,
+      "reduced_positions": 20
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-096680"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128138"
       }
     ]
   },
-  "reported_13f_value_usd": 2859041806.0,
+  "reported_13f_value_usd": 2979067599.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-096680",
+  "validated_accession": "0001104659-26-128138",
   "annualized_turnover_proxy_pct": null
 }

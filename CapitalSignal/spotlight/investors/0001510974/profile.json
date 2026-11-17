@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001510974",
   "investor_name": "BDT CAPITAL PARTNERS, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1510974/0001193125-25-282903.txt",
-    "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-097248.txt"
+    "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-097248.txt",
+    "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-128479.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6f00bd69e2ab49b04a4b0ee29c6e4abbff037cfe7cc652905bb660cd4481c056",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "5d6635c29d877af62e95bbb685e6680598e27cfd35f5b3715059c8d61352b2f6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "7c5af5fa8a856ce2349a7576a29670595ca69035",
+    "c410dd1ee126c17f31375896900e50138899ab25",
+    "f8313865345f6f25fd755754b9b50daca4ed6136"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104659-26-097248",
-    "source": "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-097248.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128479",
+    "source": "https://www.sec.gov/Archives/edgar/data/1510974/0001104659-26-128479.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4354412163.0,
+    "reported_long_equity_value_usd": 2881936172.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,36 +42,36 @@
         "cusip": "01862Q107",
         "security_class": "COM",
         "issuer": "ALLIANCE LAUNDRY HLDGS INC",
-        "shares": 140751696.0,
-        "value_usd": 3732734978.0,
-        "weight_pct": 85.72
+        "shares": 114819196.0,
+        "value_usd": 2445648875.0,
+        "weight_pct": 84.86
       },
       {
         "cusip": "904311206",
         "security_class": "CL C",
         "issuer": "UNDER ARMOUR INC",
-        "shares": 66605319.0,
-        "value_usd": 414285084.0,
-        "weight_pct": 9.51
+        "shares": 68550766.0,
+        "value_usd": 298195832.0,
+        "weight_pct": 10.35
       },
       {
         "cusip": "29445S100",
         "security_class": "COM CL A",
         "issuer": "EQUIPMENTSHARE COM INC",
-        "shares": 10548937.0,
-        "value_usd": 207392101.0,
-        "weight_pct": 4.76
+        "shares": 7949998.0,
+        "value_usd": 138091465.0,
+        "weight_pct": 4.79
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 7461.64,
+    "hhi": 7331.46,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
       "increased_positions": 1,
-      "reduced_positions": 0
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -72,11 +83,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104659-26-097248"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128479"
       }
     ]
   },
-  "reported_13f_value_usd": 4354412163.0,
+  "reported_13f_value_usd": 2881936172.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104659-26-097248",
+  "validated_accession": "0001104659-26-128479",
   "annualized_turnover_proxy_pct": null
 }

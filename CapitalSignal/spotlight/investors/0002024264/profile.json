@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002024264",
   "investor_name": "ABOUND FINANCIAL, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GRANITE BAY",
   "state": "CA",
   "country": "United States",
@@ -10,111 +10,122 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2024264/0001420506-25-002986.txt",
-    "https://www.sec.gov/Archives/edgar/data/2024264/0001420506-26-001786.txt"
+    "https://www.sec.gov/Archives/edgar/data/2024264/0001420506-26-001786.txt",
+    "https://www.sec.gov/Archives/edgar/data/2024264/0001420506-26-002728.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d5fcce5bab2d03897e724e3f5259a1c0d95bc1ab966473af9acd5baf2ad1d6de",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "f747ce06e43d71205c0fca5ceb088ca223b41b5cbcdaec05ada6c0811503d134",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-04|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2bc29c8f61e5d5453af20e61af0e36d51caeaccb",
+    "ef951f7a66fa38f4acf47a79c1bf531325fc8341",
+    "f28858d982e521fd41fa198c59d5fdc5e4406132"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001786",
-    "source": "https://www.sec.gov/Archives/edgar/data/2024264/0001420506-26-001786.txt",
-    "distinct_positions": 297,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002728",
+    "source": "https://www.sec.gov/Archives/edgar/data/2024264/0001420506-26-002728.txt",
+    "distinct_positions": 294,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 250837764.0,
+    "reported_long_equity_value_usd": 256333472.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "78468R853",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 473796.0,
-        "value_usd": 27323807.0,
-        "weight_pct": 10.89
-      },
-      {
         "cusip": "41456U106",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "OAKMARK U S",
-        "shares": 925844.0,
-        "value_usd": 26081052.0,
-        "weight_pct": 10.4
-      },
-      {
-        "cusip": "78464A805",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 284191.0,
-        "value_usd": 25801721.0,
-        "weight_pct": 10.29
+        "security_class": "OAKMARK U S LRG",
+        "issuer": "HARRIS OAKMARK ETF TRUST",
+        "shares": 938422.0,
+        "value_usd": 27552083.0,
+        "weight_pct": 10.75
       },
       {
         "cusip": "78464A409",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 207305.0,
-        "value_usd": 24667309.0,
-        "weight_pct": 9.83
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 211932.0,
+        "value_usd": 26084652.0,
+        "weight_pct": 10.18
+      },
+      {
+        "cusip": "78464A805",
+        "security_class": "ST STR PR SP1500",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 280636.0,
+        "value_usd": 25832510.0,
+        "weight_pct": 10.08
+      },
+      {
+        "cusip": "78468R853",
+        "security_class": "ST STR SP600 SML",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 480084.0,
+        "value_usd": 25377259.0,
+        "weight_pct": 9.9
       },
       {
         "cusip": "78464A508",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 400406.0,
-        "value_usd": 24340679.0,
-        "weight_pct": 9.7
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 407846.0,
+        "value_usd": 24931624.0,
+        "weight_pct": 9.73
       },
       {
         "cusip": "78463X889",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 326575.0,
-        "value_usd": 16456127.0,
-        "weight_pct": 6.56
+        "security_class": "ST STR PO EX ETF",
+        "issuer": "SPDR INDEX SHS FDS",
+        "shares": 330964.0,
+        "value_usd": 16617713.0,
+        "weight_pct": 6.48
       },
       {
         "cusip": "78464A854",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 171027.0,
-        "value_usd": 15029889.0,
-        "weight_pct": 5.99
-      },
-      {
-        "cusip": "78464A847",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 116316.0,
-        "value_usd": 7858311.0,
-        "weight_pct": 3.13
+        "security_class": "ST STR P500ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 170322.0,
+        "value_usd": 15288138.0,
+        "weight_pct": 5.96
       },
       {
         "cusip": "922040845",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "VANGUARD ULTRA",
-        "shares": 101352.0,
-        "value_usd": 7670311.0,
-        "weight_pct": 3.06
+        "security_class": "0 3 MO TR BI ETF",
+        "issuer": "VANGUARD INSTL INDEX FD",
+        "shares": 101700.0,
+        "value_usd": 7700721.0,
+        "weight_pct": 3.0
       },
       {
         "cusip": "78464A672",
-        "security_class": "MF Closed and MF Open",
-        "issuer": "STATE STREET",
-        "shares": 264608.0,
-        "value_usd": 7512238.0,
-        "weight_pct": 2.99
+        "security_class": "ST INTER ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 271480.0,
+        "value_usd": 7405963.0,
+        "weight_pct": 2.89
+      },
+      {
+        "cusip": "78464A847",
+        "security_class": "ST STR P400MID",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 115920.0,
+        "value_usd": 7307624.0,
+        "weight_pct": 2.85
       }
     ],
-    "top_five_pct": 51.11,
-    "top_ten_pct": 72.85,
-    "hhi": 656.44,
+    "top_five_pct": 50.63,
+    "top_ten_pct": 71.82,
+    "hhi": 644.25,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 297,
-      "exited_positions": 70,
+      "previous_period": "2026-06-30",
+      "new_positions": 294,
+      "exited_positions": 297,
       "increased_positions": 0,
       "reduced_positions": 0
     },
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001786"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002728"
       }
     ]
   },
-  "reported_13f_value_usd": 250837764.0,
+  "reported_13f_value_usd": 256333472.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001786",
+  "validated_accession": "0001420506-26-002728",
   "annualized_turnover_proxy_pct": null
 }

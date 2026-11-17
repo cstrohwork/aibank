@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001697848",
   "investor_name": "Woodson Capital Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Greenwich",
   "state": "CT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1697848/0001172661-25-004450.txt",
-    "https://www.sec.gov/Archives/edgar/data/1697848/0001172661-26-003666.txt"
+    "https://www.sec.gov/Archives/edgar/data/1697848/0001172661-26-003666.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697848/0001172661-26-005281.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "474e53e1a56ef0aa3b3837d4bc0d6c80e71faafc2e52025553d719ed1ab152a5",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "e52cd9e7be283deabcdd0545131634b8eecc27543b3e2276595ce3805c4b279f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-28|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1ea5593805589ecf91d2a654c37de32ee56cf73d",
+    "4e8915124a7a3e6f933900746e246df5ec8d3e45",
+    "b4a9033a8ffe6d3fa605231d91dc902b5768647b"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003666",
-    "source": "https://www.sec.gov/Archives/edgar/data/1697848/0001172661-26-003666.txt",
-    "distinct_positions": 26,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005281",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697848/0001172661-26-005281.txt",
+    "distinct_positions": 23,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 597407275.0,
+    "reported_long_equity_value_usd": 572188427.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "75734B100",
         "security_class": "CL A",
         "issuer": "REDDIT INC",
-        "shares": 320000.0,
-        "value_usd": 55545600.0,
-        "weight_pct": 9.3
+        "shares": 460000.0,
+        "value_usd": 65522400.0,
+        "weight_pct": 11.45
       },
       {
-        "cusip": "852234103",
-        "security_class": "CL A",
-        "issuer": "BLOCK INC",
-        "shares": 670000.0,
-        "value_usd": 50920000.0,
-        "weight_pct": 8.52
+        "cusip": "G0260P102",
+        "security_class": "COM SHS",
+        "issuer": "AMER SPORTS INC",
+        "shares": 2000000.0,
+        "value_usd": 54580000.0,
+        "weight_pct": 9.54
       },
       {
         "cusip": "87043Q108",
         "security_class": "COM CL A",
         "issuer": "SWEETGREEN INC",
         "shares": 5300000.0,
-        "value_usd": 46693000.0,
-        "weight_pct": 7.82
-      },
-      {
-        "cusip": "G0260P102",
-        "security_class": "COM SHS",
-        "issuer": "AMER SPORTS INC",
-        "shares": 1350000.0,
-        "value_usd": 45684000.0,
-        "weight_pct": 7.65
-      },
-      {
-        "cusip": "88339P101",
-        "security_class": "COM",
-        "issuer": "THE REALREAL INC",
-        "shares": 3300000.0,
-        "value_usd": 38907000.0,
-        "weight_pct": 6.51
-      },
-      {
-        "cusip": "82846H405",
-        "security_class": "COM NEW",
-        "issuer": "QXO INC",
-        "shares": 1900000.0,
-        "value_usd": 32832000.0,
-        "weight_pct": 5.5
-      },
-      {
-        "cusip": "876030107",
-        "security_class": "COM",
-        "issuer": "TAPESTRY INC",
-        "shares": 224000.0,
-        "value_usd": 32789120.0,
-        "weight_pct": 5.49
+        "value_usd": 47011000.0,
+        "weight_pct": 8.22
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 125000.0,
-        "value_usd": 29792500.0,
-        "weight_pct": 4.99
+        "shares": 150000.0,
+        "value_usd": 37372500.0,
+        "weight_pct": 6.53
+      },
+      {
+        "cusip": "852234103",
+        "security_class": "CL A",
+        "issuer": "BLOCK INC",
+        "shares": 460000.0,
+        "value_usd": 33823800.0,
+        "weight_pct": 5.91
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 93000.0,
+        "value_usd": 32997330.0,
+        "weight_pct": 5.77
+      },
+      {
+        "cusip": "88339P101",
+        "security_class": "COM",
+        "issuer": "THE REALREAL INC",
+        "shares": 3650000.0,
+        "value_usd": 32266000.0,
+        "weight_pct": 5.64
       },
       {
         "cusip": "55406W103",
         "security_class": "SPONSORED ADS",
         "issuer": "LUXEXPERIENCE BV",
-        "shares": 3450000.0,
-        "value_usd": 25633500.0,
-        "weight_pct": 4.29
+        "shares": 3200000.0,
+        "value_usd": 31712000.0,
+        "weight_pct": 5.54
+      },
+      {
+        "cusip": "H2906T109",
+        "security_class": "SHS",
+        "issuer": "GARMIN LTD",
+        "shares": 100000.0,
+        "value_usd": 28684000.0,
+        "weight_pct": 5.01
       },
       {
         "cusip": "97785W106",
         "security_class": "COMMON STOCK",
         "issuer": "WOLFSPEED INC",
-        "shares": 500000.0,
-        "value_usd": 24125000.0,
-        "weight_pct": 4.04
+        "shares": 1000000.0,
+        "value_usd": 28130000.0,
+        "weight_pct": 4.92
       }
     ],
-    "top_five_pct": 39.8,
-    "top_ten_pct": 64.1,
-    "hhi": 541.94,
+    "top_five_pct": 41.65,
+    "top_ten_pct": 68.53,
+    "hhi": 622.67,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 13,
-      "exited_positions": 11,
-      "increased_positions": 6,
-      "reduced_positions": 6
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 6,
+      "increased_positions": 10,
+      "reduced_positions": 8
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003666"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005281"
       }
     ]
   },
-  "reported_13f_value_usd": 597407275.0,
+  "reported_13f_value_usd": 572188427.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003666",
+  "validated_accession": "0001172661-26-005281",
   "annualized_turnover_proxy_pct": null
 }

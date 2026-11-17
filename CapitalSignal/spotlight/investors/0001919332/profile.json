@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001919332",
   "investor_name": "ParaFi Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1919332/0001420506-25-003440.txt",
-    "https://www.sec.gov/Archives/edgar/data/1919332/0001420506-26-001815.txt"
+    "https://www.sec.gov/Archives/edgar/data/1919332/0001420506-26-001815.txt",
+    "https://www.sec.gov/Archives/edgar/data/1919332/0001420506-26-002874.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5af7861a1b603e1a4335b0c90240f05a43173038fe7e5c074bd149c88b974d5e",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "35ecffeee0ac8e1974dc927d8180275f2182d8391105e33700f75b0394e4c423",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "26d183c3c73cc2fe3b52f53933324ec872193a88",
+    "89f3572b9afee0a02433ba21dd971d15c897d8ed",
+    "96317e81956e5fbb068c761b30781403cd8d75db"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001815",
-    "source": "https://www.sec.gov/Archives/edgar/data/1919332/0001420506-26-001815.txt",
-    "distinct_positions": 19,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002874",
+    "source": "https://www.sec.gov/Archives/edgar/data/1919332/0001420506-26-002874.txt",
+    "distinct_positions": 20,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 275878622.0,
+    "reported_long_equity_value_usd": 396398480.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "SHS BEN INT",
         "issuer": "BITWISE BITCOIN ETF TR",
         "shares": 1700000.0,
-        "value_usd": 54162000.0,
-        "weight_pct": 19.63
+        "value_usd": 77112000.0,
+        "weight_pct": 19.45
       },
       {
         "cusip": "315948109",
         "security_class": "SHS",
         "issuer": "FIDELITY WISE ORIGIN BITCOIN",
         "shares": 1050000.0,
-        "value_usd": 53602500.0,
-        "weight_pct": 19.43
+        "value_usd": 76272000.0,
+        "weight_pct": 19.24
       },
       {
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
-        "shares": 1517172.0,
-        "value_usd": 50506656.0,
-        "weight_pct": 18.31
+        "shares": 1606444.0,
+        "value_usd": 76049059.0,
+        "weight_pct": 19.19
       },
       {
         "cusip": "770700102",
         "security_class": "COM CL A",
         "issuer": "ROBINHOOD MKTS INC",
-        "shares": 250000.0,
-        "value_usd": 25070000.0,
-        "weight_pct": 9.09
-      },
-      {
-        "cusip": "09175A206",
-        "security_class": "COM NEW",
-        "issuer": "BITMINE IMMERSION TECHS INC",
-        "shares": 235000.0,
-        "value_usd": 19042050.0,
-        "weight_pct": 6.9
+        "shares": 350000.0,
+        "value_usd": 39375000.0,
+        "weight_pct": 9.93
       },
       {
         "cusip": "172573107",
         "security_class": "COM CL A",
         "issuer": "CIRCLE INTERNET GROUP INC",
-        "shares": 300000.0,
-        "value_usd": 18789000.0,
-        "weight_pct": 6.81
+        "shares": 420000.0,
+        "value_usd": 34511400.0,
+        "weight_pct": 8.71
       },
       {
-        "cusip": "36866J105",
-        "security_class": "CL A COM",
-        "issuer": "GEMINI SPACE STA INC",
-        "shares": 3428888.0,
-        "value_usd": 14607063.0,
-        "weight_pct": 5.29
+        "cusip": "81517B101",
+        "security_class": "COM SHS",
+        "issuer": "SECURITIZE CORP",
+        "shares": 1863727.0,
+        "value_usd": 27191777.0,
+        "weight_pct": 6.86
       },
       {
         "cusip": "389930207",
         "security_class": "SHS NEW",
         "issuer": "GRAYSCALE BITCOIN MINI TR ET",
         "shares": 520000.0,
-        "value_usd": 13494000.0,
-        "weight_pct": 4.89
+        "value_usd": 19214000.0,
+        "weight_pct": 4.85
       },
       {
-        "cusip": "594972887",
-        "security_class": "SERIES A PERP PF",
-        "issuer": "STRATEGY INC",
-        "shares": 228319.0,
-        "value_usd": 13429724.0,
-        "weight_pct": 4.87
+        "cusip": "091947101",
+        "security_class": "COM SHS CL A",
+        "issuer": "BITGO HOLDINGS INC",
+        "shares": 2000000.0,
+        "value_usd": 14800000.0,
+        "weight_pct": 3.73
       },
       {
-        "cusip": "82003F309",
-        "security_class": "COM",
-        "issuer": "SKYAI INC",
-        "shares": 2150180.0,
-        "value_usd": 2386696.0,
-        "weight_pct": 0.87
+        "cusip": "G32089107",
+        "security_class": "SHS CL A",
+        "issuer": "ETORO GROUP LTD",
+        "shares": 420000.0,
+        "value_usd": 10794000.0,
+        "weight_pct": 2.72
+      },
+      {
+        "cusip": "05338N101",
+        "security_class": "SHS CL A",
+        "issuer": "AVALANCHE TREAS CORP",
+        "shares": 2656487.0,
+        "value_usd": 4861371.0,
+        "weight_pct": 1.23
       }
     ],
-    "top_five_pct": 73.36,
-    "top_ten_pct": 96.09,
-    "hhi": 1353.53,
+    "top_five_pct": 76.52,
+    "top_ten_pct": 95.91,
+    "hhi": 1387.3,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 4,
-      "increased_positions": 3,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 5,
+      "increased_positions": 4,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001815"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002874"
       }
     ]
   },
-  "reported_13f_value_usd": 275878622.0,
+  "reported_13f_value_usd": 396398480.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001815",
+  "validated_accession": "0001420506-26-002874",
   "annualized_turnover_proxy_pct": null
 }

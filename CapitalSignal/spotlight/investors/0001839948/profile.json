@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001839948",
   "investor_name": "TCG Crossover Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PALO ALTO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1839948/0001214659-25-016751.txt",
-    "https://www.sec.gov/Archives/edgar/data/1839948/0001214659-26-010290.txt"
+    "https://www.sec.gov/Archives/edgar/data/1839948/0001214659-26-010290.txt",
+    "https://www.sec.gov/Archives/edgar/data/1839948/0001214659-26-014306.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8770eaacc1134d4dcb62e460a76330084d4ee5c6894c6e1c19f28b1aaf0e5f79",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "159b36a29137afd6b09222c816df3dcc35a89c85a19db91590cf1748192c0dca",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2f8b24677923b142ebcaae0acf79e3e73b67d898",
+    "78b5cf6b31ff523afe903ed8a9b9b1c1c7c2390e",
+    "c88dba410f8099ddff140c7e2d4105eec5fe160f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010290",
-    "source": "https://www.sec.gov/Archives/edgar/data/1839948/0001214659-26-010290.txt",
-    "distinct_positions": 54,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014306",
+    "source": "https://www.sec.gov/Archives/edgar/data/1839948/0001214659-26-014306.txt",
+    "distinct_positions": 57,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4160526316.0,
+    "reported_long_equity_value_usd": 3539842492.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "00370M103",
         "security_class": "COMM",
         "issuer": "ABIVAX SA AMERICAN DEPOSITARY SHARES",
-        "shares": 6007834.0,
-        "value_usd": 800603959.0,
-        "weight_pct": 19.24
-      },
-      {
-        "cusip": "87583X109",
-        "security_class": "COMM",
-        "issuer": "TANGO THERAPEUTICS INC",
-        "shares": 9081201.0,
-        "value_usd": 283878343.0,
-        "weight_pct": 6.82
+        "shares": 3663038.0,
+        "value_usd": 362714023.0,
+        "weight_pct": 10.25
       },
       {
         "cusip": "156944100",
         "security_class": "COMM",
         "issuer": "CG ONCOLOGY INC",
         "shares": 3670206.0,
-        "value_usd": 260768136.0,
-        "weight_pct": 6.27
-      },
-      {
-        "cusip": "19240Q201",
-        "security_class": "COMM",
-        "issuer": "COGENT BIOSCIENCES INC",
-        "shares": 4854436.0,
-        "value_usd": 187866673.0,
-        "weight_pct": 4.52
-      },
-      {
-        "cusip": "45258J102",
-        "security_class": "COMM",
-        "issuer": "IMMUNOVANT INC",
-        "shares": 4457988.0,
-        "value_usd": 171766278.0,
-        "weight_pct": 4.13
-      },
-      {
-        "cusip": "00773J202",
-        "security_class": "COMM",
-        "issuer": "SPYRE THERAPEUTICS INC",
-        "shares": 1900582.0,
-        "value_usd": 168733670.0,
-        "weight_pct": 4.06
-      },
-      {
-        "cusip": "252828108",
-        "security_class": "COMM",
-        "issuer": "DIANTHUS THERAPEUTICS INC",
-        "shares": 1676624.0,
-        "value_usd": 163437308.0,
-        "weight_pct": 3.93
-      },
-      {
-        "cusip": "604749101",
-        "security_class": "COMM",
-        "issuer": "MIRUM PHARMACEUTICALS INC",
-        "shares": 1062049.0,
-        "value_usd": 124334076.0,
-        "weight_pct": 2.99
-      },
-      {
-        "cusip": "98887Q104",
-        "security_class": "ADRS",
-        "issuer": "ZAI LAB LTD-ADR",
-        "shares": 6137627.0,
-        "value_usd": 116614913.0,
-        "weight_pct": 2.8
+        "value_usd": 260180903.0,
+        "weight_pct": 7.35
       },
       {
         "cusip": "03237H101",
         "security_class": "COMM",
         "issuer": "AMYLYX PHARMACEUTICALS INC",
         "shares": 6243812.0,
-        "value_usd": 112138864.0,
-        "weight_pct": 2.7
+        "value_usd": 181694929.0,
+        "weight_pct": 5.13
+      },
+      {
+        "cusip": "00773J202",
+        "security_class": "COMM",
+        "issuer": "SPYRE THERAPEUTICS INC",
+        "shares": 1900582.0,
+        "value_usd": 169208815.0,
+        "weight_pct": 4.78
+      },
+      {
+        "cusip": "87583X109",
+        "security_class": "COMM",
+        "issuer": "TANGO THERAPEUTICS INC",
+        "shares": 6773043.0,
+        "value_usd": 168987423.0,
+        "weight_pct": 4.77
+      },
+      {
+        "cusip": "98887Q104",
+        "security_class": "ADRS",
+        "issuer": "ZAI LAB LTD-ADR",
+        "shares": 6229081.0,
+        "value_usd": 164073994.0,
+        "weight_pct": 4.64
+      },
+      {
+        "cusip": "45258J102",
+        "security_class": "COMM",
+        "issuer": "IMMUNOVANT INC",
+        "shares": 4457988.0,
+        "value_usd": 150590835.0,
+        "weight_pct": 4.25
+      },
+      {
+        "cusip": "252828108",
+        "security_class": "COMM",
+        "issuer": "DIANTHUS THERAPEUTICS INC",
+        "shares": 1676624.0,
+        "value_usd": 147626743.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "23255M303",
+        "security_class": "COMM",
+        "issuer": "KORSANA BIOSCIENCES INC",
+        "shares": 4549587.0,
+        "value_usd": 145586784.0,
+        "weight_pct": 4.11
+      },
+      {
+        "cusip": "50015M109",
+        "security_class": "COMM",
+        "issuer": "KODIAK SCIENCES INC",
+        "shares": 1445538.0,
+        "value_usd": 137037002.0,
+        "weight_pct": 3.87
       }
     ],
-    "top_five_pct": 40.98,
-    "top_ten_pct": 57.45,
-    "hhi": 617.68,
+    "top_five_pct": 32.28,
+    "top_ten_pct": 53.33,
+    "hhi": 403.43,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 30,
-      "exited_positions": 16,
-      "increased_positions": 10,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 5,
+      "increased_positions": 4,
+      "reduced_positions": 15
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010290"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014306"
       }
     ]
   },
-  "reported_13f_value_usd": 4160526316.0,
+  "reported_13f_value_usd": 3539842492.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010290",
+  "validated_accession": "0001214659-26-014306",
   "annualized_turnover_proxy_pct": null
 }

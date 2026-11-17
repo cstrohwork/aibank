@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001803822",
   "investor_name": "Aventail Capital Group, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1803822/0001420506-25-003409.txt",
-    "https://www.sec.gov/Archives/edgar/data/1803822/0001420506-26-001817.txt"
+    "https://www.sec.gov/Archives/edgar/data/1803822/0001420506-26-001817.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803822/0001420506-26-002870.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a6863cce0c91f1319137517fd644a137867ef4c5c2f397740e35ef154c6e0eeb",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "bf61519d457b860f2a481f5e79f2d55fcb476bbc1bedb597d3904a3e16e19aba",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "434c9168f40070511b171e9c223f434ce4fa2e6c",
+    "97637c9e7aa71c8f137c2bee8363a88d35c24b49",
+    "c8a7129e9953ead950a9204bab56d938ca35df6f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001817",
-    "source": "https://www.sec.gov/Archives/edgar/data/1803822/0001420506-26-001817.txt",
-    "distinct_positions": 155,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002870",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803822/0001420506-26-002870.txt",
+    "distinct_positions": 164,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1743126999.0,
+    "reported_long_equity_value_usd": 1779911514.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "636180101",
+        "cusip": "031100100",
         "security_class": "COM",
-        "issuer": "NATIONAL FUEL GAS CO",
-        "shares": 721306.0,
-        "value_usd": 55692036.0,
-        "weight_pct": 3.19
+        "issuer": "AMETEK INC",
+        "shares": 153729.0,
+        "value_usd": 38083285.0,
+        "weight_pct": 2.14
       },
       {
-        "cusip": "023608102",
+        "cusip": "209115104",
         "security_class": "COM",
-        "issuer": "AMEREN CORP",
-        "shares": 390136.0,
-        "value_usd": 44100973.0,
-        "weight_pct": 2.53
+        "issuer": "CONSOLIDATED EDISON INC",
+        "shares": 349340.0,
+        "value_usd": 35706041.0,
+        "weight_pct": 2.01
       },
       {
-        "cusip": "018802108",
+        "cusip": "87807B107",
         "security_class": "COM",
-        "issuer": "ALLIANT ENERGY CORP",
-        "shares": 524461.0,
-        "value_usd": 40011130.0,
-        "weight_pct": 2.3
+        "issuer": "TC ENERGY CORP",
+        "shares": 603908.0,
+        "value_usd": 34893804.0,
+        "weight_pct": 1.96
       },
       {
-        "cusip": "29364G103",
+        "cusip": "88031M109",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TENARIS S A",
+        "shares": 627803.0,
+        "value_usd": 34642170.0,
+        "weight_pct": 1.95
+      },
+      {
+        "cusip": "G29183103",
+        "security_class": "SHS",
+        "issuer": "EATON CORP PLC",
+        "shares": 79935.0,
+        "value_usd": 34348869.0,
+        "weight_pct": 1.93
+      },
+      {
+        "cusip": "74347M108",
         "security_class": "COM",
-        "issuer": "ENTERGY CORP NEW",
-        "shares": 337203.0,
-        "value_usd": 38731137.0,
-        "weight_pct": 2.22
+        "issuer": "PROPETRO HLDG CORP",
+        "shares": 3771301.0,
+        "value_usd": 33338301.0,
+        "weight_pct": 1.87
       },
       {
-        "cusip": "65290E101",
-        "security_class": "CLASS A COM",
-        "issuer": "NEXTPOWER INC",
-        "shares": 311119.0,
-        "value_usd": 37066718.0,
-        "weight_pct": 2.13
+        "cusip": "462210105",
+        "security_class": "COM CL A",
+        "issuer": "IONIC DIGITAL INC",
+        "shares": 389092.0,
+        "value_usd": 31255760.0,
+        "weight_pct": 1.76
       },
       {
-        "cusip": "05603J108",
-        "security_class": "COM",
-        "issuer": "BKV CORP",
-        "shares": 1343790.0,
-        "value_usd": 36766094.0,
-        "weight_pct": 2.11
-      },
-      {
-        "cusip": "629377508",
+        "cusip": "26441C204",
         "security_class": "COM NEW",
-        "issuer": "NRG ENERGY INC",
-        "shares": 241067.0,
-        "value_usd": 35210246.0,
-        "weight_pct": 2.02
+        "issuer": "DUKE ENERGY CORP NEW",
+        "shares": 268422.0,
+        "value_usd": 30602792.0,
+        "weight_pct": 1.72
       },
       {
         "cusip": "049560105",
         "security_class": "COM",
         "issuer": "ATMOS ENERGY CORP",
-        "shares": 202896.0,
-        "value_usd": 34952894.0,
-        "weight_pct": 2.01
+        "shares": 189137.0,
+        "value_usd": 29588592.0,
+        "weight_pct": 1.66
       },
       {
-        "cusip": "859241101",
+        "cusip": "01741R102",
         "security_class": "COM",
-        "issuer": "STERLING INFRASTRUCTURE INC",
-        "shares": 41601.0,
-        "value_usd": 34918215.0,
-        "weight_pct": 2.0
-      },
-      {
-        "cusip": "911363109",
-        "security_class": "COM",
-        "issuer": "UNITED RENTALS INC",
-        "shares": 29792.0,
-        "value_usd": 33751059.0,
-        "weight_pct": 1.94
+        "issuer": "ATI INC",
+        "shares": 142407.0,
+        "value_usd": 26971886.0,
+        "weight_pct": 1.52
       }
     ],
-    "top_five_pct": 12.37,
-    "top_ten_pct": 22.44,
-    "hhi": 118.16,
+    "top_five_pct": 9.98,
+    "top_ten_pct": 18.51,
+    "hhi": 98.53,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 81,
-      "exited_positions": 64,
-      "increased_positions": 28,
-      "reduced_positions": 46
+      "previous_period": "2026-06-30",
+      "new_positions": 28,
+      "exited_positions": 19,
+      "increased_positions": 89,
+      "reduced_positions": 47
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001817"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002870"
       }
     ]
   },
-  "reported_13f_value_usd": 1743126999.0,
+  "reported_13f_value_usd": 1779911514.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001817",
+  "validated_accession": "0001420506-26-002870",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001730126",
   "investor_name": "Buckley Wealth Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Las Vegas",
   "state": "NV",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1730126/0001172661-25-004929.txt",
-    "https://www.sec.gov/Archives/edgar/data/1730126/0001172661-26-003164.txt"
+    "https://www.sec.gov/Archives/edgar/data/1730126/0001172661-26-003164.txt",
+    "https://www.sec.gov/Archives/edgar/data/1730126/0001172661-26-005234.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ed66d53cd13c74cedd725523b3af15b67718bd116f06028aa2988d038eef9e84",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "c211d99bd67d8b509e0a648a426c3a81d93182d3ad6a787b6121f3d2cce976e9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1b3c74910a1744cfd99a83a6c01f83206cb837eb",
+    "85e6c26a6cf936b96bcb5e903864354fd4d3cc75",
+    "d78b2cb8e3aca5839135aa632c28317fdc09d598"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0001172661-26-003164",
-    "source": "https://www.sec.gov/Archives/edgar/data/1730126/0001172661-26-003164.txt",
-    "distinct_positions": 104,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005234",
+    "source": "https://www.sec.gov/Archives/edgar/data/1730126/0001172661-26-005234.txt",
+    "distinct_positions": 105,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 404335744.0,
+    "reported_long_equity_value_usd": 444867948.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 153840.0,
-        "value_usd": 44514780.0,
-        "weight_pct": 11.01
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 85383.0,
-        "value_usd": 30513472.0,
-        "weight_pct": 7.55
+        "shares": 152787.0,
+        "value_usd": 50881713.0,
+        "weight_pct": 11.44
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 72104.0,
-        "value_usd": 26895677.0,
-        "weight_pct": 6.65
+        "shares": 71410.0,
+        "value_usd": 36626748.0,
+        "weight_pct": 8.23
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 85410.0,
+        "value_usd": 29388006.0,
+        "weight_pct": 6.61
       },
       {
         "cusip": "084670702",
         "security_class": "CL B NEW",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 45696.0,
-        "value_usd": 22865332.0,
-        "weight_pct": 5.66
-      },
-      {
-        "cusip": "46625H100",
-        "security_class": "COM",
-        "issuer": "JPMORGAN CHASE & CO",
-        "shares": 59992.0,
-        "value_usd": 19636880.0,
-        "weight_pct": 4.86
+        "shares": 46570.0,
+        "value_usd": 23190674.0,
+        "weight_pct": 5.21
       },
       {
         "cusip": "166764100",
         "security_class": "COM",
         "issuer": "CHEVRON CORPORATION",
-        "shares": 116907.0,
-        "value_usd": 19378572.0,
-        "weight_pct": 4.79
+        "shares": 111996.0,
+        "value_usd": 22870792.0,
+        "weight_pct": 5.14
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 78986.0,
-        "value_usd": 18825532.0,
-        "weight_pct": 4.66
+        "shares": 80380.0,
+        "value_usd": 20026695.0,
+        "weight_pct": 4.5
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COM",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 58657.0,
+        "value_usd": 19405839.0,
+        "weight_pct": 4.36
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 102522.0,
+        "value_usd": 16685570.0,
+        "weight_pct": 3.75
       },
       {
         "cusip": "478160104",
         "security_class": "COM",
         "issuer": "JOHNSON & JOHNSON",
-        "shares": 58848.0,
-        "value_usd": 14945484.0,
-        "weight_pct": 3.7
+        "shares": 58246.0,
+        "value_usd": 15420420.0,
+        "weight_pct": 3.47
       },
       {
-        "cusip": "17275R102",
+        "cusip": "031162100",
         "security_class": "COM",
-        "issuer": "CISCO SYS INC",
-        "shares": 116433.0,
-        "value_usd": 13676223.0,
-        "weight_pct": 3.38
-      },
-      {
-        "cusip": "22160K105",
-        "security_class": "COM",
-        "issuer": "COSTCO WHOLESALE CORPORATION",
-        "shares": 13669.0,
-        "value_usd": 12784350.0,
-        "weight_pct": 3.16
+        "issuer": "AMGEN INC",
+        "shares": 32639.0,
+        "value_usd": 13757676.0,
+        "weight_pct": 3.09
       }
     ],
-    "top_five_pct": 35.72,
-    "top_ten_pct": 55.41,
-    "hhi": 403.4,
+    "top_five_pct": 36.63,
+    "top_ten_pct": 55.8,
+    "hhi": 420.26,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 16,
-      "exited_positions": 14,
-      "increased_positions": 43,
-      "reduced_positions": 43
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 6,
+      "increased_positions": 34,
+      "reduced_positions": 53
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0001172661-26-003164"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005234"
       }
     ]
   },
-  "reported_13f_value_usd": 404335744.0,
+  "reported_13f_value_usd": 444867948.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003164",
+  "validated_accession": "0001172661-26-005234",
   "annualized_turnover_proxy_pct": null
 }

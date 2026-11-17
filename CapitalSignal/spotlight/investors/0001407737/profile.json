@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001407737",
   "investor_name": "Solus Alternative Asset Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Summit",
   "state": "NJ",
   "country": "United States",
@@ -10,105 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1407737/0001140361-25-042154.txt",
-    "https://www.sec.gov/Archives/edgar/data/1407737/0001140361-26-033000.txt"
+    "https://www.sec.gov/Archives/edgar/data/1407737/0001140361-26-033000.txt",
+    "https://www.sec.gov/Archives/edgar/data/1407737/0001140361-26-044036.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8ba2d53b5ab3586b1e418dcd34d0f4bf57530c24b36f45d4360f3c5b767e6086",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "b627f2315d597bb22aec68be4102cf11cc43f7c9ad96d00d7e854e59c59b4e88",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1f99b2e1955cda8503a226bb23291a6e937472d0",
+    "25b901726e245a206d65f3c29ad52fc70d6e43ef",
+    "cd24db17c1e47ae40c62610058c9f717aff52175"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001140361-26-033000",
-    "source": "https://www.sec.gov/Archives/edgar/data/1407737/0001140361-26-033000.txt",
-    "distinct_positions": 9,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001140361-26-044036",
+    "source": "https://www.sec.gov/Archives/edgar/data/1407737/0001140361-26-044036.txt",
+    "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 307549962.0,
+    "reported_long_equity_value_usd": 748710176.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "36168Q104",
+        "security_class": "SUB VTG SHS",
+        "issuer": "GFL ENVIRONMENTAL INC",
+        "shares": 9078602.0,
+        "value_usd": 379295726.0,
+        "weight_pct": 50.66
+      },
+      {
         "cusip": "11040G103",
         "security_class": "COM",
         "issuer": "BRISTOW GROUP INC",
-        "shares": 2876796.0,
-        "value_usd": 118869211.0,
-        "weight_pct": 38.65
+        "shares": 2840436.0,
+        "value_usd": 115662553.0,
+        "weight_pct": 15.45
       },
       {
         "cusip": "91913Y100",
         "security_class": "COM",
         "issuer": "VALERO ENERGY CORP",
-        "shares": 189577.0,
-        "value_usd": 49373434.0,
-        "weight_pct": 16.05
+        "shares": 172306.0,
+        "value_usd": 66787528.0,
+        "weight_pct": 8.92
       },
       {
         "cusip": "91822M502",
         "security_class": "SPONSORED ADS",
         "issuer": "VEON LTD",
-        "shares": 887002.0,
-        "value_usd": 46310374.0,
-        "weight_pct": 15.06
+        "shares": 860166.0,
+        "value_usd": 63592072.0,
+        "weight_pct": 8.49
       },
       {
         "cusip": "166764100",
         "security_class": "COM",
         "issuer": "CHEVRON CORPORATION",
-        "shares": 177723.0,
-        "value_usd": 29459364.0,
-        "weight_pct": 9.58
+        "shares": 160401.0,
+        "value_usd": 32755489.0,
+        "weight_pct": 4.37
       },
       {
-        "cusip": "30231G102",
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 183221.0,
+        "value_usd": 29819218.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "42330P107",
         "security_class": "COM",
-        "issuer": "EXXON MOBIL CORP",
-        "shares": 205310.0,
-        "value_usd": 28069983.0,
-        "weight_pct": 9.13
+        "issuer": "HORNBECK OFFSHORE SERVICES I",
+        "shares": 3571863.0,
+        "value_usd": 27467627.0,
+        "weight_pct": 3.67
       },
       {
         "cusip": "H8817H100",
         "security_class": "REGISTERED SHS",
         "issuer": "TRANSOCEAN LTD",
         "shares": 4470000.0,
-        "value_usd": 21858300.0,
-        "weight_pct": 7.11
+        "value_usd": 23422800.0,
+        "weight_pct": 3.13
       },
       {
         "cusip": "05722G100",
         "security_class": "CL A",
         "issuer": "BAKER HUGHES COMPANY",
         "shares": 175000.0,
-        "value_usd": 9712500.0,
-        "weight_pct": 3.16
-      },
-      {
-        "cusip": "17243V102",
-        "security_class": "COM",
-        "issuer": "CINEMARK HLDGS INC",
-        "shares": 116062.0,
-        "value_usd": 3682647.0,
-        "weight_pct": 1.2
+        "value_usd": 9607500.0,
+        "weight_pct": 1.28
       },
       {
         "cusip": "384313607",
         "security_class": "COM NEW",
         "issuer": "GRAFTECH INTL LTD SR NT",
         "shares": 36235.0,
-        "value_usd": 214149.0,
-        "weight_pct": 0.07
+        "value_usd": 299663.0,
+        "weight_pct": 0.04
       }
     ],
-    "top_five_pct": 88.47,
+    "top_five_pct": 87.9,
     "top_ten_pct": 100.0,
-    "hhi": 2215.29,
+    "hhi": 3016.68,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 0,
-      "increased_positions": 2,
-      "reduced_positions": 2
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -120,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001140361-26-033000"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001140361-26-044036"
       }
     ]
   },
-  "reported_13f_value_usd": 307549962.0,
+  "reported_13f_value_usd": 748710176.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001140361-26-033000",
+  "validated_accession": "0001140361-26-044036",
   "annualized_turnover_proxy_pct": null
 }

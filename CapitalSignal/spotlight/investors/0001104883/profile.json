@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001104883",
   "investor_name": "SIRIOS CAPITAL MANAGEMENT L P",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1104883/0001104883-25-000015.txt",
-    "https://www.sec.gov/Archives/edgar/data/1104883/0001104883-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1104883/0001104883-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1104883/0001104883-26-000012.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f0202569fd234019f40b0b7145caa65684f91cf8164f4b66e42f9a71cd35e2fb",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "feafdfbce276806e73488f839b4e42f93d0bf6f1dfaef9010b41025b5d703ba7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "133b6f00aa9e783eb11aa4e501fb80c4c3a318fa",
+    "63c9bf3fe1e8de41e4b68b8c6e91b8b7d4057411",
+    "8a3125dcb5e4bb6339a10cc4fcea0254f9c22541"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001104883-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1104883/0001104883-26-000008.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104883-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1104883/0001104883-26-000012.txt",
     "distinct_positions": 86,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 822254731.0,
+    "reported_long_equity_value_usd": 815285224.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "36828A101",
         "security_class": "COM",
         "issuer": "GE VERNOVA INC",
-        "shares": 83279.0,
-        "value_usd": 97841166.0,
-        "weight_pct": 11.9
+        "shares": 45872.0,
+        "value_usd": 43600877.0,
+        "weight_pct": 5.35
       },
       {
         "cusip": "874039100",
         "security_class": "SPONSORED ADS",
         "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 105244.0,
-        "value_usd": 50261377.0,
-        "weight_pct": 6.11
-      },
-      {
-        "cusip": "023135106",
-        "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 173360.0,
-        "value_usd": 41318622.0,
-        "weight_pct": 5.03
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 103975.0,
-        "value_usd": 37157546.0,
-        "weight_pct": 4.52
-      },
-      {
-        "cusip": "252131107",
-        "security_class": "COM",
-        "issuer": "DEXCOM INC",
-        "shares": 420418.0,
-        "value_usd": 28315152.0,
-        "weight_pct": 3.44
-      },
-      {
-        "cusip": "379577208",
-        "security_class": "CL A",
-        "issuer": "GLOBUS MED INC",
-        "shares": 355019.0,
-        "value_usd": 28050051.0,
-        "weight_pct": 3.41
-      },
-      {
-        "cusip": "949746101",
-        "security_class": "COM",
-        "issuer": "WELLS FARGO & CO",
-        "shares": 321253.0,
-        "value_usd": 26548348.0,
-        "weight_pct": 3.23
+        "shares": 76270.0,
+        "value_usd": 34793611.0,
+        "weight_pct": 4.27
       },
       {
         "cusip": "007903107",
         "security_class": "COM",
         "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 44860.0,
-        "value_usd": 26059623.0,
-        "weight_pct": 3.17
+        "shares": 31199.0,
+        "value_usd": 19086300.0,
+        "weight_pct": 2.34
       },
       {
-        "cusip": "422806208",
-        "security_class": "CL A",
-        "issuer": "HEICO CORP NEW",
-        "shares": 80503.0,
-        "value_usd": 20762529.0,
-        "weight_pct": 2.53
-      },
-      {
-        "cusip": "683344105",
+        "cusip": "023135106",
         "security_class": "COM",
-        "issuer": "ONTO INNOVATION INC",
-        "shares": 52585.0,
-        "value_usd": 19900793.0,
-        "weight_pct": 2.42
+        "issuer": "AMAZON COM INC",
+        "shares": 75000.0,
+        "value_usd": 18686250.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "379577208",
+        "security_class": "CL A",
+        "issuer": "GLOBUS MED INC",
+        "shares": 234591.0,
+        "value_usd": 17570866.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "252131107",
+        "security_class": "COM",
+        "issuer": "DEXCOM INC",
+        "shares": 190428.0,
+        "value_usd": 16432032.0,
+        "weight_pct": 2.02
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 46736.0,
+        "value_usd": 16080923.0,
+        "weight_pct": 1.97
+      },
+      {
+        "cusip": "37940X102",
+        "security_class": "COM",
+        "issuer": "GLOBAL PMTS INC",
+        "shares": 179489.0,
+        "value_usd": 14658867.0,
+        "weight_pct": 1.8
+      },
+      {
+        "cusip": "191216100",
+        "security_class": "COM",
+        "issuer": "COCA COLA CO",
+        "shares": 169697.0,
+        "value_usd": 14607518.0,
+        "weight_pct": 1.79
+      },
+      {
+        "cusip": "693475105",
+        "security_class": "COM",
+        "issuer": "PNC FINL SVCS GROUP INC",
+        "shares": 63919.0,
+        "value_usd": 14206637.0,
+        "weight_pct": 1.74
       }
     ],
-    "top_five_pct": 31.0,
-    "top_ten_pct": 45.75,
-    "hhi": 347.44,
+    "top_five_pct": 16.4,
+    "top_ten_pct": 25.72,
+    "hhi": 169.05,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 34,
-      "exited_positions": 16,
-      "increased_positions": 19,
-      "reduced_positions": 33
+      "previous_period": "2026-06-30",
+      "new_positions": 9,
+      "exited_positions": 9,
+      "increased_positions": 48,
+      "reduced_positions": 29
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001104883-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104883-26-000012"
       }
     ]
   },
-  "reported_13f_value_usd": 822254731.0,
+  "reported_13f_value_usd": 815285224.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001104883-26-000008",
+  "validated_accession": "0001104883-26-000012",
   "annualized_turnover_proxy_pct": null
 }

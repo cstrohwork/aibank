@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001332784",
-  "investor_name": "Silver Point Capital L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "investor_name": "Silver Point Capital, L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Greenwich",
   "state": "CT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1332784/0001193125-25-282952.txt",
-    "https://www.sec.gov/Archives/edgar/data/1332784/0001193125-26-352819.txt"
+    "https://www.sec.gov/Archives/edgar/data/1332784/0001193125-26-352819.txt",
+    "https://www.sec.gov/Archives/edgar/data/1332784/0001193125-26-463750.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5065f45fc93bf1efda12cbb4964237ee6c01ca5cfafc915e242d7ab4afae4956",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "e32a0b82ff717aaf4fff8a4c2cbbd14234ef411cdef4db38d415d746668f97c5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "584ba492dadd87b43b22ffb944b6d187ba250142",
+    "6d0ae2ebc5d81c0c762e518141caf2aef39302b6",
+    "faec336ea9abae5a86273cbabb08c53dea17ec58"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0001193125-26-352819",
-    "source": "https://www.sec.gov/Archives/edgar/data/1332784/0001193125-26-352819.txt",
-    "distinct_positions": 12,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463750",
+    "source": "https://www.sec.gov/Archives/edgar/data/1332784/0001193125-26-463750.txt",
+    "distinct_positions": 11,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 973790865.0,
+    "reported_long_equity_value_usd": 919261763.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COMMON SHARES",
         "issuer": "GULFPORT ENERGY CORP",
         "shares": 2607269.0,
-        "value_usd": 442453549.0,
-        "weight_pct": 45.44
+        "value_usd": 392341839.0,
+        "weight_pct": 42.68
       },
       {
         "cusip": "40054J109",
         "security_class": "SPONSORED ADS",
         "issuer": "GRUPO AEROMEXICO SAB DE CV",
-        "shares": 13991754.0,
-        "value_usd": 251851572.0,
-        "weight_pct": 25.86
+        "shares": 14001754.0,
+        "value_usd": 221087696.0,
+        "weight_pct": 24.05
       },
       {
         "cusip": "25525P107",
         "security_class": "COM SH BEN INT",
         "issuer": "DIVERSIFIED HEALTHCARE TR",
         "shares": 15504810.0,
-        "value_usd": 144194733.0,
-        "weight_pct": 14.81
+        "value_usd": 121712759.0,
+        "weight_pct": 13.24
       },
       {
-        "cusip": "86389T106",
-        "security_class": "SPON ADS",
-        "issuer": "STUDIO CITY INTL HLDGS LTD",
-        "shares": 28628463.0,
-        "value_usd": 52390087.0,
-        "weight_pct": 5.38
+        "cusip": "747292100",
+        "security_class": "COMMON STOCK",
+        "issuer": "QVC GROUP INC",
+        "shares": 6301038.0,
+        "value_usd": 86828304.0,
+        "weight_pct": 9.45
       },
       {
         "cusip": "302635206",
         "security_class": "COM",
         "issuer": "FS KKR CAP CORP",
-        "shares": 2724000.0,
-        "value_usd": 28602000.0,
-        "weight_pct": 2.94
+        "shares": 3699000.0,
+        "value_usd": 40652010.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "86389T106",
+        "security_class": "SPON ADS",
+        "issuer": "STUDIO CITY INTL HLDGS LTD",
+        "shares": 30347463.0,
+        "value_usd": 28041056.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "278768106",
+        "security_class": "CL A",
+        "issuer": "ECHOSTAR CORP",
+        "shares": 159100.0,
+        "value_usd": 14225131.0,
+        "weight_pct": 1.55
       },
       {
         "cusip": "49456W105",
         "security_class": "COM",
         "issuer": "KINDERCARE LEARNING COMPANIE",
-        "shares": 5105000.0,
-        "value_usd": 21696250.0,
-        "weight_pct": 2.23
-      },
-      {
-        "cusip": "46435U853",
-        "security_class": "BROAD USD HIGH",
-        "issuer": "ISHARES TR",
-        "shares": 377941.0,
-        "value_usd": 13991376.0,
-        "weight_pct": 1.44
-      },
-      {
-        "cusip": "35909R108",
-        "security_class": "COM",
-        "issuer": "FRONTIER GROUP HLDGS INC",
-        "shares": 1535000.0,
-        "value_usd": 12141850.0,
-        "weight_pct": 1.25
+        "shares": 5860733.0,
+        "value_usd": 10900963.0,
+        "weight_pct": 1.19
       },
       {
         "cusip": "83001C108",
         "security_class": "COM",
         "issuer": "SIX FLAGS ENTERTAINMENT CORP",
         "shares": 130000.0,
-        "value_usd": 2769000.0,
-        "weight_pct": 0.28
+        "value_usd": 1392300.0,
+        "weight_pct": 0.15
       },
       {
-        "cusip": "302491303",
-        "security_class": "COM NEW",
-        "issuer": "FMC CORP",
-        "shares": 124000.0,
-        "value_usd": 1426000.0,
-        "weight_pct": 0.15
+        "cusip": "153436100",
+        "security_class": "COM",
+        "issuer": "THE CENTRAL AND EASTERN EU I",
+        "shares": 57030.0,
+        "value_usd": 1076726.0,
+        "weight_pct": 0.12
       }
     ],
-    "top_five_pct": 94.42,
-    "top_ten_pct": 99.77,
-    "hhi": 2998.89,
+    "top_five_pct": 93.84,
+    "top_ten_pct": 99.89,
+    "hhi": 2697.25,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 6,
-      "exited_positions": 13,
-      "increased_positions": 1,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 3,
+      "increased_positions": 4,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0001193125-26-352819"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463750"
       }
     ]
   },
-  "reported_13f_value_usd": 973790865.0,
+  "reported_13f_value_usd": 919261763.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-26-352819",
+  "validated_accession": "0001193125-26-463750",
   "annualized_turnover_proxy_pct": null
 }

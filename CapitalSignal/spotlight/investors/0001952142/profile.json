@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001952142",
   "investor_name": "STEMPOINT CAPITAL LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1952142/0001420506-25-003308.txt",
-    "https://www.sec.gov/Archives/edgar/data/1952142/0001420506-26-001687.txt"
+    "https://www.sec.gov/Archives/edgar/data/1952142/0001420506-26-001687.txt",
+    "https://www.sec.gov/Archives/edgar/data/1952142/0001420506-26-002774.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "11eb5806d3090769709c641f05f2441d5257848c3ca767f72f8611879547f1ef",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "23c7aa066a70630f9a089ca40fbb21cf36961e51d6c7411dc15f721ec9525836",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0f4cd3774ceef1f264f69563fbabeac68b5ab782",
+    "393bffcd756b76fc943f5122b2d867d9b1e5fbb0",
+    "f722e5e772d0eacdf82573f3f33cab6c8c67bbbb"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001687",
-    "source": "https://www.sec.gov/Archives/edgar/data/1952142/0001420506-26-001687.txt",
-    "distinct_positions": 73,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002774",
+    "source": "https://www.sec.gov/Archives/edgar/data/1952142/0001420506-26-002774.txt",
+    "distinct_positions": 81,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 577905664.0,
+    "reported_long_equity_value_usd": 558427901.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "87583X109",
+        "cusip": "80706P103",
         "security_class": "COM",
-        "issuer": "TANGO THERAPEUTICS INC",
-        "shares": 1223019.0,
-        "value_usd": 38231574.0,
-        "weight_pct": 6.62
-      },
-      {
-        "cusip": "00370M103",
-        "security_class": "SPONSORED ADS",
-        "issuer": "ABIVAX SA",
-        "shares": 283657.0,
-        "value_usd": 37800132.0,
-        "weight_pct": 6.54
-      },
-      {
-        "cusip": "76155X100",
-        "security_class": "COM",
-        "issuer": "REVOLUTION MEDICINES INC",
-        "shares": 159943.0,
-        "value_usd": 29954125.0,
-        "weight_pct": 5.18
+        "issuer": "SCHOLAR ROCK HLDG CORP",
+        "shares": 688954.0,
+        "value_usd": 33290257.0,
+        "weight_pct": 5.96
       },
       {
         "cusip": "29479A108",
         "security_class": "COM",
         "issuer": "ERASCA INC",
-        "shares": 1565913.0,
-        "value_usd": 28687526.0,
-        "weight_pct": 4.96
+        "shares": 2260594.0,
+        "value_usd": 33140308.0,
+        "weight_pct": 5.93
       },
       {
-        "cusip": "90240B106",
-        "security_class": "COM",
-        "issuer": "TYRA BIOSCIENCES INC",
-        "shares": 632754.0,
-        "value_usd": 20210163.0,
-        "weight_pct": 3.5
+        "cusip": "00370M103",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ABIVAX SA",
+        "shares": 279398.0,
+        "value_usd": 27665990.0,
+        "weight_pct": 4.95
       },
       {
-        "cusip": "252828108",
+        "cusip": "87583X109",
         "security_class": "COM",
-        "issuer": "DIANTHUS THERAPEUTICS INC",
-        "shares": 200851.0,
-        "value_usd": 19578955.0,
-        "weight_pct": 3.39
+        "issuer": "TANGO THERAPEUTICS INC",
+        "shares": 989345.0,
+        "value_usd": 24684158.0,
+        "weight_pct": 4.42
+      },
+      {
+        "cusip": "G76279101",
+        "security_class": "SHS",
+        "issuer": "ROIVANT SCIENCES LTD",
+        "shares": 641473.0,
+        "value_usd": 23458668.0,
+        "weight_pct": 4.2
+      },
+      {
+        "cusip": "337185102",
+        "security_class": "ORD SHS",
+        "issuer": "FIRST TRACKS BIOTHERAPEUTICS",
+        "shares": 649924.0,
+        "value_usd": 23033307.0,
+        "weight_pct": 4.12
       },
       {
         "cusip": "29337E102",
         "security_class": "COM",
         "issuer": "ENLIVEN THERAPEUTICS INC",
-        "shares": 346914.0,
-        "value_usd": 17605886.0,
-        "weight_pct": 3.05
+        "shares": 330476.0,
+        "value_usd": 15149020.0,
+        "weight_pct": 2.71
       },
       {
-        "cusip": "603170101",
+        "cusip": "G01767105",
+        "security_class": "SHS",
+        "issuer": "ALKERMES PLC",
+        "shares": 333332.0,
+        "value_usd": 13506613.0,
+        "weight_pct": 2.42
+      },
+      {
+        "cusip": "00650F109",
         "security_class": "COM",
-        "issuer": "MINERALYS THERAPEUTICS INC",
-        "shares": 602686.0,
-        "value_usd": 16260468.0,
-        "weight_pct": 2.81
+        "issuer": "ADAPTIVE BIOTECHNOLOGIES COR",
+        "shares": 463551.0,
+        "value_usd": 13396624.0,
+        "weight_pct": 2.4
       },
       {
-        "cusip": "G1110E107",
+        "cusip": "252828108",
         "security_class": "COM",
-        "issuer": "BIOHAVEN LTD",
-        "shares": 1064200.0,
-        "value_usd": 15835296.0,
-        "weight_pct": 2.74
-      },
-      {
-        "cusip": "86889P208",
-        "security_class": "COM NEW",
-        "issuer": "SURROZEN INC",
-        "shares": 602798.0,
-        "value_usd": 13786568.0,
-        "weight_pct": 2.39
+        "issuer": "DIANTHUS THERAPEUTICS INC",
+        "shares": 150776.0,
+        "value_usd": 13275827.0,
+        "weight_pct": 2.38
       }
     ],
-    "top_five_pct": 26.8,
-    "top_ten_pct": 41.17,
-    "hhi": 273.08,
+    "top_five_pct": 25.47,
+    "top_ten_pct": 39.5,
+    "hhi": 252.34,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 47,
-      "exited_positions": 50,
-      "increased_positions": 13,
-      "reduced_positions": 13
+      "previous_period": "2026-06-30",
+      "new_positions": 39,
+      "exited_positions": 31,
+      "increased_positions": 18,
+      "reduced_positions": 22
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001687"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002774"
       }
     ]
   },
-  "reported_13f_value_usd": 577905664.0,
+  "reported_13f_value_usd": 558427901.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001687",
+  "validated_accession": "0001420506-26-002774",
   "annualized_turnover_proxy_pct": null
 }

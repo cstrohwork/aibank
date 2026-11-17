@@ -1,8 +1,8 @@
 {
   "manager_cik": "0000741073",
   "investor_name": "STOCK YARDS BANK & TRUST CO",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-19",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOUISVILLE",
   "state": "KY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/741073/0000892303-25-000013.txt",
-    "https://www.sec.gov/Archives/edgar/data/741073/0000892303-26-000010.txt"
+    "https://www.sec.gov/Archives/edgar/data/741073/0000892303-26-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/741073/0000892303-26-000013.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a36b153005670170637c9520c936bd4369c25b6ba85d7c7e41ebc28f27c20208",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "f5c23787a5f0b698cba8b0c633ced3be320e2a0af2f4720a3c17f35c519f92c0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-30|||",
+    "2026-06-30|2026-08-19|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "42a1649a9eb22d13c22391f0fdd30c5dbf4e4c9a",
+    "9567523c7e1b452d477c96d431c77b8d157db384",
+    "ba1b8da1de095ebd28f8bba0117d730d9644b8f3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-19",
-    "accession": "0000892303-26-000010",
-    "source": "https://www.sec.gov/Archives/edgar/data/741073/0000892303-26-000010.txt",
-    "distinct_positions": 397,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000892303-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/741073/0000892303-26-000013.txt",
+    "distinct_positions": 472,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 3491552481.0,
+    "reported_long_equity_value_usd": 4015005379.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "02079K305",
+        "cusip": "594918104",
         "security_class": "COMMON STOCK",
-        "issuer": "ALPHABET INC",
-        "shares": 454539.0,
-        "value_usd": 162438646.0,
-        "weight_pct": 4.65
+        "issuer": "MICROSOFT CORP",
+        "shares": 392084.0,
+        "value_usd": 201100009.0,
+        "weight_pct": 5.01
       },
       {
         "cusip": "037833100",
         "security_class": "COMMON STOCK",
         "issuer": "APPLE INC",
-        "shares": 512988.0,
-        "value_usd": 148438210.0,
-        "weight_pct": 4.25
-      },
-      {
-        "cusip": "464287200",
-        "security_class": "MUTUAL FUNDS -",
-        "issuer": "ISHARES",
-        "shares": 192974.0,
-        "value_usd": 144516333.0,
-        "weight_pct": 4.14
-      },
-      {
-        "cusip": "532457108",
-        "security_class": "COMMON STOCK",
-        "issuer": "ELI LILLY CO",
-        "shares": 115822.0,
-        "value_usd": 138920399.0,
-        "weight_pct": 3.98
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COMMON STOCK",
-        "issuer": "MICROSOFT CORP",
-        "shares": 338045.0,
-        "value_usd": 126097592.0,
-        "weight_pct": 3.61
-      },
-      {
-        "cusip": "46625H100",
-        "security_class": "COMMON STOCK",
-        "issuer": "J P MORGAN CHASE & CO",
-        "shares": 342484.0,
-        "value_usd": 112105014.0,
-        "weight_pct": 3.21
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COMMON STOCK",
-        "issuer": "BROADCOM INC",
-        "shares": 280242.0,
-        "value_usd": 105861598.0,
-        "weight_pct": 3.03
-      },
-      {
-        "cusip": "N07059210",
-        "security_class": "COMMON STOCK",
-        "issuer": "ASML HOLDING NV ADR",
-        "shares": 50234.0,
-        "value_usd": 99937529.0,
-        "weight_pct": 2.86
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COMMON STOCK",
-        "issuer": "NVIDIA CORP",
-        "shares": 481229.0,
-        "value_usd": 96289151.0,
-        "weight_pct": 2.76
+        "shares": 575066.0,
+        "value_usd": 191508517.0,
+        "weight_pct": 4.77
       },
       {
         "cusip": "861025104",
         "security_class": "COMMON STOCK",
         "issuer": "STOCK YARDS BANCORP INC",
-        "shares": 1255054.0,
-        "value_usd": 95973924.0,
-        "weight_pct": 2.75
+        "shares": 2315995.0,
+        "value_usd": 178540066.0,
+        "weight_pct": 4.45
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC",
+        "shares": 486222.0,
+        "value_usd": 167299255.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "MUTUAL FUNDS -",
+        "issuer": "ISHARES",
+        "shares": 206761.0,
+        "value_usd": 158348779.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COMMON STOCK",
+        "issuer": "ELI LILLY CO",
+        "shares": 123667.0,
+        "value_usd": 143092599.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COMMON STOCK",
+        "issuer": "NVIDIA CORP",
+        "shares": 582966.0,
+        "value_usd": 133137807.0,
+        "weight_pct": 3.32
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COMMON STOCK",
+        "issuer": "J P MORGAN CHASE & CO",
+        "shares": 358020.0,
+        "value_usd": 118443463.0,
+        "weight_pct": 2.95
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COMMON STOCK",
+        "issuer": "BROADCOM INC",
+        "shares": 319569.0,
+        "value_usd": 112229508.0,
+        "weight_pct": 2.8
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMAZON.COM INC",
+        "shares": 425282.0,
+        "value_usd": 105959085.0,
+        "weight_pct": 2.64
       }
     ],
-    "top_five_pct": 20.63,
-    "top_ten_pct": 35.24,
-    "hhi": 190.1,
+    "top_five_pct": 22.34,
+    "top_ten_pct": 37.6,
+    "hhi": 202.05,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 40,
-      "exited_positions": 32,
-      "increased_positions": 125,
-      "reduced_positions": 210
+      "previous_period": "2026-06-30",
+      "new_positions": 95,
+      "exited_positions": 20,
+      "increased_positions": 188,
+      "reduced_positions": 120
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-19",
         "accession": "0000892303-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000892303-26-000013"
       }
     ]
   },
-  "reported_13f_value_usd": 3491552481.0,
+  "reported_13f_value_usd": 4015005379.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000892303-26-000010",
+  "validated_accession": "0000892303-26-000013",
   "annualized_turnover_proxy_pct": null
 }

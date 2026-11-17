@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001525907",
   "investor_name": "Cerberus Capital Management, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1525907/0001493152-25-023416.txt",
-    "https://www.sec.gov/Archives/edgar/data/1525907/0001493152-26-038310.txt"
+    "https://www.sec.gov/Archives/edgar/data/1525907/0001493152-26-038310.txt",
+    "https://www.sec.gov/Archives/edgar/data/1525907/0001525907-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1c668df17434c7f7928e7ac0eb9e7967b7efaba64f4957bfe977f821d77f5ac7",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "c60e953d66dc04da87c9528a7cec428823563730fe4a0bd5f5856674b05c7c62",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "9935ec63bd91ff518a08e1f3f1c504dbd7b57f7a",
+    "9a64b697e0dd77e5a5d16288ff26044d96dba2ba",
+    "efbb5fec88402a814f9762f1985923d5cc86e332"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001493152-26-038310",
-    "source": "https://www.sec.gov/Archives/edgar/data/1525907/0001493152-26-038310.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001525907-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1525907/0001525907-26-000009.txt",
     "distinct_positions": 11,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2094323943.0,
+    "reported_long_equity_value_usd": 1789539970.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,71 +43,71 @@
         "security_class": "COMMON STOCK",
         "issuer": "ALBERTSONS COMPANIES INC",
         "shares": 151818680.0,
-        "value_usd": 2054106740.0,
-        "weight_pct": 98.08
+        "value_usd": 1762614875.0,
+        "weight_pct": 98.5
       },
       {
         "cusip": "20564W204",
         "security_class": "COM NEW",
         "issuer": "COMSCORE INC",
         "shares": 3396479.0,
-        "value_usd": 25066015.0,
-        "weight_pct": 1.2
-      },
-      {
-        "cusip": "02156K103",
-        "security_class": "CL A",
-        "issuer": "OPTIMUM COMMUNICATIONS INC",
-        "shares": 3340785.0,
-        "value_usd": 4844138.0,
-        "weight_pct": 0.23
+        "value_usd": 15912504.0,
+        "weight_pct": 0.89
       },
       {
         "cusip": "69121K104",
         "security_class": "COM",
         "issuer": "BLUE OWL CAPITAL CORPORATION",
         "shares": 210000.0,
-        "value_usd": 2282700.0,
-        "weight_pct": 0.11
-      },
-      {
-        "cusip": "225655109",
-        "security_class": "COM",
-        "issuer": "CRESCENT CAP BDC INC",
-        "shares": 160000.0,
-        "value_usd": 1747200.0,
-        "weight_pct": 0.08
+        "value_usd": 2202900.0,
+        "weight_pct": 0.12
       },
       {
         "cusip": "67401P405",
         "security_class": "COM",
         "issuer": "OAKTREE SPECIALTY LENDING",
         "shares": 135000.0,
-        "value_usd": 1611900.0,
-        "weight_pct": 0.08
+        "value_usd": 1606500.0,
+        "weight_pct": 0.09
       },
       {
         "cusip": "302635206",
         "security_class": "COM",
         "issuer": "FS KKR CAP CORP",
         "shares": 135000.0,
-        "value_usd": 1417500.0,
-        "weight_pct": 0.07
+        "value_usd": 1483650.0,
+        "weight_pct": 0.08
       },
       {
-        "cusip": "05684B107",
-        "security_class": "COM STK",
-        "issuer": "BAIN CAP SPECIALTY FIN INC",
-        "shares": 85000.0,
-        "value_usd": 1064200.0,
-        "weight_pct": 0.05
+        "cusip": "225655109",
+        "security_class": "COM",
+        "issuer": "CRESCENT CAP BDC INC",
+        "shares": 160000.0,
+        "value_usd": 1468800.0,
+        "weight_pct": 0.08
+      },
+      {
+        "cusip": "02156K103",
+        "security_class": "CL A",
+        "issuer": "OPTIMUM COMMUNICATIONS INC",
+        "shares": 1216211.0,
+        "value_usd": 1203441.0,
+        "weight_pct": 0.07
       },
       {
         "cusip": "647551100",
         "security_class": "COM",
         "issuer": "NEW MTN FIN CORP",
         "shares": 145000.0,
-        "value_usd": 1039650.0,
+        "value_usd": 1003400.0,
+        "weight_pct": 0.06
+      },
+      {
+        "cusip": "05684B107",
+        "security_class": "COM STK",
+        "issuer": "BAIN CAP SPECIALTY FIN INC",
+        "shares": 85000.0,
+        "value_usd": 938400.0,
         "weight_pct": 0.05
       },
       {
@@ -104,18 +115,18 @@
         "security_class": "COMMON STOCK",
         "issuer": "BLUE OWL TECHNOLOGY FIN CORP",
         "shares": 80000.0,
-        "value_usd": 828000.0,
+        "value_usd": 784800.0,
         "weight_pct": 0.04
       }
     ],
-    "top_five_pct": 99.7,
+    "top_five_pct": 99.68,
     "top_ten_pct": 99.98,
-    "hhi": 9621.15,
+    "hhi": 9702.19,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 1,
-      "increased_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
       "reduced_positions": 1
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001493152-26-038310"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001525907-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 2094323943.0,
+  "reported_13f_value_usd": 1789539970.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001493152-26-038310",
+  "validated_accession": "0001525907-26-000009",
   "annualized_turnover_proxy_pct": null
 }

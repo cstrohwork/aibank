@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001799883",
   "investor_name": "5AM Venture Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1799883/0001799883-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/1799883/0001799883-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1799883/0001799883-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1799883/0001799883-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0d70d1582ae2cac28fe15520bc5af4d313d3aeaa06c99f3121c181d2bec23ba8",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "d839939fdb903b1161f7e066eec2cef6c6c41dc11f3eafce4d23d2b97d160f6c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4a6e33f7690e81e413b734c645a40d16900b1582",
+    "8ab171b91ee28ac1bde07eec010ca71f7cd2d189",
+    "a78de8d27c9a8f5883680715c11a5aee0b731cb8"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001799883-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1799883/0001799883-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001799883-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1799883/0001799883-26-000004.txt",
     "distinct_positions": 16,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 287891952.0,
+    "reported_long_equity_value_usd": 297006238.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "56565P103",
+        "cusip": "517954103",
         "security_class": "COM",
-        "issuer": "MAPLIGHT THERAPEUTICS INC",
-        "shares": 950011.0,
-        "value_usd": 34048394.0,
-        "weight_pct": 11.83
+        "issuer": "LATIGO BIOTHERAPEUTICS INC",
+        "shares": 7325962.0,
+        "value_usd": 122343565.0,
+        "weight_pct": 41.19
+      },
+      {
+        "cusip": "29384C108",
+        "security_class": "COM",
+        "issuer": "ENTRADA THERAPEUTICS INC",
+        "shares": 3784650.0,
+        "value_usd": 24032528.0,
+        "weight_pct": 8.09
       },
       {
         "cusip": "90240B106",
         "security_class": "COM",
         "issuer": "TYRA BIOSCIENCES INC",
         "shares": 1029298.0,
-        "value_usd": 32875778.0,
-        "weight_pct": 11.42
-      },
-      {
-        "cusip": "29384C108",
-        "security_class": "COM",
-        "issuer": "ENTRADA THERAPEUTICS INC",
-        "shares": 4056379.0,
-        "value_usd": 29854949.0,
-        "weight_pct": 10.37
-      },
-      {
-        "cusip": "N69605108",
-        "security_class": "COM",
-        "issuer": "PHARVARIS N V",
-        "shares": 797600.0,
-        "value_usd": 27581008.0,
-        "weight_pct": 9.58
+        "value_usd": 22510747.0,
+        "weight_pct": 7.58
       },
       {
         "cusip": "13463J101",
         "security_class": "COM",
         "issuer": "CAMP4 THERAPEUTICS CORP",
-        "shares": 5869091.0,
-        "value_usd": 25647928.0,
-        "weight_pct": 8.91
+        "shares": 5277216.0,
+        "value_usd": 21319953.0,
+        "weight_pct": 7.18
       },
       {
         "cusip": "04317A107",
         "security_class": "COM",
         "issuer": "ARTIVA BIOTHERAPEUTICS INC",
         "shares": 2353304.0,
-        "value_usd": 22827049.0,
-        "weight_pct": 7.93
+        "value_usd": 16755524.0,
+        "weight_pct": 5.64
+      },
+      {
+        "cusip": "N69605108",
+        "security_class": "COM",
+        "issuer": "PHARVARIS N V",
+        "shares": 479900.0,
+        "value_usd": 15222428.0,
+        "weight_pct": 5.13
       },
       {
         "cusip": "878972108",
         "security_class": "COM",
         "issuer": "TECTONIC THERAPEUTIC INC",
         "shares": 606660.0,
-        "value_usd": 20853938.0,
-        "weight_pct": 7.24
+        "value_usd": 14129111.0,
+        "weight_pct": 4.76
+      },
+      {
+        "cusip": "15117B202",
+        "security_class": "COM NEW",
+        "issuer": "CELLDEX THERAPEUTICS INC NEW",
+        "shares": 422270.0,
+        "value_usd": 13685771.0,
+        "weight_pct": 4.61
       },
       {
         "cusip": "98943L107",
         "security_class": "COM",
         "issuer": "ZENTALIS PHARMACEUTICALS INC",
         "shares": 3947913.0,
-        "value_usd": 19147378.0,
-        "weight_pct": 6.65
+        "value_usd": 10935719.0,
+        "weight_pct": 3.68
       },
       {
-        "cusip": "15117B202",
-        "security_class": "COM NEW",
-        "issuer": "CELLDEX THERAPEUTICS INC NEW",
-        "shares": 497270.0,
-        "value_usd": 18503417.0,
-        "weight_pct": 6.43
-      },
-      {
-        "cusip": "30233G209",
-        "security_class": "COM NEW",
-        "issuer": "EYEPOINT INC",
-        "shares": 1050000.0,
-        "value_usd": 15015000.0,
-        "weight_pct": 5.22
+        "cusip": "G1110E107",
+        "security_class": "COM",
+        "issuer": "BIOHAVEN LTD",
+        "shares": 738972.0,
+        "value_usd": 9865276.0,
+        "weight_pct": 3.32
       }
     ],
-    "top_five_pct": 52.11,
-    "top_ten_pct": 85.57,
-    "hhi": 814.49,
+    "top_five_pct": 69.68,
+    "top_ten_pct": 91.18,
+    "hhi": 2012.99,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 2,
-      "exited_positions": 11,
-      "increased_positions": 5,
-      "reduced_positions": 2
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001799883-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001799883-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 287891952.0,
+  "reported_13f_value_usd": 297006238.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001799883-26-000003",
+  "validated_accession": "0001799883-26-000004",
   "annualized_turnover_proxy_pct": null
 }

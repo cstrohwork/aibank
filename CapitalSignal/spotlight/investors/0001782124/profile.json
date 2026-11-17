@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001782124",
   "investor_name": "DENDUR CAPITAL LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1782124/0001892688-25-000192.txt",
-    "https://www.sec.gov/Archives/edgar/data/1782124/0001892688-26-000118.txt"
+    "https://www.sec.gov/Archives/edgar/data/1782124/0001892688-26-000118.txt",
+    "https://www.sec.gov/Archives/edgar/data/1782124/0001892688-26-000169.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "564ff9d6acf5f994dcb8f99ebef243e4493820a7de608ab98d29403989493bb1",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "ca8a0bdf145980b919283cf7de95831e8131b61f6d9a70649f4e0a1b53c0d313",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "69225e5c8e5bcb4d60d696ba219ccaf179deb966",
+    "a7223a45cab9c26a820b149d5881812f0efc233d",
+    "efa5b8f2e87f8117d6fb49392b04a32b392c2ce6"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001892688-26-000118",
-    "source": "https://www.sec.gov/Archives/edgar/data/1782124/0001892688-26-000118.txt",
-    "distinct_positions": 23,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001892688-26-000169",
+    "source": "https://www.sec.gov/Archives/edgar/data/1782124/0001892688-26-000169.txt",
+    "distinct_positions": 20,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1709171376.0,
+    "reported_long_equity_value_usd": 1451292387.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "DISNEY WALT CO",
         "shares": 2192000.0,
-        "value_usd": 210980000.0,
-        "weight_pct": 12.34
-      },
-      {
-        "cusip": "01741R102",
-        "security_class": "COM",
-        "issuer": "ATI INC",
-        "shares": 1009000.0,
-        "value_usd": 198873900.0,
-        "weight_pct": 11.64
+        "value_usd": 229940800.0,
+        "weight_pct": 15.84
       },
       {
         "cusip": "918284100",
         "security_class": "COM",
         "issuer": "VSE CORP",
-        "shares": 821400.0,
-        "value_usd": 187689900.0,
-        "weight_pct": 10.98
+        "shares": 1296500.0,
+        "value_usd": 213533550.0,
+        "weight_pct": 14.71
       },
       {
         "cusip": "531229755",
-        "security_class": "COM LBTY ONE S C",
+        "security_class": "COM SER C",
         "issuer": "LIBERTY MEDIA CORP DEL",
-        "shares": 1424000.0,
-        "value_usd": 135479360.0,
-        "weight_pct": 7.93
-      },
-      {
-        "cusip": "83001C108",
-        "security_class": "COM",
-        "issuer": "SIX FLAGS ENTERTAINMENT CORP",
-        "shares": 4953500.0,
-        "value_usd": 105509550.0,
-        "weight_pct": 6.17
+        "shares": 1473000.0,
+        "value_usd": 136105200.0,
+        "weight_pct": 9.38
       },
       {
         "cusip": "87305R109",
         "security_class": "COM",
         "issuer": "TTM TECHNOLOGIES INC",
-        "shares": 479000.0,
-        "value_usd": 89582580.0,
-        "weight_pct": 5.24
+        "shares": 840200.0,
+        "value_usd": 103210168.0,
+        "weight_pct": 7.11
+      },
+      {
+        "cusip": "71377A103",
+        "security_class": "COM",
+        "issuer": "PERFORMANCE FOOD GROUP CO",
+        "shares": 1120000.0,
+        "value_usd": 102491200.0,
+        "weight_pct": 7.06
+      },
+      {
+        "cusip": "44812J104",
+        "security_class": "COM",
+        "issuer": "HUT 8 CORP",
+        "shares": 1085059.0,
+        "value_usd": 93423580.0,
+        "weight_pct": 6.44
       },
       {
         "cusip": "538034109",
         "security_class": "COM",
         "issuer": "LIVE NATION ENTERTAINMENT IN",
         "shares": 437000.0,
-        "value_usd": 80019070.0,
-        "weight_pct": 4.68
-      },
-      {
-        "cusip": "36168Q104",
-        "security_class": "SUB VTG SHS",
-        "issuer": "GFL ENVIRONMENTAL INC",
-        "shares": 1975000.0,
-        "value_usd": 72660250.0,
-        "weight_pct": 4.25
-      },
-      {
-        "cusip": "558256103",
-        "security_class": "COM CL A",
-        "issuer": "MADISON SQUARE GARDEN ENTMT",
-        "shares": 866000.0,
-        "value_usd": 70050740.0,
-        "weight_pct": 4.1
+        "value_usd": 73984100.0,
+        "weight_pct": 5.1
       },
       {
         "cusip": "20464U100",
         "security_class": "CL A",
         "issuer": "COMPASS INC",
-        "shares": 5410810.0,
-        "value_usd": 66715287.0,
-        "weight_pct": 3.9
+        "shares": 6831000.0,
+        "value_usd": 60659280.0,
+        "weight_pct": 4.18
+      },
+      {
+        "cusip": "55306N104",
+        "security_class": "COM",
+        "issuer": "MKS INC.",
+        "shares": 227950.0,
+        "value_usd": 60488812.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "83001C108",
+        "security_class": "COM",
+        "issuer": "SIX FLAGS ENTERTAINMENT CORP",
+        "shares": 4953500.0,
+        "value_usd": 53051985.0,
+        "weight_pct": 3.66
       }
     ],
-    "top_five_pct": 49.06,
-    "top_ten_pct": 71.24,
-    "hhi": 687.59,
+    "top_five_pct": 54.11,
+    "top_ten_pct": 77.65,
+    "hhi": 835.18,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 8,
-      "increased_positions": 3,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 7,
+      "increased_positions": 7,
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001892688-26-000118"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001892688-26-000169"
       }
     ]
   },
-  "reported_13f_value_usd": 1709171376.0,
+  "reported_13f_value_usd": 1451292387.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001892688-26-000118",
+  "validated_accession": "0001892688-26-000169",
   "annualized_turnover_proxy_pct": null
 }

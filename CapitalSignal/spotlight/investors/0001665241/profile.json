@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001665241",
   "investor_name": "Schonfeld Strategic Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1665241/0001665241-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1665241/0001665241-26-000002.txt"
+    "https://www.sec.gov/Archives/edgar/data/1665241/0001665241-26-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1665241/0001665241-26-000003.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "13334812bf04ae4ec118a0b685f8c6fc7e58c0b75eed822dc11c8693993859ea",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "f6447c3a984b40c2838e6d6d930cc1894c7ce7a665eb0b853f3de5828ac5f5e9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6e9a508d3f6d20b7b1a923c2e2d4d72f4bbbc932",
+    "88d8c2abbbe53c856c337c43d08c42f957a8876e",
+    "d65ed00608b7c2d87fae2a3fdc8049f45905767c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001665241-26-000002",
-    "source": "https://www.sec.gov/Archives/edgar/data/1665241/0001665241-26-000002.txt",
-    "distinct_positions": 2288,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001665241-26-000003",
+    "source": "https://www.sec.gov/Archives/edgar/data/1665241/0001665241-26-000003.txt",
+    "distinct_positions": 2392,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 18814244387.0,
+    "reported_long_equity_value_usd": 19218534375.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 3831918.0,
-        "value_usd": 2869685068.0,
-        "weight_pct": 15.25
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 568043.0,
-        "value_usd": 655686352.0,
-        "weight_pct": 3.49
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 2457521.0,
-        "value_usd": 491725376.0,
-        "weight_pct": 2.61
+        "shares": 2716716.0,
+        "value_usd": 2080596947.0,
+        "weight_pct": 10.83
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 915145.0,
-        "value_usd": 341367385.0,
-        "weight_pct": 1.81
+        "shares": 536701.0,
+        "value_usd": 275273940.0,
+        "weight_pct": 1.43
       },
       {
-        "cusip": "464286400",
-        "security_class": "MSCI BRAZIL ETF",
-        "issuer": "ISHARES INC",
-        "shares": 9366387.0,
-        "value_usd": 323140351.0,
-        "weight_pct": 1.72
+        "cusip": "040919102",
+        "security_class": "SHS BEN INT",
+        "issuer": "ARK 21SHARES BITCOIN ETF",
+        "shares": 8752873.0,
+        "value_usd": 242367052.0,
+        "weight_pct": 1.26
       },
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 801791.0,
-        "value_usd": 286536047.0,
-        "weight_pct": 1.52
-      },
-      {
-        "cusip": "023135106",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "AMAZON COM INC",
-        "shares": 969511.0,
-        "value_usd": 231073250.0,
-        "weight_pct": 1.23
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 958749.0,
+        "value_usd": 218959094.0,
+        "weight_pct": 1.14
       },
       {
-        "cusip": "84615Q103",
-        "security_class": "CLASS A COM STK",
-        "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 1104709.0,
-        "value_usd": 188750578.0,
-        "weight_pct": 1.0
-      },
-      {
-        "cusip": "11135F101",
+        "cusip": "458140100",
         "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 400000.0,
-        "value_usd": 151100000.0,
-        "weight_pct": 0.8
+        "issuer": "INTEL CORP",
+        "shares": 1434641.0,
+        "value_usd": 172486885.0,
+        "weight_pct": 0.9
+      },
+      {
+        "cusip": "315948109",
+        "security_class": "SHS",
+        "issuer": "FIDELITY WISE ORIGIN BITCOIN",
+        "shares": 2254134.0,
+        "value_usd": 163740292.0,
+        "weight_pct": 0.85
       },
       {
         "cusip": "91912E105",
         "security_class": "SPONSORED ADS",
         "issuer": "VALE S A",
-        "shares": 9629330.0,
-        "value_usd": 144825123.0,
-        "weight_pct": 0.77
+        "shares": 11950854.0,
+        "value_usd": 160260951.0,
+        "weight_pct": 0.83
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 630980.0,
+        "value_usd": 157208664.0,
+        "weight_pct": 0.82
+      },
+      {
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 395093.0,
+        "value_usd": 140182946.0,
+        "weight_pct": 0.73
+      },
+      {
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 265115.0,
+        "value_usd": 135574507.0,
+        "weight_pct": 0.71
       }
     ],
-    "top_five_pct": 24.88,
-    "top_ten_pct": 30.21,
-    "hhi": 276.68,
+    "top_five_pct": 15.56,
+    "top_ten_pct": 19.49,
+    "hhi": 142.66,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1030,
-      "exited_positions": 714,
-      "increased_positions": 611,
-      "reduced_positions": 639
+      "previous_period": "2026-06-30",
+      "new_positions": 719,
+      "exited_positions": 615,
+      "increased_positions": 765,
+      "reduced_positions": 766
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001665241-26-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001665241-26-000003"
       }
     ]
   },
-  "reported_13f_value_usd": 18814244387.0,
+  "reported_13f_value_usd": 19218534375.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001665241-26-000002",
+  "validated_accession": "0001665241-26-000003",
   "annualized_turnover_proxy_pct": null
 }

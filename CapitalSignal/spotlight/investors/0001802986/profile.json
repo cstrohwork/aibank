@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001802986",
   "investor_name": "Forager Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BIRMINGHAM",
   "state": "AL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1802986/0001420506-25-003262.txt",
-    "https://www.sec.gov/Archives/edgar/data/1802986/0001420506-26-001674.txt"
+    "https://www.sec.gov/Archives/edgar/data/1802986/0001420506-26-001674.txt",
+    "https://www.sec.gov/Archives/edgar/data/1802986/0001420506-26-002755.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3cc0109a06c5c92722b383b15415cbd25604fe15e9692683186651e272c5a676",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "20764828dca1efa73a1a9f90801b895bc797e6d194e7c2ef00b4c841b02be2cc",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "66f87baf9632be266cd4d37047164a08f96ae193",
+    "814f7b74095558c5307f06f6821dd0af26abc723",
+    "952eef27e4206fe8fcba4183ed2497d139dcdf21"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001674",
-    "source": "https://www.sec.gov/Archives/edgar/data/1802986/0001420506-26-001674.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002755",
+    "source": "https://www.sec.gov/Archives/edgar/data/1802986/0001420506-26-002755.txt",
     "distinct_positions": 10,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 265943256.0,
+    "reported_long_equity_value_usd": 230658421.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM CL A",
         "issuer": "REPAY HLDGS CORP",
         "shares": 11106548.0,
-        "value_usd": 46647502.0,
-        "weight_pct": 17.54
-      },
-      {
-        "cusip": "75902K106",
-        "security_class": "COM",
-        "issuer": "REGIONAL MGMT CORP",
-        "shares": 948458.0,
-        "value_usd": 39076470.0,
-        "weight_pct": 14.69
-      },
-      {
-        "cusip": "57637H103",
-        "security_class": "COM",
-        "issuer": "MASTERCRAFT BOAT HLDGS INC",
-        "shares": 1451074.0,
-        "value_usd": 37466731.0,
-        "weight_pct": 14.09
-      },
-      {
-        "cusip": "600544100",
-        "security_class": "COM",
-        "issuer": "MILLERKNOLL INC",
-        "shares": 1561841.0,
-        "value_usd": 31955267.0,
-        "weight_pct": 12.02
+        "value_usd": 40205704.0,
+        "weight_pct": 17.43
       },
       {
         "cusip": "68376D104",
         "security_class": "COM",
         "issuer": "OPORTUN FINL CORP",
         "shares": 4512045.0,
-        "value_usd": 25763777.0,
-        "weight_pct": 9.69
+        "value_usd": 36728046.0,
+        "weight_pct": 15.92
       },
       {
-        "cusip": "92663R105",
+        "cusip": "600544100",
         "security_class": "COM",
-        "issuer": "VIEMED HEALTHCARE INC",
-        "shares": 2141184.0,
-        "value_usd": 24409498.0,
-        "weight_pct": 9.18
+        "issuer": "MILLERKNOLL INC",
+        "shares": 1560635.0,
+        "value_usd": 30682084.0,
+        "weight_pct": 13.3
       },
       {
-        "cusip": "442487401",
-        "security_class": "CL A NEW",
-        "issuer": "HOVNANIAN ENTERPRISES INC",
-        "shares": 149547.0,
-        "value_usd": 21296988.0,
-        "weight_pct": 8.01
+        "cusip": "57637H103",
+        "security_class": "COM",
+        "issuer": "MASTERCRAFT BOAT HLDGS INC",
+        "shares": 1526074.0,
+        "value_usd": 30216265.0,
+        "weight_pct": 13.1
       },
       {
-        "cusip": "46571Y107",
-        "security_class": "COM CL A",
-        "issuer": "I3 VERTICALS INC",
-        "shares": 864574.0,
-        "value_usd": 18467301.0,
-        "weight_pct": 6.94
+        "cusip": "75902K106",
+        "security_class": "COM",
+        "issuer": "REGIONAL MGMT CORP",
+        "shares": 860116.0,
+        "value_usd": 26001307.0,
+        "weight_pct": 11.27
       },
       {
         "cusip": "44925C103",
         "security_class": "COM",
         "issuer": "ICF INTL INC",
-        "shares": 235900.0,
-        "value_usd": 17187674.0,
-        "weight_pct": 6.46
+        "shares": 215900.0,
+        "value_usd": 17947767.0,
+        "weight_pct": 7.78
+      },
+      {
+        "cusip": "92663R105",
+        "security_class": "COM",
+        "issuer": "VIEMED HEALTHCARE INC",
+        "shares": 1773177.0,
+        "value_usd": 16135911.0,
+        "weight_pct": 7.0
+      },
+      {
+        "cusip": "46571Y107",
+        "security_class": "COM CL A",
+        "issuer": "I3 VERTICALS INC",
+        "shares": 1112174.0,
+        "value_usd": 15370245.0,
+        "weight_pct": 6.66
+      },
+      {
+        "cusip": "442487401",
+        "security_class": "CL A NEW",
+        "issuer": "HOVNANIAN ENTERPRISES INC",
+        "shares": 138104.0,
+        "value_usd": 15353022.0,
+        "weight_pct": 6.66
       },
       {
         "cusip": "46005L101",
         "security_class": "COM",
         "issuer": "INTERNATIONAL MONEY EXPRESS",
-        "shares": 254121.0,
-        "value_usd": 3672048.0,
-        "weight_pct": 1.38
+        "shares": 174272.0,
+        "value_usd": 2018070.0,
+        "weight_pct": 0.87
       }
     ],
-    "top_five_pct": 68.03,
+    "top_five_pct": 71.03,
     "top_ten_pct": 100.0,
-    "hhi": 1200.55,
+    "hhi": 1231.96,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 3,
-      "increased_positions": 3,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 6
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001674"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002755"
       }
     ]
   },
-  "reported_13f_value_usd": 265943256.0,
+  "reported_13f_value_usd": 230658421.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001674",
+  "validated_accession": "0001420506-26-002755",
   "annualized_turnover_proxy_pct": null
 }

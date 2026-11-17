@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001858558",
   "investor_name": "FIFTH LANE CAPITAL, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-06",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Austin",
   "state": "TX",
   "country": "United States",
@@ -10,73 +10,60 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1858558/0001214659-25-016241.txt",
-    "https://www.sec.gov/Archives/edgar/data/1858558/0001214659-26-009699.txt"
+    "https://www.sec.gov/Archives/edgar/data/1858558/0001214659-26-009699.txt",
+    "https://www.sec.gov/Archives/edgar/data/1858558/0001214659-26-014434.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "df83383ded5667c4b44afe348372254e8666891977b900cce162561522ab6b60",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "371dd94943dd3101101b48874dac4ae2024ef2f1d5ffd6e97baa576f920d25a6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-06|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1efa83031121d79c7a001c8fa279b02af07bf090",
+    "637ee6423ccb182b0cbbac935c945c66632c4363",
+    "fbd4b6486df3ce52a148cfbfc28983943a4fe762"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-06",
-    "accession": "0001214659-26-009699",
-    "source": "https://www.sec.gov/Archives/edgar/data/1858558/0001214659-26-009699.txt",
-    "distinct_positions": 5,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014434",
+    "source": "https://www.sec.gov/Archives/edgar/data/1858558/0001214659-26-014434.txt",
+    "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1630758.0,
+    "reported_long_equity_value_usd": 136350.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "12673Q103",
-        "security_class": "COMMON STOCK",
-        "issuer": "C1 FD INC",
-        "shares": 294688.0,
-        "value_usd": 892905.0,
-        "weight_pct": 54.75
-      },
-      {
-        "cusip": "714157203",
-        "security_class": "COM NEW",
-        "issuer": "PERMA-FIX ENVIRONMENTAL SVCS",
-        "shares": 18000.0,
-        "value_usd": 257220.0,
-        "weight_pct": 15.77
-      },
       {
         "cusip": "82669G203",
         "security_class": "EQUITIES",
         "issuer": "SBNY 5.0 31 DEC 2049 A - PFD",
         "shares": 95551.0,
-        "value_usd": 219767.0,
-        "weight_pct": 13.48
-      },
-      {
-        "cusip": "G0544A103",
-        "security_class": "ORD SHS CL A",
-        "issuer": "A SPAC III ACQUISITION CORP",
-        "shares": 20368.0,
-        "value_usd": 219567.0,
-        "weight_pct": 13.46
+        "value_usd": 112750.0,
+        "weight_pct": 82.69
       },
       {
         "cusip": "112714209",
         "security_class": "EQUITIES",
         "issuer": "BRDTLA 7.625 31 DEC 2049 A - PFD",
         "shares": 786652.0,
-        "value_usd": 41299.0,
-        "weight_pct": 2.53
+        "value_usd": 23600.0,
+        "weight_pct": 17.31
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 3616.1,
+    "hhi": 7137.48,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
-      "exited_positions": 104,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 3,
       "increased_positions": 0,
-      "reduced_positions": 1
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -88,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-06",
         "accession": "0001214659-26-009699"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014434"
       }
     ]
   },
-  "reported_13f_value_usd": 1630758.0,
+  "reported_13f_value_usd": 136350.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-009699",
+  "validated_accession": "0001214659-26-014434",
   "annualized_turnover_proxy_pct": null
 }

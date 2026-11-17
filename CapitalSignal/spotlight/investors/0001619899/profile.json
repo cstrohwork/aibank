@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001619899",
   "investor_name": "Bramshill Investments, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NAPLES",
   "state": "FL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1619899/0001214659-25-016489.txt",
-    "https://www.sec.gov/Archives/edgar/data/1619899/0001214659-26-010163.txt"
+    "https://www.sec.gov/Archives/edgar/data/1619899/0001214659-26-010163.txt",
+    "https://www.sec.gov/Archives/edgar/data/1619899/0001214659-26-014211.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "60b7e4c6d21de3c12d7ef3fc817bf5f5e4d2ab890e4c41ab19c83360c5abd192",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "b54b2108047270d5a44bef3c169a35f03a5c65cc62b62642dbd858b2bfc751d9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "46205c46df37ea9938ea0907e7e475c558d7ea69",
+    "50831f79db970b9ad93eb314e0abfac5fdf78316",
+    "b2f50078c065751e97a68d2d9c566dc4cd3a30b3"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010163",
-    "source": "https://www.sec.gov/Archives/edgar/data/1619899/0001214659-26-010163.txt",
-    "distinct_positions": 157,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014211",
+    "source": "https://www.sec.gov/Archives/edgar/data/1619899/0001214659-26-014211.txt",
+    "distinct_positions": 169,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1307211706.0,
+    "reported_long_equity_value_usd": 1168701424.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "92203C303",
+        "cusip": "78464A474",
         "security_class": "Exchange Traded Fund",
-        "issuer": "Vanguard Ultra Short Bond ETF",
-        "shares": 3112942.0,
-        "value_usd": 154962238.0,
-        "weight_pct": 11.85
+        "issuer": "State Street SPDR Portfolio Sh",
+        "shares": 9240630.0,
+        "value_usd": 273430242.0,
+        "weight_pct": 23.4
       },
       {
-        "cusip": "78468R408",
+        "cusip": "92206C409",
         "security_class": "Exchange Traded Fund",
-        "issuer": "State Street SPDR Bloomberg Sh",
-        "shares": 6067585.0,
-        "value_usd": 151871653.0,
-        "weight_pct": 11.62
-      },
-      {
-        "cusip": "46431W507",
-        "security_class": "Exchange Traded Fund",
-        "issuer": "iShares Short Duration Bond Ac",
-        "shares": 2605312.0,
-        "value_usd": 131985088.0,
-        "weight_pct": 10.1
+        "issuer": "Vanguard Short-Term Corporate",
+        "shares": 2985591.0,
+        "value_usd": 230636905.0,
+        "weight_pct": 19.73
       },
       {
         "cusip": "46138E511",
         "security_class": "Exchange Traded Fund",
         "issuer": "Invesco Preferred ETF",
-        "shares": 11489931.0,
-        "value_usd": 124550853.0,
-        "weight_pct": 9.53
+        "shares": 18695729.0,
+        "value_usd": 188265991.0,
+        "weight_pct": 16.11
       },
       {
-        "cusip": "72201R833",
+        "cusip": "464288414",
         "security_class": "Exchange Traded Fund",
-        "issuer": "PIMCO Enhanced Short Maturity",
-        "shares": 1005246.0,
-        "value_usd": 101338870.0,
-        "weight_pct": 7.75
-      },
-      {
-        "cusip": "46090A887",
-        "security_class": "Exchange Traded Fund",
-        "issuer": "Invesco Ultra Short Duration E",
-        "shares": 1988756.0,
-        "value_usd": 99736138.0,
-        "weight_pct": 7.63
-      },
-      {
-        "cusip": "46434V407",
-        "security_class": "Exchange Traded Fund",
-        "issuer": "iShares 0-5 Year High Yield Co",
-        "shares": 2108580.0,
-        "value_usd": 89424871.0,
-        "weight_pct": 6.84
-      },
-      {
-        "cusip": "46641Q837",
-        "security_class": "Exchange Traded Fund",
-        "issuer": "JPMorgan Ultra-Short Income ET",
-        "shares": 1282964.0,
-        "value_usd": 64879489.0,
-        "weight_pct": 4.96
+        "issuer": "iShares National Muni Bond ETF",
+        "shares": 1074161.0,
+        "value_usd": 108597677.0,
+        "weight_pct": 9.29
       },
       {
         "cusip": "72200W106",
         "security_class": "Exchange Traded Fund",
         "issuer": "PIMCO Municipal Income Fund II",
-        "shares": 7767525.0,
-        "value_usd": 59110865.0,
-        "weight_pct": 4.52
+        "shares": 8501775.0,
+        "value_usd": 55856662.0,
+        "weight_pct": 4.78
       },
       {
-        "cusip": "46434V100",
+        "cusip": "92189F536",
         "security_class": "Exchange Traded Fund",
-        "issuer": "iShares 0-5 Year Investment Gr",
-        "shares": 1008271.0,
-        "value_usd": 50786621.0,
-        "weight_pct": 3.89
+        "issuer": "VanEck Long Muni ETF",
+        "shares": 2319929.0,
+        "value_usd": 37872841.0,
+        "weight_pct": 3.24
+      },
+      {
+        "cusip": "78464A367",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "State Street SPDR Portfolio Lo",
+        "shares": 1500000.0,
+        "value_usd": 30570000.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "464288687",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "iShares Preferred and Income S",
+        "shares": 871817.0,
+        "value_usd": 25718602.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "46131H107",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Invesco Senior Income Trust",
+        "shares": 8576328.0,
+        "value_usd": 24785588.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "92206C813",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "Vanguard Long-Term Corporate B",
+        "shares": 294970.0,
+        "value_usd": 20205445.0,
+        "weight_pct": 1.73
       }
     ],
-    "top_five_pct": 50.85,
-    "top_ten_pct": 78.69,
-    "hhi": 716.31,
+    "top_five_pct": 73.31,
+    "top_ten_pct": 85.22,
+    "hhi": 1337.9,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 65,
-      "exited_positions": 58,
-      "increased_positions": 53,
-      "reduced_positions": 37
+      "previous_period": "2026-06-30",
+      "new_positions": 34,
+      "exited_positions": 22,
+      "increased_positions": 82,
+      "reduced_positions": 40
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010163"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014211"
       }
     ]
   },
-  "reported_13f_value_usd": 1307211706.0,
+  "reported_13f_value_usd": 1168701424.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010163",
+  "validated_accession": "0001214659-26-014211",
   "annualized_turnover_proxy_pct": null
 }

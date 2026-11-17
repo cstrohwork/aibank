@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001763844",
+  "investor_name": "CPV Partners, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "STAMFORD",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1763844/0000902664-25-005024.txt",
+    "https://www.sec.gov/Archives/edgar/data/1763844/0000919574-26-005529.txt",
+    "https://www.sec.gov/Archives/edgar/data/1763844/0000919574-26-008124.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "f4c24d5ad55858264840a4dbde037fd9493499176c61a2ba25269ec84333de05",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "00cbdb8fa82aa6d9e08e405db4e4e07e767f91a0",
+    "9e185e66e2075b87b4a5ffceddfb0a6a8a81aad8",
+    "fa6316975292c5ee68621485cf895688162faa09"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-008124",
+    "source": "https://www.sec.gov/Archives/edgar/data/1763844/0000919574-26-008124.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 363442529.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "518613203",
+        "security_class": "COMMON STOCK",
+        "issuer": "LAUREATE ED INC",
+        "shares": 8090755.0,
+        "value_usd": 308743211.0,
+        "weight_pct": 84.95
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 237380.0,
+        "value_usd": 35811147.0,
+        "weight_pct": 9.85
+      },
+      {
+        "cusip": "62548M209",
+        "security_class": "CL A NEW",
+        "issuer": "CLARITEV CORPORATION",
+        "shares": 495258.0,
+        "value_usd": 10484612.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "42806J700",
+        "security_class": "COM NEW",
+        "issuer": "HERTZ GLOBAL HLDGS INC",
+        "shares": 3210268.0,
+        "value_usd": 5361148.0,
+        "weight_pct": 1.48
+      },
+      {
+        "cusip": "57142B203",
+        "security_class": "CL A COM",
+        "issuer": "MARQETA INC",
+        "shares": 179018.0,
+        "value_usd": 3042411.0,
+        "weight_pct": 0.84
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7324.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000902664-25-005024"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000919574-26-005529"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-008124"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 363442529.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-008124",
+  "annualized_turnover_proxy_pct": null
+}

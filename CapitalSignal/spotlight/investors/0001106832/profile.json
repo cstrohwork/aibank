@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001106832",
   "investor_name": "CASTLEARK MANAGEMENT LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "CHICAGO",
   "state": "IL",
   "country": "United States",
@@ -10,17 +10,28 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1106832/0001106832-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1106832/0001106832-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1106832/0001106832-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1106832/0001106832-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "95300240cb8fdd47bb8681d814d8416b30e99af5d302b67087088f9e9e810b27",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "85e8148642fd7c4d99312de123fa224734da982f9170a9e355af961c903da3ec",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "494a660624ee8c1568308b1de69b05a5fc90e13d",
+    "d03e11b7c37896a00a3be6b84dd49a5a822b9717",
+    "df0dd96fdd84c75d4aedaa74eabc656c2dbeb5dc"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001106832-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1106832/0001106832-26-000004.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001106832-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1106832/0001106832-26-000006.txt",
     "distinct_positions": 309,
     "excluded_invalid_rows": 0,
     "reported_long_equity_value_usd": 3709338225.0,
@@ -112,11 +123,11 @@
     "top_ten_pct": 33.93,
     "hhi": 181.22,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 131,
-      "exited_positions": 106,
-      "increased_positions": 72,
-      "reduced_positions": 67
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001106832-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001106832-26-000006"
       }
     ]
   },
   "reported_13f_value_usd": 3709338225.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001106832-26-000004",
+  "validated_accession": "0001106832-26-000006",
   "annualized_turnover_proxy_pct": null
 }

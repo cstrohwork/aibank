@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001058811",
   "investor_name": "IMMERSION CORP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Aventura",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1058811/0000921895-25-003083.txt",
-    "https://www.sec.gov/Archives/edgar/data/1058811/0000921895-26-002159.txt"
+    "https://www.sec.gov/Archives/edgar/data/1058811/0000921895-26-002159.txt",
+    "https://www.sec.gov/Archives/edgar/data/1058811/0000921895-26-003158.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e37244306209af1591333afa194e46f41868588e54225ce8b34f0592892c842c",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "1cfe4abb26ec81ecea6aa8af1afd0435acd1d7fbb245e1978de8beb7c9adfe46",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4bfa4f31a1e0ad6f752a4e9adf8437467cae62a8",
+    "c9d55d1e5388f484470b397c2ae2cb91682a42d5",
+    "e89384bc28ef41e52b733eaa2fcf1d6bb7c661c0"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000921895-26-002159",
-    "source": "https://www.sec.gov/Archives/edgar/data/1058811/0000921895-26-002159.txt",
-    "distinct_positions": 7,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000921895-26-003158",
+    "source": "https://www.sec.gov/Archives/edgar/data/1058811/0000921895-26-003158.txt",
+    "distinct_positions": 12,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 178728110.0,
+    "reported_long_equity_value_usd": 174389648.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,67 +43,91 @@
         "security_class": "COM NEW",
         "issuer": "BARNES & NOBLE ED INC",
         "shares": 11208746.0,
-        "value_usd": 140781850.0,
-        "weight_pct": 78.77
+        "value_usd": 129909366.0,
+        "weight_pct": 74.49
       },
       {
         "cusip": "33833Q106",
         "security_class": "COM CL A",
         "issuer": "FIVE POINT HOLDINGS LLC",
         "shares": 2793081.0,
-        "value_usd": 14719537.0,
-        "weight_pct": 8.24
+        "value_usd": 13071619.0,
+        "weight_pct": 7.5
       },
       {
-        "cusip": "913483103",
+        "cusip": "N6596X109",
         "security_class": "COM",
-        "issuer": "UNIVERSAL ELECTRS INC",
-        "shares": 1544647.0,
-        "value_usd": 7365581.0,
-        "weight_pct": 4.12
-      },
-      {
-        "cusip": "090043100",
-        "security_class": "COM",
-        "issuer": "BILL HOLDINGS INC",
-        "shares": 180000.0,
-        "value_usd": 6508800.0,
-        "weight_pct": 3.64
+        "issuer": "NXP SEMICONDUCTORS N V",
+        "shares": 50000.0,
+        "value_usd": 11876500.0,
+        "weight_pct": 6.81
       },
       {
         "cusip": "98423J101",
         "security_class": "COMMON STOCK",
         "issuer": "XPERI INC",
-        "shares": 542646.0,
-        "value_usd": 4465976.0,
-        "weight_pct": 2.5
+        "shares": 1136161.0,
+        "value_usd": 6260247.0,
+        "weight_pct": 3.59
       },
       {
-        "cusip": "76674Q107",
+        "cusip": "913483103",
         "security_class": "COM",
-        "issuer": "RIMINI STR INC DEL",
-        "shares": 1000000.0,
-        "value_usd": 4260000.0,
-        "weight_pct": 2.38
+        "issuer": "UNIVERSAL ELECTRS INC",
+        "shares": 1101832.0,
+        "value_usd": 5751563.0,
+        "weight_pct": 3.3
       },
       {
-        "cusip": "168905107",
+        "cusip": "05614L209",
         "security_class": "COM",
-        "issuer": "CHILDRENS PL INC NEW",
-        "shares": 205366.0,
-        "value_usd": 626366.0,
-        "weight_pct": 0.35
+        "issuer": "BABCOCK & WILCOX ENTERPRISES",
+        "shares": 500000.0,
+        "value_usd": 2920000.0,
+        "weight_pct": 1.67
+      },
+      {
+        "cusip": "00971T101",
+        "security_class": "COM",
+        "issuer": "AKAMAI TECHNOLOGIES INC",
+        "shares": 15000.0,
+        "value_usd": 1595250.0,
+        "weight_pct": 0.91
+      },
+      {
+        "cusip": "238337109",
+        "security_class": "COM",
+        "issuer": "DAVE & BUSTERS ENTMT INC",
+        "shares": 121300.0,
+        "value_usd": 773894.0,
+        "weight_pct": 0.44
+      },
+      {
+        "cusip": "01626W200",
+        "security_class": "COM SHS CL A",
+        "issuer": "ALIGHT INC",
+        "shares": 80030.0,
+        "value_usd": 713868.0,
+        "weight_pct": 0.41
+      },
+      {
+        "cusip": "219798105",
+        "security_class": "COM",
+        "issuer": "QUIDELORTHO CORP",
+        "shares": 65631.0,
+        "value_usd": 691751.0,
+        "weight_pct": 0.4
       }
     ],
-    "top_five_pct": 97.27,
-    "top_ten_pct": 100.0,
-    "hhi": 6314.63,
+    "top_five_pct": 95.69,
+    "top_ten_pct": 99.53,
+    "hhi": 5679.92,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
       "exited_positions": 3,
-      "increased_positions": 0,
-      "reduced_positions": 2
+      "increased_positions": 1,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -104,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000921895-26-002159"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000921895-26-003158"
       }
     ]
   },
-  "reported_13f_value_usd": 178728110.0,
+  "reported_13f_value_usd": 174389648.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000921895-26-002159",
+  "validated_accession": "0000921895-26-003158",
   "annualized_turnover_proxy_pct": null
 }

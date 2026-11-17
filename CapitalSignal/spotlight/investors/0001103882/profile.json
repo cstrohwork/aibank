@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001103882",
   "investor_name": "Paloma Partners Management Co",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "GREENWICH",
   "state": "CT",
   "country": "United States",
@@ -10,87 +10,122 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1103882/0001103882-25-000011.txt",
-    "https://www.sec.gov/Archives/edgar/data/1103882/0001103882-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1103882/0001103882-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1103882/0001103882-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "96be62172b59b78217d31d0a74605ed74ecd5c7c801883f11214272ff714cedc",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "9c29fa55c43d8c9ac34d8ca1dda5db19160be63d304f16f41820dda7bcd8d97e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "129a4b71c1eea240227514e3d720357ebef0876d",
+    "669ce6adb7c35b26a878d07f0076342ddb8833c5",
+    "d826840909665160bb434baf719d6ab815d7cb8f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001103882-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1103882/0001103882-26-000005.txt",
-    "distinct_positions": 7,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001103882-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1103882/0001103882-26-000008.txt",
+    "distinct_positions": 44,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 11311819.0,
+    "reported_long_equity_value_usd": 78571867.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "G0113G101",
-        "security_class": "CL A",
-        "issuer": "ACP HOLDINGS ACQUISITION COR",
-        "shares": 578500.0,
-        "value_usd": 5750290.0,
-        "weight_pct": 50.83
+        "cusip": "03076C106",
+        "security_class": "COM",
+        "issuer": "AMERIPRISE FINL INC",
+        "shares": 8478.0,
+        "value_usd": 4174143.0,
+        "weight_pct": 5.31
       },
       {
-        "cusip": "G49097127",
-        "security_class": "UNIT 05/27/2031",
-        "issuer": "INTERPRIVATE INVTS PARTNERS",
-        "shares": 140000.0,
-        "value_usd": 1388800.0,
-        "weight_pct": 12.28
+        "cusip": "464288513",
+        "security_class": "IBOXX HI YD ETF",
+        "issuer": "ISHARES TR",
+        "shares": 51552.0,
+        "value_usd": 3980330.0,
+        "weight_pct": 5.07
       },
       {
-        "cusip": "155923105",
-        "security_class": "COM SHS",
-        "issuer": "CENTURI HOLDINGS INC",
-        "shares": 41841.0,
-        "value_usd": 1265272.0,
-        "weight_pct": 11.19
+        "cusip": "884903881",
+        "security_class": "COM",
+        "issuer": "THOMSON REUTERS CORP",
+        "shares": 39609.0,
+        "value_usd": 3855144.0,
+        "weight_pct": 4.91
       },
       {
-        "cusip": "034948109",
-        "security_class": "CL A COM",
-        "issuer": "ANGEL STUDIOS INC.",
-        "shares": 325000.0,
-        "value_usd": 1192750.0,
-        "weight_pct": 10.54
+        "cusip": "G491BT108",
+        "security_class": "SHS",
+        "issuer": "INVESCO LTD",
+        "shares": 127296.0,
+        "value_usd": 3839247.0,
+        "weight_pct": 4.89
       },
       {
-        "cusip": "18979T204",
-        "security_class": "SPONSORED ADS",
-        "issuer": "CNFINANCE HLDGS LTD",
-        "shares": 305337.0,
-        "value_usd": 845783.0,
-        "weight_pct": 7.48
+        "cusip": "96208T104",
+        "security_class": "COM",
+        "issuer": "WEX INC",
+        "shares": 17550.0,
+        "value_usd": 2960685.0,
+        "weight_pct": 3.77
       },
       {
-        "cusip": "G11448100",
-        "security_class": "CL A ORD SHS",
-        "issuer": "BITDEER TECHNOLOGIES GROUP",
-        "shares": 50000.0,
-        "value_usd": 793500.0,
-        "weight_pct": 7.01
+        "cusip": "55261F104",
+        "security_class": "COM",
+        "issuer": "M & T BK CORP",
+        "shares": 12728.0,
+        "value_usd": 2769613.0,
+        "weight_pct": 3.52
       },
       {
-        "cusip": "78462F103",
-        "security_class": "TR UNIT",
-        "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 101.0,
-        "value_usd": 75424.0,
-        "weight_pct": 0.67
+        "cusip": "366651107",
+        "security_class": "COM",
+        "issuer": "GARTNER INC",
+        "shares": 14846.0,
+        "value_usd": 2769373.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "87165B103",
+        "security_class": "COM",
+        "issuer": "SYNCHRONY FINANCIAL",
+        "shares": 39002.0,
+        "value_usd": 2767972.0,
+        "weight_pct": 3.52
+      },
+      {
+        "cusip": "303075105",
+        "security_class": "COM",
+        "issuer": "FACTSET RESH SYS INC",
+        "shares": 9483.0,
+        "value_usd": 2559936.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "754730109",
+        "security_class": "COM",
+        "issuer": "RAYMOND JAMES FINL INC",
+        "shares": 16140.0,
+        "value_usd": 2550443.0,
+        "weight_pct": 3.25
       }
     ],
-    "top_five_pct": 92.32,
-    "top_ten_pct": 100.0,
-    "hhi": 3076.72,
+    "top_five_pct": 23.94,
+    "top_ten_pct": 41.02,
+    "hhi": 307.6,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
-      "exited_positions": 58,
+      "previous_period": "2026-06-30",
+      "new_positions": 42,
+      "exited_positions": 5,
       "increased_positions": 0,
       "reduced_positions": 1
     },
@@ -104,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001103882-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001103882-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 11311819.0,
+  "reported_13f_value_usd": 78571867.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001103882-26-000005",
+  "validated_accession": "0001103882-26-000008",
   "annualized_turnover_proxy_pct": null
 }

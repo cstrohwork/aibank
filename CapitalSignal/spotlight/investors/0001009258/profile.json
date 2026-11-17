@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001009258",
   "investor_name": "DEERFIELD MANAGEMENT COMPANY, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1009258/0001213900-25-110851.txt",
-    "https://www.sec.gov/Archives/edgar/data/1009258/0001213900-26-089991.txt"
+    "https://www.sec.gov/Archives/edgar/data/1009258/0001213900-26-089991.txt",
+    "https://www.sec.gov/Archives/edgar/data/1009258/0001213900-26-120609.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b22d133e0edbbd9297cf6d565a3b58d23c5c90c7a5c62ef0cb722b5141a9dcfd",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "2a7d9b86a9790a6dfc4e99fe03fab618465bbd0176e8e0f7b966543e6e5c7b81",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "45ba348ee144ec2ed1c64010b1ceeca0af9a5517",
+    "5f35a6158ed5fe8b82b0805979bc0373ffc4e8bf",
+    "f7149c0b0dd60033b12a2e0e1f88ccfb654f528c"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001213900-26-089991",
-    "source": "https://www.sec.gov/Archives/edgar/data/1009258/0001213900-26-089991.txt",
-    "distinct_positions": 72,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001213900-26-120609",
+    "source": "https://www.sec.gov/Archives/edgar/data/1009258/0001213900-26-120609.txt",
+    "distinct_positions": 67,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 8031282729.0,
+    "reported_long_equity_value_usd": 5123201110.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "670703107",
-        "security_class": "COM",
-        "issuer": "NUVALENT INC",
-        "shares": 17248450.0,
-        "value_usd": 2130183575.0,
-        "weight_pct": 26.52
-      },
-      {
         "cusip": "76155X100",
         "security_class": "COM",
         "issuer": "REVOLUTION MEDICINES INC",
-        "shares": 2392000.0,
-        "value_usd": 447973760.0,
-        "weight_pct": 5.58
-      },
-      {
-        "cusip": "74006W207",
-        "security_class": "COM NEW",
-        "issuer": "PRAXIS PRECISION MEDICINES I",
-        "shares": 963351.0,
-        "value_usd": 322520281.0,
-        "weight_pct": 4.02
-      },
-      {
-        "cusip": "92556V106",
-        "security_class": "COM",
-        "issuer": "VIATRIS INC",
-        "shares": 20206170.0,
-        "value_usd": 320873980.0,
-        "weight_pct": 4.0
+        "shares": 2124000.0,
+        "value_usd": 435972240.0,
+        "weight_pct": 8.51
       },
       {
         "cusip": "15135B101",
         "security_class": "COM",
         "issuer": "CENTENE CORP DEL",
         "shares": 4901000.0,
-        "value_usd": 314595190.0,
-        "weight_pct": 3.92
+        "value_usd": 304450120.0,
+        "weight_pct": 5.94
       },
       {
         "cusip": "91307C102",
         "security_class": "COM",
         "issuer": "UNITED THERAPEUTICS CORP DEL",
-        "shares": 457000.0,
-        "value_usd": 247616310.0,
-        "weight_pct": 3.08
+        "shares": 540598.0,
+        "value_usd": 292944650.0,
+        "weight_pct": 5.72
       },
       {
-        "cusip": "52490G102",
-        "security_class": "SPONSORED ADS",
-        "issuer": "LEGEND BIOTECH CORP",
-        "shares": 8137638.0,
-        "value_usd": 235014985.0,
-        "weight_pct": 2.93
-      },
-      {
-        "cusip": "19240Q201",
-        "security_class": "COM",
-        "issuer": "COGENT BIOSCIENCES INC",
-        "shares": 5006104.0,
-        "value_usd": 193736225.0,
-        "weight_pct": 2.41
+        "cusip": "74006W207",
+        "security_class": "COM NEW",
+        "issuer": "PRAXIS PRECISION MEDICINES I",
+        "shares": 963351.0,
+        "value_usd": 280556712.0,
+        "weight_pct": 5.48
       },
       {
         "cusip": "372303206",
         "security_class": "SPONSORED ADS",
         "issuer": "GENMAB A/S",
         "shares": 6865000.0,
-        "value_usd": 188581550.0,
-        "weight_pct": 2.35
+        "value_usd": 244908875.0,
+        "weight_pct": 4.78
       },
       {
-        "cusip": "112463104",
+        "cusip": "92556V106",
         "security_class": "COM",
-        "issuer": "BROOKDALE SR LIVING INC",
-        "shares": 11637032.0,
-        "value_usd": 187239845.0,
-        "weight_pct": 2.33
+        "issuer": "VIATRIS INC",
+        "shares": 10938000.0,
+        "value_usd": 193821360.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "19240Q201",
+        "security_class": "COM",
+        "issuer": "COGENT BIOSCIENCES INC",
+        "shares": 5957000.0,
+        "value_usd": 190743140.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "15102K100",
+        "security_class": "COM",
+        "issuer": "CELCUITY INC",
+        "shares": 2397664.0,
+        "value_usd": 190662241.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "52490G102",
+        "security_class": "SPONSORED ADS",
+        "issuer": "LEGEND BIOTECH CORP",
+        "shares": 8137638.0,
+        "value_usd": 161857620.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "92337R101",
+        "security_class": "CL A",
+        "issuer": "VERA THERAPEUTICS INC",
+        "shares": 4338778.0,
+        "value_usd": 140099142.0,
+        "weight_pct": 2.73
       }
     ],
-    "top_five_pct": 44.03,
-    "top_ten_pct": 57.13,
-    "hhi": 868.66,
+    "top_five_pct": 30.43,
+    "top_ten_pct": 47.55,
+    "hhi": 335.16,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 23,
-      "exited_positions": 95,
-      "increased_positions": 22,
-      "reduced_positions": 14
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 13,
+      "increased_positions": 11,
+      "reduced_positions": 13
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001213900-26-089991"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001213900-26-120609"
       }
     ]
   },
-  "reported_13f_value_usd": 8031282729.0,
+  "reported_13f_value_usd": 5123201110.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001213900-26-089991",
+  "validated_accession": "0001213900-26-120609",
   "annualized_turnover_proxy_pct": null
 }

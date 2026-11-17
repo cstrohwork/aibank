@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002064807",
   "investor_name": "Cauble & Harre Wealth Management, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAINT LOUIS",
   "state": "MO",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2064807/0001214659-26-009916.txt"
+    "https://www.sec.gov/Archives/edgar/data/2064807/0001214659-26-009916.txt",
+    "https://www.sec.gov/Archives/edgar/data/2064807/0001214659-26-014192.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b85ca72953ccdb70b818af093068a6b1aafc3715bd2c2e2ab0817dcbd3ed9f84",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "94b9219ea000c58a6d7b45e4c8ee430bfab8f07d48dee14466438e13c842563c",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "55a5c10774f84219d4def5f2453a9fa23779bd86",
+    "9e77c2ca58e4c8387d610c72e8605f2dac349a7e"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001214659-26-009916",
-    "source": "https://www.sec.gov/Archives/edgar/data/2064807/0001214659-26-009916.txt",
-    "distinct_positions": 72,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014192",
+    "source": "https://www.sec.gov/Archives/edgar/data/2064807/0001214659-26-014192.txt",
+    "distinct_positions": 74,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 124670135.0,
+    "reported_long_equity_value_usd": 129831996.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "025072877",
         "security_class": "US SML CP VALU",
         "issuer": "AMERICAN CENTY ETF TR",
-        "shares": 107080.0,
-        "value_usd": 13359266.0,
-        "weight_pct": 10.72
+        "shares": 103707.0,
+        "value_usd": 12213592.0,
+        "weight_pct": 9.41
       },
       {
         "cusip": "14020Y409",
         "security_class": "SHORT DURATION",
         "issuer": "CAPITAL GRP FIXED INCM ETF T",
-        "shares": 340536.0,
-        "value_usd": 8765657.0,
-        "weight_pct": 7.03
+        "shares": 326277.0,
+        "value_usd": 8242401.0,
+        "weight_pct": 6.35
       },
       {
         "cusip": "464285204",
         "security_class": "ISHARES NEW",
         "issuer": "ISHARES GOLD TR",
-        "shares": 99931.0,
-        "value_usd": 7545790.0,
-        "weight_pct": 6.05
-      },
-      {
-        "cusip": "14020Y201",
-        "security_class": "MUN INM ETF",
-        "issuer": "CAPITAL GRP FIXED INCM ETF T",
-        "shares": 229441.0,
-        "value_usd": 6302994.0,
-        "weight_pct": 5.06
-      },
-      {
-        "cusip": "14020W106",
-        "security_class": "SHS CREAT UNIT",
-        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
-        "shares": 126436.0,
-        "value_usd": 6249380.0,
-        "weight_pct": 5.01
+        "shares": 102608.0,
+        "value_usd": 8013684.0,
+        "weight_pct": 6.17
       },
       {
         "cusip": "46641Q837",
         "security_class": "ULTRA SHRT ETF",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 111433.0,
-        "value_usd": 5635146.0,
-        "weight_pct": 4.52
+        "shares": 154448.0,
+        "value_usd": 7779584.0,
+        "weight_pct": 5.99
       },
       {
-        "cusip": "46641Q159",
-        "security_class": "INCOME ETF",
-        "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 103709.0,
-        "value_usd": 4775815.0,
-        "weight_pct": 3.83
+        "cusip": "14020W106",
+        "security_class": "SHS CREAT UNIT",
+        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
+        "shares": 126024.0,
+        "value_usd": 6175451.0,
+        "weight_pct": 4.76
       },
       {
-        "cusip": "025072349",
-        "security_class": "US LARGE CAP VLU",
-        "issuer": "AMERICAN CENTY ETF TR",
-        "shares": 47123.0,
-        "value_usd": 4298089.0,
-        "weight_pct": 3.45
+        "cusip": "14020Y201",
+        "security_class": "MUN INM ETF",
+        "issuer": "CAPITAL GRP FIXED INCM ETF T",
+        "shares": 210863.0,
+        "value_usd": 5470105.0,
+        "weight_pct": 4.21
       },
       {
         "cusip": "69374H881",
         "security_class": "US CASH COWS 100",
         "issuer": "PACER FDS TR",
-        "shares": 68175.0,
-        "value_usd": 4240472.0,
-        "weight_pct": 3.4
+        "shares": 75180.0,
+        "value_usd": 5019047.0,
+        "weight_pct": 3.87
       },
       {
-        "cusip": "81369Y506",
-        "security_class": "ST STR ENERG ETF",
-        "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 70238.0,
-        "value_usd": 3730327.0,
-        "weight_pct": 2.99
+        "cusip": "025072349",
+        "security_class": "US LARGE CAP VLU",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 53443.0,
+        "value_usd": 4833404.0,
+        "weight_pct": 3.72
+      },
+      {
+        "cusip": "132061839",
+        "security_class": "TRINITY",
+        "issuer": "CAMBRIA ETF TR",
+        "shares": 131137.0,
+        "value_usd": 4101996.0,
+        "weight_pct": 3.16
+      },
+      {
+        "cusip": "025072703",
+        "security_class": "INTL EQT ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 45097.0,
+        "value_usd": 4063709.0,
+        "weight_pct": 3.13
       }
     ],
-    "top_five_pct": 33.87,
-    "top_ten_pct": 52.06,
-    "hhi": 384.53,
-    "changes": null,
+    "top_five_pct": 32.68,
+    "top_ten_pct": 50.77,
+    "hhi": 362.68,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 6,
+      "increased_positions": 27,
+      "reduced_positions": 25
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001214659-26-009916"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014192"
       }
     ]
   },
-  "reported_13f_value_usd": 124670135.0,
+  "reported_13f_value_usd": 129831996.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-009916",
+  "validated_accession": "0001214659-26-014192",
   "annualized_turnover_proxy_pct": null
 }

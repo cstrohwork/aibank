@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001939480",
   "investor_name": "GCM Grosvenor Holdings, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Chicago",
   "state": "IL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1939480/0000921895-25-003075.txt",
-    "https://www.sec.gov/Archives/edgar/data/1939480/0000921895-26-002151.txt"
+    "https://www.sec.gov/Archives/edgar/data/1939480/0000921895-26-002151.txt",
+    "https://www.sec.gov/Archives/edgar/data/1939480/0000921895-26-003151.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "bd050627fe902d1ff4d0d2049399b8cb88443f0850571bf9c6d0ab990837a994",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "14be3046f1f7969d9bd368f030680de1152a74db9a3d1e9bfcf50bfc5aef32da",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "68ca9422e3cf2b615e2a93776a7b7b006127d6ff",
+    "b70792b18961afcbfcaf73ca4534a2da3672fe0d",
+    "c8e75a35981f6188304f8f4ac29dcf3b317a5178"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000921895-26-002151",
-    "source": "https://www.sec.gov/Archives/edgar/data/1939480/0000921895-26-002151.txt",
-    "distinct_positions": 24,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000921895-26-003151",
+    "source": "https://www.sec.gov/Archives/edgar/data/1939480/0000921895-26-003151.txt",
+    "distinct_positions": 22,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2312775820.0,
+    "reported_long_equity_value_usd": 1436921688.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "84615Q103",
         "security_class": "CLASS A COM STK",
         "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 8606650.0,
-        "value_usd": 1470532219.0,
-        "weight_pct": 63.58
-      },
-      {
-        "cusip": "21037T109",
-        "security_class": "COM",
-        "issuer": "CONSTELLATION ENERGY CORP",
-        "shares": 878015.0,
-        "value_usd": 218072586.0,
-        "weight_pct": 9.43
+        "shares": 5680390.0,
+        "value_usd": 856943635.0,
+        "weight_pct": 59.64
       },
       {
         "cusip": "565394103",
         "security_class": "COM",
         "issuer": "MAPLEBEAR INC",
         "shares": 4140924.0,
-        "value_usd": 196072751.0,
-        "weight_pct": 8.48
+        "value_usd": 178556643.0,
+        "weight_pct": 12.43
       },
       {
-        "cusip": "485924104",
-        "security_class": "COMMON STOCK",
-        "issuer": "KARMAN HLDGS INC",
-        "shares": 3319366.0,
-        "value_usd": 165702751.0,
-        "weight_pct": 7.16
+        "cusip": "21037T109",
+        "security_class": "COM",
+        "issuer": "CONSTELLATION ENERGY CORP",
+        "shares": 439006.0,
+        "value_usd": 111516304.0,
+        "weight_pct": 7.76
       },
       {
         "cusip": "82312B106",
         "security_class": "COM",
         "issuer": "SHENANDOAH TELECOMMUNICATION",
         "shares": 4116050.0,
-        "value_usd": 62070034.0,
-        "weight_pct": 2.68
+        "value_usd": 46182081.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "55173P109",
+        "security_class": "COM SHS",
+        "issuer": "LYNTRIS INC",
+        "shares": 3526547.0,
+        "value_usd": 43517590.0,
+        "weight_pct": 3.03
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 127937.0,
-        "value_usd": 30492505.0,
-        "weight_pct": 1.32
-      },
-      {
-        "cusip": "095924106",
-        "security_class": "COMMON STOCK",
-        "issuer": "BLUE OWL TECHNOLOGY FIN CORP",
-        "shares": 1796297.0,
-        "value_usd": 18591674.0,
-        "weight_pct": 0.8
+        "shares": 124726.0,
+        "value_usd": 31075483.0,
+        "weight_pct": 2.16
       },
       {
         "cusip": "644323107",
         "security_class": "COM SH BEN INT",
         "issuer": "FS SPECIALTY LENDING FD",
-        "shares": 1501875.0,
-        "value_usd": 16745906.0,
-        "weight_pct": 0.72
+        "shares": 2291875.0,
+        "value_usd": 26654506.0,
+        "weight_pct": 1.85
       },
       {
-        "cusip": "G93A5A101",
-        "security_class": "ORD SHS",
-        "issuer": "VIKING HOLDINGS LTD",
-        "shares": 158427.0,
-        "value_usd": 16582554.0,
-        "weight_pct": 0.72
+        "cusip": "095924106",
+        "security_class": "COMMON STOCK",
+        "issuer": "BLUE OWL TECHNOLOGY FIN CORP",
+        "shares": 1938297.0,
+        "value_usd": 19014694.0,
+        "weight_pct": 1.32
       },
       {
         "cusip": "184496107",
         "security_class": "COM",
         "issuer": "CLEAN HARBORS INC",
-        "shares": 53804.0,
-        "value_usd": 16073945.0,
-        "weight_pct": 0.7
+        "shares": 52454.0,
+        "value_usd": 16272804.0,
+        "weight_pct": 1.13
+      },
+      {
+        "cusip": "05684B107",
+        "security_class": "COM STK",
+        "issuer": "BAIN CAP SPECIALTY FIN INC",
+        "shares": 1429620.0,
+        "value_usd": 15783005.0,
+        "weight_pct": 1.1
       }
     ],
-    "top_five_pct": 91.34,
-    "top_ten_pct": 95.6,
-    "hhi": 4267.66,
+    "top_five_pct": 86.07,
+    "top_ten_pct": 93.64,
+    "hhi": 3807.07,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 8,
-      "exited_positions": 6,
-      "increased_positions": 1,
-      "reduced_positions": 12
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 4,
+      "increased_positions": 3,
+      "reduced_positions": 14
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000921895-26-002151"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000921895-26-003151"
       }
     ]
   },
-  "reported_13f_value_usd": 2312775820.0,
+  "reported_13f_value_usd": 1436921688.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000921895-26-002151",
+  "validated_accession": "0000921895-26-003151",
   "annualized_turnover_proxy_pct": null
 }

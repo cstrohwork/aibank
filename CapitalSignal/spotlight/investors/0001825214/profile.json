@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001825214",
   "investor_name": "Ghisallo Capital Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1825214/0001172661-25-004873.txt",
-    "https://www.sec.gov/Archives/edgar/data/1825214/0001172661-26-003463.txt"
+    "https://www.sec.gov/Archives/edgar/data/1825214/0001172661-26-003463.txt",
+    "https://www.sec.gov/Archives/edgar/data/1825214/0001172661-26-005189.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "75b50cdcf00790760c4d8a1ca7a595338ba0bab5e9cd5deae1e4dc1f62b1a8d5",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "5439342f7d0d6532b56d948003294e440d36d36f4a3d57de083847f4cbe5972a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "186baa21f6c7e210dc57eab4f301ec5f26452150",
+    "5cae307e6b352be750aad71f721348542f47721e",
+    "74d56c48996af48f0efd8efd8b570c4f43b8815f"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001172661-26-003463",
-    "source": "https://www.sec.gov/Archives/edgar/data/1825214/0001172661-26-003463.txt",
-    "distinct_positions": 300,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005189",
+    "source": "https://www.sec.gov/Archives/edgar/data/1825214/0001172661-26-005189.txt",
+    "distinct_positions": 308,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 4227347061.0,
+    "reported_long_equity_value_usd": 4072250225.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,23 +43,31 @@
         "security_class": "CLASS A COM STK",
         "issuer": "SPACE EXPLORATION TECHN CORP",
         "shares": 5678145.0,
-        "value_usd": 970167855.0,
-        "weight_pct": 22.95
+        "value_usd": 856604955.0,
+        "weight_pct": 21.04
       },
       {
-        "cusip": "253868103",
+        "cusip": "458140100",
         "security_class": "COM",
-        "issuer": "DIGITAL RLTY TR INC",
-        "shares": 1198100.0,
-        "value_usd": 215154798.0,
-        "weight_pct": 5.09
+        "issuer": "INTEL CORP",
+        "shares": 5000000.0,
+        "value_usd": 601150000.0,
+        "weight_pct": 14.76
+      },
+      {
+        "cusip": "78392B206",
+        "security_class": "AMERICAN DEPOSIT",
+        "issuer": "SK HYNIX INC",
+        "shares": 2000000.0,
+        "value_usd": 368300000.0,
+        "weight_pct": 9.04
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
         "shares": 400000.0,
-        "value_usd": 142948000.0,
+        "value_usd": 137632000.0,
         "weight_pct": 3.38
       },
       {
@@ -56,67 +75,59 @@
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
         "shares": 400000.0,
-        "value_usd": 141332000.0,
-        "weight_pct": 3.34
+        "value_usd": 136296000.0,
+        "weight_pct": 3.35
       },
       {
-        "cusip": "86800U302",
-        "security_class": "COM NEW",
-        "issuer": "SUPER MICRO COMPUTER INC",
-        "shares": 4365060.0,
-        "value_usd": 128027210.0,
-        "weight_pct": 3.03
-      },
-      {
-        "cusip": "58507V107",
-        "security_class": "COM CL A",
-        "issuer": "MEDLINE INC",
-        "shares": 3000000.0,
-        "value_usd": 118320000.0,
-        "weight_pct": 2.8
+        "cusip": "74340W103",
+        "security_class": "COM",
+        "issuer": "PROLOGIS INC.",
+        "shares": 750000.0,
+        "value_usd": 97380000.0,
+        "weight_pct": 2.39
       },
       {
         "cusip": "N97284108",
         "security_class": "SHS CLASS A",
         "issuer": "NEBIUS GROUP N.V.",
         "shares": 400000.0,
-        "value_usd": 110468000.0,
-        "weight_pct": 2.61
+        "value_usd": 94352000.0,
+        "weight_pct": 2.32
       },
       {
-        "cusip": "98422D105",
-        "security_class": "ADS",
-        "issuer": "XPENG INC",
-        "shares": 7500000.0,
-        "value_usd": 99300000.0,
-        "weight_pct": 2.35
+        "cusip": "34631F102",
+        "security_class": "COM SHS CL A",
+        "issuer": "FORGENT POWER SOLUTIONS INC",
+        "shares": 2500000.0,
+        "value_usd": 93600000.0,
+        "weight_pct": 2.3
       },
       {
-        "cusip": "051774107",
-        "security_class": "CLASS A COM",
-        "issuer": "AURORA INNOVATION INC",
-        "shares": 11906578.0,
-        "value_usd": 81202862.0,
-        "weight_pct": 1.92
-      },
-      {
-        "cusip": "025537101",
+        "cusip": "29250N105",
         "security_class": "COM",
-        "issuer": "AMERICAN ELEC PWR CO INC",
-        "shares": 500000.0,
-        "value_usd": 68405000.0,
-        "weight_pct": 1.62
+        "issuer": "ENBRIDGE INC",
+        "shares": 1853600.0,
+        "value_usd": 86173864.0,
+        "weight_pct": 2.12
+      },
+      {
+        "cusip": "500643200",
+        "security_class": "COM NEW",
+        "issuer": "KORN FERRY",
+        "shares": 900000.0,
+        "value_usd": 64431000.0,
+        "weight_pct": 1.58
       }
     ],
-    "top_five_pct": 37.79,
-    "top_ten_pct": 49.09,
-    "hhi": 639.77,
+    "top_five_pct": 51.57,
+    "top_ten_pct": 62.27,
+    "hhi": 804.33,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 231,
-      "exited_positions": 146,
-      "increased_positions": 18,
-      "reduced_positions": 26
+      "previous_period": "2026-06-30",
+      "new_positions": 103,
+      "exited_positions": 95,
+      "increased_positions": 5,
+      "reduced_positions": 31
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001172661-26-003463"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005189"
       }
     ]
   },
-  "reported_13f_value_usd": 4227347061.0,
+  "reported_13f_value_usd": 4072250225.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001172661-26-003463",
+  "validated_accession": "0001172661-26-005189",
   "annualized_turnover_proxy_pct": null
 }

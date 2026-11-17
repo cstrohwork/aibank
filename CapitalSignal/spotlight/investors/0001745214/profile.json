@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001745214",
   "investor_name": "ADW Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Miami Beach",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1745214/0001420506-25-003325.txt",
-    "https://www.sec.gov/Archives/edgar/data/1745214/0001420506-26-001724.txt"
+    "https://www.sec.gov/Archives/edgar/data/1745214/0001420506-26-001724.txt",
+    "https://www.sec.gov/Archives/edgar/data/1745214/0001420506-26-002772.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "fb686ec8b63f6b2da1d69cd18452e12ea0857e051ffc84323b2e898b33c60a06",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "d2b691ccceeada1c48827b48ce3c19ffecbb5cb3bc55eb80b036013d48fd8d15",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "7ea37b7a1999a9021d572625f1d50ae150f4edd1",
+    "b7d94fbc744600606a2cf0cfcf8f6f6c2e0ccda2",
+    "bba1ada26317dc8743cd35934be5c187cbb14e72"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001420506-26-001724",
-    "source": "https://www.sec.gov/Archives/edgar/data/1745214/0001420506-26-001724.txt",
-    "distinct_positions": 8,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002772",
+    "source": "https://www.sec.gov/Archives/edgar/data/1745214/0001420506-26-002772.txt",
+    "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 273922342.0,
+    "reported_long_equity_value_usd": 246544683.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,75 +43,67 @@
         "security_class": "COM",
         "issuer": "DRIVEN BRANDS HLDGS INC",
         "shares": 5000000.0,
-        "value_usd": 69700000.0,
-        "weight_pct": 25.45
-      },
-      {
-        "cusip": "00187Y100",
-        "security_class": "COM STK",
-        "issuer": "API GROUP CORP",
-        "shares": 1482110.0,
-        "value_usd": 62767359.0,
-        "weight_pct": 22.91
-      },
-      {
-        "cusip": "20451Q104",
-        "security_class": "SH BEN INT",
-        "issuer": "COMPASS DIVERSIFIED",
-        "shares": 3750000.0,
-        "value_usd": 39975000.0,
-        "weight_pct": 14.59
+        "value_usd": 59050000.0,
+        "weight_pct": 23.95
       },
       {
         "cusip": "36168Q104",
         "security_class": "SUB VTG SHS",
         "issuer": "GFL ENVIRONMENTAL INC",
         "shares": 1010000.0,
-        "value_usd": 37157900.0,
-        "weight_pct": 13.57
+        "value_usd": 42248300.0,
+        "weight_pct": 17.14
+      },
+      {
+        "cusip": "20451Q104",
+        "security_class": "SH BEN INT",
+        "issuer": "COMPASS DIVERSIFIED",
+        "shares": 3750000.0,
+        "value_usd": 40912500.0,
+        "weight_pct": 16.59
       },
       {
         "cusip": "85256A109",
         "security_class": "COM CL A",
         "issuer": "STAGWELL INC",
         "shares": 5001000.0,
-        "value_usd": 37157430.0,
-        "weight_pct": 13.56
+        "value_usd": 40708140.0,
+        "weight_pct": 16.51
+      },
+      {
+        "cusip": "00187Y100",
+        "security_class": "COM STK",
+        "issuer": "API GROUP CORP",
+        "shares": 1000000.0,
+        "value_usd": 38600000.0,
+        "weight_pct": 15.66
       },
       {
         "cusip": "00510N102",
         "security_class": "COM",
         "issuer": "TIC SOLUTIONS INC",
         "shares": 2000000.0,
-        "value_usd": 16180000.0,
-        "weight_pct": 5.91
+        "value_usd": 16640000.0,
+        "weight_pct": 6.75
       },
       {
         "cusip": "698884103",
         "security_class": "COM",
         "issuer": "PAR TECHNOLOGY CORP",
         "shares": 609429.0,
-        "value_usd": 10616253.0,
-        "weight_pct": 3.88
-      },
-      {
-        "cusip": "488152208",
-        "security_class": "CL A",
-        "issuer": "KELLY SVCS INC",
-        "shares": 30000.0,
-        "value_usd": 368400.0,
-        "weight_pct": 0.13
+        "value_usd": 8385743.0,
+        "weight_pct": 3.4
       }
     ],
-    "top_five_pct": 90.08,
+    "top_five_pct": 89.85,
     "top_ten_pct": 100.0,
-    "hhi": 1803.44,
+    "hhi": 1717.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 4,
-      "exited_positions": 3,
-      "increased_positions": 3,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -112,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001420506-26-001724"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002772"
       }
     ]
   },
-  "reported_13f_value_usd": 273922342.0,
+  "reported_13f_value_usd": 246544683.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001724",
+  "validated_accession": "0001420506-26-002772",
   "annualized_turnover_proxy_pct": null
 }

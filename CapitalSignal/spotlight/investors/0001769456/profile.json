@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001769456",
   "investor_name": "Invenomic Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BOSTON",
   "state": "MA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1769456/0001214659-25-016624.txt",
-    "https://www.sec.gov/Archives/edgar/data/1769456/0001214659-26-010369.txt"
+    "https://www.sec.gov/Archives/edgar/data/1769456/0001214659-26-010369.txt",
+    "https://www.sec.gov/Archives/edgar/data/1769456/0001214659-26-014352.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9b3a39e971af2b2d8fef20097b2363879a472e5ea5647b2f0a716a4fadb1a07f",
-  "generated_at": "2026-11-16T00:36:09.280466+00:00",
+  "source_fingerprint": "fc4da347b2ed8dcc08638d2bda8788cce9201b4787c001276ecdfd580312c92e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "212dd7e090cf85935da738403432b76cafa95eb0",
+    "808bae000f99fe15f84a50b062d2c20f98faa0b9",
+    "9ea79bb8495e069d7c2b11a56ddf77cc5f2de3fb"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001214659-26-010369",
-    "source": "https://www.sec.gov/Archives/edgar/data/1769456/0001214659-26-010369.txt",
-    "distinct_positions": 115,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001214659-26-014352",
+    "source": "https://www.sec.gov/Archives/edgar/data/1769456/0001214659-26-014352.txt",
+    "distinct_positions": 116,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1673962777.0,
+    "reported_long_equity_value_usd": 2036234851.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "37940X102",
-        "security_class": "COM",
-        "issuer": "GLOBAL PMTS INC",
-        "shares": 881579.0,
-        "value_usd": 63967372.0,
-        "weight_pct": 3.82
-      },
-      {
         "cusip": "913903100",
         "security_class": "CL B",
         "issuer": "UNIVERSAL HLTH SVCS INC",
-        "shares": 427264.0,
-        "value_usd": 63529884.0,
-        "weight_pct": 3.8
+        "shares": 456662.0,
+        "value_usd": 79577920.0,
+        "weight_pct": 3.91
       },
       {
-        "cusip": "98138H101",
+        "cusip": "37940X102",
+        "security_class": "COM",
+        "issuer": "GLOBAL PMTS INC",
+        "shares": 835167.0,
+        "value_usd": 68208089.0,
+        "weight_pct": 3.35
+      },
+      {
+        "cusip": "023939101",
+        "security_class": "COM",
+        "issuer": "AMENTUM HOLDINGS INC",
+        "shares": 3683718.0,
+        "value_usd": 66748970.0,
+        "weight_pct": 3.28
+      },
+      {
+        "cusip": "G8060N102",
+        "security_class": "SHS",
+        "issuer": "SENSATA TECHNOLOGIES HLDG PL",
+        "shares": 1493441.0,
+        "value_usd": 62067408.0,
+        "weight_pct": 3.05
+      },
+      {
+        "cusip": "380237107",
         "security_class": "CL A",
-        "issuer": "WORKDAY INC",
-        "shares": 476106.0,
-        "value_usd": 58284897.0,
-        "weight_pct": 3.48
+        "issuer": "GODADDY INC",
+        "shares": 592670.0,
+        "value_usd": 56605912.0,
+        "weight_pct": 2.78
       },
       {
-        "cusip": "24906P109",
+        "cusip": "681919106",
         "security_class": "COM",
-        "issuer": "DENTSPLY SIRONA INC",
-        "shares": 4909808.0,
-        "value_usd": 52093063.0,
-        "weight_pct": 3.11
-      },
-      {
-        "cusip": "78463M107",
-        "security_class": "COM",
-        "issuer": "SPS COMM INC",
-        "shares": 869410.0,
-        "value_usd": 49704170.0,
-        "weight_pct": 2.97
-      },
-      {
-        "cusip": "693656100",
-        "security_class": "COM",
-        "issuer": "PVH CORPORATION",
-        "shares": 575346.0,
-        "value_usd": 42725194.0,
-        "weight_pct": 2.55
-      },
-      {
-        "cusip": "075887109",
-        "security_class": "COM",
-        "issuer": "BECTON DICKINSON & CO",
-        "shares": 273182.0,
-        "value_usd": 41340632.0,
-        "weight_pct": 2.47
+        "issuer": "OMNICOM GROUP INC",
+        "shares": 747200.0,
+        "value_usd": 55016336.0,
+        "weight_pct": 2.7
       },
       {
         "cusip": "31620M106",
         "security_class": "COM",
         "issuer": "FIDELITY NATL INFORMATION SV",
-        "shares": 1060601.0,
-        "value_usd": 41236167.0,
-        "weight_pct": 2.46
+        "shares": 1648002.0,
+        "value_usd": 54219266.0,
+        "weight_pct": 2.66
       },
       {
         "cusip": "16119P108",
         "security_class": "CL A",
         "issuer": "CHARTER COMMUNICATIONS INC",
-        "shares": 282416.0,
-        "value_usd": 40162379.0,
-        "weight_pct": 2.4
+        "shares": 467348.0,
+        "value_usd": 51828893.0,
+        "weight_pct": 2.55
       },
       {
-        "cusip": "284902509",
+        "cusip": "693656100",
         "security_class": "COM",
-        "issuer": "ELDORADO GOLD CORP NEW",
-        "shares": 1157819.0,
-        "value_usd": 35996593.0,
-        "weight_pct": 2.15
+        "issuer": "PVH CORPORATION",
+        "shares": 676078.0,
+        "value_usd": 50063576.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "78463M107",
+        "security_class": "COM",
+        "issuer": "SPS COMM INC",
+        "shares": 602292.0,
+        "value_usd": 49652952.0,
+        "weight_pct": 2.44
       }
     ],
-    "top_five_pct": 17.18,
-    "top_ten_pct": 29.21,
-    "hhi": 165.71,
+    "top_five_pct": 16.36,
+    "top_ten_pct": 29.17,
+    "hhi": 168.13,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 54,
-      "exited_positions": 80,
-      "increased_positions": 27,
-      "reduced_positions": 32
+      "previous_period": "2026-06-30",
+      "new_positions": 37,
+      "exited_positions": 36,
+      "increased_positions": 46,
+      "reduced_positions": 30
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001214659-26-010369"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001214659-26-014352"
       }
     ]
   },
-  "reported_13f_value_usd": 1673962777.0,
+  "reported_13f_value_usd": 2036234851.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-26-010369",
+  "validated_accession": "0001214659-26-014352",
   "annualized_turnover_proxy_pct": null
 }

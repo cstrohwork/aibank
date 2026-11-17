@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001105087",
   "investor_name": "STADIUM CAPITAL MANAGEMENT LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New Canaan",
   "state": "CT",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1105087/0000935836-25-000705.txt",
-    "https://www.sec.gov/Archives/edgar/data/1105087/0000935836-26-000419.txt"
+    "https://www.sec.gov/Archives/edgar/data/1105087/0000935836-26-000419.txt",
+    "https://www.sec.gov/Archives/edgar/data/1105087/0000935836-26-000592.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "de36f05458e3232218c9bd920eeb6a91b7a084e33ba54d5aec86b09de994e536",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "dc6e8159d35009a4ccebe0774556b0f7fcecc156289df85c231482d74d210f10",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4e59e5d242a51d73e47422a262bc997f8c3a2d63",
+    "8c28cb5d3ac4e4077d495f832f8bad19bbb55053",
+    "d0e983fe2c833420f1278db8ffd685e878dd7468"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000935836-26-000419",
-    "source": "https://www.sec.gov/Archives/edgar/data/1105087/0000935836-26-000419.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000935836-26-000592",
+    "source": "https://www.sec.gov/Archives/edgar/data/1105087/0000935836-26-000592.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 21007579.0,
+    "reported_long_equity_value_usd": 10589328.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,28 +42,28 @@
         "cusip": "12008R107",
         "security_class": "Common Stock",
         "issuer": "BUILDERS FIRSTSOURCE INC",
-        "shares": 158894.0,
-        "value_usd": 14217835.0,
-        "weight_pct": 67.68
+        "shares": 118190.0,
+        "value_usd": 6738012.0,
+        "weight_pct": 63.63
       },
       {
         "cusip": "117043109",
         "security_class": "Common Stock",
         "issuer": "BRUNSWICK CORP",
-        "shares": 80600.0,
-        "value_usd": 6789744.0,
-        "weight_pct": 32.32
+        "shares": 59952.0,
+        "value_usd": 3851316.0,
+        "weight_pct": 36.37
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5625.13,
+    "hhi": 5371.57,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 2,
-      "exited_positions": 7,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 0
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -64,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000935836-26-000419"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000935836-26-000592"
       }
     ]
   },
-  "reported_13f_value_usd": 21007579.0,
+  "reported_13f_value_usd": 10589328.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000935836-26-000419",
+  "validated_accession": "0000935836-26-000592",
   "annualized_turnover_proxy_pct": null
 }

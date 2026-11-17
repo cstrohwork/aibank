@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001505639",
   "investor_name": "Crestview Partners II GP, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1505639/0000950142-25-002971.txt",
-    "https://www.sec.gov/Archives/edgar/data/1505639/0000950142-26-002333.txt"
+    "https://www.sec.gov/Archives/edgar/data/1505639/0000950142-26-002333.txt",
+    "https://www.sec.gov/Archives/edgar/data/1505639/0000950142-26-003059.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7874355df7740f785dba76b8f9637b04d7685ce61efa22e4a8fe0bfda155c927",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "6d13a065cd60557fed0a65455675763cca8aa43b1898b644e5cee6c0e359869e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1a02cfbf2ba6c386e5bf4ddd9385cec63021b7ac",
+    "8569d76c92d5bd4345fbc6984f891893d657191e",
+    "c412ab319000f63bfa2a4ab004e6b5545ca6e4be"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0000950142-26-002333",
-    "source": "https://www.sec.gov/Archives/edgar/data/1505639/0000950142-26-002333.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000950142-26-003059",
+    "source": "https://www.sec.gov/Archives/edgar/data/1505639/0000950142-26-003059.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 234770756.0,
+    "reported_long_equity_value_usd": 263474320.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,36 +42,36 @@
         "cusip": "92645B103",
         "security_class": "CL A COM",
         "issuer": "VICTORY CAPITAL HOLDINGS",
-        "shares": 1995847.0,
-        "value_usd": 167770899.0,
-        "weight_pct": 71.46
+        "shares": 1996417.0,
+        "value_usd": 220803720.0,
+        "weight_pct": 83.8
       },
       {
         "cusip": "81617J301",
         "security_class": "CL A COM",
         "issuer": "SELECT WATER SOLUTIONS INC",
-        "shares": 2615972.0,
-        "value_usd": 52267121.0,
-        "weight_pct": 22.26
+        "shares": 1666372.0,
+        "value_usd": 32977502.0,
+        "weight_pct": 12.52
       },
       {
         "cusip": "13462K109",
         "security_class": "CL A",
         "issuer": "CAMPING WORLD HLDGS INC",
         "shares": 1930896.0,
-        "value_usd": 14732736.0,
-        "weight_pct": 6.28
+        "value_usd": 9693098.0,
+        "weight_pct": 3.68
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5641.78,
+    "hhi": 7193.41,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 1,
-      "reduced_positions": 2
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -72,11 +83,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0000950142-26-002333"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000950142-26-003059"
       }
     ]
   },
-  "reported_13f_value_usd": 234770756.0,
+  "reported_13f_value_usd": 263474320.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000950142-26-002333",
+  "validated_accession": "0000950142-26-003059",
   "annualized_turnover_proxy_pct": null
 }

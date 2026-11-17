@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001755035",
+  "investor_name": "Index Venture Associates VI Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "ST. HELIER, CHANNEL ISLANDS",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1755035/0001193125-25-281635.txt",
+    "https://www.sec.gov/Archives/edgar/data/1755035/0001193125-26-350328.txt",
+    "https://www.sec.gov/Archives/edgar/data/1755035/0001193125-26-462158.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "83213cd508e7a235d7b864185b529cf0e762080f44b8aaa3c8f8c8c7ba3b3adc",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3b4068970d9d7655feeaf70c9490203471acc733",
+    "86f2030f41631b6954f2aed2247fdea227d4a7ed",
+    "b80289d4c45506fbe4567e67548c038c2ae41cfe"
+  ],
+  "generated_at": "2026-11-17T10:46:03.544470+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-462158",
+    "source": "https://www.sec.gov/Archives/edgar/data/1755035/0001193125-26-462158.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2004177065.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "316841105",
+        "security_class": "CLASS A COM STK",
+        "issuer": "FIGMA INC",
+        "shares": 51958069.0,
+        "value_usd": 1092158610.0,
+        "weight_pct": 54.49
+      },
+      {
+        "cusip": "770700102",
+        "security_class": "COM CL A",
+        "issuer": "ROBINHOOD MKTS INC",
+        "shares": 7233948.0,
+        "value_usd": 813819150.0,
+        "weight_pct": 40.61
+      },
+      {
+        "cusip": "947002101",
+        "security_class": "COM CL A",
+        "issuer": "WEALTHFRONT CORP",
+        "shares": 9460434.0,
+        "value_usd": 98199305.0,
+        "weight_pct": 4.9
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4642.48,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-281635"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001193125-26-350328"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-462158"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 2004177065.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-462158",
+  "annualized_turnover_proxy_pct": null
+}
