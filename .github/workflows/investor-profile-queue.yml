@@ -49,7 +49,9 @@ jobs:
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
-            # Reject syntax errors before touching any persisted profile pages.\n            python -m py_compile scripts/publish_investor_directory.py scripts/investor_profile_analytics.py\n            python scripts/publish_investor_directory.py --batch-size 2000
+            # Reject syntax errors before touching any persisted profile pages.
+            python -m py_compile scripts/publish_investor_directory.py scripts/investor_profile_analytics.py
+            python scripts/publish_investor_directory.py --batch-size 2000
             # Fail closed on an inconsistent checkpoint; never publish a
             # manifest that counts profiles whose pages are absent.
             python -c 'import json; from pathlib import Path; r=Path("CapitalSignal/spotlight/investors"); m=json.loads((r/"manifest.json").read_text()); p=m["profiles"]; assert m["generated_count"]==len(p); assert m["pending_active_count"]+m["completed_current_version_count"]==m["cached_investor_count"]; assert m["never_published_remaining"]+m["refresh_remaining"]==m["pending_active_count"]; assert all(len(c)==10 and c.isdigit() and (r/c/"profile.json").exists() and (r/c/"index.html").exists() for c in p); print("Checkpoint validated:", m["changed_this_run"], "processed,", m["pending_active_count"], "pending")'
