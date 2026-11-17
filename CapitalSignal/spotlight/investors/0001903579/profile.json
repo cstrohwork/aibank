@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001903579",
   "investor_name": "Wilson & Boucher Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-19",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MORAGA",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1903579/0001903579-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1903579/0001903579-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1903579/0001903579-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1903579/0001903579-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "d85452012878d2669d739234b198d4ee8a1b0bfa9965034ecff3eb3c5a7f4f40",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "8b5e56d55a7c2ba3e69ff3ee39166c07c0392db686a132fef30fa92de3824be3",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-22|||",
+    "2026-06-30|2026-08-19|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0f40ca37ed1f3859c434e07e1e51861f0e654efa",
+    "2730a56bd215da3e50637c6c071af25004e2563b",
+    "d6d053bc7f1615dcd82794c384f6545a6893b29d"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-19",
-    "accession": "0001903579-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1903579/0001903579-26-000003.txt",
-    "distinct_positions": 121,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001903579-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1903579/0001903579-26-000005.txt",
+    "distinct_positions": 122,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 170398696.0,
+    "reported_long_equity_value_usd": 167963983.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "922908769",
         "security_class": "Common",
         "issuer": "Vanguard Total Stock Mkt ETF",
-        "shares": 51875.0,
-        "value_usd": 19195791.0,
-        "weight_pct": 11.27
+        "shares": 51698.0,
+        "value_usd": 19347425.0,
+        "weight_pct": 11.52
       },
       {
         "cusip": "037833100",
         "security_class": "Common",
         "issuer": "Apple",
-        "shares": 33268.0,
-        "value_usd": 9626347.0,
-        "weight_pct": 5.65
+        "shares": 33031.0,
+        "value_usd": 11000120.0,
+        "weight_pct": 6.55
       },
       {
         "cusip": "808524102",
         "security_class": "Common",
         "issuer": "Schwab US Broad Market ETF",
-        "shares": 253826.0,
-        "value_usd": 7350788.0,
-        "weight_pct": 4.31
+        "shares": 253626.0,
+        "value_usd": 7433781.0,
+        "weight_pct": 4.43
       },
       {
         "cusip": "922042775",
         "security_class": "Common",
         "issuer": "Vanguard FTSE All-World Ex-US",
-        "shares": 77963.0,
-        "value_usd": 6529365.0,
-        "weight_pct": 3.83
-      },
-      {
-        "cusip": "149123101",
-        "security_class": "Common",
-        "issuer": "Caterpillar",
-        "shares": 5802.0,
-        "value_usd": 6178997.0,
-        "weight_pct": 3.63
+        "shares": 79563.0,
+        "value_usd": 6601307.0,
+        "weight_pct": 3.93
       },
       {
         "cusip": "922908751",
         "security_class": "Common",
         "issuer": "Vanguard Index Small Cap ETF",
-        "shares": 19197.0,
-        "value_usd": 5819114.0,
-        "weight_pct": 3.41
+        "shares": 19097.0,
+        "value_usd": 5433018.0,
+        "weight_pct": 3.23
       },
       {
-        "cusip": "922908629",
+        "cusip": "149123101",
         "security_class": "Common",
-        "issuer": "Vanguard Mid Cap Index ETF",
-        "shares": 60403.0,
-        "value_usd": 4866660.0,
-        "weight_pct": 2.86
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "Common",
-        "issuer": "Applied Materials",
-        "shares": 6224.0,
-        "value_usd": 4499937.0,
-        "weight_pct": 2.64
+        "issuer": "Caterpillar",
+        "shares": 5793.0,
+        "value_usd": 4697262.0,
+        "weight_pct": 2.8
       },
       {
         "cusip": "922908744",
         "security_class": "Common",
         "issuer": "Vanguard Value ETF",
-        "shares": 20491.0,
-        "value_usd": 4465539.0,
-        "weight_pct": 2.62
+        "shares": 21711.0,
+        "value_usd": 4691266.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "922908629",
+        "security_class": "Common",
+        "issuer": "Vanguard Mid Cap Index ETF",
+        "shares": 59703.0,
+        "value_usd": 4681900.0,
+        "weight_pct": 2.79
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "Common",
+        "issuer": "Vanguard Total World",
+        "shares": 26670.0,
+        "value_usd": 4209801.0,
+        "weight_pct": 2.51
       },
       {
         "cusip": "922908736",
         "security_class": "Common",
         "issuer": "Vanguard Index Growth ETF",
-        "shares": 44494.0,
-        "value_usd": 3832691.0,
-        "weight_pct": 2.25
+        "shares": 44614.0,
+        "value_usd": 4020188.0,
+        "weight_pct": 2.39
       }
     ],
-    "top_five_pct": 28.69,
-    "top_ten_pct": 42.47,
-    "hhi": 295.44,
+    "top_five_pct": 29.66,
+    "top_ten_pct": 42.94,
+    "hhi": 307.04,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 6,
-      "increased_positions": 26,
-      "reduced_positions": 68
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 2,
+      "increased_positions": 22,
+      "reduced_positions": 40
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-19",
         "accession": "0001903579-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001903579-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 170398696.0,
+  "reported_13f_value_usd": 167963983.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001903579-26-000003",
+  "validated_accession": "0001903579-26-000005",
   "annualized_turnover_proxy_pct": null
 }

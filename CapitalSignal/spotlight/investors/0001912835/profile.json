@@ -2,7 +2,7 @@
   "manager_cik": "0001912835",
   "investor_name": "COMMONS CAPITAL, LLC",
   "latest_report_date": "2026-09-30",
-  "filing_date": "2026-11-13",
+  "filing_date": "2026-11-16",
   "city": "NEEDHAM",
   "state": "MA",
   "country": "United States",
@@ -11,113 +11,123 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1912835/0001951757-25-001395.txt",
     "https://www.sec.gov/Archives/edgar/data/1912835/0001951757-26-001083.txt",
-    "https://www.sec.gov/Archives/edgar/data/1912835/0001951757-26-001881.txt"
+    "https://www.sec.gov/Archives/edgar/data/1912835/0001951757-26-001978.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a77349ae0a83df663299a9841c34c84d634bcbb1772cc335b5e22645ca27f158",
-  "generated_at": "2026-11-16T06:17:23.526016+00:00",
+  "source_fingerprint": "ff7d42f5ca7bd45492cb771c4fd59f032f3b1e6fa4e536e0720c9e83dd826b9f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-07-30|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "30c210bf1df8880a33241c7d153b47183a7383e2",
+    "83f0fb8229f74b3440c2991e7b2be8afb39373ac",
+    "fb0e829a7b30fccb359338c2ad051ba0d5a5183c"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-09-30",
-    "filing_date": "2026-11-13",
-    "accession": "0001951757-26-001881",
-    "source": "https://www.sec.gov/Archives/edgar/data/1912835/0001951757-26-001881.txt",
-    "distinct_positions": 94,
+    "filing_date": "2026-11-16",
+    "accession": "0001951757-26-001978",
+    "source": "https://www.sec.gov/Archives/edgar/data/1912835/0001951757-26-001978.txt",
+    "distinct_positions": 88,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 429649138.0,
+    "reported_long_equity_value_usd": 147704528.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "45783Y855",
-        "security_class": "DEFINED WLT SHLD",
-        "issuer": "INNOVATOR ETFS TRUST",
-        "shares": 1003151.0,
-        "value_usd": 35060138.0,
-        "weight_pct": 8.16
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 95104.0,
+        "value_usd": 21719833.0,
+        "weight_pct": 14.7
       },
       {
-        "cusip": "45782C524",
-        "security_class": "INTRNL DEV JAN",
-        "issuer": "INNOVATOR ETFS TRUST",
-        "shares": 825796.0,
-        "value_usd": 31718824.0,
-        "weight_pct": 7.38
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 35001.0,
+        "value_usd": 11655950.0,
+        "weight_pct": 7.89
       },
       {
-        "cusip": "922042742",
-        "security_class": "TT WRLD ST ETF",
-        "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 200623.0,
-        "value_usd": 31668318.0,
-        "weight_pct": 7.37
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 30217.0,
+        "value_usd": 10397051.0,
+        "weight_pct": 7.04
       },
       {
-        "cusip": "45782C474",
-        "security_class": "US SML CP PWR B",
-        "issuer": "INNOVATOR ETFS TRUST",
-        "shares": 606390.0,
-        "value_usd": 27618154.0,
-        "weight_pct": 6.43
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 28227.0,
+        "value_usd": 9912878.0,
+        "weight_pct": 6.71
       },
       {
-        "cusip": "808524300",
-        "security_class": "US LCAP GR ETF",
-        "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 682197.0,
-        "value_usd": 24511336.0,
-        "weight_pct": 5.7
+        "cusip": "697435105",
+        "security_class": "COM",
+        "issuer": "PALO ALTO NETWORKS INC",
+        "shares": 20061.0,
+        "value_usd": 7970436.0,
+        "weight_pct": 5.4
       },
       {
-        "cusip": "922908769",
-        "security_class": "MRNGSTR TTL STK",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 61750.0,
-        "value_usd": 23109352.0,
-        "weight_pct": 5.38
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 29926.0,
+        "value_usd": 7456144.0,
+        "weight_pct": 5.05
       },
       {
-        "cusip": "808524508",
-        "security_class": "US MID-CAP ETF",
-        "issuer": "SCHWAB STRATEGIC TR",
-        "shares": 672875.0,
-        "value_usd": 22891194.0,
-        "weight_pct": 5.33
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 11972.0,
+        "value_usd": 6140221.0,
+        "weight_pct": 4.16
       },
       {
-        "cusip": "25434V666",
-        "security_class": "US LARG VALU ETF",
-        "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 557080.0,
-        "value_usd": 22377906.0,
-        "weight_pct": 5.21
+        "cusip": "22788C105",
+        "security_class": "CL A",
+        "issuer": "CROWDSTRIKE HLDGS INC",
+        "shares": 21427.0,
+        "value_usd": 5672798.0,
+        "weight_pct": 3.84
       },
       {
-        "cusip": "69374H857",
-        "security_class": "US SM CAP CA ETF",
-        "issuer": "PACER FDS TR",
-        "shares": 404982.0,
-        "value_usd": 21577437.0,
-        "weight_pct": 5.02
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 5273.0,
+        "value_usd": 3824100.0,
+        "weight_pct": 2.59
       },
       {
-        "cusip": "92206C409",
-        "security_class": "SHRT TRM CORP BD",
-        "issuer": "VANGUARD SCOTTSDALE FDS",
-        "shares": 248696.0,
-        "value_usd": 19211768.0,
-        "weight_pct": 4.47
+        "cusip": "40412C101",
+        "security_class": "COM",
+        "issuer": "HCA HEALTHCARE INC",
+        "shares": 8898.0,
+        "value_usd": 3797133.0,
+        "weight_pct": 2.57
       }
     ],
-    "top_five_pct": 35.05,
-    "top_ten_pct": 60.46,
-    "hhi": 446.17,
+    "top_five_pct": 41.74,
+    "top_ten_pct": 59.95,
+    "hhi": 512.21,
     "changes": {
       "previous_period": "2026-06-30",
-      "new_positions": 80,
-      "exited_positions": 81,
-      "increased_positions": 5,
-      "reduced_positions": 9
+      "new_positions": 6,
+      "exited_positions": 13,
+      "increased_positions": 26,
+      "reduced_positions": 42
     },
     "timeline": [
       {
@@ -132,13 +142,13 @@
       },
       {
         "report_date": "2026-09-30",
-        "filing_date": "2026-11-13",
-        "accession": "0001951757-26-001881"
+        "filing_date": "2026-11-16",
+        "accession": "0001951757-26-001978"
       }
     ]
   },
-  "reported_13f_value_usd": 429649138.0,
+  "reported_13f_value_usd": 147704528.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001951757-26-001881",
+  "validated_accession": "0001951757-26-001978",
   "annualized_turnover_proxy_pct": null
 }

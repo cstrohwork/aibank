@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002112006",
   "investor_name": "MCGUIRE CAPITAL ADVISORS INC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BETHANY",
   "state": "OK",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2112006/0002112006-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2112006/0002112006-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2112006/0002112006-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9ff263a7d7e57d359f510a84ccdb3e809a99908a73c740fb9bfb80ba74b5f2b7",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "cb3bd3e7fb549fc1345b940076dac946b0741d6cae0605585978c03ebca18710",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2a6edd6e2cb48bf20d9de3c82ca5d046e187bd91",
+    "928d1b79058d9d611e13fd6db65022ec1bcaf546"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002112006-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2112006/0002112006-26-000004.txt",
-    "distinct_positions": 915,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002112006-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2112006/0002112006-26-000005.txt",
+    "distinct_positions": 827,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 183330658.0,
+    "reported_long_equity_value_usd": 202949348.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 186077.0,
-        "value_usd": 37232188.0,
-        "weight_pct": 20.31
+        "shares": 209760.0,
+        "value_usd": 47905076.0,
+        "weight_pct": 23.6
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 23446.0,
-        "value_usd": 6784463.0,
-        "weight_pct": 3.7
+        "shares": 27454.0,
+        "value_usd": 9142607.0,
+        "weight_pct": 4.5
       },
       {
-        "cusip": "92189F676",
-        "security_class": "SEMICONDUCTR ETF",
-        "issuer": "VANECK ETF TRUST",
-        "shares": 8750.0,
-        "value_usd": 5739274.0,
-        "weight_pct": 3.13
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 37561.0,
+        "value_usd": 6113117.0,
+        "weight_pct": 3.01
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 7090.0,
-        "value_usd": 5294896.0,
-        "weight_pct": 2.89
+        "shares": 6543.0,
+        "value_usd": 4989921.0,
+        "weight_pct": 2.46
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 9534.0,
+        "value_usd": 4890018.0,
+        "weight_pct": 2.41
       },
       {
         "cusip": "595112103",
         "security_class": "COM",
         "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 4571.0,
-        "value_usd": 5276601.0,
-        "weight_pct": 2.88
-      },
-      {
-        "cusip": "007903107",
-        "security_class": "COM",
-        "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 8493.0,
-        "value_usd": 4933669.0,
-        "weight_pct": 2.69
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 11718.0,
-        "value_usd": 4928591.0,
-        "weight_pct": 2.69
-      },
-      {
-        "cusip": "30231G102",
-        "security_class": "COM",
-        "issuer": "EXXON MOBIL CORP",
-        "shares": 35130.0,
-        "value_usd": 4802926.0,
-        "weight_pct": 2.62
-      },
-      {
-        "cusip": "46090E103",
-        "security_class": "UNIT SER 1",
-        "issuer": "INVESCO QQQ TR",
-        "shares": 5950.0,
-        "value_usd": 4381677.0,
+        "shares": 4560.0,
+        "value_usd": 4857096.0,
         "weight_pct": 2.39
       },
       {
-        "cusip": "149123101",
+        "cusip": "931142103",
         "security_class": "COM",
-        "issuer": "CATERPILLAR INC",
-        "shares": 3808.0,
-        "value_usd": 4055585.0,
-        "weight_pct": 2.21
+        "issuer": "WALMART INC",
+        "shares": 45813.0,
+        "value_usd": 4760851.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 13834.0,
+        "value_usd": 4759877.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "92189F676",
+        "security_class": "SEMICONDUCTR ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 7602.0,
+        "value_usd": 4629645.0,
+        "weight_pct": 2.28
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 18170.0,
+        "value_usd": 4527126.0,
+        "weight_pct": 2.23
       }
     ],
-    "top_five_pct": 32.91,
-    "top_ten_pct": 45.51,
-    "hhi": 532.28,
-    "changes": null,
+    "top_five_pct": 35.99,
+    "top_ten_pct": 47.59,
+    "hhi": 678.31,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 68,
+      "exited_positions": 156,
+      "increased_positions": 126,
+      "reduced_positions": 191
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002112006-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002112006-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 183330658.0,
+  "reported_13f_value_usd": 202949348.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002112006-26-000004",
+  "validated_accession": "0002112006-26-000005",
   "annualized_turnover_proxy_pct": null
 }

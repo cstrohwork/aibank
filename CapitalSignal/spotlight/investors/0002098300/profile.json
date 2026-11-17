@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002098300",
   "investor_name": "SWP Investment Management LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-02",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "INDEPENDENCE",
   "state": "OH",
   "country": "United States",
@@ -12,20 +12,35 @@
     "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000003.txt",
     "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000004.txt",
     "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "84511d02654a320b0e036af800b677d644f1b491d4f11398f6800c49717ed963",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "470996c5852728076464e7811f03f237f395786cf453f68b81ab0dc0c05b0c70",
+  "accession_fingerprints": [
+    "2025-09-30|2026-07-01|||",
+    "2025-12-31|2026-07-01|||",
+    "2026-03-31|2026-07-01|||",
+    "2026-06-30|2026-07-02|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "33c4e33034af2315c697d02c80af4531b29ed318",
+    "6ec9b6476e912489ab1384e90651e096284f726c",
+    "888afb1bec04d1d73786450d60175147f43fadc0",
+    "a6c9aedc6a53064d54ffcf61b540e675799bfb67",
+    "e410024762747e8a01d238bd437229aecebb6115"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-02",
-    "accession": "0002098300-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000008.txt",
-    "distinct_positions": 43,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002098300-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/2098300/0002098300-26-000009.txt",
+    "distinct_positions": 41,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 144783920.0,
+    "reported_long_equity_value_usd": 142374136.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -33,92 +48,92 @@
         "cusip": "594918104",
         "security_class": "Stock",
         "issuer": "MICROSOFT CORP COM",
-        "shares": 21041.0,
-        "value_usd": 7848714.0,
-        "weight_pct": 5.42
+        "shares": 15863.0,
+        "value_usd": 8136133.0,
+        "weight_pct": 5.71
       },
       {
         "cusip": "037833100",
         "security_class": "Stock",
         "issuer": "APPLE INC COM",
-        "shares": 21036.0,
-        "value_usd": 6086977.0,
-        "weight_pct": 4.2
+        "shares": 20316.0,
+        "value_usd": 6765634.0,
+        "weight_pct": 4.75
       },
       {
-        "cusip": "11135F101",
+        "cusip": "67066G104",
         "security_class": "Stock",
-        "issuer": "BROADCOM INC COM",
-        "shares": 15760.0,
-        "value_usd": 5953340.0,
-        "weight_pct": 4.11
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "Stock",
-        "issuer": "ALPHABET INC CAP STK CL A",
-        "shares": 15255.0,
-        "value_usd": 5451679.0,
-        "weight_pct": 3.77
-      },
-      {
-        "cusip": "459200101",
-        "security_class": "Stock",
-        "issuer": "INTERNATIONAL BUSINESS MACHS COM",
-        "shares": 17129.0,
-        "value_usd": 4816846.0,
-        "weight_pct": 3.33
+        "issuer": "NVIDIA CORPORATION COM",
+        "shares": 28297.0,
+        "value_usd": 6462469.0,
+        "weight_pct": 4.54
       },
       {
         "cusip": "30303M102",
         "security_class": "Stock",
         "issuer": "META PLATFORMS INC CL A",
-        "shares": 8124.0,
-        "value_usd": 4576168.0,
-        "weight_pct": 3.16
+        "shares": 7923.0,
+        "value_usd": 5745601.0,
+        "weight_pct": 4.04
       },
       {
-        "cusip": "911363109",
+        "cusip": "11135F101",
         "security_class": "Stock",
-        "issuer": "UNITED RENTALS INC COM",
-        "shares": 3742.0,
-        "value_usd": 4239274.0,
-        "weight_pct": 2.93
+        "issuer": "BROADCOM INC COM",
+        "shares": 15131.0,
+        "value_usd": 5313856.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "459200101",
+        "security_class": "Stock",
+        "issuer": "INTERNATIONAL BUSINESS MACHS COM",
+        "shares": 22898.0,
+        "value_usd": 5035957.0,
+        "weight_pct": 3.54
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 14615.0,
+        "value_usd": 5028729.0,
+        "weight_pct": 3.53
       },
       {
         "cusip": "718172109",
         "security_class": "Stock",
         "issuer": "PHILIP MORRIS INTL INC COM",
-        "shares": 22755.0,
-        "value_usd": 4116607.0,
-        "weight_pct": 2.84
+        "shares": 22626.0,
+        "value_usd": 4317493.0,
+        "weight_pct": 3.03
       },
       {
-        "cusip": "68389X105",
+        "cusip": "46625H100",
         "security_class": "Stock",
-        "issuer": "ORACLE CORP COM",
-        "shares": 27273.0,
-        "value_usd": 3996858.0,
-        "weight_pct": 2.76
+        "issuer": "JPMORGAN CHASE & CO COM",
+        "shares": 11946.0,
+        "value_usd": 3952095.0,
+        "weight_pct": 2.78
       },
       {
-        "cusip": "74340W103",
-        "security_class": "REIT",
-        "issuer": "PROLOGIS INC. COM",
-        "shares": 29236.0,
-        "value_usd": 3960601.0,
+        "cusip": "872540109",
+        "security_class": "Stock",
+        "issuer": "TJX COS INC NEW COM",
+        "shares": 29484.0,
+        "value_usd": 3901028.0,
         "weight_pct": 2.74
       }
     ],
-    "top_five_pct": 20.83,
-    "top_ten_pct": 35.26,
-    "hhi": 262.25,
+    "top_five_pct": 22.77,
+    "top_ten_pct": 38.39,
+    "hhi": 281.97,
     "changes": {
-      "previous_period": "2026-03-31",
-      "new_positions": 4,
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
       "exited_positions": 7,
-      "increased_positions": 38,
-      "reduced_positions": 1
+      "increased_positions": 5,
+      "reduced_positions": 31
     },
     "timeline": [
       {
@@ -140,11 +155,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-02",
         "accession": "0002098300-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002098300-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 144783920.0,
+  "reported_13f_value_usd": 142374136.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002098300-26-000008",
+  "validated_accession": "0002098300-26-000009",
   "annualized_turnover_proxy_pct": null
 }

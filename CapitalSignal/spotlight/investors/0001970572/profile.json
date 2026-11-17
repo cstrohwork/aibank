@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001970572",
   "investor_name": "DSC Meridian Capital LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1970572/0001970572-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1970572/0001970572-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1970572/0001970572-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1970572/0001970572-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c092ece738f9b9fe5b10fcecfdda03978c864fed3b6a82b33459dc5939c9f44c",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "f05e468ca613fd3d1de3e176c16c5543e2afbf79060bd543d27578ec305d5452",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "74d4c1fdc57f58d45e5057997aeaa19b96befbb8",
+    "78925646884478f4eae2afbc6d3ba29cd1d22e00",
+    "ce725f7247143390ce3c7fef6822ea14fdf749f8"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001970572-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1970572/0001970572-26-000005.txt",
-    "distinct_positions": 11,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001970572-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1970572/0001970572-26-000007.txt",
+    "distinct_positions": 9,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 303883575.0,
+    "reported_long_equity_value_usd": 233118878.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,84 @@
         "cusip": "40054J109",
         "security_class": "SPONSORED ADS",
         "issuer": "GRUPO AEROMEXICO SAB DE CV",
-        "shares": 2851895.0,
-        "value_usd": 51334110.0,
-        "weight_pct": 16.89
+        "shares": 3363663.0,
+        "value_usd": 53112239.0,
+        "weight_pct": 22.78
       },
       {
         "cusip": "05501U601",
         "security_class": "SPONSORED ADS",
         "issuer": "AZUL S A",
         "shares": 5474847.0,
-        "value_usd": 49218875.0,
-        "weight_pct": 16.2
-      },
-      {
-        "cusip": "21874A106",
-        "security_class": "COM",
-        "issuer": "CORE SCIENTIFIC INC NEW",
-        "shares": 1905252.0,
-        "value_usd": 48755399.0,
-        "weight_pct": 16.04
-      },
-      {
-        "cusip": "46435U853",
-        "security_class": "BROAD USD HIGH",
-        "issuer": "ISHARES TR",
-        "shares": 1181455.0,
-        "value_usd": 43737464.0,
-        "weight_pct": 14.39
+        "value_usd": 43251291.0,
+        "weight_pct": 18.55
       },
       {
         "cusip": "46138G508",
         "security_class": "SR LN ETF",
         "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 2132742.0,
-        "value_usd": 43443955.0,
-        "weight_pct": 14.3
+        "shares": 1634975.0,
+        "value_usd": 33402539.0,
+        "weight_pct": 14.33
+      },
+      {
+        "cusip": "46435U853",
+        "security_class": "BROAD USD HIGH",
+        "issuer": "ISHARES TR",
+        "shares": 847573.0,
+        "value_usd": 30275308.0,
+        "weight_pct": 12.99
+      },
+      {
+        "cusip": "21874A106",
+        "security_class": "COM",
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "shares": 1500000.0,
+        "value_usd": 23970000.0,
+        "weight_pct": 10.28
       },
       {
         "cusip": "92840M102",
         "security_class": "COM",
         "issuer": "VISTRA CORP",
         "shares": 147699.0,
-        "value_usd": 23429492.0,
-        "weight_pct": 7.71
-      },
-      {
-        "cusip": "285512109",
-        "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS INC",
-        "shares": 64241.0,
-        "value_usd": 13171975.0,
-        "weight_pct": 4.33
+        "value_usd": 20434157.0,
+        "weight_pct": 8.77
       },
       {
         "cusip": "878742204",
         "security_class": "CL B",
         "issuer": "TECK RESOURCES LTD",
         "shares": 197240.0,
-        "value_usd": 11727890.0,
-        "weight_pct": 3.86
+        "value_usd": 12976420.0,
+        "weight_pct": 5.57
+      },
+      {
+        "cusip": "629377508",
+        "security_class": "COM NEW",
+        "issuer": "NRG ENERGY INC",
+        "shares": 85000.0,
+        "value_usd": 8130250.0,
+        "weight_pct": 3.49
       },
       {
         "cusip": "77311W101",
         "security_class": "COM CL A",
         "issuer": "ROCKET COS INC",
         "shares": 657400.0,
-        "value_usd": 10354050.0,
-        "weight_pct": 3.41
-      },
-      {
-        "cusip": "12769G100",
-        "security_class": "COM",
-        "issuer": "CAESARS ENTERTAINMENT INC NE",
-        "shares": 165000.0,
-        "value_usd": 4979700.0,
-        "weight_pct": 1.64
+        "value_usd": 7566674.0,
+        "weight_pct": 3.25
       }
     ],
-    "top_five_pct": 77.82,
-    "top_ten_pct": 98.77,
-    "hhi": 1325.57,
+    "top_five_pct": 78.93,
+    "top_ten_pct": 100.0,
+    "hhi": 1473.52,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 3,
-      "increased_positions": 3,
-      "reduced_positions": 2
+      "increased_positions": 1,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -128,11 +131,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001970572-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001970572-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 303883575.0,
+  "reported_13f_value_usd": 233118878.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001970572-26-000005",
+  "validated_accession": "0001970572-26-000007",
   "annualized_turnover_proxy_pct": null
 }

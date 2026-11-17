@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001811568",
   "investor_name": "Investment Management Corp of Ontario",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Toronto",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1811568/0001999371-25-017736.txt",
-    "https://www.sec.gov/Archives/edgar/data/1811568/0001999371-26-018010.txt"
+    "https://www.sec.gov/Archives/edgar/data/1811568/0001999371-26-018010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1811568/0001999371-26-025511.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "aae3da75665f7a74be0e6404807092e7c6f3dc45862be8b52ee80fca3d836189",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "7910321bd60e2d7b77f4c25ed657c8976162f32eda02b543bd379d9ffee15141",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "837295987654c81cd5203ff46e888580a1698a19",
+    "9d9af7602cbcf34b02799c7087c016d70f6a7f20",
+    "c26b0840cdc734b8d44172b385ae272dc79b61b6"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001999371-26-018010",
-    "source": "https://www.sec.gov/Archives/edgar/data/1811568/0001999371-26-018010.txt",
-    "distinct_positions": 657,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001999371-26-025511",
+    "source": "https://www.sec.gov/Archives/edgar/data/1811568/0001999371-26-025511.txt",
+    "distinct_positions": 656,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 7900251745.0,
+    "reported_long_equity_value_usd": 7368017148.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 2263172.0,
-        "value_usd": 452838085.0,
-        "weight_pct": 5.73
+        "shares": 2001357.0,
+        "value_usd": 457069912.0,
+        "weight_pct": 6.2
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 1421425.0,
-        "value_usd": 411303538.0,
-        "weight_pct": 5.21
+        "shares": 1282399.0,
+        "value_usd": 427064515.0,
+        "weight_pct": 5.8
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 646901.0,
-        "value_usd": 241307011.0,
-        "weight_pct": 3.05
+        "shares": 590033.0,
+        "value_usd": 302627926.0,
+        "weight_pct": 4.11
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 923426.0,
-        "value_usd": 220089353.0,
-        "weight_pct": 2.79
-      },
-      {
-        "cusip": "46138G508",
-        "security_class": "SR LN ETF",
-        "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 9154385.0,
-        "value_usd": 186474822.0,
-        "weight_pct": 2.36
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 518053.0,
-        "value_usd": 185136601.0,
-        "weight_pct": 2.34
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 448555.0,
-        "value_usd": 158487938.0,
-        "weight_pct": 2.01
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 411473.0,
-        "value_usd": 155433926.0,
-        "weight_pct": 1.97
+        "shares": 822361.0,
+        "value_usd": 204891243.0,
+        "weight_pct": 2.78
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 183906.0,
-        "value_usd": 137725364.0,
-        "weight_pct": 1.74
+        "shares": 207306.0,
+        "value_usd": 158765300.0,
+        "weight_pct": 2.15
       },
       {
-        "cusip": "595112103",
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 451840.0,
+        "value_usd": 155469107.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "46138G508",
+        "security_class": "SR LN ETF",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 6873530.0,
+        "value_usd": 140426218.0,
+        "weight_pct": 1.91
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 405159.0,
+        "value_usd": 138053878.0,
+        "weight_pct": 1.87
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 182959.0,
+        "value_usd": 132678208.0,
+        "weight_pct": 1.8
+      },
+      {
+        "cusip": "11135F101",
         "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 113368.0,
-        "value_usd": 130859549.0,
-        "weight_pct": 1.66
+        "issuer": "BROADCOM INC",
+        "shares": 363999.0,
+        "value_usd": 127832809.0,
+        "weight_pct": 1.73
       }
     ],
-    "top_five_pct": 19.14,
-    "top_ten_pct": 28.86,
-    "hhi": 129.74,
+    "top_five_pct": 21.04,
+    "top_ten_pct": 30.47,
+    "hhi": 144.9,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 77,
-      "exited_positions": 59,
-      "increased_positions": 462,
-      "reduced_positions": 115
+      "previous_period": "2026-06-30",
+      "new_positions": 23,
+      "exited_positions": 24,
+      "increased_positions": 109,
+      "reduced_positions": 519
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001999371-26-018010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001999371-26-025511"
       }
     ]
   },
-  "reported_13f_value_usd": 7900251745.0,
+  "reported_13f_value_usd": 7368017148.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001999371-26-018010",
+  "validated_accession": "0001999371-26-025511",
   "annualized_turnover_proxy_pct": null
 }

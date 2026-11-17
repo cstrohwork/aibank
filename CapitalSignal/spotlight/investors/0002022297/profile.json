@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002022297",
   "investor_name": "Federation des caisses Desjardins du Quebec",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LEVIS",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2022297/0002022297-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/2022297/0002022297-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/2022297/0002022297-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/2022297/0002022297-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "496e813bedfb35f08d0ad197102c19909598fe1dc406409cb659dfedf11f4f3a",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "a1c97d143e82eda76161b114d650cc9c906df3533162e5f572ed10033ed4edf2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1cfcb0b46fcfdd60210f096db8551a7873b96505",
+    "4ac02cfe76281960f022249f8c7b00c9c36d7c0a",
+    "71487422cb249e87bd4feb7f416f2ab96329e241"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002022297-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/2022297/0002022297-26-000007.txt",
-    "distinct_positions": 3020,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002022297-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/2022297/0002022297-26-000010.txt",
+    "distinct_positions": 3058,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 32443972201.0,
+    "reported_long_equity_value_usd": 33943578960.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "780087102",
         "security_class": "COM",
         "issuer": "ROYAL BK CDA",
-        "shares": 13071369.0,
-        "value_usd": 2695312709.0,
-        "weight_pct": 8.31
+        "shares": 12782821.0,
+        "value_usd": 2515103928.0,
+        "weight_pct": 7.41
       },
       {
         "cusip": "891160509",
         "security_class": "COM NEW",
         "issuer": "TORONTO DOMINION BK ONT",
-        "shares": 10284968.0,
-        "value_usd": 1243557092.0,
-        "weight_pct": 3.83
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 4235158.0,
-        "value_usd": 847354222.0,
-        "weight_pct": 2.61
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 2833399.0,
-        "value_usd": 819833738.0,
-        "weight_pct": 2.53
+        "shares": 14782531.0,
+        "value_usd": 1742391729.0,
+        "weight_pct": 5.13
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 2000430.0,
-        "value_usd": 746181912.0,
-        "weight_pct": 2.3
+        "shares": 2104866.0,
+        "value_usd": 1079577381.0,
+        "weight_pct": 3.18
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 4505466.0,
+        "value_usd": 1028918757.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 3080030.0,
+        "value_usd": 1025698867.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "56501R106",
+        "security_class": "COM",
+        "issuer": "MANULIFE FINL CORP",
+        "shares": 17392179.0,
+        "value_usd": 742499691.0,
+        "weight_pct": 2.19
       },
       {
         "cusip": "064149107",
         "security_class": "COM",
         "issuer": "BANK NOVA SCOTIA B C",
-        "shares": 7585057.0,
-        "value_usd": 657137095.0,
-        "weight_pct": 2.03
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 1793341.0,
-        "value_usd": 640875758.0,
-        "weight_pct": 1.98
+        "shares": 7470623.0,
+        "value_usd": 680383078.0,
+        "weight_pct": 2.0
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 2585411.0,
-        "value_usd": 616190164.0,
-        "weight_pct": 1.9
+        "shares": 2715220.0,
+        "value_usd": 676486513.0,
+        "weight_pct": 1.99
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 1842710.0,
+        "value_usd": 634044101.0,
+        "weight_pct": 1.87
       },
       {
         "cusip": "063671101",
         "security_class": "COM",
-        "issuer": "BANK MONTREAL MEDIUM",
-        "shares": 3374200.0,
-        "value_usd": 593743202.0,
-        "weight_pct": 1.83
-      },
-      {
-        "cusip": "867224107",
-        "security_class": "COM",
-        "issuer": "SUNCOR ENERGY INC NEW",
-        "shares": 11028170.0,
-        "value_usd": 590994897.0,
-        "weight_pct": 1.82
+        "issuer": "BANK OF MONTREAL",
+        "shares": 3291497.0,
+        "value_usd": 550807559.0,
+        "weight_pct": 1.62
       }
     ],
-    "top_five_pct": 19.58,
-    "top_ten_pct": 29.13,
-    "hhi": 157.8,
+    "top_five_pct": 21.78,
+    "top_ten_pct": 31.45,
+    "hhi": 161.57,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 637,
-      "exited_positions": 494,
-      "increased_positions": 1246,
-      "reduced_positions": 755
+      "previous_period": "2026-06-30",
+      "new_positions": 236,
+      "exited_positions": 198,
+      "increased_positions": 1327,
+      "reduced_positions": 756
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002022297-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002022297-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 32443972201.0,
+  "reported_13f_value_usd": 33943578960.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002022297-26-000007",
+  "validated_accession": "0002022297-26-000010",
   "annualized_turnover_proxy_pct": null
 }

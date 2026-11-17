@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001900625",
   "investor_name": "HURRICANE CAPITAL ADVISORS LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-11-03",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -12,113 +12,128 @@
     "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000013.txt",
     "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000014.txt",
     "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000015.txt",
-    "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000016.txt"
+    "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000016.txt",
+    "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000018.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "bc20bb85b39b31d354d7b33b5a4779d02f6945c18269f78dba7bfd990eb5ce30",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "74701feb352c3c2ead7a8dded4c3ad0d72d0a322c09f8aa42a404d5f2081f70a",
+  "accession_fingerprints": [
+    "2025-09-30|2026-11-03|||",
+    "2025-12-31|2026-11-03|||",
+    "2026-03-31|2026-11-03|||",
+    "2026-06-30|2026-11-03|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "75ba90754405eff4c9d6bb96e6d49beca6ce9b4a",
+    "9dd4e712eb0becc72fe1ec29ccac5d0a7fef90a9",
+    "b4702077f6c4ea21f83b41826afb7ed5bd93f198",
+    "ce461895d55b9a9ea0802783e02a0a08c14681b2",
+    "e31413cda301c092a3b37867dc86e7996b48a4bc"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-11-03",
-    "accession": "0001900625-26-000016",
-    "source": "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000016.txt",
-    "distinct_positions": 672,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001900625-26-000018",
+    "source": "https://www.sec.gov/Archives/edgar/data/1900625/0001900625-26-000018.txt",
+    "distinct_positions": 663,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 344862103.0,
+    "reported_long_equity_value_usd": 907825932.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "39854F101",
-        "security_class": "COM",
-        "issuer": "GRINDR INC",
-        "shares": 1379564.0,
-        "value_usd": 19824335.0,
-        "weight_pct": 5.75
+        "cusip": "86800U500",
+        "security_class": "7 DEP CM SR A WI",
+        "issuer": "SUPER MICRO COMPUTER INC",
+        "shares": 750000.0,
+        "value_usd": 51576250.0,
+        "weight_pct": 5.68
       },
       {
-        "cusip": "733245104",
-        "security_class": "COM",
-        "issuer": "PORCH GROUP INC",
-        "shares": 840000.0,
-        "value_usd": 12633600.0,
-        "weight_pct": 3.66
+        "cusip": "02079K602",
+        "security_class": "DEP SHS RP1/20 B",
+        "issuer": "ALPHABET INC",
+        "shares": 750000.0,
+        "value_usd": 36461798.0,
+        "weight_pct": 4.02
       },
       {
-        "cusip": "092667104",
-        "security_class": "CL A COM",
-        "issuer": "STRATA CRITICAL MEDICAL INC",
-        "shares": 2260771.0,
-        "value_usd": 11914263.0,
+        "cusip": "842587842",
+        "security_class": "UNIT 12/15/2028",
+        "issuer": "SOUTHERN CO",
+        "shares": 700000.0,
+        "value_usd": 31317767.0,
         "weight_pct": 3.45
       },
       {
-        "cusip": "46436E718",
-        "security_class": "0-3 MTH TREASURY",
-        "issuer": "ISHARES TR",
-        "shares": 97500.0,
-        "value_usd": 9815325.0,
-        "weight_pct": 2.85
+        "cusip": "012653200",
+        "security_class": "7.25% DEP SHS A",
+        "issuer": "ALBEMARLE CORP",
+        "shares": 650000.0,
+        "value_usd": 29499167.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "097023204",
+        "security_class": "DEP CONV PFD A",
+        "issuer": "BOEING CO",
+        "shares": 500000.0,
+        "value_usd": 29461667.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "69331C306",
+        "security_class": "PFD CONV SER A",
+        "issuer": "PG&E CORP",
+        "shares": 900000.0,
+        "value_usd": 28489618.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "65339F119",
+        "security_class": "UNIT 11/01/2027",
+        "issuer": "NEXTERA ENERGY INC",
+        "shares": 537500.0,
+        "value_usd": 24415938.0,
+        "weight_pct": 2.69
+      },
+      {
+        "cusip": "39854F101",
+        "security_class": "COM",
+        "issuer": "GRINDR INC",
+        "shares": 1109564.0,
+        "value_usd": 17120573.0,
+        "weight_pct": 1.89
+      },
+      {
+        "cusip": "92512J106",
+        "security_class": "COM",
+        "issuer": "VERSABANK NEW",
+        "shares": 749617.0,
+        "value_usd": 16656490.0,
+        "weight_pct": 1.83
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 11600.0,
-        "value_usd": 8662532.0,
-        "weight_pct": 2.51
-      },
-      {
-        "cusip": "532457108",
-        "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 6621.0,
-        "value_usd": 7941426.0,
-        "weight_pct": 2.3
-      },
-      {
-        "cusip": "38141G104",
-        "security_class": "COM",
-        "issuer": "GOLDMAN SACHS GROUP INC",
-        "shares": 6600.0,
-        "value_usd": 6675042.0,
-        "weight_pct": 1.94
-      },
-      {
-        "cusip": "053604104",
-        "security_class": "COM CL A",
-        "issuer": "AVEPOINT INC",
-        "shares": 595000.0,
-        "value_usd": 6669950.0,
-        "weight_pct": 1.93
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 5204.0,
-        "value_usd": 6006926.0,
-        "weight_pct": 1.74
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 42601.0,
-        "value_usd": 5948378.0,
-        "weight_pct": 1.72
+        "shares": 21800.0,
+        "value_usd": 16625334.0,
+        "weight_pct": 1.83
       }
     ],
-    "top_five_pct": 18.22,
-    "top_ten_pct": 27.86,
-    "hhi": 121.52,
+    "top_five_pct": 19.64,
+    "top_ten_pct": 31.02,
+    "hhi": 155.39,
     "changes": {
-      "previous_period": "2026-03-31",
-      "new_positions": 221,
-      "exited_positions": 190,
-      "increased_positions": 202,
-      "reduced_positions": 150
+      "previous_period": "2026-06-30",
+      "new_positions": 209,
+      "exited_positions": 218,
+      "increased_positions": 235,
+      "reduced_positions": 165
     },
     "timeline": [
       {
@@ -140,11 +155,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-11-03",
         "accession": "0001900625-26-000016"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001900625-26-000018"
       }
     ]
   },
-  "reported_13f_value_usd": 344862103.0,
+  "reported_13f_value_usd": 907825932.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001900625-26-000016",
+  "validated_accession": "0001900625-26-000018",
   "annualized_turnover_proxy_pct": null
 }

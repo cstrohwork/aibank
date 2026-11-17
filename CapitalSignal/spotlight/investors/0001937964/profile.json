@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001937964",
   "investor_name": "Artia Global Partners LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MIAMI",
   "state": "FL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1937964/0001937964-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1937964/0001937964-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1937964/0001937964-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1937964/0001937964-26-000011.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "01e1aa5a6d99c1f11b5c6c564ee1252e564aac493d62a12d9ea8fd804d4c69d5",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "614a075b4473d210d124cdb3b3865a174dfb4d955d652809f87e1f6995c1bade",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1bc128e604ba97cc3399239c3e8328a53af75e64",
+    "560afcb86053c47e9f398f60da70ba802d2a5949",
+    "b5fbc81a2b8340a5049f6df38ce9d787e63dde6a"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001937964-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1937964/0001937964-26-000008.txt",
-    "distinct_positions": 47,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001937964-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/1937964/0001937964-26-000011.txt",
+    "distinct_positions": 50,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 526030576.0,
+    "reported_long_equity_value_usd": 491788717.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "00370M103",
-        "security_class": "SPONSORED ADS",
-        "issuer": "ABIVAX SA",
-        "shares": 516447.0,
-        "value_usd": 68821727.0,
-        "weight_pct": 13.08
-      },
       {
         "cusip": "457669307",
         "security_class": "COM PAR $.01",
         "issuer": "INSMED INC",
         "shares": 589052.0,
-        "value_usd": 62804724.0,
-        "weight_pct": 11.94
-      },
-      {
-        "cusip": "89532M101",
-        "security_class": "COM",
-        "issuer": "TREVI THERAPEUTICS INC",
-        "shares": 2210852.0,
-        "value_usd": 41232390.0,
-        "weight_pct": 7.84
-      },
-      {
-        "cusip": "10950A106",
-        "security_class": "COM",
-        "issuer": "BRIGHTSPRING HEALTH SVCS INC",
-        "shares": 517315.0,
-        "value_usd": 36077548.0,
-        "weight_pct": 6.86
+        "value_usd": 67234395.0,
+        "weight_pct": 13.67
       },
       {
         "cusip": "76155X100",
         "security_class": "COM",
         "issuer": "REVOLUTION MEDICINES INC",
         "shares": 185390.0,
-        "value_usd": 34719839.0,
-        "weight_pct": 6.6
+        "value_usd": 38053151.0,
+        "weight_pct": 7.74
+      },
+      {
+        "cusip": "00370M103",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ABIVAX SA",
+        "shares": 364268.0,
+        "value_usd": 36069817.0,
+        "weight_pct": 7.33
+      },
+      {
+        "cusip": "10950A106",
+        "security_class": "COM",
+        "issuer": "BRIGHTSPRING HEALTH SVCS INC",
+        "shares": 609944.0,
+        "value_usd": 34614322.0,
+        "weight_pct": 7.04
+      },
+      {
+        "cusip": "89532M101",
+        "security_class": "COM",
+        "issuer": "TREVI THERAPEUTICS INC",
+        "shares": 2210852.0,
+        "value_usd": 31659401.0,
+        "weight_pct": 6.44
       },
       {
         "cusip": "04016X101",
         "security_class": "SPONSORED ADR",
         "issuer": "ARGENX SE",
         "shares": 29739.0,
-        "value_usd": 27590952.0,
-        "weight_pct": 5.25
+        "value_usd": 28517024.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "89422G107",
+        "security_class": "COM",
+        "issuer": "TRAVERE THERAPEUTICS INC",
+        "shares": 398493.0,
+        "value_usd": 23463268.0,
+        "weight_pct": 4.77
       },
       {
         "cusip": "G01767105",
         "security_class": "SHS",
         "issuer": "ALKERMES PLC",
         "shares": 448964.0,
-        "value_usd": 23523469.0,
-        "weight_pct": 4.47
+        "value_usd": 18192021.0,
+        "weight_pct": 3.7
       },
       {
-        "cusip": "89422G107",
+        "cusip": "40131M109",
         "security_class": "COM",
-        "issuer": "TRAVERE THERAPEUTICS INC",
-        "shares": 339033.0,
-        "value_usd": 19260465.0,
-        "weight_pct": 3.66
+        "issuer": "GUARDANT HEALTH INC",
+        "shares": 96704.0,
+        "value_usd": 17248125.0,
+        "weight_pct": 3.51
       },
       {
         "cusip": "G0593M107",
         "security_class": "ORD",
         "issuer": "ASTRAZENECA PLC",
         "shares": 98376.0,
-        "value_usd": 18654057.0,
-        "weight_pct": 3.55
-      },
-      {
-        "cusip": "N62509109",
-        "security_class": "ORDINARY SHARES",
-        "issuer": "NEWAMSTERDAM PHARMA COMPANY",
-        "shares": 503936.0,
-        "value_usd": 17078391.0,
-        "weight_pct": 3.25
+        "value_usd": 15884773.0,
+        "weight_pct": 3.23
       }
     ],
-    "top_five_pct": 46.32,
-    "top_ten_pct": 66.49,
-    "hhi": 596.87,
+    "top_five_pct": 42.22,
+    "top_ten_pct": 63.23,
+    "hhi": 542.56,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 27,
-      "exited_positions": 28,
-      "increased_positions": 13,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 9,
+      "increased_positions": 9,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001937964-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001937964-26-000011"
       }
     ]
   },
-  "reported_13f_value_usd": 526030576.0,
+  "reported_13f_value_usd": 491788717.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001937964-26-000008",
+  "validated_accession": "0001937964-26-000011",
   "annualized_turnover_proxy_pct": null
 }

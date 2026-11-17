@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002033735",
   "investor_name": "Sound Capital Solutions LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NAPLES",
   "state": "FL",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2033735/0002033735-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/2033735/0002033735-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/2033735/0002033735-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c48376933212311fbd63392cb7cefa842c0649aa141b0b2782a2ca5f2a554aed",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "42fb0fafae92f1a61dce7d3cb39e3f6a4873c08fa39247b3e93cca62c0d7c233",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "088b1fcdee6571d902ed644111cf9008587f3804",
+    "afec2b640b2bdb77f631cc34d0e60e50efd27645"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0002033735-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/2033735/0002033735-26-000005.txt",
-    "distinct_positions": 309,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002033735-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2033735/0002033735-26-000007.txt",
+    "distinct_positions": 37,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 427438865.0,
+    "reported_long_equity_value_usd": 195268736.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "78464A854",
         "security_class": "ST STR P500ETF",
         "issuer": "State Street SPDR Portfolio S&P 500 ETF",
-        "shares": 218694.0,
-        "value_usd": 19218829.0,
-        "weight_pct": 4.5
+        "shares": 401712.0,
+        "value_usd": 36057669.0,
+        "weight_pct": 18.47
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA Corp",
-        "shares": 94205.0,
-        "value_usd": 18849478.0,
-        "weight_pct": 4.41
+        "shares": 47578.0,
+        "value_usd": 10865863.0,
+        "weight_pct": 5.56
       },
       {
-        "cusip": "42824C109",
+        "cusip": "83406F102",
         "security_class": "COM",
-        "issuer": "Hewlett Packard Enterprise Co",
-        "shares": 377935.0,
-        "value_usd": 17048648.0,
-        "weight_pct": 3.99
+        "issuer": "SoFi Technologies Inc",
+        "shares": 646905.0,
+        "value_usd": 10169347.0,
+        "weight_pct": 5.21
       },
       {
-        "cusip": "80004C200",
+        "cusip": "368736104",
         "security_class": "COM",
-        "issuer": "Sandisk Corp",
-        "shares": 5296.0,
-        "value_usd": 12041674.0,
-        "weight_pct": 2.82
+        "issuer": "Generac Holdings Inc",
+        "shares": 48860.0,
+        "value_usd": 10111577.0,
+        "weight_pct": 5.18
       },
       {
-        "cusip": "706915105",
+        "cusip": "11135F101",
         "security_class": "COM",
-        "issuer": "Penguin Solutions Inc",
-        "shares": 152938.0,
-        "value_usd": 11624817.0,
-        "weight_pct": 2.72
+        "issuer": "Broadcom Inc",
+        "shares": 28480.0,
+        "value_usd": 10001891.0,
+        "weight_pct": 5.12
       },
       {
-        "cusip": "336433107",
-        "security_class": "COM",
-        "issuer": "First Solar Inc",
-        "shares": 42909.0,
-        "value_usd": 10124808.0,
-        "weight_pct": 2.37
-      },
-      {
-        "cusip": "26884L109",
-        "security_class": "COM",
-        "issuer": "EQT Corp",
-        "shares": 188268.0,
-        "value_usd": 10010210.0,
-        "weight_pct": 2.34
+        "cusip": "093712107",
+        "security_class": "COM CL A",
+        "issuer": "Bloom Energy Corp",
+        "shares": 35997.0,
+        "value_usd": 9970449.0,
+        "weight_pct": 5.11
       },
       {
         "cusip": "45256X103",
         "security_class": "COM",
         "issuer": "ImmunityBio Inc",
-        "shares": 1120808.0,
-        "value_usd": 9812674.0,
-        "weight_pct": 2.3
+        "shares": 998787.0,
+        "value_usd": 9428549.0,
+        "weight_pct": 4.83
       },
       {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "Micron Technology Inc",
-        "shares": 7542.0,
-        "value_usd": 8705655.0,
-        "weight_pct": 2.04
+        "cusip": "Y2573F102",
+        "security_class": "ORD",
+        "issuer": "Flex Ltd",
+        "shares": 79347.0,
+        "value_usd": 8727377.0,
+        "weight_pct": 4.47
       },
       {
-        "cusip": "007903107",
+        "cusip": "336433107",
         "security_class": "COM",
-        "issuer": "Advanced Micro Devices Inc",
-        "shares": 14513.0,
-        "value_usd": 8430747.0,
-        "weight_pct": 1.97
+        "issuer": "First Solar Inc",
+        "shares": 44857.0,
+        "value_usd": 7857152.0,
+        "weight_pct": 4.02
+      },
+      {
+        "cusip": "92840M102",
+        "security_class": "COM",
+        "issuer": "Vistra Corp",
+        "shares": 56000.0,
+        "value_usd": 7747600.0,
+        "weight_pct": 3.97
       }
     ],
-    "top_five_pct": 18.43,
-    "top_ten_pct": 29.45,
-    "hhi": 150.56,
-    "changes": null,
+    "top_five_pct": 39.54,
+    "top_ten_pct": 61.93,
+    "hhi": 631.98,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 286,
+      "increased_positions": 10,
+      "reduced_positions": 13
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0002033735-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002033735-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 427438865.0,
+  "reported_13f_value_usd": 195268736.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002033735-26-000005",
+  "validated_accession": "0002033735-26-000007",
   "annualized_turnover_proxy_pct": null
 }

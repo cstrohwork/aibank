@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002086041",
   "investor_name": "Ravenstone Capital Management Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-04",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "TORONTO",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2086041/0002086041-26-000021.txt"
+    "https://www.sec.gov/Archives/edgar/data/2086041/0002086041-26-000021.txt",
+    "https://www.sec.gov/Archives/edgar/data/2086041/0002086041-26-000022.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e9275845a80b04f977542ce1de88a8ef340d0b460319a078d3f5047ee961b825",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "d95cecb9f16ed52afdd78f40e41839cbe4e3dbe55cc230c8572c126420718fc2",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-04|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "7ad1a0a88ea4ce7ab0a72fc9e67d5bdde84b7340",
+    "a81ebad9b64bc0becd8e256887f590eaf25a2191"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-04",
-    "accession": "0002086041-26-000021",
-    "source": "https://www.sec.gov/Archives/edgar/data/2086041/0002086041-26-000021.txt",
-    "distinct_positions": 54,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002086041-26-000022",
+    "source": "https://www.sec.gov/Archives/edgar/data/2086041/0002086041-26-000022.txt",
+    "distinct_positions": 38,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 244425336.0,
+    "reported_long_equity_value_usd": 253980656.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 40507.0,
+        "value_usd": 20776034.0,
+        "weight_pct": 8.18
+      },
+      {
         "cusip": "92826C839",
         "security_class": "COM CL A",
         "issuer": "VISA INC",
-        "shares": 51468.0,
-        "value_usd": 17658156.0,
-        "weight_pct": 7.22
-      },
-      {
-        "cusip": "032095101",
-        "security_class": "CL A",
-        "issuer": "AMPHENOL CORP",
-        "shares": 96109.0,
-        "value_usd": 16945941.0,
-        "weight_pct": 6.93
+        "shares": 51410.0,
+        "value_usd": 18473156.0,
+        "weight_pct": 7.27
       },
       {
         "cusip": "02079K107",
         "security_class": "CAP STK CL C",
         "issuer": "ALPHABET INC",
-        "shares": 47451.0,
-        "value_usd": 16765859.0,
-        "weight_pct": 6.86
-      },
-      {
-        "cusip": "780087102",
-        "security_class": "COM",
-        "issuer": "ROYAL BK CDA",
-        "shares": 76182.0,
-        "value_usd": 15743973.0,
-        "weight_pct": 6.44
-      },
-      {
-        "cusip": "34959E109",
-        "security_class": "COM",
-        "issuer": "FORTINET INC",
-        "shares": 101116.0,
-        "value_usd": 15533441.0,
-        "weight_pct": 6.36
-      },
-      {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 37943.0,
-        "value_usd": 14153495.0,
-        "weight_pct": 5.79
-      },
-      {
-        "cusip": "084670702",
-        "security_class": "CL B NEW",
-        "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 24353.0,
-        "value_usd": 12185998.0,
-        "weight_pct": 4.99
-      },
-      {
-        "cusip": "11271J107",
-        "security_class": "CL A LTD VT SH",
-        "issuer": "BROOKFIELD CORP",
-        "shares": 280004.0,
-        "value_usd": 11922820.0,
-        "weight_pct": 4.88
+        "shares": 48119.0,
+        "value_usd": 16396069.0,
+        "weight_pct": 6.46
       },
       {
         "cusip": "883556102",
         "security_class": "COM",
         "issuer": "THERMO FISHER SCIENTIFIC INC",
-        "shares": 23658.0,
-        "value_usd": 11861174.0,
-        "weight_pct": 4.85
+        "shares": 23648.0,
+        "value_usd": 15963576.0,
+        "weight_pct": 6.29
+      },
+      {
+        "cusip": "34959E109",
+        "security_class": "COM",
+        "issuer": "FORTINET INC",
+        "shares": 89110.0,
+        "value_usd": 15929307.0,
+        "weight_pct": 6.27
+      },
+      {
+        "cusip": "032095101",
+        "security_class": "CL A",
+        "issuer": "AMPHENOL CORP",
+        "shares": 172794.0,
+        "value_usd": 14566535.0,
+        "weight_pct": 5.74
+      },
+      {
+        "cusip": "780087102",
+        "security_class": "COM",
+        "issuer": "ROYAL BK CDA",
+        "shares": 68642.0,
+        "value_usd": 13537481.0,
+        "weight_pct": 5.33
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 26529.0,
+        "value_usd": 13210111.0,
+        "weight_pct": 5.2
+      },
+      {
+        "cusip": "235851102",
+        "security_class": "COM",
+        "issuer": "DANAHER CORP DEL",
+        "shares": 59076.0,
+        "value_usd": 13088281.0,
+        "weight_pct": 5.15
       },
       {
         "cusip": "311900104",
         "security_class": "COM",
         "issuer": "FASTENAL CO",
         "shares": 244335.0,
-        "value_usd": 11735406.0,
-        "weight_pct": 4.8
+        "value_usd": 12101910.0,
+        "weight_pct": 4.76
       }
     ],
-    "top_five_pct": 33.81,
-    "top_ten_pct": 59.12,
-    "hhi": 516.31,
-    "changes": null,
+    "top_five_pct": 34.47,
+    "top_ten_pct": 60.65,
+    "hhi": 529.47,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 18,
+      "increased_positions": 14,
+      "reduced_positions": 9
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-04",
         "accession": "0002086041-26-000021"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002086041-26-000022"
       }
     ]
   },
-  "reported_13f_value_usd": 244425336.0,
+  "reported_13f_value_usd": 253980656.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002086041-26-000021",
+  "validated_accession": "0002086041-26-000022",
   "annualized_turnover_proxy_pct": null
 }

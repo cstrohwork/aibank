@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002009914",
   "investor_name": "BREACH INLET CAPITAL MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MT. PLEASANT",
   "state": "SC",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2009914/0002009914-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/2009914/0002009914-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2009914/0002009914-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2009914/0002009914-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "3b3b56ef4cf3e3f381803fb016ab751b61fbd0da3bfa1d60a1fdc00078635445",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "7f87d98fe945933e3dbff1ec62844bf76616c6848d50009ebe58315e7246778d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "122aa9b93ecaa3abf48a7390033ef48114499861",
+    "41c95910466c6c89b0c389c59d670ec887ebb0dc",
+    "abecce9690c507ae85c7378c069516047cfea1bf"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002009914-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2009914/0002009914-26-000004.txt",
-    "distinct_positions": 10,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002009914-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/2009914/0002009914-26-000007.txt",
+    "distinct_positions": 13,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 299993761.0,
+    "reported_long_equity_value_usd": 292157759.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
-      {
-        "cusip": "74319R101",
-        "security_class": "COM NPV",
-        "issuer": "PROG HOLDINGS INC",
-        "shares": 923017.0,
-        "value_usd": 43021822.0,
-        "weight_pct": 14.34
-      },
-      {
-        "cusip": "86333M108",
-        "security_class": "COM",
-        "issuer": "STRIDE INC",
-        "shares": 478455.0,
-        "value_usd": 41261959.0,
-        "weight_pct": 13.75
-      },
       {
         "cusip": "047726302",
         "security_class": "COM SER C",
         "issuer": "ATLANTA BRAVES HLDGS INC",
         "shares": 778518.0,
-        "value_usd": 40405084.0,
-        "weight_pct": 13.47
+        "value_usd": 41214743.0,
+        "weight_pct": 14.11
+      },
+      {
+        "cusip": "74319R101",
+        "security_class": "COM NPV",
+        "issuer": "PROG HOLDINGS INC",
+        "shares": 1308933.0,
+        "value_usd": 40472208.0,
+        "weight_pct": 13.85
+      },
+      {
+        "cusip": "86333M108",
+        "security_class": "COM",
+        "issuer": "STRIDE INC",
+        "shares": 516795.0,
+        "value_usd": 40299674.0,
+        "weight_pct": 13.79
       },
       {
         "cusip": "43283X105",
         "security_class": "COM",
         "issuer": "HILTON GRAND VACATIONS INC",
-        "shares": 670285.0,
-        "value_usd": 35102825.0,
-        "weight_pct": 11.7
-      },
-      {
-        "cusip": "234264109",
-        "security_class": "COM",
-        "issuer": "DAKTRONICS INC",
-        "shares": 1584720.0,
-        "value_usd": 30997123.0,
-        "weight_pct": 10.33
-      },
-      {
-        "cusip": "G5784H106",
-        "security_class": "ORD CL A",
-        "issuer": "MANCHESTER UTD PLC NEW",
-        "shares": 1105285.0,
-        "value_usd": 25344185.0,
-        "weight_pct": 8.45
-      },
-      {
-        "cusip": "14575E105",
-        "security_class": "COM",
-        "issuer": "CARS COM INC",
-        "shares": 2197445.0,
-        "value_usd": 24040048.0,
-        "weight_pct": 8.01
-      },
-      {
-        "cusip": "63001N106",
-        "security_class": "COM SHS",
-        "issuer": "NCR ATLEOS CORPORATION",
-        "shares": 542663.0,
-        "value_usd": 23557001.0,
-        "weight_pct": 7.85
-      },
-      {
-        "cusip": "05587G203",
-        "security_class": "COM NEW",
-        "issuer": "BK TECHNOLOGIES CORPORATION",
-        "shares": 247725.0,
-        "value_usd": 21299396.0,
-        "weight_pct": 7.1
+        "shares": 931196.0,
+        "value_usd": 32275253.0,
+        "weight_pct": 11.05
       },
       {
         "cusip": "35905A109",
         "security_class": "COM",
         "issuer": "FRONTDOOR INC",
-        "shares": 192864.0,
-        "value_usd": 14964318.0,
-        "weight_pct": 4.99
+        "shares": 411057.0,
+        "value_usd": 30056488.0,
+        "weight_pct": 10.29
+      },
+      {
+        "cusip": "580907103",
+        "security_class": "COM",
+        "issuer": "MCGRAW HILL INC",
+        "shares": 1895368.0,
+        "value_usd": 24848274.0,
+        "weight_pct": 8.51
+      },
+      {
+        "cusip": "05587G203",
+        "security_class": "COM NEW",
+        "issuer": "BK TECHNOLOGIES CORPORATION",
+        "shares": 297585.0,
+        "value_usd": 22167107.0,
+        "weight_pct": 7.59
+      },
+      {
+        "cusip": "14575E105",
+        "security_class": "COM",
+        "issuer": "CARS COM INC",
+        "shares": 1296559.0,
+        "value_usd": 13315661.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "63001N106",
+        "security_class": "COM SHS",
+        "issuer": "NCR ATLEOS CORPORATION",
+        "shares": 269775.0,
+        "value_usd": 12188435.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "53263P105",
+        "security_class": "COM",
+        "issuer": "LIMBACH HLDGS INC",
+        "shares": 228781.0,
+        "value_usd": 11194254.0,
+        "weight_pct": 3.83
       }
     ],
-    "top_five_pct": 63.6,
-    "top_ten_pct": 100.0,
-    "hhi": 1092.47,
+    "top_five_pct": 63.09,
+    "top_ten_pct": 91.74,
+    "hhi": 1019.55,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 3,
-      "exited_positions": 2,
+      "exited_positions": 0,
       "increased_positions": 5,
-      "reduced_positions": 2
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002009914-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002009914-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 299993761.0,
+  "reported_13f_value_usd": 292157759.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002009914-26-000004",
+  "validated_accession": "0002009914-26-000007",
   "annualized_turnover_proxy_pct": null
 }

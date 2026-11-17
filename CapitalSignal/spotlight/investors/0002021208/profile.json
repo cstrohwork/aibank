@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002021208",
   "investor_name": "Cascade Financial Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-04",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN DIEGO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2021208/0002021208-25-000012.txt",
-    "https://www.sec.gov/Archives/edgar/data/2021208/0002021208-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/2021208/0002021208-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/2021208/0002021208-26-000011.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5231bc0e5865401f000209fe78e11bcb222b7e69dc30c6cac62984752be356f4",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "07af762a7ce5af896586fba0d105a105abd9e63e24f70116f9f5b682b92d053a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-21|||",
+    "2026-06-30|2026-08-04|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0095e09f6aaf8c43cb18f2722c9edb8fd2fd4e5b",
+    "23a1dc1ea712ee2ce33cf6320d873388e1ae81b4",
+    "938e8e47849aff05faea58637685869e5e8722a7"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-04",
-    "accession": "0002021208-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/2021208/0002021208-26-000007.txt",
-    "distinct_positions": 279,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002021208-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2021208/0002021208-26-000011.txt",
+    "distinct_positions": 295,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1151643768.0,
+    "reported_long_equity_value_usd": 1193625418.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "532457108",
         "security_class": "COM",
         "issuer": "ELI LILLY & CO",
-        "shares": 236707.0,
-        "value_usd": 283913665.0,
-        "weight_pct": 24.65
+        "shares": 235707.0,
+        "value_usd": 272731856.0,
+        "weight_pct": 22.85
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 188477.0,
-        "value_usd": 54537596.0,
-        "weight_pct": 4.74
+        "shares": 177730.0,
+        "value_usd": 59187595.0,
+        "weight_pct": 4.96
       },
       {
         "cusip": "921943858",
         "security_class": "VAN FTSE DEV MKT",
         "issuer": "VANGUARD TAX-MANAGED FDS",
-        "shares": 599843.0,
-        "value_usd": 42738813.0,
-        "weight_pct": 3.71
+        "shares": 585353.0,
+        "value_usd": 41331800.0,
+        "weight_pct": 3.46
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 49031.0,
-        "value_usd": 36718998.0,
+        "shares": 49753.0,
+        "value_usd": 38103533.0,
         "weight_pct": 3.19
       },
       {
-        "cusip": "97717W794",
-        "security_class": "TRUE DEV INTL FD",
-        "issuer": "WISDOMTREE TR",
-        "shares": 307535.0,
-        "value_usd": 22869667.0,
-        "weight_pct": 1.99
-      },
-      {
-        "cusip": "46434G103",
-        "security_class": "CORE MSCI EMKT",
-        "issuer": "ISHARES INC",
-        "shares": 235252.0,
-        "value_usd": 19488235.0,
-        "weight_pct": 1.69
-      },
-      {
-        "cusip": "67066G104",
-        "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 92277.0,
-        "value_usd": 18463783.0,
-        "weight_pct": 1.6
+        "cusip": "025072117",
+        "security_class": "CALIF MUN BD ETF",
+        "issuer": "AMERICAN CENTY ETF TR",
+        "shares": 769562.0,
+        "value_usd": 36354571.0,
+        "weight_pct": 3.05
       },
       {
         "cusip": "714046109",
         "security_class": "COM",
         "issuer": "REVVITY INC",
-        "shares": 162671.0,
-        "value_usd": 18098775.0,
-        "weight_pct": 1.57
+        "shares": 161671.0,
+        "value_usd": 24717879.0,
+        "weight_pct": 2.07
       },
       {
-        "cusip": "464287176",
-        "security_class": "TIPS BD ETF",
-        "issuer": "ISHARES TR",
-        "shares": 164657.0,
-        "value_usd": 18018379.0,
-        "weight_pct": 1.56
+        "cusip": "97717W794",
+        "security_class": "TRUE DEV INTL FD",
+        "issuer": "WISDOMTREE TR",
+        "shares": 326849.0,
+        "value_usd": 24287616.0,
+        "weight_pct": 2.03
       },
       {
-        "cusip": "713448108",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "PEPSICO INC",
-        "shares": 129269.0,
-        "value_usd": 17503023.0,
-        "weight_pct": 1.52
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 91011.0,
+        "value_usd": 20785055.0,
+        "weight_pct": 1.74
+      },
+      {
+        "cusip": "46434G103",
+        "security_class": "CORE MSCI EMKT",
+        "issuer": "ISHARES INC",
+        "shares": 235464.0,
+        "value_usd": 19110219.0,
+        "weight_pct": 1.6
+      },
+      {
+        "cusip": "464288125",
+        "security_class": "3YRTB ETF",
+        "issuer": "ISHARES TR",
+        "shares": 243853.0,
+        "value_usd": 18060357.0,
+        "weight_pct": 1.51
       }
     ],
-    "top_five_pct": 38.27,
-    "top_ten_pct": 46.23,
-    "hhi": 705.81,
+    "top_five_pct": 37.51,
+    "top_ten_pct": 46.47,
+    "hhi": 627.89,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 62,
-      "exited_positions": 44,
-      "increased_positions": 86,
-      "reduced_positions": 109
+      "previous_period": "2026-06-30",
+      "new_positions": 39,
+      "exited_positions": 23,
+      "increased_positions": 71,
+      "reduced_positions": 99
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-04",
         "accession": "0002021208-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002021208-26-000011"
       }
     ]
   },
-  "reported_13f_value_usd": 1151643768.0,
+  "reported_13f_value_usd": 1193625418.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002021208-26-000007",
+  "validated_accession": "0002021208-26-000011",
   "annualized_turnover_proxy_pct": null
 }

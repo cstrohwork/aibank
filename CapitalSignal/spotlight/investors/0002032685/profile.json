@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002032685",
   "investor_name": "Blue Investment Opportunities, LLC - Project Breeze Series 1",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "MIAMI BEACH",
   "state": "FL",
   "country": "United States",
@@ -11,20 +11,33 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2032685/0000906791-25-000035.txt",
     "https://www.sec.gov/Archives/edgar/data/2032685/0000906791-26-000148.txt",
-    "https://www.sec.gov/Archives/edgar/data/2032685/0000906791-26-000151.txt"
+    "https://www.sec.gov/Archives/edgar/data/2032685/0000906791-26-000151.txt",
+    "https://www.sec.gov/Archives/edgar/data/2032685/0002032685-26-000001.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "408d1904af3baaa687980b4bd196e886d1e3af5c49c6b14179f5e008f8c145d6",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "e59d42973dd27bfd139527f5a5f2b16095a8ebd675ae94f7246dc84873e645dd",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-03-31|2026-08-06|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "15c23b2ce494f824a2a51989d2c538c187044bee",
+    "85951fe57626f47dc9b06bd55e91025cd11174f9",
+    "919af7b2ba270647cb5179913b63a00af6a24e56",
+    "b51f9edfbcf0fde9cf49e012b56a4db93ec352cb"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0000906791-26-000151",
-    "source": "https://www.sec.gov/Archives/edgar/data/2032685/0000906791-26-000151.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002032685-26-000001",
+    "source": "https://www.sec.gov/Archives/edgar/data/2032685/0002032685-26-000001.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 139502017.0,
+    "reported_long_equity_value_usd": 94087166.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,8 +45,8 @@
         "cusip": "82846H405",
         "security_class": "Class A Common",
         "issuer": "QXO Inc",
-        "shares": 8073038.0,
-        "value_usd": 139502017.0,
+        "shares": 8048524.0,
+        "value_usd": 94087166.0,
         "weight_pct": 100.0
       }
     ],
@@ -41,11 +54,11 @@
     "top_ten_pct": 100.0,
     "hhi": 10000.0,
     "changes": {
-      "previous_period": "2026-03-31",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 0
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -62,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0000906791-26-000151"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002032685-26-000001"
       }
     ]
   },
-  "reported_13f_value_usd": 139502017.0,
+  "reported_13f_value_usd": 94087166.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000906791-26-000151",
+  "validated_accession": "0002032685-26-000001",
   "annualized_turnover_proxy_pct": null
 }

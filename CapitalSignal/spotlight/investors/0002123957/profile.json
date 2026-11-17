@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002123957",
   "investor_name": "Kryger Capital LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HAMILTON",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2123957/0002123957-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2123957/0002123957-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2123957/0002123957-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "097a50abe84dce334d125d0856770aafa6139d6fc7e45a7ed6a5c912f9fc4c90",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "202d3acec78926746080f4a68a63e35f26e9f3b435fbc9122ac3ff3707714df1",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2e4f43af0c9ec1f9f651f00323d260d987992ff2",
+    "84abb5d5ef04bb9bc35c4c96b82b91a488b4981f"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002123957-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2123957/0002123957-26-000003.txt",
-    "distinct_positions": 109,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002123957-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2123957/0002123957-26-000005.txt",
+    "distinct_positions": 77,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1752762210.0,
+    "reported_long_equity_value_usd": 1643441767.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "655844108",
-        "security_class": "COM",
-        "issuer": "NORFOLK SOUTHERN ORD",
-        "shares": 766243.0,
-        "value_usd": 241052385.0,
-        "weight_pct": 13.75
-      },
-      {
-        "cusip": "16115Q308",
-        "security_class": "COM",
-        "issuer": "CHART INDUSTRIES ORD",
-        "shares": 892579.0,
-        "value_usd": 186495456.0,
-        "weight_pct": 10.64
-      },
-      {
-        "cusip": "49177J102",
-        "security_class": "COM",
-        "issuer": "KENVUE ORD",
-        "shares": 8549767.0,
-        "value_usd": 163386047.0,
-        "weight_pct": 9.32
-      },
-      {
-        "cusip": "25401T603",
-        "security_class": "Class A",
-        "issuer": "DIGITALBRIDGE GROUP CL A ORD",
-        "shares": 9002375.0,
-        "value_usd": 142057478.0,
-        "weight_pct": 8.1
-      },
-      {
-        "cusip": "285512109",
-        "security_class": "COM",
-        "issuer": "ELECTRONIC ARTS ORD",
-        "shares": 686759.0,
-        "value_usd": 140813065.0,
-        "weight_pct": 8.03
-      },
-      {
         "cusip": "934423104",
-        "security_class": "Series 19",
+        "security_class": "Series A",
         "issuer": "WARNER BROS. DISCOVERY SRS A ORD",
-        "shares": 4170929.0,
-        "value_usd": 111196967.0,
-        "weight_pct": 6.34
-      },
-      {
-        "cusip": "00130H105",
-        "security_class": "COM",
-        "issuer": "THE AES CORPORATION",
-        "shares": 6840535.0,
-        "value_usd": 100282243.0,
-        "weight_pct": 5.72
-      },
-      {
-        "cusip": "03770N101",
-        "security_class": "COM",
-        "issuer": "APOGEE THERAPEUTICS ORD",
-        "shares": 742555.0,
-        "value_usd": 98559325.0,
-        "weight_pct": 5.62
-      },
-      {
-        "cusip": "826919102",
-        "security_class": "COM",
-        "issuer": "SILICON LABORATORIES ORD",
-        "shares": 329090.0,
-        "value_usd": 71925910.0,
-        "weight_pct": 4.1
+        "shares": 8773984.0,
+        "value_usd": 271554805.0,
+        "weight_pct": 16.52
       },
       {
         "cusip": "77543R102",
         "security_class": "Class A",
         "issuer": "ROKU CL A ORD",
-        "shares": 415486.0,
-        "value_usd": 57395236.0,
-        "weight_pct": 3.27
+        "shares": 1711545.0,
+        "value_usd": 260634073.0,
+        "weight_pct": 15.86
+      },
+      {
+        "cusip": "655844108",
+        "security_class": "ORD",
+        "issuer": "NORFOLK SOUTHERN ORD",
+        "shares": 809138.0,
+        "value_usd": 250023642.0,
+        "weight_pct": 15.21
+      },
+      {
+        "cusip": "00130H105",
+        "security_class": "COM",
+        "issuer": "THE AES CORPORATION",
+        "shares": 10638542.0,
+        "value_usd": 158514276.0,
+        "weight_pct": 9.65
+      },
+      {
+        "cusip": "G9460G101",
+        "security_class": "COM",
+        "issuer": "VALARIS ORD",
+        "shares": 1290037.0,
+        "value_usd": 101293705.0,
+        "weight_pct": 6.16
+      },
+      {
+        "cusip": "826919102",
+        "security_class": "COM",
+        "issuer": "SILICON LABORATORIES ORD",
+        "shares": 341189.0,
+        "value_usd": 75600659.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "12769G100",
+        "security_class": "ORD",
+        "issuer": "CAESARS ENTERTAINMENT ORD",
+        "shares": 2514455.0,
+        "value_usd": 74553591.0,
+        "weight_pct": 4.54
+      },
+      {
+        "cusip": "G00894108",
+        "security_class": "Class A",
+        "issuer": "ACCELERANT HOLDINGS CL A ORD",
+        "shares": 2376448.0,
+        "value_usd": 46887319.0,
+        "weight_pct": 2.85
+      },
+      {
+        "cusip": "70975L107",
+        "security_class": "ORD",
+        "issuer": "PENUMBRA ORD",
+        "shares": 109711.0,
+        "value_usd": 34925400.0,
+        "weight_pct": 2.13
+      },
+      {
+        "cusip": "00091G104",
+        "security_class": "Class A",
+        "issuer": "ACV AUCTIONS CL A ORD",
+        "shares": 1865565.0,
+        "value_usd": 19457843.0,
+        "weight_pct": 1.18
       }
     ],
-    "top_five_pct": 49.85,
-    "top_ten_pct": 74.92,
-    "hhi": 679.14,
-    "changes": null,
+    "top_five_pct": 63.4,
+    "top_ten_pct": 78.7,
+    "hhi": 955.04,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 43,
+      "exited_positions": 75,
+      "increased_positions": 7,
+      "reduced_positions": 26
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002123957-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002123957-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 1752762210.0,
+  "reported_13f_value_usd": 1643441767.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002123957-26-000003",
+  "validated_accession": "0002123957-26-000005",
   "annualized_turnover_proxy_pct": null
 }

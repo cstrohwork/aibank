@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002111609",
   "investor_name": "Ishara Investments LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOS ANGELES",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2111609/0002111609-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2111609/0002111609-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2111609/0002111609-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e236614669bd88650f3f6e34a703b3eb6f3d94ac009a556c11c0b4e1e0b767f6",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "2edc48a128fe6f7b2f2d9ea6e871878a1b97b11117fa91f973b19f4f5fbf6ea3",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "7d92d5cec99cc99782049a13e576d2713f0c8460",
+    "8bc84c5d1c2a2ce9868f0c42a36934ed05ec341e"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002111609-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2111609/0002111609-26-000004.txt",
-    "distinct_positions": 41,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002111609-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2111609/0002111609-26-000005.txt",
+    "distinct_positions": 40,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 136099277.0,
+    "reported_long_equity_value_usd": 119503810.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "89422G107",
+        "security_class": "COM",
+        "issuer": "TRAVERE THERAPEUTICS INC",
+        "shares": 145000.0,
+        "value_usd": 8537600.0,
+        "weight_pct": 7.14
+      },
+      {
+        "cusip": "23282W605",
+        "security_class": "COM NEW",
+        "issuer": "CYTOKINETICS INC",
+        "shares": 128000.0,
+        "value_usd": 8436480.0,
+        "weight_pct": 7.06
+      },
+      {
+        "cusip": "10806X102",
+        "security_class": "COM",
+        "issuer": "BRIDGEBIO PHARMA INC",
+        "shares": 100000.0,
+        "value_usd": 6580000.0,
+        "weight_pct": 5.51
+      },
+      {
         "cusip": "004225108",
         "security_class": "COM",
         "issuer": "ACADIA PHARMACEUTICALS INC",
-        "shares": 410000.0,
-        "value_usd": 10373000.0,
-        "weight_pct": 7.62
+        "shares": 320000.0,
+        "value_usd": 6448000.0,
+        "weight_pct": 5.4
       },
       {
-        "cusip": "98422E103",
+        "cusip": "87650L103",
         "security_class": "COM",
-        "issuer": "XERIS BIOPHARMA HOLDINGS INC",
-        "shares": 1230000.0,
-        "value_usd": 9741600.0,
-        "weight_pct": 7.16
+        "issuer": "TARSUS PHARMACEUTICALS INC",
+        "shares": 70000.0,
+        "value_usd": 5502700.0,
+        "weight_pct": 4.6
       },
       {
-        "cusip": "09061G101",
+        "cusip": "69366J200",
         "security_class": "COM",
-        "issuer": "BIOMARIN PHARMACEUTICAL INC",
-        "shares": 143500.0,
-        "value_usd": 8211070.0,
-        "weight_pct": 6.03
+        "issuer": "PTC THERAPEUTICS INC",
+        "shares": 80000.0,
+        "value_usd": 5182400.0,
+        "weight_pct": 4.34
       },
       {
         "cusip": "74006W207",
         "security_class": "COM NEW",
         "issuer": "PRAXIS PRECISION MEDICINES I",
-        "shares": 22550.0,
-        "value_usd": 7549515.0,
-        "weight_pct": 5.55
+        "shares": 17000.0,
+        "value_usd": 4950910.0,
+        "weight_pct": 4.14
       },
       {
-        "cusip": "90400D108",
+        "cusip": "92337R101",
+        "security_class": "CL A",
+        "issuer": "VERA THERAPEUTICS INC",
+        "shares": 150000.0,
+        "value_usd": 4843500.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "03969K108",
         "security_class": "COM",
-        "issuer": "ULTRAGENYX PHARMACEUTICAL IN",
-        "shares": 205000.0,
-        "value_usd": 6844950.0,
-        "weight_pct": 5.03
+        "issuer": "ARCUTIS BIOTHERAPEUTICS INC",
+        "shares": 180000.0,
+        "value_usd": 4757400.0,
+        "weight_pct": 3.98
       },
       {
-        "cusip": "00847X104",
+        "cusip": "03589W102",
         "security_class": "COM",
-        "issuer": "AGIOS PHARMACEUTICALS INC",
-        "shares": 164000.0,
-        "value_usd": 6086040.0,
-        "weight_pct": 4.47
-      },
-      {
-        "cusip": "457669307",
-        "security_class": "COM PAR $.01",
-        "issuer": "INSMED INC",
-        "shares": 51250.0,
-        "value_usd": 5464275.0,
-        "weight_pct": 4.01
-      },
-      {
-        "cusip": "22663K107",
-        "security_class": "COM",
-        "issuer": "CRINETICS PHARMACEUTICALS IN",
-        "shares": 143500.0,
-        "value_usd": 5369770.0,
-        "weight_pct": 3.95
-      },
-      {
-        "cusip": "98943L107",
-        "security_class": "COM",
-        "issuer": "ZENTALIS PHARMACEUTICALS INC",
-        "shares": 1025000.0,
-        "value_usd": 4971250.0,
-        "weight_pct": 3.65
-      },
-      {
-        "cusip": "92243G108",
-        "security_class": "COM",
-        "issuer": "VAXCYTE INC",
-        "shares": 82000.0,
-        "value_usd": 4766660.0,
-        "weight_pct": 3.5
+        "issuer": "ANNEXON INC",
+        "shares": 1120000.0,
+        "value_usd": 4737600.0,
+        "weight_pct": 3.96
       }
     ],
-    "top_five_pct": 31.39,
-    "top_ten_pct": 50.98,
-    "hhi": 385.22,
-    "changes": null,
+    "top_five_pct": 29.71,
+    "top_ten_pct": 50.19,
+    "hhi": 375.66,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 16,
+      "exited_positions": 17,
+      "increased_positions": 12,
+      "reduced_positions": 12
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002111609-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002111609-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 136099277.0,
+  "reported_13f_value_usd": 119503810.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002111609-26-000004",
+  "validated_accession": "0002111609-26-000005",
   "annualized_turnover_proxy_pct": null
 }

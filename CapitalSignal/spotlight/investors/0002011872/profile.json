@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002011872",
   "investor_name": "Advyzon Investment Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LISLE",
   "state": "IL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2011872/0002011872-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/2011872/0001986152-26-000152.txt"
+    "https://www.sec.gov/Archives/edgar/data/2011872/0001986152-26-000152.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011872/0001986152-26-000203.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "993ae77752b673fae764d6a50a1f9ff830e957f208e5bf604c2b4fee13128d8f",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "08090d4926285ac407308f143fe0e2b9dde0b6ffdac69b6240085fe5cb1fbca4",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-10|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5527b16dd46ec1cdf5a38d6ffc5a54969c5d079f",
+    "93cc06d32e9a6df0086880dd81965ea6be6a7e7c",
+    "df19880428e7151c496c9dd73ac7c29df6c58f29"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001986152-26-000152",
-    "source": "https://www.sec.gov/Archives/edgar/data/2011872/0001986152-26-000152.txt",
-    "distinct_positions": 754,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001986152-26-000203",
+    "source": "https://www.sec.gov/Archives/edgar/data/2011872/0001986152-26-000203.txt",
+    "distinct_positions": 737,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1378496353.0,
+    "reported_long_equity_value_usd": 955639107.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "464287200",
-        "security_class": "CORE S&P500 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 55963.0,
-        "value_usd": 41910034.0,
-        "weight_pct": 3.04
-      },
-      {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 88706.0,
-        "value_usd": 32824829.0,
-        "weight_pct": 2.38
+        "shares": 88188.0,
+        "value_usd": 46865038.0,
+        "weight_pct": 4.9
       },
       {
-        "cusip": "316092352",
-        "security_class": "BLUE CHIP GRWTH",
-        "issuer": "FIDELITY COVINGTON TRUST",
-        "shares": 526304.0,
-        "value_usd": 32688747.0,
-        "weight_pct": 2.37
+        "cusip": "45841N107",
+        "security_class": "COM CL A",
+        "issuer": "INTERACTIVE BROKERS GROUP IN",
+        "shares": 10918.0,
+        "value_usd": 32656326.0,
+        "weight_pct": 3.42
       },
       {
-        "cusip": "14020W106",
-        "security_class": "SHS CREAT UNIT",
-        "issuer": "CAPITAL GROUP DIVIDEND VALUE",
-        "shares": 530279.0,
-        "value_usd": 26132146.0,
-        "weight_pct": 1.9
-      },
-      {
-        "cusip": "921937835",
-        "security_class": "TOTAL BND MRKT",
-        "issuer": "VANGUARD BD INDEX FDS",
-        "shares": 313487.0,
-        "value_usd": 23013101.0,
-        "weight_pct": 1.67
-      },
-      {
-        "cusip": "46090E103",
-        "security_class": "UNIT SER 1",
-        "issuer": "INVESCO QQQ TR",
-        "shares": 29242.0,
-        "value_usd": 21533985.0,
-        "weight_pct": 1.56
-      },
-      {
-        "cusip": "78463X889",
-        "security_class": "ST STR PO EX ETF",
-        "issuer": "SPDR INDEX SHS FDS",
-        "shares": 367693.0,
-        "value_usd": 18528059.0,
-        "weight_pct": 1.34
-      },
-      {
-        "cusip": "78464A359",
-        "security_class": "ST STR CONV ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 170089.0,
-        "value_usd": 18338985.0,
-        "weight_pct": 1.33
-      },
-      {
-        "cusip": "67066G104",
+        "cusip": "40637H109",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION",
-        "shares": 90951.0,
-        "value_usd": 18198237.0,
-        "weight_pct": 1.32
+        "issuer": "HALOZYME THERAPEUTICS INC",
+        "shares": 5274.0,
+        "value_usd": 25953605.0,
+        "weight_pct": 2.72
       },
       {
-        "cusip": "31609A404",
-        "security_class": "ENHANCED INTL",
-        "issuer": "FIDELITY COVINGTON TRUST",
-        "shares": 408549.0,
-        "value_usd": 16395055.0,
-        "weight_pct": 1.19
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 7602.0,
+        "value_usd": 25602391.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "46429B697",
+        "security_class": "MSCI USA MIN ETF",
+        "issuer": "ISHARES TR",
+        "shares": 87589.0,
+        "value_usd": 19992859.0,
+        "weight_pct": 2.09
+      },
+      {
+        "cusip": "92189H201",
+        "security_class": "INTRMDT MUNI ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 17625.0,
+        "value_usd": 17153027.0,
+        "weight_pct": 1.79
+      },
+      {
+        "cusip": "26441C204",
+        "security_class": "COM NEW",
+        "issuer": "DUKE ENERGY CORP NEW",
+        "shares": 3714.0,
+        "value_usd": 15662827.0,
+        "weight_pct": 1.64
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 14817.0,
+        "value_usd": 14467559.0,
+        "weight_pct": 1.51
+      },
+      {
+        "cusip": "02072L599",
+        "security_class": "STRI 1000 VA ETF",
+        "issuer": "EA SERIES TRUST",
+        "shares": 38046.0,
+        "value_usd": 13641440.0,
+        "weight_pct": 1.43
+      },
+      {
+        "cusip": "573874104",
+        "security_class": "COM",
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "shares": 1949.0,
+        "value_usd": 12080499.0,
+        "weight_pct": 1.26
       }
     ],
-    "top_five_pct": 11.36,
-    "top_ten_pct": 18.1,
-    "hhi": 67.57,
+    "top_five_pct": 15.81,
+    "top_ten_pct": 23.45,
+    "hhi": 94.52,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 416,
-      "exited_positions": 139,
-      "increased_positions": 276,
-      "reduced_positions": 62
+      "previous_period": "2026-06-30",
+      "new_positions": 139,
+      "exited_positions": 156,
+      "increased_positions": 326,
+      "reduced_positions": 264
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001986152-26-000152"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001986152-26-000203"
       }
     ]
   },
-  "reported_13f_value_usd": 1378496353.0,
+  "reported_13f_value_usd": 955639107.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001986152-26-000152",
+  "validated_accession": "0001986152-26-000203",
   "annualized_turnover_proxy_pct": null
 }

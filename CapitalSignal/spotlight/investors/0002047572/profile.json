@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002047572",
   "investor_name": "EQ WEALTH ADVISORS, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-24",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2047572/0002047572-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/2047572/0001986152-26-000095.txt"
+    "https://www.sec.gov/Archives/edgar/data/2047572/0001986152-26-000095.txt",
+    "https://www.sec.gov/Archives/edgar/data/2047572/0001986152-26-000205.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9967c682644d7271566683af3c958f5a690dfaceb5fc1b5944291b0a1f982e46",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "a3aa1945c682ada6af74caeec300cec48f99fe121fd7dd9b7c3cea52d5aa9f9d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-28|||",
+    "2026-06-30|2026-07-24|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "037de1f19e647cc0e7d0177092a680564deccc1b",
+    "217da233b6f560d7ec56804e4c9e9ba395739e92",
+    "349cbd770e249ae2d834b236b63baa4f79b0bb1c"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-24",
-    "accession": "0001986152-26-000095",
-    "source": "https://www.sec.gov/Archives/edgar/data/2047572/0001986152-26-000095.txt",
-    "distinct_positions": 57,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001986152-26-000205",
+    "source": "https://www.sec.gov/Archives/edgar/data/2047572/0001986152-26-000205.txt",
+    "distinct_positions": 69,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 182009104.0,
+    "reported_long_equity_value_usd": 218971293.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "72201R585",
-        "security_class": "ETF",
-        "issuer": "PIMCO MULTISECTOR BOND ACTIVE EXCHANGE-TRADED FUND",
-        "shares": 710027.0,
-        "value_usd": 18829928.0,
-        "weight_pct": 10.35
-      },
-      {
         "cusip": "14020Y300",
         "security_class": "ETF",
         "issuer": "CAPITAL GROUP U.S. MULTI-SECTOR INCOME ETF",
-        "shares": 679303.0,
-        "value_usd": 18565354.0,
-        "weight_pct": 10.2
+        "shares": 781864.0,
+        "value_usd": 20508300.0,
+        "weight_pct": 9.37
+      },
+      {
+        "cusip": "72201R585",
+        "security_class": "ETF",
+        "issuer": "PIMCO MULTISECTOR BOND ACTIVE EXCHANGE-TRADED FUND",
+        "shares": 789470.0,
+        "value_usd": 20044650.0,
+        "weight_pct": 9.15
+      },
+      {
+        "cusip": "922020748",
+        "security_class": "ETF",
+        "issuer": "VANGUARD CORE BOND ETF",
+        "shares": 259869.0,
+        "value_usd": 19131524.0,
+        "weight_pct": 8.74
       },
       {
         "cusip": "084670702",
         "security_class": "Stock",
         "issuer": "BERKSHIRE HATHAWAY INC DEL CL B NEW",
-        "shares": 27556.0,
-        "value_usd": 13788747.0,
-        "weight_pct": 7.58
+        "shares": 27866.0,
+        "value_usd": 13875940.0,
+        "weight_pct": 6.34
       },
       {
         "cusip": "14020G101",
         "security_class": "ETF",
         "issuer": "CAPITAL GROUP GROWTH ETF",
-        "shares": 261134.0,
-        "value_usd": 12325513.0,
-        "weight_pct": 6.77
+        "shares": 271514.0,
+        "value_usd": 12877911.0,
+        "weight_pct": 5.88
+      },
+      {
+        "cusip": "14020Y201",
+        "security_class": "ETF",
+        "issuer": "CAPITAL GROUP MUNICIPAL INCOME ETF",
+        "shares": 432812.0,
+        "value_usd": 11227136.0,
+        "weight_pct": 5.13
       },
       {
         "cusip": "25434V807",
         "security_class": "ETF",
         "issuer": "DIMENSIONAL INTERNATIONAL VALUE ETF",
-        "shares": 195764.0,
-        "value_usd": 10575148.0,
-        "weight_pct": 5.81
+        "shares": 194474.0,
+        "value_usd": 10863317.0,
+        "weight_pct": 4.96
       },
       {
-        "cusip": "25434V815",
+        "cusip": "922907712",
         "security_class": "ETF",
-        "issuer": "DIMENSIONAL US SMALL CAP VALUE ETF",
-        "shares": 215024.0,
-        "value_usd": 8340786.0,
-        "weight_pct": 4.58
+        "issuer": "VANGUARD CORE TAX-EXEMPT BOND ETF",
+        "shares": 119370.0,
+        "value_usd": 8543332.0,
+        "weight_pct": 3.9
       },
       {
         "cusip": "25434V781",
         "security_class": "ETF",
         "issuer": "DIMENSIONAL INTERNATIONAL SMALL CAP VALUE ETF",
-        "shares": 192541.0,
-        "value_usd": 7726672.0,
-        "weight_pct": 4.25
+        "shares": 190410.0,
+        "value_usd": 8242853.0,
+        "weight_pct": 3.76
       },
       {
-        "cusip": "808524870",
+        "cusip": "25239Y170",
         "security_class": "ETF",
-        "issuer": "SCHWAB US TIPS ETF",
-        "shares": 279578.0,
-        "value_usd": 7408809.0,
-        "weight_pct": 4.07
-      },
-      {
-        "cusip": "808524771",
-        "security_class": "ETF",
-        "issuer": "SCHWAB FUNDAMENTAL U.S. LARGE COMPANY ETF",
-        "shares": 230580.0,
-        "value_usd": 7171037.0,
-        "weight_pct": 3.94
-      },
-      {
-        "cusip": "14020Y508",
-        "security_class": "ETF",
-        "issuer": "CAPITAL GROUP CORE BOND ETF",
-        "shares": 244250.0,
-        "value_usd": 6394470.0,
-        "weight_pct": 3.51
+        "issuer": "U.S. SMALL CAP VALUE PORTFOLIO: ETF CLASS SHARES",
+        "shares": 211654.0,
+        "value_usd": 7930679.0,
+        "weight_pct": 3.62
       }
     ],
-    "top_five_pct": 40.7,
-    "top_ten_pct": 61.06,
-    "hhi": 499.93,
+    "top_five_pct": 39.47,
+    "top_ten_pct": 60.85,
+    "hhi": 474.77,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 9,
-      "exited_positions": 1,
-      "increased_positions": 25,
-      "reduced_positions": 21
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 3,
+      "increased_positions": 28,
+      "reduced_positions": 20
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-24",
         "accession": "0001986152-26-000095"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001986152-26-000205"
       }
     ]
   },
-  "reported_13f_value_usd": 182009104.0,
+  "reported_13f_value_usd": 218971293.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001986152-26-000095",
+  "validated_accession": "0001986152-26-000205",
   "annualized_turnover_proxy_pct": null
 }

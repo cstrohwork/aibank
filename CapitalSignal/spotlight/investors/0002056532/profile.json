@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002056532",
   "investor_name": "ROSS\\JOHNSON & Associates LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PLYMOUTH",
   "state": "MN",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2056532/0002056532-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/2056532/0002056532-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2056532/0002056532-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2056532/0002056532-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ee3f00337a419efaf4fbb2d141ef8f74f27f9d32cc23e9e3a2c0bb7729ce3905",
-  "generated_at": "2026-11-16T06:21:31.468544+00:00",
+  "source_fingerprint": "5a35c4e6d4893b14f4982a2f00018b5840dda8e23407ecb49f1ce4dbde07f0a7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-10|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "636e1df704e24a709c3040002e875a937a13c270",
+    "7ab4fcdb3df542514d23bce0bcc496380408e403",
+    "e0bf145633f08e8bb82454bad2d7b234be555a5b"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002056532-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2056532/0002056532-26-000003.txt",
-    "distinct_positions": 371,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002056532-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056532/0002056532-26-000005.txt",
+    "distinct_positions": 238,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 6389180.0,
+    "reported_long_equity_value_usd": 7075640.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "384109104",
         "security_class": "Common / Ordinary Stock",
         "issuer": "GRACO INC",
-        "shares": 35561.0,
-        "value_usd": 2688767.0,
-        "weight_pct": 42.08
+        "shares": 46565.0,
+        "value_usd": 3578055.0,
+        "weight_pct": 50.57
       },
       {
         "cusip": "81589A874",
         "security_class": "Exchange Traded Fund",
         "issuer": "SEI EXCHANGE TRADED FUNDS",
-        "shares": 23165.0,
-        "value_usd": 583093.0,
-        "weight_pct": 9.13
+        "shares": 21577.0,
+        "value_usd": 522465.0,
+        "weight_pct": 7.38
       },
       {
         "cusip": "78462F103",
         "security_class": "Exchange Traded Fund",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
         "shares": 432.0,
-        "value_usd": 322605.0,
-        "weight_pct": 5.05
+        "value_usd": 329456.0,
+        "weight_pct": 4.66
       },
       {
         "cusip": "08160H101",
         "security_class": "Common / Ordinary Stock",
         "issuer": "BENCHMARK ELECTRS INC",
         "shares": 2510.0,
-        "value_usd": 247662.0,
-        "weight_pct": 3.88
+        "value_usd": 208104.0,
+        "weight_pct": 2.94
       },
       {
         "cusip": "88160R101",
         "security_class": "Common / Ordinary Stock",
         "issuer": "TESLA INC",
-        "shares": 569.0,
-        "value_usd": 239321.0,
-        "weight_pct": 3.75
+        "shares": 567.0,
+        "value_usd": 201177.0,
+        "weight_pct": 2.84
       },
       {
         "cusip": "81589A601",
         "security_class": "Exchange Traded Fund",
         "issuer": "SEI EXCHANGE TRADED FUNDS",
         "shares": 4854.0,
-        "value_usd": 194633.0,
-        "weight_pct": 3.05
-      },
-      {
-        "cusip": "464288414",
-        "security_class": "Exchange Traded Fund",
-        "issuer": "ISHARES TR",
-        "shares": 1542.0,
-        "value_usd": 165950.0,
-        "weight_pct": 2.6
+        "value_usd": 188227.0,
+        "weight_pct": 2.66
       },
       {
         "cusip": "464287200",
         "security_class": "Exchange Traded Fund",
         "issuer": "ISHARES TR",
         "shares": 217.0,
-        "value_usd": 162509.0,
-        "weight_pct": 2.54
+        "value_usd": 166189.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "464288414",
+        "security_class": "Exchange Traded Fund",
+        "issuer": "ISHARES TR",
+        "shares": 1542.0,
+        "value_usd": 155896.0,
+        "weight_pct": 2.2
+      },
+      {
+        "cusip": "031162100",
+        "security_class": "Common / Ordinary Stock",
+        "issuer": "AMGEN INC",
+        "shares": 300.0,
+        "value_usd": 126453.0,
+        "weight_pct": 1.79
       },
       {
         "cusip": "81589A502",
         "security_class": "Exchange Traded Fund",
         "issuer": "SEI EXCHANGE TRADED FUNDS",
-        "shares": 3708.0,
-        "value_usd": 124384.0,
-        "weight_pct": 1.95
-      },
-      {
-        "cusip": "17275R102",
-        "security_class": "Common / Ordinary Stock",
-        "issuer": "CISCO SYS INC",
-        "shares": 1014.0,
-        "value_usd": 119104.0,
-        "weight_pct": 1.86
+        "shares": 3665.0,
+        "value_usd": 114201.0,
+        "weight_pct": 1.61
       }
     ],
-    "top_five_pct": 63.88,
-    "top_ten_pct": 75.88,
-    "hhi": 1960.26,
+    "top_five_pct": 68.39,
+    "top_ten_pct": 79.01,
+    "hhi": 2689.18,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 164,
-      "exited_positions": 10,
-      "increased_positions": 74,
-      "reduced_positions": 25
+      "previous_period": "2026-06-30",
+      "new_positions": 30,
+      "exited_positions": 163,
+      "increased_positions": 3,
+      "reduced_positions": 74
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002056532-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002056532-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 6389180.0,
+  "reported_13f_value_usd": 7075640.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002056532-26-000003",
+  "validated_accession": "0002056532-26-000005",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002063947",
   "investor_name": "BYRNE FINANCIAL FREEDOM, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-30",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "FRANKLIN",
   "state": "MA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2063947/0001951757-25-001429.txt",
-    "https://www.sec.gov/Archives/edgar/data/2063947/0001951757-26-001087.txt"
+    "https://www.sec.gov/Archives/edgar/data/2063947/0001951757-26-001087.txt",
+    "https://www.sec.gov/Archives/edgar/data/2063947/0001951757-26-001986.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a967b47d5956cd3a483c7f59e26aceb5142f9c101c8c07b7b0359c00532ad932",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "a773ffafd571e33db6155d8415995da7311ade12f8d19e3984a45b067d3b049f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-07-30|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "515c403e698b8a5abb92628a7831e5e269f93524",
+    "b3f630c4ad04a7ec67d0224c1c43132667794e5b",
+    "c45900c04f4edcd67cc92a1d078ccae52a142e67"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-30",
-    "accession": "0001951757-26-001087",
-    "source": "https://www.sec.gov/Archives/edgar/data/2063947/0001951757-26-001087.txt",
-    "distinct_positions": 119,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001951757-26-001986",
+    "source": "https://www.sec.gov/Archives/edgar/data/2063947/0001951757-26-001986.txt",
+    "distinct_positions": 123,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 256121349.0,
+    "reported_long_equity_value_usd": 272648287.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "595112103",
         "security_class": "COM",
         "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 21870.0,
-        "value_usd": 25244259.0,
-        "weight_pct": 9.86
-      },
-      {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 60363.0,
-        "value_usd": 21328036.0,
-        "weight_pct": 8.33
+        "shares": 20514.0,
+        "value_usd": 21849892.0,
+        "weight_pct": 8.01
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 88888.0,
-        "value_usd": 21185688.0,
-        "weight_pct": 8.27
+        "shares": 86022.0,
+        "value_usd": 21432283.0,
+        "weight_pct": 7.86
       },
       {
-        "cusip": "00214Q104",
-        "security_class": "INNOVATION ETF",
-        "issuer": "ARK ETF TR",
-        "shares": 121220.0,
-        "value_usd": 9796975.0,
-        "weight_pct": 3.83
-      },
-      {
-        "cusip": "19761L706",
-        "security_class": "RESH ENHNC COR",
-        "issuer": "COLUMBIA ETF TR I",
-        "shares": 192408.0,
-        "value_usd": 8327421.0,
-        "weight_pct": 3.25
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 57956.0,
+        "value_usd": 19747847.0,
+        "weight_pct": 7.24
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 22012.0,
-        "value_usd": 8210833.0,
-        "weight_pct": 3.21
+        "shares": 21468.0,
+        "value_usd": 11011100.0,
+        "weight_pct": 4.04
+      },
+      {
+        "cusip": "00214Q104",
+        "security_class": "INNOVATION ETF",
+        "issuer": "ARK ETF TR",
+        "shares": 123442.0,
+        "value_usd": 10998667.0,
+        "weight_pct": 4.03
+      },
+      {
+        "cusip": "46641Q324",
+        "security_class": "INTERNL GWT",
+        "issuer": "J P MORGAN EXCHANGE TRADED F",
+        "shares": 128023.0,
+        "value_usd": 10730894.0,
+        "weight_pct": 3.94
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 53314.0,
+        "value_usd": 9972451.0,
+        "weight_pct": 3.66
+      },
+      {
+        "cusip": "19761L706",
+        "security_class": "RESH ENHNC COR",
+        "issuer": "COLUMBIA ETF TR I",
+        "shares": 206276.0,
+        "value_usd": 9300998.0,
+        "weight_pct": 3.41
       },
       {
         "cusip": "46138J742",
         "security_class": "RAFI STRATGIC US",
         "issuer": "INVESCO EXCH TRD SLF IDX FD",
-        "shares": 124932.0,
-        "value_usd": 8193045.0,
-        "weight_pct": 3.2
+        "shares": 129748.0,
+        "value_usd": 8798624.0,
+        "weight_pct": 3.23
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 25810.0,
-        "value_usd": 7468365.0,
-        "weight_pct": 2.92
-      },
-      {
-        "cusip": "670657105",
-        "security_class": "COM",
-        "issuer": "NUVEEN AMT FREE QLTY MUN INC",
-        "shares": 628111.0,
-        "value_usd": 7374020.0,
-        "weight_pct": 2.88
-      },
-      {
-        "cusip": "931142103",
-        "security_class": "COM",
-        "issuer": "WALMART INC",
-        "shares": 59758.0,
-        "value_usd": 6768195.0,
-        "weight_pct": 2.64
+        "shares": 25066.0,
+        "value_usd": 8347333.0,
+        "weight_pct": 3.06
       }
     ],
-    "top_five_pct": 33.53,
-    "top_ten_pct": 48.37,
-    "hhi": 366.32,
+    "top_five_pct": 31.19,
+    "top_ten_pct": 48.48,
+    "hhi": 339.54,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 55,
-      "exited_positions": 34,
-      "increased_positions": 30,
-      "reduced_positions": 34
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 11,
+      "increased_positions": 38,
+      "reduced_positions": 58
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-30",
         "accession": "0001951757-26-001087"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001951757-26-001986"
       }
     ]
   },
-  "reported_13f_value_usd": 256121349.0,
+  "reported_13f_value_usd": 272648287.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001951757-26-001087",
+  "validated_accession": "0001951757-26-001986",
   "annualized_turnover_proxy_pct": null
 }

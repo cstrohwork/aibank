@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001905128",
   "investor_name": "American Trust",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LEXINGTON",
   "state": "KY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1905128/0001905128-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1905128/0001905128-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1905128/0001905128-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1905128/0001905128-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1a107d312637762d9f4edd8ffaea1e2287417286fff6e4332e40d2a0dc3aa12d",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "c42c1fc0f30a97c6476f76477d46a3b486d3876a89ffce4b2472384106969b51",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "70b4e8bb67e5cd4f26f1753863af84307ac2ca7f",
+    "a29ba76ce3a8b8cb517cfef5e6f73f639eccf618",
+    "d72238e722d10f5258ffcb1637f1616bd98f2cbb"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001905128-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1905128/0001905128-26-000005.txt",
-    "distinct_positions": 334,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001905128-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1905128/0001905128-26-000007.txt",
+    "distinct_positions": 310,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1297377746.0,
+    "reported_long_equity_value_usd": 1134078153.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "922908363",
         "security_class": "Equities",
         "issuer": "VANGUARD S&P 500 ETF",
-        "shares": 283744.0,
-        "value_usd": 194878431.0,
-        "weight_pct": 15.02
-      },
-      {
-        "cusip": "921937819",
-        "security_class": "Equities",
-        "issuer": "VANGUARD INTERMED TERM BOND ETF",
-        "shares": 1214066.0,
-        "value_usd": 93118844.0,
-        "weight_pct": 7.18
+        "shares": 211641.0,
+        "value_usd": 148330908.0,
+        "weight_pct": 13.08
       },
       {
         "cusip": "46434V621",
         "security_class": "Equities",
         "issuer": "ISHARES CORE DIVIDEND GROWTH",
-        "shares": 1039043.0,
-        "value_usd": 78749095.0,
-        "weight_pct": 6.07
+        "shares": 992789.0,
+        "value_usd": 74846328.0,
+        "weight_pct": 6.6
       },
       {
-        "cusip": "922908736",
+        "cusip": "921937819",
         "security_class": "Equities",
-        "issuer": "Vanguard Morningstar Growth ETF",
-        "shares": 772322.0,
-        "value_usd": 66527873.0,
-        "weight_pct": 5.13
+        "issuer": "VANGUARD INTERMED TERM BOND ETF",
+        "shares": 1015883.0,
+        "value_usd": 74098498.0,
+        "weight_pct": 6.53
       },
       {
         "cusip": "46654Q609",
         "security_class": "Equities",
         "issuer": "JPMORGAN ACTIVE GROWTH ETF",
-        "shares": 616315.0,
-        "value_usd": 60762445.0,
-        "weight_pct": 4.68
+        "shares": 564649.0,
+        "value_usd": 54533704.0,
+        "weight_pct": 4.81
+      },
+      {
+        "cusip": "922908736",
+        "security_class": "Equities",
+        "issuer": "Vanguard Morningstar Growth ETF",
+        "shares": 572042.0,
+        "value_usd": 51546682.0,
+        "weight_pct": 4.55
       },
       {
         "cusip": "922908751",
         "security_class": "Equities",
         "issuer": "VANGUARD SMALL CAP ETF",
-        "shares": 189427.0,
-        "value_usd": 57419135.0,
-        "weight_pct": 4.43
-      },
-      {
-        "cusip": "336901103",
-        "security_class": "Equities",
-        "issuer": "1st Source Corp",
-        "shares": 655083.0,
-        "value_usd": 53441666.0,
-        "weight_pct": 4.12
+        "shares": 172798.0,
+        "value_usd": 49159279.0,
+        "weight_pct": 4.33
       },
       {
         "cusip": "464287507",
         "security_class": "Equities",
         "issuer": "ISHARES CORE S&P MID-CAP ETF",
-        "shares": 669220.0,
-        "value_usd": 51603554.0,
-        "weight_pct": 3.98
+        "shares": 652629.0,
+        "value_usd": 46956675.0,
+        "weight_pct": 4.14
       },
       {
         "cusip": "25434V799",
         "security_class": "Equities",
         "issuer": "DIMENSIONAL INTERNATIONAL CORE",
-        "shares": 1134501.0,
-        "value_usd": 42271507.0,
-        "weight_pct": 3.26
+        "shares": 1111543.0,
+        "value_usd": 41805132.0,
+        "weight_pct": 3.69
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "Equities",
+        "issuer": "INVESCO QQQ TRUST",
+        "shares": 42728.0,
+        "value_usd": 31609214.0,
+        "weight_pct": 2.79
       },
       {
         "cusip": "922908629",
         "security_class": "Equities",
         "issuer": "Vanguard Morningstar Mid-Cap ET",
-        "shares": 471888.0,
-        "value_usd": 38019978.0,
-        "weight_pct": 2.93
+        "shares": 368039.0,
+        "value_usd": 28861599.0,
+        "weight_pct": 2.54
       }
     ],
-    "top_five_pct": 38.08,
-    "top_ten_pct": 56.79,
-    "hhi": 466.67,
+    "top_five_pct": 35.57,
+    "top_ten_pct": 53.06,
+    "hhi": 401.36,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 83,
-      "exited_positions": 76,
-      "increased_positions": 87,
-      "reduced_positions": 160
+      "previous_period": "2026-06-30",
+      "new_positions": 19,
+      "exited_positions": 43,
+      "increased_positions": 81,
+      "reduced_positions": 201
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001905128-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001905128-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 1297377746.0,
+  "reported_13f_value_usd": 1134078153.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001905128-26-000005",
+  "validated_accession": "0001905128-26-000007",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002086579",
   "investor_name": "Napier Financial, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-31",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BRAINTREE",
   "state": "MA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2086579/0002086579-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2086579/0002086579-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2086579/0002086579-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7e7b1f971adc68ebb54c2767c469b9c11195c48096d21343095e0c353fc10e54",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "57ec0de63f71a82b3cc8aadfef12421252bdc7c9f79a88ca35d7388e89fd03d6",
+  "accession_fingerprints": [
+    "2026-06-30|2026-07-31|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0a62fb2586e87b3c2045e29f29dcc1043d6636d3",
+    "89374bac16eac8e94dcc0b66652f6e2eecf2cb36"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-31",
-    "accession": "0002086579-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2086579/0002086579-26-000004.txt",
-    "distinct_positions": 472,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002086579-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2086579/0002086579-26-000006.txt",
+    "distinct_positions": 205,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 479956445.0,
+    "reported_long_equity_value_usd": 504626238.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "464287622",
         "security_class": "MF Closed and MF Open",
         "issuer": "ISHARES RUSSELL",
-        "shares": 152880.0,
-        "value_usd": 62604338.0,
-        "weight_pct": 13.04
+        "shares": 158419.0,
+        "value_usd": 65922981.0,
+        "weight_pct": 13.06
       },
       {
         "cusip": "464287200",
         "security_class": "MF Closed and MF Open",
         "issuer": "ISHARES CORE",
-        "shares": 61286.0,
-        "value_usd": 45896508.0,
-        "weight_pct": 9.56
+        "shares": 63761.0,
+        "value_usd": 48831403.0,
+        "weight_pct": 9.68
       },
       {
         "cusip": "464287465",
         "security_class": "MF Closed and MF Open",
         "issuer": "ISHARES MSCI",
-        "shares": 250152.0,
-        "value_usd": 25985729.0,
-        "weight_pct": 5.41
+        "shares": 372125.0,
+        "value_usd": 38660022.0,
+        "weight_pct": 7.66
       },
       {
         "cusip": "464288661",
         "security_class": "MF Closed and MF Open",
         "issuer": "ISHARES 3-7YR",
-        "shares": 173124.0,
-        "value_usd": 20333381.0,
-        "weight_pct": 4.24
+        "shares": 183134.0,
+        "value_usd": 20774783.0,
+        "weight_pct": 4.12
       },
       {
         "cusip": "464287598",
         "security_class": "MF Closed and MF Open",
         "issuer": "ISHARES RUSSELL",
-        "shares": 80154.0,
-        "value_usd": 19431732.0,
-        "weight_pct": 4.05
+        "shares": 83415.0,
+        "value_usd": 20681028.0,
+        "weight_pct": 4.1
       },
       {
         "cusip": "922908629",
         "security_class": "MF Closed and MF Open",
-        "issuer": "VANGUARD MID",
-        "shares": 231680.0,
-        "value_usd": 18666440.0,
-        "weight_pct": 3.89
+        "issuer": "VANGUARD MORNINGSTAR",
+        "shares": 241594.0,
+        "value_usd": 18945846.0,
+        "weight_pct": 3.75
       },
       {
         "cusip": "33738R506",
         "security_class": "MF Closed and MF Open",
         "issuer": "FIRST TRUST",
-        "shares": 223682.0,
-        "value_usd": 18131640.0,
-        "weight_pct": 3.78
+        "shares": 232236.0,
+        "value_usd": 18181717.0,
+        "weight_pct": 3.6
       },
       {
         "cusip": "464287234",
         "security_class": "MF Closed and MF Open",
         "issuer": "ISHARES MSCI",
-        "shares": 232637.0,
-        "value_usd": 15914718.0,
-        "weight_pct": 3.32
+        "shares": 240453.0,
+        "value_usd": 16059887.0,
+        "weight_pct": 3.18
       },
       {
         "cusip": "97717Y527",
         "security_class": "MF Closed and MF Open",
         "issuer": "WISDOMTREE FLOATING",
-        "shares": 311012.0,
-        "value_usd": 15659445.0,
-        "weight_pct": 3.26
+        "shares": 306866.0,
+        "value_usd": 15463003.0,
+        "weight_pct": 3.06
       },
       {
         "cusip": "78462F103",
         "security_class": "MF Closed and MF Open",
         "issuer": "STATE STREET",
-        "shares": 20044.0,
-        "value_usd": 14968107.0,
-        "weight_pct": 3.12
+        "shares": 20242.0,
+        "value_usd": 15436784.0,
+        "weight_pct": 3.06
       }
     ],
-    "top_five_pct": 36.31,
-    "top_ten_pct": 53.67,
-    "hhi": 444.48,
-    "changes": null,
+    "top_five_pct": 38.62,
+    "top_ten_pct": 55.28,
+    "hhi": 463.76,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 35,
+      "exited_positions": 302,
+      "increased_positions": 100,
+      "reduced_positions": 28
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-07-31",
         "accession": "0002086579-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002086579-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 479956445.0,
+  "reported_13f_value_usd": 504626238.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002086579-26-000004",
+  "validated_accession": "0002086579-26-000006",
   "annualized_turnover_proxy_pct": null
 }

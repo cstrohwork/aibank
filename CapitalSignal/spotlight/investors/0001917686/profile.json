@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001917686",
   "investor_name": "Mason & Associates Inc",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-23",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOS ANGELES",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1917686/0001917686-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1917686/0001917686-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1917686/0001917686-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1917686/0001917686-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7d7b0326a71ec57a1fa95c8f7cde9dcab5ca190ac50e510ef8cf3767bf0fa12d",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "90ba510a775bd74138a1afd2b72610f3872f4757d56e5b1857f5309df90b15bc",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-07-23|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2af89b1b2b895bb238c160796266dd67ed2f634b",
+    "74b2aa89191ed720fa0e2485705ab989a6601188",
+    "b93178483563b5d5d1bf1d8d37afaf91e055ca9b"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-23",
-    "accession": "0001917686-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1917686/0001917686-26-000003.txt",
-    "distinct_positions": 161,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001917686-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1917686/0001917686-26-000005.txt",
+    "distinct_positions": 166,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 619041462.0,
+    "reported_long_equity_value_usd": 646358600.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,91 +42,91 @@
         "cusip": "464287622",
         "security_class": "RUS 1000 ETF",
         "issuer": "ISHARES TR",
-        "shares": 166139.0,
-        "value_usd": 68034013.0,
-        "weight_pct": 10.99
+        "shares": 167406.0,
+        "value_usd": 69662773.0,
+        "weight_pct": 10.78
       },
       {
         "cusip": "19761L706",
         "security_class": "RESH ENHNC COR",
         "issuer": "COLUMBIA ETF TR I",
-        "shares": 1008482.0,
-        "value_usd": 43647081.0,
-        "weight_pct": 7.05
+        "shares": 973189.0,
+        "value_usd": 43881105.0,
+        "weight_pct": 6.79
       },
       {
         "cusip": "25434V401",
         "security_class": "US EQUI MARK ETF",
         "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 481535.0,
-        "value_usd": 39456999.0,
-        "weight_pct": 6.37
-      },
-      {
-        "cusip": "92189F676",
-        "security_class": "SEMICONDUCTR ETF",
-        "issuer": "VANECK ETF TRUST",
-        "shares": 39237.0,
-        "value_usd": 25735325.0,
-        "weight_pct": 4.16
-      },
-      {
-        "cusip": "45409B560",
-        "security_class": "FTSE INTL EQTY C",
-        "issuer": "NEW YORK LIFE INVESTMENTS ET",
-        "shares": 653490.0,
-        "value_usd": 24891440.0,
-        "weight_pct": 4.02
+        "shares": 482597.0,
+        "value_usd": 40070028.0,
+        "weight_pct": 6.2
       },
       {
         "cusip": "025072703",
         "security_class": "INTL EQT ETF",
         "issuer": "AMERICAN CENTY ETF TR",
-        "shares": 272600.0,
-        "value_usd": 24315879.0,
-        "weight_pct": 3.93
+        "shares": 277484.0,
+        "value_usd": 25004059.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "92189F676",
+        "security_class": "SEMICONDUCTR ETF",
+        "issuer": "VANECK ETF TRUST",
+        "shares": 40918.0,
+        "value_usd": 24918879.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "45409B560",
+        "security_class": "FTSE INTL EQTY C",
+        "issuer": "NYLIM ETF TR",
+        "shares": 661697.0,
+        "value_usd": 24595270.0,
+        "weight_pct": 3.81
       },
       {
         "cusip": "47103U845",
         "security_class": "HENDRSON AAA CL",
         "issuer": "JANUS DETROIT STR TR",
-        "shares": 372620.0,
-        "value_usd": 18813574.0,
-        "weight_pct": 3.04
+        "shares": 410841.0,
+        "value_usd": 20735125.0,
+        "weight_pct": 3.21
       },
       {
-        "cusip": "92206C409",
-        "security_class": "SHRT TRM CORP BD",
-        "issuer": "VANGUARD SCOTTSDALE FDS",
-        "shares": 231559.0,
-        "value_usd": 18300130.0,
-        "weight_pct": 2.96
+        "cusip": "97717Y527",
+        "security_class": "FLOATNG RAT TREA",
+        "issuer": "WISDOMTREE TR",
+        "shares": 399783.0,
+        "value_usd": 20145044.0,
+        "weight_pct": 3.12
       },
       {
         "cusip": "46641Q761",
         "security_class": "US QUALTY FCTR",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 247077.0,
-        "value_usd": 17858726.0,
-        "weight_pct": 2.88
+        "shares": 253279.0,
+        "value_usd": 18691988.0,
+        "weight_pct": 2.89
       },
       {
-        "cusip": "78468R408",
-        "security_class": "ST TERM HIGH ETF",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 634715.0,
-        "value_usd": 15886915.0,
-        "weight_pct": 2.57
+        "cusip": "92206C409",
+        "security_class": "SHRT TRM CORP BD",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 234546.0,
+        "value_usd": 18118709.0,
+        "weight_pct": 2.8
       }
     ],
-    "top_five_pct": 32.59,
-    "top_ten_pct": 47.97,
-    "hhi": 349.38,
+    "top_five_pct": 31.49,
+    "top_ten_pct": 47.31,
+    "hhi": 339.25,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 54,
-      "exited_positions": 26,
-      "increased_positions": 52,
+      "previous_period": "2026-06-30",
+      "new_positions": 16,
+      "exited_positions": 11,
+      "increased_positions": 85,
       "reduced_positions": 42
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-23",
         "accession": "0001917686-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001917686-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 619041462.0,
+  "reported_13f_value_usd": 646358600.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001917686-26-000003",
+  "validated_accession": "0001917686-26-000005",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001929389",
   "investor_name": "Irenic Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1929389/0001929389-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1929389/0001929389-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1929389/0001929389-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1929389/0001929389-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ce9aec80c23c6bc8b32aa650b31ebf4d27cbb70ef625b5192ff1ce284c2d3495",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "fcb87d84aeace23333ddb91573c857dcd993a22943b23758c148bcbf2ed36c4a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0e8b5487aa24e2c9a6d569ac659340ed64bc1637",
+    "31225df74346cc6509be73d7c1bdbc41e9b1a560",
+    "cb4f536d2117860a15cfd67f9267c9ef78704a9d"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001929389-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1929389/0001929389-26-000007.txt",
-    "distinct_positions": 43,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001929389-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1929389/0001929389-26-000010.txt",
+    "distinct_positions": 33,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1389133819.0,
+    "reported_long_equity_value_usd": 1297820728.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "CL A",
         "issuer": "SNAP INC",
         "shares": 30000000.0,
-        "value_usd": 133200000.0,
-        "weight_pct": 9.59
+        "value_usd": 162000000.0,
+        "weight_pct": 12.48
+      },
+      {
+        "cusip": "45826H109",
+        "security_class": "COM",
+        "issuer": "INTEGER HLDGS CORP",
+        "shares": 1270885.0,
+        "value_usd": 160576320.0,
+        "weight_pct": 12.37
       },
       {
         "cusip": "750940108",
         "security_class": "COM",
         "issuer": "RALLIANT CORP",
         "shares": 1740218.0,
-        "value_usd": 128132251.0,
-        "weight_pct": 9.22
-      },
-      {
-        "cusip": "45826H109",
-        "security_class": "COM",
-        "issuer": "INTEGER HLDGS CORP",
-        "shares": 1264259.0,
-        "value_usd": 118145004.0,
-        "weight_pct": 8.5
+        "value_usd": 120370879.0,
+        "weight_pct": 9.27
       },
       {
         "cusip": "879369106",
         "security_class": "COM",
         "issuer": "TELEFLEX INCORPORATED",
         "shares": 870000.0,
-        "value_usd": 110281200.0,
-        "weight_pct": 7.94
+        "value_usd": 108784800.0,
+        "weight_pct": 8.38
       },
       {
         "cusip": "83601L102",
         "security_class": "COM",
         "issuer": "SOTERA HEALTH CO",
         "shares": 5141822.0,
-        "value_usd": 91267341.0,
-        "weight_pct": 6.57
+        "value_usd": 95072289.0,
+        "weight_pct": 7.33
       },
       {
         "cusip": "140475203",
         "security_class": "COM",
         "issuer": "SONIDA SENIOR LIVING INC",
         "shares": 1903621.0,
-        "value_usd": 77667737.0,
-        "weight_pct": 5.59
+        "value_usd": 71538077.0,
+        "weight_pct": 5.51
+      },
+      {
+        "cusip": "155923105",
+        "security_class": "COM SHS",
+        "issuer": "CENTURI HOLDINGS INC",
+        "shares": 3472881.0,
+        "value_usd": 69596535.0,
+        "weight_pct": 5.36
       },
       {
         "cusip": "76119X105",
         "security_class": "COM",
         "issuer": "RESERVOIR MEDIA INC",
         "shares": 6260176.0,
-        "value_usd": 61913141.0,
-        "weight_pct": 4.46
-      },
-      {
-        "cusip": "01644J108",
-        "security_class": "COM",
-        "issuer": "ALKAMI TECHNOLOGY INC",
-        "shares": 2675151.0,
-        "value_usd": 48473736.0,
-        "weight_pct": 3.49
-      },
-      {
-        "cusip": "G8807B106",
-        "security_class": "COM",
-        "issuer": "THERAVANCE BIOPHARMA INC",
-        "shares": 2760948.0,
-        "value_usd": 46936116.0,
-        "weight_pct": 3.38
+        "value_usd": 59346468.0,
+        "weight_pct": 4.57
       },
       {
         "cusip": "22266T109",
         "security_class": "CL A",
         "issuer": "COUPANG INC",
-        "shares": 2484979.0,
-        "value_usd": 43164085.0,
-        "weight_pct": 3.11
+        "shares": 3604790.0,
+        "value_usd": 49998437.0,
+        "weight_pct": 3.85
+      },
+      {
+        "cusip": "78463M107",
+        "security_class": "COM",
+        "issuer": "SPS COMM INC",
+        "shares": 597704.0,
+        "value_usd": 49274718.0,
+        "weight_pct": 3.8
       }
     ],
-    "top_five_pct": 41.83,
-    "top_ten_pct": 61.85,
-    "hhi": 514.3,
+    "top_five_pct": 49.84,
+    "top_ten_pct": 72.93,
+    "hhi": 685.65,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 35,
-      "exited_positions": 10,
-      "increased_positions": 4,
-      "reduced_positions": 1
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 18,
+      "increased_positions": 11,
+      "reduced_positions": 4
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001929389-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001929389-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 1389133819.0,
+  "reported_13f_value_usd": 1297820728.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001929389-26-000007",
+  "validated_accession": "0001929389-26-000010",
   "annualized_turnover_proxy_pct": null
 }

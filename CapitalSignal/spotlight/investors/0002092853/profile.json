@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002092853",
   "investor_name": "Odyssean, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DARIEN",
   "state": "CT",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2092853/0002092853-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2092853/0002092853-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2092853/0002092853-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "145f508f82c0f94228b38ce518d2454cd9a65115bad46e3c2350ee6ab8be5aa4",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "4fbea3508d2c5f0780175aa92feabf2b02dfec601deffc98e108603238af4a12",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "9f0080ba8fe0bcccb837399b6ebf724269de909f",
+    "cd728d93210a60924bd00165982858b2fcd594c9"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002092853-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2092853/0002092853-26-000004.txt",
-    "distinct_positions": 485,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002092853-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2092853/0002092853-26-000006.txt",
+    "distinct_positions": 446,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 614879440.0,
+    "reported_long_equity_value_usd": 865651541.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "90400D108",
+        "cusip": "90184D100",
         "security_class": "COM",
-        "issuer": "ULTRAGENYX PHARMACEUTICAL IN",
-        "shares": 122087.0,
-        "value_usd": 4076485.0,
-        "weight_pct": 0.66
+        "issuer": "TWIST BIOSCIENCE CORP",
+        "shares": 24470.0,
+        "value_usd": 4728583.0,
+        "weight_pct": 0.55
       },
       {
-        "cusip": "501575104",
-        "security_class": "COM",
-        "issuer": "KYMERA THERAPEUTICS INC",
-        "shares": 34485.0,
-        "value_usd": 3954395.0,
-        "weight_pct": 0.64
+        "cusip": "26622P107",
+        "security_class": "CL A",
+        "issuer": "DOXIMITY INC",
+        "shares": 166514.0,
+        "value_usd": 4719007.0,
+        "weight_pct": 0.55
       },
       {
-        "cusip": "45166A102",
-        "security_class": "COM",
-        "issuer": "IDEAYA BIOSCIENCES INC",
-        "shares": 102582.0,
-        "value_usd": 3823231.0,
-        "weight_pct": 0.62
+        "cusip": "10316T104",
+        "security_class": "CL A",
+        "issuer": "BOX INC",
+        "shares": 139190.0,
+        "value_usd": 4660081.0,
+        "weight_pct": 0.54
       },
       {
-        "cusip": "92243G108",
-        "security_class": "COM",
-        "issuer": "VAXCYTE INC",
-        "shares": 62638.0,
-        "value_usd": 3641147.0,
-        "weight_pct": 0.59
+        "cusip": "26210C104",
+        "security_class": "CL A",
+        "issuer": "DROPBOX INC",
+        "shares": 136692.0,
+        "value_usd": 4627024.0,
+        "weight_pct": 0.53
       },
       {
-        "cusip": "00827B106",
+        "cusip": "98980L101",
+        "security_class": "CL A",
+        "issuer": "ZOOM COMMUNICATIONS INC",
+        "shares": 49919.0,
+        "value_usd": 4531148.0,
+        "weight_pct": 0.52
+      },
+      {
+        "cusip": "98980F104",
+        "security_class": "COMMON STOCK",
+        "issuer": "ZOOMINFO TECHNOLOGIES INC",
+        "shares": 1192696.0,
+        "value_usd": 4520318.0,
+        "weight_pct": 0.52
+      },
+      {
+        "cusip": "81730H109",
+        "security_class": "CL A",
+        "issuer": "SENTINELONE INC",
+        "shares": 189438.0,
+        "value_usd": 4501047.0,
+        "weight_pct": 0.52
+      },
+      {
+        "cusip": "053604104",
         "security_class": "COM CL A",
-        "issuer": "AFFIRM HLDGS INC",
-        "shares": 43968.0,
-        "value_usd": 3585590.0,
-        "weight_pct": 0.58
+        "issuer": "AVEPOINT INC",
+        "shares": 319136.0,
+        "value_usd": 4493435.0,
+        "weight_pct": 0.52
+      },
+      {
+        "cusip": "009066101",
+        "security_class": "COM CL A",
+        "issuer": "AIRBNB INC",
+        "shares": 27955.0,
+        "value_usd": 4490971.0,
+        "weight_pct": 0.52
       },
       {
         "cusip": "15117B202",
         "security_class": "COM NEW",
         "issuer": "CELLDEX THERAPEUTICS INC NEW",
-        "shares": 95069.0,
-        "value_usd": 3537517.0,
-        "weight_pct": 0.58
-      },
-      {
-        "cusip": "53947R105",
-        "security_class": "COM SHS",
-        "issuer": "LOAR HOLDINGS INC",
-        "shares": 43660.0,
-        "value_usd": 3519433.0,
-        "weight_pct": 0.57
-      },
-      {
-        "cusip": "604749101",
-        "security_class": "COM",
-        "issuer": "MIRUM PHARMACEUTICALS INC",
-        "shares": 29924.0,
-        "value_usd": 3503203.0,
-        "weight_pct": 0.57
-      },
-      {
-        "cusip": "25809K105",
-        "security_class": "CL A",
-        "issuer": "DOORDASH INC",
-        "shares": 18915.0,
-        "value_usd": 3490385.0,
-        "weight_pct": 0.57
-      },
-      {
-        "cusip": "501147102",
-        "security_class": "COM",
-        "issuer": "KRYSTAL BIOTECH INC",
-        "shares": 9349.0,
-        "value_usd": 3474743.0,
-        "weight_pct": 0.57
+        "shares": 138449.0,
+        "value_usd": 4487132.0,
+        "weight_pct": 0.52
       }
     ],
-    "top_five_pct": 3.1,
-    "top_ten_pct": 5.95,
-    "hhi": 34.99,
-    "changes": null,
+    "top_five_pct": 2.69,
+    "top_ten_pct": 5.29,
+    "hhi": 36.62,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 93,
+      "exited_positions": 132,
+      "increased_positions": 216,
+      "reduced_positions": 37
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002092853-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002092853-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 614879440.0,
+  "reported_13f_value_usd": 865651541.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002092853-26-000004",
+  "validated_accession": "0002092853-26-000006",
   "annualized_turnover_proxy_pct": null
 }

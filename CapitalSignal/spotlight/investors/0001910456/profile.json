@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001910456",
   "investor_name": "Lynx1 Capital Management LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DORADO",
   "state": null,
   "country": null,
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1910456/0001085146-25-005988.txt",
-    "https://www.sec.gov/Archives/edgar/data/1910456/0001910456-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1910456/0001910456-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1910456/0001910456-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "28494adad0c146d0c12f8ff2905f413c1988464769b7719036913dc188251525",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "275f3ffa713ee81ec297c94505c7b2c6f308d85705b8c3d29fc7e45c58f495d8",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "19fc0cbab5a9c202784dd580dc646339e75ec063",
+    "778656116c10af669646678672c47b4f5f061800",
+    "8cd960c30268435f217c93073ff38fcf62020661"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0001910456-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1910456/0001910456-26-000004.txt",
-    "distinct_positions": 27,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001910456-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1910456/0001910456-26-000007.txt",
+    "distinct_positions": 31,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 865529222.0,
+    "reported_long_equity_value_usd": 646092908.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "ORDINARY SHARES",
         "issuer": "GH RESEARCH PLC",
         "shares": 13263288.0,
-        "value_usd": 356517181.0,
-        "weight_pct": 41.19
+        "value_usd": 311422002.0,
+        "weight_pct": 48.2
       },
       {
         "cusip": "230031106",
         "security_class": "COM",
         "issuer": "CULLINAN THERAPEUTICS INC",
         "shares": 8963500.0,
-        "value_usd": 163225335.0,
-        "weight_pct": 18.86
+        "value_usd": 137589725.0,
+        "weight_pct": 21.3
       },
       {
         "cusip": "86150R107",
         "security_class": "COM",
         "issuer": "STOKE THERAPEUTICS INC",
-        "shares": 4038404.0,
-        "value_usd": 132136579.0,
-        "weight_pct": 15.27
-      },
-      {
-        "cusip": "00847X104",
-        "security_class": "COM",
-        "issuer": "AGIOS PHARMACEUTICALS INC",
-        "shares": 3408937.0,
-        "value_usd": 126505652.0,
-        "weight_pct": 14.62
+        "shares": 3896169.0,
+        "value_usd": 101300394.0,
+        "weight_pct": 15.68
       },
       {
         "cusip": "12529R107",
         "security_class": "COM STK",
         "issuer": "C4 THERAPEUTICS INC",
-        "shares": 7326691.0,
-        "value_usd": 34215647.0,
-        "weight_pct": 3.95
-      },
-      {
-        "cusip": "500946108",
-        "security_class": "COM",
-        "issuer": "KORRO BIO INC",
-        "shares": 1538296.0,
-        "value_usd": 20274741.0,
-        "weight_pct": 2.34
-      },
-      {
-        "cusip": "89854M101",
-        "security_class": "COM",
-        "issuer": "TSCAN THERAPEUTICS INC",
-        "shares": 8019148.0,
-        "value_usd": 7859567.0,
-        "weight_pct": 0.91
+        "shares": 7530915.0,
+        "value_usd": 25077947.0,
+        "weight_pct": 3.88
       },
       {
         "cusip": "74019P207",
         "security_class": "COM NEW",
         "issuer": "PRECISION BIOSCIENCES INC",
-        "shares": 950466.0,
-        "value_usd": 7470663.0,
-        "weight_pct": 0.86
+        "shares": 2758215.0,
+        "value_usd": 17266426.0,
+        "weight_pct": 2.67
+      },
+      {
+        "cusip": "00847X104",
+        "security_class": "COM",
+        "issuer": "AGIOS PHARMACEUTICALS INC",
+        "shares": 472606.0,
+        "value_usd": 15714150.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "500946108",
+        "security_class": "COM",
+        "issuer": "KORRO BIO INC",
+        "shares": 1544980.0,
+        "value_usd": 15310752.0,
+        "weight_pct": 2.37
       },
       {
         "cusip": "64136E102",
         "security_class": "COM",
         "issuer": "NEUPHORIA THERAPEUTICS INC",
         "shares": 875328.0,
-        "value_usd": 3825183.0,
-        "weight_pct": 0.44
+        "value_usd": 3116168.0,
+        "weight_pct": 0.48
       },
       {
         "cusip": "702712209",
         "security_class": "COM NEW",
         "issuer": "PASSAGE BIO INC",
         "shares": 673759.0,
-        "value_usd": 3287942.0,
-        "weight_pct": 0.38
+        "value_usd": 3031914.0,
+        "weight_pct": 0.47
+      },
+      {
+        "cusip": "N71542109",
+        "security_class": "SHS EURO",
+        "issuer": "PROQR THRAPEUTICS N V",
+        "shares": 1562093.0,
+        "value_usd": 2593074.0,
+        "weight_pct": 0.4
       }
     ],
-    "top_five_pct": 93.88,
-    "top_ten_pct": 98.82,
-    "hhi": 2522.21,
+    "top_five_pct": 91.73,
+    "top_ten_pct": 97.88,
+    "hhi": 3057.49,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 19,
-      "exited_positions": 6,
-      "increased_positions": 5,
-      "reduced_positions": 3
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 2,
+      "increased_positions": 6,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0001910456-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001910456-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 865529222.0,
+  "reported_13f_value_usd": 646092908.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001910456-26-000004",
+  "validated_accession": "0001910456-26-000007",
   "annualized_turnover_proxy_pct": null
 }

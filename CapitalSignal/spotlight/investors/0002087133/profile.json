@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002087133",
   "investor_name": "Electric Capital Partners, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Palo Alto",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2087133/0001999371-26-018008.txt"
+    "https://www.sec.gov/Archives/edgar/data/2087133/0001999371-26-018008.txt",
+    "https://www.sec.gov/Archives/edgar/data/2087133/0001999371-26-025542.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "5eeb937e4b13850c82bc4f800eba505c64b31c32ada4f544e03d9cf8fe9c95b7",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "8db6fca9bf00a7d415300cffa32c7ada72d758713b1e82fe9df09f23a6c6982b",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "656f12f32a09a0aff8a6805bb5edd36c3fed58a1",
+    "f905889732c077f1279f0554662a2b6683985897"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001999371-26-018008",
-    "source": "https://www.sec.gov/Archives/edgar/data/2087133/0001999371-26-018008.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001999371-26-025542",
+    "source": "https://www.sec.gov/Archives/edgar/data/2087133/0001999371-26-025542.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 102073518.0,
+    "reported_long_equity_value_usd": 157228557.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,72 +40,83 @@
         "security_class": "COM SHS OF BENEF",
         "issuer": "BITWISE SOLANA STAKING ETF",
         "shares": 8400000.0,
-        "value_usd": 84084000.0,
-        "weight_pct": 82.38
-      },
-      {
-        "cusip": "639193101",
-        "security_class": "CL A",
-        "issuer": "NAVAN INC",
-        "shares": 292256.0,
-        "value_usd": 6683895.0,
-        "weight_pct": 6.55
+        "value_usd": 135660000.0,
+        "weight_pct": 86.28
       },
       {
         "cusip": "82003F119",
         "security_class": "*W EXP 04/13/202",
         "issuer": "SKYAI INC",
         "shares": 3254004.0,
-        "value_usd": 3611619.0,
-        "weight_pct": 3.54
+        "value_usd": 6344982.0,
+        "weight_pct": 4.04
       },
       {
-        "cusip": "G13311132",
-        "security_class": "CL B 2026",
-        "issuer": "BRERA HOLDINGS PLC",
-        "shares": 649999.0,
-        "value_usd": 3288995.0,
-        "weight_pct": 3.22
+        "cusip": "639193101",
+        "security_class": "CL A",
+        "issuer": "NAVAN INC",
+        "shares": 292256.0,
+        "value_usd": 6134453.0,
+        "weight_pct": 3.9
       },
       {
         "cusip": "82003F309",
         "security_class": "COM",
         "issuer": "SKYAI INC",
         "shares": 2621210.0,
-        "value_usd": 2909543.0,
-        "weight_pct": 2.85
+        "value_usd": 5111360.0,
+        "weight_pct": 3.25
       },
       {
-        "cusip": "59982U200",
-        "security_class": "COM NEW",
-        "issuer": "SUI GROUP HOLDINGS LIMITED",
-        "shares": 923075.0,
-        "value_usd": 1070767.0,
-        "weight_pct": 1.05
+        "cusip": "G13311132",
+        "security_class": "CL B 2026",
+        "issuer": "BRERA HOLDINGS PLC",
+        "shares": 649999.0,
+        "value_usd": 2869746.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "85238K100",
+        "security_class": "SHS CL A",
+        "issuer": "STABLECOINX INC",
+        "shares": 38217.0,
+        "value_usd": 614529.0,
+        "weight_pct": 0.39
       },
       {
         "cusip": "316841105",
         "security_class": "CLASS A COM STK",
         "issuer": "FIGMA INC",
         "shares": 23477.0,
-        "value_usd": 424699.0,
-        "weight_pct": 0.42
+        "value_usd": 493487.0,
+        "weight_pct": 0.31
       }
     ],
-    "top_five_pct": 98.53,
+    "top_five_pct": 99.3,
     "top_ten_pct": 100.0,
-    "hhi": 6860.97,
-    "changes": null,
+    "hhi": 7490.25,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001999371-26-018008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001999371-26-025542"
       }
     ]
   },
-  "reported_13f_value_usd": 102073518.0,
+  "reported_13f_value_usd": 157228557.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001999371-26-018008",
+  "validated_accession": "0001999371-26-025542",
   "annualized_turnover_proxy_pct": null
 }

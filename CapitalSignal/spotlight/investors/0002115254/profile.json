@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002115254",
   "investor_name": "Basecamp Wealth Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "BELLEVUE",
   "state": "WA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2115254/0001986152-26-000159.txt"
+    "https://www.sec.gov/Archives/edgar/data/2115254/0001986152-26-000159.txt",
+    "https://www.sec.gov/Archives/edgar/data/2115254/0001986152-26-000202.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f29104e1bb813fb96f4d93e025096a97af11c12a10ac30d2085974b37cf11f9b",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "1051ab6aaf65f92c9ad3f1c62cf28a79c855aad58bcc98e3a00bf26b2239e3ac",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "36f2feb42e90e68b83cc45e51745252650182b72",
+    "e55638031998d0ee570e03f6bf344cc955a0702e"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001986152-26-000159",
-    "source": "https://www.sec.gov/Archives/edgar/data/2115254/0001986152-26-000159.txt",
-    "distinct_positions": 1822,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001986152-26-000202",
+    "source": "https://www.sec.gov/Archives/edgar/data/2115254/0001986152-26-000202.txt",
+    "distinct_positions": 1627,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 537385353.0,
+    "reported_long_equity_value_usd": 438192501.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
-        "issuer": "VANGUARD INDEX FDS VANGUARD TOTAL STK MKT ETF",
-        "shares": 270908.0,
-        "value_usd": 100246618.0,
-        "weight_pct": 18.65
+        "security_class": "MRNGSTR TTL STK",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 237352.0,
+        "value_usd": 88826459.0,
+        "weight_pct": 20.27
       },
       {
         "cusip": "922042775",
         "security_class": "ALLWRLD EX US",
-        "issuer": "VANGUARD INTL EQUITY INDEX FDS ALLWRLD EX US",
-        "shares": 826521.0,
-        "value_usd": 69221133.0,
-        "weight_pct": 12.88
-      },
-      {
-        "cusip": "922042742",
-        "security_class": "TT WRLD ST ETF",
-        "issuer": "VANGUARD INTL EQUITY INDEX FDS TT WRLD ST ETF",
-        "shares": 114837.0,
-        "value_usd": 18023686.0,
-        "weight_pct": 3.35
-      },
-      {
-        "cusip": "532457108",
-        "security_class": "COM",
-        "issuer": "ELI LILLY &CO COM",
-        "shares": 14478.0,
-        "value_usd": 17365084.0,
-        "weight_pct": 3.23
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 741133.0,
+        "value_usd": 61491778.0,
+        "weight_pct": 14.03
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 45880.0,
-        "value_usd": 17114158.0,
-        "weight_pct": 3.18
+        "shares": 57556.0,
+        "value_usd": 29520473.0,
+        "weight_pct": 6.74
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 114976.0,
+        "value_usd": 18149019.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY &CO",
+        "shares": 13577.0,
+        "value_usd": 15709675.0,
+        "weight_pct": 3.59
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 59064.0,
-        "value_usd": 17090646.0,
-        "weight_pct": 3.18
+        "shares": 38613.0,
+        "value_usd": 12858901.0,
+        "weight_pct": 2.93
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "NVIDIA CORPORATION COM",
-        "shares": 83377.0,
-        "value_usd": 16682980.0,
-        "weight_pct": 3.1
-      },
-      {
-        "cusip": "922042858",
-        "security_class": "FTSE EMR MKT ETF",
-        "issuer": "VANGUARD INTL EQUITY INDEX FDS FTSE EMR MKT ETF",
-        "shares": 213221.0,
-        "value_usd": 12727161.0,
-        "weight_pct": 2.37
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC CAP STK CL A",
-        "shares": 25127.0,
-        "value_usd": 8979551.0,
-        "weight_pct": 1.67
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 52876.0,
+        "value_usd": 12075821.0,
+        "weight_pct": 2.76
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
-        "issuer": "AMAZON.COM INC",
-        "shares": 36396.0,
-        "value_usd": 8674584.0,
-        "weight_pct": 1.61
+        "issuer": "AMAZON COM INC",
+        "shares": 26337.0,
+        "value_usd": 6561833.0,
+        "weight_pct": 1.5
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 17547.0,
+        "value_usd": 6037466.0,
+        "weight_pct": 1.38
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 69066.0,
+        "value_usd": 5867847.0,
+        "weight_pct": 1.34
       }
     ],
-    "top_five_pct": 41.31,
-    "top_ten_pct": 53.24,
-    "hhi": 592.35,
-    "changes": null,
+    "top_five_pct": 48.77,
+    "top_ten_pct": 58.67,
+    "hhi": 719.2,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 257,
+      "exited_positions": 452,
+      "increased_positions": 252,
+      "reduced_positions": 821
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001986152-26-000159"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001986152-26-000202"
       }
     ]
   },
-  "reported_13f_value_usd": 537385353.0,
+  "reported_13f_value_usd": 438192501.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001986152-26-000159",
+  "validated_accession": "0001986152-26-000202",
   "annualized_turnover_proxy_pct": null
 }

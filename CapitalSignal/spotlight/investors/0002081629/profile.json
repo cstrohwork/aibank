@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002081629",
-  "investor_name": "O'Connor Alternative Investments LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "investor_name": "O'Connor Alternative Investments, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2081629/0002081629-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/2081629/0002081629-26-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/2081629/0002081629-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8360fd9367b014f4423a927d2f0231daadb9cdcca576120f75c7f22098bf38be",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "9939bdb64d4a9b3908e6d67cde4f78e6f375d6eb00f3884d18f225336c7a2c77",
+  "accession_fingerprints": [
+    "2026-06-30|2026-11-16|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "13e9d887987bc7f461233ec2a42ec577e78ef957",
+    "151d6b5b483b88faffbacd6c0595e8f3d7a420ae"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002081629-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/2081629/0002081629-26-000005.txt",
-    "distinct_positions": 140,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002081629-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/2081629/0002081629-26-000010.txt",
+    "distinct_positions": 315,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1145039137.0,
+    "reported_long_equity_value_usd": 1477366796.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "16115Q308",
+        "cusip": "74736K101",
         "security_class": "COM",
-        "issuer": "CHART INDS",
-        "shares": 2865147.0,
-        "value_usd": 598643814.0,
-        "weight_pct": 52.28
+        "issuer": "QORVO INC",
+        "shares": 3564644.0,
+        "value_usd": 408080445.0,
+        "weight_pct": 27.62
       },
       {
-        "cusip": "89055F103",
-        "security_class": "COM",
-        "issuer": "TOPBUILD C",
-        "shares": 480292.0,
-        "value_usd": 170277923.0,
-        "weight_pct": 14.87
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 11049305.0,
+        "value_usd": 341975990.0,
+        "weight_pct": 23.15
+      },
+      {
+        "cusip": "G00894108",
+        "security_class": "CL A",
+        "issuer": "ACCELERANT HOLDINGS",
+        "shares": 3015448.0,
+        "value_usd": 59494789.0,
+        "weight_pct": 4.03
       },
       {
         "cusip": "02079K107",
-        "security_class": "CAPST",
-        "issuer": "ALPHABET I",
-        "shares": 80020.0,
-        "value_usd": 28273467.0,
-        "weight_pct": 2.47
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 116170.0,
+        "value_usd": 39583766.0,
+        "weight_pct": 2.68
       },
       {
-        "cusip": "86800U500",
-        "security_class": "7DEPC",
-        "issuer": "SUPER MICR",
-        "shares": 550000.0,
-        "value_usd": 28171000.0,
-        "weight_pct": 2.46
+        "cusip": "35137L204",
+        "security_class": "CL B COM",
+        "issuer": "FOX CORP",
+        "shares": 459894.0,
+        "value_usd": 25892032.0,
+        "weight_pct": 1.75
       },
       {
-        "cusip": "G5279N105",
-        "security_class": "SHS",
-        "issuer": "KLARNA GRO",
-        "shares": 1127170.0,
-        "value_usd": 22813921.0,
-        "weight_pct": 1.99
-      },
-      {
-        "cusip": "02079K602",
-        "security_class": "DEPSH",
-        "issuer": "ALPHABET I",
-        "shares": 450000.0,
-        "value_usd": 22572000.0,
-        "weight_pct": 1.97
+        "cusip": "G7862H107",
+        "security_class": "CL A ORD SHS",
+        "issuer": "SAMOS ENERGY ACQUISITION COR",
+        "shares": 1500000.0,
+        "value_usd": 14745000.0,
+        "weight_pct": 1.0
       },
       {
         "cusip": "98954M200",
-        "security_class": "CLCCA",
-        "issuer": "ZILLOW GRO",
-        "shares": 330595.0,
-        "value_usd": 10420354.0,
-        "weight_pct": 0.91
+        "security_class": "CL C CAP STK",
+        "issuer": "ZILLOW GROUP INC",
+        "shares": 542297.0,
+        "value_usd": 14712518.0,
+        "weight_pct": 1.0
       },
       {
-        "cusip": "68389X204",
-        "security_class": "6.5DE",
-        "issuer": "ORACLE COR",
-        "shares": 200000.0,
-        "value_usd": 8982000.0,
-        "weight_pct": 0.78
+        "cusip": "283678209",
+        "security_class": "PFD CV TR SEC 28",
+        "issuer": "EL PASO ENERGY CAP TR I",
+        "shares": 205628.0,
+        "value_usd": 10219712.0,
+        "weight_pct": 0.69
       },
       {
-        "cusip": "65249B109",
-        "security_class": "CLA",
-        "issuer": "NEWS CORP",
-        "shares": 348019.0,
-        "value_usd": 8641312.0,
-        "weight_pct": 0.75
+        "cusip": "124805102",
+        "security_class": "COM",
+        "issuer": "CBIZ INC",
+        "shares": 184134.0,
+        "value_usd": 10070288.0,
+        "weight_pct": 0.68
       },
       {
-        "cusip": "G5093B105",
-        "security_class": "USDCL",
-        "issuer": "JENA ACQUI",
-        "shares": 700000.0,
-        "value_usd": 7252000.0,
-        "weight_pct": 0.63
+        "cusip": "G1535G109",
+        "security_class": "USD CL A ORD SHS",
+        "issuer": "B&R TECHNOLOGY MERGER CORP",
+        "shares": 1000000.0,
+        "value_usd": 9810000.0,
+        "weight_pct": 0.66
       }
     ],
-    "top_five_pct": 74.07,
-    "top_ten_pct": 79.13,
-    "hhi": 2982.23,
-    "changes": null,
+    "top_five_pct": 59.23,
+    "top_ten_pct": 63.26,
+    "hhi": 1338.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 311,
+      "exited_positions": 145,
+      "increased_positions": 2,
+      "reduced_positions": 1
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
-        "filing_date": "2026-08-14",
-        "accession": "0002081629-26-000005"
+        "filing_date": "2026-11-16",
+        "accession": "0002081629-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002081629-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 1145039137.0,
+  "reported_13f_value_usd": 1477366796.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002081629-26-000005",
+  "validated_accession": "0002081629-26-000010",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001950677",
   "investor_name": "Decagon Asset Management LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1950677/0001950677-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1950677/0001950677-26-000023.txt"
+    "https://www.sec.gov/Archives/edgar/data/1950677/0001950677-26-000023.txt",
+    "https://www.sec.gov/Archives/edgar/data/1950677/0001950677-26-000026.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6be9737d6aeeb2377302668edb3e7e71f9bff14a80b0df80cbc4b1125f12ebd6",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "8f62fd668f7a32bb16e549dcb76b825c5f7ad1e7dbf4d8fc6911eed5e75c7a47",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "30f74bcaeef15dcf8d333cc5febd285b6ecda7cf",
+    "3503af2a280143dde9e0c4840bfe655bb3c368c2",
+    "d58ef1c9869abb4616cb90b017135e8b3e0d1396"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001950677-26-000023",
-    "source": "https://www.sec.gov/Archives/edgar/data/1950677/0001950677-26-000023.txt",
-    "distinct_positions": 101,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001950677-26-000026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1950677/0001950677-26-000026.txt",
+    "distinct_positions": 114,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 501071131.0,
+    "reported_long_equity_value_usd": 541321492.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "934423104",
+        "security_class": "COM SER A",
+        "issuer": "WARNER BROS DISCOVERY INC",
+        "shares": 2374958.0,
+        "value_usd": 73504950.0,
+        "weight_pct": 13.58
+      },
+      {
+        "cusip": "918090101",
+        "security_class": "COM CL A",
+        "issuer": "UTZ BRANDS INC",
+        "shares": 3597810.0,
+        "value_usd": 51268793.0,
+        "weight_pct": 9.47
+      },
+      {
+        "cusip": "10240L102",
+        "security_class": "COM SHS",
+        "issuer": "BOWHEAD SPECIALTY HLDGS INC",
+        "shares": 1357159.0,
+        "value_usd": 45831259.0,
+        "weight_pct": 8.47
+      },
+      {
+        "cusip": "65339F101",
+        "security_class": "COM",
+        "issuer": "NEXTERA ENERGY INC",
+        "shares": 463828.0,
+        "value_usd": 35130333.0,
+        "weight_pct": 6.49
+      },
+      {
         "cusip": "655844108",
         "security_class": "COM",
         "issuer": "NORFOLK SOUTHN CORP",
-        "shares": 184363.0,
-        "value_usd": 57998756.0,
-        "weight_pct": 11.57
+        "shares": 78393.0,
+        "value_usd": 24223437.0,
+        "weight_pct": 4.47
       },
       {
         "cusip": "77543R102",
         "security_class": "COM CL A",
         "issuer": "ROKU INC",
-        "shares": 393636.0,
-        "value_usd": 54376878.0,
-        "weight_pct": 10.85
+        "shares": 155204.0,
+        "value_usd": 23634465.0,
+        "weight_pct": 4.37
       },
       {
-        "cusip": "70975L107",
-        "security_class": "COM",
-        "issuer": "PENUMBRA INC",
-        "shares": 142001.0,
-        "value_usd": 44836816.0,
-        "weight_pct": 8.95
-      },
-      {
-        "cusip": "81619Q105",
-        "security_class": "COM",
-        "issuer": "SELECT MED HLDGS CORP",
-        "shares": 2715536.0,
-        "value_usd": 44833499.0,
-        "weight_pct": 8.95
-      },
-      {
-        "cusip": "09073M104",
-        "security_class": "COM",
-        "issuer": "BIO-TECHNE CORP",
-        "shares": 564664.0,
-        "value_usd": 39893512.0,
-        "weight_pct": 7.96
+        "cusip": "G25507107",
+        "security_class": "CL A ORD SHS",
+        "issuer": "FREEDOM METALS ACQUISITION",
+        "shares": 2110522.0,
+        "value_usd": 20725326.0,
+        "weight_pct": 3.83
       },
       {
         "cusip": "G2284A103",
         "security_class": "ORD SHS CL A",
         "issuer": "COLOMBIER ACQUISITION CORP I",
-        "shares": 1672035.0,
-        "value_usd": 17138359.0,
-        "weight_pct": 3.42
+        "shares": 1973384.0,
+        "value_usd": 20128518.0,
+        "weight_pct": 3.72
       },
       {
         "cusip": "G5501C109",
         "security_class": "SHS CL A",
         "issuer": "LIONHEART HOLDINGS",
-        "shares": 1500000.0,
-        "value_usd": 16155000.0,
-        "weight_pct": 3.22
+        "shares": 1734083.0,
+        "value_usd": 18901505.0,
+        "weight_pct": 3.49
       },
       {
-        "cusip": "G9582G104",
-        "security_class": "ORD CL A",
-        "issuer": "VIKING ACQUISITION CORP I",
-        "shares": 1330620.0,
-        "value_usd": 13598937.0,
-        "weight_pct": 2.71
-      },
-      {
-        "cusip": "G73167101",
-        "security_class": "CL A ORD SHS",
-        "issuer": "QUANTUM LEAP ACQUISITION COR",
-        "shares": 1204380.0,
-        "value_usd": 11959493.0,
-        "weight_pct": 2.39
-      },
-      {
-        "cusip": "G6717R104",
-        "security_class": "SHS CL A",
-        "issuer": "OAKTREE ACQUISITION CORP III",
-        "shares": 1091327.0,
-        "value_usd": 11677199.0,
-        "weight_pct": 2.33
+        "cusip": "70959W103",
+        "security_class": "COM",
+        "issuer": "PENSKE AUTOMOTIVE GRP INC",
+        "shares": 75000.0,
+        "value_usd": 15025501.0,
+        "weight_pct": 2.78
       }
     ],
-    "top_five_pct": 48.28,
-    "top_ten_pct": 62.36,
-    "hhi": 574.03,
+    "top_five_pct": 42.48,
+    "top_ten_pct": 60.66,
+    "hhi": 534.72,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 82,
-      "exited_positions": 37,
-      "increased_positions": 12,
-      "reduced_positions": 5
+      "previous_period": "2026-06-30",
+      "new_positions": 33,
+      "exited_positions": 20,
+      "increased_positions": 25,
+      "reduced_positions": 7
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001950677-26-000023"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001950677-26-000026"
       }
     ]
   },
-  "reported_13f_value_usd": 501071131.0,
+  "reported_13f_value_usd": 541321492.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001950677-26-000023",
+  "validated_accession": "0001950677-26-000026",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002055130",
   "investor_name": "Magnolia Private Wealth, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-05",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PHILADELPHIA",
   "state": "PA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2055130/0002055130-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/2055130/0002055130-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2055130/0002055130-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2055130/0002055130-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ee08fb4c522a21e3d99bc5b58a12df854763432b7574a9f08eb23df3519491d0",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "3190e0f9421d2dc44519ad86645feec2ae16990f53f24bdfe8f0e391a278612c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-06|||",
+    "2026-06-30|2026-08-05|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "168573e2d9e22a86ba6d7357886b7ca95609cde4",
+    "64434de4150dfc52e4c9ff4ada93d2c263439430",
+    "edef4db717a46fe0ed746ac1b8e34ef428c188bb"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-05",
-    "accession": "0002055130-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2055130/0002055130-26-000003.txt",
-    "distinct_positions": 153,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002055130-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2055130/0002055130-26-000005.txt",
+    "distinct_positions": 174,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 182168949.0,
+    "reported_long_equity_value_usd": 564379031.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "025072885",
-        "security_class": "ETF",
-        "issuer": "AVANTIS U.S. EQUITY ETF",
-        "shares": 760242.0,
-        "value_usd": 13340357.0,
-        "weight_pct": 7.32
-      },
-      {
-        "cusip": "025072703",
-        "security_class": "ETF",
-        "issuer": "AVANTIS INTERNATIONAL EQUITY ETF",
-        "shares": 434018.0,
-        "value_usd": 11497439.0,
-        "weight_pct": 6.31
-      },
-      {
-        "cusip": "46436E718",
-        "security_class": "ETF",
-        "issuer": "ISHARES 0-3 MONTH TREASURY BOND ETF",
-        "shares": 110304.0,
-        "value_usd": 11104314.0,
-        "weight_pct": 6.1
-      },
-      {
-        "cusip": "025072604",
-        "security_class": "ETF",
-        "issuer": "AVANTIS EMERGING MARKETS EQUITY ETF",
-        "shares": 211955.0,
-        "value_usd": 7823011.0,
-        "weight_pct": 4.29
-      },
-      {
-        "cusip": "97717Y568",
-        "security_class": "ETF",
-        "issuer": "WISDOMTREE EFFICIENT GOLD PLUS EQUITY STRATEGY FUND",
-        "shares": 204920.0,
-        "value_usd": 5896624.0,
-        "weight_pct": 3.24
-      },
-      {
-        "cusip": "037833100",
+        "cusip": "007903107",
         "security_class": "Stock",
-        "issuer": "APPLE INC COM",
-        "shares": 18730.0,
-        "value_usd": 5419842.0,
-        "weight_pct": 2.98
+        "issuer": "ADVANCED MICRO DEVICES INC COM",
+        "shares": 151293.0,
+        "value_usd": 92555006.0,
+        "weight_pct": 16.4
       },
       {
-        "cusip": "82889N798",
-        "security_class": "ETF",
-        "issuer": "SIMPLIFY INTERMEDIATE TERM TREASURY FUTURES STRATEGY ETF",
-        "shares": 481039.0,
-        "value_usd": 4588221.0,
-        "weight_pct": 2.52
+        "cusip": "30303M102",
+        "security_class": "Stock",
+        "issuer": "META PLATFORMS INC CL A",
+        "shares": 111455.0,
+        "value_usd": 80824937.0,
+        "weight_pct": 14.32
       },
       {
         "cusip": "88160R101",
         "security_class": "Stock",
         "issuer": "TESLA INC COM",
-        "shares": 9729.0,
-        "value_usd": 4092017.0,
-        "weight_pct": 2.25
+        "shares": 203322.0,
+        "value_usd": 72140679.0,
+        "weight_pct": 12.78
       },
       {
-        "cusip": "808524771",
-        "security_class": "ETF",
-        "issuer": "SCHWAB FUNDAMENTAL U.S. LARGE COMPANY ETF",
-        "shares": 131420.0,
-        "value_usd": 4087153.0,
-        "weight_pct": 2.24
+        "cusip": "80004C200",
+        "security_class": "Stock",
+        "issuer": "SANDISK CORP COM",
+        "shares": 18160.0,
+        "value_usd": 31596402.0,
+        "weight_pct": 5.6
       },
       {
-        "cusip": "47103U845",
+        "cusip": "595112103",
+        "security_class": "Stock",
+        "issuer": "MICRON TECHNOLOGY INC COM",
+        "shares": 27728.0,
+        "value_usd": 29533370.0,
+        "weight_pct": 5.23
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "Stock",
+        "issuer": "ALPHABET INC CAP STK CL A",
+        "shares": 73174.0,
+        "value_usd": 25177851.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "025072703",
         "security_class": "ETF",
-        "issuer": "JANUS HENDERSON AAA CLO ETF",
-        "shares": 69918.0,
-        "value_usd": 3530135.0,
-        "weight_pct": 1.94
+        "issuer": "AVANTIS INTERNATIONAL EQUITY ETF",
+        "shares": 315615.0,
+        "value_usd": 12386873.0,
+        "weight_pct": 2.19
+      },
+      {
+        "cusip": "025072885",
+        "security_class": "ETF",
+        "issuer": "AVANTIS U.S. EQUITY ETF",
+        "shares": 350491.0,
+        "value_usd": 12314872.0,
+        "weight_pct": 2.18
+      },
+      {
+        "cusip": "594972408",
+        "security_class": "Stock",
+        "issuer": "STRATEGY INC CL A NEW",
+        "shares": 67559.0,
+        "value_usd": 10342607.0,
+        "weight_pct": 1.83
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "ETF",
+        "issuer": "STATE STREET SPDR S&P 500 ETF",
+        "shares": 12000.0,
+        "value_usd": 9151560.0,
+        "weight_pct": 1.62
       }
     ],
-    "top_five_pct": 27.26,
-    "top_ten_pct": 39.18,
-    "hhi": 236.83,
+    "top_five_pct": 54.33,
+    "top_ten_pct": 66.63,
+    "hhi": 747.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 61,
+      "previous_period": "2026-06-30",
+      "new_positions": 38,
       "exited_positions": 17,
-      "increased_positions": 45,
-      "reduced_positions": 40
+      "increased_positions": 60,
+      "reduced_positions": 55
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-05",
         "accession": "0002055130-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002055130-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 182168949.0,
+  "reported_13f_value_usd": 564379031.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002055130-26-000003",
+  "validated_accession": "0002055130-26-000005",
   "annualized_turnover_proxy_pct": null
 }

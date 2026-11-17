@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001988408",
   "investor_name": "SYKON CAPITAL LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "HARRISON",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1988408/0001988408-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1988408/0001988408-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1988408/0001988408-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1988408/0001988408-26-000013.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "bb951971a4302cf70fe0ae7479ae06c35b5c954498e8ba9364f2e8331210f0eb",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "e00a1db09507acf394c48e2378613a601dc452a8a9176aa55e3ef969721fac9e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "483739e5e14051a00b2b18f1e60bb96513e18344",
+    "61486572bb1d2413d03a53ebc07a729c5cb1009d",
+    "734b737ab1c3b14f7d7b18a23e78e628b45d80fc"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001988408-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1988408/0001988408-26-000005.txt",
-    "distinct_positions": 112,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001988408-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1988408/0001988408-26-000013.txt",
+    "distinct_positions": 102,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 324843406.0,
+    "reported_long_equity_value_usd": 323285671.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "921909768",
-        "security_class": "VG TL INTL STK F",
-        "issuer": "VANGUARD STAR FDS",
-        "shares": 252242.0,
-        "value_usd": 21564172.0,
-        "weight_pct": 6.64
-      },
-      {
         "cusip": "97717Y527",
         "security_class": "FLOATNG RAT TREA",
         "issuer": "WISDOMTREE TR",
-        "shares": 384381.0,
-        "value_usd": 19353580.0,
-        "weight_pct": 5.96
+        "shares": 531412.0,
+        "value_usd": 26777863.0,
+        "weight_pct": 8.28
       },
       {
         "cusip": "922040845",
         "security_class": "0 3 MO TR BI ETF",
         "issuer": "VANGUARD INSTL INDEX FD",
-        "shares": 228655.0,
-        "value_usd": 17304603.0,
-        "weight_pct": 5.33
+        "shares": 338968.0,
+        "value_usd": 25666647.0,
+        "weight_pct": 7.94
+      },
+      {
+        "cusip": "921909768",
+        "security_class": "VG TL INTL STK F",
+        "issuer": "VANGUARD STAR FDS",
+        "shares": 249225.0,
+        "value_usd": 21174116.0,
+        "weight_pct": 6.55
       },
       {
         "cusip": "81369Y803",
         "security_class": "ST STR TECHN ETF",
         "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 70121.0,
-        "value_usd": 13359437.0,
-        "weight_pct": 4.11
+        "shares": 70589.0,
+        "value_usd": 13817799.0,
+        "weight_pct": 4.27
       },
       {
         "cusip": "46432F834",
         "security_class": "CORE MSCI TOTAL",
         "issuer": "ISHARES TR",
-        "shares": 132289.0,
-        "value_usd": 12625644.0,
-        "weight_pct": 3.89
+        "shares": 137517.0,
+        "value_usd": 13062725.0,
+        "weight_pct": 4.04
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 16891.0,
-        "value_usd": 12614015.0,
-        "weight_pct": 3.88
+        "shares": 17041.0,
+        "value_usd": 12996057.0,
+        "weight_pct": 4.02
       },
       {
         "cusip": "464287200",
         "security_class": "CORE S&P500 ETF",
         "issuer": "ISHARES TR",
-        "shares": 16475.0,
-        "value_usd": 12337805.0,
-        "weight_pct": 3.8
+        "shares": 16743.0,
+        "value_usd": 12822571.0,
+        "weight_pct": 3.97
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 15061.0,
-        "value_usd": 10343821.0,
-        "weight_pct": 3.18
+        "shares": 17361.0,
+        "value_usd": 12167474.0,
+        "weight_pct": 3.76
       },
       {
-        "cusip": "92189F387",
-        "security_class": "SHRT HGH YLD MUN",
-        "issuer": "VANECK ETF TRUST",
-        "shares": 427956.0,
-        "value_usd": 9800188.0,
-        "weight_pct": 3.02
+        "cusip": "46138E404",
+        "security_class": "CEF INM COMPSI",
+        "issuer": "INVESCO EXCH TRADED FD TR II",
+        "shares": 579283.0,
+        "value_usd": 11209131.0,
+        "weight_pct": 3.47
       },
       {
-        "cusip": "922042775",
-        "security_class": "ALLWRLD EX US",
-        "issuer": "VANGUARD INTL EQUITY INDEX F",
-        "shares": 91905.0,
-        "value_usd": 7697011.0,
-        "weight_pct": 2.37
+        "cusip": "78467V608",
+        "security_class": "ST STR BL LN ETF",
+        "issuer": "SSGA ACTIVE ETF TR",
+        "shares": 195674.0,
+        "value_usd": 7903287.0,
+        "weight_pct": 2.44
       }
     ],
-    "top_five_pct": 25.92,
-    "top_ten_pct": 42.17,
-    "hhi": 274.88,
+    "top_five_pct": 31.09,
+    "top_ten_pct": 48.75,
+    "hhi": 345.31,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 59,
-      "exited_positions": 48,
-      "increased_positions": 18,
-      "reduced_positions": 25
+      "previous_period": "2026-06-30",
+      "new_positions": 17,
+      "exited_positions": 27,
+      "increased_positions": 29,
+      "reduced_positions": 40
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001988408-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001988408-26-000013"
       }
     ]
   },
-  "reported_13f_value_usd": 324843406.0,
+  "reported_13f_value_usd": 323285671.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001988408-26-000005",
+  "validated_accession": "0001988408-26-000013",
   "annualized_turnover_proxy_pct": null
 }

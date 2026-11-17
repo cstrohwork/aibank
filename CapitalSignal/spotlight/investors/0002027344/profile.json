@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002027344",
   "investor_name": "Koch, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "WICHITA",
   "state": "KS",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2027344/0002027344-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/2027344/0002027344-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/2027344/0002027344-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/2027344/0002027344-26-000010.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "431e6d4a58cbfa9fe4aa088dfc40ac74b94a8a80d193fbe0a8139d7759eefd09",
-  "generated_at": "2026-11-16T06:17:23.526016+00:00",
+  "source_fingerprint": "360ccec04454e55e595186a7e87d90bb2264b36a7a99cf4048ef3c86d455dbe3",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "12f40d25bb09d988947ffd11c423061a3bf270c2",
+    "46c7b8222ffa87f08e0a3274c1a8d6ac6f91969a",
+    "49540c57caa7f00e9955f3b6d702245651579dd7"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0002027344-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/2027344/0002027344-26-000005.txt",
-    "distinct_positions": 10,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002027344-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/2027344/0002027344-26-000010.txt",
+    "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1094236536.0,
+    "reported_long_equity_value_usd": 774533692.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,90 +43,66 @@
         "security_class": "COM",
         "issuer": "MARVELL TECHNOLOGY INC",
         "shares": 1000000.0,
-        "value_usd": 297890000.0,
-        "weight_pct": 27.22
-      },
-      {
-        "cusip": "20451N101",
-        "security_class": "COM",
-        "issuer": "COMPASS MINERALS INTL INC",
-        "shares": 7034609.0,
-        "value_usd": 218987378.0,
-        "weight_pct": 20.01
+        "value_usd": 264210000.0,
+        "weight_pct": 34.11
       },
       {
         "cusip": "451051106",
         "security_class": "CLASS A COM SHS",
         "issuer": "IBOTTA INC",
         "shares": 4389129.0,
-        "value_usd": 149932647.0,
-        "weight_pct": 13.7
+        "value_usd": 172931683.0,
+        "weight_pct": 22.33
+      },
+      {
+        "cusip": "20451N101",
+        "security_class": "COM",
+        "issuer": "COMPASS MINERALS INTL INC",
+        "shares": 7034609.0,
+        "value_usd": 155042782.0,
+        "weight_pct": 20.02
       },
       {
         "cusip": "48662X105",
         "security_class": "COM SHS",
         "issuer": "KAYNE ANDERSON BDC INC",
-        "shares": 10485004.0,
-        "value_usd": 141862104.0,
-        "weight_pct": 12.96
-      },
-      {
-        "cusip": "374275105",
-        "security_class": "CL A COM",
-        "issuer": "GETTY IMAGES HOLDINGS INC",
-        "shares": 115259246.0,
-        "value_usd": 99122952.0,
-        "weight_pct": 9.06
-      },
-      {
-        "cusip": "G22845104",
-        "security_class": "ORD SHS CL B",
-        "issuer": "OCTAVE INTELLIGENCE PLC",
-        "shares": 3000000.0,
-        "value_usd": 48900000.0,
-        "weight_pct": 4.47
-      },
-      {
-        "cusip": "853606101",
-        "security_class": "COM",
-        "issuer": "STANDARD LITHIUM CORP",
-        "shares": 13480083.0,
-        "value_usd": 37070228.0,
-        "weight_pct": 3.39
-      },
-      {
-        "cusip": "18270D106",
-        "security_class": "COMMON STOCK",
-        "issuer": "CLAROS MTG TR INC",
-        "shares": 15126917.0,
-        "value_usd": 35548255.0,
-        "weight_pct": 3.25
-      },
-      {
-        "cusip": "38013D106",
-        "security_class": "COM CL A",
-        "issuer": "GMR SOLUTIONS INC",
-        "shares": 2204449.0,
-        "value_usd": 34080782.0,
-        "weight_pct": 3.11
+        "shares": 7227687.0,
+        "value_usd": 90779749.0,
+        "weight_pct": 11.72
       },
       {
         "cusip": "92556W104",
         "security_class": "COM CL A",
         "issuer": "VIA TRANSN INC",
         "shares": 1700231.0,
-        "value_usd": 30842190.0,
-        "weight_pct": 2.82
+        "value_usd": 51431988.0,
+        "weight_pct": 6.64
+      },
+      {
+        "cusip": "38013D106",
+        "security_class": "COM CL A",
+        "issuer": "GMR SOLUTIONS INC",
+        "shares": 2204449.0,
+        "value_usd": 21228844.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "18270D106",
+        "security_class": "COMMON STOCK",
+        "issuer": "CLAROS MTG TR INC",
+        "shares": 15126917.0,
+        "value_usd": 18908646.0,
+        "weight_pct": 2.44
       }
     ],
-    "top_five_pct": 82.96,
+    "top_five_pct": 94.82,
     "top_ten_pct": 100.0,
-    "hhi": 1639.16,
+    "hhi": 2257.78,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
-      "exited_positions": 0,
-      "increased_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 3,
+      "increased_positions": 0,
       "reduced_positions": 1
     },
     "timeline": [
@@ -128,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0002027344-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002027344-26-000010"
       }
     ]
   },
-  "reported_13f_value_usd": 1094236536.0,
+  "reported_13f_value_usd": 774533692.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002027344-26-000005",
+  "validated_accession": "0002027344-26-000010",
   "annualized_turnover_proxy_pct": null
 }

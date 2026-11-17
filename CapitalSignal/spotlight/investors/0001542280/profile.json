@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001542280",
   "investor_name": "Cook & Bynum Capital Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Birmingham",
   "state": "AL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1542280/0001999371-25-017884.txt",
-    "https://www.sec.gov/Archives/edgar/data/1542280/0001999371-26-018035.txt"
+    "https://www.sec.gov/Archives/edgar/data/1542280/0001999371-26-018035.txt",
+    "https://www.sec.gov/Archives/edgar/data/1542280/0001999371-26-025539.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ef0968459d4fade74fdbbb7b0f64f08a0d285ad2355bb9379b1fe83e9dbb0895",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "b396af445395a9cd98a8916937d292774bf03aeb500856be34426bea9b0eeff7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "042e26bcd8e40b69cea01f9a713c78564087a4fc",
+    "9b8fbe8b2ca7f76ec99c3a92894c65164da168af",
+    "a4bf64933de22787e9e7d3adc246a9634734038b"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001999371-26-018035",
-    "source": "https://www.sec.gov/Archives/edgar/data/1542280/0001999371-26-018035.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001999371-26-025539",
+    "source": "https://www.sec.gov/Archives/edgar/data/1542280/0001999371-26-025539.txt",
     "distinct_positions": 6,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 134506807.0,
+    "reported_long_equity_value_usd": 128800423.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,59 +43,59 @@
         "security_class": "COM (CL B)",
         "issuer": "Berkshire Hathaway Inc.",
         "shares": 110671.0,
-        "value_usd": 55378662.0,
-        "weight_pct": 41.17
+        "value_usd": 55108624.0,
+        "weight_pct": 42.79
       },
       {
         "cusip": "03524A108",
         "security_class": "COM",
         "issuer": "Anheuser Busch Inbev",
         "shares": 403914.0,
-        "value_usd": 33282514.0,
-        "weight_pct": 24.74
+        "value_usd": 29675562.0,
+        "weight_pct": 23.04
       },
       {
         "cusip": "344419106",
         "security_class": "COM",
         "issuer": "Fomento Economico Mexicano S.A.B. de C.V. ADR",
         "shares": 233445.0,
-        "value_usd": 29857616.0,
-        "weight_pct": 22.2
+        "value_usd": 27677239.0,
+        "weight_pct": 21.49
       },
       {
         "cusip": "G9001E128",
         "security_class": "COM (CL C)",
         "issuer": "Liberty Latin America LTD - CL C",
         "shares": 1363971.0,
-        "value_usd": 10625334.0,
-        "weight_pct": 7.9
+        "value_usd": 11211842.0,
+        "weight_pct": 8.7
       },
       {
         "cusip": "02319V103",
         "security_class": "COM",
         "issuer": "Ambev SA",
         "shares": 1354009.0,
-        "value_usd": 4251588.0,
-        "weight_pct": 3.16
+        "value_usd": 3953706.0,
+        "weight_pct": 3.07
       },
       {
         "cusip": "G9001E102",
         "security_class": "COM (CL A)",
         "issuer": "Liberty Latin America LTD - CL A",
         "shares": 141721.0,
-        "value_usd": 1111093.0,
-        "weight_pct": 0.83
+        "value_usd": 1173450.0,
+        "weight_pct": 0.91
       }
     ],
-    "top_five_pct": 99.17,
+    "top_five_pct": 99.09,
     "top_ten_pct": 100.0,
-    "hhi": 2873.19,
+    "hhi": 2909.27,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 3
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -96,11 +107,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001999371-26-018035"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001999371-26-025539"
       }
     ]
   },
-  "reported_13f_value_usd": 134506807.0,
+  "reported_13f_value_usd": 128800423.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001999371-26-018035",
+  "validated_accession": "0001999371-26-025539",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002111719",
   "investor_name": "Legend Capital Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2111719/0002111719-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2111719/0002111719-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2111719/0002111719-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a28416456810732f94adab6266b07b79e12c0377d13f23d716ac55c486aaf65c",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "cc3f26f015baadd91e10c4e03aa8225d1c8d15db0a5c4013f10f5d8d0e0bcd44",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8eb60ede1f19902205359bc01e3552aa52f36bc1",
+    "d6c59f7fe713c422cffd801cca982530564f34ee"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002111719-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2111719/0002111719-26-000004.txt",
-    "distinct_positions": 62,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002111719-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2111719/0002111719-26-000006.txt",
+    "distinct_positions": 66,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 183776792.0,
+    "reported_long_equity_value_usd": 203271804.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "833445109",
         "security_class": "COM SHS",
         "issuer": "SNOWFLAKE INC",
-        "shares": 251390.0,
-        "value_usd": 63978755.0,
-        "weight_pct": 34.81
-      },
-      {
-        "cusip": "G6683N103",
-        "security_class": "ORD SHS CL A",
-        "issuer": "NU HLDGS LTD",
-        "shares": 1392916.0,
-        "value_usd": 18609358.0,
-        "weight_pct": 10.13
+        "shares": 201390.0,
+        "value_usd": 68383988.0,
+        "weight_pct": 33.64
       },
       {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
         "shares": 27535.0,
-        "value_usd": 15510190.0,
-        "weight_pct": 8.44
+        "value_usd": 19967831.0,
+        "weight_pct": 9.82
+      },
+      {
+        "cusip": "G6683N103",
+        "security_class": "ORD SHS CL A",
+        "issuer": "NU HLDGS LTD",
+        "shares": 1392916.0,
+        "value_usd": 17634317.0,
+        "weight_pct": 8.68
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 25754.0,
-        "value_usd": 9204019.0,
-        "weight_pct": 5.01
+        "shares": 26057.0,
+        "value_usd": 8965811.0,
+        "weight_pct": 4.41
       },
       {
         "cusip": "007903107",
         "security_class": "COM",
         "issuer": "ADVANCED MICRO DEVICES INC",
-        "shares": 12533.0,
-        "value_usd": 7281115.0,
-        "weight_pct": 3.96
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 14136.0,
-        "value_usd": 5945907.0,
-        "weight_pct": 3.24
+        "shares": 12383.0,
+        "value_usd": 7576024.0,
+        "weight_pct": 3.73
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 19780.0,
-        "value_usd": 5723756.0,
-        "weight_pct": 3.11
+        "shares": 19858.0,
+        "value_usd": 6613185.0,
+        "weight_pct": 3.25
+      },
+      {
+        "cusip": "81730H109",
+        "security_class": "CL A",
+        "issuer": "SENTINELONE INC",
+        "shares": 231983.0,
+        "value_usd": 5511916.0,
+        "weight_pct": 2.71
       },
       {
         "cusip": "934423104",
         "security_class": "COM SER A",
         "issuer": "WARNER BROS DISCOVERY INC",
         "shares": 176400.0,
-        "value_usd": 4702824.0,
-        "weight_pct": 2.56
+        "value_usd": 5459580.0,
+        "weight_pct": 2.69
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 21971.0,
-        "value_usd": 4396205.0,
-        "weight_pct": 2.39
+        "shares": 22271.0,
+        "value_usd": 5086282.0,
+        "weight_pct": 2.5
       },
       {
         "cusip": "22788C105",
         "security_class": "CL A",
         "issuer": "CROWDSTRIKE HLDGS INC",
-        "shares": 4539.0,
-        "value_usd": 3463892.0,
-        "weight_pct": 1.88
+        "shares": 18356.0,
+        "value_usd": 4859751.0,
+        "weight_pct": 2.39
       }
     ],
-    "top_five_pct": 62.35,
-    "top_ten_pct": 75.54,
-    "hhi": 1485.05,
-    "changes": null,
+    "top_five_pct": 60.28,
+    "top_ten_pct": 73.82,
+    "hhi": 1400.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 9,
+      "increased_positions": 21,
+      "reduced_positions": 7
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002111719-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002111719-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 183776792.0,
+  "reported_13f_value_usd": 203271804.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002111719-26-000004",
+  "validated_accession": "0002111719-26-000006",
   "annualized_turnover_proxy_pct": null
 }

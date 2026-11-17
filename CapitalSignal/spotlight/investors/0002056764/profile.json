@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002056764",
   "investor_name": "Parvin Asset Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SIOUX FALLS",
   "state": "SD",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2056764/0002056764-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/2056764/0002056764-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2056764/0002056764-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2056764/0002056764-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "820f7d7b946f0a8b6966b29f40a516992ca91cec9029488424b8479b21175f33",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "2bce6cb14a3125bee9c93a2ec1789fd2c9e214e223b97a65174a8e2fab2e5b6f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2f84e2b85ee051a4231dac2d0af4846091b79cb5",
+    "8e9d486607cc519a1273e9334d1814e5341bc8af",
+    "f98b8e737b391c28c4218e058dccb41f9eb2d66e"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0002056764-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2056764/0002056764-26-000003.txt",
-    "distinct_positions": 317,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002056764-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2056764/0002056764-26-000005.txt",
+    "distinct_positions": 320,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 125171020.0,
+    "reported_long_equity_value_usd": 132195288.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 24325.0,
-        "value_usd": 7038682.0,
-        "weight_pct": 5.62
+        "shares": 26168.0,
+        "value_usd": 8714467.0,
+        "weight_pct": 6.59
       },
       {
         "cusip": "651639106",
         "security_class": "COM",
         "issuer": "NEWMONT CORP",
-        "shares": 33095.0,
-        "value_usd": 3091073.0,
-        "weight_pct": 2.47
+        "shares": 31725.0,
+        "value_usd": 3659162.0,
+        "weight_pct": 2.77
       },
       {
         "cusip": "008474108",
         "security_class": "COM",
         "issuer": "AGNICO EAGLE MINES LTD F",
-        "shares": 19855.0,
-        "value_usd": 3080106.0,
-        "weight_pct": 2.46
-      },
-      {
-        "cusip": "29258Y103",
-        "security_class": "COM",
-        "issuer": "ENDEAVOUR SILVER CORP F",
-        "shares": 318275.0,
-        "value_usd": 2635317.0,
-        "weight_pct": 2.11
-      },
-      {
-        "cusip": "422704106",
-        "security_class": "COM",
-        "issuer": "HECLA MNG CO",
-        "shares": 164125.0,
-        "value_usd": 2532449.0,
-        "weight_pct": 2.02
-      },
-      {
-        "cusip": "780287108",
-        "security_class": "COM",
-        "issuer": "ROYAL GOLD INC",
-        "shares": 11885.0,
-        "value_usd": 2372365.0,
-        "weight_pct": 1.9
-      },
-      {
-        "cusip": "68390D106",
-        "security_class": "COM",
-        "issuer": "OR ROYALTIES",
-        "shares": 68935.0,
-        "value_usd": 2180414.0,
-        "weight_pct": 1.74
+        "shares": 19005.0,
+        "value_usd": 3483046.0,
+        "weight_pct": 2.63
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 5645.0,
-        "value_usd": 2105698.0,
-        "weight_pct": 1.68
+        "shares": 5554.0,
+        "value_usd": 2848647.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "422704106",
+        "security_class": "COM",
+        "issuer": "HECLA MNG CO",
+        "shares": 161375.0,
+        "value_usd": 2748216.0,
+        "weight_pct": 2.08
+      },
+      {
+        "cusip": "780287108",
+        "security_class": "COM",
+        "issuer": "ROYAL GOLD INC",
+        "shares": 11500.0,
+        "value_usd": 2714000.0,
+        "weight_pct": 2.05
+      },
+      {
+        "cusip": "29258Y103",
+        "security_class": "COM",
+        "issuer": "ENDEAVOUR SILVER CORP F",
+        "shares": 293900.0,
+        "value_usd": 2521662.0,
+        "weight_pct": 1.91
       },
       {
         "cusip": "031162100",
         "security_class": "COM",
         "issuer": "AMGEN INC",
-        "shares": 5619.0,
-        "value_usd": 2034752.0,
-        "weight_pct": 1.63
+        "shares": 5669.0,
+        "value_usd": 2389540.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "68390D106",
+        "security_class": "COM",
+        "issuer": "OR ROYALTIES",
+        "shares": 66770.0,
+        "value_usd": 2292882.0,
+        "weight_pct": 1.73
       },
       {
         "cusip": "82835P103",
         "security_class": "COM",
         "issuer": "SILVERCORP METALS INC F",
-        "shares": 200125.0,
-        "value_usd": 2021263.0,
-        "weight_pct": 1.61
+        "shares": 186825.0,
+        "value_usd": 1993423.0,
+        "weight_pct": 1.51
       }
     ],
-    "top_five_pct": 14.68,
-    "top_ten_pct": 23.24,
-    "hhi": 119.24,
+    "top_five_pct": 16.23,
+    "top_ten_pct": 25.24,
+    "hhi": 133.43,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 80,
-      "exited_positions": 49,
-      "increased_positions": 78,
-      "reduced_positions": 100
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 11,
+      "increased_positions": 70,
+      "reduced_positions": 66
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0002056764-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002056764-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 125171020.0,
+  "reported_13f_value_usd": 132195288.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002056764-26-000003",
+  "validated_accession": "0002056764-26-000005",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001910387",
   "investor_name": "Unconventional Investor, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-18",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PORTSMOUTH",
   "state": "NH",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f8dc40a1b0a7eef826e26d3928ab39a26c5dfaeee01d39ddfd3c1889bcd10811",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "a26468cc66e6b70e29775637bcd85ea6fe22b29be0c0a7aa69cade4895160ed5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-08-18|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "328161419d08e11d476d2b09682d1fca299bc70c",
+    "370cb1db97848d84ce686775ae3b07118586dcff",
+    "679c9fcb9723cb5f44873c9cbbd42ae737776280"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-18",
-    "accession": "0001910387-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001910387-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1910387/0001910387-26-000005.txt",
     "distinct_positions": 49,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 241752345.0,
+    "reported_long_equity_value_usd": 234399802.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "922908769",
         "security_class": "ETF",
         "issuer": "Total Stock Market ETF",
-        "shares": 195196.0,
-        "value_usd": 72230339.0,
-        "weight_pct": 29.88
+        "shares": 175803.0,
+        "value_usd": 65792421.0,
+        "weight_pct": 28.07
       },
       {
         "cusip": "922908363",
         "security_class": "ETF",
         "issuer": "Vanguard S&P 500 ETF",
-        "shares": 64399.0,
-        "value_usd": 44248849.0,
-        "weight_pct": 18.3
+        "shares": 65665.0,
+        "value_usd": 45728219.0,
+        "weight_pct": 19.51
       },
       {
         "cusip": "084670702",
         "security_class": "Class B",
-        "issuer": "Berkshire Hathaway Class B",
-        "shares": 55186.0,
-        "value_usd": 27614523.0,
-        "weight_pct": 11.42
+        "issuer": "Berkshire Hathaway; Class B",
+        "shares": 53339.0,
+        "value_usd": 26560155.0,
+        "weight_pct": 11.33
       },
       {
         "cusip": "921943858",
         "security_class": "ETF",
         "issuer": "Vanguard FTSE Developed Markets ETF",
-        "shares": 306567.0,
-        "value_usd": 21842873.0,
-        "weight_pct": 9.04
+        "shares": 309179.0,
+        "value_usd": 21831143.0,
+        "weight_pct": 9.31
       },
       {
         "cusip": "92204A876",
         "security_class": "ETF",
         "issuer": "Vanguard Utilities ETF",
-        "shares": 79370.0,
-        "value_usd": 15535178.0,
-        "weight_pct": 6.43
+        "shares": 77062.0,
+        "value_usd": 13177492.0,
+        "weight_pct": 5.62
       },
       {
         "cusip": "92206C102",
         "security_class": "ETF",
         "issuer": "VANGUARD SHORT TERM TREASURY ETF",
-        "shares": 163321.0,
-        "value_usd": 9504902.0,
-        "weight_pct": 3.93
+        "shares": 138102.0,
+        "value_usd": 7949175.0,
+        "weight_pct": 3.39
       },
       {
-        "cusip": "922908553",
+        "cusip": "922040845",
         "security_class": "ETF",
-        "issuer": "Vanguard REIT ETF",
-        "shares": 57533.0,
-        "value_usd": 5547948.0,
-        "weight_pct": 2.29
+        "issuer": "VANGUARD 0-3 MONTH TREASURY BILL ETF",
+        "shares": 74340.0,
+        "value_usd": 5629006.0,
+        "weight_pct": 2.4
       },
       {
         "cusip": "084670108",
         "security_class": "Class A",
         "issuer": "Berkshire Hathaway A",
         "shares": 7.0,
-        "value_usd": 5241950.0,
-        "weight_pct": 2.17
+        "value_usd": 5229035.0,
+        "weight_pct": 2.23
+      },
+      {
+        "cusip": "922908553",
+        "security_class": "ETF",
+        "issuer": "Vanguard REIT ETF",
+        "shares": 57589.0,
+        "value_usd": 5161646.0,
+        "weight_pct": 2.2
       },
       {
         "cusip": "921909768",
         "security_class": "ETF",
         "issuer": "Vanguard Total International Stock ETF",
-        "shares": 60940.0,
-        "value_usd": 5209793.0,
-        "weight_pct": 2.16
-      },
-      {
-        "cusip": "46435G326",
-        "security_class": "ETF",
-        "issuer": "ISHARES CORE MSCI INTRL DVLP MKT ETF",
-        "shares": 37387.0,
-        "value_usd": 3327777.0,
-        "weight_pct": 1.38
+        "shares": 56206.0,
+        "value_usd": 4775249.0,
+        "weight_pct": 2.04
       }
     ],
-    "top_five_pct": 75.07,
-    "top_ten_pct": 86.99,
-    "hhi": 1519.91,
+    "top_five_pct": 73.84,
+    "top_ten_pct": 86.11,
+    "hhi": 1455.23,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 13,
-      "increased_positions": 19,
-      "reduced_positions": 8
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 16,
+      "reduced_positions": 14
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-18",
         "accession": "0001910387-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001910387-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 241752345.0,
+  "reported_13f_value_usd": 234399802.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001910387-26-000003",
+  "validated_accession": "0001910387-26-000005",
   "annualized_turnover_proxy_pct": null
 }

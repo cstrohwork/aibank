@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001750405",
   "investor_name": "Truvestments Capital LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-12",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SARASOTA",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1750405/0001750405-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1750405/0001750405-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1750405/0001750405-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1750405/0001951757-26-001974.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "198549ae711fe799270b0b21ba28ba5e3b2d09ff0b061dc293bd09cba83201dd",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "093d43cf08f60bad59c5aea17f49862e82ebe6c5111d49c8bee82fb3a56ae974",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "49d1800911ca996ecd32f765f5aae15a6915dced",
+    "d46a2da753784d731f2a7fab58ebd2c5625773eb",
+    "f99415f3cc0da98b5c237ec5ef22567c8548e9d2"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-12",
-    "accession": "0001750405-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1750405/0001750405-26-000005.txt",
-    "distinct_positions": 1150,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001951757-26-001974",
+    "source": "https://www.sec.gov/Archives/edgar/data/1750405/0001951757-26-001974.txt",
+    "distinct_positions": 393,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 673148287.0,
+    "reported_long_equity_value_usd": 670166052.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 176437.0,
-        "value_usd": 35303358.0,
-        "weight_pct": 5.24
+        "shares": 176350.0,
+        "value_usd": 40274881.0,
+        "weight_pct": 6.01
       },
       {
         "cusip": "084670702",
         "security_class": "CL B NEW",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 53198.0,
-        "value_usd": 26619917.0,
-        "weight_pct": 3.95
+        "shares": 51972.0,
+        "value_usd": 25879627.0,
+        "weight_pct": 3.86
       },
       {
         "cusip": "46090E103",
         "security_class": "UNIT SER 1",
         "issuer": "INVESCO QQQ TR",
-        "shares": 35032.0,
-        "value_usd": 25797899.0,
-        "weight_pct": 3.83
-      },
-      {
-        "cusip": "219350105",
-        "security_class": "COM",
-        "issuer": "CORNING INC",
-        "shares": 79621.0,
-        "value_usd": 20337553.0,
-        "weight_pct": 3.02
+        "shares": 34935.0,
+        "value_usd": 25844186.0,
+        "weight_pct": 3.86
       },
       {
         "cusip": "11135F101",
         "security_class": "COM",
         "issuer": "BROADCOM INC",
-        "shares": 52990.0,
-        "value_usd": 20017152.0,
-        "weight_pct": 2.97
+        "shares": 52965.0,
+        "value_usd": 18600887.0,
+        "weight_pct": 2.78
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 46760.0,
-        "value_usd": 13530505.0,
-        "weight_pct": 2.01
+        "shares": 48131.0,
+        "value_usd": 16028536.0,
+        "weight_pct": 2.39
       },
       {
-        "cusip": "149123101",
+        "cusip": "219350105",
         "security_class": "COM",
-        "issuer": "CATERPILLAR INC",
-        "shares": 10677.0,
-        "value_usd": 11370277.0,
-        "weight_pct": 1.69
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 14183.0,
-        "value_usd": 10254279.0,
-        "weight_pct": 1.52
-      },
-      {
-        "cusip": "15101Q207",
-        "security_class": "COM",
-        "issuer": "CELESTICA INC",
-        "shares": 26581.0,
-        "value_usd": 9696749.0,
-        "weight_pct": 1.44
+        "issuer": "CORNING INC",
+        "shares": 79807.0,
+        "value_usd": 12271073.0,
+        "weight_pct": 1.83
       },
       {
         "cusip": "24703L202",
         "security_class": "CL C",
         "issuer": "DELL TECHNOLOGIES INC",
-        "shares": 20588.0,
-        "value_usd": 8882698.0,
-        "weight_pct": 1.32
+        "shares": 20727.0,
+        "value_usd": 11149899.0,
+        "weight_pct": 1.66
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 19009.0,
+        "value_usd": 9749657.0,
+        "weight_pct": 1.45
+      },
+      {
+        "cusip": "15101Q207",
+        "security_class": "COM",
+        "issuer": "CELESTICA INC",
+        "shares": 26038.0,
+        "value_usd": 9410914.0,
+        "weight_pct": 1.4
+      },
+      {
+        "cusip": "747525103",
+        "security_class": "COM",
+        "issuer": "QUALCOMM INC",
+        "shares": 47391.0,
+        "value_usd": 8721899.0,
+        "weight_pct": 1.3
       }
     ],
-    "top_five_pct": 19.03,
-    "top_ten_pct": 27.01,
-    "hhi": 121.56,
+    "top_five_pct": 18.9,
+    "top_ten_pct": 26.55,
+    "hhi": 124.5,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 291,
-      "exited_positions": 198,
-      "increased_positions": 292,
-      "reduced_positions": 325
+      "previous_period": "2026-06-30",
+      "new_positions": 32,
+      "exited_positions": 789,
+      "increased_positions": 192,
+      "reduced_positions": 124
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-12",
         "accession": "0001750405-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001951757-26-001974"
       }
     ]
   },
-  "reported_13f_value_usd": 673148287.0,
+  "reported_13f_value_usd": 670166052.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001750405-26-000005",
+  "validated_accession": "0001951757-26-001974",
   "annualized_turnover_proxy_pct": null
 }

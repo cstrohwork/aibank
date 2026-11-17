@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001853322",
   "investor_name": "DARK FOREST CAPITAL MANAGEMENT LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-11-10",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1853322/0001853322-25-000011.txt",
-    "https://www.sec.gov/Archives/edgar/data/1853322/0002073679-26-000172.txt"
+    "https://www.sec.gov/Archives/edgar/data/1853322/0002073679-26-000172.txt",
+    "https://www.sec.gov/Archives/edgar/data/1853322/0002073679-26-000175.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0a381c8a2831e7472f6e65278606548d3752d29314eab518cef4f99b44ea9a84",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "cf970fa655f150b432830bb5f716dafff5ae6cb2eb76641fcc2b54cc0574d217",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-11-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5a1a9ceedbb2435a120fb7d22e01a01f4120b498",
+    "b50e97f97528cb3541ddde163e31cc5c98e49b3d",
+    "e6f374009bc6ae07a973d58ca8b5773879aad426"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-11-10",
-    "accession": "0002073679-26-000172",
-    "source": "https://www.sec.gov/Archives/edgar/data/1853322/0002073679-26-000172.txt",
-    "distinct_positions": 785,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002073679-26-000175",
+    "source": "https://www.sec.gov/Archives/edgar/data/1853322/0002073679-26-000175.txt",
+    "distinct_positions": 839,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1590444525.0,
+    "reported_long_equity_value_usd": 1306074104.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "595112103",
         "security_class": "COM",
         "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 15842.0,
-        "value_usd": 18286262.0,
-        "weight_pct": 1.15
+        "shares": 22738.0,
+        "value_usd": 24218471.0,
+        "weight_pct": 1.85
       },
       {
-        "cusip": "46429B598",
-        "security_class": "MSCI INDIA ETF",
-        "issuer": "ISHARES MSCI INDIA ETF",
-        "shares": 342603.0,
-        "value_usd": 16921162.0,
-        "weight_pct": 1.06
-      },
-      {
-        "cusip": "G0692U109",
-        "security_class": "SHS",
-        "issuer": "AXIS CAPITAL HOLDINGS LTD",
-        "shares": 122795.0,
-        "value_usd": 13193095.0,
-        "weight_pct": 0.83
-      },
-      {
-        "cusip": "78467J100",
+        "cusip": "375558103",
         "security_class": "COM",
-        "issuer": "SS&C TECHNOLOGIES HOLDINGS",
-        "shares": 185954.0,
-        "value_usd": 11538446.0,
-        "weight_pct": 0.73
+        "issuer": "GILEAD SCIENCES INC",
+        "shares": 69458.0,
+        "value_usd": 10352715.0,
+        "weight_pct": 0.79
       },
       {
-        "cusip": "084670702",
-        "security_class": "CL B NEW",
-        "issuer": "BERKSHIRE HATHAWAY INC-CL B",
-        "shares": 22596.0,
-        "value_usd": 11306812.0,
+        "cusip": "60770K107",
+        "security_class": "COM",
+        "issuer": "MODERNA INC",
+        "shares": 48735.0,
+        "value_usd": 9384899.0,
+        "weight_pct": 0.72
+      },
+      {
+        "cusip": "049560105",
+        "security_class": "COM",
+        "issuer": "ATMOS ENERGY CORP",
+        "shares": 59051.0,
+        "value_usd": 9237938.0,
         "weight_pct": 0.71
+      },
+      {
+        "cusip": "216648501",
+        "security_class": "COM",
+        "issuer": "COOPER COS INC",
+        "shares": 144588.0,
+        "value_usd": 8173560.0,
+        "weight_pct": 0.63
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 15347.0,
+        "value_usd": 7871476.0,
+        "weight_pct": 0.6
       },
       {
         "cusip": "038222105",
         "security_class": "COM",
-        "issuer": "APPLIED MATERIALS INC",
-        "shares": 14376.0,
-        "value_usd": 10393848.0,
-        "weight_pct": 0.65
+        "issuer": "APPLIED MATLS INC",
+        "shares": 15061.0,
+        "value_usd": 7701894.0,
+        "weight_pct": 0.59
       },
       {
-        "cusip": "532457108",
+        "cusip": "126600105",
         "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 8625.0,
-        "value_usd": 10345084.0,
-        "weight_pct": 0.65
-      },
-      {
-        "cusip": "233331107",
-        "security_class": "COM",
-        "issuer": "DTE ENERGY COMPANY",
-        "shares": 60651.0,
-        "value_usd": 9241393.0,
-        "weight_pct": 0.58
-      },
-      {
-        "cusip": "92939U106",
-        "security_class": "COM",
-        "issuer": "WEC ENERGY GROUP INC",
-        "shares": 78819.0,
-        "value_usd": 9203695.0,
-        "weight_pct": 0.58
-      },
-      {
-        "cusip": "26875P101",
-        "security_class": "COM",
-        "issuer": "EOG RESOURCES INC",
-        "shares": 69367.0,
-        "value_usd": 8998981.0,
+        "issuer": "CVB FINL CORP",
+        "shares": 346904.0,
+        "value_usd": 7496595.0,
         "weight_pct": 0.57
+      },
+      {
+        "cusip": "125896100",
+        "security_class": "COM",
+        "issuer": "CMS ENERGY CORP",
+        "shares": 114249.0,
+        "value_usd": 7206827.0,
+        "weight_pct": 0.55
+      },
+      {
+        "cusip": "49456B101",
+        "security_class": "COM",
+        "issuer": "KINDER MORGAN INC DEL",
+        "shares": 237129.0,
+        "value_usd": 7149439.0,
+        "weight_pct": 0.55
       }
     ],
-    "top_five_pct": 4.48,
-    "top_ten_pct": 7.51,
+    "top_five_pct": 4.7,
+    "top_ten_pct": 7.56,
     "hhi": 24.67,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 785,
-      "exited_positions": 1111,
-      "increased_positions": 0,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 344,
+      "exited_positions": 290,
+      "increased_positions": 225,
+      "reduced_positions": 269
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-11-10",
         "accession": "0002073679-26-000172"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002073679-26-000175"
       }
     ]
   },
-  "reported_13f_value_usd": 1590444525.0,
+  "reported_13f_value_usd": 1306074104.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002073679-26-000172",
+  "validated_accession": "0002073679-26-000175",
   "annualized_turnover_proxy_pct": null
 }

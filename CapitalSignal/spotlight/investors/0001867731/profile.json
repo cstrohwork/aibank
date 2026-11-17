@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001867731",
   "investor_name": "SELDON CAPITAL LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1867731/0001867731-25-000010.txt",
-    "https://www.sec.gov/Archives/edgar/data/1867731/0002073679-26-000095.txt"
+    "https://www.sec.gov/Archives/edgar/data/1867731/0002073679-26-000095.txt",
+    "https://www.sec.gov/Archives/edgar/data/1867731/0002073679-26-000177.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "04823075ab80f6e67bc2c770c67bf477e6babfe650ad2d6d1a5deb83745438d2",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "f74aec6245d220889accd4e4ffca2cce70bf61489c00e474f0457cb3cbf27f77",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "26927a373c1be0d0e204d03255cf4167d73283e6",
+    "aeb37c8a6f052f8bb7dbab93f1fbe7d8d43bd8e0",
+    "c5392e91883f5dbb3b32adf7eddd0930e8c5b222"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002073679-26-000095",
-    "source": "https://www.sec.gov/Archives/edgar/data/1867731/0002073679-26-000095.txt",
-    "distinct_positions": 74,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002073679-26-000177",
+    "source": "https://www.sec.gov/Archives/edgar/data/1867731/0002073679-26-000177.txt",
+    "distinct_positions": 75,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 319646467.0,
+    "reported_long_equity_value_usd": 343454201.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 62840.0,
+        "value_usd": 32230636.0,
+        "weight_pct": 9.38
+      },
       {
         "cusip": "458140100",
         "security_class": "COM",
         "issuer": "INTEL CORP",
         "shares": 226071.0,
-        "value_usd": 31566294.0,
-        "weight_pct": 9.88
+        "value_usd": 27180516.0,
+        "weight_pct": 7.91
+      },
+      {
+        "cusip": "235851102",
+        "security_class": "COM",
+        "issuer": "DANAHER CORP DEL",
+        "shares": 118951.0,
+        "value_usd": 26353594.0,
+        "weight_pct": 7.67
       },
       {
         "cusip": "15101Q207",
         "security_class": "COM",
         "issuer": "CELESTICA INC",
-        "shares": 70785.0,
-        "value_usd": 25822368.0,
-        "weight_pct": 8.08
-      },
-      {
-        "cusip": "87422Q109",
-        "security_class": "COM",
-        "issuer": "TALEN ENERGY CORP",
-        "shares": 55800.0,
-        "value_usd": 21441708.0,
-        "weight_pct": 6.71
-      },
-      {
-        "cusip": "92343E102",
-        "security_class": "COM",
-        "issuer": "VERISIGN INC",
-        "shares": 72839.0,
-        "value_usd": 18323379.0,
-        "weight_pct": 5.73
+        "shares": 48053.0,
+        "value_usd": 17367796.0,
+        "weight_pct": 5.06
       },
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
         "shares": 43798.0,
-        "value_usd": 16207012.0,
-        "weight_pct": 5.07
+        "value_usd": 16390964.0,
+        "weight_pct": 4.77
       },
       {
-        "cusip": "H5012F103",
-        "security_class": "COM SHS",
-        "issuer": "LITHIUM ARGENTINA AG",
-        "shares": 1858689.0,
-        "value_usd": 15369014.0,
-        "weight_pct": 4.81
+        "cusip": "279158109",
+        "security_class": "SPONSORED ADS",
+        "issuer": "ECOPETROL S A",
+        "shares": 813738.0,
+        "value_usd": 13410402.0,
+        "weight_pct": 3.9
       },
       {
-        "cusip": "833635105",
-        "security_class": "SPON ADR SER B",
-        "issuer": "SOCIEDAD QUIMICA Y MINERA DE",
-        "shares": 189808.0,
-        "value_usd": 14053384.0,
-        "weight_pct": 4.4
-      },
-      {
-        "cusip": "880770102",
+        "cusip": "37045V100",
         "security_class": "COM",
-        "issuer": "TERADYNE INC",
-        "shares": 27300.0,
-        "value_usd": 13208832.0,
-        "weight_pct": 4.13
+        "issuer": "GENERAL MTRS CO",
+        "shares": 172792.0,
+        "value_usd": 13304984.0,
+        "weight_pct": 3.87
       },
       {
         "cusip": "922042742",
         "security_class": "TT WRLD ST ETF",
         "issuer": "VANGUARD INTL EQUITY INDEX F",
         "shares": 75547.0,
-        "value_usd": 11857102.0,
-        "weight_pct": 3.71
+        "value_usd": 11925094.0,
+        "weight_pct": 3.47
       },
       {
-        "cusip": "03831W108",
-        "security_class": "COM CL A",
-        "issuer": "APPLOVIN CORP",
-        "shares": 21935.0,
-        "value_usd": 11301570.0,
-        "weight_pct": 3.54
+        "cusip": "833635105",
+        "security_class": "SPON ADR SER B",
+        "issuer": "SOCIEDAD QUIMICA Y MINERA DE",
+        "shares": 172810.0,
+        "value_usd": 11210185.0,
+        "weight_pct": 3.26
+      },
+      {
+        "cusip": "880770102",
+        "security_class": "COM",
+        "issuer": "TERADYNE INC",
+        "shares": 27300.0,
+        "value_usd": 10944843.0,
+        "weight_pct": 3.19
       }
     ],
-    "top_five_pct": 35.46,
-    "top_ten_pct": 56.05,
-    "hhi": 425.13,
+    "top_five_pct": 34.8,
+    "top_ten_pct": 52.5,
+    "hhi": 399.72,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 23,
-      "exited_positions": 19,
-      "increased_positions": 4,
-      "reduced_positions": 10
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 13,
+      "increased_positions": 8,
+      "reduced_positions": 8
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002073679-26-000095"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002073679-26-000177"
       }
     ]
   },
-  "reported_13f_value_usd": 319646467.0,
+  "reported_13f_value_usd": 343454201.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002073679-26-000095",
+  "validated_accession": "0002073679-26-000177",
   "annualized_turnover_proxy_pct": null
 }

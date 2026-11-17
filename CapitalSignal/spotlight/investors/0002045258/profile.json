@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002045258",
   "investor_name": "Copley Financial Group, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN DIEGO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2045258/0002045258-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/2045258/0002045258-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2045258/0002045258-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2045258/0002045258-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "29d4dea5664899f4c24af7abadb45b725d2399fd1ba5edaa3b6eb2f5c1feaf09",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "72f98c902829ca00d96fa3184abc46e6f0def91d7ab5363ff0d6186b42fd24d0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-18|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5b19aceca3a56809aca5be002d5a1fa2bb98714b",
+    "62380abc4b50216187ca954c5649708d8d0fe067",
+    "8c34cf1a592a68a31329d2eb8a27503bb7ee0035"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0002045258-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2045258/0002045258-26-000003.txt",
-    "distinct_positions": 118,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002045258-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2045258/0002045258-26-000004.txt",
+    "distinct_positions": 85,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 165365356.0,
+    "reported_long_equity_value_usd": 163296152.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "66538H591",
         "security_class": "MAIN SECTR ROTN",
         "issuer": "NORTHERN LTS FD TR IV",
-        "shares": 384988.0,
-        "value_usd": 27742264.0,
-        "weight_pct": 16.78
+        "shares": 519200.0,
+        "value_usd": 37148747.0,
+        "weight_pct": 22.75
       },
       {
         "cusip": "69374H881",
         "security_class": "US CASH COWS 100",
         "issuer": "PACER FDS TR",
-        "shares": 220773.0,
-        "value_usd": 13732109.0,
-        "weight_pct": 8.3
-      },
-      {
-        "cusip": "69374H568",
-        "security_class": "SWAN SOS FD OF",
-        "issuer": "PACER FDS TR",
-        "shares": 358334.0,
-        "value_usd": 12294440.0,
-        "weight_pct": 7.43
+        "shares": 225085.0,
+        "value_usd": 15026660.0,
+        "weight_pct": 9.2
       },
       {
         "cusip": "69374H865",
         "security_class": "EMRG MKT CASH",
         "issuer": "PACER FDS TR",
-        "shares": 457707.0,
-        "value_usd": 12139309.0,
-        "weight_pct": 7.34
-      },
-      {
-        "cusip": "37954Y673",
-        "security_class": "US INFR DEV ETF",
-        "issuer": "GLOBAL X FDS",
-        "shares": 135421.0,
-        "value_usd": 7979005.0,
-        "weight_pct": 4.83
+        "shares": 476633.0,
+        "value_usd": 12491350.0,
+        "weight_pct": 7.65
       },
       {
         "cusip": "92189F643",
         "security_class": "MRNGSTR WDE MOAT",
         "issuer": "VANECK ETF TRUST",
-        "shares": 75328.0,
-        "value_usd": 7831099.0,
-        "weight_pct": 4.74
-      },
-      {
-        "cusip": "98149E303",
-        "security_class": "SPDR GLD MINIS",
-        "issuer": "WORLD GOLD TR",
-        "shares": 88903.0,
-        "value_usd": 7060676.0,
-        "weight_pct": 4.27
+        "shares": 76008.0,
+        "value_usd": 8034806.0,
+        "weight_pct": 4.92
       },
       {
         "cusip": "92189H870",
         "security_class": "ENERGY INCME ET",
         "issuer": "VANECK ETF TRUST",
-        "shares": 51459.0,
-        "value_usd": 6133913.0,
-        "weight_pct": 3.71
+        "shares": 70242.0,
+        "value_usd": 7889349.0,
+        "weight_pct": 4.83
+      },
+      {
+        "cusip": "37954Y673",
+        "security_class": "US INFR DEV ETF",
+        "issuer": "GLOBAL X FDS",
+        "shares": 140666.0,
+        "value_usd": 7384983.0,
+        "weight_pct": 4.52
       },
       {
         "cusip": "92189F791",
         "security_class": "JUNIOR GOLD MINE",
         "issuer": "VANECK ETF TRUST",
-        "shares": 55468.0,
-        "value_usd": 5449731.0,
-        "weight_pct": 3.3
+        "shares": 64538.0,
+        "value_usd": 7354105.0,
+        "weight_pct": 4.5
       },
       {
-        "cusip": "78464A649",
-        "security_class": "STATE STREET SPD",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 176811.0,
-        "value_usd": 4512217.0,
-        "weight_pct": 2.73
+        "cusip": "69374H568",
+        "security_class": "SWAN SOS FD OF",
+        "issuer": "PACER FDS TR",
+        "shares": 187882.0,
+        "value_usd": 6596544.0,
+        "weight_pct": 4.04
+      },
+      {
+        "cusip": "66538H179",
+        "security_class": "MAIN BUYWRITE",
+        "issuer": "NORTHERN LTS FD TR IV",
+        "shares": 349729.0,
+        "value_usd": 5060585.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "53700T827",
+        "security_class": "IMGP DBI MAN ETF",
+        "issuer": "IM GLOBAL PARTNER FUNDS",
+        "shares": 135927.0,
+        "value_usd": 4421705.0,
+        "weight_pct": 2.71
       }
     ],
-    "top_five_pct": 44.68,
-    "top_ten_pct": 63.42,
-    "hhi": 579.87,
+    "top_five_pct": 49.35,
+    "top_ten_pct": 68.23,
+    "hhi": 808.07,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 40,
-      "exited_positions": 27,
-      "increased_positions": 21,
-      "reduced_positions": 55
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 53,
+      "increased_positions": 25,
+      "reduced_positions": 37
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0002045258-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002045258-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 165365356.0,
+  "reported_13f_value_usd": 163296152.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002045258-26-000003",
+  "validated_accession": "0002045258-26-000004",
   "annualized_turnover_proxy_pct": null
 }

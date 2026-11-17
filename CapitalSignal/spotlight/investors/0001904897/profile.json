@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001904897",
   "investor_name": "Styrax Capital, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "New York",
   "state": "NY",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1904897/0001904897-25-000014.txt",
-    "https://www.sec.gov/Archives/edgar/data/1904897/0001904897-26-000008.txt"
+    "https://www.sec.gov/Archives/edgar/data/1904897/0001904897-26-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/1904897/0001904897-26-000012.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "05aa4b3ba9baf4d797682fbf73662fb266fb0ad563fa93016ad3beef6688fdaa",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "afb80ea8600e504c257725e5d071e2dba4424565c7ecfb132e624689df454b17",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2c195d97d58210b31bd6ebd0931cb3fc66dd1de3",
+    "37cb2d1b5a5a43c0e32de408dc6175090dbb88b1",
+    "fc055bf08acc4554455d81960e03df6178e4a44d"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001904897-26-000008",
-    "source": "https://www.sec.gov/Archives/edgar/data/1904897/0001904897-26-000008.txt",
-    "distinct_positions": 18,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001904897-26-000012",
+    "source": "https://www.sec.gov/Archives/edgar/data/1904897/0001904897-26-000012.txt",
+    "distinct_positions": 15,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 1516775950.0,
+    "reported_long_equity_value_usd": 1258770200.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,90 +43,90 @@
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
         "shares": 1000000.0,
-        "value_usd": 238340000.0,
-        "weight_pct": 15.71
+        "value_usd": 249150000.0,
+        "weight_pct": 19.79
       },
       {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
         "shares": 200000.0,
-        "value_usd": 144600000.0,
-        "weight_pct": 9.53
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 350000.0,
-        "value_usd": 125079500.0,
-        "weight_pct": 8.25
+        "value_usd": 145036000.0,
+        "weight_pct": 11.52
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 600000.0,
-        "value_usd": 120054000.0,
-        "weight_pct": 7.92
-      },
-      {
-        "cusip": "92537N108",
-        "security_class": "COM CL A",
-        "issuer": "VERTIV HOLDINGS CO",
-        "shares": 350000.0,
-        "value_usd": 117187000.0,
-        "weight_pct": 7.73
-      },
-      {
-        "cusip": "05464C101",
-        "security_class": "COM",
-        "issuer": "AXON ENTERPRISE INC",
-        "shares": 200000.0,
-        "value_usd": 112122000.0,
-        "weight_pct": 7.39
+        "shares": 500000.0,
+        "value_usd": 114190000.0,
+        "weight_pct": 9.07
       },
       {
         "cusip": "57636Q104",
         "security_class": "CL A",
         "issuer": "MASTERCARD INCORPORATED",
         "shares": 200000.0,
-        "value_usd": 102720000.0,
-        "weight_pct": 6.77
+        "value_usd": 110294000.0,
+        "weight_pct": 8.76
+      },
+      {
+        "cusip": "55024U109",
+        "security_class": "COM",
+        "issuer": "LUMENTUM HLDGS INC",
+        "shares": 100000.0,
+        "value_usd": 97126000.0,
+        "weight_pct": 7.72
+      },
+      {
+        "cusip": "92537N108",
+        "security_class": "COM CL A",
+        "issuer": "VERTIV HOLDINGS CO",
+        "shares": 350000.0,
+        "value_usd": 84458500.0,
+        "weight_pct": 6.71
+      },
+      {
+        "cusip": "82982T106",
+        "security_class": "COM",
+        "issuer": "SITIME CORP",
+        "shares": 100000.0,
+        "value_usd": 65203000.0,
+        "weight_pct": 5.18
       },
       {
         "cusip": "146869102",
         "security_class": "CL A",
         "issuer": "CARVANA CO",
-        "shares": 1500000.0,
-        "value_usd": 98730000.0,
-        "weight_pct": 6.51
+        "shares": 1000000.0,
+        "value_usd": 62540000.0,
+        "weight_pct": 4.97
       },
       {
-        "cusip": "30303M102",
-        "security_class": "CL A",
-        "issuer": "META PLATFORMS INC",
-        "shares": 175000.0,
-        "value_usd": 98575750.0,
-        "weight_pct": 6.5
-      },
-      {
-        "cusip": "49338L103",
+        "cusip": "007903107",
         "security_class": "COM",
-        "issuer": "KEYSIGHT TECHNOLOGIES INC",
-        "shares": 250000.0,
-        "value_usd": 87517500.0,
-        "weight_pct": 5.77
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 100000.0,
+        "value_usd": 61176000.0,
+        "weight_pct": 4.86
+      },
+      {
+        "cusip": "78392B206",
+        "security_class": "AMERICAN DEPOSIT",
+        "issuer": "SK HYNIX INC",
+        "shares": 300000.0,
+        "value_usd": 55245000.0,
+        "weight_pct": 4.39
       }
     ],
-    "top_five_pct": 49.13,
-    "top_ten_pct": 82.08,
-    "hhi": 802.34,
+    "top_five_pct": 56.86,
+    "top_ten_pct": 82.97,
+    "hhi": 947.54,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 12,
-      "exited_positions": 3,
-      "increased_positions": 2,
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 8,
+      "increased_positions": 3,
       "reduced_positions": 4
     },
     "timeline": [
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001904897-26-000008"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001904897-26-000012"
       }
     ]
   },
-  "reported_13f_value_usd": 1516775950.0,
+  "reported_13f_value_usd": 1258770200.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001904897-26-000008",
+  "validated_accession": "0001904897-26-000012",
   "annualized_turnover_proxy_pct": null
 }

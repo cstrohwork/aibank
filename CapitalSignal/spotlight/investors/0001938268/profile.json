@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001938268",
   "investor_name": "4D Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "REDONDO BEACH",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1938268/0001938268-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1938268/0001938268-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1938268/0001938268-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1938268/0001938268-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f9cb2def8fa427d1c7dcf696fa67317f75d963417b52f6bce4aac12e05a8de78",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "942433d36faf401ab78c47597890b3e675ad32a7dfdd959ac2f9835423622534",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0cdad1e073b9e92c3d262ff5d0d08af26666d658",
+    "6eba8921fb8795af4276ea45db0d50d217b81026",
+    "ee517b37fdeccbf27d6893d927747007789a24b9"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001938268-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1938268/0001938268-26-000005.txt",
-    "distinct_positions": 37,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001938268-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1938268/0001938268-26-000007.txt",
+    "distinct_positions": 30,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 260317245.0,
+    "reported_long_equity_value_usd": 180750862.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "499049104",
         "security_class": "CL A",
         "issuer": "KNIGHT-SWIFT TRANSN HLDGS IN",
-        "shares": 200000.0,
-        "value_usd": 15574000.0,
-        "weight_pct": 5.98
+        "shares": 165000.0,
+        "value_usd": 10492350.0,
+        "weight_pct": 5.8
       },
       {
-        "cusip": "445658107",
+        "cusip": "780287108",
         "security_class": "COM",
-        "issuer": "HUNT J B TRANS SVCS INC",
-        "shares": 44000.0,
-        "value_usd": 12734920.0,
-        "weight_pct": 4.89
+        "issuer": "ROYAL GOLD INC",
+        "shares": 40000.0,
+        "value_usd": 9440000.0,
+        "weight_pct": 5.22
       },
       {
-        "cusip": "03937C105",
+        "cusip": "929566107",
         "security_class": "COM",
-        "issuer": "ARCBEST CORP",
-        "shares": 85000.0,
-        "value_usd": 12200900.0,
-        "weight_pct": 4.69
+        "issuer": "WABASH NATL CORP",
+        "shares": 750000.0,
+        "value_usd": 9247500.0,
+        "weight_pct": 5.12
       },
       {
-        "cusip": "05464C101",
+        "cusip": "110448107",
+        "security_class": "SPONSORED ADR",
+        "issuer": "BRITISH AMERN TOB PLC",
+        "shares": 150000.0,
+        "value_usd": 8160000.0,
+        "weight_pct": 4.51
+      },
+      {
+        "cusip": "546347105",
         "security_class": "COM",
-        "issuer": "AXON ENTERPRISE INC",
-        "shares": 20000.0,
-        "value_usd": 11212200.0,
-        "weight_pct": 4.31
+        "issuer": "LOUISIANA PAC CORP",
+        "shares": 125000.0,
+        "value_usd": 8068750.0,
+        "weight_pct": 4.46
       },
       {
         "cusip": "184496107",
         "security_class": "COM",
         "issuer": "CLEAN HARBORS INC",
-        "shares": 35000.0,
-        "value_usd": 10456250.0,
-        "weight_pct": 4.02
+        "shares": 25000.0,
+        "value_usd": 7755750.0,
+        "weight_pct": 4.29
       },
       {
-        "cusip": "87241L109",
-        "security_class": "COM",
-        "issuer": "TFI INTERNATIONAL INC",
-        "shares": 70000.0,
-        "value_usd": 10049900.0,
-        "weight_pct": 3.86
-      },
-      {
-        "cusip": "22284P105",
+        "cusip": "127190304",
         "security_class": "CL A",
-        "issuer": "COVENANT LOGISTICS GROUP INC",
-        "shares": 225000.0,
-        "value_usd": 9940500.0,
-        "weight_pct": 3.82
+        "issuer": "CACI INTL INC",
+        "shares": 12500.0,
+        "value_usd": 7613875.0,
+        "weight_pct": 4.21
       },
       {
-        "cusip": "532457108",
+        "cusip": "609839105",
         "security_class": "COM",
-        "issuer": "ELI LILLY & CO",
-        "shares": 7500.0,
-        "value_usd": 8995725.0,
-        "weight_pct": 3.46
+        "issuer": "MONOLITHIC PWR SYS INC",
+        "shares": 5500.0,
+        "value_usd": 7409710.0,
+        "weight_pct": 4.1
       },
       {
-        "cusip": "339750101",
-        "security_class": "CL A",
-        "issuer": "FLOOR & DECOR HLDGS INC",
-        "shares": 150000.0,
-        "value_usd": 8904000.0,
-        "weight_pct": 3.42
-      },
-      {
-        "cusip": "02913V103",
+        "cusip": "G7997W102",
         "security_class": "COM",
-        "issuer": "AMERICAN PUB ED INC",
+        "issuer": "SEADRILL LTD",
         "shares": 165000.0,
-        "value_usd": 8860500.0,
-        "weight_pct": 3.4
+        "value_usd": 7370550.0,
+        "weight_pct": 4.08
+      },
+      {
+        "cusip": "008474108",
+        "security_class": "COM",
+        "issuer": "AGNICO EAGLE MINES LTD",
+        "shares": 40000.0,
+        "value_usd": 7330800.0,
+        "weight_pct": 4.06
       }
     ],
-    "top_five_pct": 23.89,
-    "top_ten_pct": 41.84,
-    "hhi": 316.02,
+    "top_five_pct": 25.12,
+    "top_ten_pct": 45.86,
+    "hhi": 370.17,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 26,
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
       "exited_positions": 22,
       "increased_positions": 4,
-      "reduced_positions": 7
+      "reduced_positions": 10
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001938268-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001938268-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 260317245.0,
+  "reported_13f_value_usd": 180750862.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001938268-26-000005",
+  "validated_accession": "0001938268-26-000007",
   "annualized_turnover_proxy_pct": null
 }

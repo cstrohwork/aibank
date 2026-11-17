@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001993440",
   "investor_name": "First Turn Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DEL MAR",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1993440/0001993440-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/1993440/0001993440-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/1993440/0001993440-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1993440/0001993440-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "0f8b0810556b60a9e24e0540abe16698c0b601a522bf8b07606f15b0b0898290",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "6d34c6b12791d39111d7fd29a263a2e35edc459b3c7f2638eb2a2cf1c8e37b0e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1c5234a30575d837fef228fc823c26d7af61fb84",
+    "3011b96d63e26d75bec1c661de5a1cdd4c9d8381",
+    "8a716190e9fcfef4692494fc09aeedcb867f25ff"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001993440-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/1993440/0001993440-26-000004.txt",
-    "distinct_positions": 31,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001993440-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1993440/0001993440-26-000005.txt",
+    "distinct_positions": 38,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 934715611.0,
+    "reported_long_equity_value_usd": 752975725.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "76155X100",
+        "cusip": "29337E102",
         "security_class": "COM",
-        "issuer": "REVOLUTION MEDICINES INC",
-        "shares": 415307.0,
-        "value_usd": 77778695.0,
-        "weight_pct": 8.32
+        "issuer": "ENLIVEN THERAPEUTICS INC",
+        "shares": 958700.0,
+        "value_usd": 43946808.0,
+        "weight_pct": 5.84
+      },
+      {
+        "cusip": "40131M109",
+        "security_class": "COM",
+        "issuer": "GUARDANT HEALTH INC",
+        "shares": 219304.0,
+        "value_usd": 39115061.0,
+        "weight_pct": 5.19
       },
       {
         "cusip": "00370M103",
         "security_class": "SPONSORED ADS",
         "issuer": "ABIVAX SA",
-        "shares": 489889.0,
-        "value_usd": 65282608.0,
-        "weight_pct": 6.98
-      },
-      {
-        "cusip": "05464T104",
-        "security_class": "COM",
-        "issuer": "AXSOME THERAPEUTICS INC.",
-        "shares": 218415.0,
-        "value_usd": 53461440.0,
-        "weight_pct": 5.72
-      },
-      {
-        "cusip": "29337E102",
-        "security_class": "COM",
-        "issuer": "ENLIVEN THERAPEUTICS INC",
-        "shares": 954360.0,
-        "value_usd": 48433770.0,
-        "weight_pct": 5.18
-      },
-      {
-        "cusip": "10806X102",
-        "security_class": "COM",
-        "issuer": "BRIDGEBIO PHARMA INC",
-        "shares": 633364.0,
-        "value_usd": 47172951.0,
-        "weight_pct": 5.05
+        "shares": 384592.0,
+        "value_usd": 38082300.0,
+        "weight_pct": 5.06
       },
       {
         "cusip": "G76279101",
         "security_class": "SHS",
         "issuer": "ROIVANT SCIENCES LTD",
-        "shares": 1331066.0,
-        "value_usd": 47106426.0,
-        "weight_pct": 5.04
+        "shares": 985583.0,
+        "value_usd": 36042770.0,
+        "weight_pct": 4.79
       },
       {
         "cusip": "91307C102",
         "security_class": "COM",
         "issuer": "UNITED THERAPEUTICS CORP DEL",
-        "shares": 84932.0,
-        "value_usd": 46018706.0,
-        "weight_pct": 4.92
+        "shares": 60064.0,
+        "value_usd": 32548081.0,
+        "weight_pct": 4.32
       },
       {
-        "cusip": "23282W605",
-        "security_class": "COM NEW",
-        "issuer": "CYTOKINETICS INC",
-        "shares": 527412.0,
-        "value_usd": 44930228.0,
-        "weight_pct": 4.81
-      },
-      {
-        "cusip": "98420N105",
+        "cusip": "92790C104",
         "security_class": "COM",
-        "issuer": "XENON PHARMACEUTICALS INC",
-        "shares": 600200.0,
-        "value_usd": 36228072.0,
-        "weight_pct": 3.88
+        "issuer": "VIRIDIAN THERAPEUTICS INC",
+        "shares": 1525220.0,
+        "value_usd": 31404280.0,
+        "weight_pct": 4.17
+      },
+      {
+        "cusip": "05464T104",
+        "security_class": "COM",
+        "issuer": "AXSOME THERAPEUTICS INC.",
+        "shares": 162407.0,
+        "value_usd": 29946227.0,
+        "weight_pct": 3.98
+      },
+      {
+        "cusip": "457669307",
+        "security_class": "COM PAR $.01",
+        "issuer": "INSMED INC",
+        "shares": 245726.0,
+        "value_usd": 28047166.0,
+        "weight_pct": 3.72
       },
       {
         "cusip": "15102K100",
         "security_class": "COM",
         "issuer": "CELCUITY INC",
         "shares": 329101.0,
-        "value_usd": 34430547.0,
-        "weight_pct": 3.68
+        "value_usd": 26170112.0,
+        "weight_pct": 3.48
+      },
+      {
+        "cusip": "159864107",
+        "security_class": "COM",
+        "issuer": "CHARLES RIV LABS INTL INC",
+        "shares": 86801.0,
+        "value_usd": 25607163.0,
+        "weight_pct": 3.4
       }
     ],
-    "top_five_pct": 31.25,
-    "top_ten_pct": 53.58,
-    "hhi": 420.55,
+    "top_five_pct": 25.2,
+    "top_ten_pct": 43.95,
+    "hhi": 321.87,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 15,
-      "exited_positions": 13,
-      "increased_positions": 6,
-      "reduced_positions": 10
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 6,
+      "increased_positions": 5,
+      "reduced_positions": 19
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001993440-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001993440-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 934715611.0,
+  "reported_13f_value_usd": 752975725.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001993440-26-000004",
+  "validated_accession": "0001993440-26-000005",
   "annualized_turnover_proxy_pct": null
 }

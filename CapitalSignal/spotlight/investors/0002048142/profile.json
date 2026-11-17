@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002048142",
   "investor_name": "Four Tree Island Advisory LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PORTSMOUTH",
   "state": "NH",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2048142/0002048142-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/2048142/0002048142-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2048142/0002048142-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2048142/0002048142-26-000004.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "def87c44dc0dbd4ab4d78d4244bf1d82a4da461d79eeecdd3d3b06eae240c542",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "3d8c40d79c7e0837e38fd0ca13b294a146d452b66ffe330dded4a533b141e379",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "26b7611a7e8033ce6115782194c63e0e131f9901",
+    "37a942329664413b8b3d0e70787b4bf20afeb790",
+    "89a847b699b852a1c5639e6a5cf286516d51fa27"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0002048142-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2048142/0002048142-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002048142-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/2048142/0002048142-26-000004.txt",
     "distinct_positions": 24,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 303246629.0,
+    "reported_long_equity_value_usd": 270754002.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "512807306",
         "security_class": "COM NEW",
         "issuer": "LAM RESEARCH CORP",
-        "shares": 227800.0,
-        "value_usd": 98712574.0,
-        "weight_pct": 32.55
-      },
-      {
-        "cusip": "038222105",
-        "security_class": "COM",
-        "issuer": "APPLIED MATLS INC",
-        "shares": 54300.0,
-        "value_usd": 39258900.0,
-        "weight_pct": 12.95
-      },
-      {
-        "cusip": "624756102",
-        "security_class": "COM",
-        "issuer": "MUELLER INDS INC",
-        "shares": 233271.0,
-        "value_usd": 28676004.0,
-        "weight_pct": 9.46
-      },
-      {
-        "cusip": "970646105",
-        "security_class": "COM",
-        "issuer": "WILLIS LEASE FIN CORP",
-        "shares": 108160.0,
-        "value_usd": 24747008.0,
-        "weight_pct": 8.16
+        "shares": 225400.0,
+        "value_usd": 74046154.0,
+        "weight_pct": 27.35
       },
       {
         "cusip": "46817M107",
         "security_class": "COM CL A",
         "issuer": "JACKSON FINANCIAL INC",
-        "shares": 237465.0,
-        "value_usd": 24314041.0,
-        "weight_pct": 8.02
+        "shares": 247931.0,
+        "value_usd": 32062437.0,
+        "weight_pct": 11.84
       },
       {
-        "cusip": "366505105",
+        "cusip": "624756102",
         "security_class": "COM",
-        "issuer": "GARRETT MOTION INC",
-        "shares": 557101.0,
-        "value_usd": 20183769.0,
-        "weight_pct": 6.66
+        "issuer": "MUELLER INDS INC",
+        "shares": 478684.0,
+        "value_usd": 29013037.0,
+        "weight_pct": 10.72
       },
       {
-        "cusip": "N00985106",
-        "security_class": "SHS",
-        "issuer": "AERCAP HOLDINGS NV",
-        "shares": 129877.0,
-        "value_usd": 18933469.0,
-        "weight_pct": 6.24
+        "cusip": "038222105",
+        "security_class": "COM",
+        "issuer": "APPLIED MATLS INC",
+        "shares": 54545.0,
+        "value_usd": 27893222.0,
+        "weight_pct": 10.3
       },
       {
         "cusip": "29452E101",
         "security_class": "COM",
         "issuer": "EQUITABLE HLDGS INC",
-        "shares": 379043.0,
-        "value_usd": 16632407.0,
-        "weight_pct": 5.48
+        "shares": 401228.0,
+        "value_usd": 20570960.0,
+        "weight_pct": 7.6
+      },
+      {
+        "cusip": "N00985106",
+        "security_class": "SHS",
+        "issuer": "AERCAP HOLDINGS NV",
+        "shares": 138720.0,
+        "value_usd": 19909094.0,
+        "weight_pct": 7.35
+      },
+      {
+        "cusip": "970646105",
+        "security_class": "COM",
+        "issuer": "WILLIS LEASE FIN CORP",
+        "shares": 338613.0,
+        "value_usd": 16900175.0,
+        "weight_pct": 6.24
+      },
+      {
+        "cusip": "366505105",
+        "security_class": "COM",
+        "issuer": "GARRETT MOTION INC",
+        "shares": 571522.0,
+        "value_usd": 14876718.0,
+        "weight_pct": 5.49
       },
       {
         "cusip": "01881G106",
         "security_class": "UNIT LTD PARTN",
         "issuer": "ALLIANCEBERNSTEIN HLDG L P",
-        "shares": 207571.0,
-        "value_usd": 7310651.0,
-        "weight_pct": 2.41
+        "shares": 207744.0,
+        "value_usd": 7246111.0,
+        "weight_pct": 2.68
       },
       {
-        "cusip": "10922N103",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "BRIGHTHOUSE FINL INC",
-        "shares": 59804.0,
-        "value_usd": 3785593.0,
-        "weight_pct": 1.25
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 26468.0,
+        "value_usd": 6044762.0,
+        "weight_pct": 2.23
       }
     ],
-    "top_five_pct": 71.13,
-    "top_ten_pct": 93.18,
-    "hhi": 1574.18,
+    "top_five_pct": 67.81,
+    "top_ten_pct": 91.8,
+    "hhi": 1310.28,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
       "exited_positions": 1,
-      "increased_positions": 11,
-      "reduced_positions": 7
+      "increased_positions": 12,
+      "reduced_positions": 3
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0002048142-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002048142-26-000004"
       }
     ]
   },
-  "reported_13f_value_usd": 303246629.0,
+  "reported_13f_value_usd": 270754002.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002048142-26-000003",
+  "validated_accession": "0002048142-26-000004",
   "annualized_turnover_proxy_pct": null
 }

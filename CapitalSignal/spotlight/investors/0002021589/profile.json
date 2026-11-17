@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002021589",
   "investor_name": "FTV Management Company, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2021589/0002021589-25-000002.txt",
-    "https://www.sec.gov/Archives/edgar/data/2021589/0002021589-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2021589/0002021589-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2021589/0002021589-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9107b17998c9187233ffb08b5b327036c942da9eb80e12690d45e2628963eb3d",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "3b0890bd63cf37ef2c98758723353e9c4b06ff2e4aff4148e06d877cc55357b3",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "7781f49741f298aa725f2e5c1292dfe3633c9d27",
+    "cedf79d4c3abcfefe304d4bab2d64a6f8973070b",
+    "f826c2ddb904aa25fafd2b652df7ff96c084ed3a"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002021589-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2021589/0002021589-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002021589-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2021589/0002021589-26-000005.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 513789602.0,
+    "reported_long_equity_value_usd": 395014436.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,8 +42,8 @@
         "cusip": "64073B103",
         "security_class": "CL A",
         "issuer": "NEPTUNE INS HLDGS INC",
-        "shares": 16310781.0,
-        "value_usd": 513789602.0,
+        "shares": 14442941.0,
+        "value_usd": 395014436.0,
         "weight_pct": 100.0
       }
     ],
@@ -40,11 +51,11 @@
     "top_ten_pct": 100.0,
     "hhi": 10000.0,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
       "increased_positions": 0,
-      "reduced_positions": 0
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -56,11 +67,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002021589-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002021589-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 513789602.0,
+  "reported_13f_value_usd": 395014436.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002021589-26-000003",
+  "validated_accession": "0002021589-26-000005",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,126 +1,146 @@
 {
   "manager_cik": "0001980739",
   "investor_name": "Dayah Capital LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "STAMFORD",
   "state": "CT",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1980739/0001980739-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1980739/0001980739-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1980739/0001980739-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c68cc7fdac900c6a27181c63cecbe7feb8677611935d6a450d3cd4e091887232",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "dc6566ffb00e7ad5e8a7a01cbe7d37e313f7d782050b436302c55a8ae2276ffb",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "00eb3bba91c6ff3f7b140976cebbca201a1782f9",
+    "a52672091cb0685bc593e8888f255cd983b48f04"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001980739-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1980739/0001980739-26-000006.txt",
-    "distinct_positions": 20,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001980739-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1980739/0001980739-26-000008.txt",
+    "distinct_positions": 24,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 118888222.0,
+    "reported_long_equity_value_usd": 60477099.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "75134P600",
-        "security_class": "COM CL A",
-        "issuer": "RAMACO RES INC",
-        "shares": 2542408.0,
-        "value_usd": 33636058.0,
-        "weight_pct": 28.29
+        "cusip": "293594107",
+        "security_class": "COM",
+        "issuer": "ENOVIX CORPORATION",
+        "shares": 3925529.0,
+        "value_usd": 11384034.0,
+        "weight_pct": 18.82
       },
       {
         "cusip": "40609P105",
         "security_class": "COM",
         "issuer": "HALLADOR ENERGY COMPANY",
-        "shares": 887236.0,
-        "value_usd": 15429034.0,
-        "weight_pct": 12.98
+        "shares": 631040.0,
+        "value_usd": 8752525.0,
+        "weight_pct": 14.47
       },
       {
-        "cusip": "826599102",
-        "security_class": "COM",
-        "issuer": "SIGMA LITHIUM CORPORATION",
-        "shares": 823787.0,
-        "value_usd": 10420906.0,
-        "weight_pct": 8.77
+        "cusip": "N4732M103",
+        "security_class": "CL A SHS",
+        "issuer": "JBS N.V.",
+        "shares": 508577.0,
+        "value_usd": 5741834.0,
+        "weight_pct": 9.49
       },
       {
-        "cusip": "44812J104",
-        "security_class": "COM",
-        "issuer": "HUT 8 CORP",
-        "shares": 66128.0,
-        "value_usd": 7634147.0,
-        "weight_pct": 6.42
+        "cusip": "902494103",
+        "security_class": "CL A",
+        "issuer": "TYSON FOODS INC",
+        "shares": 88686.0,
+        "value_usd": 4481304.0,
+        "weight_pct": 7.41
+      },
+      {
+        "cusip": "36262G101",
+        "security_class": "COMMON STOCK",
+        "issuer": "GXO LOGISTICS INCORPORATED",
+        "shares": 98500.0,
+        "value_usd": 4378325.0,
+        "weight_pct": 7.24
+      },
+      {
+        "cusip": "83443Q103",
+        "security_class": "COM SHS",
+        "issuer": "SOLSTICE ADVANCED MATLS INC",
+        "shares": 75267.0,
+        "value_usd": 4239037.0,
+        "weight_pct": 7.01
       },
       {
         "cusip": "343412102",
         "security_class": "COM",
         "issuer": "FLUOR CORP",
-        "shares": 145168.0,
-        "value_usd": 7605352.0,
-        "weight_pct": 6.4
+        "shares": 65902.0,
+        "value_usd": 3155388.0,
+        "weight_pct": 5.22
       },
       {
-        "cusip": "163851108",
+        "cusip": "59151K108",
         "security_class": "COM",
-        "issuer": "CHEMOURS CO",
-        "shares": 333593.0,
-        "value_usd": 6845328.0,
-        "weight_pct": 5.76
+        "issuer": "METHANEX CORP",
+        "shares": 43919.0,
+        "value_usd": 2577167.0,
+        "weight_pct": 4.26
       },
       {
-        "cusip": "460146103",
+        "cusip": "859241101",
         "security_class": "COM",
-        "issuer": "INTERNATIONAL PAPER CO",
-        "shares": 128780.0,
-        "value_usd": 4906518.0,
-        "weight_pct": 4.13
+        "issuer": "STERLING INFRASTRUCTURE INC",
+        "shares": 4106.0,
+        "value_usd": 2019249.0,
+        "weight_pct": 3.34
       },
       {
-        "cusip": "695156109",
+        "cusip": "127055101",
         "security_class": "COM",
-        "issuer": "PACKAGING CORP AMER",
-        "shares": 20519.0,
-        "value_usd": 4889267.0,
-        "weight_pct": 4.11
-      },
-      {
-        "cusip": "218937100",
-        "security_class": "COM SHS",
-        "issuer": "CORE NATURAL RESOURCES INC",
-        "shares": 55000.0,
-        "value_usd": 4401100.0,
-        "weight_pct": 3.7
-      },
-      {
-        "cusip": "278865100",
-        "security_class": "COM",
-        "issuer": "ECOLAB INC",
-        "shares": 15000.0,
-        "value_usd": 4179150.0,
-        "weight_pct": 3.52
+        "issuer": "CABOT CORP",
+        "shares": 25000.0,
+        "value_usd": 1922750.0,
+        "weight_pct": 3.18
       }
     ],
-    "top_five_pct": 62.85,
-    "top_ten_pct": 84.07,
-    "hhi": 1254.64,
-    "changes": null,
+    "top_five_pct": 57.44,
+    "top_ten_pct": 80.45,
+    "hhi": 918.5,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 18,
+      "exited_positions": 14,
+      "increased_positions": 0,
+      "reduced_positions": 6
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001980739-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001980739-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 118888222.0,
+  "reported_13f_value_usd": 60477099.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001980739-26-000006",
+  "validated_accession": "0001980739-26-000008",
   "annualized_turnover_proxy_pct": null
 }

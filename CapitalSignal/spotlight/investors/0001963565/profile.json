@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001963565",
   "investor_name": "Value Aligned Research Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-17",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PRINCETON",
   "state": "NJ",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1963565/0001963565-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/1963565/0001963565-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1963565/0001963565-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1963565/0001963565-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "40e79d059b15a66667dcd62c075d55a135b4bdfcce2d0e7404cf6df377bf693e",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "de022e81e23835edfba00ecc5a98682eba3299ab9719222a6672a97da8cb665f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-12-03|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "28d54ca82d76b54996906a19b1db1b57e0dcbcca",
+    "4187811e0a5f7cd6000eaa5d7a1509b0aa5fa6eb",
+    "bb41f8b8304b650d52d7ee70a5a2d4ac333c4618"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-17",
-    "accession": "0001963565-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1963565/0001963565-26-000005.txt",
-    "distinct_positions": 59,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001963565-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1963565/0001963565-26-000006.txt",
+    "distinct_positions": 60,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 16732067771.0,
+    "reported_long_equity_value_usd": 10247713523.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "093712107",
+        "cusip": "21873S108",
         "security_class": "COM CL A",
-        "issuer": "BLOOM ENERGY CORP",
-        "shares": 5585179.0,
-        "value_usd": 1690633683.0,
-        "weight_pct": 10.1
+        "issuer": "COREWEAVE INC",
+        "shares": 11632945.0,
+        "value_usd": 1013462168.0,
+        "weight_pct": 9.89
       },
       {
         "cusip": "N97284108",
         "security_class": "SHS CLASS A",
         "issuer": "NEBIUS GROUP N.V.",
-        "shares": 6104121.0,
-        "value_usd": 1685775097.0,
-        "weight_pct": 10.08
-      },
-      {
-        "cusip": "21873S108",
-        "security_class": "COM CL A",
-        "issuer": "COREWEAVE INC",
-        "shares": 10886110.0,
-        "value_usd": 1083603389.0,
-        "weight_pct": 6.48
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 6345700.0,
-        "value_usd": 886050091.0,
-        "weight_pct": 5.3
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 733007.0,
-        "value_usd": 846102650.0,
-        "weight_pct": 5.06
-      },
-      {
-        "cusip": "80004C200",
-        "security_class": "COM",
-        "issuer": "SANDISK CORP",
-        "shares": 311782.0,
-        "value_usd": 708908087.0,
-        "weight_pct": 4.24
-      },
-      {
-        "cusip": "G7997R103",
-        "security_class": "ORD SHS",
-        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
-        "shares": 709357.0,
-        "value_usd": 684529505.0,
-        "weight_pct": 4.09
-      },
-      {
-        "cusip": "958102105",
-        "security_class": "COM",
-        "issuer": "WESTERN DIGITAL CORP",
-        "shares": 988429.0,
-        "value_usd": 631329371.0,
-        "weight_pct": 3.77
+        "shares": 4195738.0,
+        "value_usd": 989690679.0,
+        "weight_pct": 9.66
       },
       {
         "cusip": "55024U109",
         "security_class": "COM",
         "issuer": "LUMENTUM HLDGS INC",
-        "shares": 734687.0,
-        "value_usd": 630405527.0,
-        "weight_pct": 3.77
+        "shares": 688434.0,
+        "value_usd": 668648407.0,
+        "weight_pct": 6.52
+      },
+      {
+        "cusip": "093712107",
+        "security_class": "COM CL A",
+        "issuer": "BLOOM ENERGY CORP",
+        "shares": 2229583.0,
+        "value_usd": 617549899.0,
+        "weight_pct": 6.03
       },
       {
         "cusip": "15101Q207",
         "security_class": "COM",
         "issuer": "CELESTICA INC",
-        "shares": 1576402.0,
-        "value_usd": 575071450.0,
+        "shares": 1269548.0,
+        "value_usd": 458852734.0,
+        "weight_pct": 4.48
+      },
+      {
+        "cusip": "29084Q100",
+        "security_class": "COM",
+        "issuer": "EMCOR GROUP INC",
+        "shares": 532738.0,
+        "value_usd": 401945494.0,
+        "weight_pct": 3.92
+      },
+      {
+        "cusip": "35671D857",
+        "security_class": "CL B",
+        "issuer": "FREEPORT MCMORAN INC",
+        "shares": 5701436.0,
+        "value_usd": 399100520.0,
+        "weight_pct": 3.89
+      },
+      {
+        "cusip": "199908104",
+        "security_class": "COM",
+        "issuer": "COMFORT SYS USA INC",
+        "shares": 213231.0,
+        "value_usd": 352703265.0,
         "weight_pct": 3.44
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 2800077.0,
+        "value_usd": 336653258.0,
+        "weight_pct": 3.29
+      },
+      {
+        "cusip": "Q4982L109",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "IREN LIMITED",
+        "shares": 8043664.0,
+        "value_usd": 328824984.0,
+        "weight_pct": 3.21
       }
     ],
-    "top_five_pct": 37.01,
-    "top_ten_pct": 56.31,
-    "hhi": 446.29,
+    "top_five_pct": 36.58,
+    "top_ten_pct": 54.33,
+    "hhi": 426.82,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 26,
-      "exited_positions": 9,
-      "increased_positions": 19,
-      "reduced_positions": 11
+      "previous_period": "2026-06-30",
+      "new_positions": 13,
+      "exited_positions": 12,
+      "increased_positions": 18,
+      "reduced_positions": 27
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-17",
         "accession": "0001963565-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001963565-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 16732067771.0,
+  "reported_13f_value_usd": 10247713523.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001963565-26-000005",
+  "validated_accession": "0001963565-26-000006",
   "annualized_turnover_proxy_pct": null
 }

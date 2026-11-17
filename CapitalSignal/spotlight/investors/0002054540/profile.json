@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002054540",
   "investor_name": "Runnymede Capital Advisors, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-21",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "DUBLIN",
   "state": "OH",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2054540/0002054540-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/2054540/0002054540-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2054540/0002054540-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2054540/0002054540-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "328436c9debd69740f80e7e430fcbbb927835b7b6096d8f0da44b74507bac64e",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "5c787a0a89f24c2e787d7fc90427cf9d18d35d3bbe7fc77ee948eaeb0f852b19",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-05|||",
+    "2026-06-30|2026-07-21|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "59d794a2fead24b6742ec40953c43bc80e34dae8",
+    "a7636db3df08f0273a03ac92ed8ae1e2b4398877",
+    "c0ba76ba6ca4340ae85b3c16ca66f43a1a45efde"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-21",
-    "accession": "0002054540-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2054540/0002054540-26-000004.txt",
-    "distinct_positions": 77,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002054540-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/2054540/0002054540-26-000005.txt",
+    "distinct_positions": 82,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 167861546.0,
+    "reported_long_equity_value_usd": 171948674.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "595112103",
-        "security_class": "COMMON STOCK",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 20477.0,
-        "value_usd": 23636396.0,
-        "weight_pct": 14.08
-      },
-      {
         "cusip": "74347R693",
         "security_class": "UIT EXCHANGE TRADED",
         "issuer": "PROSHARES ULTRA         TECHNOLOGY",
-        "shares": 151874.0,
-        "value_usd": 23570845.0,
-        "weight_pct": 14.04
+        "shares": 148064.0,
+        "value_usd": 23568828.0,
+        "weight_pct": 13.71
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 20828.0,
+        "value_usd": 22184111.0,
+        "weight_pct": 12.9
       },
       {
         "cusip": "46090E103",
         "security_class": "UIT EXCHANGE TRADED",
         "issuer": "INVESCO QQQ TR",
-        "shares": 13549.0,
-        "value_usd": 9977517.0,
-        "weight_pct": 5.94
-      },
-      {
-        "cusip": "512807306",
-        "security_class": "COMMON STOCK",
-        "issuer": "LAM RESH CORP",
-        "shares": 22750.0,
-        "value_usd": 9858258.0,
-        "weight_pct": 5.87
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "COMMON STOCK",
-        "issuer": "ALPHABET INC            CLASS                  A",
-        "shares": 23311.0,
-        "value_usd": 8330652.0,
-        "weight_pct": 4.96
+        "shares": 13480.0,
+        "value_usd": 9972100.0,
+        "weight_pct": 5.8
       },
       {
         "cusip": "67066G104",
         "security_class": "COMMON STOCK",
         "issuer": "NVIDIA CORP",
-        "shares": 39862.0,
-        "value_usd": 7976070.0,
-        "weight_pct": 4.75
+        "shares": 40544.0,
+        "value_usd": 9259533.0,
+        "weight_pct": 5.39
       },
       {
-        "cusip": "023135106",
+        "cusip": "037833100",
         "security_class": "COMMON STOCK",
-        "issuer": "AMAZON COM INC",
-        "shares": 32235.0,
-        "value_usd": 7682890.0,
-        "weight_pct": 4.58
+        "issuer": "APPLE INC",
+        "shares": 24442.0,
+        "value_usd": 8139675.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC            CLASS                  A",
+        "shares": 23011.0,
+        "value_usd": 7917625.0,
+        "weight_pct": 4.6
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 15278.0,
+        "value_usd": 7836086.0,
+        "weight_pct": 4.56
       },
       {
         "cusip": "464287721",
         "security_class": "UIT EXCHANGE TRADED",
         "issuer": "ISHARES U S  TECHNOLOGY ETF",
         "shares": 28930.0,
-        "value_usd": 7297014.0,
+        "value_usd": 7663557.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "512807306",
+        "security_class": "COMMON STOCK",
+        "issuer": "LAM RESH CORP",
+        "shares": 22750.0,
+        "value_usd": 7473603.0,
         "weight_pct": 4.35
       },
       {
-        "cusip": "037833100",
+        "cusip": "023135106",
         "security_class": "COMMON STOCK",
-        "issuer": "APPLE INC",
-        "shares": 24672.0,
-        "value_usd": 7139090.0,
+        "issuer": "AMAZON COM INC",
+        "shares": 29354.0,
+        "value_usd": 7313549.0,
         "weight_pct": 4.25
-      },
-      {
-        "cusip": "697435105",
-        "security_class": "COMMON STOCK",
-        "issuer": "PALO ALTO NETWORKS INC",
-        "shares": 19662.0,
-        "value_usd": 6705135.0,
-        "weight_pct": 3.99
       }
     ],
-    "top_five_pct": 44.9,
-    "top_ten_pct": 66.83,
-    "hhi": 624.47,
+    "top_five_pct": 42.53,
+    "top_ten_pct": 64.75,
+    "hhi": 587.28,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 15,
-      "exited_positions": 8,
-      "increased_positions": 20,
-      "reduced_positions": 33
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 2,
+      "increased_positions": 12,
+      "reduced_positions": 29
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-21",
         "accession": "0002054540-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002054540-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 167861546.0,
+  "reported_13f_value_usd": 171948674.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002054540-26-000004",
+  "validated_accession": "0002054540-26-000005",
   "annualized_turnover_proxy_pct": null
 }

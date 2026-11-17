@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001581655",
   "investor_name": "Alpine Global Management, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1581655/0002073679-25-000048.txt",
-    "https://www.sec.gov/Archives/edgar/data/1581655/0002073679-26-000087.txt"
+    "https://www.sec.gov/Archives/edgar/data/1581655/0002073679-26-000087.txt",
+    "https://www.sec.gov/Archives/edgar/data/1581655/0002073679-26-000174.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "52fa927b4ed2e10b11441bdf1399c84b5f62ccf1e0e1dbf3acf2a82d5eea54a9",
-  "generated_at": "2026-11-15T21:21:24.592669+00:00",
+  "source_fingerprint": "5bdc7c8c8fa48ec015f1d98e48ccf3260374b707d55afb94e304efceb2e0df74",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-21|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "40ff35e67f997e4a7d5d9913f5729ad37d3636a8",
+    "43cc940207a22545b9773d40404fee5d8de3100e",
+    "5239bbf9a726c9a3d45d683f9aca88cd829e1e26"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002073679-26-000087",
-    "source": "https://www.sec.gov/Archives/edgar/data/1581655/0002073679-26-000087.txt",
-    "distinct_positions": 232,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002073679-26-000174",
+    "source": "https://www.sec.gov/Archives/edgar/data/1581655/0002073679-26-000174.txt",
+    "distinct_positions": 201,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 609471962.0,
+    "reported_long_equity_value_usd": 491198793.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "60770K107",
+        "security_class": "COM",
+        "issuer": "MODERNA INC",
+        "shares": 244919.0,
+        "value_usd": 47164054.0,
+        "weight_pct": 9.6
+      },
+      {
         "cusip": "45258J102",
         "security_class": "COM",
         "issuer": "IMMUNOVANT INC",
-        "shares": 1375000.0,
-        "value_usd": 52978748.0,
-        "weight_pct": 8.69
-      },
-      {
-        "cusip": "293828877",
-        "security_class": "ERSH PRI PUB ETF",
-        "issuer": "ENTREPRENEURSHARES SERIES TR",
-        "shares": 2500100.0,
-        "value_usd": 52627103.0,
-        "weight_pct": 8.63
+        "shares": 1369520.0,
+        "value_usd": 46262384.0,
+        "weight_pct": 9.42
       },
       {
         "cusip": "21924B302",
         "security_class": "COM",
         "issuer": "CORNERSTONE STRATEGIC INVEST",
-        "shares": 6833682.0,
-        "value_usd": 51662632.0,
-        "weight_pct": 8.48
+        "shares": 6833152.0,
+        "value_usd": 43732173.0,
+        "weight_pct": 8.9
       },
       {
         "cusip": "76954A103",
         "security_class": "COM CL A",
         "issuer": "RIVIAN AUTOMOTIVE INC",
-        "shares": 2659651.0,
-        "value_usd": 46144946.0,
-        "weight_pct": 7.57
+        "shares": 2699705.0,
+        "value_usd": 40333592.0,
+        "weight_pct": 8.21
       },
       {
-        "cusip": "84615Q103",
-        "security_class": "CLASS A COM STK",
-        "issuer": "SPACE EXPLORATION TECHN CORP",
-        "shares": 254222.0,
-        "value_usd": 43436371.0,
-        "weight_pct": 7.13
-      },
-      {
-        "cusip": "093712107",
-        "security_class": "COM CL A",
-        "issuer": "BLOOM ENERGY CORP",
-        "shares": 131336.0,
-        "value_usd": 39755409.0,
-        "weight_pct": 6.52
-      },
-      {
-        "cusip": "G25457105",
-        "security_class": "ORDINARY SHARES",
-        "issuer": "CREDO TECHNOLOGY GROUP HOLDI",
-        "shares": 135658.0,
-        "value_usd": 36892195.0,
-        "weight_pct": 6.05
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 426000.0,
+        "value_usd": 33360059.0,
+        "weight_pct": 6.79
       },
       {
         "cusip": "03945R102",
         "security_class": "COM CL A",
         "issuer": "ARCHER AVIATION INC",
-        "shares": 5844879.0,
-        "value_usd": 27646278.0,
-        "weight_pct": 4.54
+        "shares": 5906270.0,
+        "value_usd": 29354161.0,
+        "weight_pct": 5.98
       },
       {
         "cusip": "21924U300",
         "security_class": "COM",
         "issuer": "CORNERSTONE TOTAL RETURN FD",
-        "shares": 2989499.0,
-        "value_usd": 21464600.0,
-        "weight_pct": 3.52
+        "shares": 2989228.0,
+        "value_usd": 18413644.0,
+        "weight_pct": 3.75
       },
       {
-        "cusip": "78462F103",
-        "security_class": "TR UNIT",
-        "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 19182.0,
-        "value_usd": 14324543.0,
-        "weight_pct": 2.35
+        "cusip": "71654V408",
+        "security_class": "SPONSORED ADR",
+        "issuer": "PETROLEO BRASILEIRO S A",
+        "shares": 863162.0,
+        "value_usd": 18014192.0,
+        "weight_pct": 3.67
+      },
+      {
+        "cusip": "059460303",
+        "security_class": "SP ADR PFD NEW",
+        "issuer": "BANCO BRADESCO S A",
+        "shares": 4739063.0,
+        "value_usd": 16681502.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "984245100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "YPF SOCIEDAD ANONIMA",
+        "shares": 325715.0,
+        "value_usd": 16328093.0,
+        "weight_pct": 3.32
       }
     ],
-    "top_five_pct": 40.5,
-    "top_ten_pct": 63.49,
-    "hhi": 469.1,
+    "top_five_pct": 42.93,
+    "top_ten_pct": 63.04,
+    "hhi": 496.33,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 192,
-      "exited_positions": 116,
-      "increased_positions": 19,
-      "reduced_positions": 19
+      "previous_period": "2026-06-30",
+      "new_positions": 98,
+      "exited_positions": 129,
+      "increased_positions": 29,
+      "reduced_positions": 49
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002073679-26-000087"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002073679-26-000174"
       }
     ]
   },
-  "reported_13f_value_usd": 609471962.0,
+  "reported_13f_value_usd": 491198793.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002073679-26-000087",
+  "validated_accession": "0002073679-26-000174",
   "annualized_turnover_proxy_pct": null
 }

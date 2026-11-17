@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002053348",
   "investor_name": "IFC Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-05",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LOS ANGELES",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2053348/0002053348-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/2053348/0002053348-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2053348/0002053348-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2053348/0002053348-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9db40a15f44f4559220d5c698483a98a175d8f419792c74d0c77925dcdd68aa1",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "28af9d40aed1cde42c4d38b6528951d4f19e6f4c3db4584f494c9e1e0e009189",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-03|||",
+    "2026-06-30|2026-08-05|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "5efcf10c2ecadf0f52c9e8ca5148f54b4b629566",
+    "eed07a598521a29790f09603b0494193150765bf",
+    "fd9eafdb84bdabac9b309f66d76e0c90f40c30b9"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-05",
-    "accession": "0002053348-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2053348/0002053348-26-000004.txt",
-    "distinct_positions": 179,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002053348-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2053348/0002053348-26-000006.txt",
+    "distinct_positions": 163,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 787638275.0,
+    "reported_long_equity_value_usd": 817687262.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908744",
-        "security_class": "VALUE ETF",
+        "security_class": "MRNGSTR VAL ETF",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 591148.0,
-        "value_usd": 128828977.0,
-        "weight_pct": 16.36
+        "shares": 585553.0,
+        "value_usd": 126526381.0,
+        "weight_pct": 15.47
       },
       {
         "cusip": "921910816",
-        "security_class": "MEGA GRWTH IND",
+        "security_class": "MRNGSTR MEGA CAP",
         "issuer": "VANGUARD WORLD FD",
-        "shares": 938049.0,
-        "value_usd": 82463861.0,
-        "weight_pct": 10.47
+        "shares": 933355.0,
+        "value_usd": 86475353.0,
+        "weight_pct": 10.58
       },
       {
         "cusip": "03463K760",
         "security_class": "INCOME ETF",
         "issuer": "ANGEL OAK FUNDS TRUST",
-        "shares": 2973070.0,
-        "value_usd": 61780389.0,
-        "weight_pct": 7.84
+        "shares": 3017234.0,
+        "value_usd": 60706751.0,
+        "weight_pct": 7.42
       },
       {
         "cusip": "74255Y888",
         "security_class": "SPECTRUM PFD",
         "issuer": "PRINCIPAL EXCHANGE TRADED FD",
-        "shares": 2773798.0,
-        "value_usd": 52868590.0,
-        "weight_pct": 6.71
+        "shares": 2778389.0,
+        "value_usd": 50983439.0,
+        "weight_pct": 6.24
       },
       {
         "cusip": "922908629",
-        "security_class": "MID CAP ETF",
+        "security_class": "MRNGSTR MID CAP",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 527486.0,
-        "value_usd": 42499558.0,
-        "weight_pct": 5.4
+        "shares": 532510.0,
+        "value_usd": 41759431.0,
+        "weight_pct": 5.11
+      },
+      {
+        "cusip": "72201R866",
+        "security_class": "INTER MUN BD ACT",
+        "issuer": "PIMCO ETF TR",
+        "shares": 600068.0,
+        "value_usd": 29817387.0,
+        "weight_pct": 3.65
       },
       {
         "cusip": "G3934V109",
         "security_class": "SHARES CL A",
         "issuer": "GENIUS SPORTS LIMITED",
-        "shares": 4053121.0,
-        "value_usd": 24561912.0,
-        "weight_pct": 3.12
-      },
-      {
-        "cusip": "88521L306",
-        "security_class": "INTL EQUITY ETF",
-        "issuer": "THORNBURG ETF TR",
-        "shares": 509207.0,
-        "value_usd": 17577773.0,
-        "weight_pct": 2.23
-      },
-      {
-        "cusip": "464288257",
-        "security_class": "MSCI ACWI ETF",
-        "issuer": "ISHARES TR",
-        "shares": 104361.0,
-        "value_usd": 16381546.0,
-        "weight_pct": 2.08
+        "shares": 4002714.0,
+        "value_usd": 22935551.0,
+        "weight_pct": 2.8
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 55730.0,
-        "value_usd": 16126007.0,
-        "weight_pct": 2.05
+        "shares": 53735.0,
+        "value_usd": 17894731.0,
+        "weight_pct": 2.19
       },
       {
-        "cusip": "03463K752",
-        "security_class": "OAK ULTRASHORT",
-        "issuer": "ANGEL OAK FUNDS TRUST",
-        "shares": 268980.0,
-        "value_usd": 13719345.0,
-        "weight_pct": 1.74
+        "cusip": "88521L306",
+        "security_class": "INTL EQUITY ETF",
+        "issuer": "THORNBURG ETF TR",
+        "shares": 511353.0,
+        "value_usd": 17754176.0,
+        "weight_pct": 2.17
+      },
+      {
+        "cusip": "464288257",
+        "security_class": "MSCI ACWI ETF",
+        "issuer": "ISHARES TR",
+        "shares": 105041.0,
+        "value_usd": 16676859.0,
+        "weight_pct": 2.04
       }
     ],
-    "top_five_pct": 46.78,
-    "top_ten_pct": 58.0,
-    "hhi": 568.79,
+    "top_five_pct": 44.82,
+    "top_ten_pct": 57.67,
+    "hhi": 537.91,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 39,
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
       "exited_positions": 30,
-      "increased_positions": 58,
-      "reduced_positions": 75
+      "increased_positions": 53,
+      "reduced_positions": 74
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-05",
         "accession": "0002053348-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002053348-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 787638275.0,
+  "reported_13f_value_usd": 817687262.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002053348-26-000004",
+  "validated_accession": "0002053348-26-000006",
   "annualized_turnover_proxy_pct": null
 }

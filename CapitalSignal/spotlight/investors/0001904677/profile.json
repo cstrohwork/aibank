@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001904677",
   "investor_name": "White Knight Strategic Wealth Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "PRINCETON",
   "state": "NJ",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1904677/0001904677-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1904677/0001904677-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1904677/0001904677-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1904677/0001904677-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a7934cf7908139b78c4c868d6e457a14a624b8736bd6d18bae2b26f3f84eeb1e",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "3db1c0c286ce14bc7cf397f5a4cee2a2cb6520a852e245b35870cc060216f595",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0081809fd8b9d62e6e77a9361057b2e92720d56f",
+    "0d7b8e78bf1749123bdc0aa4085e0cc1f1d18224",
+    "0da79f90900e2ee251a86617f7f4997ea9cc887c"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001904677-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1904677/0001904677-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001904677-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1904677/0001904677-26-000005.txt",
     "distinct_positions": 89,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 142772498.0,
+    "reported_long_equity_value_usd": 145786262.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "084670702",
         "security_class": "CL B NEW",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 45058.0,
-        "value_usd": 22546573.0,
-        "weight_pct": 15.79
+        "shares": 45024.0,
+        "value_usd": 22419702.0,
+        "weight_pct": 15.38
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 45978.0,
-        "value_usd": 9199753.0,
-        "weight_pct": 6.44
-      },
-      {
-        "cusip": "88160R101",
-        "security_class": "COM",
-        "issuer": "TESLA INC",
-        "shares": 18004.0,
-        "value_usd": 7572482.0,
-        "weight_pct": 5.3
+        "shares": 45968.0,
+        "value_usd": 10498189.0,
+        "weight_pct": 7.2
       },
       {
         "cusip": "478160104",
         "security_class": "COM",
         "issuer": "JOHNSON & JOHNSON",
-        "shares": 26121.0,
-        "value_usd": 6633887.0,
-        "weight_pct": 4.65
+        "shares": 26150.0,
+        "value_usd": 6922999.0,
+        "weight_pct": 4.75
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
         "shares": 20634.0,
-        "value_usd": 5970746.0,
-        "weight_pct": 4.18
+        "value_usd": 6871641.0,
+        "weight_pct": 4.71
       },
       {
-        "cusip": "512807306",
-        "security_class": "COM NEW",
-        "issuer": "LAM RESEARCH CORP",
-        "shares": 13624.0,
-        "value_usd": 5903688.0,
-        "weight_pct": 4.14
+        "cusip": "88160R101",
+        "security_class": "COM",
+        "issuer": "TESLA INC",
+        "shares": 18013.0,
+        "value_usd": 6391194.0,
+        "weight_pct": 4.38
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 24189.0,
-        "value_usd": 5765206.0,
-        "weight_pct": 4.04
+        "shares": 24501.0,
+        "value_usd": 6104424.0,
+        "weight_pct": 4.19
+      },
+      {
+        "cusip": "33733E690",
+        "security_class": "VEST LADDERED",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 249359.0,
+        "value_usd": 5201636.0,
+        "weight_pct": 3.57
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
-        "shares": 13839.0,
-        "value_usd": 4945643.0,
-        "weight_pct": 3.46
+        "shares": 13929.0,
+        "value_usd": 4792690.0,
+        "weight_pct": 3.29
       },
       {
-        "cusip": "02079K107",
-        "security_class": "CAP STK CL C",
-        "issuer": "ALPHABET INC",
-        "shares": 12708.0,
-        "value_usd": 4490118.0,
-        "weight_pct": 3.14
+        "cusip": "512807306",
+        "security_class": "COM NEW",
+        "issuer": "LAM RESEARCH CORP",
+        "shares": 13612.0,
+        "value_usd": 4471678.0,
+        "weight_pct": 3.07
       },
       {
-        "cusip": "594918104",
-        "security_class": "COM",
-        "issuer": "MICROSOFT CORP",
-        "shares": 8928.0,
-        "value_usd": 3330250.0,
-        "weight_pct": 2.33
+        "cusip": "09174C104",
+        "security_class": "SHS BEN INT",
+        "issuer": "BITWISE BITCOIN ETF TR",
+        "shares": 97117.0,
+        "value_usd": 4405246.0,
+        "weight_pct": 3.02
       }
     ],
-    "top_five_pct": 36.37,
-    "top_ten_pct": 53.48,
-    "hhi": 465.09,
+    "top_five_pct": 36.43,
+    "top_ten_pct": 53.56,
+    "hhi": 464.06,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 21,
-      "exited_positions": 22,
-      "increased_positions": 37,
-      "reduced_positions": 30
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 11,
+      "increased_positions": 25,
+      "reduced_positions": 45
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001904677-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001904677-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 142772498.0,
+  "reported_13f_value_usd": 145786262.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001904677-26-000003",
+  "validated_accession": "0001904677-26-000005",
   "annualized_turnover_proxy_pct": null
 }

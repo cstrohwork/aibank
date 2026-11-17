@@ -1,126 +1,146 @@
 {
   "manager_cik": "0002139999",
   "investor_name": "X ADVISORS, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SANTA MARIA",
   "state": "CA",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2139999/0002139999-26-000001.txt"
+    "https://www.sec.gov/Archives/edgar/data/2139999/0002139999-26-000001.txt",
+    "https://www.sec.gov/Archives/edgar/data/2139999/0002139999-26-000002.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "6343eb9e1584e6e3a8dae6647be9c259db4db6390f6aadfdc209f0eb30cd836a",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "04709dfd40acb639a504497c03138ec453fc1bbbe18db45270fe1bef92a7cbde",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0a7d0755317fd87faf1c64435f4cb08723dbea5a",
+    "208dc1ca5c9efe2d53809fc47dd65bfa3d2bce7c"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0002139999-26-000001",
-    "source": "https://www.sec.gov/Archives/edgar/data/2139999/0002139999-26-000001.txt",
-    "distinct_positions": 12,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002139999-26-000002",
+    "source": "https://www.sec.gov/Archives/edgar/data/2139999/0002139999-26-000002.txt",
+    "distinct_positions": 75,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 15414623.0,
+    "reported_long_equity_value_usd": 74883623.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY AND CO",
+        "shares": 9133.0,
+        "value_usd": 10568267.0,
+        "weight_pct": 14.11
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "ETF",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 8503.0,
+        "value_usd": 6290929.0,
+        "weight_pct": 8.4
+      },
+      {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 17386.0,
-        "value_usd": 5436007.0,
-        "weight_pct": 35.27
+        "shares": 17500.0,
+        "value_usd": 5828009.0,
+        "weight_pct": 7.78
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 6393.0,
+        "value_usd": 3279130.0,
+        "weight_pct": 4.38
       },
       {
         "cusip": "30231G102",
         "security_class": "COM",
         "issuer": "EXXONMOBIL HLDGS CORP",
-        "shares": 17106.0,
-        "value_usd": 2333947.0,
-        "weight_pct": 15.14
+        "shares": 16957.0,
+        "value_usd": 2759809.0,
+        "weight_pct": 3.69
       },
       {
-        "cusip": "770700102",
+        "cusip": "02079K107",
         "security_class": "COM",
-        "issuer": "ROBINHOOD MKTS INC CLASS A",
-        "shares": 15327.0,
-        "value_usd": 1801688.0,
-        "weight_pct": 11.69
+        "issuer": "ALPHABET INC CLASS CLASS C",
+        "shares": 7811.0,
+        "value_usd": 2661520.0,
+        "weight_pct": 3.55
       },
       {
-        "cusip": "458140100",
+        "cusip": "031162100",
         "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 10374.0,
-        "value_usd": 1267702.0,
-        "weight_pct": 8.22
+        "issuer": "AMGEN INC",
+        "shares": 5106.0,
+        "value_usd": 2152230.0,
+        "weight_pct": 2.87
       },
       {
-        "cusip": "64110L106",
+        "cusip": "023135106",
         "security_class": "COM",
-        "issuer": "NETFLIX INC",
-        "shares": 16438.0,
-        "value_usd": 1249616.0,
-        "weight_pct": 8.11
+        "issuer": "AMAZON.COM INC",
+        "shares": 8186.0,
+        "value_usd": 2039756.0,
+        "weight_pct": 2.72
       },
       {
-        "cusip": "46655E100",
+        "cusip": "46625H100",
         "security_class": "COM",
-        "issuer": "DAKOTA GOLD CORP",
-        "shares": 218821.0,
-        "value_usd": 986882.0,
-        "weight_pct": 6.4
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 6067.0,
+        "value_usd": 2007251.0,
+        "weight_pct": 2.68
       },
       {
-        "cusip": "565788106",
+        "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "MARA HLDGS INC",
-        "shares": 56989.0,
-        "value_usd": 738007.0,
-        "weight_pct": 4.79
-      },
-      {
-        "cusip": "02376R102",
-        "security_class": "COM",
-        "issuer": "AMERICAN AIRLS GROUP INC",
-        "shares": 23145.0,
-        "value_usd": 410823.0,
-        "weight_pct": 2.67
-      },
-      {
-        "cusip": "767292105",
-        "security_class": "COM",
-        "issuer": "RIOT PLATFORMS INC",
-        "shares": 15843.0,
-        "value_usd": 362329.0,
-        "weight_pct": 2.35
-      },
-      {
-        "cusip": "G5480U120",
-        "security_class": "COM",
-        "issuer": "LIBERTY GLOBAL LTD FCLASS C",
-        "shares": 33132.0,
-        "value_usd": 347886.0,
-        "weight_pct": 2.26
+        "issuer": "NVIDIA CORP",
+        "shares": 7965.0,
+        "value_usd": 1819091.0,
+        "weight_pct": 2.43
       }
     ],
-    "top_five_pct": 78.43,
-    "top_ten_pct": 96.89,
-    "hhi": 1829.43,
-    "changes": null,
+    "top_five_pct": 38.36,
+    "top_ten_pct": 52.62,
+    "hhi": 452.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 64,
+      "exited_positions": 1,
+      "increased_positions": 4,
+      "reduced_positions": 4
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0002139999-26-000001"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002139999-26-000002"
       }
     ]
   },
-  "reported_13f_value_usd": 15414623.0,
+  "reported_13f_value_usd": 74883623.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002139999-26-000001",
+  "validated_accession": "0002139999-26-000002",
   "annualized_turnover_proxy_pct": null
 }

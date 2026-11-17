@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002021464",
   "investor_name": "Mittelman Wealth Management",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "ANDOVER",
   "state": "MA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2021464/0002021464-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/2021464/0002021464-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2021464/0002021464-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2021464/0002021464-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "b9f352bf23349806a7b38c99894fb9107364bfdec3b195b6629039707b625d4f",
-  "generated_at": "2026-11-15T23:49:06.716012+00:00",
+  "source_fingerprint": "4a0bef1a46ee35a54ae1ba75870d5a65d10538019e7808a1dcb1b3813b308c42",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4b8e5062dbdbf787370eb6635f2dcac5e75de07e",
+    "7363e8bfea9828e737c0d7e62215d36e4872b5c6",
+    "cf37b4455ed138c3fa73123a473abf4f0e2d503e"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0002021464-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2021464/0002021464-26-000004.txt",
-    "distinct_positions": 53,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002021464-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2021464/0002021464-26-000006.txt",
+    "distinct_positions": 49,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 151202024.0,
+    "reported_long_equity_value_usd": 153639927.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "921908844",
         "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "VANGUARD DIVIDEND APPRECIATION INDEX FUND ETF SHARES",
-        "shares": 15197.0,
-        "value_usd": 19537786.0,
-        "weight_pct": 12.92
-      },
-      {
-        "cusip": "921946406",
-        "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "VANGUARD HIGH DIVIDEND YIELD INDEX FUND ETF SHARES",
-        "shares": 19314.0,
-        "value_usd": 15226420.0,
-        "weight_pct": 10.07
+        "issuer": "VANGUARD DIVIDEND       APPRECIATION INDEX FUND ETF SHARES",
+        "shares": 90458.0,
+        "value_usd": 21104788.0,
+        "weight_pct": 13.74
       },
       {
         "cusip": "922908363",
         "security_class": "UIT EXCHANGE TRADED",
         "issuer": "VANGUARD S&P 500 ETF",
-        "shares": 3714.0,
-        "value_usd": 12442522.0,
-        "weight_pct": 8.23
+        "shares": 23278.0,
+        "value_usd": 16315089.0,
+        "weight_pct": 10.62
       },
       {
-        "cusip": "921943858",
+        "cusip": "921946406",
         "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "VANGUARD FTSE DEVELOPED MARKETS INDEX FUND ETF SHARES",
-        "shares": 35179.0,
-        "value_usd": 12262081.0,
-        "weight_pct": 8.11
+        "issuer": "VANGUARD HIGH DIVIDEND  YIELD INDEX FUND ETF    SHARES",
+        "shares": 95326.0,
+        "value_usd": 14794709.0,
+        "weight_pct": 9.63
       },
       {
         "cusip": "922042858",
         "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "VANGUARD FTSE EMERGING MARKETS INDEX FUND ETF SHARES",
-        "shares": 40913.0,
-        "value_usd": 12075170.0,
-        "weight_pct": 7.99
+        "issuer": "VANGUARD FTSE EMERGING  MARKETS INDEX FUND ETF  SHARES",
+        "shares": 214536.0,
+        "value_usd": 12724179.0,
+        "weight_pct": 8.28
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "VANGUARD FTSE DEVELOPED MARKETS INDEX FUND ETF  SHARES",
+        "shares": 172511.0,
+        "value_usd": 12181021.0,
+        "weight_pct": 7.93
       },
       {
         "cusip": "464288638",
         "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "ISHARES 5-10 YEAR INVESTMENT GRADE CORPORATE BOND ETF",
-        "shares": 39056.0,
-        "value_usd": 10611282.0,
-        "weight_pct": 7.02
-      },
-      {
-        "cusip": "464289511",
-        "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "ISHARES 10 YEAR",
-        "shares": 32844.0,
-        "value_usd": 7832602.0,
-        "weight_pct": 5.18
+        "issuer": "ISHARES 5-10 YEAR       INVESTMENT GRADE        CORPORATE BOND ETF",
+        "shares": 237761.0,
+        "value_usd": 11971282.0,
+        "weight_pct": 7.79
       },
       {
         "cusip": "464288646",
         "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "ISHARES 1-5 YEAR INVESTMENT GRADE CORPORATE BOND ETF",
-        "shares": 30463.0,
-        "value_usd": 7185729.0,
-        "weight_pct": 4.75
+        "issuer": "ISHARES 1-5 YEAR        INVESTMENT GRADE        CORPORATE BOND ETF",
+        "shares": 152526.0,
+        "value_usd": 7813924.0,
+        "weight_pct": 5.09
+      },
+      {
+        "cusip": "464289511",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "ISHARES 10 YEAR        INVESTMENT GRADE        CORPORATE BOND ETF",
+        "shares": 126027.0,
+        "value_usd": 5754422.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "35473P744",
+        "security_class": "UIT EXCHANGE TRADED",
+        "issuer": "FRANKLIN FTSE JAPAN ETF",
+        "shares": 124149.0,
+        "value_usd": 5139768.0,
+        "weight_pct": 3.35
       },
       {
         "cusip": "92204A876",
         "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "VANGUARD UTILITIES INDEX FUND ETF SHARES",
-        "shares": 5623.0,
-        "value_usd": 5820814.0,
-        "weight_pct": 3.85
-      },
-      {
-        "cusip": "922908629",
-        "security_class": "UIT EXCHANGE TRADED",
-        "issuer": "VANGUARD MID-CAP INDEX FUND ETF SHARES",
-        "shares": 12621.0,
-        "value_usd": 4346802.0,
-        "weight_pct": 2.87
+        "issuer": "VANGUARD UTILITIES INDEXFUND ETF SHARES",
+        "shares": 29913.0,
+        "value_usd": 5115170.0,
+        "weight_pct": 3.33
       }
     ],
-    "top_five_pct": 47.32,
-    "top_ten_pct": 70.99,
-    "hhi": 624.76,
+    "top_five_pct": 50.2,
+    "top_ten_pct": 73.49,
+    "hhi": 683.07,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 17,
-      "exited_positions": 5,
-      "increased_positions": 8,
-      "reduced_positions": 27
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 6,
+      "increased_positions": 41,
+      "reduced_positions": 2
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0002021464-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002021464-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 151202024.0,
+  "reported_13f_value_usd": 153639927.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002021464-26-000004",
+  "validated_accession": "0002021464-26-000006",
   "annualized_turnover_proxy_pct": null
 }

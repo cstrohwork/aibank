@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002009724",
   "investor_name": "Sequent Planning LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "OMAHA",
   "state": "NE",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2009724/0002085853-25-000260.txt",
-    "https://www.sec.gov/Archives/edgar/data/2009724/0002085853-26-001012.txt"
+    "https://www.sec.gov/Archives/edgar/data/2009724/0002085853-26-001012.txt",
+    "https://www.sec.gov/Archives/edgar/data/2009724/0002085853-26-001399.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "e77a77277c428545a0afe0a688bfd42cae57003a1ec9938dca44f6ee2fd4fbaf",
-  "generated_at": "2026-11-16T06:17:23.526016+00:00",
+  "source_fingerprint": "6cb1f3b6b64d5c7d742655537468eaea0b1ac74ba91bb72e119c56768664d9f6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6e1b182dad7e85e627798476e11cfceb7ce1f5ae",
+    "ab0a77bd208202a434f69df29a6f73bd334dc988",
+    "f67cbf3299ce3507e4f1c2960bcda79b71436f04"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002085853-26-001012",
-    "source": "https://www.sec.gov/Archives/edgar/data/2009724/0002085853-26-001012.txt",
-    "distinct_positions": 269,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002085853-26-001399",
+    "source": "https://www.sec.gov/Archives/edgar/data/2009724/0002085853-26-001399.txt",
+    "distinct_positions": 284,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 467987559.0,
+    "reported_long_equity_value_usd": 493877280.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "464287226",
         "security_class": "CORE US AGGBD ET",
         "issuer": "ISHARES TR",
-        "shares": 313224.0,
-        "value_usd": 31002942.0,
-        "weight_pct": 6.62
+        "shares": 331698.0,
+        "value_usd": 31358738.0,
+        "weight_pct": 6.35
       },
       {
         "cusip": "35473P405",
         "security_class": "US EQUITY INDEX",
         "issuer": "FRANKLIN TEMPLETON ETF TR",
-        "shares": 409988.0,
-        "value_usd": 26772214.0,
-        "weight_pct": 5.72
+        "shares": 442235.0,
+        "value_usd": 29548352.0,
+        "weight_pct": 5.98
       },
       {
         "cusip": "35473P553",
         "security_class": "US CORE BOND ETF",
         "issuer": "FRANKLIN TEMPLETON ETF TR",
-        "shares": 1009658.0,
-        "value_usd": 21606688.0,
-        "weight_pct": 4.62
+        "shares": 1020878.0,
+        "value_usd": 20851432.0,
+        "weight_pct": 4.22
       },
       {
         "cusip": "35473P801",
         "security_class": "US LRG CP MLTFCT",
         "issuer": "FRANKLIN TEMPLETON ETF TR",
-        "shares": 219827.0,
-        "value_usd": 17208078.0,
-        "weight_pct": 3.68
+        "shares": 233396.0,
+        "value_usd": 18305258.0,
+        "weight_pct": 3.71
       },
       {
         "cusip": "81369Y803",
         "security_class": "ST STR TECHN ETF",
         "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 78796.0,
-        "value_usd": 15012243.0,
-        "weight_pct": 3.21
+        "shares": 89344.0,
+        "value_usd": 17489175.0,
+        "weight_pct": 3.54
       },
       {
         "cusip": "33740U752",
         "security_class": "FT VEST NASD ETF",
         "issuer": "FIRST TR EXCHNG TRADED FD VI",
-        "shares": 327898.0,
-        "value_usd": 12876554.0,
-        "weight_pct": 2.75
+        "shares": 330465.0,
+        "value_usd": 13390434.0,
+        "weight_pct": 2.71
       },
       {
         "cusip": "33740F268",
         "security_class": "VEST NASDAQ 100",
         "issuer": "FIRST TR EXCHNG TRADED FD VI",
-        "shares": 407015.0,
-        "value_usd": 10781827.0,
-        "weight_pct": 2.3
+        "shares": 418518.0,
+        "value_usd": 11299995.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "46432F842",
+        "security_class": "CORE MSCI EAFE",
+        "issuer": "ISHARES TR",
+        "shares": 90909.0,
+        "value_usd": 8807229.0,
+        "weight_pct": 1.78
       },
       {
         "cusip": "33740F367",
         "security_class": "FT VEST U.S",
         "issuer": "FIRST TR EXCHNG TRADED FD VI",
-        "shares": 208561.0,
-        "value_usd": 8238556.0,
-        "weight_pct": 1.76
+        "shares": 202231.0,
+        "value_usd": 8170125.0,
+        "weight_pct": 1.65
       },
       {
         "cusip": "46434G103",
         "security_class": "CORE MSCI EMKT",
         "issuer": "ISHARES INC",
-        "shares": 93631.0,
-        "value_usd": 7756412.0,
-        "weight_pct": 1.66
-      },
-      {
-        "cusip": "52468L406",
-        "security_class": "FRANKLIN US LOW",
-        "issuer": "LEGG MASON ETF INVT",
-        "shares": 176109.0,
-        "value_usd": 7749245.0,
-        "weight_pct": 1.66
+        "shares": 100207.0,
+        "value_usd": 8132782.0,
+        "weight_pct": 1.65
       }
     ],
-    "top_five_pct": 23.85,
-    "top_ten_pct": 33.98,
-    "hhi": 184.42,
+    "top_five_pct": 23.8,
+    "top_ten_pct": 33.89,
+    "hhi": 181.63,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 104,
-      "exited_positions": 36,
-      "increased_positions": 103,
-      "reduced_positions": 61
+      "previous_period": "2026-06-30",
+      "new_positions": 27,
+      "exited_positions": 12,
+      "increased_positions": 135,
+      "reduced_positions": 104
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002085853-26-001012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002085853-26-001399"
       }
     ]
   },
-  "reported_13f_value_usd": 467987559.0,
+  "reported_13f_value_usd": 493877280.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002085853-26-001012",
+  "validated_accession": "0002085853-26-001399",
   "annualized_turnover_proxy_pct": null
 }

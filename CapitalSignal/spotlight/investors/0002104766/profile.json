@@ -1,28 +1,37 @@
 {
   "manager_cik": "0002104766",
   "investor_name": "Deltroit Asset Management (UK) LLP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "LONDON",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2104766/0002104766-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/2104766/0002104766-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/2104766/0002104766-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "ac6ca13a62644f6897c2f912123c7980ae03e08ed59a946e83052ad6d277578f",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "60ffb4295d3dd12dca0192e6c0b526ccbebe23b27f26ab67904d768cf7ffc2cc",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "155872c63555a3948c19c2b3ab5331cf5b91701c",
+    "3bf2fe3c64a6ff8a50faa39428459f621502f89e"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002104766-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/2104766/0002104766-26-000005.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002104766-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2104766/0002104766-26-000006.txt",
     "distinct_positions": 31,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 613655259.0,
+    "reported_long_equity_value_usd": 610938034.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -30,97 +39,108 @@
         "cusip": "87422Q109",
         "security_class": "COM",
         "issuer": "TALEN ENERGY CORP",
-        "shares": 262500.0,
-        "value_usd": 100868250.0,
-        "weight_pct": 16.44
+        "shares": 471000.0,
+        "value_usd": 147276990.0,
+        "weight_pct": 24.11
       },
       {
         "cusip": "084670108",
         "security_class": "CL A",
         "issuer": "BERKSHIRE HATHAWAY INC DEL",
-        "shares": 134.0,
-        "value_usd": 100345900.0,
-        "weight_pct": 16.35
-      },
-      {
-        "cusip": "422806208",
-        "security_class": "CL A",
-        "issuer": "HEICO CORP NEW",
-        "shares": 190338.0,
-        "value_usd": 49090074.0,
-        "weight_pct": 8.0
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 115668.0,
-        "value_usd": 41336273.0,
-        "weight_pct": 6.74
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 294245.0,
-        "value_usd": 41085429.0,
-        "weight_pct": 6.7
-      },
-      {
-        "cusip": "783513203",
-        "security_class": "SPONSORED ADR",
-        "issuer": "RYANAIR HOLDINGS PLC",
-        "shares": 422187.0,
-        "value_usd": 27336608.0,
-        "weight_pct": 4.45
+        "shares": 115.0,
+        "value_usd": 85905575.0,
+        "weight_pct": 14.06
       },
       {
         "cusip": "35137L204",
         "security_class": "CL B COM",
         "issuer": "FOX CORP",
-        "shares": 538319.0,
-        "value_usd": 25214862.0,
-        "weight_pct": 4.11
+        "shares": 800253.0,
+        "value_usd": 45054244.0,
+        "weight_pct": 7.37
+      },
+      {
+        "cusip": "422806208",
+        "security_class": "CL A",
+        "issuer": "HEICO CORP NEW",
+        "shares": 148435.0,
+        "value_usd": 33892164.0,
+        "weight_pct": 5.55
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 254645.0,
+        "value_usd": 30615968.0,
+        "weight_pct": 5.01
       },
       {
         "cusip": "86614G101",
         "security_class": "COM",
         "issuer": "SUMMIT MIDSTREAM CORPORATION",
-        "shares": 815000.0,
-        "value_usd": 23211200.0,
-        "weight_pct": 3.78
+        "shares": 814700.0,
+        "value_usd": 24628381.0,
+        "weight_pct": 4.03
       },
       {
         "cusip": "65340P106",
         "security_class": "COM",
         "issuer": "NEXGEN ENERGY LTD",
-        "shares": 2231035.0,
-        "value_usd": 20932572.0,
-        "weight_pct": 3.41
+        "shares": 2536035.0,
+        "value_usd": 23113802.0,
+        "weight_pct": 3.78
+      },
+      {
+        "cusip": "783513203",
+        "security_class": "SPONSORED ADR",
+        "issuer": "RYANAIR HOLDINGS PLC",
+        "shares": 410712.0,
+        "value_usd": 22593267.0,
+        "weight_pct": 3.7
       },
       {
         "cusip": "13321L108",
         "security_class": "COM",
         "issuer": "CAMECO CORP",
-        "shares": 200493.0,
-        "value_usd": 20422217.0,
-        "weight_pct": 3.33
+        "shares": 232593.0,
+        "value_usd": 20158835.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "530909308",
+        "security_class": "COM SHS SER C",
+        "issuer": "LIBERTY LIVE HOLDINGS INC",
+        "shares": 178592.0,
+        "value_usd": 17368072.0,
+        "weight_pct": 2.84
       }
     ],
-    "top_five_pct": 54.22,
-    "top_ten_pct": 73.31,
-    "hhi": 815.56,
-    "changes": null,
+    "top_five_pct": 56.1,
+    "top_ten_pct": 73.76,
+    "hhi": 997.75,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 7,
+      "increased_positions": 12,
+      "reduced_positions": 8
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002104766-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002104766-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 613655259.0,
+  "reported_13f_value_usd": 610938034.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002104766-26-000005",
+  "validated_accession": "0002104766-26-000006",
   "annualized_turnover_proxy_pct": null
 }

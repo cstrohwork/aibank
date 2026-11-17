@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001985479",
   "investor_name": "Linonia Partnership LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1985479/0001985479-25-000023.txt",
-    "https://www.sec.gov/Archives/edgar/data/1985479/0001985479-26-000018.txt"
+    "https://www.sec.gov/Archives/edgar/data/1985479/0001985479-26-000018.txt",
+    "https://www.sec.gov/Archives/edgar/data/1985479/0001985479-26-000026.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "c01b936edfb1600ffc30f0092ddbca3e1262933a0318df160645af100dbfa934",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "e296cb7e8bbfd8b6e2ae33fabc85688e58dda8e5bd7b32c5e792e29e8f07c068",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0ea2aa87a2a930a2fc0768d9fc091017687a34a2",
+    "1993bec80ea069711802360110767f68845a1509",
+    "ac5590f39c113a65a80f9de11f9ba24515bce363"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001985479-26-000018",
-    "source": "https://www.sec.gov/Archives/edgar/data/1985479/0001985479-26-000018.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001985479-26-000026",
+    "source": "https://www.sec.gov/Archives/edgar/data/1985479/0001985479-26-000026.txt",
     "distinct_positions": 12,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5598714938.0,
+    "reported_long_equity_value_usd": 6032969550.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "58733R102",
-        "security_class": "COM",
-        "issuer": "MERCADOLIBRE  INC",
-        "shares": 553788.0,
-        "value_usd": 939994213.0,
-        "weight_pct": 16.79
-      },
-      {
         "cusip": "40171V100",
         "security_class": "COM",
         "issuer": "GUIDEWIRE SOFTWARE INC",
-        "shares": 6933483.0,
-        "value_usd": 853165083.0,
-        "weight_pct": 15.24
+        "shares": 7449664.0,
+        "value_usd": 1062173093.0,
+        "weight_pct": 17.61
       },
       {
         "cusip": "922475108",
         "security_class": "CL A COM",
         "issuer": "VEEVA SYS INC",
-        "shares": 4409598.0,
-        "value_usd": 782571357.0,
-        "weight_pct": 13.98
+        "shares": 3664825.0,
+        "value_usd": 1046124296.0,
+        "weight_pct": 17.34
       },
       {
         "cusip": "771049103",
         "security_class": "CL A",
         "issuer": "ROBLOX CORP",
-        "shares": 12053186.0,
-        "value_usd": 655452255.0,
-        "weight_pct": 11.71
+        "shares": 23849739.0,
+        "value_usd": 1010513441.0,
+        "weight_pct": 16.75
       },
       {
-        "cusip": "650111107",
-        "security_class": "CL A",
-        "issuer": "NEW YORK TIMES CO MTN BE",
-        "shares": 9034044.0,
-        "value_usd": 632202399.0,
-        "weight_pct": 11.29
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE  INC",
+        "shares": 510436.0,
+        "value_usd": 882303939.0,
+        "weight_pct": 14.62
       },
       {
         "cusip": "530909308",
         "security_class": "COM SHS SER C",
         "issuer": "LIBERTY LIVE HOLDINGS INC",
-        "shares": 5877204.0,
-        "value_usd": 620867831.0,
-        "weight_pct": 11.09
+        "shares": 5871505.0,
+        "value_usd": 571003861.0,
+        "weight_pct": 9.46
+      },
+      {
+        "cusip": "650111107",
+        "security_class": "CL A",
+        "issuer": "NEW YORK TIMES CO MTN BE",
+        "shares": 7993257.0,
+        "value_usd": 509170471.0,
+        "weight_pct": 8.44
       },
       {
         "cusip": "88023U101",
         "security_class": "COM",
         "issuer": "SOMNIGROUP INTERNATIONAL INC",
-        "shares": 6624644.0,
-        "value_usd": 519372090.0,
-        "weight_pct": 9.28
+        "shares": 5859992.0,
+        "value_usd": 363964103.0,
+        "weight_pct": 6.03
       },
       {
         "cusip": "530909100",
         "security_class": "COM SER A",
         "issuer": "LIBERTY LIVE HOLDINGS INC",
         "shares": 2376439.0,
-        "value_usd": 240638213.0,
-        "weight_pct": 4.3
+        "value_usd": 224906187.0,
+        "weight_pct": 3.73
       },
       {
         "cusip": "531229771",
-        "security_class": "COM LBTY ONE S A",
+        "security_class": "COM SER A",
         "issuer": "LIBERTY MEDIA CORP DEL",
-        "shares": 2118059.0,
-        "value_usd": 185414885.0,
-        "weight_pct": 3.31
+        "shares": 2073574.0,
+        "value_usd": 175486568.0,
+        "weight_pct": 2.91
       },
       {
         "cusip": "538034109",
         "security_class": "COM",
         "issuer": "LIVE NATION ENTERTAINMENT IN",
         "shares": 673090.0,
-        "value_usd": 123249510.0,
-        "weight_pct": 2.2
+        "value_usd": 113954137.0,
+        "weight_pct": 1.89
       }
     ],
-    "top_five_pct": 69.0,
-    "top_ten_pct": 99.18,
-    "hhi": 1217.74,
+    "top_five_pct": 75.79,
+    "top_ten_pct": 98.78,
+    "hhi": 1329.31,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 5,
-      "exited_positions": 3,
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 2,
       "increased_positions": 2,
-      "reduced_positions": 2
+      "reduced_positions": 5
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001985479-26-000018"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001985479-26-000026"
       }
     ]
   },
-  "reported_13f_value_usd": 5598714938.0,
+  "reported_13f_value_usd": 6032969550.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001985479-26-000018",
+  "validated_accession": "0001985479-26-000026",
   "annualized_turnover_proxy_pct": null
 }

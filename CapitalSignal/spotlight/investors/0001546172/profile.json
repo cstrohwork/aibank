@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001546172",
   "investor_name": "WESTERLY CAPITAL MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "SAN FRANCISCO",
   "state": "CA",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1546172/0001546172-25-000011.txt",
-    "https://www.sec.gov/Archives/edgar/data/1546172/0002073679-26-000089.txt"
+    "https://www.sec.gov/Archives/edgar/data/1546172/0002073679-26-000089.txt",
+    "https://www.sec.gov/Archives/edgar/data/1546172/0002073679-26-000176.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "11306d78ad4e7606c0288802b132b65ccdfd70d63ef8126184fb2addefb7ef66",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "dea9a5909cfe9cbe5d00be5f2975ba0c361b164e353e765da62cdeae99c99d1f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1e19701a0a7786aacc11b96455742bcfc599da44",
+    "dc20d8ac00c072315dfaad04434c381cc8eb3fc3",
+    "fdecd33da2d5ff3f78c831cecad51509a85b8dd1"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002073679-26-000089",
-    "source": "https://www.sec.gov/Archives/edgar/data/1546172/0002073679-26-000089.txt",
-    "distinct_positions": 46,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002073679-26-000176",
+    "source": "https://www.sec.gov/Archives/edgar/data/1546172/0002073679-26-000176.txt",
+    "distinct_positions": 47,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 541778793.0,
+    "reported_long_equity_value_usd": 380825451.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "46090E953",
-        "security_class": "PUT",
-        "issuer": "INVESCO QQQ TRUST SERIES 1 P @ 680 AUG 26",
-        "shares": 175000.0,
-        "value_usd": 128870000.0,
-        "weight_pct": 23.79
-      },
-      {
         "cusip": "22266M104",
         "security_class": "COM",
         "issuer": "COURSERA INC",
-        "shares": 6085000.0,
-        "value_usd": 34319400.0,
-        "weight_pct": 6.33
+        "shares": 6375000.0,
+        "value_usd": 31620000.0,
+        "weight_pct": 8.3
+      },
+      {
+        "cusip": "433539202",
+        "security_class": "COM NEW",
+        "issuer": "HIPPO HLDGS INC",
+        "shares": 650000.0,
+        "value_usd": 20000500.0,
+        "weight_pct": 5.25
+      },
+      {
+        "cusip": "04342Y104",
+        "security_class": "CL A",
+        "issuer": "ASANA INC",
+        "shares": 2350000.0,
+        "value_usd": 19810500.0,
+        "weight_pct": 5.2
       },
       {
         "cusip": "925550105",
         "security_class": "COM",
         "issuer": "VIAVI SOLUTIONS INC",
-        "shares": 575000.0,
-        "value_usd": 27456250.0,
-        "weight_pct": 5.07
-      },
-      {
-        "cusip": "040413205",
-        "security_class": "COM SHS",
-        "issuer": "ARISTA NETWORKS INC",
-        "shares": 125000.0,
-        "value_usd": 21235000.0,
-        "weight_pct": 3.92
-      },
-      {
-        "cusip": "04342Y104",
-        "security_class": "CL A",
-        "issuer": "ASANA INC - CL A",
-        "shares": 3030000.0,
-        "value_usd": 21210000.0,
-        "weight_pct": 3.91
+        "shares": 430000.0,
+        "value_usd": 18025600.0,
+        "weight_pct": 4.73
       },
       {
         "cusip": "444144109",
         "security_class": "COM",
-        "issuer": "HUDSON TECHNOLOGIES INC(NAS)",
-        "shares": 3380000.0,
-        "value_usd": 19401200.0,
-        "weight_pct": 3.58
+        "issuer": "HUDSON TECHNOLOGIES INC",
+        "shares": 3475000.0,
+        "value_usd": 17896250.0,
+        "weight_pct": 4.7
       },
       {
-        "cusip": "433539202",
+        "cusip": "336433107",
+        "security_class": "COM",
+        "issuer": "FIRST SOLAR INC",
+        "shares": 90000.0,
+        "value_usd": 15764400.0,
+        "weight_pct": 4.14
+      },
+      {
+        "cusip": "171779309",
         "security_class": "COM NEW",
-        "issuer": "HIPPO HOLDINGS INC",
-        "shares": 645000.0,
-        "value_usd": 18227700.0,
-        "weight_pct": 3.36
+        "issuer": "CIENA CORP",
+        "shares": 44000.0,
+        "value_usd": 15480080.0,
+        "weight_pct": 4.06
       },
       {
-        "cusip": "00724F101",
+        "cusip": "64110L106",
         "security_class": "COM",
-        "issuer": "ADOBE INC",
-        "shares": 73000.0,
-        "value_usd": 14966460.0,
-        "weight_pct": 2.76
+        "issuer": "NETFLIX INC.",
+        "shares": 215000.0,
+        "value_usd": 14959700.0,
+        "weight_pct": 3.93
       },
       {
-        "cusip": "343412102",
-        "security_class": "COM",
-        "issuer": "FLUOR CORP",
-        "shares": 283000.0,
-        "value_usd": 14826370.0,
-        "weight_pct": 2.74
+        "cusip": "654902204",
+        "security_class": "SPONSORED ADR",
+        "issuer": "NOKIA CORP",
+        "shares": 1400000.0,
+        "value_usd": 14196000.0,
+        "weight_pct": 3.73
       },
       {
-        "cusip": "79466L302",
+        "cusip": "17275R102",
         "security_class": "COM",
-        "issuer": "SALESFORCE INC",
-        "shares": 92000.0,
-        "value_usd": 14412720.0,
-        "weight_pct": 2.66
+        "issuer": "CISCO SYS INC",
+        "shares": 121000.0,
+        "value_usd": 13023230.0,
+        "weight_pct": 3.42
       }
     ],
-    "top_five_pct": 43.02,
-    "top_ten_pct": 58.13,
-    "hhi": 771.0,
+    "top_five_pct": 28.19,
+    "top_ten_pct": 47.47,
+    "hhi": 344.61,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 46,
-      "exited_positions": 39,
-      "increased_positions": 0,
-      "reduced_positions": 0
+      "previous_period": "2026-06-30",
+      "new_positions": 15,
+      "exited_positions": 14,
+      "increased_positions": 13,
+      "reduced_positions": 18
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002073679-26-000089"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002073679-26-000176"
       }
     ]
   },
-  "reported_13f_value_usd": 541778793.0,
+  "reported_13f_value_usd": 380825451.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002073679-26-000089",
+  "validated_accession": "0002073679-26-000176",
   "annualized_turnover_proxy_pct": null
 }

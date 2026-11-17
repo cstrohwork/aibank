@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001567013",
   "investor_name": "Bolthouse Investments, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
   "city": "Bakersfield",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1567013/0001941040-25-000573.txt",
-    "https://www.sec.gov/Archives/edgar/data/1567013/0001941040-26-000560.txt"
+    "https://www.sec.gov/Archives/edgar/data/1567013/0001941040-26-000560.txt",
+    "https://www.sec.gov/Archives/edgar/data/1567013/0001941040-26-000831.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "394f7b5ef1d661926647e64d39119772708b6335679e15dd2cd03b1302567a19",
-  "generated_at": "2026-11-15T14:36:41.241770+00:00",
+  "source_fingerprint": "866d5ceb730aaf74687c9b0ff49a094ec1058807b6061d38e87b04b259402155",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-28|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "8cf7d2dda84c1dd52b339c66d12635a47eb84a89",
+    "c409a8702bb4f53c082ddbfe41268d31485e1f09",
+    "d9d787b71beafea8c3829fbbc63b11f99a502160"
+  ],
+  "generated_at": "2026-11-17T13:14:56.472525+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001941040-26-000560",
-    "source": "https://www.sec.gov/Archives/edgar/data/1567013/0001941040-26-000560.txt",
-    "distinct_positions": 86,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001941040-26-000831",
+    "source": "https://www.sec.gov/Archives/edgar/data/1567013/0001941040-26-000831.txt",
+    "distinct_positions": 84,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 123396636.0,
+    "reported_long_equity_value_usd": 122610631.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,91 +43,91 @@
         "security_class": "COM",
         "issuer": "TRICO BANCSHARES",
         "shares": 353718.0,
-        "value_usd": 19047715.0,
-        "weight_pct": 15.44
+        "value_usd": 18106825.0,
+        "weight_pct": 14.77
       },
       {
         "cusip": "78462F103",
         "security_class": "TR UNIT",
         "issuer": "STATE STR SPDR S&P 500 ETF T",
-        "shares": 15116.0,
-        "value_usd": 11288176.0,
-        "weight_pct": 9.15
+        "shares": 15051.0,
+        "value_usd": 11478344.0,
+        "weight_pct": 9.36
       },
       {
         "cusip": "464287465",
         "security_class": "MSCI EAFE ETF",
         "issuer": "ISHARES TR",
         "shares": 79321.0,
-        "value_usd": 8239866.0,
-        "weight_pct": 6.68
+        "value_usd": 8240660.0,
+        "weight_pct": 6.72
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 22472.0,
-        "value_usd": 6502499.0,
-        "weight_pct": 5.27
-      },
-      {
-        "cusip": "74164F103",
-        "security_class": "COM",
-        "issuer": "PRIMORIS SVCS CORP",
-        "shares": 63000.0,
-        "value_usd": 6244560.0,
-        "weight_pct": 5.06
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 11518.0,
-        "value_usd": 4350926.0,
-        "weight_pct": 3.53
+        "shares": 22534.0,
+        "value_usd": 7504273.0,
+        "weight_pct": 6.12
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 11397.0,
-        "value_usd": 4251516.0,
-        "weight_pct": 3.45
+        "shares": 12691.0,
+        "value_usd": 6509499.0,
+        "weight_pct": 5.31
+      },
+      {
+        "cusip": "74164F103",
+        "security_class": "COM",
+        "issuer": "PRIMORIS SVCS CORP",
+        "shares": 59000.0,
+        "value_usd": 4396680.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 11553.0,
+        "value_usd": 4057299.0,
+        "weight_pct": 3.31
       },
       {
         "cusip": "02079K305",
         "security_class": "CAP STK CL A",
         "issuer": "ALPHABET INC",
         "shares": 10748.0,
-        "value_usd": 3841013.0,
-        "weight_pct": 3.11
+        "value_usd": 3698172.0,
+        "weight_pct": 3.02
       },
       {
-        "cusip": "464287234",
-        "security_class": "MSCI EMG MKT ETF",
-        "issuer": "ISHARES TR",
-        "shares": 42300.0,
-        "value_usd": 2893743.0,
-        "weight_pct": 2.35
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 8315.0,
+        "value_usd": 2987898.0,
+        "weight_pct": 2.44
       },
       {
         "cusip": "46625H100",
         "security_class": "COM",
         "issuer": "JPMORGAN CHASE & CO",
         "shares": 8802.0,
-        "value_usd": 2881225.0,
-        "weight_pct": 2.33
+        "value_usd": 2912033.0,
+        "weight_pct": 2.38
       }
     ],
-    "top_five_pct": 41.59,
-    "top_ten_pct": 56.36,
-    "hhi": 508.6,
+    "top_five_pct": 42.28,
+    "top_ten_pct": 57.0,
+    "hhi": 504.24,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 25,
-      "exited_positions": 12,
-      "increased_positions": 24,
-      "reduced_positions": 6
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 8,
+      "increased_positions": 20,
+      "reduced_positions": 7
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001941040-26-000560"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001941040-26-000831"
       }
     ]
   },
-  "reported_13f_value_usd": 123396636.0,
+  "reported_13f_value_usd": 122610631.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001941040-26-000560",
+  "validated_accession": "0001941040-26-000831",
   "annualized_turnover_proxy_pct": null
 }
