@@ -33,10 +33,21 @@ def run(batch=2000):
         snapshot = OUT / cik / 'profile.json'
         try:
             prior = json.loads(snapshot.read_text()) if snapshot.exists() else {}
+            # An amended filing can retain the same report date. Never rank
+            # the new candidate using a prior accession's monetary exposure.
+            candidate_sources = set(p.get('source_filings') or [])
+            candidate_accessions = {
+                str(entry.get('accession') or '').replace('-', '')
+                for entry in entries_by_cik.get(cik, [])
+                if entry.get('report_date') == p.get('latest_report_date')
+            }
+            prior_accession = str(prior.get('validated_accession') or '').replace('-', '')
             if (prior.get('latest_report_date') == p.get('latest_report_date')
                     and prior.get('evidence_status') == 'normalized_usd_validated_not_cover_page_reconciled'
-                    and prior.get('validated_accession')
-                    and prior.get('source_filings')):
+                    and prior_accession
+                    and prior_accession in candidate_accessions
+                    and prior.get('source_filings')
+                    and candidate_sources.intersection(prior['source_filings'])):
                 value = float(prior.get('reported_13f_value_usd'))
                 if 0 <= value < float('inf'):
                     return (True, value)
