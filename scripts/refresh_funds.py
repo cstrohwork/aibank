@@ -152,6 +152,9 @@ def main():
     known=set(checkpoint.get("processed",[]))
     known.update(x.get("accession") for x in index if x.get("accession"))
     errors=[]
+    # Keep accession-level failures across runs without blocking other registrants.
+    # Successful accessions clear their previous retry records.
+    failed=dict(checkpoint.get("failed_accessions", {}))
     processed=0
     budget=int(os.getenv("SEC_FUND_BATCH","30"))
     # Rotate the starting registrant and cap per-registrant work so a large
@@ -208,8 +211,13 @@ def main():
                     (OUT/filename).write_text(json.dumps(best,separators=(",",":")))
                     index.append({"fund_id":best["fund_id"],"identity_basis":best["identity_basis"],"series_id":best["series_id"],"fund_name":best["fund_name"],"registrant_cik":cik,"registrant_name":sub.get("name"),"report_date":best["report_date"],"filing_date":filing,"accession":accession,"holdings_count":len(best["holdings"]),"position_coverage":best["position_coverage"],"file":filename,"source":best["source"]})
                     known.add(accession)
+                    failed.pop(accession, None)
                     print("fund cached",filename,len(best["holdings"]))
-                except Exception as e:errors.append(f"{cik} {accession}: {e}")
+                except Exception as e:
+                    errors.append(f"{cik} {accession}: {e}")
+                    previous=failed.get(accession, {})
+                    failed[accession]={"registrant_cik":cik,"attempts":int(previous.get("attempts",0))+1,
+                        "last_error":str(e)[:300],"last_attempt_at":dt.datetime.now(dt.timezone.utc).isoformat()}
                 time.sleep(.3)
         except Exception as e:errors.append(f"{cik}: {e}")
     periods={}
@@ -224,7 +232,8 @@ def main():
     (OUT/"index.json").write_text(json.dumps({"funds":selected,"filings_parsed":len(index),"registrants_attempted":ciks,"errors":errors[:30],"limitations":"Bounded SEC N-PORT sample, not complete market coverage. N-PX is proxy voting, not a holdings inventory. No fund-to-13F manager attribution inferred."},separators=(",",":")))
     checkpoint_path.write_text(json.dumps({"processed":sorted(known),
         "next_registrant_offset": (cursor + 1) % max(1, len(ciks)),
-        "selection_cycle": int(checkpoint.get("selection_cycle", 0)) + 1},separators=(",",":")))
+        "selection_cycle": int(checkpoint.get("selection_cycle", 0)) + 1,
+        "failed_accessions":{k:v for k,v in sorted(failed.items()) if k not in known}},separators=(",",":")))
     # Fund-level ownership index: securities -> disclosed fund positions.
     owners={}
     for f in selected:
