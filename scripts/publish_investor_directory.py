@@ -30,7 +30,7 @@ def run(batch=2000):
         except (ValueError, TypeError):
             value = 0
         verified = p.get('reported_13f_value_verified') is True and p.get('reported_13f_value_source')
-        return (bool(verified), value if verified else 0, p.get('latest_report_date') or '')
+        return (bool(verified), value if verified else 0)
     index_path = DATA / '13f/index.json'
     filing_dates = {}
     entries = []
@@ -67,7 +67,7 @@ def run(batch=2000):
             blob_map.get('CapitalSignal/data/13f/' + str(e.get('file')), '')
             for e in matching_entries
         } - {''})
-    profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or ''), reverse=True)
+    profiles.sort(key=lambda p: (rank(p), p.get('filing_date') or '', p.get('latest_report_date') or ''), reverse=True)
     # Reserve a quarter of each bounded run for never-published managers.
     # The remaining slots refresh changed profiles; this prevents frequent
     # amendments to large managers from starving initial universe coverage.
