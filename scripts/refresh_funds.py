@@ -195,7 +195,8 @@ def main():
                             if result:result=capture_download_evidence(result,retrieved_at)
                             if result and (not best or len(result["holdings"])>len(best["holdings"])):best=result
                         except (OSError,ValueError,ET.ParseError):pass
-                    if not best:\n                        raise ValueError("No supported N-PORT holdings document parsed from filing XML; accession remains retryable")
+                    if not best:
+                        raise ValueError("No supported N-PORT holdings document parsed from filing XML; accession remains retryable")
                     if best["report_date"]<start:
                         known.add(accession)
                         continue
