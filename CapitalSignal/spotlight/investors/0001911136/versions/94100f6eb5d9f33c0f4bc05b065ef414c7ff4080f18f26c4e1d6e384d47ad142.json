@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001911136",
+  "investor_name": "Paradigm Operations LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1911136/0001104659-25-111829.txt",
+    "https://www.sec.gov/Archives/edgar/data/1911136/0001104659-26-096445.txt",
+    "https://www.sec.gov/Archives/edgar/data/1911136/0001104659-26-128017.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "94100f6eb5d9f33c0f4bc05b065ef414c7ff4080f18f26c4e1d6e384d47ad142",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "717503fe84a542bbfd02c3d529603727348cc763",
+    "91a26f33a1f8dd06b0e89acfb74af89a24b5d74e",
+    "b055ef20f315b77807392c275e8b908d774d2865"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128017",
+    "source": "https://www.sec.gov/Archives/edgar/data/1911136/0001104659-26-128017.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 894691849.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "770700102",
+        "security_class": "COM CL A",
+        "issuer": "ROBINHOOD MKTS INC",
+        "shares": 4734616.0,
+        "value_usd": 532644300.0,
+        "weight_pct": 59.53
+      },
+      {
+        "cusip": "19260Q107",
+        "security_class": "COM CL A",
+        "issuer": "COINBASE GLOBAL INC",
+        "shares": 1507382.0,
+        "value_usd": 280991079.0,
+        "weight_pct": 31.41
+      },
+      {
+        "cusip": "44916Y106",
+        "security_class": "COM",
+        "issuer": "HYPERLIQUID STRATEGIES INC",
+        "shares": 5709852.0,
+        "value_usd": 70059893.0,
+        "weight_pct": 7.83
+      },
+      {
+        "cusip": "45113Y203",
+        "security_class": "SPON ADS NEW",
+        "issuer": "AMBER INTL HLDG LTD",
+        "shares": 30889261.0,
+        "value_usd": 10996577.0,
+        "weight_pct": 1.23
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4593.47,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-111829"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096445"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128017"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 894691849.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-128017",
+  "annualized_turnover_proxy_pct": null
+}

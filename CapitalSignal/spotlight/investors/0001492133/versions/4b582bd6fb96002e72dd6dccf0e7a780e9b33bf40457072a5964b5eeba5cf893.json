@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001492133",
+  "investor_name": "Providence Equity Partners L.L.C.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "PROVIDENCE",
+  "state": "RI",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1492133/0000899140-25-001312.txt",
+    "https://www.sec.gov/Archives/edgar/data/1492133/0000899140-26-000883.txt",
+    "https://www.sec.gov/Archives/edgar/data/1492133/0000899140-26-001366.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "4b582bd6fb96002e72dd6dccf0e7a780e9b33bf40457072a5964b5eeba5cf893",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "2c5ec39820877eb415c991cd0f91e2f685b9413b",
+    "7fc9e21c69f1285c49c953ea22709da6a67e872b",
+    "eb3cb35bd815f85ca92cb0d8b28f0c76acfaa2f6"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001366",
+    "source": "https://www.sec.gov/Archives/edgar/data/1492133/0000899140-26-001366.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 357790419.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25862V105",
+        "security_class": "COM",
+        "issuer": "DoubleVerify Hldgs Inc",
+        "shares": 18341574.0,
+        "value_usd": 247427833.0,
+        "weight_pct": 69.15
+      },
+      {
+        "cusip": "69007J304",
+        "security_class": "COM",
+        "issuer": "Outfront Media Inc",
+        "shares": 3963979.0,
+        "value_usd": 110000417.0,
+        "weight_pct": 30.74
+      },
+      {
+        "cusip": "131193104",
+        "security_class": "COM",
+        "issuer": "Callaway Golf Company",
+        "shares": 25704.0,
+        "value_usd": 362169.0,
+        "weight_pct": 0.1
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5727.56,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000899140-25-001312"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000899140-26-000883"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001366"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 357790419.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000899140-26-001366",
+  "annualized_turnover_proxy_pct": null
+}

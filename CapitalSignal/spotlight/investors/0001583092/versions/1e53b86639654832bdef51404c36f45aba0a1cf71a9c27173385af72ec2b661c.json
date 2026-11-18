@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001583092",
+  "investor_name": "Main Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "SAN FRANCISCO",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1583092/0001583092-25-000014.txt",
+    "https://www.sec.gov/Archives/edgar/data/1583092/0001583092-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1583092/0001583092-26-000007.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1e53b86639654832bdef51404c36f45aba0a1cf71a9c27173385af72ec2b661c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "63d77eea792693ec00e4cc9c0f6f47ff5535dc0f",
+    "b34c9f8a17f80ffed86f7a6a05f10f7cebefcf8b",
+    "e81bc695668351b3d64e3f6fc40b96a5c7ef09ef"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001583092-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1583092/0001583092-26-000007.txt",
+    "distinct_positions": 96,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1690254.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "66537J770",
+        "security_class": "SECA",
+        "issuer": "MAIN ACTIVE ROTATION",
+        "shares": 17511559.0,
+        "value_usd": 436388.0,
+        "weight_pct": 25.82
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "SPY",
+        "issuer": "LARGE CAP CORE",
+        "shares": 219299.0,
+        "value_usd": 167244.0,
+        "weight_pct": 9.89
+      },
+      {
+        "cusip": "66538H179",
+        "security_class": "BUYW",
+        "issuer": "MAIN BUYWRITE",
+        "shares": 10394077.0,
+        "value_usd": 150402.0,
+        "weight_pct": 8.9
+      },
+      {
+        "cusip": "81369Y803",
+        "security_class": "XLK",
+        "issuer": "TECHNOLOGY",
+        "shares": 761252.0,
+        "value_usd": 149015.0,
+        "weight_pct": 8.82
+      },
+      {
+        "cusip": "66538H237",
+        "security_class": "INTL",
+        "issuer": "INTERNATIONAL COUNTRY ROTATION",
+        "shares": 4050377.0,
+        "value_usd": 123508.0,
+        "weight_pct": 7.31
+      },
+      {
+        "cusip": "66538H278",
+        "security_class": "TMAT",
+        "issuer": "THEMATIC INNOVATION",
+        "shares": 2217173.0,
+        "value_usd": 66099.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "QQQ",
+        "issuer": "NASDAQ",
+        "shares": 62845.0,
+        "value_usd": 46491.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "46138G649",
+        "security_class": "QQQM",
+        "issuer": "NASDAQ 100",
+        "shares": 132072.0,
+        "value_usd": 40235.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "81369Y852",
+        "security_class": "XLC",
+        "issuer": "COMMUNICATIONS SERVICES",
+        "shares": 359519.0,
+        "value_usd": 39896.0,
+        "weight_pct": 2.36
+      },
+      {
+        "cusip": "92204A603",
+        "security_class": "VIS",
+        "issuer": "Vanguard Industrials",
+        "shares": 124211.0,
+        "value_usd": 39811.0,
+        "weight_pct": 2.36
+      }
+    ],
+    "top_five_pct": 60.73,
+    "top_ten_pct": 74.49,
+    "hhi": 1049.59,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 10,
+      "increased_positions": 18,
+      "reduced_positions": 45
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001583092-25-000014"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001583092-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001583092-26-000007"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1690254.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001583092-26-000007",
+  "annualized_turnover_proxy_pct": null
+}

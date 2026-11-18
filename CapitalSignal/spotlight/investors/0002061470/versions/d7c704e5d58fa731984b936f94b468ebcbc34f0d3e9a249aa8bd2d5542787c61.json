@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0002061470",
+  "investor_name": "Parvus Asset Management Jersey Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "ST. HELIER",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2061470/0002061470-25-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/2061470/0002061470-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/2061470/0002061470-26-000011.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d7c704e5d58fa731984b936f94b468ebcbc34f0d3e9a249aa8bd2d5542787c61",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6e63fbd24fdc156be08d5b02b1a9477e87586630",
+    "9315e73b124c3720a1a4bdfe109d36c00127254e",
+    "989dc83a923bbbe80076c04ba5219d2ed9f64775"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002061470-26-000011",
+    "source": "https://www.sec.gov/Archives/edgar/data/2061470/0002061470-26-000011.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1295226594.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G3643J108",
+        "security_class": "SHS",
+        "issuer": "FLUTTER ENTMT PLC",
+        "shares": 16338442.0,
+        "value_usd": 1217867467.0,
+        "weight_pct": 94.03
+      },
+      {
+        "cusip": "26142V105",
+        "security_class": "COM CL A",
+        "issuer": "DRAFTKINGS INC NEW",
+        "shares": 4071533.0,
+        "value_usd": 77359127.0,
+        "weight_pct": 5.97
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 8876.82,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0002061470-25-000010"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002061470-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002061470-26-000011"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1295226594.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002061470-26-000011",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0002045724",
+  "investor_name": "Situational Awareness LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "SAN FRANCISCO",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2045724/0002045724-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/2045724/0000935836-26-000418.txt",
+    "https://www.sec.gov/Archives/edgar/data/2045724/0000935836-26-000610.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c598084d0748b7512a0c616e3c4a8651114cc94ebe0f97e40c180d6e6a675c69",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "3d0c7b93cb432f1dcb11cb00d69cdced86faf12e",
+    "468dabc98b65fc7dfd40fb25a8398ae28d89f84e",
+    "69f64ec8e728ebe65e94d58e6dae59e2733770d9"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000935836-26-000610",
+    "source": "https://www.sec.gov/Archives/edgar/data/2045724/0000935836-26-000610.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 532680878.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "778920306",
+        "security_class": "COM CL A",
+        "issuer": "SHARONAI HOLDINGS INC",
+        "shares": 8070950.0,
+        "value_usd": 440673870.0,
+        "weight_pct": 82.73
+      },
+      {
+        "cusip": "18452B209",
+        "security_class": "COM NEW",
+        "issuer": "CLEANSPARK INC",
+        "shares": 3019029.0,
+        "value_usd": 38885094.0,
+        "weight_pct": 7.3
+      },
+      {
+        "cusip": "Q4982L109",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "IREN LIMITED",
+        "shares": 527864.0,
+        "value_usd": 21579080.0,
+        "weight_pct": 4.05
+      },
+      {
+        "cusip": "G11448100",
+        "security_class": "CL A ORD SHS",
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "shares": 1934618.0,
+        "value_usd": 20294143.0,
+        "weight_pct": 3.81
+      },
+      {
+        "cusip": "314911108",
+        "security_class": "COM",
+        "issuer": "FERMI INC",
+        "shares": 2671898.0,
+        "value_usd": 11248691.0,
+        "weight_pct": 2.11
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6932.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 19,
+      "increased_positions": 1,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0002045724-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000935836-26-000418"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000935836-26-000610"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 532680878.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000935836-26-000610",
+  "annualized_turnover_proxy_pct": null
+}

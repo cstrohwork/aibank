@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001123803",
+  "investor_name": "BRANDYWINE TRUST CO",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "HOCKESSIN",
+  "state": "DE",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1123803/0000919574-25-006770.txt",
+    "https://www.sec.gov/Archives/edgar/data/1123803/0000919574-26-005179.txt",
+    "https://www.sec.gov/Archives/edgar/data/1123803/0000919574-26-007826.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "95237d88c6343b09641bc52e93c510fd1a193df27be3ec388764ae74c29e7e7a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "62ff2b49a5b58119a21071edd745946a6adc61c1",
+    "68770c613de7b60212ba11177cb3994e2ae09d0b",
+    "ebdaae9db2ec123647bfc46d991cbdf21e46224b"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-007826",
+    "source": "https://www.sec.gov/Archives/edgar/data/1123803/0000919574-26-007826.txt",
+    "distinct_positions": 32,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 633856835.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922042742",
+        "security_class": "TT WRLD ST ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 2150230.0,
+        "value_usd": 339413806.0,
+        "weight_pct": 53.55
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 156948.0,
+        "value_usd": 119693253.0,
+        "weight_pct": 18.88
+      },
+      {
+        "cusip": "134429109",
+        "security_class": "COM",
+        "issuer": "THE CAMPBELLS COMPANY",
+        "shares": 1855149.0,
+        "value_usd": 36787605.0,
+        "weight_pct": 5.8
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 100852.0,
+        "value_usd": 26381875.0,
+        "weight_pct": 4.16
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 22.0,
+        "value_usd": 16434110.0,
+        "weight_pct": 2.59
+      },
+      {
+        "cusip": "949746101",
+        "security_class": "COM",
+        "issuer": "WELLS FARGO & CO",
+        "shares": 181904.0,
+        "value_usd": 14561415.0,
+        "weight_pct": 2.3
+      },
+      {
+        "cusip": "002824100",
+        "security_class": "COM",
+        "issuer": "ABBOTT LABORATORIES",
+        "shares": 116669.0,
+        "value_usd": 11530397.0,
+        "weight_pct": 1.82
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 153087.0,
+        "value_usd": 10809473.0,
+        "weight_pct": 1.71
+      },
+      {
+        "cusip": "30233Q108",
+        "security_class": "COM SHS",
+        "issuer": "EXXONMOBIL HOLDINGS CORP",
+        "shares": 62205.0,
+        "value_usd": 10123864.0,
+        "weight_pct": 1.6
+      },
+      {
+        "cusip": "464288257",
+        "security_class": "MSCI ACWI ETF",
+        "issuer": "ISHARES TR",
+        "shares": 61715.0,
+        "value_usd": 9798182.0,
+        "weight_pct": 1.55
+      }
+    ],
+    "top_five_pct": 84.99,
+    "top_ten_pct": 93.95,
+    "hhi": 3302.22,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 2,
+      "increased_positions": 3,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000919574-25-006770"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000919574-26-005179"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-007826"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 633856835.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-007826",
+  "annualized_turnover_proxy_pct": null
+}

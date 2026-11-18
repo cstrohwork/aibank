@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001767640",
+  "investor_name": "PUBLIC INVESTMENT FUND",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "AL AQIQ DISTRICT, RIYADH",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1767640/0001011438-25-000549.txt",
+    "https://www.sec.gov/Archives/edgar/data/1767640/0001011438-26-000536.txt",
+    "https://www.sec.gov/Archives/edgar/data/1767640/0001011438-26-000537.txt",
+    "https://www.sec.gov/Archives/edgar/data/1767640/0001011438-26-000707.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1831e53a44ba7111b07cb06cf8f32bbd6924248e5434bbb5bddf169964d66758",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-03-31|2026-08-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "39bf12d99db7e49a345b5e228480bdd73b3c82f5",
+    "7b19e80805c14c93c9eacdf7824a2e712f239f40",
+    "a2d8ab6da99d55bde1d603c49f9081d391e5aab1",
+    "a3cb9cb1a0a35ac994507c3ca2a3c79b282772fd"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001011438-26-000707",
+    "source": "https://www.sec.gov/Archives/edgar/data/1767640/0001011438-26-000707.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 28992772744.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 154146835.0,
+        "value_usd": 23254591528.0,
+        "weight_pct": 80.21
+      },
+      {
+        "cusip": "90353T100",
+        "security_class": "COM",
+        "issuer": "UBER TECHNOLOGIES INC",
+        "shares": 72840541.0,
+        "value_usd": 4990305464.0,
+        "weight_pct": 17.21
+      },
+      {
+        "cusip": "549498202",
+        "security_class": "COM NEW",
+        "issuer": "LUCID GROUP INC",
+        "shares": 177088867.0,
+        "value_usd": 720751689.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "62548M209",
+        "security_class": "CL A NEW",
+        "issuer": "CLARITEV CORPORATION",
+        "shares": 1281250.0,
+        "value_usd": 27124063.0,
+        "weight_pct": 0.09
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6735.81,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001011438-25-000549"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-08-14",
+        "accession": "0001011438-26-000536"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001011438-26-000537"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001011438-26-000707"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 28992772744.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001011438-26-000707",
+  "annualized_turnover_proxy_pct": null
+}

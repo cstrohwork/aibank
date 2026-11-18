@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001844393",
+  "investor_name": "Financial Avengers, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "OAKLAND",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1844393/0001844393-25-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1844393/0001844393-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1844393/0001844393-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "cdb70700fb371dd6d06bfa204705fe5eaeb8ba1ea244a5736ac8878b7feda7ac",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-17|||",
+    "2026-06-30|2026-08-19|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "23878649b17a1aa667171516be1632e301dd21fe",
+    "830998dd75903b9b7413ad8d9153e40ff236be18",
+    "eeb0d3989c62dcff6823ce55da30723c727f72a4"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001844393-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1844393/0001844393-26-000006.txt",
+    "distinct_positions": 158,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 252019627.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COMMON STOCK",
+        "issuer": "NVIDIA CORP",
+        "shares": 157115.0,
+        "value_usd": 35881959.0,
+        "weight_pct": 14.24
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 82731.0,
+        "value_usd": 27550944.0,
+        "weight_pct": 10.93
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMAZON.COM INC",
+        "shares": 103557.0,
+        "value_usd": 25801227.0,
+        "weight_pct": 10.24
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC CLASS CLASS C",
+        "shares": 69964.0,
+        "value_usd": 23839473.0,
+        "weight_pct": 9.46
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "COMMON STOCK",
+        "issuer": "BERKSHIRE HATHAWAY CLASS CLASS B",
+        "shares": 36409.0,
+        "value_usd": 18129862.0,
+        "weight_pct": 7.19
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COMMON STOCK",
+        "issuer": "CHARLES SCHWAB CORP",
+        "shares": 137910.0,
+        "value_usd": 13479329.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COMMON STOCK",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 47547.0,
+        "value_usd": 12587462.0,
+        "weight_pct": 4.99
+      },
+      {
+        "cusip": "025816109",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMERICAN EXPRESS CO",
+        "shares": 36168.0,
+        "value_usd": 10998736.0,
+        "weight_pct": 4.36
+      },
+      {
+        "cusip": "060505104",
+        "security_class": "COMMON STOCK",
+        "issuer": "BANK OF AMERICA CORP",
+        "shares": 166538.0,
+        "value_usd": 9064670.0,
+        "weight_pct": 3.6
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 17433.0,
+        "value_usd": 8941316.0,
+        "weight_pct": 3.55
+      }
+    ],
+    "top_five_pct": 52.06,
+    "top_ten_pct": 73.91,
+    "hhi": 709.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 5,
+      "increased_positions": 56,
+      "reduced_positions": 37
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-17",
+        "accession": "0001844393-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-19",
+        "accession": "0001844393-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001844393-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 252019627.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001844393-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

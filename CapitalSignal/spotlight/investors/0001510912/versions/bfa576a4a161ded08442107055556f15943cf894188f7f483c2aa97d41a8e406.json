@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001510912",
+  "investor_name": "Ulysses Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1510912/0001213900-25-110528.txt",
+    "https://www.sec.gov/Archives/edgar/data/1510912/0001213900-26-089802.txt",
+    "https://www.sec.gov/Archives/edgar/data/1510912/0001213900-26-120408.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "bfa576a4a161ded08442107055556f15943cf894188f7f483c2aa97d41a8e406",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "4aaf1820266ff72222fb02d431fbf75c57187e5b",
+    "7c9b480b7cc1e7a497a0be51bcdfa497d5bae4fc",
+    "ab849ed47677cef186d48e5dfd2400ddef56b5f2"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001213900-26-120408",
+    "source": "https://www.sec.gov/Archives/edgar/data/1510912/0001213900-26-120408.txt",
+    "distinct_positions": 32,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 278380943.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM",
+        "shares": 257500.0,
+        "value_usd": 64156125.0,
+        "weight_pct": 23.05
+      },
+      {
+        "cusip": "806407102",
+        "security_class": "COM",
+        "issuer": "HENRY SCHEIN",
+        "shares": 665358.0,
+        "value_usd": 55870111.0,
+        "weight_pct": 20.07
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 60000.0,
+        "value_usd": 30774000.0,
+        "weight_pct": 11.05
+      },
+      {
+        "cusip": "058498106",
+        "security_class": "COM",
+        "issuer": "BALL CORP",
+        "shares": 540000.0,
+        "value_usd": 30256200.0,
+        "weight_pct": 10.87
+      },
+      {
+        "cusip": "M84137104",
+        "security_class": "SHS",
+        "issuer": "SIMILARWEB LTD",
+        "shares": 2898474.0,
+        "value_usd": 22492158.0,
+        "weight_pct": 8.08
+      },
+      {
+        "cusip": "90353T100",
+        "security_class": "COM",
+        "issuer": "UBER",
+        "shares": 221700.0,
+        "value_usd": 15188667.0,
+        "weight_pct": 5.46
+      },
+      {
+        "cusip": "78463V107",
+        "security_class": "GOLD SHS",
+        "issuer": "SPDR GOLD SHARES",
+        "shares": 20000.0,
+        "value_usd": 7616800.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC CLASS A COMMON ST",
+        "shares": 18500.0,
+        "value_usd": 6365480.0,
+        "weight_pct": 2.29
+      },
+      {
+        "cusip": "25432X102",
+        "security_class": "COM",
+        "issuer": "DIME COMMUNITY BANCSHARES",
+        "shares": 150780.0,
+        "value_usd": 5943748.0,
+        "weight_pct": 2.14
+      },
+      {
+        "cusip": "M85548101",
+        "security_class": "SHS",
+        "issuer": "STRATASYS",
+        "shares": 555000.0,
+        "value_usd": 4612050.0,
+        "weight_pct": 1.66
+      }
+    ],
+    "top_five_pct": 73.12,
+    "top_ten_pct": 87.39,
+    "hhi": 1298.87,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 11,
+      "increased_positions": 3,
+      "reduced_positions": 7
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001213900-25-110528"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001213900-26-089802"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001213900-26-120408"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 278380943.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001213900-26-120408",
+  "annualized_turnover_proxy_pct": null
+}

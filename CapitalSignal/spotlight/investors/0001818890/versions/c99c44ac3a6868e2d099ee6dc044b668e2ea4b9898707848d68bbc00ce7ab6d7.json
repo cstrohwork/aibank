@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001818890",
+  "investor_name": "Sharp Capital Gestora de Recursos Ltda.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "RIO DE JANEIRO",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1818890/0000899140-25-001268.txt",
+    "https://www.sec.gov/Archives/edgar/data/1818890/0000899140-26-000814.txt",
+    "https://www.sec.gov/Archives/edgar/data/1818890/0000899140-26-001344.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c99c44ac3a6868e2d099ee6dc044b668e2ea4b9898707848d68bbc00ce7ab6d7",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0fba49d5a88a2a557475e4a99818f22e2ffeb688",
+    "39f7f194c24b8b44e9d0530fcbc3eeb03de42a0c",
+    "e30894bb65fa28ec7fcc2326125d4ba655b6eb11"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001344",
+    "source": "https://www.sec.gov/Archives/edgar/data/1818890/0000899140-26-001344.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 63886360.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G6683N103",
+        "security_class": "ORD SHS CL A",
+        "issuer": "NU HLDGS LTD",
+        "shares": 2570072.0,
+        "value_usd": 32537112.0,
+        "weight_pct": 50.93
+      },
+      {
+        "cusip": "58733R102",
+        "security_class": "COM",
+        "issuer": "MERCADOLIBRE INC",
+        "shares": 13143.0,
+        "value_usd": 22718070.0,
+        "weight_pct": 35.56
+      },
+      {
+        "cusip": "G85158106",
+        "security_class": "COM CL A",
+        "issuer": "STONECO LTD",
+        "shares": 588174.0,
+        "value_usd": 5493545.0,
+        "weight_pct": 8.6
+      },
+      {
+        "cusip": "464286707",
+        "security_class": "MSCI FRANCE ETF",
+        "issuer": "ISHARES INC",
+        "shares": 73401.0,
+        "value_usd": 3126883.0,
+        "weight_pct": 4.89
+      },
+      {
+        "cusip": "G02532110",
+        "security_class": "*W EXP 03/06/202",
+        "issuer": "AMBIPAR EMERGENCY RESPONSE",
+        "shares": 1075000.0,
+        "value_usd": 10750.0,
+        "weight_pct": 0.02
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3956.25,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 4
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0000899140-25-001268"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0000899140-26-000814"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001344"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 63886360.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000899140-26-001344",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001688325",
+  "investor_name": "TRV GP IV, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Boston",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1688325/0001193125-25-280198.txt",
+    "https://www.sec.gov/Archives/edgar/data/1688325/0001193125-26-340720.txt",
+    "https://www.sec.gov/Archives/edgar/data/1688325/0001193125-26-463545.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "321cbc06ef69c364f3f7711342b8d3b24318ffda6602f988d132ee6b0c0a4f77",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "a2b85d2e58c59f96696480b7f8dc81bed62433c2",
+    "c86c28d194045329c90428f3f2cb87be554d9fff",
+    "c9dc4b487152dc05914886a2402090a04308636b"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463545",
+    "source": "https://www.sec.gov/Archives/edgar/data/1688325/0001193125-26-463545.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 149734299.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "578784100",
+        "security_class": "COM",
+        "issuer": "MAZE THERAPEUTICS, INC.",
+        "shares": 3723958.0,
+        "value_usd": 101217178.0,
+        "weight_pct": 67.6
+      },
+      {
+        "cusip": "87583X109",
+        "security_class": "COM",
+        "issuer": "TANGO THERAPEUTICS, INC.",
+        "shares": 1944574.0,
+        "value_usd": 48517121.0,
+        "weight_pct": 32.4
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5619.37,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001193125-25-280198"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001193125-26-340720"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463545"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 149734299.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-463545",
+  "annualized_turnover_proxy_pct": null
+}

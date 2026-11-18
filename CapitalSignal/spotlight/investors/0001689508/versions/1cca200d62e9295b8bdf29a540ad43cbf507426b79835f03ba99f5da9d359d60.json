@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001689508",
+  "investor_name": "REDPOINT MANAGEMENT, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "WOODSIDE",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1689508/0001689508-25-000042.txt",
+    "https://www.sec.gov/Archives/edgar/data/1689508/0001689508-26-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1689508/0001689508-26-000014.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1cca200d62e9295b8bdf29a540ad43cbf507426b79835f03ba99f5da9d359d60",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "48b9c8421762a32d58279b7e5b82c1295f89eacb",
+    "ae95d6dd7e3a48f55fd753ba93f148adb3529eb3",
+    "fa41fba526b74ef350e79cdbd1ac4ec1db0e0d6f"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001689508-26-000014",
+    "source": "https://www.sec.gov/Archives/edgar/data/1689508/0001689508-26-000014.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 79571951.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "091947101",
+        "security_class": "COM SHS CL A",
+        "issuer": "BITGO HOLDINGS INC",
+        "shares": 10752948.0,
+        "value_usd": 79571815.0,
+        "weight_pct": 100.0
+      },
+      {
+        "cusip": "23257B305",
+        "security_class": "COM",
+        "issuer": "CYNGN INC",
+        "shares": 182.0,
+        "value_usd": 136.0,
+        "weight_pct": 0.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9999.97,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001689508-25-000042"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001689508-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001689508-26-000014"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 79571951.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001689508-26-000014",
+  "annualized_turnover_proxy_pct": null
+}

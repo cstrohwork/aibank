@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001693745",
+  "investor_name": "Anatole Investment Management Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "CENTRAL",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1693745/0002081111-25-000038.txt",
+    "https://www.sec.gov/Archives/edgar/data/1693745/0002081111-26-000158.txt",
+    "https://www.sec.gov/Archives/edgar/data/1693745/0002081111-26-000206.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "e4fd9f732465683d40d6b1304137038f0420fc4e9401711f0de6d344276224fe",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "350aed66b0092b1d52ce070a449423d391309b24",
+    "3fa5ee3b9113031f05db4931ac9fb11c884137d9",
+    "b8e47957c31cf18f87698ecad5155b4990dd110d"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002081111-26-000206",
+    "source": "https://www.sec.gov/Archives/edgar/data/1693745/0002081111-26-000206.txt",
+    "distinct_positions": 15,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1393842198.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 303536.0,
+        "value_usd": 220118236.0,
+        "weight_pct": 15.79
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 1685465.0,
+        "value_usd": 202643457.0,
+        "weight_pct": 14.54
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 320680.0,
+        "value_usd": 164476772.0,
+        "weight_pct": 11.8
+      },
+      {
+        "cusip": "781154109",
+        "security_class": "CL A",
+        "issuer": "RUBRIK INC.",
+        "shares": 1396485.0,
+        "value_usd": 159855638.0,
+        "weight_pct": 11.47
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 459852.0,
+        "value_usd": 158225876.0,
+        "weight_pct": 11.35
+      },
+      {
+        "cusip": "171779309",
+        "security_class": "COM NEW",
+        "issuer": "CIENA CORP",
+        "shares": 401410.0,
+        "value_usd": 141224066.0,
+        "weight_pct": 10.13
+      },
+      {
+        "cusip": "55024U109",
+        "security_class": "COM",
+        "issuer": "LUMENTUM HLDGS INC",
+        "shares": 116910.0,
+        "value_usd": 113550007.0,
+        "weight_pct": 8.15
+      },
+      {
+        "cusip": "18915M107",
+        "security_class": "CL A COM",
+        "issuer": "CLOUDFLARE INC",
+        "shares": 179072.0,
+        "value_usd": 62188124.0,
+        "weight_pct": 4.46
+      },
+      {
+        "cusip": "82509L107",
+        "security_class": "CL A SUB VTG SHS",
+        "issuer": "SHOPIFY INC",
+        "shares": 405679.0,
+        "value_usd": 60162196.0,
+        "weight_pct": 4.32
+      },
+      {
+        "cusip": "833445109",
+        "security_class": "COM SHS",
+        "issuer": "SNOWFLAKE INC",
+        "shares": 177096.0,
+        "value_usd": 60134718.0,
+        "weight_pct": 4.31
+      }
+    ],
+    "top_five_pct": 64.95,
+    "top_ten_pct": 96.32,
+    "hhi": 1097.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 5,
+      "increased_positions": 3,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0002081111-25-000038"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002081111-26-000158"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002081111-26-000206"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1393842198.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002081111-26-000206",
+  "annualized_turnover_proxy_pct": null
+}

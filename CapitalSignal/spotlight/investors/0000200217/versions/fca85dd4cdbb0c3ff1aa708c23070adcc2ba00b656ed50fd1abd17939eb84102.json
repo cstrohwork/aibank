@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0000200217",
+  "investor_name": "Dodge & Cox",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/200217/0001193125-25-280187.txt",
+    "https://www.sec.gov/Archives/edgar/data/200217/0001193125-26-349535.txt",
+    "https://www.sec.gov/Archives/edgar/data/200217/0001193125-26-460252.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "fca85dd4cdbb0c3ff1aa708c23070adcc2ba00b656ed50fd1abd17939eb84102",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "0fddd5aeab25ba14c58c9c308003ab9b6bfca2ce",
+    "5583f4ec9dc7f6c8f183de540d75345784fad599",
+    "ff6654fa44ecfa2bd6b81fe71ebd1da305fd5d9f"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001193125-26-460252",
+    "source": "https://www.sec.gov/Archives/edgar/data/200217/0001193125-26-460252.txt",
+    "distinct_positions": 225,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 186554375235.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "G51502105",
+        "security_class": "SHS",
+        "issuer": "Johnson Controls International PLC",
+        "shares": 53266842.0,
+        "value_usd": 7918116063.0,
+        "weight_pct": 4.24
+      },
+      {
+        "cusip": "808513105",
+        "security_class": "COM",
+        "issuer": "The Charles Schwab Corp.",
+        "shares": 73833671.0,
+        "value_usd": 7216503046.0,
+        "weight_pct": 3.87
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "Microsoft Corp.",
+        "shares": 12925131.0,
+        "value_usd": 6629299690.0,
+        "weight_pct": 3.55
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX Corp.",
+        "shares": 32845096.0,
+        "value_usd": 6097692072.0,
+        "weight_pct": 3.27
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "Amazon.com, Inc.",
+        "shares": 22704422.0,
+        "value_usd": 5656806741.0,
+        "weight_pct": 3.03
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "Meta Platforms, Inc.",
+        "shares": 6597417.0,
+        "value_usd": 4784314860.0,
+        "weight_pct": 2.56
+      },
+      {
+        "cusip": "866966104",
+        "security_class": "SHS",
+        "issuer": "Sunbelt Rentals Holdings, Inc.",
+        "shares": 54724320.0,
+        "value_usd": 4006367467.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "126650100",
+        "security_class": "COM",
+        "issuer": "CVS Health Corp.",
+        "shares": 46041525.0,
+        "value_usd": 3945298277.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "444859102",
+        "security_class": "COM",
+        "issuer": "Humana, Inc.",
+        "shares": 10233109.0,
+        "value_usd": 3904647401.0,
+        "weight_pct": 2.09
+      },
+      {
+        "cusip": "G87052109",
+        "security_class": "ORD SHS",
+        "issuer": "TE Connectivity PLC",
+        "shares": 18212906.0,
+        "value_usd": 3844380198.0,
+        "weight_pct": 2.06
+      }
+    ],
+    "top_five_pct": 17.97,
+    "top_ten_pct": 28.95,
+    "hhi": 169.52,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 6,
+      "exited_positions": 3,
+      "increased_positions": 47,
+      "reduced_positions": 136
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001193125-25-280187"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001193125-26-349535"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001193125-26-460252"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 186554375235.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-460252",
+  "annualized_turnover_proxy_pct": null
+}

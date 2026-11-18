@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001260786",
+  "investor_name": "CONSOLIDATED PRESS INTERNATIONAL HOLDINGS LTD",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "SYDNEY",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1260786/0001104659-25-112134.txt",
+    "https://www.sec.gov/Archives/edgar/data/1260786/0001104659-26-095608.txt",
+    "https://www.sec.gov/Archives/edgar/data/1260786/0001104659-26-126848.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "582f36bf92bc8a49422d9fa69c86dfa18df5e122daecd71de1ffd9a19f7f421c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "2bc4818908e249213582c380adc0fe61d4f0ad29",
+    "7e0adf59c2ff177b58e300ab65401cade8765551",
+    "cf3804d276f753257db44e4a09e9323b7e1316df"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001104659-26-126848",
+    "source": "https://www.sec.gov/Archives/edgar/data/1260786/0001104659-26-126848.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2626041.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "095306106",
+        "security_class": "COM",
+        "issuer": "BLUE BIRD CORP",
+        "shares": 22755.0,
+        "value_usd": 1262903.0,
+        "weight_pct": 48.09
+      },
+      {
+        "cusip": "243927100",
+        "security_class": "COM",
+        "issuer": "DEEP FISSION INC",
+        "shares": 133333.0,
+        "value_usd": 683998.0,
+        "weight_pct": 26.05
+      },
+      {
+        "cusip": "60744M106",
+        "security_class": "COM SHS",
+        "issuer": "MOBILITY GLOBAL INC",
+        "shares": 39600.0,
+        "value_usd": 679140.0,
+        "weight_pct": 25.86
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3660.06,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-112134"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001104659-26-095608"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001104659-26-126848"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 2626041.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-126848",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,122 @@
+{
+  "manager_cik": "0001825564",
+  "investor_name": "BROWNING WEST LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "LOS ANGELES",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1825564/0001825564-25-000011.txt",
+    "https://www.sec.gov/Archives/edgar/data/1825564/0001825564-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1825564/0001825564-26-000007.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "b12f3be74c8a6867fc37b1d0ac9bbd23b9d867b8578715de886fe7479146e383",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "14a3d7a8596d8ba3f38a82e0f8678c87611f6529",
+    "ab56c5065b9ee440866931ee6cfe91b8674f77e0",
+    "c538e7f8d01953ae24c1d9089209c5acd06958b7"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001825564-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1825564/0001825564-26-000007.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1421282505.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "88023U101",
+        "security_class": "COM",
+        "issuer": "SOMNIGROUP INTERNATIONAL INC",
+        "shares": 7000091.0,
+        "value_usd": 434775652.0,
+        "weight_pct": 30.59
+      },
+      {
+        "cusip": "216648501",
+        "security_class": "COM",
+        "issuer": "COOPER COS INC",
+        "shares": 6908633.0,
+        "value_usd": 390545023.0,
+        "weight_pct": 27.48
+      },
+      {
+        "cusip": "124765108",
+        "security_class": "COM",
+        "issuer": "CAE INC",
+        "shares": 10882946.0,
+        "value_usd": 261299533.0,
+        "weight_pct": 18.38
+      },
+      {
+        "cusip": "375916103",
+        "security_class": "COM",
+        "issuer": "GILDAN ACTIVEWEAR INC",
+        "shares": 3900046.0,
+        "value_usd": 166258961.0,
+        "weight_pct": 11.7
+      },
+      {
+        "cusip": "253393102",
+        "security_class": "COM",
+        "issuer": "DICKS SPORTING GOODS INC",
+        "shares": 1223139.0,
+        "value_usd": 164255336.0,
+        "weight_pct": 11.56
+      },
+      {
+        "cusip": "21874C102",
+        "security_class": "CL A",
+        "issuer": "CORE & MAIN INC",
+        "shares": 100000.0,
+        "value_usd": 4148000.0,
+        "weight_pct": 0.29
+      }
+    ],
+    "top_five_pct": 99.71,
+    "top_ten_pct": 100.0,
+    "hhi": 2299.32,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 2,
+      "reduced_positions": 3
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001825564-25-000011"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001825564-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001825564-26-000007"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1421282505.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001825564-26-000007",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001636044",
+  "investor_name": "Sun Mountain Capital Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "ST HELIER",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1636044/0000905148-26-003339.txt",
+    "https://www.sec.gov/Archives/edgar/data/1636044/0000905148-26-003340.txt",
+    "https://www.sec.gov/Archives/edgar/data/1636044/0000905148-26-003341.txt",
+    "https://www.sec.gov/Archives/edgar/data/1636044/0000905148-26-004890.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "758f6e17c036a84989d7490e86a3f6ce7a2437cb6540c92b8580c21b129d0c9a",
+  "accession_fingerprints": [
+    "2025-12-31|2026-07-24|||",
+    "2026-03-31|2026-07-24|||",
+    "2026-06-30|2026-07-24|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "330578a1ef66f277530ebcb60fd12b522e6d81ae",
+    "9e8b666ccc6cde1cbf80aa52841b733d0d5bdcce",
+    "cc739818961055191c33e8493006282c26441c3e",
+    "f3fe8bf1dfd739912e6b2f23e3efadcaa260d4a6"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000905148-26-004890",
+    "source": "https://www.sec.gov/Archives/edgar/data/1636044/0000905148-26-004890.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 200908497.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464287614",
+        "security_class": "RUS 1000 GRW ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1118897.0,
+        "value_usd": 140153038.0,
+        "weight_pct": 69.76
+      },
+      {
+        "cusip": "46434G822",
+        "security_class": "MSCI JAPAN ETF",
+        "issuer": "ISHARES INC",
+        "shares": 587138.0,
+        "value_usd": 57222469.0,
+        "weight_pct": 28.48
+      },
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 23419.0,
+        "value_usd": 3532990.0,
+        "weight_pct": 1.76
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5680.72,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-07-24",
+        "accession": "0000905148-26-003339"
+      },
+      {
+        "report_date": "2026-03-31",
+        "filing_date": "2026-07-24",
+        "accession": "0000905148-26-003340"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0000905148-26-003341"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000905148-26-004890"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 200908497.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000905148-26-004890",
+  "annualized_turnover_proxy_pct": null
+}

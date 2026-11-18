@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001846237",
+  "investor_name": "Valor Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "CHICAGO",
+  "state": "IL",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1846237/0001213900-25-110308.txt",
+    "https://www.sec.gov/Archives/edgar/data/1846237/0001213900-26-089714.txt",
+    "https://www.sec.gov/Archives/edgar/data/1846237/0001213900-26-120689.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "8049bbdd705cc23674a38c136896e68e36b43b9ca5a49dcc4a6c62ea1bd7b0f1",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "432daadd7056551038da69834a16354987572814",
+    "4cbbdffa4af8bf073e528c12211e3148489b5990",
+    "75465410a717d18c40077b12e5773cbc7fec7c30"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001213900-26-120689",
+    "source": "https://www.sec.gov/Archives/edgar/data/1846237/0001213900-26-120689.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 68400732812.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "84615Q103",
+        "security_class": "CLASS A COM STK",
+        "issuer": "SPACE EXPLORATION TECHN CORP",
+        "shares": 452294169.0,
+        "value_usd": 68233098335.0,
+        "weight_pct": 99.75
+      },
+      {
+        "cusip": "091947101",
+        "security_class": "COM SHS CL A",
+        "issuer": "BITGO HOLDINGSINC",
+        "shares": 12538608.0,
+        "value_usd": 92785699.0,
+        "weight_pct": 0.14
+      },
+      {
+        "cusip": "10501L106",
+        "security_class": "SPONSORED ADS",
+        "issuer": "BRAINSWAY LTD",
+        "shares": 5314950.0,
+        "value_usd": 70157340.0,
+        "weight_pct": 0.1
+      },
+      {
+        "cusip": "413197104",
+        "security_class": "COM",
+        "issuer": "HARMONY BIOSCIENCES HLDGS IN",
+        "shares": 117130.0,
+        "value_usd": 4598524.0,
+        "weight_pct": 0.01
+      },
+      {
+        "cusip": "09077V100",
+        "security_class": "COM",
+        "issuer": "BIOAGE LABS INC",
+        "shares": 13105.0,
+        "value_usd": 92914.0,
+        "weight_pct": 0.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9951.07,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001213900-25-110308"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001213900-26-089714"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001213900-26-120689"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 68400732812.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001213900-26-120689",
+  "annualized_turnover_proxy_pct": null
+}

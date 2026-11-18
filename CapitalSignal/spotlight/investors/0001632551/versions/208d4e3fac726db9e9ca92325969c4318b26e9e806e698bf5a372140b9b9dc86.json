@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001632551",
+  "investor_name": "Bayesian Capital Management, LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Brooklyn",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1632551/0001420506-25-003412.txt",
+    "https://www.sec.gov/Archives/edgar/data/1632551/0001420506-26-001812.txt",
+    "https://www.sec.gov/Archives/edgar/data/1632551/0001420506-26-002901.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "208d4e3fac726db9e9ca92325969c4318b26e9e806e698bf5a372140b9b9dc86",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "12f8515e3fed7046e47ad88597ded75b8383e332",
+    "5f7b63728fc6ba86bee80d08b9a4a56fefdf1c37",
+    "8e993108b80002951135603580490330512ea1d5"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001420506-26-002901",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632551/0001420506-26-002901.txt",
+    "distinct_positions": 169,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 125200766.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 18000.0,
+        "value_usd": 5994360.0,
+        "weight_pct": 4.79
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 6500.0,
+        "value_usd": 5917210.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 7300.0,
+        "value_usd": 5116278.0,
+        "weight_pct": 4.09
+      },
+      {
+        "cusip": "458140100",
+        "security_class": "COM",
+        "issuer": "INTEL CORP",
+        "shares": 37100.0,
+        "value_usd": 4460533.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "G2004J103",
+        "security_class": "COMMON SHARES",
+        "issuer": "CARNIVAL CORP LTD",
+        "shares": 172300.0,
+        "value_usd": 4228242.0,
+        "weight_pct": 3.38
+      },
+      {
+        "cusip": "G1151C101",
+        "security_class": "SHS CLASS A",
+        "issuer": "ACCENTURE PLC IRELAND",
+        "shares": 22500.0,
+        "value_usd": 4125825.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "464287523",
+        "security_class": "ISHARES SEMICDTR",
+        "issuer": "ISHARES TR",
+        "shares": 5905.0,
+        "value_usd": 3357819.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "42824C109",
+        "security_class": "COM",
+        "issuer": "HEWLETT PACKARD ENTERPRISE C",
+        "shares": 47700.0,
+        "value_usd": 3047553.0,
+        "weight_pct": 2.43
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 13200.0,
+        "value_usd": 3014616.0,
+        "weight_pct": 2.41
+      },
+      {
+        "cusip": "64110L106",
+        "security_class": "COM",
+        "issuer": "NETFLIX INC.",
+        "shares": 35800.0,
+        "value_usd": 2490964.0,
+        "weight_pct": 1.99
+      }
+    ],
+    "top_five_pct": 20.54,
+    "top_ten_pct": 33.35,
+    "hhi": 168.15,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 135,
+      "exited_positions": 189,
+      "increased_positions": 17,
+      "reduced_positions": 17
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001420506-25-003412"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001420506-26-001812"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001420506-26-002901"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 125200766.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001420506-26-002901",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001484836",
+  "investor_name": "Centerbridge Partners, L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1484836/0002048251-25-002363.txt",
+    "https://www.sec.gov/Archives/edgar/data/1484836/0002048251-26-006562.txt",
+    "https://www.sec.gov/Archives/edgar/data/1484836/0002048251-26-009807.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "b43ee364e60deaa27c0c80feb5b04fa348b0d71c65b91b833607de765937b6a0",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "93f5d81fd92b58e38f75856788afff15cf862225",
+    "c3668f1055915e31af85b1220eb408c181ff9972",
+    "d9ee79ffc54eb267522f167d2efec9f243724317"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0002048251-26-009807",
+    "source": "https://www.sec.gov/Archives/edgar/data/1484836/0002048251-26-009807.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 54125615.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "34520K105",
+        "security_class": "CL A COM",
+        "issuer": "FORBRIGHT INC",
+        "shares": 3178251.0,
+        "value_usd": 54125615.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0002048251-25-002363"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0002048251-26-006562"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0002048251-26-009807"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 54125615.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002048251-26-009807",
+  "annualized_turnover_proxy_pct": null
+}

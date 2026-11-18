@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001947083",
+  "investor_name": "MVM Partners, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "BOSTON",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1947083/0001104659-25-112527.txt",
+    "https://www.sec.gov/Archives/edgar/data/1947083/0001104659-26-097111.txt",
+    "https://www.sec.gov/Archives/edgar/data/1947083/0001104659-26-127848.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1908c314dc214b1ec8ae42c388cc80dea2ec6addbbd332a5f192eaf89adb9d42",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "db87f6afd8479daaaf05f0c15700a091ccae4b8f",
+    "f42845171669a51347ca30172055c12f1c33dc3e",
+    "fbf6a840d24028c56e555ea801cda2d735819719"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127848",
+    "source": "https://www.sec.gov/Archives/edgar/data/1947083/0001104659-26-127848.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3852405.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "B5950S113",
+        "security_class": "SHS New",
+        "issuer": "MDXHealth SA",
+        "shares": 6652400.0,
+        "value_usd": 3852405.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-112527"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-097111"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127848"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 3852405.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-127848",
+  "annualized_turnover_proxy_pct": null
+}

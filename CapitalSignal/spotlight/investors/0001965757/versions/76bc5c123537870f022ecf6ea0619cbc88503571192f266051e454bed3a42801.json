@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001965757",
+  "investor_name": "Sonoma Private Wealth LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "San Francisco",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1965757/0001172661-25-004853.txt",
+    "https://www.sec.gov/Archives/edgar/data/1965757/0001172661-26-003817.txt",
+    "https://www.sec.gov/Archives/edgar/data/1965757/0001172661-26-005182.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "76bc5c123537870f022ecf6ea0619cbc88503571192f266051e454bed3a42801",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "368c91c648f59363617eec26b234bd349022d36a",
+    "d82eda45d5134d62b669befcb99dbea5e08179e2",
+    "e5fafbc0321fb32daea8228d0f8961ad2670e52f"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005182",
+    "source": "https://www.sec.gov/Archives/edgar/data/1965757/0001172661-26-005182.txt",
+    "distinct_positions": 71,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 90029746.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 20829.0,
+        "value_usd": 10682942.0,
+        "weight_pct": 11.87
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 8835.0,
+        "value_usd": 6766030.0,
+        "weight_pct": 7.52
+      },
+      {
+        "cusip": "46436E718",
+        "security_class": "0-3 MTH TREASURY",
+        "issuer": "ISHARES TR",
+        "shares": 61158.0,
+        "value_usd": 6157389.0,
+        "weight_pct": 6.84
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 24655.0,
+        "value_usd": 5630616.0,
+        "weight_pct": 6.25
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 11760.0,
+        "value_usd": 3916383.0,
+        "weight_pct": 4.35
+      },
+      {
+        "cusip": "639193101",
+        "security_class": "CL A",
+        "issuer": "NAVAN INC",
+        "shares": 146296.0,
+        "value_usd": 3070753.0,
+        "weight_pct": 3.41
+      },
+      {
+        "cusip": "85207H104",
+        "security_class": "PHYSICAL GOLD TR",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 90310.0,
+        "value_usd": 2823994.0,
+        "weight_pct": 3.14
+      },
+      {
+        "cusip": "808524755",
+        "security_class": "FUNDAMENTAL INTL",
+        "issuer": "SCHWAB STRATEGIC TR",
+        "shares": 50515.0,
+        "value_usd": 2715184.0,
+        "weight_pct": 3.02
+      },
+      {
+        "cusip": "464287408",
+        "security_class": "S&P 500 VAL ETF",
+        "issuer": "ISHARES TR",
+        "shares": 11342.0,
+        "value_usd": 2589152.0,
+        "weight_pct": 2.88
+      },
+      {
+        "cusip": "85208R101",
+        "security_class": "PHYSICAL GOLD AN",
+        "issuer": "SPROTT ASSET MANAGEMENT LP",
+        "shares": 53939.0,
+        "value_usd": 2240626.0,
+        "weight_pct": 2.49
+      }
+    ],
+    "top_five_pct": 36.82,
+    "top_ten_pct": 51.75,
+    "hhi": 398.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 12,
+      "increased_positions": 8,
+      "reduced_positions": 37
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001172661-25-004853"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001172661-26-003817"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005182"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 90029746.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001172661-26-005182",
+  "annualized_turnover_proxy_pct": null
+}

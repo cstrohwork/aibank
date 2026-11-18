@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0002065494",
+  "investor_name": "Cria, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2065494/0001999371-26-018006.txt",
+    "https://www.sec.gov/Archives/edgar/data/2065494/0001193125-26-463716.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "d1211a22618b763d8d2ea0c1cba6f8c14023fdb988c71f8eeb38df4f0d523ec8",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "6f37717fb483585f4623de06963efb43c7372fa1",
+    "9df2f756af337b48ff52d266c6b0768775777110"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463716",
+    "source": "https://www.sec.gov/Archives/edgar/data/2065494/0001193125-26-463716.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 121588104.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "19260Q107",
+        "security_class": "COM CL A",
+        "issuer": "COINBASE GLOBAL INC",
+        "shares": 491661.0,
+        "value_usd": 91650527.0,
+        "weight_pct": 75.38
+      },
+      {
+        "cusip": "G29018101",
+        "security_class": "CLASS A COM",
+        "issuer": "DLOCAL LTD",
+        "shares": 2175696.0,
+        "value_usd": 29937577.0,
+        "weight_pct": 24.62
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6288.07,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001999371-26-018006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463716"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 121588104.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-463716",
+  "annualized_turnover_proxy_pct": null
+}

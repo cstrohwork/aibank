@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0002011315",
+  "investor_name": "True Blue (BVI) Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "ROAD TOWN",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2011315/0001013594-25-001403.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011315/0001013594-26-000891.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011315/0001013594-26-001179.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "99fe07ce291b2d1c3d870438cfff447dda7961b2b86f667dc78e87c579659d4b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "b491651e443ab99d93af952513b22f91d16bb768",
+    "bedfc9f114d1742e92a044e9559c477c48498482",
+    "d29dd66ad3188c80a6936cfe924dfb0f2c19ea48"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001013594-26-001179",
+    "source": "https://www.sec.gov/Archives/edgar/data/2011315/0001013594-26-001179.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 245913759.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "02079K107",
+        "security_class": "CAP STK CL C",
+        "issuer": "ALPHABET INC",
+        "shares": 383327.0,
+        "value_usd": 130614842.0,
+        "weight_pct": 53.11
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 202000.0,
+        "value_usd": 69504160.0,
+        "weight_pct": 28.26
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 200520.0,
+        "value_usd": 45794757.0,
+        "weight_pct": 18.62
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3966.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001013594-25-001403"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001013594-26-000891"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001013594-26-001179"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 245913759.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001013594-26-001179",
+  "annualized_turnover_proxy_pct": null
+}

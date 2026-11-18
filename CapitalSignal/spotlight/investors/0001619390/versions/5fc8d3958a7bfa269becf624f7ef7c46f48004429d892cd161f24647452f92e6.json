@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001619390",
+  "investor_name": "Graticule Asia Macro Advisors LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1619390/0001619390-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1619390/0001619390-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1619390/0001619390-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "5fc8d3958a7bfa269becf624f7ef7c46f48004429d892cd161f24647452f92e6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-07|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "29f5548fde5b7090f4813326044ad10537bf9271",
+    "59b49cf76da3435e85322db02c809c0140e3a3e2",
+    "b8ca404fdc2d00ebdb34a593803e93f55facb6e6"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001619390-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1619390/0001619390-26-000004.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1208852922.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "093712107",
+        "security_class": "Class A Common Stock",
+        "issuer": "BLOOM ENERGY CORP",
+        "shares": 4207505.0,
+        "value_usd": 1165394735.0,
+        "weight_pct": 96.41
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "Common Stock",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 189900.0,
+        "value_usd": 43369362.0,
+        "weight_pct": 3.59
+      },
+      {
+        "cusip": "15675D103",
+        "security_class": "Class A Common Stock",
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "shares": 500.0,
+        "value_usd": 88825.0,
+        "weight_pct": 0.01
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9306.8,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 205,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-07",
+        "accession": "0001619390-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001619390-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001619390-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1208852922.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001619390-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

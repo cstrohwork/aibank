@@ -1,0 +1,122 @@
+{
+  "manager_cik": "0001842881",
+  "investor_name": "Granger Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1842881/0001172661-25-004767.txt",
+    "https://www.sec.gov/Archives/edgar/data/1842881/0001172661-26-003408.txt",
+    "https://www.sec.gov/Archives/edgar/data/1842881/0001172661-26-005268.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "12c4c325069bcbab4a7a99dae6550a12d96a8b74166d7e00b5c43fd68ab57479",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "007b8477262cbafc2981a01343639d3cb12a1624",
+    "1ec6d1bddbf923965512d7bdd17e4e4c3d21c953",
+    "843cad603d8629c09709db565f6931c3ec514591"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001172661-26-005268",
+    "source": "https://www.sec.gov/Archives/edgar/data/1842881/0001172661-26-005268.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 383244088.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288257",
+        "security_class": "MSCI ACWI ETF",
+        "issuer": "ISHARES TR",
+        "shares": 1678506.0,
+        "value_usd": 266488067.0,
+        "weight_pct": 69.53
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 122830.0,
+        "value_usd": 93906389.0,
+        "weight_pct": 24.5
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "ST STR ENERG ETF",
+        "issuer": "SELECT SECTOR SPDR TR",
+        "shares": 205946.0,
+        "value_usd": 12665679.0,
+        "weight_pct": 3.3
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 32511.0,
+        "value_usd": 8100116.0,
+        "weight_pct": 2.11
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 2319.0,
+        "value_usd": 1717269.0,
+        "weight_pct": 0.45
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1101.0,
+        "value_usd": 366568.0,
+        "weight_pct": 0.1
+      }
+    ],
+    "top_five_pct": 99.9,
+    "top_ten_pct": 100.0,
+    "hhi": 5451.09,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 9,
+      "increased_positions": 2,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001172661-25-004767"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001172661-26-003408"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001172661-26-005268"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 383244088.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001172661-26-005268",
+  "annualized_turnover_proxy_pct": null
+}

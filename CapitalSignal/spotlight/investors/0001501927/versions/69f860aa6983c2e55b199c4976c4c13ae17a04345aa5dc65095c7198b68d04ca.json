@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001501927",
+  "investor_name": "VK Services, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "Menlo Park",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-25-283005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-26-352292.txt",
+    "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-26-463543.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "69f860aa6983c2e55b199c4976c4c13ae17a04345aa5dc65095c7198b68d04ca",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "57b605e44037fa2777d71fb8edd1aac8635a48a8",
+    "6585039029932303879662f442dbab530dc5340a",
+    "daac8f26533bf72e4d9b033160998b7839ae4f9f"
+  ],
+  "generated_at": "2026-11-18T16:49:50.069195+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001193125-26-463543",
+    "source": "https://www.sec.gov/Archives/edgar/data/1501927/0001193125-26-463543.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 629551.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "92259N302",
+        "security_class": "COMMON STOCK",
+        "issuer": "VELO3D INC",
+        "shares": 57810.0,
+        "value_usd": 629551.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-283005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001193125-26-352292"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001193125-26-463543"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 629551.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-463543",
+  "annualized_turnover_proxy_pct": null
+}
