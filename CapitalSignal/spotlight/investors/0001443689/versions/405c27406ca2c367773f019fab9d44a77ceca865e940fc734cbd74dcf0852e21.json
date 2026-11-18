@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001443689",
+  "investor_name": "Senator Investment Group LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1443689/0001443689-25-000020.txt",
+    "https://www.sec.gov/Archives/edgar/data/1443689/0001443689-26-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1443689/0001443689-26-000015.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "405c27406ca2c367773f019fab9d44a77ceca865e940fc734cbd74dcf0852e21",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "0c5cd1109ea9601df9c48b6c3021bc469d5c2002",
+    "a8b601e3727638ce098a5e78742521a47ce76fe3",
+    "e84be829bc936a1f965e3389c95b48b629080559"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001443689-26-000015",
+    "source": "https://www.sec.gov/Archives/edgar/data/1443689/0001443689-26-000015.txt",
+    "distinct_positions": 62,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2641262767.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "PUT",
+        "issuer": "STATE STR SPDR S&P 500 ETF T",
+        "shares": 626000.0,
+        "value_usd": 477406380.0,
+        "weight_pct": 18.07
+      },
+      {
+        "cusip": "G2R11M108",
+        "security_class": "ORDINARY SHARES",
+        "issuer": "DPC HOLDINGS PLC",
+        "shares": 4873538.0,
+        "value_usd": 205955716.0,
+        "weight_pct": 7.8
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 473726.0,
+        "value_usd": 118028833.0,
+        "weight_pct": 4.47
+      },
+      {
+        "cusip": "910047109",
+        "security_class": "COM",
+        "issuer": "UNITED AIRLS HLDGS INC",
+        "shares": 975439.0,
+        "value_usd": 108224957.0,
+        "weight_pct": 4.1
+      },
+      {
+        "cusip": "00971T101",
+        "security_class": "COM",
+        "issuer": "AKAMAI TECHNOLOGIES INC",
+        "shares": 957776.0,
+        "value_usd": 101859478.0,
+        "weight_pct": 3.86
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 444154.0,
+        "value_usd": 101435891.0,
+        "weight_pct": 3.84
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 265788.0,
+        "value_usd": 95505602.0,
+        "weight_pct": 3.62
+      },
+      {
+        "cusip": "980745103",
+        "security_class": "COM",
+        "issuer": "WOODWARD INC",
+        "shares": 285964.0,
+        "value_usd": 93964911.0,
+        "weight_pct": 3.56
+      },
+      {
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 185658.0,
+        "value_usd": 84695323.0,
+        "weight_pct": 3.21
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 95480.0,
+        "value_usd": 69240186.0,
+        "weight_pct": 2.62
+      }
+    ],
+    "top_five_pct": 38.3,
+    "top_ten_pct": 55.14,
+    "hhi": 561.98,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 14,
+      "exited_positions": 13,
+      "increased_positions": 19,
+      "reduced_positions": 22
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001443689-25-000020"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001443689-26-000009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001443689-26-000015"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 2641262767.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001443689-26-000015",
+  "annualized_turnover_proxy_pct": null
+}

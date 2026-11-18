@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001649611",
+  "investor_name": "IDG China Capital Fund GP III Associates Ltd.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-10",
+  "city": "CENTRAL HONG KONG",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1649611/0001104659-26-092523.txt",
+    "https://www.sec.gov/Archives/edgar/data/1649611/0001104659-26-124938.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "17aafba6994f5b2c20d0436e99d937e86a11f5d4e26f95ae159c69492a12b807",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-10|||"
+  ],
+  "holdings_fingerprints": [
+    "8403be50414cf53fcbd79001917dd78d55368857",
+    "f10d3add887431e6109c684c014930bc21914146"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-10",
+    "accession": "0001104659-26-124938",
+    "source": "https://www.sec.gov/Archives/edgar/data/1649611/0001104659-26-124938.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 95740962.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "172573107",
+        "security_class": "COM CL A",
+        "issuer": "CIRCLE INTERNET GROUP INC",
+        "shares": 1161642.0,
+        "value_usd": 95452123.0,
+        "weight_pct": 99.7
+      },
+      {
+        "cusip": "94132V105",
+        "security_class": "ADS",
+        "issuer": "WATERDROP INC",
+        "shares": 283175.0,
+        "value_usd": 288839.0,
+        "weight_pct": 0.3
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9939.84,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001104659-26-092523"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-10",
+        "accession": "0001104659-26-124938"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 95740962.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-124938",
+  "annualized_turnover_proxy_pct": null
+}

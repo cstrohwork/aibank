@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0000776867",
+  "investor_name": "WHITE MOUNTAINS INSURANCE GROUP LTD",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "Hanover",
+  "state": "NH",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/776867/0001104659-25-110906.txt",
+    "https://www.sec.gov/Archives/edgar/data/776867/0001104659-26-094905.txt",
+    "https://www.sec.gov/Archives/edgar/data/776867/0001628280-26-073472.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "348c5222c71081c0fe40fd4d03e2aa88a414952edc5e1c39f8ddcd299535ebd8",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "0a55fae65799f361da3213c72c29d0dcb7c3579e",
+    "77ad2eac60e54ead4989a713b34a6f801dc87ca7",
+    "cbb649bc0ad1066252b739bc630021b8627c1646"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001628280-26-073472",
+    "source": "https://www.sec.gov/Archives/edgar/data/776867/0001628280-26-073472.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 374891321.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 267500.0,
+        "value_usd": 204003525.0,
+        "weight_pct": 54.42
+      },
+      {
+        "cusip": "58450V104",
+        "security_class": "CL A",
+        "issuer": "MEDIAALPHA INC",
+        "shares": 17856614.0,
+        "value_usd": 170887796.0,
+        "weight_pct": 45.58
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5039.01,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001104659-25-110906"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0001104659-26-094905"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001628280-26-073472"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 374891321.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001628280-26-073472",
+  "annualized_turnover_proxy_pct": null
+}

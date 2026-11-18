@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001787423",
+  "investor_name": "Madryn Asset Management, LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1787423/0001787423-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1787423/0001787423-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "dfb2b39590592a6aa8b3b84cdc86d658d4c6546db85993a8941fde19ff2d6158",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-19|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "4613927e3cb95efdbe2492e91318625af3510994",
+    "75f2939403b3d757c49d7129c58e2cd84fe0a8e2"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001787423-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1787423/0001787423-26-000004.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 55533620.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "64131A105",
+        "security_class": "COM",
+        "issuer": "NEURONETICS INC",
+        "shares": 18540488.0,
+        "value_usd": 43384742.0,
+        "weight_pct": 78.12
+      },
+      {
+        "cusip": "68170A108",
+        "security_class": "COM",
+        "issuer": "OMADA HEALTH INC",
+        "shares": 583800.0,
+        "value_usd": 12148878.0,
+        "weight_pct": 21.88
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6581.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-19",
+        "accession": "0001787423-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001787423-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 55533620.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001787423-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

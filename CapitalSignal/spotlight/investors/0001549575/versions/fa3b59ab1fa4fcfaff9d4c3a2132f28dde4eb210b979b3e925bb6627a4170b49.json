@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001549575",
+  "investor_name": "Dalal Street, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "WEST LAKE HILLS",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1549575/0001549575-25-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1549575/0001549575-26-000015.txt",
+    "https://www.sec.gov/Archives/edgar/data/1549575/0001549575-26-000023.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "fa3b59ab1fa4fcfaff9d4c3a2132f28dde4eb210b979b3e925bb6627a4170b49",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "998d8d3687007ce8dbf066c8fd750e3fafd01022",
+    "a5a3d05042aadcaadf4b5797c7751497cceea9d8",
+    "e305fcc5e88ad12b7ed1fb534a74e89422a58f0b"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001549575-26-000023",
+    "source": "https://www.sec.gov/Archives/edgar/data/1549575/0001549575-26-000023.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 362064212.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "93627C101",
+        "security_class": "COM",
+        "issuer": "WARRIOR MET COAL INC",
+        "shares": 1867295.0,
+        "value_usd": 164452671.0,
+        "weight_pct": 45.42
+      },
+      {
+        "cusip": "H8817H100",
+        "security_class": "REGISTERED SHS",
+        "issuer": "TRANSOCEAN LTD",
+        "shares": 28475305.0,
+        "value_usd": 149210598.0,
+        "weight_pct": 41.21
+      },
+      {
+        "cusip": "020764106",
+        "security_class": "COM",
+        "issuer": "ALPHA METALLURGICAL RESOUR I",
+        "shares": 170744.0,
+        "value_usd": 28722556.0,
+        "weight_pct": 7.93
+      },
+      {
+        "cusip": "48581R205",
+        "security_class": "SPONSORED ADS",
+        "issuer": "KASPI KZ JSC",
+        "shares": 209211.0,
+        "value_usd": 19678387.0,
+        "weight_pct": 5.44
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3853.88,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001549575-25-000012"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001549575-26-000015"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001549575-26-000023"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 362064212.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001549575-26-000023",
+  "annualized_turnover_proxy_pct": null
+}

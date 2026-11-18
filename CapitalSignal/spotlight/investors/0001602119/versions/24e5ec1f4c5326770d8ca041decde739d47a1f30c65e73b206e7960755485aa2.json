@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001602119",
+  "investor_name": "1060 Capital, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "DENVER",
+  "state": "CO",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1602119/0001602119-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1602119/0001602119-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1602119/0001602119-26-000005.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "24e5ec1f4c5326770d8ca041decde739d47a1f30c65e73b206e7960755485aa2",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "0a211dc6019f99bd227637924b6b211e868cdbba",
+    "3e3edd7829b8af86b3dcb9597acbbfdf768dfcf1",
+    "f4885ce5d2fe14b4d86ccc7901bad9f85aa07b66"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001602119-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1602119/0001602119-26-000005.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 6069150.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "387328107",
+        "security_class": "COM",
+        "issuer": "GRANITE CONSTR INC",
+        "shares": 45000.0,
+        "value_usd": 5215950.0,
+        "weight_pct": 85.94
+      },
+      {
+        "cusip": "535555106",
+        "security_class": "COM",
+        "issuer": "LINDSAY CORP",
+        "shares": 5000.0,
+        "value_usd": 559700.0,
+        "weight_pct": 9.22
+      },
+      {
+        "cusip": "90041L105",
+        "security_class": "COM",
+        "issuer": "TURNING PT BRANDS INC",
+        "shares": 5000.0,
+        "value_usd": 293500.0,
+        "weight_pct": 4.84
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7494.46,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 3,
+      "exited_positions": 10,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001602119-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001602119-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001602119-26-000005"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 6069150.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001602119-26-000005",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001918181",
+  "investor_name": "Saudi Central Bank",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "Riyadh",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1918181/0000947871-25-000986.txt",
+    "https://www.sec.gov/Archives/edgar/data/1918181/0000947871-26-000735.txt",
+    "https://www.sec.gov/Archives/edgar/data/1918181/0000947871-26-001016.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "aefa219af85657e1edb162bcb88cdbb0790ca330e666bc960e82d5ca68e23513",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-07-30|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "299b7e290bd508b1384480cc8f29b6fba9066c20",
+    "d9b2b4ab3483e680130803c4d2e0de2420b56895",
+    "e1f42035297c5ff620f1bd0153bd0eacdabd620e"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000947871-26-001016",
+    "source": "https://www.sec.gov/Archives/edgar/data/1918181/0000947871-26-001016.txt",
+    "distinct_positions": 491,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 9934744446.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORP",
+        "shares": 2354291.0,
+        "value_usd": 537672979.0,
+        "weight_pct": 5.41
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 524202.0,
+        "value_usd": 504878633.0,
+        "weight_pct": 5.08
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 1504059.0,
+        "value_usd": 500881728.0,
+        "weight_pct": 5.04
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 559758.0,
+        "value_usd": 372217292.0,
+        "weight_pct": 3.75
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 722673.0,
+        "value_usd": 370658982.0,
+        "weight_pct": 3.73
+      },
+      {
+        "cusip": "92189F676",
+        "security_class": "SEMICONDUCTR ETF",
+        "issuer": "VANECK SEMICONDUCTOR ETF",
+        "shares": 602006.0,
+        "value_usd": 338128710.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "81369Y506",
+        "security_class": "ST STR ENERG ETF",
+        "issuer": "STATE STREET ENERGY SELECT SEC",
+        "shares": 4321004.0,
+        "value_usd": 296896185.0,
+        "weight_pct": 2.99
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON.COM INC",
+        "shares": 991424.0,
+        "value_usd": 247013290.0,
+        "weight_pct": 2.49
+      },
+      {
+        "cusip": "69608A108",
+        "security_class": "CL A",
+        "issuer": "PALANTIR TECHNOLOGIES INC",
+        "shares": 1198634.0,
+        "value_usd": 235435690.0,
+        "weight_pct": 2.37
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES",
+        "shares": 367624.0,
+        "value_usd": 215800550.0,
+        "weight_pct": 2.17
+      }
+    ],
+    "top_five_pct": 23.01,
+    "top_ten_pct": 36.43,
+    "hhi": 187.08,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 12,
+      "exited_positions": 26,
+      "increased_positions": 459,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0000947871-25-000986"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-30",
+        "accession": "0000947871-26-000735"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000947871-26-001016"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 9934744446.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000947871-26-001016",
+  "annualized_turnover_proxy_pct": null
+}

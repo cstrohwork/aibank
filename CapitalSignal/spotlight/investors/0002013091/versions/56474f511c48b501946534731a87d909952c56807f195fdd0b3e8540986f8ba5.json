@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0002013091",
+  "investor_name": "Creekmur Asset Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "MORTON",
+  "state": "IL",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2013091/0002013091-25-000008.txt",
+    "https://www.sec.gov/Archives/edgar/data/2013091/0002013091-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2013091/0002013091-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "56474f511c48b501946534731a87d909952c56807f195fdd0b3e8540986f8ba5",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "0d05029a4e451bf51bccc8141b2ca4444897b329",
+    "387eda307c49612a3b99b84d053c95febc63ccf9",
+    "b3df6cc244acc20fceafab1b52f028ec99acb588"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0002013091-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2013091/0002013091-26-000006.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 2029649.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00287Y109",
+        "security_class": "EQUITY",
+        "issuer": "AbbVie Inc. Common Stock",
+        "shares": 1340.0,
+        "value_usd": 939068.0,
+        "weight_pct": 46.27
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "EQUITY",
+        "issuer": "Advanced Micro Devices, Inc. - Common Stock",
+        "shares": 2686.0,
+        "value_usd": 365399.0,
+        "weight_pct": 18.0
+      },
+      {
+        "cusip": "001055102",
+        "security_class": "EQUITY",
+        "issuer": "AFLAC Incorporated Common Stock",
+        "shares": 4836.0,
+        "value_usd": 341503.0,
+        "weight_pct": 16.83
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "EQUITY",
+        "issuer": "Alphabet Inc. - Class A Common Stock",
+        "shares": 4691.0,
+        "value_usd": 242799.0,
+        "weight_pct": 11.96
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "EQUITY",
+        "issuer": "Amazon.com, Inc. - Common Stock",
+        "shares": 1669.0,
+        "value_usd": 140880.0,
+        "weight_pct": 6.94
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 2939.18,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0002013091-25-000008"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0002013091-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0002013091-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 2029649.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002013091-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

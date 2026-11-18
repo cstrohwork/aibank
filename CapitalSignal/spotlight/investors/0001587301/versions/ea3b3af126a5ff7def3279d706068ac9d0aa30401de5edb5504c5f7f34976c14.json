@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001587301",
+  "investor_name": "Miramar Fiduciary Corp",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "RENO",
+  "state": "NV",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1587301/0001587301-25-000024.txt",
+    "https://www.sec.gov/Archives/edgar/data/1587301/0001587301-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1587301/0001587301-26-000007.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "ea3b3af126a5ff7def3279d706068ac9d0aa30401de5edb5504c5f7f34976c14",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-06|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "ab2b2ad53bf7d3957d99e5d8afeaa1a93ed13c89",
+    "d39f1ccd4b7c013d64872ee932242619f9b9c84a",
+    "e5ee19e86a22b1aeebc0e082e48b050d749246dd"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001587301-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1587301/0001587301-26-000007.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 109000617.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25434V799",
+        "security_class": "INTL CORE EQUITY",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 1622116.0,
+        "value_usd": 61007783.0,
+        "weight_pct": 55.97
+      },
+      {
+        "cusip": "25434V732",
+        "security_class": "EMERGING MKTS CO",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 692392.0,
+        "value_usd": 27501810.0,
+        "weight_pct": 25.23
+      },
+      {
+        "cusip": "25434V781",
+        "security_class": "INTL SMALL CAP V",
+        "issuer": "DIMENSIONAL ETF TRUST",
+        "shares": 337798.0,
+        "value_usd": 14623275.0,
+        "weight_pct": 13.42
+      },
+      {
+        "cusip": "78462F103",
+        "security_class": "TR UNIT",
+        "issuer": "SPDR S&P 500 ETF TR",
+        "shares": 4056.0,
+        "value_usd": 3093227.0,
+        "weight_pct": 2.84
+      },
+      {
+        "cusip": "811054402",
+        "security_class": "CL A NEW",
+        "issuer": "SCRIPPS E W CO OHIO",
+        "shares": 1067124.0,
+        "value_usd": 2774522.0,
+        "weight_pct": 2.55
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3963.77,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001587301-25-000024"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001587301-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001587301-26-000007"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 109000617.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001587301-26-000007",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001508236",
+  "investor_name": "Hauser Brothers GmbH",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "FREIBURG IM BREISGAU",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1508236/0001508236-25-000009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1508236/0001508236-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1508236/0001508236-26-000007.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "a9edffb047d96ea1770d3de119668587cb105eccd79357f8b1a3111aeb7ece0a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-17|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "64a86c53b2a404b342463cfd758fdb821db19aa8",
+    "8b298803db68293354dc01ee57abaabf4be3f6f2",
+    "b7c320f5b9f848feaa0f4eb746d1c6931052734d"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001508236-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1508236/0001508236-26-000007.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 59687478.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "87241L109",
+        "security_class": "COM",
+        "issuer": "TFI INTL INC",
+        "shares": 304024.0,
+        "value_usd": 36440317.0,
+        "weight_pct": 61.05
+      },
+      {
+        "cusip": "70450Y103",
+        "security_class": "COM",
+        "issuer": "PAYPAL HLDGS INC",
+        "shares": 153600.0,
+        "value_usd": 8068608.0,
+        "weight_pct": 13.52
+      },
+      {
+        "cusip": "911163103",
+        "security_class": "COM",
+        "issuer": "UNITED NAT FOODS INC",
+        "shares": 174815.0,
+        "value_usd": 7829964.0,
+        "weight_pct": 13.12
+      },
+      {
+        "cusip": "12008R107",
+        "security_class": "COM",
+        "issuer": "BUILDERS FIRSTSOURCE INC",
+        "shares": 128900.0,
+        "value_usd": 7348589.0,
+        "weight_pct": 12.31
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4233.74,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 2
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001508236-25-000009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-17",
+        "accession": "0001508236-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001508236-26-000007"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 59687478.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001508236-26-000007",
+  "annualized_turnover_proxy_pct": null
+}

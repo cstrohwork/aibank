@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001625292",
+  "investor_name": "Argent Trust Co",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-09",
+  "city": "NASHVILLE",
+  "state": "TN",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1625292/0001625292-25-000015.txt",
+    "https://www.sec.gov/Archives/edgar/data/1625292/0001625292-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1625292/0001625292-26-000010.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "9ac57a081e044f67891930793ae8fd31231dfd4496f33abb681419077f60ede9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-06|||",
+    "2026-09-30|2026-11-09|||"
+  ],
+  "holdings_fingerprints": [
+    "2043659ee05e5e9afbb85484010da15a1aa229b1",
+    "ea5364d3593756e8deb32a44c22259f6c8f07521",
+    "ebca5fc8e767b696decd8aade270b661e593f2ba"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-09",
+    "accession": "0001625292-26-000010",
+    "source": "https://www.sec.gov/Archives/edgar/data/1625292/0001625292-26-000010.txt",
+    "distinct_positions": 768,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3535074190.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COMMON STOCK",
+        "issuer": "APPLE INC",
+        "shares": 599885.0,
+        "value_usd": 199773705.0,
+        "weight_pct": 5.65
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COMMON STOCK",
+        "issuer": "MICROSOFT CORP",
+        "shares": 280163.0,
+        "value_usd": 143695696.0,
+        "weight_pct": 4.06
+      },
+      {
+        "cusip": "46625H100",
+        "security_class": "COMMON STOCK",
+        "issuer": "JPMORGAN CHASE & CO",
+        "shares": 286041.0,
+        "value_usd": 94630976.0,
+        "weight_pct": 2.68
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC",
+        "shares": 257037.0,
+        "value_usd": 88441298.0,
+        "weight_pct": 2.5
+      },
+      {
+        "cusip": "464287200",
+        "security_class": "ETF-EQUITY",
+        "issuer": "ISHARES",
+        "shares": 104880.0,
+        "value_usd": 80322383.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COMMON STOCK",
+        "issuer": "AMAZON COM INC",
+        "shares": 267065.0,
+        "value_usd": 66539305.0,
+        "weight_pct": 1.88
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COMMON STOCK",
+        "issuer": "NVIDIA CORP",
+        "shares": 238889.0,
+        "value_usd": 54557491.0,
+        "weight_pct": 1.54
+      },
+      {
+        "cusip": "02079K107",
+        "security_class": "COMMON STOCK",
+        "issuer": "ALPHABET INC",
+        "shares": 155563.0,
+        "value_usd": 53006545.0,
+        "weight_pct": 1.5
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COMMON STOCK",
+        "issuer": "ABBVIE INC",
+        "shares": 197550.0,
+        "value_usd": 51677134.0,
+        "weight_pct": 1.46
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COMMON STOCK",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 193315.0,
+        "value_usd": 51178227.0,
+        "weight_pct": 1.45
+      }
+    ],
+    "top_five_pct": 17.17,
+    "top_ten_pct": 25.0,
+    "hhi": 114.58,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 42,
+      "exited_positions": 43,
+      "increased_positions": 287,
+      "reduced_positions": 300
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0001625292-25-000015"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001625292-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-09",
+        "accession": "0001625292-26-000010"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 3535074190.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001625292-26-000010",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001556198",
+  "investor_name": "Parafestas Anastasios",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "BOSTON",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1556198/0000929638-25-004265.txt",
+    "https://www.sec.gov/Archives/edgar/data/1556198/0000929638-26-003009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1556198/0000929638-26-004284.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "a0a2bb7455347bd665a9b4dc73dfd26da58958a15b6a5d1739b20f0a45cb7678",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-12|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "47052cfe0d37f8fd9b0fc1fae1d190b1e6e37ad9",
+    "d25cff81196ca81d4bd124583628cdd1d678e898",
+    "e931cdff13c78449fd23e1a446ced4de5b45138c"
+  ],
+  "generated_at": "2026-11-18T16:55:25.788031+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0000929638-26-004284",
+    "source": "https://www.sec.gov/Archives/edgar/data/1556198/0000929638-26-004284.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 442.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "43538H103",
+        "security_class": "COM",
+        "issuer": "HOLLEY INC",
+        "shares": 166000.0,
+        "value_usd": 392.0,
+        "weight_pct": 88.69
+      },
+      {
+        "cusip": "073463309",
+        "security_class": "COM",
+        "issuer": "THE BEACHBODY COMPANY CL A",
+        "shares": 10531.0,
+        "value_usd": 50.0,
+        "weight_pct": 11.31
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 7993.49,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000929638-25-004265"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-12",
+        "accession": "0000929638-26-003009"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0000929638-26-004284"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 442.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000929638-26-004284",
+  "annualized_turnover_proxy_pct": null
+}
