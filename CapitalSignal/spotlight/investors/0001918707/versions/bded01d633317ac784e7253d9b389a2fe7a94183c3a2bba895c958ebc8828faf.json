@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001918707",
+  "investor_name": "Fortune 45 LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-14",
+  "city": "Gonzales",
+  "state": "LA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1918707/0001172661-25-004747.txt",
+    "https://www.sec.gov/Archives/edgar/data/1918707/0001172661-26-003085.txt",
+    "https://www.sec.gov/Archives/edgar/data/1918707/0001172661-26-004528.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "bded01d633317ac784e7253d9b389a2fe7a94183c3a2bba895c958ebc8828faf",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-05|||",
+    "2026-09-30|2026-10-14|||"
+  ],
+  "holdings_fingerprints": [
+    "21eba12a17aa3bb4ff82444cbe66ae1f5d323bcd",
+    "2d5f6d7dd8ede3c490110d46b5340ebc1e6707d1",
+    "c9ff39fcf27e0c7560f36bd34816303f072c57a5"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001172661-26-004528",
+    "source": "https://www.sec.gov/Archives/edgar/data/1918707/0001172661-26-004528.txt",
+    "distinct_positions": 35,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 246046712.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 130580.0,
+        "value_usd": 91519078.0,
+        "weight_pct": 37.2
+      },
+      {
+        "cusip": "46090E103",
+        "security_class": "UNIT SER 1",
+        "issuer": "INVESCO QQQ TR",
+        "shares": 103051.0,
+        "value_usd": 76234448.0,
+        "weight_pct": 30.98
+      },
+      {
+        "cusip": "78464A375",
+        "security_class": "ST INTER BD ETF",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 504547.0,
+        "value_usd": 16286772.0,
+        "weight_pct": 6.62
+      },
+      {
+        "cusip": "92206C870",
+        "security_class": "INT-TERM CORP",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 196617.0,
+        "value_usd": 15397063.0,
+        "weight_pct": 6.26
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 21375.0,
+        "value_usd": 4881434.0,
+        "weight_pct": 1.98
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 14032.0,
+        "value_usd": 4672999.0,
+        "weight_pct": 1.9
+      },
+      {
+        "cusip": "78467X109",
+        "security_class": "UT SER 1",
+        "issuer": "STATE STR SPDR DOW JONES IND",
+        "shares": 8268.0,
+        "value_usd": 4204690.0,
+        "weight_pct": 1.71
+      },
+      {
+        "cusip": "921910816",
+        "security_class": "MRNGSTR MEGA CAP",
+        "issuer": "VANGUARD WORLD FD",
+        "shares": 36642.0,
+        "value_usd": 3394877.0,
+        "weight_pct": 1.38
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 7602.0,
+        "value_usd": 2615631.0,
+        "weight_pct": 1.06
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 10227.0,
+        "value_usd": 2548057.0,
+        "weight_pct": 1.04
+      }
+    ],
+    "top_five_pct": 83.04,
+    "top_ten_pct": 90.13,
+    "hhi": 2445.85,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 5,
+      "exited_positions": 6,
+      "increased_positions": 24,
+      "reduced_positions": 6
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001172661-25-004747"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-05",
+        "accession": "0001172661-26-003085"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001172661-26-004528"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 246046712.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001172661-26-004528",
+  "annualized_turnover_proxy_pct": null
+}

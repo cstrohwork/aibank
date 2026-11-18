@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001811472",
+  "investor_name": "I.G.Y. Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-22",
+  "city": "LONDON",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1811472/0000919574-25-006808.txt",
+    "https://www.sec.gov/Archives/edgar/data/1811472/0000919574-26-004670.txt",
+    "https://www.sec.gov/Archives/edgar/data/1811472/0000919574-26-007132.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "9c4f0bda77ef54e9628391a31dac487400c6db196ea3e7e4934bd64aa16d080d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-07-29|||",
+    "2026-09-30|2026-10-22|||"
+  ],
+  "holdings_fingerprints": [
+    "4cb9df6c5033d2d256e8bb5e0f14db75f67e9f55",
+    "851c7f7a090830d5003499cd07c5d597a694d0fd",
+    "f1be703624ee0ead5aa304991ad4928587e95fa3"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0000919574-26-007132",
+    "source": "https://www.sec.gov/Archives/edgar/data/1811472/0000919574-26-007132.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 247597894.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 454258.0,
+        "value_usd": 113173838.0,
+        "weight_pct": 45.71
+      },
+      {
+        "cusip": "22160K105",
+        "security_class": "COM",
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 94326.0,
+        "value_usd": 85868731.0,
+        "weight_pct": 34.68
+      },
+      {
+        "cusip": "084670108",
+        "security_class": "CL A",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 65.0,
+        "value_usd": 48555325.0,
+        "weight_pct": 19.61
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3676.61,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000919574-25-006808"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-29",
+        "accession": "0000919574-26-004670"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0000919574-26-007132"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 247597894.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-007132",
+  "annualized_turnover_proxy_pct": null
+}

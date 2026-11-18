@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001929071",
+  "investor_name": "Finer Wealth Management, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-16",
+  "city": "SALEM",
+  "state": "MA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1929071/0001929071-25-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1929071/0001929071-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1929071/0001929071-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "30fad8be1b35f859f6ebf74e10846c9f20d25d266ebf4b17fa3ae1eeb5df57dc",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-04|||",
+    "2026-06-30|2026-08-03|||",
+    "2026-09-30|2026-10-16|||"
+  ],
+  "holdings_fingerprints": [
+    "31d84f3761cdaa4365ceee180a4ea7669f27757e",
+    "6178bbaf4955bf66ca3518bea9f2efc8403d7bac",
+    "df8a5489e2d6bd29806750d40b533455623e07d1"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-16",
+    "accession": "0001929071-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1929071/0001929071-26-000006.txt",
+    "distinct_positions": 92,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 252859253.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 65615.0,
+        "value_usd": 21851122.0,
+        "weight_pct": 8.64
+      },
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 80029.0,
+        "value_usd": 18277012.0,
+        "weight_pct": 7.23
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 32016.0,
+        "value_usd": 16420840.0,
+        "weight_pct": 6.49
+      },
+      {
+        "cusip": "532457108",
+        "security_class": "COM",
+        "issuer": "ELI LILLY & CO",
+        "shares": 12299.0,
+        "value_usd": 14230489.0,
+        "weight_pct": 5.63
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 20793.0,
+        "value_usd": 12720225.0,
+        "weight_pct": 5.03
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 33990.0,
+        "value_usd": 11695317.0,
+        "weight_pct": 4.63
+      },
+      {
+        "cusip": "023135106",
+        "security_class": "COM",
+        "issuer": "AMAZON COM INC",
+        "shares": 43487.0,
+        "value_usd": 10834855.0,
+        "weight_pct": 4.28
+      },
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "VANGUARD INDEX FDS",
+        "shares": 14566.0,
+        "value_usd": 10209068.0,
+        "weight_pct": 4.04
+      },
+      {
+        "cusip": "30303M102",
+        "security_class": "CL A",
+        "issuer": "META PLATFORMS INC",
+        "shares": 13690.0,
+        "value_usd": 9927604.0,
+        "weight_pct": 3.93
+      },
+      {
+        "cusip": "149123101",
+        "security_class": "COM",
+        "issuer": "CATERPILLAR INC",
+        "shares": 9489.0,
+        "value_usd": 7693583.0,
+        "weight_pct": 3.04
+      }
+    ],
+    "top_five_pct": 33.02,
+    "top_ten_pct": 52.94,
+    "hhi": 363.17,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 7,
+      "exited_positions": 3,
+      "increased_positions": 32,
+      "reduced_positions": 42
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0001929071-25-000002"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-03",
+        "accession": "0001929071-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-16",
+        "accession": "0001929071-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 252859253.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001929071-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001970005",
+  "investor_name": "State Insurance Fund",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-22",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1970005/0001214659-25-014974.txt",
+    "https://www.sec.gov/Archives/edgar/data/1970005/0001214659-26-008804.txt",
+    "https://www.sec.gov/Archives/edgar/data/1970005/0001214659-26-013117.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "fac758e1301ef7b5334be2b015b7c65bc7251d8e40da2091c32d1065253caa86",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-15|||",
+    "2026-06-30|2026-07-22|||",
+    "2026-09-30|2026-10-22|||"
+  ],
+  "holdings_fingerprints": [
+    "3ce8b7a5972ecd1316673f7c685146c66d8f8e7a",
+    "6734cd7a4798b0866c89932b48b6aaf28580ddd6",
+    "6d98b5d1ae092c280e08ce5180a3f39eadaec14a"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-22",
+    "accession": "0001214659-26-013117",
+    "source": "https://www.sec.gov/Archives/edgar/data/1970005/0001214659-26-013117.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 255306353.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "61774R205",
+        "security_class": "ETF",
+        "issuer": "CALVERT US LARGE CAP CORE RESPONSI",
+        "shares": 2697658.0,
+        "value_usd": 255306353.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001214659-25-014974"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001214659-26-008804"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-22",
+        "accession": "0001214659-26-013117"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 255306353.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001214659-26-013117",
+  "annualized_turnover_proxy_pct": null
+}

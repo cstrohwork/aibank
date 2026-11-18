@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0002096569",
+  "investor_name": "Sinvest Investments II Ltd.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-23",
+  "city": "Nassau, New Providence",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2096569/0000950157-26-000867.txt",
+    "https://www.sec.gov/Archives/edgar/data/2096569/0000950157-26-001115.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "78e50a97f61395535c3ee56c69ea0c980ab11353ef310ff035ee3de97121eb33",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-10-23|||"
+  ],
+  "holdings_fingerprints": [
+    "1d09b158fd010aa1fc09bd4f444f31b82a6ca3d6",
+    "f86a7d85ae3edf111a51963d61412455a86f88b7"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-23",
+    "accession": "0000950157-26-001115",
+    "source": "https://www.sec.gov/Archives/edgar/data/2096569/0000950157-26-001115.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 356053462.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "H5919C104",
+        "security_class": "NAMEN AKT A",
+        "issuer": "ON HLDG AG",
+        "shares": 8400000.0,
+        "value_usd": 284724000.0,
+        "weight_pct": 79.97
+      },
+      {
+        "cusip": "76131D103",
+        "security_class": "COM",
+        "issuer": "RESTAURANT BRANDS INTL INC",
+        "shares": 1000000.0,
+        "value_usd": 71329462.0,
+        "weight_pct": 20.03
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6796.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0000950157-26-000867"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-23",
+        "accession": "0000950157-26-001115"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 356053462.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000950157-26-001115",
+  "annualized_turnover_proxy_pct": null
+}

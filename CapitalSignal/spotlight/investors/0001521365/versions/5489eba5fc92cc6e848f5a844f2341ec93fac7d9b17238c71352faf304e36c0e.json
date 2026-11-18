@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001521365",
+  "investor_name": "Glencore plc",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-14",
+  "city": "BAAR",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1521365/0001104659-25-104589.txt",
+    "https://www.sec.gov/Archives/edgar/data/1521365/0001104659-26-083347.txt",
+    "https://www.sec.gov/Archives/edgar/data/1521365/0001104659-26-115789.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "5489eba5fc92cc6e848f5a844f2341ec93fac7d9b17238c71352faf304e36c0e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-31|||",
+    "2026-06-30|2026-07-14|||",
+    "2026-09-30|2026-10-14|||"
+  ],
+  "holdings_fingerprints": [
+    "0f83720639af9cce933cf485bc9802deb77a0053",
+    "9a702129d2b5351dc6759bba2cf4939654d5dc04",
+    "c421fe85cd0d6c263013e83ecb40766fefcfd67c"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-14",
+    "accession": "0001104659-26-115789",
+    "source": "https://www.sec.gov/Archives/edgar/data/1521365/0001104659-26-115789.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 4576884174.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "H11356104",
+        "security_class": "COM SHS",
+        "issuer": "Bunge Global SA",
+        "shares": 32806103.0,
+        "value_usd": 3508612716.0,
+        "weight_pct": 76.66
+      },
+      {
+        "cusip": "156431108",
+        "security_class": "COM",
+        "issuer": "Century Aluminum Co.",
+        "shares": 29690702.0,
+        "value_usd": 1068271458.0,
+        "weight_pct": 23.34
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 6421.45,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-31",
+        "accession": "0001104659-25-104589"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-14",
+        "accession": "0001104659-26-083347"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-14",
+        "accession": "0001104659-26-115789"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 4576884174.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-115789",
+  "annualized_turnover_proxy_pct": null
+}

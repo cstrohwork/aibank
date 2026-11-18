@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001765388",
+  "investor_name": "Metropolis Capital Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-20",
+  "city": "AMERSHAM",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1765388/0001765388-25-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1765388/0001765388-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1765388/0001765388-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c4c06012f940528dbb3a80dd3b0465897c8ce31c72ce9d32027958b884209bdd",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-20|||",
+    "2026-06-30|2026-07-22|||",
+    "2026-09-30|2026-10-20|||"
+  ],
+  "holdings_fingerprints": [
+    "06ed660db38e776cb5654d87f951af4a28fc7fcd",
+    "7587c5977f9b1f5c13381baaba9177f06f104bbd",
+    "901c976ab076aa7795d3c511d36a97e42b639609"
+  ],
+  "generated_at": "2026-11-18T17:09:20.280323+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-20",
+    "accession": "0001765388-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1765388/0001765388-26-000006.txt",
+    "distinct_positions": 16,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3629522142.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 1087100.0,
+        "value_usd": 557573590.0,
+        "weight_pct": 15.36
+      },
+      {
+        "cusip": "40412C101",
+        "security_class": "COM",
+        "issuer": "HCA HEALTHCARE INC",
+        "shares": 882944.0,
+        "value_usd": 376787523.0,
+        "weight_pct": 10.38
+      },
+      {
+        "cusip": "09857L108",
+        "security_class": "COM",
+        "issuer": "BOOKING HLDGS INC",
+        "shares": 2273817.0,
+        "value_usd": 370427527.0,
+        "weight_pct": 10.21
+      },
+      {
+        "cusip": "254687106",
+        "security_class": "COM",
+        "issuer": "DISNEY WALT CO",
+        "shares": 3492181.0,
+        "value_usd": 366329787.0,
+        "weight_pct": 10.09
+      },
+      {
+        "cusip": "57636Q104",
+        "security_class": "CL A",
+        "issuer": "MASTERCARD INCORPORATED",
+        "shares": 632813.0,
+        "value_usd": 348977385.0,
+        "weight_pct": 9.61
+      },
+      {
+        "cusip": "866966104",
+        "security_class": "SHS",
+        "issuer": "SUNBELT RENTALS HOLDINGS INC",
+        "shares": 3644072.0,
+        "value_usd": 270053102.0,
+        "weight_pct": 7.44
+      },
+      {
+        "cusip": "65249B109",
+        "security_class": "CL A",
+        "issuer": "NEWS CORP NEW",
+        "shares": 8566187.0,
+        "value_usd": 245421258.0,
+        "weight_pct": 6.76
+      },
+      {
+        "cusip": "783513203",
+        "security_class": "SPONSORED ADR",
+        "issuer": "RYANAIR HOLDINGS PLC",
+        "shares": 4342710.0,
+        "value_usd": 238892477.0,
+        "weight_pct": 6.58
+      },
+      {
+        "cusip": "20030N101",
+        "security_class": "CL A",
+        "issuer": "COMCAST CORP NEW",
+        "shares": 9305174.0,
+        "value_usd": 202480586.0,
+        "weight_pct": 5.58
+      },
+      {
+        "cusip": "857477103",
+        "security_class": "COM",
+        "issuer": "STATE STR CORP",
+        "shares": 784340.0,
+        "value_usd": 136937921.0,
+        "weight_pct": 3.77
+      }
+    ],
+    "top_five_pct": 55.66,
+    "top_ten_pct": 85.79,
+    "hhi": 874.79,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 3,
+      "reduced_positions": 13
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-20",
+        "accession": "0001765388-25-000007"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-22",
+        "accession": "0001765388-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-20",
+        "accession": "0001765388-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 3629522142.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001765388-26-000006",
+  "annualized_turnover_proxy_pct": null
+}
