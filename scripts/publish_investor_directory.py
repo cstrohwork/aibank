@@ -42,10 +42,14 @@ def run(batch=2000):
                 if entry.get('report_date') == p.get('latest_report_date')
             }
             prior_accession = str(prior.get('validated_accession') or '').replace('-', '')
+            # Multiple accessions for one reporting period can include an
+            # amendment. Until filing precedence is reconciled, do not reuse
+            # a prior accession's monetary value for queue prioritization.
+            # Keep the manager eligible and fall back to filing recency.
             if (prior.get('latest_report_date') == p.get('latest_report_date')
                     and prior.get('evidence_status') == 'normalized_usd_validated_not_cover_page_reconciled'
                     and prior_accession
-                    and prior_accession in candidate_accessions
+                    and candidate_accessions == {prior_accession}
                     and prior.get('source_filings')
                     and candidate_sources.intersection(prior['source_filings'])):
                 value = float(prior.get('reported_13f_value_usd'))
