@@ -25,12 +25,26 @@ def run(batch=2000):
     def esc(v):
         return html.escape(str(v if v is not None else 'Unknown'), quote=True)
     def rank(p):
+        # A builder-supplied 13F sum is not verified merely because it is
+        # numeric. Prefer an existing published, normalized-USD validated
+        # snapshot, and only when its reporting period matches this candidate.
+        # Never label this exposure as institution-wide assets under management.
+        cik = str(p.get('manager_cik') or '').zfill(10)
+        snapshot = OUT / cik / 'profile.json'
         try:
-            value = float(p.get('reported_13f_value_usd') or 0)
-        except (ValueError, TypeError):
-            value = 0
-        verified = p.get('reported_13f_value_verified') is True and p.get('reported_13f_value_source')
-        return (bool(verified), value if verified else 0)
+            prior = json.loads(snapshot.read_text()) if snapshot.exists() else {}
+            if (prior.get('latest_report_date') == p.get('latest_report_date')
+                    and prior.get('evidence_status') == 'normalized_usd_validated_not_cover_page_reconciled'
+                    and prior.get('validated_accession')
+                    and prior.get('source_filings')):
+                value = float(prior.get('reported_13f_value_usd'))
+                if 0 <= value < float('inf'):
+                    return (True, value)
+        except (OSError, ValueError, TypeError, OverflowError):
+            pass
+        # New managers with no validated published snapshot are ranked by
+        # filing recency rather than an unverified estimated portfolio value.
+        return (False, 0)
     index_path = DATA / '13f/index.json'
     filing_dates = {}
     entries = []
