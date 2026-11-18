@@ -138,7 +138,14 @@ def main():
             for row in submission_rows(sub,get,start):
                 if row.get("form") in ("NPORT-P","NPORT-P/A") and row.get("filingDate","")>=start:
                     eligible.append((row["filingDate"],row["accessionNumber"]))
-            for filing,accession in sorted(eligible):
+            # Reserve a quarter of the bounded batch for oldest missing filings,
+            # while prioritizing recent disclosures and amendments for the rest.
+            missing = sorted((row for row in eligible if row[1] not in known), reverse=True)
+            reserve = max(1, budget // 4) if budget > 1 else 0
+            newest = missing[:max(0, budget - reserve)]
+            oldest = list(reversed(missing))[:reserve]
+            ordered = list(dict.fromkeys(newest + oldest))
+            for filing,accession in ordered:
                 if accession in known or processed>=budget:continue
                 processed+=1
                 try:
