@@ -148,10 +148,11 @@ def main():
             # Reserve a quarter of the bounded batch for oldest missing filings,
             # while prioritizing recent disclosures and amendments for the rest.
             missing = sorted((row for row in eligible if row[1] not in known), reverse=True)
-            reserve = max(1, budget // 4) if budget > 1 else 0
-            newest = missing[:max(0, budget - reserve)]
-            oldest = list(reversed(missing))[:reserve]
-            ordered = list(dict.fromkeys(newest + oldest))[:per_registrant]
+            # A per-registrant cap of one previously meant the oldest
+            # reservation was always truncated away. Alternate whole bounded
+            # cycles so historical filings receive a real processing slot.
+            historical_cycle = int(checkpoint.get("selection_cycle", 0)) % 4 == 3
+            ordered = (list(reversed(missing)) if historical_cycle else missing)[:per_registrant]
             for filing,accession in ordered:
                 if accession in known or processed>=budget:continue
                 processed+=1
@@ -200,7 +201,8 @@ def main():
     selected=list(latest.values())
     (OUT/"index.json").write_text(json.dumps({"funds":selected,"filings_parsed":len(index),"registrants_attempted":ciks,"errors":errors[:30],"limitations":"Bounded SEC N-PORT sample, not complete market coverage. N-PX is proxy voting, not a holdings inventory. No fund-to-13F manager attribution inferred."},separators=(",",":")))
     checkpoint_path.write_text(json.dumps({"processed":sorted(known),
-        "next_registrant_offset": (cursor + 1) % max(1, len(ciks))},separators=(",",":")))
+        "next_registrant_offset": (cursor + 1) % max(1, len(ciks)),
+        "selection_cycle": int(checkpoint.get("selection_cycle", 0)) + 1},separators=(",",":")))
     # Fund-level ownership index: securities -> disclosed fund positions.
     owners={}
     for f in selected:
