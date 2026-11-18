@@ -41,7 +41,9 @@ for key, entries in by_period.items():
         ambiguous.add(key)
         continue
     # Same accession can occur twice in a cache; require consistent source.
-    if len({str(e.get("file") or "") for e in winners})!=1:
+    if len({(str(e.get("file") or ""), str(e.get("source") or "")) for e in winners})!=1:
+        # Identical accessions with conflicting cache files or source URLs
+        # cannot establish one auditable holdings snapshot.
         ambiguous.add(key)
         continue
     selected[key]=winners[0]
