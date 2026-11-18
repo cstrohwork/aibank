@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/refresh-sec.yml'
+      - 'scripts/refresh_funds.py'
   # The five-minute supervisor reserves a daily slot. A second independent
   # timer could replace this workflow's single pending concurrency slot.
 permissions:
