@@ -10,11 +10,22 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1760444/0001760444-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1760444/0001760444-26-000001.txt",
     "https://www.sec.gov/Archives/edgar/data/1760444/0001760444-26-000003.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "adaebbb54bdce589078c51879f5957e755158e6a8b40f23639d222892cde8fd0",
-  "generated_at": "2026-11-15T21:21:24.592669+00:00",
+  "source_fingerprint": "3e1b0244c7a488d9b6ffaa55211d2e1e9375b8b87bf62206b8659d0aab099c2a",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-20|||",
+    "2025-12-31|2026-03-24|||",
+    "2026-06-30|2026-08-17|||"
+  ],
+  "holdings_fingerprints": [
+    "359aed242b05fe1cd9b50438326cc7c63ec7eefd",
+    "36815e2523a9e27a5787614f532a4b23bc47d3f8",
+    "8f64fc9d20ad46d4a22d11753f564e1db34f2239"
+  ],
+  "generated_at": "2026-11-18T13:47:26.690062+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-06-30",
@@ -112,17 +123,22 @@
     "top_ten_pct": 38.17,
     "hhi": 244.04,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 27,
-      "exited_positions": 23,
-      "increased_positions": 50,
-      "reduced_positions": 66
+      "previous_period": "2025-12-31",
+      "new_positions": 18,
+      "exited_positions": 13,
+      "increased_positions": 47,
+      "reduced_positions": 72
     },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-20",
         "accession": "0001760444-25-000006"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-03-24",
+        "accession": "0001760444-26-000001"
       },
       {
         "report_date": "2026-06-30",
