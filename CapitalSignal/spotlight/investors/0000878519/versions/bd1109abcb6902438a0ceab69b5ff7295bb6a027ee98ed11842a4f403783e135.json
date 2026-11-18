@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0000878519",
+  "investor_name": "LANDESBANK BADEN-WUERTTEMBERG",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-30",
+  "city": "STUTTGART BADEN-WUERTTEMBERG",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/878519/0000947871-26-000740.txt",
+    "https://www.sec.gov/Archives/edgar/data/878519/0000947871-26-000972.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "bd1109abcb6902438a0ceab69b5ff7295bb6a027ee98ed11842a4f403783e135",
+  "accession_fingerprints": [
+    "2026-06-30|2026-08-04|||",
+    "2026-09-30|2026-10-30|||"
+  ],
+  "holdings_fingerprints": [
+    "3c89163bd683ce71362a39c3902fa5e7ac489e96",
+    "4309194c63aa128aadb5c7d0273aaace504e5560"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0000947871-26-000972",
+    "source": "https://www.sec.gov/Archives/edgar/data/878519/0000947871-26-000972.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 59292848.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "47215P106",
+        "security_class": "SPON ADS CL A",
+        "issuer": "JD.COM INC",
+        "shares": 1500000.0,
+        "value_usd": 39787500.0,
+        "weight_pct": 67.1
+      },
+      {
+        "cusip": "D18190898",
+        "security_class": "NAMEN AKT",
+        "issuer": "DEUTSCHE BK AG",
+        "shares": 504648.0,
+        "value_usd": 18261139.0,
+        "weight_pct": 30.8
+      },
+      {
+        "cusip": "N82405106",
+        "security_class": "SHS",
+        "issuer": "STELLANTIS N.V",
+        "shares": 280000.0,
+        "value_usd": 1244209.0,
+        "weight_pct": 2.1
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5455.8,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 3,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0000947871-26-000740"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0000947871-26-000972"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 59292848.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000947871-26-000972",
+  "annualized_turnover_proxy_pct": null
+}

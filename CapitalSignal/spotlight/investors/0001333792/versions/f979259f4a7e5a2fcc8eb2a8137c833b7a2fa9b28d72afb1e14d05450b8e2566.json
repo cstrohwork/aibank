@@ -1,0 +1,154 @@
+{
+  "manager_cik": "0001333792",
+  "investor_name": "Sky Investment Group LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-30",
+  "city": "HARTFORD",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1333792/0001333792-25-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1333792/0001333792-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1333792/0001941040-26-000786.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "f979259f4a7e5a2fcc8eb2a8137c833b7a2fa9b28d72afb1e14d05450b8e2566",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-09|||",
+    "2026-06-30|2026-07-20|||",
+    "2026-09-30|2026-10-30|||"
+  ],
+  "holdings_fingerprints": [
+    "0396974d74f13504a0af8b13b311353447f89be2",
+    "086210c8e63d7c82deb977121be455c4b6bc051e",
+    "d928138179ea9fcffb5407fdb56c09580c6a687f"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-30",
+    "accession": "0001941040-26-000786",
+    "source": "https://www.sec.gov/Archives/edgar/data/1333792/0001941040-26-000786.txt",
+    "distinct_positions": 265,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 930503452.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "67066G104",
+        "security_class": "COM",
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 287769.0,
+        "value_usd": 65720676.0,
+        "weight_pct": 7.06
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 108142.0,
+        "value_usd": 55466254.0,
+        "weight_pct": 5.96
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 121519.0,
+        "value_usd": 41812258.0,
+        "weight_pct": 4.49
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 73166.0,
+        "value_usd": 24365601.0,
+        "weight_pct": 2.62
+      },
+      {
+        "cusip": "75513E101",
+        "security_class": "COM",
+        "issuer": "RTX CORPORATION",
+        "shares": 115836.0,
+        "value_usd": 21504897.0,
+        "weight_pct": 2.31
+      },
+      {
+        "cusip": "478160104",
+        "security_class": "COM",
+        "issuer": "JOHNSON & JOHNSON",
+        "shares": 79789.0,
+        "value_usd": 21123221.0,
+        "weight_pct": 2.27
+      },
+      {
+        "cusip": "00287Y109",
+        "security_class": "COM",
+        "issuer": "ABBVIE INC",
+        "shares": 76449.0,
+        "value_usd": 19998275.0,
+        "weight_pct": 2.15
+      },
+      {
+        "cusip": "084670702",
+        "security_class": "CL B NEW",
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "shares": 35809.0,
+        "value_usd": 17831092.0,
+        "weight_pct": 1.92
+      },
+      {
+        "cusip": "92206C102",
+        "security_class": "SHORT TERM TREAS",
+        "issuer": "VANGUARD SCOTTSDALE FDS",
+        "shares": 301156.0,
+        "value_usd": 17334539.0,
+        "weight_pct": 1.86
+      },
+      {
+        "cusip": "718172109",
+        "security_class": "COM",
+        "issuer": "PHILIP MORRIS INTL INC",
+        "shares": 90464.0,
+        "value_usd": 17262330.0,
+        "weight_pct": 1.86
+      }
+    ],
+    "top_five_pct": 22.45,
+    "top_ten_pct": 32.5,
+    "hhi": 189.51,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 166,
+      "exited_positions": 36,
+      "increased_positions": 77,
+      "reduced_positions": 16
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-09",
+        "accession": "0001333792-25-000006"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-20",
+        "accession": "0001333792-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-30",
+        "accession": "0001941040-26-000786"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 930503452.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001941040-26-000786",
+  "annualized_turnover_proxy_pct": null
+}

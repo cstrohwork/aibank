@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001688539",
+  "investor_name": "Cabana LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-04",
+  "city": "Fayetteville",
+  "state": "AR",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1688539/0001688539-25-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1688539/0001688539-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/1688539/0001688539-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "783bffac6021a662242e81aac06210ccc4124d1040bd59c649cbd542f80e5f9e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-15|||",
+    "2026-06-30|2026-07-10|||",
+    "2026-09-30|2026-11-04|||"
+  ],
+  "holdings_fingerprints": [
+    "4eeb725c1e244087bbb3ae044ee81b79a0f4bd45",
+    "734f250709e1495859f57615b0a21f6b33304c99",
+    "d490d511457200af0a6e9c13dca3d85af3df6fd4"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-04",
+    "accession": "0001688539-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1688539/0001688539-26-000006.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 15635752.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "30151E715",
+        "security_class": "ETC CABANA TARGT",
+        "issuer": "EXCHANGE LISTED FDS TR",
+        "shares": 198977.0,
+        "value_usd": 5586796.0,
+        "weight_pct": 35.73
+      },
+      {
+        "cusip": "30151E624",
+        "security_class": "ETC CABANA TARGT",
+        "issuer": "EXCHANGE LISTED FDS TR",
+        "shares": 196831.0,
+        "value_usd": 5456883.0,
+        "weight_pct": 34.9
+      },
+      {
+        "cusip": "30151E723",
+        "security_class": "ETC CABANA TARGT",
+        "issuer": "EXCHANGE LISTED FDS TR",
+        "shares": 131728.0,
+        "value_usd": 3215243.0,
+        "weight_pct": 20.56
+      },
+      {
+        "cusip": "464288679",
+        "security_class": "TRUST ISHARE 0-1",
+        "issuer": "ISHARES TR",
+        "shares": 12479.0,
+        "value_usd": 1376830.0,
+        "weight_pct": 8.81
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 2995.1,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 4,
+      "exited_positions": 12,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-15",
+        "accession": "0001688539-25-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-10",
+        "accession": "0001688539-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-04",
+        "accession": "0001688539-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 15635752.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001688539-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

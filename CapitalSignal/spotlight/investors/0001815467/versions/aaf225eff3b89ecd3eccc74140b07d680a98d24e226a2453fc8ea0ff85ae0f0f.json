@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001815467",
+  "investor_name": "Great Mountain Partners LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-05",
+  "city": "NEW HAVEN",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1815467/0001104659-25-111009.txt",
+    "https://www.sec.gov/Archives/edgar/data/1815467/0001815467-26-000002.txt",
+    "https://www.sec.gov/Archives/edgar/data/1815467/0001815467-26-000004.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "aaf225eff3b89ecd3eccc74140b07d680a98d24e226a2453fc8ea0ff85ae0f0f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-06|||",
+    "2026-09-30|2026-11-05|||"
+  ],
+  "holdings_fingerprints": [
+    "13a70c8e4461e37b2173b83db68753b29f7d4220",
+    "565aeea1dca54bafb6721577ec8e158f3bb6b4f2",
+    "a28dccb079b62fc342af81983874120b1b1fb81a"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001815467-26-000004",
+    "source": "https://www.sec.gov/Archives/edgar/data/1815467/0001815467-26-000004.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 3205199.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "644393100",
+        "security_class": "COM CL A",
+        "issuer": "NEW FORTRESS ENERGY INC",
+        "shares": 511196.0,
+        "value_usd": 3205199.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-13",
+        "accession": "0001104659-25-111009"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-06",
+        "accession": "0001815467-26-000002"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001815467-26-000004"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 3205199.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001815467-26-000004",
+  "annualized_turnover_proxy_pct": null
+}

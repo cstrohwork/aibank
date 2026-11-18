@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0000315157",
+  "investor_name": "ROBERT WOOD JOHNSON FOUNDATION",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-29",
+  "city": "PRINCETON",
+  "state": "NJ",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/315157/0000904454-25-000554.txt",
+    "https://www.sec.gov/Archives/edgar/data/315157/0000904454-26-000421.txt",
+    "https://www.sec.gov/Archives/edgar/data/315157/0000904454-26-000563.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "937c168bd334368360d0f8901f403bb7703c95b7ede0687eb0ce5f1282e5b202",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-04|||",
+    "2026-06-30|2026-07-28|||",
+    "2026-09-30|2026-10-29|||"
+  ],
+  "holdings_fingerprints": [
+    "86cb5da4aa1627e3e05b632e33ae356164ec5808",
+    "9a5bd59844522934b05e9a0ea3f080ccfa5627a1",
+    "d2d6ab6e428b6cc147b4932e91acbea1f28e3aea"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-29",
+    "accession": "0000904454-26-000563",
+    "source": "https://www.sec.gov/Archives/edgar/data/315157/0000904454-26-000563.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 47409247.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "69121K104",
+        "security_class": "COM",
+        "issuer": "BLUE OWL CAPITAL CORP.",
+        "shares": 4218864.0,
+        "value_usd": 44255883.0,
+        "weight_pct": 93.35
+      },
+      {
+        "cusip": "55173P109",
+        "security_class": "COM SHS",
+        "issuer": "LYNTRIS INC",
+        "shares": 255540.0,
+        "value_usd": 3153364.0,
+        "weight_pct": 6.65
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 8758.21,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-04",
+        "accession": "0000904454-25-000554"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-28",
+        "accession": "0000904454-26-000421"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-29",
+        "accession": "0000904454-26-000563"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 47409247.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000904454-26-000563",
+  "annualized_turnover_proxy_pct": null
+}

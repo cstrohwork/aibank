@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001621157",
+  "investor_name": "Lexington Partners L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-06",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1621157/0001193125-25-269738.txt",
+    "https://www.sec.gov/Archives/edgar/data/1621157/0001193125-26-340415.txt",
+    "https://www.sec.gov/Archives/edgar/data/1621157/0001193125-26-450896.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "bdd2df95dd70ba9920bcd71b46b8a39d45e5c75a8a8cc999b9eec43eda50c733",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-06|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-06|||"
+  ],
+  "holdings_fingerprints": [
+    "617f6f0d1fae4ddd7b6b596a244116bfe9e4f1c2",
+    "d25244191fa42e73e0f87f0e6460eda3be6b7303",
+    "e7d0e0730a18cf2c9c0d823673b5c5e2785a4217"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001193125-26-450896",
+    "source": "https://www.sec.gov/Archives/edgar/data/1621157/0001193125-26-450896.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 58875385.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "485924104",
+        "security_class": "COMMON STOCK",
+        "issuer": "KARMAN HLDGS INC",
+        "shares": 1294867.0,
+        "value_usd": 41979588.0,
+        "weight_pct": 71.3
+      },
+      {
+        "cusip": "55173P109",
+        "security_class": "COM SHS",
+        "issuer": "LYNTRIS INC",
+        "shares": 957240.0,
+        "value_usd": 11812342.0,
+        "weight_pct": 20.06
+      },
+      {
+        "cusip": "62878D100",
+        "security_class": "COMMON STOCK",
+        "issuer": "N-ABLE INC",
+        "shares": 1239867.0,
+        "value_usd": 5083455.0,
+        "weight_pct": 8.63
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5561.12,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-06",
+        "accession": "0001193125-25-269738"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001193125-26-340415"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001193125-26-450896"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 58875385.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-450896",
+  "annualized_turnover_proxy_pct": null
+}

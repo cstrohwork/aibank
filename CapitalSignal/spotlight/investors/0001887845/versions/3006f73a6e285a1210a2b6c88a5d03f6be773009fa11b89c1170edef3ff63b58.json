@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001887845",
+  "investor_name": "V3 Holding Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-05",
+  "city": "Grand Cayman",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1887845/0001123292-25-000651.txt",
+    "https://www.sec.gov/Archives/edgar/data/1887845/0001123292-26-001094.txt",
+    "https://www.sec.gov/Archives/edgar/data/1887845/0001123292-26-001464.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "3006f73a6e285a1210a2b6c88a5d03f6be773009fa11b89c1170edef3ff63b58",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-05|||"
+  ],
+  "holdings_fingerprints": [
+    "66a455e3976f5a656688a5e65166ae3cc55d6828",
+    "743cf9d748fb01d0fdc2184e8a4c47099355edef",
+    "a70132a114a63cc387dd830d81e76cc69a72f19e"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001123292-26-001464",
+    "source": "https://www.sec.gov/Archives/edgar/data/1887845/0001123292-26-001464.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 894014999.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "17253J106",
+        "security_class": "COM",
+        "issuer": "CIPHER DIGITAL INC",
+        "shares": 56511694.0,
+        "value_usd": 894014999.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001123292-25-000651"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-11",
+        "accession": "0001123292-26-001094"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001123292-26-001464"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 894014999.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001123292-26-001464",
+  "annualized_turnover_proxy_pct": null
+}

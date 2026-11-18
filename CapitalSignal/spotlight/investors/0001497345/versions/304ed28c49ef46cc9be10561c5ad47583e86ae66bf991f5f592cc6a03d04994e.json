@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001497345",
+  "investor_name": "General Motors Holdings LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-05",
+  "city": "Detroit",
+  "state": "MI",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1497345/0001497345-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1497345/0001497345-26-000010.txt",
+    "https://www.sec.gov/Archives/edgar/data/1497345/0001497345-26-000013.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "304ed28c49ef46cc9be10561c5ad47583e86ae66bf991f5f592cc6a03d04994e",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-07-31|||",
+    "2026-09-30|2026-11-05|||"
+  ],
+  "holdings_fingerprints": [
+    "1ecf1dc7ba97ce24e98d09ce4abad156837199ad",
+    "eea87c638b2e6f39e310a701c0aad4efc290abd3",
+    "ffa7a41100af85f3823458ecd33eed9a9401bba5"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-05",
+    "accession": "0001497345-26-000013",
+    "source": "https://www.sec.gov/Archives/edgar/data/1497345/0001497345-26-000013.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 56681282.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "53681J103",
+        "security_class": "COM",
+        "issuer": "LITHIUM AMERICAS CORP.",
+        "shares": 15002243.0,
+        "value_usd": 39455899.0,
+        "weight_pct": 69.61
+      },
+      {
+        "cusip": "66979W842",
+        "security_class": "COM",
+        "issuer": "NOUVEAU MONDE GRAPHITE INC.",
+        "shares": 12500000.0,
+        "value_usd": 15000000.0,
+        "weight_pct": 26.46
+      },
+      {
+        "cusip": "78397Q109",
+        "security_class": "COM CL A",
+        "issuer": "SES AI CORP",
+        "shares": 2921950.0,
+        "value_usd": 1753170.0,
+        "weight_pct": 3.09
+      },
+      {
+        "cusip": "09354A100",
+        "security_class": "COM",
+        "issuer": "BLINK CHARGING CO.",
+        "shares": 874468.0,
+        "value_usd": 472213.0,
+        "weight_pct": 0.83
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5556.16,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001497345-25-000005"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-31",
+        "accession": "0001497345-26-000010"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-05",
+        "accession": "0001497345-26-000013"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 56681282.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001497345-26-000013",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001697865",
+  "investor_name": "E-L Financial Corp Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-06",
+  "city": "Toronto",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1697865/0001213900-25-109083.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697865/0001213900-26-081095.txt",
+    "https://www.sec.gov/Archives/edgar/data/1697865/0001213900-26-116637.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "b2625ef5693d1ab63dd99d8f9d011072c84a5fa49102df2bbf35b178343c5405",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-07-24|||",
+    "2026-09-30|2026-11-06|||"
+  ],
+  "holdings_fingerprints": [
+    "85a23ac9a643cbe47b881b9e19799a3a6e02fa4b",
+    "b26245a2076b58840b85b4f29f596dd38446c30d",
+    "cb5dbc859a5b43032a2d96e305cdacdec3122811"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001213900-26-116637",
+    "source": "https://www.sec.gov/Archives/edgar/data/1697865/0001213900-26-116637.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1238683854.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922908363",
+        "security_class": "S&P 500 ETF SHS",
+        "issuer": "Vanguard Index FDS",
+        "shares": 1245421.0,
+        "value_usd": 1238683854.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0001213900-25-109083"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-24",
+        "accession": "0001213900-26-081095"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001213900-26-116637"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1238683854.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001213900-26-116637",
+  "annualized_turnover_proxy_pct": null
+}

@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001219573",
+  "investor_name": "Singapore Technologies Telemedia Pte Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-06",
+  "city": "Singapore",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1219573/0001193125-25-275983.txt",
+    "https://www.sec.gov/Archives/edgar/data/1219573/0001193125-26-339094.txt",
+    "https://www.sec.gov/Archives/edgar/data/1219573/0001193125-26-450658.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "ddcee6c8410fc638d46d38e8de462619a0d5dadad972c991baed56e96c41c26c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-06|||"
+  ],
+  "holdings_fingerprints": [
+    "30f7bd68d36d14c355ce3b7bc60dfb0818d92cd8",
+    "c51d15252e5faef21469365cdd3293bf8c571440",
+    "d98c3fe3b0f911c86dce6fa2c0b9336e66bc1fe9"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0001193125-26-450658",
+    "source": "https://www.sec.gov/Archives/edgar/data/1219573/0001193125-26-450658.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 307168286.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "36165L108",
+        "security_class": "SPONSORED ADS",
+        "issuer": "GDS HLDGS LTD",
+        "shares": 9835680.0,
+        "value_usd": 307168286.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0001193125-25-275983"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-07",
+        "accession": "0001193125-26-339094"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0001193125-26-450658"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 307168286.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-450658",
+  "annualized_turnover_proxy_pct": null
+}

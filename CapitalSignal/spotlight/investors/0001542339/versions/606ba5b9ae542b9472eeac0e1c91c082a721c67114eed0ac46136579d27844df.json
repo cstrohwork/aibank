@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001542339",
+  "investor_name": "Essex Woodlands Management, Inc.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-06",
+  "city": "THE WOODLANDS",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1542339/0000908834-25-000324.txt",
+    "https://www.sec.gov/Archives/edgar/data/1542339/0000908834-26-000375.txt",
+    "https://www.sec.gov/Archives/edgar/data/1542339/0000908834-26-000507.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "606ba5b9ae542b9472eeac0e1c91c082a721c67114eed0ac46136579d27844df",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-08-04|||",
+    "2026-09-30|2026-11-06|||"
+  ],
+  "holdings_fingerprints": [
+    "bb2c61636a603b4dde10589dc620f3a46b75feae",
+    "c1afde9aa5900c5b9899faa076fe26aec1604784",
+    "d319efab06709382cdd06592f014122f596838ab"
+  ],
+  "generated_at": "2026-11-18T17:01:51.729990+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-06",
+    "accession": "0000908834-26-000507",
+    "source": "https://www.sec.gov/Archives/edgar/data/1542339/0000908834-26-000507.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 323147884.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "09075A108",
+        "security_class": "COM CL A",
+        "issuer": "BIOVENTUS INC",
+        "shares": 13021324.0,
+        "value_usd": 177480646.0,
+        "weight_pct": 54.92
+      },
+      {
+        "cusip": "602496101",
+        "security_class": "COM",
+        "issuer": "MIMEDX GROUP INC",
+        "shares": 28195249.0,
+        "value_usd": 131389860.0,
+        "weight_pct": 40.66
+      },
+      {
+        "cusip": "872381108",
+        "security_class": "COM",
+        "issuer": "TELA BIO INC",
+        "shares": 7714709.0,
+        "value_usd": 8871915.0,
+        "weight_pct": 2.75
+      },
+      {
+        "cusip": "30233G209",
+        "security_class": "COM NEW",
+        "issuer": "EYEPOINT PHARMACEUTICALS INC",
+        "shares": 1084857.0,
+        "value_usd": 3547482.0,
+        "weight_pct": 1.1
+      },
+      {
+        "cusip": "58468P206",
+        "security_class": "COM NEW",
+        "issuer": "MEDICINOVA INC",
+        "shares": 1105941.0,
+        "value_usd": 1857981.0,
+        "weight_pct": 0.57
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4678.73,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-12",
+        "accession": "0000908834-25-000324"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-04",
+        "accession": "0000908834-26-000375"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-06",
+        "accession": "0000908834-26-000507"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 323147884.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000908834-26-000507",
+  "annualized_turnover_proxy_pct": null
+}
