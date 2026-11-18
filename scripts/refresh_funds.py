@@ -110,14 +110,14 @@ def main():
     # A registrant CIK is not evidence of its ultimate investment adviser.
     seed_ciks = [x.strip().zfill(10) for x in os.getenv(
         "SEC_FUND_CIKS", "0001100663,0000036405,0000225322"
-    ).split(",") if re.fullmatch(r"\\d{1,10}", x.strip())]
+    ).split(",") if re.fullmatch(r"\d{1,10}", x.strip())]
     observed_ciks = set()
     for catalogue in (OUT / "history_index.json", OUT / "index.json"):
         if not catalogue.exists():
             continue
         for record in json.loads(catalogue.read_text()).get("funds", []):
             raw_cik = str(record.get("registrant_cik") or "").strip()
-            if re.fullmatch(r"\\d{1,10}", raw_cik):
+            if re.fullmatch(r"\d{1,10}", raw_cik):
                 observed_ciks.add(raw_cik.zfill(10))
     ciks = list(dict.fromkeys(seed_ciks + sorted(observed_ciks)))
     from sec_history import submission_rows
