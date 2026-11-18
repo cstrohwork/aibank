@@ -2,14 +2,36 @@
 """Build a bounded, sourced fund-level holdings database from SEC N-PORT-P.
 N-PX is voting activity, not a complete positions statement.
 """
-import os,json,re,time,math,pathlib,urllib.request,xml.etree.ElementTree as ET
+import os,json,re,time,math,pathlib,urllib.request,urllib.error,xml.etree.ElementTree as ET
 from fund_ownership_index import write_ownership_index
 import datetime as dt
 ROOT=pathlib.Path(__file__).resolve().parents[1]/"CapitalSignal"/"data"
 OUT=ROOT/"funds";OUT.mkdir(parents=True,exist_ok=True)
 UA=os.getenv("SEC_USER_AGENT","CapitalSignal Research hello@ainvestmentbank.ai")
+# Share a conservative request cadence across submission, index and XML requests.
+# Retry transient SEC service interruptions without losing the persisted cursor.
+_last_request_at = 0.0
 def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":UA,"Accept-Encoding":"identity"}),timeout=45) as r:return r.read()
+    global _last_request_at
+    for attempt in range(4):
+        wait = max(0.0, 0.25 - (time.monotonic() - _last_request_at))
+        if wait:
+            time.sleep(wait)
+        _last_request_at = time.monotonic()
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
+            with urllib.request.urlopen(request, timeout=45) as response:
+                return response.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 3:
+                raise
+            retry_after = exc.headers.get("Retry-After", "")
+            delay = min(30.0, float(retry_after)) if retry_after.isdigit() else min(30.0, 2 ** attempt)
+            time.sleep(delay)
+        except (TimeoutError, urllib.error.URLError):
+            if attempt == 3:
+                raise
+            time.sleep(min(30.0, 2 ** attempt))
 def local(t):return t.rsplit("}",1)[-1].lower()
 def val(n,*names):
     wanted={x.lower() for x in names}
