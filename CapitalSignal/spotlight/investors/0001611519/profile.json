@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001611519",
   "investor_name": "PARUS FINANCE (UK) Ltd",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-07-21",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "LONDON",
   "state": null,
   "country": null,
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1611519/0001611519-25-000006.txt",
-    "https://www.sec.gov/Archives/edgar/data/1611519/0001611519-26-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/1611519/0001611519-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1611519/0001611519-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "983afb89feece7869efcbdd6a5d279555f2e440bd01f937c2858db57351698f7",
-  "generated_at": "2026-11-16T05:23:08.772502+00:00",
+  "source_fingerprint": "711aa4c6962b08133668ca988a05fc54aed83e0a1813217ecc34cd4fc11e0b4f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-12|||",
+    "2026-06-30|2026-07-21|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "019144f344f9ab52b6fc187cc7b84f97486bb418",
+    "24c2bb54b62881ddbe8c8ab2634664dafc2e7771",
+    "9aeceb6b4a0ba203d59a246b211099b62f1c600b"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-07-21",
-    "accession": "0001611519-26-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/1611519/0001611519-26-000005.txt",
-    "distinct_positions": 37,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001611519-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1611519/0001611519-26-000006.txt",
+    "distinct_positions": 31,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 383131077.0,
+    "reported_long_equity_value_usd": 436686121.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 128691.0,
-        "value_usd": 45990303.0,
-        "weight_pct": 12.0
-      },
-      {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 218223.0,
-        "value_usd": 43664240.0,
-        "weight_pct": 11.4
-      },
-      {
-        "cusip": "595112103",
-        "security_class": "COM",
-        "issuer": "MICRON TECHNOLOGY INC",
-        "shares": 31113.0,
-        "value_usd": 35913425.0,
-        "weight_pct": 9.37
+        "shares": 220917.0,
+        "value_usd": 50453024.0,
+        "weight_pct": 11.55
       },
       {
         "cusip": "30303M102",
         "security_class": "CL A",
         "issuer": "META PLATFORMS INC",
-        "shares": 63267.0,
-        "value_usd": 35637668.0,
-        "weight_pct": 9.3
+        "shares": 66333.0,
+        "value_usd": 48103365.0,
+        "weight_pct": 11.02
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 129274.0,
+        "value_usd": 44480598.0,
+        "weight_pct": 10.19
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 63548.0,
+        "value_usd": 32593769.0,
+        "weight_pct": 7.46
+      },
+      {
+        "cusip": "595112103",
+        "security_class": "COM",
+        "issuer": "MICRON TECHNOLOGY INC",
+        "shares": 29150.0,
+        "value_usd": 31047956.0,
+        "weight_pct": 7.11
       },
       {
         "cusip": "11135F101",
         "security_class": "COM",
         "issuer": "BROADCOM INC",
-        "shares": 81561.0,
-        "value_usd": 30809668.0,
-        "weight_pct": 8.04
-      },
-      {
-        "cusip": "92826C839",
-        "security_class": "COM CL A",
-        "issuer": "VISA INC",
-        "shares": 71238.0,
-        "value_usd": 24441045.0,
-        "weight_pct": 6.38
-      },
-      {
-        "cusip": "87165B103",
-        "security_class": "COM",
-        "issuer": "SYNCHRONY FINANCIAL",
-        "shares": 319639.0,
-        "value_usd": 24308546.0,
-        "weight_pct": 6.34
+        "shares": 85405.0,
+        "value_usd": 29993382.0,
+        "weight_pct": 6.87
       },
       {
         "cusip": "01609W102",
         "security_class": "SPONSORED ADS",
         "issuer": "ALIBABA GROUP HLDG LTD",
-        "shares": 203764.0,
-        "value_usd": 19557269.0,
-        "weight_pct": 5.1
+        "shares": 246394.0,
+        "value_usd": 26497211.0,
+        "weight_pct": 6.07
+      },
+      {
+        "cusip": "92826C839",
+        "security_class": "COM CL A",
+        "issuer": "VISA INC",
+        "shares": 70421.0,
+        "value_usd": 25304378.0,
+        "weight_pct": 5.79
+      },
+      {
+        "cusip": "87165B103",
+        "security_class": "COM",
+        "issuer": "SYNCHRONY FINANCIAL",
+        "shares": 326109.0,
+        "value_usd": 23143956.0,
+        "weight_pct": 5.3
       },
       {
         "cusip": "68389X105",
         "security_class": "COM",
         "issuer": "ORACLE CORP",
-        "shares": 131660.0,
-        "value_usd": 19294773.0,
-        "weight_pct": 5.04
-      },
-      {
-        "cusip": "458140100",
-        "security_class": "COM",
-        "issuer": "INTEL CORP",
-        "shares": 152810.0,
-        "value_usd": 17850176.0,
-        "weight_pct": 4.66
+        "shares": 140098.0,
+        "value_usd": 19235455.0,
+        "weight_pct": 4.4
       }
     ],
-    "top_five_pct": 50.12,
-    "top_ten_pct": 77.64,
-    "hhi": 705.57,
+    "top_five_pct": 47.33,
+    "top_ten_pct": 75.76,
+    "hhi": 685.98,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 9,
-      "exited_positions": 2,
-      "increased_positions": 11,
-      "reduced_positions": 17
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 7,
+      "increased_positions": 20,
+      "reduced_positions": 7
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-07-21",
         "accession": "0001611519-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001611519-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 383131077.0,
+  "reported_13f_value_usd": 436686121.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001611519-26-000005",
+  "validated_accession": "0001611519-26-000006",
   "annualized_turnover_proxy_pct": null
 }

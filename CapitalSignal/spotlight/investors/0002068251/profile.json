@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002068251",
   "investor_name": "Gullane Capital, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-13",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "JACKSONVILLE",
   "state": "FL",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2068251/0002068251-25-000004.txt",
-    "https://www.sec.gov/Archives/edgar/data/2068251/0002068251-26-000004.txt"
+    "https://www.sec.gov/Archives/edgar/data/2068251/0002068251-26-000004.txt",
+    "https://www.sec.gov/Archives/edgar/data/2068251/0002068251-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "25bc30038ba562d200452d9dfba141cf2fd99f936a7c0f18714f54adbc3b5af9",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "1b7b9910ac31033069e9dfa15483636d182421d8e8fe8caa5325180a4949a8fe",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "52c6d3fae0fe06063ce6b1e56d101c69604d7d07",
+    "7c54e805191f09a6fa94484e3cc5266cdbc35884",
+    "ad50083f3d7d2947bafa9dbd40ed1d6da7e55cd5"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-13",
-    "accession": "0002068251-26-000004",
-    "source": "https://www.sec.gov/Archives/edgar/data/2068251/0002068251-26-000004.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0002068251-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2068251/0002068251-26-000006.txt",
     "distinct_positions": 4,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 59141130.0,
+    "reported_long_equity_value_usd": 1373847.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,44 +42,44 @@
         "cusip": "21874A106",
         "security_class": "COM",
         "issuer": "CORE SCIENTIFIC INC CL A",
-        "shares": 2162036.0,
-        "value_usd": 55326501.0,
-        "weight_pct": 93.55
+        "shares": 21469657.0,
+        "value_usd": 1343533.0,
+        "weight_pct": 97.79
       },
       {
         "cusip": "21874A114",
         "security_class": "W EXP 01/23/202",
         "issuer": "CORE SCIENTIFIC INC NEW WT",
-        "shares": 141057.0,
-        "value_usd": 2651872.0,
-        "weight_pct": 4.48
+        "shares": 214201.0,
+        "value_usd": 23082.0,
+        "weight_pct": 1.68
       },
       {
         "cusip": "69608A108",
         "security_class": "CL A",
         "issuer": "PALANTIR TECHNOLOGIES INC CL A",
-        "shares": 5232.0,
-        "value_usd": 610417.0,
-        "weight_pct": 1.03
+        "shares": 978646.0,
+        "value_usd": 5232.0,
+        "weight_pct": 0.38
       },
       {
         "cusip": "009805522",
         "security_class": "COM",
         "issuer": "NEBIUS GROUP NV",
-        "shares": 2000.0,
-        "value_usd": 552340.0,
-        "weight_pct": 0.93
+        "shares": 471760.0,
+        "value_usd": 2000.0,
+        "weight_pct": 0.15
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 8773.64,
+    "hhi": 9566.56,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
-      "exited_positions": 2,
-      "increased_positions": 1,
-      "reduced_positions": 1
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 4,
+      "reduced_positions": 0
     },
     "timeline": [
       {
@@ -80,11 +91,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-13",
         "accession": "0002068251-26-000004"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0002068251-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 59141130.0,
+  "reported_13f_value_usd": 1373847.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002068251-26-000004",
+  "validated_accession": "0002068251-26-000006",
   "annualized_turnover_proxy_pct": null
 }

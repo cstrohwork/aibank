@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001960212",
   "investor_name": "JDM Financial Group LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-18",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "AUSTIN",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1960212/0001960212-25-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1960212/0001960212-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1960212/0001960212-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1960212/0001960212-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "93d63a09ff629e1f45d97bf1559a345a751f4b972830f56ec30afa3736904a88",
-  "generated_at": "2026-11-15T13:36:01.471928+00:00",
+  "source_fingerprint": "a04149f9fd296bad632fc0124788163ce884efa2c40a38d9e40cae91a64fd386",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-21|||",
+    "2026-06-30|2026-08-18|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "9dda920280a7ea4e007b60d3bb6468aca31cf9e7",
+    "d16412781a66bc6f42778c234c6104b15e253a70",
+    "dc36f3c2ae021cd3273908e009f601b4d521d480"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-18",
-    "accession": "0001960212-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1960212/0001960212-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001960212-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1960212/0001960212-26-000005.txt",
     "distinct_positions": 332,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 292902852.0,
+    "reported_long_equity_value_usd": 306056193.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "09661T107",
         "security_class": "ETF",
         "issuer": "BNY MELLON US LARGE CAP CORE EQUITY ETF",
-        "shares": 343702.0,
-        "value_usd": 34485741.0,
-        "weight_pct": 11.77
+        "shares": 1025774.0,
+        "value_usd": 35671864.0,
+        "weight_pct": 11.66
       },
       {
         "cusip": "78463X889",
         "security_class": "ETF",
         "issuer": "STATE STREET SPDR PORTFOLIO DEVELOPED WORLD EX-US ETF",
-        "shares": 884654.0,
-        "value_usd": 32455641.0,
-        "weight_pct": 11.08
+        "shares": 1184730.0,
+        "value_usd": 33426965.0,
+        "weight_pct": 10.92
       },
       {
         "cusip": "09789C788",
         "security_class": "ETF",
         "issuer": "BONDBLOXX BLOOMBERG SIX MONTH TARGET DURATION US TREASURY ETF",
-        "shares": 498806.0,
-        "value_usd": 25089893.0,
-        "weight_pct": 8.57
+        "shares": 774013.0,
+        "value_usd": 24732537.0,
+        "weight_pct": 8.08
       },
       {
         "cusip": "46436E718",
         "security_class": "ETF",
         "issuer": "ISHARES 0-3 MONTH TREASURY BOND ETF",
-        "shares": 274586.0,
-        "value_usd": 22541223.0,
-        "weight_pct": 7.7
+        "shares": 279709.0,
+        "value_usd": 23012419.0,
+        "weight_pct": 7.52
       },
       {
         "cusip": "922908363",
         "security_class": "ETF",
         "issuer": "VANGUARD S&P 500 ETF",
-        "shares": 340560.0,
-        "value_usd": 19859088.0,
-        "weight_pct": 6.78
+        "shares": 346257.0,
+        "value_usd": 19560875.0,
+        "weight_pct": 6.39
       },
       {
         "cusip": "464287200",
         "security_class": "ETF",
         "issuer": "ISHARES S&P 500 INDEX",
-        "shares": 20687.0,
-        "value_usd": 15491162.0,
-        "weight_pct": 5.29
-      },
-      {
-        "cusip": "922908751",
-        "security_class": "ETF",
-        "issuer": "VANGUARD SMALL-CAP ETF",
-        "shares": 120569.0,
-        "value_usd": 13575430.0,
-        "weight_pct": 4.63
+        "shares": 73684.0,
+        "value_usd": 15733202.0,
+        "weight_pct": 5.14
       },
       {
         "cusip": "922908629",
         "security_class": "ETF",
         "issuer": "VANGUARD MID CAP",
-        "shares": 229896.0,
-        "value_usd": 13172090.0,
-        "weight_pct": 4.5
+        "shares": 268606.0,
+        "value_usd": 12971153.0,
+        "weight_pct": 4.24
       },
       {
         "cusip": "78463X509",
         "security_class": "ETF",
         "issuer": "STATE STREET SPDR PORTFOLIO EMERGING MARKETS ETF",
-        "shares": 337825.0,
-        "value_usd": 12787928.0,
-        "weight_pct": 4.37
+        "shares": 357279.0,
+        "value_usd": 12952911.0,
+        "weight_pct": 4.23
       },
       {
-        "cusip": "922908553",
+        "cusip": "922908751",
         "security_class": "ETF",
-        "issuer": "VANGUARD REIT INDEX ETF",
-        "shares": 163751.0,
-        "value_usd": 10986144.0,
-        "weight_pct": 3.75
+        "issuer": "VANGUARD MORNINGSTAR SMALL-CAP ETF",
+        "shares": 152944.0,
+        "value_usd": 12885563.0,
+        "weight_pct": 4.21
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "ETF",
+        "issuer": "VANGUARD FTSE DEVELOPED MARKETS ETF",
+        "shares": 319736.0,
+        "value_usd": 12345678.0,
+        "weight_pct": 4.03
       }
     ],
-    "top_five_pct": 45.9,
-    "top_ten_pct": 68.43,
-    "hhi": 579.55,
+    "top_five_pct": 44.57,
+    "top_ten_pct": 66.42,
+    "hhi": 568.89,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 119,
-      "exited_positions": 67,
+      "previous_period": "2026-06-30",
+      "new_positions": 11,
+      "exited_positions": 11,
       "increased_positions": 49,
-      "reduced_positions": 57
+      "reduced_positions": 16
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-18",
         "accession": "0001960212-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001960212-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 292902852.0,
+  "reported_13f_value_usd": 306056193.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001960212-26-000003",
+  "validated_accession": "0001960212-26-000005",
   "annualized_turnover_proxy_pct": null
 }

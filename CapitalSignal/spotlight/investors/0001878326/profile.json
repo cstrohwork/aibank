@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001878326",
   "investor_name": "Delos Wealth Advisors, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1878326/0001878326-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1878326/0001878326-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1878326/0001878326-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1878326/0001878326-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "fb429e4410b726809453830df21b5bda4b2debf59138bc6f28b78d2f5a881215",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "2bfe0e74314f4db46890393d1fd4a43b6edd93e6aa0728c012e1d7849dcac618",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "57d03425182bf3e8ff87fd078dbcaa76fd42fdbe",
+    "99f38f29ae6446666dd38969c842560d494c5f3c",
+    "b596c7650fd9336c4361751297c49ee33c12d683"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001878326-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1878326/0001878326-26-000003.txt",
-    "distinct_positions": 295,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001878326-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1878326/0001878326-26-000006.txt",
+    "distinct_positions": 323,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 194602572.0,
+    "reported_long_equity_value_usd": 193271249.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -31,92 +42,92 @@
         "cusip": "78468R523",
         "security_class": "ST STR BL 12 ETF",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 127056.0,
-        "value_usd": 12626826.0,
-        "weight_pct": 6.49
+        "shares": 121184.0,
+        "value_usd": 12038419.0,
+        "weight_pct": 6.23
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 29466.0,
-        "value_usd": 8526282.0,
-        "weight_pct": 4.38
-      },
-      {
-        "cusip": "33734X184",
-        "security_class": "UTILITIES ALPH",
-        "issuer": "FIRST TR EXCHANGE-TRADED FD",
-        "shares": 169859.0,
-        "value_usd": 8380844.0,
-        "weight_pct": 4.31
+        "shares": 29373.0,
+        "value_usd": 9781797.0,
+        "weight_pct": 5.06
       },
       {
         "cusip": "09789C721",
         "security_class": "IR M TAXAWARE",
         "issuer": "BONDBLOXX ETF TRUST",
-        "shares": 158765.0,
-        "value_usd": 8055737.0,
-        "weight_pct": 4.14
+        "shares": 170570.0,
+        "value_usd": 8502915.0,
+        "weight_pct": 4.4
+      },
+      {
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 15560.0,
+        "value_usd": 7980562.0,
+        "weight_pct": 4.13
       },
       {
         "cusip": "78463V107",
         "security_class": "GOLD SHS",
         "issuer": "SPDR GOLD TR",
-        "shares": 19728.0,
-        "value_usd": 7267401.0,
-        "weight_pct": 3.73
+        "shares": 20295.0,
+        "value_usd": 7729148.0,
+        "weight_pct": 4.0
       },
       {
-        "cusip": "931142103",
-        "security_class": "COM",
-        "issuer": "WALMART INC",
-        "shares": 56329.0,
-        "value_usd": 6379823.0,
-        "weight_pct": 3.28
+        "cusip": "33734X184",
+        "security_class": "UTILITIES ALPH",
+        "issuer": "FIRST TR EXCHANGE-TRADED FD",
+        "shares": 174314.0,
+        "value_usd": 7655871.0,
+        "weight_pct": 3.96
       },
       {
         "cusip": "008474108",
         "security_class": "COM",
         "issuer": "AGNICO EAGLE MINES LTD",
-        "shares": 40088.0,
-        "value_usd": 6218852.0,
-        "weight_pct": 3.2
+        "shares": 39320.0,
+        "value_usd": 7206177.0,
+        "weight_pct": 3.73
       },
       {
         "cusip": "81369Y209",
         "security_class": "ST STR CARE ETF",
         "issuer": "SELECT SECTOR SPDR TR",
-        "shares": 38756.0,
-        "value_usd": 6149027.0,
-        "weight_pct": 3.16
+        "shares": 39122.0,
+        "value_usd": 6588928.0,
+        "weight_pct": 3.41
       },
       {
-        "cusip": "46432F339",
-        "security_class": "MSCI USA QLT FCT",
-        "issuer": "ISHARES TR",
-        "shares": 26878.0,
-        "value_usd": 5897840.0,
-        "weight_pct": 3.03
+        "cusip": "33939L506",
+        "security_class": "NRTRN TR IBOXX 3",
+        "issuer": "FLEXSHARES TR",
+        "shares": 271027.0,
+        "value_usd": 6294602.0,
+        "weight_pct": 3.26
       },
       {
         "cusip": "46641Q761",
         "security_class": "US QUALTY FCTR",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 81484.0,
-        "value_usd": 5889664.0,
-        "weight_pct": 3.03
+        "shares": 82152.0,
+        "value_usd": 6062818.0,
+        "weight_pct": 3.14
       }
     ],
-    "top_five_pct": 23.05,
-    "top_ten_pct": 38.74,
-    "hhi": 261.31,
+    "top_five_pct": 23.82,
+    "top_ten_pct": 41.31,
+    "hhi": 273.55,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 127,
-      "exited_positions": 113,
-      "increased_positions": 78,
-      "reduced_positions": 46
+      "previous_period": "2026-06-30",
+      "new_positions": 46,
+      "exited_positions": 18,
+      "increased_positions": 65,
+      "reduced_positions": 48
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001878326-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001878326-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 194602572.0,
+  "reported_13f_value_usd": 193271249.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001878326-26-000003",
+  "validated_accession": "0001878326-26-000006",
   "annualized_turnover_proxy_pct": null
 }

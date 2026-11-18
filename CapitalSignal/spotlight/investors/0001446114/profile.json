@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001446114",
   "investor_name": "Ancora Advisors LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "Cleveland",
   "state": "OH",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1446114/0001446114-25-000048.txt",
-    "https://www.sec.gov/Archives/edgar/data/1446114/0001446114-26-000012.txt"
+    "https://www.sec.gov/Archives/edgar/data/1446114/0001446114-26-000012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1446114/0001446114-26-000020.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "2913f556d35ab484397382a824a53d6bb93dfe07a4a92825684c990eec876409",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "2a5e749d6a08a9a2a63985c8fc0644901639d98c9d92b1d82ee04219ed72cd65",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "1995b66198a31b3d8ec892c6e01cfc3dce9fb038",
+    "bfe3652e374d4e57c7e2f632c8dbc9511e358113",
+    "edac9a5aa0ed945533e2a1b13ac1ea37027a1237"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001446114-26-000012",
-    "source": "https://www.sec.gov/Archives/edgar/data/1446114/0001446114-26-000012.txt",
-    "distinct_positions": 2040,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001446114-26-000020",
+    "source": "https://www.sec.gov/Archives/edgar/data/1446114/0001446114-26-000020.txt",
+    "distinct_positions": 2234,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 5165347050.0,
+    "reported_long_equity_value_usd": 5020905650.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "501889208",
         "security_class": "COM",
-        "issuer": "LKQ CORP",
-        "shares": 6945080.0,
-        "value_usd": 182863964.0,
-        "weight_pct": 3.54
+        "issuer": "LKQ CORP COM",
+        "shares": 8096591.0,
+        "value_usd": 184845165.0,
+        "weight_pct": 3.68
       },
       {
         "cusip": "922908363",
         "security_class": "INDX FD",
-        "issuer": "VANGUARD INDEX FDS",
-        "shares": 243721.0,
-        "value_usd": 167389694.0,
-        "weight_pct": 3.24
-      },
-      {
-        "cusip": "03064D108",
-        "security_class": "COM",
-        "issuer": "AMERICOLD REALTY TRUST",
-        "shares": 10430165.0,
-        "value_usd": 163962194.0,
-        "weight_pct": 3.17
+        "issuer": "VANGUARD S&P 500 ETF",
+        "shares": 243071.0,
+        "value_usd": 170358530.0,
+        "weight_pct": 3.39
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 510346.0,
-        "value_usd": 147673585.0,
-        "weight_pct": 2.86
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM LTD SHS",
-        "shares": 375649.0,
-        "value_usd": 141901316.0,
-        "weight_pct": 2.75
-      },
-      {
-        "cusip": "044186104",
-        "security_class": "COM",
-        "issuer": "ASHLAND INC",
-        "shares": 1945412.0,
-        "value_usd": 128183197.0,
-        "weight_pct": 2.48
+        "issuer": "APPLE INC COM",
+        "shares": 501756.0,
+        "value_usd": 167094875.0,
+        "weight_pct": 3.33
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 245587.0,
-        "value_usd": 91608945.0,
-        "weight_pct": 1.77
+        "shares": 248440.0,
+        "value_usd": 127424534.0,
+        "weight_pct": 2.54
       },
       {
-        "cusip": "74935Q107",
+        "cusip": "11135F101",
         "security_class": "COM",
-        "issuer": "RB GLOBAL INC",
-        "shares": 780841.0,
-        "value_usd": 90928935.0,
-        "weight_pct": 1.76
+        "issuer": "BROADCOM LTD SHS",
+        "shares": 340417.0,
+        "value_usd": 119551037.0,
+        "weight_pct": 2.38
+      },
+      {
+        "cusip": "03064D108",
+        "security_class": "COM",
+        "issuer": "AMERICOLD REALTY TRUST",
+        "shares": 8445040.0,
+        "value_usd": 118061659.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "359694106",
+        "security_class": "COM",
+        "issuer": "H.B. FULLER COMPANY",
+        "shares": 2056536.0,
+        "value_usd": 101736836.0,
+        "weight_pct": 2.03
       },
       {
         "cusip": "46641Q837",
         "security_class": "INDX FD",
         "issuer": "JP MORGAN ULTRA SHORT INCOME E",
-        "shares": 1774918.0,
-        "value_usd": 89757624.0,
-        "weight_pct": 1.74
+        "shares": 1853749.0,
+        "value_usd": 93373362.0,
+        "weight_pct": 1.86
+      },
+      {
+        "cusip": "464287150",
+        "security_class": "INDX FD",
+        "issuer": "ISHARES TR CORE S&P TOTAL U S",
+        "shares": 547881.0,
+        "value_usd": 91101727.0,
+        "weight_pct": 1.81
       },
       {
         "cusip": "46625H100",
         "security_class": "COM",
         "issuer": "JP MORGAN CHASE & CO",
-        "shares": 261581.0,
-        "value_usd": 85623368.0,
-        "weight_pct": 1.66
+        "shares": 259342.0,
+        "value_usd": 85797811.0,
+        "weight_pct": 1.71
       }
     ],
-    "top_five_pct": 15.56,
-    "top_ten_pct": 24.97,
-    "hhi": 102.23,
+    "top_five_pct": 15.32,
+    "top_ten_pct": 25.08,
+    "hhi": 105.72,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 365,
-      "exited_positions": 359,
-      "increased_positions": 528,
-      "reduced_positions": 581
+      "previous_period": "2026-06-30",
+      "new_positions": 324,
+      "exited_positions": 130,
+      "increased_positions": 642,
+      "reduced_positions": 438
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001446114-26-000012"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001446114-26-000020"
       }
     ]
   },
-  "reported_13f_value_usd": 5165347050.0,
+  "reported_13f_value_usd": 5020905650.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001446114-26-000012",
+  "validated_accession": "0001446114-26-000020",
   "annualized_turnover_proxy_pct": null
 }

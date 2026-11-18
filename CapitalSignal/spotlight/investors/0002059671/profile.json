@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002059671",
   "investor_name": "Ampersand Capital Group, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "BURLINGAME",
   "state": "CA",
   "country": "United States",
@@ -10,20 +10,31 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2059671/0002059671-25-000005.txt",
-    "https://www.sec.gov/Archives/edgar/data/2059671/0002059671-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/2059671/0002059671-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/2059671/0002059671-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "dcf3a990588339f02bce9745b0df2d25934c8e30b1f6ec4ca04d0532238c9e1a",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "88770dfce6fa6d98061004d95e78389f0e98f910b85de18f6886a2c3a015b58f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "20ef8036f507546f4f073f27e5aab7ffa9098fe2",
+    "a2763a952d0461e3bc1f4a4465eb77b55552d1db",
+    "a7df4b530c1ec0ec4f9101003240510ece4d277b"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0002059671-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/2059671/0002059671-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0002059671-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/2059671/0002059671-26-000006.txt",
     "distinct_positions": 7,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 221684377.0,
+    "reported_long_equity_value_usd": 252229439.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,67 +43,67 @@
         "security_class": "SHS",
         "issuer": "GLOBAL E ONLINE LTD",
         "shares": 1387274.0,
-        "value_usd": 48180026.0,
-        "weight_pct": 21.73
+        "value_usd": 55116396.0,
+        "weight_pct": 21.85
       },
       {
         "cusip": "58733R102",
         "security_class": "COM",
         "issuer": "MERCADOLIBRE  INC",
-        "shares": 26393.0,
-        "value_usd": 44799214.0,
-        "weight_pct": 20.21
+        "shares": 29443.0,
+        "value_usd": 50893109.0,
+        "weight_pct": 20.18
+      },
+      {
+        "cusip": "69370C100",
+        "security_class": "COM",
+        "issuer": "PTC INC",
+        "shares": 265499.0,
+        "value_usd": 37249510.0,
+        "weight_pct": 14.77
       },
       {
         "cusip": "25809K105",
         "security_class": "CL A",
         "issuer": "DOORDASH INC",
         "shares": 197379.0,
-        "value_usd": 36422347.0,
-        "weight_pct": 16.43
-      },
-      {
-        "cusip": "05464C101",
-        "security_class": "COM",
-        "issuer": "AXON ENTERPRISE INC",
-        "shares": 50456.0,
-        "value_usd": 28286138.0,
-        "weight_pct": 12.76
+        "value_usd": 36228915.0,
+        "weight_pct": 14.36
       },
       {
         "cusip": "82509L107",
         "security_class": "CL A SUB VTG SHS",
         "issuer": "SHOPIFY INC",
-        "shares": 212763.0,
-        "value_usd": 24293279.0,
-        "weight_pct": 10.96
+        "shares": 224763.0,
+        "value_usd": 33332353.0,
+        "weight_pct": 13.22
       },
       {
-        "cusip": "69370C100",
+        "cusip": "05464C101",
         "security_class": "COM",
-        "issuer": "PTC INC",
-        "shares": 211998.0,
-        "value_usd": 24085093.0,
-        "weight_pct": 10.86
+        "issuer": "AXON ENTERPRISE INC",
+        "shares": 64956.0,
+        "value_usd": 27445209.0,
+        "weight_pct": 10.88
       },
       {
         "cusip": "09857L108",
         "security_class": "COM",
         "issuer": "BOOKING HOLDINGS INC",
-        "shares": 87625.0,
-        "value_usd": 15618280.0,
-        "weight_pct": 7.05
+        "shares": 73439.0,
+        "value_usd": 11963947.0,
+        "weight_pct": 4.74
       }
     ],
-    "top_five_pct": 82.09,
+    "top_five_pct": 84.38,
     "top_ten_pct": 100.0,
-    "hhi": 1601.25,
+    "hhi": 1624.56,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 0,
       "exited_positions": 0,
-      "increased_positions": 7,
-      "reduced_positions": 0
+      "increased_positions": 4,
+      "reduced_positions": 1
     },
     "timeline": [
       {
@@ -104,11 +115,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0002059671-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0002059671-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 221684377.0,
+  "reported_13f_value_usd": 252229439.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0002059671-26-000003",
+  "validated_accession": "0002059671-26-000006",
   "annualized_turnover_proxy_pct": null
 }

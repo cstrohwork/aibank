@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001904574",
   "investor_name": "WORLDLY PARTNERS MANAGEMENT, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-07",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "NEEDHAM",
   "state": "MA",
   "country": "United States",
@@ -10,56 +10,67 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1904574/0001904574-25-000009.txt",
-    "https://www.sec.gov/Archives/edgar/data/1904574/0001904574-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1904574/0001904574-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1904574/0001904574-26-000005.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "f1b75c201884e66c3452137c3c2ef40f28632fbcf393526787c8a74f750780ee",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "a1946c4c32f7bab641cbc39395f8fbdf74ced6a17d69f930f8667e74e19259a6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-07|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "4b3c70c3de520943a29ece5d9a6b32e21743743e",
+    "7c16aa54bf529090efab393c059f8608951a4087",
+    "f2b08c581e8d44f116e6257188a774c96118f775"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-07",
-    "accession": "0001904574-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1904574/0001904574-26-000003.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001904574-26-000005",
+    "source": "https://www.sec.gov/Archives/edgar/data/1904574/0001904574-26-000005.txt",
     "distinct_positions": 3,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 122389094.0,
+    "reported_long_equity_value_usd": 102221443.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "339750101",
-        "security_class": "CLA",
+        "security_class": "CL A",
         "issuer": "FLOOR & DECOR HLDGS INC",
         "shares": 1371180.0,
-        "value_usd": 81393245.0,
-        "weight_pct": 66.5
+        "value_usd": 62813756.0,
+        "weight_pct": 61.45
       },
       {
         "cusip": "22160K105",
         "security_class": "COM",
-        "issuer": "COSTCO WHSL CORP NEW",
-        "shares": 43268.0,
-        "value_usd": 40475916.0,
-        "weight_pct": 33.07
+        "issuer": "COSTCO WHOLESALE CORPORATION",
+        "shares": 42915.0,
+        "value_usd": 39067241.0,
+        "weight_pct": 38.22
       },
       {
         "cusip": "14161W303",
         "security_class": "COM NEW",
         "issuer": "CARDLYTICS INC",
         "shares": 115798.0,
-        "value_usd": 519933.0,
-        "weight_pct": 0.42
+        "value_usd": 340446.0,
+        "weight_pct": 0.33
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5516.64,
+    "hhi": 5236.69,
     "changes": {
-      "previous_period": "2025-09-30",
+      "previous_period": "2026-06-30",
       "new_positions": 1,
       "exited_positions": 1,
-      "increased_positions": 1,
+      "increased_positions": 0,
       "reduced_positions": 1
     },
     "timeline": [
@@ -72,11 +83,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-07",
         "accession": "0001904574-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001904574-26-000005"
       }
     ]
   },
-  "reported_13f_value_usd": 122389094.0,
+  "reported_13f_value_usd": 102221443.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001904574-26-000003",
+  "validated_accession": "0001904574-26-000005",
   "annualized_turnover_proxy_pct": null
 }

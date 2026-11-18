@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001632833",
   "investor_name": "SYCAMORE PARTNERS MANAGEMENT, L.P.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
@@ -10,48 +10,59 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1632833/0001632833-25-000008.txt",
-    "https://www.sec.gov/Archives/edgar/data/1632833/0001632833-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1632833/0001632833-26-000006.txt",
+    "https://www.sec.gov/Archives/edgar/data/1632833/0001632833-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "445e7764c0da86fa7e800a90d217bd0e15fc98788cfac3f8a413168298913c96",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "d413d9b48ec32af295cf11c8b966cc1fe7c6e7cf127a8d3af97ce38750ad052f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-13|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "13a1c5fdf495d0f366aa84f6a4ea0a4aa2a6889c",
+    "2337502eeaa5e2bcbb62ac27846d1613c854c2ae",
+    "98af8966a33d32d852e07a462386104ae6223510"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001632833-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1632833/0001632833-26-000006.txt",
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001632833-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1632833/0001632833-26-000007.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 109698176.0,
+    "reported_long_equity_value_usd": 144275710.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "89142B107",
         "security_class": "COM",
-        "issuer": "TORRID HLDGS INC",
+        "issuer": "TORRID HOLDINGS INC",
         "shares": 58295694.0,
-        "value_usd": 109012948.0,
-        "weight_pct": 99.38
+        "value_usd": 137577838.0,
+        "weight_pct": 95.36
       },
       {
         "cusip": "34988V106",
         "security_class": "COM",
         "issuer": "FOSSIL GROUP INC",
-        "shares": 165514.0,
-        "value_usd": 685228.0,
-        "weight_pct": 0.62
+        "shares": 1019463.0,
+        "value_usd": 6697872.0,
+        "weight_pct": 4.64
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 9875.85,
+    "hhi": 9114.62,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 1,
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
       "exited_positions": 0,
-      "increased_positions": 0,
+      "increased_positions": 1,
       "reduced_positions": 0
     },
     "timeline": [
@@ -64,11 +75,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001632833-26-000006"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001632833-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 109698176.0,
+  "reported_13f_value_usd": 144275710.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001632833-26-000006",
+  "validated_accession": "0001632833-26-000007",
   "annualized_turnover_proxy_pct": null
 }

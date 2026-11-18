@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001599217",
   "investor_name": "Capstone Financial Advisors, Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "DOWNERS GROVE",
   "state": "IL",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1599217/0001599217-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1599217/0001599217-26-000007.txt"
+    "https://www.sec.gov/Archives/edgar/data/1599217/0001599217-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1599217/0001599217-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1c8ef4f52b713f7038a81e94b3abd6437a8971b6af96f6ef447bdf0ce3546c31",
-  "generated_at": "2026-11-16T01:08:53.533576+00:00",
+  "source_fingerprint": "ddcd2be062ea61348ba57a16e0df060ba8aeac36e17619ab9bd8451aed86a1b9",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "2a3a346a4dbf48cee17be1af14048ce706b3f641",
+    "8e359ad57d5c2fefc41d7b5c9a56deecdc1cebf4",
+    "d86cfddc75716c901485264fcf9001532d894be4"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001599217-26-000007",
-    "source": "https://www.sec.gov/Archives/edgar/data/1599217/0001599217-26-000007.txt",
-    "distinct_positions": 191,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001599217-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1599217/0001599217-26-000009.txt",
+    "distinct_positions": 190,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2052438472.0,
+    "reported_long_equity_value_usd": 2049966113.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "922908769",
-        "security_class": "TOTAL STK MKT",
+        "security_class": "MRNGSTR TTL STK",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 988799.0,
-        "value_usd": 365895170.0,
-        "weight_pct": 17.83
+        "shares": 980328.0,
+        "value_usd": 366877839.0,
+        "weight_pct": 17.9
       },
       {
         "cusip": "464287622",
         "security_class": "RUS 1000 ETF",
         "issuer": "ISHARES TR",
-        "shares": 637495.0,
-        "value_usd": 261054053.0,
-        "weight_pct": 12.72
+        "shares": 627068.0,
+        "value_usd": 260941985.0,
+        "weight_pct": 12.73
       },
       {
         "cusip": "25434V708",
         "security_class": "US COR EQU 2 ETF",
         "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 5543948.0,
-        "value_usd": 245929538.0,
-        "weight_pct": 11.98
+        "shares": 5498698.0,
+        "value_usd": 244417118.0,
+        "weight_pct": 11.92
       },
       {
         "cusip": "33939L795",
-        "security_class": "STOXX GLOBR INF",
+        "security_class": "NRTRN TR STOX GB",
         "issuer": "FLEXSHARES TR",
-        "shares": 2350358.0,
-        "value_usd": 150705650.0,
-        "weight_pct": 7.34
+        "shares": 2338302.0,
+        "value_usd": 145863265.0,
+        "weight_pct": 7.12
       },
       {
         "cusip": "921937835",
         "security_class": "TOTAL BND MRKT",
         "issuer": "VANGUARD BD INDEX FDS",
-        "shares": 1832708.0,
-        "value_usd": 134539066.0,
-        "weight_pct": 6.56
+        "shares": 1891712.0,
+        "value_usd": 132703623.0,
+        "weight_pct": 6.47
       },
       {
         "cusip": "921909768",
         "security_class": "VG TL INTL STK F",
         "issuer": "VANGUARD STAR FDS",
-        "shares": 1153621.0,
-        "value_usd": 98623083.0,
-        "weight_pct": 4.81
+        "shares": 1148995.0,
+        "value_usd": 97618646.0,
+        "weight_pct": 4.76
       },
       {
         "cusip": "46432F834",
         "security_class": "CORE MSCI TOTAL",
         "issuer": "ISHARES TR",
-        "shares": 911328.0,
-        "value_usd": 86977190.0,
-        "weight_pct": 4.24
+        "shares": 906170.0,
+        "value_usd": 86077097.0,
+        "weight_pct": 4.2
       },
       {
         "cusip": "25434V880",
         "security_class": "WORLD EX US CORE",
         "issuer": "DIMENSIONAL ETF TRUST",
-        "shares": 2043404.0,
-        "value_usd": 75279016.0,
-        "weight_pct": 3.67
+        "shares": 2027140.0,
+        "value_usd": 75044712.0,
+        "weight_pct": 3.66
       },
       {
         "cusip": "464287614",
         "security_class": "RUS 1000 GRW ETF",
         "issuer": "ISHARES TR",
-        "shares": 457245.0,
-        "value_usd": 56776152.0,
-        "weight_pct": 2.77
+        "shares": 456243.0,
+        "value_usd": 57148966.0,
+        "weight_pct": 2.79
       },
       {
         "cusip": "92203J407",
         "security_class": "TOTAL INT BD ETF",
         "issuer": "VANGUARD CHARLOTTE FDS",
-        "shares": 1124674.0,
-        "value_usd": 54467962.0,
-        "weight_pct": 2.65
+        "shares": 1153910.0,
+        "value_usd": 54083761.0,
+        "weight_pct": 2.64
       }
     ],
-    "top_five_pct": 56.43,
-    "top_ten_pct": 74.56,
-    "hhi": 818.2,
+    "top_five_pct": 56.14,
+    "top_ten_pct": 74.19,
+    "hhi": 814.01,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 36,
-      "exited_positions": 29,
-      "increased_positions": 81,
-      "reduced_positions": 65
+      "previous_period": "2026-06-30",
+      "new_positions": 20,
+      "exited_positions": 21,
+      "increased_positions": 102,
+      "reduced_positions": 49
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001599217-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001599217-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 2052438472.0,
+  "reported_13f_value_usd": 2049966113.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001599217-26-000007",
+  "validated_accession": "0001599217-26-000009",
   "annualized_turnover_proxy_pct": null
 }

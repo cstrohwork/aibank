@@ -1,8 +1,8 @@
 {
   "manager_cik": "0001911372",
   "investor_name": "Meros Investment Management, LP",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-17",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
@@ -10,113 +10,124 @@
   "orientation": "Pending fund classification",
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1911372/0001911372-25-000007.txt",
-    "https://www.sec.gov/Archives/edgar/data/1911372/0001911372-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1911372/0001911372-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1911372/0001911372-26-000006.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "987895d087f25751f4968052a9fa10f6aed7abb3d012541ffcae8e6011b6e108",
-  "generated_at": "2026-11-16T03:34:17.105323+00:00",
+  "source_fingerprint": "7762128967c8bb89e7d0060b114183e01451f7cef8df2d32db6dead24224cb79",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "3f7745d4c0e8819f7c8e615c150ac1c11c638ede",
+    "85743286d850b45f1b128fb5b6c98c3719f29331",
+    "94652bab517b5d87af85affa026f12488bcd22d6"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001911372-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1911372/0001911372-26-000003.txt",
-    "distinct_positions": 50,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-17",
+    "accession": "0001911372-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1911372/0001911372-26-000006.txt",
+    "distinct_positions": 48,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 315162325.0,
+    "reported_long_equity_value_usd": 299333302.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "264147109",
-        "security_class": "COM",
-        "issuer": "DUCOMMUN INC DEL",
-        "shares": 118423.0,
-        "value_usd": 21933124.0,
-        "weight_pct": 6.96
-      },
-      {
         "cusip": "55955D100",
         "security_class": "COM",
         "issuer": "MAGNITE INC",
-        "shares": 991335.0,
-        "value_usd": 18815538.0,
-        "weight_pct": 5.97
+        "shares": 820288.0,
+        "value_usd": 20720475.0,
+        "weight_pct": 6.92
+      },
+      {
+        "cusip": "264147109",
+        "security_class": "COM",
+        "issuer": "DUCOMMUN INC DEL",
+        "shares": 104549.0,
+        "value_usd": 17934335.0,
+        "weight_pct": 5.99
       },
       {
         "cusip": "81617J301",
         "security_class": "CL A COM",
         "issuer": "SELECT WATER SOLUTIONS INC",
-        "shares": 912982.0,
-        "value_usd": 18241380.0,
-        "weight_pct": 5.79
+        "shares": 842558.0,
+        "value_usd": 16674223.0,
+        "weight_pct": 5.57
       },
       {
         "cusip": "04035M102",
         "security_class": "COM CL A",
         "issuer": "ARHAUS INC",
-        "shares": 1680568.0,
-        "value_usd": 14150383.0,
-        "weight_pct": 4.49
-      },
-      {
-        "cusip": "192576106",
-        "security_class": "COM",
-        "issuer": "COHU INC",
-        "shares": 190686.0,
-        "value_usd": 14093602.0,
-        "weight_pct": 4.47
+        "shares": 1339097.0,
+        "value_usd": 12681249.0,
+        "weight_pct": 4.24
       },
       {
         "cusip": "950755108",
         "security_class": "COM",
         "issuer": "WERNER ENTERPRISES INC",
-        "shares": 279870.0,
-        "value_usd": 12205131.0,
-        "weight_pct": 3.87
+        "shares": 355696.0,
+        "value_usd": 12086550.0,
+        "weight_pct": 4.04
       },
       {
         "cusip": "229050307",
         "security_class": "COM PAR $0.001",
         "issuer": "CRYOPORT INC",
-        "shares": 743312.0,
-        "value_usd": 11669998.0,
-        "weight_pct": 3.7
+        "shares": 686772.0,
+        "value_usd": 11949833.0,
+        "weight_pct": 3.99
       },
       {
-        "cusip": "56117J100",
+        "cusip": "03213A104",
         "security_class": "COM CL A",
-        "issuer": "MALIBU BOATS INC",
-        "shares": 359568.0,
-        "value_usd": 9862950.0,
-        "weight_pct": 3.13
+        "issuer": "AMPLITUDE",
+        "shares": 853116.0,
+        "value_usd": 11815657.0,
+        "weight_pct": 3.95
       },
       {
-        "cusip": "83418M103",
-        "security_class": "COM CL A",
-        "issuer": "SOLARIS OILFIELD INFRASTRUCT",
-        "shares": 118634.0,
-        "value_usd": 9545292.0,
-        "weight_pct": 3.03
-      },
-      {
-        "cusip": "09180C106",
+        "cusip": "01748X102",
         "security_class": "COM",
-        "issuer": "BJS RESTAURANTS INC",
-        "shares": 143493.0,
-        "value_usd": 8715047.0,
-        "weight_pct": 2.77
+        "issuer": "ALLEGIANT TRAVEL CO",
+        "shares": 154299.0,
+        "value_usd": 11694321.0,
+        "weight_pct": 3.91
+      },
+      {
+        "cusip": "421906108",
+        "security_class": "COM",
+        "issuer": "HEALTHCARE SVCS GROUP INC",
+        "shares": 468355.0,
+        "value_usd": 9577860.0,
+        "weight_pct": 3.2
+      },
+      {
+        "cusip": "92556W104",
+        "security_class": "COM CL A",
+        "issuer": "VIA TRANSN INC",
+        "shares": 314104.0,
+        "value_usd": 9501646.0,
+        "weight_pct": 3.17
       }
     ],
-    "top_five_pct": 27.68,
-    "top_ten_pct": 44.18,
-    "hhi": 311.57,
+    "top_five_pct": 26.76,
+    "top_ten_pct": 44.98,
+    "hhi": 319.05,
     "changes": {
-      "previous_period": "2025-09-30",
-      "new_positions": 22,
-      "exited_positions": 15,
-      "increased_positions": 14,
-      "reduced_positions": 14
+      "previous_period": "2026-06-30",
+      "new_positions": 8,
+      "exited_positions": 10,
+      "increased_positions": 12,
+      "reduced_positions": 28
     },
     "timeline": [
       {
@@ -128,11 +139,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001911372-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-17",
+        "accession": "0001911372-26-000006"
       }
     ]
   },
-  "reported_13f_value_usd": 315162325.0,
+  "reported_13f_value_usd": 299333302.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001911372-26-000003",
+  "validated_accession": "0001911372-26-000006",
   "annualized_turnover_proxy_pct": null
 }

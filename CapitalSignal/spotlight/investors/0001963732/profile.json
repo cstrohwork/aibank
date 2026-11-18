@@ -2,7 +2,7 @@
   "manager_cik": "0001963732",
   "investor_name": "Rooted Wealth Advisors, Inc.",
   "latest_report_date": "2026-09-30",
-  "filing_date": "2026-11-03",
+  "filing_date": "2026-11-17",
   "city": "BOURBONNAIS",
   "state": "IL",
   "country": "United States",
@@ -11,20 +11,30 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/1963732/0002063364-25-000228.txt",
     "https://www.sec.gov/Archives/edgar/data/1963732/0001963732-26-000003.txt",
-    "https://www.sec.gov/Archives/edgar/data/1963732/0001963732-26-000006.txt"
+    "https://www.sec.gov/Archives/edgar/data/1963732/0001963732-26-000008.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a61f74572ab682780d5f239dc58044df094f098ac4dcfdfc9311af10a36408ec",
-  "generated_at": "2026-11-15T11:48:18.806371+00:00",
+  "source_fingerprint": "89a3c7a0b51aa74d377be5b9c65863c8ec399c1d26667fafb7a98f66da554368",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-20|||",
+    "2026-06-30|2026-07-28|||",
+    "2026-09-30|2026-11-17|||"
+  ],
+  "holdings_fingerprints": [
+    "33c4007e345a1343f18853b03f770c1919ae5c79",
+    "7b55dfd686acf58f692a131804340a761a6a83b6",
+    "ddbc35765bee12e106b2111bf4b59fa0ee007db9"
+  ],
+  "generated_at": "2026-11-18T06:57:11.255836+00:00",
   "holdings_analytics": {
     "available": true,
     "report_date": "2026-09-30",
-    "filing_date": "2026-11-03",
-    "accession": "0001963732-26-000006",
-    "source": "https://www.sec.gov/Archives/edgar/data/1963732/0001963732-26-000006.txt",
-    "distinct_positions": 149,
+    "filing_date": "2026-11-17",
+    "accession": "0001963732-26-000008",
+    "source": "https://www.sec.gov/Archives/edgar/data/1963732/0001963732-26-000008.txt",
+    "distinct_positions": 150,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 408484924.0,
+    "reported_long_equity_value_usd": 424911626.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -32,92 +42,92 @@
         "cusip": "922908363",
         "security_class": "SP 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 82649.0,
-        "value_usd": 56764318.0,
-        "weight_pct": 13.9
+        "shares": 83962.0,
+        "value_usd": 58845814.0,
+        "weight_pct": 13.85
       },
       {
         "cusip": "46138E222",
         "security_class": "SP INTL MOMNT",
         "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 428286.0,
-        "value_usd": 25821338.0,
-        "weight_pct": 6.32
+        "shares": 452712.0,
+        "value_usd": 27633545.0,
+        "weight_pct": 6.5
       },
       {
         "cusip": "78464A409",
         "security_class": "ST STR P500GRW",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 190829.0,
-        "value_usd": 22706751.0,
-        "weight_pct": 5.56
+        "shares": 193993.0,
+        "value_usd": 23876660.0,
+        "weight_pct": 5.62
       },
       {
         "cusip": "46434V621",
         "security_class": "CORE DIV GRWTH",
         "issuer": "ISHARES TR",
-        "shares": 242848.0,
-        "value_usd": 18405483.0,
-        "weight_pct": 4.51
-      },
-      {
-        "cusip": "46090A804",
-        "security_class": "TOTAL RETURN",
-        "issuer": "INVESCO ACTIVELY MANAGED EXC",
-        "shares": 323263.0,
-        "value_usd": 15151337.0,
-        "weight_pct": 3.71
+        "shares": 244138.0,
+        "value_usd": 18405563.0,
+        "weight_pct": 4.33
       },
       {
         "cusip": "316188309",
         "security_class": "TOTAL BD ETF",
         "issuer": "FIDELITY MERRIMACK STR TR",
-        "shares": 324065.0,
-        "value_usd": 14741705.0,
-        "weight_pct": 3.61
+        "shares": 363960.0,
+        "value_usd": 15759476.0,
+        "weight_pct": 3.71
+      },
+      {
+        "cusip": "46090A804",
+        "security_class": "TOTAL RETURN",
+        "issuer": "INVESCO ACTIVELY MANAGED EXC",
+        "shares": 342374.0,
+        "value_usd": 15266457.0,
+        "weight_pct": 3.59
       },
       {
         "cusip": "316092840",
         "security_class": "HIGH DIVID ETF",
         "issuer": "FIDELITY COVINGTON TRUST",
-        "shares": 235327.0,
-        "value_usd": 14187868.0,
-        "weight_pct": 3.47
+        "shares": 247932.0,
+        "value_usd": 15056937.0,
+        "weight_pct": 3.54
       },
       {
         "cusip": "46138G649",
         "security_class": "NASDAQ 100 ETF",
         "issuer": "INVESCO EXCH TRADED FD TR II",
-        "shares": 43690.0,
-        "value_usd": 13236771.0,
-        "weight_pct": 3.24
+        "shares": 44692.0,
+        "value_usd": 13614834.0,
+        "weight_pct": 3.2
       },
       {
         "cusip": "46641Q332",
         "security_class": "EQUITY PREMIUM",
         "issuer": "J P MORGAN EXCHANGE TRADED F",
-        "shares": 195739.0,
-        "value_usd": 11055337.0,
-        "weight_pct": 2.71
+        "shares": 203826.0,
+        "value_usd": 11459097.0,
+        "weight_pct": 2.7
       },
       {
         "cusip": "921935607",
         "security_class": "US MULTIFACTOR",
         "issuer": "VANGUARD WELLINGTON FD",
-        "shares": 54569.0,
-        "value_usd": 9657148.0,
-        "weight_pct": 2.36
+        "shares": 57156.0,
+        "value_usd": 10202850.0,
+        "weight_pct": 2.4
       }
     ],
-    "top_five_pct": 33.99,
-    "top_ten_pct": 49.38,
-    "hhi": 393.65,
+    "top_five_pct": 34.01,
+    "top_ten_pct": 49.45,
+    "hhi": 394.15,
     "changes": {
       "previous_period": "2026-06-30",
-      "new_positions": 0,
-      "exited_positions": 0,
-      "increased_positions": 0,
-      "reduced_positions": 0
+      "new_positions": 14,
+      "exited_positions": 13,
+      "increased_positions": 87,
+      "reduced_positions": 40
     },
     "timeline": [
       {
@@ -132,13 +142,13 @@
       },
       {
         "report_date": "2026-09-30",
-        "filing_date": "2026-11-03",
-        "accession": "0001963732-26-000006"
+        "filing_date": "2026-11-17",
+        "accession": "0001963732-26-000008"
       }
     ]
   },
-  "reported_13f_value_usd": 408484924.0,
+  "reported_13f_value_usd": 424911626.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001963732-26-000006",
+  "validated_accession": "0001963732-26-000008",
   "annualized_turnover_proxy_pct": null
 }
