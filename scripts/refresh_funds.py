@@ -173,6 +173,22 @@ def main():
             # Reserve a quarter of the bounded batch for oldest missing filings,
             # while prioritizing recent disclosures and amendments for the rest.
             missing = sorted((row for row in eligible if row[1] not in known), reverse=True)
+            # Cool down repeatedly failed accessions without blocking other filings.
+            now_utc = dt.datetime.now(dt.timezone.utc)
+            def retry_ready(row):
+                failure = failed.get(row[1])
+                if not failure:
+                    return True
+                try:
+                    attempted = dt.datetime.fromisoformat(failure["last_attempt_at"])
+                    if attempted.tzinfo is None:
+                        attempted = attempted.replace(tzinfo=dt.timezone.utc)
+                    attempts = max(1, int(failure.get("attempts", 1)))
+                    delay = dt.timedelta(minutes=min(360, 5 * 2 ** min(attempts - 1, 7)))
+                    return now_utc - attempted >= delay
+                except (ValueError, TypeError, KeyError, OverflowError):
+                    return True
+            missing = [row for row in missing if retry_ready(row)]
             # A per-registrant cap of one previously meant the oldest
             # reservation was always truncated away. Alternate whole bounded
             # cycles so historical filings receive a real processing slot.
