@@ -82,9 +82,14 @@ def run(batch=2000):
         # ingested that manager/report-period entry. Never substitute the
         # reporting-period date for the actual filing date.
         profile['filing_date'] = filing_dates.get((str(profile.get('manager_cik', '')).zfill(10), profile.get('latest_report_date'))) or profile.get('filing_date')
+    # Include analytics implementation in the publication fingerprint. Without
+    # this, a corrected valuation or amendment rule can leave every existing
+    # profile marked complete even though its displayed analytics are stale.
+    analytics_path = ROOT / 'scripts/investor_profile_analytics.py'
+    analytics_revision = hashlib.sha256(analytics_path.read_bytes()).hexdigest()[:16]
     for profile in profiles:
         cik_key = str(profile.get('manager_cik', '')).zfill(10)
-        profile['render_version'] = 'explicit-holding-usd-v8'
+        profile['render_version'] = 'explicit-holding-usd-v8:' + analytics_revision
         matching_entries = entries_by_cik.get(cik_key, [])
         # Accession metadata must participate in the queue fingerprint even
         # when an ingestion worker has not yet committed a normalized blob.
