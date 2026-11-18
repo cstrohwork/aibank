@@ -126,12 +126,19 @@ def main():
     index=json.loads(history_path.read_text()).get("funds",[]) if history_path.exists() else []
     if not index and (OUT/"index.json").exists():index=json.loads((OUT/"index.json").read_text()).get("funds",[])
     checkpoint_path=OUT/"seed_checkpoint.json"
-    known=set(json.loads(checkpoint_path.read_text()).get("processed",[])) if checkpoint_path.exists() else set()
+    checkpoint = json.loads(checkpoint_path.read_text()) if checkpoint_path.exists() else {}
+    known=set(checkpoint.get("processed",[]))
     known.update(x.get("accession") for x in index if x.get("accession"))
     errors=[]
     processed=0
     budget=int(os.getenv("SEC_FUND_BATCH","30"))
+    # Rotate the starting registrant and cap per-registrant work so a large
+    # trust cannot consume the entire batch before other trusts are visited.
+    cursor = int(checkpoint.get("next_registrant_offset", 0)) % max(1, len(ciks))
+    ciks = ciks[cursor:] + ciks[:cursor]
+    per_registrant = max(1, math.ceil(budget / max(1, len(ciks))))
     for cik in ciks:
+        if processed >= budget: break
         try:
             sub=json.loads(get("https://data.sec.gov/submissions/CIK"+cik+".json"))
             eligible=[]
@@ -144,7 +151,7 @@ def main():
             reserve = max(1, budget // 4) if budget > 1 else 0
             newest = missing[:max(0, budget - reserve)]
             oldest = list(reversed(missing))[:reserve]
-            ordered = list(dict.fromkeys(newest + oldest))
+            ordered = list(dict.fromkeys(newest + oldest))[:per_registrant]
             for filing,accession in ordered:
                 if accession in known or processed>=budget:continue
                 processed+=1
@@ -192,7 +199,8 @@ def main():
         latest[f.get("fund_id") or f["series_id"] or f["file"]]=f
     selected=list(latest.values())
     (OUT/"index.json").write_text(json.dumps({"funds":selected,"filings_parsed":len(index),"registrants_attempted":ciks,"errors":errors[:30],"limitations":"Bounded SEC N-PORT sample, not complete market coverage. N-PX is proxy voting, not a holdings inventory. No fund-to-13F manager attribution inferred."},separators=(",",":")))
-    checkpoint_path.write_text(json.dumps({"processed":sorted(known)},separators=(",",":")))
+    checkpoint_path.write_text(json.dumps({"processed":sorted(known),
+        "next_registrant_offset": (cursor + 1) % max(1, len(ciks))},separators=(",",":")))
     # Fund-level ownership index: securities -> disclosed fund positions.
     owners={}
     for f in selected:
