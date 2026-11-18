@@ -132,6 +132,15 @@ def run(batch=2000):
     for p in selected:
         cik = str(p.get('manager_cik') or '').zfill(10)
         if not re.fullmatch(r'\d{10}', cik):
+            # Invalid identities must be persisted as failed work, not silently
+            # retried every cycle or mistaken for successfully reconciled CIKs.
+            fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
+            failure = manifest['failures'].get(cik, {})
+            manifest['failures'][cik] = {
+                'attempts': (failure.get('attempts', 0) if failure.get('fingerprint') == fingerprint else 0) + 1,
+                'last_error': 'Invalid CIK', 'last_attempt_at': now,
+                'fingerprint': fingerprint,
+            }
             errors.append({'id': cik, 'error': 'Invalid CIK'})
             continue
         fingerprint = hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest()
