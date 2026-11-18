@@ -299,6 +299,7 @@ def run(batch=2000):
     # Separate published disclosure pages from those with validated USD evidence.
     # A validated accession is a normalization check, NOT independent cover-page
     # reconciliation or proof of complete institutional coverage.
+    current_fingerprints = {str(p.get('manager_cik') or '').zfill(10): hashlib.sha256(json.dumps(p, sort_keys=True).encode()).hexdigest() for p in profiles}
     validated_usd_count = sum(
         1 for cik in active_ciks
         if cik in manifest['profiles']
@@ -306,9 +307,7 @@ def run(batch=2000):
         # Only count USD validation for the current source/analytics version.
         # A previously validated snapshot is stale after a new amendment or
         # an analytics implementation change until it is republished.
-        and manifest['profiles'][cik].get('fingerprint') == hashlib.sha256(
-            json.dumps(next(p for p in profiles if str(p.get('manager_cik') or '').zfill(10) == cik),
-                       sort_keys=True).encode()).hexdigest()
+        and manifest['profiles'][cik].get('fingerprint') == current_fingerprints[cik]
         and (OUT / cik / 'profile.json').exists()
     )
     manifest.update(eligible_pending_after_batch_count=eligible_pending_count,
