@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001535254",
+  "investor_name": "BENJAMIN JOSEPH FLOYD DBA FLOYD CAPITAL MANAGEMENT",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-01",
+  "city": "TEXARKANA",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1535254/0001535254-25-000011.txt",
+    "https://www.sec.gov/Archives/edgar/data/1535254/0001535254-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1535254/0001535254-26-000006.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "dcfe582f76dea33ea2d53b0962955c84b328473c10d5d9abc768387b81876c69",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-16|||",
+    "2026-06-30|2026-07-01|||",
+    "2026-09-30|2026-10-01|||"
+  ],
+  "holdings_fingerprints": [
+    "50b5e29544deb37a891815fddd90d209289159e2",
+    "62c7b9c6999c52ba0614bc52ab9002b1de878989",
+    "b384f7a33ca77a1de70945b269a9e0784b13354c"
+  ],
+  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-01",
+    "accession": "0001535254-26-000006",
+    "source": "https://www.sec.gov/Archives/edgar/data/1535254/0001535254-26-000006.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 114600410.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "78462F103",
+        "security_class": "PORTFOLIO S&P500",
+        "issuer": "SPDR State Street Global Advisors",
+        "shares": 150270.0,
+        "value_usd": 114600410.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-16",
+        "accession": "0001535254-25-000011"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-01",
+        "accession": "0001535254-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-01",
+        "accession": "0001535254-26-000006"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 114600410.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001535254-26-000006",
+  "annualized_turnover_proxy_pct": null
+}

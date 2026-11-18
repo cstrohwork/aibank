@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001732687",
+  "investor_name": "Factorial Partners, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-05",
+  "city": "MT. KISCO",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1732687/0001214659-25-016123.txt",
+    "https://www.sec.gov/Archives/edgar/data/1732687/0001214659-26-010292.txt",
+    "https://www.sec.gov/Archives/edgar/data/1732687/0001732687-26-000002.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "2537f4d5bcd8b3514b95b50cef05061649e6264eb903342740fc949dd0b2cbb6",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-10|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-10-05|||"
+  ],
+  "holdings_fingerprints": [
+    "80fa8a4d45d668678f2a04c2501d4ab36c69207c",
+    "9ba65e2b1fc7d85724975afe41c900f30d35e775",
+    "dede6a2b69604ab6e2765209aa30e3267c162908"
+  ],
+  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-05",
+    "accession": "0001732687-26-000002",
+    "source": "https://www.sec.gov/Archives/edgar/data/1732687/0001732687-26-000002.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 75720.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "922040845",
+        "security_class": "0-3 MO TREAS BIL",
+        "issuer": "VANGUARD INSTL INDEX FD",
+        "shares": 1000.0,
+        "value_usd": 75720.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-10",
+        "accession": "0001214659-25-016123"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001214659-26-010292"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-05",
+        "accession": "0001732687-26-000002"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 75720.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001732687-26-000002",
+  "annualized_turnover_proxy_pct": null
+}

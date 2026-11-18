@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001577919",
+  "investor_name": "Yorktown Energy Partners X, L.P.",
+  "latest_report_date": "2026-06-30",
+  "filing_date": "2026-08-14",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1577919/0001140361-25-042330.txt",
+    "https://www.sec.gov/Archives/edgar/data/1577919/0001140361-26-033067.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1e09ba4673d3576076e685a8a9d4c48482d070748196b9a59d59702d0bf8616d",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2026-06-30|2026-08-14|||"
+  ],
+  "holdings_fingerprints": [
+    "1cd013a2b5d83d337ed19e571bcb9d05fd307ed1",
+    "24095b524f53c48995664ddd0eaccb0572a9d56a"
+  ],
+  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-06-30",
+    "filing_date": "2026-08-14",
+    "accession": "0001140361-26-033067",
+    "source": "https://www.sec.gov/Archives/edgar/data/1577919/0001140361-26-033067.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 47583355.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "75134P600",
+        "security_class": "COM CL A",
+        "issuer": "Ramaco Resources Inc",
+        "shares": 1969646.0,
+        "value_usd": 26058411.0,
+        "weight_pct": 54.76
+      },
+      {
+        "cusip": "294375209",
+        "security_class": "COM",
+        "issuer": "Epsilon Energy Ltd",
+        "shares": 2656705.0,
+        "value_usd": 14372774.0,
+        "weight_pct": 30.21
+      },
+      {
+        "cusip": "75134P501",
+        "security_class": "COM CL B",
+        "issuer": "Ramaco Resources Inc",
+        "shares": 836511.0,
+        "value_usd": 7152170.0,
+        "weight_pct": 15.03
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 4137.36,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001140361-25-042330"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001140361-26-033067"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 47583355.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001140361-26-033067",
+  "annualized_turnover_proxy_pct": null
+}

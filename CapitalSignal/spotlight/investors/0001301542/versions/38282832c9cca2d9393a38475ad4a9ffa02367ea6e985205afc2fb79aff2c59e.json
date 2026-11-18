@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001301542",
+  "investor_name": "PartnerRe Asset Management CORP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-10-07",
+  "city": "STAMFORD",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1301542/0001301542-26-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/1301542/0001301542-26-000007.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "38282832c9cca2d9393a38475ad4a9ffa02367ea6e985205afc2fb79aff2c59e",
+  "accession_fingerprints": [
+    "2026-06-30|2026-07-01|||",
+    "2026-09-30|2026-10-07|||"
+  ],
+  "holdings_fingerprints": [
+    "054579f88f8547714e8c44692f4a2d3f3047e8c0",
+    "0f0fcbca96d01e7d67da7be4c2b89d1e5b3424cd"
+  ],
+  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-10-07",
+    "accession": "0001301542-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1301542/0001301542-26-000007.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 161611156.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464288513",
+        "security_class": "ETF",
+        "issuer": "ISHARES TRUST",
+        "shares": 1397745.0,
+        "value_usd": 107919891.0,
+        "weight_pct": 66.78
+      },
+      {
+        "cusip": "46137V357",
+        "security_class": "ETF",
+        "issuer": "INVESCO EXCHANGE-TRADED FUND TRUST",
+        "shares": 139696.0,
+        "value_usd": 29059562.0,
+        "weight_pct": 17.98
+      },
+      {
+        "cusip": "922042742",
+        "security_class": "ETF",
+        "issuer": "VANGUARD INTL EQUITY INDEX F",
+        "shares": 156045.0,
+        "value_usd": 24631703.0,
+        "weight_pct": 15.24
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5014.86,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-07-01",
+        "accession": "0001301542-26-000005"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-10-07",
+        "accession": "0001301542-26-000007"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 161611156.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001301542-26-000007",
+  "annualized_turnover_proxy_pct": null
+}

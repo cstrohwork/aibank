@@ -1,0 +1,68 @@
+{
+  "manager_cik": "0001869333",
+  "investor_name": "Skorpios Trust",
+  "latest_report_date": "2025-09-30",
+  "filing_date": "2025-10-29",
+  "city": "LIMASSOL",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1869333/0001123292-25-000594.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "1f7955a7dc842b31d648c71dcb5911b7b6d39afa943f1d13d96817f140e1d615",
+  "accession_fingerprints": [
+    "2025-09-30|2025-10-29|||"
+  ],
+  "holdings_fingerprints": [
+    "7ad836fbd6f178df1d9114a85cb6749ce6a0cb57"
+  ],
+  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2025-09-30",
+    "filing_date": "2025-10-29",
+    "accession": "0001123292-25-000594",
+    "source": "https://www.sec.gov/Archives/edgar/data/1869333/0001123292-25-000594.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 53189191.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "86150R107",
+        "security_class": "COM",
+        "issuer": "STOKE THERAPEUTICS INC",
+        "shares": 2256181.0,
+        "value_usd": 53020254.0,
+        "weight_pct": 99.68
+      },
+      {
+        "cusip": "78464A870",
+        "security_class": "S&P BIOTECH",
+        "issuer": "SPDR SER TR",
+        "shares": 1686.0,
+        "value_usd": 168937.0,
+        "weight_pct": 0.32
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9936.68,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-10-29",
+        "accession": "0001123292-25-000594"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 53189191.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001123292-25-000594",
+  "annualized_turnover_proxy_pct": null
+}
