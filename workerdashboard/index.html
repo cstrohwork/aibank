@@ -85,7 +85,53 @@
     </div>
   </section>
 
-  <div class="section-head"><div><h2>GitHub workers</h2><p>Live workflow state and latest run from the public AIBank repository.</p></div><div class="filters" id="filters"><button class="filter on" data-filter="all">All</button><button class="filter" data-filter="active">Running</button><button class="filter" data-filter="failed">Failed</button></div></div>
+  <section id="project-queue" style="margin:28px 0">
+<div class="section-head"><div><h2>Project delivery queue &amp; recovery</h2><p>Priorities are proposed delivery order; percentages are measured only where published checkpoints support them. Unknown dates and ETAs are not fabricated.</p></div></div>
+<article class="card tablewrap"><table class="table" style="min-width:1350px"><thead><tr><th>Priority</th><th>Queue #</th><th>Project / component</th><th>Description</th><th>Initiated</th><th>Work started</th><th>Status</th><th>Completion</th><th>Completed / expected</th><th>Recovery</th></tr></thead><tbody id="projectQueueRows"><tr><td colspan="10">Loading project checkpoints…</td></tr></tbody></table><p class="foot">Restart links open the relevant GitHub Actions workflow, where an authorized repository operator can choose Run workflow or Re-run failed jobs. A public static website cannot securely dispatch authenticated workflows without a server-side authorization layer. Percentages are not extrapolated from commit counts. ETA requires a measured processing rate and known remaining workload.</p></article></section>
+<script>
+(function(){
+const projects=[
+[1,"SEC current filings","Capture and parse current 13F / N-PORT filings","2026-11-07","—","sec","sec-filing-history.yml"],
+[2,"SEC historical backfill","Archive 2025-09-30 onward; quarterly comparisons","2026-11-07","—","sec","sec-filing-history.yml"],
+[3,"N-PORT ownership","Fund-level ownership, retry and normalization","2026-11-14","—","unknown","nport-ingestion.yml"],
+[4,"NVDA security ownership","Shareholder lookup, filing links and concentration","2026-11-16","—","unknown","ownership-atlas.yml"],
+[5,"Investor profiles","Generate investor profiles and validate analytics","2026-11-11","—","profiles","investor-profile-queue.yml"],
+[6,"US fundamentals","Companyfacts universe and model inputs","2026-11-14","—","fund","fundamentals-ingestion.yml"],
+[7,"Ownership Atlas / Skunkworks","Ownership aggregates and experimental analyses","2026-11-14","—","unknown","ownership-atlas.yml"],
+[8,"International ownership","Public non-US ownership sources and parent rollups","2026-11-14","—","unknown","international-ownership.yml"],
+[9,"International fundamentals","Non-US issuers and financial normalization","2026-11-14","—","unknown","fundamentals-ingestion.yml"],
+[10,"Model / M&A tools","Financial models and transaction scenarios","2026-11-14","—","unknown","fundamentals-ingestion.yml"],
+[11,"Daily Market Brief","7 AM premarket and 5 PM market recap","2026-11-11","2026-11-12","recurring","daily-market-brief.yml"],
+[12,"Weekly publications","Saturday review, Sunday outlook and spotlights","2026-11-11","—","recurring","weekly-market-review.yml"],
+[13,"Macro exchange displays","Exchange trading values, volumes and listings","2026-11-15","—","unknown","macro-exchange-data.yml"],
+[14,"Newsletter distribution","Email list and LinkedIn distribution integration","2026-11-11","—","unknown","newsletter-distribution.yml"]
+];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+async function json(url){const r=await fetch(url,{cache:"no-store"});if(!r.ok)throw Error(r.status);return r.json()}
+async function render(){
+const [sec,fund,profiles,wf]=await Promise.allSettled([
+json("/CapitalSignal/data/history/status.json"),
+json("/CapitalSignal/data/fundamentals/status.json"),
+json("/CapitalSignal/spotlight/investors/manifest.json"),
+json("https://api.github.com/repos/cstrohwork/aibank/actions/workflows?per_page=100")]);
+const workflows=wf.status==="fulfilled"?wf.value.workflows||[]:[];
+const percent=(n,d)=>Number.isFinite(+n)&&Number.isFinite(+d)&&+d>0?Math.min(100,Math.max(0,100*(+n)/(+d))).toFixed(1)+"%":"Not measurable";
+$("projectQueueRows").innerHTML=projects.map(([priority,name,description,initiated,started,type,workflow])=>{
+let pct="Not measurable",status="Not verified",date="ETA unavailable";
+if(type==="sec"&&sec.status==="fulfilled"){const d=sec.value;pct=percent(d.archived_filings,d.catalogued_filings);status=d.status||"Checkpoint available";date=d.status==="complete"?d.updated_at||"Completed; date unavailable":"ETA unavailable";}
+if(type==="fund"&&fund.status==="fulfilled"){const d=fund.value;pct=percent(d.fresh_issuers??d.ingested_issuers,d.unique_mapped_issuers);status=d.status||"Checkpoint available";date=d.status==="complete"?d.updated_at||"Completed; date unavailable":"ETA unavailable";}
+if(type==="profiles"&&profiles.status==="fulfilled"){const d=profiles.value;pct=percent(d.generated_count,d.cached_investor_count);status=(d.errors||[]).length?"Generation errors":"Processing cached universe";date="ETA unavailable";}
+if(type==="recurring"){pct="Recurring · N/A";status="Scheduled; verify latest run";date="Ongoing";}
+const found=workflows.find(w=>w.path?.endsWith("/"+workflow));
+const url=found?.html_url||"https://github.com/cstrohwork/aibank/actions";
+return "<tr><td>"+priority+"</td><td>#"+priority+"</td><td class='job'>"+esc(name)+"</td><td>"+esc(description)+"</td><td>"+initiated+"</td><td>"+esc(started)+"</td><td>"+esc(status)+"</td><td>"+esc(pct)+"</td><td>"+esc(date)+"</td><td><a class='link' target='_blank' rel='noopener' href='"+esc(url)+"'>"+(found?"Open / restart":"Find workflow")+"</a></td></tr>"
+}).join("");
+}
+render().catch(e=>{$("projectQueueRows").innerHTML="<tr><td colspan='10'>Unable to load project queue: "+esc(e.message)+"</td></tr>"});
+setInterval(render,300000);
+})();
+</script><div class="section-head"><div><h2>GitHub workers</h2><p>Live workflow state and latest run from the public AIBank repository.</p></div><div class="filters" id="filters"><button class="filter on" data-filter="all">All</button><button class="filter" data-filter="active">Running</button><button class="filter" data-filter="failed">Failed</button></div></div>
   <article class="card tablewrap"><table class="table"><thead><tr><th>Worker / workflow</th><th>State</th><th>Latest run</th><th>Updated</th><th></th></tr></thead><tbody id="workflowRows"><tr><td colspan="5" class="empty">Loading GitHub workflows…</td></tr></tbody></table></article>
   
   <div class="section-head"><div><h2>Scheduled agent processes</h2><p>Schedule and task configuration snapshot from the connected project setup.</p></div></div>
