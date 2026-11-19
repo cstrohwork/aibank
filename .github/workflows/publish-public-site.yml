@@ -1,0 +1,33 @@
+name: Stage reviewed public site
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'CapitalSignal/**'
+      - 'scripts/sync_public_site.py'
+      - '.github/workflows/publish-public-site.yml'
+permissions:
+  contents: read
+concurrency:
+  group: public-site-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify deployment credential is configured
+        env:
+          PUBLIC_SITE_TOKEN: ${{ secrets.PUBLIC_SITE_TOKEN }}
+        run: |
+          if [ -z "$PUBLIC_SITE_TOKEN" ]; then
+            echo "::error::Configure PUBLIC_SITE_TOKEN as a fine-grained token with Contents read/write access ONLY to cstrohwork/aibank_public."
+            exit 1
+          fi
+      - name: Publish allowlisted website files
+        env:
+          PUBLIC_SITE_TOKEN: ${{ secrets.PUBLIC_SITE_TOKEN }}
+          PUBLIC_SITE_REPO: cstrohwork/aibank_public
+        run: python3 scripts/sync_public_site.py
