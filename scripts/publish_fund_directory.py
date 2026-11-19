@@ -79,6 +79,14 @@ def run(batch=200):
                     pending_count=len(pending), changed_this_run=done, next_batch=pending[:200],
                     scope="verified_N_PORT_series_from_current_aggregated_cache_not_complete_universe")
     manifest_file.write_text(json.dumps(manifest, indent=2, sort_keys=True)+"\n")
+    # Small, independently readable checkpoint for monitoring and reconciliation.
+    # Never copy the potentially enormous profile map into this summary.
+    checkpoint = {key: manifest[key] for key in (
+        "discovered_count", "completed_current_count", "pending_count",
+        "changed_this_run", "scope")}
+    checkpoint["failed_count"] = len(failures)
+    checkpoint["next_batch_count"] = len(manifest["next_batch"])
+    (OUT / "checkpoint.json").write_text(json.dumps(checkpoint, indent=2, sort_keys=True) + "\n")
     listing = "".join('<li><a href="'+html.escape(k,quote=True)+'/">'+html.escape(k)+'</a></li>' for k in sorted(profiles))
     (OUT/"index.html").write_text('<!doctype html><html><meta charset="utf-8"><title>N-PORT fund profiles</title><h1>Disclosed N-PORT fund series</h1><p>Incomplete sampled universe; no verified adviser attribution or total AUM.</p><ul>'+listing+'</ul></html>')
     print(json.dumps({k:v for k,v in manifest.items() if k not in ("profiles","failures","next_batch")}))
