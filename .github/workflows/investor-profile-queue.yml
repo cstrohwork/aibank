@@ -77,7 +77,10 @@ jobs:
         if: always()
         with:
           name: investor-profile-progress
-          path: CapitalSignal/spotlight/investors/manifest.json
+          path: |
+            CapitalSignal/spotlight/investors/checkpoint.json
+            CapitalSignal/spotlight/funds/checkpoint.json
+            CapitalSignal/spotlight/investors/manifest.json
 
       - name: Continue productive profile backlog without waiting for schedule
         if: success()
