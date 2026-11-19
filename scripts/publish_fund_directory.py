@@ -85,8 +85,14 @@ def run(batch=200):
         # truncated or stale JSON rather than silently marking it complete.
         try:
             published = json.loads((target / "profile.json").read_text())
-            return published != evidence
-        except (OSError, ValueError, TypeError):
+            versioned = json.loads((target / "versions" / (fingerprint + ".json")).read_text())
+            page = (target / "index.html").read_text()
+            # Check content, not merely existence: a truncated HTML page or
+            # corrupted historical evidence must re-enter the publication queue.
+            return (published != evidence or versioned != evidence
+                    or "<h1>" not in page or "Original SEC filing" not in page
+                    or fingerprint not in page)
+        except (OSError, ValueError, TypeError, UnicodeError):
             return True
     new = [x for x in candidates if x[0] not in profiles and eligible(x)]
     changed = [x for x in candidates if x[0] in profiles and needs_work(x) and eligible(x)]
