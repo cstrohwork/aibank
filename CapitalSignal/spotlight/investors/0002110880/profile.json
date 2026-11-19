@@ -1,0 +1,92 @@
+{
+  "manager_cik": "0002110880",
+  "investor_name": "AG Campbell Advisory, LLC",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-03-11",
+  "city": "BALTIMORE",
+  "state": "MD",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2110880/0002110880-26-000002.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "0e36cfedaa07fc639b5f1e8f788ce32a59e71af38d749d26e2a345ed529e4bba",
+  "accession_fingerprints": [
+    "2025-12-31|2026-03-11|||"
+  ],
+  "holdings_fingerprints": [
+    "4d84a3696934f1f8b794935fd3439c6eaa6cae55"
+  ],
+  "generated_at": "2026-11-19T05:57:39.210439+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2025-12-31",
+    "filing_date": "2026-03-11",
+    "accession": "0002110880-26-000002",
+    "source": "https://www.sec.gov/Archives/edgar/data/2110880/0002110880-26-000002.txt",
+    "distinct_positions": 5,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 158361571.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "46625H100",
+        "security_class": "Stock",
+        "issuer": "JPMORGAN CHASE & CO COM",
+        "shares": 471920.0,
+        "value_usd": 152062222.0,
+        "weight_pct": 96.02
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "Stock",
+        "issuer": "APPLE INC COM",
+        "shares": 18077.0,
+        "value_usd": 4914425.0,
+        "weight_pct": 3.1
+      },
+      {
+        "cusip": "811707801",
+        "security_class": "Stock",
+        "issuer": "SEACOAST BKG CORP FLA COM NEW",
+        "shares": 20625.0,
+        "value_usd": 648038.0,
+        "weight_pct": 0.41
+      },
+      {
+        "cusip": "808524508",
+        "security_class": "ETF",
+        "issuer": "SCHWAB U.S. MID-CAP ETF",
+        "shares": 13162.0,
+        "value_usd": 395754.0,
+        "weight_pct": 0.25
+      },
+      {
+        "cusip": "808524607",
+        "security_class": "ETF",
+        "issuer": "SCHWAB U.S. SMALL-CAP ETF",
+        "shares": 11978.0,
+        "value_usd": 341132.0,
+        "weight_pct": 0.22
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 9230.16,
+    "changes": null,
+    "timeline": [
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-03-11",
+        "accession": "0002110880-26-000002"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 158361571.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0002110880-26-000002",
+  "annualized_turnover_proxy_pct": null
+}
