@@ -75,10 +75,19 @@ def run(batch=200):
         except (KeyError, ValueError, TypeError, OverflowError):
             return True
     def needs_work(item):
-        identifier, _, fingerprint = item
-        return (profiles.get(identifier, {}).get("fingerprint") != fingerprint
-                or not (OUT / identifier / "profile.json").is_file()
-                or not (OUT / identifier / "index.html").is_file())
+        identifier, evidence, fingerprint = item
+        target = OUT / identifier
+        if (profiles.get(identifier, {}).get("fingerprint") != fingerprint
+                or not (target / "index.html").is_file()
+                or not (target / "versions" / (fingerprint + ".json")).is_file()):
+            return True
+        # An existing file is not proof of a valid publication. Requeue
+        # truncated or stale JSON rather than silently marking it complete.
+        try:
+            published = json.loads((target / "profile.json").read_text())
+            return published != evidence
+        except (OSError, ValueError, TypeError):
+            return True
     new = [x for x in candidates if x[0] not in profiles and eligible(x)]
     changed = [x for x in candidates if x[0] in profiles and needs_work(x) and eligible(x)]
     # Reserve at least 25% for first publication; do not starve updates.
