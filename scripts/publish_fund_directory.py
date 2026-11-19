@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Publish verified N-PORT series evidence separately from 13F manager profiles."""
 import argparse
+import datetime as dt
 import hashlib
 import html
 import json
@@ -57,8 +58,29 @@ def run(batch=200):
     candidates = list(latest_by_id.values())
     candidates.sort(key=lambda item: (item[1].get("reported_equity_assets_usd") or 0,
                                       item[1].get("filing_date") or ""), reverse=True)
-    new = [x for x in candidates if x[0] not in profiles]
-    changed = [x for x in candidates if x[0] in profiles and profiles[x[0]].get("fingerprint") != x[2]]
+    # Missing published artifacts must be repaired even when the fingerprint matches.
+    # Cool down only repeated failures for identical evidence; fresh filings bypass it.
+    now = dt.datetime.now(dt.timezone.utc)
+    def eligible(item):
+        identifier, _, fingerprint = item
+        failure = failures.get(identifier, {})
+        if not isinstance(failure, dict) or failure.get("fingerprint") != fingerprint:
+            return True
+        try:
+            previous = dt.datetime.fromisoformat(failure["last_attempt_at"])
+            if previous.tzinfo is None:
+                previous = previous.replace(tzinfo=dt.timezone.utc)
+            delay = min(360, 5 * 2 ** min(max(int(failure.get("attempts", 1))-1, 0), 7))
+            return now - previous >= dt.timedelta(minutes=delay)
+        except (KeyError, ValueError, TypeError, OverflowError):
+            return True
+    def needs_work(item):
+        identifier, _, fingerprint = item
+        return (profiles.get(identifier, {}).get("fingerprint") != fingerprint
+                or not (OUT / identifier / "profile.json").is_file()
+                or not (OUT / identifier / "index.html").is_file())
+    new = [x for x in candidates if x[0] not in profiles and eligible(x)]
+    changed = [x for x in candidates if x[0] in profiles and needs_work(x) and eligible(x)]
     # Reserve at least 25% for first publication; do not starve updates.
     reserve = min(len(new), max(1, batch // 4))
     selected = new[:reserve] + changed[:max(0, batch-reserve)]
@@ -87,17 +109,22 @@ def run(batch=200):
             failures.pop(identifier, None)
             done += 1
         except Exception as exc:
-            failures[identifier] = str(exc)
-    pending = [x[0] for x in candidates if profiles.get(x[0], {}).get("fingerprint") != x[2]]
+            previous = failures.get(identifier, {})
+            attempts = (previous.get("attempts", 0) if isinstance(previous, dict)
+                        and previous.get("fingerprint") == fingerprint else 0) + 1
+            failures[identifier] = {"fingerprint": fingerprint, "attempts": attempts,
+                                    "last_attempt_at": now.isoformat(), "last_error": str(exc)}
+    pending = [x[0] for x in candidates if needs_work(x)]
+    eligible_pending = sum(1 for x in candidates if needs_work(x) and eligible(x))
     manifest.update(discovered_count=len(candidates), completed_current_count=len(candidates)-len(pending),
-                    pending_count=len(pending), changed_this_run=done, next_batch=pending[:200],
+                    pending_count=len(pending), eligible_pending_count=eligible_pending, changed_this_run=done, next_batch=pending[:200],
                     scope="verified_N_PORT_series_from_current_aggregated_cache_not_complete_universe")
     manifest_file.write_text(json.dumps(manifest, indent=2, sort_keys=True)+"\n")
     # Small, independently readable checkpoint for monitoring and reconciliation.
     # Never copy the potentially enormous profile map into this summary.
     checkpoint = {key: manifest[key] for key in (
         "discovered_count", "completed_current_count", "pending_count",
-        "changed_this_run", "scope")}
+        "changed_this_run", "eligible_pending_count", "scope")}
     checkpoint["failed_count"] = len(failures)
     checkpoint["next_batch_count"] = len(manifest["next_batch"])
     (OUT / "checkpoint.json").write_text(json.dumps(checkpoint, indent=2, sort_keys=True) + "\n")
