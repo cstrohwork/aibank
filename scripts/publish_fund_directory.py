@@ -41,6 +41,20 @@ def run(batch=200):
                         "adviser_identity": None, "institution_wide_orientation": None}
             fingerprint = hashlib.sha256(json.dumps(evidence, sort_keys=True).encode()).hexdigest()
             candidates.append((identifier, evidence, fingerprint))
+    # One current profile per stable registrant/series identifier. The aggregate
+    # may contain multiple reporting periods; never let an older row overwrite
+    # newer evidence merely because its reported exposure is larger.
+    latest_by_id = {}
+    for candidate in candidates:
+        identifier, evidence, _ = candidate
+        prior = latest_by_id.get(identifier)
+        key = (evidence.get("report_date") or "", evidence.get("filing_date") or "",
+               evidence.get("accession") or "")
+        if prior is None or key > (prior[1].get("report_date") or "",
+                                   prior[1].get("filing_date") or "",
+                                   prior[1].get("accession") or ""):
+            latest_by_id[identifier] = candidate
+    candidates = list(latest_by_id.values())
     candidates.sort(key=lambda item: (item[1].get("reported_equity_assets_usd") or 0,
                                       item[1].get("filing_date") or ""), reverse=True)
     new = [x for x in candidates if x[0] not in profiles]
