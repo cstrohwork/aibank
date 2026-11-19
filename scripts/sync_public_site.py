@@ -73,9 +73,17 @@ def collect():
 def main():
     files = collect()
     print("Staging static files:", len(files))
-    for name in sorted(files):
+    if len(files) > 300:
+        raise RuntimeError("Refusing to publish more than 300 files in one deployment; spotlight investor pages require a separate bounded publisher.")
+    for name in sorted(files)[:35]:
         print("  ", name)
-    branch = api("GET", "git/ref/heads/main")
+    if len(files) > 35:
+        print("  ... remaining files omitted from logs")
+    try:
+        identity = api("GET", "git/ref/heads/main")
+    except urllib.error.HTTPError as exc:
+        raise RuntimeError(f"Destination repository read check failed: HTTP {exc.code}; verify PUBLIC_SITE_TOKEN access to {DEST}") from exc
+    branch = identity
     old_sha = branch["object"]["sha"]
     head = api("GET", "git/commits/" + old_sha)
     tree = []
