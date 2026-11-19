@@ -26,6 +26,8 @@ jobs:
             echo "::error::Configure PUBLIC_SITE_TOKEN as a fine-grained token with Contents read/write access ONLY to cstrohwork/aibank_public."
             exit 1
           fi
+      - name: Validate publisher syntax
+        run: python3 -m py_compile scripts/sync_public_site.py
       - name: Publish allowlisted website files
         env:
           PUBLIC_SITE_TOKEN: ${{ secrets.PUBLIC_SITE_TOKEN }}
