@@ -2,7 +2,7 @@
 """Build fund-to-firm ownership attribution from SEC N-PORT series data.
 Registrant is a legal filing entity, not necessarily the ultimate adviser.
 """
-import json,pathlib,collections,re
+import json,pathlib,collections,re,math
 from fund_ownership_index import write_ownership_index
 ROOT=pathlib.Path(__file__).resolve().parents[1]/"CapitalSignal"/"data"
 DIR=ROOT/"funds"
@@ -77,7 +77,23 @@ for entry in latest.values():
     # ETF alone is not a passive classification; actively managed ETFs exist.
     orientation="passive" if passive else "unclassified"
     equities=[h for h in data["holdings"] if h["asset_category"] in ("EC","EP")]
-    equity_value=sum(max(0,float(h["reported_value_usd"])) for h in equities)
+    # Reject malformed/nonfinite amounts instead of contaminating aggregate values.
+    # Withhold the entire series rather than silently publishing partial exposure.
+    values=[]
+    invalid=False
+    for h in equities:
+        try:
+            value=float(h["reported_value_usd"])
+            if not math.isfinite(value) or value < 0:
+                invalid=True
+                break
+            values.append(value)
+        except (KeyError, TypeError, ValueError, OverflowError):
+            invalid=True
+            break
+    if invalid:
+        continue
+    equity_value=sum(values)
     firm["equity_assets_usd"]+=equity_value
     firm[orientation+"_equity_assets_usd"]+=equity_value
     firm["funds"].append({"fund_id":entry.get("fund_id") or entry["series_id"],"series_id":entry["series_id"],"fund_name":name,"report_date":entry["report_date"],"filing_date":entry.get("filing_date"),"accession":entry.get("accession"),"orientation":orientation,"orientation_basis":"explicit_index_fund_name" if passive else "not_verified","reported_equity_assets_usd":round(equity_value,2),"source":entry["source"]})
