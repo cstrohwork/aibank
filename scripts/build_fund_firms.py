@@ -68,8 +68,7 @@ for key,entry in selected.items():
         latest[series]=entry
 for entry in latest.values():
     data=json.loads((DIR/entry["file"]).read_text())
-    key=entry["registrant_cik"];firm=firms[key]
-    firm["registrant_cik"]=key;firm["registrant_name"]=entry["registrant_name"]
+    key=entry["registrant_cik"]
     # Classification is at fund level. Explicit index-tracking names only; other
     # fund names cannot reliably establish active status.
     name=entry["fund_name"]
@@ -94,6 +93,8 @@ for entry in latest.values():
     if invalid:
         continue
     equity_value=sum(values)
+    firm=firms[key]
+    firm["registrant_cik"]=key;firm["registrant_name"]=entry["registrant_name"]
     firm["equity_assets_usd"]+=equity_value
     firm[orientation+"_equity_assets_usd"]+=equity_value
     firm["funds"].append({"fund_id":entry.get("fund_id") or entry["series_id"],"series_id":entry["series_id"],"fund_name":name,"report_date":entry["report_date"],"filing_date":entry.get("filing_date"),"accession":entry.get("accession"),"orientation":orientation,"orientation_basis":"explicit_index_fund_name" if passive else "not_verified","reported_equity_assets_usd":round(equity_value,2),"source":entry["source"]})
