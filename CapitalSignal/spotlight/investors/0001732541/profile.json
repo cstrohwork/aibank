@@ -1,132 +1,146 @@
 {
   "manager_cik": "0001732541",
   "investor_name": "Defiance ETFs, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-19",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1732541/0001732541-26-000003.txt"
+    "https://www.sec.gov/Archives/edgar/data/1732541/0001732541-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1732541/0001732541-26-000007.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a686bb1baf5e10093990d09099828389c981ae998cdebc1c016d0f86fb15c016",
+  "source_fingerprint": "451bd2a13979fbb7136c9029b713acd098412baf51d2a3e76457682465b3b0db",
   "accession_fingerprints": [
-    "2026-06-30|2026-08-14|||"
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-19|||"
   ],
   "holdings_fingerprints": [
-    "1753f365b33259892570261573159b5977a393d3"
+    "1753f365b33259892570261573159b5977a393d3",
+    "e256898a714ab95704b5eec1a7932fb3c4c3bd37"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-20T12:46:36.251755+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001732541-26-000003",
-    "source": "https://www.sec.gov/Archives/edgar/data/1732541/0001732541-26-000003.txt",
-    "distinct_positions": 384,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-19",
+    "accession": "0001732541-26-000007",
+    "source": "https://www.sec.gov/Archives/edgar/data/1732541/0001732541-26-000007.txt",
+    "distinct_positions": 423,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 7183644808.0,
+    "reported_long_equity_value_usd": 6683490993.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
         "cusip": "464287200",
-        "security_class": "COM",
-        "issuer": "iShares Core S&P 500 ETF",
-        "shares": 205875.0,
-        "value_usd": 154220962.0,
-        "weight_pct": 2.15
-      },
-      {
-        "cusip": "Y4000A102",
-        "security_class": "COM",
-        "issuer": "Horizon Quantum Holdings LTD",
-        "shares": 5582526.0,
-        "value_usd": 150895678.0,
-        "weight_pct": 2.1
-      },
-      {
-        "cusip": "G0567U127",
-        "security_class": "COM",
-        "issuer": "Arqit Quantum Inc",
-        "shares": 5099023.0,
-        "value_usd": 147106813.0,
-        "weight_pct": 2.05
-      },
-      {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "Broadcom Inc",
-        "shares": 387371.0,
-        "value_usd": 143071604.0,
-        "weight_pct": 1.99
+        "security_class": "CORE S&P500 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 219104.0,
+        "value_usd": 167800798.0,
+        "weight_pct": 2.51
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
-        "issuer": "NVIDIA Corp",
-        "shares": 692495.0,
-        "value_usd": 136823163.0,
-        "weight_pct": 1.9
+        "issuer": "NVIDIA CORPORATION",
+        "shares": 688811.0,
+        "value_usd": 157310656.0,
+        "weight_pct": 2.35
+      },
+      {
+        "cusip": "11135F101",
+        "security_class": "COM",
+        "issuer": "BROADCOM INC",
+        "shares": 410799.0,
+        "value_usd": 144268500.0,
+        "weight_pct": 2.16
+      },
+      {
+        "cusip": "G0567U127",
+        "security_class": "COM NEW",
+        "issuer": "ARQIT QUANTUM INC",
+        "shares": 5041148.0,
+        "value_usd": 121290021.0,
+        "weight_pct": 1.81
+      },
+      {
+        "cusip": "18915M107",
+        "security_class": "CL A COM",
+        "issuer": "CLOUDFLARE INC",
+        "shares": 341858.0,
+        "value_usd": 118720446.0,
+        "weight_pct": 1.78
+      },
+      {
+        "cusip": "007903107",
+        "security_class": "COM",
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "shares": 193897.0,
+        "value_usd": 118618429.0,
+        "weight_pct": 1.77
+      },
+      {
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 298903.0,
+        "value_usd": 102846544.0,
+        "weight_pct": 1.54
       },
       {
         "cusip": "573874104",
         "security_class": "COM",
         "issuer": "MARVELL TECHNOLOGY INC",
-        "shares": 423990.0,
-        "value_usd": 115346481.0,
-        "weight_pct": 1.61
+        "shares": 372503.0,
+        "value_usd": 98419018.0,
+        "weight_pct": 1.47
       },
       {
-        "cusip": "007903107",
-        "security_class": "COM",
-        "issuer": "Advanced Micro Devices Inc",
-        "shares": 196385.0,
-        "value_usd": 106220719.0,
-        "weight_pct": 1.48
+        "cusip": "N14506104",
+        "security_class": "ORD SHS",
+        "issuer": "ELASTIC N V",
+        "shares": 1070072.0,
+        "value_usd": 98125602.0,
+        "weight_pct": 1.47
       },
       {
-        "cusip": "042068205",
-        "security_class": "COM",
-        "issuer": "ARM Holdings PLC",
-        "shares": 308010.0,
-        "value_usd": 103944134.0,
-        "weight_pct": 1.45
-      },
-      {
-        "cusip": "17275R102",
-        "security_class": "COM",
-        "issuer": "Cisco Systems Inc",
-        "shares": 865125.0,
-        "value_usd": 101228276.0,
-        "weight_pct": 1.41
-      },
-      {
-        "cusip": "74768A104",
-        "security_class": "COM",
-        "issuer": "Quantinuum Inc",
-        "shares": 1215283.0,
-        "value_usd": 95290340.0,
-        "weight_pct": 1.33
+        "cusip": "Y4000A102",
+        "security_class": "CL A ORD SHS",
+        "issuer": "HORIZON QUANTUM HOLDINGS LTD",
+        "shares": 6555350.0,
+        "value_usd": 97412501.0,
+        "weight_pct": 1.46
       }
     ],
-    "top_five_pct": 10.19,
-    "top_ten_pct": 17.46,
-    "hhi": 98.69,
-    "changes": null,
+    "top_five_pct": 10.61,
+    "top_ten_pct": 18.33,
+    "hhi": 101.76,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 176,
+      "exited_positions": 137,
+      "increased_positions": 175,
+      "reduced_positions": 72
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001732541-26-000003"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-19",
+        "accession": "0001732541-26-000007"
       }
     ]
   },
-  "reported_13f_value_usd": 7183644808.0,
+  "reported_13f_value_usd": 6683490993.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001732541-26-000003",
+  "validated_accession": "0001732541-26-000007",
   "annualized_turnover_proxy_pct": null
 }

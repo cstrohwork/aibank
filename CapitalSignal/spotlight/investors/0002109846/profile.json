@@ -1,34 +1,37 @@
 {
   "manager_cik": "0002109846",
   "investor_name": "PCM Encore, LLC",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-11",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-19",
   "city": "Aspen",
   "state": "CO",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2109846/0001420506-26-001515.txt"
+    "https://www.sec.gov/Archives/edgar/data/2109846/0001420506-26-001515.txt",
+    "https://www.sec.gov/Archives/edgar/data/2109846/0001420506-26-002918.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "a68eacb8e072f1d0c76a7bb737d5332820ed15270df9dd64edb24094eea8297e",
+  "source_fingerprint": "503f7507044c6ec27997da6216c4b890961138f97377ab2c0dbb7fb4fd5ebeca",
   "accession_fingerprints": [
-    "2026-06-30|2026-08-11|||"
+    "2026-06-30|2026-08-11|||",
+    "2026-09-30|2026-11-19|||"
   ],
   "holdings_fingerprints": [
+    "779bca9c51d0ba35dfa063354471a68aafefe5aa",
     "8e901058c81e23c9a8799191f4956acf5a670efe"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-20T12:46:36.251755+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-11",
-    "accession": "0001420506-26-001515",
-    "source": "https://www.sec.gov/Archives/edgar/data/2109846/0001420506-26-001515.txt",
-    "distinct_positions": 459,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-19",
+    "accession": "0001420506-26-002918",
+    "source": "https://www.sec.gov/Archives/edgar/data/2109846/0001420506-26-002918.txt",
+    "distinct_positions": 452,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 569166274.0,
+    "reported_long_equity_value_usd": 611641185.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -36,97 +39,108 @@
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 129660.0,
-        "value_usd": 25943678.0,
-        "weight_pct": 4.56
+        "shares": 131215.0,
+        "value_usd": 29966982.0,
+        "weight_pct": 4.9
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "APPLE INC",
-        "shares": 87454.0,
-        "value_usd": 25305629.0,
-        "weight_pct": 4.45
-      },
-      {
-        "cusip": "02079K305",
-        "security_class": "CAP STK CL A",
-        "issuer": "ALPHABET INC",
-        "shares": 55762.0,
-        "value_usd": 19927668.0,
-        "weight_pct": 3.5
+        "shares": 88629.0,
+        "value_usd": 29515143.0,
+        "weight_pct": 4.83
       },
       {
         "cusip": "594918104",
         "security_class": "COM",
         "issuer": "MICROSOFT CORP",
-        "shares": 46079.0,
-        "value_usd": 17188283.0,
-        "weight_pct": 3.02
+        "shares": 46967.0,
+        "value_usd": 24089199.0,
+        "weight_pct": 3.94
       },
       {
-        "cusip": "874039100",
-        "security_class": "SPONSORED ADS",
-        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-        "shares": 34343.0,
-        "value_usd": 16401154.0,
-        "weight_pct": 2.88
+        "cusip": "02079K305",
+        "security_class": "CAP STK CL A",
+        "issuer": "ALPHABET INC",
+        "shares": 61685.0,
+        "value_usd": 21224568.0,
+        "weight_pct": 3.47
       },
       {
         "cusip": "922908363",
         "security_class": "S&P 500 ETF SHS",
         "issuer": "VANGUARD INDEX FDS",
-        "shares": 20914.0,
-        "value_usd": 14363818.0,
-        "weight_pct": 2.52
+        "shares": 27214.0,
+        "value_usd": 19073290.0,
+        "weight_pct": 3.12
       },
       {
-        "cusip": "464287655",
-        "security_class": "RUSSELL 2000 ETF",
-        "issuer": "ISHARES TR",
-        "shares": 41698.0,
-        "value_usd": 12528032.0,
-        "weight_pct": 2.2
+        "cusip": "874039100",
+        "security_class": "SPONSORED ADS",
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "shares": 34761.0,
+        "value_usd": 15857650.0,
+        "weight_pct": 2.59
       },
       {
         "cusip": "023135106",
         "security_class": "COM",
         "issuer": "AMAZON COM INC",
-        "shares": 51255.0,
-        "value_usd": 12216083.0,
-        "weight_pct": 2.15
+        "shares": 55237.0,
+        "value_usd": 13762416.0,
+        "weight_pct": 2.25
       },
       {
-        "cusip": "11135F101",
-        "security_class": "COM",
-        "issuer": "BROADCOM INC",
-        "shares": 28345.0,
-        "value_usd": 10707186.0,
-        "weight_pct": 1.88
+        "cusip": "464287655",
+        "security_class": "RUSSELL 2000 ETF",
+        "issuer": "ISHARES TR",
+        "shares": 48858.0,
+        "value_usd": 13577078.0,
+        "weight_pct": 2.22
+      },
+      {
+        "cusip": "921943858",
+        "security_class": "VAN FTSE DEV MKT",
+        "issuer": "VANGUARD TAX-MANAGED FDS",
+        "shares": 146647.0,
+        "value_usd": 10354755.0,
+        "weight_pct": 1.69
       },
       {
         "cusip": "532457108",
         "security_class": "COM",
         "issuer": "ELI LILLY & CO",
-        "shares": 8838.0,
-        "value_usd": 10600161.0,
-        "weight_pct": 1.86
+        "shares": 8847.0,
+        "value_usd": 10236441.0,
+        "weight_pct": 1.67
       }
     ],
-    "top_five_pct": 18.41,
-    "top_ten_pct": 29.02,
-    "hhi": 128.19,
-    "changes": null,
+    "top_five_pct": 20.25,
+    "top_ten_pct": 30.68,
+    "hhi": 143.36,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 43,
+      "exited_positions": 50,
+      "increased_positions": 264,
+      "reduced_positions": 116
+    },
     "timeline": [
       {
         "report_date": "2026-06-30",
         "filing_date": "2026-08-11",
         "accession": "0001420506-26-001515"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-19",
+        "accession": "0001420506-26-002918"
       }
     ]
   },
-  "reported_13f_value_usd": 569166274.0,
+  "reported_13f_value_usd": 611641185.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001420506-26-001515",
+  "validated_accession": "0001420506-26-002918",
   "annualized_turnover_proxy_pct": null
 }
