@@ -1,8 +1,8 @@
 {
   "manager_cik": "0002008738",
   "investor_name": "Stonebrook Private Inc.",
-  "latest_report_date": "2026-06-30",
-  "filing_date": "2026-08-14",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-20",
   "city": "NORTHVILLE",
   "state": "MI",
   "country": "United States",
@@ -11,30 +11,33 @@
   "source_filings": [
     "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-25-000461.txt",
     "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-26-000481.txt",
-    "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-26-000393.txt"
+    "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-26-000393.txt",
+    "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-26-000516.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "98a5a4e87fa0ce44599d5fbdd62c57c67bb31e4b058a38a6e5c553dcefe1aad1",
+  "source_fingerprint": "76293df4f4c4c4d8e9fd24a33dee2bb68cd5a46127cce72a953e9420971a7b32",
   "accession_fingerprints": [
     "2025-09-30|2025-11-10|||",
     "2025-12-31|2026-11-13|||",
-    "2026-06-30|2026-08-14|||"
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-20|||"
   ],
   "holdings_fingerprints": [
     "0925d9cf1a2234b7536fe099678bc4def089ff52",
+    "2adc6dda0a340f84453bb72bfe0aa3b35c6b1e95",
     "75436f814e6e5d83a2d9c46ba198823c21e40d74",
     "9758dae7b759e06a4834b4765d189ac7647f6ea9"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-21T10:59:46.351732+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2026-06-30",
-    "filing_date": "2026-08-14",
-    "accession": "0001765380-26-000393",
-    "source": "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-26-000393.txt",
-    "distinct_positions": 271,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-20",
+    "accession": "0001765380-26-000516",
+    "source": "https://www.sec.gov/Archives/edgar/data/2008738/0001765380-26-000516.txt",
+    "distinct_positions": 376,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 547696473.0,
+    "reported_long_equity_value_usd": 621548456.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -42,92 +45,92 @@
         "cusip": "78464A854",
         "security_class": "ST STR P500ETF",
         "issuer": "SPDR SERIES TRUST",
-        "shares": 703245.0,
-        "value_usd": 61801159.0,
-        "weight_pct": 11.28
-      },
-      {
-        "cusip": "78464A409",
-        "security_class": "ST STR P500GRW",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 251999.0,
-        "value_usd": 29985398.0,
-        "weight_pct": 5.47
-      },
-      {
-        "cusip": "09290C103",
-        "security_class": "ISHARES US EQUIT",
-        "issuer": "BLACKROCK ETF TRUST",
-        "shares": 427221.0,
-        "value_usd": 29055289.0,
-        "weight_pct": 5.3
-      },
-      {
-        "cusip": "78464A508",
-        "security_class": "ST STR P500VAL",
-        "issuer": "SPDR SERIES TRUST",
-        "shares": 397043.0,
-        "value_usd": 24136231.0,
-        "weight_pct": 4.41
-      },
-      {
-        "cusip": "037833100",
-        "security_class": "COM",
-        "issuer": "APPLE INC",
-        "shares": 66631.0,
-        "value_usd": 19280381.0,
-        "weight_pct": 3.52
-      },
-      {
-        "cusip": "09290C764",
-        "security_class": "ISHA IN CTRY ETF",
-        "issuer": "BLACKROCK ETF TRUST",
-        "shares": 491985.0,
-        "value_usd": 18006651.0,
-        "weight_pct": 3.29
+        "shares": 738552.0,
+        "value_usd": 66292456.0,
+        "weight_pct": 10.67
       },
       {
         "cusip": "78463X848",
         "security_class": "ST STR ACWI ETF",
         "issuer": "SPDR INDEX SHS FDS",
-        "shares": 438294.0,
-        "value_usd": 17825419.0,
-        "weight_pct": 3.25
+        "shares": 935074.0,
+        "value_usd": 37786339.0,
+        "weight_pct": 6.08
       },
       {
-        "cusip": "09290C830",
-        "security_class": "ISHA U S IND ETF",
+        "cusip": "78464A409",
+        "security_class": "ST STR P500GRW",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 254983.0,
+        "value_usd": 31383314.0,
+        "weight_pct": 5.05
+      },
+      {
+        "cusip": "09290C103",
+        "security_class": "ISHARES US EQUIT",
         "issuer": "BLACKROCK ETF TRUST",
-        "shares": 395591.0,
-        "value_usd": 14514867.0,
-        "weight_pct": 2.65
+        "shares": 424479.0,
+        "value_usd": 29399446.0,
+        "weight_pct": 4.73
+      },
+      {
+        "cusip": "78464A508",
+        "security_class": "ST STR P500VAL",
+        "issuer": "SPDR SERIES TRUST",
+        "shares": 389722.0,
+        "value_usd": 23823719.0,
+        "weight_pct": 3.83
+      },
+      {
+        "cusip": "037833100",
+        "security_class": "COM",
+        "issuer": "APPLE INC",
+        "shares": 68859.0,
+        "value_usd": 22931306.0,
+        "weight_pct": 3.69
+      },
+      {
+        "cusip": "09290C764",
+        "security_class": "ISHA IN CTRY ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 539908.0,
+        "value_usd": 19625674.0,
+        "weight_pct": 3.16
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "NVIDIA CORPORATION",
-        "shares": 67950.0,
-        "value_usd": 13596074.0,
-        "weight_pct": 2.48
+        "shares": 79272.0,
+        "value_usd": 18104039.0,
+        "weight_pct": 2.91
       },
       {
-        "cusip": "46435U556",
-        "security_class": "FUTU AI TECH ETF",
-        "issuer": "ISHARES TR",
-        "shares": 151883.0,
-        "value_usd": 11567406.0,
-        "weight_pct": 2.11
+        "cusip": "594918104",
+        "security_class": "COM",
+        "issuer": "MICROSOFT CORP",
+        "shares": 33158.0,
+        "value_usd": 17006746.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "09290C830",
+        "security_class": "ISHA U S IND ETF",
+        "issuer": "BLACKROCK ETF TRUST",
+        "shares": 394913.0,
+        "value_usd": 14535660.0,
+        "weight_pct": 2.34
       }
     ],
-    "top_five_pct": 29.99,
-    "top_ten_pct": 43.78,
-    "hhi": 294.35,
+    "top_five_pct": 30.36,
+    "top_ten_pct": 45.19,
+    "hhi": 284.75,
     "changes": {
-      "previous_period": "2025-12-31",
-      "new_positions": 22,
-      "exited_positions": 127,
-      "increased_positions": 56,
-      "reduced_positions": 189
+      "previous_period": "2026-06-30",
+      "new_positions": 127,
+      "exited_positions": 22,
+      "increased_positions": 189,
+      "reduced_positions": 56
     },
     "timeline": [
       {
@@ -144,11 +147,16 @@
         "report_date": "2026-06-30",
         "filing_date": "2026-08-14",
         "accession": "0001765380-26-000393"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-20",
+        "accession": "0001765380-26-000516"
       }
     ]
   },
-  "reported_13f_value_usd": 547696473.0,
+  "reported_13f_value_usd": 621548456.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001765380-26-000393",
+  "validated_accession": "0001765380-26-000516",
   "annualized_turnover_proxy_pct": null
 }
