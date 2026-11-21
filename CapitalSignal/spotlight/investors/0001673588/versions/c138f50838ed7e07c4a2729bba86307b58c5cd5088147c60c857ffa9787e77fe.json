@@ -1,0 +1,82 @@
+{
+  "manager_cik": "0001673588",
+  "investor_name": "VCU Investment Management Co",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-12",
+  "city": "RICHMOND",
+  "state": "VA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1673588/0001673588-26-000003.txt",
+    "https://www.sec.gov/Archives/edgar/data/1673588/0001673588-26-000007.txt",
+    "https://www.sec.gov/Archives/edgar/data/1673588/0001673588-26-000009.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "c138f50838ed7e07c4a2729bba86307b58c5cd5088147c60c857ffa9787e77fe",
+  "accession_fingerprints": [
+    "2025-12-31|2026-02-19|||",
+    "2026-06-30|2026-08-10|||",
+    "2026-09-30|2026-11-12|||"
+  ],
+  "holdings_fingerprints": [
+    "63595eda1850b1f8320ba6f0be6d0c025a181172",
+    "662555e797fa1f0c745b8982109c4689dd01de39",
+    "c5c9cdbccabf4bffb1218f55ab043d6bf36326c8"
+  ],
+  "generated_at": "2026-11-21T04:52:58.686476+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-12",
+    "accession": "0001673588-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1673588/0001673588-26-000009.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 87810017.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "464285204",
+        "security_class": "ISHARES NEW",
+        "issuer": "ISHARES GOLD TR",
+        "shares": 1124328.0,
+        "value_usd": 87810017.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-19",
+        "accession": "0001673588-26-000003"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-10",
+        "accession": "0001673588-26-000007"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-12",
+        "accession": "0001673588-26-000009"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 87810017.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001673588-26-000009",
+  "annualized_turnover_proxy_pct": null
+}
