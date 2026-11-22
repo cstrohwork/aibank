@@ -26,3 +26,12 @@ The first local validator test correctly exposed an inaccurate reference-count a
 ## Next task and blocker
 
 Pass exact-head cloud validation over all 162,229 reviewed outputs and merge only if the full tree has zero local-link, JSON or manifest-reference errors. Destination Pages still requires user-side repository administration: enable Pages for `cstrohwork/aibank_public` from `main` `/` without setting a custom domain. Then run live HTTP, redirects, MIME, asset, JSON and external-link checks before any domain or visibility change.
+
+## Exact-head and destination verification — November 22, 2026
+
+- Exact-head pull-request validation [44996176828](https://github.com/cstrohwork/aibank/actions/runs/44996176828) completed successfully at head `08dd85d9054e357a7056ca25bec9bf3ae003c842`.
+- [PR #42](https://github.com/cstrohwork/aibank/pull/42) merged as [bc212ea](https://github.com/cstrohwork/aibank/commit/bc212eaa4cd43ef7c000d80941512ae75bdba44d).
+- Main publication [44996966602](https://github.com/cstrohwork/aibank/actions/runs/44996966602) completed successfully and wrote destination [c025be6](https://github.com/cstrohwork/aibank_public/commit/c025be69a21c002548e2d5f1c066ca3e340d5309).
+- Independent tree-only destination clone confirmed 164,048 paths, zero forbidden source/workflow/test/validation/history-worker-state/CNAME paths, and all ten sampled required pages/manifests present.
+- The destination currently contains zero `CapitalSignal/ownership/data/*.json` files. NVIDIA issue #40 therefore remains incomplete and no live ownership-data deployment is claimed.
+- Destination repository metadata still reports `has_pages=false`. Enable Pages from `main` root without a custom domain, then run live HTTP, MIME, redirect, asset, JSON and external-link validation. Do not move `CNAME`, disable source Pages, or make source private before that gate passes.
