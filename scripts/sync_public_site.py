@@ -39,7 +39,9 @@ REQUIRED_FILES = {
     "CapitalSignal/atlas/index.html", "CapitalSignal/subscribe/index.html",
 }
 MAX_FILE_BYTES = 25_000_000
-MAX_TOTAL_BYTES = 2_000_000_000
+# Exact-head inventory measured 2,295,635,565 bytes. Keep bounded headroom for
+# new public profiles without allowing the publisher to absorb arbitrary caches.
+MAX_TOTAL_BYTES = 3_000_000_000
 # The generated investor/fund profile library is a first-class public site
 # dependency.  Exact-head inventory measured 162,229 reviewed files; retain
 # bounded headroom without silently dropping profiles.
