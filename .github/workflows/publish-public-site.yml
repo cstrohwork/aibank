@@ -100,4 +100,7 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           test ! -e "$RUNNER_TEMP/public-site/CNAME"
+          test -f "$RUNNER_TEMP/public-site/.github/workflows/deploy-pages.yml"
+          grep -q 'pages: write' "$RUNNER_TEMP/public-site/.github/workflows/deploy-pages.yml"
+          grep -q 'id-token: write' "$RUNNER_TEMP/public-site/.github/workflows/deploy-pages.yml"
           echo "CNAME was not staged; DNS and source Pages remain unchanged."
