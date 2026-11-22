@@ -140,6 +140,10 @@ def _check_manifest_references(site: Path, errors: list[str]) -> int:
 
 def validate(site: Path) -> dict:
     errors: list[str] = []
+    nojekyll = site / ".nojekyll"
+    nojekyll_ready = nojekyll.is_file() and nojekyll.stat().st_size == 0
+    if not nojekyll_ready:
+        errors.append("missing or non-empty .nojekyll static-site marker")
     html_files = list(site.rglob("*.html"))
     css_files = list(site.rglob("*.css"))
     json_files = list(site.rglob("*.json"))
@@ -207,6 +211,7 @@ def validate(site: Path) -> dict:
         "root_local_references": root_local_references,
         "root_code_requests": root_code_requests,
         "manifest_references": manifest_references,
+        "nojekyll_ready": nojekyll_ready,
         "error_count": len(errors),
         "errors": errors[:MAX_REPORTED_ERRORS],
     }
