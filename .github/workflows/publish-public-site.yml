@@ -6,7 +6,9 @@ on:
       - 'index.html'
       - 'CapitalSignal/**'
       - 'scripts/sync_public_site.py'
+      - 'scripts/validate_public_site.py'
       - 'tests/test_sync_public_site.py'
+      - 'tests/test_validate_public_site.py'
       - '.github/workflows/publish-public-site.yml'
   push:
     branches: [main]
@@ -14,7 +16,9 @@ on:
       - 'index.html'
       - 'CapitalSignal/**'
       - 'scripts/sync_public_site.py'
+      - 'scripts/validate_public_site.py'
       - 'tests/test_sync_public_site.py'
+      - 'tests/test_validate_public_site.py'
       - '.github/workflows/publish-public-site.yml'
 permissions:
   contents: read
@@ -47,13 +51,19 @@ jobs:
             CapitalSignal/data/13f
             CapitalSignal/data/fundamentals
             scripts/sync_public_site.py
+            scripts/validate_public_site.py
             tests/test_sync_public_site.py
+            tests/test_validate_public_site.py
           sparse-checkout-cone-mode: false
       - name: Test allowlist, exclusions, secret scan, and exact staging
         run: |
           python3 -m unittest tests/test_sync_public_site.py
-          python3 -m py_compile scripts/sync_public_site.py
+          python3 -m unittest tests/test_validate_public_site.py
+          python3 -m py_compile scripts/sync_public_site.py scripts/validate_public_site.py
           python3 scripts/sync_public_site.py --stage-dir "$RUNNER_TEMP/public-site"
+          python3 scripts/validate_public_site.py \
+            --site-dir "$RUNNER_TEMP/public-site" \
+            --report "$RUNNER_TEMP/public-site-validation.json"
       - name: Verify deployment credential is configured
         if: github.event_name != 'pull_request'
         env:
