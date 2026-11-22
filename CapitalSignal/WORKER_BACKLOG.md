@@ -476,3 +476,11 @@ PR #9 merged as f4cfb94. Final proposed head cloud run 43537624969 passed all 17
 - Main publication [44996966602](https://github.com/cstrohwork/aibank/actions/runs/44996966602) succeeded and wrote destination [c025be6](https://github.com/cstrohwork/aibank_public/commit/c025be69a21c002548e2d5f1c066ca3e340d5309). Independent clone: 164,048 paths, zero forbidden roots/CNAME/history-worker-state, ten sampled required pages/manifests present.
 - Current blocker: destination metadata remains `has_pages=false`; live deployment/link tests and domain cutover cannot be performed until Pages is enabled from `main` root with no custom domain. Source Pages/domain/visibility remain unchanged.
 - Coverage caveat: the destination has zero ownership data JSON files, so NVIDIA issue #40 is not fulfilled or deployed. Resume that P0 only after migration cutover verification.
+
+
+### Public Pages live-deployment validator — November 22, 2026
+
+- Added a credential-free manual validator and read-only workflow for the future destination Pages URL. It compares 14 critical routes byte-for-byte and by MIME type against the reviewed destination SHA-256 inventory and requires four internal-only paths to remain HTTP 404. Evidence: [validation/2026-11-22-public-pages-live-validator.md](validation/2026-11-22-public-pages-live-validator.md).
+- Validation actually executed: ten focused publisher/deployment tests passed; three modules compiled; workflow YAML, read-only permission, ten-minute bound and whitespace checks passed.
+- Actual live probe: destination inventory is readable and reports 164,047 reviewed files / 2,366,821,289 bytes, but all 14 critical `https://cstrohwork.github.io/aibank_public/` routes return HTTP 404. The four forbidden paths also return 404. Pages is not deployed and no live success is claimed.
+- Exact blocker/next task: connector permissions expose no Pages-administration endpoint. Enable destination Pages from `main` `/` with no custom domain, then run the live validator and require a pass before moving `CNAME`/DNS, disabling source Pages, changing source visibility or resuming NVIDIA issue #40.

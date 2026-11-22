@@ -1,0 +1,45 @@
+name: Validate public Pages deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: Destination Pages URL before custom-domain cutover
+        required: true
+        default: https://cstrohwork.github.io/aibank_public/
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-pages-live-validation
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/validate_public_deployment.py
+            tests/test_validate_public_deployment.py
+          sparse-checkout-cone-mode: false
+      - name: Test validator
+        run: |
+          python3 -m unittest tests/test_validate_public_deployment.py
+          python3 -m py_compile scripts/validate_public_deployment.py
+      - name: Validate deployed destination against reviewed inventory
+        run: |
+          python3 scripts/validate_public_deployment.py \
+            --base-url '${{ inputs.base_url }}' \
+            --report "$RUNNER_TEMP/public-deployment-validation.json"
+      - name: Publish validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-deployment-validation
+          path: ${{ runner.temp }}/public-deployment-validation.json
+          if-no-files-found: warn
+          retention-days: 14
