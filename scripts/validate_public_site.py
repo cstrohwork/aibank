@@ -144,6 +144,23 @@ def validate(site: Path) -> dict:
     nojekyll_ready = nojekyll.is_file() and nojekyll.stat().st_size == 0
     if not nojekyll_ready:
         errors.append("missing or non-empty .nojekyll static-site marker")
+    pages_workflow = site / ".github/workflows/deploy-pages.yml"
+    required_workflow_text = (
+        "contents: read", "pages: write", "id-token: write",
+        "actions/configure-pages@v5", "actions/upload-pages-artifact@v4",
+        "actions/deploy-pages@v4",
+    )
+    forbidden_workflow_text = ("contents: write", "secrets.", "CNAME")
+    try:
+        pages_workflow_text = pages_workflow.read_text(encoding="utf-8")
+        pages_workflow_ready = (
+            all(item in pages_workflow_text for item in required_workflow_text)
+            and all(item not in pages_workflow_text for item in forbidden_workflow_text)
+        )
+    except (FileNotFoundError, UnicodeDecodeError):
+        pages_workflow_ready = False
+    if not pages_workflow_ready:
+        errors.append("missing or unsafe destination Pages deployment workflow")
     html_files = list(site.rglob("*.html"))
     css_files = list(site.rglob("*.css"))
     json_files = list(site.rglob("*.json"))
@@ -212,6 +229,7 @@ def validate(site: Path) -> dict:
         "root_code_requests": root_code_requests,
         "manifest_references": manifest_references,
         "nojekyll_ready": nojekyll_ready,
+        "pages_workflow_ready": pages_workflow_ready,
         "error_count": len(errors),
         "errors": errors[:MAX_REPORTED_ERRORS],
     }

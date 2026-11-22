@@ -73,16 +73,37 @@ class PublicSiteSyncTests(unittest.TestCase):
             stale.write_text("remove me", encoding="utf-8")
             manifest = sync.stage(files, destination)
             self.assertFalse(stale.exists())
-            self.assertEqual(manifest["file_count"], len(sync.REQUIRED_FILES) + 1)
+            self.assertEqual(
+                manifest["file_count"],
+                len(sync.REQUIRED_FILES) + len(sync.GENERATED_PUBLIC_FILES),
+            )
             self.assertFalse(manifest["custom_domain_included"])
             self.assertEqual((destination / ".nojekyll").read_bytes(), b"")
             marker = next(x for x in manifest["files"] if x["path"] == ".nojekyll")
             self.assertEqual(marker["bytes"], 0)
             self.assertEqual(marker["sha256"], hashlib.sha256(b"").hexdigest())
+            workflow_path = destination / ".github/workflows/deploy-pages.yml"
+            workflow = workflow_path.read_text(encoding="utf-8")
+            self.assertIn("pages: write", workflow)
+            self.assertIn("id-token: write", workflow)
+            self.assertIn("actions/upload-pages-artifact@v4", workflow)
+            self.assertIn("actions/deploy-pages@v4", workflow)
+            self.assertNotIn("CNAME", workflow)
+            workflow_entry = next(
+                x for x in manifest["files"]
+                if x["path"] == ".github/workflows/deploy-pages.yml"
+            )
+            self.assertEqual(
+                workflow_entry["sha256"],
+                hashlib.sha256(workflow_path.read_bytes()).hexdigest(),
+            )
             written = json.loads(
                 (destination / "public-site-inventory.json").read_text(encoding="utf-8")
             )
             self.assertEqual(written["files"], manifest["files"])
+
+    def test_pages_artifact_limit_exceeds_publisher_cap(self):
+        self.assertLess(sync.MAX_TOTAL_BYTES, sync.PAGES_ARTIFACT_MAX_BYTES)
 
     def test_stage_rewrites_root_local_html_links_for_project_pages(self):
         with tempfile.TemporaryDirectory() as temp:
