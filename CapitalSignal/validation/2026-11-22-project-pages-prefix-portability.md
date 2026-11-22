@@ -22,3 +22,12 @@
 ## Next task and blocker
 
 Pass exact-head cloud staging over the complete allowlisted tree and verify the reported rewrite count, then merge and confirm the destination publication commit. Destination Pages administration remains a user-side blocker; after enabling `main` `/` without a custom domain, run the live validator before any `CNAME`, DNS, source Pages or visibility change.
+
+## Production follow-up
+
+- Exact-head staging [45005636150](https://github.com/cstrohwork/aibank/actions/runs/45005636150) passed across 164,047 reviewed files / 2,367,136,008 rendered bytes.
+- [PR #44](https://github.com/cstrohwork/aibank/pull/44) merged as [522d0a1](https://github.com/cstrohwork/aibank/commit/522d0a1c555e8de405fca860877f9e818a28c9f9).
+- Main publication [45006149998](https://github.com/cstrohwork/aibank/actions/runs/45006149998) completed successfully and wrote destination [bd60680](https://github.com/cstrohwork/aibank_public/commit/bd606806aaddc3a0e00587398f9e80b755caafd9).
+- Destination inventory readback: 164,047 reviewed files / 2,367,136,008 bytes; 47,621 root-local attributes rewritten; `custom_domain_included=false`; `raw_sec_archives_included=false`.
+- Sampled Daily, Skunkworks and Spotlight destination HTML contains zero remaining root-local attributes. Links are document-relative and retain external sources.
+- Destination metadata still reports `has_pages=false`; no live Pages or cutover success is claimed.
