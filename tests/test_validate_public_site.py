@@ -26,17 +26,34 @@ class PublicSiteValidatorTests(unittest.TestCase):
         self.write(root, "CapitalSignal/data/fundamentals/model_status.json", '{}')
         self.write(root, "CapitalSignal/skunkworks/catalog.json", '[]')
 
-    def test_validates_absolute_relative_css_and_external_references(self):
+    def test_validates_relative_css_and_external_references(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             self.make_required_json(root)
-            self.write(root, "index.html", '<a href="/CapitalSignal/"></a><a href="https://sec.gov/"></a>')
+            self.write(root, "index.html", '<a href="CapitalSignal/"></a><a href="https://sec.gov/"></a>')
             self.write(root, "CapitalSignal/index.html", '<link href="site.css"><img src="asset.svg">')
             self.write(root, "CapitalSignal/site.css", 'body{background:url("asset.svg")}')
             self.write(root, "CapitalSignal/asset.svg", '<svg/>')
             report = validator.validate(root)
             self.assertEqual(report["error_count"], 0)
             self.assertEqual(report["local_references"], 4)
+
+    def test_rejects_root_local_html_css_and_code_requests(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_required_json(root)
+            self.write(
+                root, "index.html",
+                '<a href="/CapitalSignal/"></a><script>fetch("/CapitalSignal/data.json")</script>',
+            )
+            self.write(root, "CapitalSignal/index.html", '<link href="site.css">')
+            self.write(root, "CapitalSignal/site.css", 'body{background:url("/CapitalSignal/a.svg")}')
+            self.write(root, "CapitalSignal/a.svg", '<svg/>')
+            report = validator.validate(root)
+            self.assertEqual(report["root_local_references"], 2)
+            self.assertEqual(report["root_code_requests"], 1)
+            self.assertEqual(report["error_count"], 3)
+            self.assertTrue(any("root-local code request" in item for item in report["errors"]))
 
     def test_reports_missing_local_link_and_invalid_json(self):
         with tempfile.TemporaryDirectory() as temp:
