@@ -93,7 +93,7 @@ jobs:
             git commit -m 'Checkpoint archived SEC filings before historical calculations'
             for attempt in 1 2 3; do
               git fetch origin main
-              if ! git rebase origin/main; then
+              if ! git -c rebase.autoStash=true rebase origin/main; then
                 git rebase --abort
                 exit 1
               fi
@@ -121,7 +121,7 @@ jobs:
             git commit -m 'Backfill SEC history from 2025-09-30 and rebuild reporting periods'
             for attempt in 1 2 3; do
               git fetch origin main
-              if ! git rebase origin/main; then
+              if ! git -c rebase.autoStash=true rebase origin/main; then
                 git rebase --abort
                 exit 1
               fi
