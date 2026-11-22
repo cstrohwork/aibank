@@ -23,3 +23,10 @@
 ## Next task and blocker
 
 Pass exact-head cloud staging over the complete rendered public tree and merge only if `root_local_references=0` and `root_code_requests=0`. Destination Pages must still be enabled from `main` `/` without a custom domain before live deployment validation or cutover.
+
+## Production follow-up
+
+- Exact-head cloud review [45010411350](https://github.com/cstrohwork/aibank/actions/runs/45010411350) passed over 164,047 allowlisted files / 2,367,136,008 bytes: 22,946 HTML, 4 CSS, 9 JavaScript and 141,089 JSON files; all 141,089 JSON files parsed, 191,031 local references and 30,145 manifest references resolved, with `root_local_references=0`, `root_code_requests=0` and `error_count=0`.
+- [PR #45](https://github.com/cstrohwork/aibank/pull/45) merged as [cd9282e](https://github.com/cstrohwork/aibank/commit/cd9282e6e934d5c74276f1be9c3de3068bc4ec29).
+- Post-merge publisher [45010946010](https://github.com/cstrohwork/aibank/actions/runs/45010946010) completed successfully; every publish step passed. The reviewed destination tree was unchanged, so the destination correctly remained at [bd60680](https://github.com/cstrohwork/aibank_public/commit/bd606806aaddc3a0e00587398f9e80b755caafd9) rather than receiving a content-identical commit.
+- Destination remains public on `main` and still reports `has_pages=false`. No `CNAME`, domain, source Pages, source visibility or NVIDIA data change was made. Enable destination Pages from `main` `/` without a custom domain, then run the committed live validator before any cutover.
