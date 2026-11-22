@@ -495,3 +495,10 @@ PR #9 merged as f4cfb94. Final proposed head cloud run 43537624969 passed all 17
 
 - Production follow-up: exact-head staging [45005636150](https://github.com/cstrohwork/aibank/actions/runs/45005636150) passed; [PR #44](https://github.com/cstrohwork/aibank/pull/44) merged as [522d0a1](https://github.com/cstrohwork/aibank/commit/522d0a1c555e8de405fca860877f9e818a28c9f9); main publication [45006149998](https://github.com/cstrohwork/aibank/actions/runs/45006149998) succeeded and wrote destination [bd60680](https://github.com/cstrohwork/aibank_public/commit/bd606806aaddc3a0e00587398f9e80b755caafd9).
 - Destination readback: 164,047 files / 2,367,136,008 bytes, 47,621 root-local attributes rewritten, no CNAME or raw SEC archives. Sampled Daily, Skunkworks and Spotlight pages have zero remaining root-local attributes. Destination `has_pages=false` remains the exact blocker; live success is not claimed.
+
+
+### Public portability regression gate — November 22, 2026
+
+- Expanded pre-publication validation to fail on any root-local staged HTML/srcset/form-action reference, CSS `url(...)`, JavaScript or inline `fetch`, import, worker or service-worker request. This prevents newly generated content from silently breaking the temporary `/aibank_public/` test path. Evidence: [validation/2026-11-22-public-portability-regression-gate.md](validation/2026-11-22-public-portability-regression-gate.md).
+- Current source audit found zero root-local JavaScript, CSS or inline code requests. Validation actually executed: twelve focused tests passed; three modules compiled; whitespace validation passed.
+- Next: require exact-head cloud staging to report `root_local_references=0` and `root_code_requests=0`, then merge safely. Exact blocker remains destination Pages enablement from `main` `/`; no domain/source Pages/visibility change is authorized before the live gate passes.
