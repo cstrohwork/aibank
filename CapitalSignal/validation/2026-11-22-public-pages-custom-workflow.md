@@ -41,3 +41,26 @@ passed its complete staging gate at `1109d779f700b604dffa2b24c37f8ae829c0ff8e`:
 Destination publication and live deployment remain pending. A workflow file in
 the destination is not evidence that Pages is enabled or deployed; live success
 still requires the committed hash/MIME/forbidden-path validator.
+
+## Production follow-up
+
+- [PR #50](https://github.com/cstrohwork/aibank/pull/50) merged as
+  [`8e66656`](https://github.com/cstrohwork/aibank/commit/8e6665688103eb13b655fe0552644dc50e280c04).
+- Post-merge publisher [45030739621](https://github.com/cstrohwork/aibank/actions/runs/45030739621)
+  initially failed because the destination-only Contents PAT cannot create a
+  workflow file without GitHub's classic `workflow` scope. No destination commit
+  was written by that failed attempt.
+- The authorized GitHub connector created only the reviewed workflow as
+  [destination commit `ba15dfc`](https://github.com/cstrohwork/aibank_public/commit/ba15dfcafac097b1e65bb439581f1e25760b9136),
+  without broadening or storing the PAT. Retrying the failed publisher job then
+  passed and wrote the exact inventory/tree as
+  [destination commit `1b7062e`](https://github.com/cstrohwork/aibank_public/commit/1b7062e6fb0c753b39c8ad547db4a335b32f9b8a).
+- Destination workflow runs
+  [45031341364](https://github.com/cstrohwork/aibank_public/actions/runs/45031341364)
+  and [45031873718](https://github.com/cstrohwork/aibank_public/actions/runs/45031873718)
+  both stopped at `configure-pages` with GitHub `Not Found`; upload and deploy
+  were skipped. This verifies the workflow is installed but Pages is not enabled.
+
+No live deployment or cutover success is claimed. The remaining action is a
+one-time administrator selection of **GitHub Actions** in destination Pages,
+with the custom domain left empty, followed by a completed workflow and live gate.
