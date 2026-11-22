@@ -48,6 +48,9 @@ MAX_TOTAL_BYTES = 3_000_000_000
 # dependency.  Exact-head inventory measured 162,229 reviewed files; retain
 # bounded headroom without silently dropping profiles.
 MAX_FILES = 200_000
+# Bypass GitHub Pages' Jekyll build for this already-rendered static tree.  The
+# marker is generated in staging so it can never expose source-only content.
+GENERATED_PUBLIC_FILES = {".nojekyll": b""}
 SECRET_PATTERNS = {
     "private key": re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
     "GitHub token": re.compile(rb"gh[pousr]_[A-Za-z0-9]{30,}"),
@@ -186,6 +189,15 @@ def stage(files: dict[str, Path], destination: Path) -> dict:
     entries = []
     total_bytes = 0
     rewritten_root_references = 0
+    for relative, data in sorted(GENERATED_PUBLIC_FILES.items()):
+        target = destination / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
+        total_bytes += len(data)
+        entries.append({
+            "path": relative, "bytes": len(data),
+            "sha256": hashlib.sha256(data).hexdigest(),
+        })
     for relative, source in sorted(files.items()):
         target = destination / relative
         target.parent.mkdir(parents=True, exist_ok=True)
