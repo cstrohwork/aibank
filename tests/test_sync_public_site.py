@@ -1,3 +1,4 @@
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -78,6 +79,31 @@ class PublicSiteSyncTests(unittest.TestCase):
                 (destination / "public-site-inventory.json").read_text(encoding="utf-8")
             )
             self.assertEqual(written["files"], manifest["files"])
+
+    def test_stage_rewrites_root_local_html_links_for_project_pages(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp) / "source"
+            root.mkdir()
+            self.make_site(root)
+            page = root / "CapitalSignal" / "daily" / "2026-11-22" / "index.html"
+            page.parent.mkdir(parents=True, exist_ok=True)
+            page.write_text(
+                '<a href="/">Home</a><a href="/CapitalSignal/weekly/?x=1#top">Weekly</a>'
+                '<script src="//cdn.example.test/a.js"></script>'
+                '<link rel="canonical" href="https://www.ainvestmentbank.ai/CapitalSignal/">',
+                encoding="utf-8",
+            )
+            files = sync.collect(root)
+            destination = Path(temp) / "stage"
+            manifest = sync.stage(files, destination)
+            rendered = (destination / page.relative_to(root)).read_text(encoding="utf-8")
+            self.assertIn('href="../../../"', rendered)
+            self.assertIn('href="../../weekly/?x=1#top"', rendered)
+            self.assertIn('src="//cdn.example.test/a.js"', rendered)
+            self.assertIn('href="https://www.ainvestmentbank.ai/CapitalSignal/"', rendered)
+            self.assertEqual(manifest["portable_root_references_rewritten"], 2)
+            entry = next(x for x in manifest["files"] if x["path"] == page.relative_to(root).as_posix())
+            self.assertEqual(entry["sha256"], hashlib.sha256(rendered.encode()).hexdigest())
 
 
 if __name__ == "__main__":

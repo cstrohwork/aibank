@@ -484,3 +484,11 @@ PR #9 merged as f4cfb94. Final proposed head cloud run 43537624969 passed all 17
 - Validation actually executed: ten focused publisher/deployment tests passed; three modules compiled; workflow YAML, read-only permission, ten-minute bound and whitespace checks passed.
 - Actual live probe: destination inventory is readable and reports 164,047 reviewed files / 2,366,821,289 bytes, but all 14 critical `https://cstrohwork.github.io/aibank_public/` routes return HTTP 404. The four forbidden paths also return 404. Pages is not deployed and no live success is claimed.
 - Exact blocker/next task: connector permissions expose no Pages-administration endpoint. Enable destination Pages from `main` `/` with no custom domain, then run the live validator and require a pass before moving `CNAME`/DNS, disabling source Pages, changing source visibility or resuming NVIDIA issue #40.
+
+
+### Destination project-Pages path portability — November 22, 2026
+
+- Pre-cutover audit found 47,614 absolute-root HTML references across 9,517 allowlisted files. They work on the current custom domain but would escape the temporary `/aibank_public/` project path and invalidate browser testing.
+- Implemented staging-only conversion of root-local HTML attributes to document-relative URLs while preserving query strings, fragments, directory slashes, external URLs and protocol-relative assets. Source Pages/current domain files remain unchanged; rendered destination bytes and hashes are recorded in the public inventory. Evidence: [validation/2026-11-22-project-pages-prefix-portability.md](validation/2026-11-22-project-pages-prefix-portability.md).
+- Validation actually executed: eleven focused tests passed; three modules compiled; whitespace validation passed. Exact-head full-tree cloud staging, merge and destination publication are pending and not claimed complete.
+- Exact blocker/next task: obtain the full-tree rewrite count and zero-error staged validation, merge safely, and verify destination publication. Pages still must be enabled from destination `main` `/` without a custom domain before the live gate can run.

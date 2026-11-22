@@ -12,9 +12,11 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import posixpath
 from pathlib import Path, PurePosixPath
 import re
 import shutil
+import urllib.parse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,6 +53,11 @@ SECRET_PATTERNS = {
     "GitHub token": re.compile(rb"gh[pousr]_[A-Za-z0-9]{30,}"),
     "AWS access key": re.compile(rb"AKIA[0-9A-Z]{16}"),
 }
+ROOT_LOCAL_HTML_ATTR = re.compile(
+    r"(?P<prefix>\b(?:href|src|action|formaction|poster)\s*=\s*)"
+    r"(?P<quote>[\"'])(?P<url>/[^\"']*)(?P=quote)",
+    re.IGNORECASE,
+)
 
 
 def _is_public_json(relative: PurePosixPath) -> bool:
@@ -145,17 +152,46 @@ def audit(files: dict[str, Path]) -> None:
                 raise RuntimeError(f"Possible {label} in public output: {relative}")
 
 
+def _portable_public_bytes(relative: str, source: Path) -> tuple[bytes, int]:
+    """Make root-local HTML links work at both project and custom-domain roots."""
+    data = source.read_bytes()
+    if PurePosixPath(relative).suffix.lower() != ".html":
+        return data, 0
+    text = data.decode("utf-8")
+    parent = PurePosixPath(relative).parent.as_posix()
+    rewritten = 0
+
+    def replace(match: re.Match[str]) -> str:
+        nonlocal rewritten
+        value = match.group("url")
+        if value.startswith("//"):
+            return match.group(0)
+        parsed = urllib.parse.urlsplit(value)
+        target = parsed.path.lstrip("/") or "."
+        portable = posixpath.relpath(target, start=parent)
+        if parsed.path.endswith("/") and not portable.endswith("/"):
+            portable += "/"
+        portable = urllib.parse.urlunsplit(("", "", portable, parsed.query, parsed.fragment))
+        rewritten += 1
+        return f"{match.group('prefix')}{match.group('quote')}{portable}{match.group('quote')}"
+
+    rendered = ROOT_LOCAL_HTML_ATTR.sub(replace, text)
+    return rendered.encode("utf-8"), rewritten
+
+
 def stage(files: dict[str, Path], destination: Path) -> dict:
     if destination.exists():
         shutil.rmtree(destination)
     destination.mkdir(parents=True)
     entries = []
     total_bytes = 0
+    rewritten_root_references = 0
     for relative, source in sorted(files.items()):
         target = destination / relative
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(source, target)
-        data = source.read_bytes()
+        data, rewritten = _portable_public_bytes(relative, source)
+        target.write_bytes(data)
+        rewritten_root_references += rewritten
         total_bytes += len(data)
         entries.append({
             "path": relative, "bytes": len(data),
@@ -164,7 +200,9 @@ def stage(files: dict[str, Path], destination: Path) -> dict:
     manifest = {
         "schema_version": 1, "file_count": len(entries),
         "total_bytes": total_bytes, "custom_domain_included": False,
-        "raw_sec_archives_included": False, "files": entries,
+        "raw_sec_archives_included": False,
+        "portable_root_references_rewritten": rewritten_root_references,
+        "files": entries,
     }
     (destination / "public-site-inventory.json").write_text(
         json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
