@@ -73,8 +73,12 @@ class PublicSiteSyncTests(unittest.TestCase):
             stale.write_text("remove me", encoding="utf-8")
             manifest = sync.stage(files, destination)
             self.assertFalse(stale.exists())
-            self.assertEqual(manifest["file_count"], len(sync.REQUIRED_FILES))
+            self.assertEqual(manifest["file_count"], len(sync.REQUIRED_FILES) + 1)
             self.assertFalse(manifest["custom_domain_included"])
+            self.assertEqual((destination / ".nojekyll").read_bytes(), b"")
+            marker = next(x for x in manifest["files"] if x["path"] == ".nojekyll")
+            self.assertEqual(marker["bytes"], 0)
+            self.assertEqual(marker["sha256"], hashlib.sha256(b"").hexdigest())
             written = json.loads(
                 (destination / "public-site-inventory.json").read_text(encoding="utf-8")
             )
