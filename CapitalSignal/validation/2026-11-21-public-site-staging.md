@@ -33,3 +33,15 @@ This checkpoint precedes pull-request cloud execution and destination publicatio
 [Run 44965004279](https://github.com/cstrohwork/aibank/actions/runs/44965004279) completed sparse checkout and all three unit tests, then measured 162,229 explicitly allowlisted files and stopped at the initial 75,000-file bound. No destination write steps ran. The count is driven by generated public investor/fund profile pages and their versioned public JSON dependencies, not raw SEC archives or worker state. Raised the bounded file ceiling to 200,000 while retaining the 2 GB aggregate limit, 25 MB per-file limit, exact path rules, secret scan, and SHA-256 inventory. A replacement exact-head run is required; the failed run is not a deployment success.
 
 [Replacement run 44965391469](https://github.com/cstrohwork/aibank/actions/runs/44965391469) again passed sparse checkout and all unit tests, measured the complete reviewed tree at 2,295,635,565 bytes, and failed closed at the 2 GB aggregate bound before any destination write. Raised the aggregate ceiling to 3 GB, approximately 30% measured headroom. The 200,000-file, 25 MB per-file, exact path, secret scan, inventory and domain exclusions remain unchanged. A further exact-head pass is required.
+
+## Review, merge, and destination publication
+
+- Exact-head [staging run 44965748329](https://github.com/cstrohwork/aibank/actions/runs/44965748329) completed successfully across 162,229 reviewed files / 2,295,635,565 source bytes. The pull-request event did not receive or use the destination credential.
+- [PR #41](https://github.com/cstrohwork/aibank/pull/41) merged as source commit [aa79d64](https://github.com/cstrohwork/aibank/commit/aa79d647ceb66b0911b4aed4417efc085a68cc64).
+- Main publication [run 44966111035](https://github.com/cstrohwork/aibank/actions/runs/44966111035) completed every staging, token, destination checkout, exact sync, push, and domain-preservation step successfully. Destination commit: [2eb7d5c](https://github.com/cstrohwork/aibank_public/commit/2eb7d5cc18bd8396ef46ae38a55879e644c5bc1c).
+- Independent filtered-clone readback found 162,230 destination files: 162,229 reviewed files plus `public-site-inventory.json`. All 16 sampled required page/data outputs were present; forbidden roots (`scripts`, `tests`, `.github`, validation, history worker state) and `CNAME` matched zero paths. Inventory blob size is 36,934,168 bytes.
+- Raw repository metadata confirms `aibank_public` remains public on `main`, but `has_pages=false`. Destination web rendering and link/content tests therefore remain blocked. The existing domain and source Pages were not moved or disabled, and the source remains public.
+
+## Remaining cutover blocker
+
+Enable GitHub Pages for `cstrohwork/aibank_public` from branch `main`, root `/`, without adding a custom domain. The authorized connector has repository contents access but no callable Pages-administration write endpoint. After Pages produces a successful destination deployment, run full path, asset, JSON, link, and content tests at the temporary GitHub Pages URL. Only then can a separate CNAME/domain cutover and source-private change be considered.
