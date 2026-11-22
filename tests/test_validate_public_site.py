@@ -19,6 +19,7 @@ class PublicSiteValidatorTests(unittest.TestCase):
         path.write_text(content, encoding="utf-8")
 
     def make_required_json(self, root: Path) -> None:
+        self.write(root, ".nojekyll", "")
         self.write(root, "CapitalSignal/data/atlas/manifest.json", '{"lenses":{}}')
         self.write(root, "CapitalSignal/data/13f/index.json", '{"managers":[]}')
         self.write(root, "CapitalSignal/data/fundamentals/model_data.json", '{"companies":{}}')
@@ -78,6 +79,22 @@ class PublicSiteValidatorTests(unittest.TestCase):
             report = validator.validate(root)
             self.assertEqual(report["error_count"], 1)
             self.assertIn("atlas manifest", report["errors"][0])
+
+    def test_requires_empty_nojekyll_marker(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_required_json(root)
+            self.write(root, "index.html", "<title>ok</title>")
+            (root / ".nojekyll").unlink()
+            report = validator.validate(root)
+            self.assertFalse(report["nojekyll_ready"])
+            self.assertEqual(report["error_count"], 1)
+            self.assertIn(".nojekyll", report["errors"][0])
+
+            self.write(root, ".nojekyll", "unexpected content")
+            report = validator.validate(root)
+            self.assertFalse(report["nojekyll_ready"])
+            self.assertEqual(report["error_count"], 1)
 
 
 if __name__ == "__main__":
