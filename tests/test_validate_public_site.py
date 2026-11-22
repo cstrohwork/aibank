@@ -20,6 +20,13 @@ class PublicSiteValidatorTests(unittest.TestCase):
 
     def make_required_json(self, root: Path) -> None:
         self.write(root, ".nojekyll", "")
+        self.write(
+            root,
+            ".github/workflows/deploy-pages.yml",
+            "contents: read\npages: write\nid-token: write\n"
+            "actions/configure-pages@v5\nactions/upload-pages-artifact@v4\n"
+            "actions/deploy-pages@v4\n",
+        )
         self.write(root, "CapitalSignal/data/atlas/manifest.json", '{"lenses":{}}')
         self.write(root, "CapitalSignal/data/13f/index.json", '{"managers":[]}')
         self.write(root, "CapitalSignal/data/fundamentals/model_data.json", '{"companies":{}}')
@@ -94,6 +101,28 @@ class PublicSiteValidatorTests(unittest.TestCase):
             self.write(root, ".nojekyll", "unexpected content")
             report = validator.validate(root)
             self.assertFalse(report["nojekyll_ready"])
+            self.assertEqual(report["error_count"], 1)
+
+    def test_requires_least_privilege_pages_workflow(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.make_required_json(root)
+            self.write(root, "index.html", "<title>ok</title>")
+            workflow = root / ".github/workflows/deploy-pages.yml"
+            workflow.unlink()
+            report = validator.validate(root)
+            self.assertFalse(report["pages_workflow_ready"])
+            self.assertEqual(report["error_count"], 1)
+
+            self.write(
+                root,
+                ".github/workflows/deploy-pages.yml",
+                "contents: write\npages: write\nid-token: write\n"
+                "actions/configure-pages@v5\nactions/upload-pages-artifact@v4\n"
+                "actions/deploy-pages@v4\n",
+            )
+            report = validator.validate(root)
+            self.assertFalse(report["pages_workflow_ready"])
             self.assertEqual(report["error_count"], 1)
 
 
