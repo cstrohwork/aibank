@@ -48,9 +48,44 @@ MAX_TOTAL_BYTES = 3_000_000_000
 # dependency.  Exact-head inventory measured 162,229 reviewed files; retain
 # bounded headroom without silently dropping profiles.
 MAX_FILES = 200_000
-# Bypass GitHub Pages' Jekyll build for this already-rendered static tree.  The
-# marker is generated in staging so it can never expose source-only content.
-GENERATED_PUBLIC_FILES = {".nojekyll": b""}
+# Bypass Jekyll and deploy the reviewed tree with a destination-owned custom
+# workflow. Branch-source Pages has a 1 GB published-site limit; the reviewed
+# tree is larger, while GitHub's custom Pages artifact limit is 10 GB. The
+# workflow is a fixed public output rather than a copied source workflow.
+PAGES_ARTIFACT_MAX_BYTES = 10_000_000_000
+DESTINATION_PAGES_WORKFLOW = b"""name: Deploy reviewed public site to Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy reviewed artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
+"""
+GENERATED_PUBLIC_FILES = {
+    ".nojekyll": b"",
+    ".github/workflows/deploy-pages.yml": DESTINATION_PAGES_WORKFLOW,
+}
 SECRET_PATTERNS = {
     "private key": re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
     "GitHub token": re.compile(rb"gh[pousr]_[A-Za-z0-9]{30,}"),
@@ -216,6 +251,11 @@ def stage(files: dict[str, Path], destination: Path) -> dict:
         "portable_root_references_rewritten": rewritten_root_references,
         "files": entries,
     }
+    if total_bytes >= PAGES_ARTIFACT_MAX_BYTES:
+        raise RuntimeError(
+            f"Refusing {total_bytes} public bytes; GitHub Pages artifact must be "
+            f"under {PAGES_ARTIFACT_MAX_BYTES} bytes"
+        )
     (destination / "public-site-inventory.json").write_text(
         json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
