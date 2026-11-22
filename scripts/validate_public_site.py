@@ -18,6 +18,10 @@ from urllib.parse import unquote, urlsplit
 
 EXTERNAL_SCHEMES = {"http", "https", "mailto", "tel", "data", "javascript"}
 CSS_URL = re.compile(r"url\(\s*(['\"]?)([^)'\"]+)\1\s*\)", re.IGNORECASE)
+ROOT_CODE_REQUEST = re.compile(
+    r"\b(?:fetch|importScripts|Worker|import|register)\s*\(\s*['\"]/(?!/)",
+    re.IGNORECASE,
+)
 MAX_REPORTED_ERRORS = 100
 
 
@@ -28,7 +32,7 @@ class ReferenceParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs) -> None:
         values = dict(attrs)
-        for attribute in ("href", "src", "poster", "action"):
+        for attribute in ("href", "src", "poster", "action", "formaction"):
             value = values.get(attribute)
             if value:
                 self.references.append(value)
@@ -76,6 +80,14 @@ def _check_reference(site: Path, source: Path, reference: str, errors: list[str]
     if target is not None and not target.is_file():
         errors.append(f"{source.relative_to(site)} -> missing {reference}")
     return target is not None
+
+
+def _is_root_local(reference: str) -> bool:
+    value = reference.strip()
+    if not value.startswith("/") or value.startswith("//"):
+        return False
+    parsed = urlsplit(value)
+    return not parsed.scheme and not parsed.netloc
 
 
 def _json(site: Path, relative: str, errors: list[str]):
@@ -131,16 +143,28 @@ def validate(site: Path) -> dict:
     html_files = list(site.rglob("*.html"))
     css_files = list(site.rglob("*.css"))
     json_files = list(site.rglob("*.json"))
+    js_files = list(site.rglob("*.js"))
     reference_count = 0
+    root_local_references = 0
+    root_code_requests = 0
     for path in html_files:
         parser = ReferenceParser()
         try:
-            parser.feed(path.read_text(encoding="utf-8"))
+            text = path.read_text(encoding="utf-8")
+            parser.feed(text)
         except (UnicodeDecodeError, ValueError) as exc:
             errors.append(f"invalid HTML text {path.relative_to(site)}: {exc}")
             continue
         for reference in parser.references:
+            if _is_root_local(reference):
+                errors.append(
+                    f"{path.relative_to(site)} -> non-portable root-local reference {reference}"
+                )
+                root_local_references += 1
             reference_count += _check_reference(site, path, reference, errors)
+        root_code_requests += len(ROOT_CODE_REQUEST.findall(text))
+        if ROOT_CODE_REQUEST.search(text):
+            errors.append(f"{path.relative_to(site)} contains non-portable root-local code request")
     for path in css_files:
         try:
             text = path.read_text(encoding="utf-8")
@@ -148,7 +172,23 @@ def validate(site: Path) -> dict:
             errors.append(f"invalid CSS text {path.relative_to(site)}: {exc}")
             continue
         for match in CSS_URL.finditer(text):
-            reference_count += _check_reference(site, path, match.group(2), errors)
+            reference = match.group(2)
+            if _is_root_local(reference):
+                errors.append(
+                    f"{path.relative_to(site)} -> non-portable root-local CSS reference {reference}"
+                )
+                root_local_references += 1
+            reference_count += _check_reference(site, path, reference, errors)
+    for path in js_files:
+        try:
+            text = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError as exc:
+            errors.append(f"invalid JavaScript text {path.relative_to(site)}: {exc}")
+            continue
+        matches = len(ROOT_CODE_REQUEST.findall(text))
+        root_code_requests += matches
+        if matches:
+            errors.append(f"{path.relative_to(site)} contains {matches} non-portable root-local code requests")
     json_valid = 0
     for path in json_files:
         try:
@@ -160,9 +200,12 @@ def validate(site: Path) -> dict:
     return {
         "html_files": len(html_files),
         "css_files": len(css_files),
+        "js_files": len(js_files),
         "json_files": len(json_files),
         "json_valid": json_valid,
         "local_references": reference_count,
+        "root_local_references": root_local_references,
+        "root_code_requests": root_code_requests,
         "manifest_references": manifest_references,
         "error_count": len(errors),
         "errors": errors[:MAX_REPORTED_ERRORS],
