@@ -29,7 +29,15 @@ administrator operation with `build_type: workflow` and no custom domain.
 - `git diff --check`: passed.
 - Workflow assertions confirmed least-privilege permissions and no CNAME move.
 
-Exact-head full-tree staging, destination publication and live deployment remain
-pending. A workflow file in the destination is not evidence that Pages is
-enabled or deployed; live success still requires the committed
-hash/MIME/forbidden-path validator.
+Exact code-head [run 45030164082](https://github.com/cstrohwork/aibank/actions/runs/45030164082)
+passed its complete staging gate at `1109d779f700b604dffa2b24c37f8ae829c0ff8e`:
+
+- 164,049 reviewed files / 2,367,136,649 bytes;
+- 22,946 HTML, 4 CSS, 9 JavaScript and 141,089/141,089 valid JSON files;
+- 191,031 local references and 30,145 manifest references resolved;
+- `nojekyll_ready=true`, `pages_workflow_ready=true`;
+- zero root-local references, root-code requests or validation errors.
+
+Destination publication and live deployment remain pending. A workflow file in
+the destination is not evidence that Pages is enabled or deployed; live success
+still requires the committed hash/MIME/forbidden-path validator.
