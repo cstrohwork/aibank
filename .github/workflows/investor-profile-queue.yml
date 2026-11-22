@@ -52,7 +52,11 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             # Reject syntax errors before touching any persisted profile pages.
-            python -m py_compile scripts/publish_investor_directory.py scripts/investor_profile_analytics.py scripts/publish_fund_directory.py
+            python -m py_compile scripts/publish_investor_directory.py scripts/investor_profile_analytics.py scripts/publish_fund_directory.py scripts/build_investor_profiles.py
+            # Rebuild the manager discovery cache from newly normalized 13F snapshots
+            # before queue selection; otherwise a drained queue can stay empty even
+            # after ingestion adds managers. Never replace source snapshots here.
+            python scripts/build_investor_profiles.py
             python scripts/publish_fund_directory.py --batch-size 200
             python scripts/publish_investor_directory.py --batch-size 2000
             # Fail closed on an inconsistent checkpoint; never publish a
@@ -66,7 +70,7 @@ jobs:
             # Persist a compact checkpoint independently of the oversized manifest.
             # Stable values avoid no-op commits on idle ten-minute checks.
             python -c 'import json; from pathlib import Path; root=Path("CapitalSignal/spotlight/investors"); m=json.loads((root/"manifest.json").read_text()); keys=("cached_investor_count","generated_count","active_generated_count","orphaned_profile_count","completed_current_version_count","changed_this_run","pending_active_count","eligible_pending_after_batch_count","retry_cooldown_pending_count","failed_active_count","never_published_remaining","refresh_remaining","validated_normalized_usd_profile_count","without_validated_normalized_usd_count"); c={k:m.get(k) for k in keys}; c["scope"]="cached_13f_manager_universe_not_all_funds"; (root/"checkpoint.json").write_text(json.dumps(c,indent=2,sort_keys=True)+chr(10))'
-            git add CapitalSignal/spotlight/investors/ CapitalSignal/spotlight/funds/
+            git add CapitalSignal/data/investor_profiles.json CapitalSignal/spotlight/investors/ CapitalSignal/spotlight/funds/
             if git diff --cached --quiet; then exit 0; fi
             git commit -m "Generate investor profiles from latest ingested SEC cache"
             if git push origin HEAD:main; then exit 0; fi
