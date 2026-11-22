@@ -40,7 +40,10 @@ REQUIRED_FILES = {
 }
 MAX_FILE_BYTES = 25_000_000
 MAX_TOTAL_BYTES = 2_000_000_000
-MAX_FILES = 75_000
+# The generated investor/fund profile library is a first-class public site
+# dependency.  Exact-head inventory measured 162,229 reviewed files; retain
+# bounded headroom without silently dropping profiles.
+MAX_FILES = 200_000
 SECRET_PATTERNS = {
     "private key": re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
     "GitHub token": re.compile(rb"gh[pousr]_[A-Za-z0-9]{30,}"),

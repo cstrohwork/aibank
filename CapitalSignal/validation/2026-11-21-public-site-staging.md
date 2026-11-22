@@ -27,3 +27,7 @@
 ## Remaining gates and next task
 
 This checkpoint precedes pull-request cloud execution and destination publication. Next, obtain an exact-head cloud staging pass, merge only if current main remains compatible, then inspect the destination commit and file inventory. Enable/test destination Pages without a custom domain, run link/content checks, and only after those pass plan the separate `CNAME`/Pages cutover. Do not make the source private or resume NVIDIA issue #40 until migration and cutover are verified.
+
+### Exact-head cloud correction
+
+[Run 44965004279](https://github.com/cstrohwork/aibank/actions/runs/44965004279) completed sparse checkout and all three unit tests, then measured 162,229 explicitly allowlisted files and stopped at the initial 75,000-file bound. No destination write steps ran. The count is driven by generated public investor/fund profile pages and their versioned public JSON dependencies, not raw SEC archives or worker state. Raised the bounded file ceiling to 200,000 while retaining the 2 GB aggregate limit, 25 MB per-file limit, exact path rules, secret scan, and SHA-256 inventory. A replacement exact-head run is required; the failed run is not a deployment success.
