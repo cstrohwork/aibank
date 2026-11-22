@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001693946",
+  "investor_name": "EnCap Energy Capital Fund XI, L.P.",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
+  "city": "Houston",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1693946/0001193125-25-281424.txt",
+    "https://www.sec.gov/Archives/edgar/data/1693946/0001193125-26-054230.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "525e3f6b579e27c0399cd482f133ed075cae9cb2538c42b7c3325bd3e923d035",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
+  ],
+  "holdings_fingerprints": [
+    "2711e6f20e60ddca43e9e51a24a6adaa7fd42dc0",
+    "833760c1486f648295cde6e5af76457608be100b"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0001193125-26-054230",
+    "source": "https://www.sec.gov/Archives/edgar/data/1693946/0001193125-26-054230.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 1138563364.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "25278X109",
+        "security_class": "COM",
+        "issuer": "Diamondback Energy, Inc.",
+        "shares": 2896632.0,
+        "value_usd": 435450689.0,
+        "weight_pct": 38.25
+      },
+      {
+        "cusip": "25179M103",
+        "security_class": "COM",
+        "issuer": "Devon Energy Corp New",
+        "shares": 11806148.0,
+        "value_usd": 432459201.0,
+        "weight_pct": 37.98
+      },
+      {
+        "cusip": "71424F105",
+        "security_class": "CLASS A COM",
+        "issuer": "Permian Resources",
+        "shares": 19291053.0,
+        "value_usd": 270653474.0,
+        "weight_pct": 23.77
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3470.51,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001193125-25-281424"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001193125-26-054230"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 1138563364.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001193125-26-054230",
+  "annualized_turnover_proxy_pct": null
+}

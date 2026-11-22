@@ -1,0 +1,106 @@
+{
+  "manager_cik": "0001876826",
+  "investor_name": "Covalis (Gibraltar) Ltd",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "MIDTOWN",
+  "state": null,
+  "country": null,
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1876826/0001172661-25-004933.txt",
+    "https://www.sec.gov/Archives/edgar/data/1876826/0001172661-26-000951.txt",
+    "https://www.sec.gov/Archives/edgar/data/1876826/0001172661-26-003383.txt",
+    "https://www.sec.gov/Archives/edgar/data/1876826/0001172661-26-005009.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "8e54b4d677eaadb7777228c350c28ea56a2d1772d77d72db9d35cfa5db20b889",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-13|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "0ab22a1dbf01a60f0ad15e75a5875c130ef28573",
+    "29ca3f5fedfd2b92c7dfae38d47255f98bbe0801",
+    "475ea8196e8d7e7433ea1cd091b30e95f988b5e9",
+    "d4a65becc030ff30edec48caa54db734aaf696e0"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001172661-26-005009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1876826/0001172661-26-005009.txt",
+    "distinct_positions": 3,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 16890657.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "69331C108",
+        "security_class": "COM",
+        "issuer": "PG&E CORP",
+        "shares": 600508.0,
+        "value_usd": 7356223.0,
+        "weight_pct": 43.55
+      },
+      {
+        "cusip": "878742204",
+        "security_class": "CL B",
+        "issuer": "TECK RESOURCES LTD",
+        "shares": 84190.0,
+        "value_usd": 5538860.0,
+        "weight_pct": 32.79
+      },
+      {
+        "cusip": "05603J108",
+        "security_class": "COM",
+        "issuer": "BKV CORP",
+        "shares": 187234.0,
+        "value_usd": 3995574.0,
+        "weight_pct": 23.66
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 3531.71,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001172661-25-004933"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001172661-26-000951"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-13",
+        "accession": "0001172661-26-003383"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001172661-26-005009"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 16890657.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001172661-26-005009",
+  "annualized_turnover_proxy_pct": null
+}

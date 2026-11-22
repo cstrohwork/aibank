@@ -1,0 +1,130 @@
+{
+  "manager_cik": "0001218735",
+  "investor_name": "MASON CAPITAL MANAGEMENT LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "NEW YORK",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1218735/0001104659-25-111862.txt",
+    "https://www.sec.gov/Archives/edgar/data/1218735/0001104659-26-016335.txt",
+    "https://www.sec.gov/Archives/edgar/data/1218735/0001104659-26-097052.txt",
+    "https://www.sec.gov/Archives/edgar/data/1218735/0001104659-26-128352.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "cfcbc284fb40bc00650c318a061c40a944832875bb2e41988002fa6bb8121a9b",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "0fd52cc56e89806fe502b83da4495cb1d0a7e4ab",
+    "239e4b40e657c56bd8bc49965616d2d4d8fb21d9",
+    "e730be51f78eb5202c14ff989e438b67a8160b61",
+    "f5592508615af757ca81f3825d9dacbb5f2a882b"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-128352",
+    "source": "https://www.sec.gov/Archives/edgar/data/1218735/0001104659-26-128352.txt",
+    "distinct_positions": 6,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 354734408.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "00217Y104",
+        "security_class": "COM",
+        "issuer": "ATS CORPORATION",
+        "shares": 16404170.0,
+        "value_usd": 296095269.0,
+        "weight_pct": 83.47
+      },
+      {
+        "cusip": "03762U105",
+        "security_class": "REIT",
+        "issuer": "APOLLO COMMERCIAL REAL ESTATE",
+        "shares": 5367943.0,
+        "value_usd": 33281247.0,
+        "weight_pct": 9.38
+      },
+      {
+        "cusip": "47580P103",
+        "security_class": "COM",
+        "issuer": "JELD-WEN HOLDING INC",
+        "shares": 5133366.0,
+        "value_usd": 9445393.0,
+        "weight_pct": 2.66
+      },
+      {
+        "cusip": "21078F109",
+        "security_class": "COM",
+        "issuer": "CONTEXTLOGIC HOLDINGS INC",
+        "shares": 572662.0,
+        "value_usd": 8693009.0,
+        "weight_pct": 2.45
+      },
+      {
+        "cusip": "257554105",
+        "security_class": "COM",
+        "issuer": "HUCKLEBERRY AI INC",
+        "shares": 2131979.0,
+        "value_usd": 7099490.0,
+        "weight_pct": 2.0
+      },
+      {
+        "cusip": "82669G104",
+        "security_class": "COM",
+        "issuer": "SIGNATURE BANK",
+        "shares": 400000.0,
+        "value_usd": 120000.0,
+        "weight_pct": 0.03
+      }
+    ],
+    "top_five_pct": 99.97,
+    "top_ten_pct": 100.0,
+    "hhi": 7072.29,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 5,
+      "increased_positions": 2,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-111862"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001104659-26-016335"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-097052"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-128352"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 354734408.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-128352",
+  "annualized_turnover_proxy_pct": null
+}

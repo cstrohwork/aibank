@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0001826937",
+  "investor_name": "Hein Park Capital Management LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1826937/0000899140-25-001309.txt",
+    "https://www.sec.gov/Archives/edgar/data/1826937/0000899140-26-000249.txt",
+    "https://www.sec.gov/Archives/edgar/data/1826937/0000899140-26-000880.txt",
+    "https://www.sec.gov/Archives/edgar/data/1826937/0000899140-26-001348.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "07707af3a25fd2af9d13e3723e4d143e0c64d0baa348aaefa7f4ca7d440b2548",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "25c78fc3e79992fa4ebdb07e1e7b1042feeab746",
+    "2b2215cdf20ec9e5e1873bc01bccd459c82aa81d",
+    "520a4ea989b651bc49f1800cf42f9f4916d9046d",
+    "e9a1443f5e80644104433f467366e9c19bb1b7d4"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000899140-26-001348",
+    "source": "https://www.sec.gov/Archives/edgar/data/1826937/0000899140-26-001348.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 33936118.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "86881A100",
+        "security_class": "COM",
+        "issuer": "SURGERY PARTNERS INC",
+        "shares": 1375522.0,
+        "value_usd": 19078490.0,
+        "weight_pct": 56.22
+      },
+      {
+        "cusip": "G4863A108",
+        "security_class": "SHS USD",
+        "issuer": "BRIGHTSTAR LOTTERY PLC",
+        "shares": 1487250.0,
+        "value_usd": 14857628.0,
+        "weight_pct": 43.78
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5077.35,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 1,
+      "exited_positions": 1,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000899140-25-001309"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000899140-26-000249"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000899140-26-000880"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000899140-26-001348"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 33936118.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000899140-26-001348",
+  "annualized_turnover_proxy_pct": null
+}

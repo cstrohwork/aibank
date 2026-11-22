@@ -1,0 +1,98 @@
+{
+  "manager_cik": "0002011609",
+  "investor_name": "Juniper Capital Advisors, L.P.",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "city": "Houston",
+  "state": "TX",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/2011609/0001213900-26-016977.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011609/0001213900-26-016979.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011609/0001213900-26-089514.txt",
+    "https://www.sec.gov/Archives/edgar/data/2011609/0001213900-26-119301.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "f1259453063f8d1709756ca504816b438bb77e1b454a259b0c8d63d30ff3621e",
+  "accession_fingerprints": [
+    "2025-09-30|2026-02-17|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-13|||"
+  ],
+  "holdings_fingerprints": [
+    "2a0349e44b1fd623bedcfb5888e46a5c6fda14c0",
+    "2aa2c4041c8c56343a9f99d620e4e50fc8fb9d43",
+    "7c7bceffb0b5319500686e9c6179b829beb09c23",
+    "92bbf12ed4b7a898cbb26e7d1aebeec9385388d9"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-13",
+    "accession": "0001213900-26-119301",
+    "source": "https://www.sec.gov/Archives/edgar/data/2011609/0001213900-26-119301.txt",
+    "distinct_positions": 2,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 178569045.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "70532Y402",
+        "security_class": "Common Stock",
+        "issuer": "PEDEVCO Corp.",
+        "shares": 6861564.0,
+        "value_usd": 89337563.0,
+        "weight_pct": 50.03
+      },
+      {
+        "cusip": "07317Q105",
+        "security_class": "Common Shares",
+        "issuer": "Baytex Energy Corp.",
+        "shares": 19697899.0,
+        "value_usd": 89231482.0,
+        "weight_pct": 49.97
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 5000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2026-02-17",
+        "accession": "0001213900-26-016977"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001213900-26-016979"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001213900-26-089514"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-13",
+        "accession": "0001213900-26-119301"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 178569045.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001213900-26-119301",
+  "annualized_turnover_proxy_pct": null
+}

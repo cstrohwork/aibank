@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001841359",
+  "investor_name": "Olympus Peak Asset Management LP",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "GREENWICH",
+  "state": "CT",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1841359/0000902664-25-004932.txt",
+    "https://www.sec.gov/Archives/edgar/data/1841359/0000902664-26-001073.txt",
+    "https://www.sec.gov/Archives/edgar/data/1841359/0000902664-26-003484.txt",
+    "https://www.sec.gov/Archives/edgar/data/1841359/0000902664-26-004568.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "36dbe3aa5dacccb7621961e7b2df6a344378bdaac9be6e4506ac0dba6e5e65cf",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "36523b025395368cc66f6a237e3cb32def3e57a0",
+    "62d741bf42f3fd2ec3bacf2ac3f9f74e4c07a6d7",
+    "71600433baa652c5823208b333da7022a690b34a",
+    "e0df84db0451311d7e40d9a06f5e154d85039e27"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000902664-26-004568",
+    "source": "https://www.sec.gov/Archives/edgar/data/1841359/0000902664-26-004568.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 15176638.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "51817R205",
+        "security_class": "SPONSORED ADR",
+        "issuer": "LATAM AIRLINES GROUP SA",
+        "shares": 304202.0,
+        "value_usd": 15176638.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000902664-25-004932"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000902664-26-001073"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000902664-26-003484"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000902664-26-004568"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 15176638.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000902664-26-004568",
+  "annualized_turnover_proxy_pct": null
+}

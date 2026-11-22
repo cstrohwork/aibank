@@ -1,34 +1,37 @@
 {
   "manager_cik": "0001636722",
   "investor_name": "EnCap Energy Capital Fund X, L.P.",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "Houston",
   "state": "TX",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1636722/0001193125-25-281422.txt"
+    "https://www.sec.gov/Archives/edgar/data/1636722/0001193125-25-281422.txt",
+    "https://www.sec.gov/Archives/edgar/data/1636722/0001193125-26-054237.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1c7cf68fb1939027cc7edc9da01985469b01baa6f72d41b2a870ea0915aa080e",
+  "source_fingerprint": "45ccbbc220315709faeab0a7a39e89fee11bd04959ae81087a332b4ba2d20cda",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
-    "4a15f18b714e6d177a039a26f895589e00076912"
+    "4a15f18b714e6d177a039a26f895589e00076912",
+    "bd30373489a988be0fade4e929384589784c0b56"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0001193125-25-281422",
-    "source": "https://www.sec.gov/Archives/edgar/data/1636722/0001193125-25-281422.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0001193125-26-054237",
+    "source": "https://www.sec.gov/Archives/edgar/data/1636722/0001193125-26-054237.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 206961774.0,
+    "reported_long_equity_value_usd": 216229601.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -37,24 +40,35 @@
         "security_class": "COM",
         "issuer": "Devon Energy Corp New",
         "shares": 5903074.0,
-        "value_usd": 206961774.0,
+        "value_usd": 216229601.0,
         "weight_pct": 100.0
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
     "hhi": 10000.0,
-    "changes": null,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0001193125-25-281422"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001193125-26-054237"
       }
     ]
   },
-  "reported_13f_value_usd": 206961774.0,
+  "reported_13f_value_usd": 216229601.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-25-281422",
+  "validated_accession": "0001193125-26-054237",
   "annualized_turnover_proxy_pct": null
 }

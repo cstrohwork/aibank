@@ -1,34 +1,37 @@
 {
   "manager_cik": "0001504103",
   "investor_name": "EnCap Energy Capital Fund VIII, L.P.",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "Houston",
   "state": "TX",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1504103/0001193125-25-281423.txt"
+    "https://www.sec.gov/Archives/edgar/data/1504103/0001193125-25-281423.txt",
+    "https://www.sec.gov/Archives/edgar/data/1504103/0001193125-26-054227.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "1e9a4374009eb44d26e07f24b0675bb148d4230b7cd2546d899b8c0b44de7e12",
+  "source_fingerprint": "cb034c8a52305db6024f0e7749449b67c61d9b08d6ce425ebf61b3f646ee5e1a",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
-    "0fd7da4e8075da19ed37fdaaa1055bbb0f7d1570"
+    "0fd7da4e8075da19ed37fdaaa1055bbb0f7d1570",
+    "aa94aa04ac495ac9cdcc63c9a22b8663b8ef422e"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0001193125-25-281423",
-    "source": "https://www.sec.gov/Archives/edgar/data/1504103/0001193125-25-281423.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0001193125-26-054227",
+    "source": "https://www.sec.gov/Archives/edgar/data/1504103/0001193125-26-054227.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 89962388.0,
+    "reported_long_equity_value_usd": 84861996.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -37,32 +40,43 @@
         "security_class": "UNIT",
         "issuer": "Kimbell RTY Partners LP",
         "shares": 4541914.0,
-        "value_usd": 61270420.0,
-        "weight_pct": 68.11
+        "value_usd": 53412909.0,
+        "weight_pct": 62.94
       },
       {
         "cusip": "71424F105",
         "security_class": "CLASS A COM",
         "issuer": "Permian Resources Corp",
         "shares": 2241560.0,
-        "value_usd": 28691968.0,
-        "weight_pct": 31.89
+        "value_usd": 31449087.0,
+        "weight_pct": 37.06
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5655.71,
-    "changes": null,
+    "hhi": 5334.93,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0001193125-25-281423"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001193125-26-054227"
       }
     ]
   },
-  "reported_13f_value_usd": 89962388.0,
+  "reported_13f_value_usd": 84861996.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001193125-25-281423",
+  "validated_accession": "0001193125-26-054227",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,34 +1,37 @@
 {
   "manager_cik": "0000860662",
   "investor_name": "ANGELO GORDON & CO., L.P.",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/860662/0000860662-25-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/860662/0000860662-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/860662/0000860662-26-000001.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "40c2c13e01ffec2fe1ff7ff3430d998438f80496887397b8ca7e5cfd4fe3f4cc",
+  "source_fingerprint": "ab6e25f2f0691a15f71860e30f8f0871d684a8b2d8e4750bf24ad3166c8943a7",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
+    "9d6ed01362880d3ee07982f6949611f9873e0162",
     "eb19b2cc98f387efe2e8aeea248b17a74743140c"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0000860662-25-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/860662/0000860662-25-000005.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0000860662-26-000001",
+    "source": "https://www.sec.gov/Archives/edgar/data/860662/0000860662-26-000001.txt",
     "distinct_positions": 46,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 816661611.0,
+    "reported_long_equity_value_usd": 1059063967.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -37,96 +40,107 @@
         "security_class": "COM",
         "issuer": "ANYWHERE REAL ESTATE INC",
         "shares": 9692993.0,
-        "value_usd": 102648796.0,
-        "weight_pct": 12.57
+        "value_usd": 137252781.0,
+        "weight_pct": 12.96
+      },
+      {
+        "cusip": "415864107",
+        "security_class": "COM",
+        "issuer": "ENVIRI CORP",
+        "shares": 3518688.0,
+        "value_usd": 63054889.0,
+        "weight_pct": 5.95
+      },
+      {
+        "cusip": "902681AB1",
+        "security_class": "NOTE 5.000% 6/0",
+        "issuer": "UGI CORP NEW",
+        "shares": 40000000.0,
+        "value_usd": 56680000.0,
+        "weight_pct": 5.35
+      },
+      {
+        "cusip": "09709UV70",
+        "security_class": "MTNF 0.600% 5/2",
+        "issuer": "BOFA FIN LLC",
+        "shares": 51633000.0,
+        "value_usd": 56047622.0,
+        "weight_pct": 5.29
       },
       {
         "cusip": "30034WAD8",
         "security_class": "NOTE 4.500%12/1",
         "issuer": "EVERGY INC",
-        "shares": 40000000.0,
-        "value_usd": 50260000.0,
-        "weight_pct": 6.15
+        "shares": 45000000.0,
+        "value_usd": 54765000.0,
+        "weight_pct": 5.17
+      },
+      {
+        "cusip": "116794207",
+        "security_class": "6.375 PREF SER A",
+        "issuer": "BRUKER CORP",
+        "shares": 133000.0,
+        "value_usd": 48302940.0,
+        "weight_pct": 4.56
+      },
+      {
+        "cusip": "62913M107",
+        "security_class": "COM UNIT REPST",
+        "issuer": "NGL ENERGY PARTNERS LP",
+        "shares": 4692696.0,
+        "value_usd": 46926960.0,
+        "weight_pct": 4.43
       },
       {
         "cusip": "85571BBA2",
         "security_class": "NOTE 6.750% 7/1",
         "issuer": "STARWOOD PPTY TR INC",
         "shares": 44250000.0,
-        "value_usd": 46772250.0,
-        "weight_pct": 5.73
-      },
-      {
-        "cusip": "09709UV70",
-        "security_class": "MTNF 0.600% 5/2",
-        "issuer": "BOFA FIN LLC",
-        "shares": 46633000.0,
-        "value_usd": 45956822.0,
-        "weight_pct": 5.63
-      },
-      {
-        "cusip": "902681AB1",
-        "security_class": "NOTE 5.000% 6/0",
-        "issuer": "UGI CORP NEW",
-        "shares": 33000000.0,
-        "value_usd": 42179656.0,
-        "weight_pct": 5.16
+        "value_usd": 45710250.0,
+        "weight_pct": 4.32
       },
       {
         "cusip": "92939UAR7",
         "security_class": "NOTE 4.375% 6/0",
         "issuer": "WEC ENERGY GROUP INC",
         "shares": 34000000.0,
-        "value_usd": 41701000.0,
-        "weight_pct": 5.11
+        "value_usd": 39661000.0,
+        "weight_pct": 3.74
       },
       {
         "cusip": "42824C208",
         "security_class": "7.625 MAND CONV",
         "issuer": "HEWLETT PACKARD ENTERPRISE C",
         "shares": 575000.0,
-        "value_usd": 39186250.0,
-        "weight_pct": 4.8
-      },
-      {
-        "cusip": "842587DZ7",
-        "security_class": "NOTE 4.500% 6/1",
-        "issuer": "SOUTHERN CO",
-        "shares": 33000000.0,
-        "value_usd": 36679500.0,
-        "weight_pct": 4.49
-      },
-      {
-        "cusip": "69331CAL2",
-        "security_class": "NOTE 4.250%12/0",
-        "issuer": "PG&E CORP",
-        "shares": 30000000.0,
-        "value_usd": 30339000.0,
-        "weight_pct": 3.72
-      },
-      {
-        "cusip": "57164YAF4",
-        "security_class": "NOTE 3.250%12/1",
-        "issuer": "MARRIOTT VACATIONS WORLDWIDE",
-        "shares": 31000000.0,
-        "value_usd": 29549200.0,
-        "weight_pct": 3.62
+        "value_usd": 38036250.0,
+        "weight_pct": 3.59
       }
     ],
-    "top_five_pct": 35.24,
-    "top_ten_pct": 56.97,
-    "hhi": 464.77,
-    "changes": null,
+    "top_five_pct": 34.73,
+    "top_ten_pct": 55.37,
+    "hhi": 470.11,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 14,
+      "exited_positions": 14,
+      "increased_positions": 18,
+      "reduced_positions": 4
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0000860662-25-000005"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000860662-26-000001"
       }
     ]
   },
-  "reported_13f_value_usd": 816661611.0,
+  "reported_13f_value_usd": 1059063967.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000860662-25-000005",
+  "validated_accession": "0000860662-26-000001",
   "annualized_turnover_proxy_pct": null
 }

@@ -1,0 +1,90 @@
+{
+  "manager_cik": "0001832568",
+  "investor_name": "RPD Fund Management LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "New York",
+  "state": "NY",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-25-006997.txt",
+    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-001118.txt",
+    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-005370.txt",
+    "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-008067.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "71ded303129e075aef8f5a71a9cda68cd3dc8854ed7b2b04e5bb780ef171e53c",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1ce43c0b2538862ecef0da4fc51edfe7d8ee574d",
+    "60bc6d6d9f0cc0ece55c2156ee393268dbf60252",
+    "67a24d29380fd623d2179adfa7828800d585ffb3",
+    "70e970f41b7baef759138ec4ad7cfc1abf7be27b"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0000919574-26-008067",
+    "source": "https://www.sec.gov/Archives/edgar/data/1832568/0000919574-26-008067.txt",
+    "distinct_positions": 1,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 13070766.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "98980F104",
+        "security_class": "COMMON STOCK",
+        "issuer": "ZOOMINFO TECHNOLOGIES INC",
+        "shares": 3448751.0,
+        "value_usd": 13070766.0,
+        "weight_pct": 100.0
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 10000.0,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 0,
+      "reduced_positions": 1
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0000919574-25-006997"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000919574-26-001118"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0000919574-26-005370"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0000919574-26-008067"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 13070766.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0000919574-26-008067",
+  "annualized_turnover_proxy_pct": null
+}

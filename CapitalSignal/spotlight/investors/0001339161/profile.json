@@ -1,60 +1,68 @@
 {
   "manager_cik": "0001339161",
   "investor_name": "Fine Capital Partners, L.P.",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
-  "city": "New York",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
+  "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1339161/0001214659-25-016609.txt"
+    "https://www.sec.gov/Archives/edgar/data/1339161/0001214659-25-016609.txt",
+    "https://www.sec.gov/Archives/edgar/data/1339161/0001214659-26-001952.txt"
   ],
-  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "cb8f5353318ea44e9e3d188f8a73d7666ee940d27250f0f072ea9ced8e2b4a2d",
+  "evidence_status": "cached_source_profile_monetary_reconciliation_pending",
+  "source_fingerprint": "58fc1ceacf7a949e351df0f0d0e972044e840dff86aa8b96656050f7336c8c1b",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
+    "8a7aabd2a80fe8170107a59f62cb64b999440128",
     "c4113fc98d7fa2fd7473004aaef24a5167cdf40c"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0001214659-25-016609",
-    "source": "https://www.sec.gov/Archives/edgar/data/1339161/0001214659-25-016609.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0001214659-26-001952",
+    "source": "https://www.sec.gov/Archives/edgar/data/1339161/0001214659-26-001952.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 563268878.0,
+    "reported_long_equity_value_usd": null,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "80874P109",
-        "security_class": "COM",
-        "issuer": "LIGHT & WONDER INC",
-        "shares": 6710375.0,
-        "value_usd": 563268878.0,
-        "weight_pct": 100.0
+        "cusip": "000000000",
+        "security_class": "N/A",
+        "issuer": "N/A",
+        "shares": 0.0,
+        "value_usd": null,
+        "weight_pct": null
       }
     ],
-    "top_five_pct": 100.0,
-    "top_ten_pct": 100.0,
-    "hhi": 10000.0,
+    "top_five_pct": null,
+    "top_ten_pct": null,
+    "hhi": null,
     "changes": null,
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0001214659-25-016609"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001214659-26-001952"
       }
     ]
   },
-  "reported_13f_value_usd": 563268878.0,
+  "reported_13f_value_usd": null,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001214659-25-016609",
+  "validated_accession": null,
   "annualized_turnover_proxy_pct": null
 }

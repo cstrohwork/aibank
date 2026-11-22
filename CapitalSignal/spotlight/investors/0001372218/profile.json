@@ -1,34 +1,37 @@
 {
   "manager_cik": "0001372218",
   "investor_name": "CPMG Inc",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "DALLAS",
   "state": "TX",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1372218/0000905148-25-004035.txt"
+    "https://www.sec.gov/Archives/edgar/data/1372218/0000905148-25-004035.txt",
+    "https://www.sec.gov/Archives/edgar/data/1372218/0000905148-26-000870.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "9feb9c3007c4046a042276fc0549ba77e2128d2716d8913fa60f7948d9ffc366",
+  "source_fingerprint": "5023870158db95faedf29922302f54c7ca69ea41de2eb8cc37952687d318306a",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
-    "5ee8d3927d519fe885327761aca8ae4c0474d5f0"
+    "5ee8d3927d519fe885327761aca8ae4c0474d5f0",
+    "c23ab7423dabf9098db576eb712690f3e112a4a6"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0000905148-25-004035",
-    "source": "https://www.sec.gov/Archives/edgar/data/1372218/0000905148-25-004035.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0000905148-26-000870",
+    "source": "https://www.sec.gov/Archives/edgar/data/1372218/0000905148-26-000870.txt",
     "distinct_positions": 2,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 20394050.0,
+    "reported_long_equity_value_usd": 24661053.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -37,32 +40,43 @@
         "security_class": "CLASS A COM",
         "issuer": "INTUITIVE MACHINES INC",
         "shares": 1240968.0,
-        "value_usd": 13054983.0,
-        "weight_pct": 64.01
+        "value_usd": 20140911.0,
+        "weight_pct": 81.67
       },
       {
         "cusip": "45783C200",
         "security_class": "COM NEW",
         "issuer": "INSTIL BIO INC",
         "shares": 410922.0,
-        "value_usd": 7339067.0,
-        "weight_pct": 35.99
+        "value_usd": 4520142.0,
+        "weight_pct": 18.33
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
-    "hhi": 5392.77,
-    "changes": null,
+    "hhi": 7006.1,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0000905148-25-004035"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000905148-26-000870"
       }
     ]
   },
-  "reported_13f_value_usd": 20394050.0,
+  "reported_13f_value_usd": 24661053.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000905148-25-004035",
+  "validated_accession": "0000905148-26-000870",
   "annualized_turnover_proxy_pct": null
 }

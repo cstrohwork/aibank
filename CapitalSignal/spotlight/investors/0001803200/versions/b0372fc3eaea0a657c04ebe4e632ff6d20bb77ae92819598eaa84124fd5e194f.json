@@ -1,0 +1,114 @@
+{
+  "manager_cik": "0001803200",
+  "investor_name": "ACME, LLC",
+  "latest_report_date": "2026-09-30",
+  "filing_date": "2026-11-16",
+  "city": "SAN FRANCISCO",
+  "state": "CA",
+  "country": "United States",
+  "investor_style": "Pending fundamental coverage",
+  "orientation": "Pending fund classification",
+  "source_filings": [
+    "https://www.sec.gov/Archives/edgar/data/1803200/0001104659-25-111934.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803200/0001104659-26-015741.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803200/0001104659-26-096422.txt",
+    "https://www.sec.gov/Archives/edgar/data/1803200/0001104659-26-127611.txt"
+  ],
+  "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
+  "source_fingerprint": "b0372fc3eaea0a657c04ebe4e632ff6d20bb77ae92819598eaa84124fd5e194f",
+  "accession_fingerprints": [
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||",
+    "2026-06-30|2026-08-14|||",
+    "2026-09-30|2026-11-16|||"
+  ],
+  "holdings_fingerprints": [
+    "1570e2c471d03c42036ea76fd675cd8137a48dd4",
+    "34274362f77605737bfa378be4ea9924fd359f80",
+    "4d7827e65ca24d3010f10ba6439ab8b95713f7c6",
+    "9aa1b60787538544f44fc381f75ebaa6fda16101"
+  ],
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
+  "holdings_analytics": {
+    "available": true,
+    "report_date": "2026-09-30",
+    "filing_date": "2026-11-16",
+    "accession": "0001104659-26-127611",
+    "source": "https://www.sec.gov/Archives/edgar/data/1803200/0001104659-26-127611.txt",
+    "distinct_positions": 4,
+    "excluded_invalid_rows": 0,
+    "reported_long_equity_value_usd": 6014906.0,
+    "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
+    "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
+    "top_holdings": [
+      {
+        "cusip": "639193101",
+        "security_class": "COM",
+        "issuer": "Navan, Inc.",
+        "shares": 267835.0,
+        "value_usd": 5621857.0,
+        "weight_pct": 93.47
+      },
+      {
+        "cusip": "16935C109",
+        "security_class": "COM",
+        "issuer": "Chime",
+        "shares": 7668.0,
+        "value_usd": 204276.0,
+        "weight_pct": 3.4
+      },
+      {
+        "cusip": "46222L108",
+        "security_class": "COM",
+        "issuer": "IonQ, Inc.",
+        "shares": 3752.0,
+        "value_usd": 164563.0,
+        "weight_pct": 2.74
+      },
+      {
+        "cusip": "76010Y103",
+        "security_class": "COM CL A",
+        "issuer": "Rent the Runway, Inc.",
+        "shares": 14673.0,
+        "value_usd": 24210.0,
+        "weight_pct": 0.4
+      }
+    ],
+    "top_five_pct": 100.0,
+    "top_ten_pct": 100.0,
+    "hhi": 8754.97,
+    "changes": {
+      "previous_period": "2026-06-30",
+      "new_positions": 2,
+      "exited_positions": 1,
+      "increased_positions": 0,
+      "reduced_positions": 0
+    },
+    "timeline": [
+      {
+        "report_date": "2025-09-30",
+        "filing_date": "2025-11-14",
+        "accession": "0001104659-25-111934"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001104659-26-015741"
+      },
+      {
+        "report_date": "2026-06-30",
+        "filing_date": "2026-08-14",
+        "accession": "0001104659-26-096422"
+      },
+      {
+        "report_date": "2026-09-30",
+        "filing_date": "2026-11-16",
+        "accession": "0001104659-26-127611"
+      }
+    ]
+  },
+  "reported_13f_value_usd": 6014906.0,
+  "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
+  "validated_accession": "0001104659-26-127611",
+  "annualized_turnover_proxy_pct": null
+}

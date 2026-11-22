@@ -1,132 +1,146 @@
 {
   "manager_cik": "0000816788",
   "investor_name": "TANAKA CAPITAL MANAGEMENT INC",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "NEW YORK",
   "state": "NY",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/816788/0000816788-25-000005.txt"
+    "https://www.sec.gov/Archives/edgar/data/816788/0000816788-25-000005.txt",
+    "https://www.sec.gov/Archives/edgar/data/816788/0000816788-26-000001.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "418572480ef38b428c639a2d532c48f260ce46974984b0073a711b2798647449",
+  "source_fingerprint": "c8803a195375dfcc4d95a3e6c3e482690dd4efbc4dba4112146dd35a3ceca69e",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
-    "74ea3da669067165f847c1c3577834fdc86a6ced"
+    "74ea3da669067165f847c1c3577834fdc86a6ced",
+    "c79a65f2560880f6d8a3f8cb74e13ba699f14b85"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0000816788-25-000005",
-    "source": "https://www.sec.gov/Archives/edgar/data/816788/0000816788-25-000005.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0000816788-26-000001",
+    "source": "https://www.sec.gov/Archives/edgar/data/816788/0000816788-26-000001.txt",
     "distinct_positions": 44,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 55532.0,
+    "reported_long_equity_value_usd": 54821.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
       {
-        "cusip": "218352102",
+        "cusip": "67080N101",
         "security_class": "COM",
-        "issuer": "Corcept Therapeutics",
-        "shares": 111209.0,
-        "value_usd": 9243.0,
-        "weight_pct": 16.64
-      },
-      {
-        "cusip": "911549103",
-        "security_class": "COM",
-        "issuer": "United States Antimony",
-        "shares": 827035.0,
-        "value_usd": 5128.0,
-        "weight_pct": 9.23
+        "issuer": "Nuvation Bio Inc.",
+        "shares": 841605.0,
+        "value_usd": 7541.0,
+        "weight_pct": 13.76
       },
       {
         "cusip": "67066G104",
         "security_class": "COM",
         "issuer": "Nvidia",
-        "shares": 24879.0,
-        "value_usd": 4642.0,
-        "weight_pct": 8.36
+        "shares": 24810.0,
+        "value_usd": 4627.0,
+        "weight_pct": 8.44
       },
       {
         "cusip": "65340P106",
         "security_class": "COM",
         "issuer": "NexGen Energy",
         "shares": 442625.0,
-        "value_usd": 3961.0,
-        "weight_pct": 7.13
+        "value_usd": 4072.0,
+        "weight_pct": 7.43
+      },
+      {
+        "cusip": "218352102",
+        "security_class": "COM",
+        "issuer": "Corcept Therapeutics",
+        "shares": 111084.0,
+        "value_usd": 3866.0,
+        "weight_pct": 7.05
       },
       {
         "cusip": "037833100",
         "security_class": "COM",
         "issuer": "Apple Computing",
-        "shares": 12972.0,
-        "value_usd": 3303.0,
-        "weight_pct": 5.95
+        "shares": 12937.0,
+        "value_usd": 3517.0,
+        "weight_pct": 6.42
       },
       {
-        "cusip": "67080N101",
+        "cusip": "911549103",
         "security_class": "COM",
-        "issuer": "Nuvation Bio Inc.",
-        "shares": 685105.0,
-        "value_usd": 2535.0,
-        "weight_pct": 4.56
-      },
-      {
-        "cusip": "464287804",
-        "security_class": "COM",
-        "issuer": "iShares Core SP Small Cap",
-        "shares": 144334.0,
-        "value_usd": 2504.0,
-        "weight_pct": 4.51
-      },
-      {
-        "cusip": "87151X101",
-        "security_class": "COM",
-        "issuer": "Symbotic",
-        "shares": 43454.0,
-        "value_usd": 2342.0,
-        "weight_pct": 4.22
-      },
-      {
-        "cusip": "001055102",
-        "security_class": "COM",
-        "issuer": "AFLAC Inc.",
-        "shares": 20369.0,
-        "value_usd": 2275.0,
-        "weight_pct": 4.1
+        "issuer": "United States Antimony",
+        "shares": 615975.0,
+        "value_usd": 3092.0,
+        "weight_pct": 5.64
       },
       {
         "cusip": "14888U101",
         "security_class": "COM",
         "issuer": "Catalyst Pharmaceuticals",
         "shares": 114418.0,
-        "value_usd": 2254.0,
-        "weight_pct": 4.06
+        "value_usd": 2671.0,
+        "weight_pct": 4.87
+      },
+      {
+        "cusip": "87151X101",
+        "security_class": "COM",
+        "issuer": "Symbotic",
+        "shares": 43354.0,
+        "value_usd": 2580.0,
+        "weight_pct": 4.71
+      },
+      {
+        "cusip": "G06973104",
+        "security_class": "COM",
+        "issuer": "Aura Minerals, Inc.",
+        "shares": 44835.0,
+        "value_usd": 2261.0,
+        "weight_pct": 4.12
+      },
+      {
+        "cusip": "001055102",
+        "security_class": "COM",
+        "issuer": "AFLAC Inc.",
+        "shares": 20369.0,
+        "value_usd": 2242.0,
+        "weight_pct": 4.09
       }
     ],
-    "top_five_pct": 47.32,
-    "top_ten_pct": 68.77,
-    "hhi": 681.58,
-    "changes": null,
+    "top_five_pct": 43.09,
+    "top_ten_pct": 66.52,
+    "hhi": 603.96,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 2,
+      "reduced_positions": 14
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0000816788-25-000005"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000816788-26-000001"
       }
     ]
   },
-  "reported_13f_value_usd": 55532.0,
+  "reported_13f_value_usd": 54821.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000816788-25-000005",
+  "validated_accession": "0000816788-26-000001",
   "annualized_turnover_proxy_pct": null
 }

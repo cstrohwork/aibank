@@ -1,34 +1,37 @@
 {
   "manager_cik": "0001323953",
   "investor_name": "RGM Capital, LLC",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-13",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "NAPLES",
   "state": "FL",
   "country": "United States",
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/1323953/0001323953-25-000022.txt"
+    "https://www.sec.gov/Archives/edgar/data/1323953/0001323953-25-000022.txt",
+    "https://www.sec.gov/Archives/edgar/data/1323953/0001323953-26-000009.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "7fae690a1014c57d95811a9e51e9ec6fd222bd32f0af6544510bb33d27616d93",
+  "source_fingerprint": "597f0dbfe325b967ff566855cf967bdaec4357d25396fa6bdfaee0f9578a666f",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-13|||"
+    "2025-09-30|2025-11-13|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
+    "59e49064e4db4c291eb6dcf41e17acfc83b9a1ab",
     "d4178bb6d2064c49e113ab0d49bded55c9f0a2f3"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-13",
-    "accession": "0001323953-25-000022",
-    "source": "https://www.sec.gov/Archives/edgar/data/1323953/0001323953-25-000022.txt",
-    "distinct_positions": 19,
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0001323953-26-000009",
+    "source": "https://www.sec.gov/Archives/edgar/data/1323953/0001323953-26-000009.txt",
+    "distinct_positions": 17,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 2375445552.0,
+    "reported_long_equity_value_usd": 2059751283.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -36,97 +39,108 @@
         "cusip": "268150109",
         "security_class": "COM NEW",
         "issuer": "DYNATRACE INC",
-        "shares": 4141041.0,
-        "value_usd": 200633436.0,
-        "weight_pct": 8.45
-      },
-      {
-        "cusip": "22160N109",
-        "security_class": "COM",
-        "issuer": "COSTAR GROUP INC",
-        "shares": 2092703.0,
-        "value_usd": 176561352.0,
-        "weight_pct": 7.43
-      },
-      {
-        "cusip": "922280102",
-        "security_class": "COM",
-        "issuer": "VARONIS SYS INC",
-        "shares": 2699513.0,
-        "value_usd": 155141012.0,
-        "weight_pct": 6.53
-      },
-      {
-        "cusip": "902252105",
-        "security_class": "COM",
-        "issuer": "TYLER TECHNOLOGIES INC",
-        "shares": 289870.0,
-        "value_usd": 151648389.0,
-        "weight_pct": 6.38
-      },
-      {
-        "cusip": "74275K108",
-        "security_class": "COM",
-        "issuer": "PROCORE TECHNOLOGIES INC",
-        "shares": 2074411.0,
-        "value_usd": 151266050.0,
-        "weight_pct": 6.37
-      },
-      {
-        "cusip": "714046109",
-        "security_class": "COM",
-        "issuer": "REVVITY INC",
-        "shares": 1689388.0,
-        "value_usd": 148074858.0,
-        "weight_pct": 6.23
+        "shares": 4107728.0,
+        "value_usd": 178028932.0,
+        "weight_pct": 8.64
       },
       {
         "cusip": "81762P102",
         "security_class": "COM",
         "issuer": "SERVICENOW INC",
-        "shares": 157094.0,
-        "value_usd": 144570466.0,
-        "weight_pct": 6.09
+        "shares": 1095795.0,
+        "value_usd": 167864836.0,
+        "weight_pct": 8.15
+      },
+      {
+        "cusip": "714046109",
+        "security_class": "COM",
+        "issuer": "REVVITY INC",
+        "shares": 1519388.0,
+        "value_usd": 147000789.0,
+        "weight_pct": 7.14
+      },
+      {
+        "cusip": "74275K108",
+        "security_class": "COM",
+        "issuer": "PROCORE TECHNOLOGIES INC",
+        "shares": 1963169.0,
+        "value_usd": 142800913.0,
+        "weight_pct": 6.93
+      },
+      {
+        "cusip": "902252105",
+        "security_class": "COM",
+        "issuer": "TYLER TECHNOLOGIES INC",
+        "shares": 305043.0,
+        "value_usd": 138474270.0,
+        "weight_pct": 6.72
+      },
+      {
+        "cusip": "22160N109",
+        "security_class": "COM",
+        "issuer": "COSTAR GROUP INC",
+        "shares": 1995460.0,
+        "value_usd": 134174730.0,
+        "weight_pct": 6.51
       },
       {
         "cusip": "N14506104",
         "security_class": "ORD SHS",
         "issuer": "ELASTIC N V",
-        "shares": 1669698.0,
-        "value_usd": 141072784.0,
-        "weight_pct": 5.94
+        "shares": 1710069.0,
+        "value_usd": 129007605.0,
+        "weight_pct": 6.26
+      },
+      {
+        "cusip": "09073M104",
+        "security_class": "COM",
+        "issuer": "BIO-TECHNE CORP",
+        "shares": 2152052.0,
+        "value_usd": 126562178.0,
+        "weight_pct": 6.14
       },
       {
         "cusip": "922475108",
         "security_class": "CL A COM",
         "issuer": "VEEVA SYS INC",
-        "shares": 469748.0,
-        "value_usd": 139942627.0,
-        "weight_pct": 5.89
+        "shares": 556572.0,
+        "value_usd": 124243568.0,
+        "weight_pct": 6.03
       },
       {
-        "cusip": "29362U104",
-        "security_class": "COM",
-        "issuer": "ENTEGRIS INC",
-        "shares": 1474701.0,
-        "value_usd": 136350854.0,
-        "weight_pct": 5.74
+        "cusip": "M2682V108",
+        "security_class": "SHS",
+        "issuer": "CYBERARK SOFTWARE LTD",
+        "shares": 256922.0,
+        "value_usd": 114602627.0,
+        "weight_pct": 5.56
       }
     ],
-    "top_five_pct": 35.16,
-    "top_ten_pct": 65.05,
-    "hhi": 581.66,
-    "changes": null,
+    "top_five_pct": 37.59,
+    "top_ten_pct": 68.1,
+    "hhi": 621.46,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 2,
+      "increased_positions": 8,
+      "reduced_positions": 9
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-13",
         "accession": "0001323953-25-000022"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0001323953-26-000009"
       }
     ]
   },
-  "reported_13f_value_usd": 2375445552.0,
+  "reported_13f_value_usd": 2059751283.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0001323953-25-000022",
+  "validated_accession": "0001323953-26-000009",
   "annualized_turnover_proxy_pct": null
 }

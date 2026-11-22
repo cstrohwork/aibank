@@ -1,34 +1,37 @@
 {
   "manager_cik": "0002075444",
   "investor_name": "Al Warda Investments RSC Ltd",
-  "latest_report_date": "2025-09-30",
-  "filing_date": "2025-11-14",
+  "latest_report_date": "2025-12-31",
+  "filing_date": "2026-02-17",
   "city": "ABU DHABI",
   "state": null,
   "country": null,
   "investor_style": "Pending fundamental coverage",
   "orientation": "Pending fund classification",
   "source_filings": [
-    "https://www.sec.gov/Archives/edgar/data/2075444/0000929638-25-004251.txt"
+    "https://www.sec.gov/Archives/edgar/data/2075444/0000929638-25-004251.txt",
+    "https://www.sec.gov/Archives/edgar/data/2075444/0000929638-26-000633.txt"
   ],
   "evidence_status": "normalized_usd_validated_not_cover_page_reconciled",
-  "source_fingerprint": "8fee11782ef04f0aa6aaa7198dddc12fe4616b41838f3c5a9cad1fa058a62678",
+  "source_fingerprint": "87a21af6d467dd79a81bc1a8ab7d2e1cc16acb1e73d32aa5d1c77626b8fb54de",
   "accession_fingerprints": [
-    "2025-09-30|2025-11-14|||"
+    "2025-09-30|2025-11-14|||",
+    "2025-12-31|2026-02-17|||"
   ],
   "holdings_fingerprints": [
-    "0466419168f188e3dfac2ca9fdf7ad2995151c88"
+    "0466419168f188e3dfac2ca9fdf7ad2995151c88",
+    "e884cb1b6227754533b5a999a2adfa4bc77e0a08"
   ],
-  "generated_at": "2026-11-18T17:15:04.718949+00:00",
+  "generated_at": "2026-11-22T03:16:08.620058+00:00",
   "holdings_analytics": {
     "available": true,
-    "report_date": "2025-09-30",
-    "filing_date": "2025-11-14",
-    "accession": "0000929638-25-004251",
-    "source": "https://www.sec.gov/Archives/edgar/data/2075444/0000929638-25-004251.txt",
+    "report_date": "2025-12-31",
+    "filing_date": "2026-02-17",
+    "accession": "0000929638-26-000633",
+    "source": "https://www.sec.gov/Archives/edgar/data/2075444/0000929638-26-000633.txt",
     "distinct_positions": 1,
     "excluded_invalid_rows": 0,
-    "reported_long_equity_value_usd": 517620545.0,
+    "reported_long_equity_value_usd": 408059051.0,
     "value_basis": "Normalized cached long common-share rows; not independently reconciled to SEC cover-page totals",
     "weights_basis": "Weights and concentration require validated USD units, all rows valid, and resolved amendments; excludes options and non-share positions",
     "top_holdings": [
@@ -36,25 +39,36 @@
         "cusip": "46438F101",
         "security_class": "SHS BEN INT",
         "issuer": "ISHARES BITCOIN TRUST ETF",
-        "shares": 7963393.0,
-        "value_usd": 517620545.0,
+        "shares": 8218712.0,
+        "value_usd": 408059051.0,
         "weight_pct": 100.0
       }
     ],
     "top_five_pct": 100.0,
     "top_ten_pct": 100.0,
     "hhi": 10000.0,
-    "changes": null,
+    "changes": {
+      "previous_period": "2025-09-30",
+      "new_positions": 0,
+      "exited_positions": 0,
+      "increased_positions": 1,
+      "reduced_positions": 0
+    },
     "timeline": [
       {
         "report_date": "2025-09-30",
         "filing_date": "2025-11-14",
         "accession": "0000929638-25-004251"
+      },
+      {
+        "report_date": "2025-12-31",
+        "filing_date": "2026-02-17",
+        "accession": "0000929638-26-000633"
       }
     ]
   },
-  "reported_13f_value_usd": 517620545.0,
+  "reported_13f_value_usd": 408059051.0,
   "reported_13f_value_basis": "validated_normalized_long_share_exposure_not_total_aum",
-  "validated_accession": "0000929638-25-004251",
+  "validated_accession": "0000929638-26-000633",
   "annualized_turnover_proxy_pct": null
 }
