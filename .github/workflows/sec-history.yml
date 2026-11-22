@@ -103,7 +103,8 @@ jobs:
             done
           fi
       - name: Rebuild period history and investor calculations
-        if: always() && steps.archive.outcome != 'skipped' && steps.release.outcome == 'success'
+        id: rebuild
+        if: always() && steps.archive.outcome != 'skipped' && steps.release.outcome == 'success' && steps.evidence.outcome == 'success'
         run: |
           python scripts/rebuild_history.py
           python scripts/build_investor_profiles.py
@@ -111,7 +112,7 @@ jobs:
           python scripts/check_capitalsignal.py
       - name: Persist history and download checkpoints
         id: persist
-        if: always() && steps.archive.outcome != 'skipped' && steps.release.outcome == 'success'
+        if: always() && steps.rebuild.outcome == 'success'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
