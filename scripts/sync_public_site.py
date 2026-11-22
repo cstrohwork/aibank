@@ -1,107 +1,189 @@
 #!/usr/bin/env python3
-"""Stage explicitly reviewed static website assets to a separate public repo.
+"""Build an exact, reviewed public-site tree for ``aibank_public``.
 
-No raw SEC caches, ingestion code, workflows, secrets, or generated datasets are copied.
-This is a staging tool; custom-domain cutover is intentionally manual.
+The output contains website code and the normalized public data that those pages
+load. It excludes source, workflows, raw SEC archives, worker checkpoints,
+validation evidence, credentials, and the custom-domain ``CNAME``. Publication
+uses a destination-only credential; this module never handles a token.
 """
-import base64
+
+from __future__ import annotations
+
+import argparse
+import hashlib
 import json
-import os
-from pathlib import Path
-import urllib.error
-import urllib.request
+from pathlib import Path, PurePosixPath
+import re
+import shutil
 
-DEST = os.environ.get("PUBLIC_SITE_REPO", "cstrohwork/aibank_public")
-TOKEN = os.environ["PUBLIC_SITE_TOKEN"]
+
 ROOT = Path(__file__).resolve().parents[1]
-PAGES = (
-    "CapitalSignal/daily", "CapitalSignal/weekly",
-    "CapitalSignal/spotlight", "CapitalSignal/ownership",
-    "CapitalSignal/fundamentals", "CapitalSignal/model",
-    "CapitalSignal/skunkworks", "CapitalSignal/workerdashboard",
-    "CapitalSignal/tools",
+PAGE_ROOTS = (
+    "CapitalSignal/daily", "CapitalSignal/weekly", "CapitalSignal/spotlight",
+    "CapitalSignal/ownership", "CapitalSignal/fundamentals",
+    "CapitalSignal/model", "CapitalSignal/skunkworks",
+    "CapitalSignal/workerdashboard", "CapitalSignal/tools",
+    "CapitalSignal/atlas", "CapitalSignal/subscribe",
 )
-# Only static display assets. No JSON/CSV/databases; approve each dataset separately.
-SUFFIXES = {".html", ".css", ".js", ".svg", ".png", ".jpg", ".jpeg",
-            ".webp", ".ico", ".woff", ".woff2", ".txt"}
-MAX_BYTES = 2_000_000
+STATIC_SUFFIXES = {
+    ".html", ".css", ".js", ".svg", ".png", ".jpg", ".jpeg",
+    ".webp", ".ico", ".woff", ".woff2", ".txt",
+}
+REQUIRED_FILES = {
+    "index.html", "CapitalSignal/index.html",
+    "CapitalSignal/daily/index.html", "CapitalSignal/weekly/index.html",
+    "CapitalSignal/spotlight/index.html", "CapitalSignal/ownership/index.html",
+    "CapitalSignal/fundamentals/index.html", "CapitalSignal/model/index.html",
+    "CapitalSignal/skunkworks/index.html",
+    "CapitalSignal/workerdashboard/index.html", "CapitalSignal/tools/index.html",
+    "CapitalSignal/atlas/index.html", "CapitalSignal/subscribe/index.html",
+}
+MAX_FILE_BYTES = 25_000_000
+MAX_TOTAL_BYTES = 2_000_000_000
+MAX_FILES = 75_000
+SECRET_PATTERNS = {
+    "private key": re.compile(rb"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
+    "GitHub token": re.compile(rb"gh[pousr]_[A-Za-z0-9]{30,}"),
+    "AWS access key": re.compile(rb"AKIA[0-9A-Z]{16}"),
+}
 
 
-def api(method, path, body=None):
-    url = "https://api.github.com/repos/" + DEST + "/" + path
-    data = None if body is None else json.dumps(body).encode()
-    request = urllib.request.Request(
-        url, data=data, method=method,
-        headers={"Authorization": "Bearer " + TOKEN,
-                 "Accept": "application/vnd.github+json",
-                 "X-GitHub-Api-Version": "2022-11-28",
-                 "Content-Type": "application/json"})
-    with urllib.request.urlopen(request, timeout=40) as response:
-        return json.load(response)
+def _is_public_json(relative: PurePosixPath) -> bool:
+    """Return true only for reviewed, browser-consumed normalized outputs."""
+    parts = relative.parts
+    if relative == PurePosixPath("CapitalSignal/skunkworks/catalog.json"):
+        return True
+    if parts[:3] == ("CapitalSignal", "ownership", "data"):
+        return len(parts) == 4 and relative.suffix == ".json"
+    if parts[:3] in {
+        ("CapitalSignal", "spotlight", "investors"),
+        ("CapitalSignal", "spotlight", "funds"),
+    }:
+        return relative.suffix == ".json" and (
+            relative.name == "profile.json" or "versions" in parts
+        )
+    if parts[:3] in {
+        ("CapitalSignal", "data", "atlas"),
+        ("CapitalSignal", "data", "13f"),
+    }:
+        return relative.suffix == ".json"
+    if parts[:3] == ("CapitalSignal", "data", "fundamentals"):
+        if len(parts) == 4 and relative.name in {
+            "status.json", "model_status.json", "model_data.json",
+        }:
+            return True
+        return (
+            len(parts) == 5 and parts[3] == "model_companies"
+            and relative.suffix == ".json"
+        )
+    return False
 
 
-def collect():
-    files = [ROOT / "index.html", ROOT / "CapitalSignal/index.html"]
-    # Root-level shared assets must be separately reviewed before inclusion.
-    for directory in PAGES:
-        folder = ROOT / directory
+def _candidate_paths(root: Path):
+    for name in ("index.html", "CapitalSignal/index.html"):
+        yield root / name
+    for directory in PAGE_ROOTS:
+        folder = root / directory
         if not folder.is_dir():
             continue
         for path in folder.rglob("*"):
             if not path.is_file() or path.is_symlink():
                 continue
-            relative = path.relative_to(ROOT)
-            if any(part.startswith(".") for part in relative.parts):
-                continue
-            if any(part.lower() in {"data", "raw", "cache", "private", "internal",
-                                   "scripts", "tests", "fixtures", "secrets"}
-                   for part in relative.parts):
-                continue
-            if path.suffix.lower() in SUFFIXES:
-                files.append(path)
-    result = {}
-    for path in files:
-        if not path.is_file() or path.is_symlink():
-            raise RuntimeError("Required site file missing: " + str(path))
+            relative = PurePosixPath(path.relative_to(root).as_posix())
+            if path.suffix.lower() in STATIC_SUFFIXES or _is_public_json(relative):
+                yield path
+    for directory in (
+        "CapitalSignal/data/atlas", "CapitalSignal/data/13f",
+        "CapitalSignal/data/fundamentals",
+    ):
+        folder = root / directory
+        if not folder.is_dir():
+            continue
+        for path in folder.rglob("*.json"):
+            if path.is_file() and not path.is_symlink():
+                relative = PurePosixPath(path.relative_to(root).as_posix())
+                if _is_public_json(relative):
+                    yield path
+
+
+def collect(root: Path = ROOT) -> dict[str, Path]:
+    files: dict[str, Path] = {}
+    total_bytes = 0
+    for path in _candidate_paths(root):
+        relative = path.relative_to(root).as_posix()
         size = path.stat().st_size
-        if size > MAX_BYTES:
-            raise RuntimeError("Asset too large for unreviewed publication: " + str(path))
-        result[path.relative_to(ROOT).as_posix()] = path
-    return result
+        if size > MAX_FILE_BYTES:
+            raise RuntimeError(f"Public asset exceeds {MAX_FILE_BYTES} bytes: {relative}")
+        files[relative] = path
+        total_bytes += size
+    missing = sorted(REQUIRED_FILES - files.keys())
+    if missing:
+        raise RuntimeError("Required public site files are missing: " + ", ".join(missing))
+    if len(files) > MAX_FILES:
+        raise RuntimeError(f"Refusing {len(files)} public files; reviewed cap is {MAX_FILES}")
+    if total_bytes > MAX_TOTAL_BYTES:
+        raise RuntimeError(
+            f"Refusing {total_bytes} public bytes; reviewed cap is {MAX_TOTAL_BYTES}"
+        )
+    return files
 
 
-def main():
-    files = collect()
-    print("Staging static files:", len(files))
-    if len(files) > 300:
-        raise RuntimeError("Refusing to publish more than 300 files in one deployment; spotlight investor pages require a separate bounded publisher.")
-    for name in sorted(files)[:35]:
-        print("  ", name)
-    if len(files) > 35:
-        print("  ... remaining files omitted from logs")
-    try:
-        identity = api("GET", "git/ref/heads/main")
-    except urllib.error.HTTPError as exc:
-        raise RuntimeError(f"Destination repository read check failed: HTTP {exc.code}; verify PUBLIC_SITE_TOKEN access to {DEST}") from exc
-    branch = identity
-    old_sha = branch["object"]["sha"]
-    head = api("GET", "git/commits/" + old_sha)
-    tree = []
-    for name, path in sorted(files.items()):
-        blob = api("POST", "git/blobs", {
-            "content": base64.b64encode(path.read_bytes()).decode(),
-            "encoding": "base64"})
-        tree.append({"path": name, "mode": "100644",
-                     "type": "blob", "sha": blob["sha"]})
-    new_tree = api("POST", "git/trees", {
-        "base_tree": head["tree"]["sha"], "tree": tree})
-    commit = api("POST", "git/commits", {
-        "message": "Publish reviewed static website files",
-        "tree": new_tree["sha"], "parents": [old_sha]})
-    api("PATCH", "git/refs/heads/main", {"sha": commit["sha"], "force": False})
-    print("Published:", "https://github.com/" + DEST + "/commit/" + commit["sha"])
-    print("Data feeds deliberately excluded pending explicit review.")
-    print("Custom domain deliberately not transferred.")
+def audit(files: dict[str, Path]) -> None:
+    forbidden_roots = ("scripts/", "tests/", ".github/", "CapitalSignal/validation/")
+    forbidden_names = {"CNAME", "WORKER_BACKLOG.md", "archive_state.json.gz"}
+    for relative, path in files.items():
+        if relative.startswith(forbidden_roots) or Path(relative).name in forbidden_names:
+            raise RuntimeError("Internal-only path entered public tree: " + relative)
+        data = path.read_bytes()
+        for label, pattern in SECRET_PATTERNS.items():
+            if pattern.search(data):
+                raise RuntimeError(f"Possible {label} in public output: {relative}")
+
+
+def stage(files: dict[str, Path], destination: Path) -> dict:
+    if destination.exists():
+        shutil.rmtree(destination)
+    destination.mkdir(parents=True)
+    entries = []
+    total_bytes = 0
+    for relative, source in sorted(files.items()):
+        target = destination / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, target)
+        data = source.read_bytes()
+        total_bytes += len(data)
+        entries.append({
+            "path": relative, "bytes": len(data),
+            "sha256": hashlib.sha256(data).hexdigest(),
+        })
+    manifest = {
+        "schema_version": 1, "file_count": len(entries),
+        "total_bytes": total_bytes, "custom_domain_included": False,
+        "raw_sec_archives_included": False, "files": entries,
+    }
+    (destination / "public-site-inventory.json").write_text(
+        json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    return manifest
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, default=ROOT)
+    parser.add_argument("--stage-dir", type=Path, required=True)
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    files = collect(args.root.resolve())
+    audit(files)
+    manifest = stage(files, args.stage_dir.resolve())
+    print(
+        f"Staged {manifest['file_count']} explicitly allowlisted files "
+        f"({manifest['total_bytes']} bytes)."
+    )
+    print("Excluded: CNAME, raw SEC archives, worker state, source, workflows, tests, and secrets.")
 
 
 if __name__ == "__main__":
