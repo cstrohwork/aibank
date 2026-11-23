@@ -78,6 +78,23 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
+      - name: Wait for uploaded Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          for attempt in {1..12}; do
+            artifact_id="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id' | head -n 1)" || true
+            if [ -n "$artifact_id" ]; then
+              echo "Pages artifact is visible: $artifact_id"
+              sleep 15
+              exit 0
+            fi
+            echo "Waiting for Pages artifact metadata (attempt $attempt/12)"
+            sleep 15
+          done
+          echo "::error::Pages artifact metadata did not appear within the retry window"
+          exit 1
       - name: Deploy reviewed artifact
         id: deployment
         uses: actions/deploy-pages@v4
