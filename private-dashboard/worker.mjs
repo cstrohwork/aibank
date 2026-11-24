@@ -7,7 +7,7 @@ function decode(s) {
 }
 const parse = s=>JSON.parse(new TextDecoder("utf-8",{fatal:true}).decode(decode(s)));
 export async function authenticate(token, env, fetcher=fetch, now=Math.floor(Date.now()/1000)) {
-  if (!env.CF_ACCESS_AUD || !env.ADMIN_EMAIL || !token || token.length>16384) return false;
+  if (!env.CF_ACCESS_AUD || (!env.ADMIN_EMAIL && !env.ADMIN_EMAIL_SHA256) || !token || token.length>16384) return false;
   try {
     const parts=token.split(".");
     if(parts.length!==3) return false;
@@ -15,7 +15,11 @@ export async function authenticate(token, env, fetcher=fetch, now=Math.floor(Dat
     if(header.alg!=="RS256" || typeof header.kid!=="string" || header.crit!==undefined) return false;
     if(claims.iss!==issuer || !Array.isArray(claims.aud) || !claims.aud.includes(env.CF_ACCESS_AUD)) return false;
     if(!Number.isFinite(claims.exp) || claims.exp<=now || (claims.nbf!==undefined && (!Number.isFinite(claims.nbf)||claims.nbf>now))) return false;
-    if(typeof claims.email!=="string" || claims.email.toLowerCase()!==env.ADMIN_EMAIL.toLowerCase()) return false;
+    if(typeof claims.email!=="string" || !claims.email) return false;
+    if(env.ADMIN_EMAIL_SHA256) {
+      const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(claims.email.toLowerCase()));
+      if(Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("")!==env.ADMIN_EMAIL_SHA256) return false;
+    } else if(claims.email.toLowerCase()!==env.ADMIN_EMAIL.toLowerCase()) return false;
     const res=await fetcher(issuer+"/cdn-cgi/access/certs",{redirect:"error"});
     if(!res.ok) return false;
     const {keys}=await res.json();
