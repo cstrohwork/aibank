@@ -38,3 +38,11 @@ test('reject alternate host and unauthenticated requests',async()=>{
  const r=await worker.fetch(new Request('https://dashboard.ainvestmentbank.ai/'),env);
  assert.equal(r.status,403);assert.equal(r.headers.get('Cache-Control'),'no-store');
 });
+
+test('pinned administrator digest accepts only matching signed identity',async()=>{
+ const digest=Buffer.from(await crypto.subtle.digest('SHA-256',Buffer.from(env.ADMIN_EMAIL))).toString('hex');
+ const pinned={CF_ACCESS_AUD:env.CF_ACCESS_AUD,ADMIN_EMAIL_SHA256:digest};
+ assert.equal(await authenticate(await token(),pinned,keys,now),true);
+ assert.equal(await authenticate(await token({email:'other@example.invalid'}),pinned,keys,now),false);
+ assert.equal(await authenticate(await token(),{...pinned,ADMIN_EMAIL_SHA256:'0'.repeat(64)},keys,now),false);
+});
