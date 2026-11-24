@@ -36,12 +36,9 @@ jobs:
           keep_vars = true
           [vars]
           CF_ACCESS_AUD = "e2c9057305e46327674e148d42eeaad506fa8f01f84af811ae30c5f7c3bddd23"
+          ADMIN_EMAIL_SHA256 = "ccde556fefb4ed84de6e9cd45e2ead0f53946fdf2172971453438f4e6fa1ef44"
           EOF
-          # Administrator email is supplied through a repository secret; fail closed if absent.
-          test -n "$ADMIN_EMAIL" || { echo "Missing ADMIN_EMAIL repository secret"; exit 1; }
-          npx --yes wrangler@4 deploy --config wrangler.generated.toml --var "ADMIN_EMAIL:$ADMIN_EMAIL"
-        # No administrator identity is committed to the public repository.
+          npx --yes wrangler@4 deploy --config wrangler.generated.toml
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: f074af3bef137b9fbf206d8558c4b1d0
-          ADMIN_EMAIL: ${{ secrets.DASHBOARD_ADMIN_EMAIL }}
