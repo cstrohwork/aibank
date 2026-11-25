@@ -33,10 +33,11 @@ test('fail closed on certificate outage or duplicate key',async()=>{
  assert.equal(await authenticate(t,env,async()=>{throw Error('offline')},now),false);
  assert.equal(await authenticate(t,env,async()=>Response.json({keys:[jwk,jwk]}),now),false);
 });
-test('reject alternate host and unauthenticated requests',async()=>{
+test('reject alternate host and serve public dashboard metadata without an assertion',async()=>{
  assert.equal((await worker.fetch(new Request('https://alternate.invalid/'),env)).status,404);
- const r=await worker.fetch(new Request('https://dashboard.ainvestmentbank.ai/'),env);
- assert.equal(r.status,403);assert.equal(r.headers.get('Cache-Control'),'no-store');
+ const r=await worker.fetch(new Request('https://dashboard.ainvestmentbank.ai/'),env,async()=>Response.json({workflow_runs:[]}));
+ assert.equal(r.status,200);assert.equal(r.headers.get('Cache-Control'),'no-store');
+ assert.match(await r.text(),/Latest GitHub Actions runs/);
 });
 
 test('pinned administrator digest accepts only matching signed identity',async()=>{
