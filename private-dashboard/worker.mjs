@@ -73,10 +73,9 @@ export default {async fetch(request,env,fetcher=fetch) {
   const headers={"Cache-Control":"no-store","Content-Type":"text/html; charset=utf-8","X-Content-Type-Options":"nosniff","Content-Security-Policy":"default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'","Referrer-Policy":"no-referrer"};
   const reply=(body,status,type=headers["Content-Type"])=>new Response(body,{status,headers:{...headers,"Content-Type":type}});
   if(url.hostname!==host || url.protocol!=="https:") return reply("Not found",404,"text/plain; charset=utf-8");
-  // This endpoint returns public GitHub Actions metadata only. The dashboard remains
-  // usable if the Access assertion header is absent or unavailable in the client.
   if(request.method!=="GET") return reply("Method not allowed",405,"text/plain; charset=utf-8");
-  if(url.pathname!=="/" || url.search) return reply("Not found",404,"text/plain; charset=utf-8");
+  if(url.pathname!=="/") return reply("Not found",404,"text/plain; charset=utf-8");
+  if(!await authenticate(request.headers.get("Cf-Access-Jwt-Assertion"),env,fetcher)) return reply("Forbidden",403,"text/plain; charset=utf-8");
   let runs=[], degraded=false;
   try {
     const response=await fetcher(`https://api.github.com/repos/${repository}/actions/runs?per_page=30`,{
