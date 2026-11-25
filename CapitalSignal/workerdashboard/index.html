@@ -4,7 +4,67 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="canonical" href="https://www.ainvestmentbank.ai/CapitalSignal/workerdashboard/">
-<title>Delivery Status | Capital Signal Intelligence</title>
+<meta name="description" content="Public delivery status and recent Capital Signal automation runs.">
+<title>Delivery Dashboard | Capital Signal Intelligence</title>
+<style>
+:root{color-scheme:light;--navy:#102a43;--blue:#176b87;--ink:#183247;--muted:#607588;--line:#d8e2eb;--paper:#f4f7fa;--card:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+header{background:var(--navy);color:white;padding:25px max(20px,calc((100vw - 1180px)/2))}
+.brand{color:#c0d9ed;font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+h1{margin:7px 0 1px;font-size:clamp(25px,4vw,36px);letter-spacing:-.025em}.sub{margin:0;color:#d0dfeb}
+main{max-width:1180px;margin:auto;padding:23px 18px 48px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:18px}
+.card,.panel{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.card{padding:16px 18px}.label{font-size:12px;color:var(--muted)}.value{font-size:27px;font-weight:750;color:var(--navy);margin-top:4px}
+.panel{overflow:hidden}.panelhead{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line)}
+h2{font-size:17px;margin:0}button{border:1px solid #afc3d3;background:white;color:var(--navy);padding:7px 11px;border-radius:7px;font:inherit;font-size:13px;cursor:pointer}
+.note{padding:10px 18px;background:#eef5fa;color:#425c70;border-bottom:1px solid var(--line);font-size:13px}
+.error{background:#fff5e7;color:#764b05}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;min-width:820px;text-align:left}
+th,td{padding:11px 13px;border-bottom:1px solid #e7edf2}th{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}td{font-size:13px}tr:last-child td{border:0}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.badge{display:inline-block;border-radius:20px;padding:2px 9px;background:#e8edf2;color:#384b5d;font-size:11px;font-weight:700;text-transform:capitalize}
+.badge.success{background:#e5f5ee;color:#176747}.badge.failure{background:#fff0f0;color:#a3272f}.badge.running,.badge.queued{background:#e8f2ff;color:#1e5b94}
+.links{display:flex;gap:16px;flex-wrap:wrap;margin:16px 2px;font-size:13px}.foot{font-size:12px;color:var(--muted);margin-top:14px}
+@media(max-width:600px){main{padding:17px 12px 36px}.cards{gap:8px}.card{padding:13px 12px}.value{font-size:23px}.panelhead{align-items:flex-start;flex-direction:column}}
+</style>
 </head>
-<body><h1>Capital Signal delivery status</h1><p>The public repository publishes research outputs and their visible coverage labels. Private worker telemetry, restart controls, credentials, and ingestion internals are intentionally not published.</p><p><a href="../">Return to Capital Signal Intelligence</a></p></body>
+<body>
+<header><div class="brand">AIBank · Capital Signal Intelligence</div><h1>Delivery Dashboard</h1><p class="sub">Recent public automation and publication activity</p></header>
+<main>
+<section class="cards" aria-label="Workflow summary">
+<div class="card"><div class="label">Latest workflow runs</div><div class="value" id="count">—</div></div>
+<div class="card"><div class="label">Active now</div><div class="value" id="active">—</div></div>
+<div class="card"><div class="label">Failures in recent runs</div><div class="value" id="failures">—</div></div>
+</section>
+<section class="panel">
+<div class="panelhead"><h2>GitHub Actions activity</h2><button id="refresh" type="button">Refresh status</button></div>
+<div class="note" id="message" role="status">Loading live workflow status…</div>
+<div class="tablewrap"><table><thead><tr><th>Workflow</th><th>Status</th><th>Trigger</th><th>Branch</th><th>Started</th><th>Updated</th><th>Run</th></tr></thead><tbody id="runs"><tr><td colspan="7">Loading…</td></tr></tbody></table></div>
+</section>
+<div class="links"><a href="../">Capital Signal home</a><a href="https://github.com/cstrohwork/aibank/actions">All GitHub Actions</a><a href="https://dashboard.ainvestmentbank.ai/">Private dashboard</a></div>
+<p class="foot">This page reads public GitHub Actions run metadata from the public repository. It does not display private worker telemetry, credentials, ingestion details, or restart controls.</p>
+</main>
+<script>
+const endpoint="https://api.github.com/repos/cstrohwork/aibank/actions/runs?per_page=30";
+const esc=value=>String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt=value=>{const d=new Date(value);return Number.isNaN(d.valueOf())?"—":d.toISOString().replace("T"," ").replace(/\.\d{3}Z$/," UTC")};
+const state=run=>run.status==="in_progress"||run.status==="queued"?run.status:(run.conclusion||run.status||"unknown");
+async function load(){
+ const body=document.getElementById("runs"), note=document.getElementById("message");
+ note.className="note";note.textContent="Loading live workflow status…";body.innerHTML='<tr><td colspan="7">Loading…</td></tr>';
+ try{
+  const response=await fetch(endpoint,{headers:{Accept:"application/vnd.github+json"}});
+  if(!response.ok)throw new Error("feed");
+  const data=await response.json(),runs=Array.isArray(data.workflow_runs)?data.workflow_runs:[];
+  document.getElementById("count").textContent=runs.length;
+  document.getElementById("active").textContent=runs.filter(x=>x.status==="in_progress"||x.status==="queued").length;
+  document.getElementById("failures").textContent=runs.filter(x=>x.conclusion==="failure").length;
+  note.textContent="Live from GitHub’s public Actions API · refreshed "+new Date().toISOString().replace("T"," ").replace(/\.\d{3}Z$/," UTC");
+  body.innerHTML=runs.length?runs.map(run=>{const value=state(run);return '<tr><td>'+esc(run.name)+'</td><td><span class="badge '+esc(value)+'">'+esc(value.replaceAll("_"," "))+'</span></td><td>'+esc(run.event)+'</td><td>'+esc(run.head_branch)+'</td><td>'+esc(fmt(run.run_started_at||run.created_at))+'</td><td>'+esc(fmt(run.updated_at))+'</td><td><a href="'+esc(run.html_url)+'" target="_blank" rel="noopener noreferrer">View ↗</a></td></tr>'}).join(""):'<tr><td colspan="7">No workflow runs found.</td></tr>';
+ }catch{
+  document.getElementById("count").textContent="—";document.getElementById("active").textContent="—";document.getElementById("failures").textContent="—";
+  note.className="note error";note.textContent="GitHub’s public status feed could not be reached. Open the Actions page directly.";body.innerHTML='<tr><td colspan="7">Status feed unavailable.</td></tr>';
+ }
+}
+document.getElementById("refresh").addEventListener("click",load);load();
+</script>
+</body>
 </html>
