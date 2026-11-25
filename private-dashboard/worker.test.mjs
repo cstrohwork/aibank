@@ -33,11 +33,20 @@ test('fail closed on certificate outage or duplicate key',async()=>{
  assert.equal(await authenticate(t,env,async()=>{throw Error('offline')},now),false);
  assert.equal(await authenticate(t,env,async()=>Response.json({keys:[jwk,jwk]}),now),false);
 });
-test('reject alternate host and serve public dashboard metadata without an assertion',async()=>{
- assert.equal((await worker.fetch(new Request('https://alternate.invalid/'),env)).status,404);
- const r=await worker.fetch(new Request('https://dashboard.ainvestmentbank.ai/'),env,async()=>Response.json({workflow_runs:[]}));
+test('require signed authorized assertion before fetching dashboard data',async()=>{
+ const root='https://dashboard.ainvestmentbank.ai/';
+ const noFetch=async()=>{throw Error('unexpected fetch');};
+ assert.equal((await worker.fetch(new Request('https://alternate.invalid/'),env,noFetch)).status,404);
+ assert.equal((await worker.fetch(new Request(root),env,noFetch)).status,403);
+ assert.equal((await worker.fetch(new Request(root,{headers:{'Cf-Access-Jwt-Assertion':'invalid'}}),env,noFetch)).status,403);
+ const exp=Math.floor(Date.now()/1000)+60;
+ const signed=await token({exp});
+ const fetcher=async(url,opts)=>url===issuer+'/cdn-cgi/access/certs'?keys(url,opts):Response.json({workflow_runs:[]});
+ const r=await worker.fetch(new Request(root+'?login=1',{headers:{'Cf-Access-Jwt-Assertion':signed}}),env,fetcher);
  assert.equal(r.status,200);assert.equal(r.headers.get('Cache-Control'),'no-store');
  assert.match(await r.text(),/Latest GitHub Actions runs/);
+ const denied=await token({exp,email:'other@example.invalid'});
+ assert.equal((await worker.fetch(new Request(root,{headers:{'Cf-Access-Jwt-Assertion':denied}}),env,noFetch)).status,403);
 });
 
 test('pinned administrator digest accepts only matching signed identity',async()=>{
