@@ -35,14 +35,22 @@ jobs:
           main = "worker.mjs"
           compatibility_date = "2026-11-24"
           workers_dev = false
-          routes = [{ pattern = "dashboard.ainvestmentbank.ai/*", zone_name = "ainvestmentbank.ai" }]
           preview_urls = false
           keep_vars = true
           [vars]
           CF_ACCESS_AUD = "e2c9057305e46327674e148d42eeaad506fa8f01f84af811ae30c5f7c3bddd23"
           ADMIN_EMAIL_SHA256 = "ccde556fefb4ed84de6e9cd45e2ead0f53946fdf2172971453438f4e6fa1ef44"
           EOF
-          npx --yes wrangler@4 deploy --config wrangler.generated.toml
+          # Version operations do not reconcile zone routes or custom domains.
+          # Require the existing Worker subdomain and previews to be disabled.
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/scripts/aibank-dashboard/subdomain" \
+            | jq -e '.success == true and .result.enabled == false and .result.previews_enabled == false' >/dev/null
+          npx --yes wrangler@4 versions upload --config wrangler.generated.toml | tee "$RUNNER_TEMP/dashboard-version.log"
+          version=$(sed -nE 's/.*Worker Version ID: ([0-9a-f-]{36}).*/\1/p' "$RUNNER_TEMP/dashboard-version.log")
+          [[ "$version" =~ ^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$ ]]
+          npx --yes wrangler@4 versions deploy "$version@100%" --yes --config wrangler.generated.toml
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: f074af3bef137b9fbf206d8558c4b1d0
