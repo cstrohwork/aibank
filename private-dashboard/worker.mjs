@@ -8,28 +8,30 @@ function decode(s) {
   return Uint8Array.from(atob(s.replace(/-/g,"+").replace(/_/g,"/")), c=>c.charCodeAt(0));
 }
 const parse = s=>JSON.parse(new TextDecoder("utf-8",{fatal:true}).decode(decode(s)));
-export async function authenticate(token, env, fetcher=fetch, now=Math.floor(Date.now()/1000)) {
-  if (!env.CF_ACCESS_AUD || (!env.ADMIN_EMAIL && !env.ADMIN_EMAIL_SHA256) || !token || token.length>16384) return false;
+export async function authenticate(token, env, fetcher=fetch, now=Math.floor(Date.now()/1000), diagnostic=()=>{}) {
+  const deny = reason => { diagnostic(reason); return false; };
+  if (!env.CF_ACCESS_AUD || (!env.ADMIN_EMAIL && !env.ADMIN_EMAIL_SHA256)) return deny('configuration');
+  if (!token || token.length>16384) return deny('assertion_missing_or_invalid');
   try {
     const parts=token.split(".");
-    if(parts.length!==3) return false;
+    if(parts.length!==3) return deny('format');
     const [h,p,s]=parts, header=parse(h), claims=parse(p);
-    if(header.alg!=="RS256" || typeof header.kid!=="string" || header.crit!==undefined) return false;
-    if(claims.iss!==issuer || !Array.isArray(claims.aud) || !claims.aud.includes(env.CF_ACCESS_AUD)) return false;
-    if(!Number.isFinite(claims.exp) || claims.exp<=now || (claims.nbf!==undefined && (!Number.isFinite(claims.nbf)||claims.nbf>now))) return false;
-    if(typeof claims.email!=="string" || !claims.email) return false;
+    if(header.alg!=="RS256" || typeof header.kid!=="string" || header.crit!==undefined) return deny('header');
+    if(claims.iss!==issuer || !Array.isArray(claims.aud) || !claims.aud.includes(env.CF_ACCESS_AUD)) return deny('issuer_or_audience');
+    if(!Number.isFinite(claims.exp) || claims.exp<=now || (claims.nbf!==undefined && (!Number.isFinite(claims.nbf)||claims.nbf>now))) return deny('time');
+    if(typeof claims.email!=="string" || !claims.email) return deny('identity');
     if(env.ADMIN_EMAIL_SHA256) {
       const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(claims.email.toLowerCase()));
-      if(Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("")!==env.ADMIN_EMAIL_SHA256) return false;
-    } else if(claims.email.toLowerCase()!==env.ADMIN_EMAIL.toLowerCase()) return false;
+      if(Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,"0")).join("")!==env.ADMIN_EMAIL_SHA256) return deny('identity');
+    } else if(claims.email.toLowerCase()!==env.ADMIN_EMAIL.toLowerCase()) return deny('identity');
     const res=await fetcher(issuer+"/cdn-cgi/access/certs",{redirect:"error"});
-    if(!res.ok) return false;
+    if(!res.ok) return deny('certificate_fetch');
     const {keys}=await res.json();
     const matches=keys.filter(k=>k.kid===header.kid && k.kty==="RSA" && (!k.alg||k.alg==="RS256") && (!k.use||k.use==="sig"));
-    if(matches.length!==1) return false;
+    if(matches.length!==1) return deny('certificate_key');
     const key=await crypto.subtle.importKey("jwk",matches[0],{name:"RSASSA-PKCS1-v1_5",hash:"SHA-256"},false,["verify"]);
-    return await crypto.subtle.verify("RSASSA-PKCS1-v1_5",key,decode(s),new TextEncoder().encode(h+"."+p));
-  } catch {return false;}
+    return await crypto.subtle.verify("RSASSA-PKCS1-v1_5",key,decode(s),new TextEncoder().encode(h+"."+p)) || deny('signature');
+  } catch {return deny('validation_exception');}
 }
 const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({
   "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
@@ -75,7 +77,7 @@ export default {async fetch(request,env,fetcher=fetch) {
   if(url.hostname!==host || url.protocol!=="https:") return reply("Not found",404,"text/plain; charset=utf-8");
   if(request.method!=="GET") return reply("Method not allowed",405,"text/plain; charset=utf-8");
   if(url.pathname!=="/") return reply("Not found",404,"text/plain; charset=utf-8");
-  if(!await authenticate(request.headers.get("Cf-Access-Jwt-Assertion"),env,fetcher)) return reply("Forbidden",403,"text/plain; charset=utf-8");
+  if(!await authenticate(request.headers.get("Cf-Access-Jwt-Assertion"),env,fetcher,Math.floor(Date.now()/1000),reason=>console.warn('dashboard_access_denied',reason))) return reply("Forbidden",403,"text/plain; charset=utf-8");
   let runs=[], degraded=false;
   try {
     const response=await fetcher(`https://api.github.com/repos/${repository}/actions/runs?per_page=30`,{
