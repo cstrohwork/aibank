@@ -35,6 +35,7 @@ jobs:
           main = "worker.mjs"
           compatibility_date = "2026-11-24"
           workers_dev = false
+          routes = [{ pattern = "dashboard.ainvestmentbank.ai/*", zone_name = "ainvestmentbank.ai" }]
           preview_urls = false
           keep_vars = true
           [vars]
