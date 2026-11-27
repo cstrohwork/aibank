@@ -70,7 +70,9 @@ h2{font-size:17px;margin:0}a{color:var(--blue);text-decoration:none}a:hover{text
 <div class="links"><a href="https://ainvestmentbank.ai/CapitalSignal/">Capital Signal site ↗</a><a href="https://ainvestmentbank.ai/CapitalSignal/workerdashboard/">Public delivery status ↗</a><a href="https://github.com/${repository}">Source repository ↗</a></div>
 <div class="foot">Private access is enforced by Cloudflare Access. The feed contains public GitHub Actions metadata and does not include worker secrets, restart controls, or private telemetry.</div></main></body></html>`;
 }
-export default {async fetch(request,env,fetcher=fetch) {
+export default {async fetch(request,env,context) {
+  // Cloudflare supplies an ExecutionContext as the third argument, not fetch.
+  const fetcher=typeof context==='function'?context:fetch;
   const url=new URL(request.url);
   const headers={"Cache-Control":"no-store","Content-Type":"text/html; charset=utf-8","X-Content-Type-Options":"nosniff","Content-Security-Policy":"default-src 'none'; style-src 'unsafe-inline'; frame-ancestors 'none'; base-uri 'none'","Referrer-Policy":"no-referrer"};
   const reply=(body,status,type=headers["Content-Type"])=>new Response(body,{status,headers:{...headers,"Content-Type":type}});
